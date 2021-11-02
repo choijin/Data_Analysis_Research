@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Redesigning Manycore Computer Architecture for the Mega-core Data Center</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Trends in computing have favored moving computation into centralized locations, called data centers.  This centralization is occurring because the aggregation of computing allows better amortization of personnel managing the computers, economies of scale in computing equipment purchasing, and improved economies of scale in power delivery, buildings, and cooling.  Coupled with these benefits, companies that run large data centers have begun leasing spare computational capacity to smaller companies, thereby enabling small companies to experience the benefits of high quality and high availability computing.  Small companies can leverage these resources to have explosive growth on the Internet without the need to deploy data centers of their own.  Current data centers commonly use commodity computer chips designed for desktop and laptop computers.  This research, in contrast, explores how to optimize computer chips specifically for the data center.  In addition, this research examines how the computer chip itself can be modified to enable more efficient sharing of resources between different customers of large data center providers and how computer chip architecture can be modified to support new economic models such as leasing of computer resources.  This work is important because it will decrease the cost of creating large data centers, enable better transparency in billing for computational resources in large-scale shared data centers, and allow data centers to be more energy efficient.&lt;br/&gt;&lt;br/&gt;This research attacks several of the key challenges in building manycore processors optimized for Infrastructure as a Service (IaaS) Cloud computing systems.  This work breaks down arbitrary boundaries between cores in a manycore system by allowing resources from one processor core to be utilized by another processor core.  This can enable the hardware resources provided to a particular virtual machine to be matched to the needs of that particular virtual machine.  In addition, this work is investigating how to optimize cache hierarchies for thousands of independent data and instruction streams to enable more efficient memory hierarchies, and this work is characterizing how different architectural resources are utilized when shared between multiple Cloud-specific applications.</AbstractNarration>
+<MinAmdLetterDate>06/25/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>06/25/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217553</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Wentzlaff</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David M Wentzlaff</PI_FULL_NAME>
+<EmailAddress>wentzlaf@princeton.edu</EmailAddress>
+<PI_PHON>6092587781</PI_PHON>
+<NSF_ID>000602658</NSF_ID>
+<StartDate>06/25/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Princeton University</Name>
+<CityName>Princeton</CityName>
+<ZipCode>085442020</ZipCode>
+<PhoneNumber>6092583090</PhoneNumber>
+<StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 36]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002484665</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF PRINCETON UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002484665</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Princeton University]]></Name>
+<CityName>Princeton</CityName>
+<StateCode>NJ</StateCode>
+<ZipCode>085442020</ZipCode>
+<StreetAddress><![CDATA[4 New South Building]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This work investigated how microprocessors can be modified to make them better suited for data center usage and for use in the computational Cloud. &nbsp;In particular, it focused on multicore and manycore processors. &nbsp;Throughout this work, we created a new composable architecture which enables sub-portions of the processor to be rented in an Infrastructure as a Service (IaaS) setting. &nbsp;Using such an architecture and evaluating different needs by Cloud customers, this work showed that multiplicative more money can be made by cloud vendors when using such a processor design. &nbsp;In addition, this work evaluated how to take advantage of certain types of commonality in data center computing as well as how to change the memory systems of processors for data center computers. &nbsp;In particular, this work designed and evaluated a memory system which allows fine-grain provisioning of memory bandwidth allowing different customers to pay differently for different types of memory bandwidth. &nbsp;By creating such a memory bandwidth system, the critical resource of memory bandwidth can be better provisioned across different users in an IaaS cloud.</p> <p>Beyond the technical contributions, this research has contributed in created two open source projects. First is the Princeton Manycore Emulator (PriME), a simulator that enables the simulation of 1000+ core systems. &nbsp;Second, this work has enabled the creation of OpenPiton, an open source manycore processor.</p> <p>This work has also contributed to the creation of the world's first massively open course on Computer Architecture. &nbsp;PI Wentzlaff has been teaching this course, which hundreds of thousands of students have signed up for.</p><br> <p>            Last Modified: 02/27/2017<br>      Modified by: David&nbsp;M&nbsp;Wentzlaff</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This work investigated how microprocessors can be modified to make them better suited for data center usage and for use in the computational Cloud.  In particular, it focused on multicore and manycore processors.  Throughout this work, we created a new composable architecture which enables sub-portions of the processor to be rented in an Infrastructure as a Service (IaaS) setting.  Using such an architecture and evaluating different needs by Cloud customers, this work showed that multiplicative more money can be made by cloud vendors when using such a processor design.  In addition, this work evaluated how to take advantage of certain types of commonality in data center computing as well as how to change the memory systems of processors for data center computers.  In particular, this work designed and evaluated a memory system which allows fine-grain provisioning of memory bandwidth allowing different customers to pay differently for different types of memory bandwidth.  By creating such a memory bandwidth system, the critical resource of memory bandwidth can be better provisioned across different users in an IaaS cloud.  Beyond the technical contributions, this research has contributed in created two open source projects. First is the Princeton Manycore Emulator (PriME), a simulator that enables the simulation of 1000+ core systems.  Second, this work has enabled the creation of OpenPiton, an open source manycore processor.  This work has also contributed to the creation of the world's first massively open course on Computer Architecture.  PI Wentzlaff has been teaching this course, which hundreds of thousands of students have signed up for.       Last Modified: 02/27/2017       Submitted by: David M Wentzlaff]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

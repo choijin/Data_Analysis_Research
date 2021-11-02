@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Directoryless Shared Memory Using Execution Migration</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The increase in processor clock frequencies from 1980-2003 has slowed down significantly in recent years. To improve computer performance computer architects are exploring parallel architectures including many-core architectures.  In a many-core or multi-core architecture, processor cores with relatively low complexity are connected to memory and to each other via high-bandwidth on-chip interconnect. The most popular programming model for multi-cores is that of shared memory.  In this memory model, programmers write different threads that can run on different processors all of which can share a single memory space.  This means that the on-chip cache memory on the multi-core chip should behave like a large shared cache. Unfortunately, current schemes for cache coherence either suffer from lack of scalability or require large directories at each core significantly increasing chip area and power.&lt;br/&gt; &lt;br/&gt;A directoryless cache coherence scheme is being investigated in this project that relies on the mechanism of execution migration. In execution migration, a thread?s context or state moves to the processor in whose cache the data resides.  An important advantage of an execution migration architecture is that only a one-way trip is required to access data, since the thread moves to access data.  In conventional data migration architectures, a round-trip is required to access data ? a request is sent to the location where the data resides and then the data is sent to the requesting thread. Further, only one copy of data need be present on chip if execution migration is used, since threads can move.  This means that cache coherence is trivially ensured.  Moreover, the chip can store more distinct data, since data is not replicated and this reduces off-chip access rates.  Finally, an execution migration architecture can exploit the plentiful on-chip bandwidth available to speed up thread migration, thereby reducing data access latency.&lt;br/&gt;&lt;br/&gt;There are challenges associated with this architecture corresponding to contention for shared data across multiple threads, and the energy required to move thread contexts.  The first challenge is being met through judicious replication of data at the program source level or compiler level.  In particular, limited read copies of data are created across multiple threads. Since these copies only exist in between two writes to the data, coherence is ensured as before without need for complex coherence logic. However, contention for shared data is significantly reduced.  The second challenge of energy consumption is being met through migration of partial thread contexts ? if a stack machine is used as the processor core, energy consumption can be reduced by migrating a subset of the thread context corresponding to the top part of the stack instead of the entire stack.&lt;br/&gt;&lt;br/&gt;In this project, an Execution Migration Machine with over 100 cores is being designed, and being evaluated using cycle-accurate simulation, and critical elements of the machine are being built on a Field Programmable Gate Array (FPGA). This project has the potential to meet the scalability and programmability challenges that face shared memory multi-core architectures.  The Execution Migration Machine design will shed insight into how best thread migration can be used to enhance multi-core performance, possibly in combination with data migration. If successful, the project will impact the design of future multi-core processors through intelligent use of program and data migration.</AbstractNarration>
+<MinAmdLetterDate>06/23/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>06/23/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1116372</AwardID>
+<Investigator>
+<FirstName>Srini</FirstName>
+<LastName>Devadas</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Srini Devadas</PI_FULL_NAME>
+<EmailAddress>devadas@mit.edu</EmailAddress>
+<PI_PHON>6172530454</PI_PHON>
+<NSF_ID>000451511</NSF_ID>
+<StartDate>06/23/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 MASSACHUSETTS AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Current trends in microprocessor design clearly indicate an era of multicores for the 2010s. As transistor density continues to grow geometrically, processor manufacturers are already able to place a hundred cores on a chip, with massive multicore chips on the horizon; many industry pundits are predicting 1000 or more cores by the middle of this decade. It is not clear that current architectures and their memory subsystems will scale to hundreds of cores, and whether these systems will be easy to program.</p> <p>The main barrier to scaling current memory architectures is the off-chip memory bandwidth wall: off-chip bandwidth grows with package pin density, which scales much more slowly than on-die transistor density. &nbsp;It is therefore important to have cache memory on chip that can store enough data so programs do not have to access off-chip memory frequently. &nbsp;The power requirements of large caches (which grow quadratically with size) exclude their use in chips on a 1000-core scale. &nbsp;For massive-scale multicores, then, we are left with relatively small per-core caches. In order to achieve high performance, data that a program running on a core requires should with high probability be present in the core's cache. &nbsp;Data that is shared across multiple programs therefore needs to be replicated.</p> <p><span style="font-size: 12px;">Replication of data significantly decreases the effective total on-chip cache size because, as the core counts grow, a lot of cache space is taken by replicas and less shared data in total can be cached, which in turn leads to sharply increased off-chip access rates. &nbsp;Further, given that the per-core caches are small, data needs to constantly be moved in and out of these caches.</span></p> <p><span style="font-size: 12px;">To address this limitation and take advantage of available data locality in a memory organization where there is only one copy of data, we propose to allow programs to migrate from one core to another at a fine-grained instruction level. When several consecutive accesses are made to data assigned to a given core, migrating the execution context allows the program to make a sequence of local accesses on the destination core rather than pay the performance penalty of moving the data over the original core's cache (and potentially overwriting useful data).&nbsp;</span></p> <p>In this project,&nbsp;we created a detailed implementation of hardware-level instruction-granularity program migration in a 110-core chip multiprocessor. Implemented in 45nm ASIC technology, the chip occupies 100mm<sup>2 </sup>and contains over 357 million transistors.&nbsp;We built a board to house the chip (see associated image that shows the chip in a board) tested the underlying hardware implementation through simulation and tested the chip.</p> <p>With a custom stack-based Instruction Set Architecture to enable partial context migration, when there is no network congestion, our implementation provides end-to-end migration latency of 4 cycles between neighboring cores with a minimum thread context, and 33 cycles between the farthest cores with a maximum context. Our cores learn a program&rsquo;s data access patterns and migrate programs automatically. We have demonstrated that migration can reduce on-chip data movement by up to 14&times; at a relatively small area increase of 23%. &nbsp;</p> <p>To the best of our knowledge, the Execution Migration Machine is the first hardware implementation of program migration in a chip multiprocessor. &nbsp;We have shown that fast hardware-level program migration is viable and useful to reduce on-chip and off-chip data movement.</p><br> <p>            Last Modified: 09/02/2015<br>      Modified by: Srini&nbsp;Devadas</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Current trends in microprocessor design clearly indicate an era of multicores for the 2010s. As transistor density continues to grow geometrically, processor manufacturers are already able to place a hundred cores on a chip, with massive multicore chips on the horizon; many industry pundits are predicting 1000 or more cores by the middle of this decade. It is not clear that current architectures and their memory subsystems will scale to hundreds of cores, and whether these systems will be easy to program.  The main barrier to scaling current memory architectures is the off-chip memory bandwidth wall: off-chip bandwidth grows with package pin density, which scales much more slowly than on-die transistor density.  It is therefore important to have cache memory on chip that can store enough data so programs do not have to access off-chip memory frequently.  The power requirements of large caches (which grow quadratically with size) exclude their use in chips on a 1000-core scale.  For massive-scale multicores, then, we are left with relatively small per-core caches. In order to achieve high performance, data that a program running on a core requires should with high probability be present in the core's cache.  Data that is shared across multiple programs therefore needs to be replicated.  Replication of data significantly decreases the effective total on-chip cache size because, as the core counts grow, a lot of cache space is taken by replicas and less shared data in total can be cached, which in turn leads to sharply increased off-chip access rates.  Further, given that the per-core caches are small, data needs to constantly be moved in and out of these caches.  To address this limitation and take advantage of available data locality in a memory organization where there is only one copy of data, we propose to allow programs to migrate from one core to another at a fine-grained instruction level. When several consecutive accesses are made to data assigned to a given core, migrating the execution context allows the program to make a sequence of local accesses on the destination core rather than pay the performance penalty of moving the data over the original core's cache (and potentially overwriting useful data).   In this project, we created a detailed implementation of hardware-level instruction-granularity program migration in a 110-core chip multiprocessor. Implemented in 45nm ASIC technology, the chip occupies 100mm2 and contains over 357 million transistors. We built a board to house the chip (see associated image that shows the chip in a board) tested the underlying hardware implementation through simulation and tested the chip.  With a custom stack-based Instruction Set Architecture to enable partial context migration, when there is no network congestion, our implementation provides end-to-end migration latency of 4 cycles between neighboring cores with a minimum thread context, and 33 cycles between the farthest cores with a maximum context. Our cores learn a programÆs data access patterns and migrate programs automatically. We have demonstrated that migration can reduce on-chip data movement by up to 14&times; at a relatively small area increase of 23%.    To the best of our knowledge, the Execution Migration Machine is the first hardware implementation of program migration in a chip multiprocessor.  We have shown that fast hardware-level program migration is viable and useful to reduce on-chip and off-chip data movement.       Last Modified: 09/02/2015       Submitted by: Srini Devadas]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>FET: Small: Scalable transcriptional programs through feedback regulation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>460721.00</AwardTotalIntnAmount>
+<AwardAmount>460721</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Mitra Basu</SignBlockName>
+<PO_EMAI>mbasu@nsf.gov</PO_EMAI>
+<PO_PHON>7032928649</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The ability to reliably program living cells is going to have tremendous impact on a number of applications. For example, in biosensing and bioremediation, engineered microorganisms will sense and degrade environmental pollutants or pathogens; in personalized medicine, patient-derived cells will be reprogrammed to a cell type of interest to cure various diseases; in human performance, programmable probiotics will sense stress and fatigue level and release mitigating drugs. Programming biology to achieve these sophisticated functionalities requires complex computation to selectively classify environmental cues, process them, and enable appropriate cellular responses. Increased complexity often requires increased scale of the logic programs that implement function.  To augment the scale of the genetic programs that one can encode in living cells, many parts are required such that they do not interfere with one another. Although, many orthogonal parts can be designed, they often require a common resource for implementing their specified activation or repression function. It has become apparent only recently that, because of loads to this common resource, increased scale will often compromise functionality since individual parts will have insufficient amount of resources. The goal of this project is to address this problem, thus enabling scalable transcriptional programs. Specifically, this project will create feedback controllers of dCas9 level, a protein resource shared among many genetic parts, which compensate for load effects and distribute the required amount of dCas9 protein to each subsystem. As a consequence, increased system scale will be possible without compromising functionality. This, in turn, will enable reaching the level of sophistication and reliability of system’s function needed for concrete applications. The project will ultimately produce a broadly applicable tool that many labs will be able to readily use to achieve truly scalable transcriptional programs using dCas9.  This project will support interdisciplinary education of graduate and undergraduate students at the cross-roads of control design and synthetic biology. Education and outreach mechanisms will include research supervision, teaching a biomolecular feedback systems course including materials from this project, organizing a workshop bringing control theory and synthetic biology communities together, and presenting a booth on genetic circuits at the Cambridge Science Festival. &lt;br/&gt; &lt;br/&gt;The ultimate objective of this project is to enable robustness, modularity, and hence scalability of CRISPR/dCas9 transcriptional programs by ensuring that the composing logic gates retain their expected functionality when additional gates are included in the program. Engineered CRISPR/dCas9 systems are a promising tool to create large-scale transcriptional programs, given that one can design single guide RNAs (sgRNAs) to target dCas9 to any desired DNA sequence to perform transcriptional repression (CRISPRi) or activation (CRISPRa). This allows, in principle, an unlimited library of orthogonal parts. However, it has become apparent that increased numbers of sgRNAs in a circuit reduces each sgRNA’s ability to repress its targets, since sgRNAs load dCas9 such that when dCas9 is bound to one sgRNA it is not available for other sgRNAs. This loading phenomenon couples theoretically independent gates and results in severe performance degradation.  To solve these problems, it is necessary to devise engineering approaches to mitigate effects of dCas9 loads. This project will design regulated dCas9 generators, wherein a feedback controller regulates unbound dCas9 level to a constant value, independent of the presence of gRNA loads. Repression circuits will be considered first and activation circuits along with mixed circuits will be addressed in a second step. The performance of the regulated dCas9 generators will be demonstrated on increasingly complex layered logic gates, including cascades and NAND gates. These regulated generators will ensure that any one gate’s functionality is preserved when additional gates are included in a system. Ultimately, the use of regulated dCas9 generators will enable increased scale, complexity, and reliability of CRISPR/dCas9 programs.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/17/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>07/17/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2007674</AwardID>
+<Investigator>
+<FirstName>Domitilla</FirstName>
+<LastName>Del Vecchio</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Domitilla Del Vecchio</PI_FULL_NAME>
+<EmailAddress>ddv@mit.edu</EmailAddress>
+<PI_PHON>6174522275</PI_PHON>
+<NSF_ID>000488420</NSF_ID>
+<StartDate>07/17/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394307</ZipCode>
+<StreetAddress><![CDATA[77 Massachusetts Ave. E25-545]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>089Y</Code>
+<Text>FET-Fndtns of Emerging Tech</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7946</Code>
+<Text>BIO COMPUTING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~460721</FUND_OBLG>
+</Award>
+</rootTag>

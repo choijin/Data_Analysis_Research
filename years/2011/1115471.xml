@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR:Small: Efficient FTL Buffer Management for High-Performance Solid State Drives</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>130000.00</AwardTotalIntnAmount>
+<AwardAmount>130000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anita La Salle</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>In the past several decades, the access time of magnetic disks has improved about 8% per year while processor speeds have improved at an astounding 60% per year. The tremendous performance disparity between disks and processors means that many large-scale applications are limited by the performance of the underlying storage systems. Flash memory is an emerging storage technology that shows tremendous promise to compensate for the limitations of magnetic disk-based storage devices. A key advantage of flash-based storage is that its read-write performance is much better than disk. Flash memory-based storage like solid state drives provides fast random access to all areas of the device. On the other hand, writes to flash memory are much slower than reads. Furthermore, writes to flash must be preceded by an erase unless a clean block is used, and the number of erase cycles is limited. To overcome these drawbacks, a Flash Translation Layer (FTL) is designed to provide dynamic address mapping between logical addresses to physical addresses, wear-leveling, garbage collection, and buffer caching. A small memory buffer in FTL is used to perform these functions.  &lt;br/&gt;&lt;br/&gt;This project will focus on techniques to use the least amount of memory buffer to achieve high performance and low energy consumption. The research tasks include efficient heuristics for hot and cold data classification and how to reduce memory requirement for wear-leveling and garbage collection. This effort will improve the fundamental understanding of flash memory and will extend the capability of flash memory to support many critical applications.</AbstractNarration>
+<MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>05/14/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1115471</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Du</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David H Du</PI_FULL_NAME>
+<EmailAddress>du@cs.umn.edu</EmailAddress>
+<PI_PHON>6126252560</PI_PHON>
+<NSF_ID>000429678</NSF_ID>
+<StartDate>08/08/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Minnesota-Twin Cities</Name>
+<CityName>Minneapolis</CityName>
+<ZipCode>554552070</ZipCode>
+<PhoneNumber>6126245599</PhoneNumber>
+<StreetAddress>200 OAK ST SE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<StateCode>MN</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MN05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>555917996</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MINNESOTA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>117178941</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Minnesota-Twin Cities]]></Name>
+<CityName>Minneapolis</CityName>
+<StateCode>MN</StateCode>
+<ZipCode>554552070</ZipCode>
+<StreetAddress><![CDATA[200 OAK ST SE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MN05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~130000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Flash memory based Solid State Drives (SSDs) are a new type of storage devices which can read and write data in pages (each page is&nbsp; either 4KB or 8KB). SSD has the advantage of random access data in contrast with regular magnetic disk drives which prefer to access data in a sequential manner. The performance of read/write of SSD is about 10 times faster than those of disk drives.</p> <p>Another new storage technology is non-volatile memory (NV-RAM) which in contrast with DRAM has the advantage of maintaining data while loss power.&nbsp; In this project, the PI (Principal Investigator) and his team have investigated how these two new technologies can be used. They have speically investigated</p> <p>1. How to cnstruct an efficient key-value store with SSD,</p> <p>2. How to improve read performance of deduped backup data, and</p> <p>3. How NV-RAM be integrated into new memory/storage hierarchies.</p> <p>For Item 1, key value store has superseded traditional relational databases for many applications. In Key-Value store, an index structure is required to map keys to their associated value first. The team has designed an efficient index structure using SSD to improve the speed of key-value store for data accessing.</p> <p>For Item 2, the team has improved read performance of deduped bakcup data using SSD. For Item 3, they have designed and evaluated new ways of caching both read and write data in NV-RAM to improve both data accessing and to reduce the data traffic between memory and storage devices. A set of new caching algorithms are proposed. These algorithms can be used in future computers which will repalce DRAM with NV-RAM as main memory.</p><br> <p>            Last Modified: 12/14/2014<br>      Modified by: David&nbsp;H&nbsp;Du</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Flash memory based Solid State Drives (SSDs) are a new type of storage devices which can read and write data in pages (each page is  either 4KB or 8KB). SSD has the advantage of random access data in contrast with regular magnetic disk drives which prefer to access data in a sequential manner. The performance of read/write of SSD is about 10 times faster than those of disk drives.  Another new storage technology is non-volatile memory (NV-RAM) which in contrast with DRAM has the advantage of maintaining data while loss power.  In this project, the PI (Principal Investigator) and his team have investigated how these two new technologies can be used. They have speically investigated  1. How to cnstruct an efficient key-value store with SSD,  2. How to improve read performance of deduped backup data, and  3. How NV-RAM be integrated into new memory/storage hierarchies.  For Item 1, key value store has superseded traditional relational databases for many applications. In Key-Value store, an index structure is required to map keys to their associated value first. The team has designed an efficient index structure using SSD to improve the speed of key-value store for data accessing.  For Item 2, the team has improved read performance of deduped bakcup data using SSD. For Item 3, they have designed and evaluated new ways of caching both read and write data in NV-RAM to improve both data accessing and to reduce the data traffic between memory and storage devices. A set of new caching algorithms are proposed. These algorithms can be used in future computers which will repalce DRAM with NV-RAM as main memory.       Last Modified: 12/14/2014       Submitted by: David H Du]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

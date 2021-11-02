@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Managing Spatial Data in a Distributed Environment</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>508000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Maria Zemankova</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Advances in distributed computing enable the pooling of resources located across the Internet to provide a scalable, and robust solution for many computational needs. Distributed key-value store systems like Google's BigTable and Amazon's Dynamo allow the indexing and retrieval of a large amount of data in parallel, while distributed computing frameworks like MapReduce and Pregel provide a fault-tolerant way to process a large amount of data using distributed computing resources. These distributed computing techniques are applied to the spatial database domain. Specifically, issues involved in storing and retrieving spatial data in a distributed environment, as well as, processing spatial queries in parallel using a distributed computing framework are investigated. All of these methods rely on variants of hashing in order to obtain near constant time behavior in distributing the data and it is preferable that they are as close as possible to being distance-preserving.  Specifically, spatial objects in proximity should have similar hash values.  In particular, it is desirable to be able to estimate how far apart two objects are (within a given error bound) by just considering their hash values.  Such hash functions enable performing an approximate range query using simple hash table lookup operations.  Other issues involve the parallel processing of spatial queries.  Some easy examples are the distance join query which finds pairs (p,q) of objects (from two different sets) where the distance between p and q is less than a given threshold, or computing the shortest paths from each node to every other node in a road network.  More difficult are the spatial problems which can not be easily decomposed into multiple tasks running in parallel, e.g., the distance semi-join query, and network Voronoi diagram construction. This requires developing a generic method to traverse a graph or a tree in parallel to solve these query problems.  Ideally, the method should require little or no communication between parallel tasks which will be accomplished by allowing the parallel tasks to produce redundant results which can then be pruned.&lt;br/&gt;&lt;br/&gt;The developed tools will help improve the robustness and scalability for spatial data management. The parallel query processing results can be useful for query problems which requires traversing a tree or a graph which are often spatially embedded.  Having a method to traverse a graph or a tree in parallel that requires little or no communication enables processing of many types of spatial queries using distributed computing resources where currently communication can be very costly.  Specifically, it can be expected that the tools will enable spatial applications such as online mapping, computer aided design, online gaming and scientific simulations to handle terabytes of spatial data while it is impossible or inefficient to do with the current technologies.  This is of utility to all organizations that process spatial data and attempts will be made to use it in some government agencies.  In addition, the project provides educational and research opportunities for graduate and undergraduates. The project web site (http://www.cs.umd.edu/~hjs/distributed-spatial.html) will be used to disseminate results.</AbstractNarration>
+<MinAmdLetterDate>09/06/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>07/10/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320791</AwardID>
+<Investigator>
+<FirstName>Hanan</FirstName>
+<LastName>Samet</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Hanan Samet</PI_FULL_NAME>
+<EmailAddress>hjs@cs.umd.edu</EmailAddress>
+<PI_PHON>3014051755</PI_PHON>
+<NSF_ID>000445634</NSF_ID>
+<StartDate>09/06/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Maryland, College Park</Name>
+<CityName>College Park</CityName>
+<ZipCode>207425141</ZipCode>
+<PhoneNumber>3014056269</PhoneNumber>
+<StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>790934285</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MARYLAND, COLLEGE PARK</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003256088</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Maryland, College Park]]></Name>
+<CityName>College Park</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>207425141</ZipCode>
+<StreetAddress><![CDATA[3112 LEE BLDG 7809 Regents Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~331011</FUND_OBLG>
+<FUND_OBLG>2014~8000</FUND_OBLG>
+<FUND_OBLG>2015~168989</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Spatial analytical queries that compute millions of network distances<br />are commonplace in logistics, route planning, and spatial business<br />intelligence.&nbsp; Existing solutions usually use the geodesic distance<br />(Euclidean distance) instead of the network distance, which makes<br />their results inaccurate as it underestimates the true distance.<br />For instance, a delivery company that delivers 10,000 packages would<br />compute a distance matrix that captures the distance between every<br />pair of destination locations to plan the routes.&nbsp; Computing such a<br />distance matrix requires one hundred million network distance queries.<br />Note that Google Distance Matrix offers an API to compute the distance<br />matrix but limits the service, even to their paying customers, to 25<br />by 25 matrices (i.e., 625 distance computations).&nbsp; What is needed is a<br />framework to perform tens of millions of distance computations on road<br />networks quickly so that we can cater to the requirements of delivery<br />companies such as Amazon Fresh, Google Express, Uber Rush etc., that<br />seek to respond quickly to the dynamic supply-demand arising in their<br />business.<br /><br />The majority of existing shortest distance methods on road networks<br />focus mainly on decreasing the latency time for a single shortest path<br />query.&nbsp; However, reviewing spatial analytical queries in the business<br />environment reveals that what is really needed is an increase in<br />throughput which is the total time needed to compute millions of<br />pair-wise network distances.&nbsp; Thus we are interested in the average<br />number of distance computations per second.<br /><br />We developed a distributed framework called SPDO (pronounced<br />"speedo" standing for "Spark and Distance Oracles" using Apache Spark<br />that is optimized for high-throughput network distance computations.<br />This work extends our prior award-winning (one of the best papers in<br />the 2009 ICDE Conference) research on the epsilon-Distance Oracle<br />which precomputes and stores the shortest distances between all pairs of<br />vertices in a road network.&nbsp; The resulting representation takes uses<br />O(n/epsilon^2) space, where n is the number of vertices in the road<br />network and epsilon is an approximation error bound on the result.<br />In our previous work we showed how to map the instance oracle<br />representation to an RDBMS system and how to use it to solve complex<br />analytical queries on a road network.&nbsp; We showed how to map distance<br />oracles to a distributed key-value store (i.e., hash abstraction)<br />which we choose to be Spark.&nbsp; Combining Spark and distance oracles is<br />a good match.&nbsp; In essence, Spark provides a highly scalable<br />fault-tolerant distributed framework with the ability to cache large<br />datasets in memory using RDD, while distance oracles provide a compact<br />representation of network distances that requires very little<br />computation at run-time.&nbsp; Furthermore, Spark is a popular open-source<br />distributed framework for general purposes, which is more than a<br />key-value store.&nbsp; We can easily develop functions in Spark combining<br />distance oracles and other techniques that are not efficient in a<br />key-value store. In particular, we use the IndexedRDD library on Spark<br />which is a memory resident, key-value store.&nbsp; The high-throughput of<br />our proposed framework is achieved due to the ability to spread query<br />processing across multi-machines in a Spark cluster as well as the<br />in-memory representation of distance oracles.</p> <p>The main contributions of our work are:&nbsp; 1) a high-throughput<br />architecture using distance oracles and Spark for a large set of<br />spatial analytical queries; 2) three variants of distributed key-value<br />algorithms for our architecture; 3) an analysis of the time and space<br />complexity of our methods, and 4) a detailed comparison with<br />state-of-the-art methods for realistic datasets and applications.<br />It is important to note that SPDO needs just a few lines of code in<br />order to be incorporated into an existing Spark project that needs to<br />compute large number of network distances.&nbsp; Our experiments showed<br />that SPDO is able to compute more than 200K distance computations/sec<br />per machine for the entire USA road network which contains<br />approximately 24 million vertices.&nbsp; In contrast, CH, one of the<br />fastest state of the art latency methods, can perform at most on<br />the order of 1K distance computations/sec per machine, which is at<br />least two orders of magnitude slower than what is achievable using our<br />approach.&nbsp; A paper describing this research appears in the Proceedings<br />of the 2016 IEEE International Conference on Data Engineering in<br />Helsinki, Finland.<br /><br />Some other outcomes of our research were:<br /><br />1.&nbsp; Commercial air traffic is undergoing unprecedented growth.<br />Currently airspace capacity and efficiency is approached<br />deterministically.&nbsp; We have been taking external operational<br />circumstances into account.&nbsp; We believe that a major factor in<br />increased airspace efficiency and capacity is the accurate prediction<br />of Estimated Time of Arrival (ETA) and have devised a novel<br />ETA Prediction System for commercial flights.<br /><br />2.&nbsp; The news business is rapidly changing as more and more newspapers<br />have online editions and its hard to wean readers from a model where<br />the news is free to one requiring payment.&nbsp; The decreasing revenues<br />mean that the number of reporters is being reduced which has an effect<br />in less reporting on local events.&nbsp; On the other hand, people are<br />tweeting about local events.&nbsp; We have devised ways of detecting such<br />tweets out of the large number that are being sent.<br /><br />3.&nbsp; We created a blog RoadsInDB.com which shows how to incorporate our<br />work on computing road notwork distance into a database and pose<br />spatial analytical queries.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/05/2018<br>      Modified by: Hanan&nbsp;Samet</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Spatial analytical queries that compute millions of network distances are commonplace in logistics, route planning, and spatial business intelligence.  Existing solutions usually use the geodesic distance (Euclidean distance) instead of the network distance, which makes their results inaccurate as it underestimates the true distance. For instance, a delivery company that delivers 10,000 packages would compute a distance matrix that captures the distance between every pair of destination locations to plan the routes.  Computing such a distance matrix requires one hundred million network distance queries. Note that Google Distance Matrix offers an API to compute the distance matrix but limits the service, even to their paying customers, to 25 by 25 matrices (i.e., 625 distance computations).  What is needed is a framework to perform tens of millions of distance computations on road networks quickly so that we can cater to the requirements of delivery companies such as Amazon Fresh, Google Express, Uber Rush etc., that seek to respond quickly to the dynamic supply-demand arising in their business.  The majority of existing shortest distance methods on road networks focus mainly on decreasing the latency time for a single shortest path query.  However, reviewing spatial analytical queries in the business environment reveals that what is really needed is an increase in throughput which is the total time needed to compute millions of pair-wise network distances.  Thus we are interested in the average number of distance computations per second.  We developed a distributed framework called SPDO (pronounced "speedo" standing for "Spark and Distance Oracles" using Apache Spark that is optimized for high-throughput network distance computations. This work extends our prior award-winning (one of the best papers in the 2009 ICDE Conference) research on the epsilon-Distance Oracle which precomputes and stores the shortest distances between all pairs of vertices in a road network.  The resulting representation takes uses O(n/epsilon^2) space, where n is the number of vertices in the road network and epsilon is an approximation error bound on the result. In our previous work we showed how to map the instance oracle representation to an RDBMS system and how to use it to solve complex analytical queries on a road network.  We showed how to map distance oracles to a distributed key-value store (i.e., hash abstraction) which we choose to be Spark.  Combining Spark and distance oracles is a good match.  In essence, Spark provides a highly scalable fault-tolerant distributed framework with the ability to cache large datasets in memory using RDD, while distance oracles provide a compact representation of network distances that requires very little computation at run-time.  Furthermore, Spark is a popular open-source distributed framework for general purposes, which is more than a key-value store.  We can easily develop functions in Spark combining distance oracles and other techniques that are not efficient in a key-value store. In particular, we use the IndexedRDD library on Spark which is a memory resident, key-value store.  The high-throughput of our proposed framework is achieved due to the ability to spread query processing across multi-machines in a Spark cluster as well as the in-memory representation of distance oracles.  The main contributions of our work are:  1) a high-throughput architecture using distance oracles and Spark for a large set of spatial analytical queries; 2) three variants of distributed key-value algorithms for our architecture; 3) an analysis of the time and space complexity of our methods, and 4) a detailed comparison with state-of-the-art methods for realistic datasets and applications. It is important to note that SPDO needs just a few lines of code in order to be incorporated into an existing Spark project that needs to compute large number of network distances.  Our experiments showed that SPDO is able to compute more than 200K distance computations/sec per machine for the entire USA road network which contains approximately 24 million vertices.  In contrast, CH, one of the fastest state of the art latency methods, can perform at most on the order of 1K distance computations/sec per machine, which is at least two orders of magnitude slower than what is achievable using our approach.  A paper describing this research appears in the Proceedings of the 2016 IEEE International Conference on Data Engineering in Helsinki, Finland.  Some other outcomes of our research were:  1.  Commercial air traffic is undergoing unprecedented growth. Currently airspace capacity and efficiency is approached deterministically.  We have been taking external operational circumstances into account.  We believe that a major factor in increased airspace efficiency and capacity is the accurate prediction of Estimated Time of Arrival (ETA) and have devised a novel ETA Prediction System for commercial flights.  2.  The news business is rapidly changing as more and more newspapers have online editions and its hard to wean readers from a model where the news is free to one requiring payment.  The decreasing revenues mean that the number of reporters is being reduced which has an effect in less reporting on local events.  On the other hand, people are tweeting about local events.  We have devised ways of detecting such tweets out of the large number that are being sent.  3.  We created a blog RoadsInDB.com which shows how to incorporate our work on computing road notwork distance into a database and pose spatial analytical queries.             Last Modified: 12/05/2018       Submitted by: Hanan Samet]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

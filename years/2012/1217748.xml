@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Scalable Trace-Based Tools for In-Situ Data Analysis of HPC Applications (ScalaJack)</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>457395.00</AwardTotalIntnAmount>
+<AwardAmount>457395</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Production codes on supercomputers are struggling to remain scalable&lt;br/&gt;each time the processor core count increases by a factor of 10, even&lt;br/&gt;though they run efficiently at smaller scale.&lt;br/&gt;But root cause diagnosis fails at petascale since (1) symptoms of&lt;br/&gt;performance problems can be subtle, (2) only few&lt;br/&gt;metrics can be efficiently collected and (3) tools can only feasibly record&lt;br/&gt;a small subset of even these metrics.&lt;br/&gt;&lt;br/&gt;This work addresses these problems by creating a framework that allows&lt;br/&gt;application developers to focus on data analysis that drives customized&lt;br/&gt;data extraction combined with on-the-fly analysis specifically geared&lt;br/&gt;to their individual problems.  This is accomplished by combining trace&lt;br/&gt;analysis and in-situ data analysis techniques at runtime, thereby&lt;br/&gt;lifting data reduction to a new level where it IS analysis. With this&lt;br/&gt;approach, modular measurement and analysis components are combined to&lt;br/&gt;selectively extract representative data from production codes in a&lt;br/&gt;problem-specific manner, which enables root cause analysis.&lt;br/&gt;&lt;br/&gt;The work demonstrates the feasibility of customized data&lt;br/&gt;extraction and analysis at scale for root cause analysis on current&lt;br/&gt;and forthcoming multi-petascale supercomputers.  It thus contributes&lt;br/&gt;to sustain scalable scientific computing into the future up to the largest&lt;br/&gt;scales.  Results of this work will be contributed as open-source code&lt;br/&gt;to the research community and beyond as done, allowing other groups to&lt;br/&gt;not only build tools on top of our framework but also contribute their&lt;br/&gt;own components.</AbstractNarration>
+<MinAmdLetterDate>05/16/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/30/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217748</AwardID>
+<Investigator>
+<FirstName>Frank</FirstName>
+<LastName>Mueller</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Frank Mueller</PI_FULL_NAME>
+<EmailAddress>mueller@cs.ncsu.edu</EmailAddress>
+<PI_PHON>9195157889</PI_PHON>
+<NSF_ID>000484031</NSF_ID>
+<StartDate>05/16/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName/>
+<StateCode>NC</StateCode>
+<ZipCode>276958206</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~457395</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This decade is projected to usher in the period of exascale computing<br />with the advent of systems with more than 500 million concurrent<br />tasks.&nbsp; Harnessing such hardware with coordinated computing in<br />software poses significant challenges.&nbsp; Production codes tend to face<br />scalability problems, but current performance analysis tools seldom<br />operate effectively beyond 10,000 cores.<br /><br />We have combined trace analysis and in-situ data analysis techniques<br />at runtime.&nbsp; Application developers thus create ultra low-overhead<br />measurement and analysis facilities on-the-fly, customized for the<br />performance problems of particular application.&nbsp; We developed an<br />analysis generator called ScalaJack for this purpose. We further<br />extended the underlying ScalaTrace infrastructure to exploit<br />statistical clustering techniques so that only one trace per cluster<br />needs to be generated, yet such traces can be replayed by all nodes of<br />a cluster without loss of events and using correct communication and<br />I/O parameters for trace events. We showed that overheads for tracing<br />remain extremely low even for large numbers of nodes, which is a<br />significant improvement over past trace consolidation, which imposed<br />exponentially increasing overheads as the number of nodes increases.</p> <p>Results of this work were contributed as open-source code to the<br />research community. Pluggable, customization analysis not only allows<br />other groups to build tools on top of our approach but to also<br />contribute components to our framework that will be shared in a<br />repository hosted by us.</p><br> <p>            Last Modified: 06/08/2017<br>      Modified by: Frank&nbsp;Mueller</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This decade is projected to usher in the period of exascale computing with the advent of systems with more than 500 million concurrent tasks.  Harnessing such hardware with coordinated computing in software poses significant challenges.  Production codes tend to face scalability problems, but current performance analysis tools seldom operate effectively beyond 10,000 cores.  We have combined trace analysis and in-situ data analysis techniques at runtime.  Application developers thus create ultra low-overhead measurement and analysis facilities on-the-fly, customized for the performance problems of particular application.  We developed an analysis generator called ScalaJack for this purpose. We further extended the underlying ScalaTrace infrastructure to exploit statistical clustering techniques so that only one trace per cluster needs to be generated, yet such traces can be replayed by all nodes of a cluster without loss of events and using correct communication and I/O parameters for trace events. We showed that overheads for tracing remain extremely low even for large numbers of nodes, which is a significant improvement over past trace consolidation, which imposed exponentially increasing overheads as the number of nodes increases.  Results of this work were contributed as open-source code to the research community. Pluggable, customization analysis not only allows other groups to build tools on top of our approach but to also contribute components to our framework that will be shared in a repository hosted by us.       Last Modified: 06/08/2017       Submitted by: Frank Mueller]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

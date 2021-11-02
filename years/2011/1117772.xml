@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Enabling Dual-mode Execution for Removing I/O Bottleneck: A Highly Applicable Design and Implementation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>100000.00</AwardTotalIntnAmount>
+<AwardAmount>100000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anita La Salle</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Maintaining high parallelism is critical for efficient use of multicore- and cluster-based parallel systems, but this can be at odds with I/O efficiency, resulting in suboptimal performance of I/O-intensive parallel applications. The efficiency of request-processing policies at different levels of the I/O stack relies on the locality of requests from various processes.  Processes are the producers of I/O requests, and their scheduling determines the timing of request issuance and the locality among requests from different processes. When a program is I/O bottlenecked the scheduling of its processes directly affects the storage system?s efficiency, and thus the program?s execution time.  In such scenarios, a scheduling policy designed to improve request locality, in preference to the usual objectives such as load balance and fairness, is expected to improve the overall efficiency of the I/O stack and ameliorate I/O bottlenecks.&lt;br/&gt;&lt;br/&gt;The investigator proposes a dual-mode execution, incorporating a new data-driven mode to complement the normal statement-driven mode.  In the data-driven mode processes are scheduled such that they will issue requests with improved locality, and will consume data that has been efficiently pre-fetched. The research focus of this 12-month project is the investigation and understanding of the extent to which process scheduling can positively affect I/O performance. It takes into account variance of I/O intensity, I/O access pattern of individual processes, and the ratio of reads and writes. The investigator will perform an extensive examination of I/O performance behaviors at different I/O layers, including the I/O library, system buffer, and I/O scheduler, with various hypothetical I/O-aware process scheduling strategies. This research will reveal the potential merits of the proposed dual-mode execution, and delineate the design space for algorithms supporting it. It will also identify pitfalls and limits of potential designs and their implementations. By so doing, this project is expected to pave the road to the introduction of a disruptive technique for mitigating I/O bottlenecks.</AbstractNarration>
+<MinAmdLetterDate>07/30/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>07/30/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1117772</AwardID>
+<Investigator>
+<FirstName>Song</FirstName>
+<LastName>Jiang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Song Jiang</PI_FULL_NAME>
+<EmailAddress>song.jiang@uta.edu</EmailAddress>
+<PI_PHON>4699963465</PI_PHON>
+<NSF_ID>000240353</NSF_ID>
+<StartDate>07/30/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Wayne State University</Name>
+<CityName>Detroit</CityName>
+<ZipCode>482023622</ZipCode>
+<PhoneNumber>3135772424</PhoneNumber>
+<StreetAddress>5057 Woodward</StreetAddress>
+<StreetAddress2><![CDATA[6th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001962224</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WAYNE STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001962224</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Wayne State University]]></Name>
+<CityName>Detroit</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>482023622</ZipCode>
+<StreetAddress><![CDATA[5057 Woodward]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~100000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp; &nbsp; This project aims to reveal potential merits of a computer system design, in which process scheduling and I/O request scheduling are conducted cooperatively. In conventional systems, these two kinds of scheduling strategies are designed and executed independently. &nbsp;By monitoring whether CPU or I/O devices are the performance bottleneck, the system can adaptively trade the flexibility of one kind of strategy for larger room of performance improvement for the other one, or use the proposed dual-mode execution. While this proposed solution has the potential to significantly accelerate processing of I/O-intensive programs, such as those using many multi-core computers to analyze big data, it could introduce additional management overhead that may offset its performance advantage. Accordingly this project aims to identify pitfalls and limits of the proposed design.</p> <p>&nbsp; &nbsp; &nbsp;After two-year of extensive research on the issues, the PI and his team obtained three major outcomes demonstrating intellectual merits of the project. First, they found that with increasingly intensive I/O activities in a program&rsquo;s execution, it&rsquo;s more difficult to rely on conventional approaches to hide I/O times or improve I/O spatial locality for higher I/O performance. The proposed dual-mode execution can fundamentally address the issue. Second, there are three factors, namely, process count, access locality, and I/O intensity, that are most relevant in determining the right execution mode (data-driven mode or statement-driven mode) and making the dual-mode execution cost-effective. Third, widespread use of solid-state disk (SSD) introduces a new dimension in the study, which is how the layout of data on the SSD and hard disk affects I/O performance.</p> <p>&nbsp; &nbsp; &nbsp;The broader impacts of the project are demonstrated by the prototyped systems, publications, as well as human resource training produced during execution of the project. In particular, the PI and his team prototyped two systems. One is named as iHarmonizer, that automatically parallelizes an openMP program and guides parallel execution to adaptively schedule I/O according to shifting performance bottleneck. The other is named as DualPar, that regulates an MPI program&rsquo;s execution by predicting future I/O patterns and accordingly adjusting process scheduling. Both systems have seen substantial performance advantages in their respective evaluations. There are four papers published on the IEEE international parallel and distributed processing symposium, a major conference dedicated to the area of parallel and distributed computing, to disseminate the results. At Wayne State University one Ph.D student and one Master student used this project as the major parts of their thesis work. Both had successfully defended their theses and graduated. Two undergraduate students under-represented in today's CSE discipline (both are female students and one is also an African-American) participated in the project. They learned skills for selecting and running benchmarks as well as collecting and analyzing measurements. A new topic graduate-level topic course &ldquo;ECE7995: High-performance I/O Service for Data-intensive Computing&rdquo; was created. Some of this project&rsquo;s research findings are included in the teaching.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/01/2013<br>      Modified by: Song&nbsp;Jiang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[     This project aims to reveal potential merits of a computer system design, in which process scheduling and I/O request scheduling are conducted cooperatively. In conventional systems, these two kinds of scheduling strategies are designed and executed independently.  By monitoring whether CPU or I/O devices are the performance bottleneck, the system can adaptively trade the flexibility of one kind of strategy for larger room of performance improvement for the other one, or use the proposed dual-mode execution. While this proposed solution has the potential to significantly accelerate processing of I/O-intensive programs, such as those using many multi-core computers to analyze big data, it could introduce additional management overhead that may offset its performance advantage. Accordingly this project aims to identify pitfalls and limits of the proposed design.       After two-year of extensive research on the issues, the PI and his team obtained three major outcomes demonstrating intellectual merits of the project. First, they found that with increasingly intensive I/O activities in a programÆs execution, itÆs more difficult to rely on conventional approaches to hide I/O times or improve I/O spatial locality for higher I/O performance. The proposed dual-mode execution can fundamentally address the issue. Second, there are three factors, namely, process count, access locality, and I/O intensity, that are most relevant in determining the right execution mode (data-driven mode or statement-driven mode) and making the dual-mode execution cost-effective. Third, widespread use of solid-state disk (SSD) introduces a new dimension in the study, which is how the layout of data on the SSD and hard disk affects I/O performance.       The broader impacts of the project are demonstrated by the prototyped systems, publications, as well as human resource training produced during execution of the project. In particular, the PI and his team prototyped two systems. One is named as iHarmonizer, that automatically parallelizes an openMP program and guides parallel execution to adaptively schedule I/O according to shifting performance bottleneck. The other is named as DualPar, that regulates an MPI programÆs execution by predicting future I/O patterns and accordingly adjusting process scheduling. Both systems have seen substantial performance advantages in their respective evaluations. There are four papers published on the IEEE international parallel and distributed processing symposium, a major conference dedicated to the area of parallel and distributed computing, to disseminate the results. At Wayne State University one Ph.D student and one Master student used this project as the major parts of their thesis work. Both had successfully defended their theses and graduated. Two undergraduate students under-represented in today's CSE discipline (both are female students and one is also an African-American) participated in the project. They learned skills for selecting and running benchmarks as well as collecting and analyzing measurements. A new topic graduate-level topic course "ECE7995: High-performance I/O Service for Data-intensive Computing" was created. Some of this projectÆs research findings are included in the teaching.          Last Modified: 09/01/2013       Submitted by: Song Jiang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

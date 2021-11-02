@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Toward True Heterogeneous Computing: Concurrent Data Structure Design and Optimization</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2019</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>492778.00</AwardTotalIntnAmount>
+<AwardAmount>591167</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The introduction of Graphics Processing Units (GPU) for handling intensive computing tasks in modern-day computers has changed the landscape for parallel computing. At the core of this phenomenon are massively-multithreaded, data-parallel computer architectures with impressive acceleration ratings, offering low-cost supercomputing together with attractive power budgets. While the GPU can handle computation-intensive tasks providing high through, the computer's brains, the Central Processing Unit (CPU), is good at handling latency-oriented tasks. The CPU and GPU communicate with each other through shared data structures that need to be efficiently designed in order to avoid mismatch in the use of the CPU and GPU when handling heterogeneous applications that tax the CPU and GPU at different levels. This project seeks to ensure such efficiencies always exist regardless of workload, through the design and implementation of highly-scalable Concurrent Data Structures (CDSs). The developed CDSs are practically tested by developing library and real-world true heterogeneous workloads. The results, findings, and outcomes of the project are contributed to open-source community and disseminated through scholarly publications, online materials, and websites to the community.&lt;br/&gt;&lt;br/&gt;The recent support of fine-grained data sharing and thread communication on GPU-powered computing platforms allows applications to benefit from easy, cheap, diverse CPU and GPU collaboration models through data structures in shared virtual memory. In newly enabled CPU-GPU collaboration models, latency-oriented CPU threads and throughput-oriented GPU threads synchronize and communicate with one another through shared data structures. Therefore, the efficiency of these data structures is crucial for the success of true heterogeneous computing. Designing a CDS that scales well across different concurrency levels is known to be a very challenging task. The increased concurrency on heterogeneous platforms makes it even more challenging with respect to performance and correctness. While a significant amount of research has been done in the context of traditional CPUs, there is very little known in the context of heterogeneous platforms. The full potential of a highly-scalable CDS design can be achieved when co-designed with hardware; current hardware is the first generation designs that have not benefited from a good understanding of inter-processor fine-grained data sharing and thread communication. While the primary objective of the project is designing efficient CDSs whose performance scales well across a spectrum of concurrency demands on heterogeneous platforms, the other important target is to improve and optimize hardware support crucial for efficient fine-grained data sharing thread communication, such as inter-processor cache coherence, GPU thread scheduling, and SIMD aware optimizations. To that end, this research takes software-hardware co-design approach using six specific research aims (reducing loads, developing contention management schemes, optimizing CPU-GPU cache coherence protocol, SIMD aware optimization, architecture aware operation mapping, library and real-world application development) to address three fundamental challenges (sequential bottlenecks, memory contention, and architectural heterogeneity).&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/09/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>08/15/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1907838</AwardID>
+<Investigator>
+<FirstName>Byunghyun</FirstName>
+<LastName>Jang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME>Dr.</PI_SUFX_NAME>
+<PI_FULL_NAME>Byunghyun Jang</PI_FULL_NAME>
+<EmailAddress>bjang@cs.olemiss.edu</EmailAddress>
+<PI_PHON>6629155355</PI_PHON>
+<NSF_ID>000629748</NSF_ID>
+<StartDate>07/09/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Mississippi</Name>
+<CityName>UNIVERSITY</CityName>
+<ZipCode>386771848</ZipCode>
+<PhoneNumber>6629157482</PhoneNumber>
+<StreetAddress>100 BARR HALL</StreetAddress>
+<StreetAddress2><![CDATA[PO BOX 1848]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Mississippi</StateName>
+<StateCode>MS</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MS01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>067713560</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MISSISSIPPI</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>067713560</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Mississippi]]></Name>
+<CityName/>
+<StateCode>MS</StateCode>
+<ZipCode>386771848</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Mississippi</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MS01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>6892</Code>
+<Text>CI REUSE</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~591167</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Small: Protection Mechanisms for Portable Storage</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>207765.00</AwardTotalIntnAmount>
+<AwardAmount>207765</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Deborah Shands</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Portable storage devices such as USB flash drives have become virtually ubiquitous in daily life. They are as useful to students in college as to a soldier transferring data in a combat theater. However, the security risks posed by using these devices are all too real: after malicious code on a flash drive infected operational networks, allowing a mass exfiltration of classified data subsequently posted to Wikileaks, the Department of Defense banned these devices. The security vulnerabilities exposed by these events are of concern far beyond the military and extend to any user of portable storage. While numerous attempts have been made to secure hosts from malicious devices, very little research has considered the symmetrical problem of ensuring the protection of sensitive data from potentially compromised hosts, nor the security of the USB bus itself.&lt;br/&gt;&lt;br/&gt;This project examines the factors contributing to the vulnerability of portable storage devices and consider a new framework for modeling and evaluating the security of these devices. We will consider the security of the storage devices themselves, the hosts they attach to, and the USB interface that transports the data. We consider methods of monitoring the integrity of attached hosts, and examine how to establish and manage host identity. We propose applications based on these devices, such as maintaining provenance and forensic information on stored data, and new frameworks supporting information flow for further enforcing finer-grained access protections. Such advances will ensure that flash drives and hosts they attach to remain safe and secure.</AbstractNarration>
+<MinAmdLetterDate>03/26/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>03/26/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1540218</AwardID>
+<Investigator>
+<FirstName>Kevin</FirstName>
+<LastName>Butler</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kevin Butler</PI_FULL_NAME>
+<EmailAddress>butler@cise.ufl.edu</EmailAddress>
+<PI_PHON>3525620789</PI_PHON>
+<NSF_ID>000573521</NSF_ID>
+<StartDate>03/26/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Florida</Name>
+<CityName>GAINESVILLE</CityName>
+<ZipCode>326112002</ZipCode>
+<PhoneNumber>3523923516</PhoneNumber>
+<StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>FL03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>969663814</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF FLORIDA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>159621697</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Florida]]></Name>
+<CityName>Gainesville</CityName>
+<StateCode>FL</StateCode>
+<ZipCode>326112002</ZipCode>
+<StreetAddress><![CDATA[1 University of Florida]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>FL03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~207765</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of the this work is to examine factors contributing to the vulnerability of portable storage and to consider new techniques for modeling and evaluating the security of these devices.</p> <p>We had a number of major accomplishments throughout the project. Chief amongst these are new ways of protecting computers against malicious USB drives. We examined in particular the &ldquo;BadUSB&rdquo; attack, where a malicious device attempts to pass itself off as an innocuous USB storage device but instead exposes a keyboard interface to allow injecting malware into computers. The major reason that such an attack is possible is because of the lack of a notion of permissions or capabilities at the level of the USB device - USB stacks do not check that the way that a device identifies itself is consistent with its functionality. A user plugging a USB device into their computer, though, has a good idea about what the device should do. In response, we designed and implemented a solution called GoodUSB, which allows users to describe the device they plug in and associate a picture with it, so that whenever they plug that particular device in, the picture shows up showing it is the device they anticipated. This ensures, for example, that if a user identifies a flash drive, it cannot expose any non-storage functionality that may be used for malicious activity. Only a small one-time computational cost is incurred when the device is plugged in to the computer. This work was accepted for publication at the ACSAC 2015 conference.</p> <p>We refined our approach for the enterprise environment by adopting a rule-based filtering mechanism for system administrators. We call this system &ldquo;USBFILTER&rdquo;, and demonstrate that fine-grained access is possible for peripheral devices. We built kernel module extensions that could hook particular USB activity and demonstrate that with our approach, not only is it possible to defend against attacks such as BadUSB by constraining peripheral functionality, but we can &ldquo;pin&rdquo; USB devices to applications; for example, we can ensure that USB webcams are only allowed to connect to Skype, such that malicious programs cannot take them over. Real world benchmarks demonstrate that perforce differences with baseline kernels are negligible. USBFILTER was published at the 2016 USENIX Security Symposium.</p> <p>Additionally, we completed the design and implementation of our ProvUSB system. ProvUSB allows for providing provenance at the block level. We have implemented the ProvUSB device, which identifies the computer it attaches to and uses this information to mark reading and writing of individual blocks on the device. We created a provenance-based integrity protection scheme, providing finer-grained authorization than previously possible for portable storage. We demonstrate that block-level tracking of data is possible, showing scenarios where we can track the propagation of malicious code copied to the flash drive and how the ProvUSB device allows for attribution and assessment of how far malicious data has propagated; additionally, we provide robust means of protecting data that was written by high-integrity machines from being modified. We developed optimizations such as session-based filtering that allowed a reduction of provenance metadata overhead during raw I/O operations, and fully implemented and evaluated a prototype, as well as providing a full security analysis. We found that enumeration time (a one-time cost) increased by less than a second compared to commodity devices, while overhead was largely in line with commodity flash drives. This work was presented at the 2016 ACM Conference on Computer and Communications Security.</p> <p>In addition, we looked at the challenging problem of computer identify. It is particularly difficult to determine whether a computer has been changed, with potentially malicious components added. Past approaches have considered the use of trusted hardware in computers but this is not always available, particularly in legacy systems. We considered how the USB interface could be used for robust computer identification. We were able to extract feature vectors from the data associated with a series of USB enumerations (the exchange of USB control messages when a device is first plugged into a host) and our results show that we can differentiate between different operating systems with 100% accuracy and between different manufacturer models (e.g., Dell vs Apple) with 97% accuracy. Furthermore, by recasting the problem of identifying an individual machine out of a group of identically specified machines as an anomaly detection problem, we were able to uniquely identify 21 out of 30 machines with the same hardware and software (including OS version) installed on them, with new techniques providing even greater accuracy. Most importantly, our approach is resistant to malicious hosts attempting to fake their identity. This work was presented at the NDSS 2014 conference.</p> <p>In total, 18 peer reviewed publications relating to device security, data provenance, and privacy were supported through this grant.</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/07/2016<br>      Modified by: Kevin&nbsp;Butler</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of the this work is to examine factors contributing to the vulnerability of portable storage and to consider new techniques for modeling and evaluating the security of these devices.  We had a number of major accomplishments throughout the project. Chief amongst these are new ways of protecting computers against malicious USB drives. We examined in particular the "BadUSB" attack, where a malicious device attempts to pass itself off as an innocuous USB storage device but instead exposes a keyboard interface to allow injecting malware into computers. The major reason that such an attack is possible is because of the lack of a notion of permissions or capabilities at the level of the USB device - USB stacks do not check that the way that a device identifies itself is consistent with its functionality. A user plugging a USB device into their computer, though, has a good idea about what the device should do. In response, we designed and implemented a solution called GoodUSB, which allows users to describe the device they plug in and associate a picture with it, so that whenever they plug that particular device in, the picture shows up showing it is the device they anticipated. This ensures, for example, that if a user identifies a flash drive, it cannot expose any non-storage functionality that may be used for malicious activity. Only a small one-time computational cost is incurred when the device is plugged in to the computer. This work was accepted for publication at the ACSAC 2015 conference.  We refined our approach for the enterprise environment by adopting a rule-based filtering mechanism for system administrators. We call this system "USBFILTER", and demonstrate that fine-grained access is possible for peripheral devices. We built kernel module extensions that could hook particular USB activity and demonstrate that with our approach, not only is it possible to defend against attacks such as BadUSB by constraining peripheral functionality, but we can "pin" USB devices to applications; for example, we can ensure that USB webcams are only allowed to connect to Skype, such that malicious programs cannot take them over. Real world benchmarks demonstrate that perforce differences with baseline kernels are negligible. USBFILTER was published at the 2016 USENIX Security Symposium.  Additionally, we completed the design and implementation of our ProvUSB system. ProvUSB allows for providing provenance at the block level. We have implemented the ProvUSB device, which identifies the computer it attaches to and uses this information to mark reading and writing of individual blocks on the device. We created a provenance-based integrity protection scheme, providing finer-grained authorization than previously possible for portable storage. We demonstrate that block-level tracking of data is possible, showing scenarios where we can track the propagation of malicious code copied to the flash drive and how the ProvUSB device allows for attribution and assessment of how far malicious data has propagated; additionally, we provide robust means of protecting data that was written by high-integrity machines from being modified. We developed optimizations such as session-based filtering that allowed a reduction of provenance metadata overhead during raw I/O operations, and fully implemented and evaluated a prototype, as well as providing a full security analysis. We found that enumeration time (a one-time cost) increased by less than a second compared to commodity devices, while overhead was largely in line with commodity flash drives. This work was presented at the 2016 ACM Conference on Computer and Communications Security.  In addition, we looked at the challenging problem of computer identify. It is particularly difficult to determine whether a computer has been changed, with potentially malicious components added. Past approaches have considered the use of trusted hardware in computers but this is not always available, particularly in legacy systems. We considered how the USB interface could be used for robust computer identification. We were able to extract feature vectors from the data associated with a series of USB enumerations (the exchange of USB control messages when a device is first plugged into a host) and our results show that we can differentiate between different operating systems with 100% accuracy and between different manufacturer models (e.g., Dell vs Apple) with 97% accuracy. Furthermore, by recasting the problem of identifying an individual machine out of a group of identically specified machines as an anomaly detection problem, we were able to uniquely identify 21 out of 30 machines with the same hardware and software (including OS version) installed on them, with new techniques providing even greater accuracy. Most importantly, our approach is resistant to malicious hosts attempting to fake their identity. This work was presented at the NDSS 2014 conference.  In total, 18 peer reviewed publications relating to device security, data provenance, and privacy were supported through this grant.          Last Modified: 12/07/2016       Submitted by: Kevin Butler]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF:Small:Pseudorandomness and Randomness Extraction</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>399967.00</AwardTotalIntnAmount>
+<AwardAmount>399967</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jack S. Snoeyink</SignBlockName>
+<PO_EMAI>jsnoeyin@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Pseudorandomness and randomness extraction are motivated by the amazing utility of randomness in computing.  When simulating complex phenomena, such as the weather or the economy, it is standard to include random components.  Computer security is impossible without randomness.  In practice, however, it is expensive to get truly random numbers, if it is possible at all.  What can we do with a small amount of high-quality randomness, or a large amount of low-quality randomness?  Pseudorandom generators are designed to attack the first question, and randomness extractors the second.  The PI proposes to strengthen constructions of these fundamental objects.&lt;br/&gt;&lt;br/&gt;Not only will this help advance computer science, but it could enable progress in other fields of science which use randomized simulations.  Moreover, constructions of such pseudorandom objects often have unexpected applications.  For example, the PI recently showed how related pseudorandom objects -- ``expander graphs" -- can be used to construct financial derivatives that cannot be significantly manipulated.  A more common application area is cryptography, the mathematical foundation of computer security.</AbstractNarration>
+<MinAmdLetterDate>07/03/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/03/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218723</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Zuckerman</LastName>
+<PI_MID_INIT>I</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David I Zuckerman</PI_FULL_NAME>
+<EmailAddress>diz@utexas.edu</EmailAddress>
+<PI_PHON>5124719729</PI_PHON>
+<NSF_ID>000181714</NSF_ID>
+<StartDate>07/03/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787137726</ZipCode>
+<StreetAddress><![CDATA[P.O. Box 7726]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>21</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX21</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7927</Code>
+<Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~399967</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Pseudorandomness and randomness extraction are motivated by the wonderful uses of randomness in computing. Randomized algorithms are often faster or simpler than their best known deterministic counterparts. Randomness is widely used in practice for Monte Carlo simulations to study science, the economy, and more.&nbsp; Randomness is essential for cryptography and computer security. In practice, however, it is expensive or impossible to get truly random numbers. What can we do with a small amount of high-quality randomness, or a large amount of low-quality randomness? Pseudorandom generators are designed to attack the first question, and randomness extractors the second.<br /><br />Recently my student Eshan Chattopadhyay and I obtained a result about two-source extractors that was widely hailed as a breakthrough.&nbsp; To motivate this, it is impossible to extract randomness from just one weak source (without assuming any structure on the source).&nbsp; Therefore, in 1986 Chor and Goldreich asked about extracting from two independent sources, and showed how to do this when the rate of randomness (entropy rate) in each source is bigger than 1/2. For almost twenty years nobody could do better, until in 2005 the Fields medalist Jean Bourgain managed to improve this to entropy rate .49. That is where things stood until Eshan and I improved it to any rate above 0.&nbsp; Not only that, instead of requiring the entropy in n bits to be linear in n, we need it to be just polynomial in log n, an exponential improvement.<br /><br />My students and I made further advances in randomness extraction, the application of extractors to error-correcting codes and cryptography, as well as fundamental work on error-correcting codes, and more.</p><br> <p>            Last Modified: 11/28/2015<br>      Modified by: David&nbsp;I&nbsp;Zuckerman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Pseudorandomness and randomness extraction are motivated by the wonderful uses of randomness in computing. Randomized algorithms are often faster or simpler than their best known deterministic counterparts. Randomness is widely used in practice for Monte Carlo simulations to study science, the economy, and more.  Randomness is essential for cryptography and computer security. In practice, however, it is expensive or impossible to get truly random numbers. What can we do with a small amount of high-quality randomness, or a large amount of low-quality randomness? Pseudorandom generators are designed to attack the first question, and randomness extractors the second.  Recently my student Eshan Chattopadhyay and I obtained a result about two-source extractors that was widely hailed as a breakthrough.  To motivate this, it is impossible to extract randomness from just one weak source (without assuming any structure on the source).  Therefore, in 1986 Chor and Goldreich asked about extracting from two independent sources, and showed how to do this when the rate of randomness (entropy rate) in each source is bigger than 1/2. For almost twenty years nobody could do better, until in 2005 the Fields medalist Jean Bourgain managed to improve this to entropy rate .49. That is where things stood until Eshan and I improved it to any rate above 0.  Not only that, instead of requiring the entropy in n bits to be linear in n, we need it to be just polynomial in log n, an exponential improvement.  My students and I made further advances in randomness extraction, the application of extractors to error-correcting codes and cryptography, as well as fundamental work on error-correcting codes, and more.       Last Modified: 11/28/2015       Submitted by: David I Zuckerman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

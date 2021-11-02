@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: Small: Symbolic computation with sparsity, error checking and error correction</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>469905.00</AwardTotalIntnAmount>
+<AwardAmount>469905</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>A hallmark of symbolic computation is that the outputs are exact. Digital error correcting decoding produces exact outputs from inputs in which some entries are incorrect, and minimizes the required redundancy.  Symbolic polynomial interpolation algorithms take advantage of sparsity.  Kaltofen proposes to create algorithms that can interpolate sparse uni- and multivariate polynomials and rational functions from evaluations where some of the values are incorrect.  A goal is to minimize the amount of oversampling that is necessary to locate and correct those faulty evaluations.  Hybrid symbolic-numeric computation accepts approximate scalar entries in the inputs, which can be imprecise because they come from a floating point computation or a physical measurement.  Sparse multivariate polynomial interpolation has been adapted to such data, for purpose of constructing sparse models for the observed measurements, and Kaltofen proposes to create hybrid symbolic-numeric versions of our interpolation algorithms that can correct outlier errors. In addition, Kaltofen proposes to construct easily verifiable certificates for complex non-linear problems, such as certificates that a real multivariate polynomial is unbounded or that a symmetric real matrix is positive definite.  Both problems are important for global non-linear optimization.  Lastly, Kaltofen proposes to apply the matrix generalization of the Berlekamp/Massey algorithm and the multidimensional generalization by Shojiro Sakata to recurrences with polynomial coefficients, such as the sequence of the factorials and the binomial coefficients.  He will also study how to correct errors in the linear generated arrays.&lt;br/&gt;&lt;br/&gt;Kaltofen's proposed research combines hybrid symbolic-numeric computation with digital error-correcting decoding for purpose of removing outliers in sparse model synthesis, which constitutes a brand-new approach for ``cleaning-up'' errors in data sets. Certificates that prove that computed minima are global minima permit the use of unproven algorithmic heuristics in the optimization methods, especially algorithms with floating point arithmetic whose stability is not analyzed, and greatly broaden what can be placed in publishable software:  the programs do not give a false output.  Lastly, recurrences are fundamental tools in symbolic computation algorithms.  Kaltofen is making the developed software for the algorithms freely available.</AbstractNarration>
+<MinAmdLetterDate>06/06/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/06/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421128</AwardID>
+<Investigator>
+<FirstName>Erich</FirstName>
+<LastName>Kaltofen</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Erich L Kaltofen</PI_FULL_NAME>
+<EmailAddress>kaltofen@eos.ncsu.edu</EmailAddress>
+<PI_PHON>9195158785</PI_PHON>
+<NSF_ID>000367970</NSF_ID>
+<StartDate>06/06/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName/>
+<StateCode>NC</StateCode>
+<ZipCode>276958205</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7933</Code>
+<Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~469905</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp;</p> <div>Merit:</div> <div>When synthesizing a compressed, that is, concise model for a data set of observation points, one can choose different building blocks for the model.&nbsp; The project focused on orthogonal functions as the basis of representation.&nbsp; Kaltofen and his postdoctoral scholar and collaborators have shown how to compute a function that fits the data and which is a linear sum of Chebyshev polynomials (of all 4 kinds) from twice as many points as polynomials in the sum. In other words, a t-sparse model is constructed from 2 times t observations.&nbsp; In addition, they give algorithms that correct errors in the observations, that is, detect function points are incorrect outliers.&nbsp; One of the results shows that for sparse models constructed from points and values that are real numbers, one can in theory correct errors by oversampling at as many points as there are errors, which is the error rate for the classical algebraic Reed-Solomon code.&nbsp; However, for sparse models that fit points and values which are complex numbers, very few errors can lead to multiple models that fit the points except with those few errors at possibly different locations.&nbsp; Kaltofen and his collaborators have addressed the problem by list-decoding, meaning by computing (in polynomial-time) a set of models that fit.&nbsp; However, the correctable error rate is still much smaller than in the real number case.&nbsp; That list-decoding sparse interpolation algorithm is the only algorithm of polynomial-time complexity known in the real number case, which then returns a single real model.</div> <div>Kaltofen and his PhD student and two outside collaborators have deployed algebraic error correcting decoding to solving systems of linear equations by interpolation, again when some of the scalar linear systems, which are input and which are assumed to be projections by evaluation of the parameter in the parametric system, are erroneous.&nbsp; In turn, the algorithms by Kaltofen et al.&nbsp; can be used in two special cases to decode beyond the information-theoretical maximal transmission error rate (the classical Reed-Solomon limit): 1. when the recovered polynomials form the solution of parametric linear system; 2. when the errors occur in clusters (``bursts''): they have designed a so-called interleaved Reed-Solomon decoder that can corrects burst errors with a higher error rate.&nbsp; In comparison to the interleaved codes from the literature, the errors need not be uniformly random.</div> <div>Kaltofen and Jean-Guillaume Dumas at the University of Grenoble have designed certificates for high complexity computational tasks that are executed in the cloud.&nbsp; The certificates are tested by a verifier in low complexity and verify that the cloud has faithfully performed the computation.&nbsp; Kaltofen et al. focus on problems from symbolic computation, for example, the computation of the determinant of a very large but sparse matrix over a finite field or the solution of a system of polynomial equations in many variables.&nbsp; Their certificates for the determinants of a sparse matrix can be tested by the verifier in essentially linear time in the input size, which is optimal within logarithmic time factors.&nbsp; Their certificates for polynomial systems are based on the Goldwasser-Kalai-Rothblum (GKR) interactive protocol for delegated computing.&nbsp; GKR provide proof-of-work for any algorithm in the complexity class NC.&nbsp; Kaltofen has generalized the GKR protocol to any algorithm in the complexity class polynomial-time-uniform-NC.&nbsp; The latter class relaxes the complexity required for the representation of the exponential-size and polynomial-depth circuit, which constitutes the algorithm.&nbsp; GKR require that the circuit structure can be computed by algorithms of linear space complexity, which Kaltofen has generalized to polynomial-time complexity.&nbsp; Note that linear space complexity is always polynomial-time but not the reverse.</div> <div>Broader impact:</div> <div>A PhD student who was a full-time research assistant on the project for seven semesters is an African American male.&nbsp; The PhD student participated in all major conferences in the symbolic computation discipline and presented one peer-reviewed paper at the 2017 International Symposium on Symbolic and Algebraic Computation.&nbsp; The PhD student also participated in all of the annually occurring Conferences for African-American Researchers in the Mathematical Sciences (CARMS), and won the Angela E.&nbsp; Grant Poster Award for Best Algorithm in 2016 and 2018.&nbsp; The PhD student is tutoring African-American high school students in mathematics.&nbsp; He is hired by their parents specifically as a role model for his pupils.</div> <div>There were 2 postdoctoral scholars funded by the project, one of who is now employed by Google.</div> <div>Kaltofen co-organized the Major Program in Computer Algebra at the Fields Institute in Toronto in Fall 2015 and spent 6 weeks (October 2015 through first half of November 2015) there together with his PhD student.&nbsp; He was the principal investigator of the NSF portion of the funding for the program.</div> <p>&nbsp;</p><br> <p>            Last Modified: 12/08/2018<br>      Modified by: Erich&nbsp;L&nbsp;Kaltofen</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   Merit: When synthesizing a compressed, that is, concise model for a data set of observation points, one can choose different building blocks for the model.  The project focused on orthogonal functions as the basis of representation.  Kaltofen and his postdoctoral scholar and collaborators have shown how to compute a function that fits the data and which is a linear sum of Chebyshev polynomials (of all 4 kinds) from twice as many points as polynomials in the sum. In other words, a t-sparse model is constructed from 2 times t observations.  In addition, they give algorithms that correct errors in the observations, that is, detect function points are incorrect outliers.  One of the results shows that for sparse models constructed from points and values that are real numbers, one can in theory correct errors by oversampling at as many points as there are errors, which is the error rate for the classical algebraic Reed-Solomon code.  However, for sparse models that fit points and values which are complex numbers, very few errors can lead to multiple models that fit the points except with those few errors at possibly different locations.  Kaltofen and his collaborators have addressed the problem by list-decoding, meaning by computing (in polynomial-time) a set of models that fit.  However, the correctable error rate is still much smaller than in the real number case.  That list-decoding sparse interpolation algorithm is the only algorithm of polynomial-time complexity known in the real number case, which then returns a single real model. Kaltofen and his PhD student and two outside collaborators have deployed algebraic error correcting decoding to solving systems of linear equations by interpolation, again when some of the scalar linear systems, which are input and which are assumed to be projections by evaluation of the parameter in the parametric system, are erroneous.  In turn, the algorithms by Kaltofen et al.  can be used in two special cases to decode beyond the information-theoretical maximal transmission error rate (the classical Reed-Solomon limit): 1. when the recovered polynomials form the solution of parametric linear system; 2. when the errors occur in clusters (``bursts''): they have designed a so-called interleaved Reed-Solomon decoder that can corrects burst errors with a higher error rate.  In comparison to the interleaved codes from the literature, the errors need not be uniformly random. Kaltofen and Jean-Guillaume Dumas at the University of Grenoble have designed certificates for high complexity computational tasks that are executed in the cloud.  The certificates are tested by a verifier in low complexity and verify that the cloud has faithfully performed the computation.  Kaltofen et al. focus on problems from symbolic computation, for example, the computation of the determinant of a very large but sparse matrix over a finite field or the solution of a system of polynomial equations in many variables.  Their certificates for the determinants of a sparse matrix can be tested by the verifier in essentially linear time in the input size, which is optimal within logarithmic time factors.  Their certificates for polynomial systems are based on the Goldwasser-Kalai-Rothblum (GKR) interactive protocol for delegated computing.  GKR provide proof-of-work for any algorithm in the complexity class NC.  Kaltofen has generalized the GKR protocol to any algorithm in the complexity class polynomial-time-uniform-NC.  The latter class relaxes the complexity required for the representation of the exponential-size and polynomial-depth circuit, which constitutes the algorithm.  GKR require that the circuit structure can be computed by algorithms of linear space complexity, which Kaltofen has generalized to polynomial-time complexity.  Note that linear space complexity is always polynomial-time but not the reverse. Broader impact: A PhD student who was a full-time research assistant on the project for seven semesters is an African American male.  The PhD student participated in all major conferences in the symbolic computation discipline and presented one peer-reviewed paper at the 2017 International Symposium on Symbolic and Algebraic Computation.  The PhD student also participated in all of the annually occurring Conferences for African-American Researchers in the Mathematical Sciences (CARMS), and won the Angela E.  Grant Poster Award for Best Algorithm in 2016 and 2018.  The PhD student is tutoring African-American high school students in mathematics.  He is hired by their parents specifically as a role model for his pupils. There were 2 postdoctoral scholars funded by the project, one of who is now employed by Google. Kaltofen co-organized the Major Program in Computer Algebra at the Fields Institute in Toronto in Fall 2015 and spent 6 weeks (October 2015 through first half of November 2015) there together with his PhD student.  He was the principal investigator of the NSF portion of the funding for the program.          Last Modified: 12/08/2018       Submitted by: Erich L Kaltofen]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research:   Scalable and Flexible Algorithms to Detect Structural Change in Complex Sequence Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>166252.00</AwardTotalIntnAmount>
+<AwardAmount>166252</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Christopher Stark</SignBlockName>
+<PO_EMAI>cstark@nsf.gov</PO_EMAI>
+<PO_PHON>7032924869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern technologies in science and engineering generate data that become bigger in size and more complex in content. It is important and challenging to understand such data using statistical and computational methods, especially to identify trends in the data. Examples include large scale sequence data from genomics and market data from economics. In genomics, researchers search for copy number variations (CNVs) by examining hundreds of thousands of measurements of biomarkers along the whole genome. In financial engineering, it is useful to identify and interpret abrupt changes of stock prices. In these examples, a premier goal is to discover structural changes from massive sequence data. In this collaborative project, the investigators intend to develop and study theoretically sound and practically flexible and portable strategies to analyze complex sequence data and apply the proposed algorithms to real data for scientific discovery. &lt;br/&gt; &lt;br/&gt;The investigators aim to develop scalable and flexible algorithms to identify and infer structural changes in contemporary high-throughput data. In particular, they will work on (a) fast change-point detection techniques which are flexible enough to handle non-Gaussian data and dependent data; (b) new statistical framework for joint analysis of multiple-sequence data; (c) theoretical foundations for inference of change points which can assign significant levels for detected change points and achieves the control of false discovery rate (FDR); (d) applications to CNV data for scientific discoveries. Moreover, the investigators plan to develop user-friendly and publicly accessible software for the proposed methods so that researchers can apply the proposed methodologies directly to their research problems.</AbstractNarration>
+<MinAmdLetterDate>06/21/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>06/21/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1722544</AwardID>
+<Investigator>
+<FirstName>Heping</FirstName>
+<LastName>Zhang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Heping Zhang</PI_FULL_NAME>
+<EmailAddress>heping.zhang@yale.edu</EmailAddress>
+<PI_PHON>2037855185</PI_PHON>
+<NSF_ID>000442395</NSF_ID>
+<StartDate>06/21/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Yale University</Name>
+<CityName>New Haven</CityName>
+<ZipCode>065208327</ZipCode>
+<PhoneNumber>2037854689</PhoneNumber>
+<StreetAddress>Office of Sponsored Projects</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 208327]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<StateCode>CT</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CT03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>043207562</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>YALE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>043207562</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Yale University]]></Name>
+<CityName/>
+<StateCode>CT</StateCode>
+<ZipCode>065208034</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CT03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8083</Code>
+<Text>Big Data Science &amp;Engineering</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~166252</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The major goals of this project are to design and implement new scalable algorithms to detect structural changes in modern big and complex data, to establish theoretical foundation to these new methods, and to apply them to real applications for scientific discoveries.&nbsp;</p> <p>It is a fundamental problem to uncover structural changes in big and complex data. Due to the tremendous sizes and complex noise distributions that are commonly observed in modern data, scalability and flexibility are two main concerns in developing change-point detection and segment detection algorithms. We have completed a couple of projects, which develop fast change-point detection algorithms for non-Gaussian data. In Xiao et al. (2019), we proposed modSaRa2 that can incorporate a nonGaussian sequence, called B-Allele Frequency (BAF), for copy number variant (CNV) detection. In Hao et al. (2020), we proposed a nonparametric segment detection algorithm, called super scalable short segment (4S) algorithm, which requires minimal condition on the noise distribution and is robust against heavy-tailed distributions. Besides flexibility, both algorithms are scalable with complexity linear to the length of data sequence. In particular, the 4S algorithm is super-fast, costing only less than 5n operations to analyze a sequence of length n. It outperforms many existing methods in terms of scalability and flexibility.&nbsp; More importantly, it is equipped with an inference framework, which gives a significant level for each detected segment.</p> <p>In applications, detecting weak CNV signals given the noisy background from genotyping data is challenging. In the new method we developed, modSaRa2, we integrated more genetic information and external information to increase accuracy and power. By both simulations and real data application, we demonstrate its superiority over existing methods.</p> <p>&nbsp;</p><br> <p>            Last Modified: 07/07/2020<br>      Modified by: Heping&nbsp;Zhang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The major goals of this project are to design and implement new scalable algorithms to detect structural changes in modern big and complex data, to establish theoretical foundation to these new methods, and to apply them to real applications for scientific discoveries.   It is a fundamental problem to uncover structural changes in big and complex data. Due to the tremendous sizes and complex noise distributions that are commonly observed in modern data, scalability and flexibility are two main concerns in developing change-point detection and segment detection algorithms. We have completed a couple of projects, which develop fast change-point detection algorithms for non-Gaussian data. In Xiao et al. (2019), we proposed modSaRa2 that can incorporate a nonGaussian sequence, called B-Allele Frequency (BAF), for copy number variant (CNV) detection. In Hao et al. (2020), we proposed a nonparametric segment detection algorithm, called super scalable short segment (4S) algorithm, which requires minimal condition on the noise distribution and is robust against heavy-tailed distributions. Besides flexibility, both algorithms are scalable with complexity linear to the length of data sequence. In particular, the 4S algorithm is super-fast, costing only less than 5n operations to analyze a sequence of length n. It outperforms many existing methods in terms of scalability and flexibility.  More importantly, it is equipped with an inference framework, which gives a significant level for each detected segment.  In applications, detecting weak CNV signals given the noisy background from genotyping data is challenging. In the new method we developed, modSaRa2, we integrated more genetic information and external information to increase accuracy and power. By both simulations and real data application, we demonstrate its superiority over existing methods.          Last Modified: 07/07/2020       Submitted by: Heping Zhang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

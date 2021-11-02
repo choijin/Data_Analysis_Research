@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Advanced Compiler Techniques for Meeting Fault Tolerance Needs of  HPC Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>499695.00</AwardTotalIntnAmount>
+<AwardAmount>507695</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Making high performance applications resilient to failure of individual nodes is a major challenge today.  Particularly, there is a need for reducing the overheads associated with checkpointing and for dealing  with silent data  corruption in an effective fashion.  This project at Ohio State University is addressing these problems based on new insights and approaches.  The work on  improving the efficiency of checkpointing and restart is based on the following observation - current  checkpointing protocols were developed in context of distributed computing, and do not exploit  key properties  seen in most scientific parallel programs.  This project is developing static and dynamic analysis  methods to determine  what we refer to as the  "message intent", which can  then be used to allow  automated application-level uncoordinated checkpointing, but without the need  for  message logging, keeping  the checkpoint sizes   small, and  recovery low-cost.  In addition, a distinct software approach for handling silent data corruption is being developed.  The idea is to make the data structures that control what computation and/or communication occurs in the program resilient, by only replicating them and their storage.  This introduces modest overheads, but guards against the most drastic impact of silent data corruption on program stability and correctness. &lt;br/&gt;This research will result in reducing overheads of making high performance systems resilient, which in turn will improve the efficiency and resource utilization.</AbstractNarration>
+<MinAmdLetterDate>06/25/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>04/04/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1319420</AwardID>
+<Investigator>
+<FirstName>Gagan</FirstName>
+<LastName>Agrawal</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gagan Agrawal</PI_FULL_NAME>
+<EmailAddress>gagrawal@augusta.edu</EmailAddress>
+<PI_PHON>7067210506</PI_PHON>
+<NSF_ID>000230838</NSF_ID>
+<StartDate>06/25/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University</Name>
+<CityName>Columbus</CityName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888735</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1960 Kenny Road]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832127323</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001964634</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName/>
+<StateCode>OH</StateCode>
+<ZipCode>432101016</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~499695</FUND_OBLG>
+<FUND_OBLG>2014~8000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This grant has focused on resilience concerns in large parallel machines (supercomputers). Technology trends are making soft-errors more frequent -- soft errors are errors where a data value is wrong, like because of a particle hitting the circuits or a noise. Increasing number of cores and decreasing feature size are some of the reasons why such errors are likely to be very frequent in Exascale systems. In this project, we have developed a series of techniques to make scientific computation resilient to such soft errors. The techniques we have developed involve taking efficient application-level checkpoints, developing detectors that check if a soft error has occurred, and if an error is detected, restarting the computation from the last check-point. For certain classes of solvers, we have developed practical methods (backed by mathematical analysis) that are based on residuals. For molecular dynamics computations, we have shown how classical algorithm-based fault-tolerance techniques can be applied. For other classes of computations, we have shown how machine learning can be used to distinguish between behavior in presence of and in absence of soft-errors. Finally, we have also shown how properties of conjugate-gradient can be used to develop new detectors. This project has also made contributions in other areas -- some of the material has been incorporated into seminar courses. Two students supported by this grant have received doctoral degrees and are currently working in industry.</p><br> <p>            Last Modified: 06/03/2018<br>      Modified by: Gagan&nbsp;Agrawal</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This grant has focused on resilience concerns in large parallel machines (supercomputers). Technology trends are making soft-errors more frequent -- soft errors are errors where a data value is wrong, like because of a particle hitting the circuits or a noise. Increasing number of cores and decreasing feature size are some of the reasons why such errors are likely to be very frequent in Exascale systems. In this project, we have developed a series of techniques to make scientific computation resilient to such soft errors. The techniques we have developed involve taking efficient application-level checkpoints, developing detectors that check if a soft error has occurred, and if an error is detected, restarting the computation from the last check-point. For certain classes of solvers, we have developed practical methods (backed by mathematical analysis) that are based on residuals. For molecular dynamics computations, we have shown how classical algorithm-based fault-tolerance techniques can be applied. For other classes of computations, we have shown how machine learning can be used to distinguish between behavior in presence of and in absence of soft-errors. Finally, we have also shown how properties of conjugate-gradient can be used to develop new detectors. This project has also made contributions in other areas -- some of the material has been incorporated into seminar courses. Two students supported by this grant have received doctoral degrees and are currently working in industry.       Last Modified: 06/03/2018       Submitted by: Gagan Agrawal]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

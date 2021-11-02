@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CIF:  Next-Generation Group Testing for Neighbor Discovery in the IoT via Sparse-Graph Codes</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>174938.00</AwardTotalIntnAmount>
+<AwardAmount>174938</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+<PO_EMAI>pregalia@nsf.gov</PO_EMAI>
+<PO_PHON>7032922981</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Group testing is a fundamental inference problem that aims to detect a set of defective items from a larger set of items via group tests. Group testing has a variety of applications in different fields including communications, computer science, machine learning, biology, and signal processing. The main challenges in group testing are to design a small number of tests such that the defective items can be reliably recovered, and to efficiently recover the defective items using a low-complexity decoding algorithm. The goal of this project is to address both challenges by developing fast and near-optimal group testing schemes. The application area that the project focuses on is active neighbor discovery in the Internet of Things (IoT). In an IoT setting, there is an abundance of low-energy devices that collect and transmit information. The main challenge in such systems is to enable a massive number of devices to communicate via a scalable and low-complexity random access scheme. This project addresses this challenge by designing large-scale active neighbor discovery protocols based on group testing.&lt;br/&gt;&lt;br/&gt;The key idea of this research is to view the group testing problem from a coding-theoretic lens to develop recovery algorithms with near-optimal sample complexity (number of tests) and optimal decoding complexity. The main ingredients of this coding-theoretic approach are to: (i) design the tests based on a sparse-graph code; (ii) develop a fast peeling-based decoder with sublinear computational complexity for detecting the defective items; and (ii) leverage powerful tools from modern coding theory such as density evolution to minimize the sample complexity of the algorithm. As a concrete application, by addressing the fundamental challenge of scale in the theory of group testing, the proposed work aims to develop active user detection schemes for large-scale communication systems.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>12/18/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>12/18/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1755808</AwardID>
+<Investigator>
+<FirstName>Ramtin</FirstName>
+<LastName>Pedarsani</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ramtin Pedarsani</PI_FULL_NAME>
+<EmailAddress>ramtin@ece.ucsb.edu</EmailAddress>
+<PI_PHON>8058934166</PI_PHON>
+<NSF_ID>000741613</NSF_ID>
+<StartDate>12/18/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Santa Barbara</Name>
+<CityName>Santa Barbara</CityName>
+<ZipCode>931062050</ZipCode>
+<PhoneNumber>8058934188</PhoneNumber>
+<StreetAddress>Office of Research</StreetAddress>
+<StreetAddress2><![CDATA[Rm 3227 Cheadle Hall]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>24</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA24</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>094878394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SANTA BARBARA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Santa Barbara]]></Name>
+<CityName>Santa Barbara</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>931069560</ZipCode>
+<StreetAddress><![CDATA[Harold Frank Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>24</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA24</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~174938</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Group testing is an important inference problem in computer science, and&nbsp;<span>has a variety of applications in different fields including communications, healthcare, signal processing, and biology. The goal of group testing is to find a set of defective items among a group of items using only tests that are done in group and have a negative output if none of the items are defective in the group and a positive output otherwise. As an example consider a large set of humans where a few may have a disease that can be detected through blood samples. In group testing, the blood samples are grouped and tested in different ways for faster detection of the patients who have the disease. Most recently, group tests have been used for fast testing of Covid-19 due to lack of resources for doing fast individual tests.&nbsp;</span></p> <p><span><br /></span></p> <p><span>In this project, we developed fast and reliable group testing schemes using ideas from coding theory. The designed algorithms require a small number of tests and a small time complexity for detecting the defective items. We applied the group testing algorithm to the problem of active user detection and neighbor discovery in the IoT systems. Moreover, we investigated nonlinear inference problems that go beyond the classical group testing problem. In particular, using the developed mathematical tools and methods, we designed novel, fast and reliable algorithms for multilevel group testing, threshold group testing, and mixed linear regression. The outcomes of the award are publications that appeared in several conference and journal venues such as IEEE Transcations on Information Theory and IEEE Transactions on Signal Processing.</span></p><br> <p>            Last Modified: 08/03/2020<br>      Modified by: Ramtin&nbsp;Pedarsani</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Group testing is an important inference problem in computer science, and has a variety of applications in different fields including communications, healthcare, signal processing, and biology. The goal of group testing is to find a set of defective items among a group of items using only tests that are done in group and have a negative output if none of the items are defective in the group and a positive output otherwise. As an example consider a large set of humans where a few may have a disease that can be detected through blood samples. In group testing, the blood samples are grouped and tested in different ways for faster detection of the patients who have the disease. Most recently, group tests have been used for fast testing of Covid-19 due to lack of resources for doing fast individual tests.      In this project, we developed fast and reliable group testing schemes using ideas from coding theory. The designed algorithms require a small number of tests and a small time complexity for detecting the defective items. We applied the group testing algorithm to the problem of active user detection and neighbor discovery in the IoT systems. Moreover, we investigated nonlinear inference problems that go beyond the classical group testing problem. In particular, using the developed mathematical tools and methods, we designed novel, fast and reliable algorithms for multilevel group testing, threshold group testing, and mixed linear regression. The outcomes of the award are publications that appeared in several conference and journal venues such as IEEE Transcations on Information Theory and IEEE Transactions on Signal Processing.       Last Modified: 08/03/2020       Submitted by: Ramtin Pedarsani]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

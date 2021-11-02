@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Fast Algorithms for Solving Big Data PDE Parameter Estimation Problems on Cloud Computing Platforms</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>179999.00</AwardTotalIntnAmount>
+<AwardAmount>179999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Parameter estimation problems arise in many scientific and economic disciplines, for example, in medical imaging, geophysical explorations, nondestructive testing, and economic structural estimation. Despite enormous effort put into designing efficient methods, solving parameter estimation problems is still very challenging, since the parametrized equations have to be solved repeatedly until the parameters are estimated with satisfactory accuracy. This research project aims to develop and implement efficient numerical methods for solving parameter estimation problems that involve a large number of measurements and partial differential equations.  Reusable, open source software will be developed and made available to the scientific community. The techniques under development in the project will be applicable in geophysics to reduce the computational costs of large surveys that are of high economic impact, for example, in oil and gas exploration and groundwater surveys. The results from this project will also be applicable in medical imaging to reduce health care screening costs and improve diagnosis of certain diseases.&lt;br/&gt;&lt;br/&gt;Parameter estimation can be formulated as an optimization problem with constraints that are given by the parametrized partial differential equations (PDEs). The unknowns are parameters of the PDEs, which correspond to physical properties of the object to be measured. The objective is to minimize the misfit between PDE simulations and measured data plus some regularization term. Cloud computing platforms provide access to immense computational resources at moderate costs and are thus highly attractive for solving PDE parameter estimation problems. This holds particularly for big data problems since the computational costs of the estimation are dominated by the computational costs for PDE simulations. The latter, in many cases, grows linearly with the number of data. Straightforward extensions of the currently most reliable parameter estimation algorithms to massively parallel platforms, however, lead to huge communication overhead and memory requirement. This project seeks to design alternative tailored algorithms that make efficient use of cloud platforms and are able to solve parameter estimation problem with massive amounts of data in reasonable time. The approach undertaken in this project is based on three cornerstones. First, two reduced-order modeling techniques and their combination will be investigated. The PDEs will be discretized on rather coarse rectangular meshes that are aligned to the problem domain. On these meshes, reduced order models with adaptive multiscale bases will be used. Both techniques will dramatically reduce the computational cost associated with the PDE simulations. Second, stochastic optimization methods will be designed to exploit redundancy typically present in big data sets. The goal is to reduce the required number of PDE simulations, derive parameter selection rules, and quantify uncertainty of the solution. Third, the above steps will be combined and implemented on massively parallel cloud computing platforms.</AbstractNarration>
+<MinAmdLetterDate>09/16/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>09/16/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1522599</AwardID>
+<Investigator>
+<FirstName>Lars</FirstName>
+<LastName>Ruthotto</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Lars Ruthotto</PI_FULL_NAME>
+<EmailAddress>lruthotto@emory.edu</EmailAddress>
+<PI_PHON>4047272503</PI_PHON>
+<NSF_ID>000685163</NSF_ID>
+<StartDate>09/16/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Emory University</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303224250</ZipCode>
+<PhoneNumber>4047272503</PhoneNumber>
+<StreetAddress>1599 Clifton Rd NE, 4th Floor</StreetAddress>
+<StreetAddress2><![CDATA[1599-001-1BA]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>066469933</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>EMORY UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>066469933</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Emory University]]></Name>
+<CityName/>
+<StateCode>GA</StateCode>
+<ZipCode>303220001</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8037</Code>
+<Text>Advanced Manufacturing</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8396</Code>
+<Text>Clean Energy Technology</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8609</Code>
+<Text>Other Energy Research</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~179999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Many scientific disciplines rely on partial differential equations (PDE) to model real-world phenomena mathematically. More often than not, these models involve parameters that are unknown or uncertain. The goal of parameter estimation is to determine those properties through indirect measurements. Parameter estimation lies at the core of many scientific and engineering applications, for example, in medical imaging, geophysical imaging, non-destructive testing, and economics. Mathematically, parameter estimation can be phrased as an optimization problem. The unknowns are parameters of the PDE, and the PDE model is imposed as a constraint. The objective function is the sum of the misfit between the data simulated using the PDE model and the actual measurements plus some regularization term, which encodes prior knowledge about the parameters. There are only a few cases in which the optimization problem can be solved analytically. Therefore, most applications use iterative optimization methods. Those methods are computationally expensive as the PDE model needs to be evaluated repeatedly for different guesses until an accurate estimate of the parameters is obtained. When the computational costs grow with the number of measurements, this leads to immense challenges for modern applications.&nbsp;</p> <p>This project developed several new computational approaches that reduce the costs of parameter estimation. A particular focus was on situations where high-resolution estimates are to be computed from large amounts of data. These "big data" problems are increasingly common, given the advancements of measurement devices. Major advances have been made in the following directions. First, a new model reduction method was developed. The scheme lowers the costs of the PDE simulations and uses a multiscale approach to adapt to the new parameter estimate during the optimization efficiently.&nbsp; Second, an open-source software framework that simplifies the use of parallel computing platforms such as cloud instances has been developed and is published at https://github.com/JuliaInv/jInv.jl. The software has been thoroughly tested and been applied to parameter estimation and optimal experimental design problems. Third, new applications of distributed optimization schemes of consensus type were presented, and heuristics that accelerate their performance were derived. Fourth, this project established new formulations of deep learning problems in as parameter estimation problems. This interpretation has resulted in improved network designs and training algorithms.&nbsp;<br /><br />The results of the project were described in 12 articles in computational mathematics journals and four contributions to peer-reviewed proceedings at competitive machine learning conferences. In the award period, the PI and his students gave more than 40 different presentations at conferences and university seminars in 7 different countries as well as three mini-workshops at summer schools. Also, during this project, the principal investigator supervised five undergraduate Honors theses (including three women), and four Ph.D. students (including one Hispanic student).</p><br> <p>            Last Modified: 11/13/2019<br>      Modified by: Lars&nbsp;Ruthotto</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Many scientific disciplines rely on partial differential equations (PDE) to model real-world phenomena mathematically. More often than not, these models involve parameters that are unknown or uncertain. The goal of parameter estimation is to determine those properties through indirect measurements. Parameter estimation lies at the core of many scientific and engineering applications, for example, in medical imaging, geophysical imaging, non-destructive testing, and economics. Mathematically, parameter estimation can be phrased as an optimization problem. The unknowns are parameters of the PDE, and the PDE model is imposed as a constraint. The objective function is the sum of the misfit between the data simulated using the PDE model and the actual measurements plus some regularization term, which encodes prior knowledge about the parameters. There are only a few cases in which the optimization problem can be solved analytically. Therefore, most applications use iterative optimization methods. Those methods are computationally expensive as the PDE model needs to be evaluated repeatedly for different guesses until an accurate estimate of the parameters is obtained. When the computational costs grow with the number of measurements, this leads to immense challenges for modern applications.   This project developed several new computational approaches that reduce the costs of parameter estimation. A particular focus was on situations where high-resolution estimates are to be computed from large amounts of data. These "big data" problems are increasingly common, given the advancements of measurement devices. Major advances have been made in the following directions. First, a new model reduction method was developed. The scheme lowers the costs of the PDE simulations and uses a multiscale approach to adapt to the new parameter estimate during the optimization efficiently.  Second, an open-source software framework that simplifies the use of parallel computing platforms such as cloud instances has been developed and is published at https://github.com/JuliaInv/jInv.jl. The software has been thoroughly tested and been applied to parameter estimation and optimal experimental design problems. Third, new applications of distributed optimization schemes of consensus type were presented, and heuristics that accelerate their performance were derived. Fourth, this project established new formulations of deep learning problems in as parameter estimation problems. This interpretation has resulted in improved network designs and training algorithms.   The results of the project were described in 12 articles in computational mathematics journals and four contributions to peer-reviewed proceedings at competitive machine learning conferences. In the award period, the PI and his students gave more than 40 different presentations at conferences and university seminars in 7 different countries as well as three mini-workshops at summer schools. Also, during this project, the principal investigator supervised five undergraduate Honors theses (including three women), and four Ph.D. students (including one Hispanic student).       Last Modified: 11/13/2019       Submitted by: Lars Ruthotto]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

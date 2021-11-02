@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Efficient Algorithms for Lossless Data and Image Compression</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2003</AwardExpirationDate>
+<AwardTotalIntnAmount>82940.00</AwardTotalIntnAmount>
+<AwardAmount>82940</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010800</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Cozzens</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Proposal 122293&lt;br/&gt;U of Ill Urbana-Champaign&lt;br/&gt;PI: Bresler, Yoram&lt;br/&gt;&lt;br/&gt;In spite of the focus in recent years on lossy compression of audio, images, and video, lossless data compression remains crucial in applications such as text files, facsimiles, software executables, and&lt;br/&gt;medical imaging. Universal source coding algorithms, which deal with sources whose statistics are unknown, are of particular importance.  Universal coding methods are designed for universal performance over a broad class of possible sources. In these methods the source parameters are estimated, either implicitly or explicitly, and the sequence itself is encoded accordingly. Therefore the coding length for universal methods is g eater than the entropy; the extra coding length, called the redundancy satisfies a fundamental lower bound by Rissanen. &lt;br/&gt;&lt;br/&gt;The focus of research in universal data compression has been on reducing redundancies. In this sense, context tree weighting (CTW) has achieved the ultimate goal for the important class of tree sources, because it&lt;br/&gt;has essentially achieved Rissanen 's bound. However, in addition to low redundancies, a universal coding method must be computationally fast, and consume little memory. Neither of the two leading methods, CTW or&lt;br/&gt;PPM, a compression method that has been fine-tuned by various heuristics for practical use, are particularly strong performers in these respects.  Therefore, the main goal of the proposed research is to develop algorithms featuring fast computation and low memory use, while providing compression near Rissanen 's bound. &lt;br/&gt;&lt;br/&gt;Like some of the most efficient high-performance universal compression algorithms to-date, the proposed approach is based on the Burrows Wheeler transform (BWT). The BWT is an invertible transform whose output contains segments in which symbols are approximately independent identically distributed. Owing to this similarity to piecewise i.i.d. (PIID), compressing the BWT output using PIID methods yields good&lt;br/&gt;compression results. However, such methods cannot achieve universal coding redundancies close to Rissanen 's bound because they require (whether implicitly or Explicitly) extra bits to encode the positions of&lt;br/&gt;transitions between segments in the BWT output.  Recognizing this hidden overhead, this project proposes to take a fresh look at BWT based-methods and the relationship to the fundamental redundancy bounds.&lt;br/&gt;The project will explore ways to close the gap between traditional BWT-based methods and Rissanen 's bound while retaining the computational efficiency of the BWT. A particular challenge will be to apply this approach to lossless image compression. &lt;br/&gt;&lt;br/&gt;The resulting algorithms will have linear complexity, and be better than any current algorithm with comparable asymptotic compression performance, in terms of computation and/or memory use. Some versions of these algorithms will also have simple structure, admitting fast hardware implementations. Furthermore, this research will reveal the role of context modeling in universal lossless image compression. Since near-Rissanen redundancies with linear complexity are hard to beat, we expect a shift in the universal coding literature from compression improvement to implementation and practicality. &lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>07/07/2001</MinAmdLetterDate>
+<MaxAmdLetterDate>07/07/2001</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0122293</AwardID>
+<Investigator>
+<FirstName>Yoram</FirstName>
+<LastName>Bresler</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yoram Bresler</PI_FULL_NAME>
+<EmailAddress>ybresler@uiuc.edu</EmailAddress>
+<PI_PHON>2173847530</PI_PHON>
+<NSF_ID>000463491</NSF_ID>
+<StartDate>07/07/2001</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<CountyName>CHAMPAIGN</CountyName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Champaign</CityName>
+<CountyName>CHAMPAIGN</CountyName>
+<StateCode>IL</StateCode>
+<ZipCode>618207406</ZipCode>
+<StreetAddress><![CDATA[1901 South First Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>4720</Code>
+<Text>SIGNAL PROCESSING SYS PROGRAM</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9216</Code>
+<Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0101</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2001~82940</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Making Software Transactional Memory More than a Research Toy</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Now that computer technology appears to have reached the limit of Dennard scaling (increasing clock rates), software must become more parallel, to scale with hardware that provides more instead of faster cores.  However, writing correct, scalable shared-memory concurrent programs is notoriously difficult. Transactional memory (TM) offers potential improvements over conventional shared-memory systems in programmability, reliability, and scalability.  However, it has not lived up to its initial promise, primarily because no one has shown how to make it practical. Hardware manufacturers are reluctant to build hardware TM (HTM) into already-complex cache and memory subsystems, and software TM (STM) suffers from poor performance and weak semantics. This project seeks to advance the state of the art dramatically by investigating new research directions for making STM truly practical, by achieving high performance with strong semantics. The project tackles STM's key cost in existing work -- detecting and handling conflicting accesses -- using a novel mechanism that avoids synchronization at non-conflicting accesses.&lt;br/&gt;&lt;br/&gt;Direct beneficial impacts of making widely available practical STM support include the ability to produce more reliable and scalable software systems, leading to advances in software for safety- and mission-critical systems. Widespread use of STM can help spur commercial development of hardware support for hybrid hardware-software TM, which requires practical STM support. The investigator's engagement with industrial researchers provides an avenue to enhance dissemination.  Public distribution of STM implementations produced by this project provides a basis for further research and development.  Several educational and outreach activities, including course projects, enhanced core course material, interactive presentations for a summer bridge program targeting minority undergraduate engineering majors, and recruiting events for prospective minority graduate students, aim to train a diverse group of programmers and researchers in developing future reliable, scalable software systems.</AbstractNarration>
+<MinAmdLetterDate>08/23/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/23/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218695</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Bond</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael Bond</PI_FULL_NAME>
+<EmailAddress>mikebond@cse.ohio-state.edu</EmailAddress>
+<PI_PHON>6142923805</PI_PHON>
+<NSF_ID>000565569</NSF_ID>
+<StartDate>08/23/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University</Name>
+<CityName>Columbus</CityName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888735</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1960 Kenny Road]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832127323</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001964634</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName/>
+<StateCode>OH</StateCode>
+<ZipCode>432101063</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Now that computer technology appears to have reached the limit of Dennard scaling (increasing clock rates), software must become more parallel, to scale with hardware that provides more instead of faster cores. However, writing correct, scalable shared-memory concurrent programs is notoriously difficult. Transactional memory (TM) offers potential improvements over conventional shared-memory systems in programmability, reliability, and scalability. However, it has not lived up to its initial promise, primarily because no one has shown how to make it practical. Hardware manufacturers are reluctant to build unbounded hardware TM (HTM) into already-complex cache and memory subsystems, and software TM (STM) suffers from poor performance and weak semantics. This project seeks to advance the state of the art dramatically by investigating new research directions for making STM truly practical, by achieving high performance with strong semantics. The project aims to not only advance STM but also develop runtime support that is applicable to providing strong semantic guarantees, both for transactional and non-transactional shared-memory programs.</p> <p>The project provides the following contributions. (1) It develops a novel STM called LarkTM that has low overhead, tunable scalability, and strong semantic guarantees. (2) It demonstrates how to exploit asynchrony to enhance STM and other software systems that provide atomicity and determinism guarantees. (3) The project introduces support for a memory model based on snapshot isolation of synchronization-free regions, in order to balance efficiency and semantic guarantees with availability. (4) It introduces novel analyses that detect data races -- which are a key source of errors in software systems -- that are efficient enough for always-on use in production systems. Each of these contributions advances the state of the art, by providing runtime support on commodity systems with better performance than existing work.</p> <p>Broader impacts of the project include the ability to produce more reliable and scalable software systems, leading to advances in software for safety- and mission-critical systems. The project's software implementations are publicly available, providing a basis for further research and development. Mentoring, educational, and outreach activities have helped to train a diverse group of computer science students and researchers in developing future reliable, scalable software systems.</p><br> <p>            Last Modified: 11/22/2016<br>      Modified by: Michael&nbsp;Bond</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Now that computer technology appears to have reached the limit of Dennard scaling (increasing clock rates), software must become more parallel, to scale with hardware that provides more instead of faster cores. However, writing correct, scalable shared-memory concurrent programs is notoriously difficult. Transactional memory (TM) offers potential improvements over conventional shared-memory systems in programmability, reliability, and scalability. However, it has not lived up to its initial promise, primarily because no one has shown how to make it practical. Hardware manufacturers are reluctant to build unbounded hardware TM (HTM) into already-complex cache and memory subsystems, and software TM (STM) suffers from poor performance and weak semantics. This project seeks to advance the state of the art dramatically by investigating new research directions for making STM truly practical, by achieving high performance with strong semantics. The project aims to not only advance STM but also develop runtime support that is applicable to providing strong semantic guarantees, both for transactional and non-transactional shared-memory programs.  The project provides the following contributions. (1) It develops a novel STM called LarkTM that has low overhead, tunable scalability, and strong semantic guarantees. (2) It demonstrates how to exploit asynchrony to enhance STM and other software systems that provide atomicity and determinism guarantees. (3) The project introduces support for a memory model based on snapshot isolation of synchronization-free regions, in order to balance efficiency and semantic guarantees with availability. (4) It introduces novel analyses that detect data races -- which are a key source of errors in software systems -- that are efficient enough for always-on use in production systems. Each of these contributions advances the state of the art, by providing runtime support on commodity systems with better performance than existing work.  Broader impacts of the project include the ability to produce more reliable and scalable software systems, leading to advances in software for safety- and mission-critical systems. The project's software implementations are publicly available, providing a basis for further research and development. Mentoring, educational, and outreach activities have helped to train a diverse group of computer science students and researchers in developing future reliable, scalable software systems.       Last Modified: 11/22/2016       Submitted by: Michael Bond]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

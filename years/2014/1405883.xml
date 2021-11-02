@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CI-New: Collaborative Research: Federated Data Set Infrastructure for Recognition Problems in Computer Vision</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Yang</SignBlockName>
+<PO_EMAI>jyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924768</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Broad access to image and video datasets has been responsible for much of the progress in computer vision recognition problems over the last decade.  These common benchmarks have played a leading role in transforming recognition research from a black art into an experimental science.  Progress, however, has stagnated; although datasets continue to grow, they are developed and annotated in isolation: e.g., a collection of sporting activities, a set of objects in images, etc. These isolated datasets suffer from task and domain-specific bias, and knowledge transfer across them is extremely limited.  This project is investigating and establishing a prototype architecture that federates across various recognition problems and modalities, by establishing a common namespace for entities, events and annotations across the datasets.  The project is also establishing a web-portal for the prototype federated dataset architecture and linking two existing recognition datasets into the prototype architecture. The resulting federated structure is truly greater than the sum of its parts, and can support new research that was not previously possible for the computer vision community and other related fields.&lt;br/&gt;&lt;br/&gt;As a first test scenario for this federated architecture, this project is investigating and constructing a new federated dataset of images and video annotated with various forms of associated text.  Image and video content annotations span both the spatial and temporal dimensions while textual annotations reflecting depicted content range from complete free-form natural language descriptions, to more targeted phrases and referring expressions, to individual keyword lists.  This dataset is being constructed to promote and enhance collaboration efforts between the vision and language communities by providing a new multi-modal annotated dataset with associated research competitions.</AbstractNarration>
+<MinAmdLetterDate>08/26/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/26/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1405883</AwardID>
+<Investigator>
+<FirstName>Julia</FirstName>
+<LastName>Hockenmaier</LastName>
+<PI_MID_INIT>C</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Julia C Hockenmaier</PI_FULL_NAME>
+<EmailAddress>juliahmr@illinois.edu</EmailAddress>
+<PI_PHON>2173332187</PI_PHON>
+<NSF_ID>000237005</NSF_ID>
+<StartDate>08/26/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName/>
+<StateCode>IL</StateCode>
+<ZipCode>618207473</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7359</Code>
+<Text>CCRI-CISE Cmnty Rsrch Infrstrc</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7359</Code>
+<Text>COMPUTING RES INFRASTRUCTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Like any area of Artificial Intelligence that uses supervised machine learning, Computer Vision and Natural Language Processing require annotated datasets to train their learning-based systems on. New, suitable datasets are often a prerequisite for exploring new tasks or research directions.This project built on earlier research by the PI on datasets for image description (i.e. the task of automatically associating a photo with a sentence that describes what is depicted in this photo). As part of an earlier NSF-funded research project, the PI's group had created one of the first, widely used, crowdsourced datasets for this task, Flickr30K, a dataset of 30K images of everyday scenes and events, each associated with five independently generated captions.<br />The primary focus of the current project was to augment this dataset to enable more sophisticated tasks at the interface of vision and language processing. Specifically, we focused on entity grounding as the task of identifying all mentions of entities such as people or objects in a caption with their corresponding bounding boxes in the image. We therefore augmented the Flickr30K image-caption data set with bounding boxes for all entity mentions. Additionally, since each image is described by five independently written captions, we also augmented the entity mentions with cross-caption coreference information (allowing us to identify which mentions in separate captions refer to the same set of entities). We also explored the task of identifying subset information between such mentions. We have made the resultant dataset, Flickr30K Entities, available to the research community.&nbsp;<br />The secondary focus of this project was to leverage Flickr30K for language understanding tasks that require reasoning. This dataset captures a wide variety of human activities, and since the same scene can be described in many different ways, the different captions associated with the same image contain a lot of implicit commonsense knowledge (e.g. one can easily infer that &nbsp;holding a shovel goes together with digging a hole, or that one looks in the mirror when shaving), we also explored the notion of denotational similarities which capture this kind of knowledge. Moreover, we leverage the fact that Flickr30K contains multiple captions to define a multi-premise entailment recognition task and dataset. Entailment recognition is a well-known natural language understanding task where a system is given two sentences, a premise and a hypothesis, and then has to decide whether the hypothesis is likely to be entailed by the premise, contradicted by the premise, or whether there is no such relation between the two statements. We extended this task to a multi-premise setting where the system is given multiple, independently generated descriptions of the same scene, and has to decide whether the hypothesis is likely to be true or false, or whether its status cannot be inferred from the premises. Since the different premises may talk about the same entities or events in different ways (e.g. they may focus on different aspects of an event, or on different entities within a scene), multi-premise entailment requires the system to aggregate the information across the premises. We believe this task has important practical applications for scenarios where different people describe the same event (e.g. on social media or as witnesses), and hope that our dataset will open up new research in this area.&nbsp;</p><br> <p>            Last Modified: 01/27/2020<br>      Modified by: Julia&nbsp;C&nbsp;Hockenmaier</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Like any area of Artificial Intelligence that uses supervised machine learning, Computer Vision and Natural Language Processing require annotated datasets to train their learning-based systems on. New, suitable datasets are often a prerequisite for exploring new tasks or research directions.This project built on earlier research by the PI on datasets for image description (i.e. the task of automatically associating a photo with a sentence that describes what is depicted in this photo). As part of an earlier NSF-funded research project, the PI's group had created one of the first, widely used, crowdsourced datasets for this task, Flickr30K, a dataset of 30K images of everyday scenes and events, each associated with five independently generated captions. The primary focus of the current project was to augment this dataset to enable more sophisticated tasks at the interface of vision and language processing. Specifically, we focused on entity grounding as the task of identifying all mentions of entities such as people or objects in a caption with their corresponding bounding boxes in the image. We therefore augmented the Flickr30K image-caption data set with bounding boxes for all entity mentions. Additionally, since each image is described by five independently written captions, we also augmented the entity mentions with cross-caption coreference information (allowing us to identify which mentions in separate captions refer to the same set of entities). We also explored the task of identifying subset information between such mentions. We have made the resultant dataset, Flickr30K Entities, available to the research community.  The secondary focus of this project was to leverage Flickr30K for language understanding tasks that require reasoning. This dataset captures a wide variety of human activities, and since the same scene can be described in many different ways, the different captions associated with the same image contain a lot of implicit commonsense knowledge (e.g. one can easily infer that  holding a shovel goes together with digging a hole, or that one looks in the mirror when shaving), we also explored the notion of denotational similarities which capture this kind of knowledge. Moreover, we leverage the fact that Flickr30K contains multiple captions to define a multi-premise entailment recognition task and dataset. Entailment recognition is a well-known natural language understanding task where a system is given two sentences, a premise and a hypothesis, and then has to decide whether the hypothesis is likely to be entailed by the premise, contradicted by the premise, or whether there is no such relation between the two statements. We extended this task to a multi-premise setting where the system is given multiple, independently generated descriptions of the same scene, and has to decide whether the hypothesis is likely to be true or false, or whether its status cannot be inferred from the premises. Since the different premises may talk about the same entities or events in different ways (e.g. they may focus on different aspects of an event, or on different entities within a scene), multi-premise entailment requires the system to aggregate the information across the premises. We believe this task has important practical applications for scenarios where different people describe the same event (e.g. on social media or as witnesses), and hope that our dataset will open up new research in this area.        Last Modified: 01/27/2020       Submitted by: Julia C Hockenmaier]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

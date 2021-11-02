@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Estimation and Inference for Massive Multivariate Spatial Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/15/2018</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>102683.00</AwardTotalIntnAmount>
+<AwardAmount>102683</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Gabor Szekely</SignBlockName>
+<PO_EMAI>gszekely@nsf.gov</PO_EMAI>
+<PO_PHON>7032928869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Satellite observations of the Earth's atmosphere and oceans have the potential to improve forecasting of hurricanes and other extreme weather events. Massive efforts to sample the chemical constituents present in well water can reduce uncertainty in mapping of hazardous materials in groundwater. Observations of chemical reactions at the sub-micron scale may lead to new insights about the behavior of toxic trace elements in soils. However, the value of these expensive efforts to collect massive amounts of data will not be fully realized if the statistical techniques for analyzing them do not keep pace. The current techniques available are inadequate to flexibly model and extract information from massive datasets consisting of many variables collected across a region. This research project aims to develop computationally efficient methods for addressing the central challenges for analyzing massive multivariate spatial data: (1) drawing justifiable conclusions about the relationships among the multiple variables, and (2) making full and appropriate use of all variables when mapping the data. Addressing the first challenge is essential to translating observational and experimental data into scientific knowledge. Addressing the second is crucially important for providing predictions of potentially harmful outcomes, and the key to solving both challenges is integrating the multivariate and spatial data analysis into a unified framework.&lt;br/&gt;&lt;br/&gt;The inherent correlation in time series and spatial data is the feature that makes interpolation and forecasting possible, but it also complicates estimation of multivariate relationships. As a result, analyses of time series data often start with a transformation of the data into the spectral domain, in which the transformed data are approximately uncorrelated. Although the spectral domain has played a central role in developing theory for models for spatial data, several issues have hindered the implementation of practical spectral domain methods for spatial data. This project aims to develop methodological innovations to overcome those barriers and provide practitioners with a flexible set of tools to extract information from dozens of spatial variables simultaneously, and predict variables at unsampled locations using all of the available data. The methods employ computationally efficient periodic data augmentations to simplify analyses, dramatically improve the ability to characterize uncertainty, and are supported by novel theoretical results.</AbstractNarration>
+<MinAmdLetterDate>10/18/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>10/18/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1844420</AwardID>
+<Investigator>
+<FirstName>Joseph</FirstName>
+<LastName>Guinness</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Joseph Guinness</PI_FULL_NAME>
+<EmailAddress>guinness@cornell.edu</EmailAddress>
+<PI_PHON>6072557011</PI_PHON>
+<NSF_ID>000656186</NSF_ID>
+<StartDate>10/18/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Cornell University</Name>
+<CityName>Ithaca</CityName>
+<ZipCode>148502820</ZipCode>
+<PhoneNumber>6072555014</PhoneNumber>
+<StreetAddress>373 Pine Tree Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY23</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>872612445</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CORNELL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002254837</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Cornell University]]></Name>
+<CityName>ithaca</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>148502820</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY23</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1269</Code>
+<Text>STATISTICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8083</Code>
+<Text>Big Data Science &amp;Engineering</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~102683</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project focused on the development of methodology for analyzing data composed of multiple variables observed over space and time. This type of data is important for studies of the environment, weather, and climate. For example, we need to understand how temperatures are changing over space and time, and how the composition of clouds varies in different types of storms.</p> <p>Analyzing this type of data is difficult because there are many--actually an infinite number of--different ways that variables can be related to one another, so while generally we would like the data to inform us about how variables depend on one another, we need to make some reasonable and justified assumptions to narrow down the type of dependence that we allow in our models. One of those assumptions is that of stationarity: meaning that the relationship or correlation between any two variables is the same no matter where we are in the universe, or when.</p> <p>Under the stationary assumption, there is still a wide spectrum of how observables can vary over space and time, and this project took a flexible approach to estimating this variation. Out of computational convenience, the existing appraoches made an unrealistic assumption about how variables behaved on the edges of the region on which they were measured, which causes all sorts of problems. The existing approaches also struggled when some of the data were missing in some areas. This project created computationally efficient procedures to alleviate these edge effects and naturally handle missing observations without adversely impacting the results.</p> <p>As a result, we now have a suite of easy-to-use methods to automatically estimate stationary models from large datasets. The methods were applied to interpolate surface temperature data from the MODIS satellite instrument, and determine differences in the composition of convective thunderstorms and hurricanes, using data from the GOES-16 advanced baseline imager satellite instrument.</p> <p>This project also developed software for estimating a popular interpolation model called a Gaussian process model. The software package is written in the R programming language and is called GpGp. Among R Gaussian process software, it is considered state-of-the-art, thanks to highly optimized code and new algorithms for quickly searching for the best model for the data.</p> <p>Working with students, we also developed methods that can be applied when we do not feel that the stationary assumption is justified. This again is difficult because in order to do anything useful, we need to say specifically how the stationary assumption should be relaxed because there are infinitely many ways to depart from stationarity. In our work, we posited models that split the region into contiguous subregions, and assumed stationarity within each subregion, but not across different subregions, and we deveveloped computationally efficient methods for estimating such models from large datasets.</p><br> <p>            Last Modified: 09/29/2020<br>      Modified by: Joseph&nbsp;Guinness</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project focused on the development of methodology for analyzing data composed of multiple variables observed over space and time. This type of data is important for studies of the environment, weather, and climate. For example, we need to understand how temperatures are changing over space and time, and how the composition of clouds varies in different types of storms.  Analyzing this type of data is difficult because there are many--actually an infinite number of--different ways that variables can be related to one another, so while generally we would like the data to inform us about how variables depend on one another, we need to make some reasonable and justified assumptions to narrow down the type of dependence that we allow in our models. One of those assumptions is that of stationarity: meaning that the relationship or correlation between any two variables is the same no matter where we are in the universe, or when.  Under the stationary assumption, there is still a wide spectrum of how observables can vary over space and time, and this project took a flexible approach to estimating this variation. Out of computational convenience, the existing appraoches made an unrealistic assumption about how variables behaved on the edges of the region on which they were measured, which causes all sorts of problems. The existing approaches also struggled when some of the data were missing in some areas. This project created computationally efficient procedures to alleviate these edge effects and naturally handle missing observations without adversely impacting the results.  As a result, we now have a suite of easy-to-use methods to automatically estimate stationary models from large datasets. The methods were applied to interpolate surface temperature data from the MODIS satellite instrument, and determine differences in the composition of convective thunderstorms and hurricanes, using data from the GOES-16 advanced baseline imager satellite instrument.  This project also developed software for estimating a popular interpolation model called a Gaussian process model. The software package is written in the R programming language and is called GpGp. Among R Gaussian process software, it is considered state-of-the-art, thanks to highly optimized code and new algorithms for quickly searching for the best model for the data.  Working with students, we also developed methods that can be applied when we do not feel that the stationary assumption is justified. This again is difficult because in order to do anything useful, we need to say specifically how the stationary assumption should be relaxed because there are infinitely many ways to depart from stationarity. In our work, we posited models that split the region into contiguous subregions, and assumed stationarity within each subregion, but not across different subregions, and we deveveloped computationally efficient methods for estimating such models from large datasets.       Last Modified: 09/29/2020       Submitted by: Joseph Guinness]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

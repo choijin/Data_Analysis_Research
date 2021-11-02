@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR-PDOS: Out-of-Context Prefetching for L2 Caches</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2010</AwardExpirationDate>
+<AwardTotalIntnAmount>0.00</AwardTotalIntnAmount>
+<AwardAmount>222000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Krishna Kant</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>On a multi-tasked system, the CPU cycles through a number of processes every few milliseconds. Some of the processes are memory-intensive, but most are non-intensive support processes and other user programs such as text-editors, email clients, and instant messengers. A typical system cycles through a few memory-intensive processes, each of which replaces several cache blocks from the level-2 cache from other processes. This results in a large number of demand misses for the L2, and ties up the memory subsystem preventing effective prefetching.&lt;br/&gt;&lt;br/&gt;This project investigates a possible solution to this problem by modifying the OS to prefetch to the L2 out of context, i.e. when the CPU is executing a non memory-intensive process. (ideally, just before the memory-intensive process will be brought in for execution). Thus, when this process resumes execution, it will have low L2 cache misses which in turn will keep the memory-bus free in order to prefetch even more blocks. Out-of-context prefetching aims to shift from a predominantly demand-fetched paradigm to a predominantly prefetched paradigm.&lt;br/&gt;&lt;br/&gt;In conjunction with accurate predictors for prefetching, this work has the potential to greatly mitigate the performance CPU-memory gap problem on a system-wide level. The expected outcome of the project is a Linux implementation of out-of-context prefetching on a full-system simulator, and a website that documents all the assumptions, the source code, and extensive project results beyond those published in the corresponding research literature. All researchers, operating system designers, and processor manufacturers will have access to the website and the research findings to freely incorporate them as they wish.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>08/21/2007</MinAmdLetterDate>
+<MaxAmdLetterDate>07/07/2009</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0720741</AwardID>
+<Investigator>
+<FirstName>Sohum</FirstName>
+<LastName>Sohoni</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sohum A Sohoni</PI_FULL_NAME>
+<EmailAddress>sohum.sohoni@asu.edu</EmailAddress>
+<PI_PHON>4053388317</PI_PHON>
+<NSF_ID>000269193</NSF_ID>
+<StartDate>08/21/2007</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Oklahoma State University</Name>
+<CityName>Stillwater</CityName>
+<ZipCode>740781011</ZipCode>
+<PhoneNumber>4057449995</PhoneNumber>
+<StreetAddress>101 WHITEHURST HALL</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Oklahoma</StateName>
+<StateCode>OK</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OK03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049987720</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OKLAHOMA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049987720</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Oklahoma State University]]></Name>
+<CityName>Stillwater</CityName>
+<StateCode>OK</StateCode>
+<ZipCode>740781011</ZipCode>
+<StreetAddress><![CDATA[101 WHITEHURST HALL]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Oklahoma</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OK03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0107</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>490100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0108</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0109</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2007~100819</FUND_OBLG>
+<FUND_OBLG>2008~105181</FUND_OBLG>
+<FUND_OBLG>2009~16000</FUND_OBLG>
+</Award>
+</rootTag>

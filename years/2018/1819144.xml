@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Novel Multiple-Shooting Algorithms for Optimization Governed by Time-Dependent Partial Differential Equations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>319192.00</AwardTotalIntnAmount>
+<AwardAmount>319192</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Mathematical optimization plays a crucial role in the optimal design of engineering systems and in their efficient operation. For example, management of oil reservoirs requires the injection of, e.g., water into wells to push oil reserves through complex geological structures to production wells with the goal to maximize revenue. Systems like this are modeled by time-dependent partial differential equations (PDEs) and involve many design or decision variables, such as injection rates that vary among wells and over time, that need to be determined. This research develops new mathematical optimization algorithms for such time-dependent problems.  &lt;br/&gt; &lt;br/&gt;Specifically, this research aims to develop new algorithms for the efficient application of direct multiple shooting (MS) formulations to optimal control and optimal design problems governed by time dependent PDEs, and demonstrates the performance of these algorithms to applications in flow control. Direct MS formulations decompose the underlying PDEs into equations on shorter time subintervals and couple these at the time interval boundaries. These coupling conditions must be satisfied at the solution, but not during the iteration of an optimization algorithm. This is exploited to achieve substantial improvements in the numerical solution of such problems through superior stability properties of sub-problems, enhanced convergence properties of solution algorithms, and introduction of parallelism. However, MS formulations have a price: The auxiliary initial data at time interval boundaries are additional optimization variables and the coupling conditions are additional constraints. For problems governed by (discretized) PDEs this leads to huge increases in the number of optimization variables and constraints. Because of these increases, existing optimization approaches that have been successfully applied to MS formulations of problems governed by ordinary differential equations are practically infeasible in the PDE setting. The goals of this research are to 1) inject MS formulations into first-order gradient optimization algorithms to expand their applicability to problems where the solution of the underlying PDE may be numerically unstable and 2) develop new second-order iterative methods based on model reduction to substantially reduce the computational cost of solving large quadratic-programs that arise in conventional sequential quadratic programming approaches. Convergence analysis of the new methods will be provided and these methods will be demonstrated on applications in flow control.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/07/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>06/07/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1819144</AwardID>
+<Investigator>
+<FirstName>Matthias</FirstName>
+<LastName>Heinkenschloss</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Matthias Heinkenschloss</PI_FULL_NAME>
+<EmailAddress>heinken@rice.edu</EmailAddress>
+<PI_PHON>7133485176</PI_PHON>
+<NSF_ID>000253288</NSF_ID>
+<StartDate>06/07/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>William Marsh Rice University</Name>
+<CityName>Houston</CityName>
+<CountyName>HARRIS</CountyName>
+<ZipCode>770051827</ZipCode>
+<PhoneNumber>7133484820</PhoneNumber>
+<StreetAddress>6100 MAIN ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>050299031</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WILLIAM MARSH RICE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>050299031</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[William Marsh Rice University]]></Name>
+<CityName>Houston</CityName>
+<CountyName>HARRIS</CountyName>
+<StateCode>TX</StateCode>
+<ZipCode>770051827</ZipCode>
+<StreetAddress><![CDATA[6100 Main Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~319192</FUND_OBLG>
+</Award>
+</rootTag>

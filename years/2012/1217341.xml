@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Distributed and Efficient Randomized Algorithms for Large Networks</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>366928.00</AwardTotalIntnAmount>
+<AwardAmount>366928</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Brassil</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>At the heart of most algorithms for distributed and randomized algorithms is a Markov chain that 'visits and samples' a subset of the nodes in the graph and which satisfies the following three properties:  the answer derived from walking the graph converges, the transition probabilities for next state only depend on locally available information and the convergence is 'fast-mixing' or efficient.  The proposal will develop approaches for improving the mixing time of Markov Chain Monte Carlo (MCMC) algorithms. These approaches are then to be applied as a building block for algorithms in three distinct areas -- (1) sampling large graphs (2) wireless multihop scheduling and (3) duty cycling in wireless sensor networks.&lt;br/&gt;&lt;br/&gt;Broader Impact:  MCMC-like approaches underly algorithms for a wide range of socially and economically important problems and that progress in improving the mixing time will have significant impacts.    Additionally, the proposal highlights student mentorship and interdisciplinary course development.</AbstractNarration>
+<MinAmdLetterDate>08/06/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/06/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217341</AwardID>
+<Investigator>
+<FirstName>Do Young</FirstName>
+<LastName>Eun</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Do Young Eun</PI_FULL_NAME>
+<EmailAddress>dyeun@ncsu.edu</EmailAddress>
+<PI_PHON>9195137406</PI_PHON>
+<NSF_ID>000291413</NSF_ID>
+<StartDate>08/06/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName/>
+<StateCode>NC</StateCode>
+<ZipCode>276957911</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~366928</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Designing efficient and distributed algorithms has been central to many networked systems, as seen in crawling-based sampling and estimation of online social networks, statistical inference from massive scale of networked data, and light-weight algorithms for WiFi access over multihop peer-to-peer wireless networks. Most of the developments have been made by application of Markov-chain Monte Carlo &ndash; the principal techniques used in machine learning with big data and statistical inference for complex systems.</p> <p>In this project, we have devised several methods to improve the efficiency of the Markov-chain Monte Carlo techniques and incorporated them into better steering the random walk agents (e.g., Web crawlers) toward faster convergence in order to produce unbiased estimates using fewer number of samples for a given accuracy bound. For instance, we have demonstrated how to systematically improve the so-called Metropolis-Hastings algorithm &ndash; one of top 10 rated algorithms in the 20<sup>th</sup> century, when applied on large graphs. Our work can be applied to many online social networks or networked systems where direct access to the whole database is prohibitive and the only way to navigate the database is from one page (element) to another neighboring ones via local access, much in the same way a crawler moves from one web page to another by `clicking&rsquo; one of the URLs listed therein. We have also developed a new, cost-centric metric to fairly compare competing algorithms such that we can systematically build a cost-optimal crawling strategy for the current online social networks, for which only limited amount of access to the database is allowed or the cost of obtaining one sample may vary.</p> <p>This project has also produced a number of improvements over the current CSMA algorithms to access the common wireless spectrum by utilizing readily-available past state information. By extending the standard Glauber dynamics on graph, often used in the statistical physics and theoretical computer science with graph coloring applications, into higher-order Markov chains, we have developed more efficient WiFi access algorithms that produce smaller delay for each user while preserving the maximally possible throughput rate overall. This line of work is particularly relevant for multihop wireless networks in which many devices are to communicate with each other without any cell tower or access point.</p> <p>Our approach to fundamentally improve the Markov chain Monte Carlo techniques can be applied to much broader scenarios in other scientific disciplines, including machine learning, big data, statistical inference and prediction of epidemics on large networks (graphs). The project has also supported in training and graduating one female PhD student and developing a new graduate-level courses on Network Science with focus on dynamics on the graph and randomized algorithms. A list of publications based on the works under this project is available at:</p> <p>http://www4.ncsu.edu/~dyeun/research/distributed-efficient-algorithms-networks.html</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/18/2017<br>      Modified by: Do Young&nbsp;Eun</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Designing efficient and distributed algorithms has been central to many networked systems, as seen in crawling-based sampling and estimation of online social networks, statistical inference from massive scale of networked data, and light-weight algorithms for WiFi access over multihop peer-to-peer wireless networks. Most of the developments have been made by application of Markov-chain Monte Carlo &ndash; the principal techniques used in machine learning with big data and statistical inference for complex systems.  In this project, we have devised several methods to improve the efficiency of the Markov-chain Monte Carlo techniques and incorporated them into better steering the random walk agents (e.g., Web crawlers) toward faster convergence in order to produce unbiased estimates using fewer number of samples for a given accuracy bound. For instance, we have demonstrated how to systematically improve the so-called Metropolis-Hastings algorithm &ndash; one of top 10 rated algorithms in the 20th century, when applied on large graphs. Our work can be applied to many online social networks or networked systems where direct access to the whole database is prohibitive and the only way to navigate the database is from one page (element) to another neighboring ones via local access, much in the same way a crawler moves from one web page to another by `clicking? one of the URLs listed therein. We have also developed a new, cost-centric metric to fairly compare competing algorithms such that we can systematically build a cost-optimal crawling strategy for the current online social networks, for which only limited amount of access to the database is allowed or the cost of obtaining one sample may vary.  This project has also produced a number of improvements over the current CSMA algorithms to access the common wireless spectrum by utilizing readily-available past state information. By extending the standard Glauber dynamics on graph, often used in the statistical physics and theoretical computer science with graph coloring applications, into higher-order Markov chains, we have developed more efficient WiFi access algorithms that produce smaller delay for each user while preserving the maximally possible throughput rate overall. This line of work is particularly relevant for multihop wireless networks in which many devices are to communicate with each other without any cell tower or access point.  Our approach to fundamentally improve the Markov chain Monte Carlo techniques can be applied to much broader scenarios in other scientific disciplines, including machine learning, big data, statistical inference and prediction of epidemics on large networks (graphs). The project has also supported in training and graduating one female PhD student and developing a new graduate-level courses on Network Science with focus on dynamics on the graph and randomized algorithms. A list of publications based on the works under this project is available at:  http://www4.ncsu.edu/~dyeun/research/distributed-efficient-algorithms-networks.html                Last Modified: 12/18/2017       Submitted by: Do Young Eun]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Distributed Recursive Robust Estimation: Theory, Algorithms and Applications in Single and Multi-Camera Computer Vision</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>250000.00</AwardTotalIntnAmount>
+<AwardAmount>250000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07010000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>ECCS</Abbreviation>
+<LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Lawrence Goldberg</SignBlockName>
+<PO_EMAI>lgoldber@nsf.gov</PO_EMAI>
+<PO_PHON>7032928339</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Many computer vision problems require recursive robust estimation. Some examples include surveillance applications involving a large indoor or outdoor area monitored by a network of static cameras; natural background scenes' recovery, e.g. forest scenes with moving leaves and branches, and their subspace estimation for texture synthesis applications in animated movies; and multi-site video conferencing. The surveillance problem requires tracking moving objects; this can be an easy problem if the background is static. However consider outdoor scene monitoring on a rainy or very foggy day. As the fog moves and its density changes, it results in complex and changing backgrounds and the tracking algorithms need to be robust to this type of 'large' background noise. The texture synthesis for animation is a well-studied problem if there are no occlusions (in this case the background sequence is directly available) but becomes difficult in the presence of severe (large-sized and persistent) occlusions, e.g. moving and occasionally static animals occluding the background scenes. We show in this project that the most challenging step in all the above problems can either be posed as a distributed recursive robust principal components' analysis (PCA) problem, that is robust to outliers, or as a distributed recursive robust sparse recovery problem, that is robust to large but structured noise (noise that is non-sparse and lies in a low-dimensional subspace). The main goal of this project is to develop distributed algorithms to solve these problems for the multi-camera setting. The algorithms will be developed in the context of a multi-site video combining application (needed for multi-site video conferencing).  &lt;br/&gt;&lt;br/&gt;This project is developing the first set of online distributed solutions for the decomposition of a matrix into a sum of a sparse and a low-rank matrix. Robust PCA and robust sparse recovery are special cases of this more general problem. Our online solutions will be significantly faster and memory-efficient compared to existing batch methods. Moreover, unlike most batch methods, these will provably work even when for slow moving or occasionally static foreground objects (these result in the sparse matrix also becoming rank deficient and hence batch methods do not work in this case). This advantage comes because our methods exploit accurate initial subspace knowledge and slow subspace change (both are usually practically valid assumptions in real videos). The key novelty of our work within the computer vision literature is that it is robust to slow changing backgrounds or to frequent and persistent occlusions (depending whether the foreground or the background is the layer of interest).</AbstractNarration>
+<MinAmdLetterDate>06/16/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>06/16/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1509372</AwardID>
+<Investigator>
+<FirstName>Nicola</FirstName>
+<LastName>Elia</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nicola Elia</PI_FULL_NAME>
+<EmailAddress>nelia@umn.edu</EmailAddress>
+<PI_PHON>6126253303</PI_PHON>
+<NSF_ID>000105638</NSF_ID>
+<StartDate>06/16/2015</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Namrata</FirstName>
+<LastName>Vaswani</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Namrata Vaswani</PI_FULL_NAME>
+<EmailAddress>namrata@iastate.edu</EmailAddress>
+<PI_PHON>5152944012</PI_PHON>
+<NSF_ID>000234521</NSF_ID>
+<StartDate>06/16/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Iowa State University</Name>
+<CityName>AMES</CityName>
+<ZipCode>500112207</ZipCode>
+<PhoneNumber>5152945225</PhoneNumber>
+<StreetAddress>1138 Pearson</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<StateCode>IA</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IA04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005309844</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005309844</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Iowa State University]]></Name>
+<CityName>Ames</CityName>
+<StateCode>IA</StateCode>
+<ZipCode>500112207</ZipCode>
+<StreetAddress><![CDATA[2215 Coover Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IA04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7564</Code>
+<Text>CCSS-Comms Circuits &amp; Sens Sys</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>153E</Code>
+<Text>Wireless comm &amp; sig processing</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~250000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><!-- p, li { white-space: pre-wrap; } --> <p>&nbsp;</p> <p>Many computer vision problems require recursive robust estimation. Some examples include surveillance applications involving a large indoor or outdoor area monitored by a network of static cameras; natural background scenes' recovery, e.g. forest scenes with moving leaves and branches, and their subspace estimation for texture synthesis applications in animated movies; and multi-site video conferencing. The surveillance problem requires tracking moving objects; this can be an easy problem if the background is static. However consider outdoor scene monitoring on a rainy or very foggy day. As the fog moves and its density changes, it results in complex and changing backgrounds and the tracking algorithms need to be robust to this type of 'large' background noise. Texture synthesis for animation is a well-studied problem if there are no occlusions (in this case the background sequence is directly available) but becomes difficult in the presence of severe (large-sized and persistent) occlusions, e.g. moving and occasionally static animals occluding the background scenes. We show in this project that the most challenging step in all the above problems can either be posed as a distributed recursive robust principal components' analysis (PCA) problem, that is robust to outliers, or as a distributed recursive robust sparse recovery problem, that is robust to large but structured noise (noise that is non-sparse and lies in a low-dimensional subspace).</p> <p>We developed a provably fast and accurate solution framework for dynamic Robust PCA (Robust Subspace Tracking) called ReProCS.</p> <p>Intellectual Merit: In work supported by this grant, we developed the ReProCS algorithm for various applications. In particular, we did a detailed experimental evaluation of ReProCS-based algorithms for (a) video foreground -background separation and (b) for video denoising and enhancement. (c) We also worked on trying to solve the above problem when the sensors (e.g. cameras) are moving. This part was not very successful in real data experiments although it did work for simulated data. (d) We wrote a detailed review article for IEEE SIgnal Processing Magazine in 2018 on Robust PCA, Robust Subspace Tracking, and Robust Subspace Recovery. The three terms mean slgihtly different things as explained in the article.&nbsp;</p> <p>This grant partially supported the theses for three Ph.D. students Han Guo (who graduated in Spring 2019), Seyedehsara Nayer, and Praneeth Narayamurthy. ALl of these students got the opportunity to attend and present at multiple conferences.&nbsp;</p> <p>Broader Impacts: One of the three students supported, Sara, is a woman. The PI developed a new undergraduate course on Machine Learning: A Signal Processing perspective.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/08/2019<br>      Modified by: Namrata&nbsp;Vaswani</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[     Many computer vision problems require recursive robust estimation. Some examples include surveillance applications involving a large indoor or outdoor area monitored by a network of static cameras; natural background scenes' recovery, e.g. forest scenes with moving leaves and branches, and their subspace estimation for texture synthesis applications in animated movies; and multi-site video conferencing. The surveillance problem requires tracking moving objects; this can be an easy problem if the background is static. However consider outdoor scene monitoring on a rainy or very foggy day. As the fog moves and its density changes, it results in complex and changing backgrounds and the tracking algorithms need to be robust to this type of 'large' background noise. Texture synthesis for animation is a well-studied problem if there are no occlusions (in this case the background sequence is directly available) but becomes difficult in the presence of severe (large-sized and persistent) occlusions, e.g. moving and occasionally static animals occluding the background scenes. We show in this project that the most challenging step in all the above problems can either be posed as a distributed recursive robust principal components' analysis (PCA) problem, that is robust to outliers, or as a distributed recursive robust sparse recovery problem, that is robust to large but structured noise (noise that is non-sparse and lies in a low-dimensional subspace).  We developed a provably fast and accurate solution framework for dynamic Robust PCA (Robust Subspace Tracking) called ReProCS.  Intellectual Merit: In work supported by this grant, we developed the ReProCS algorithm for various applications. In particular, we did a detailed experimental evaluation of ReProCS-based algorithms for (a) video foreground -background separation and (b) for video denoising and enhancement. (c) We also worked on trying to solve the above problem when the sensors (e.g. cameras) are moving. This part was not very successful in real data experiments although it did work for simulated data. (d) We wrote a detailed review article for IEEE SIgnal Processing Magazine in 2018 on Robust PCA, Robust Subspace Tracking, and Robust Subspace Recovery. The three terms mean slgihtly different things as explained in the article.   This grant partially supported the theses for three Ph.D. students Han Guo (who graduated in Spring 2019), Seyedehsara Nayer, and Praneeth Narayamurthy. ALl of these students got the opportunity to attend and present at multiple conferences.   Broader Impacts: One of the three students supported, Sara, is a woman. The PI developed a new undergraduate course on Machine Learning: A Signal Processing perspective.           Last Modified: 12/08/2019       Submitted by: Namrata Vaswani]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

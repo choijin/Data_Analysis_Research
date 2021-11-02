@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Toward Scalable Life-long Representation Learning</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>115000.00</AwardTotalIntnAmount>
+<AwardAmount>115000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Todd Leen</SignBlockName>
+<PO_EMAI>tleen@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Machine learning is a powerful tool for artificial intelligence and data mining problems. However, its success critically relies on a good feature representation of the data; therefore, the problem of feature construction poses a fundamental challenge. In recent years, representation learning has emerged as a promising method for learning useful feature representations from data. However, the current state-of-the-art methods are still limited in building intelligent agents that can learn and interact with complex environments and large amounts of sensory input. Specifically, the majority of the existing methods cannot scale well to large-scale data.&lt;br/&gt;&lt;br/&gt;The goal of this project is to fill this gap by formulating a new framework that can effectively learn representations from complex environments and scale to large data. Specifically, we propose novel approaches for learning robust representations from large-scale data by (1) controlling the complexity of the feature representations and (2) adaptively modeling relevant patterns in the presence of significant amounts of irrelevant patterns or noise.&lt;br/&gt;&lt;br/&gt;Key intellectual contributions of this project will be (1) a novel framework of representation learning that provides robust representations from large amounts of unlabeled data and relatively small amounts of labeled data, and (2) theoretical and algorithmic advances for inference, learning, and related optimization problems in representation learning for large-scale, complex sensory information processing.&lt;br/&gt;&lt;br/&gt;This work will serve as a catalyst leading to applications, such as multimedia processing and search, medical image processing, speech recognition, and autonomous navigation. The results will be disseminated through publications and free software.</AbstractNarration>
+<MinAmdLetterDate>07/19/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/19/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1247414</AwardID>
+<Investigator>
+<FirstName>Honglak</FirstName>
+<LastName>Lee</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Honglak Lee</PI_FULL_NAME>
+<EmailAddress>honglak@eecs.umich.edu</EmailAddress>
+<PI_PHON>7347641817</PI_PHON>
+<NSF_ID>000583664</NSF_ID>
+<StartDate>07/19/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073133571</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MICHIGAN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073133571</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Michigan Ann Arbor]]></Name>
+<CityName/>
+<StateCode>MI</StateCode>
+<ZipCode>481092121</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~115000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-65593ca6-2a68-f5e7-a691-1a1768722814">&nbsp;</span></p> <p dir="ltr"><span>In this project, we developed representation learning algorithms that can learn meaningful features from large amount of data automatically in deep learning framework.</span></p> <p>&nbsp;</p> <p dir="ltr"><span>In one thrust, we advanced the training methods for deep learning algorithms by reducing the effort in model complexity selection. The &ldquo;latent&rdquo; variable plays an important role in deep learning since it controls the model capacity; if we have too many latent variables, the model overfits and does not generalize well to unseen data; if we have too few latent variables, the model underfits and does not represent the data well. We developed novel learning frameworks that finds an optimal model complexity. Specifically, our model adaptively increases or decreases the number of latent variables by adding new latent variables or merging existing similar latent variables depending on the current models&rsquo; fit to the data. In addition, our model can discover the appropriate number of semantically meaningful mid-level features (e.g., attributes) in weakly supervised setting from (virtually) infinite amount of latent variables.</span></p> <p><br /><span>In another thrust, we developed algorithms for learning robust features to irrelevant patterns, such as patterns in the background or random noise. Learning robust features to the noise is essential in many applications of computer vision (e.g., natural image understanding) and medical imaging (e.g., analysis of CT scans) since the images are complex and highly variable, containing a lot of information that are not relevant to the task of interest. Our methods can effectively remove different types of unseen noise, which lead to robust recognition. Furthermore, when there exists a weak human supervision, our proposed learning algorithm can learn to focus on the relevant region (e.g., learning from the object region instead of background clutters). Besides the visual perception, our models have a great potential for other domains such as speech recognition where the data could be cluttered by the surrounding &ldquo;wild&rdquo; environment.</span></p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/24/2014<br>      Modified by: Honglak&nbsp;Lee</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   In this project, we developed representation learning algorithms that can learn meaningful features from large amount of data automatically in deep learning framework.    In one thrust, we advanced the training methods for deep learning algorithms by reducing the effort in model complexity selection. The "latent" variable plays an important role in deep learning since it controls the model capacity; if we have too many latent variables, the model overfits and does not generalize well to unseen data; if we have too few latent variables, the model underfits and does not represent the data well. We developed novel learning frameworks that finds an optimal model complexity. Specifically, our model adaptively increases or decreases the number of latent variables by adding new latent variables or merging existing similar latent variables depending on the current modelsÆ fit to the data. In addition, our model can discover the appropriate number of semantically meaningful mid-level features (e.g., attributes) in weakly supervised setting from (virtually) infinite amount of latent variables.   In another thrust, we developed algorithms for learning robust features to irrelevant patterns, such as patterns in the background or random noise. Learning robust features to the noise is essential in many applications of computer vision (e.g., natural image understanding) and medical imaging (e.g., analysis of CT scans) since the images are complex and highly variable, containing a lot of information that are not relevant to the task of interest. Our methods can effectively remove different types of unseen noise, which lead to robust recognition. Furthermore, when there exists a weak human supervision, our proposed learning algorithm can learn to focus on the relevant region (e.g., learning from the object region instead of background clutters). Besides the visual perception, our models have a great potential for other domains such as speech recognition where the data could be cluttered by the surrounding "wild" environment.             Last Modified: 10/24/2014       Submitted by: Honglak Lee]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

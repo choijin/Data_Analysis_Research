@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Reduced Order Model Approaches for Time Dependent Nonlinear PDE Constrained Optimization</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>149925.00</AwardTotalIntnAmount>
+<AwardAmount>149925</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Junping Wang</SignBlockName>
+<PO_EMAI>jwang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924488</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project develops, analyses and implements projection based reduced order models (ROMs) for optimization problems associated with nonlinear evolution partial differential equations (PDEs). These ROMs determine a subspace that  contains the essential (for the optimization) dynamics  of the nonlinear evolution PDEs and project these PDEs onto the subspace. If the subspace is small, the original nonlinear PDEs in the optimization problem can be replaced by a small system of ordinary differential equations and the resulting approximate optimization problem can be solved efficiently. The efficient generation of ROMs together with error estimates that can monitor the quality of the ROMs is challenging. This project expands and integrates ideas from goal oriented adaptive mesh refinement, proper orthogonal decomposition (POD), and model management approaches in optimization to overcome these challenges. Specifically, model management ideas from optimization are used determine at which optimization parameters the nonlinear evolution PDE needs to be solved to generate snapshots for the ROM. Furthermore, for the numerical solution of the PDE and generation of snapshots a combination of goal-oriented dual weighted based adaptive space-time finite element approximations of the PDE and discrete Galerkin-POD will be used. In particular, local-in-time and local-in-space dual weighted residuals for the control of the error in time and the error in space will be obtained that also provide a prediction of appropriate time steps at which snapshots are taken. The goal is the derivation of an a posteriori error estimator for the ROM error that gives us information about the number of reduced basis functions that need to be included. This novel approach will result in an Adaptive Discrete Galerkin-POD (ADGPOD) algorithm for an efficient and reliable ROM-based numerical solution of PDE constrained optimization. In addition the resulting ROMs will be demonstrated on several applications, including flow control/design problems and the optimal control of Asymmetrical-Flow Field-Flow-Fractionation processes for the fast separation of nanoparticles, proteins, and other macromolecules.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The optimal design of processes and systems in engineering and life science applications often requires the optimal control/optimization of systems of nonlinear partial differential equations (PDE). The numerical solution of such problems typically amounts to the solution of large nonlinear algebraic systems requiring extensive storage and computational time. On the other hand, the design engineers are interested to run optimal designs on their PCs within a couple of minutes. This can be achieved only by a dramatic reduction of the dimension of the problem, i.e., by developing a reduced model for the underlying PDE system that captures the essential dynamics of the expensive high fidelity simulation. Although reduced order models have been shown to work well for a wide spectrum of applications, they not yet well understood from a theoretical point of view, especially for nonlinear problems. This project will provide a better theoretical foundation of reduced order models for nonlinear problems, it will develop novel algorithmic tools for the efficient generation of reliable reduced order models, and it will demonstrate the algorithms on important science and engineering applications.</AbstractNarration>
+<MinAmdLetterDate>07/01/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>07/01/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1115658</AwardID>
+<Investigator>
+<FirstName>Ronald</FirstName>
+<LastName>Hoppe</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME>Dr</PI_SUFX_NAME>
+<PI_FULL_NAME>Ronald H Hoppe</PI_FULL_NAME>
+<EmailAddress>rohop@math.uh.edu</EmailAddress>
+<PI_PHON>7137433452</PI_PHON>
+<NSF_ID>000381960</NSF_ID>
+<StartDate>07/01/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Houston</Name>
+<CityName>Houston</CityName>
+<ZipCode>772042015</ZipCode>
+<PhoneNumber>7137435773</PhoneNumber>
+<StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>036837920</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF HOUSTON SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042916627</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Houston]]></Name>
+<CityName>Houston</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>772042015</ZipCode>
+<StreetAddress><![CDATA[4800 Calhoun Boulevard]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~149925</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Model order reduction is a technique to reduce the computational complexity in the numerical solution of large-scale dynamical systems by a reduction of the dimension of the state space. In this project, we have considered model order reduction by snapshot based proper orthogonal decomposition with discrete empirical interpolation (POD-DEIM) for optimal control problems associated with nonlinear partial differential equations (PDE) of parabolic type. In particular, based on a semi-discretization in space of the optimality system&nbsp; by standard finite elements with respect to a simplicial triangulation of the computational domain we have developed an adaptive choice of the snapshot times in terms of a suitable a posteriori error estimator. With regard to the numerical solution of the resulting nonlinear systems by Newton-type methods, we have also shown that under mild assumptions on the data of the problem the reduced order models inherit the convergence properties of the full order model.</p> <p>The algorithms have been applied to various optimal control problems of industrial relevance. In particular, we have considered the optimal control of inductive heating of ferromagnetic materials such as gears used in the automobile industry. Here, the state equations are given by a coupled system of PDE consisting of the eddy currents equations in electromagnetism and a Stefan-type problem describing the temporal and spatial evolution of the temperature in the material. The control is the electric power applied to the coil surrounding the material and the control objective is to choose the control in such a way that an almost uniform temperature distribution is achieved in a vicinity of the surface of the material at final time. Another application was the optimal control of bio-micro-electro-mechanical systems (BIOMEMS)&nbsp; used, e.g., for the separation of biological cells. In particular, we have considered surface acoustic wave actuated cell sorting in fluid-filled microchannels of two types of biological cells. Here, the state equations are given by the incompressible Navier-Stokes equations coupled with the equations of motion of the cells. The controls are the inflow velocities at the inflow channels and the frequency of the interdigital transducer generating the surface acoustic waves. The control objective is to modify the fluid flow in the separation channel by means of the surface acoustic waves in such a way that one cell type leaves the channel through a prespecified outflow channel and the other cell type leaves through another outflow channel.</p> <p>Therefore, the results of this project have not only pushed forward the area of model order reduction in PDE constrained optimization, but also had an impact on the development of innovative technologies in materials and life sciences.</p><br> <p>            Last Modified: 02/11/2016<br>      Modified by: Ronald&nbsp;H&nbsp;Hoppe</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2015/1115658/1115658_10104861_1439454512792_Hoppe_CellSorting--rgov-214x142.jpg" original="/por/images/Reports/POR/2015/1115658/1115658_10104861_1439454512792_Hoppe_CellSorting--rgov-800width.jpg" title="Sorting of biological cells"><img src="/por/images/Reports/POR/2015/1115658/1115658_10104861_1439454512792_Hoppe_CellSorting--rgov-66x44.jpg" alt="Sorting of biological cells"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Optima...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Model order reduction is a technique to reduce the computational complexity in the numerical solution of large-scale dynamical systems by a reduction of the dimension of the state space. In this project, we have considered model order reduction by snapshot based proper orthogonal decomposition with discrete empirical interpolation (POD-DEIM) for optimal control problems associated with nonlinear partial differential equations (PDE) of parabolic type. In particular, based on a semi-discretization in space of the optimality system  by standard finite elements with respect to a simplicial triangulation of the computational domain we have developed an adaptive choice of the snapshot times in terms of a suitable a posteriori error estimator. With regard to the numerical solution of the resulting nonlinear systems by Newton-type methods, we have also shown that under mild assumptions on the data of the problem the reduced order models inherit the convergence properties of the full order model.  The algorithms have been applied to various optimal control problems of industrial relevance. In particular, we have considered the optimal control of inductive heating of ferromagnetic materials such as gears used in the automobile industry. Here, the state equations are given by a coupled system of PDE consisting of the eddy currents equations in electromagnetism and a Stefan-type problem describing the temporal and spatial evolution of the temperature in the material. The control is the electric power applied to the coil surrounding the material and the control objective is to choose the control in such a way that an almost uniform temperature distribution is achieved in a vicinity of the surface of the material at final time. Another application was the optimal control of bio-micro-electro-mechanical systems (BIOMEMS)  used, e.g., for the separation of biological cells. In particular, we have considered surface acoustic wave actuated cell sorting in fluid-filled microchannels of two types of biological cells. Here, the state equations are given by the incompressible Navier-Stokes equations coupled with the equations of motion of the cells. The controls are the inflow velocities at the inflow channels and the frequency of the interdigital transducer generating the surface acoustic waves. The control objective is to modify the fluid flow in the separation channel by means of the surface acoustic waves in such a way that one cell type leaves the channel through a prespecified outflow channel and the other cell type leaves through another outflow channel.  Therefore, the results of this project have not only pushed forward the area of model order reduction in PDE constrained optimization, but also had an impact on the development of innovative technologies in materials and life sciences.       Last Modified: 02/11/2016       Submitted by: Ronald H Hoppe]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

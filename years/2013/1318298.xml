@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Reliable In-place Execution for Multicore Processors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>499916.00</AwardTotalIntnAmount>
+<AwardAmount>499916</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The microprocessor industry has transitioned to chip-multiprocessor designs, where additional on-chip resources provided by continued process scaling are dedicated to providing more and more processor cores per die. Since power for a single die is capped, each core is allotted a shrinking fraction of the overall power budget, making it difficult or impossible to design a core that provides the performance improvements that end users expect. At the same time, ever smaller devices are more vulnerable to transient errors caused by cosmic rays. For these reasons, there is an urgent industry demand for novel microarchitectural approaches that deliver high levels of single-thread performance (execution latency) and increased resilience to soft errors (reliability), while dramatically reducing power consumption. Without dramatic innovations in the design of power-efficient, high-performance multicore building blocks, the continued device scaling of future nanometer technologies may no longer provide substantial returns in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole, face a serious challenge in maintaining the growth-based business model that has sustained them for four decades. This research has broad industry- and economy-wide impact since it helps to address or avert these challenges. &lt;br/&gt;&lt;br/&gt;The Reliable In-Place Execution (RIPE) project investigates microarchitectural approaches based on the concept of in-place execution of instructions. In contrast to conventional designs where instructions traverse deep processing pipelines at high frequency, RIPE assigns an instruction to a fixed execution station where it is evaluated in place. This approach dramatically improves power efficiency by minimizing device activity and avoiding pipelining, complex control logic, multiported storage structures, and other power-hungry components of traditional out-of-order processor cores. RIPE also inherently reduces vulnerability to single-event upsets (SEUs), while forming an attractive substrate for low-cost detection of and recovery from single-event transients (SETs). RIPE is also uniquely suited for streamlining instruction fetch, since the in-place instructions can be reactivated for multiple loop iterations or to resolve conditional control flow, avoiding the power and performance costs of fetching instructions from the memory hierarchy, and eliminating performance penalties due to mispredicted branches. RIPE cores can also be clustered and interconnected to provide very high levels of performance in a scalable and power-efficient manner. The proposed research, if successful, will lead to processor core designs that meet the seemingly contradictory objectives of modest area, low power consumption, high instruction-level parallelism (ILP), competitive frequency, and reliable operation even in inherently unreliable future technologies.</AbstractNarration>
+<MinAmdLetterDate>06/28/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/28/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1318298</AwardID>
+<Investigator>
+<FirstName>Mikko</FirstName>
+<LastName>Lipasti</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mikko H Lipasti</PI_FULL_NAME>
+<EmailAddress>mikko@engr.wisc.edu</EmailAddress>
+<PI_PHON>6082652639</PI_PHON>
+<NSF_ID>000290802</NSF_ID>
+<StartDate>06/28/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Wisconsin-Madison</Name>
+<CityName>MADISON</CityName>
+<ZipCode>537151218</ZipCode>
+<PhoneNumber>6082623822</PhoneNumber>
+<StreetAddress>21 North Park Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 6401]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<StateCode>WI</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WI02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>161202122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WISCONSIN SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041188822</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Wisconsin-Madison]]></Name>
+<CityName/>
+<StateCode>WI</StateCode>
+<ZipCode>537151218</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WI02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~499916</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project investigated a family of novel microarchitectural approaches that have ultimately led to a groundbreaking approach for processor core design that closely matches the seemingly-contradictory attributes of modest area, low power consumption, high ILP, competitive frequency, and reliable operation in the presence of transient faults, while providing a substrate for dynamically-extensible power-proportional single-thread performance. This research has substantially advanced the design and co-design of CPU core building blocks and associated control mechanisms and policies, which are capable of providing much higher levels of performance and energy efficiency than existing, conventional approaches.</p> <p>Specifically, our efforts at prototyping the proposed core microarchitecture have shown not only overall improvements in performance, reliability, and energy efficiency, but have identified specific opportunities for improving the cache and memory subsystem (both instruction and data), for streamlining register operand delivery, for implementing accurate, realizable, and efficient branch predictors, and providing much better control over power gating and dynamic voltage and frequency scaling.&nbsp; These and other advances are further reflected in our proposed optimizations that specifically target an important class of server workloads implemented in scripting languages.</p> <p><span>Without the kinds of innovations mentioned here, that dramatically alter the design and architecture of future processor cores, the continued device scaling of future nanometer semiconductor technologies will fail to provide substantial returns in terms of improvements in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole, faces a serious challenges in maintaining the growth-based business model that has sustained it for four decades. This research has had broad industry- and economy-wide impact by helping to address or avert these impending challenges. Finally, the research outcomes from this project are being commercialized through an incorporated startup company that is currently engaged in securing funding to build a silicon prototype.</span></p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/06/2017<br>      Modified by: Mikko&nbsp;H&nbsp;Lipasti</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project investigated a family of novel microarchitectural approaches that have ultimately led to a groundbreaking approach for processor core design that closely matches the seemingly-contradictory attributes of modest area, low power consumption, high ILP, competitive frequency, and reliable operation in the presence of transient faults, while providing a substrate for dynamically-extensible power-proportional single-thread performance. This research has substantially advanced the design and co-design of CPU core building blocks and associated control mechanisms and policies, which are capable of providing much higher levels of performance and energy efficiency than existing, conventional approaches.  Specifically, our efforts at prototyping the proposed core microarchitecture have shown not only overall improvements in performance, reliability, and energy efficiency, but have identified specific opportunities for improving the cache and memory subsystem (both instruction and data), for streamlining register operand delivery, for implementing accurate, realizable, and efficient branch predictors, and providing much better control over power gating and dynamic voltage and frequency scaling.  These and other advances are further reflected in our proposed optimizations that specifically target an important class of server workloads implemented in scripting languages.  Without the kinds of innovations mentioned here, that dramatically alter the design and architecture of future processor cores, the continued device scaling of future nanometer semiconductor technologies will fail to provide substantial returns in terms of improvements in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole, faces a serious challenges in maintaining the growth-based business model that has sustained it for four decades. This research has had broad industry- and economy-wide impact by helping to address or avert these impending challenges. Finally, the research outcomes from this project are being commercialized through an incorporated startup company that is currently engaged in securing funding to build a silicon prototype.                Last Modified: 10/06/2017       Submitted by: Mikko H Lipasti]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

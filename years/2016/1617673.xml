@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Harnessing Network Compression Gains: Fundamental Limits and Practical Implementations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+<PO_EMAI>pregalia@nsf.gov</PO_EMAI>
+<PO_PHON>7032922981</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Past increases in information consumption have been fueled mainly by increasing the bit-carrying capacity of our telecommunications infrastructure, including capital improvements such as laying fiber as well as technological advances that enable this infrastructure to carry more bits. This approach of simply moving more bits now appears to be facing diminishing returns, however. In contrast, there has been less attention paid to how data compression can reduce the number of bits that must be communicated. Thus future increases in per-capita information consumption could be driven by improvements in compression. This project will also contribute to improved STEM education through the development of adoptable course materials for a dedicated graduate-level course on information theory and data compression.&lt;br/&gt;&lt;br/&gt;This research examines how to harness gains in compression, especially network gains. The work will focus on lossy compression for two simple networks that are not well understood: (1) the problem in which several encoders observe separate sources and send compressed versions to a centralized decoder, who seeks to reproduce the sources, and (2) the problem in which a single encoder broadcasts a compressed version of a source to multiple decoders, who reproduce the source with the benefit of side information. For both problems the PIs seek to determine the information-theoretic rate-distortion tradeoffs for a practically-important class of instances. For the first problem, the PIs will also measure the network gains that can be obtained in practice by constructing a system to compress synchrophasor data obtained from the power grid.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>06/10/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/10/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617673</AwardID>
+<Investigator>
+<FirstName>Aaron</FirstName>
+<LastName>Wagner</LastName>
+<PI_MID_INIT>B</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Aaron B Wagner</PI_FULL_NAME>
+<EmailAddress>wagner@ece.cornell.edu</EmailAddress>
+<PI_PHON>6072551017</PI_PHON>
+<NSF_ID>000332581</NSF_ID>
+<StartDate>06/10/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Cornell University</Name>
+<CityName>Ithaca</CityName>
+<ZipCode>148502820</ZipCode>
+<PhoneNumber>6072555014</PhoneNumber>
+<StreetAddress>373 Pine Tree Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY23</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>872612445</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CORNELL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002254837</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Cornell University]]></Name>
+<CityName>Ithaca</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>148533801</ZipCode>
+<StreetAddress><![CDATA[388 Frank H.T. Rhodes Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY23</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>As a society, we move and store much more data than is necessary. This is because much of the data that we move and store is highly compressible: it can be transformed into a compressed form before transmission (or storage) and then decompressed prior to use. This compression process results in higher effective data rates over wireless networks, higher quality images and movies, and more data fitting on storage devices such as hard disks and DVDs.<br /><br />This project focused on achieving said compression, with the ultimate goal of making our communications infrastructure more efficient. The focus was on the mathematical limits of compression, specifically determining how much compression is possible if fidelity to the original master is to be maintained. The focus was in particular on data compression in the context of communication networks, in which there are several users involved in transmitting the data.<br /><br />The project resulted in determining these compression limits, and the best compression schemes, in a number of configurations, including both those in which the compression is performed by separate users and those in which the decompression is performed by separate users. It supported the technical training of several students, and lead to the continued development of a unique graduate course on data compression.</p><br> <p>            Last Modified: 01/22/2020<br>      Modified by: Aaron&nbsp;B&nbsp;Wagner</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ As a society, we move and store much more data than is necessary. This is because much of the data that we move and store is highly compressible: it can be transformed into a compressed form before transmission (or storage) and then decompressed prior to use. This compression process results in higher effective data rates over wireless networks, higher quality images and movies, and more data fitting on storage devices such as hard disks and DVDs.  This project focused on achieving said compression, with the ultimate goal of making our communications infrastructure more efficient. The focus was on the mathematical limits of compression, specifically determining how much compression is possible if fidelity to the original master is to be maintained. The focus was in particular on data compression in the context of communication networks, in which there are several users involved in transmitting the data.  The project resulted in determining these compression limits, and the best compression schemes, in a number of configurations, including both those in which the compression is performed by separate users and those in which the decompression is performed by separate users. It supported the technical training of several students, and lead to the continued development of a unique graduate course on data compression.       Last Modified: 01/22/2020       Submitted by: Aaron B Wagner]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

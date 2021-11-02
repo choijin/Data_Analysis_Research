@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Towards enabling a 2-3 orders of magnitude improvement in call handling capacities of switches</AwardTitle>
+<AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2006</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>462500</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050202</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>     Toward building large-scale switches, the current industry focus is on increasing packet handling&lt;br/&gt;capacities of switch fabrics from Gb/s to Tb/s. Although an increase in packet handling&lt;br/&gt;capacities and line card data rates requires a corresponding increase in call handling capacities of&lt;br/&gt;switches, this problem has received little attention. This is because most of the work on scalability&lt;br/&gt;of packet switch fabrics has targeted connectionless internet protocol (IP) routers, while call handling&lt;br/&gt;arises only in connection-oriented networks. However, in the last few years, resource reservation&lt;br/&gt;to support Quality-of-Service (QoS) guaranteed flows has gained attention. Internet&lt;br/&gt;Engineering Task Force (IETF) is addressing this issue by augmenting IP routers with connection-oriented&lt;br/&gt;capabilities.&lt;br/&gt;     In a connection-oriented network, the signaling protocol that is used to set up and release connections&lt;br/&gt;impacts its call handling capacity. Signaling messages can be complex with many parameters&lt;br/&gt;and timers and the state information associated with calls can become unwieldy.&lt;br/&gt;Consequently, signaling protocols have traditionally been implemented in software. QoS control&lt;br/&gt;solutions are being developed and evaluated based on the premise that call handling capacities do&lt;br/&gt;not scale with the packet handling capacities of switch fabrics. This assumption regarding call&lt;br/&gt;handling capacities has also relegated circuit-switched networks, including high-speed Wave-length&lt;br/&gt;Division Multiplexed networks, to just serve as wires. This proposal challenges this basic&lt;br/&gt;assumption by demonstrating call handling capacities in the order of millions of calls/sec. Changing&lt;br/&gt;this basic assumption regarding call handling capacities would indeed have a far-reaching&lt;br/&gt;impact on both QoS control mechanisms for packet-switched networks, and on the use of emerging&lt;br/&gt;high-speed circuit-switched networks for challenging new applications.&lt;br/&gt;     Our solution approach is to implement signaling protocols in reconfigurable Field Programmable&lt;br/&gt;Gate Array (FPGA) hardware. FPGAs can be reprogrammed as signaling protocols evolve&lt;br/&gt;while significantly improving the call handling capacities relative to software implementation. To&lt;br/&gt;manage complexity, we propose to implement the basic and frequently-used operations of the protocol&lt;br/&gt;in hardware, and relegate the complex and infrequently-used operations to software. In contrast&lt;br/&gt;to stateless protocols, signaling protocols maintain state information for each call. To&lt;br/&gt;manage associated memory requirements, we propose to maintain only the essential state information&lt;br/&gt;for each call in hardware. In this project we propose to (i) implement a typical signaling&lt;br/&gt;protocol in FPGAs, (ii) design a switch controller board using the signaling protocol FPGAs, and&lt;br/&gt;(iii) quantify measures of the implementation to demonstrate achievable call handling capacities.</AbstractNarration>
+<MinAmdLetterDate>08/13/2001</MinAmdLetterDate>
+<MaxAmdLetterDate>12/14/2004</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0087487</AwardID>
+<Investigator>
+<FirstName>Ramesh</FirstName>
+<LastName>Karri</LastName>
+<EmailAddress>rkarri@nyu.edu</EmailAddress>
+<StartDate>12/14/2004</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Ramesh</FirstName>
+<LastName>Karri</LastName>
+<EmailAddress>rkarri@nyu.edu</EmailAddress>
+<StartDate>08/13/2001</StartDate>
+<EndDate>12/10/2004</EndDate>
+<RoleCode>Former Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Malathi</FirstName>
+<LastName>Veeraraghavan</LastName>
+<EmailAddress>mv5g@virginia.edu</EmailAddress>
+<StartDate>12/14/2004</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Malathi</FirstName>
+<LastName>Veeraraghavan</LastName>
+<EmailAddress>mv5g@virginia.edu</EmailAddress>
+<StartDate>08/13/2001</StartDate>
+<EndDate>12/10/2004</EndDate>
+<RoleCode>Former Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Polytechnic University of New York</Name>
+<CityName>Brooklyn</CityName>
+<ZipCode>112013826</ZipCode>
+<PhoneNumber>7182603360</PhoneNumber>
+<StreetAddress>15 Metrotech Center</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0206000</Code>
+<Name>Telecommunications</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>4097</Code>
+<Text>NETWORKING RESEARCH</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

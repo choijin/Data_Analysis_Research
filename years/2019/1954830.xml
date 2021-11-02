@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research:SHF:Medium:Bringing Python Up to Speed</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>377053.00</AwardTotalIntnAmount>
+<AwardAmount>377053</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The Python programming language is among today's most popular computer programming languages and is used to write software in a wide variety of domains, from web services to data analysis to machine learning. Unfortunately, Python’s lightweight and flexible nature -- a major source of its appeal -- can cause significant performance and correctness problems - Python programs can suffer slowdowns as high as 60,000x over optimized code written in traditional programming languages like C and C++, and can require an order-of-magnitude more memory.  Python's flexible, “dynamic” features also make its programs error-prone, with many coding errors only being discovered late in development or after deployment. Python’s frequent use as a "glue language" -- to integrate and interact with different components written in C or C++ -- exposes many Python programs to the unique dangers of those languages, including susceptibility to memory corruption-based security vulnerabilities. This project aims to remedy these problems by developing new technology for Python in the form of novel performance analysis tools, memory-reduction and speed-improving optimizations (including support for multi-core execution), automated software testing frameworks, and common benchmarks to drive their evaluation.&lt;br/&gt;&lt;br/&gt;This project will develop (1) performance analysis tools that help Python programmers accurately identify the sources of slowdowns; (2) techniques for automatically identifying code that can be replaced by calls to C/C++ libraries; (3) an approach to unlocking parallelism in Python threads, which currently must execute sequentially due to a global interpreter lock; and (4) automatic techniques to drastically reduce the memory footprints of Python applications. To improve the correctness of Python applications, the project will develop novel automated testing techniques that (1) augment property-based random testing with coverage-guided fuzzing; (2) employ concolic execution for smarter test generation and input minimization; (3) synthesize property-specific generator functions; (4) leverage statistical clustering techniques to reduce duplicated failure-inducing inputs; and (5) leverage parallelism and adaptive scheduling algorithms to increase testing throughput. The project will develop a set of "bug benchmarks" -- indeed, a novel benchmark-producing methodology -- to evaluate these techniques. The twin threads of performance and correctness are synergistic and complementary: automatic testing drives performance analysis, while performance optimizations (like parallelism) speed automatic testing.&lt;br/&gt;&lt;br/&gt;This award is co-funded by the Software &amp; Hardware Foundations Program in the Division of Computer &amp; Computing Foundations, and the NSF Office of Advanced Cyberinfrastructure.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/17/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>06/17/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1954830</AwardID>
+<Investigator>
+<FirstName>Emery</FirstName>
+<LastName>Berger</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Emery Berger</PI_FULL_NAME>
+<EmailAddress>emery@cs.umass.edu</EmailAddress>
+<PI_PHON>4135450698</PI_PHON>
+<NSF_ID>000483414</NSF_ID>
+<StartDate>06/17/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts Amherst</Name>
+<CityName>Hadley</CityName>
+<ZipCode>010359450</ZipCode>
+<PhoneNumber>4135450698</PhoneNumber>
+<StreetAddress>Research Administration Building</StreetAddress>
+<StreetAddress2><![CDATA[100 Venture Way, Suite 201]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>153926712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts Amherst]]></Name>
+<CityName>Hadley</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>010359450</ZipCode>
+<StreetAddress><![CDATA[100 Venture Way, Suite 201]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>6892</Code>
+<Text>CI REUSE</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>077Z</Code>
+<Text>CSSI-1: Cyberinfr for Sustained Scientif</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~377053</FUND_OBLG>
+</Award>
+</rootTag>

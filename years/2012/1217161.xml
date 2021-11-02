@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Innovative Integrated Strategies for Nonlinear Parametric Inversion</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>190001.00</AwardTotalIntnAmount>
+<AwardAmount>190001</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The investigators aim to reduce drastically the costs of numerical inversion (as occurs, for example, in medical imaging) by blending new parametric level-set approaches and nonlinear least squares methods together with innovations in linear solvers, preconditioning, and model reduction of parameterized systems. Four strategies are combined to reduce the computation necessary while not degrading accuracy of the solution. First, the dimension of the inverse problem is drastically reduced by developing low-order parametric inversion methods replacing the usual voxel-based inversion. Second, the optimization underlying parametric inversion incorporates novel nonlinear least-squares solvers specifically designed to deal with ill-conditioned Jacobians. Third, the high cost of solving many large forward problems is reduced through new model reduction techniques that are particularly well-suited to the structure of the inverse problems under consideration. Fourth, the high costs of computing reduced models and solving forward problems is reduced by innovations in Krylov subspace recycling and efficient reuse of preconditioners for parameterized linear systems. &lt;br/&gt;&lt;br/&gt;The inverse problems studied here involve recovery of images describing how unknown quantities of diagnostic interest (such as electrical conductivity) are distributed throughout a given medium (such as human tissue or soil). These images can reveal the presence or absence of anomalies, such as tumors in human tissue or contaminant plumes in soil. The computational extraction of high quality images from noisy surface measurements in reasonable time is a very difficult task. As rapid advances in technology make it possible to take vastly more measurements, computational bottlenecks become ever more acute, impeding innovation in medical and other areas of imaging. This project aims to combine innovations in diverse fields within computational linear algebra, systems theory, and optimization to create dramatically improved strategies for image extraction.</AbstractNarration>
+<MinAmdLetterDate>09/11/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>09/11/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217161</AwardID>
+<Investigator>
+<FirstName>Misha</FirstName>
+<LastName>Kilmer</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Misha Kilmer</PI_FULL_NAME>
+<EmailAddress>misha.kilmer@tufts.edu</EmailAddress>
+<PI_PHON>6176272005</PI_PHON>
+<NSF_ID>000447484</NSF_ID>
+<StartDate>09/11/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Tufts University</Name>
+<CityName>Boston</CityName>
+<ZipCode>021111817</ZipCode>
+<PhoneNumber>6176273696</PhoneNumber>
+<StreetAddress>136 Harrison Ave</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073134835</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF TUFTS COLLEGE INC</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073134835</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Tufts University]]></Name>
+<CityName>Medford</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021555584</ZipCode>
+<StreetAddress><![CDATA[503 Boston Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~190001</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The largest impediment to the effective and practical utilization of many imaging technologies is the huge time taken by repeated computer simulations that model the transmission and scattering of illuminating radiation through the media to be imaged. An important example of this problem arises in searching for tumors in breast tissue with optical tomography data. Each simulation involves the solution of thousands of large linear systems of equations, with the number of systems tied to the number of sources and detectors in the system. On one hand, rapid advances in technology make it possible to take more and more measurements with ever greater sensor densities and ever greater source densities, allowing, in principle, more accurate images. On the other hand, this additional information further exacerbates the problem of long run times to solve the image reconstruction problems.</p> <p>This project has developed two methods to drastically reduce the runtime for imaging problems without degrading the accuracy of the solution. The first method involves the use of so-called reduced order models that reduce large-scale simulations to much smaller ones. These small simulations accurately capture the measurements by receivers for the input signals while relaxing the accuracy elsewhere. The second method replaces accurate simulation results by estimates based on probability theory that nevertheless capture the relevant information to accurately reconstruct images of medium of interest.</p> <p>Constructing accurate reduced order models efficiently is an important problem in itself. This project has resulted in several substantial improvements in reduced order modeling as well as in methods that efficiently compute reduced order models.</p> <p>This research helps to make cheaper, lower energy, noninvasive medical imaging techniques, such as diffuse optical tomography and electrical impedance/resistance tomography, faster and more accurate, making them more clinically appealing options.</p> <p>In order to recruit new students to work in this interdisciplinary area it is necessary to provide both mathematics and engineering students with the requisite background. Therefore, a graduate course in nonlinear inverse problems was developed as part of this project.</p> <p>In addition, as part of this project, one postdoctoral associate and three graduate students were supported to do research in and learn about this important field. Moreover, three additional graduate students gained valuable experience by participating in parts of this project.</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/29/2015<br>      Modified by: Misha&nbsp;Kilmer</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The largest impediment to the effective and practical utilization of many imaging technologies is the huge time taken by repeated computer simulations that model the transmission and scattering of illuminating radiation through the media to be imaged. An important example of this problem arises in searching for tumors in breast tissue with optical tomography data. Each simulation involves the solution of thousands of large linear systems of equations, with the number of systems tied to the number of sources and detectors in the system. On one hand, rapid advances in technology make it possible to take more and more measurements with ever greater sensor densities and ever greater source densities, allowing, in principle, more accurate images. On the other hand, this additional information further exacerbates the problem of long run times to solve the image reconstruction problems.  This project has developed two methods to drastically reduce the runtime for imaging problems without degrading the accuracy of the solution. The first method involves the use of so-called reduced order models that reduce large-scale simulations to much smaller ones. These small simulations accurately capture the measurements by receivers for the input signals while relaxing the accuracy elsewhere. The second method replaces accurate simulation results by estimates based on probability theory that nevertheless capture the relevant information to accurately reconstruct images of medium of interest.  Constructing accurate reduced order models efficiently is an important problem in itself. This project has resulted in several substantial improvements in reduced order modeling as well as in methods that efficiently compute reduced order models.  This research helps to make cheaper, lower energy, noninvasive medical imaging techniques, such as diffuse optical tomography and electrical impedance/resistance tomography, faster and more accurate, making them more clinically appealing options.  In order to recruit new students to work in this interdisciplinary area it is necessary to provide both mathematics and engineering students with the requisite background. Therefore, a graduate course in nonlinear inverse problems was developed as part of this project.  In addition, as part of this project, one postdoctoral associate and three graduate students were supported to do research in and learn about this important field. Moreover, three additional graduate students gained valuable experience by participating in parts of this project.          Last Modified: 12/29/2015       Submitted by: Misha Kilmer]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

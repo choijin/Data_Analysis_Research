@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Parameter Inference and Parameter Advising in Computational Biology</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>496575.00</AwardTotalIntnAmount>
+<AwardAmount>512575</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sylvia Spengler</SignBlockName>
+<PO_EMAI>sspengle@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Computational biology researchers often need to reconstruct an unobserved phenomenon from available data, such as the unknown evolutionary tree for a set of species, the unknown evolutionary alignment of related protein sequences, or the unseen folded state of an RNA molecule. Finding the reconstruction is usually modeled as an optimization problem, whose optimal solution is intended to correspond to the correct reconstruction. A key ingredient in such a model is the criterion that is being optimized, which is captured by the objective function. This function often has many free parameters, and the choice of values for these parameters critically affects whether the correct reconstruction is actually an optimal solution. This project will build a general software system that solves two complementary problems: (1) parameter inference, which learns optimal values for the parameters of the objective function for classes of inputs, given examples of correct reconstructions; and (2) parameter advising, which recommends good values of the parameters for a specific input. Consider a developer and a user of a software tool that solves a reconstruction problem: parameter inference finds the best default values for the tool developer, while parameter advising finds good specific values for the particular input being run by the tool user.&lt;br/&gt;&lt;br/&gt;Parameter inference will be tackled via a recent algorithmic breakthrough in inverse parametric optimization. Given examples of input-output pairs for a reconstruction problem, values for the parameters of the objective function that make each output be an optimal solution for its input can be found in polynomial time, as long as: (a) the objective function is linear in the parameters, and (b) the reconstruction problem is efficiently solvable when parameter values are fixed. Parameter advising will be tackled by: (1) learning a polynomial that combines feature functions into an estimator for the accuracy of a reconstruction, and (2) selecting the parameter value from a set of choices that yields the reconstruction of highest estimated accuracy. An optimal parameter set that maximizes the average true accuracy of the advisor will be found by integer linear programming.&lt;br/&gt;&lt;br/&gt;The general software system for parameter inference and advising will be made freely available for researchers as open source through the Internet. Outreach educational activities include conducting a summer workshop for high school biology and mathematics teachers to develop bioinformatics curriculum modules for their classrooms, and mentoring economically disadvantaged and minority undergraduate students through the McNair Scholars program. The tools developed by the project are poised to have very broad impact throughout computer science, not just computational biology, as the most widely-used optimization models, such as shortest paths, minimum spanning trees, maximum matchings, and network flow, all have linear objective functions, to which the parameter inference techniques apply.</AbstractNarration>
+<MinAmdLetterDate>09/04/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/15/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217886</AwardID>
+<Investigator>
+<FirstName>John</FirstName>
+<LastName>Kececioglu</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>John D Kececioglu</PI_FULL_NAME>
+<EmailAddress>kece@cs.arizona.edu</EmailAddress>
+<PI_PHON>5206214526</PI_PHON>
+<NSF_ID>000422618</NSF_ID>
+<StartDate>09/04/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Arizona</Name>
+<CityName>Tucson</CityName>
+<ZipCode>857194824</ZipCode>
+<PhoneNumber>5206266000</PhoneNumber>
+<StreetAddress>888 N Euclid Ave</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Arizona</StateName>
+<StateCode>AZ</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>AZ03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>806345617</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ARIZONA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072459266</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Arizona]]></Name>
+<CityName/>
+<StateCode>AZ</StateCode>
+<ZipCode>857210077</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Arizona</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>AZ03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~329195</FUND_OBLG>
+<FUND_OBLG>2013~16000</FUND_OBLG>
+<FUND_OBLG>2014~167380</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>A key issue in modern software tools is that most such tools have a multitude of tunable parameters which must be set, and the quality of the output computed by the tool is highly dependent on the particular values of these parameters. Faced with this issue, most users simply rely on the default parameter setting that comes with the tool, while a different setting might yield a much higher-quality output for the user's given input.</p> <p>In this project, we developed a general technique, called <em>parameter advising</em>, for automatically choosing a good parameter setting for the user's particular input, in the context of protein multiple sequence alignment in the field of bioinformatics. Tools for protein multiple sequence alignment typically have in excess of 200 parameters that must be set. Our research led to the parameter advising tool we call Facet, that automatically chooses values for all 200 parameters simultaneously, and leads to a significant improvement in alignment accuracy on benchmark biological data sets (up to a 45% improvement on the most challenging benchmarks), compared to simply using the best single default parameter setting.</p> <p>Now that automatic parameter advisors such as Facet are available, we leveraged this result to obtain two other breakthroughs: (a) the first method for adaptively choosing different parameter settings along protein sequences, in order to better match the unknown local mutation rate along the sequences, which we call <em>adaptive local realignment</em>, and (b) the first successful method for <em>ensemble multiple alignment</em>, which combines an ensemble of different tools for multiple sequence alignment to effectively yield a new alignment tool that is more accurate than any individual tool in the ensemble. The software tool Facet implementing these results is freely available on the web at facet.cs.arizona.edu. In addition to the publication of research papers on this work, the project also produced a new book on this research topic, <em>Parameter Advising for Multiple Sequence Alignment</em>, published by Springer in 2017.</p> <p>The technique of parameter advising is quite general, and applies to other problems beyond sequence alignment. We believe this research will find application not only in bioinformatics, but to many other disciplines as well.</p><br> <p>            Last Modified: 02/08/2018<br>      Modified by: John&nbsp;D&nbsp;Kececioglu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ A key issue in modern software tools is that most such tools have a multitude of tunable parameters which must be set, and the quality of the output computed by the tool is highly dependent on the particular values of these parameters. Faced with this issue, most users simply rely on the default parameter setting that comes with the tool, while a different setting might yield a much higher-quality output for the user's given input.  In this project, we developed a general technique, called parameter advising, for automatically choosing a good parameter setting for the user's particular input, in the context of protein multiple sequence alignment in the field of bioinformatics. Tools for protein multiple sequence alignment typically have in excess of 200 parameters that must be set. Our research led to the parameter advising tool we call Facet, that automatically chooses values for all 200 parameters simultaneously, and leads to a significant improvement in alignment accuracy on benchmark biological data sets (up to a 45% improvement on the most challenging benchmarks), compared to simply using the best single default parameter setting.  Now that automatic parameter advisors such as Facet are available, we leveraged this result to obtain two other breakthroughs: (a) the first method for adaptively choosing different parameter settings along protein sequences, in order to better match the unknown local mutation rate along the sequences, which we call adaptive local realignment, and (b) the first successful method for ensemble multiple alignment, which combines an ensemble of different tools for multiple sequence alignment to effectively yield a new alignment tool that is more accurate than any individual tool in the ensemble. The software tool Facet implementing these results is freely available on the web at facet.cs.arizona.edu. In addition to the publication of research papers on this work, the project also produced a new book on this research topic, Parameter Advising for Multiple Sequence Alignment, published by Springer in 2017.  The technique of parameter advising is quite general, and applies to other problems beyond sequence alignment. We believe this research will find application not only in bioinformatics, but to many other disciplines as well.       Last Modified: 02/08/2018       Submitted by: John D Kececioglu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

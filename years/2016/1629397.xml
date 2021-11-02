@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: FULL: A Cross-Layer Approach Toward Low-Latency Data-Parallel Applications in Rack-Scale Computing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>825000.00</AwardTotalIntnAmount>
+<AwardAmount>825000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Although many modern applications, e.g., exploratory analytics and scientific visualization, come with stringent latency requirements, today's in-memory and scale-out solutions often provide only best-effort services. A root cause of unpredictability lies in the traditional design principle of minimizing I/O operations. With the advent of faster storage and networks in rack-scale computing, however, I/O may no longer be scarce anymore. This project revisits the tradeoffs and design principles of scale-out, low-latency applications in this emerging context. Bounded response times will reduce over-provisioning and foster new applications (e.g., business intelligence, robotics, and intensive care units) that require consistent performance. Project findings will be integrated into undergraduate and graduate curricula, and software artifacts will be open-sourced for the wider community across academia and industry.  &lt;br/&gt;&lt;br/&gt;This project aims to leverage the influx of new hardware capabilities to enable applications based on bounded response times as their primary design criteria. Specifically, the project leverages approximation, speculation, and scheduling to mask variabilities in latency-sensitive applications. The key technical challenge in realizing this vision lie in making a set of tradeoffs different from the norm: (i) rather than striving for less I/O, this project trades I/O off for better memory locality and aggressively speculate to reduce response times; (ii) when needed, it resorts to approximation techniques for bounded response times; and finally, (iii) it develops new approximation- and speculation-aware schedulers to increase resource efficiency. The project also investigates theoretical and empirical boundaries of approximate and speculative processing as well as new spatiotemporal scheduling techniques in rack-scale computing.</AbstractNarration>
+<MinAmdLetterDate>09/02/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/02/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1629397</AwardID>
+<Investigator>
+<FirstName>Barzan</FirstName>
+<LastName>Mozafari</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Barzan Mozafari</PI_FULL_NAME>
+<EmailAddress>mozafari@umich.edu</EmailAddress>
+<PI_PHON>7347647247</PI_PHON>
+<NSF_ID>000648726</NSF_ID>
+<StartDate>09/02/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Mosharaf</FirstName>
+<LastName>Chowdhury</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mosharaf Chowdhury</PI_FULL_NAME>
+<EmailAddress>mosharaf@umich.edu</EmailAddress>
+<PI_PHON>7346478221</PI_PHON>
+<NSF_ID>000702601</NSF_ID>
+<StartDate>09/02/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073133571</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MICHIGAN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073133571</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Michigan Ann Arbor]]></Name>
+<CityName>Ann Arbor</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>481092121</ZipCode>
+<StreetAddress><![CDATA[2260 Hayward]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~825000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Although modern applications come with stringent performance requirements, existing solutions often provide only best-effort services. A root cause of unpredictability lies in the traditional design principle of minimizing I/O operations. However, with the advent of faster storage and networking hardware, I/O capacity is not as scarce anymore. The overarching goal of this project was to rethink the tradeoffs and design principles of modern applications in this emerging context. To this end, we built a set of solutions that married advances in hardware capabilities with battle-tested software optimization techniques to enable resource disaggregation for big data and AI/ML workloads.</p> <p>To enable efficient and resilient memory disaggregation over fast networks, we created the first practical memory disaggregation solution (<em>Infiniswap</em>) as part of this project. We made it resilient without incurring large memory overhead by designing a erasure-coded memory solution (<em>Hydra</em>), and we enabled locking using RDMA primitives (<em>DSLR</em>) to enable concurrent accesses to remote memory objects. Overall, our solutions took the first steps toward practical memory disaggregation to the point that memory-intensive applications can run without any performance loss even when 50% of their memory resides in remote machines.</p> <p>We also focused on high-performance big data analytics by enabling so-called infinite-scale analytics (<em>VertictDB</em>), whereby any existing analytics engine can leverage approximate query processing to speed up their performance by 57X on average (and up to 841X). We also designed new cluster scheduler (<em>Carbyne</em>) that can take the DAG of a job and altruistically exchange resources with other jobs to improve the average job completion times.&nbsp;In deployments, Carbyne provides 1.26X better effi?ciency and 1.59X lower average completion time than the state-of-the-art, while ensuring fair resource sharing.&nbsp;</p> <p>Another key direction we explored is resource management in AI/ML clusters. To this end, we worked on GPU cluster management (<em>Tiresias</em>) and GPU resource management (Salus) for training as well as both for hyperparameter tuning (<em>FluidExec</em>). In addition, we looked beyond GPUs to optimize CPU resource management in distributed AI training, especially in the parameter server setting. Overall, our solutions resulted in up to 5.5X cluster-level improvement and 7X improvement at the individual GPU level resource usage efficiency, reducing the cost of AI for the masses.</p> <p>Finally, from a theoretical advances perspective, we have explored several techniques to improve approximate query processing in the context of maximum inner-product search (<em>BOUNDEDME</em>) and joins on sampled data (<em>SUBS</em>), improving by an order of magnitude over the state-of-the-art techniques. At the same time, we have made progress on the learning theory side by enabling projection-free optimization and selectivity learning with mixture models (<em>QuickSel</em>).&nbsp;QuickSel is 34.0X?179.4X faster than stateof-the-art query-driven techniques for selectivity learning.</p> <div class="layoutArea"> <div class="column"> <div class="page" title="Page 1"> <div class="layoutArea"> <div class="column"> <p>All software developed as part of this project are based on established open-source systems such as Apache Spark, Apache YARN, TensorFlow, and MySQL, and we have and continue to open-source our works at&nbsp;<a class="externalLink" href="../research-portal/appmanager/research-portal/exit.jsp?link=https%3A%2F%2Fgithub.com%2Fsymbioticlab">https://github.com/symbioticlab</a>. Research papers summarizing our works have been published or are under submission in top venues in networking, systems, databases, and AI including OSDI, NSDI, SIGMOD, VLDB, and AAAI. Some of the works have been incorporated into course contents in graduate- and undergraduate-level networking and databases courses at the University of Michigan. Last but not the least, several PhD students at the University of Michigan have worked on different pieces of our contributions, and this grant has helped in partly supporting their education and training.&nbsp;</p> </div> </div> </div> </div> </div> <p>&nbsp;</p><br> <p>            Last Modified: 12/02/2020<br>      Modified by: Mosharaf&nbsp;Chowdhury</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Although modern applications come with stringent performance requirements, existing solutions often provide only best-effort services. A root cause of unpredictability lies in the traditional design principle of minimizing I/O operations. However, with the advent of faster storage and networking hardware, I/O capacity is not as scarce anymore. The overarching goal of this project was to rethink the tradeoffs and design principles of modern applications in this emerging context. To this end, we built a set of solutions that married advances in hardware capabilities with battle-tested software optimization techniques to enable resource disaggregation for big data and AI/ML workloads.  To enable efficient and resilient memory disaggregation over fast networks, we created the first practical memory disaggregation solution (Infiniswap) as part of this project. We made it resilient without incurring large memory overhead by designing a erasure-coded memory solution (Hydra), and we enabled locking using RDMA primitives (DSLR) to enable concurrent accesses to remote memory objects. Overall, our solutions took the first steps toward practical memory disaggregation to the point that memory-intensive applications can run without any performance loss even when 50% of their memory resides in remote machines.  We also focused on high-performance big data analytics by enabling so-called infinite-scale analytics (VertictDB), whereby any existing analytics engine can leverage approximate query processing to speed up their performance by 57X on average (and up to 841X). We also designed new cluster scheduler (Carbyne) that can take the DAG of a job and altruistically exchange resources with other jobs to improve the average job completion times. In deployments, Carbyne provides 1.26X better effi?ciency and 1.59X lower average completion time than the state-of-the-art, while ensuring fair resource sharing.   Another key direction we explored is resource management in AI/ML clusters. To this end, we worked on GPU cluster management (Tiresias) and GPU resource management (Salus) for training as well as both for hyperparameter tuning (FluidExec). In addition, we looked beyond GPUs to optimize CPU resource management in distributed AI training, especially in the parameter server setting. Overall, our solutions resulted in up to 5.5X cluster-level improvement and 7X improvement at the individual GPU level resource usage efficiency, reducing the cost of AI for the masses.  Finally, from a theoretical advances perspective, we have explored several techniques to improve approximate query processing in the context of maximum inner-product search (BOUNDEDME) and joins on sampled data (SUBS), improving by an order of magnitude over the state-of-the-art techniques. At the same time, we have made progress on the learning theory side by enabling projection-free optimization and selectivity learning with mixture models (QuickSel). QuickSel is 34.0X?179.4X faster than stateof-the-art query-driven techniques for selectivity learning.       All software developed as part of this project are based on established open-source systems such as Apache Spark, Apache YARN, TensorFlow, and MySQL, and we have and continue to open-source our works at https://github.com/symbioticlab. Research papers summarizing our works have been published or are under submission in top venues in networking, systems, databases, and AI including OSDI, NSDI, SIGMOD, VLDB, and AAAI. Some of the works have been incorporated into course contents in graduate- and undergraduate-level networking and databases courses at the University of Michigan. Last but not the least, several PhD students at the University of Michigan have worked on different pieces of our contributions, and this grant has helped in partly supporting their education and training.                Last Modified: 12/02/2020       Submitted by: Mosharaf Chowdhury]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

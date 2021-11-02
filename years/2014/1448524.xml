@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SBIR Phase I:  ITScript: A Language for Cloud Management</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>149169.00</AwardTotalIntnAmount>
+<AwardAmount>149169</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Peter Atherton</SignBlockName>
+<PO_EMAI>patherto@nsf.gov</PO_EMAI>
+<PO_PHON>7032928772</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The broader impact/commercial potential of this Small Business Innovation Research (SBIR) Phase I project will be to increase the reliability of existing cloud applications, while also lowering the barrier to entry to cloud operations for less technically sophisticated users. The rapid growth of cloud computing over the past decade has made enterprise-scale IT infrastructure available to companies of all sizes, but the ability of most companies to effectively leverage those resources significantly trails the technological leap that cloud computing represents. The goal of this project is to address these deficiencies by designing and implementing a high-level, declarative programming language that infrastructure operators can use to manage their cloud deployments. Using this language and its accompanying abstractions will reduce application downtime due to operator error, enable operators to more easily and quickly update cloud deployments, and make applications portable across cloud providers.&lt;br/&gt;&lt;br/&gt;This Small Business Innovation Research (SBIR) Phase I project advances the techniques for managing complex, large-scale systems on cloud platforms. Existing cloud management platforms are based on low-level abstractions, such as individual virtual machines, and do not give operators a way to describe the high-level structure of cloud deployments. By taking a language-based approach to the problems of cloud management, this project will produce robust cloud abstractions that will handle the low-level details of cloud operations. In addition to facilitating manual administration, these abstractions will serve as a basis for more sophisticated cloud control programs than are possible today.</AbstractNarration>
+<MinAmdLetterDate>12/02/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>12/02/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1448524</AwardID>
+<Investigator>
+<FirstName>Spiridon</FirstName>
+<LastName>Eliopoulos</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Spiridon A Eliopoulos</PI_FULL_NAME>
+<EmailAddress>spiros@inhabitedtype.com</EmailAddress>
+<PI_PHON>4013389044</PI_PHON>
+<NSF_ID>000671872</NSF_ID>
+<StartDate>12/02/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Inhabited Type LLC</Name>
+<CityName>Brooklyn</CityName>
+<ZipCode>112383927</ZipCode>
+<PhoneNumber>4013389044</PhoneNumber>
+<StreetAddress>118 Underhill Ave, Apt 2B</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>079397582</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>INHABITED TYPE LLC</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Inhabited Type LLC]]></Name>
+<CityName>Broolyn</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>112383927</ZipCode>
+<StreetAddress><![CDATA[118 Underhill Ave, Apt 2B]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5371</Code>
+<Text>SBIR Phase I</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5371</Code>
+<Text>SMALL BUSINESS PHASE I</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8032</Code>
+<Text>Software Services and Applications</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~149169</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project successfully applied the tools of programming language theory to the practical challenges of managing large-scale cloud deployments. The result is a cloud management system that provides its users a high-level, compositional interface in the form of a programming language with well-defined semantics. This language design is coupled with a dynamic, safe, and reliable runtime system that releases its user from many of the error-prone tasks inherent in managing cloud deployments. Rather than using ad hoc scripts for automation, or declarative specifications that merely offer a lighter-weight syntax for cloud API calls, we developed a language and runtime system that offered familiar, cloud-native abstractions for operations engineers to specify infrastructure requirements; compositional operators for the software architects responsible to stitch together the dozens of interdependent services that go into building an application; and orchestration of infrastructure provisioning and configuration for the systems administrator to keep applications up and running in the face of change.</p> <p>This language and system design is embodied in a prototype-quality implementation that solves many of the problems of cloud management related to compute resource provisioning, network firewall policy, and loadbalancing. Further development will result in a production quality system that that will form the basis of a software-as-a-service cloud management product. Businesses that source their infrastructure from cloud providers can use this product to deploy, automate, and manage the operations of their applications, thus increasing the velocity of change that's possible, and reducing the likelihood of operational errors.</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/08/2016<br>      Modified by: Spiridon&nbsp;A&nbsp;Eliopoulos</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project successfully applied the tools of programming language theory to the practical challenges of managing large-scale cloud deployments. The result is a cloud management system that provides its users a high-level, compositional interface in the form of a programming language with well-defined semantics. This language design is coupled with a dynamic, safe, and reliable runtime system that releases its user from many of the error-prone tasks inherent in managing cloud deployments. Rather than using ad hoc scripts for automation, or declarative specifications that merely offer a lighter-weight syntax for cloud API calls, we developed a language and runtime system that offered familiar, cloud-native abstractions for operations engineers to specify infrastructure requirements; compositional operators for the software architects responsible to stitch together the dozens of interdependent services that go into building an application; and orchestration of infrastructure provisioning and configuration for the systems administrator to keep applications up and running in the face of change.  This language and system design is embodied in a prototype-quality implementation that solves many of the problems of cloud management related to compute resource provisioning, network firewall policy, and loadbalancing. Further development will result in a production quality system that that will form the basis of a software-as-a-service cloud management product. Businesses that source their infrastructure from cloud providers can use this product to deploy, automate, and manage the operations of their applications, thus increasing the velocity of change that's possible, and reducing the likelihood of operational errors.          Last Modified: 02/08/2016       Submitted by: Spiridon A Eliopoulos]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

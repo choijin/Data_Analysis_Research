@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CSR: Automatic Cross-Layer Memory Management to Achieve Power and Performance Goals</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>150296.00</AwardTotalIntnAmount>
+<AwardAmount>150296</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project focuses on developing a framework that will allow users to control and manage memory resources more effectively than conventional approaches, and has the potential to significantly improve both computing performance and energy efficiency in a wide range of computing domains. This project addresses the following technology gaps as it translates from research discovery toward commercial application: (1) It will develop the system tools and software necessary to effectively communicate and incorporate memory usage information across layers during memory management, (2) It will generate new knowledge in the areas of static analysis, profiling, and machine learning for the purposes of predicting and classifying memory usage behavior, (3) It will allow researchers to create and explore new collaborative memory management algorithms and techniques, and (4) It will investigate and evaluate the potential of various collaborative memory management schemes for achieving different power and performance goals using a variety of realistic workloads and usage scenarios. In addition, one graduate student will receive innovation and technology translation experiences through the development of the cross-layer memory management framework, and its release into the open source community.&lt;br/&gt;&lt;br/&gt;Specifically, the project will exploring and assess the utility of cross-layer collaboration during memory management. It is difficult to control and optimize memory power and bandwidth because these effects depend upon activity across multiple layers of the vertical execution stack. However, current systems make no attempt to coordinate memory usage in the upper-level software with placement and management in the operating system and hardware. This project will develop a full system implementation of cross-layer memory management, where (a) the application-layer determines data object usage patterns, assigns objects to appropriate locations/pages in the virtual address space, and conveys corresponding page-level memory usage information to the OS, and (b) the OS-layer organizes its physical memory structures according to architectural information from the memory hardware, and incorporates the application guidance when deciding which physical page to use to back a particular virtual page.</AbstractNarration>
+<MinAmdLetterDate>03/03/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>03/03/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1464288</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Jantz</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael Jantz</PI_FULL_NAME>
+<EmailAddress>mrjantz@utk.edu</EmailAddress>
+<PI_PHON>8659743466</PI_PHON>
+<NSF_ID>000677654</NSF_ID>
+<StartDate>03/03/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Tennessee Knoxville</Name>
+<CityName>Knoxville</CityName>
+<ZipCode>379163801</ZipCode>
+<PhoneNumber>8659743466</PhoneNumber>
+<StreetAddress>1331 CIR PARK DR</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<StateCode>TN</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TN02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003387891</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TENNESSEE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003387891</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Tennessee Knoxville]]></Name>
+<CityName>Knoxville</CityName>
+<StateCode>TN</StateCode>
+<ZipCode>379960003</ZipCode>
+<StreetAddress><![CDATA[1520 Middle Dr]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TN02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~150296</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The primary goal of this research was to explore the potential benefit of greater collaboration between the applications, OS, and hardware to accomplish improved energy efficiency and performance in the memory sub system. Towards this objective, we developed new data management software and frameworks that use a cross-layer design to achieve various power and/or performance goals. Specifically, our approach has the following characteristics: (a) the application-layer determines data object usage patterns, assigns objects to appropriate locations/pages in the virtual address space, and conveys corresponding page-level memory usage information to the OS, and (b) the OS-layer organizes its physical memory structures according to fine-grain architectural information from the memory hardware, and incorporates the application guidance when deciding which physical page to use to back a particular virtual page.</p> <p>We have implemented this approach in two separate runtime systems for 1) Java and 2) C/C++/Fortran applications. To support Java, we extended Oracle's HotSpot Virtual Machine and used our custom VM to improve energy efficiency for a wide range of standard and high performance applications. For native (C/C++/Fortran) applications, we developed an LLVM compiler pass and lightweight shared library to control data placement. We have also conducted multiple studies that demonstrate the potential of this approach to improve performance on emerging heterogeneous memory architectures.</p> <p>All of our tools, experiments, and frameworks are available open source on the PI's website. Our results and conclusions are published in four conference papers and two journal articles that are available online from the ACM, IEEE, or LNCS websites.</p> <p>This grant has also contributed to the development of a special topics course for late undergraduate and early graduate students in Computer Science. The course, titled COSC 494/594: Runtime Systems, introduces students to topics in managed and non-managed runtime systems, including process layout, memory management, JIT compilation, dynamic class loading, and code cache management. The course includes lecture, seminar, and project components to cover these core concepts as well as expose students to contemporary research in the field.</p><br> <p>            Last Modified: 10/17/2018<br>      Modified by: Michael&nbsp;Jantz</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The primary goal of this research was to explore the potential benefit of greater collaboration between the applications, OS, and hardware to accomplish improved energy efficiency and performance in the memory sub system. Towards this objective, we developed new data management software and frameworks that use a cross-layer design to achieve various power and/or performance goals. Specifically, our approach has the following characteristics: (a) the application-layer determines data object usage patterns, assigns objects to appropriate locations/pages in the virtual address space, and conveys corresponding page-level memory usage information to the OS, and (b) the OS-layer organizes its physical memory structures according to fine-grain architectural information from the memory hardware, and incorporates the application guidance when deciding which physical page to use to back a particular virtual page.  We have implemented this approach in two separate runtime systems for 1) Java and 2) C/C++/Fortran applications. To support Java, we extended Oracle's HotSpot Virtual Machine and used our custom VM to improve energy efficiency for a wide range of standard and high performance applications. For native (C/C++/Fortran) applications, we developed an LLVM compiler pass and lightweight shared library to control data placement. We have also conducted multiple studies that demonstrate the potential of this approach to improve performance on emerging heterogeneous memory architectures.  All of our tools, experiments, and frameworks are available open source on the PI's website. Our results and conclusions are published in four conference papers and two journal articles that are available online from the ACM, IEEE, or LNCS websites.  This grant has also contributed to the development of a special topics course for late undergraduate and early graduate students in Computer Science. The course, titled COSC 494/594: Runtime Systems, introduces students to topics in managed and non-managed runtime systems, including process layout, memory management, JIT compilation, dynamic class loading, and code cache management. The course includes lecture, seminar, and project components to cover these core concepts as well as expose students to contemporary research in the field.       Last Modified: 10/17/2018       Submitted by: Michael Jantz]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

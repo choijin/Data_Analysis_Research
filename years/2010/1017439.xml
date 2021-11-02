@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: The Cross-layer Reliability Stack</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>349999.00</AwardTotalIntnAmount>
+<AwardAmount>349999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Fault-tolerance is now a primary design constraint for all major microprocessors; however, perfect fault-tolerance is not a requirement for most designs. Instead, designs strive to maximize performance subject to an acceptable failure rate constraint. Therefore, vendors typically set a failure rate (FIT) target for each design and validate that the design meets this target with extensive pre-silicon and post-silicon analysis.  One method to quantify fault masking is to use vulnerability factors. A system consists of multiple independent components that interact through well-defined interfaces. Therefore, fault masking can be quantified within a single component by focusing on its interfaces.   This abstraction is called the "vulnerability stack", and is the major focus of this project.&lt;br/&gt;&lt;br/&gt;The vulnerability stack can have immediate tangible benefits to the Computer Architecture community. First, by enabling independent vulnerability assessment of each system component, the vulnerability stack allows a designer to assess (and potentially improve) the fault-tolerance of a particular component (e.g., a user program). This enables a much broader segment of the Computer Architecture and Software Engineering communities to participate in the vulnerability assessment and remediation process; currently, these activities are typically performed by architects equipped with a microarchitectural model.  A second benefit of the vulnerability stack is a substantial reduction in the overall effort required for vulnerability assessment. A third benefit of the vulnerability stack is its application to runtime vulnerability estimation techniques. These are of interest because they allow a system to dynamically tune redundancy features to match the current vulnerability environment; this can improve performance during periods of low vulnerability.&lt;br/&gt;&lt;br/&gt;This project will impact undergraduate and graduate education by introducing vulnerability concepts in the Computer Architecture curriculum at Northeastern University and deliver a tutorial at a major Computer Architecture conference.  The project will also include participation by under-represented groups.</AbstractNarration>
+<MinAmdLetterDate>09/02/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/02/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017439</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Kaeli</LastName>
+<PI_MID_INIT>R</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David R Kaeli</PI_FULL_NAME>
+<EmailAddress>kaeli@ece.neu.edu</EmailAddress>
+<PI_PHON>6173735413</PI_PHON>
+<NSF_ID>000179508</NSF_ID>
+<StartDate>09/02/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Northeastern University</Name>
+<CityName>BOSTON</CityName>
+<ZipCode>021155005</ZipCode>
+<PhoneNumber>6173733004</PhoneNumber>
+<StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+<StreetAddress2><![CDATA[177-500]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001423631</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTHEASTERN UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001423631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Northeastern University]]></Name>
+<CityName>BOSTON</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021155005</ZipCode>
+<StreetAddress><![CDATA[360 HUNTINGTON AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~349999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Reliability in computing systems has become a first-class design constraint for major microprocessor designers and and software developers.&nbsp;Current methods to measure system vulnerability treat a computer system as a monolithic entity. &nbsp;There may be significant opportunities to reduce the vulnerability of a system to faults if we are able to decompose vulnerability into multiple hardware and software components.</p> <p>The first step is to provide tools to allow assessment of vulnerabiliity at different levels of abstraction. In this project we have focused on developing &nbsp;a System Vulnerability Stack that allows separate calculation of the vulnerability of individual system components. &nbsp; These components can then be combined in a system-specific manner to measure overall system vulnerability.&nbsp;</p> <p>This project pursued a novel approach to addressing system vulnerability by exploiting the fact that a system consists of multiple independent components (e.g., microarchitecture, virtual machine, user programs). The major results include: 1) a new understanding of the vulnerability of graphics processors, 2) a new compiler infrastructure that supports analysis of reliablity, 3) a new methodology to reason about the impact of multi-bit errors, and 4) a better understanding of the interaction between hardware and software reliability. &nbsp;The project developed new analytical methods to reason about reliability across these traditional boundaries.</p> <p>The work has produced a number of important publications. &nbsp;The research team has interacted heavily with AMD Research on this project, which should help to ensure technology transfer out of this research. &nbsp;The project has engaged both doctoral students and undergraduate students &nbsp;working in reliabiltiy, compilation and simulation. &nbsp;</p> <p>The project has also impacted the design and implementation of the Multi2Sim simulator, the main tool used in the analysis of GPU reliability in this project.</p><br> <p>            Last Modified: 09/14/2014<br>      Modified by: David&nbsp;R&nbsp;Kaeli</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Reliability in computing systems has become a first-class design constraint for major microprocessor designers and and software developers. Current methods to measure system vulnerability treat a computer system as a monolithic entity.  There may be significant opportunities to reduce the vulnerability of a system to faults if we are able to decompose vulnerability into multiple hardware and software components.  The first step is to provide tools to allow assessment of vulnerabiliity at different levels of abstraction. In this project we have focused on developing  a System Vulnerability Stack that allows separate calculation of the vulnerability of individual system components.   These components can then be combined in a system-specific manner to measure overall system vulnerability.   This project pursued a novel approach to addressing system vulnerability by exploiting the fact that a system consists of multiple independent components (e.g., microarchitecture, virtual machine, user programs). The major results include: 1) a new understanding of the vulnerability of graphics processors, 2) a new compiler infrastructure that supports analysis of reliablity, 3) a new methodology to reason about the impact of multi-bit errors, and 4) a better understanding of the interaction between hardware and software reliability.  The project developed new analytical methods to reason about reliability across these traditional boundaries.  The work has produced a number of important publications.  The research team has interacted heavily with AMD Research on this project, which should help to ensure technology transfer out of this research.  The project has engaged both doctoral students and undergraduate students  working in reliabiltiy, compilation and simulation.    The project has also impacted the design and implementation of the Multi2Sim simulator, the main tool used in the analysis of GPU reliability in this project.       Last Modified: 09/14/2014       Submitted by: David R Kaeli]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

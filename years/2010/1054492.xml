@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Incentivizing Cooperation in Wireless Sensor Networks for Prevention of DoS Attack using Minimum Battery Discharge: A Game Theoretic Approach</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>100000.00</AwardTotalIntnAmount>
+<AwardAmount>100000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In a denial of service attack on a wireless sensor network, an attacker can cause the network nodes to perform useless work until they fully discharge their batteries. To defend against such attacks, each node in a wireless sensor network needs to view its action executions as moves in a game whose ultimate objective is two-fold:  &lt;br/&gt;&lt;br/&gt;First, the node needs to execute enough actions so that its reputation as a reliable node remains high between its neighboring nodes.&lt;br/&gt;&lt;br/&gt;Second, the node needs to refrain from executing some actions in order to ensure that the lifetime of its battery remains long.&lt;br/&gt;&lt;br/&gt;The PIs are working on constructing a utility function for this game and analyzing various ways in which the game can reach an equilibrium state, where the minimum battery discharges in the network are minimized and the node reputations remain high.</AbstractNarration>
+<MinAmdLetterDate>08/18/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/18/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1054492</AwardID>
+<Investigator>
+<FirstName>Afrand</FirstName>
+<LastName>Agah</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Afrand Agah</PI_FULL_NAME>
+<EmailAddress>aagah@wcupa.edu</EmailAddress>
+<PI_PHON>6104304419</PI_PHON>
+<NSF_ID>000407547</NSF_ID>
+<StartDate>08/18/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Mehran</FirstName>
+<LastName>Asadi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mehran Asadi</PI_FULL_NAME>
+<EmailAddress>masadi@wcupa.edu</EmailAddress>
+<PI_PHON>6104363310</PI_PHON>
+<NSF_ID>000516774</NSF_ID>
+<StartDate>08/18/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>West Chester University of Pennsylvania</Name>
+<CityName>West Chester</CityName>
+<ZipCode>193830001</ZipCode>
+<PhoneNumber>6104363060</PhoneNumber>
+<StreetAddress>700 South High Street</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA06</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627341274</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WEST CHESTER UNIVERSITY OF PENNSYLVANIA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003027539</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[West Chester University of Pennsylvania]]></Name>
+<CityName>West Chester</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>193830001</ZipCode>
+<StreetAddress><![CDATA[700 South High Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA06</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9102</Code>
+<Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~100000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>To integrate a coalition game solution to the already existing game, the coalition formation is hardwired, with root nodes predetermined and nodes grouped into their respective coalitions beforehand. All non-root nodes can only send packets directly to the root nodes; they however listen for packets broadcast from other root nodes and forward them to their respective root node. The root nodes then forward any received packets to the base station. With this configuration the root nodes for each coalition will then apply game theory. We have implemented the existing configurations and run simulations and collected data. &nbsp;Nodes&rsquo; Reputations for simulations using game theory have lower reputation, than simulations not using game theory, regardless of network size. By implementing game theory, the average throughput of the network drops, but this is to be expected since the sensors are dropping packets based on a set of rules in order to save power. Network simulations implementing game theory consistently have a lower net voltage loss than simulations not using game theory, regardless of network size. For all normal scenarios, applying game theory consumes less voltage than not applying game theory. Applying game theory also results in a higher utility since nodes applying the game theory decide not to send packets when the utility is negative. As we increase the total percentage of malicious nodes in a network, average reputation of nodes decreases. In both scenarios the total reputation is higher if we do not use the game theory and that is because by using game theory we change the reputation and negative reputation of malicious nodes would change the total average reputation of the network. As we increase the percentage of malicious nodes in a network the total voltage loss is always lower by using game theory if we use broadcast approach. On the other hand if we send packets based on hop by hop neighboring approach, the energy loss would be higher if we use game theory. The reason for this is the fact that each individual sensor node needs to do more local calculation that affects the total available battery level. Scenarios implementing game theory have a higher total utility for the network. Total utility decreases for all cases since our strategy requires nodes to sometimes send packets when the utility is negative. &nbsp;We investigated two different cases: In the first case scenarios, the simulation starts with an initial voltage reading from each sensor. In this work we have used MICAZ sensors, which run on TinyOs. Next, a packet is broadcast once every 200 milliseconds for 300 seconds. Then a final voltage reading is sent to the base station. For this scenario, utility doesn&rsquo;t start to increase until around 10-15 seconds since that is when the nodes start generating and forwarding packets. The total utility is lower when we have malicious nodes present in the network. Due to how we model utility, it is bound to decrease. Therefore, a better utility is not defined by how quickly it can rise, but rather how slowly it can decrease. For our scenarios, utility for networks implementing game theory have a lower utility than those which do not implement game theory. However, this is caused by the high amount of traffic in a larger network.</p> <p>In the second case scenarios, after the initial voltage reading, the neighbor handshaking phase takes place. After the neighbor handshaking process, each node broadcasts data once every 200 milliseconds for 300 seconds. Lastly, a final voltage reading is sent to the base station. In this scenario we don&rsquo;t see an increase in utility until approximately 50 seconds because the nodes don&rsquo;t start generating packets until after the handshaking process. When we have malicious nodes in the network, utility is lower and utility of the system is higher when we use the game theory, as the reputation and ...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ To integrate a coalition game solution to the already existing game, the coalition formation is hardwired, with root nodes predetermined and nodes grouped into their respective coalitions beforehand. All non-root nodes can only send packets directly to the root nodes; they however listen for packets broadcast from other root nodes and forward them to their respective root node. The root nodes then forward any received packets to the base station. With this configuration the root nodes for each coalition will then apply game theory. We have implemented the existing configurations and run simulations and collected data.  NodesÆ Reputations for simulations using game theory have lower reputation, than simulations not using game theory, regardless of network size. By implementing game theory, the average throughput of the network drops, but this is to be expected since the sensors are dropping packets based on a set of rules in order to save power. Network simulations implementing game theory consistently have a lower net voltage loss than simulations not using game theory, regardless of network size. For all normal scenarios, applying game theory consumes less voltage than not applying game theory. Applying game theory also results in a higher utility since nodes applying the game theory decide not to send packets when the utility is negative. As we increase the total percentage of malicious nodes in a network, average reputation of nodes decreases. In both scenarios the total reputation is higher if we do not use the game theory and that is because by using game theory we change the reputation and negative reputation of malicious nodes would change the total average reputation of the network. As we increase the percentage of malicious nodes in a network the total voltage loss is always lower by using game theory if we use broadcast approach. On the other hand if we send packets based on hop by hop neighboring approach, the energy loss would be higher if we use game theory. The reason for this is the fact that each individual sensor node needs to do more local calculation that affects the total available battery level. Scenarios implementing game theory have a higher total utility for the network. Total utility decreases for all cases since our strategy requires nodes to sometimes send packets when the utility is negative.  We investigated two different cases: In the first case scenarios, the simulation starts with an initial voltage reading from each sensor. In this work we have used MICAZ sensors, which run on TinyOs. Next, a packet is broadcast once every 200 milliseconds for 300 seconds. Then a final voltage reading is sent to the base station. For this scenario, utility doesnÆt start to increase until around 10-15 seconds since that is when the nodes start generating and forwarding packets. The total utility is lower when we have malicious nodes present in the network. Due to how we model utility, it is bound to decrease. Therefore, a better utility is not defined by how quickly it can rise, but rather how slowly it can decrease. For our scenarios, utility for networks implementing game theory have a lower utility than those which do not implement game theory. However, this is caused by the high amount of traffic in a larger network.  In the second case scenarios, after the initial voltage reading, the neighbor handshaking phase takes place. After the neighbor handshaking process, each node broadcasts data once every 200 milliseconds for 300 seconds. Lastly, a final voltage reading is sent to the base station. In this scenario we donÆt see an increase in utility until approximately 50 seconds because the nodes donÆt start generating packets until after the handshaking process. When we have malicious nodes in the network, utility is lower and utility of the system is higher when we use the game theory, as the reputation and battery level are included in the utility of each node. For our scenarios, utility for networks implem...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

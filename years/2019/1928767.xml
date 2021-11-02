@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Cryptography for Secure Outsourcing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>286899.00</AwardTotalIntnAmount>
+<AwardAmount>286899</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Individuals and organizations routinely trust third party providers to hold sensitive data, putting it at risk of exposure.  While the data could be encrypted under a key that is kept secret from the provider, it rarely is, due to the inconvenience and increased cost of managing the cryptography.  This project will develop technologies for working with encrypted data efficiently and conveniently.  In particular, it will enable searching on encrypted data, which is prevented by currently deployed encryption, and running arbitrary programs efficiently on encrypted data. The broader impact of this work will include new, practical techniques for searchable encryption and other outsourcing technologies, and foundational results for both primitives to deepen understanding of their potential.&lt;br/&gt;&lt;br/&gt;This project will develop new techniques for searchable encryption to support more flexible and usable searching, to improve efficiency, and to enhance security by leaking less information to a malicious service provider.  In particular, it will unify the line of cryptography research on encrypted searching with well-developed information retrieval techniques.  The proposed work will investigate constructions and foundations of oblivious RAM.  It will develop fundamental new lower bounds to map the landscape of possibilities for oblivious RAM, and design and analyze new constructions.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at: http://www.research.rutgers.edu/~dc789/career/</AbstractNarration>
+<MinAmdLetterDate>04/15/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>06/06/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1928767</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Cash</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David Cash</PI_FULL_NAME>
+<EmailAddress>davidcash@uchicago.edu</EmailAddress>
+<PI_PHON>7737020805</PI_PHON>
+<NSF_ID>000084341</NSF_ID>
+<StartDate>04/15/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606372612</ZipCode>
+<PhoneNumber>7737028669</PhoneNumber>
+<StreetAddress>6054 South Drexel Avenue</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005421136</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CHICAGO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005421136</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606372612</ZipCode>
+<StreetAddress><![CDATA[6054 South Drexel Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~50733</FUND_OBLG>
+<FUND_OBLG>2018~116448</FUND_OBLG>
+<FUND_OBLG>2019~119718</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Encryption with client-held keys can protect data from service compromise, but introduces several challenges. When a server cannot decrypt the data it holds, it cannot process data on behalf of clients, meaning in particular that it cannot respond to database queries or assist the client in navigating files via text searching.</p> <p><br />This project studied client-side encryption in several forms, starting with attacks. Such attacks help us understand the security of systems by anticipating what adversaries may do, or may already be doing without our knowledge.&nbsp; This work developed attacks against several types of encryption (called Searchable Symmetric Encryption (SSE), Order-Revealing Encryption (ORE), and Format-Preserving Encryption (FPE)) that attempt to enable encryption with efficient server-side processing.&nbsp; The attacks showed that in-use encryption was often vulnerable, requiring a rethinking of their deployment.</p> <p><br />This project developed stronger forms of encryption, particularly of ORE, that addressed some of these attacks.</p> <p><br />This project also studied theoretical foundations of a tool for client-side encryption called "oblivious RAM" (ORAM). ORAM is used to protect which data is being accessed, and can be combined with encryption. The project established a new type of impossibility result for ORAM, which showed that constructions either need multiple round-trips with a server or must consume an impractical amount of bandwidth.&nbsp; This project also studied connections between this lower bound and time/space tradeoffs.</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/23/2021<br>      Modified by: David&nbsp;Cash</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Encryption with client-held keys can protect data from service compromise, but introduces several challenges. When a server cannot decrypt the data it holds, it cannot process data on behalf of clients, meaning in particular that it cannot respond to database queries or assist the client in navigating files via text searching.   This project studied client-side encryption in several forms, starting with attacks. Such attacks help us understand the security of systems by anticipating what adversaries may do, or may already be doing without our knowledge.  This work developed attacks against several types of encryption (called Searchable Symmetric Encryption (SSE), Order-Revealing Encryption (ORE), and Format-Preserving Encryption (FPE)) that attempt to enable encryption with efficient server-side processing.  The attacks showed that in-use encryption was often vulnerable, requiring a rethinking of their deployment.   This project developed stronger forms of encryption, particularly of ORE, that addressed some of these attacks.   This project also studied theoretical foundations of a tool for client-side encryption called "oblivious RAM" (ORAM). ORAM is used to protect which data is being accessed, and can be combined with encryption. The project established a new type of impossibility result for ORAM, which showed that constructions either need multiple round-trips with a server or must consume an impractical amount of bandwidth.  This project also studied connections between this lower bound and time/space tradeoffs.          Last Modified: 06/23/2021       Submitted by: David Cash]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

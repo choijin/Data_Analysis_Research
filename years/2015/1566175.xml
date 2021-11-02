@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CSR: Large-scale Systems Software Atop Scale-out In-memory Storage</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>04/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>174949.00</AwardTotalIntnAmount>
+<AwardAmount>174949</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Research over the past 5 years on in-memory data center storage has resulted in systems that can provide on-demand access to billions of pieces of information per second. However, the benefits of these fast systems has not resulted in more powerful and interesting applications for users. The key problem is that these new storage systems are stripped down to provide speed and can only fulfill very basic requests for information. To compensate, applications must make many requests to these storage systems to perform the same operations they were able to perform with a single request to older database systems.  The result is that applications spend most of the performance benefits they gain from these systems overcoming their limited programming model.&lt;br/&gt;&lt;br/&gt;This work seeks to understand the hidden costs of the limited interfaces of these large-scale in-memory key-value stores and to alleviate those costs with a new stored procedure model uniquely suited to these systems. To explore these costs, data-intensive applications from three different domains will be prototyped on today?s low-latency key-value stores, first with their conventional interfaces and then again with custom application logic built into the storage system. The results of this exploration will motivate and aid in the design of the main contribution of this work: a generalized model for safely collocating application logic inside of key-value stores. Application prototypes will include a scale-out database kernel, a simple scale-out graph database, and large-scale machine learning algorithms.&lt;br/&gt;&lt;br/&gt;A rich programming model for developing large-scale software systems will lower the barrier for building information-intensive applications: an art that requires specialized expertise. Low-latency systems equipped with fast stored procedures will be a powerful tool for building new, data-intensive systems in industry, science, and the military. They will enable deep real-time analysis of social and natural graphs; rich, interactive worlds where millions of users manipulate and modify a shared environment; the fine-grained coordination and routing of millions of autonomous vehicles on the highways in a metropolitan area; and real-time decision support for military intelligence. All components will be built as a practical and usable software system with all development done publicly and available as open-source.</AbstractNarration>
+<MinAmdLetterDate>01/13/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>01/13/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1566175</AwardID>
+<Investigator>
+<FirstName>Ryan</FirstName>
+<LastName>Stutsman</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ryan Stutsman</PI_FULL_NAME>
+<EmailAddress>stutsman@cs.utah.edu</EmailAddress>
+<PI_PHON>8015816903</PI_PHON>
+<NSF_ID>000688499</NSF_ID>
+<StartDate>01/13/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName>Salt Lake City</CityName>
+<StateCode>UT</StateCode>
+<ZipCode>841128930</ZipCode>
+<StreetAddress><![CDATA[75 South 2000 East]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~174949</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project developed a new approach to computing on data stored in large, distributed storage systems in data centers and the cloud. Emerging distributed storage systems (ones relying on in-memory storage and kernel-bypass-based networking) have been able to increase performance by removing features; however, this has made it so that they can only answer simple queries for data. The end result is that applications interacting with data must resort to fetching it from storage to perform computation on it, which is inefficient. The work of this project has helped to reverse that trend.<br /><br />Specifically, the results include:</p> <ul> <li>a new scheme for moving small programs to data that preserve the fast operation of these new networked storage systems while eliminating the need to move all data over the network to compute on it;</li> <li>demonstration of this new approach for online and batch graph algorithms (common, for example, in social networking applications), in machine learning (for example, to do sediment analysis on text), and aggregation/analytical queries over data (for example, that return statistics over large data sets);</li> <li>the realization of a new approach to splitting computation over data between applications and distributed storage machines that dynamically adapts where to run code based on the costs of moving data over the network;</li> <li>and the realization that network and CPU hardware trends combined with shifting patterns of workloads in the cloud will increasingly place pressure on existing CPU hardware designs for isolating computer code in the cloud.</li> </ul> <p><br />This final finding has led to new work in distributed storage systems focused on overcoming these CPU hardware limitations by trying software-based and alternative hardware-software designs to support future cloud workloads.&nbsp; Findings from this work have led to multiple pieces of open-source software, some used in other researcher's work. Also, it has contributed to two projects that are joint with an industrial research laboratory, including direct integration of data migration approaches developed as part of this project into an open-source project developed primarily by that industrial lab. To date, the project has supported 6 peer reviewed conference and workshop papers along with a Master's and Bachelor's thesis.</p><br> <p>            Last Modified: 05/31/2019<br>      Modified by: Ryan&nbsp;Stutsman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project developed a new approach to computing on data stored in large, distributed storage systems in data centers and the cloud. Emerging distributed storage systems (ones relying on in-memory storage and kernel-bypass-based networking) have been able to increase performance by removing features; however, this has made it so that they can only answer simple queries for data. The end result is that applications interacting with data must resort to fetching it from storage to perform computation on it, which is inefficient. The work of this project has helped to reverse that trend.  Specifically, the results include:  a new scheme for moving small programs to data that preserve the fast operation of these new networked storage systems while eliminating the need to move all data over the network to compute on it; demonstration of this new approach for online and batch graph algorithms (common, for example, in social networking applications), in machine learning (for example, to do sediment analysis on text), and aggregation/analytical queries over data (for example, that return statistics over large data sets); the realization of a new approach to splitting computation over data between applications and distributed storage machines that dynamically adapts where to run code based on the costs of moving data over the network; and the realization that network and CPU hardware trends combined with shifting patterns of workloads in the cloud will increasingly place pressure on existing CPU hardware designs for isolating computer code in the cloud.    This final finding has led to new work in distributed storage systems focused on overcoming these CPU hardware limitations by trying software-based and alternative hardware-software designs to support future cloud workloads.  Findings from this work have led to multiple pieces of open-source software, some used in other researcher's work. Also, it has contributed to two projects that are joint with an industrial research laboratory, including direct integration of data migration approaches developed as part of this project into an open-source project developed primarily by that industrial lab. To date, the project has supported 6 peer reviewed conference and workshop papers along with a Master's and Bachelor's thesis.       Last Modified: 05/31/2019       Submitted by: Ryan Stutsman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

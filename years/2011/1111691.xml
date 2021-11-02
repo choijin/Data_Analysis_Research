@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Large: Collaborative Research: Kali:  A System for Sequential Programming of Multicore Processors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>259000.00</AwardTotalIntnAmount>
+<AwardAmount>259000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anita La Salle</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Most computers today are 'multicore' parallel computers that are capable of executing several independent threads of computation simultaneously. Unfortunately, most existing programs are not parallel and cannot take advantage of this hardware capability. Furthermore, writing parallel programs using current notations like OpenMP is more difficult than writing sequential programs and, as a result, increases development costs and the likelihood of program defects.&lt;br/&gt;&lt;br/&gt;The Kali project is building a software system that will permit most application programmers to write sequential programs and still obtain good performance on multicore processors. Parallelism will be hidden within object-oriented class libraries written by expert parallel programmers and it will be managed by a sophisticated runtime system that uses a range of parallel execution strategies customized to the needs of the application. Applications programmers can take advantage of the benefits of sequential programming such as familiarity, readability, maintainability, and debuggability. They will also be able to tune program performance and power without having to drop down to a lower abstraction level. In addition, the Kali project is studying the use of innovative hardware to facilitate the development of efficient programs. Finally, the project is producing a suite of application benchmarks that will be useful for performance evaluation of similar systems.</AbstractNarration>
+<MinAmdLetterDate>08/06/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/06/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1111691</AwardID>
+<Investigator>
+<FirstName>Ahmed</FirstName>
+<LastName>Sameh</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ahmed H Sameh</PI_FULL_NAME>
+<EmailAddress>sameh@cs.purdue.edu</EmailAddress>
+<PI_PHON>7654941559</PI_PHON>
+<NSF_ID>000298222</NSF_ID>
+<StartDate>08/06/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName>West Lafayette</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>479072114</ZipCode>
+<StreetAddress><![CDATA[Young Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7925</Code>
+<Text>LARGE PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~259000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project resulted in the development of a family of parallel hybrid algorithms for solving large sparse linear systems A x = f that are both robust and achieve a high degree of scalability on a variety of parallel computing platforms. The main kernels (developed in this project) that form such hybrid parallel solvers consist of: (i) reordering schemes of the sparse coefficient matrix that aim simultaneously at reducing the bandwidth and bringing the heaviest elements of the matrix as close as possible to the diagonal, (ii) extracting a preconditioner M that consists of overlapped block diagonal submatrices where ? (the reordered A) = (M + E) in which the norm of E is only a small fraction of the norm of A, and the rank of E is often much less than the order of A, (iii) a scalable hybrid parallel solver for systems involving such preconditioners, and (iv) using a suitable Krylov subspace method as an outer iteration for solving A x = f, with M as the preconditioner. &nbsp;Extensive numerical experiments have demonstrated that our reordering schemes and the chosen structure for the preconditioners result in a family of solvers (we call PSPIKE) that are: (a) as robust as sparse direct linear systems solvers such as (Basel&rsquo;s) Pardiso, (LBNL) SuperLU, (CERFACS) MUMPS, and (IBM) WSMP, and (b) much more scalable on a variety of parallel architectures than preconditioned Krylov subspace methods in which the preconditioner is either approximate LU-factorization, approximate sparse inverses, or algebraic multigrid. Our PSPIKE family of solvers can be used in many science and engineering applications such as computational fluid dynamics, structural mechanics, computational electromagnetics, and computational nanoelectronics, for example.</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/28/2016<br>      Modified by: Ahmed&nbsp;H&nbsp;Sameh</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2016/1111691/1111691_10117990_1456675451524_Slide1--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1111691/1111691_10117990_1456675451524_Slide1--rgov-800width.jpg" title="Fig_1"><img src="/por/images/Reports/POR/2016/1111691/1111691_10117990_1456675451524_Slide1--rgov-66x44.jpg" alt="Fig_1"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Weighted spectral reordering</div> <div class="imageCredit">conference presentation</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Ahmed&nbsp;H&nbsp;Sameh</div> <div class="imageTitle">Fig_1</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1111691/1111691_10117990_1456676504866_Slide2--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1111691/1111691_10117990_1456676504866_Slide2--rgov-800width.jpg" title="Fig_2"><img src="/por/images/Reports/POR/2016/1111691/1111691_10117990_1456676504866_Slide2--rgov-66x44.jpg" alt="Fig_2"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Preconditioner</div> <div class="imageCredit">presentation in a conference</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Ahmed&nbsp;H&nbsp;Sameh</div> <div class="imageTitle">Fig_2</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1111691/1111691_10117990_1456677301609_Slide1--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1111691/1111691_10117990_1456677301609_Slide1--rgov-800width.jpg" title="Fig_3"><img src="/por/images/Repo...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project resulted in the development of a family of parallel hybrid algorithms for solving large sparse linear systems A x = f that are both robust and achieve a high degree of scalability on a variety of parallel computing platforms. The main kernels (developed in this project) that form such hybrid parallel solvers consist of: (i) reordering schemes of the sparse coefficient matrix that aim simultaneously at reducing the bandwidth and bringing the heaviest elements of the matrix as close as possible to the diagonal, (ii) extracting a preconditioner M that consists of overlapped block diagonal submatrices where ? (the reordered A) = (M + E) in which the norm of E is only a small fraction of the norm of A, and the rank of E is often much less than the order of A, (iii) a scalable hybrid parallel solver for systems involving such preconditioners, and (iv) using a suitable Krylov subspace method as an outer iteration for solving A x = f, with M as the preconditioner.  Extensive numerical experiments have demonstrated that our reordering schemes and the chosen structure for the preconditioners result in a family of solvers (we call PSPIKE) that are: (a) as robust as sparse direct linear systems solvers such as (BaselÆs) Pardiso, (LBNL) SuperLU, (CERFACS) MUMPS, and (IBM) WSMP, and (b) much more scalable on a variety of parallel architectures than preconditioned Krylov subspace methods in which the preconditioner is either approximate LU-factorization, approximate sparse inverses, or algebraic multigrid. Our PSPIKE family of solvers can be used in many science and engineering applications such as computational fluid dynamics, structural mechanics, computational electromagnetics, and computational nanoelectronics, for example.          Last Modified: 02/28/2016       Submitted by: Ahmed H Sameh]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

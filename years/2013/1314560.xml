@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Medium: Collaborative: HIMALAYAS: Hierarchical Machine Learning Stack for Fine-Grained Analysis of Malware Domain Groups</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>252545.00</AwardTotalIntnAmount>
+<AwardAmount>252545</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The domain name system (DNS) protocol plays a significant role in operation of the Internet by enabling the bi-directional association of domain names with IP addresses.  It is also increasingly abused by malware, particularly botnets, by use of:  (1) automated domain generation algorithms for rendezvous with a command-and-control (C&amp;C) server, (2) DNS fast flux as a way to hide the location of malicious servers, and (3) DNS as a carrier channel for C&amp;C communications.&lt;br/&gt;This project explores the development of a scalable, hierarchical machine-learning stack, called HIMALAYAS, which specializes in algorithms for automatically mining DNS data for malware activity. In particular, we are interested in isolating both ordered and unordered sets of malware domain groups whose access patterns are temporally and logically correlated.  &lt;br/&gt;&lt;br/&gt;HIMALAYAS performs a task of increasing complexity at each level ? starting from scalable clustering and feature selection at lower levels, to more advanced malware domain subsequence identification algorithms at higher levels. It has multiple benefits, including speed, accuracy, interpretability, and ability to use domain knowledge, which makes it very well suited for malware analysis and related tasks. The analysis by HIMALAYAS should accelerate the identification and takedown of malware domains on the Internet and improve services such as Google SafeSearch. &lt;br/&gt;&lt;br/&gt;The machine-learning stack developed as part of the HIMALAYAS project has broader application to many important data mining problems, e.g., in financial data analysis, and mining user patterns from web access logs.  The project provides opportunities for students to participate in the development and transition of the technology.</AbstractNarration>
+<MinAmdLetterDate>08/30/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/30/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1314560</AwardID>
+<Investigator>
+<FirstName>Arindam</FirstName>
+<LastName>Banerjee</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Arindam Banerjee</PI_FULL_NAME>
+<EmailAddress>arindamb@illinois.edu</EmailAddress>
+<PI_PHON>2173333426</PI_PHON>
+<NSF_ID>000491325</NSF_ID>
+<StartDate>08/30/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Minnesota-Twin Cities</Name>
+<CityName>Minneapolis</CityName>
+<ZipCode>554552070</ZipCode>
+<PhoneNumber>6126245599</PhoneNumber>
+<StreetAddress>200 OAK ST SE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<StateCode>MN</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MN05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>555917996</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MINNESOTA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>117178941</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Minnesota-Twin Cities]]></Name>
+<CityName>Minneapolis</CityName>
+<StateCode>MN</StateCode>
+<ZipCode>554550169</ZipCode>
+<StreetAddress><![CDATA[200 Union Street SE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MN05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~252545</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The Internet&rsquo;s Domain Name Service (DNS) offers a valuable vantage point for tracking malicious software campaigns that propagate daily across the world. We made progress on leveraging recent advances in large-scale machine learning algorithms to develop novel analytics that can uncover previously unknown malicious domains in massive streams of DNS resolution traffic. Our focus was on developing a new machine learning methods capable of uncovering &ldquo;malware domain groups&rdquo; over massive streams of DNS queries.</p> <p>From the machine learning perspective, several challenges needed to be addressed. First, since the machine learning methods are to be applied to massive streams of DNS queries, i.e., on the order of hundreds of millions of queries (or gigabytes of data) per hour, the algorithms need to be extremely scalable. Since such learning happens based on optimization, the initial focus of our work was on developing scalable parallel and/or stochastic algorithms for optimization. The algorithms developed were illustrated to have desirable scalability, and outperformed commercial optimization packages by a large margin, e.g., linear programming with 200 million variables takes our algorithm ~5 minutes using a GPU with 5Gb memory, whereas the state-of-the-art commercial packages tend to give up at 100 million variables even with 100Gb memory. The optimization algorithms developed have found wide ranging applications in scalable machine learning, including recent advances in deep reinforcement learning.</p> <p>While hidden Markov models (HMMs) have been widely studied for modeling discrete sequences, e.g., DNS queries from a user, HMMs fail to model the state persistence common in human activity, i.e., staying on one context (state) for a brief stretch before switching contexts and starting another activity. To handle state persistence, we studied hidden semi-Markov Models (HSMMs) and developed the first provably correct (spectral) algorithm for inference in HSMMs. For continuous multivariate time series, while vector auto-regressive (VAR) models and variants have been widely studied, it can be difficult to correctly estimate the historical dependencies of such models using finite amount of data. We developed a general geometric framework for analyzing such estimation problems assuming that the parameters to be estimated have structure, e.g., sparse, low rank, etc. Further, we also gave a precise characterization of the sample complexity of parameter estimation for VAR models assuming structured parameters.</p> <p>One of the central challenges of using massive streams of DNS queries to identify malware domains is that the query stream observed is in fact an interlacing of multiple query streams from individual users. While several users have query streams associated with normal domains, some will have streams associated with malicious domains, and it is difficult to identify the malicious domains and domain groups without first un-entangling or un-interlacing the query streams. The problem is challenging from a machine learning perspective because of the number of users, the unsupervised nature of the problem with no ground truth, variations in user query stream length, potential long range dependencies, latent interlacing information, among others. We have developed a synthetic generator for such data to evaluate methods, and also developed a set of approaches for handling the un-interlacing problem including approaches based on a (mixture of) HSMMs which can handle state persistence and approaches based on recurrent networks which has a more flexible representation of latent states and can handle long term temporal dependencies. The approaches have shown promising performance on the un-interlacing problem.&nbsp; &nbsp; &nbsp;</p><br> <p>            Last Modified: 01/01/2018<br>      Modified by: Arindam&nbsp;Banerjee</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The Internet?s Domain Name Service (DNS) offers a valuable vantage point for tracking malicious software campaigns that propagate daily across the world. We made progress on leveraging recent advances in large-scale machine learning algorithms to develop novel analytics that can uncover previously unknown malicious domains in massive streams of DNS resolution traffic. Our focus was on developing a new machine learning methods capable of uncovering "malware domain groups" over massive streams of DNS queries.  From the machine learning perspective, several challenges needed to be addressed. First, since the machine learning methods are to be applied to massive streams of DNS queries, i.e., on the order of hundreds of millions of queries (or gigabytes of data) per hour, the algorithms need to be extremely scalable. Since such learning happens based on optimization, the initial focus of our work was on developing scalable parallel and/or stochastic algorithms for optimization. The algorithms developed were illustrated to have desirable scalability, and outperformed commercial optimization packages by a large margin, e.g., linear programming with 200 million variables takes our algorithm ~5 minutes using a GPU with 5Gb memory, whereas the state-of-the-art commercial packages tend to give up at 100 million variables even with 100Gb memory. The optimization algorithms developed have found wide ranging applications in scalable machine learning, including recent advances in deep reinforcement learning.  While hidden Markov models (HMMs) have been widely studied for modeling discrete sequences, e.g., DNS queries from a user, HMMs fail to model the state persistence common in human activity, i.e., staying on one context (state) for a brief stretch before switching contexts and starting another activity. To handle state persistence, we studied hidden semi-Markov Models (HSMMs) and developed the first provably correct (spectral) algorithm for inference in HSMMs. For continuous multivariate time series, while vector auto-regressive (VAR) models and variants have been widely studied, it can be difficult to correctly estimate the historical dependencies of such models using finite amount of data. We developed a general geometric framework for analyzing such estimation problems assuming that the parameters to be estimated have structure, e.g., sparse, low rank, etc. Further, we also gave a precise characterization of the sample complexity of parameter estimation for VAR models assuming structured parameters.  One of the central challenges of using massive streams of DNS queries to identify malware domains is that the query stream observed is in fact an interlacing of multiple query streams from individual users. While several users have query streams associated with normal domains, some will have streams associated with malicious domains, and it is difficult to identify the malicious domains and domain groups without first un-entangling or un-interlacing the query streams. The problem is challenging from a machine learning perspective because of the number of users, the unsupervised nature of the problem with no ground truth, variations in user query stream length, potential long range dependencies, latent interlacing information, among others. We have developed a synthetic generator for such data to evaluate methods, and also developed a set of approaches for handling the un-interlacing problem including approaches based on a (mixture of) HSMMs which can handle state persistence and approaches based on recurrent networks which has a more flexible representation of latent states and can handle long term temporal dependencies. The approaches have shown promising performance on the un-interlacing problem.            Last Modified: 01/01/2018       Submitted by: Arindam Banerjee]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

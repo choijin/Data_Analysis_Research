@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: The Common Information Framework and Optimal Coding for Layered Storage and Transmission of Audio Signals</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>494831.00</AwardTotalIntnAmount>
+<AwardAmount>494831</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>richard brown</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The premise of this research project is: i) the rigid hierarchical structure of scalable coders represents a critical flaw that poses an existential threat to their practical deployment, despite compelling demand for such technology with the proliferation of heterogeneous networks and diverse device capabilities; ii) eliminating this shortcoming requires reconsideration of the problem at its most fundamental level, from information theoretic principles involving common information. The root cause is that real data sources are virtually never successively refinable -- the information required to achieve coarse quality reconstruction is not a proper subset of the information required for higher quality reconstruction. Hence, optimality necessitates splitting the information into what is common to different layers, and what is "private" to each layer. Research is pursued along several lines: derivation of a theoretical foundation for a common information framework for layered coding, analysis of asymptotic and finite delay performance gains, translation of theoretical insights into a practical framework of layered audio coding, extensions to sources with memory, and to scalability involving sampling resolution, multi-channel audio, and multi-view video.&lt;br/&gt;&lt;br/&gt;The research focus is on eliminating the underlying cause for suboptimality of scalable multimedia coders. Ramifications of this limitation are exemplified by the industry's business decision to avoid existing scalable coders and default to the wasteful (in storage and network resources) alternative of redundant, independent encoding at various quality levels. Thus, beside fundamental contributions to information theory, successful elimination of this shortcoming would significantly impact the efficacy of multimedia storage and networking, and thereby the broader sector of related high-tech industries including multimedia content delivery, wireless communications, and the critical effort to satisfy the rapidly growing demand for network resources.</AbstractNarration>
+<MinAmdLetterDate>06/27/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/27/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320599</AwardID>
+<Investigator>
+<FirstName>Kenneth</FirstName>
+<LastName>Rose</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kenneth Rose</PI_FULL_NAME>
+<EmailAddress>rose@ece.ucsb.edu</EmailAddress>
+<PI_PHON>8058937024</PI_PHON>
+<NSF_ID>000486690</NSF_ID>
+<StartDate>06/27/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Santa Barbara</Name>
+<CityName>Santa Barbara</CityName>
+<ZipCode>931062050</ZipCode>
+<PhoneNumber>8058934188</PhoneNumber>
+<StreetAddress>Office of Research</StreetAddress>
+<StreetAddress2><![CDATA[Rm 3227 Cheadle Hall]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>24</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA24</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>094878394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SANTA BARBARA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Santa Barbara]]></Name>
+<CityName>Santa Barbara</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>931069560</ZipCode>
+<StreetAddress><![CDATA[ECE Dept]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>24</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA24</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7937</Code>
+<Text>NETWORK CODING AND INFO THEORY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~494831</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project focused on efficient delivery of media content at multiple quality levels to diverse consumption devices over heterogeneous networks, while ensuring efficient use of resources for storage and transmission. The main thrust was to demonstrate that by forgoing the strict hierarchical constraints of scalable coding, and extracting information common to multiple quality levels (specifically based on information-theoretic concepts of common information), the critical "scalable penalty", due to the fact that most sources are not successively refinable, is circumvented. This opens the door to major contributions to both information theory and to practical content delivery technologies. The main outcomes of the project include:&nbsp;</p> <p>(i) Theoretical foundation: A main outcome of the project is the derivation of single letter information theoretic characterizations for the lossy generalizations for the two central notions of common information (Wyner&rsquo;s, and Gacs-Korner&rsquo;s), as well as the characterization of the achievable rate region for layered (common information) coding. Another outcome of the project is development of a framework for designing optimal quantizers that extract common information while encoding sources at two distortion levels. Inspired by the generalized Lloyd algorithm, this framework employs an iterative technique for joint design of vector quantizers at all the layers, wherein optimal quantizer partitions for all layers and optimal codebooks for all quality levels, are estimated iteratively, until convergence. This approach provided a considerable reduction in total transmit/storage rate with negligible loss in performance with fixed receive rates. For more than two quality levels, the outcome of the project is the derivation of a new coding scheme with each subset of quality levels sharing a distinct common codeword, leading to a combinatorial number of codewords, which was proved to provide strict improvement in the rate-distortion achievable region for the special case of multiple description coding.&nbsp;</p> <p>(ii) Multi-layered audio coding: The outcome of the project is development of the common information paradigm within the MPEG Advanced Audio Coding framework for two quality levels with three layers: common that provides coarse information two both the levels, while base and enhancement layers refine the common layer and is sent only to their respective levels. Another outcome is development of a joint optimization scheme for all the layers, which resulted in achieving intermediate points in the trade-off between total transmit rate and total receive rate at a better overall cost than existing techniques. In another outcome the quantizer design framework developed in theoretical foundation was utilized for joint design of three layer common information based quantizers for Laplacian distribution, which is commonly employed to model practical audio and video content.</p> <p>(iii) Layered predictive coding: For the challenging case of hidden Markov sources, the main outcome of the project is development of a hierarchical layered coding approach which exploits all the available information to obtain significant performance improvement over existing techniques. The insights obtained here have inspired interesting spinoff investigation in multi-modality pattern recognition applications, which employ hidden Markov models for data. For layered predictive coding of video, the outcome is development of preliminary approaches for estimation theoretically optimal exploitation of all the available information at each layer.</p><br> <p>            Last Modified: 12/29/2016<br>      Modified by: Kenneth&nbsp;Rose</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project focused on efficient delivery of media content at multiple quality levels to diverse consumption devices over heterogeneous networks, while ensuring efficient use of resources for storage and transmission. The main thrust was to demonstrate that by forgoing the strict hierarchical constraints of scalable coding, and extracting information common to multiple quality levels (specifically based on information-theoretic concepts of common information), the critical "scalable penalty", due to the fact that most sources are not successively refinable, is circumvented. This opens the door to major contributions to both information theory and to practical content delivery technologies. The main outcomes of the project include:   (i) Theoretical foundation: A main outcome of the project is the derivation of single letter information theoretic characterizations for the lossy generalizations for the two central notions of common information (Wyner?s, and Gacs-Korner?s), as well as the characterization of the achievable rate region for layered (common information) coding. Another outcome of the project is development of a framework for designing optimal quantizers that extract common information while encoding sources at two distortion levels. Inspired by the generalized Lloyd algorithm, this framework employs an iterative technique for joint design of vector quantizers at all the layers, wherein optimal quantizer partitions for all layers and optimal codebooks for all quality levels, are estimated iteratively, until convergence. This approach provided a considerable reduction in total transmit/storage rate with negligible loss in performance with fixed receive rates. For more than two quality levels, the outcome of the project is the derivation of a new coding scheme with each subset of quality levels sharing a distinct common codeword, leading to a combinatorial number of codewords, which was proved to provide strict improvement in the rate-distortion achievable region for the special case of multiple description coding.   (ii) Multi-layered audio coding: The outcome of the project is development of the common information paradigm within the MPEG Advanced Audio Coding framework for two quality levels with three layers: common that provides coarse information two both the levels, while base and enhancement layers refine the common layer and is sent only to their respective levels. Another outcome is development of a joint optimization scheme for all the layers, which resulted in achieving intermediate points in the trade-off between total transmit rate and total receive rate at a better overall cost than existing techniques. In another outcome the quantizer design framework developed in theoretical foundation was utilized for joint design of three layer common information based quantizers for Laplacian distribution, which is commonly employed to model practical audio and video content.  (iii) Layered predictive coding: For the challenging case of hidden Markov sources, the main outcome of the project is development of a hierarchical layered coding approach which exploits all the available information to obtain significant performance improvement over existing techniques. The insights obtained here have inspired interesting spinoff investigation in multi-modality pattern recognition applications, which employ hidden Markov models for data. For layered predictive coding of video, the outcome is development of preliminary approaches for estimation theoretically optimal exploitation of all the available information at each layer.       Last Modified: 12/29/2016       Submitted by: Kenneth Rose]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

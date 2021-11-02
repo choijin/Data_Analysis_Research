@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF:Small:Data Structures for Dynamic Networks</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>499861.00</AwardTotalIntnAmount>
+<AwardAmount>499861</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rahul Shah</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Physical networks (such as communications networks and road networks) are dynamic objects, prone to sudden failures, congestion, and malicious attacks.  Nonetheless, we must be able to compute basic functions of the current state of these networks, i.e., as network components fail and recover, we need dynamic algorithms and data structures to route along shortest paths and to calculate distances, flow/cut capacities, and point-to-point connectivity.  Currently deployed systems typically deal with the problem of transient failures by periodically recomputing from scratch all the network properties of interest.  Solutions of this type are insufficient in two ways.  They are computationally inefficient, the extent to which depends on the given network property, and they do not respond to network component failures dynamically.&lt;br/&gt;&lt;br/&gt;The technical aims of this project are two-fold.  The first is to develop abstract representations of graphs and graph properties, along the lines of cactus trees and Gomory-Hu trees.  These graph representations are useful in the design of efficient algorithms and data structures, but are also of interest to the broader mathematics community.  The second is to develop data structures in the dynamic subgraph model and d-failure model.  These abstract models capture the situation found in many real world applications: there is a fixed substrate network, which can be processed in advance by possibly inefficient algorithms, which is subject to a sequence of node/link failures and recoveries intermixed with queries.  A pervasive theme of the project is to determine what gains in efficiency can be had (in running time, space consumption) by accepting approximate solutions, e.g., approximately shortest routes or approximately minimum cuts that are guaranteed to be accurate up to some fixed multiplicative or additive error.&lt;br/&gt;&lt;br/&gt;In addition to its specific research goals, the aims of this project are to (i) train undergraduate and graduate students in the design and rigorous analysis of efficient data structures, and (ii) incorporate modern data structures into the computer science curriculum by developing course materials appropriate to students at&lt;br/&gt;the graduate or advanced undergraduate level.</AbstractNarration>
+<MinAmdLetterDate>07/17/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/17/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217338</AwardID>
+<Investigator>
+<FirstName>Seth</FirstName>
+<LastName>Pettie</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Seth Pettie</PI_FULL_NAME>
+<EmailAddress>pettie@umich.edu</EmailAddress>
+<PI_PHON>7347641817</PI_PHON>
+<NSF_ID>000477111</NSF_ID>
+<StartDate>07/17/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073133571</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MICHIGAN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073133571</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Michigan Ann Arbor]]></Name>
+<CityName>Ann Arbor</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>481092121</ZipCode>
+<StreetAddress><![CDATA[2260 Hayward St.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~499861</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Real world networks (say communications networks) are both physical and conceptual objects.&nbsp; They are dynamically changing a prone to failure.&nbsp;&nbsp; The aim of this project was to design algorithms and data structures that could compute properties of dynamically changing networks.</p> <p>Many networks (e.g., router networks) can be viewed as essentially fixed, but subject to the sudden failure of multiple nodes or links.&nbsp; This project developed a new class of time and space-efficient data structures that can confirm point-to-point connectivity after the failure of up to D network components.&nbsp;&nbsp; The failures are processed in time quadratic in D and point-to-point connectivity queries are answered in time linear in D.&nbsp;&nbsp; Moreover, we proved that the efficiency of this data structure cannot be improved in one important respect.&nbsp; Conditioned on the validity of the Integer 3SUM Conjecture, no such data structure can answer queries in nearly-constant time, independent of D.</p> <p>We also investigated the complexity of the fully dynamic connectivity problem, in which network links are dynamically added/deleted over time and point-to-point connectivity queries must be answered with respect to the current network.&nbsp; We developed faster fully dynamic connectivity algorithms, one of which measures the worst-case latency of any update operation, and the other measures the latency of the average update operation, averaged over the lifetime of the data structure.&nbsp; The second data structure completes all operations in time that is nearly logarithmic in the number of vertices, which is close to optimal, due to a logarithmic lower bound.</p> <p>We refuted the strongest version of the Real 3SUM conjecture by designing a strongly subquadratic decision tree for the problem and a mildly subqudratic uniform algorithm.&nbsp; Versions of the 3SUM conjecture are commonly used to prove conditional lower bounds on dynamic data structural problems.&nbsp; Our results cast some doubts on the validity of weaker versions of the 3SUM conjecture but do not completely invalidate any previous conditional lower bounds.</p> <p>In distributed networks the nodes are identified with computers and the edges with bidirected communication links.&nbsp; We studied the complexity of many fundamental symmetry-breaking problems in distributed network models in which the global network topology is unknown to the participating computers.&nbsp; A long-standing question in this model is whether access to uniformly random bits are useful for accelerating the computation.&nbsp; We proved the first separation between randomized and deterministic complexity in this model, and showed that there is usually an exponential gap between the running time of the optimal randomized and deterministic algorithms for typical symmetry-breaking problems.&nbsp; Furthermore, we explained exactly how this complexity gap arises by designing a new algorithmic technique called &ldquo;graph shattering&rdquo; that explicitly reduces the randomized complexity of a problem to its deterministic complexity on an exponentially reduced problem size.</p> <p>We developed more efficient algorithms for the classical problem of optimum weighted perfect matching on general (non-bipartite) graphs, which implies faster algorithms for several problems in discrete optimization, e.g., computing approximately optimal traveling salesman tours via Christofides&rsquo; algorithm or computing optimum Chinese postman tours.&nbsp; The algorithm is of the primal-dual variety, and takes a new approach of computing only near-optimal near-perfect matchings at intermediate stages of the algorithm.</p> <p>This grant supported a postdoctoral researcher and one PhD student through graduation.&nbsp; They have taken positions as a research scientist at Bar-Ilan University and a postdoctoral researcher at MIT.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/30/2016<br>      Modified by: Seth&nbsp;Pettie</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Real world networks (say communications networks) are both physical and conceptual objects.  They are dynamically changing a prone to failure.   The aim of this project was to design algorithms and data structures that could compute properties of dynamically changing networks.  Many networks (e.g., router networks) can be viewed as essentially fixed, but subject to the sudden failure of multiple nodes or links.  This project developed a new class of time and space-efficient data structures that can confirm point-to-point connectivity after the failure of up to D network components.   The failures are processed in time quadratic in D and point-to-point connectivity queries are answered in time linear in D.   Moreover, we proved that the efficiency of this data structure cannot be improved in one important respect.  Conditioned on the validity of the Integer 3SUM Conjecture, no such data structure can answer queries in nearly-constant time, independent of D.  We also investigated the complexity of the fully dynamic connectivity problem, in which network links are dynamically added/deleted over time and point-to-point connectivity queries must be answered with respect to the current network.  We developed faster fully dynamic connectivity algorithms, one of which measures the worst-case latency of any update operation, and the other measures the latency of the average update operation, averaged over the lifetime of the data structure.  The second data structure completes all operations in time that is nearly logarithmic in the number of vertices, which is close to optimal, due to a logarithmic lower bound.  We refuted the strongest version of the Real 3SUM conjecture by designing a strongly subquadratic decision tree for the problem and a mildly subqudratic uniform algorithm.  Versions of the 3SUM conjecture are commonly used to prove conditional lower bounds on dynamic data structural problems.  Our results cast some doubts on the validity of weaker versions of the 3SUM conjecture but do not completely invalidate any previous conditional lower bounds.  In distributed networks the nodes are identified with computers and the edges with bidirected communication links.  We studied the complexity of many fundamental symmetry-breaking problems in distributed network models in which the global network topology is unknown to the participating computers.  A long-standing question in this model is whether access to uniformly random bits are useful for accelerating the computation.  We proved the first separation between randomized and deterministic complexity in this model, and showed that there is usually an exponential gap between the running time of the optimal randomized and deterministic algorithms for typical symmetry-breaking problems.  Furthermore, we explained exactly how this complexity gap arises by designing a new algorithmic technique called "graph shattering" that explicitly reduces the randomized complexity of a problem to its deterministic complexity on an exponentially reduced problem size.  We developed more efficient algorithms for the classical problem of optimum weighted perfect matching on general (non-bipartite) graphs, which implies faster algorithms for several problems in discrete optimization, e.g., computing approximately optimal traveling salesman tours via Christofides? algorithm or computing optimum Chinese postman tours.  The algorithm is of the primal-dual variety, and takes a new approach of computing only near-optimal near-perfect matchings at intermediate stages of the algorithm.  This grant supported a postdoctoral researcher and one PhD student through graduation.  They have taken positions as a research scientist at Bar-Ilan University and a postdoctoral researcher at MIT.          Last Modified: 10/30/2016       Submitted by: Seth Pettie]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

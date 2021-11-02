@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SBIR Phase I:  GPU Software for Sparse Linear Programming</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2010</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Errol Arkilic</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This Small Business Innovation Research (SBIR) Phase I project will investigate the feasibility of developing a practical parallel implementation of the simplex algorithm for linear programming.  As the demand to solve larger and more complex decision-making problems in all sectors of the economy increases, so does the demand for a parallel simplex algorithm for on-line and time-critical operations. Yet, parallel versions of this algorithm are currently unable to outperform appropriate serial codes for industrially-relevant problems that involve sparse large-scale matrices. The proposed research will explore a finer-grain parallelization than previously attempted for the simplex algorithm. As a result, the proposed implementation of the simplex algorithm will harness recent advances in graphics processing units (GPUs), while being capable of benefiting from any future serial algorithmic advances in the context of this algorithm. In addition to callable libraries and stand-alone executables, the implementation will be offered through cloud-enabled commercial services.  &lt;br/&gt;&lt;br/&gt;The parallelization of the simplex algorithm has remained a major challenge in scientific computing. The proposed research will involve a systematic investigation of different combinations of factorization and pricing algorithms with regard to their performance on modern GPUs. If successful, the proposed work will result in an enabling technology for decision making in diverse areas across science and engineering and commerce.  Linear programming is used extensively in applications ranging from data mining to airline scheduling, cancer therapy, engineering design, financial decision making, and logistics. As a result, the proposed work presents an unique opportunity to improve the competitiveness of the nation's commercial infrastructure.</AbstractNarration>
+<MinAmdLetterDate>04/27/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>04/27/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1014271</AwardID>
+<Investigator>
+<FirstName>Joseph</FirstName>
+<LastName>Elble</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Joseph Elble</PI_FULL_NAME>
+<EmailAddress>joseph.elble@gmail.com</EmailAddress>
+<PI_PHON>2174189239</PI_PHON>
+<NSF_ID>000553674</NSF_ID>
+<StartDate>04/27/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>The Optimization Firm, LLC</Name>
+<CityName>Pittsburgh</CityName>
+<ZipCode>152432050</ZipCode>
+<PhoneNumber>4126052421</PhoneNumber>
+<StreetAddress>486 Longridge Dr</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>014983810</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OPTIMIZATION FIRM, LLC, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[The Optimization Firm, LLC]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152432050</ZipCode>
+<StreetAddress><![CDATA[486 Longridge Dr]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5371</Code>
+<Text>SBIR Phase I</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5371</Code>
+<Text>SMALL BUSINESS PHASE I</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>6850</Code>
+<Text>DIGITAL SOCIETY&amp;TECHNOLOGIES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9139</Code>
+<Text>INFORMATION INFRASTRUCTURE &amp; TECH APPL</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The primary objective of this SBIR Phase I project was to investigate the possibility of capitalizing on Graphics Processing Units for the development of a practical parallel implementation for the simplex algorithm for sparse linear programming.</p> <p>Research on the parallelization of the simplex algorithm was first and most actively considered in the 1990s, when it was concluded that the available hardware was unable to provide the desired performance requirements for sparse large-scale problems.&nbsp; The parallelization of this algorithm has remained a major challenge in scientific computing to this date.&nbsp; The project involved a systematic investigation of different algorithmic steps of this algorithm with regard to their performance on modern Graphics Processing Units.</p> <p>The results from this project suggest that the development of a hybrid GPU-CPU implementation of the simplex algorithm for sparse linear programming is likely to yield a considerable improvement in performance relative to current CPU implementations of this algorithm.</p> <p>The simplex algorithm for linear programming is the workhorse of algorithms that are used extensively in applications ranging from data mining to airline scheduling, cancer therapy, engineering design, financial decision making, and logistics.&nbsp; The results of this project suggest an avenue for improving the competitiveness of the nation's commercial infrastructure.</p><br> <p>            Last Modified: 01/31/2011<br>      Modified by: Joseph&nbsp;Elble</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The primary objective of this SBIR Phase I project was to investigate the possibility of capitalizing on Graphics Processing Units for the development of a practical parallel implementation for the simplex algorithm for sparse linear programming.  Research on the parallelization of the simplex algorithm was first and most actively considered in the 1990s, when it was concluded that the available hardware was unable to provide the desired performance requirements for sparse large-scale problems.  The parallelization of this algorithm has remained a major challenge in scientific computing to this date.  The project involved a systematic investigation of different algorithmic steps of this algorithm with regard to their performance on modern Graphics Processing Units.  The results from this project suggest that the development of a hybrid GPU-CPU implementation of the simplex algorithm for sparse linear programming is likely to yield a considerable improvement in performance relative to current CPU implementations of this algorithm.  The simplex algorithm for linear programming is the workhorse of algorithms that are used extensively in applications ranging from data mining to airline scheduling, cancer therapy, engineering design, financial decision making, and logistics.  The results of this project suggest an avenue for improving the competitiveness of the nation's commercial infrastructure.       Last Modified: 01/31/2011       Submitted by: Joseph Elble]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

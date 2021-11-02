@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Visualization:  Plenoptic Opacity Function for Large Date Visualization</AwardTitle>
+<AwardEffectiveDate>10/15/2003</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2006</AwardExpirationDate>
+<AwardTotalIntnAmount>149635.00</AwardTotalIntnAmount>
+<AwardAmount>149635</AwardAmount>
+<AwardInstrument>
+<Value>Continuing grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Lawrence Rosenblum</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>The gigabytes to terabytes of data now being produced by scientific and medical &lt;br/&gt;applications on a routine basis create a pressing demand for capable visualization &lt;br/&gt;tools. One of the key problems hindering the development of such tools is the &lt;br/&gt;growing disparity between the available system bandwidth and the total need of &lt;br/&gt;data access during interactive rendering of these large data sets. Unfortunately, &lt;br/&gt;such scarcity of physical bandwidth persists in spite of repeated efforts to &lt;br/&gt;accelerate I/O subsystems. Complementary to those continued efforts in increasing &lt;br/&gt;I/O performance, this project focuses on intelligently decreasing the need of &lt;br/&gt;data access using a unique, coarse-grained method of visibility culling. &lt;br/&gt;&lt;br/&gt;Visibility culling aims at eliminating unnecessary visualization computation by &lt;br/&gt;focusing on parts of the data that are visible from a specific view, culling &lt;br/&gt;occluded portions, which may be substantial, in the early stages of the &lt;br/&gt;visualization pipeline. Although visibility culling has previously been done as &lt;br/&gt;a by-product of the rendering process, it has yet to be explored as an independent &lt;br/&gt;technique for attacking the bandwidth bottleneck. For that purpose, the project we &lt;br/&gt;propose here will focus on the discovery and development of new visibility culling &lt;br/&gt;algorithms that are generic, scalable and efficient. Our key concept is to encode &lt;br/&gt;meta-opacity via precomputation. In any volume each voxel has a predetermined &lt;br/&gt;value of opacity. During rendering, a sequence of voxels is composited in depth &lt;br/&gt;order to form a view-dependent opacity value, called meta-opacity, for each ray &lt;br/&gt;segment. We hypothesize that there exists a way to conservatively and efficiently &lt;br/&gt;encode meta-opacity of a convex-shaped volume block for a range of views under a &lt;br/&gt;family of transfer functions via a one-time pre-computation. We call such encoding &lt;br/&gt;the Plenoptic Opacity Function (POF). Using POF for conservative run-time opacity &lt;br/&gt;estimation, great accelerations by visibility culling in volume rendering can be &lt;br/&gt;accomplished while the transfer function can be modified within the same family on &lt;br/&gt;the fly. Here we test this hypothesis and apply POF to volume rendering in &lt;br/&gt;large-scale parallelism, as well as out-of-core visualization.&lt;br/&gt;&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>10/08/2003</MinAmdLetterDate>
+<MaxAmdLetterDate>10/18/2005</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0329323</AwardID>
+<Investigator>
+<FirstName>Han-Wei</FirstName>
+<LastName>Shen</LastName>
+<EmailAddress>hwshen@cse.ohio-state.edu</EmailAddress>
+<StartDate>10/08/2003</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jian</FirstName>
+<LastName>Huang</LastName>
+<EmailAddress>huangj@eecs.utk.edu</EmailAddress>
+<StartDate>10/08/2003</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Tennessee Knoxville</Name>
+<CityName>Knoxville</CityName>
+<ZipCode>379163801</ZipCode>
+<PhoneNumber>8659743466</PhoneNumber>
+<StreetAddress>1331 CIR PARK DR</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<StateCode>TN</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0000099</Code>
+<Name>Other Applications NEC</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7453</Code>
+<Text>GRAPHICS &amp; VISUALIZATION</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9216</Code>
+<Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

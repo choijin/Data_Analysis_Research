@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Collaborative Research: Mera: Memoized Ranged Systematic Software Analyses</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>149022.00</AwardTotalIntnAmount>
+<AwardAmount>149022</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>As software pervades our society and lives, failures due to software&lt;br/&gt;bugs become increasingly costly.  Scalable approaches for&lt;br/&gt;systematically checking software to find crucial bugs hold a key to&lt;br/&gt;delivering higher quality software at a lower cost.  Mera is a&lt;br/&gt;methodology to scale model checking and symbolic execution which are two&lt;br/&gt;powerful approaches for systematic software analysis and known to be&lt;br/&gt;computationally expensive.&lt;br/&gt;&lt;br/&gt;The project builds on two novel concepts: memoization, which allows&lt;br/&gt;re-using computations performed across different checks to amortize&lt;br/&gt;the cost of software analysis; and ranging, which allows distributing&lt;br/&gt;the analysis into sub-problems of lesser complexity, which can be&lt;br/&gt;solved separately and efficiently.  Mera consists of three research&lt;br/&gt;thrusts.  First, the core memoization and ranging techniques for model&lt;br/&gt;checking and symbolic execution are developed.  Second, these&lt;br/&gt;techniques are optimized in the context of different kinds of changes,&lt;br/&gt;like the program code, expected properties, or analysis search-depth&lt;br/&gt;parameters.  Third, these techniques are adapted to effectively&lt;br/&gt;utilize available resources for parallel computation using static and&lt;br/&gt;dynamic strategies, such as work stealing.  Mera will help improve&lt;br/&gt;software quality and reliability thus holding the potential to provide&lt;br/&gt;substantial economic benefits and to improve our quality of life.</AbstractNarration>
+<MinAmdLetterDate>07/31/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>07/31/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1319858</AwardID>
+<Investigator>
+<FirstName>Corina</FirstName>
+<LastName>Pasareanu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Corina Pasareanu</PI_FULL_NAME>
+<EmailAddress>corina.pasareanu@sv.cmu.edu</EmailAddress>
+<PI_PHON>6503352823</PI_PHON>
+<NSF_ID>000608625</NSF_ID>
+<StartDate>07/31/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie Mellon University Silicon Valley]]></Name>
+<CityName>Moffett Field</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>940350001</ZipCode>
+<StreetAddress><![CDATA[NASA Ames Research Park]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~149022</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The overarching goal of this project is to develop techniques and<br />tools that enable more effective and efficient symbolic execution and<br />model checking for systematic testing.<br /><br />They key outcomes of the MERA project are listed below:<br /><br />* Compositional Symbolic Execution<br />&nbsp; We designed, developed, and evaluated CompoSE, a new technique for<br />&nbsp; compositional symbolic execution [ICSE-2015].&nbsp; CompoSE introduces a<br />&nbsp; tree-based representation to create method summaries, which enable<br />&nbsp; compositional analysis.&nbsp; CompoSE is a summary-based compositional<br />&nbsp; techniques for scaling up symbolic execution, using a new idea of<br />&nbsp; "memoized replay", i.e. the summary of a method is saved as a small<br />&nbsp; representation tree which is efficiently re-used when the method is<br />&nbsp; analyzed again (re-played) in different calling contexts.&nbsp; Our<br />&nbsp; embodiment of CompoSE uses the Symbolic PathFinder tool.<br /><br />* Certified Symbolic Execution: <br />&nbsp; We completed our work on Certified Symbolic Execution [Qiu-PhD'16],<br />&nbsp; a technique that allows the producer to perform symbolic execution<br />&nbsp; of the given program and create a certificate, which the consumer<br />&nbsp; can then check to validate the results of symbolic execution,<br />&nbsp; thereby allowing the consumer to utilize the results with confidence<br />&nbsp; in their correctness without having to perform symbolic execution<br />&nbsp; itself.&nbsp; The technique is implemented in the Symbolic PathFinder<br />&nbsp; tool.&nbsp; Experimental results show that the verification of the<br />&nbsp; certificate is much faster than the original symbolic execution used<br />&nbsp; to create a certificate.<br /><br />* Incremental and Parallel Symbolic Execution: <br />&nbsp; We defined a new technique for incremental symbolic execution based<br />&nbsp; on a new approach for compact memoization of the results of the<br />&nbsp; previous run of symbolic execution using "ranges" [Qiu-PhD'16,<br />&nbsp; ICSE'17-QKPY].&nbsp; Specifically, our technique allows efficient<br />&nbsp; iterative deepening where the constraint solving results from<br />&nbsp; symbolic execution with respect to the smaller depth are effectively<br />&nbsp; re-used when exploring the greater depth.&nbsp; Moreover, the approach<br />&nbsp; can allow seamless integration of symbolic execution with other<br />&nbsp; analysis, say model checking or search-based testing.<br /><br />&nbsp; Further utilizing our approach for compact memoization for symbolic<br />&nbsp; execution, we defined a new technique for distributed symbolic<br />&nbsp; execution where multiple, parallel workers explore the bounded space<br />&nbsp; of execution paths while effectively using the memoized information<br />&nbsp; [Qiu-PhD'16, ICSE'17].&nbsp; The compact summaries will allow<br />&nbsp; lightweight sharing of information between parallel workers. <br /><br />* Symbolic Execution For Side-Channel Analysis<br />&nbsp; We explored a novel application of symbolic execution in the context<br />&nbsp; of detecting side channels in Java applications [FSE'16]. The<br />&nbsp; approach not only discovers the side channels but also quantifies<br />&nbsp; leakage by processing the path conditions given by symbolic<br />&nbsp; execution to compute entropy (and leakage) of the analyzed<br />&nbsp; program. We demonstrated the approach on discovering vulnerabilities<br />&nbsp; in a real-world compression algorithm.<br /><br />Furthermore, we extended Symbolic PathFinder with handling of floating point<br />&nbsp; constraints (by integrating dReal) and with complete treatment of<br />&nbsp; strings (by treating them as arrays of characters and building SMT<br />&nbsp; constraints solved with Z3) and we surveyed and evaluated tools and <br />&nbsp; techniques for model-counting for non-linear constraints [NFM'17].<br /><br />References:<br /><br />[ICSE'17] Rui Qiu, Sarfraz Khurshid, Corina S. Pasareanu, Guowei Yang.<br />A synergistic approach for distributed symbolic execution using test ranges.<br />39th International Conference on Software Engineering (ICSE) -- Poster paper.<br />May 2017.&nbsp; 130-132<br /><br />[NFM'17] Mateus Borges, Quoc-Sang Phan, Antonio Filieri and Corina Pasareanu. <br />Model-counting approaches for nonlinear numerical constraints.<br />9th NASA Formal Methods Symposium NFM 2017. NASA Ames Research Center. <br />Moffett Field, CA, USA. May 16-18, 2017.<br /><br />[Qiu-PhD'16] Rui Qiu. Scaling and Certifying Symbolic Execution. PhD Thesis. <br />University of Texas at Austin. 2016<br /><br />[ICSE'15] Rui Qiu Guowei Yang Corina S. Pasareanu Sarfraz Khurshid (2015). Compositional Symbolic Execution with Memoized Replay. International Conference on Software Engineering (ICSE) 2015. Florence, Italy.<br /><br />[ATVA'16] Rui Qiu, Corina Pasareanu and Sarfraz Khurshid (2016). Certified Symbolic Execution.&nbsp; ATVA'16: 14'th International Symposium on Automated Technology for Verification and Analysis.&nbsp;&nbsp; <br /><br />[FSE'16] Lucas Bang, Abdulbaki Aydin, Quoc-Sang Phan, Corina S. Pasareanu and Tevfik Bultan. (2016). String Analysis for Side Channels with Segmented Oracles.&nbsp; FSE'16: 24th ACM SIGSOFT International Symposium on the Foundations of Software Engineering.</p><br> <p>            Last Modified: 08/01/2017<br>      Modified by: Corina&nbsp;Pasareanu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The overarching goal of this project is to develop techniques and tools that enable more effective and efficient symbolic execution and model checking for systematic testing.  They key outcomes of the MERA project are listed below:  * Compositional Symbolic Execution   We designed, developed, and evaluated CompoSE, a new technique for   compositional symbolic execution [ICSE-2015].  CompoSE introduces a   tree-based representation to create method summaries, which enable   compositional analysis.  CompoSE is a summary-based compositional   techniques for scaling up symbolic execution, using a new idea of   "memoized replay", i.e. the summary of a method is saved as a small   representation tree which is efficiently re-used when the method is   analyzed again (re-played) in different calling contexts.  Our   embodiment of CompoSE uses the Symbolic PathFinder tool.  * Certified Symbolic Execution:    We completed our work on Certified Symbolic Execution [Qiu-PhD'16],   a technique that allows the producer to perform symbolic execution   of the given program and create a certificate, which the consumer   can then check to validate the results of symbolic execution,   thereby allowing the consumer to utilize the results with confidence   in their correctness without having to perform symbolic execution   itself.  The technique is implemented in the Symbolic PathFinder   tool.  Experimental results show that the verification of the   certificate is much faster than the original symbolic execution used   to create a certificate.  * Incremental and Parallel Symbolic Execution:    We defined a new technique for incremental symbolic execution based   on a new approach for compact memoization of the results of the   previous run of symbolic execution using "ranges" [Qiu-PhD'16,   ICSE'17-QKPY].  Specifically, our technique allows efficient   iterative deepening where the constraint solving results from   symbolic execution with respect to the smaller depth are effectively   re-used when exploring the greater depth.  Moreover, the approach   can allow seamless integration of symbolic execution with other   analysis, say model checking or search-based testing.    Further utilizing our approach for compact memoization for symbolic   execution, we defined a new technique for distributed symbolic   execution where multiple, parallel workers explore the bounded space   of execution paths while effectively using the memoized information   [Qiu-PhD'16, ICSE'17].  The compact summaries will allow   lightweight sharing of information between parallel workers.   * Symbolic Execution For Side-Channel Analysis   We explored a novel application of symbolic execution in the context   of detecting side channels in Java applications [FSE'16]. The   approach not only discovers the side channels but also quantifies   leakage by processing the path conditions given by symbolic   execution to compute entropy (and leakage) of the analyzed   program. We demonstrated the approach on discovering vulnerabilities   in a real-world compression algorithm.  Furthermore, we extended Symbolic PathFinder with handling of floating point   constraints (by integrating dReal) and with complete treatment of   strings (by treating them as arrays of characters and building SMT   constraints solved with Z3) and we surveyed and evaluated tools and    techniques for model-counting for non-linear constraints [NFM'17].  References:  [ICSE'17] Rui Qiu, Sarfraz Khurshid, Corina S. Pasareanu, Guowei Yang. A synergistic approach for distributed symbolic execution using test ranges. 39th International Conference on Software Engineering (ICSE) -- Poster paper. May 2017.  130-132  [NFM'17] Mateus Borges, Quoc-Sang Phan, Antonio Filieri and Corina Pasareanu.  Model-counting approaches for nonlinear numerical constraints. 9th NASA Formal Methods Symposium NFM 2017. NASA Ames Research Center.  Moffett Field, CA, USA. May 16-18, 2017.  [Qiu-PhD'16] Rui Qiu. Scaling and Certifying Symbolic Execution. PhD Thesis.  University of Texas at Austin. 2016  [ICSE'15] Rui Qiu Guowei Yang Corina S. Pasareanu Sarfraz Khurshid (2015). Compositional Symbolic Execution with Memoized Replay. International Conference on Software Engineering (ICSE) 2015. Florence, Italy.  [ATVA'16] Rui Qiu, Corina Pasareanu and Sarfraz Khurshid (2016). Certified Symbolic Execution.  ATVA'16: 14'th International Symposium on Automated Technology for Verification and Analysis.     [FSE'16] Lucas Bang, Abdulbaki Aydin, Quoc-Sang Phan, Corina S. Pasareanu and Tevfik Bultan. (2016). String Analysis for Side Channels with Segmented Oracles.  FSE'16: 24th ACM SIGSOFT International Symposium on the Foundations of Software Engineering.       Last Modified: 08/01/2017       Submitted by: Corina Pasareanu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

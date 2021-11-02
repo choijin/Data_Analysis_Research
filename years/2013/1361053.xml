@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research:XPS:CLCCA: Performance Portable Abstractions for Large-Scale Irregular Computations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/10/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>299999.00</AwardTotalIntnAmount>
+<AwardAmount>299999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Ongoing technology trends are accelerating scientific discovery by allowing researchers to generate enormous quantities of data, in domains ranging from computational biology to social networks.  There is an urgent need to make it easy and fast to extract useful content from this data using appropriate abstractions and parallel runtimes.  Work conducted under this project aims to make "big data" computing more readily available to applications with dynamic structure and irregular dependencies, thereby enabling advances in scientific computing in general and computational biology in particular.&lt;br/&gt;&lt;br/&gt;This project extends the state of the art in scientific computing by developing programming abstractions to expose -- and run-time optimizations to exploit -- the parallelism available in large, irregular applications.  Parallelism is essential for the extraction of useful information from ever increasing volumes of scientific data, but the irregularity of data structure and access in many problem domains makes efficient parallelization difficult. At the level of the programming model, the project addresses the challenge of irregularity by identifying design patterns for important new classes of applications -- in particular, those that use trees and graphs for data representation and access but demonstrate some structure in the traversal.  At the level of the run-time system, it is developing computational engines that support and exploit the new patterns, leveraging the structure exposed to automatically and dynamically map computational tasks to hardware nodes.</AbstractNarration>
+<MinAmdLetterDate>11/06/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>11/06/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1361053</AwardID>
+<Investigator>
+<FirstName>Srinivas</FirstName>
+<LastName>Aluru</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Srinivas Aluru</PI_FULL_NAME>
+<EmailAddress>aluru@cc.gatech.edu</EmailAddress>
+<PI_PHON>4043851486</PI_PHON>
+<NSF_ID>000388133</NSF_ID>
+<StartDate>11/06/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 North Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1640</Code>
+<Text>Information Technology Researc</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~299999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project aimed to extend the state-of-the-art in scientific computing by developing programming abstractions to expose -- and run-time optimizations to exploit -- the parallelism available in large, irregular applications. Parallelism is essential for the extraction of useful information from ever increasing volumes of scientific data, but the irregularity of data structure and access in many problem domains makes efficient parallelization difficult. At the level of the programming model, the project addressed the challenge of irregularity by identifying design patterns for important new classes of applications -- in particular, those that use trees and graphs for data representation and access but demonstrate some structure in the traversal. At the level of the run-time system, the project developed computational engines that support and exploit the new patterns, leveraging the structure exposed to automatically and dynamically map computational tasks to hardware nodes.<br /><br />Project activities were focused in three major areas: 1) fast point tree data structures and algorithms, 2) fast de Bruijn graph and algorithms for sequence analysis and assembly, and 3) efficient parallel run-time systems.<br /><br />The Georgia Institute of Technology team led the development of fast point tree data structures and algorithms to support tree-based applications including hierarchical methods in scientific computing, k-nearest neighbors and the Fast Multipole Method. A common framework is developed, including three sub libraries: the tree compute framework, the parallel tree library model/abstraction, and a library of distributed tree structure implementations (such as octrees and kd-trees). The first two sub libraries provide a common abstraction for constructing, accessing, and computing with different distributed tree structures, while the last sub-library contain tree-specific, state-of-the-art algorithms.&nbsp; These abstractions allow an application developer to perform computations in parallel with minimal knowledge in parallelism or underlying distributed computing resources.&nbsp;The code is demonstrated by implementing communication efficient kd-trees, showing a two- to three-fold improvement in performance over existing methods.&nbsp; <br /><br />The Georgia Institute of Technology team also led the development of efficient data structures and algorithms to support genome assembly as well as other sequence analysis tasks such as error corrrection, alignment, variant calling, etc. Best-in-class algorithms were developed for distributed memory k-mer indices (Kmerind and Kmerhash), and parallel directed and bi-directed de Bruijn graphs (Bruno) with fast construction, error detection and removal, linear chain compaction, and cycle detection.&nbsp; The k-mer counter out-performed previous state-of-the-art shared memory software by 1.7 times, and was able to count a 1TB sequence data set in under 12 seconds using 4096 cores on NERSC's Cori supercomputer.&nbsp; The de Bruijn graph software constructed and compacted a 695GB data set in 31 seconds using 7680 cores on NERSC's Edison supercomputer, 3.7 times faster than the previous state of the art, and 1.4 times faster than the previous state of the art in shared memory environments.&nbsp; These algorithms and implementations benefit not only computational biology and bioinformatics, but also the broader set of applications that depend on distributed and sequential hash tables.<br /><br />The University of Rochester team led the development of efficient parallel run-time systems.&nbsp;&nbsp;To make as effective use as possible of modern multiprocessors and clusters, techniques were developed to co-locate application tasks that share significant amounts of data, thereby minimizing communication costs. Related techniques were developed to automatically control the level of parallelism in each application. Both of these mechanisms leverage the performance monitoring features of modern processors to effect their adaptations without programmer or user intervention.For systems that share hardware resources across independent applications, the project also developed driver software thatguarantees fair access to extremely fast parallel I/O devices.</p> <p>In the area of speculative execution, techniques were developed to maximize the effectiveness of hardware transactional memory (HTM), which allows groups of instructions to be executed as a single indivisible operation. One such technique uses HTM as a prefetching mechanism that allows an application to maximize performance when an operation for which it is waiting finally completes; another technique minimizes data structure indirection, thereby reducing the odds of spurious HTM failures. Several new concurrent data structures were also developed, together with techniques that leverage emerging memory technologies to maintain the consistency of structured data across power outages and other system failures.<br /><br />The work performed under this project has broad impact both as a whole as well as indiviudal components.&nbsp; Tree abstractions as well as kd-trees and octrees are commonly used in scientific computing and computer science.&nbsp; De Bruijn graph and k-mer indices are useful for genomic assembly and sequence analysis, while the underlying distributed and sequential hash tables, vectorized hash functions, and primitives to support communication and computation overlaps have broad applicability.&nbsp; The improvements to core OS funcitonalities such as CPU scheduling, address translation, data persistance, and hardware transactional memory support impact OS as well as sequential and parallel application performance. Multiple software products from the research are made available as open source.</p><br> <p>            Last Modified: 02/27/2019<br>      Modified by: Srinivas&nbsp;Aluru</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project aimed to extend the state-of-the-art in scientific computing by developing programming abstractions to expose -- and run-time optimizations to exploit -- the parallelism available in large, irregular applications. Parallelism is essential for the extraction of useful information from ever increasing volumes of scientific data, but the irregularity of data structure and access in many problem domains makes efficient parallelization difficult. At the level of the programming model, the project addressed the challenge of irregularity by identifying design patterns for important new classes of applications -- in particular, those that use trees and graphs for data representation and access but demonstrate some structure in the traversal. At the level of the run-time system, the project developed computational engines that support and exploit the new patterns, leveraging the structure exposed to automatically and dynamically map computational tasks to hardware nodes.  Project activities were focused in three major areas: 1) fast point tree data structures and algorithms, 2) fast de Bruijn graph and algorithms for sequence analysis and assembly, and 3) efficient parallel run-time systems.  The Georgia Institute of Technology team led the development of fast point tree data structures and algorithms to support tree-based applications including hierarchical methods in scientific computing, k-nearest neighbors and the Fast Multipole Method. A common framework is developed, including three sub libraries: the tree compute framework, the parallel tree library model/abstraction, and a library of distributed tree structure implementations (such as octrees and kd-trees). The first two sub libraries provide a common abstraction for constructing, accessing, and computing with different distributed tree structures, while the last sub-library contain tree-specific, state-of-the-art algorithms.  These abstractions allow an application developer to perform computations in parallel with minimal knowledge in parallelism or underlying distributed computing resources. The code is demonstrated by implementing communication efficient kd-trees, showing a two- to three-fold improvement in performance over existing methods.    The Georgia Institute of Technology team also led the development of efficient data structures and algorithms to support genome assembly as well as other sequence analysis tasks such as error corrrection, alignment, variant calling, etc. Best-in-class algorithms were developed for distributed memory k-mer indices (Kmerind and Kmerhash), and parallel directed and bi-directed de Bruijn graphs (Bruno) with fast construction, error detection and removal, linear chain compaction, and cycle detection.  The k-mer counter out-performed previous state-of-the-art shared memory software by 1.7 times, and was able to count a 1TB sequence data set in under 12 seconds using 4096 cores on NERSC's Cori supercomputer.  The de Bruijn graph software constructed and compacted a 695GB data set in 31 seconds using 7680 cores on NERSC's Edison supercomputer, 3.7 times faster than the previous state of the art, and 1.4 times faster than the previous state of the art in shared memory environments.  These algorithms and implementations benefit not only computational biology and bioinformatics, but also the broader set of applications that depend on distributed and sequential hash tables.  The University of Rochester team led the development of efficient parallel run-time systems.  To make as effective use as possible of modern multiprocessors and clusters, techniques were developed to co-locate application tasks that share significant amounts of data, thereby minimizing communication costs. Related techniques were developed to automatically control the level of parallelism in each application. Both of these mechanisms leverage the performance monitoring features of modern processors to effect their adaptations without programmer or user intervention.For systems that share hardware resources across independent applications, the project also developed driver software thatguarantees fair access to extremely fast parallel I/O devices.  In the area of speculative execution, techniques were developed to maximize the effectiveness of hardware transactional memory (HTM), which allows groups of instructions to be executed as a single indivisible operation. One such technique uses HTM as a prefetching mechanism that allows an application to maximize performance when an operation for which it is waiting finally completes; another technique minimizes data structure indirection, thereby reducing the odds of spurious HTM failures. Several new concurrent data structures were also developed, together with techniques that leverage emerging memory technologies to maintain the consistency of structured data across power outages and other system failures.  The work performed under this project has broad impact both as a whole as well as indiviudal components.  Tree abstractions as well as kd-trees and octrees are commonly used in scientific computing and computer science.  De Bruijn graph and k-mer indices are useful for genomic assembly and sequence analysis, while the underlying distributed and sequential hash tables, vectorized hash functions, and primitives to support communication and computation overlaps have broad applicability.  The improvements to core OS funcitonalities such as CPU scheduling, address translation, data persistance, and hardware transactional memory support impact OS as well as sequential and parallel application performance. Multiple software products from the research are made available as open source.       Last Modified: 02/27/2019       Submitted by: Srinivas Aluru]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

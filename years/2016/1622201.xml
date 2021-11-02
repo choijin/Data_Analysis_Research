@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SBIR Phase I:  OpenRefactory/C: An Infrastructure to Provide Automated Power Tools for C Programmers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>224997.00</AwardTotalIntnAmount>
+<AwardAmount>224997</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Peter Atherton</SignBlockName>
+<PO_EMAI>patherto@nsf.gov</PO_EMAI>
+<PO_PHON>7032928772</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The broader impact/commercial potential of this Small Business Innovation Research (SBIR) Phase I project is about empowering C program developers with correct and complex program transformation tools that they can use to not only improve the quality of C programs but also make the programs more secure against well-known vulnerabilities. C, in spite of its popularity, has integrated development environments (IDEs) with a limited portfolio of such power tools, with limited scalability and limited applicability to real-world programs. Successfully addressing the limitations present in existing tools and providing a robust program transformation infrastructure should fundamentally change how developers work on C code since refactoring is an integral part of software development practices for other programming languages. This will impact both how C programs are written and how they are maintained and evolved. The proposed work also explored behavior-enhancing program transformations that can fix security vulnerabilities in C programs. The work on behavior-enhancing transformations should open a new paradigm of power tools that can be made available to programmers in general (not limited to C programmers).&lt;br/&gt;&lt;br/&gt;This Small Business Innovation Research (SBIR) Phase I project will foster the development of new algorithms and data structures needed to implement scalable, robust automated program transformation tools for C. It will focus on the parts of this problem that have been inadequately addressed in prior work - specifically, sound handling of the C preprocessor and deep program analysis. At the same time, the work will address the heterogeneity of C platforms, e.g., different dialects, different configurations based on underlying hardware, different IDEs, etc. The Principle Investigator led an NSF-supported research effort to address the research problems in the last three years and has developed a large research prototype (over 500 KLOC). The proposed work brings many of the research results to practice.</AbstractNarration>
+<MinAmdLetterDate>06/22/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/22/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1622201</AwardID>
+<Investigator>
+<FirstName>Munawar</FirstName>
+<LastName>Hafiz</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Munawar Hafiz</PI_FULL_NAME>
+<EmailAddress>munawar.hafiz@gmail.com</EmailAddress>
+<PI_PHON>2177211711</PI_PHON>
+<NSF_ID>000698022</NSF_ID>
+<StartDate>06/22/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>OpenRefactory, Inc.</Name>
+<CityName>Milpitas</CityName>
+<ZipCode>950356927</ZipCode>
+<PhoneNumber>2177211711</PhoneNumber>
+<StreetAddress>1027 Jungfrau CT</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>079860769</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OPENREFACTORY, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[OpenRefactory]]></Name>
+<CityName>SANTA CLARA</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>950541756</ZipCode>
+<StreetAddress><![CDATA[1644 HOPE DR APT 1127]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5371</Code>
+<Text>SBIR Phase I</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5371</Code>
+<Text>SMALL BUSINESS PHASE I</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8032</Code>
+<Text>Software Services and Applications</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~224997</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Ever since software security became important, developers addressed security concerns in software manually. Automated tools are available to detect bugs, but they only assist developers who then have to triage and fix the detected bugs. OpenRefactory challenges this with a simple proposition: "What if there were services that not only detected security vulnerabilities, but also fixed them automatically?"</p> <p><br />The Small Business Innovation Research (SBIR) Phase I project is about demonstrating the feasibility of an automated security "fixer" service for C programs. C is the second most popular language and is the default language for low level and embedded system development. Hence it is used in many critical systems. Unfortunately, C was not designed with security in mind. It is very easy to misuse C features and create security flaws that have drastic consequences. Earlier research by the PI created a path for developing correct and complex program transformations for C programs. During the SBIR Phase I work, the PI focused on the potential weaknesses in C and investigated and developed algorithms to perform deep analysis of the source code and fix the security problems. The PI developed new algorithms and data structures needed to implement scalable, robust, automated program transformation tools for C focusing on the parts of this problem that had been inadequately addressed in prior work - specifically, sound handling of the C preprocessor, deep program analysis, and the heterogeneity of C platforms.</p> <p><br />The OpenRefactory team created a cloud-based architecture to offer the fixers for C security problems as a service. The team introduced 14 security and compliance problem fixers for C programs. These target the top 5 C security vulnerabilities (including buffer overflow, integer related issues, memory corruption, memory leak, privilege escalation) and also handle non-compliance issues with secure C coding standards. The fixers were tested on the SAMATE benchmark created by NIST. They were able to fix 85% of the security vulnerabilities in the relevant vulnerability categories of the benchmark.&nbsp;&nbsp;</p> <p><br />The project has a transformative impact on how developers approach secure software development. OpenRefactory's approach allows developers to get ahead of the game by fixing bugs earlier and faster. Fixing bugs earlier reduces the bug fixing cost by 10X if the bugs would have had to be fixed close to a product release, and 100X if fixed after product release. Also, the services save over 11% of a developer's time; this saved productivity can be channeled to produce more, better, secure features.</p><br> <p>            Last Modified: 02/01/2018<br>      Modified by: Munawar&nbsp;Hafiz</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Ever since software security became important, developers addressed security concerns in software manually. Automated tools are available to detect bugs, but they only assist developers who then have to triage and fix the detected bugs. OpenRefactory challenges this with a simple proposition: "What if there were services that not only detected security vulnerabilities, but also fixed them automatically?"   The Small Business Innovation Research (SBIR) Phase I project is about demonstrating the feasibility of an automated security "fixer" service for C programs. C is the second most popular language and is the default language for low level and embedded system development. Hence it is used in many critical systems. Unfortunately, C was not designed with security in mind. It is very easy to misuse C features and create security flaws that have drastic consequences. Earlier research by the PI created a path for developing correct and complex program transformations for C programs. During the SBIR Phase I work, the PI focused on the potential weaknesses in C and investigated and developed algorithms to perform deep analysis of the source code and fix the security problems. The PI developed new algorithms and data structures needed to implement scalable, robust, automated program transformation tools for C focusing on the parts of this problem that had been inadequately addressed in prior work - specifically, sound handling of the C preprocessor, deep program analysis, and the heterogeneity of C platforms.   The OpenRefactory team created a cloud-based architecture to offer the fixers for C security problems as a service. The team introduced 14 security and compliance problem fixers for C programs. These target the top 5 C security vulnerabilities (including buffer overflow, integer related issues, memory corruption, memory leak, privilege escalation) and also handle non-compliance issues with secure C coding standards. The fixers were tested on the SAMATE benchmark created by NIST. They were able to fix 85% of the security vulnerabilities in the relevant vulnerability categories of the benchmark.     The project has a transformative impact on how developers approach secure software development. OpenRefactory's approach allows developers to get ahead of the game by fixing bugs earlier and faster. Fixing bugs earlier reduces the bug fixing cost by 10X if the bugs would have had to be fixed close to a product release, and 100X if fixed after product release. Also, the services save over 11% of a developer's time; this saved productivity can be channeled to produce more, better, secure features.       Last Modified: 02/01/2018       Submitted by: Munawar Hafiz]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

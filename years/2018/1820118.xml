@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SBIR Phase I:  Semantic Information Extraction From Text</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>224991.00</AwardTotalIntnAmount>
+<AwardAmount>224991</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Peter Atherton</SignBlockName>
+<PO_EMAI>patherto@nsf.gov</PO_EMAI>
+<PO_PHON>7032928772</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The broader impact/commercial potential of this Small Business Innovation Research (SBIR) Phase I project can be summarized as follows. (1) Businesses will benefit from the proposed product because companies are increasingly using data-driven predictive models to improve their bottom line. In many areas where structured data are readily available, such as credit scoring, these models have produced impressive returns on investment. One of the main obstacles hindering the application of these models in other areas is the lack of structured data. By extracting information from sources such as web pages, blogs and social media messages, and storing it as structured data, companies will be able to take advantage of the vast amount of unstructured data that are generated daily and thereby improve their bottom line. (2) As the Chinese economy expands and becomes more deeply intertwined with the US economy, many US businesses will need high-quality and timely information about Chinese markets. However, information extraction from Chinese text is an underserved area. The proposed product can fill this void and thereby meet a significant commercial demand.&lt;br/&gt;&lt;br/&gt;This Small Business Innovation Research (SBIR) Phase I project will develop a new information extraction (IE) method. Currently IE focuses on information extraction from short text snippets consisting of a few words in order to derive structured factual information from unstructured text. But its performance is often deteriorated by the shortage of features - the sparse feature problem. A major benefit of the approach developed in this project is that it takes advantage of the important role of specific linguistic units even when the number of words in a sentence is limited. These linguistic units give a sentence its structure. Depending on structural characteristics or functional principles of sentences, the features around them are grouped. The grouped features satisfy certain properties and can be used to capture structural and semantic information, which is helpful for minimizing the sparse feature problem.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/15/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>06/15/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1820118</AwardID>
+<Investigator>
+<FirstName>Jiang</FirstName>
+<LastName>Zhou</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jiang Zhou</PI_FULL_NAME>
+<EmailAddress>jzhou@businessdataminers.com</EmailAddress>
+<PI_PHON>9787263182</PI_PHON>
+<NSF_ID>000752551</NSF_ID>
+<StartDate>06/15/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>AI STRIKE, LLC</Name>
+<CityName>Shrewsbury</CityName>
+<ZipCode>015455477</ZipCode>
+<PhoneNumber>9787263182</PhoneNumber>
+<StreetAddress>22 Stonybrook Ln</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>080704774</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>AI STRIKE, LLC</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[AI STRIKE, LLC]]></Name>
+<CityName>Shrewsbury</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>015450001</ZipCode>
+<StreetAddress><![CDATA[22 Stonybrook Lane]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5371</Code>
+<Text>SBIR Phase I</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5371</Code>
+<Text>SMALL BUSINESS PHASE I</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8032</Code>
+<Text>Software Services and Applications</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~224991</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Named entity recognition from text is a challenging task in Natural Language Processing, especially for Chinese text, because Chinese is based on single characters, which are often subsets and building blocks of words. Chinese word boundaries are also entity boundaries, therefore, named entity recognition for Chinese text can benefit from word boundary detection, outputted by Chinese word segmentation. Yet Chinese word segmentation poses its own difficulty because it is influenced by several factors, e.g., segmentation criteria, employed algorithm, etc. Dealt improperly, it may generate a cascading failure to the quality of named entity recognition followed. In this reseach, we integrate a boundary assembling method with the state-of-the-art deep neural network model, and incorporate the updated word boundary information into a conditional random field model for named entity recognition. Our method shows a 2% absolute improvement over previous state-of-the-art results. The downstream models on Chinese Natural Language Processing tasks can then take advantage of this, improving the results. The product that we developed can be used to extract structural data from Chinese news and social media, such as financial information, merge and aqcuisition, consumer opinions, with high accuracy. Business analysts and data scientists can mine these data using statistical analysis and artifical intelligence tools to help companies gain insights into business and make data-driven decisions that improve bottom lines.</p><br> <p>            Last Modified: 02/29/2020<br>      Modified by: Jiang&nbsp;Zhou</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Named entity recognition from text is a challenging task in Natural Language Processing, especially for Chinese text, because Chinese is based on single characters, which are often subsets and building blocks of words. Chinese word boundaries are also entity boundaries, therefore, named entity recognition for Chinese text can benefit from word boundary detection, outputted by Chinese word segmentation. Yet Chinese word segmentation poses its own difficulty because it is influenced by several factors, e.g., segmentation criteria, employed algorithm, etc. Dealt improperly, it may generate a cascading failure to the quality of named entity recognition followed. In this reseach, we integrate a boundary assembling method with the state-of-the-art deep neural network model, and incorporate the updated word boundary information into a conditional random field model for named entity recognition. Our method shows a 2% absolute improvement over previous state-of-the-art results. The downstream models on Chinese Natural Language Processing tasks can then take advantage of this, improving the results. The product that we developed can be used to extract structural data from Chinese news and social media, such as financial information, merge and aqcuisition, consumer opinions, with high accuracy. Business analysts and data scientists can mine these data using statistical analysis and artifical intelligence tools to help companies gain insights into business and make data-driven decisions that improve bottom lines.       Last Modified: 02/29/2020       Submitted by: Jiang Zhou]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

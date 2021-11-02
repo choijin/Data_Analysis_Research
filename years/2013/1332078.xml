@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>I/UCRC FRP:  Collaborative Research: A Software Framework for Controlling Multi-Robot Teams</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>50023.00</AwardTotalIntnAmount>
+<AwardAmount>50023</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Dmitri Perkins</SignBlockName>
+<PO_EMAI>dperkins@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The proposed work seeks to enable plug and play use of multiple platforms in the development of multi-robot teams that interact with human teams.  The research will develop a software engineering framework viewed as crucial for the proliferation of intelligent robots. The proposed approach will (i) Develop of a framework that allows quick integration of new robot designs into the robotic team; (ii) Develop a user-friendly human-team interface, (iii) Create methods to perform asset (robot) management, (iv) Software test to check the viability of the proposed solutions, and (v) Experimentally validate the system in real-world settings in consultation with center members.&lt;br/&gt;&lt;br/&gt;Robot teams have the potential for significant societal impact given their design and implementation can be made more efficient and low cost.  Interchangeable use of hardware and software to achieve a wide range of functions is critical to achieving this potential and the associated economic impact that will accompany it.   The proposed software framework for robotics is supported by the Industry Advisory Board and has the potential to extend the center?s portfolio significantly through expansion into the area of robotic team system software engineering.  The research will impact and be used in the center?s annual robotics camp and other outreach activities.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>07/16/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>07/16/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1332078</AwardID>
+<Investigator>
+<FirstName>Anneliese</FirstName>
+<LastName>Andrews</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Anneliese Andrews</PI_FULL_NAME>
+<EmailAddress>andrews@cs.du.edu</EmailAddress>
+<PI_PHON>3038713374</PI_PHON>
+<NSF_ID>000250922</NSF_ID>
+<StartDate>07/16/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Denver</Name>
+<CityName>Denver</CityName>
+<ZipCode>802104711</ZipCode>
+<PhoneNumber>3038712000</PhoneNumber>
+<StreetAddress>2199 S. University Blvd.</StreetAddress>
+<StreetAddress2><![CDATA[Ofc of Research & Sponsored Prog]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CO01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>007431760</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>COLORADO SEMINARY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>007431760</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Denver]]></Name>
+<CityName>Denver</CityName>
+<StateCode>CO</StateCode>
+<ZipCode>802104757</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CO01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5761</Code>
+<Text>IUCRC-Indust-Univ Coop Res Ctr</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7609</Code>
+<Text>IUCRC FUNDAMENTAL RESEARCH</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8039</Code>
+<Text>Information, Communication &amp; Computing</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~50023</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>When building a software framework for controlling robot teams careful attention must be given to include a systematic testing methodology that ensures that each robot works properly and that robots interact with each other correctly, and that they react to other elements (static or dynamic) as required. This project developed a model-based testing technique for each of these three functional areas. We first build a model of the robot, then the robot-robot interactions, and finally the robot-world interactions. The model of a robot includes definition of its components, like sensors, actuators, path planning, motion control, collision avoidance, etc. Robot-robot interactions include communication between robots, team actions (like for example swarm formation). Robot-world interactions include how the robot interacts with its environment. The environment can include static and dynamic actors. For example, an unmanned ground vehicle encounters other cars, pedestrians, bicycles, trucks, etc. as dynamic actors. Traffic signs, signage on the road are examples of static actors. All these interactions have to be carefully and systematically tested. The first step in our methodology is to build a test-ready model for them.</p> <p>Then we generate abstract test sequences based on test coverage criteria. One can think of abstract test sequences as detailed testing steps, including set up of a test scenario, bringing actors and robots into a particular set of behavioral states. Coverage criteria describe detailed test requirements that allow quantification of the thoroughness of a test. All of these steps are missing in current practice.</p> <p>Next we &nbsp;use the software we developed for robots built on the ROS platform to make the test sequences executable, execute them, and analyze the results. We applied this systematic testing approach to robots in several different robot domains such as Urban Search and Rescue Robots, Guide Robots, Unmanned vehicles, and Warehouse robots. We showed applicability of our approach to these different robot domains. We also showed that the testing approach is efficient and effective.</p> <p>The results of this research add a novel algorithmic approach to the current more ad hoc simulation and field tests when robots are developed, adding additional formal, algorithmic tools and techniques for the developers of robotic systems to build more reliable, safer systems. As robots become ever more ubiquitous, this is particularly important.</p><br> <p>            Last Modified: 09/14/2016<br>      Modified by: Anneliese&nbsp;Andrews</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ When building a software framework for controlling robot teams careful attention must be given to include a systematic testing methodology that ensures that each robot works properly and that robots interact with each other correctly, and that they react to other elements (static or dynamic) as required. This project developed a model-based testing technique for each of these three functional areas. We first build a model of the robot, then the robot-robot interactions, and finally the robot-world interactions. The model of a robot includes definition of its components, like sensors, actuators, path planning, motion control, collision avoidance, etc. Robot-robot interactions include communication between robots, team actions (like for example swarm formation). Robot-world interactions include how the robot interacts with its environment. The environment can include static and dynamic actors. For example, an unmanned ground vehicle encounters other cars, pedestrians, bicycles, trucks, etc. as dynamic actors. Traffic signs, signage on the road are examples of static actors. All these interactions have to be carefully and systematically tested. The first step in our methodology is to build a test-ready model for them.  Then we generate abstract test sequences based on test coverage criteria. One can think of abstract test sequences as detailed testing steps, including set up of a test scenario, bringing actors and robots into a particular set of behavioral states. Coverage criteria describe detailed test requirements that allow quantification of the thoroughness of a test. All of these steps are missing in current practice.  Next we  use the software we developed for robots built on the ROS platform to make the test sequences executable, execute them, and analyze the results. We applied this systematic testing approach to robots in several different robot domains such as Urban Search and Rescue Robots, Guide Robots, Unmanned vehicles, and Warehouse robots. We showed applicability of our approach to these different robot domains. We also showed that the testing approach is efficient and effective.  The results of this research add a novel algorithmic approach to the current more ad hoc simulation and field tests when robots are developed, adding additional formal, algorithmic tools and techniques for the developers of robotic systems to build more reliable, safer systems. As robots become ever more ubiquitous, this is particularly important.       Last Modified: 09/14/2016       Submitted by: Anneliese Andrews]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

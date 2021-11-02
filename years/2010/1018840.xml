@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Breaking the Address Translation Barrier in Large Memory Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>489171.00</AwardTotalIntnAmount>
+<AwardAmount>496671</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today, inexpensive computer systems based on commodity, off-the-shelf components can support hundreds of gigabytes of memory. Traditionally, the demand for large-memory systems came predominantly from the operators of databases for applications such as high-volume transaction processing.  Today, however, a much wider variety of applications drive the demand for such large-memory systems, ranging from server consolidation using virtualization to infrastructure for Web 2.0 applications. At a scale of 100GB or more, for many of these applications, virtual memory access becomes a bottleneck.  Specifically, the overhead of address translation increases dramatically.  Large pages can mitigate this problem by significantly increasing translation look-aside buffer (TLB) coverage.  However, all too often these applications exhibit poor temporal and/or spatial locality of reference.  Thus, even with large pages, the TLB hit rate is very low.&lt;br/&gt;&lt;br/&gt;This research will develop novel architectural mechanisms and operating systems support to mitigate the cost of address translation. Effective approaches to this problem include caching internal levels of the page table in dedicated hardware, providing hardware support to exploit physically contiguous memory reservations within the operating system, and re-examining page table organizations for large address spaces.  This research will explore all of these techniques and carefully consider the interactions between memory allocation and management in the operating system and address translation overhead in the hardware.&lt;br/&gt;&lt;br/&gt;This research will transform the way in which address translation is performed on future systems, enabling the effective use of hundreds of gigabytes of memory.  Currently, large memory machines suffer from address translation bottlenecks, limiting overall performance.  As these machines consume significant amounts of power, this leads to poor power efficiency, wasting both energy and money.  More efficient address translation will lead to significant improvements, especially in datacenters with numerous large memory machines.</AbstractNarration>
+<MinAmdLetterDate>08/02/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/21/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018840</AwardID>
+<Investigator>
+<FirstName>Alan</FirstName>
+<LastName>Cox</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alan Cox</PI_FULL_NAME>
+<EmailAddress>alc@rice.edu</EmailAddress>
+<PI_PHON>7133485730</PI_PHON>
+<NSF_ID>000277789</NSF_ID>
+<StartDate>08/02/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Scott</FirstName>
+<LastName>Rixner</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Scott Rixner</PI_FULL_NAME>
+<EmailAddress>rixner@rice.edu</EmailAddress>
+<PI_PHON>7133486353</PI_PHON>
+<NSF_ID>000102366</NSF_ID>
+<StartDate>08/02/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>William Marsh Rice University</Name>
+<CityName>Houston</CityName>
+<ZipCode>770051827</ZipCode>
+<PhoneNumber>7133484820</PhoneNumber>
+<StreetAddress>6100 MAIN ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>050299031</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WILLIAM MARSH RICE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>050299031</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[William Marsh Rice University]]></Name>
+<CityName>Houston</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>770051827</ZipCode>
+<StreetAddress><![CDATA[6100 MAIN ST]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7796</Code>
+<Text>ALGORITHMIC FOUNDATIONS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~489171</FUND_OBLG>
+<FUND_OBLG>2012~7500</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Today, inexpensive computer systems based on commodity, off-the-shelf<br />components can support 100s of gigabytes of memory.&nbsp; Traditionally,<br />the demand for large-memory systems came predominantly from the<br />operators of databases for applications such as high-volume<br />transaction processing.&nbsp; Now, however, applications that require<br />such large-memory systems include a much wider variety of<br />applications, ranging from server consolidation using virtualization<br />to infrastructure for Web 2.0 applications.<br /><br />For many of these applications, at a scale of 100GB or more, access to<br />data in virtual memory becomes a bottleneck.&nbsp; Specifically, the<br />overhead of address translation increases dramatically.&nbsp; Large pages<br />can mitigate this problem.&nbsp; In particular, they significantly increase<br />TLB coverage.&nbsp; However, all too often these applications exhibit poor<br />temporal and/or spatial locality of reference.&nbsp; For example, the<br />memory access pattern of a database hash join is essentially random.<br />Thus, even with large pages, the TLB hit rate can be very low.<br /><br />The overall objective of this project has been to explore approaches<br />and mechanisms to improve performance and reduce energy in large-scale<br />memory systems.&nbsp; Over the course of this project, we have explored a<br />wide range of issues with modern memory systems spanning the stack of<br />layers from hardware (TLBs, nested TLBs, and memory controllers) to<br />system software (memory-based key-value stores and memory allocation).<br />This holistic approach to memory system design has helped to<br />illuminate where the performance bottlenecks are in modern large-scale<br />memory systems.<br /><br />We have shown that address translation can have a large impact on<br />system performance, both with and without virtualization.&nbsp; We have<br />taken a fresh look at address translation and developed several<br />innovative hardware mechanisms to better match and exploit the<br />allocation policies of modern operating systems.&nbsp; Our innovative TLB<br />architectures reduce address translation latencies without requiring<br />any modifications to the system software.&nbsp; We have also shown that by<br />modifying the system software, we can gain further benefits.&nbsp; We have<br />developed page clustering policies that strike a balance between the<br />address translation benefits of large pages and the costs of<br />performing unnecessary, speculative I/O.&nbsp; This work benefits<br />applications by reducing the latency of both code and data accesses<br />without increasing the amount of I/O.<br /><br />We have also shown that replacement cost is a critical factor in the<br />design of large-scale, memory-based, key-value stores.&nbsp; We have<br />demonstrated that Web 2.0 applications can benefit from providing<br />their cost of computing a value to the key-value store.&nbsp; We have also<br />developed an innovative replacement policy that makes replacement<br />decisions by integrating the locality of access to key-value pairs<br />with the cost of later reinserting a key-value pair after its removal.<br />This replacement policy has amortized constant time, making its<br />overhead competitive with existing policies, while yielding much<br />better replacement decisions.&nbsp; This work will not only improve the<br />performance of existing key-value stores, but will hopefully drive<br />further innovation in the area.<br /><br />As the demand for memory capacity continues to increase at an<br />incredible rate, it is becoming critical to minimize address<br />translation overheads.&nbsp; Currently, large memory machines suffer from<br />address translation bottlenecks, limiting overall performance.&nbsp; As<br />these machines consume significant amounts of power, this leads to<br />poor po...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Today, inexpensive computer systems based on commodity, off-the-shelf components can support 100s of gigabytes of memory.  Traditionally, the demand for large-memory systems came predominantly from the operators of databases for applications such as high-volume transaction processing.  Now, however, applications that require such large-memory systems include a much wider variety of applications, ranging from server consolidation using virtualization to infrastructure for Web 2.0 applications.  For many of these applications, at a scale of 100GB or more, access to data in virtual memory becomes a bottleneck.  Specifically, the overhead of address translation increases dramatically.  Large pages can mitigate this problem.  In particular, they significantly increase TLB coverage.  However, all too often these applications exhibit poor temporal and/or spatial locality of reference.  For example, the memory access pattern of a database hash join is essentially random. Thus, even with large pages, the TLB hit rate can be very low.  The overall objective of this project has been to explore approaches and mechanisms to improve performance and reduce energy in large-scale memory systems.  Over the course of this project, we have explored a wide range of issues with modern memory systems spanning the stack of layers from hardware (TLBs, nested TLBs, and memory controllers) to system software (memory-based key-value stores and memory allocation). This holistic approach to memory system design has helped to illuminate where the performance bottlenecks are in modern large-scale memory systems.  We have shown that address translation can have a large impact on system performance, both with and without virtualization.  We have taken a fresh look at address translation and developed several innovative hardware mechanisms to better match and exploit the allocation policies of modern operating systems.  Our innovative TLB architectures reduce address translation latencies without requiring any modifications to the system software.  We have also shown that by modifying the system software, we can gain further benefits.  We have developed page clustering policies that strike a balance between the address translation benefits of large pages and the costs of performing unnecessary, speculative I/O.  This work benefits applications by reducing the latency of both code and data accesses without increasing the amount of I/O.  We have also shown that replacement cost is a critical factor in the design of large-scale, memory-based, key-value stores.  We have demonstrated that Web 2.0 applications can benefit from providing their cost of computing a value to the key-value store.  We have also developed an innovative replacement policy that makes replacement decisions by integrating the locality of access to key-value pairs with the cost of later reinserting a key-value pair after its removal. This replacement policy has amortized constant time, making its overhead competitive with existing policies, while yielding much better replacement decisions.  This work will not only improve the performance of existing key-value stores, but will hopefully drive further innovation in the area.  As the demand for memory capacity continues to increase at an incredible rate, it is becoming critical to minimize address translation overheads.  Currently, large memory machines suffer from address translation bottlenecks, limiting overall performance.  As these machines consume significant amounts of power, this leads to poor power efficiency, wasting both energy and money.  This research has advanced the state-of-the-art in address translation, lowering the overheads for future large-scale memory systems.  More efficient address translation will lead to significant improvements, especially in data centers with numerous large memory machines.       Last Modified: 12/19/2014       Submitted by: Scott Rixner]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

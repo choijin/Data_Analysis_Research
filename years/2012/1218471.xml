@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Scalable Analytics for Data Bases and Data Streams--a Unified Approach</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>499011.00</AwardTotalIntnAmount>
+<AwardAmount>499011</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>nan zhang</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to support the development of big-data analytics and facilitate the deployment of such applications over the different  execution environments encountered in the life-cycle of big-data software. The project achieves its goal by (i) designing and implementating a Scalable Analytics Language (SAL) that supports the definition of advanced analytics through user-defined aggregate functions; (ii) developing a  compiler for SAL that optimizes parallel MapReduce-oriented executions over  distributed systems containing many nodes, and (iii) developing an early accurate result library (EARL) that enhances (ii) with the ability of providing approximate results based on sampling of the data.  Using EARL, the analyst can avoid the slow response and long set up-time of MapReduce applications by simply specifying a target accuracy, with no modification of the original program required. The final delivery of the project  is a SAL compiler that optimizes parallel execution of continuous analytical queries on massive data streams, by supporting the synoptic and load-shedding primitives needed to achieve quasi real-time response in this environment. These research results are expected to have great impacts in several areas, including domain science, digital government and e-commerce. The project supports Ph.D. students pursuing research on big-data analytics and their management. Publications, technical reports, software, and experimental data from this research will be disseminated via the project web site (http://yellowstone.cs.ucla.edu/nsf-projects/nsf1218471.html).</AbstractNarration>
+<MinAmdLetterDate>08/30/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/30/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218471</AwardID>
+<Investigator>
+<FirstName>Carlo</FirstName>
+<LastName>Zaniolo</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Carlo Zaniolo</PI_FULL_NAME>
+<EmailAddress>zaniolo@CS.UCLA.EDU</EmailAddress>
+<PI_PHON>3108258137</PI_PHON>
+<NSF_ID>000451654</NSF_ID>
+<StartDate>08/30/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Los Angeles</Name>
+<CityName>LOS ANGELES</CityName>
+<ZipCode>900951406</ZipCode>
+<PhoneNumber>3107940102</PhoneNumber>
+<StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+<StreetAddress2><![CDATA[Suite 700]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA33</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>092530369</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, LOS ANGELES</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[UCLA Computer Science]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900951596</ZipCode>
+<StreetAddress><![CDATA[3532D Boelter Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA33</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~499011</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The growing popularity of data science applications is creating a need for advanced big-data analytics that can be supported on diverse computing environments and provide scalability through parallelization. In this research project we to addressed this need by providing the following three &nbsp;technical advancements:<br /><br />(A) High-level application languages that support and facilitate the design and development of portable analytics for big data,<br />(B) parallelization techniques for different architectures, including multicore systems and clusters of systems,<br />(C) techniques for deriving early approximate &nbsp;results of predictable accuracy.</p> <p><br />In this project, we &nbsp;made &nbsp;substantial progress toward goals A and B. &nbsp;To maximize parallelizability and portability, &nbsp;we have used as our basis the highly declarative logic-based language Datalog, which we extended with monotonic aggregates for recursive use. The extension allowed us to to express concisely and support efficiently a variety of algorithms (e.g., Apriori and many data mining algorithms, Viterbi's algorithm and various graph optimization algorithms). These advances were made possible by the theoretical findings obtained in the course of this project, which brought the 20-year old problem of of monotonic aggregates to a very practical solution, which is efficiently supported in our Deductive Application Language &amp; System (DeALS).</p> <p><br />DeALS was developed on a laptop computer and ported to &nbsp;(i) a multicore UNIX machine with 128 processors and (ii) on a cluster of systems supporting Apache Spark. Very good scalability was achieved in both (i) and (ii), &nbsp;whereby DeAL surpassed the performance of other Datalog systems in both speed of execution, &nbsp;and in &nbsp;the size of the dataset handled. Remarkably on Apache Spark, &nbsp;GraphX applications re-expressed in our Datalog system run faster than the original ones.</p> <p>Progress on C focused on improving the sampling techniques that are often used when the datasets are too massive or when faster turnarounds are requited. For a sampling approach to be truly useful, the analyst must have reliable estimates on how well the results obtained from samples differ from the correct ones. For that, the analyst use techniques such as Bootstrapping. In this project, we have improved these techniques for cluster computing, and then introduced &nbsp;the Analytical Bootstrapping Method, to accelerate this process.</p> <p><br />The significant research findings produced by this project were communicated by papers authored by the PI and his students. &nbsp;The papers appeared in journals, books chapters and in the proceedings of top conferences, where several demos &nbsp;were also presented. In particular, the analytical bootstrap demo received a Best-Demo award at SIGMOD 2014, and our paper on "Fast computation of approximate biased histograms on sliding windows over data streams" received the Best Paper award at SSDBM 2013.<br /><br /></p><br> <p>            Last Modified: 10/30/2016<br>      Modified by: Carlo&nbsp;Zaniolo</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The growing popularity of data science applications is creating a need for advanced big-data analytics that can be supported on diverse computing environments and provide scalability through parallelization. In this research project we to addressed this need by providing the following three  technical advancements:  (A) High-level application languages that support and facilitate the design and development of portable analytics for big data, (B) parallelization techniques for different architectures, including multicore systems and clusters of systems, (C) techniques for deriving early approximate  results of predictable accuracy.   In this project, we  made  substantial progress toward goals A and B.  To maximize parallelizability and portability,  we have used as our basis the highly declarative logic-based language Datalog, which we extended with monotonic aggregates for recursive use. The extension allowed us to to express concisely and support efficiently a variety of algorithms (e.g., Apriori and many data mining algorithms, Viterbi's algorithm and various graph optimization algorithms). These advances were made possible by the theoretical findings obtained in the course of this project, which brought the 20-year old problem of of monotonic aggregates to a very practical solution, which is efficiently supported in our Deductive Application Language &amp; System (DeALS).   DeALS was developed on a laptop computer and ported to  (i) a multicore UNIX machine with 128 processors and (ii) on a cluster of systems supporting Apache Spark. Very good scalability was achieved in both (i) and (ii),  whereby DeAL surpassed the performance of other Datalog systems in both speed of execution,  and in  the size of the dataset handled. Remarkably on Apache Spark,  GraphX applications re-expressed in our Datalog system run faster than the original ones.  Progress on C focused on improving the sampling techniques that are often used when the datasets are too massive or when faster turnarounds are requited. For a sampling approach to be truly useful, the analyst must have reliable estimates on how well the results obtained from samples differ from the correct ones. For that, the analyst use techniques such as Bootstrapping. In this project, we have improved these techniques for cluster computing, and then introduced  the Analytical Bootstrapping Method, to accelerate this process.   The significant research findings produced by this project were communicated by papers authored by the PI and his students.  The papers appeared in journals, books chapters and in the proceedings of top conferences, where several demos  were also presented. In particular, the analytical bootstrap demo received a Best-Demo award at SIGMOD 2014, and our paper on "Fast computation of approximate biased histograms on sliding windows over data streams" received the Best Paper award at SSDBM 2013.         Last Modified: 10/30/2016       Submitted by: Carlo Zaniolo]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Automated Security Testing for Applications Integrating Third-Party Services</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern web and mobile applications increasingly rely on code and services from multiple parties, including services that provide security-critical functions like authentication, payments, and sharing. Developers often make mistakes in integrating these services into their applications that lead to serious security vulnerabilities.  These integration failures are mainly due to failures to understand and ensure assumptions necessary for secure use of the external service. This project is developing a systematic explication process to uncover security-critical assumptions necessary for secure use of an external service, along with tools for automatically testing applications for vulnerabilities in integrating services.&lt;br/&gt;&lt;br/&gt;The project is creating a partially automated method that combines static and dynamic analysis techniques for building models of external services that are not available for direct analysis, and for using those models as part of an explicating process that explores the space of all reasonable applications that can be constructed using a service under threat from an unconstrained adversary.  The uncovered vulnerabilities lead to automated testing tools for checking applications for vulnerabilities uncovered.  Since these vulnerabilities concern sequences of interactions involving authenticated users, they cannot be detected by superficial analysis but require deep testing where a scanner can simulate the actions of a logged-in user.  The scanner takes advantage of single sign-on services that are becoming increasingly popular to automate account registration and logins to enable deep, automated scanning of deployed applications.  Expected results of the project include open source tools and web services that will enable large-scale deep scans of deployed applications, and that will provide developers with a convenient and easy to use tool to test their implementations for common vulnerabilities.</AbstractNarration>
+<MinAmdLetterDate>08/18/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/18/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1422332</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Evans</LastName>
+<PI_MID_INIT>E</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David E Evans</PI_FULL_NAME>
+<EmailAddress>evans@cs.virginia.edu</EmailAddress>
+<PI_PHON>4349822218</PI_PHON>
+<NSF_ID>000319935</NSF_ID>
+<StartDate>08/18/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Virginia Main Campus</Name>
+<CityName>CHARLOTTESVILLE</CityName>
+<ZipCode>229044195</ZipCode>
+<PhoneNumber>4349244270</PhoneNumber>
+<StreetAddress>P.O.  BOX 400195</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<StateCode>VA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>VA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>065391526</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RECTOR &amp; VISITORS OF THE UNIVERSITY OF VIRGINIA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>065391526</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Virginia Main Campus]]></Name>
+<CityName/>
+<StateCode>VA</StateCode>
+<ZipCode>229044195</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>VA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-b5089158-7fff-1c7d-95c3-d4c4ceea2a1b"> </span></p> <p dir="ltr"><span>Modern web and mobile applications have become increasingly complex in both function and construction, and typical applications combine components for monitoring user behavior, displaying advertising, collecting payments, and interacting with users. Third-party services have become a common way to implement these functionalities. This means most applications today are not the work of a single (hopefully trusted) company, but are large mashups of both code and services from numerous parties. Widespread integration of third-party services into web and mobile applications raises a critical problem: how to ensure desired security and privacy properties are preserved for programs integrating third-party services.</span></p> <p dir="ltr"><span>This project developed methods and tools for evaluating the security and privacy of modern web applications, used those tools to improve our understanding of security and privacy vulnerabilities in modern applications. One particular focus was on authentication mechanism, such as single sign-on. Our analysis tools found that many applications incorporate single sign-on SDKs in ways that are vulnerable to compromise, and the project used the understanding of these vulnerabilities to develop a tool that could be used to automatically test a website for vulnerabilities in its authentication mechanisms. The project also explored methods for measuring and limiting data exfiltration to untrusted third-parties, and developed a tool for automatically testing websites for potential exfiltration of sensitive user data to third-party servers.</span></p> <p dir="ltr"><span>One approach we studied for mitigating some of these vulnerabilities is to use diversity to make the attack surface of a complex application unpredictable. This can be done when an application is deployed using a cloud service by making the locations of the internal nodes unpredictable and regularly changing. This way, even if an attacker is able to compromise the user-facing server component, the amount of damage they can do will be limited. The project evaluated a mechanism for randomizing the structure of a component-based web application, and conducted experiments for measuring the effectiveness of such a defense when deployed using popular cloud providers.</span></p> <p dir="ltr"><span>The project resulted in open source tools for automatically evaluating web application security for authentication vulnerabilities and for data exfiltration risk, and for understanding and monitoring the behavior of third-party scripts embedded in web applications. The project also produced results from large-scale scans of popular websites, resulting in mitigations for detected vulnerabilities and greater understanding of the risks present in current web applications.</span></p> <p>&nbsp;</p><br> <p>            Last Modified: 12/15/2019<br>      Modified by: David&nbsp;E&nbsp;Evans</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   Modern web and mobile applications have become increasingly complex in both function and construction, and typical applications combine components for monitoring user behavior, displaying advertising, collecting payments, and interacting with users. Third-party services have become a common way to implement these functionalities. This means most applications today are not the work of a single (hopefully trusted) company, but are large mashups of both code and services from numerous parties. Widespread integration of third-party services into web and mobile applications raises a critical problem: how to ensure desired security and privacy properties are preserved for programs integrating third-party services. This project developed methods and tools for evaluating the security and privacy of modern web applications, used those tools to improve our understanding of security and privacy vulnerabilities in modern applications. One particular focus was on authentication mechanism, such as single sign-on. Our analysis tools found that many applications incorporate single sign-on SDKs in ways that are vulnerable to compromise, and the project used the understanding of these vulnerabilities to develop a tool that could be used to automatically test a website for vulnerabilities in its authentication mechanisms. The project also explored methods for measuring and limiting data exfiltration to untrusted third-parties, and developed a tool for automatically testing websites for potential exfiltration of sensitive user data to third-party servers. One approach we studied for mitigating some of these vulnerabilities is to use diversity to make the attack surface of a complex application unpredictable. This can be done when an application is deployed using a cloud service by making the locations of the internal nodes unpredictable and regularly changing. This way, even if an attacker is able to compromise the user-facing server component, the amount of damage they can do will be limited. The project evaluated a mechanism for randomizing the structure of a component-based web application, and conducted experiments for measuring the effectiveness of such a defense when deployed using popular cloud providers. The project resulted in open source tools for automatically evaluating web application security for authentication vulnerabilities and for data exfiltration risk, and for understanding and monitoring the behavior of third-party scripts embedded in web applications. The project also produced results from large-scale scans of popular websites, resulting in mitigations for detected vulnerabilities and greater understanding of the risks present in current web applications.          Last Modified: 12/15/2019       Submitted by: David E Evans]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

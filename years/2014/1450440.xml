@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SI2-SSI: Collaborative Research: A Software Infrastructure for MPI Performance Engineering: Integrating MVAPICH and TAU via the MPI Tools Interface</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>1200000.00</AwardTotalIntnAmount>
+<AwardAmount>1200000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Stefan Robila</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Message-Passing Interface (MPI) continues to dominate the supercomputing landscape, being the primary parallel programming model of choice. A large variety of scientific applications in use today are based on MPI.  On the current and next-generation High-End Computing (HEC) systems, it is essential to understand the interaction between time-critical applications and the underlying MPI implementations in order to better optimize them for both scalability and performance. Current users of HEC systems develop their applications with high-performance MPI implementations, but analyze and fine tune the behavior using standalone performance tools.  Essentially, each software component views the other as a blackbox, with little sharing of information or access to capabilities that might be useful in optimization strategies.  Lack of a standardized interface that allows interaction between the profiling tool and the MPI library has been a big impediment.  The newly introduced MPI_T interface in the MPI-3 standard provides a simple mechanism that allows MPI implementers to expose variables representing configuration parameters or performance measurements from within the implementation for the benefit of tools, tuning frameworks, and other support libraries.  However, few performance analysis and tuning tools take advantage of the MPI_T interface and none do so to dynamically optimize at execution time. This research and development effort aims to build a software infrastructure for MPI performance engineering using the new MPI_T interface.&lt;br/&gt;&lt;br/&gt;With the adoption of MPI_T in the MPI standard, it is now possible to take positive steps to realize close interaction between and integration of MPI libraries and performance tools.  This research, undertaken by a team of computer scientists from OSU and UO representing the open source MVAPICH and TAU projects, aims to create an open source integrated software infrastructure built on the MPI_T interface which defines the API for interaction and information interchange to enable fine grained performance optimizations for HPC applications.  The challenges addressed by the project include: 1) enhancing existing support for MPI_T in MVAPICH to expose a richer set of performance and control variables; 2) redesigning TAU to take advantage of the new MPI_T variables exposed by MVAPICH; 3) extending and enhancing TAU and MVAPICH with the ability to generate recommendations and performance engineering reports; 4) proposing fundamental design changes to make MPI libraries like MVAPICH ``reconfigurable'' at runtime; and 5) adding support to MVAPICH and TAU for interactive performance engineering sessions.  The framework will be validated on a variety of HPC benchmarks and applications.  The integrated middleware and tools will be made publicly available to the community.  The research will have a significant impact on enabling optimizations of HPC applications that have previously been difficult to provide.  As a result, it will contribute to deriving "best practice" guidelines for running on next-generation Multi-Petaflop and Exascale systems.  The research directions and their solutions will be used in the curriculum of the PIs to train undergraduate and graduate students.</AbstractNarration>
+<MinAmdLetterDate>08/31/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/31/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1450440</AwardID>
+<Investigator>
+<FirstName>Dhabaleswar</FirstName>
+<LastName>Panda</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dhabaleswar K Panda</PI_FULL_NAME>
+<EmailAddress>panda@cse.ohio-state.edu</EmailAddress>
+<PI_PHON>6142925199</PI_PHON>
+<NSF_ID>000487085</NSF_ID>
+<StartDate>08/31/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University</Name>
+<CityName>Columbus</CityName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888735</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1960 Kenny Road]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832127323</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001964634</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName/>
+<StateCode>OH</StateCode>
+<ZipCode>432101206</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8009</Code>
+<Text>Scientifc Software Integration</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~1200000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The Message-Passing Interface (MPI) has dominated the supercomputing landscape, as being the primary parallel programming model of choice for large-scale parallelism due to its support for distributed memory communication.&nbsp; A variety of scientific applications in use today spanning fields such as astrophysics, earthquake analysis, weather prediction, nanoscience modeling, multi-physics modeling, biological computations, and computational fluid dynamics are based on MPI. Robust implementations of the MPI standard are available, including the one offered by the high-performance and scalable MVAPICH2 project. This open-source software is currently being used by more than 3,115 organizations in 89 countries and has enabled several TOP500 clusters during the last decade.</p> <p>However, as the computing, networking, heterogeneous hardware, and storage technologies continue to evolve in HEC platforms, it becomes increasingly essential to understand the interactions between time-critical HPC applications and the software infrastructures upon which they rely for achieving high-performing, portable solutions. Measuring, analyzing, and optimizing scalable, parallel codes have involved the use of tools that mainly observe the performance of application-level events, but can rarely see below software layers to identify critical operational aspects and associate them with high-level performance behavior.&nbsp; This situation is no longer tenable in the next-generation of HEC machines because of the complex interplay of performance factors across the parallel software stack.</p> <p>The TAU Performance System is an example of a powerful parallel performance measurement and analysis toolkit that has been used with high-performance MPI libraries like MVAPICH2 to gain insights into application behavior and optimize performance.&nbsp; However, the interaction between parallel performance tools and MPI library implementations until now has been limited.&nbsp; Despite the sophistication of the TAU and MVAPICH2 software components, they view the other essentially as a blackbox.&nbsp; This is due, in part, to the lack of a standardized interface that allows "bi-directional" interaction between the profiling tool and the MPI library.</p> <p>The parallel programming frameworks for current and future generation systems must enable information exchange between software layers in order to understand the performance relationships and prescribe improved operation.&nbsp; Most MPI libraries have a plethora of parameters with complex interactions that result in different performance outcomes for an application under different scenarios. Significant application performance benefits can be obtained by properly identifying and modifying such critical parameters in the MPI library and their interaction with applications. While researchers have done significant work showing the performance improvements possible, the lack of access to critical MPI internal information has made it difficult in practice for tools to deliver application-directed tuning support to the majority of the users of HPC systems.</p> <p>With the adoption of MPI_T interface in the MPI standard, it is possible to take positive steps to realize close interaction between and integration of MPI libraries and performance tools.&nbsp; It is also possible to co-design tools like TAU and an MPI library like MVAPICH2 to demonstrate the new possibilities for performance-guided control and optimization for large scale applications.</p> <p>To address the above outlined challenges, in this project, we have adopted a multi-year and multi-tiered approach to have a tight integration between MVAPICH2 and TAU libraries for performance engineering of MPI applications. Challenges have been addressed along the following directions:</p> <ol> </ol> <p>1. Extended and enhanced support for a large number of MPI_T PVARs and C_VARS in MVAPICH2.</p> <ol> </ol> <ol> </ol> <p>2. Extended and enhanced support in TAU to use the newly introduced MPI_T PVARs and C_VARS.</p> <ol> </ol> <ol> </ol> <p>3. Designed and developed tight integration between MVAPICH and TAU to carry out multiple aspects of performance engineering: a set of different methodologies for performance enhancement,&nbsp; from offline analysis and optimization, to interactive online dynamic control, to automated adaptive feedback and tuning, and finally generate performance profiling reports and recommendations.</p> <ol> </ol> <ol> </ol> <p>4. Studied the impact of the above-mentioned performance engineering on a range of MPI applications and demonstrated the benefits to the HPC community.</p> <ol> </ol> <ol> </ol> <p>5. Deployment of the framework on many systems worldwide including the Stampede and Frontera systems at TACC and continuous engagement with the MVAPICH2 and TAU users to improve the designs.</p> <ol> </ol> <p>The results of this research (new designs, performance results, benchmarks, etc.) have been made available to the community through the respective MVAPICH2 and TAU libraries. Multiple releases of these two software packages have been made during the project period. More than 400,000 copies of the MVAPICH2 MPI libraries and more than 2,000 copies of the TAU tool have been downloaded from the respective project's web sites during this project period. In each of these releases, features, performance numbers and scalability information have been shared with the MVAPICH and TAU user community through mailing lists and the project's web site.&nbsp; In addition to the software distribution, the results have been presented at various conferences and events through Keynote talks, invited talks, tutorials, and hands-on sessions.&nbsp; The research has also led to thesis for several M.S. and Ph.D. students.</p><br> <p>            Last Modified: 11/27/2020<br>      Modified by: Dhabaleswar&nbsp;K&nbsp;Panda</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The Message-Passing Interface (MPI) has dominated the supercomputing landscape, as being the primary parallel programming model of choice for large-scale parallelism due to its support for distributed memory communication.  A variety of scientific applications in use today spanning fields such as astrophysics, earthquake analysis, weather prediction, nanoscience modeling, multi-physics modeling, biological computations, and computational fluid dynamics are based on MPI. Robust implementations of the MPI standard are available, including the one offered by the high-performance and scalable MVAPICH2 project. This open-source software is currently being used by more than 3,115 organizations in 89 countries and has enabled several TOP500 clusters during the last decade.  However, as the computing, networking, heterogeneous hardware, and storage technologies continue to evolve in HEC platforms, it becomes increasingly essential to understand the interactions between time-critical HPC applications and the software infrastructures upon which they rely for achieving high-performing, portable solutions. Measuring, analyzing, and optimizing scalable, parallel codes have involved the use of tools that mainly observe the performance of application-level events, but can rarely see below software layers to identify critical operational aspects and associate them with high-level performance behavior.  This situation is no longer tenable in the next-generation of HEC machines because of the complex interplay of performance factors across the parallel software stack.  The TAU Performance System is an example of a powerful parallel performance measurement and analysis toolkit that has been used with high-performance MPI libraries like MVAPICH2 to gain insights into application behavior and optimize performance.  However, the interaction between parallel performance tools and MPI library implementations until now has been limited.  Despite the sophistication of the TAU and MVAPICH2 software components, they view the other essentially as a blackbox.  This is due, in part, to the lack of a standardized interface that allows "bi-directional" interaction between the profiling tool and the MPI library.  The parallel programming frameworks for current and future generation systems must enable information exchange between software layers in order to understand the performance relationships and prescribe improved operation.  Most MPI libraries have a plethora of parameters with complex interactions that result in different performance outcomes for an application under different scenarios. Significant application performance benefits can be obtained by properly identifying and modifying such critical parameters in the MPI library and their interaction with applications. While researchers have done significant work showing the performance improvements possible, the lack of access to critical MPI internal information has made it difficult in practice for tools to deliver application-directed tuning support to the majority of the users of HPC systems.  With the adoption of MPI_T interface in the MPI standard, it is possible to take positive steps to realize close interaction between and integration of MPI libraries and performance tools.  It is also possible to co-design tools like TAU and an MPI library like MVAPICH2 to demonstrate the new possibilities for performance-guided control and optimization for large scale applications.  To address the above outlined challenges, in this project, we have adopted a multi-year and multi-tiered approach to have a tight integration between MVAPICH2 and TAU libraries for performance engineering of MPI applications. Challenges have been addressed along the following directions:    1. Extended and enhanced support for a large number of MPI_T PVARs and C_VARS in MVAPICH2.      2. Extended and enhanced support in TAU to use the newly introduced MPI_T PVARs and C_VARS.      3. Designed and developed tight integration between MVAPICH and TAU to carry out multiple aspects of performance engineering: a set of different methodologies for performance enhancement,  from offline analysis and optimization, to interactive online dynamic control, to automated adaptive feedback and tuning, and finally generate performance profiling reports and recommendations.      4. Studied the impact of the above-mentioned performance engineering on a range of MPI applications and demonstrated the benefits to the HPC community.      5. Deployment of the framework on many systems worldwide including the Stampede and Frontera systems at TACC and continuous engagement with the MVAPICH2 and TAU users to improve the designs.    The results of this research (new designs, performance results, benchmarks, etc.) have been made available to the community through the respective MVAPICH2 and TAU libraries. Multiple releases of these two software packages have been made during the project period. More than 400,000 copies of the MVAPICH2 MPI libraries and more than 2,000 copies of the TAU tool have been downloaded from the respective project's web sites during this project period. In each of these releases, features, performance numbers and scalability information have been shared with the MVAPICH and TAU user community through mailing lists and the project's web site.  In addition to the software distribution, the results have been presented at various conferences and events through Keynote talks, invited talks, tutorials, and hands-on sessions.  The research has also led to thesis for several M.S. and Ph.D. students.       Last Modified: 11/27/2020       Submitted by: Dhabaleswar K Panda]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

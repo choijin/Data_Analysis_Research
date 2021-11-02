@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SPX: Collaborative Research: Distributed Database Management with Logical Leases and Hardware Transactional Memory</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Database systems are the foundation of critical applications that maintain large amounts of data. Since single-processor performance plateaued a decade ago, increasing the number of processors or servers has become the only viable way of improving performance in distributed database management systems. Scalability is a daunting challenge in these systems due to the complex coordination among the large number of parallel tasks---a problem that this project seeks to solve. Most existing database systems determine the order among parallel tasks using conventional physical time. These systems require managing distributed locks, which leads to blocking and computation overhead. Other systems use logical time, which can be thought of as position in an order, to eliminate locking, but require centralized generation of the ordering, which is a serious scalability bottleneck as core count increases. This project breaks the abstraction of physical time and replaces it with a new definition of time that incorporates both logical and physical aspects. "Physiological" time, termed physiological time for ease of pronunciation, uses logical timestamps to order events and then breaks ties using physical time. This enables novel dependency-avoiding approaches to improving system performance and scalability. &lt;br/&gt;&lt;br/&gt;This project applies physiological time to three components in a distributed database system. (1) At hardware level, a new hardware transaction memory (HTM) mechanism will be built, which allows more effective data movement in multi-core processors' caches. (2) A new distributed concurrency control protocol will be designed and implemented to coordinate large numbers of parallel tasks in a distributed database. (3) An efficient parallel indexing data structure will be proposed for both multi-core and distributed databases. All three parts of the project will be prototyped and deployed in hardware/software testbeds.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/30/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>08/30/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1822933</AwardID>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>Pavlo</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew Pavlo</PI_FULL_NAME>
+<EmailAddress>pavlo@cs.cmu.edu</EmailAddress>
+<PI_PHON>4122689527</PI_PHON>
+<NSF_ID>000663205</NSF_ID>
+<StartDate>08/30/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<CountyName/>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName/>
+<CountyName/>
+<StateCode>PA</StateCode>
+<ZipCode>152133890</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>042Y</Code>
+<Text>PPoSS-PP of Scalable Systems</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~500000</FUND_OBLG>
+</Award>
+</rootTag>

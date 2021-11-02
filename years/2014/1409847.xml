@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Medium: A Computing Cloud for Graphical Simulation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>854540.00</AwardTotalIntnAmount>
+<AwardAmount>1093026</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today, many graphical simulations run on a single powerful server or a small cluster of high-performance, high-cost nodes. This research aims to answer the question -- is it possible to run graphical simulations in the computational cloud? -- by designing and implementing Nimbus, a software for graphical simulation in the computing cloud.  The goal is to be able to run large, complex simulations using on-demand cloud computing systems. Nimbus supports PhysBAM, an open-source graphical simulation package developed and maintained by Principal Investigator Fedkiw. The project will collaborate with existing PhysBAM users to support the Nimbus software for broader use and adoption.&lt;br/&gt;&lt;br/&gt;Nimbus focuses on three important principles to support graphical simulations running on hundreds to thousands of cloud servers. First is decoupling data access and layout. Nimbus represents data in three layers: program, logical, and physical. These layers separate the units which a program operates on (program) from the units which the Nimbus software manages and transfers (logical) from how they are laid out in actual computer memory (physical). Second is non-uniform, geometry-aware data placement. Nimbus uses the fact that simulations have a basic underlying geometry to intelligently place data and computation. This geometry is explicit in the Nimbus software, which knows that nearby regions of the simulation should be placed on nearby computers. Third is dynamic assignment and load balancing: Graphical simulations today divide the simulation volume equally across computers, despite the fact that some regions require much more computation than others. Nimbus divides a simulation into a larger number of smaller partitions, which it dynamically assigns and moves as load changes to reduce running time while considering inter-partition communication. These three principles allow Nimbus to provide tremendous flexibility. The system breaks a simulation into small pieces that a controller computer sends to worker computers to compute. These worker computers decide when to schedule these simulation pieces and how to assign processors to different pieces. The runtime automatically moves data in the most efficient manner possible as needed, compressing data and replicating it when having multiple copies for different pieces increases performance. Discovering how these applications can be run on modern data center computing systems will help bring arithmetically intensive scientific computing to the cloud. As Exascale and other supercomputing efforts gain momentum, their scale will need to deal with the same issues cloud systems have been tackling for the past decade, stragglers, failures, and heterogeneity. By focusing on one particular compelling application, this work will establish an intellectual framework for future, broader efforts.</AbstractNarration>
+<MinAmdLetterDate>07/29/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>07/28/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1409847</AwardID>
+<Investigator>
+<FirstName>Ronald</FirstName>
+<LastName>Fedkiw</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ronald Fedkiw</PI_FULL_NAME>
+<EmailAddress>fedkiw@cs.stanford.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000172187</NSF_ID>
+<StartDate>07/29/2014</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Philip</FirstName>
+<LastName>Levis</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Philip A Levis</PI_FULL_NAME>
+<EmailAddress>pal@cs.stanford.edu</EmailAddress>
+<PI_PHON>6507232300</PI_PHON>
+<NSF_ID>000092250</NSF_ID>
+<StartDate>07/29/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stanford University</Name>
+<CityName>Stanford</CityName>
+<ZipCode>943052004</ZipCode>
+<PhoneNumber>6507232300</PhoneNumber>
+<StreetAddress>450 Jane Stanford Way</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009214214</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>LELAND STANFORD JUNIOR UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009214214</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stanford University]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>943054100</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~397513</FUND_OBLG>
+<FUND_OBLG>2015~96666</FUND_OBLG>
+<FUND_OBLG>2016~399849</FUND_OBLG>
+<FUND_OBLG>2017~198998</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>When Superman smashes through a building in Man of Steel, we see the result of simulating how steel, concrete, and glass respond to forces. When the family in the Croods runs from a landslide of rock and the resulting dust, we see the result of simulating rock fracture and one-way coupling of stone and air to create the pressure waves that billow the dust. When huge waves toss a fishing boat in The Perfect Storm, the movement and and surging of the water is the result of simulating the Navier-Stokes equations that couple pressure and velocity. These results are technological marvels, but at the outset of this project they were marvels grounded in the technology of the 20th century, run on a single powerful server or a small number of high-performance, high-cost nodes.<br /><br />This project researched new software technologies to distribute graphical simulations in the computing cloud. A simulation distributed across many nodes can run faster, as it has more CPUs. However, since each node has only a part of the simulation in its memory, it must exchange data with many other nodes to make sure they all have a consistent view of the simulation. Three performance problems arise in distributing graphical simulations: minimizing the time CPUs are idle waiting for data from other nodes, partitioning the simulation<br />across nodes such that each one has the same amount of work to do, and making sure nodes are not waiting for instructions on what computation to perform next.<br /><br />The project established approaches to solve all three performance problem. First, breaking a&nbsp; simulation up into many micropartitions ensures CPUs don't sit idle waiting for data. Each CPU can be processing one micropartition while transferring the data for another. Second, it proposed two new algorithms to evenly distribute load across CPUs. The first, called Birdshot scheduling, randomly scatters many micropartitions across nodes. Analytical results show that with enough micropartitions (e.g., 8 per core), Birdshot can evenly spread load with extremely high probability.&nbsp; The second, called speculative load balancing, runs a smaller, lower-fidelity simulation in parallel to predict where future load will be. The resulting load balancing is nearly optimal and does not require the same degree of micropartioning as Birdshot scheduling. Finally, the project defined two new techniques that prevent compute nodes from idling while waiting for new computations: executing templates and task recipes. <br /><br />The project grounded its new algorithms and systems in Nimbus, an open-source software library. Nimbus automatically distributes existing production-quality graphical simulations across hundreds of computing nodes. Nimbus runs larger simulations faster; in one experiment involving a 256x256x256 particle level-set water simulations, Nimbus reduced the runtime from &gt;48 hours to 268 minutes, a &gt;10x speedup. <br /><br />While all of these techniques were developed for graphical simulations in Nimbus, they are generally applicable to a much broader set of applications and computing systems. Execution templates and task recipes can speed up data analytics workloads like machine learning. In one experiment, Spark, a popular data analytics engine used by tens of thousands of people, did not speed up on more than 16 computers, while using task recipes continued to speed up on up to 128 computers, leading to an overall speedup of 6x. In a separate experiment, using execution templates allowed Nimbus to compute up to 20x faster than Spark.<br /><br />This award demonstrated the benefit of collaboration across different fields of computer science. By combining expertise in both networked systems and computer graphics, the team was able to invent new networked systems techniques to solve very difficult, open technical challenges in graphical simulations. At least one major special effects studio has begun using Nimbus.<br /><br />All work performed under the grant has been released as open source software that is free to download and use.</p><br> <p>            Last Modified: 09/18/2019<br>      Modified by: Philip&nbsp;A&nbsp;Levis</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ When Superman smashes through a building in Man of Steel, we see the result of simulating how steel, concrete, and glass respond to forces. When the family in the Croods runs from a landslide of rock and the resulting dust, we see the result of simulating rock fracture and one-way coupling of stone and air to create the pressure waves that billow the dust. When huge waves toss a fishing boat in The Perfect Storm, the movement and and surging of the water is the result of simulating the Navier-Stokes equations that couple pressure and velocity. These results are technological marvels, but at the outset of this project they were marvels grounded in the technology of the 20th century, run on a single powerful server or a small number of high-performance, high-cost nodes.  This project researched new software technologies to distribute graphical simulations in the computing cloud. A simulation distributed across many nodes can run faster, as it has more CPUs. However, since each node has only a part of the simulation in its memory, it must exchange data with many other nodes to make sure they all have a consistent view of the simulation. Three performance problems arise in distributing graphical simulations: minimizing the time CPUs are idle waiting for data from other nodes, partitioning the simulation across nodes such that each one has the same amount of work to do, and making sure nodes are not waiting for instructions on what computation to perform next.  The project established approaches to solve all three performance problem. First, breaking a  simulation up into many micropartitions ensures CPUs don't sit idle waiting for data. Each CPU can be processing one micropartition while transferring the data for another. Second, it proposed two new algorithms to evenly distribute load across CPUs. The first, called Birdshot scheduling, randomly scatters many micropartitions across nodes. Analytical results show that with enough micropartitions (e.g., 8 per core), Birdshot can evenly spread load with extremely high probability.  The second, called speculative load balancing, runs a smaller, lower-fidelity simulation in parallel to predict where future load will be. The resulting load balancing is nearly optimal and does not require the same degree of micropartioning as Birdshot scheduling. Finally, the project defined two new techniques that prevent compute nodes from idling while waiting for new computations: executing templates and task recipes.   The project grounded its new algorithms and systems in Nimbus, an open-source software library. Nimbus automatically distributes existing production-quality graphical simulations across hundreds of computing nodes. Nimbus runs larger simulations faster; in one experiment involving a 256x256x256 particle level-set water simulations, Nimbus reduced the runtime from &gt;48 hours to 268 minutes, a &gt;10x speedup.   While all of these techniques were developed for graphical simulations in Nimbus, they are generally applicable to a much broader set of applications and computing systems. Execution templates and task recipes can speed up data analytics workloads like machine learning. In one experiment, Spark, a popular data analytics engine used by tens of thousands of people, did not speed up on more than 16 computers, while using task recipes continued to speed up on up to 128 computers, leading to an overall speedup of 6x. In a separate experiment, using execution templates allowed Nimbus to compute up to 20x faster than Spark.  This award demonstrated the benefit of collaboration across different fields of computer science. By combining expertise in both networked systems and computer graphics, the team was able to invent new networked systems techniques to solve very difficult, open technical challenges in graphical simulations. At least one major special effects studio has begun using Nimbus.  All work performed under the grant has been released as open source software that is free to download and use.       Last Modified: 09/18/2019       Submitted by: Philip A Levis]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Beyond Accelerators - Using FPGAs to Achieve Fine-grained Control of Data-flows in Embedded SoCs</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>499857.00</AwardTotalIntnAmount>
+<AwardAmount>499857</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern computing systems are to become context-aware by exploiting knowledge of their environment and taking complex decisions based on a multitude of sensory streams. On the other hand, in safety-critical and high-integrity systems, the capability to detect and correct violations of timing and security invariants, i.e., self-awareness, is of the utmost importance. Unfortunately, as platforms grow in complexity to improve context-awareness, the inter-play between concurrent software components and the underlying hardware becomes hard to predict and to reason about. Therefore, there exists a fundamental tension between context- and self-awareness.  This research tackles the challenge of achieving strong self-awareness without trading off system complexity. It does so by defining a new class of software-shaped (SOSH) platforms that provide direct control over the flow of data exchanged between hardware components. SOSH platforms can be implemented today using existing and commercially available hardware that includes traditional processing units and reprogrammable logic on-chip. SOSH data-flow manipulation primitives are constructed in reprogrammable hardware and interposed between traditional central processors, memory modules, and I/O devices. By turning memory and I/O data-flows into manageable entities, a new degree of introspection is unlocked, which constitutes the premise for self-awareness. The project explores key design principles in the definition and implementation of low-overhead SOSH primitives for operations over data-flows. It investigates research avenues on the use of the SOSH paradigm to enact workload profiling and prediction; to implement advanced memory models; to perform security threat identification and mitigation. Evaluation metrics include achievable performance envelopes, expressiveness of programming interfaces, and level of control over access to confidential data and system bottlenecks. The milestones achieved in the definition of SOSH components will be immediately transitioned into practice. Areas of impact include, but are not limited to, civil avionics, autonomous driving technology, analytics engines, and privacy-hardened data stores. The obtained results will be disseminated in peer-reviewed journals, international conferences, and workshops. In addition, a set of publicly available repositories of code, hardware designs, and datasets will be maintained throughout the lifespan of the project and for a minimum of three years thereafter.&lt;br/&gt;&lt;br/&gt;The goal of this research is a technology to achieve strong self-awareness in complex systems. The key observation is that the interplay between software and hardware modules (i.e., CPUs, GPUs, DSPs, memory modules, and I/O devices) is embedded in the flow of data they exchange. Thus, turning data-flows into observable and manageable entities enables an unprecedented degree of self-awareness. From this observation, a new paradigm for software-shaped (SOSH) platforms is introduced. In SOSH platforms, the software can instantiate hardware modules to constantly monitor data-flows. It can define policies and performance envelopes for data-flow exchanges, and specify actions that affect both hardware and software components in case of a policy violation. The SOSH methodology targets commercial platforms that integrate embedded processors and programmable logic. Support for partial dynamic reconfiguration is also leveraged to achieve runtime adaptation. Four super-classes of data-flow manipulation primitives are considered. First, merging primitives enable the definition of rules to join data-flows from different components. Next, reordering/filtering primitives adapt seminal results in stream-processing to reduce and reorganize the amount of data moved between components. Third, profiling/logging primitives support the extraction of data-flow characteristics for prediction and state/progress tracking of application workloads. Lastly, splitting primitives allow selective re-routing of sub-flows to improve timing and relieve congestion at the performance bottlenecks. The SOSH paradigm lays the basis for novel approaches for the design and analysis of high-integrity and safety-critical systems. More broadly, SOSH platforms represent the first appearance of a new class of truly self-assessing and self-modifying systems, shaking the foundations of traditional hardware/software layers as non-participating entities. In SOSH platforms, the software can systematically inspect and influence the behavior of the hardware; while the hardware constructs and leverages knowledge of applications to enact goal-aware management.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/02/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>07/02/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2008799</AwardID>
+<Investigator>
+<FirstName>Renato</FirstName>
+<LastName>Mancuso</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Renato Mancuso</PI_FULL_NAME>
+<EmailAddress>rmancuso@bu.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000757827</NSF_ID>
+<StartDate>07/02/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Trustees of Boston University</Name>
+<CityName>BOSTON</CityName>
+<ZipCode>022151300</ZipCode>
+<PhoneNumber>6173534365</PhoneNumber>
+<StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049435266</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF BOSTON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049435266</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Trustees of Boston University]]></Name>
+<CityName>Boston</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>022152411</ZipCode>
+<StreetAddress><![CDATA[111 Cummington Mall, CS]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~499857</FUND_OBLG>
+</Award>
+</rootTag>

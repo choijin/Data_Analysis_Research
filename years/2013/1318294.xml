@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Collaborative: Cost-Competitve Analysis - A New Tool for Designing Secure Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>248480.00</AwardTotalIntnAmount>
+<AwardAmount>248480</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ralph Wachter</SignBlockName>
+<PO_EMAI>rwachter@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Consider a network where each node is either good or bad.  The good nodes all run an algorithm that attempts to achieve a specific goal. The hidden set of bad nodes are controlled by an adversary who uses them to thwart this goal.&lt;br/&gt;&lt;br/&gt;Informally, cost-competitive analysis considers the resource cost of each good node as a function of the total resource cost of the adversary.  The goal is to design algorithms that achieve their objectives, while minimizing this cost.  Critically, when bad nodes suffer higher costs than good nodes, it is expected that they will eventually cease their attack, as their resources become depleted.&lt;br/&gt;&lt;br/&gt;Goals of this project are to design cost-competitive algorithms for: communication in wireless networks; tolerating distributed denial-of-service attacks; secure routing in peer-to-peer networks; and enabling nodes to come to agreement.&lt;br/&gt;&lt;br/&gt;Cost-competitive analysis offers a novel approach for making progress on challenging attacks that cannot be adequately addressed in models that ignore the costs of the attacker.  By adopting a more realistic attack model, this approach more accurately quantifies the limits of efficient attack resistance. It is thus expected that a cost-competitive approach will yield more compelling solutions to security challenges in many domains.  In particular, this project may have high impact in security challenges involving open environments such as:  wireless sensor networks, overlays, reputation systems; and aspects of contemporary problems in industry such as:  public cloud computing, reliable versions of MapReduce, and robust distributed lock managers like Google's Chubby lock service.</AbstractNarration>
+<MinAmdLetterDate>08/30/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>01/24/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1318294</AwardID>
+<Investigator>
+<FirstName>Seth</FirstName>
+<LastName>Pettie</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Seth Pettie</PI_FULL_NAME>
+<EmailAddress>pettie@umich.edu</EmailAddress>
+<PI_PHON>7347641817</PI_PHON>
+<NSF_ID>000477111</NSF_ID>
+<StartDate>08/30/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073133571</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MICHIGAN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073133571</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Michigan Ann Arbor]]></Name>
+<CityName>Ann Arbor</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>481092121</ZipCode>
+<StreetAddress><![CDATA[2260 Hayward, 3628 Beyster Bldg.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~248480</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Modern distributed systems must be resilient to attack by malicious adversaries.&nbsp; This aim of this project was to explore and popularize a new model of attack-resistance called <em>Resource-Competitive Analysis</em>, which explicitly measures the relative costs of &ldquo;good&rdquo; nodes (which behave according to protocol) and &ldquo;bad&rdquo; nodes (who are intent on disrupting the distributed system).&nbsp; The cost is measured in terms of some common resource such as energy, computation, bandwidth, etc.&nbsp;</p> <p>We considered several fundamental problems relevant to wireless networks of battery-powered devices.&nbsp; Tiny devices often dedicate the lion&rsquo;s share of their battery power to transceiver usage (sending and receiving packets of data), not computation proper.&nbsp; A malicious jammer can, by broadcasting noise, interrupt a distributed system.&nbsp; We developed a randomized 2-party communication protocol that transmits a message optimally, given a battery-constrained adversarial <em>jammer</em>.&nbsp; If the jammer expends <em>J</em> units of energy, the 2 parties each spend roughly the <em>square-root</em>-of-<em>J</em> energy to exchange a message.&nbsp;&nbsp; We also designed a broadcast protocol in which one party must disseminate a message to <em>N</em> parties (<em>N</em> unknown).&nbsp; Faced with a jammer with a budget of <em>J</em>, each individual party spends roughly square-root-of-(<em>J/N</em>) energy.</p> <p>The notion of energy-complexity of protocols is poorly understood, but more relevant than ever, given the proliferation of smaller and smaller wireless devices. &nbsp;We studied the energy-complexity of basic tasks such as Contention Resolution, Leader Election, and Approximate Counting (the size of a distributed system). &nbsp;Some specific results include a protocol for <em>n</em> uncoordinated devices to take turns having exclusive access to a communications channel.&nbsp; The protocol is the first to achieve constant throughput (under any adversarially scheduled injection of devices into the system), where each device accesses the channel only O(log(log* <em>n</em>)) times.&nbsp; We proved that the energy complexity of Leader Election depends crucially on whether random bits are available and what type of collision detection is available.&nbsp; For randomized protocols, devices with listener-only collision detection are exponentially more efficient than those with transmitter-only collision detection.&nbsp; For deterministic protocols the reverse is true: transmitter-only collision detection leads to exponentially more efficient protocols than listener-only collision detection.</p> <p>A key goal of this project was to popularize the notion of resource-competitive analysis.&nbsp; To that end, we published an extensive survey paper on the subject in <em>SIGACT News</em>, which is widely read in the distributed computing and theoretical computer science communities.</p> <p>This grant supported a postdoctoral researcher and one PhD student, and resulted in two dozen publications in the areas of networking and distributed computing, computational complexity, data structures, combinatorics, and combinatorial optimization.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/29/2016<br>      Modified by: Seth&nbsp;Pettie</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Modern distributed systems must be resilient to attack by malicious adversaries.  This aim of this project was to explore and popularize a new model of attack-resistance called Resource-Competitive Analysis, which explicitly measures the relative costs of "good" nodes (which behave according to protocol) and "bad" nodes (who are intent on disrupting the distributed system).  The cost is measured in terms of some common resource such as energy, computation, bandwidth, etc.   We considered several fundamental problems relevant to wireless networks of battery-powered devices.  Tiny devices often dedicate the lion?s share of their battery power to transceiver usage (sending and receiving packets of data), not computation proper.  A malicious jammer can, by broadcasting noise, interrupt a distributed system.  We developed a randomized 2-party communication protocol that transmits a message optimally, given a battery-constrained adversarial jammer.  If the jammer expends J units of energy, the 2 parties each spend roughly the square-root-of-J energy to exchange a message.   We also designed a broadcast protocol in which one party must disseminate a message to N parties (N unknown).  Faced with a jammer with a budget of J, each individual party spends roughly square-root-of-(J/N) energy.  The notion of energy-complexity of protocols is poorly understood, but more relevant than ever, given the proliferation of smaller and smaller wireless devices.  We studied the energy-complexity of basic tasks such as Contention Resolution, Leader Election, and Approximate Counting (the size of a distributed system).  Some specific results include a protocol for n uncoordinated devices to take turns having exclusive access to a communications channel.  The protocol is the first to achieve constant throughput (under any adversarially scheduled injection of devices into the system), where each device accesses the channel only O(log(log* n)) times.  We proved that the energy complexity of Leader Election depends crucially on whether random bits are available and what type of collision detection is available.  For randomized protocols, devices with listener-only collision detection are exponentially more efficient than those with transmitter-only collision detection.  For deterministic protocols the reverse is true: transmitter-only collision detection leads to exponentially more efficient protocols than listener-only collision detection.  A key goal of this project was to popularize the notion of resource-competitive analysis.  To that end, we published an extensive survey paper on the subject in SIGACT News, which is widely read in the distributed computing and theoretical computer science communities.  This grant supported a postdoctoral researcher and one PhD student, and resulted in two dozen publications in the areas of networking and distributed computing, computational complexity, data structures, combinatorics, and combinatorial optimization.           Last Modified: 12/29/2016       Submitted by: Seth Pettie]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

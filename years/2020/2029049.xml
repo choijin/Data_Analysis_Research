@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>PPoSS: Planning: Inflight Analytics to Control Large-Scale Heterogeneous Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>250000.00</AwardTotalIntnAmount>
+<AwardAmount>250000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Wei Ding</SignBlockName>
+<PO_EMAI>weiding@nsf.gov</PO_EMAI>
+<PO_PHON>7032928017</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to fundamentally reinvent the design of the system, from hardware to application, using fast, novel inflight analytics to control and optimize large-scale heterogeneous computer systems to meet the performance and resiliency requirements of emerging applications such as data mining, artificial intelligence, and individualized medicine. Towards that goal, advanced machine-learning (ML) methods along with domain knowledge will be employed to support real-time system-state estimation and decision-making, including resource management, congestion/failure detection and mitigation, preemptive intrusion detection, and configuration management. Innovations across the system stack will be needed to achieve optimal results by taking full advantage of contextual information collected from multiple layers of the system and adapting rapidly to the deployment environment, workloads, and application requirements. ML-driven inflight analytics methods, developed in this effort, will be demonstrated on a heterogeneous “rack-scale” computing system, with the ultimate future objective of scaling up the framework to a warehouse-scale computing system.&lt;br/&gt;&lt;br/&gt;The project will be organized around the following research activities. (i) Work with noisy and incomplete telemetry data (e.g., hardware telemetry, OS-level logs, and application-level traces) available from monitors across the system stack to perform system-state estimation (e.g., resource utilization). Telemetry data are often noisy and inconsistent in terms of semantics, modalities, and time granularities, making systems only partially observable. Bayesian deep-learning models will be developed to accurately capture system states and cope with data noise and incompleteness. (ii) Design models and algorithms for practical inflight analytics that make decisions (e.g., on scheduling or failure mitigation) based on the estimated system state to enhance system performance, reliability, and security. Such a framework will consist of an ensemble of interdependent ML models based on partially observable Markov decision processes (POMDPs) augmented with domain knowledge (e.g., interconnect topology) and trained in real time. (iii) Synthesize hardware accelerators for fast, low-cost inflight analytic. Toward that end, a compiler and a runtime framework will be developed that take high-level declarative probabilistic programs (i.e., the POMDPs), automatically compile them onto accelerators, and plan their execution across heterogeneous hardware (FPGAs, ASICs, and CPUs/GPUs). (iv) Assess the trustworthiness of inflight analytics. For that, a trust-assessment framework will be created to evaluate resiliency to failures and attacks due to residual imperfections of heterogeneous components, input uncertainty, and the use of stochastic ML algorithms.  While in the planning stage, this project will focus on design of inflight analytics in the context of rack-scale systems. The methods and algorithms developed will be useful in helping smaller-scale sites with limited resources manage their systems more efficiently. Students involved in this project will have a rare opportunity to participate in the design of heterogeneous ML-driven systems with broad applicability. The integration of ML methods and algorithms into real systems can be attractive to a diverse range of individuals, including underrepresented minority students. The goal is to raise awareness of scientific and engineering challenges in design and deployment of next-generation computing systems to support emerging applications.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/21/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>10/14/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2029049</AwardID>
+<Investigator>
+<FirstName>Ravishankar</FirstName>
+<LastName>Iyer</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ravishankar Iyer</PI_FULL_NAME>
+<EmailAddress>rkiyer@illinois.edu</EmailAddress>
+<PI_PHON>2173339732</PI_PHON>
+<NSF_ID>000444242</NSF_ID>
+<StartDate>08/21/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Wen-mei</FirstName>
+<LastName>Hwu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Wen-mei Hwu</PI_FULL_NAME>
+<EmailAddress>w-hwu@illinois.edu</EmailAddress>
+<PI_PHON>2172448270</PI_PHON>
+<NSF_ID>000469830</NSF_ID>
+<StartDate>08/21/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Klara</FirstName>
+<LastName>Nahrstedt</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Klara Nahrstedt</PI_FULL_NAME>
+<EmailAddress>klara@cs.uiuc.edu</EmailAddress>
+<PI_PHON>2172446624</PI_PHON>
+<NSF_ID>000222062</NSF_ID>
+<StartDate>08/21/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>William</FirstName>
+<LastName>Kramer</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>William T Kramer</PI_FULL_NAME>
+<EmailAddress>wtkramer@illinois.edu</EmailAddress>
+<PI_PHON>2173336260</PI_PHON>
+<NSF_ID>000179975</NSF_ID>
+<StartDate>08/21/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Tianyin</FirstName>
+<LastName>Xu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Tianyin Xu</PI_FULL_NAME>
+<EmailAddress>tyxu@illinois.edu</EmailAddress>
+<PI_PHON>8587548882</PI_PHON>
+<NSF_ID>000767698</NSF_ID>
+<StartDate>08/21/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Urbana</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618013620</ZipCode>
+<StreetAddress><![CDATA[Henry Admin Bldg, 506 S. Wright]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>042Y</Code>
+<Text>PPoSS-PP of Scalable Systems</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~250000</FUND_OBLG>
+</Award>
+</rootTag>

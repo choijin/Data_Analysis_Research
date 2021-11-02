@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Blind Channel Estimation and Solving Bilinear Equations by Lifting and Factoring</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>02/28/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>149999.00</AwardTotalIntnAmount>
+<AwardAmount>149999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Cozzens</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The focus of this research is a fundamental problem in the acquisition and transmission of data: blind channel estimation.  The goal is to develop novel and widely applicable methods for making communications and imaging robust against the types of perturbations that occur when a wireless signal travels through the air between cell phone and base station, an image passes through a uncalibrated lens, or a voice reverberates off of the walls and floors of a room.  One of the most challenging aspects of these problems is that these perturbations cause the observations to be non-linear functions of the unknown variables.  This research program will develop a new framework for solving and analyzing the robustness of the solutions to special classes of bilinear inverse problems, and then specialize these results to particular problems in blind channel estimation.&lt;br/&gt;&lt;br/&gt;Specifically, the investigator will study a new method for blind channel estimation based on recently developed techniques for solving constrained bilinear inverse problems. This methodology, called ?lifting? in the literature, recasts the bilinear problem as a linear matrix recovery problem with a rank constraint.  This recasting allows the analytical and computational techniques from the large body of work on low rank matrix recovery to be unleashed, yielding new (very effective and scalable) algorithms for solving these classical problems, and a new mathematical understanding about when they can be tractably solved.  The proposed framework will also be extended to the case where there are multiple sources present, which need to be separated as the channels are estimated.</AbstractNarration>
+<MinAmdLetterDate>08/19/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/19/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1422540</AwardID>
+<Investigator>
+<FirstName>Justin</FirstName>
+<LastName>Romberg</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Justin K Romberg</PI_FULL_NAME>
+<EmailAddress>jrom@ece.gatech.edu</EmailAddress>
+<PI_PHON>6268943930</PI_PHON>
+<NSF_ID>000238919</NSF_ID>
+<StartDate>08/19/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 North Ave NW]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~149999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Blind channel estimation is one of the fundamental problems in signal processing and digital communications. &nbsp;Mathematically, this problems amounts to estimating a unknown (but structured) matrix by applying it one or more unknown vectors. &nbsp;As both the matrix and the vectors to which it is being applied are unknown, this is a bilinear inverse problem. &nbsp;The research supported by this grant generated a new mathematical understanding of when this type of inverse problem can be solved, and developed new algorithms for finding the solution. &nbsp;The general techniques developed have been applied to a real-world underwater acoustic channel estimation problem, where ships at known locations emitted unknown signatures were used to gather information about ocean properties.</p> <p><br />During the lifetime of the grant, we also developed a new understanding of the closely related problem of phase retrieval, where we observe only the magnitude of a series of linear measurements of an unknown vector. &nbsp;Like blind deconvolution, this inverse problem is nonlinear. &nbsp;There is, however, a recently introduced technique for solving the problem that recasts the recovery of the unknown vector from nonlinear measurements as a recovery of an unknown matrix of rank 1 from a set of linear measurements. &nbsp;This relaxation is provably effective, but comes at the cost of squaring the number of variables that need to be estimated. &nbsp;In our work, we have developed a different convex relaxation with similar theoretical guarantees that works in the native dimension --- it is still a vector recovery problem. &nbsp;We have also been able to extend this approach to solving more general types of nonlinear equations.</p> <p><br />This progress on blind deconvolution and phase retrieval had broader impact on many application areas. &nbsp;In addition to the ocean acoustics application, it has the potential to make automatic coil calibration in MRI easier and more efficient, increase the effective resolution of astronomical imaging, and make it easier to decode functional MRI measurements. &nbsp;</p> <p><br />The grant partially supported one graduate student and two postdoctoral scholars. &nbsp;Under its purview, we produced five journal papers and six conference papers, all at top venues.</p> <p>&nbsp;</p><br> <p>            Last Modified: 05/08/2017<br>      Modified by: Justin&nbsp;K&nbsp;Romberg</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Blind channel estimation is one of the fundamental problems in signal processing and digital communications.  Mathematically, this problems amounts to estimating a unknown (but structured) matrix by applying it one or more unknown vectors.  As both the matrix and the vectors to which it is being applied are unknown, this is a bilinear inverse problem.  The research supported by this grant generated a new mathematical understanding of when this type of inverse problem can be solved, and developed new algorithms for finding the solution.  The general techniques developed have been applied to a real-world underwater acoustic channel estimation problem, where ships at known locations emitted unknown signatures were used to gather information about ocean properties.   During the lifetime of the grant, we also developed a new understanding of the closely related problem of phase retrieval, where we observe only the magnitude of a series of linear measurements of an unknown vector.  Like blind deconvolution, this inverse problem is nonlinear.  There is, however, a recently introduced technique for solving the problem that recasts the recovery of the unknown vector from nonlinear measurements as a recovery of an unknown matrix of rank 1 from a set of linear measurements.  This relaxation is provably effective, but comes at the cost of squaring the number of variables that need to be estimated.  In our work, we have developed a different convex relaxation with similar theoretical guarantees that works in the native dimension --- it is still a vector recovery problem.  We have also been able to extend this approach to solving more general types of nonlinear equations.   This progress on blind deconvolution and phase retrieval had broader impact on many application areas.  In addition to the ocean acoustics application, it has the potential to make automatic coil calibration in MRI easier and more efficient, increase the effective resolution of astronomical imaging, and make it easier to decode functional MRI measurements.     The grant partially supported one graduate student and two postdoctoral scholars.  Under its purview, we produced five journal papers and six conference papers, all at top venues.          Last Modified: 05/08/2017       Submitted by: Justin K Romberg]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

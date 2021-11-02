@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Scalable Integration and Analysis of the Provenance of Diverse Scientific Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>485868.00</AwardTotalIntnAmount>
+<AwardAmount>485868</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>nan zhang</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>As scientists begin to get access to data sets that are accompanied by automatically generated provenance records, they are faced with the challenge of integrating and analyzing this metadata. Independent sources are likely to have captured provenance at distinct levels of abstraction, have different levels of completeness, used separate sets of identifiers to refer to the same artifacts, processes, and agents, and introduced dissimilar semantics in the annotations.&lt;br/&gt;&lt;br/&gt;This research studies the problem of semi-automatically integrating and analyzing the provenance of scientific data that originates from diverse sources, with independent annotation schema, semantics that may overlap only partially, representations at different granularity, and incomplete characterizations of the activity being recorded. In particular, (i) it develops a formal framework for combining provenance, (ii) provides an extensible software system for provenance ingestion, integration, and analysis, and (iii) creates canonical provenance data sets of various sizes, granularity, and domains, that can be utilized for comparison of provenance integration and analysis algorithms.&lt;br/&gt;&lt;br/&gt;Maintaining a record of all the transformations the data undergoes becomes increasingly critical as the length of the analysis grows and the age and diversity of sources of the data grow. Such provenance metadata can address a range of queries. For example, in situations where only derivative data is preserved, a provenance record can help validate claims about the procedures used to obtain the final results. Concerns about whether privacy-sensitive data (such as information from patient records) has been used in contravention to legal or security policies can be alleviated by checking for violations in the provenance records.&lt;br/&gt;&lt;br/&gt;More information about the project can be found at: http://spade.csl.sri.com</AbstractNarration>
+<MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1116414</AwardID>
+<Investigator>
+<FirstName>Ashish</FirstName>
+<LastName>Gehani</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ashish Gehani</PI_FULL_NAME>
+<EmailAddress>ashish.gehani@sri.com</EmailAddress>
+<PI_PHON>6508592200</PI_PHON>
+<NSF_ID>000315262</NSF_ID>
+<StartDate>08/08/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>SRI International</Name>
+<CityName>Menlo Park</CityName>
+<ZipCode>940253493</ZipCode>
+<PhoneNumber>7032478529</PhoneNumber>
+<StreetAddress>333 RAVENSWOOD AVE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009232752</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>SRI INTERNATIONAL</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009232752</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[SRI International]]></Name>
+<CityName>Menlo Park</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>940253493</ZipCode>
+<StreetAddress><![CDATA[333 RAVENSWOOD AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~485868</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project designed a framework for integrating provenance only. The need for this arises when multiple provenance traces (with different properties, such as temporal fidelity, monitored aspects, or abstraction levels) are collected for the same underlying phenomenon. It provides a provenance-only integration algorithm that merges provenance elements (vertices or edges) with sufficiently similar annotations (as defined by user-specified thresholds). It seeks to avoid integrating elements with different owners by imposing a cost for doing so. By finding the lowest thresholds that suffice for a given cost, provenance-only integration can be viewed as an optimization problem.</p> <p>The effort analyzed a set of micro-benchmark programs with three different provenance collection systems that monitor activity at system call, function call, and byte granularity. This revealed that the overhead varies greatly, depending on the computing patterns.&nbsp;More importantly, no single provenance monitoring system is suitable&nbsp;for all applications. Each has a distinct weak point. The analysis concluded that techniques for dynamically switching between&nbsp;different provenance instrumentation need to be explored.&nbsp;This will allow overhead to be kept low for most executions while still&nbsp;being able to produce detailed provenance when it is needed.</p> <p>The variability in provenance resulting from collecting it on different platforms was investigated. The same set of applications was run on multiple operating systems. Traces were collected and reported in an open format. The data was published, allowing other researchers to utilize it for their analyses.</p> <p>In addition to the above outcomes and datasets, the project resulted in a variety of investigations that were reported on in 14 academic peer-reviewed publications, as well as significant enhancements to the open source provenance middleware, SPADE.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/01/2016<br>      Modified by: Ashish&nbsp;Gehani</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project designed a framework for integrating provenance only. The need for this arises when multiple provenance traces (with different properties, such as temporal fidelity, monitored aspects, or abstraction levels) are collected for the same underlying phenomenon. It provides a provenance-only integration algorithm that merges provenance elements (vertices or edges) with sufficiently similar annotations (as defined by user-specified thresholds). It seeks to avoid integrating elements with different owners by imposing a cost for doing so. By finding the lowest thresholds that suffice for a given cost, provenance-only integration can be viewed as an optimization problem.  The effort analyzed a set of micro-benchmark programs with three different provenance collection systems that monitor activity at system call, function call, and byte granularity. This revealed that the overhead varies greatly, depending on the computing patterns. More importantly, no single provenance monitoring system is suitable for all applications. Each has a distinct weak point. The analysis concluded that techniques for dynamically switching between different provenance instrumentation need to be explored. This will allow overhead to be kept low for most executions while still being able to produce detailed provenance when it is needed.  The variability in provenance resulting from collecting it on different platforms was investigated. The same set of applications was run on multiple operating systems. Traces were collected and reported in an open format. The data was published, allowing other researchers to utilize it for their analyses.  In addition to the above outcomes and datasets, the project resulted in a variety of investigations that were reported on in 14 academic peer-reviewed publications, as well as significant enhancements to the open source provenance middleware, SPADE.          Last Modified: 11/01/2016       Submitted by: Ashish Gehani]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

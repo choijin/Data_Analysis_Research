@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research:   CSR-PSCE, SM:   Adaptive Memory Management in Shared Environments</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>234637.00</AwardTotalIntnAmount>
+<AwardAmount>266637</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Krishna Kant</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Program performance is highly dependent on the amount of memory available to the program. In traditional computing systems, the memory working set of an application has a bounded size - providing more memory to an application improves performance until its working set is met. Once the working set is met, additional memory yields little or no benefit. However, in the presence of garbage collection (a technique for memory management where space that is unlikely to be reused by an application is automatically reclaimed), the relationship between program performance and memory allocation is more complex. Data is managed at three levels: the compiler manages data objects at the program level, the garbage collector manages the heap at the virtual machine level, and the virtual memory manager manages virtual memory at the operating system level. The middle layer plays a critical role. Increasing an application's heap size can reduce the frequency of garbage collections and improve performance, but too large a heap may trigger paging and degrade performance.&lt;br/&gt;&lt;br/&gt;Software developers take advantage of garbage collection (GC) for the many benefits it provides by using either garbage-collecting languages, such as Java and C#, or conventional languages (e.g., C and C++) augmented with conservative garbage collectors. While a conventional program uses exactly as much memory as it needs, the memory use of a garbage-collected program can be adjusted by changing the size of the heap used by the garbage collector. This difference can allow an advanced execution system to control applications' memory demands in response to the changing amount of available memory in a shared environment. This concept is increasingly important for today's multicore, multiprocessor machines.&lt;br/&gt;&lt;br/&gt;Building on previous work, this project develops the technology required to model the memory demand of garbage-collected programs and enable adaptive management in existing virtual machines and operating systems. Specifically, the project extends the PIs' work on whole-program locality and phase models and adaptive memory management, combining program analysis, garbage collection control, and on-line system monitoring.&lt;br/&gt;&lt;br/&gt;This work develops program-level adaptive memory management (PAMM) for garbage-collected programs running concurrently with other garbage-collected programs and with conventional applications. The goal is to adjust all applications' demands to fully use available memory and avoid contention from periods of over demand.</AbstractNarration>
+<MinAmdLetterDate>08/19/2008</MinAmdLetterDate>
+<MaxAmdLetterDate>07/27/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0834566</AwardID>
+<Investigator>
+<FirstName>Chen</FirstName>
+<LastName>Ding</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Chen Ding</PI_FULL_NAME>
+<EmailAddress>cding@cs.rochester.edu</EmailAddress>
+<PI_PHON>5852751373</PI_PHON>
+<NSF_ID>000325741</NSF_ID>
+<StartDate>08/19/2008</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Rochester</Name>
+<CityName>Rochester</CityName>
+<ZipCode>146270140</ZipCode>
+<PhoneNumber>5852754031</PhoneNumber>
+<StreetAddress>518 HYLAN, RC BOX 270140</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY25</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041294109</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ROCHESTER</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041294109</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Rochester]]></Name>
+<CityName>Rochester</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>146270140</ZipCode>
+<StreetAddress><![CDATA[518 HYLAN, RC BOX 270140]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9216</Code>
+<Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0108</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0109</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2008~158162</FUND_OBLG>
+<FUND_OBLG>2009~92475</FUND_OBLG>
+<FUND_OBLG>2011~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>To achieve optimal performance, garbage-collected applications must balance the sizes of their heaps dynamically. Sizing the heap toosmall can reduce throughput by increasing the number of garbage collections that must be performed. Too large a heap, however, can cause the system to page and drag down the overall throughput. Intoday's multicore, multiprocessor machines, multiple garbage-collected applications are run simultaneously. &nbsp;As a result, each virtualmachine (VM) must adjust its memory demands to reflect not only the behavior of the application it is running, but the behavior of the peer applications running on the system.</p> <p>As the major part of this research, we have developed a memory management system that enables VMs to react to memory demands dynamically. Our approach allows the applications' heaps to remain small enough to avoid the negative impacts of paging, while still taking advantage of any memory that is available within the system. This memory manager, which we call Poor Richard's Memory Manager, focuses on optimizing overall system performance by allowing applications to share data and make system-wide decisions. We show how it can be added to existing VMs with little effort, and document that it has almost no impact on performance when memory is plentiful. Using homogenous and heterogenous Java workloads, we then show that PoorRichard's memory manager improves average performance when the systemis paging. We further show that this result is not specific to any garbage collection algorithm, but improvement is observed for every garbage collector on which it is used. We finally demonstrate the versatility of our memory manager by using it to improve theperformance of a conservative garbage-collector used to running .Net applications. &nbsp;Our oher work includes modeling the memory usage&nbsp;using a new, faster algorithm and an optimal solution for cache memory management through software-hardware collaboration.</p> <p>In addition to three graduate students, the project has involved at least 10 undergraduate students in research. &nbsp; Four&nbsp;Canisius undergraduate students gave a workshop presentation at the Compiler Driven Performance workshop in October 2009 to an audience of over 70 people. &nbsp;The research was presented as a technology demo at the 2009 IBM Center for Advanced Studies Conference and awarded the Best Technology Demo.</p> <p>The research also won Microsoft Research Phoenix/SSCLI RFP 2005 as one of the 13 selected from nearly 100 proposals from 21 countries.</p><br> <p>            Last Modified: 12/06/2012<br>      Modified by: Chen&nbsp;Ding</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ To achieve optimal performance, garbage-collected applications must balance the sizes of their heaps dynamically. Sizing the heap toosmall can reduce throughput by increasing the number of garbage collections that must be performed. Too large a heap, however, can cause the system to page and drag down the overall throughput. Intoday's multicore, multiprocessor machines, multiple garbage-collected applications are run simultaneously.  As a result, each virtualmachine (VM) must adjust its memory demands to reflect not only the behavior of the application it is running, but the behavior of the peer applications running on the system.  As the major part of this research, we have developed a memory management system that enables VMs to react to memory demands dynamically. Our approach allows the applications' heaps to remain small enough to avoid the negative impacts of paging, while still taking advantage of any memory that is available within the system. This memory manager, which we call Poor Richard's Memory Manager, focuses on optimizing overall system performance by allowing applications to share data and make system-wide decisions. We show how it can be added to existing VMs with little effort, and document that it has almost no impact on performance when memory is plentiful. Using homogenous and heterogenous Java workloads, we then show that PoorRichard's memory manager improves average performance when the systemis paging. We further show that this result is not specific to any garbage collection algorithm, but improvement is observed for every garbage collector on which it is used. We finally demonstrate the versatility of our memory manager by using it to improve theperformance of a conservative garbage-collector used to running .Net applications.  Our oher work includes modeling the memory usage using a new, faster algorithm and an optimal solution for cache memory management through software-hardware collaboration.  In addition to three graduate students, the project has involved at least 10 undergraduate students in research.   Four Canisius undergraduate students gave a workshop presentation at the Compiler Driven Performance workshop in October 2009 to an audience of over 70 people.  The research was presented as a technology demo at the 2009 IBM Center for Advanced Studies Conference and awarded the Best Technology Demo.  The research also won Microsoft Research Phoenix/SSCLI RFP 2005 as one of the 13 selected from nearly 100 proposals from 21 countries.       Last Modified: 12/06/2012       Submitted by: Chen Ding]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

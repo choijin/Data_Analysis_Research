@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Collaborative Research: Finding and Exploiting Hierarchical Structure in Time Series Using Statistical Language Processing Methods</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>250000.00</AwardTotalIntnAmount>
+<AwardAmount>250000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sylvia Spengler</SignBlockName>
+<PO_EMAI>sspengle@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Applications as diverse as manufacturing, medicine, earth science, finance, and entomology generate massive amounts of temporal or spatio-temporal data. More specifically, information about moving objects, events, and atmospheric measurements that are geo-referenced may be derived from high-resolution satellites, sensors, ground and aerial imagery, GPS, and RFID. Such data present challenges to current approaches for mining time series data. For example, shape-based similarity measures used for classification and clustering consistently fail to produce satisfactory results for long sequences, or trajectories modeling objects that move in 2D or 3D space which may often exhibit similar motion patterns but differ in locations and orientations. In addition, algorithms for finding frequent patterns and anomalies assume known, fixed pattern lengths. This project aims to address the limitations of current approaches to time series data analysis by adapting statistical language processing algorithms and approaches. Specifically, fast algorithms for learning context-free grammars can expose hierarchical structure in time series and thus enable efficient discovery of variable length patterns and facilitate human understanding of time series structure. Also, using the hierarchy to populate a "bag of patterns" can result in significantly more effective similarity measures for long time series, much like the familiar bag of words representation used with documents is effective for a variety of similarity-based language processing tasks on massive corpora.&lt;br/&gt;&lt;br/&gt;Given the ubiquitous nature of time series data, advances in algorithms that can help uncover the structure of such data are likely to impact a broad range of applications. All of the results of this research, including publications, algorithms and software, would be made freely available to the broader research and educational community. The project offers enhanced research-based training opportunities for graduate and undergraduate students.  The project leverages existing programs at George Mason University and the University of Maryland at Baltimore County to to increase the participation of women members of other groups that are under-represented in Computer Science.</AbstractNarration>
+<MinAmdLetterDate>08/28/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/28/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218318</AwardID>
+<Investigator>
+<FirstName>Tim</FirstName>
+<LastName>Oates</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Tim Oates</PI_FULL_NAME>
+<EmailAddress>jtooates@gmail.com</EmailAddress>
+<PI_PHON>4439741227</PI_PHON>
+<NSF_ID>000250972</NSF_ID>
+<StartDate>08/28/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Maryland Baltimore County</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212500002</ZipCode>
+<PhoneNumber>4104553140</PhoneNumber>
+<StreetAddress>1000 Hilltop Circle</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>061364808</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MARYLAND BALTIMORE COUNTY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003256088</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Maryland Baltimore County]]></Name>
+<CityName>Baltimore</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>212500001</ZipCode>
+<StreetAddress><![CDATA[1000 Hilltop Circle]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~250000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Time series data, including trajectory data, is common in many fields, with typical tasks including finding common (motifs) and rare (discords) patterns. &nbsp;Prior to this work, existing approaches to those tasks required extensive domain knowledge, such as the number of patterns to find and their length, and were susceptible to noise in the data. &nbsp;We applied grammars, typically applied to problems in natural language processing, to address these issues.</p> <p>We developed a fast and robust grammar induction algorithm called mSEQUITUR to infer a grammar rule set from a trajectory for motif discovery. The algorithm operates on numneric time series discretized with the Symbolic Aggregate approXimation (SAX) algorithm. Discretization offers robustness to noise in the raw data. &nbsp;We then designed the Symbolic Trajectory Analysis and VIsualization System (STAVIS), the first of its kind trajectory analytical system thata pplies grammar inference to derive trajectory signatures and enable mining tasks on the signatures.</p> <p>Multivariate time series data is not only characterized by individual attributes, but also by the relationships between the attributes. Such information is not captured by the similarity between the individual sequences. &nbsp;Inspired by the max-pooling approaches in ConvolutionalNeural Networks (CNNs), we developed extensions to the vanilla SAXapproach, called Pooling SAX-BoP to successfully predict patient outcomes from multivariate synchronous vital signs data. &nbsp;We alsoi ntegrated Boosting as one of the most powerful ensemble learning approaches on the BoP representations to further improve the performance. &nbsp;Experimental results on clinical data demonstrate that our methods are accurate and stable for classifying multivariate synchronous vital signs time series data. &nbsp;This demonstrated the broader impact of our work.</p> <p>We worked on the problem of finding the most representative patterns for a classification task in time series and developed an algorithm called RPM (Representative Pattern Mining). The key motivation is that the identification of a small set of distinctive and interpretable patterns of each class allows us to exploit their key characteristics for discriminating against other classes. We hypothesized that the classification procedure based on a set of highly class-characteristics hort patterns will provide high generalization performance under noise and/or translation/rotation, i.e., it will be robust and shift/rotation invariant. &nbsp;<br />We proposed a novel method to discretize time series data and developed a similarity score based on the discretized representation. The similarity score allows us to compare two time series sequences and enables us to perform pattern learning tasks such as clustering, classification, and anomaly detection.</p> <p>We proposed a generative model for discretization based on multiple normal distributions and created an optimization technique to learn parameters of these normal distributions. To show the effectiveness ofour approach, we performed comprehensive experiments in classifying datasets from the UCR time series repository.</p> <p>We proposed two algorithms that use grammar induction to aid anomaly detection without any prior knowledge. Our algorithms discretizes continuous time series values into symbolic form, infer a context-free grammar, and exploit its hierarchical structure to effectively and efficiently discover algorithmic irregularities that we relate to anomalies. The approach taken is based on the general principle of Kolmogorov complexity where the randomness in a sequence is a function of its algorithmic incompressibility. Since a grammar induction process naturally compresses the input sequence by learning regularities and encoding them compactly with grammar rules, the algorithms' inability to compress a subsequence indicates its Kolmogorov (algorithmic) randomness and correspondence to an anomaly. &nbsp;</p> <p>We proposed a set of new error criteria and a learning approach,called Adaptive Normalized Risk-Averting Training (ANRAT) to attack the non-convex optimization problem in training deep neural networks for time series without pretraining. Theoretically, we demonstrated its effectiveness based on the expansion of the convexity region. By analyzing the gradient on the convexity index , we explained the reason why our learning method using gradient descent works. In practice, we showed how this training method is successfully applied for improved training of deep neural networks to solve visual recognition tasks on the MNIST and CIFAR-10 datasets. Using simple experimental settings withou tpretraining and other tricks, we obtained results comparable or superior to those reported in recent literature on the same tasks using standard ConvNets + MSE/cross entropy. Performance on deep/shallow multilayer perceptrons and Denoised Auto-encoders was also explored. ANRAT can be combined with other quasi-Newton training methods, innovative network variants, regularization techniques and other common tricks in DNNs. Other than unsupervised pretraining, it provides a new perspective to address the non-convex optimization strategy in training DNNs. &nbsp;The core applications of this work were visual representations of time series data.</p> <p>In summary, we thoroughly explored the role of grammatical representations in time series pattern mining, developed useful visualizations, and produced a suite of algorithms that can find structure efficiently and with minimal domain knowledge.</p> <p>&nbsp;</p><br> <p>            Last Modified: 08/29/2017<br>      Modified by: Tim&nbsp;Oates</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Time series data, including trajectory data, is common in many fields, with typical tasks including finding common (motifs) and rare (discords) patterns.  Prior to this work, existing approaches to those tasks required extensive domain knowledge, such as the number of patterns to find and their length, and were susceptible to noise in the data.  We applied grammars, typically applied to problems in natural language processing, to address these issues.  We developed a fast and robust grammar induction algorithm called mSEQUITUR to infer a grammar rule set from a trajectory for motif discovery. The algorithm operates on numneric time series discretized with the Symbolic Aggregate approXimation (SAX) algorithm. Discretization offers robustness to noise in the raw data.  We then designed the Symbolic Trajectory Analysis and VIsualization System (STAVIS), the first of its kind trajectory analytical system thata pplies grammar inference to derive trajectory signatures and enable mining tasks on the signatures.  Multivariate time series data is not only characterized by individual attributes, but also by the relationships between the attributes. Such information is not captured by the similarity between the individual sequences.  Inspired by the max-pooling approaches in ConvolutionalNeural Networks (CNNs), we developed extensions to the vanilla SAXapproach, called Pooling SAX-BoP to successfully predict patient outcomes from multivariate synchronous vital signs data.  We alsoi ntegrated Boosting as one of the most powerful ensemble learning approaches on the BoP representations to further improve the performance.  Experimental results on clinical data demonstrate that our methods are accurate and stable for classifying multivariate synchronous vital signs time series data.  This demonstrated the broader impact of our work.  We worked on the problem of finding the most representative patterns for a classification task in time series and developed an algorithm called RPM (Representative Pattern Mining). The key motivation is that the identification of a small set of distinctive and interpretable patterns of each class allows us to exploit their key characteristics for discriminating against other classes. We hypothesized that the classification procedure based on a set of highly class-characteristics hort patterns will provide high generalization performance under noise and/or translation/rotation, i.e., it will be robust and shift/rotation invariant.   We proposed a novel method to discretize time series data and developed a similarity score based on the discretized representation. The similarity score allows us to compare two time series sequences and enables us to perform pattern learning tasks such as clustering, classification, and anomaly detection.  We proposed a generative model for discretization based on multiple normal distributions and created an optimization technique to learn parameters of these normal distributions. To show the effectiveness ofour approach, we performed comprehensive experiments in classifying datasets from the UCR time series repository.  We proposed two algorithms that use grammar induction to aid anomaly detection without any prior knowledge. Our algorithms discretizes continuous time series values into symbolic form, infer a context-free grammar, and exploit its hierarchical structure to effectively and efficiently discover algorithmic irregularities that we relate to anomalies. The approach taken is based on the general principle of Kolmogorov complexity where the randomness in a sequence is a function of its algorithmic incompressibility. Since a grammar induction process naturally compresses the input sequence by learning regularities and encoding them compactly with grammar rules, the algorithms' inability to compress a subsequence indicates its Kolmogorov (algorithmic) randomness and correspondence to an anomaly.    We proposed a set of new error criteria and a learning approach,called Adaptive Normalized Risk-Averting Training (ANRAT) to attack the non-convex optimization problem in training deep neural networks for time series without pretraining. Theoretically, we demonstrated its effectiveness based on the expansion of the convexity region. By analyzing the gradient on the convexity index , we explained the reason why our learning method using gradient descent works. In practice, we showed how this training method is successfully applied for improved training of deep neural networks to solve visual recognition tasks on the MNIST and CIFAR-10 datasets. Using simple experimental settings withou tpretraining and other tricks, we obtained results comparable or superior to those reported in recent literature on the same tasks using standard ConvNets + MSE/cross entropy. Performance on deep/shallow multilayer perceptrons and Denoised Auto-encoders was also explored. ANRAT can be combined with other quasi-Newton training methods, innovative network variants, regularization techniques and other common tricks in DNNs. Other than unsupervised pretraining, it provides a new perspective to address the non-convex optimization strategy in training DNNs.  The core applications of this work were visual representations of time series data.  In summary, we thoroughly explored the role of grammatical representations in time series pattern mining, developed useful visualizations, and produced a suite of algorithms that can find structure efficiently and with minimal domain knowledge.          Last Modified: 08/29/2017       Submitted by: Tim Oates]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

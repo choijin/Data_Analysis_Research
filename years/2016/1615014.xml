@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: SlackTrack: Efficiently Exploiting Circuit Slack in Multi-Cycle Datapaths</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>449936.00</AwardTotalIntnAmount>
+<AwardAmount>449936</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The microprocessor and system-on-chip industry is increasingly focused on mobile platforms, where maximizing battery life is paramount. As a result, static and dynamic power consumption are now primary design constraints for general-purpose microprocessors. In response, chip designers are integrating a plethora of customized on-die accelerators, which reduce energy consumption because their control logic, datapaths, interconnect, and memory are tailored for a specific task. This project tackles the main remaining source of power consumption in accelerators clocked storage elements and investigates the design of novel accelerators with very few such elements. Without these kinds of dramatic innovations in the design of power-efficient, high-performance chips, the continued device scaling of future nanometer technologies may no longer provide substantial returns in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole, faces a serious challenge in maintaining the growth-based business model that has sustained it for four decades. This research has broad industry- and economy-wide impact since it helps to address or avert these challenges. The findings from this project will be integrated into graduate level courses which will help students get a more in depth understanding of the power wall issue which is a big challenge for architects in the near future.&lt;br/&gt;&lt;br/&gt;Removing the overheads imposed by clocked elements will enable accelerator designs to approach a true energy lower bound for the cost of computation. Furthermore, pipeline latch removal also exposes additional opportunities for improvement to the power efficiency and performance of datapath circuits. Most importantly, since the critical delay paths in a multi-cycle datapath span multiple clock cycles and traverse many more levels of logic than the base naive pipeline, the likelihood that random and within-die variations will slow down a critical path is substantially lower. In other words, since critical paths are two, four, or even more times longer than in the base case, random and within-die process variations are amortized over a longer total delay path and are more likely to cancel each others' effects, leading to a smaller net effect on achievable cycle time. This tightened variance can be exploited to reduce design-time margins, allowing the datapath to be operated at a lower voltage for a given frequency. Furthermore, novel run-time approaches for measuring and controlling available slack in the circuit's operation enable aggressive timing speculation, allowing the datapath to run at nearly nominal frequencies while minimizing operating voltage.</AbstractNarration>
+<MinAmdLetterDate>06/16/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/16/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1615014</AwardID>
+<Investigator>
+<FirstName>Mikko</FirstName>
+<LastName>Lipasti</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mikko H Lipasti</PI_FULL_NAME>
+<EmailAddress>mikko@engr.wisc.edu</EmailAddress>
+<PI_PHON>6082652639</PI_PHON>
+<NSF_ID>000290802</NSF_ID>
+<StartDate>06/16/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Wisconsin-Madison</Name>
+<CityName>MADISON</CityName>
+<ZipCode>537151218</ZipCode>
+<PhoneNumber>6082623822</PhoneNumber>
+<StreetAddress>21 North Park Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 6401]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<StateCode>WI</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WI02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>161202122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WISCONSIN SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041188822</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Wisconsin-Madison]]></Name>
+<CityName>Madison</CityName>
+<StateCode>WI</StateCode>
+<ZipCode>537061607</ZipCode>
+<StreetAddress><![CDATA[1415 Engineering Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WI02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~449936</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project investigated a family of novel microarchitectural approaches that enable exploitation of cycle time in modern processors.&nbsp; Conventional microprocessors set a minimum cycle time (corresponding to maximum operating frequency) at design time based on a set of conservative assumptions. This is known as designing for the worst case. However, under most operating conditions, and while performing the majority of computations during its lifetime, the processor could comfortably exceed these limits, since there is a substantial amount of cycle time slack as individual computations complete much earlier than under the worst case assumption.&nbsp; Unfortunately, the amount of slack varies over time, slowly due to environmental changes (supply voltage fluctuations, thermal conditions), and rapidly due to its relationship with both operation type (multiply vs. addition) and the actual values that are being computed.&nbsp; This research has substantially advanced the design and co-design of CPU core and peripheral building blocks and associated control mechanisms and policies which are capable of effectively exploiting both slowly changing (coarse-grained) and rapidly changing (fine-grained) cycle time slack, providing designs with much higher levels of performance and energy efficiency than existing, conventional approaches.</p> <p>&nbsp;</p> <p>Specifically, the project led to designs and surgical prototypes of approaches for capturing slack that demonstrated substantial improvements in performance and energy efficiency for both spatial microarchitectures as well as conventional out-of-order processors. This required inventing novel mechanisms for dynamically tracking the availability of slack by propagating delay information through the program?s dataflow graph, as well as microarchitectural control mechanisms for harvesting this slack by early clocking of results where the accumulated slack exceeds an entire clock period. In contrast to prior approaches, the proposed approaches are not limited to slow moving changes in slack but are capable of harvesting slack that varies across individual instruction instances. The proposed approaches are also compatible with current approaches for designing complex digital hardware, as they build on standard synchronous design flows and minimize the impact on correctness and timing verification, unlike prior work that relies on asynchronous approaches. Furthermore, this approach was extended from the microprocessor core to peripheral building blocks in the processor chip, streamlining communication across processor chips and enabling long-hop communications from one node to another, where the long-hop spans multiple clock periods but is not limited to quantization at node boundaries. This reduces end-to-end latency for cross-chip communication, leading to improvements in chip performance and throughput.</p> <p>&nbsp;</p> <p>Without the kinds of innovations described here, that dramatically alter the design and architecture of future processor cores and peripheral building blocks, the continued device scaling of future nanometer semiconductor technologies will fail to provide substantial returns in terms of improvements in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole, faces serious challenges in maintaining the growth-based business model that has sustained it for four decades. This research has had broad industry- and economy-wide impact by helping to address or avert these impending challenges, while effectively training graduate students in the technical skills required to accomplish these goals, and leading to technology transfer via internships and permanent employment.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/30/2020<br>      Modified by: Mikko&nbsp;H&nbsp;Lipasti</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project investigated a family of novel microarchitectural approaches that enable exploitation of cycle time in modern processors.  Conventional microprocessors set a minimum cycle time (corresponding to maximum operating frequency) at design time based on a set of conservative assumptions. This is known as designing for the worst case. However, under most operating conditions, and while performing the majority of computations during its lifetime, the processor could comfortably exceed these limits, since there is a substantial amount of cycle time slack as individual computations complete much earlier than under the worst case assumption.  Unfortunately, the amount of slack varies over time, slowly due to environmental changes (supply voltage fluctuations, thermal conditions), and rapidly due to its relationship with both operation type (multiply vs. addition) and the actual values that are being computed.  This research has substantially advanced the design and co-design of CPU core and peripheral building blocks and associated control mechanisms and policies which are capable of effectively exploiting both slowly changing (coarse-grained) and rapidly changing (fine-grained) cycle time slack, providing designs with much higher levels of performance and energy efficiency than existing, conventional approaches.     Specifically, the project led to designs and surgical prototypes of approaches for capturing slack that demonstrated substantial improvements in performance and energy efficiency for both spatial microarchitectures as well as conventional out-of-order processors. This required inventing novel mechanisms for dynamically tracking the availability of slack by propagating delay information through the program?s dataflow graph, as well as microarchitectural control mechanisms for harvesting this slack by early clocking of results where the accumulated slack exceeds an entire clock period. In contrast to prior approaches, the proposed approaches are not limited to slow moving changes in slack but are capable of harvesting slack that varies across individual instruction instances. The proposed approaches are also compatible with current approaches for designing complex digital hardware, as they build on standard synchronous design flows and minimize the impact on correctness and timing verification, unlike prior work that relies on asynchronous approaches. Furthermore, this approach was extended from the microprocessor core to peripheral building blocks in the processor chip, streamlining communication across processor chips and enabling long-hop communications from one node to another, where the long-hop spans multiple clock periods but is not limited to quantization at node boundaries. This reduces end-to-end latency for cross-chip communication, leading to improvements in chip performance and throughput.     Without the kinds of innovations described here, that dramatically alter the design and architecture of future processor cores and peripheral building blocks, the continued device scaling of future nanometer semiconductor technologies will fail to provide substantial returns in terms of improvements in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole, faces serious challenges in maintaining the growth-based business model that has sustained it for four decades. This research has had broad industry- and economy-wide impact by helping to address or avert these impending challenges, while effectively training graduate students in the technical skills required to accomplish these goals, and leading to technology transfer via internships and permanent employment.          Last Modified: 09/30/2020       Submitted by: Mikko H Lipasti]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

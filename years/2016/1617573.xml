@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Collaborative Research: Taming Mobile Hardware &amp; OS Diversity for Comprehensive Software Analysis</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>250000.00</AwardTotalIntnAmount>
+<AwardAmount>250000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today, the Android operating system running on mobile systems such as smartphones, tablets, and wearables, is increasingly diverse. This is mainly because Android is heavily customized at multiple layers by many different vendors and mobile carriers, for various reasons including the difference in hardware and brand-specific value-added applications and services. This diversity of Android creates important challenges for testing, debugging, and analysis of software running on these mobile systems, including testing for consistent functionality and performance across different systems, finding crash bugs, analyzing malware, and identifying security vulnerabilities. The goal of this project is to make testing and analysis of the entire software stack of mobile systems running Android faster and more affordable, while at the same time requiring small engineering effort, all despite the diversity of mobile software and hardware. The proposed project will help improve the quality and security of software on mobile systems - a significant benefit to society and the economy.  &lt;br/&gt;&lt;br/&gt;The plan to achieve the aforementioned goals through a cloud-based mobile farm service, which provides virtual mobile instances, or virtual instances for short. Each virtual instance is a virtual machine that runs on powerful servers and that fully resembles the hardware and software configurations of a particular mobile system. By leveraging virtual machines running in servers, the proposed solution will provide a low cost, thus lower prices for the users. The important challenges will be addressed in two research thrusts. The first thrust investigates techniques to consolidate the real mobile systems in the cloud to reduce the overall infrastructure cost. The second research thrust targets at enhancing the performance of virtual instances by leveraging software and hardware techniques such as speculation, record and replay, dynamic boundary, and Remote Direct Memory Access (RDMA).</AbstractNarration>
+<MinAmdLetterDate>09/01/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/01/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617573</AwardID>
+<Investigator>
+<FirstName>Zhiyun</FirstName>
+<LastName>Qian</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zhiyun Qian</PI_FULL_NAME>
+<EmailAddress>zhiyun.qian@ucr.edu</EmailAddress>
+<PI_PHON>9518275639</PI_PHON>
+<NSF_ID>000677475</NSF_ID>
+<StartDate>09/01/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~250000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>The general goal of the project is to make testing and analysis of Android kernels affordable and fast while requiring low engineering effort, all despite the diversity of mobile software and hardware. A cloud&shy;-based mobile farm service, called Charm, is first proposed to achieve the aforementioned goal through virtualized mobile instances, or virtual instances for short. Each virtual instance is a virtual machine that runs on powerful servers and that fully resembles the hardware and software configurations of a particular mobile system. By leveraging virtual machines running in servers, Charm will enjoy a low cost and hence low prices for the users who need to use these virtual instances for testing and analysis. To be able to boot and run kernel code, especially device drivers in virtual machines, we developed a solution that can forward all low-level MMIO read/write operations to a real device (and forward back all the interrupts), allowing the drivers to think that they are interacting with real hardware devices. Throughout the project, we have successfully run the following device drivers in a virtual machine, including the&nbsp;<span>camera, audio, GPU, and IMU sensor drivers, in different mobile systems such as LG Nexus 5X, Huawei Nexus 6P, and Samsung Galaxy S7. Running these drivers inside virtual machines enables more powerful dynamic analysis, including debugging, dynamic symbolic execution, dynamic taint analysis, advanced fuzzing, and even record and replay. We have showcased a number of such applications in the project.</span></span></p> <p><span><span>Following the Charm project, we further attempted to improve Android kernel fuzzing to overcome two bottlenecks. In particular, we first notice that OS kernel fuzzing wastes significant amount of time in rebooting (recovering from a triggered bug). This problem is&nbsp;exacerbated by the fact there almost always exist shallow bugs in any kernel module. Secondly, we notice that OS kernel fuzzing often achieves extremely low coverage. This leads us to discover a spatial bottleneck --- unsatisfied dependencies among different code paths. We have conducted extensive measurement analysis to understand the severity of these two problems.&nbsp;<span>For the spatial bottleneck, our preliminary results show that only 6% of the basic blocks in the Nexus 5X's camera driver is covered after 24 hours of fuzzing (only against this single device driver). For the temporal bottelneck of repetitive reboots, 46.5% of the fuzzing time is wasted on rebooting when fuzzing the same camera driver.&nbsp;</span></span></span></p> <p><span><span><span>Finally, during the kernel fuzzing process, we find that the discovered bugs are often duplicate and even fixed already in upstream. This prompted us to understand how upstream patches propagate to downstream kernels. Specifically, we have built a static binary analysis tool that is capable of detecting the presence of a patch in a binary-only Android kernel image. With this tool and an analysis on the patch propagation in upstreams (e.g., Linux, Android common, Qualcomm), we are able to show that the end-to-end patch propagation delay of Linux bug can take 200+ days (median) to reach the the phones used by end-users. Furthermore. 20% of the patches take more than 400 days. The lessons are valuable in managing the various kernel branches that depende on each other.</span></span></span></p><br> <p>            Last Modified: 10/02/2020<br>      Modified by: Zhiyun&nbsp;Qian</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The general goal of the project is to make testing and analysis of Android kernels affordable and fast while requiring low engineering effort, all despite the diversity of mobile software and hardware. A cloud&shy;-based mobile farm service, called Charm, is first proposed to achieve the aforementioned goal through virtualized mobile instances, or virtual instances for short. Each virtual instance is a virtual machine that runs on powerful servers and that fully resembles the hardware and software configurations of a particular mobile system. By leveraging virtual machines running in servers, Charm will enjoy a low cost and hence low prices for the users who need to use these virtual instances for testing and analysis. To be able to boot and run kernel code, especially device drivers in virtual machines, we developed a solution that can forward all low-level MMIO read/write operations to a real device (and forward back all the interrupts), allowing the drivers to think that they are interacting with real hardware devices. Throughout the project, we have successfully run the following device drivers in a virtual machine, including the camera, audio, GPU, and IMU sensor drivers, in different mobile systems such as LG Nexus 5X, Huawei Nexus 6P, and Samsung Galaxy S7. Running these drivers inside virtual machines enables more powerful dynamic analysis, including debugging, dynamic symbolic execution, dynamic taint analysis, advanced fuzzing, and even record and replay. We have showcased a number of such applications in the project.  Following the Charm project, we further attempted to improve Android kernel fuzzing to overcome two bottlenecks. In particular, we first notice that OS kernel fuzzing wastes significant amount of time in rebooting (recovering from a triggered bug). This problem is exacerbated by the fact there almost always exist shallow bugs in any kernel module. Secondly, we notice that OS kernel fuzzing often achieves extremely low coverage. This leads us to discover a spatial bottleneck --- unsatisfied dependencies among different code paths. We have conducted extensive measurement analysis to understand the severity of these two problems. For the spatial bottleneck, our preliminary results show that only 6% of the basic blocks in the Nexus 5X's camera driver is covered after 24 hours of fuzzing (only against this single device driver). For the temporal bottelneck of repetitive reboots, 46.5% of the fuzzing time is wasted on rebooting when fuzzing the same camera driver.   Finally, during the kernel fuzzing process, we find that the discovered bugs are often duplicate and even fixed already in upstream. This prompted us to understand how upstream patches propagate to downstream kernels. Specifically, we have built a static binary analysis tool that is capable of detecting the presence of a patch in a binary-only Android kernel image. With this tool and an analysis on the patch propagation in upstreams (e.g., Linux, Android common, Qualcomm), we are able to show that the end-to-end patch propagation delay of Linux bug can take 200+ days (median) to reach the the phones used by end-users. Furthermore. 20% of the patches take more than 400 days. The lessons are valuable in managing the various kernel branches that depende on each other.       Last Modified: 10/02/2020       Submitted by: Zhiyun Qian]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

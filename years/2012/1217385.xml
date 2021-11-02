@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Fault-Tolerant Distributed Software Transactional Memory: Theory, Protocols, and Java Package</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>416000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The project is to develop protocols, mechanisms, and a Java implementation of fault-tolerant distributed transactional memory (DTM). DTM promises to alleviate the programmability, scalability, and performance challenges of lock-based distributed concurrency control. Fault-tolerance is essential to DTM to cope with node/network failures, and object replication is central toward achieving this. Replication protocols must be scalable and ensure transactional correctness and progress properties. The expected outcome is a novel replicated DTM framework, whose key idea is to split transactions into two independent phases with orthogonal responsibilities: 1) regular read/write phases, which quickly look-up and fetch latest copies of required objects without concurrency control, and 2) a request-commit phase, which does (distributed) concurrency control. The project investigates the use of quorum-based replication protocols, which maintain transactional metadata in read/write quorums, and do scalable concurrency control by exploiting the quorum intersection property. The replicated DTM framework and protocols are implemented in the open-source HyFlow DTM Java package (hyflow.org). &lt;br/&gt;&lt;br/&gt;Fault tolerant DTM has potential to improve both reliability and performance of a broad range of advanced distributed computing applications, including defense systems.  The project has plans to transitioning this technology (techniques and HyFlow implementation) to a production system of the US Department of Defense, to leverage the benefits of fault-tolerant DTM. This is a direct potential economic and social benefit of the research. Additionally, the project's results are being incorporated into a graduate course at Virginia Tech that includes students at Blacksburg, VA, scientists and engineers at US Naval Surface Warfare Center Dahlgren Division (NSWCDD), VA through Virginia Tech's graduate outreach program at NSWCDD, and students in the Middle East and North Africa through Virginia Tech's VT-MENA program at Egypt.</AbstractNarration>
+<MinAmdLetterDate>08/20/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>06/03/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217385</AwardID>
+<Investigator>
+<FirstName>Binoy</FirstName>
+<LastName>Ravindran</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Binoy Ravindran</PI_FULL_NAME>
+<EmailAddress>binoy@vt.edu</EmailAddress>
+<PI_PHON>5402313777</PI_PHON>
+<NSF_ID>000201874</NSF_ID>
+<StartDate>08/20/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Virginia Polytechnic Institute and State University</Name>
+<CityName>BLACKSBURG</CityName>
+<ZipCode>240610001</ZipCode>
+<PhoneNumber>5402315281</PhoneNumber>
+<StreetAddress>Sponsored Programs 0170</StreetAddress>
+<StreetAddress2><![CDATA[300 Turner Street NW, Suite 4200]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<StateCode>VA</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>VA09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003137015</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>VIRGINIA POLYTECHNIC INSTITUTE AND STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003137015</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Real-Time Systems Laboratory, ECE Dept., Virginia Tech]]></Name>
+<CityName>Blacksburg</CityName>
+<StateCode>VA</StateCode>
+<ZipCode>240610001</ZipCode>
+<StreetAddress><![CDATA[467 Durham Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>VA09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~400000</FUND_OBLG>
+<FUND_OBLG>2013~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp;</p> <p>The distributed transactional memory (DTM) synchronization abstraction promises to alleviate the problems of lock-based distributed concurrency control &ndash; e.g., distributed deadlocks, livelocks, and lock convoying. DTM exports a simple programming interface, which avoids locks. Fault-tolerance is essential to DTM to cope with node/network failures, but that must be achieved with high performance and scalability. The fundamental result of this project is that, it is indeed possible to build fault-tolerant DTM systems with high performance and scalability.</p> <p>The project&rsquo;s breakthrough result is Caesar, the first multi-leader implementation of Generalized Consensus -- an algorithmic paradigm that is critical for transaction processing. Generalized Consensus ensures consistency of the transactional data store that is replicated for tolerating failures. Caesar is designed for high performance in the presence of both non-conflicting workloads as well as workloads with high degree of conflicts.</p> <p>State-of-the-art implementations of Generalized Consensus suffer from two drawbacks: i) they are unable to minimize latency as soon as contention on the submitted transactional commands occurs, with the consequence that at least four communication delays are needed for a consensus decision on the final order of processing the commands; and ii) they adopt complex conflict resolution mechanisms to determine the order of commands. Caesar overcomes these pitfalls by approaching the problem of establishing agreement from a different perspective: when a command c is proposed, Caesar seeks an agreement on a common delivery timestamp for c rather than on its set of conflicting commands. This is done by deploying a local wait condition that prevents commands conflicting with c from being actively considered in the decision process of c if they have a timestamp greater than c&rsquo;s timestamp. The project&rsquo;s implementations and experimental evaluations confirm the effectiveness of Caesar in providing fast decisions even in the presence of conflicting workloads.</p> <p>Another important result of the project is the effective exploitation of hardware transactional memory (HTM) for transaction processing by accelerating conflict management using hardware TM features. The project&rsquo;s Part-HTM hybrid concurrency control protocol and the Octonauts HTM scheduler enable transactions to benefit from best-effort HTM processors independently of their length, execution time, space occupancy, and degree of conflicts.</p> <p>Other significant results include: i) possibility and impossibility results for achieving transaction scalability by exploiting the disjoint-access parallelism property; ii) the Remote Transaction Commit paradigm that improves transaction performance by executing commit phases on dedicated server cores; and iii) the HiperTM and Archie state-machine replication protocols that optimize replica transaction processing by overlapping distributed synchronization with local computation.</p> <p>The project&rsquo;s concurrency control protocols and mechanisms have been implemented and integrated into the HyFlow distributed transactional memory (DTM) middleware software. HyFlow is a software framework for DTM, written in Java, with pluggable support for policies for directory lookup, transactional synchronization and recovery, contention management, and cache coherence. To support different programming models, HyFlow was extended for the Scala (HyFlow2), C++ (HyflowCPP), and Go (Hyflow-go) programming languages. HyFlow is freely available as open-source software at: <a href="http://hyflow.org">http://hyflow.org</a>.</p> <p>A subset of the project&rsquo;s protocols was transitioned into Red Hat&rsquo;s Infinispan software system (<a href="http://infinispan.org/">http://infinispan.org/</a>), a production-level, open-source, distributed in-memory key-value repository with transactional capabilities. The integration of the project&rsquo;s results with Infinispan increases the potential impact of the project&rsquo;s techniques, given Infinispan&rsquo;s large user base. Similar to the other software implementations of the project, the new boosted version of Infinispan has been released on the HyFlow website as open-source software.</p> <p>The project has contributed to the scientific training of multiple research faculty members, postdoctoral scholars, PhD students, MS students, and (REU) undergraduate students. Additionally, the project has contributed to the development and enhancement of research and teaching skills of two PhD students from the Middle East and North Africa region, as part of Virginia Tech&rsquo;s VT-MENA program.</p> <p>&nbsp;To summarize, the project&rsquo;s research results conclusively demonstrate that, it is possible to construct distributed software systems with high programmability, performance, and scalability using the technology of distributed transactional memory, in particular, for systems that are subject to failures.</p> <p>&nbsp;</p><br> <p>            Last Modified: 01/05/2017<br>      Modified by: Binoy&nbsp;Ravindran</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[    The distributed transactional memory (DTM) synchronization abstraction promises to alleviate the problems of lock-based distributed concurrency control &ndash; e.g., distributed deadlocks, livelocks, and lock convoying. DTM exports a simple programming interface, which avoids locks. Fault-tolerance is essential to DTM to cope with node/network failures, but that must be achieved with high performance and scalability. The fundamental result of this project is that, it is indeed possible to build fault-tolerant DTM systems with high performance and scalability.  The project?s breakthrough result is Caesar, the first multi-leader implementation of Generalized Consensus -- an algorithmic paradigm that is critical for transaction processing. Generalized Consensus ensures consistency of the transactional data store that is replicated for tolerating failures. Caesar is designed for high performance in the presence of both non-conflicting workloads as well as workloads with high degree of conflicts.  State-of-the-art implementations of Generalized Consensus suffer from two drawbacks: i) they are unable to minimize latency as soon as contention on the submitted transactional commands occurs, with the consequence that at least four communication delays are needed for a consensus decision on the final order of processing the commands; and ii) they adopt complex conflict resolution mechanisms to determine the order of commands. Caesar overcomes these pitfalls by approaching the problem of establishing agreement from a different perspective: when a command c is proposed, Caesar seeks an agreement on a common delivery timestamp for c rather than on its set of conflicting commands. This is done by deploying a local wait condition that prevents commands conflicting with c from being actively considered in the decision process of c if they have a timestamp greater than c?s timestamp. The project?s implementations and experimental evaluations confirm the effectiveness of Caesar in providing fast decisions even in the presence of conflicting workloads.  Another important result of the project is the effective exploitation of hardware transactional memory (HTM) for transaction processing by accelerating conflict management using hardware TM features. The project?s Part-HTM hybrid concurrency control protocol and the Octonauts HTM scheduler enable transactions to benefit from best-effort HTM processors independently of their length, execution time, space occupancy, and degree of conflicts.  Other significant results include: i) possibility and impossibility results for achieving transaction scalability by exploiting the disjoint-access parallelism property; ii) the Remote Transaction Commit paradigm that improves transaction performance by executing commit phases on dedicated server cores; and iii) the HiperTM and Archie state-machine replication protocols that optimize replica transaction processing by overlapping distributed synchronization with local computation.  The project?s concurrency control protocols and mechanisms have been implemented and integrated into the HyFlow distributed transactional memory (DTM) middleware software. HyFlow is a software framework for DTM, written in Java, with pluggable support for policies for directory lookup, transactional synchronization and recovery, contention management, and cache coherence. To support different programming models, HyFlow was extended for the Scala (HyFlow2), C++ (HyflowCPP), and Go (Hyflow-go) programming languages. HyFlow is freely available as open-source software at: http://hyflow.org.  A subset of the project?s protocols was transitioned into Red Hat?s Infinispan software system (http://infinispan.org/), a production-level, open-source, distributed in-memory key-value repository with transactional capabilities. The integration of the project?s results with Infinispan increases the potential impact of the project?s techniques, given Infinispan?s large user base. Similar to the other software implementations of the project, the new boosted version of Infinispan has been released on the HyFlow website as open-source software.  The project has contributed to the scientific training of multiple research faculty members, postdoctoral scholars, PhD students, MS students, and (REU) undergraduate students. Additionally, the project has contributed to the development and enhancement of research and teaching skills of two PhD students from the Middle East and North Africa region, as part of Virginia Tech?s VT-MENA program.   To summarize, the project?s research results conclusively demonstrate that, it is possible to construct distributed software systems with high programmability, performance, and scalability using the technology of distributed transactional memory, in particular, for systems that are subject to failures.          Last Modified: 01/05/2017       Submitted by: Binoy Ravindran]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

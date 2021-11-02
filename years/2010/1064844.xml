@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Medium: Collaborative Research: Program Analysis for Smartphone Application Security</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/15/2011</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>400544.00</AwardTotalIntnAmount>
+<AwardAmount>400544</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project investigates a new approach for describing and reasoning about security properties of smartphone applications.  Smartphones are becoming pervasive, and smartphone applications are increasingly used for a variety of social, health, scientific, and military purposes. However, the capabilities these phones provide, such as access to GPS, camera, Internet, calendar, contacts, and other sensitive information can lead to major security risks.  Today's smartphone development methodologies do little to help developers construct applications that safely access sensitive resources.&lt;br/&gt;&lt;br/&gt;The goal of this project is to develop new program analysis techniques that can help developers express, reason about, and enforce security policies in smartphones.  The proposed technical approach will allow developers to define rich security policies in an intuitive and flexible manner: as program code that interacts with a mobile application and checks desired properties.  To ensure that application code conforms to such policies, the project is pursuing several techniques that leverage recent advances in static and dynamic program analysis.  The project is also investigating approaches to automatically synthesize a code-based policy for a given application. The project is instantiating these ideas in the context of Google's Android operating system, and is evaluating the ideas in terms of effectiveness and performance on a broad range of Android-based smartphone applications.</AbstractNarration>
+<MinAmdLetterDate>04/08/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>04/08/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1064844</AwardID>
+<Investigator>
+<FirstName>Todd</FirstName>
+<LastName>Millstein</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Todd D Millstein</PI_FULL_NAME>
+<EmailAddress>todd@cs.ucla.edu</EmailAddress>
+<PI_PHON>3108255942</PI_PHON>
+<NSF_ID>000229495</NSF_ID>
+<StartDate>04/08/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Los Angeles</Name>
+<CityName>LOS ANGELES</CityName>
+<ZipCode>900951406</ZipCode>
+<PhoneNumber>3107940102</PhoneNumber>
+<StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+<StreetAddress2><![CDATA[Suite 700]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA33</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>092530369</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, LOS ANGELES</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Los Angeles]]></Name>
+<CityName>LOS ANGELES</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900951406</ZipCode>
+<StreetAddress><![CDATA[10889 Wilshire Boulevard]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA33</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~400544</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Smartphone applications offer a wide range of financial, social, health, scientific, and even military capabilities on the go. However, mobile access to GPS location, camera, internet, calendar, contacts, and other sensitive information can lead to inadvertent security risks, and this problem isexacerbated by the rapid evolution of smartphone hardware and software platforms. &nbsp;The major outcomes of this project are two techniques and associated tools that ensure the confidentiality of user data in smartphone applications.</p> <p><br />Our first technique gives users fine-grained control over the ways in which their data is accessed by smartphone applications. &nbsp;Android is the most popular smartphone platform today. &nbsp;While Android includes a set of permissions that control access to different kinds of data and resources on the phone, these permissions are so coarse-grained that applications are routinely given much broader access than is desirable. For example, the permission granting access to the network grants full internet permissions, allowing the application to send data to and receive data from arbitrary locations on the internet.</p> <p><br />However, we observe that Android already includes the key ingredients necessary to specify and enforce finer-grained permissions. &nbsp;Specifically, it is possible to create (trusted) libraries that employ the built-in Android permissions but expose a more limited interface, guarded by a new permission. For example, a library can provide a permission that only allows internet access to facebook.com, but no other locations on the internet. &nbsp;Android's existing mechanisms can be used to ensure that this library's permission cannot be subverted.</p> <p><br />We have built a set of secure libraries for Android based on this idea, called Mr. Hide. It is very easy for developers to modify existing applications to use Mr. Hide, since we provide a drop-in replacement for several sensitive platform APIs. We also provide Dr. Android, a tool that automatically retrofits existing Android applications to use Mr. Hide. In this way users can easily take advantage of Mr. Hide's stronger confidentiality guarantees.</p> <p><br />Our second technique provides confidentiality for user data even if that data is sent off the phone to the "cloud" for additional processing. &nbsp;Such an approach, termed "cloud computing," is increasingly common due to the limited storage and computational resources available on the smartphones themselves. &nbsp;For example, user preferences in a music application might be aggregated in the cloud with the preferences of many other users in order for the application to provide better song recommendations. &nbsp;However, in this case the data is no longer in an environment controlled by the user and so may be exposed in unwanted ways, either by accidental misconfigurations or through malicious intent.&nbsp;</p> <p><br />We address this problem of data confidentiality for cloud computations by providing a technique to automatically execute a cloud computation on encrypted data. &nbsp;Therefore, all data leaving the smartphone can first be encrypted, so any accidental exposure will not reveal the contents of the data itself. &nbsp;Similarly, the encrypted result of the cloud computation is only decrypted once it is back on the user's smartphone.</p> <p><br />Our approach and the associated tool, called MrCrypt, leverage a technology called "homomorphic encryption," which enables certain computations to be correctly performed on encrypted data. &nbsp;MrCrypt analyzes a cloud program in order to select an appropriate homomorphic encryption scheme for the data being processed. &nbsp;It then encrypts the data appropriately and transforms the program to operate over encrypted data. The encrypted data and transformed program are uploaded to the cloud and executed as usual, and the result of the computa...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Smartphone applications offer a wide range of financial, social, health, scientific, and even military capabilities on the go. However, mobile access to GPS location, camera, internet, calendar, contacts, and other sensitive information can lead to inadvertent security risks, and this problem isexacerbated by the rapid evolution of smartphone hardware and software platforms.  The major outcomes of this project are two techniques and associated tools that ensure the confidentiality of user data in smartphone applications.   Our first technique gives users fine-grained control over the ways in which their data is accessed by smartphone applications.  Android is the most popular smartphone platform today.  While Android includes a set of permissions that control access to different kinds of data and resources on the phone, these permissions are so coarse-grained that applications are routinely given much broader access than is desirable. For example, the permission granting access to the network grants full internet permissions, allowing the application to send data to and receive data from arbitrary locations on the internet.   However, we observe that Android already includes the key ingredients necessary to specify and enforce finer-grained permissions.  Specifically, it is possible to create (trusted) libraries that employ the built-in Android permissions but expose a more limited interface, guarded by a new permission. For example, a library can provide a permission that only allows internet access to facebook.com, but no other locations on the internet.  Android's existing mechanisms can be used to ensure that this library's permission cannot be subverted.   We have built a set of secure libraries for Android based on this idea, called Mr. Hide. It is very easy for developers to modify existing applications to use Mr. Hide, since we provide a drop-in replacement for several sensitive platform APIs. We also provide Dr. Android, a tool that automatically retrofits existing Android applications to use Mr. Hide. In this way users can easily take advantage of Mr. Hide's stronger confidentiality guarantees.   Our second technique provides confidentiality for user data even if that data is sent off the phone to the "cloud" for additional processing.  Such an approach, termed "cloud computing," is increasingly common due to the limited storage and computational resources available on the smartphones themselves.  For example, user preferences in a music application might be aggregated in the cloud with the preferences of many other users in order for the application to provide better song recommendations.  However, in this case the data is no longer in an environment controlled by the user and so may be exposed in unwanted ways, either by accidental misconfigurations or through malicious intent.    We address this problem of data confidentiality for cloud computations by providing a technique to automatically execute a cloud computation on encrypted data.  Therefore, all data leaving the smartphone can first be encrypted, so any accidental exposure will not reveal the contents of the data itself.  Similarly, the encrypted result of the cloud computation is only decrypted once it is back on the user's smartphone.   Our approach and the associated tool, called MrCrypt, leverage a technology called "homomorphic encryption," which enables certain computations to be correctly performed on encrypted data.  MrCrypt analyzes a cloud program in order to select an appropriate homomorphic encryption scheme for the data being processed.  It then encrypts the data appropriately and transforms the program to operate over encrypted data. The encrypted data and transformed program are uploaded to the cloud and executed as usual, and the result of the computation is decrypted on the smartphone.   Finally, as part of this project we developed several tools that help both users and application developers to gain confidence in privacy, security, and m...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

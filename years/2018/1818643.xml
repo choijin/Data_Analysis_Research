@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: FULL: Collaborative Research: Parallel and Distributed Circuit Programming for Structured Prediction</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>88265.00</AwardTotalIntnAmount>
+<AwardAmount>88265</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project develops a system for "circuit programming," which allows a programmer to focus on the high-level solution to a problem rather than on the details of how the computation is organized. Circuit programming consists of writing rules that describe how data items depend on one another. The intellectual merits lie in the design of a new programming language for specifying these rules, along with the algorithms whereby the computer automatically finds efficient strategies for managing the necessary computations on available parallel hardware.  The project's broader significance and importance lie in its potential to streamline work in areas such as artificial intelligence and machine learning.  With the growing complexity of systems in these areas and their need to process big data in depth, research and teaching typically get bogged down in programming details, especially for parallel platforms; this project aims to delegate those details to automatic methods.&lt;br/&gt;&lt;br/&gt;The research develops a programming system for Dyna, a circuit programming language that enables concise specification of large function graphs that may be cyclic and/or infinite. Dyna employs (1) a pattern-matching notation that augments pure Prolog with evaluation and aggregation and (2) an object-like mechanism for dynamically defining new sub-circuits as modifications of old ones.  This project is building an adaptive system that can mix forward and backward chaining to seek a fixpoint of the circuit and to update this fixpoint as the inputs change.  The system will perform compile-time and runtime analysis of the Dyna program and will map it to Habanero, a system for scheduling parallel computations on multicore processors, with extensions for task priorities, task cancellation, GPU execution, and distributed execution.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/18/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>06/18/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1818643</AwardID>
+<Investigator>
+<FirstName>Vivek</FirstName>
+<LastName>Sarkar</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vivek Sarkar</PI_FULL_NAME>
+<EmailAddress>vsarkar@rice.edu</EmailAddress>
+<PI_PHON>7133485304</PI_PHON>
+<NSF_ID>000334688</NSF_ID>
+<StartDate>06/18/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Tech Research Corporation]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320420</ZipCode>
+<StreetAddress><![CDATA[505 10th Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~88264</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>INTELLECTUAL MERIT:</p> <ul> <li>We designed new compiler algorithms for optimizing code on different heterogeneous architectures.&nbsp;&nbsp;Using the Xeon Phi processor (KNL with AVX-512) as an exemplar of many-core processors, we showed (in a collaboration with Intel Labs) how a novel dynamic code generation approach can be used to implement obtain significant performance improvements for CNN kernels with backward propagation, compared to the state of the art [EuroPar &lsquo;18].&nbsp;&nbsp;For GPUs, we designed a new cost function and optimization algorithm to show how thread coarsening (via loop interleaving) can be performed to improve the performance of a wide range of GPU kernels [PACT&rsquo;18].&nbsp;&nbsp;For FPGAs, we developed (with collaborators at Intel Labs) a novel compiler optimization that can be used to automatically map a declarative specification of a dense tensor computation on to a spatial architecture (Arria-10 FPGA), achieving 88% of the performance of manually written, and highly optimized expert (&ldquo;ninja") implementation with much higher productivity [FCCM 19].</li> <li>We explored different approaches to optimize applications and algorithms relevant to this project on current/future parallel hardware.&nbsp;&nbsp;The exploration of parallelization opportunities for the declarative Dyna programming system developed by our collaborators at JHU revealed new opportunities for extending the Habanero runtime [IA^3&rsquo;16] and for adaptive optimization of Dyna programs [MAPL&rsquo;17].&nbsp;&nbsp;We also introduced a new software-hardware mechanism to improve register utilization in GPUs [ISCA&rsquo;18].</li> <li>For dynamic neural network (DNN) training, we showed how a forward-backward propagation can be specialized with in-register caching, so as to speed up its execution on GPUs by 6x relative to the default implementation [MICRO&rsquo;18]. We also explored new approximate/sketch parallel algorithms for the problem of finding top-k frequent elements [NeurIPS&rsquo;18]. And, in our collaboration with colleagues at Georgia Tech, we showed how novel compile-time cost models can be used to obtain very efficient design space exploration for DNN accelerators [MICRO&rsquo;19].</li> </ul> <p>&nbsp;</p> <p>BROADER IMPACT:</p> <ul> <li>One postdoctoral researcher (Farzad Khorasani) and three graduate students (Prasanth Chatarasi, Ankush Mandal, Bing Xue)&nbsp;&nbsp;gained experience in parallel algorithms related to machine learning and structured prediction, performance optimizations, software engineering and evaluation, and paper writing.&nbsp;&nbsp;Dr. Khorasani was the lead author of two papers [ISCA&rsquo;18,MICRO&rsquo;18] and coauthor of one paper [MAPL&rsquo;17] related to the work that he did on this project.&nbsp;&nbsp;Mr. Chatarasi was a coauthor of [MICRO&rsquo;19], which will be part of his PhD thesis from Georgia Tech (expected in 2020).&nbsp;&nbsp;Mr. Mandal was the lead author of [EuroPar&rsquo;18], which was part of his MS thesis titled &ldquo;Optimizing Convolutions in State-of-the-art Convolutional Neural Networks on Intel Xeon Phi&rdquo; in 2017 from Rice University, and of [NeurIPS&rsquo;18], which will be part of his PhD thesis from Georgia Tech (expected in 2020).&nbsp;&nbsp;Ms. Xue was a coauthor of [IA^3&rsquo;16], and&nbsp;&nbsp;completed her MS thesis titled "Distributed Communication Middleware for an Selector Model" in 2017 from Rice University.</li> <li>This research has contributed to the training of other members of the Habanero group who learned about parallel algorithms in the Structured Prediction and Machine Learning domains, as part of this project.&nbsp;&nbsp;This included PhD student Prithayan Barua who was the lead author of [PACT&rsquo;18] and a coauthor of [FCCM 19], both of which will be part of his PhD thesis from Georgia Tech (expect in end-2020 or early-2021).</li> </ul> <p>&nbsp;</p> <p>REFERENCES:</p> <ul> <li>[EuroPar&rsquo;18] Using Dynamic Compilation to Achieve Ninja Performance for CNN Training on Many-Core Processors.&nbsp;&nbsp;A.Mandal, R.Barik, V.Sarkar.&nbsp;&nbsp;24th International European Conference on Parallel and Distributed Computing (Euro-Par), August 2018.</li> <li>[FCCM&rsquo;19] T2S-Tensor: Productively Generating High-Performance Spatial Hardware for Dense Tensor Computations. N.Srivastava, H.Rong, P.Barua, G.Feng, H.Cao, Z.Zhang, V.Sarkar, W.Chen, P.Petersen, G.Lowney, C.Hughes, T.Mattson, P.Dubey.&nbsp;&nbsp;&nbsp;27th IEEE International Symposium On Field-Programmable Custom Computing Machines, April 2019.</li> <li>[IA^3&rsquo;16] Fine-grained parallelism in probabilistic parsing with Habanero Java. M.Francis-Landau, B.Xue, J.Eisner, V.Sarkar. Proceedings of the Sixth Workshop on Irregular Applications: Architectures and Algorithms (IA3, co-located with SC16), November 2016.</li> <li>[ISCA&rsquo;18] RegMutex: Inter-Warp GPU Register Time-Sharing.&nbsp;&nbsp;F.Khorasani, H.Esfeden, A.Farmahini-Farahani, N.Jayasena, V.Sarkar.&nbsp;&nbsp;2018 ACM/IEEE 45th Annual International Symposium on Computer Architecture (ISCA), June 2018.</li> <li>[MAPL&rsquo;17] Dyna: Toward a self-optimizing declarative language for machine learning applications. T.Vieira, M.Francis-Landau, N.Filardo, F.Khorasani, J.Eisner. First ACM SIGPLAN Workshop on Machine Learning and Programming Languages, June 2017.</li> <li>[MICRO&rsquo;18] In-Register Parameter Caching for Dynamic Neural Nets with Virtual Persistent Processor Specialization.&nbsp;&nbsp;F.Khorasani, H.Esfeden, N.Abu-Ghazaleh, V.Sarkar.&nbsp;&nbsp;51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), October 2018.</li> <li>[MICRO&rsquo;19] Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows: A Data-Centric Approach. H.Kwon, P.Chatarasi, M.Pellauer, A.Parashar, V.Sarkar, T.Krishna. 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), October 2019.&nbsp;&nbsp;Selected for IEEE Micro&rsquo;s 2019 &ldquo;Top Picks from the Computer Architecture Conferences&rdquo;.</li> <li>[NeurIPS&rsquo;18] Topkapi: Parallel and Fast Sketches for Finding Top-K Frequent Elements.&nbsp;&nbsp;A.Mandal, H.Jiang, A.Shrivastava, V.Sarkar.&nbsp;&nbsp;Advances in Neural Information Processing Systems 31 (NeurIPS), December 2018.</li> <li>[PACT&rsquo;18] Cost-driven thread coarsening for GPU kernels.&nbsp;&nbsp;P.Barua, J.Shirako, V.Sarkar. 27th International Conference on Parallel Architectures and Compilation Techniques (PACT), November 2018.</li> </ul> <p>&nbsp;</p> <p>&nbsp;</p> <ul> </ul><br> <p>            Last Modified: 06/03/2020<br>      Modified by: Vivek&nbsp;Sarkar</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ INTELLECTUAL MERIT:  We designed new compiler algorithms for optimizing code on different heterogeneous architectures.  Using the Xeon Phi processor (KNL with AVX-512) as an exemplar of many-core processors, we showed (in a collaboration with Intel Labs) how a novel dynamic code generation approach can be used to implement obtain significant performance improvements for CNN kernels with backward propagation, compared to the state of the art [EuroPar ‘18].  For GPUs, we designed a new cost function and optimization algorithm to show how thread coarsening (via loop interleaving) can be performed to improve the performance of a wide range of GPU kernels [PACT’18].  For FPGAs, we developed (with collaborators at Intel Labs) a novel compiler optimization that can be used to automatically map a declarative specification of a dense tensor computation on to a spatial architecture (Arria-10 FPGA), achieving 88% of the performance of manually written, and highly optimized expert ("ninja") implementation with much higher productivity [FCCM 19]. We explored different approaches to optimize applications and algorithms relevant to this project on current/future parallel hardware.  The exploration of parallelization opportunities for the declarative Dyna programming system developed by our collaborators at JHU revealed new opportunities for extending the Habanero runtime [IA^3’16] and for adaptive optimization of Dyna programs [MAPL’17].  We also introduced a new software-hardware mechanism to improve register utilization in GPUs [ISCA’18]. For dynamic neural network (DNN) training, we showed how a forward-backward propagation can be specialized with in-register caching, so as to speed up its execution on GPUs by 6x relative to the default implementation [MICRO’18]. We also explored new approximate/sketch parallel algorithms for the problem of finding top-k frequent elements [NeurIPS’18]. And, in our collaboration with colleagues at Georgia Tech, we showed how novel compile-time cost models can be used to obtain very efficient design space exploration for DNN accelerators [MICRO’19].      BROADER IMPACT:  One postdoctoral researcher (Farzad Khorasani) and three graduate students (Prasanth Chatarasi, Ankush Mandal, Bing Xue)  gained experience in parallel algorithms related to machine learning and structured prediction, performance optimizations, software engineering and evaluation, and paper writing.  Dr. Khorasani was the lead author of two papers [ISCA’18,MICRO’18] and coauthor of one paper [MAPL’17] related to the work that he did on this project.  Mr. Chatarasi was a coauthor of [MICRO’19], which will be part of his PhD thesis from Georgia Tech (expected in 2020).  Mr. Mandal was the lead author of [EuroPar’18], which was part of his MS thesis titled "Optimizing Convolutions in State-of-the-art Convolutional Neural Networks on Intel Xeon Phi" in 2017 from Rice University, and of [NeurIPS’18], which will be part of his PhD thesis from Georgia Tech (expected in 2020).  Ms. Xue was a coauthor of [IA^3’16], and  completed her MS thesis titled "Distributed Communication Middleware for an Selector Model" in 2017 from Rice University. This research has contributed to the training of other members of the Habanero group who learned about parallel algorithms in the Structured Prediction and Machine Learning domains, as part of this project.  This included PhD student Prithayan Barua who was the lead author of [PACT’18] and a coauthor of [FCCM 19], both of which will be part of his PhD thesis from Georgia Tech (expect in end-2020 or early-2021).      REFERENCES:  [EuroPar’18] Using Dynamic Compilation to Achieve Ninja Performance for CNN Training on Many-Core Processors.  A.Mandal, R.Barik, V.Sarkar.  24th International European Conference on Parallel and Distributed Computing (Euro-Par), August 2018. [FCCM’19] T2S-Tensor: Productively Generating High-Performance Spatial Hardware for Dense Tensor Computations. N.Srivastava, H.Rong, P.Barua, G.Feng, H.Cao, Z.Zhang, V.Sarkar, W.Chen, P.Petersen, G.Lowney, C.Hughes, T.Mattson, P.Dubey.   27th IEEE International Symposium On Field-Programmable Custom Computing Machines, April 2019. [IA^3’16] Fine-grained parallelism in probabilistic parsing with Habanero Java. M.Francis-Landau, B.Xue, J.Eisner, V.Sarkar. Proceedings of the Sixth Workshop on Irregular Applications: Architectures and Algorithms (IA3, co-located with SC16), November 2016. [ISCA’18] RegMutex: Inter-Warp GPU Register Time-Sharing.  F.Khorasani, H.Esfeden, A.Farmahini-Farahani, N.Jayasena, V.Sarkar.  2018 ACM/IEEE 45th Annual International Symposium on Computer Architecture (ISCA), June 2018. [MAPL’17] Dyna: Toward a self-optimizing declarative language for machine learning applications. T.Vieira, M.Francis-Landau, N.Filardo, F.Khorasani, J.Eisner. First ACM SIGPLAN Workshop on Machine Learning and Programming Languages, June 2017. [MICRO’18] In-Register Parameter Caching for Dynamic Neural Nets with Virtual Persistent Processor Specialization.  F.Khorasani, H.Esfeden, N.Abu-Ghazaleh, V.Sarkar.  51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), October 2018. [MICRO’19] Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows: A Data-Centric Approach. H.Kwon, P.Chatarasi, M.Pellauer, A.Parashar, V.Sarkar, T.Krishna. 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), October 2019.  Selected for IEEE Micro’s 2019 "Top Picks from the Computer Architecture Conferences". [NeurIPS’18] Topkapi: Parallel and Fast Sketches for Finding Top-K Frequent Elements.  A.Mandal, H.Jiang, A.Shrivastava, V.Sarkar.  Advances in Neural Information Processing Systems 31 (NeurIPS), December 2018. [PACT’18] Cost-driven thread coarsening for GPU kernels.  P.Barua, J.Shirako, V.Sarkar. 27th International Conference on Parallel Architectures and Compilation Techniques (PACT), November 2018.                Last Modified: 06/03/2020       Submitted by: Vivek Sarkar]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

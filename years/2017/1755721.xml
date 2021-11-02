@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: SaTC: GEMINI: Guided Execution Based Mobile Advanced Persistent Threat Investigation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>175000.00</AwardTotalIntnAmount>
+<AwardAmount>175000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Advanced persistent threat (APT) campaigns are increasingly targeting mobile devices deployed across corporations, governments, and financial institutions. Unfortunately, prohibitively slow responses to even high-profile APT attacks have shown that authorities lack the capability to quickly investigate ongoing attacks (in a matter of hours or days rather than months). To address this challenge, this research draws inspiration from recent developments in memory image forensics (in particular a recently introduced technique called guided execution), which has provided rapid evidence collection and crime investigation capabilities currently unparalleled in APT investigation.  This research is developing an integrated framework, called GEMINI, which shifts the goal of modern memory forensics from the investigation of physical-world crimes to APT campaigns. Based on the analysis of only a single memory image --- collected from an Android device after an attack is suspected --- GEMINI provides the following set of APT investigation capabilities: (1) Based on exploratory guided execution techniques, GEMINI can search for and re-create previously enacted APT attack stages. (2) Beyond investigating prior attack execution, GEMINI enables the revelation of hidden/potential future attack behaviors by 'puppeteering' their executing with pre-staged memory image data. (3) After exploring future payloads, GEMINI can further leverage its guided execution capabilities for the remediation of the observed attack strategies.&lt;br/&gt;&lt;br/&gt;This work directly contributes to national security by advancing research in and developing techniques for the investigation of APT campaigns targeting mobile devices. In addition, the results of this research are being made publicly available with the goal of enhancing discovery and empowering future research in this area as well as contributing to the development of new curriculum materials focused on malware analysis and reverse engineering.</AbstractNarration>
+<MinAmdLetterDate>02/02/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>02/02/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1755721</AwardID>
+<Investigator>
+<FirstName>Brendan</FirstName>
+<LastName>Saltaformaggio</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Brendan Saltaformaggio</PI_FULL_NAME>
+<EmailAddress>brendan@ece.gatech.edu</EmailAddress>
+<PI_PHON>4048948362</PI_PHON>
+<NSF_ID>000754535</NSF_ID>
+<StartDate>02/02/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 North Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~175000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Despite the recent surge in mobile APT campaigns, authorities lack techniques to quickly investigate ongoing attacks (in a matter of hours or days rather than months). Prior approaches have focused on offline analysis of a victim machine (infected files, logs, etc.), but these techniques are poorly suited for rapid APT investigation and response. Seeking an entirely new solution, the objective of this research is to develop a novel memory-forensics-based APT investigation framework, with the goals of (1) quickly understanding the damage that has already been done by an attack, (2) revealing hidden strategies, capabilities, and potential targets of the attack, and (3) enabling rapid remediation of the attack's impacts to minimize loss and prevent future stage attacks.</p> <p>This research introduces the GEMINI (or Guided Execution based Mobile threat Investigation aNd Inoculation) memory forensics framework. GEMINI draws inspiration from recent developments in the time-critical investigation of cyber evidence in physical-world crimes. This project is developing an exploratory guided execution engine to allow GEMINI to search for and "puppeteer" the re-execution previously enacted attack stages from a memory image. GEMINI also integrates data shortage and path feasibility estimation to enable guided execution of select hidden/potential future attack behaviors. Finally, GEMINI will leverage guided execution to aid in the remediation of the attack's effects by detecting and countering specific recovered payloads.</p> <p><span><strong> Intellectual Merit.&nbsp;</strong>GEMINI provides the</span><span>following unique set of capabilities:</span></p> <p>1. SkyWalker (Mobile Backend Vulnerability Vetting): Cloud backends provide essential features to the mobile app ecosystem, such as content delivery, ad networks, analytics, and more. Unfortunately, app developers often disregard or have no control over prudent security practices when choosing or managing these services, which leaves an excess of vulnerabilities open to exploitation by hackers. SkyWalker&nbsp;(published in the 2019 USENIX Security Symposium) is a framework which uses remote vetting techniques to identify software vulnerabilities and responsible parties, and reports mitigation strategies to the app developer. A&nbsp;systematic study&nbsp;of the top 5,000 free mobile apps in the Google Play store from August 2018 uncovered 983 exploitable instances of N-day and 655 instances of 0-day vulnerabilities affecting thousands of mobile apps, with some apps having over 50M+ installs and more than 332,000 reviews.</p> <p>2. OSSPatcher (Mobile Application Vulnerability Patching): Mobile application developers rely heavily on open-source software (OSS) to offload common functionalities such as the implementation of protocols and media format playback. Unfortunately, over the past years, hundreds of severe vulnerabilities have been found in popular open-source libraries, like OpenSSL and FFmpeg. All applications that include such libraries inherit these flaws, which make them vulnerable. OSSPatcher (published in the 2019 Network and Distributed System Security Symposium)&nbsp;addresses vulnerable mobile applications through automatic binary patching from source patches provided by the OSS maintainers and without involving the developers.</p> <p>3. FORECAST (Malware Payload Forecasts Via Guided Execution): The remediation of ongoing attacks relies upon timely malware analysis, which aims to uncover malicious functionalities that have not yet executed. Unfortunately, this requires repeated context switching between different tools and incurs a high cognitive load on the analyst, slowing down the investigation and giving attackers an advantage. FORECAST (currently under submission) is a post-detection technique to enable incident responders to automatically predict malware capabilities which may be staged for execution. FORECAST is based on a probabilistic model that not only allows FORECAST to discover capabilities but also weigh each capability according to its relative likelihood of execution (i.e., forecasts). FORECAST leverages the execution context of the ongoing attack (from the malware's memory image) to guide a symbolic analysis of the malware code and induce capability paths.</p> <p><strong>Broader Impacts.</strong>The broader impacts of the proposed research will be threefold: (1) This work directly contributes to national security by advancing research in and developing techniques for the investigation of advanced persistent threats targeting mobile devices, which have recently emerged as a new paradigm in cyber espionage. (2) PI Saltaformaggio is committed to the full, open, and timely dissemination of the products of the proposed research. The results of this research, including publications, source code, software, demonstration videos, and case studies, will be made publicly available on both the PI's personal and laboratory websites, with the goal of enhancing discovery and empowering future research in this area. (3) As a new faculty member at Georgia Tech, the PI is actively developing a new cyber forensics curriculum. This research will be integrated into new curriculum materials, including dedicated lab sessions on memory-forensics-aided malware dissection.</p><br> <p>            Last Modified: 04/21/2020<br>      Modified by: Brendan&nbsp;Saltaformaggio</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Despite the recent surge in mobile APT campaigns, authorities lack techniques to quickly investigate ongoing attacks (in a matter of hours or days rather than months). Prior approaches have focused on offline analysis of a victim machine (infected files, logs, etc.), but these techniques are poorly suited for rapid APT investigation and response. Seeking an entirely new solution, the objective of this research is to develop a novel memory-forensics-based APT investigation framework, with the goals of (1) quickly understanding the damage that has already been done by an attack, (2) revealing hidden strategies, capabilities, and potential targets of the attack, and (3) enabling rapid remediation of the attack's impacts to minimize loss and prevent future stage attacks.  This research introduces the GEMINI (or Guided Execution based Mobile threat Investigation aNd Inoculation) memory forensics framework. GEMINI draws inspiration from recent developments in the time-critical investigation of cyber evidence in physical-world crimes. This project is developing an exploratory guided execution engine to allow GEMINI to search for and "puppeteer" the re-execution previously enacted attack stages from a memory image. GEMINI also integrates data shortage and path feasibility estimation to enable guided execution of select hidden/potential future attack behaviors. Finally, GEMINI will leverage guided execution to aid in the remediation of the attack's effects by detecting and countering specific recovered payloads.   Intellectual Merit. GEMINI provides thefollowing unique set of capabilities:  1. SkyWalker (Mobile Backend Vulnerability Vetting): Cloud backends provide essential features to the mobile app ecosystem, such as content delivery, ad networks, analytics, and more. Unfortunately, app developers often disregard or have no control over prudent security practices when choosing or managing these services, which leaves an excess of vulnerabilities open to exploitation by hackers. SkyWalker (published in the 2019 USENIX Security Symposium) is a framework which uses remote vetting techniques to identify software vulnerabilities and responsible parties, and reports mitigation strategies to the app developer. A systematic study of the top 5,000 free mobile apps in the Google Play store from August 2018 uncovered 983 exploitable instances of N-day and 655 instances of 0-day vulnerabilities affecting thousands of mobile apps, with some apps having over 50M+ installs and more than 332,000 reviews.  2. OSSPatcher (Mobile Application Vulnerability Patching): Mobile application developers rely heavily on open-source software (OSS) to offload common functionalities such as the implementation of protocols and media format playback. Unfortunately, over the past years, hundreds of severe vulnerabilities have been found in popular open-source libraries, like OpenSSL and FFmpeg. All applications that include such libraries inherit these flaws, which make them vulnerable. OSSPatcher (published in the 2019 Network and Distributed System Security Symposium) addresses vulnerable mobile applications through automatic binary patching from source patches provided by the OSS maintainers and without involving the developers.  3. FORECAST (Malware Payload Forecasts Via Guided Execution): The remediation of ongoing attacks relies upon timely malware analysis, which aims to uncover malicious functionalities that have not yet executed. Unfortunately, this requires repeated context switching between different tools and incurs a high cognitive load on the analyst, slowing down the investigation and giving attackers an advantage. FORECAST (currently under submission) is a post-detection technique to enable incident responders to automatically predict malware capabilities which may be staged for execution. FORECAST is based on a probabilistic model that not only allows FORECAST to discover capabilities but also weigh each capability according to its relative likelihood of execution (i.e., forecasts). FORECAST leverages the execution context of the ongoing attack (from the malware's memory image) to guide a symbolic analysis of the malware code and induce capability paths.  Broader Impacts.The broader impacts of the proposed research will be threefold: (1) This work directly contributes to national security by advancing research in and developing techniques for the investigation of advanced persistent threats targeting mobile devices, which have recently emerged as a new paradigm in cyber espionage. (2) PI Saltaformaggio is committed to the full, open, and timely dissemination of the products of the proposed research. The results of this research, including publications, source code, software, demonstration videos, and case studies, will be made publicly available on both the PI's personal and laboratory websites, with the goal of enhancing discovery and empowering future research in this area. (3) As a new faculty member at Georgia Tech, the PI is actively developing a new cyber forensics curriculum. This research will be integrated into new curriculum materials, including dedicated lab sessions on memory-forensics-aided malware dissection.       Last Modified: 04/21/2020       Submitted by: Brendan Saltaformaggio]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

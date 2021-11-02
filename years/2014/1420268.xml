@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: Small: The Lowerbounds in the Complexity of Parallelization</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>158429.00</AwardTotalIntnAmount>
+<AwardAmount>158429</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The PI investigates a family of techniques applicable to understanding streaming algorithms and static data structures. A common theme is the use of methods from information theory to measure how the information flows in the systems of interest. The main goal is to understand how the complexity of parallelizing these systems.&lt;br/&gt;&lt;br/&gt;For example, if a static data structure is required to support many users accessing data in parallel, can the data structure be made more efficient in terms of the number of probes per user? How can one measure the parallel complexity? How do the memory requirements for a streaming algorithm change when the algorithm must process many streams in parallel? In all of these questions, an obvious solution is to process each stream or user independently. In this project the PI seeks to understand whether this is optimal in general.&lt;br/&gt;&lt;br/&gt;The PI has already had significant success in tackling these kinds of questions in the context of communication complexity. The goal of this project is to port methods that work for communication complexity to the domains of streaming algorithms and data structures. This project supports the training of two graduate students in these topics. The PI is also involved in two major workshops on relevant subjects, one at BIRS and one at the Simons institute, as a part of this one-year award.</AbstractNarration>
+<MinAmdLetterDate>08/22/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/22/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1420268</AwardID>
+<Investigator>
+<FirstName>Anup</FirstName>
+<LastName>Rao</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME>Dr.</PI_SUFX_NAME>
+<PI_FULL_NAME>Anup Rao</PI_FULL_NAME>
+<EmailAddress>anuprao@u.washington.edu</EmailAddress>
+<PI_PHON>2066851959</PI_PHON>
+<NSF_ID>000537421</NSF_ID>
+<StartDate>08/22/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981952350</ZipCode>
+<StreetAddress><![CDATA[185 Stevens Way]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7927</Code>
+<Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~158429</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>We explored fundamental questions in communication complexity, streaming algorithms, data structures and circuit complexity. A common theme is the use of methods from information theory that give a way to measure how the information flows in the systems we are interested in. In each of the areas of interest, we sought to find answers to two questions that are dual to each other: (1) How can we make a hard task even harder? (2) How can we reduce the complexity of a given solution for a task? These two types of questions have already played an important role in computer science. Yao's XOR lemma, a foundational result in cryptography, and Raz's Parallel Repetition Theorem, a basic component of almost all hardness of approximation algorithms, are examples of answers to the first type of question. Shannon's theory of data compression is an example of an answer to the second type of question. Applied to communication complexity, the variant of the questions we studied are: (1) How much more communication does computing k copies of a function require than computing 1 copy? (2) What is the best way to compress the communication of a communication protocol? Applied to streaming algorithms the questions are: (1) Is the best way to compute with k streams of data that arrive in parallel to compute on them independently? (2) What is the best way to compress the memory usage of a streaming algorithm? Applied to data structures: (1) Is the best data structure for handling many queries the same as the best data structure for handling a single query? (2) How can we improve the memory and time complexity of a given data structure? Finally, applied to circuit complexity, we asked: Is there a way to use a single hard function to obtain many functions that are muchharder to compute simultaneously?</p> <p>&nbsp;</p> <p>Supported by this award, the PI worked on several projects related to using methods from information theory to prove lowerbounds on communication complexity and other computational models. The PI co-organized a workshop at the Banff International Research Station, gathering experts to have a workshop on "Communication Complexity and its Applications" for the first time in a couple of decades. The PI also organized a semester-long program at the Institut Henri Poincare, bringing together information theorists with computer scientists (http://csnexus.info/), and was a long-term participant at a Simons program on the same subject. One of the major goals of theoretical computer science is to come up with ways to prove that known algorithms are optimal. Unfortunately, despite much effort we know of no way to do this today, besides arguing that linear time algorithms are optimal, because they must necessarily read all of their input. The PI invested a lot of effort in the last year and a half on making progress on this issue.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/30/2017<br>      Modified by: Anup&nbsp;Rao</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ We explored fundamental questions in communication complexity, streaming algorithms, data structures and circuit complexity. A common theme is the use of methods from information theory that give a way to measure how the information flows in the systems we are interested in. In each of the areas of interest, we sought to find answers to two questions that are dual to each other: (1) How can we make a hard task even harder? (2) How can we reduce the complexity of a given solution for a task? These two types of questions have already played an important role in computer science. Yao's XOR lemma, a foundational result in cryptography, and Raz's Parallel Repetition Theorem, a basic component of almost all hardness of approximation algorithms, are examples of answers to the first type of question. Shannon's theory of data compression is an example of an answer to the second type of question. Applied to communication complexity, the variant of the questions we studied are: (1) How much more communication does computing k copies of a function require than computing 1 copy? (2) What is the best way to compress the communication of a communication protocol? Applied to streaming algorithms the questions are: (1) Is the best way to compute with k streams of data that arrive in parallel to compute on them independently? (2) What is the best way to compress the memory usage of a streaming algorithm? Applied to data structures: (1) Is the best data structure for handling many queries the same as the best data structure for handling a single query? (2) How can we improve the memory and time complexity of a given data structure? Finally, applied to circuit complexity, we asked: Is there a way to use a single hard function to obtain many functions that are muchharder to compute simultaneously?     Supported by this award, the PI worked on several projects related to using methods from information theory to prove lowerbounds on communication complexity and other computational models. The PI co-organized a workshop at the Banff International Research Station, gathering experts to have a workshop on "Communication Complexity and its Applications" for the first time in a couple of decades. The PI also organized a semester-long program at the Institut Henri Poincare, bringing together information theorists with computer scientists (http://csnexus.info/), and was a long-term participant at a Simons program on the same subject. One of the major goals of theoretical computer science is to come up with ways to prove that known algorithms are optimal. Unfortunately, despite much effort we know of no way to do this today, besides arguing that linear time algorithms are optimal, because they must necessarily read all of their input. The PI invested a lot of effort in the last year and a half on making progress on this issue.          Last Modified: 11/30/2017       Submitted by: Anup Rao]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

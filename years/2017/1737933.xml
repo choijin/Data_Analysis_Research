@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Optimal Bayesian Concentration Rates from Double Empirical Priors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>87369.00</AwardTotalIntnAmount>
+<AwardAmount>87369</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Gabor Szekely</SignBlockName>
+<PO_EMAI>gszekely@nsf.gov</PO_EMAI>
+<PO_PHON>7032928869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Statisticians frequently encounter problems that involve complicated models with high-dimensional parameters, particularly in "big data" settings. From a Bayesian perspective, it is imperative in these problems that the prior distribution be chosen to sit in a good position. Information about where is a good starting position can come from the data. There is a potential danger with this basic strategy, namely, that a double use of data might cause the model to track the data too closely, resulting on over fitting. To avoid this, the PIs introduce a regularization technique that suitably re-weights the likelihood, preventing the model from learning too quickly. This general "double empirical Bayes" strategy, where the prior is centered on the data and the likelihood is re-weighted, will be applied to several important and challenging high-dimensional problems, including estimation of sparse high-dimensional precision matrices, which is relevant to estimation of large complex networks. &lt;br/&gt;&lt;br/&gt;In this project, the PIs will develop this new double empirical Bayes framework for inference on high-dimensional parameters with a relatively low "complexity" or "effective dimension". For example, in function estimation problems, posited smoothness on the function is a constraint on its complexity. The first step of the double empirical Bayes strategy is to use a prior, indexed by the complexity of the parameter, centered at a complexity-specific estimate of the parameter based on data. To prevent the posterior from tracking the data too closely, the second step is to re-weight the likelihood to be combined with the data-dependent prior. The result is a sort of posterior distribution on the parameter space, and the PIs will provide general conditions for this posterior to concentrate around the truth at optimal rates. An additional advantage of this new approach is that the complexity-specific priors, for suitable centering, can be taken of relatively simple form, which facilitates computation. The PIs will investigate the double empirical Bayes analysis of several important high-dimensional inference problems, including density and function estimation, variable selection problems in non-linear models, and estimation of sparse precision matrices. Software will be developed for each application.</AbstractNarration>
+<MinAmdLetterDate>02/28/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>02/28/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1737933</AwardID>
+<Investigator>
+<FirstName>Ryan</FirstName>
+<LastName>Martin</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ryan Martin</PI_FULL_NAME>
+<EmailAddress>rgmarti3@ncsu.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000548272</NSF_ID>
+<StartDate>02/28/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName/>
+<StateCode>NC</StateCode>
+<ZipCode>276957907</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1269</Code>
+<Text>STATISTICS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~87369</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>High- or even infinite-dimensional statistical inference problems are commonplace, so there is a need for methodology that is efficient both computationally and theoretically. &nbsp;A Bayesian approach to these problems is attractive for a variety of reasons, but the choice of prior distribution creates a dilemma: should one pick the theoretically good prior distributions that are difficult to compute with, or pick a computationally convenient prior and risk suboptimal theoretical properties? &nbsp;This project aimed to show that a choice between good computation and good theory is not necessary, that both can be achieved with the same prior, provided that one is willing to bend slightly the traditional definition of Bayesian inference. &nbsp;</p> <p><br />What creates the separation between computational and theoretical properties in the prior are its tails. &nbsp;The key realization motivating this project was that the tails of the prior distribution do not matter if its center is chosen appropriately. &nbsp;But an appropriate choice of center relies on the data, so our proposal is to let the data inform the prior center in a strategic way. &nbsp;Thus, we propose to work with an "empirical prior." &nbsp;By letting the data control the prior center, the tails can still be chosen in a way that makes the computation convenient, hence the best of both worlds. &nbsp;</p> <p><br />To fully justify these claims, we investigated the theoretical properties of the posterior distributions obtained by working with the data-centered empirical prior. &nbsp;The aim was to show that the optimal asymptotic posterior concentration rate properties could be derived with these empirical priors. &nbsp;It is not obvious that such properties must hold since the double-use of the data might result in posterior distribution that is too tight and might miss its desired target. &nbsp;Starting with some practically relevant special cases, such as high-dimensional regression, we showed that the new empirical Bayes posterior achieves the optimal concentration rate and, moreover, leads to consistent feature selection. &nbsp;Building on this experience, we developed a very general framework for the construction of empirical prior distributions whose corresponding posterior distribution is guaranteed to achieve a target rate. &nbsp;This general result has been applied to several other important special cases, including shape-constrained estimation problems, and the results are impressive. &nbsp;Aside from the theoretical properties that have been established, the numerical results alone indicate that this is sound methodology. &nbsp;Efforts to extend these results, in particular, to address the uncertainty quantification problem, are ongoing. &nbsp; Beyond the specific technical goals of this project, five graduate students gained valuable training and research experience thanks to this award. &nbsp;</p><br> <p>            Last Modified: 11/10/2018<br>      Modified by: Ryan&nbsp;Martin</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ High- or even infinite-dimensional statistical inference problems are commonplace, so there is a need for methodology that is efficient both computationally and theoretically.  A Bayesian approach to these problems is attractive for a variety of reasons, but the choice of prior distribution creates a dilemma: should one pick the theoretically good prior distributions that are difficult to compute with, or pick a computationally convenient prior and risk suboptimal theoretical properties?  This project aimed to show that a choice between good computation and good theory is not necessary, that both can be achieved with the same prior, provided that one is willing to bend slightly the traditional definition of Bayesian inference.     What creates the separation between computational and theoretical properties in the prior are its tails.  The key realization motivating this project was that the tails of the prior distribution do not matter if its center is chosen appropriately.  But an appropriate choice of center relies on the data, so our proposal is to let the data inform the prior center in a strategic way.  Thus, we propose to work with an "empirical prior."  By letting the data control the prior center, the tails can still be chosen in a way that makes the computation convenient, hence the best of both worlds.     To fully justify these claims, we investigated the theoretical properties of the posterior distributions obtained by working with the data-centered empirical prior.  The aim was to show that the optimal asymptotic posterior concentration rate properties could be derived with these empirical priors.  It is not obvious that such properties must hold since the double-use of the data might result in posterior distribution that is too tight and might miss its desired target.  Starting with some practically relevant special cases, such as high-dimensional regression, we showed that the new empirical Bayes posterior achieves the optimal concentration rate and, moreover, leads to consistent feature selection.  Building on this experience, we developed a very general framework for the construction of empirical prior distributions whose corresponding posterior distribution is guaranteed to achieve a target rate.  This general result has been applied to several other important special cases, including shape-constrained estimation problems, and the results are impressive.  Aside from the theoretical properties that have been established, the numerical results alone indicate that this is sound methodology.  Efforts to extend these results, in particular, to address the uncertainty quantification problem, are ongoing.   Beyond the specific technical goals of this project, five graduate students gained valuable training and research experience thanks to this award.         Last Modified: 11/10/2018       Submitted by: Ryan Martin]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: A Demonstration of the IMP Programming Model</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>89999.00</AwardTotalIntnAmount>
+<AwardAmount>89999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The machine architectures used for scientific computing are ever growing in scale and complexity. Software has not been keeping up with this development, and application codes often use multiple parallelism modes and parallel programming systems (typically MPI and a co-processor or threading library) to extract all possible performance. This makes current architectures unnecessarily hard to use for any but the most experienced programmers.&lt;br/&gt;This project addresses parallel programming on contemporary supercomputer architectures. Based on a new theoretical model, called the Integrative Model for Parallelism (IMP), this project develops a framework for such hybrid designs. Ultimately, the goal is to develop a production software system that allows domain scientists to write applications independently of the underlying supercomputer hardware. This project creates a demonstration prototype, a `mini-application' for N-body dynamics, a simplified code containing the essential structure of the parallelism in an N-body application, to be used for the demonstration of the principles of the IMP model. This mini-app can be run, unchanged, using different types of parallelism, tailored for the underlying hardware. Having such a software system implies for application scientists both increased productivity over current approaches, and a guarantee of comparable efficiency of execution.</AbstractNarration>
+<MinAmdLetterDate>08/25/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/25/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1451204</AwardID>
+<Investigator>
+<FirstName>Victor</FirstName>
+<LastName>Eijkhout</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Victor L Eijkhout</PI_FULL_NAME>
+<EmailAddress>eijkhout@tacc.utexas.edu</EmailAddress>
+<PI_PHON>5124715809</PI_PHON>
+<NSF_ID>000310005</NSF_ID>
+<StartDate>08/25/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787121531</ZipCode>
+<StreetAddress><![CDATA[101 E 27th Street, Suite 5.300]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~89999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The Integrative Model for Parallelism (IMP) is a new theoretical model and programming system for describing the type of parallel algorithms that occur in scientific computing. It holds the promise of being both easier to program, and applicable to a wider range of parallel architectures than many current programming systems. In particular, the same source code will be compilable for message passing, graph-based multithreaded, and hybrid architectures. Efficiency of the resulting code will likely be comparable to hand-written code, or to code from existing programming systems.</p> <p>Under NSF EAGER grant 1451204 we have built the basics of a software infrastructure that supports our claims. We have implemented the basic theory of the IMP model, and based on this have written backends for message passing using MPI, task graphs using OpenMP, and hybrid combinations of these. For each of these scenarios the same source is used; the only difference lies in the translation to the backend.</p> <p><br />IMP programming can be characterized as sequential programming on distributed objects. While this also describes some earlier systems, we note that IMP code does not execute in a synchronous manner, and can handle irregular data and even redundantly replicated data.</p> <p><br />They key to the generality of IMP, and its high efficiency, lies in a mathematical analysis of processor synchronization and communication: the IMP system takes user code and user-specified distributions, and from it derives thread synchronization or MPI messages. It will in fact derive the same synchronization and communication that a human programmer would. Furthermore, the IMP system can apply transformations to the task graph, for instance to hide latency, that would be a considerable burden for a programmer.</p> <p><br />To show the feasibility of our model, we have implemented two proof-of-concept applications. First of all, we have written a Conjugate Gradient algorithm, which was shown to scale similarly to the same algorithm in PETSc, and performing only slightly worse. We then implemented a CG variant due to Gropp, which has potential for latency hiding; in the IMP model this is automatically achieved without programmer interference.</p> <p><br />Secondly we have implemented the basics of an N-body tree code. The reason for focusing on this is the irregularity of the application: a programmer has to decide how to handle the top tree levels where there are fewer tasks than processes. It is easily argued that redundant replication of work is here the prefered strategy, since it minimizes the amount of message traffic. However, most existing parallel programming systems can not deal with redundantly replicated work in general. The IMP implementation proved to be very easy, with the coarsening operation taking but a few lines, even when taking redundancy into account. The replication is in fact never explicitly specified by the programmer, but follows directly from the distribution formalism.</p> <p><br />The current state of the software, having delivered some proofs of concept, is still to be considered preliminary. A complicated system like IMP will take a great deal of development to make it production-ready. Also, there are many research questions left to be explored. Some of these concern the generation of task-local code, which is a compiler problem; more interestingly, we have the prospect of a new theory of communication and synchronization that can adaptively accomodate hardware latencies by reordering the computation graph.</p> <p><br />In summary, we feel that we have shown that the basic notions of IMP can be used for a parallel programming system for computational science that is better suited to current and future architectures. Our work has also opened the door for interesting future research in parallelism.</p><br> <p>            Last Modified: 10/26/2015<br>      Modified b...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The Integrative Model for Parallelism (IMP) is a new theoretical model and programming system for describing the type of parallel algorithms that occur in scientific computing. It holds the promise of being both easier to program, and applicable to a wider range of parallel architectures than many current programming systems. In particular, the same source code will be compilable for message passing, graph-based multithreaded, and hybrid architectures. Efficiency of the resulting code will likely be comparable to hand-written code, or to code from existing programming systems.  Under NSF EAGER grant 1451204 we have built the basics of a software infrastructure that supports our claims. We have implemented the basic theory of the IMP model, and based on this have written backends for message passing using MPI, task graphs using OpenMP, and hybrid combinations of these. For each of these scenarios the same source is used; the only difference lies in the translation to the backend.   IMP programming can be characterized as sequential programming on distributed objects. While this also describes some earlier systems, we note that IMP code does not execute in a synchronous manner, and can handle irregular data and even redundantly replicated data.   They key to the generality of IMP, and its high efficiency, lies in a mathematical analysis of processor synchronization and communication: the IMP system takes user code and user-specified distributions, and from it derives thread synchronization or MPI messages. It will in fact derive the same synchronization and communication that a human programmer would. Furthermore, the IMP system can apply transformations to the task graph, for instance to hide latency, that would be a considerable burden for a programmer.   To show the feasibility of our model, we have implemented two proof-of-concept applications. First of all, we have written a Conjugate Gradient algorithm, which was shown to scale similarly to the same algorithm in PETSc, and performing only slightly worse. We then implemented a CG variant due to Gropp, which has potential for latency hiding; in the IMP model this is automatically achieved without programmer interference.   Secondly we have implemented the basics of an N-body tree code. The reason for focusing on this is the irregularity of the application: a programmer has to decide how to handle the top tree levels where there are fewer tasks than processes. It is easily argued that redundant replication of work is here the prefered strategy, since it minimizes the amount of message traffic. However, most existing parallel programming systems can not deal with redundantly replicated work in general. The IMP implementation proved to be very easy, with the coarsening operation taking but a few lines, even when taking redundancy into account. The replication is in fact never explicitly specified by the programmer, but follows directly from the distribution formalism.   The current state of the software, having delivered some proofs of concept, is still to be considered preliminary. A complicated system like IMP will take a great deal of development to make it production-ready. Also, there are many research questions left to be explored. Some of these concern the generation of task-local code, which is a compiler problem; more interestingly, we have the prospect of a new theory of communication and synchronization that can adaptively accomodate hardware latencies by reordering the computation graph.   In summary, we feel that we have shown that the basic notions of IMP can be used for a parallel programming system for computational science that is better suited to current and future architectures. Our work has also opened the door for interesting future research in parallelism.       Last Modified: 10/26/2015       Submitted by: Victor L Eijkhout]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

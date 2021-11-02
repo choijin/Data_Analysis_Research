@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: MIST: Systematic Analysis of Microarchitectural Information Leakage on Mobile Platforms</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>499999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sandip Kundu</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Smart phones have permeated all facets of our lives facilitating daily activities from shopping to social interactions. Mobile devices collect sensitive information about our behavior via various sensors. Operating systems (OS)enforce strict isolation between apps to protect data and complex permission management. Yet, apps get free access to hardware including CPU and caches. Access to shared hardware resources result in information leakage across apps. Microarchitectural attacks have already proven to succeed in stealing information on PC and even on virtualized cloud servers. This project (MIST) quantifies the vulnerability of mobile platforms to microarchitectural attacks and develops countermeasures. &lt;br/&gt;&lt;br/&gt;MIST systematically explores which resources enable these attacks on the mobile platform, identifies mechanisms that are essential to an attack, and quantifies the amount of information obtainable from given resources. By making use of machine learning techniques, methods for detecting malicious code exploiting microarchitectural leakage are developed. To remedy microarchitectural attacks, MIST explores countermeasures that can manage resources in a way that they are no longer exploitable by side channels. In addition, tools that help app developers prevent leakage when writing code processing sensitive information are provided. The studied detection and prevention techniques apply to a wide range of interactions as experienced in mobile computing today. Thereby, MIST helps to secure personal information stored on mobile platforms with immediate benefits to virtually all mobile platform users. Many of the envisioned Internet of Things hubs build on the same platforms, further increasing the impact of this research.</AbstractNarration>
+<MinAmdLetterDate>07/26/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/26/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1618837</AwardID>
+<Investigator>
+<FirstName>Berk</FirstName>
+<LastName>Sunar</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Berk Sunar</PI_FULL_NAME>
+<EmailAddress>sunar@wpi.edu</EmailAddress>
+<PI_PHON>5088315494</PI_PHON>
+<NSF_ID>000434676</NSF_ID>
+<StartDate>07/26/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Thomas</FirstName>
+<LastName>Eisenbarth</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Thomas Eisenbarth</PI_FULL_NAME>
+<EmailAddress>teisenbarth@wpi.edu</EmailAddress>
+<PI_PHON>5088315914</PI_PHON>
+<NSF_ID>000568440</NSF_ID>
+<StartDate>07/26/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Worcester Polytechnic Institute</Name>
+<CityName>WORCESTER</CityName>
+<ZipCode>016092247</ZipCode>
+<PhoneNumber>5088315000</PhoneNumber>
+<StreetAddress>100 INSTITUTE RD</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041508581</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WORCESTER POLYTECHNIC INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041508581</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Worcester Polytechnic Institute]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>016092247</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~499999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project was motivated by earlier attacks and vulnerabilities the team discovered on shared cloud servers that allowed a party to recover sensitive information such as encryption keys from another party that uses the same server. Shared cloud servers provide a cheap alternative to expensive dedicated machines, but the sharing has serious security implications.<br /><br />This project set out to investigate similar vulnerabilities on mobile platforms. While mobile phones are not shared by multiple users, still applications are typically run in isolated "sandboxes" to eliminate information leakage from one app to another, e.g. Banking app to a News &amp; Weather app. Since it is rather easy for a rogue app developer to develop an innocent looking app (with hidden functionality) and then placing it a common app store, this particular scenario poses a serious threat for everyday mobile computing.<br /><br />The team investigated leakage of sensitive information at the hardware level, e.g. through memory usage and execution timing information to determine if one app can indeed reveal sensitive information from another. To automate the analysis and also improve to improve its effectiveness of the team employed sophisticated Deep Learning technologies developed in the last 5 years. The team determined that:<br /><br />1. Indeed the leakage is strong enough that with machine learning techniques, a malicious party (another app) can gleam sensitive information from other apps running on the mobile phone.<br /><br />2. For instance, it is possible to identify the websites visited by the mobile user inside browser from another app. Normally, browsing history and&nbsp;&nbsp; browser content are considered sensitive and completely isolated.<br /><br />3. A malicious app can also identify other applications running on the mobile platform using only performance readings any app is given access to. This may result in apps discovering any vulnerable (unpatched) apps and to target them in a follow up attack.<br /><br />4. In another work the team has shown how a malicious app can degrade the performance of a specific app on the mobile phone by detecting its activity and slowing it down to a crawling halt with very few carefully manufactured memory accesses. <br /><br />5. While easy to build, the team has also been able to show that these malicious apps do not need any special permissions to run (e.g. access to camera sensors, or microphone etc.). Therefore, the malicious apps easily pass the scanning tools employed by Android and Apple before an app is permitted on their app store. Indeed, the team has been able to place such an app on the Android app store without raising any alarms. The targeted performance degrading behavior of the app is clearly described as to cause slow down to the app chosen by the user through its interface to prevent any harm.<br /><br />6. To counter such attacks the team developed two software tools. The first one is named MASCAT, the first software scanning tool to scan apps for side-channel data collection. A more advanced tool, named DeapCloak was released very recently. DeapCloak generated additional memory traffic to hide the sensitive information from being recovered by malicious adversaries that use deep learning attacks.<br /><br />7. Our results have been well published at leading security conferences and circulated raising awareness in the community. Several of the fundamental analyses have helped software and hardware companies in finding and fixing security vulnerabilities. Some of our results, e.g. MASCAT tool, and our attack that detects visited websites, have appeared in media reaching a broader audience.</p><br> <p>            Last Modified: 08/23/2019<br>      Modified by: Thomas&nbsp;Eisenbarth</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2019/1618837/1618837_10443754_1566577132264_FinalReport--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1618837/1618837_10443754_1566577132264_FinalReport--rgov-800width.jpg" title="Phone App Leakage via Microarchitecture"><img src="/por/images/Reports/POR/2019/1618837/1618837_10443754_1566577132264_FinalReport--rgov-66x44.jpg" alt="Phone App Leakage via Microarchitecture"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Malicious app may steal information from other apps using shared access to hardware using machine learning. Higher level isolation mechanisms are simply bypassed.</div> <div class="imageCredit">Berk Gulmezoglu</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Thomas&nbsp;Eisenbarth</div> <div class="imageTitle">Phone App Leakage via Microarchitecture</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project was motivated by earlier attacks and vulnerabilities the team discovered on shared cloud servers that allowed a party to recover sensitive information such as encryption keys from another party that uses the same server. Shared cloud servers provide a cheap alternative to expensive dedicated machines, but the sharing has serious security implications.  This project set out to investigate similar vulnerabilities on mobile platforms. While mobile phones are not shared by multiple users, still applications are typically run in isolated "sandboxes" to eliminate information leakage from one app to another, e.g. Banking app to a News &amp; Weather app. Since it is rather easy for a rogue app developer to develop an innocent looking app (with hidden functionality) and then placing it a common app store, this particular scenario poses a serious threat for everyday mobile computing.  The team investigated leakage of sensitive information at the hardware level, e.g. through memory usage and execution timing information to determine if one app can indeed reveal sensitive information from another. To automate the analysis and also improve to improve its effectiveness of the team employed sophisticated Deep Learning technologies developed in the last 5 years. The team determined that:  1. Indeed the leakage is strong enough that with machine learning techniques, a malicious party (another app) can gleam sensitive information from other apps running on the mobile phone.  2. For instance, it is possible to identify the websites visited by the mobile user inside browser from another app. Normally, browsing history and   browser content are considered sensitive and completely isolated.  3. A malicious app can also identify other applications running on the mobile platform using only performance readings any app is given access to. This may result in apps discovering any vulnerable (unpatched) apps and to target them in a follow up attack.  4. In another work the team has shown how a malicious app can degrade the performance of a specific app on the mobile phone by detecting its activity and slowing it down to a crawling halt with very few carefully manufactured memory accesses.   5. While easy to build, the team has also been able to show that these malicious apps do not need any special permissions to run (e.g. access to camera sensors, or microphone etc.). Therefore, the malicious apps easily pass the scanning tools employed by Android and Apple before an app is permitted on their app store. Indeed, the team has been able to place such an app on the Android app store without raising any alarms. The targeted performance degrading behavior of the app is clearly described as to cause slow down to the app chosen by the user through its interface to prevent any harm.  6. To counter such attacks the team developed two software tools. The first one is named MASCAT, the first software scanning tool to scan apps for side-channel data collection. A more advanced tool, named DeapCloak was released very recently. DeapCloak generated additional memory traffic to hide the sensitive information from being recovered by malicious adversaries that use deep learning attacks.  7. Our results have been well published at leading security conferences and circulated raising awareness in the community. Several of the fundamental analyses have helped software and hardware companies in finding and fixing security vulnerabilities. Some of our results, e.g. MASCAT tool, and our attack that detects visited websites, have appeared in media reaching a broader audience.       Last Modified: 08/23/2019       Submitted by: Thomas Eisenbarth]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

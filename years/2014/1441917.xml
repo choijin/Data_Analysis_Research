@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Quantization for Acquisition and Computation Networks</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>156840.00</AwardTotalIntnAmount>
+<AwardAmount>156840</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>richard brown</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Networks of sensors are increasingly important in a variety of applications including national security, environmental monitoring, and health care. These systems should serve their purposes with minimal communication between sensors and minimal computation overhead from coding. In particular, these efficiencies can dramatically improve battery life, and in systems such as those implanted in a body, replacing spent batteries is very difficult&lt;br/&gt;&lt;br/&gt;This project will develop original approaches to the signal coding in sensor network systems. Though distributed source coding principles seem to be a natural fit for sensor networks, they are rarely used in these systems. Reasons include high complexity, high delay, and sensitivity to the accuracy of the assumed probabilistic models. Also, there may be no node with the memory and computing power to do Slepian-Wolf decoding. The failure of these methods in practice has left a glaring technological gap. Most sensor networks use simple uniform scalar quantization and compression that does not exploit inter-sensor correlation, or no compression at all. This project will use high-resolution quantization theory to develop a framework for providing and exploiting quantized side information among nearby nodes in a network, with the aim of supporting inference and computation tasks.&lt;br/&gt;&lt;br/&gt;The central innovative idea is to allow limited (low-rate, short-range) communication among encoders to enable adaptation. A second key area of innovation is a focus on information acquisition systems that are designed to make a computation rather than enable reproduction of every measured value. The focus on acquisition and computation -- as opposed to communication -- is consistent with the actual motivation for deploying sensor networks, and it brings robustness to uncertainty in measurement distributions to the forefront.</AbstractNarration>
+<MinAmdLetterDate>04/07/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>04/07/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1441917</AwardID>
+<Investigator>
+<FirstName>Vivek</FirstName>
+<LastName>Goyal</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vivek K Goyal</PI_FULL_NAME>
+<EmailAddress>vgoyal@mit.edu</EmailAddress>
+<PI_PHON>6173240367</PI_PHON>
+<NSF_ID>000392466</NSF_ID>
+<StartDate>04/07/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Trustees of Boston University</Name>
+<CityName>BOSTON</CityName>
+<ZipCode>022151300</ZipCode>
+<PhoneNumber>6173534365</PhoneNumber>
+<StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049435266</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF BOSTON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049435266</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Trustees of Boston University]]></Name>
+<CityName>Boston</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>022151300</ZipCode>
+<StreetAddress><![CDATA[881 Commonwealth Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~156840</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project studied information representations in systems with sensors physically separated from the location where their measurements will be used (a &ldquo;fusion center&rdquo;).&nbsp; Quoting David Neuhoff, &ldquo;high-resolution quantization theory has surpassed rate&ndash;distortion theory in its relevance to practical code design.&rdquo; &nbsp;We primarily used this &ldquo;other asymptotic theory of lossy source coding&rdquo; to provide the foundation for our invention and analysis.</p> <p>Quantization is the approximation of a continuous-valued quantity by a value from a discrete set.&nbsp; Analysis of quantization plainly explains accuracies attained in digital communication and storage of information.&nbsp; This project showed that it also provides insights into accuracies of computed functions and settings where the mechanism of representation is not clear, such as human sensory perception.</p> <p><strong>How useful is inter-sensor communication in acquisition and computation networks?&nbsp; A parable.</strong>&nbsp; When Alice and Bob are describing what they have seen to Charlie, should Bob first listen to Alice before deciding what to say? &nbsp;If Bob is an information theorist, he could insist on not listening. &nbsp;Bob could say, &ldquo;side information at the encoder does not increase the sum rate needed to communicate two correlated sources, so I do not need to listen to Alice for our descriptions together to be optimally brief.&rdquo; &nbsp;Bob might be somewhat pedantic, but his point is rooted in a famous result of Slepian and Wolf published in 1973.&nbsp; In principle, there are messages that Alice and Bob can send to Charlie, using a shared strategy but without communicating with each other, such that each message is not informative alone, but together they give a clear description.&nbsp; The surprising fact is that the sum of the lengths of the messages from Alice and Bob to Charlie can be as short as if they did communicate with each other to jointly plan out a single message.&nbsp; At this completely non-technical level, it is clear that this approach has at least two major weaknesses:&nbsp; The strategy shared by Alice and Bob must be somewhat complicated, and it has to be harder for Charlie make sense of the messages.&nbsp; Surely it is better for Bob to listen to Alice if it is easy to do so. &nbsp;Bob can add details that Alice did not include, perhaps based on his knowledge of Charlie&rsquo;s goal in using the information from Alice and Bob (such as a function computation with a certain fidelity criterion or a decision with a certain Bayes cost ratio). &nbsp;Also, Bob can easily adapt how much he says based on what he has heard; for example, if Alice has said all there is to say, Bob can remain silent.</p> <p>This project introduced methods and analyses analogous to the story above.&nbsp; It showed that when the computational power at the fusion center is low or prior knowledge of the statistical relationships among measured values is limited, there can be great performance improvement from very little communication among sensors.&nbsp; In fact, as a theoretical construction, when each sensor is sending many bits to the fusion center, the importance of even a single bit of communication among sensors can be arbitrarily large.</p> <p>&nbsp;<strong>Why do we perceive logarithmically?&nbsp; What is halfway between 1 and 10?</strong>&nbsp; It has long been known that many types of perceived intensities are not linear in the strength of external stimulus. &nbsp;Doubling the force on your hand will less than double the perceived pressure.&nbsp; Doubling the salinity of water will taste less than twice as salty.&nbsp; Loudness and brightness behave similarly.&nbsp; The list goes on and on.&nbsp; These are examples of the Weber&ndash;Fechner law. &nbsp;A similar phenomenon occurs with the mental representations of quantities before mathema...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project studied information representations in systems with sensors physically separated from the location where their measurements will be used (a "fusion center").  Quoting David Neuhoff, "high-resolution quantization theory has surpassed rate&ndash;distortion theory in its relevance to practical code design."  We primarily used this "other asymptotic theory of lossy source coding" to provide the foundation for our invention and analysis.  Quantization is the approximation of a continuous-valued quantity by a value from a discrete set.  Analysis of quantization plainly explains accuracies attained in digital communication and storage of information.  This project showed that it also provides insights into accuracies of computed functions and settings where the mechanism of representation is not clear, such as human sensory perception.  How useful is inter-sensor communication in acquisition and computation networks?  A parable.  When Alice and Bob are describing what they have seen to Charlie, should Bob first listen to Alice before deciding what to say?  If Bob is an information theorist, he could insist on not listening.  Bob could say, "side information at the encoder does not increase the sum rate needed to communicate two correlated sources, so I do not need to listen to Alice for our descriptions together to be optimally brief."  Bob might be somewhat pedantic, but his point is rooted in a famous result of Slepian and Wolf published in 1973.  In principle, there are messages that Alice and Bob can send to Charlie, using a shared strategy but without communicating with each other, such that each message is not informative alone, but together they give a clear description.  The surprising fact is that the sum of the lengths of the messages from Alice and Bob to Charlie can be as short as if they did communicate with each other to jointly plan out a single message.  At this completely non-technical level, it is clear that this approach has at least two major weaknesses:  The strategy shared by Alice and Bob must be somewhat complicated, and it has to be harder for Charlie make sense of the messages.  Surely it is better for Bob to listen to Alice if it is easy to do so.  Bob can add details that Alice did not include, perhaps based on his knowledge of CharlieÆs goal in using the information from Alice and Bob (such as a function computation with a certain fidelity criterion or a decision with a certain Bayes cost ratio).  Also, Bob can easily adapt how much he says based on what he has heard; for example, if Alice has said all there is to say, Bob can remain silent.  This project introduced methods and analyses analogous to the story above.  It showed that when the computational power at the fusion center is low or prior knowledge of the statistical relationships among measured values is limited, there can be great performance improvement from very little communication among sensors.  In fact, as a theoretical construction, when each sensor is sending many bits to the fusion center, the importance of even a single bit of communication among sensors can be arbitrarily large.   Why do we perceive logarithmically?  What is halfway between 1 and 10?  It has long been known that many types of perceived intensities are not linear in the strength of external stimulus.  Doubling the force on your hand will less than double the perceived pressure.  Doubling the salinity of water will taste less than twice as salty.  Loudness and brightness behave similarly.  The list goes on and on.  These are examples of the Weber&ndash;Fechner law.  A similar phenomenon occurs with the mental representations of quantities before mathematical concepts become deeply ingrained.  In both young children and members of certain groups with limited mathematical vocabularies, the natural mental representations are logarithmic&mdash;equivalent to considering 3 to be halfway between 1 and 10.  This project provided a way to explain logarithmic percep...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

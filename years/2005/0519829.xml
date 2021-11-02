@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS-NBD: Bridging the 10 GHz / 10 Gbit Gap: Whole-system approaches for scalable networked services</AwardTitle>
+<AwardEffectiveDate>08/01/2005</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2010</AwardExpirationDate>
+<AwardAmount>612000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>We will soon enter an era of 10 GHz processors and 10 Gigabit networks, but will have no effective means of using that processing power to deliver that level of throughput for regular applications. This gap lays in the "service stack," which includes the application-level software, the operating system, and the networking code used by networked systems (Web servers, mail servers, caching Web proxy servers, Grid services, etc). Ideally, the performance of these systems would improve correspondingly with faster CPUs, but actual improvements may be significantly lower for a variety of reasons, including operating system limitations, slower improvements in disk performance, poor use of the CPU's features, etc. This work examines the service stack from the CPU's perspective to understand how the mismatches between it and modern processor features reduce delivered performance. The ultimate goal is to develop Grid/networking applications that scale with processor speed, and to make it easier for developers to improve performance. &lt;br/&gt;&lt;br/&gt;Intellectual Merit: The principal investigators (PIs) focus on three areas:&lt;br/&gt;1. Improving the tools for finding performance problems across boundaries, such as those between programs and the operating system, and between the operating system and the device drivers for the hardware; &lt;br/&gt;2. Using these tools to reorganize the networking code in the operating system to optimize common cases; and&lt;br/&gt;3. Developing a system that can automatically customize the operating system to be tailored for specific programs, without requiring the developer to manually modify the operating system's source code. &lt;br/&gt;&lt;br/&gt;The main area of investigation will be what the PIs term cross-boundary problems, where two systems/layers that have no obvious flaws can perform poorly when used together. The performance problems generally stem from a mismatch of usage assumptions in the different layers. For example, Web servers using the "event-driven" design approach have shown exceptional performance and scalability on "static" content, such as regular files, and images. However, under such conditions, their design also requires the operating system to store a large amount of information about the program, and this information must be duplicated during certain processing steps when the server handles "dynamic" content, such as customized Web pages. This interaction causes their performance on dynamic content to drop, as the server gets busier. Other design assumptions in filesystems can cause all types of servers to unnecessarily block when searching for files, if other searches are in progress. This results in the CPU being underutilized for the duration of a disk access, which is a problem since CPU speeds have been growing faster than disk access times. As a result, the relative performance loss from this kind of problem will grow over time. Beyond developing a new network service stack that has higher performance and is designed to better utilize the CPU, the other focus of this work is examining the process of this kind of optimization. &lt;br/&gt;&lt;br/&gt;Broader Impact: The PIs will use summer internships both to attract traditionally under-represented groups, but also to have developers the PIs can closely observe as they use the system. The focus of the internships will be either to optimize some open-source system, like the MySQL database or the Squid Web proxy server, or to expand the tools themselves. By using developers with various levels of expertise, the PIs can gauge how the tools can reveal the most promising areas for further investigation. The PIs can also incorporate the feedback from these experiments into the interface for using these tools, not only to increase interactivity, but also to help non-experts use them.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>08/08/2005</MinAmdLetterDate>
+<MaxAmdLetterDate>07/10/2007</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0519829</AwardID>
+<Investigator>
+<FirstName>Larry</FirstName>
+<LastName>Peterson</LastName>
+<EmailAddress>pete.larry@gmail.com</EmailAddress>
+<StartDate>08/08/2005</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Vivek</FirstName>
+<LastName>Pai</LastName>
+<EmailAddress>vivek@cs.princeton.edu</EmailAddress>
+<StartDate>08/08/2005</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Princeton University</Name>
+<CityName>Princeton</CityName>
+<ZipCode>085442020</ZipCode>
+<PhoneNumber>6092583090</PhoneNumber>
+<StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7388</Code>
+<Text>NETWORKING RESEARCH (NR)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

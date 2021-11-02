@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Optimal Estimation and Network Inference for Boolean Dynamical Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>400921.00</AwardTotalIntnAmount>
+<AwardAmount>400921</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Cozzens</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This research concerns complex dynamical systems based on networks of logical gates updated and observed at discrete time intervals. Examples of such systems in contemporary technology abound, including digital logic systems, digital communication systems, and more. This is also the case, notably, of many biochemical systems, such as DNA regulatory circuits. In fact, Norbert Wiener, one of the pioneers of the modern information age, famously wrote about ?the essential unity of the set of problems centering about communication, control, and statistical mechanics, whether in the machine or in living tissue.?&lt;br/&gt;&lt;br/&gt;This research studies a novel signal model, and corresponding optimal estimation methods, for Boolean dynamical system models under noisy observational conditions.  The optimal recursive MMSE estimator for the proposed model is called the Boolean Kalman Filter (BKF). The terminology comes from the fact that this estimator is reminiscent of the (extended, unscented) Kalman filter for continuous state-spaces. The BKF also has similarities with the forward (and backward) algorithm used for state estimation in Hidden Markov Models (HMM). The methodology is applied to the inference of biochemical regulatory networks, in collaboration with the Translational Genomics Research Institute (TGen), the University of Pittsburgh, and the Oswaldo Cruz Foundation (FIOCRUZ), in Brazil.</AbstractNarration>
+<MinAmdLetterDate>06/07/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/07/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320884</AwardID>
+<Investigator>
+<FirstName>Ulisses</FirstName>
+<LastName>Braga Neto</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ulisses Braga Neto</PI_FULL_NAME>
+<EmailAddress>ulisses@ece.tamu.edu</EmailAddress>
+<PI_PHON>9798626441</PI_PHON>
+<NSF_ID>000236625</NSF_ID>
+<StartDate>06/07/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Texas A&amp;M Engineering Experiment Station</Name>
+<CityName>College Station</CityName>
+<ZipCode>778454645</ZipCode>
+<PhoneNumber>9798626777</PhoneNumber>
+<StreetAddress>400 Harvey Mitchell Pkwy S</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>847205572</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TEXAS A&amp;M ENGINEERING EXPERIMENT STATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042915991</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Texas Engineering Experiment Station]]></Name>
+<CityName>College Station</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>778454645</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~400921</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><div class="page" title="Page 1"> <div class="layoutArea"> <div class="column"> <p><span>Many modern scientific applications, including genomics applications in modern medicine, involve complex dynamical systems based on Boolean (i.e, binary) switches. For example, the expression of a gene in the cell can be turned on and off, depending on the state of other genes, proteins, and external stimuli. As the states are a function of time and their relationships are Boolean, they represent a nonlinear dynamical system. In this project, we developed a novel methodology for estimating and controlling the state of such Boolean dynamical systems when they cannot be directly observed, which is the case of interest in biology and medicine, where noisy gene-expression measurements are used to indirectly obtain information on the system.&nbsp;</span></p> <div class="page" title="Page 1"> <div class="layoutArea"> <div class="column"> <p><span>We introduced a novel signal model for these systems, called the Partially-Observed Boolean Dynamical System (POBDS), and developed a methodology for optimally estimating the states and unknown parameters of such systems, based on maximum-likelihood and particle filtering methods. A schematic diagram of one of the algorithms,&nbsp;</span>the discrete-parameter maximum-likelihood adaptive filter for POBDS, is displayed in Figure 1. We also developed algorithms for fault detection, i.e., abrupt changes, based on the noisy time-series measurements. For example, such faults can occur when a gene is suddenly mutated or silenced by a pathogenic mechanism. Finally, we also studied optimal intervention methods for these nonlinear dynamical systems based on the noisy time-series measurements. This is a difficult problem, which is currently being intensely studied in the field of Partially-Observed Markov Decision Processes. This methodology could be ultimately employed in optimal drug design to treat disease.</p> <p><span>The basic algorithms developed in this project were implemented in a freely-available software package called "BoolFilt". This is an add-on library to the R statistical platform, which can be readily downloaded from the CRAN repository.</span></p> <div class="page" title="Page 1"> <div class="layoutArea"> <div class="column"> <p><span>The results of the proposed research were integrated into the advancement of research training and education of students at the undergraduate and graduate levels, through an innovative new course, research training, and broad dissemination of results in peer-reviewed journals and conferences, and public software repositories. A total of six journal papers and 10 conference papers containing results of this research were published, with others in submission at the time of writing, in addition to the "BoolFilt" R package previously described. One-post doc, two Ph.D., one M.Sc. and two undergraduate students were supported by this project. A senior undergradute class on "</span>Optimal Estimation and Detection&rdquo; was developed and taught as a special topics class.</p> </div> </div> </div> <p><span>&nbsp;</span></p> </div> </div> </div> </div> </div> </div><br> <p>            Last Modified: 08/16/2017<br>      Modified by: Ulisses&nbsp;Braga Neto</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2017/1320884/1320884_10250692_1502905144761_Fig_Discrete--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1320884/1320884_10250692_1502905144761_Fig_Discrete--rgov-800width.jpg" title="Schematic Diagram"><img src="/por/images/Reports/POR/2017/1320884/1320884_10250692_1502905144761_Fig_Discrete--rgov-66x44.jpg" alt="Schematic Diagram"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Fig. 1. Schematic diagram of the discrete-parameter maximum-likelihood adaptive filter.</div> <div class="imageCredit">M. Imani and U. Braga-Neto, "Maximum-Likelihood Adaptive Filter for Partially Observed Boolean Dynamical Systems," IEEE Transactions on Signal Processing, Vol. 65, No. 2, Jan 15, 2017</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Ulisses&nbsp;Braga Neto</div> <div class="imageTitle">Schematic Diagram</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[    Many modern scientific applications, including genomics applications in modern medicine, involve complex dynamical systems based on Boolean (i.e, binary) switches. For example, the expression of a gene in the cell can be turned on and off, depending on the state of other genes, proteins, and external stimuli. As the states are a function of time and their relationships are Boolean, they represent a nonlinear dynamical system. In this project, we developed a novel methodology for estimating and controlling the state of such Boolean dynamical systems when they cannot be directly observed, which is the case of interest in biology and medicine, where noisy gene-expression measurements are used to indirectly obtain information on the system.      We introduced a novel signal model for these systems, called the Partially-Observed Boolean Dynamical System (POBDS), and developed a methodology for optimally estimating the states and unknown parameters of such systems, based on maximum-likelihood and particle filtering methods. A schematic diagram of one of the algorithms, the discrete-parameter maximum-likelihood adaptive filter for POBDS, is displayed in Figure 1. We also developed algorithms for fault detection, i.e., abrupt changes, based on the noisy time-series measurements. For example, such faults can occur when a gene is suddenly mutated or silenced by a pathogenic mechanism. Finally, we also studied optimal intervention methods for these nonlinear dynamical systems based on the noisy time-series measurements. This is a difficult problem, which is currently being intensely studied in the field of Partially-Observed Markov Decision Processes. This methodology could be ultimately employed in optimal drug design to treat disease.  The basic algorithms developed in this project were implemented in a freely-available software package called "BoolFilt". This is an add-on library to the R statistical platform, which can be readily downloaded from the CRAN repository.     The results of the proposed research were integrated into the advancement of research training and education of students at the undergraduate and graduate levels, through an innovative new course, research training, and broad dissemination of results in peer-reviewed journals and conferences, and public software repositories. A total of six journal papers and 10 conference papers containing results of this research were published, with others in submission at the time of writing, in addition to the "BoolFilt" R package previously described. One-post doc, two Ph.D., one M.Sc. and two undergraduate students were supported by this project. A senior undergradute class on "Optimal Estimation and Detection" was developed and taught as a special topics class.                   Last Modified: 08/16/2017       Submitted by: Ulisses Braga Neto]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

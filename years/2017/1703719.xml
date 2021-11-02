@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>PostDoctoral Research Fellowship</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Fellowship Award</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Victor Roytburd</SignBlockName>
+<PO_EMAI>vroytbur@nsf.gov</PO_EMAI>
+<PO_PHON>7032928584</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This award is made as part of the FY 2017 Mathematical Sciences Postdoctoral Research Fellowships Program. Each of the fellowships supports a research and training project at a host institution in the mathematical sciences, including applications to other disciplines, under the mentorship of a sponsoring scientist. The title of the project for this fellowship to Evan Gawlik is "Finite Element Discretizations of Evolution Equations in Riemannian Geometry." The host institution for the fellowship is University of California, San Diego, and the sponsoring scientist is Michael Holst.</AbstractNarration>
+<MinAmdLetterDate>03/20/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>03/20/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1703719</AwardID>
+<Investigator>
+<FirstName>Evan</FirstName>
+<LastName>Gawlik</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Evan S Gawlik</PI_FULL_NAME>
+<EmailAddress/>
+<PI_PHON>9105282026</PI_PHON>
+<NSF_ID>000734031</NSF_ID>
+<StartDate>03/20/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Gawlik                  Evan           S</Name>
+<CityName>La Jolla</CityName>
+<ZipCode>920930112</ZipCode>
+<PhoneNumber/>
+<StreetAddress/>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM/>
+<ORG_LGL_BUS_NAME/>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California, San Diego]]></Name>
+<CityName>San Diego</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>920930112</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>060Y</Code>
+<Text>Workforce (MSPRF) MathSciPDFel</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9219</Code>
+<Text>POSTDOCTORAL FELLOWSHIPS IN MATH SCIENCE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Partial differential equations (PDEs) governing unknown or evolving geometries are powerful tools in geometric analysis with surprisingly many practical applications. &nbsp;Some of the most familiar examples of such PDEs arise in mechanics. The evolution of a fluid's free surface under surface tension, for example, is governed by a PDE in which curvature serves as a driving force behind the surface's motion. &nbsp;Such curvature-driven flows have prototypes in differential geometry with other important applications. Ricci flow, for instance, which deforms the metric of a Riemannian manifold in a diffusive manner, serves both as a theoretical tool in geometric analysis and as a practical tool in computer graphics. &nbsp;Discrete analogues of Ricci flow underly several algorithms for performing surface parameterization, texture mapping, and surface registration. &nbsp;Another important system of PDEs governing an unknown geometry is the Einstein field equations from general relativity; here the unknown geometry is described by a pseudo-Riemannian metric tensor.</p> <p>Evolution equations in Riemannian geometry are notoriously challenging to discretize numerically. &nbsp;The difficulty can be attributed to the fact that classical techniques in numerical analysis are tailored toward problems posed on open subsets of Euclidean space, but the prototypical problems in Riemannian geometry are phrased intrinsically, without reference to any embedding into Euclidean space. &nbsp;This introduces novel challenges if one wishes to numerically approximate the solution to a problem from Riemannian geometry. &nbsp;For example, how does one design discretizations that are coordinate-independent? &nbsp;How does one discretize a geometry that is not embedded in Euclidean space and solve a partial differential equation on it? &nbsp;The present project contributed to a body of work aimed at addressing these sorts of challenges. &nbsp;It focused on the numerical discretization of evolution equations in Riemannian geometry with finite elements.</p> <p>One key result of this project was the construction of a high-order finite element method for approximating scalar curvature on two-dimensional simplicial manifolds equipped with piecewise polynomial Riemannian metrics. &nbsp;The construction recovers the so-called angle defect (a widely used curvature approximation from discrete differential geometry) as a special case when low-order elements are used. It has led us to the first known consistency proofs for (intrinsic) high-order approximation of scalar curvature, and it has paved the way toward constructing structure-preserving numerical methods for simulating Ricci flow in two dimensions. Along the way, we developed a number of analytical tools that are of independent interest in finite element theory, as well as a number of tools for doing computations on matrix manifolds.</p> <p>In the long term, this work has the potential to impact several scientific fields. &nbsp;One important example is gravitational wave astronomy. &nbsp;LIGO's recent detection of gravitational waves catalyzed the emergence of gravitational-wave astronomy and generated a resurgence of interest in computational tools for the solution of Einstein's equations. The methods developed in this project have the potential to lead to improvements in numerical relativity, ultimately improving the ability of the observational astronomy community to make inferences about gravitational wave signals. &nbsp;In another direction, fundamental advances in the design of finite element methods on curved geometries are important in a large number of engineering applications involving the simulation of solid and fluid surfaces.</p> <p>During the period of the award, the PI participated in a number of professional development activities, including organizing seminars and conference minisymposia, giving talks at conferences and seminars, attending workshops, teaching undergraduate and graduate courses, and learning from the mentorship of the sponsoring scientist.</p><br> <p>            Last Modified: 08/31/2020<br>      Modified by: Evan&nbsp;S&nbsp;Gawlik</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Partial differential equations (PDEs) governing unknown or evolving geometries are powerful tools in geometric analysis with surprisingly many practical applications.  Some of the most familiar examples of such PDEs arise in mechanics. The evolution of a fluid's free surface under surface tension, for example, is governed by a PDE in which curvature serves as a driving force behind the surface's motion.  Such curvature-driven flows have prototypes in differential geometry with other important applications. Ricci flow, for instance, which deforms the metric of a Riemannian manifold in a diffusive manner, serves both as a theoretical tool in geometric analysis and as a practical tool in computer graphics.  Discrete analogues of Ricci flow underly several algorithms for performing surface parameterization, texture mapping, and surface registration.  Another important system of PDEs governing an unknown geometry is the Einstein field equations from general relativity; here the unknown geometry is described by a pseudo-Riemannian metric tensor.  Evolution equations in Riemannian geometry are notoriously challenging to discretize numerically.  The difficulty can be attributed to the fact that classical techniques in numerical analysis are tailored toward problems posed on open subsets of Euclidean space, but the prototypical problems in Riemannian geometry are phrased intrinsically, without reference to any embedding into Euclidean space.  This introduces novel challenges if one wishes to numerically approximate the solution to a problem from Riemannian geometry.  For example, how does one design discretizations that are coordinate-independent?  How does one discretize a geometry that is not embedded in Euclidean space and solve a partial differential equation on it?  The present project contributed to a body of work aimed at addressing these sorts of challenges.  It focused on the numerical discretization of evolution equations in Riemannian geometry with finite elements.  One key result of this project was the construction of a high-order finite element method for approximating scalar curvature on two-dimensional simplicial manifolds equipped with piecewise polynomial Riemannian metrics.  The construction recovers the so-called angle defect (a widely used curvature approximation from discrete differential geometry) as a special case when low-order elements are used. It has led us to the first known consistency proofs for (intrinsic) high-order approximation of scalar curvature, and it has paved the way toward constructing structure-preserving numerical methods for simulating Ricci flow in two dimensions. Along the way, we developed a number of analytical tools that are of independent interest in finite element theory, as well as a number of tools for doing computations on matrix manifolds.  In the long term, this work has the potential to impact several scientific fields.  One important example is gravitational wave astronomy.  LIGO's recent detection of gravitational waves catalyzed the emergence of gravitational-wave astronomy and generated a resurgence of interest in computational tools for the solution of Einstein's equations. The methods developed in this project have the potential to lead to improvements in numerical relativity, ultimately improving the ability of the observational astronomy community to make inferences about gravitational wave signals.  In another direction, fundamental advances in the design of finite element methods on curved geometries are important in a large number of engineering applications involving the simulation of solid and fluid surfaces.  During the period of the award, the PI participated in a number of professional development activities, including organizing seminars and conference minisymposia, giving talks at conferences and seminars, attending workshops, teaching undergraduate and graduate courses, and learning from the mentorship of the sponsoring scientist.       Last Modified: 08/31/2020       Submitted by: Evan S Gawlik]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

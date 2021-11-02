@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CISE EAGER: Achieving Realism in ns-3 Wireless Network Simulation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>200000.00</AwardTotalIntnAmount>
+<AwardAmount>200000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Brassil</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Network simulation continues to be an indispensable tool for performance evaluation of wireless network protocol stacks for it's ability to explore fine-grained causal input-output relations and network scalability aspects, that cannot be readily studied by other means. This project will add  much needed ingredients  to ns-3 (the most commonly used open source simulation tool for networking research)  and  extend its capabilities beyond those in comparable commercial tools in important ways. &lt;br/&gt;&lt;br/&gt;Network simulation methodologies face a fundamental dilemma - increased realism only comes with greater simulator complexity. The pathways proposed provide the best, most realistic approaches to achieving a proper balance. The agenda broadly concentrates on a new wireless protocol stack library that efficiently incorporates cross-layer design approaches that capture the coupling between parameters at Layers 1-2 and protocol elements at Layers 3-4. Further, coupled simulation-emulation approaches that balance the flexibility of the former (software simulation) with the fidelity of the latter (testbed or emulator) will enable new design and performance analysis techniques. All freeware will be  disseminated  via the ns-3 website (www.nsnam.org) under usual GPL  and publicized via tutorials at  conferences and workshops.</AbstractNarration>
+<MinAmdLetterDate>08/28/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/28/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1244643</AwardID>
+<Investigator>
+<FirstName>Sumit</FirstName>
+<LastName>Roy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sumit Roy</PI_FULL_NAME>
+<EmailAddress>roy@ee.washington.edu</EmailAddress>
+<PI_PHON>2062215261</PI_PHON>
+<NSF_ID>000448952</NSF_ID>
+<StartDate>08/28/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981952500</ZipCode>
+<StreetAddress><![CDATA[Electrical Engr   Box 352500]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7363</Code>
+<Text>RES IN NETWORKING TECH &amp; SYS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~200000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>A testament to NSF CISE's long standing commitment to development of research infrastructure has been the support for &nbsp;ns (current release ns-3.24), the <em>most popular open source network simulator</em> within the academic research community; (see <a href="http://www.nsnam.org/">www.nsnam.org</a>); the current project's specific aims were to contribute new wireless modules that addressed emerging wireless heterogeneous networking scenarios, i.e. enable coexistence studies between different network technologies. Given the current impetus for spectrum sharing, such scenarios are of immense interest, as are cross layer(PHY/MAC) inspired solutions that enhance such sharing.While a significant academic literature on this topic has developed, very few (if any) of these methods have found their way into &nbsp;ns-3. Our work was thus very timely as it attempted to bridge this gap.&nbsp;</p> <p>The fundamental achievement in this project was to integrate the SPECTRUM framework into ns-3.The distinguishing features of this framework is that a) the channel model is device &nbsp;independent, and b) hence allow injection of multiple signals on the same channel (where the signals carry both a frequency and time-domain representation).&nbsp; This constitutes the 1st step in defining a 'cognitive' wireless node endowed with channel awareness, which will enable exploration of a broad class of co-existence solutions. Second, there was no LTE module in ns-3 representing a serious shortcoming from the research community's perspective; this gap has been eliminated. For further information, see</p> <p>&nbsp;https://depts.washington.edu/funlab/projects/improvements-to-ns-3-simulator/</p><br> <p>            Last Modified: 11/14/2015<br>      Modified by: Sumit&nbsp;Roy</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ A testament to NSF CISE's long standing commitment to development of research infrastructure has been the support for  ns (current release ns-3.24), the most popular open source network simulator within the academic research community; (see www.nsnam.org); the current project's specific aims were to contribute new wireless modules that addressed emerging wireless heterogeneous networking scenarios, i.e. enable coexistence studies between different network technologies. Given the current impetus for spectrum sharing, such scenarios are of immense interest, as are cross layer(PHY/MAC) inspired solutions that enhance such sharing.While a significant academic literature on this topic has developed, very few (if any) of these methods have found their way into  ns-3. Our work was thus very timely as it attempted to bridge this gap.   The fundamental achievement in this project was to integrate the SPECTRUM framework into ns-3.The distinguishing features of this framework is that a) the channel model is device  independent, and b) hence allow injection of multiple signals on the same channel (where the signals carry both a frequency and time-domain representation).  This constitutes the 1st step in defining a 'cognitive' wireless node endowed with channel awareness, which will enable exploration of a broad class of co-existence solutions. Second, there was no LTE module in ns-3 representing a serious shortcoming from the research community's perspective; this gap has been eliminated. For further information, see   https://depts.washington.edu/funlab/projects/improvements-to-ns-3-simulator/       Last Modified: 11/14/2015       Submitted by: Sumit Roy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

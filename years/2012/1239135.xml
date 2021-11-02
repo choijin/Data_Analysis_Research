@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CPS: Breakthrough: Collaborative Research: Bringing the Multicore Revolution to Safety-Critical Cyber-Physical Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Corman</SignBlockName>
+<PO_EMAI>dcorman@nsf.gov</PO_EMAI>
+<PO_PHON>7032928754</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Multicore platforms have the potential of revolutionizing the capabilities of embedded cyber-physical systems. Unfortunately, when such systems have safety-critical components, multicore platforms are rarely used. The reason is a lack of predictability associated with hardware components such as caches, memory controllers, etc., that are shared among cores. With current technology, very conservative estimates concerning the usage of these shared resources must be made, to certify that overuse violations do not occur at runtime. The resulting over-provisioning can be significant, easily negating the processing power of any additional cores. The goal of this project is to resolve this multicore "predictability problem" by developing allocation mechanisms that enable shared hardware resources to be controlled in a predictable way. The research agenda in this project includes fundamental research on relevant real-time resource allocation problems, prototyping efforts involving real-time operating systems and middleware, and experimental evaluations of improvements enabled by the developed mechanisms in timing analysis tools (which are used to determine task execution-time budgets).&lt;br/&gt;&lt;br/&gt;Addressing the "predictability problem" associated with multicore platforms would be a breakthrough result for safety-critical, cyber-physical systems in domains such as avionics and automobiles. When using multicore platforms to host highly-critical workloads in these domains, the current state of the art is to obviate the predictability problem by turning off all but one core. Unless a more intelligent solution can be found, such domains will not benefit from savings in size, weight, and power (SWaP) and gains in functionality that multicore platforms afford. Broader impacts include joint research with industry colleagues on supporting real-time workloads in unmanned air vehicles, the development of publicly-available open-source software that can be used by other institutions for research and teaching purposes, and the development of a new course on cyber-physical systems.</AbstractNarration>
+<MinAmdLetterDate>01/17/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>01/17/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1239135</AwardID>
+<Investigator>
+<FirstName>James</FirstName>
+<LastName>Anderson</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>James H Anderson</PI_FULL_NAME>
+<EmailAddress>anderson@cs.unc.edu</EmailAddress>
+<PI_PHON>9195906057</PI_PHON>
+<NSF_ID>000481767</NSF_ID>
+<StartDate>01/17/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of North Carolina at Chapel Hill</Name>
+<CityName>CHAPEL HILL</CityName>
+<ZipCode>275991350</ZipCode>
+<PhoneNumber>9199663411</PhoneNumber>
+<StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>608195277</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of North Carolina at Chapel Hill]]></Name>
+<CityName>Chapel Hill</CityName>
+<StateCode>NC</StateCode>
+<ZipCode>275993175</ZipCode>
+<StreetAddress><![CDATA[104 Airport Drive Suite 2200]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7918</Code>
+<Text>CPS-Cyber-Physical Systems</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7918</Code>
+<Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Real-time systems are systems in which some computations have deadline constraints. &nbsp;For example, when the brake pedal of a car is depressed, the car should begin to slow within a specified number of milliseconds. &nbsp;The computations that must be supported within a real-time system are usually called "tasks." &nbsp;(A task is essentially just a computer program.) &nbsp;To save on hardware costs, it is often the case that many tasks with separate deadline requirements have to be&nbsp;supported on the same hardware platform. &nbsp;To ensure that each task meets its deadline requirements, a real-time scheduler must be used within the operating system that is cognizant of task deadlines and schedules tasks accordingly.</p> <p>From the perspective of designing and realizing real-time systems, one of the most profound recent developments in the computing arena is the advent of multicore computers. &nbsp;Such computers actually consist of at the same time. &nbsp;This kind of interference causes the execution times of tasks to increase. &nbsp;This is because, when tasks interfere with each other, the cache and memory accesses of an individual task may take longer to complete.</p> <p>This project was directed at the design of scheduling and resource-allocation methods for real-time systems that enable interference caused by shared-hardware resources on a multicore computer to be either eliminated or reduced. &nbsp;By eliminating or reducing interference, individual tasks can be guaranteed to complete execution within a shorter amount of time in the worst case. &nbsp;Such worst-case reductions enable multicore computers to be more efficiently utilized when&nbsp;deadline requirements must be ensured. &nbsp;</p> <p>Two shared-hardware resources were the major focus of the project: on-chip shared caches and off-chip shared memory. &nbsp;Additionally, the task systems that were considered were largely motivated by requirements in avionics systems, where&nbsp;tasks of different criticalities must be supported. &nbsp;When multicore computers are used in the avionics industry today, the common practice is to disable all but one core if any tasks of high criticality exist, in order to eliminate the possibility of any interference. &nbsp;Experiments conducted in this project showed that, in comparison to this common practice, the proposed methods for dealing with interference enabled up to an eight-fold increase in the amount of processing that could be supported on a multicore computer with four cores.</p> <p>In terms of broader impacts, the investigators presented talks on this work at numerous institutions, conferences, workshops, etc. &nbsp;Additionally, the results of this project formed the basis of the dissertations of three graduate students at UNC and one Ph.D. student (ongoing) plus 3 M.S. students (M.S. thesis defended) at NC State. &nbsp;The results from this project have also impacted how the topic of multicore real-time computing is taught at the investigators' institutions. &nbsp;The investigators also made presentations concerning the results of this project to colleagues in the avionics industry and established contacts to other industries, such as power, automotive, and semiconductors. &nbsp;As a result&nbsp;of these contacts and presentations, future interactions with some of these colleagues have been planned that will involve the application of the methods developed in this project in actual avionics and other industrial systems.</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/07/2017<br>      Modified by: James&nbsp;H&nbsp;Anderson</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Real-time systems are systems in which some computations have deadline constraints.  For example, when the brake pedal of a car is depressed, the car should begin to slow within a specified number of milliseconds.  The computations that must be supported within a real-time system are usually called "tasks."  (A task is essentially just a computer program.)  To save on hardware costs, it is often the case that many tasks with separate deadline requirements have to be supported on the same hardware platform.  To ensure that each task meets its deadline requirements, a real-time scheduler must be used within the operating system that is cognizant of task deadlines and schedules tasks accordingly.  From the perspective of designing and realizing real-time systems, one of the most profound recent developments in the computing arena is the advent of multicore computers.  Such computers actually consist of at the same time.  This kind of interference causes the execution times of tasks to increase.  This is because, when tasks interfere with each other, the cache and memory accesses of an individual task may take longer to complete.  This project was directed at the design of scheduling and resource-allocation methods for real-time systems that enable interference caused by shared-hardware resources on a multicore computer to be either eliminated or reduced.  By eliminating or reducing interference, individual tasks can be guaranteed to complete execution within a shorter amount of time in the worst case.  Such worst-case reductions enable multicore computers to be more efficiently utilized when deadline requirements must be ensured.    Two shared-hardware resources were the major focus of the project: on-chip shared caches and off-chip shared memory.  Additionally, the task systems that were considered were largely motivated by requirements in avionics systems, where tasks of different criticalities must be supported.  When multicore computers are used in the avionics industry today, the common practice is to disable all but one core if any tasks of high criticality exist, in order to eliminate the possibility of any interference.  Experiments conducted in this project showed that, in comparison to this common practice, the proposed methods for dealing with interference enabled up to an eight-fold increase in the amount of processing that could be supported on a multicore computer with four cores.  In terms of broader impacts, the investigators presented talks on this work at numerous institutions, conferences, workshops, etc.  Additionally, the results of this project formed the basis of the dissertations of three graduate students at UNC and one Ph.D. student (ongoing) plus 3 M.S. students (M.S. thesis defended) at NC State.  The results from this project have also impacted how the topic of multicore real-time computing is taught at the investigators' institutions.  The investigators also made presentations concerning the results of this project to colleagues in the avionics industry and established contacts to other industries, such as power, automotive, and semiconductors.  As a result of these contacts and presentations, future interactions with some of these colleagues have been planned that will involve the application of the methods developed in this project in actual avionics and other industrial systems.          Last Modified: 02/07/2017       Submitted by: James H Anderson]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

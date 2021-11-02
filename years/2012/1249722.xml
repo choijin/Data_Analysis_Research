@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Scaling the Preprocessor and Making it More Intelligent in Deterministic Database Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>200000.00</AwardTotalIntnAmount>
+<AwardAmount>200000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>nan zhang</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This research aims to bridge the gap between the current reality and the potential for database system deployments on large clusters of servers in a data center or large numbers of virtual machines in the cloud. There does not exist a scalable, elastic, ACID-compliant database system implementation today. In general, applications that require elastic scalability are forced to program around the lack of ACID guarantees of the database system, and many applications are too complicated to be rewritten to work around these issues. The goal of this project is to overcome these issues using the following approaches: (1) Implementing a database system using an innovative deterministic architecture that guarantees that nondeterministic processing events will not affect database state, (2) Leveraging this new architecture to avoid "commit protocols" for distributed transactions in a cluster, (3) Designing a scalable preprocessor for the deterministic database that collects, analyzes, and dispatches transactions to the database cluster in order to further improve scalability, and (4) Developing a new lazy transaction evaluation approach in order to spread out load and avoid damaging effects of database load spikes.  Overall, this research enables thousands of applications written for many different use-cases (such as e-commerce, telecommunications, and online auctions) to achieve scalability "for free" without having to rewrite the application code. This research involves both Ph.D. students and undergraduates, with significant outreach efforts to encourage undergraduates to get involved in research. Open source code, publications, and technical reports from this research will be disseminated via the project web site http://db.cs.yale.edu/determinism/.</AbstractNarration>
+<MinAmdLetterDate>08/09/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/09/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1249722</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Abadi</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel J Abadi</PI_FULL_NAME>
+<EmailAddress>abadi@umd.edu</EmailAddress>
+<PI_PHON>3014052662</PI_PHON>
+<NSF_ID>000508003</NSF_ID>
+<StartDate>08/09/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Yale University</Name>
+<CityName>New Haven</CityName>
+<ZipCode>065208327</ZipCode>
+<PhoneNumber>2037854689</PhoneNumber>
+<StreetAddress>Office of Sponsored Projects</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 208327]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<StateCode>CT</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CT03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>043207562</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>YALE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>043207562</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Yale University]]></Name>
+<CityName>New Haven</CityName>
+<StateCode>CT</StateCode>
+<ZipCode>065208285</ZipCode>
+<StreetAddress><![CDATA[51 Prospect Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CT03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~200000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong><em><span style="text-decoration: underline;">High level summary of the project outcomes: </span></em></strong></p> <p>This award led to the research and development of a deterministic database system. The four main outcomes of this project are: (1) A scalable architecture and implementation of a preprocessor&nbsp; that organizes and records all input to the system &nbsp;for deterministic processing, (2) Development of novel lock manager designs that can handle the high levels of concurrency and throughput associated with deterministic systems (3) Design of a low-overhead serializable multi-versioned concurrency control protocol that leverages system determinism, and (4) Open source release a practical implementation of a deterministic database system with modular components that facilitate rapid prototyping of future innovations within scalable deterministic database systems.&nbsp; We describe these outcomes in more detail below.</p> <p><strong><em><span style="text-decoration: underline;">Intellectual merit outcomes:</span></em></strong></p> <p><strong>Scaling the preprocessor</strong></p> <p>Deterministic database systems guarantee that there is only one possible final state given an input to the database system. In order to accept transaction requests from thousands of concurrent clients, a preprocessor is necessary to merge the input from all clients into a single, agreed upon input stream to the system. It is this stream that must be processed deterministically. We developed a scalable preprocessor design that separates the functions of maintaining connections from clients and merging transactions into two different layers: an interface layer and a sequencing layer. Each layer is redundant and horizontally scalable. <em>&nbsp;</em></p> <p>We ran some experiments on our deterministic prototype using this design. These experiments showed that the prototype was able to run half a million TPC-C transactions per second on a cluster of 100 commodity machines in the Amazon cloud (a number that remained competitive with the world-record results that were obtained on much higher-end hardware). We found that the main limit to further scalability was the data contention in the workload.</p> <p><strong>Reducing the lock manager bottleneck</strong></p> <p>Lock managers can become a major bottleneck in high-throughput deterministic database systems. &nbsp;We therefore redesigned the lock manager of (main-memory) pessimistic database systems in two significant ways. First, we moved all lock information away from a central locking data structure, and instead co-located lock information with the raw data being locked. This allows a single memory access to retrieve both the data and lock information in a single cache line. Second, we removed all information about which transactions have outstanding requests for particular locks from the lock data structures. Instead of a linked list of requests per lock, we used a semaphore containing the number of outstanding requests for that lock. We introduced two techniques to determine who should inherit a released lock: one technique involved using the global (deterministic) transaction order to figure out which transaction should be unblocked, while the other technique involved efficiently computing the most useful subset of the contention information that is tracked in full by traditional lock managers at all times.</p> <p><strong>Serializable multi-version concurrency control</strong></p> <p>Multi-version concurrency control has been around for multiple decades. However, the vast majority of practical multi-version concurrency control implementations do not guarantee complete ACID serializability. Rather they guarantee weaker forms of concurrent transaction isolation --- often forms of snapshot isolation. The few multi-version concurrency control implementations that do guarantee serializability do so at significant performan...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ High level summary of the project outcomes:   This award led to the research and development of a deterministic database system. The four main outcomes of this project are: (1) A scalable architecture and implementation of a preprocessor  that organizes and records all input to the system  for deterministic processing, (2) Development of novel lock manager designs that can handle the high levels of concurrency and throughput associated with deterministic systems (3) Design of a low-overhead serializable multi-versioned concurrency control protocol that leverages system determinism, and (4) Open source release a practical implementation of a deterministic database system with modular components that facilitate rapid prototyping of future innovations within scalable deterministic database systems.  We describe these outcomes in more detail below.  Intellectual merit outcomes:  Scaling the preprocessor  Deterministic database systems guarantee that there is only one possible final state given an input to the database system. In order to accept transaction requests from thousands of concurrent clients, a preprocessor is necessary to merge the input from all clients into a single, agreed upon input stream to the system. It is this stream that must be processed deterministically. We developed a scalable preprocessor design that separates the functions of maintaining connections from clients and merging transactions into two different layers: an interface layer and a sequencing layer. Each layer is redundant and horizontally scalable.    We ran some experiments on our deterministic prototype using this design. These experiments showed that the prototype was able to run half a million TPC-C transactions per second on a cluster of 100 commodity machines in the Amazon cloud (a number that remained competitive with the world-record results that were obtained on much higher-end hardware). We found that the main limit to further scalability was the data contention in the workload.  Reducing the lock manager bottleneck  Lock managers can become a major bottleneck in high-throughput deterministic database systems.  We therefore redesigned the lock manager of (main-memory) pessimistic database systems in two significant ways. First, we moved all lock information away from a central locking data structure, and instead co-located lock information with the raw data being locked. This allows a single memory access to retrieve both the data and lock information in a single cache line. Second, we removed all information about which transactions have outstanding requests for particular locks from the lock data structures. Instead of a linked list of requests per lock, we used a semaphore containing the number of outstanding requests for that lock. We introduced two techniques to determine who should inherit a released lock: one technique involved using the global (deterministic) transaction order to figure out which transaction should be unblocked, while the other technique involved efficiently computing the most useful subset of the contention information that is tracked in full by traditional lock managers at all times.  Serializable multi-version concurrency control  Multi-version concurrency control has been around for multiple decades. However, the vast majority of practical multi-version concurrency control implementations do not guarantee complete ACID serializability. Rather they guarantee weaker forms of concurrent transaction isolation --- often forms of snapshot isolation. The few multi-version concurrency control implementations that do guarantee serializability do so at significant performance overhead, such that many of the advantages of multi-version concurrency control disappear underneath the complexity of adding serializability guarantees. Our research contributed the lowest-overhead serializable implementation of multi-version concurrency control ever proposed.  Broader impact outcomes:  Over 10 undergraduates got involved in the...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

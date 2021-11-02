@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative: Aster*x: Load-Balancing Web Traffic over Wide-Area Networks</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>74993.00</AwardTotalIntnAmount>
+<AwardAmount>74993</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Joseph Lyles</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project proposes a comprehensive load-balancing solution to minimize client response time and reduce system costs for services hosted in wide-area networks. The system, called Aster*x, uses the global state of server load and network congestion, and dynamically routes the requests over appropriate (server and path) pairs, calculated using the load-balancing algorithms developed by project staff. &lt;br/&gt;&lt;br/&gt;The GENI network infrastructure will be used for extensive deployment, evaluation, and demonstration of Aster*x. Aster*x exploits OpenFlow?s logically centralized controller to obtain the global network state and route flows of various granularities. It will use the PlanetLab and ProtoGENI-based computation substrate to host the replicated web service and to generate client requests from multiple locations. The project will provide an opportunity for students across four universities to collaborate and build a relatively large experimental system on GENI.</AbstractNarration>
+<MinAmdLetterDate>08/07/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/07/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1050182</AwardID>
+<Investigator>
+<FirstName>Aditya</FirstName>
+<LastName>Akella</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Aditya Akella</PI_FULL_NAME>
+<EmailAddress>akella@cs.utexas.edu</EmailAddress>
+<PI_PHON>4128183779</PI_PHON>
+<NSF_ID>000204197</NSF_ID>
+<StartDate>08/07/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Wisconsin-Madison</Name>
+<CityName>MADISON</CityName>
+<ZipCode>537151218</ZipCode>
+<PhoneNumber>6082623822</PhoneNumber>
+<StreetAddress>21 North Park Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 6401]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<StateCode>WI</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WI02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>161202122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WISCONSIN SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041188822</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Wisconsin-Madison]]></Name>
+<CityName>MADISON</CityName>
+<StateCode>WI</StateCode>
+<ZipCode>537151218</ZipCode>
+<StreetAddress><![CDATA[21 North Park Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WI02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~74993</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Traditional server applications managed increases in load by spreading traffic across a small number of&nbsp;colocated&nbsp;static server replicas . This model is quickly becoming limited due to growing traffic volumes and rising incidence of attacks. It is therefore important to develop new load management techniques that spread load uniformly across a collection of server replicas that are deployed in a distributed fashion across a geographic region. &nbsp;The goal of this project is to design, implement and test at scale new load management techniques for jointly managing network and server load in such distributed server replica settings. While this has been a difficult propostion in traditional networks due to the high overhead of network re-configuration, recent advances in software-defined networking have made such flexible joint control over network and compute resources possible, and the proposed work leverages such advancements. The intellectual merit of this project lies in the development of&nbsp;novel techniques for quickly detecting whether network or compute resources are bottlenecks; new algorithms for systematically addressing the&nbsp;detected bottleneck by either reallocating flows across existing&nbsp;network paths or by redeploying the (new) server replicas at the appropriate locations around the network. These techniques have been implement as modules in a software-defined network controller and have been tested extensively over a large scale testbed. Results show that these techniques can help meet application latency and throughput requirements optimally while using networking and compute resources in the most prudent fashion. The broader impacts of this project include: integration of research results and ideas into graduate and undergraduate courses at UW-Madison, contribution to graduate student theses, and public release of software for joint network and server control.</p><br> <p>            Last Modified: 12/15/2013<br>      Modified by: Srinivasa&nbsp;A&nbsp;Akella</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Traditional server applications managed increases in load by spreading traffic across a small number of colocated static server replicas . This model is quickly becoming limited due to growing traffic volumes and rising incidence of attacks. It is therefore important to develop new load management techniques that spread load uniformly across a collection of server replicas that are deployed in a distributed fashion across a geographic region.  The goal of this project is to design, implement and test at scale new load management techniques for jointly managing network and server load in such distributed server replica settings. While this has been a difficult propostion in traditional networks due to the high overhead of network re-configuration, recent advances in software-defined networking have made such flexible joint control over network and compute resources possible, and the proposed work leverages such advancements. The intellectual merit of this project lies in the development of novel techniques for quickly detecting whether network or compute resources are bottlenecks; new algorithms for systematically addressing the detected bottleneck by either reallocating flows across existing network paths or by redeploying the (new) server replicas at the appropriate locations around the network. These techniques have been implement as modules in a software-defined network controller and have been tested extensively over a large scale testbed. Results show that these techniques can help meet application latency and throughput requirements optimally while using networking and compute resources in the most prudent fashion. The broader impacts of this project include: integration of research results and ideas into graduate and undergraduate courses at UW-Madison, contribution to graduate student theses, and public release of software for joint network and server control.       Last Modified: 12/15/2013       Submitted by: Srinivasa A Akella]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

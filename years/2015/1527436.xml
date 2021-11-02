@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Collaborative Research: Why is Automating the Design of Robot Controllers Hard, and What Can Be Done About It</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>225000.00</AwardTotalIntnAmount>
+<AwardAmount>225000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Miller</SignBlockName>
+<PO_EMAI>damiller@nsf.gov</PO_EMAI>
+<PO_PHON>7032924914</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project seeks to bring together new techniques for filtering and planning to improve reasoning and analysis steps employed during robot design.&lt;br/&gt;&lt;br/&gt;By understanding those parts of the design process that are typically conducted by hand and by asking which parts can be practically automated, the research has the potential to assist practitioners by scaling up the problems tackled, optimizing systems automatically, and ultimately freeing designers from low-level detail and elevating their use of time.</AbstractNarration>
+<MinAmdLetterDate>08/11/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/11/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1527436</AwardID>
+<Investigator>
+<FirstName>Dylan</FirstName>
+<LastName>Shell</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dylan A Shell</PI_FULL_NAME>
+<EmailAddress>dshell@cs.tamu.edu</EmailAddress>
+<PI_PHON>9798621696</PI_PHON>
+<NSF_ID>000542643</NSF_ID>
+<StartDate>08/11/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Texas A&amp;M Engineering Experiment Station</Name>
+<CityName>College Station</CityName>
+<ZipCode>778454645</ZipCode>
+<PhoneNumber>9798626777</PhoneNumber>
+<StreetAddress>400 Harvey Mitchell Pkwy S</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>847205572</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TEXAS A&amp;M ENGINEERING EXPERIMENT STATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042915991</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Department of Computer Science and Engineering, Texas A&M Univ.]]></Name>
+<CityName>College Station</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>778433112</ZipCode>
+<StreetAddress><![CDATA[TAMU 3112]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~225000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>A lot of research (both ongoing and prior work) has explored   algorithms to make robots more capable --- but the scope for improvement   often depends on the particular robot being considered. This project,   in contrast, examined a meta question: how algorithms could aid in the   design of robots in order to help roboticists better understand which  sensing, actuation, and computational  resources are needed for a robot  to perform given tasks. Over the  duration of the project we introduced  several innovations, including  novel algorithms and new data  representations that allow one to  minimize various design costs or the  resource requirements. But in so  doing, we also showed that several key  problems of relevance to  robotics design problems are computationally  difficult to solve  optimally and, in some cases, even to give good  approximate answers, at  least under today's current understanding of  complexity (e.g., the  famous P vs. NP problem). In seeking to mitigate  this challenge, part  of the project examined how algorithms and a human  designer might work  in concert to explore the vast space of robot  designs interactively.  Though promising, owing to the intrinsic  challenges involved,&nbsp; our  prototype implementation is only feasible for small scale problems.</p> <p>It  is worth highlighting one unexpected aspect of the project, which  arose  from seeking to understand not only standard sensors such as  those that  are widely available, but also abstract "hypothetical"  sensors. A  curious condition may arise when a robot is required to act  in a way  that preserves privacy: we may require that it plan and act so  as to  remain ignorant of certain sensitive information. Doing so  demands  sensors that have unusual and (we believe, previously  overlooked)  properties. During this project, the research team  formalized the  question of what information a sensor ought to provide  even when there  are stipulations that bound the amount a robot may  know, and we then  developed algorithms that are complete in that they  can either  eventually find a suitable sensor, or correctly report that  none exists  to satisfy the requirements posed.</p> <p>As part of the  project, the research team contributed to workshops that examined  minimality and design automation. Part of that effort (along with  several members of the community) solidified into "The Robot Design Game", an activity that has been effective for outreach in helping to illustrate the combinatorial challenges inherent in producing robot designs capable of achieving tasks.</p> <p>More  work remains to be  done to improve the practicality of these  algorithms and the ideas more generally, but  the project has helped  establish a useful base from which to  explore computational tools for  robot design.</p><br> <p>            Last Modified: 01/02/2020<br>      Modified by: Dylan&nbsp;A&nbsp;Shell</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ A lot of research (both ongoing and prior work) has explored   algorithms to make robots more capable --- but the scope for improvement   often depends on the particular robot being considered. This project,   in contrast, examined a meta question: how algorithms could aid in the   design of robots in order to help roboticists better understand which  sensing, actuation, and computational  resources are needed for a robot  to perform given tasks. Over the  duration of the project we introduced  several innovations, including  novel algorithms and new data  representations that allow one to  minimize various design costs or the  resource requirements. But in so  doing, we also showed that several key  problems of relevance to  robotics design problems are computationally  difficult to solve  optimally and, in some cases, even to give good  approximate answers, at  least under today's current understanding of  complexity (e.g., the  famous P vs. NP problem). In seeking to mitigate  this challenge, part  of the project examined how algorithms and a human  designer might work  in concert to explore the vast space of robot  designs interactively.  Though promising, owing to the intrinsic  challenges involved,  our  prototype implementation is only feasible for small scale problems.  It  is worth highlighting one unexpected aspect of the project, which  arose  from seeking to understand not only standard sensors such as  those that  are widely available, but also abstract "hypothetical"  sensors. A  curious condition may arise when a robot is required to act  in a way  that preserves privacy: we may require that it plan and act so  as to  remain ignorant of certain sensitive information. Doing so  demands  sensors that have unusual and (we believe, previously  overlooked)  properties. During this project, the research team  formalized the  question of what information a sensor ought to provide  even when there  are stipulations that bound the amount a robot may  know, and we then  developed algorithms that are complete in that they  can either  eventually find a suitable sensor, or correctly report that  none exists  to satisfy the requirements posed.  As part of the  project, the research team contributed to workshops that examined  minimality and design automation. Part of that effort (along with  several members of the community) solidified into "The Robot Design Game", an activity that has been effective for outreach in helping to illustrate the combinatorial challenges inherent in producing robot designs capable of achieving tasks.  More  work remains to be  done to improve the practicality of these  algorithms and the ideas more generally, but  the project has helped  establish a useful base from which to  explore computational tools for  robot design.       Last Modified: 01/02/2020       Submitted by: Dylan A Shell]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

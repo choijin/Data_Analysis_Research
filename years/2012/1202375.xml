@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Dynamic intelligence through online optimization</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>365531.00</AwardTotalIntnAmount>
+<AwardAmount>365531</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07010000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>ECCS</Abbreviation>
+<LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Radhakisan Baheti</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The objective of this research is to develop algorithms and software for control of complex robotic devices. The approach is to combine online re-planning and offline learning within a novel mathematical framework, yielding richer and more adaptive behavior than what is currently possible.&lt;br/&gt;&lt;br/&gt;Intellectual Merit&lt;br/&gt;&lt;br/&gt;Online trajectory optimization is the method of choice for controlling slow and smooth dynamics such as chemical processes. However robot dynamics are much faster and non-smooth, presenting formidable challenges to existing methods. The proposed work will overcome these challenges, by leveraging a new mathematical framework for stochastic optimal control where the problem is reduced to a linear equation even though the underlying dynamics are nonlinear. These algorithms will use a new physics engine that relies on parallel computing to simulate robot dynamics orders-of-magnitude faster than real-time.&lt;br/&gt; &lt;br/&gt;Broader Impact&lt;br/&gt;&lt;br/&gt;The proposed work will change how robots and animated characters move. Currently many robotic systems are controlled in open loop, or are designed to execute one specific task well but cannot be versatile. Animation is mostly hand-drawn or based on playback of motion capture data. This work will enable both robots and animated figures to express more natural and versatile movements. Another important contribution is to neuroscience and biomechanics, where many researchers believe that the brain controls the body optimally, yet it is difficult to predict what the optimal movements are in complex tasks. The algorithms developed here will generate such predictions, and enable quantitative model-data comparisons advancing our understanding of sensorimotor brain function.</AbstractNarration>
+<MinAmdLetterDate>04/14/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>04/14/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1202375</AwardID>
+<Investigator>
+<FirstName>Emanuel</FirstName>
+<LastName>Todorov</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Emanuel Todorov</PI_FULL_NAME>
+<EmailAddress>todorov@cs.washington.edu</EmailAddress>
+<PI_PHON>2066163568</PI_PHON>
+<NSF_ID>000105686</NSF_ID>
+<StartDate>04/14/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981952350</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7607</Code>
+<Text>EPCN-Energy-Power-Ctrl-Netwrks</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1653</Code>
+<Text>Adaptive &amp; intelligent systems</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~365531</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Intellectual Merit</p> <p><br />In this project we developed new algorithms for model-predictive control (MPC) of complex robots. Desired task outcomes are specified as cost functions, which are then optimized over a 1-second receding horizon, always starting at the current state of the system. This (re) optimization takes about 20 milliseconds of CPU time, making it possible to perform in real-time and use the initial segment of the latest trajectory to control the system. While MPC is an established idea, it has remained limited to simplified robot models because real-time optimization for larger systems is computationally challenging. &nbsp;Here we have overcome these challenges, and demonstrated that MPC can be applied to the full dynamics of humanoid robots with 30 degrees of freedom. This enabled us to perform in simulation a broad range of tasks including getting up from the ground, walking and running, manipulating objects. Some of our methods are already controlling real robots, although additional work on system identification and state estimation needs to be done before our methodology can be applied routinely to physical systems.</p> <p><br />Broader Impact</p> <p><br />Autonomous control of complex robots is not yet a reality, yet it holds great promise for future applications in industry, health and home care, entertainment, emergency response. To make robots truly autonomous, we must endow them with the sensorimotor intelligence needed to operate in an unstructured physical environment where movements cannot be scripted in advance. In essence, the robot must invent its own movements and adapt them to the task at hand and to the specifics of the environment. Our algorithms are ideally suited for such operation: they use numerical optimization to construct new movements, always starting at the current state of the system and latest model of the world. While more work remains to be done, especially on connecting the simulated world used for planning with the real world where the robot operates, this general methodology is likely to revolutionize robotic control in the next 5 years. In this project we were able to overcome one of the main challenges &ndash; namely the computational difficulty of optimizing movements in real-time. The project also provided interdisciplinary training opportunities for students and postdoctoral researchers, as well as new course materials integrated in undergraduate and graduate courses.</p><br> <p>            Last Modified: 08/30/2015<br>      Modified by: Emanuel&nbsp;Todorov</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual Merit   In this project we developed new algorithms for model-predictive control (MPC) of complex robots. Desired task outcomes are specified as cost functions, which are then optimized over a 1-second receding horizon, always starting at the current state of the system. This (re) optimization takes about 20 milliseconds of CPU time, making it possible to perform in real-time and use the initial segment of the latest trajectory to control the system. While MPC is an established idea, it has remained limited to simplified robot models because real-time optimization for larger systems is computationally challenging.  Here we have overcome these challenges, and demonstrated that MPC can be applied to the full dynamics of humanoid robots with 30 degrees of freedom. This enabled us to perform in simulation a broad range of tasks including getting up from the ground, walking and running, manipulating objects. Some of our methods are already controlling real robots, although additional work on system identification and state estimation needs to be done before our methodology can be applied routinely to physical systems.   Broader Impact   Autonomous control of complex robots is not yet a reality, yet it holds great promise for future applications in industry, health and home care, entertainment, emergency response. To make robots truly autonomous, we must endow them with the sensorimotor intelligence needed to operate in an unstructured physical environment where movements cannot be scripted in advance. In essence, the robot must invent its own movements and adapt them to the task at hand and to the specifics of the environment. Our algorithms are ideally suited for such operation: they use numerical optimization to construct new movements, always starting at the current state of the system and latest model of the world. While more work remains to be done, especially on connecting the simulated world used for planning with the real world where the robot operates, this general methodology is likely to revolutionize robotic control in the next 5 years. In this project we were able to overcome one of the main challenges &ndash; namely the computational difficulty of optimizing movements in real-time. The project also provided interdisciplinary training opportunities for students and postdoctoral researchers, as well as new course materials integrated in undergraduate and graduate courses.       Last Modified: 08/30/2015       Submitted by: Emanuel Todorov]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

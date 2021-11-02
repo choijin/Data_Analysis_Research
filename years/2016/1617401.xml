@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Design and Inference of Choreography Types to Reduce Concurrency Programming Errors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>With the growth of the web, cloud computing, sensor networks and&lt;br/&gt;multicore programming, concurrency has become critical to software&lt;br/&gt;applications in the real world.  Because the Actor model of concurrent&lt;br/&gt;computation provides scalable concurrency, commercial software is&lt;br/&gt;often written using the Actor model.  Many concurrency related errors&lt;br/&gt;such as unprocessable messages, deadlocks, and livelocks result from a&lt;br/&gt;mismatch of component actors in a system.  The research develops&lt;br/&gt;choreography types as a method to understand concurrency structures&lt;br/&gt;and detect concurrency related bugs.  The intuition behind the&lt;br/&gt;research is that combining symbolic execution with information from&lt;br/&gt;concrete traces obtained during unit testing can provide a way to&lt;br/&gt;infer and approximate choreography types.&lt;br/&gt; &lt;br/&gt;The research would make concurrent and distributed programming&lt;br/&gt;safer--increasing trust in applications such as cloud computing on&lt;br/&gt;which a large part of the US economy is dependent today.  Much as data&lt;br/&gt;types help programmers think about the interfaces of components in a&lt;br/&gt;sequential program, the research would provide ways in which&lt;br/&gt;programmers can think about the structure of parallel programs in&lt;br/&gt;terms of choreographing actors with evolving type structure.  The&lt;br/&gt;educational impact of the research is to facilitate teaching scalable&lt;br/&gt;parallel programming, creating tools that expose and facilitate the&lt;br/&gt;understanding of the structure of concurrent programs.</AbstractNarration>
+<MinAmdLetterDate>05/19/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>05/19/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617401</AwardID>
+<Investigator>
+<FirstName>Gul</FirstName>
+<LastName>Agha</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gul A Agha</PI_FULL_NAME>
+<EmailAddress>agha@cs.uiuc.edu</EmailAddress>
+<PI_PHON>2172443087</PI_PHON>
+<NSF_ID>000461849</NSF_ID>
+<StartDate>05/19/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName/>
+<StateCode>IL</StateCode>
+<ZipCode>618207473</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Applications such as <em>mobile computing</em>, <em>cloud computing</em> and <em>the internet of things</em> require <em>concurrent and distributed programs</em>.&nbsp;&nbsp; Scalable commercial software is often written using <em>actor programming languages</em> such as Erlang, Akka, and the Orleans Actor Framework.&nbsp; Many bugs in concurrent and distributed systems are the result of errors caused by errors in synchronizing and coordinating actions across actors.&nbsp; Such problems including <em>unprocessable messages</em>, <em>deadlocks</em>, and <em>livelocks</em>, all of which result from mismatch in actions by different actors in a system.&nbsp; The project developed four new methods to discover and prevent such bugs:</p> <p><strong>Types for progress</strong>.&nbsp; A method to specify and statically guarantee that for a large class of interaction patterns that are common between groups of actors was developed.&nbsp; Specifically, a formal type system was developed to represent constraints on the order of messages (based on the types of messages) a group of actors sends and receives.&nbsp; For example, in an auction protocol, the order of messages between a seller and buyers follows order: (1) a seller asks for bids; (2) potential buyers may bid; (3) the seller accepts a bid from a specific buyer; (4) the accepted buyer must pay; and (5) the seller must ship the book.</p> <p>The sequences in which this ordering occurs are complicated by the fact that other messages and computations may be interleaved at the buyer and seller, there may be multiple buyers and sellers, etc. The type system was formalized for a simple actor language which captures the essential features of for practical actor languages. Sufficient conditions to establish that message requirements that arise during (fairly scheduled) executions of well-typed programs are always eventually satisfied were defined and proved correct.&nbsp; By checking properties of these types, programmers can guarantee that a deadlock will not result when actors with the correct local types are composed when the local types are compatible with a deadlock-free&nbsp; choreography type.</p> <p><strong>A method to discover concurrency bugs.</strong>&nbsp; A novel method combining program analysis and dynamic execution was developed to test for concurrency programs. The builds a <em>Message Flow Graph</em> (MFG) of an actor system and uses it to guide executions for testing.&nbsp; A tool for testing Akka programs was developed (Akka is an actor framework popular in commercial applications). &nbsp;The tool found previously undetected bugs in open-source programs and reference implementations for Savina benchmark of programs.</p> <p><strong>A method to understand the implicit concurrency structure of an actor program.</strong>&nbsp; Programmers write individual actors and the &nbsp;coordination between different actors is implicit in the code.&nbsp; This &nbsp;&nbsp;makes it hard to ensure that the concurrency structure of the program is correct, or that it is not destroyed by subsequent updates to individual actors (possibly done by other programmers). &nbsp;&nbsp;A method was developed to infer the concurrency structure of an actor program, where the concurrency structure is represented by <em>Specification Diagrams</em>&mdash;a formal graphical notation.&nbsp; A tool was developed to aid visualization.&nbsp; The tool was demonstrated on a set of benchmark actor programs.</p> <p><strong>A method to detect termination in a concurrent and distributed program.</strong>&nbsp; Actors in a distributed system represent active processes.&nbsp; When an actor has terminated, it needs to be garbage collected (deleted) to save resources.&nbsp; However, detecting that an actor has terminated is complicated because an inactive actor may eventually receive a message from another actor and become active.&nbsp; This eventuality is not bounded in a distributed system as messages may be generated in the future or arbitrarily delayed. Incorrect deletion is a source of bugs in concurrent and distributed programs.&nbsp; We developed an efficient and scalable method for detecting when an actor has terminated by tracking the evolving reference structure of an actor program.&nbsp; Of critical importance is the fact that the tracking is entirely decentralized and does not require expensive global communication protocols to be imposed as is the case in previous work.&nbsp; &nbsp;&nbsp;</p> <p>By some estimates, testing accounts for over half the cost of software development and maintenance in the real-world.&nbsp; Despite this, concurrency bugs are a major source of lost revenue and in some cases lost lives.&nbsp; The results in the project will help industry adopt more effective methods for analyzing programs, discovering, and preventing bugs.</p> <p>Two graduate students were supported and gained experience in research in concurrent programming languages.&nbsp; Three undergraduates also participated on the project.</p><br> <p>            Last Modified: 12/11/2020<br>      Modified by: Gul&nbsp;A&nbsp;Agha</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Applications such as mobile computing, cloud computing and the internet of things require concurrent and distributed programs.   Scalable commercial software is often written using actor programming languages such as Erlang, Akka, and the Orleans Actor Framework.  Many bugs in concurrent and distributed systems are the result of errors caused by errors in synchronizing and coordinating actions across actors.  Such problems including unprocessable messages, deadlocks, and livelocks, all of which result from mismatch in actions by different actors in a system.  The project developed four new methods to discover and prevent such bugs:  Types for progress.  A method to specify and statically guarantee that for a large class of interaction patterns that are common between groups of actors was developed.  Specifically, a formal type system was developed to represent constraints on the order of messages (based on the types of messages) a group of actors sends and receives.  For example, in an auction protocol, the order of messages between a seller and buyers follows order: (1) a seller asks for bids; (2) potential buyers may bid; (3) the seller accepts a bid from a specific buyer; (4) the accepted buyer must pay; and (5) the seller must ship the book.  The sequences in which this ordering occurs are complicated by the fact that other messages and computations may be interleaved at the buyer and seller, there may be multiple buyers and sellers, etc. The type system was formalized for a simple actor language which captures the essential features of for practical actor languages. Sufficient conditions to establish that message requirements that arise during (fairly scheduled) executions of well-typed programs are always eventually satisfied were defined and proved correct.  By checking properties of these types, programmers can guarantee that a deadlock will not result when actors with the correct local types are composed when the local types are compatible with a deadlock-free  choreography type.  A method to discover concurrency bugs.  A novel method combining program analysis and dynamic execution was developed to test for concurrency programs. The builds a Message Flow Graph (MFG) of an actor system and uses it to guide executions for testing.  A tool for testing Akka programs was developed (Akka is an actor framework popular in commercial applications).  The tool found previously undetected bugs in open-source programs and reference implementations for Savina benchmark of programs.  A method to understand the implicit concurrency structure of an actor program.  Programmers write individual actors and the  coordination between different actors is implicit in the code.  This   makes it hard to ensure that the concurrency structure of the program is correct, or that it is not destroyed by subsequent updates to individual actors (possibly done by other programmers).   A method was developed to infer the concurrency structure of an actor program, where the concurrency structure is represented by Specification Diagrams&mdash;a formal graphical notation.  A tool was developed to aid visualization.  The tool was demonstrated on a set of benchmark actor programs.  A method to detect termination in a concurrent and distributed program.  Actors in a distributed system represent active processes.  When an actor has terminated, it needs to be garbage collected (deleted) to save resources.  However, detecting that an actor has terminated is complicated because an inactive actor may eventually receive a message from another actor and become active.  This eventuality is not bounded in a distributed system as messages may be generated in the future or arbitrarily delayed. Incorrect deletion is a source of bugs in concurrent and distributed programs.  We developed an efficient and scalable method for detecting when an actor has terminated by tracking the evolving reference structure of an actor program.  Of critical importance is the fact that the tracking is entirely decentralized and does not require expensive global communication protocols to be imposed as is the case in previous work.      By some estimates, testing accounts for over half the cost of software development and maintenance in the real-world.  Despite this, concurrency bugs are a major source of lost revenue and in some cases lost lives.  The results in the project will help industry adopt more effective methods for analyzing programs, discovering, and preventing bugs.  Two graduate students were supported and gained experience in research in concurrent programming languages.  Three undergraduates also participated on the project.       Last Modified: 12/11/2020       Submitted by: Gul A Agha]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

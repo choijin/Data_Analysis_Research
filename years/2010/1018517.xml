@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:  Small:  AnyCore:  A Universal Superscalar Core</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Future microprocessors will contain many processing cores. This future presents a unique opportunity to increase performance and decrease power consumption by providing different core types, each optimized for different instruction-level behavior within and across applications. The questions of how many core types, how many of each type, and what should each type look like, are perplexing in the face of arbitrary run-time scenarios. This is because (1) Instruction-level behavior is infinitely diverse whereas the number of core designs that can be practically included is limited; (2) Parallel applications tend to favor homogeneous cores for their uniform tasks. Yet, the optimal homogeneous multi-core processor differs for different parallel applications, which are not static; (3) Multiprogrammed workloads tend to favor heterogeneous cores to match their diverse tasks. Yet, the optimal heterogeneous multi-core processor depends on the mixture of tasks and their arrival rates to the system, factors which vary over time; and (4) Even if we consider a fixed run-time scenario, the optimal configuration of core designs depends on latency, throughput, and power preferences. All of these factors vary over time. Thus, while the multi-core era makes it possible and desirable to provide many core types, it is nearly impossible to determine which ones and how many of each. &lt;br/&gt;&lt;br/&gt;This project proposes AnyCore, a comprehensively reconfigurable superscalar processing core. AnyCore has a unique and ambitious objective: each one of its hundreds of configurations, called "virtually fabricated cores", should achieve the same frequency, cycle-level performance, and power as explicitly designing and fabricating just that core. A novel multi-core architecture comprised of many replicated AnyCores can be configured into arbitrary heterogeneous and homogeneous multi-core designs, each having the performance and power of a fixed design. This will enable achieving optimal latency, throughput, and power targets for arbitrary workload types and arbitrary instruction-level behavior within their constituent tasks. The research could have potentially significant impact on the design process of future commercial processors, as well as on education and research as a rapid simulation platform.</AbstractNarration>
+<MinAmdLetterDate>08/23/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>05/11/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018517</AwardID>
+<Investigator>
+<FirstName>Eric</FirstName>
+<LastName>Rotenberg</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Eric Rotenberg</PI_FULL_NAME>
+<EmailAddress>ericro@ncsu.edu</EmailAddress>
+<PI_PHON>9195132822</PI_PHON>
+<NSF_ID>000340411</NSF_ID>
+<StartDate>08/23/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName>Raleigh</CityName>
+<StateCode>NC</StateCode>
+<ZipCode>276957514</ZipCode>
+<StreetAddress><![CDATA[2601 Wolf Village Way]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>Background</strong></p> <p>High-performance superscalar processors power smart phones, tablets, laptops, PCs, servers, data centers, and supercomputers. Different programs, and phases within programs, strike the best balance of performance and energy consumption on different superscalar processor designs. For this reason, computer architecture researchers have proposed the notion of an adaptive superscalar processor: a single processor whose parameters can be quickly adjusted to mimic hundreds of different fixed processors.</p> <p>Unfortunately, adaptivity has a catch. Adaptivity requires extra circuitry to enable/disable parts of the processor.&nbsp; This extra circuitry is needed to configure the processor to look like arbitrary fixed processors. The overheads of this extra circuitry are a "tax" that erode the performance and energy gains of adaptivity. Researchers have largely ignored these circuit overheads, assuming processor designers can carefully quantify the overheads and devise clever ways to hide them.</p> <p>&nbsp;</p> <p><strong>Intellectual Merit</strong></p> <p>The goal of this project is to create a tool to understand the circuit overheads of comprehensive adaptivity in the context of a whole superscalar processor, and the extent to which they erode the benefits of adaptivity. We developed the AnyCore Toolset. The centerpiece of this toolset is a synthesizable Verilog model -- i.e., a blueprint for synthesizing and ultimately fabricating a processor chip -- of an adaptive superscalar processor.&nbsp; The model is highly parameterized in that it can be used to synthesize arbitrary fixed superscalar processors and arbitrary adaptive superscalar processors.</p> <p>The AnyCore Toolset can be used to quantify logic overheads of an adaptive core with respect to fixed cores, synthesize and compare different adaptive cores, synthesize and compare an adaptive core to a multi-core comprised of multiple fixed core types, and fabricate adaptive superscalar cores. We published examples of these use-cases throughout the course of the project.</p> <p>To measure overheads of adaptivity, we compared the energy, area, and frequency of different configurations of a particular adaptive superscalar core design, to corresponding fixed superscalar cores. While the exact overhead depends on the configuration being compared, a key finding is that the average energy overhead is much larger than expected and hoped, on the order of 20%. This roughly means that the ability to rapidly change configurations must yield at least 20% energy savings just to break even with the single best fixed core. Alternatively, the findings of this project motivate the need for further research on more selective adaptive features or smarter use of adaptive cores. For example, we published a novel hybrid processor comprised of an adaptive superscalar core and a best-on-average fixed superscalar core; workloads for which adaptivity yields big gains execute on the former while workloads with low diversity execute on the latter. The best-on-average fixed core hides the overheads of adaptivity for workloads that do not benefit from adaptivity.</p> <p>Another key outcome is that we fabricated, tested, and measured, a prototype chip of a large and comprehensively adaptive superscalar processor.&nbsp; The chip, and custom printed circuit board (PCB) that houses it, is called the AnyCore-1 Testbed and is available to other researchers in Professor Rotenberg's (Principal Investigator) lab at North Carolina State University (NCSU). AnyCore-1 is the first known adaptive superscalar processor, both in academia and industry.</p> <p>&nbsp;</p> <p><strong>Broader Impact</strong></p> <p>The AnyCore Toolset has been released by NCSU under an open-source license, for researchers and engineers to push the frontiers of superscalar processor performance and energy efficiency. There are already several researchers signed up as initial users, and the large FabScalar user community (about 300 unique teams) is likely to migrate from Prof. Rotenberg's FabScalar Toolset (from a prior NSF project) to the AnyCore Toolset.</p> <p>The AnyCore-1 Testbed is the first known adaptive superscalar processor, both in academia and industry.&nbsp; AnyCore-1 is a 25 square-millimeter 100-pin chip, featuring a  large, wide (4-instruction fetch, 5-instruction issue), adaptive out-of-order  superscalar core that works and shows the  expected power and performance  scaling trends with different width/size  configurations.</p> <p>The lead PHD student has graduated and is now working for Intel Corporation on their next flagship processor. The MS student, who designed the custom PCB and performed initial testing, is now working for NVIDIA on their flagship Graphics Processing Unit (GPU).</p> <p>&nbsp;</p> <p><strong>Research Products</strong></p> <p>The AnyCore project has produced one  PHD dissertation, one MS thesis, two peer-reviewed conference papers,  two peer-reviewed workshop papers, a software disclosure and open-source  release, a website, and the AnyCore-1 Testbed (chip and custom printed  circuit board).</p><br> <p>            Last Modified: 02/06/2017<br>      Modified by: Eric&nbsp;Rotenberg</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486434804402_anycore-layout--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486434804402_anycore-layout--rgov-800width.jpg" title="AnyCore-1 layout"><img src="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486434804402_anycore-layout--rgov-66x44.jpg" alt="AnyCore-1 layout"></a> <div class="imageCaptionContainer"> <div class="imageCaption">AnyCore-1 layout</div> <div class="imageCredit">Rangeen Basu Roy Chowdhury and Eric Rotenberg of North Carolina State University</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Eric&nbsp;Rotenberg</div> <div class="imageTitle">AnyCore-1 layout</div> </div> </li> <li> <a href="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486434926298_anycore-floorplan--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486434926298_anycore-floorplan--rgov-800width.jpg" title="AnyCore-1 floorplan"><img src="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486434926298_anycore-floorplan--rgov-66x44.jpg" alt="AnyCore-1 floorplan"></a> <div class="imageCaptionContainer"> <div class="imageCaption">AnyCore-1 floorplan</div> <div class="imageCredit">Rangeen Basu Roy Chowdhury and Eric Rotenberg of North Carolina State University</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Eric&nbsp;Rotenberg</div> <div class="imageTitle">AnyCore-1 floorplan</div> </div> </li> <li> <a href="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486435052780_anycore-pcb--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486435052780_anycore-pcb--rgov-800width.jpg" title="AnyCore-1 PCB"><img src="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486435052780_anycore-pcb--rgov-66x44.jpg" alt="AnyCore-1 PCB"></a> <div class="imageCaptionContainer"> <div class="imageCaption">AnyCore-1 printed circuit board (PCB) with packaged chip in socket</div> <div class="imageCredit">Rangeen Basu Roy Chowdhury and Eric Rotenberg of North Carolina State University</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Eric&nbsp;Rotenberg</div> <div class="imageTitle">AnyCore-1 PCB</div> </div> </li> <li> <a href="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486435990184_Anycore-1Poster--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486435990184_Anycore-1Poster--rgov-800width.jpg" title="AnyCore-1 poster"><img src="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486435990184_Anycore-1Poster--rgov-66x44.jpg" alt="AnyCore-1 poster"></a> <div class="imageCaptionContainer"> <div class="imageCaption">AnyCore-1 poster presented at Hot Chips 28</div> <div class="imageCredit">Rangeen Basu Roy Chowdhury and Eric Rotenberg of North Carolina State University</div> <div class="imageSubmitted">Eric&nbsp;Rotenberg</div> <div class="imageTitle">AnyCore-1 poster</div> </div> </li> <li> <a href="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486437316561_anycore-chip-package--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486437316561_anycore-chip-package--rgov-800width.jpg" title="AnyCore-1 chip"><img src="/por/images/Reports/POR/2017/1018517/1018517_10029948_1486437316561_anycore-chip-package--rgov-66x44.jpg" alt="AnyCore-1 chip"></a> <div class="imageCaptionContainer"> <div class="imageCaption">AnyCore-1 chip wire-bonded to 100-pin CQFP package.  The chip is 5 mm x 5 mm (25 square mm).</div> <div class="imageCredit">Rangeen Basu Roy Chowdhury and Eric Rotenberg of North Carolina State University</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Eric&nbsp;Rotenberg</div> <div class="imageTitle">AnyCore-1 chip</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Background  High-performance superscalar processors power smart phones, tablets, laptops, PCs, servers, data centers, and supercomputers. Different programs, and phases within programs, strike the best balance of performance and energy consumption on different superscalar processor designs. For this reason, computer architecture researchers have proposed the notion of an adaptive superscalar processor: a single processor whose parameters can be quickly adjusted to mimic hundreds of different fixed processors.  Unfortunately, adaptivity has a catch. Adaptivity requires extra circuitry to enable/disable parts of the processor.  This extra circuitry is needed to configure the processor to look like arbitrary fixed processors. The overheads of this extra circuitry are a "tax" that erode the performance and energy gains of adaptivity. Researchers have largely ignored these circuit overheads, assuming processor designers can carefully quantify the overheads and devise clever ways to hide them.     Intellectual Merit  The goal of this project is to create a tool to understand the circuit overheads of comprehensive adaptivity in the context of a whole superscalar processor, and the extent to which they erode the benefits of adaptivity. We developed the AnyCore Toolset. The centerpiece of this toolset is a synthesizable Verilog model -- i.e., a blueprint for synthesizing and ultimately fabricating a processor chip -- of an adaptive superscalar processor.  The model is highly parameterized in that it can be used to synthesize arbitrary fixed superscalar processors and arbitrary adaptive superscalar processors.  The AnyCore Toolset can be used to quantify logic overheads of an adaptive core with respect to fixed cores, synthesize and compare different adaptive cores, synthesize and compare an adaptive core to a multi-core comprised of multiple fixed core types, and fabricate adaptive superscalar cores. We published examples of these use-cases throughout the course of the project.  To measure overheads of adaptivity, we compared the energy, area, and frequency of different configurations of a particular adaptive superscalar core design, to corresponding fixed superscalar cores. While the exact overhead depends on the configuration being compared, a key finding is that the average energy overhead is much larger than expected and hoped, on the order of 20%. This roughly means that the ability to rapidly change configurations must yield at least 20% energy savings just to break even with the single best fixed core. Alternatively, the findings of this project motivate the need for further research on more selective adaptive features or smarter use of adaptive cores. For example, we published a novel hybrid processor comprised of an adaptive superscalar core and a best-on-average fixed superscalar core; workloads for which adaptivity yields big gains execute on the former while workloads with low diversity execute on the latter. The best-on-average fixed core hides the overheads of adaptivity for workloads that do not benefit from adaptivity.  Another key outcome is that we fabricated, tested, and measured, a prototype chip of a large and comprehensively adaptive superscalar processor.  The chip, and custom printed circuit board (PCB) that houses it, is called the AnyCore-1 Testbed and is available to other researchers in Professor Rotenberg's (Principal Investigator) lab at North Carolina State University (NCSU). AnyCore-1 is the first known adaptive superscalar processor, both in academia and industry.     Broader Impact  The AnyCore Toolset has been released by NCSU under an open-source license, for researchers and engineers to push the frontiers of superscalar processor performance and energy efficiency. There are already several researchers signed up as initial users, and the large FabScalar user community (about 300 unique teams) is likely to migrate from Prof. Rotenberg's FabScalar Toolset (from a prior NSF project) to the AnyCore Toolset.  The AnyCore-1 Testbed is the first known adaptive superscalar processor, both in academia and industry.  AnyCore-1 is a 25 square-millimeter 100-pin chip, featuring a  large, wide (4-instruction fetch, 5-instruction issue), adaptive out-of-order  superscalar core that works and shows the  expected power and performance  scaling trends with different width/size  configurations.  The lead PHD student has graduated and is now working for Intel Corporation on their next flagship processor. The MS student, who designed the custom PCB and performed initial testing, is now working for NVIDIA on their flagship Graphics Processing Unit (GPU).     Research Products  The AnyCore project has produced one  PHD dissertation, one MS thesis, two peer-reviewed conference papers,  two peer-reviewed workshop papers, a software disclosure and open-source  release, a website, and the AnyCore-1 Testbed (chip and custom printed  circuit board).       Last Modified: 02/06/2017       Submitted by: Eric Rotenberg]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

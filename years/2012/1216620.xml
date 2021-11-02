@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Rsch:  Adaptive Hybridized DG Methods for Acoustic and Electromagnetic Scattering</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>167948.00</AwardTotalIntnAmount>
+<AwardAmount>167948</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In this project, the investigator and his colleagues will develop, analyze, and implement quasi-optimal adaptive hybridized Discontinuous Galerkin methods for acoustic and electromagnetic scattering problems as described by the Helmholtz equation and the time-harmonic Maxwell equation on bounded domains in two and three dimensional domains using general local bases. These methods feature traditional piecewise polynomial bases as well as special purpose wave elements, and multilevel preconditioned iterative solvers on adaptively refined simplicial, quadrilateral, and hexahedral meshes. The adaptive mesh refinement is driven by residual-type a posteriori error estimators. In particular, the team will prove convergence of the adaptive solution process as well as its quasi-optimality in terms of the computational complexity with respect to a properly specified approximation class. High quality software implementations will be used to test the algorithms and inform the analysis.&lt;br/&gt;&lt;br/&gt;Advances in the state of the art in numerical methods for performing acoustic and electromagnetic simulations have potentially high impact in several applications. As an example more accurate simulation of acoustic wave propagation can be used to considerably enhance resolution of medical ultra sound scans, and thus expand the reach of non-invasive diagnostics. The emphasis of this project is the development of novel numerical methods that compute provably accurate approximations of physical acoustics and electromagnetics phenomena.</AbstractNarration>
+<MinAmdLetterDate>07/18/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/18/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1216620</AwardID>
+<Investigator>
+<FirstName>Peter</FirstName>
+<LastName>Monk</LastName>
+<PI_MID_INIT>B</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Peter B Monk</PI_FULL_NAME>
+<EmailAddress>monk@udel.edu</EmailAddress>
+<PI_PHON>3028311873</PI_PHON>
+<NSF_ID>000193694</NSF_ID>
+<StartDate>07/18/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Delaware</Name>
+<CityName>Newark</CityName>
+<ZipCode>197160099</ZipCode>
+<PhoneNumber>3028312136</PhoneNumber>
+<StreetAddress>210 Hullihen Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<StateCode>DE</StateCode>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>DE00</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>059007500</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF DELAWARE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>059007500</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Delaware]]></Name>
+<CityName>Newark</CityName>
+<StateCode>DE</StateCode>
+<ZipCode>197162553</ZipCode>
+<StreetAddress><![CDATA[210 Hullihen Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>DE00</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~167948</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Scattering problems for the time harmonic wave equation arise in many areas of technology. &nbsp;For example, the time harmonic Maxwell'sequations governing electromagnetic waves reduces to such a problem on translation invariant domains. These problems can involve different material properties (for example arising from the medium in which the wave is propagating) and scattering objects with corners which can result in poor approximation of the solution unless the discretization is chosen carefully. &nbsp;In addition the problem is usually posed on an infinite domain, whereas a mesh based method such as the one investigated in this research requires a finite computational domain and a suitable artificial truncation condition. Research carried out under this project expanded the capability of Plane Wave Discontinuous Galerkin (PWDG) methods to simulate such problems by addressing these issues.</p> <p><br /><em>Intellectual merit:</em> In order to approximate the solution near corners we investigated the use of residual based adaptivity in the context of PWDG schemes. &nbsp;We proved the reliability of a family of error indicators and demonstrated that these indicators can be used to produce a convergent sequence of solutions in several cases including corner domains. &nbsp;To handle non constant material parameters we proposed a new extended PWDG scheme using Generalized Plane Waves that can handle piecewise smoothly varying coefficients, and proved convergence. &nbsp;A major effort of the research was then to show how to couple the PWDG to non local operators on the boundary. &nbsp;In particular we considered the Dirichlet-to-Neumann map truncation of an infinite domain. This is the basic example of the type of truncation boundary condition that is necessary to obtain an accurate solution to scattering problems (other truncation methods using for example integral equations can be handled using our scheme). We proposed new fluxes for the PWDG to couple with non-local operators and proved convergence of the fully discrete scheme. &nbsp;These new fluxes have the advantage compared to previously known fluxes in that there is wide freedom in the choice of penalty parameter&nbsp;opening the possibility of mesh dependent boundary fluxes in the PWDG, and hence possibly better convergence as the mesh is refined.</p> <p><br /><em>Broader Impact:</em> The main broader impact is educational. In particular the graduation of a PhD student who performed the bulk of this research. In addition a post-doc was involved extending some ideas generated by the project to time domain problems in the context of solar cell diffraction gratings. Finally, partly on the basis of results for the adaptive algorithm, we are exploring an SBIR proposal.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/27/2016<br>      Modified by: Peter&nbsp;B&nbsp;Monk</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Scattering problems for the time harmonic wave equation arise in many areas of technology.  For example, the time harmonic Maxwell'sequations governing electromagnetic waves reduces to such a problem on translation invariant domains. These problems can involve different material properties (for example arising from the medium in which the wave is propagating) and scattering objects with corners which can result in poor approximation of the solution unless the discretization is chosen carefully.  In addition the problem is usually posed on an infinite domain, whereas a mesh based method such as the one investigated in this research requires a finite computational domain and a suitable artificial truncation condition. Research carried out under this project expanded the capability of Plane Wave Discontinuous Galerkin (PWDG) methods to simulate such problems by addressing these issues.   Intellectual merit: In order to approximate the solution near corners we investigated the use of residual based adaptivity in the context of PWDG schemes.  We proved the reliability of a family of error indicators and demonstrated that these indicators can be used to produce a convergent sequence of solutions in several cases including corner domains.  To handle non constant material parameters we proposed a new extended PWDG scheme using Generalized Plane Waves that can handle piecewise smoothly varying coefficients, and proved convergence.  A major effort of the research was then to show how to couple the PWDG to non local operators on the boundary.  In particular we considered the Dirichlet-to-Neumann map truncation of an infinite domain. This is the basic example of the type of truncation boundary condition that is necessary to obtain an accurate solution to scattering problems (other truncation methods using for example integral equations can be handled using our scheme). We proposed new fluxes for the PWDG to couple with non-local operators and proved convergence of the fully discrete scheme.  These new fluxes have the advantage compared to previously known fluxes in that there is wide freedom in the choice of penalty parameter opening the possibility of mesh dependent boundary fluxes in the PWDG, and hence possibly better convergence as the mesh is refined.   Broader Impact: The main broader impact is educational. In particular the graduation of a PhD student who performed the bulk of this research. In addition a post-doc was involved extending some ideas generated by the project to time domain problems in the context of solar cell diffraction gratings. Finally, partly on the basis of results for the adaptive algorithm, we are exploring an SBIR proposal.          Last Modified: 10/27/2016       Submitted by: Peter B Monk]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Model-Based Deep Reinforcement Learning for Domain Transfer</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>479279.00</AwardTotalIntnAmount>
+<AwardAmount>479279</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rebecca Hwa</SignBlockName>
+<PO_EMAI>rhwa@nsf.gov</PO_EMAI>
+<PO_PHON>7032927148</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to develop machine learning algorithms that can enable automated decision making and control in applications that require autonomous agents to interact with the real world. In particular, the project will examine two application areas: autonomous robots and educational agents that interact with human students to facilitate learning. The principal technical development investigated in this project will center around applications of deep neural networks (deep learning) to efficiently learn predictive models of the world, such as the physical environment of the robot or the behavior of a human student using an interactive educational agent. Deep learning has enabled impressive advances in passive perception domains such as computer vision and speech recognition, but typically requires very large amounts of data to succeed. This is often a major challenge in interactive settings, where a robot cannot interact with its environment for weeks or months just to learn a single behavior. To address this challenge, this project will investigate how predictive models can be transferred from prior tasks into a new task. The technologies developed as part of this project could enable substantially more sophisticated autonomous systems that can adapt quickly to new situations through transfer. Economic impact could include new consumer robotics products and improved education through intelligent automation.&lt;br/&gt;&lt;br/&gt;Reinforcement learning holds the promise of automating complex decision making and control in the presence of uncertainty. For a wide range of real-world problems, from robotic control and autonomous vehicles to interactive educational tools, this would provide dramatic improvements in capability and reduction in engineering cost. However, applying reinforcement learning to complex, unstructured environments and real-world problems with raw inputs, such as images and sounds, remains tremendously difficult. Deep learning has shown a great deal of promise for tackling complex learning problems, especially ones that require parsing high-dimensional, raw sensory signals, but the most successful applications of deep learning use very large amounts of labeled data. This is at odds with the demands of reinforcement learning, where the goal is typically to learn an effective policy using the minimal amount of interaction. This projects aims to address this challenge by developing algorithms for model-based deep reinforcement learning, where a generalizable model is learned from past experience on related but different tasks, and then transferred to a new task to learn it very quickly, directly using raw sensory inputs.</AbstractNarration>
+<MinAmdLetterDate>10/24/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>10/24/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1700697</AwardID>
+<Investigator>
+<FirstName>Sergey</FirstName>
+<LastName>Levine</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sergey Levine</PI_FULL_NAME>
+<EmailAddress>sergey.levine@gmail.com</EmailAddress>
+<PI_PHON>5106423214</PI_PHON>
+<NSF_ID>000705338</NSF_ID>
+<StartDate>10/24/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Berkeley]]></Name>
+<CityName>Berkeley</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>947045940</ZipCode>
+<StreetAddress><![CDATA[2150 Shattuck Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~479279</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The aim of this project was to develop the algorithmic foundations of model-based deep reinforcement learning. Reinforcement learning algorithms aim to learn behavioral skills ? how to control a robot to perform a task, how to drive a vehicle, how to play a game, and so forth. Deep reinforcement learning algorithms utilize deep neural networks as the representation for the learned skill. Such methods are very powerful, because deep neural networks provide a general and highly versatile representation that can be suitable for a wide range of different problems. However, standard model-free deep reinforcement learning algorithms are notorious for requiring very large amounts of data to train, making them especially difficult to use in the real world. Model-based reinforcement learning methods aim to address this difficulty, by first learning a predictive model of the world, and then using this predictive model to determine how to act so as to bring about desired outcomes. However, in 2016 when this project first started, combining model-based reinforcement learning with deep neural networks was considered to be exceptionally difficult.</p> <p>Over the course of this project, we developed a number of new technologies for model-based reinforcement learning, including deep model-based reinforcement learning methods that made deep model-based RL a viable and broadly used tool. The algorithms developed in the first two years of this project, such as MBMF and PETS, have since come to be regarded as foundational methods in this field, and have been extended by many different groups in the reinforcement learning community.</p> <p>In addition to this significant result, we also made a number of advances along several key directions:</p> <p>We developed an extensive framework for hybridizing model-based and model-free learning for mobile robotics applications, which resulted in four papers covering applications of this hybrid model-free/model-based RL framework for indoor navigation, off-road navigation with a small-scale ground robot, navigation through urban environments and sidewalks, and sharing and transferring data across multiple distinct robotic platforms. Our experiments demonstrate that algorithms that incorporate ideas from both model-free and model-based deep reinforcement learning can control a real-world ground robot to navigate sidewalks in a real city, while avoiding obstructions and collisions, can navigate over complex off-road terrain, including dense vegetation, and can navigate indoor environments. Aside from serving as a demonstration of the effectiveness of such methods, these applications could in the future enable autonomous robotic systems that navigate real-world environments for applications ranging from agriculture to urban delivery services.</p> <p>We developed methods for meta-training models to adapt quickly to changing dynamics, further facilitating the transfer goals of this project. These methods can ?learn to learn? from experience on a diverse range of tasks, enabling them to acquire effective models in new domains much more quickly. For example, in one our demonstrated applications, these meta-learning methods can control a quadcopter carrying suspended payloads, and adapt in seconds when the quadcopter picks up a new payload, compensating for changes in weight and dynamics. Such methods could enable more resilient and adaptable robotic systems in the future.</p> <p>We developed and extensively validated algorithms for model-based reinforcement learning with high-dimensional observations, such as images, both in settings involving vision-based robotic control and control using tactile sensing. Such methods make it more feasible for real-world autonomous systems to utilize high-bandwidth sensing modalities, including cameras and more exotic sensors, such as the GelSight touch sensors we evaluated in some of our work.</p> <p>Taken together, these advances lay the foundation for deep model-based reinforcement learning, demonstrate that applications of these ideas to a range of domains can result in effective and practical algorithms that can control real-world robotic systems efficiently enough to learn directly from real-world data without any simulators, and indicate a number of directions for future work to further improve the effectiveness, flexibility, and efficiency of these methods.</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/24/2020<br>      Modified by: Sergey&nbsp;Levine</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608786832182_badgr--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608786832182_badgr--rgov-800width.jpg" title="Navigation with Hybrid Model-Based &amp; Model-Free RL"><img src="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608786832182_badgr--rgov-66x44.jpg" alt="Navigation with Hybrid Model-Based &amp; Model-Free RL"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The hybrid model-based + model-free algorithms developed as part of this project can control a real-world mobile robot to navigate diverse off-road and urban environments using only on-board camera observations.</div> <div class="imageCredit">Gregory Kahn</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Sergey&nbsp;Levine</div> <div class="imageTitle">Navigation with Hybrid Model-Based & Model-Free RL</div> </div> </li> <li> <a href="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608786902214_pets--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608786902214_pets--rgov-800width.jpg" title="Schematic of the PETS algorithm"><img src="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608786902214_pets--rgov-66x44.jpg" alt="Schematic of the PETS algorithm"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The PETS algorithm (Chua et al. 2018) was one of the first deep model-based RL algorithms that attained competitive results with model-free methods, with nearly 10x less data. This method was developed as part of this project.</div> <div class="imageCredit">Kurtland Chua</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Sergey&nbsp;Levine</div> <div class="imageTitle">Schematic of the PETS algorithm</div> </div> </li> <li> <a href="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608787023629_quad--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608787023629_quad--rgov-800width.jpg" title="Quadcopter Control with Meta-Learning"><img src="/por/images/Reports/POR/2020/1700697/1700697_10434147_1608787023629_quad--rgov-66x44.jpg" alt="Quadcopter Control with Meta-Learning"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The meta-learning algorithms for model-based RL developed as part of this project could be used to control a real-world quadcopter to pick up variable-weight payloads. Upon picking up the payload, the algorithm adapts to the changing dynamics.</div> <div class="imageCredit">Suneel Belkhale</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Sergey&nbsp;Levine</div> <div class="imageTitle">Quadcopter Control with Meta-Learning</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The aim of this project was to develop the algorithmic foundations of model-based deep reinforcement learning. Reinforcement learning algorithms aim to learn behavioral skills ? how to control a robot to perform a task, how to drive a vehicle, how to play a game, and so forth. Deep reinforcement learning algorithms utilize deep neural networks as the representation for the learned skill. Such methods are very powerful, because deep neural networks provide a general and highly versatile representation that can be suitable for a wide range of different problems. However, standard model-free deep reinforcement learning algorithms are notorious for requiring very large amounts of data to train, making them especially difficult to use in the real world. Model-based reinforcement learning methods aim to address this difficulty, by first learning a predictive model of the world, and then using this predictive model to determine how to act so as to bring about desired outcomes. However, in 2016 when this project first started, combining model-based reinforcement learning with deep neural networks was considered to be exceptionally difficult.  Over the course of this project, we developed a number of new technologies for model-based reinforcement learning, including deep model-based reinforcement learning methods that made deep model-based RL a viable and broadly used tool. The algorithms developed in the first two years of this project, such as MBMF and PETS, have since come to be regarded as foundational methods in this field, and have been extended by many different groups in the reinforcement learning community.  In addition to this significant result, we also made a number of advances along several key directions:  We developed an extensive framework for hybridizing model-based and model-free learning for mobile robotics applications, which resulted in four papers covering applications of this hybrid model-free/model-based RL framework for indoor navigation, off-road navigation with a small-scale ground robot, navigation through urban environments and sidewalks, and sharing and transferring data across multiple distinct robotic platforms. Our experiments demonstrate that algorithms that incorporate ideas from both model-free and model-based deep reinforcement learning can control a real-world ground robot to navigate sidewalks in a real city, while avoiding obstructions and collisions, can navigate over complex off-road terrain, including dense vegetation, and can navigate indoor environments. Aside from serving as a demonstration of the effectiveness of such methods, these applications could in the future enable autonomous robotic systems that navigate real-world environments for applications ranging from agriculture to urban delivery services.  We developed methods for meta-training models to adapt quickly to changing dynamics, further facilitating the transfer goals of this project. These methods can ?learn to learn? from experience on a diverse range of tasks, enabling them to acquire effective models in new domains much more quickly. For example, in one our demonstrated applications, these meta-learning methods can control a quadcopter carrying suspended payloads, and adapt in seconds when the quadcopter picks up a new payload, compensating for changes in weight and dynamics. Such methods could enable more resilient and adaptable robotic systems in the future.  We developed and extensively validated algorithms for model-based reinforcement learning with high-dimensional observations, such as images, both in settings involving vision-based robotic control and control using tactile sensing. Such methods make it more feasible for real-world autonomous systems to utilize high-bandwidth sensing modalities, including cameras and more exotic sensors, such as the GelSight touch sensors we evaluated in some of our work.  Taken together, these advances lay the foundation for deep model-based reinforcement learning, demonstrate that applications of these ideas to a range of domains can result in effective and practical algorithms that can control real-world robotic systems efficiently enough to learn directly from real-world data without any simulators, and indicate a number of directions for future work to further improve the effectiveness, flexibility, and efficiency of these methods.          Last Modified: 12/24/2020       Submitted by: Sergey Levine]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Specification and Verification of Medical Device Software</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>12/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>11/30/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>79996.00</AwardTotalIntnAmount>
+<AwardAmount>79991</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>D. Helen Gill</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Since software is easier to configure, modify and re-use than hardware, an increasingly large portion of a medical device?s functionality is now being implemented in code. This presents considerable engineering challenges for both device regulators and manufacturers in terms of ensuring the safety and effectiveness of the deployed software.  This NSF-FDA Scholar in Residence project focuses on the use of generic software architecture specifications for medical devices as a path to reducing the complexity of engineering medical device software. For manufacturers, generic device specifications can serve as a base artifact from which concrete implementations may be constructed. For regulators, they represent an artifact that can be modeled and used in evaluating implementations for adherence to a base set of safety requirements.  The primary goals of this project are to explore a generic infusion pump architecture that can be extended to different infusion pump classes while preserving the requisite safety properties in a trustable, verifiable manner. The project explores challenges for developing usable generic device software architecture specifications and for applying them: producing concrete device instances, constructing extended subclasses from the generic architecture while verifying that properties are preserved, and supporting regulators and manufacturers as they evaluate device software conformance to safety architectures.  The research employs model-checking, assertion-based verification, static analysis and reverse engineering to support assurance of safety-critical devices such as the Patient-Controlled Analgesia (PCA) infusion pump.  The aim of the research is to provide an informative pilot study towards adoption of such techniques in device manufacturing workflows and regulatory regimes.  One of the driving goals of this project is to create techniques and approaches that will benefit patients (by increasing device safety), device manufacturers (by helping them cut development costs) and regulators (by enabling them to automate and formalize their regulatory activities).</AbstractNarration>
+<MinAmdLetterDate>12/01/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>12/01/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1041469</AwardID>
+<Investigator>
+<FirstName>Arnab</FirstName>
+<LastName>Ray</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Arnab Ray</PI_FULL_NAME>
+<EmailAddress>arnabray@fc-md.umd.edu</EmailAddress>
+<PI_PHON>2404872914</PI_PHON>
+<NSF_ID>000177424</NSF_ID>
+<StartDate>12/01/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Fraunhofer Center for Experimental Software Engineering</Name>
+<CityName>Riverdale</CityName>
+<ZipCode>207371250</ZipCode>
+<PhoneNumber>3013146070</PhoneNumber>
+<StreetAddress>5700 Rivertech Court</StreetAddress>
+<StreetAddress2><![CDATA[Suite 210]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>116420691</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>FRAUNHOFER USA, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>317938488</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Fraunhofer Center for Experimental Software Engineering]]></Name>
+<CityName>Riverdale</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>207371250</ZipCode>
+<StreetAddress><![CDATA[5700 Rivertech Court]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~79991</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>With advances in clinical science and technology, the medical devices of today are increasingly becoming complex with much of that complexity being implemented in software. This poses a challenge to device manufacturers and regulators alike since checking whether software meets safety requirements is a problem that is fundamentally different from and arguably more complicated than checking whether a device conforms to electrical or material standards. With interconnected devices exchanging data and control information between themselves and patients interacting with devies through smart-phone apps being the future, it is only expected that the software infrastructure of a medical device is going to get even more complicated, difficult to understand and verify.&nbsp;</p> <p>In this funded research, the PI has worked at the Food and Drug Adminstration Campus,&nbsp;under the supervision of Paul Jones at the Center for Diseases and Radiological Health (CDRH) and with the active collaboration of Dr. Yi Zhang and Dr. Raoul Jetley, also of the CDRH. The goal of the project has been to construct a candidate set of reference software artifacts of a generic medical device (i.e. non-manufacturer-specific) that could potentially act as exemplars for the industry. The software artifacts include hazard analysis, safety requirements, models, verification results, architecture documents etc.</p> <p>The intellectual merit of the work can be summarized thus. As part of this work, we have demonstrated how software safety requirements can be obtained from a hazards analysis conducted on a medical device . We have also shown how safety requirements may be formalized into monitor models (mathematical formalisms that may be represented in Simulink), which can then be used to drive automated coverage-based testing of device design models. Another principal contribution of this research has been the identification of &nbsp;a standard reference architecture for a Generic Infusion Pump. Finally, we have performed research on how to construct templates for assurance cases for medical device software. Submitting assurance cases as part of pre-market submissions has been mandated in some device domains. But manufacturers struggle to construct assurance cases mainly because of the absense of standard templates. In our research, we have come up with a candidate standard top-level reasoning template that may be used by manufacturers. Our template uses, as the illustrative example, the Generic Infusion Pump.&nbsp;</p> <p>The broader impacts of our work can be summarized thus. As more and more of its features are being implemented in software, the safety of software (i.e. the guarantee that the software does not harm the patient) is a vital part of the system safety argument. In regulated industries like medical devices, the problem is not just to ensure that the software is safe but also to demonstrate to a third-party (a regulator) that the software is safe. If this demonstration is not done properly, a device's release in market may be delayed, leading to the fruits of medical research not reaching the target population in a timely manner. Our research, which lies at the intersection &nbsp; of software safety, formal methods and regulatory science, not only makes engineering of sofwate safer but also leads to the production of mathematically-well-formed evidence (coverage, assurance cases) of safety, thus providing benefit to public health. As an instructor of a graduate software design and implementation course, the PI has infused the research results into the course. The course project, in fact, is to create a simplified GIP simulator keeping in mind the considerations of safe software engineering.</p><br> <p>            Last Modified: 02/07/2013<br>      Modified by: Arnab&nbsp;Ray</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ With advances in clinical science and technology, the medical devices of today are increasingly becoming complex with much of that complexity being implemented in software. This poses a challenge to device manufacturers and regulators alike since checking whether software meets safety requirements is a problem that is fundamentally different from and arguably more complicated than checking whether a device conforms to electrical or material standards. With interconnected devices exchanging data and control information between themselves and patients interacting with devies through smart-phone apps being the future, it is only expected that the software infrastructure of a medical device is going to get even more complicated, difficult to understand and verify.   In this funded research, the PI has worked at the Food and Drug Adminstration Campus, under the supervision of Paul Jones at the Center for Diseases and Radiological Health (CDRH) and with the active collaboration of Dr. Yi Zhang and Dr. Raoul Jetley, also of the CDRH. The goal of the project has been to construct a candidate set of reference software artifacts of a generic medical device (i.e. non-manufacturer-specific) that could potentially act as exemplars for the industry. The software artifacts include hazard analysis, safety requirements, models, verification results, architecture documents etc.  The intellectual merit of the work can be summarized thus. As part of this work, we have demonstrated how software safety requirements can be obtained from a hazards analysis conducted on a medical device . We have also shown how safety requirements may be formalized into monitor models (mathematical formalisms that may be represented in Simulink), which can then be used to drive automated coverage-based testing of device design models. Another principal contribution of this research has been the identification of  a standard reference architecture for a Generic Infusion Pump. Finally, we have performed research on how to construct templates for assurance cases for medical device software. Submitting assurance cases as part of pre-market submissions has been mandated in some device domains. But manufacturers struggle to construct assurance cases mainly because of the absense of standard templates. In our research, we have come up with a candidate standard top-level reasoning template that may be used by manufacturers. Our template uses, as the illustrative example, the Generic Infusion Pump.   The broader impacts of our work can be summarized thus. As more and more of its features are being implemented in software, the safety of software (i.e. the guarantee that the software does not harm the patient) is a vital part of the system safety argument. In regulated industries like medical devices, the problem is not just to ensure that the software is safe but also to demonstrate to a third-party (a regulator) that the software is safe. If this demonstration is not done properly, a device's release in market may be delayed, leading to the fruits of medical research not reaching the target population in a timely manner. Our research, which lies at the intersection   of software safety, formal methods and regulatory science, not only makes engineering of sofwate safer but also leads to the production of mathematically-well-formed evidence (coverage, assurance cases) of safety, thus providing benefit to public health. As an instructor of a graduate software design and implementation course, the PI has infused the research results into the course. The course project, in fact, is to create a simplified GIP simulator keeping in mind the considerations of safe software engineering.       Last Modified: 02/07/2013       Submitted by: Arnab Ray]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

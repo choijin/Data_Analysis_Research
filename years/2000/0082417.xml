@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>ITR:   Adaptive Protocols for a Distributed Java Virtual Machine</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2000</AwardEffectiveDate>
+<AwardExpirationDate>10/31/2001</AwardExpirationDate>
+<AwardTotalIntnAmount>210000.00</AwardTotalIntnAmount>
+<AwardAmount>137000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Java is a language of growing importance but so far parallelism in Java has been limited to either multi-threading on symmetric multiprocessors (SMP) or distributed computing using Remote Method&lt;br/&gt;Invocation (RMI).  The number and size of Java-based Internet-related applications require more and more parallelism and system scalability.  This proposal addresses the problem of designing memory consistency&lt;br/&gt;protocols for a distributed Java Virtual Machine capable of self-adapting at runtime to different application characteristics. &lt;br/&gt;&lt;br/&gt;The proposed work is divided into five tasks: (1) the definition of the memory consistency model, (2) the development of consistency protocols, (3) the definition of an analytical performance model on which&lt;br/&gt;adaptive protocols are based,  (4) the development of processor allocation algorithms for load balancing, and (5) the evaluation of the system performance using four classes of applications.&lt;br/&gt;&lt;br/&gt;A correct distributed Java Virtual Machine specification must be first defined. The correctness issue is especially important for a distributed shared memory Java Virtual Machine due to the incompatibilities between the Sun specification and distributed memory architectures. Preliminary work indicates that Sun's JVM specification is too strong for DSM architectures. A thorough analysis of the JVMS requirements will produce the set of constraints that have to be relaxed from the original Sun's JVMS to allow an efficient distributed implementation. &lt;br/&gt;&lt;br/&gt;Once a theoretical memory consistency model is established, the next step is to develop consistency protocols. An analytical model is proposed to analyze the application behavior for various protocols. The application profile can be abstracted by the object granularity, temporal locality of accesses, and object access&lt;br/&gt;patterns. A novelty of the proposed work is the mapping of application parameters into protocol parameters using the analytical model parameters: thread creation time, synchronization time, and execution&lt;br/&gt;overhead. These parameters can be estimated analytically and measured.  The correlation between model parameters and adaptive protocols needs to be investigated. It is necessary to develop heuristics that link&lt;br/&gt;parameters with the protocols. &lt;br/&gt;&lt;br/&gt;As part of the preliminary work, a distributed Java Virtual Machine called DISK has been implemented in our network-of-workstations laboratory consisting of sixteen Pentium III computers connected by a&lt;br/&gt;100 Mbps network. DISK currently supports two memory consistency protocols: an invalidate and an update lazy release consistency protocol. &lt;br/&gt;&lt;br/&gt;Several Java-specific applications will be investigated to measure and tune the performance of the adaptive protocols developed. Four different classes of applications from the Internet and knowledge &lt;br/&gt;processing technology will be used as new benchmarks:  (1) client-side I/O intensive applications, (2) server-side I/O intensive applications, (3) computational intensive applications, and&lt;br/&gt;(4) computational and I/O intensive applications. &lt;br/&gt;&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>09/08/2000</MinAmdLetterDate>
+<MaxAmdLetterDate>07/03/2001</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0082417</AwardID>
+<Investigator>
+<FirstName>Dan</FirstName>
+<LastName>Moldovan</LastName>
+<PI_MID_INIT>I</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dan I Moldovan</PI_FULL_NAME>
+<EmailAddress>moldovan@utdallas.edu</EmailAddress>
+<PI_PHON>9728834838</PI_PHON>
+<NSF_ID>000176170</NSF_ID>
+<StartDate>09/08/2000</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Southern Methodist University</Name>
+<CityName>Dallas</CityName>
+<CountyName>DALLAS</CountyName>
+<ZipCode>752750302</ZipCode>
+<PhoneNumber>2147684708</PhoneNumber>
+<StreetAddress>6425 BOAZ</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX32</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001981133</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>SOUTHERN METHODIST UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001981133</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Southern Methodist University]]></Name>
+<CityName>Dallas</CityName>
+<CountyName>DALLAS</CountyName>
+<StateCode>TX</StateCode>
+<ZipCode>752750302</ZipCode>
+<StreetAddress><![CDATA[6425 BOAZ]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX32</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1640</Code>
+<Text>Information Technology Researc</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1658</Code>
+<Text>SOFTWARE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>1660</Code>
+<Text>ITR COMPETITION FOR UNDER $500K</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0100</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>490100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0101</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2000~65646</FUND_OBLG>
+<FUND_OBLG>2001~0</FUND_OBLG>
+</Award>
+</rootTag>

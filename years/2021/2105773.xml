@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: CNS Core: Medium: A Unified Prefetch Framework for Approximation-Tolerant Interactive Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>199999.00</AwardTotalIntnAmount>
+<AwardAmount>199999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Alexander Jones</SignBlockName>
+<PO_EMAI>alejones@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Interactivity is a core requirement for a wide range of user-facing applications, including data visualizations, web search and games.  These user-facing, interactive apps must achieve low latency responses in order to satisfy users, which cannot always be met by waiting for a user's decision before reacting.  An alternative is to pre-fetch data in anticipation of users' choices.  There are several limitations to existing uses of prefetching: (1) it is often developed in an adhoc way for each application, and does not consider all optimization aspects, and (2) they do not explicitly take advantage of the  approximation tolerant nature of many interactive applications.   Approximation tolerance means that users prefer fast but approximated,  over fully correct but slow, results.&lt;br/&gt;&lt;br/&gt;This project designs a General Prefetching Framework called GPF that explicitly decouples prediction and scheduling from the client application.  A configurable prediction model estimates the likelihood of requests at different future time intervals, and a general scheduler uses these predictions to decide which requests to send to the client.  This framework is novel in several ways: (1) rather than explicit requests, the client occasionally offers predictions to the scheduler, which considers network and resource conditions when pushing results to the client, (2) GPF exploits application tolerance to send  partial results for a massive number of candidate requests, rather than full results for a few requests, and (3) GPF dynamically shifts placement of  the predictor and scheduler computation on the client or server based on latency, network, and resource conditions.&lt;br/&gt;&lt;br/&gt;The supporting research brings together performance and scheduling ideas from the networking community with optimization, storage, and interaction ideas from the database and visualization communities.  GPF will integrate and eliminate user-perceived application latency in applications across multiple domains, including data visualization, media players, webpage navigation, vehicular control, and games.  The multidisciplinary research (networking, information visualization, and database systems) will be integrated into courses on data science, databases, networking, and visualization.  Software will be open sourced, and will have significant, long-term impact on the way interactive applications are developed.  The outcomes of the research and education material will be disseminated via workshops, publications, and open-source repositories. These education and outreach plans will further increase participation in this multidisciplinary topic that will lead to the continuing advancement of big data visualization techniques, network scheduling and prioritization designs, and ultimately benefit the increasing number of domains that rely on, or demand, interactive applications to make time critical decisions and discoveries.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>05/12/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>05/12/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2105773</AwardID>
+<Investigator>
+<FirstName>Ravi</FirstName>
+<LastName>Netravali</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ravi Netravali</PI_FULL_NAME>
+<EmailAddress>rnetravali@cs.princeton.edu</EmailAddress>
+<PI_PHON>9084183812</PI_PHON>
+<NSF_ID>000786640</NSF_ID>
+<StartDate>05/12/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Los Angeles</Name>
+<CityName>LOS ANGELES</CityName>
+<ZipCode>900951406</ZipCode>
+<PhoneNumber>3107940102</PhoneNumber>
+<StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+<StreetAddress2><![CDATA[Suite 700]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA33</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>092530369</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, LOS ANGELES</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[UCLA Computer Science Dept.]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900951596</ZipCode>
+<StreetAddress><![CDATA[404 Westwood Plaza, 482 Engr. VI]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA33</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~199999</FUND_OBLG>
+</Award>
+</rootTag>

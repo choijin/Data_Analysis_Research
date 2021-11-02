@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: From Regular Expressions to Nested Words in Complex Event and Semistructured Information Processing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>499999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Frank Olken</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The need for more powerful and efficient query languages to find complex patterns in stored sequences and data streams is shared by a wide spectrum of applications, including software analysis, complex event processing, identification of RNA structures, temporal databases and XML queries. The goal of this project is to develop a unified framework to support very powerful pattern languages and their query optimization techniques for different application domains. To achieve this goal, the project follows the approach of using (i) nested Kleene-closure (K*) constructs to achieve greater levels of expressive power for the query languages, and (ii) Nested Words and Visibly Pushdown Automata as the basis for their unified implementation and query optimization over different application domains. This K*-based approach was previously applied successfully to relational sequences and are now generalized to different computing environments and application domains. Through the unified framework, the project designs and demonstrates XML and temporal query languages that compare favorably in terms of expressive power and performance with existing ones.  It then demonstrates the use of the unified framework in new application areas. In particular, it develops efficient query languages for RNA structures and software analysis. These research results will have great impacts on many applications, such as software analysis, genomic databases, complex event processing, digital government and scientific studies. This project supports Ph.D. students to pursue research in the areas of advanced query languages and data stream management systems. A new graduate-level course covering these areas and integrating the research results from the project are introduced into the curriculum. Publications, technical reports, software and experimental data from this research are available via the project web site at: http://yellowstone.cs.ucla.edu/nsf-projects/RegExpr2NestedWords.html.</AbstractNarration>
+<MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1118107</AwardID>
+<Investigator>
+<FirstName>Carlo</FirstName>
+<LastName>Zaniolo</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Carlo Zaniolo</PI_FULL_NAME>
+<EmailAddress>zaniolo@CS.UCLA.EDU</EmailAddress>
+<PI_PHON>3108258137</PI_PHON>
+<NSF_ID>000451654</NSF_ID>
+<StartDate>08/08/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Los Angeles</Name>
+<CityName>LOS ANGELES</CityName>
+<ZipCode>900951406</ZipCode>
+<PhoneNumber>3107940102</PhoneNumber>
+<StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+<StreetAddress2><![CDATA[Suite 700]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA33</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>092530369</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, LOS ANGELES</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Los Angeles]]></Name>
+<CityName>LOS ANGELES</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900951406</ZipCode>
+<StreetAddress><![CDATA[10889 Wilshire Boulevard]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA33</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~499999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In the original relational &nbsp;data model, &nbsp;the database is viewed as an unordered collection of records, &nbsp; whereby no ordering of input data could be specified &nbsp;when expressing search and query conditions. This simple model ensures better physical data independence and has served &nbsp;well both database users and database management for a very many years, since it entails (i) &nbsp;the expression of powerful queries in high-level set-oriented query languages and (ii) the optimization of such queries into &nbsp;efficient execution plans using the rich repertoire of sophisticated query optimization techniques that is now &nbsp;incorporated in all commercial Data Base Management Systems (DBMS). &nbsp;</p> <p>However, as the use of big databasesbecame more widespread and diversified, it also became clear that more &nbsp;powerful and sophisticated queries are needed, and the original framework must be generalized in ways that maximize benefits while minimizing the complications &nbsp;brought in by such extensions. &nbsp;Now, the ability of treating the input data as ordered sequences of records, rather than as unordered sets, represents a simple but fundamental extension that is critical for many new applications. For instance, &nbsp;recent SQL standards use this generalization to support OLAP analytical functions, which proved essential in decision support. Another important extension was &nbsp;introduced more than a decade ago &nbsp;by the PI and his students who showed &nbsp;that (i) powerful queries on ordered sequences can be expressed in SQL enriched with simple Kleene-closure (K*) constructs, and (ii) powerful query optimization techniques based on extension of the Knuth-Morris-Pratt sequence &nbsp;search algorithm can be used to optimize the execution of K* queries. &nbsp; These ideas are having a significant impact on DBMS and vendors are adding K* constructs into their systems, and &nbsp;into &nbsp;the SQL standards. In the meantime, this PI and his student have been working on important generalizations and enrichment of K* &nbsp;constructs, that are needed &nbsp;to support (a) nested K* expression in queries, and (b) their &nbsp;use to find patterns in semi-structured data sequences of nested structure, including XML documents, software code, and RNA sequences. This has led to (a) the design of powerful nested K* &nbsp;constructs, (b) their efficient support via novel &nbsp;query optimization technique, &nbsp;and (c) their use in advanced applications for (i) searching XML documents, (ii) &nbsp;software analysis and &nbsp; (iii) identification of complex RNA structures. The optimization techniques devised &nbsp;for nested K* queries are of particular technical significance since they are based on &nbsp;the nested world model of finite automata and the use of visibly pushdown automata, which extend the expressive power of finite automata while preserving their desirable computational properties.</p> <p>The advances, achieved in the course of this NSF project, have led to several publications and the development of &nbsp;our Xseq system, which enabled us to demonstrate the high level of performance achieved by the new technology and its effectiveness over a wide range of applications that include software analysis and the search for RNA sequences among many others.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/18/2014<br>      Modified by: Carlo&nbsp;Zaniolo</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In the original relational  data model,  the database is viewed as an unordered collection of records,   whereby no ordering of input data could be specified  when expressing search and query conditions. This simple model ensures better physical data independence and has served  well both database users and database management for a very many years, since it entails (i)  the expression of powerful queries in high-level set-oriented query languages and (ii) the optimization of such queries into  efficient execution plans using the rich repertoire of sophisticated query optimization techniques that is now  incorporated in all commercial Data Base Management Systems (DBMS).    However, as the use of big databasesbecame more widespread and diversified, it also became clear that more  powerful and sophisticated queries are needed, and the original framework must be generalized in ways that maximize benefits while minimizing the complications  brought in by such extensions.  Now, the ability of treating the input data as ordered sequences of records, rather than as unordered sets, represents a simple but fundamental extension that is critical for many new applications. For instance,  recent SQL standards use this generalization to support OLAP analytical functions, which proved essential in decision support. Another important extension was  introduced more than a decade ago  by the PI and his students who showed  that (i) powerful queries on ordered sequences can be expressed in SQL enriched with simple Kleene-closure (K*) constructs, and (ii) powerful query optimization techniques based on extension of the Knuth-Morris-Pratt sequence  search algorithm can be used to optimize the execution of K* queries.   These ideas are having a significant impact on DBMS and vendors are adding K* constructs into their systems, and  into  the SQL standards. In the meantime, this PI and his student have been working on important generalizations and enrichment of K*  constructs, that are needed  to support (a) nested K* expression in queries, and (b) their  use to find patterns in semi-structured data sequences of nested structure, including XML documents, software code, and RNA sequences. This has led to (a) the design of powerful nested K*  constructs, (b) their efficient support via novel  query optimization technique,  and (c) their use in advanced applications for (i) searching XML documents, (ii)  software analysis and   (iii) identification of complex RNA structures. The optimization techniques devised  for nested K* queries are of particular technical significance since they are based on  the nested world model of finite automata and the use of visibly pushdown automata, which extend the expressive power of finite automata while preserving their desirable computational properties.  The advances, achieved in the course of this NSF project, have led to several publications and the development of  our Xseq system, which enabled us to demonstrate the high level of performance achieved by the new technology and its effectiveness over a wide range of applications that include software analysis and the search for RNA sequences among many others.          Last Modified: 11/18/2014       Submitted by: Carlo Zaniolo]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

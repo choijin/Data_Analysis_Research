@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Addressing Fundamental Challenges for Wireless Coverage Service in the TV White Space</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>450883.00</AwardTotalIntnAmount>
+<AwardAmount>450883</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Monisha Ghosh</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project addresses fundamental issues in the White-Cover network which provides data coverage services in the densely populated areas with the TV White Space spectrum. It is motivated by the fact that a White-Cover cell will likely host hundreds of users while supporting highly dynamic data traffic, a scenario beyond the capabilities of existing network protocols. In addition, the White-Cover devices will likely have to coexist in the same channel with heterogeneous devices due to the lack of free TV channels in the densely populated areas. These challenges are addressed by a combination of novel physical layer techniques and advanced machine learning techniques, and the solutions are enhanced by further optimizations. This project studies: 1) efficient physical layer schemes for node state detection with which the transmissions in the cell can be scheduled very efficiently, 2) advanced protocols that adapt to the heterogamous interferences conditions with the reinforcement learning technique, 3) optimized protocol for power consumption and integrated partial packet recovery, and 4) network-wide performance analysis and planning. &lt;br/&gt;&lt;br/&gt;The White-Cover network designed in this project provides a better alternative to the current technologies for the TV White Space. Users may enjoy data coverage at much less cost than from the cellular phone networks and new business may be enabled. The expected results of this project include the protocols and algorithms optimized for the unique features of White-Cover and tested with experiments. The results will be disseminated in conferences and journals; the source code will be freely available online.</AbstractNarration>
+<MinAmdLetterDate>06/25/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>06/25/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1149344</AwardID>
+<Investigator>
+<FirstName>Zhenghao</FirstName>
+<LastName>Zhang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zhenghao Zhang</PI_FULL_NAME>
+<EmailAddress>zzhang@cs.fsu.edu</EmailAddress>
+<PI_PHON>8506445260</PI_PHON>
+<NSF_ID>000178577</NSF_ID>
+<StartDate>06/25/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Florida State University</Name>
+<CityName>TALLAHASSEE</CityName>
+<ZipCode>323064166</ZipCode>
+<PhoneNumber>8506445260</PhoneNumber>
+<StreetAddress>874 Traditions Way, 3rd Floor</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>FL02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>790877419</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>FLORIDA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>159621697</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Florida State University]]></Name>
+<CityName>Tallahassee</CityName>
+<StateCode>FL</StateCode>
+<ZipCode>323064530</ZipCode>
+<StreetAddress><![CDATA[LOV 164]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>FL02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~450883</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project, Zhenghao Zhang investigated problems to support wireless data communications in the TV White Space spectrum. The results include: the Analog Bloom Filter (ABF), a novel code called mEEC to estimate the number of errors in a received packet, a method called jMax to secure wireless communications without using passwords, as well as other results, such as the coexistence of different wireless technologies and user authentication in wireless networks.&nbsp;&nbsp;<br />&nbsp;<br />The most important outcome of this project is ABF, because it solves a classic problem in wireless networks nearly optimally, especially for networks of medium or large size that are expected for TV White Space networks and cellular networks. Therefore, ABF is expected to be adopted by such networks in the future to meet the ever increasing demands in latency and throughput. To elaborate, in a centralized wireless network, a base station may be associated with many user devices, and dictates the transmission schedule, i.e., which devices should transmit, at what time, for how long, etc. Clearly, the base station needs to know the identities of active devices, i.e., devices that have data to send. However, learning such information may incur very high overhead, because it is infeasible to query all devices one by one. With ABF, the base station just need to periodically set aside some time to issue an ABF query, after which all active devices respond simultaneously. The base station can run an algorithm to determine the identities of the responded devices based on the received signal. ABF is very efficient because the query and query response are very short messages, but can allow the base station to learn key information to schedule the data transmission. At a more technical level, with ABF, a device transmits multiple bases, where a base can be an OFDM subcarriers or a Zadoff-Chu sequence. The key novelty of ABF is to transmit multiple bases, while other solutions, such as the LTE PRACH, transmits only one base. With more bases, the error due to collision is actually lower, when the number of associated devices is high but the number of active devices is low, which is likely to be true in most networks.&nbsp; A version of ABF has been implemented on Microsoft SORA software-defined radio and has been experimentally proven to outperform existing solutions significantly. A protocol is implemented based on ABF and has been shown to achieve data rate more than 75% of the physical layer data rate, even under very challenging data traffic, in which many devices alternate between the active node and the idle mode, with many small data packets such as 40 bytes.&nbsp;&nbsp;</p> <p>Another main contribution is mEEC, which is an Error Estimation Code (EEC) and can be used to estimate the number of errors in a packet transmitted over a wireless channel. Typically, such packets do not have a lot of errors, and knowing the numbers of errors will allow the wireless transmitter to use the most efficient method to fix the errors, such as transmitting just enough number of parity bits, instead of retransmitting the entire packet. The main innovation of mEEC is to introduce a novel multi-dimensional feature and a color assignment as the code. The evaluation shows that mEEC achieves smaller estimation errors than the state of art on metrics such as the relative mean squared error, on average by more than 10%-20% depending on the packet sizes, sometimes as high as over 40%, while enjoying less bias.&nbsp;</p> <p>Privacy has become a major concern in wireless networks, especially in networks with weak or no password protection, such as some hotel Wi-Fi or airport Wi-Fi networks that have no or just a common password. Our solution, jMax, improves the security by sending friendly jamming signals to thwart the reception of the eavesdropper, because it introduces jamming power at the eavesdropper, but cancels the jamming power at the legitimate receiver. To achieve this, jMax uses multiple sets of parameters in a round-robin manner, and the eavesdropper is guaranteed to receive some large jamming power during some part of the packet reception. Based on real-world wireless channel collected with the Intel 5300 wireless card and the packet decoding program of the Microsoft Sora Software-Defined Radio, jMax achieves significant gains over other approaches, measured by the fraction of jammed packets.</p> <p>This Project Outcomes Report for the General Public is displayed verbatim as submitted by the Principal Investigator (PI) for this award. Any opinions, findings, and conclusions or recommendations expressed in this Report are those of the PI and do not necessarily reflect the views of the National Science Foundation; NSF has not approved or endorsed its content.</p><br> <p>            Last Modified: 10/23/2018<br>      Modified by: Zhenghao&nbsp;Zhang</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244324893_finalreport_fig_ABF--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244324893_finalreport_fig_ABF--rgov-800width.jpg" title="finalreport_ABF"><img src="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244324893_finalreport_fig_ABF--rgov-66x44.jpg" alt="finalreport_ABF"></a> <div class="imageCaptionContainer"> <div class="imageCaption">An illustration of Analog Bloom filter (ABF) and an efficient data communication protocol based on ABF</div> <div class="imageCredit">Zhenghao Zhang</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Zhenghao&nbsp;Zhang</div> <div class="imageTitle">finalreport_ABF</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244383263_finalreport_fig_mEEC--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244383263_finalreport_fig_mEEC--rgov-800width.jpg" title="finalreport_mEEC"><img src="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244383263_finalreport_fig_mEEC--rgov-66x44.jpg" alt="finalreport_mEEC"></a> <div class="imageCaptionContainer"> <div class="imageCaption">An illustration of mEEC</div> <div class="imageCredit">Zhenghao Zhang</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Zhenghao&nbsp;Zhang</div> <div class="imageTitle">finalreport_mEEC</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244438725_finalreport_fig_jMax--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244438725_finalreport_fig_jMax--rgov-800width.jpg" title="finalreport_jMax"><img src="/por/images/Reports/POR/2018/1149344/1149344_10183973_1540244438725_finalreport_fig_jMax--rgov-66x44.jpg" alt="finalreport_jMax"></a> <div class="imageCaptionContainer"> <div class="imageCaption">An illustration of jMax</div> <div class="imageCredit">Zhenghao Zhang</div> <div class="imageSubmitted">Zhenghao&nbsp;Zhang</div> <div class="imageTitle">finalreport_jMax</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project, Zhenghao Zhang investigated problems to support wireless data communications in the TV White Space spectrum. The results include: the Analog Bloom Filter (ABF), a novel code called mEEC to estimate the number of errors in a received packet, a method called jMax to secure wireless communications without using passwords, as well as other results, such as the coexistence of different wireless technologies and user authentication in wireless networks.     The most important outcome of this project is ABF, because it solves a classic problem in wireless networks nearly optimally, especially for networks of medium or large size that are expected for TV White Space networks and cellular networks. Therefore, ABF is expected to be adopted by such networks in the future to meet the ever increasing demands in latency and throughput. To elaborate, in a centralized wireless network, a base station may be associated with many user devices, and dictates the transmission schedule, i.e., which devices should transmit, at what time, for how long, etc. Clearly, the base station needs to know the identities of active devices, i.e., devices that have data to send. However, learning such information may incur very high overhead, because it is infeasible to query all devices one by one. With ABF, the base station just need to periodically set aside some time to issue an ABF query, after which all active devices respond simultaneously. The base station can run an algorithm to determine the identities of the responded devices based on the received signal. ABF is very efficient because the query and query response are very short messages, but can allow the base station to learn key information to schedule the data transmission. At a more technical level, with ABF, a device transmits multiple bases, where a base can be an OFDM subcarriers or a Zadoff-Chu sequence. The key novelty of ABF is to transmit multiple bases, while other solutions, such as the LTE PRACH, transmits only one base. With more bases, the error due to collision is actually lower, when the number of associated devices is high but the number of active devices is low, which is likely to be true in most networks.  A version of ABF has been implemented on Microsoft SORA software-defined radio and has been experimentally proven to outperform existing solutions significantly. A protocol is implemented based on ABF and has been shown to achieve data rate more than 75% of the physical layer data rate, even under very challenging data traffic, in which many devices alternate between the active node and the idle mode, with many small data packets such as 40 bytes.    Another main contribution is mEEC, which is an Error Estimation Code (EEC) and can be used to estimate the number of errors in a packet transmitted over a wireless channel. Typically, such packets do not have a lot of errors, and knowing the numbers of errors will allow the wireless transmitter to use the most efficient method to fix the errors, such as transmitting just enough number of parity bits, instead of retransmitting the entire packet. The main innovation of mEEC is to introduce a novel multi-dimensional feature and a color assignment as the code. The evaluation shows that mEEC achieves smaller estimation errors than the state of art on metrics such as the relative mean squared error, on average by more than 10%-20% depending on the packet sizes, sometimes as high as over 40%, while enjoying less bias.   Privacy has become a major concern in wireless networks, especially in networks with weak or no password protection, such as some hotel Wi-Fi or airport Wi-Fi networks that have no or just a common password. Our solution, jMax, improves the security by sending friendly jamming signals to thwart the reception of the eavesdropper, because it introduces jamming power at the eavesdropper, but cancels the jamming power at the legitimate receiver. To achieve this, jMax uses multiple sets of parameters in a round-robin manner, and the eavesdropper is guaranteed to receive some large jamming power during some part of the packet reception. Based on real-world wireless channel collected with the Intel 5300 wireless card and the packet decoding program of the Microsoft Sora Software-Defined Radio, jMax achieves significant gains over other approaches, measured by the fraction of jammed packets.  This Project Outcomes Report for the General Public is displayed verbatim as submitted by the Principal Investigator (PI) for this award. Any opinions, findings, and conclusions or recommendations expressed in this Report are those of the PI and do not necessarily reflect the views of the National Science Foundation; NSF has not approved or endorsed its content.       Last Modified: 10/23/2018       Submitted by: Zhenghao Zhang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

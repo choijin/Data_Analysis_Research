@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Algorithms for Complex Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>179802.00</AwardTotalIntnAmount>
+<AwardAmount>179802</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Complex systems arise in many scientific problems. They are high dimensional structures, comprised of many locally interacting agents, with emergent phenomena often occurring at multiple length and time scales. Such systems have global structural and dynamical properties that are usually impossible to determine exactly. Instead, these properties must be estimated by computer experiment and simulation. Unfortunately, due to the size and multiscale effects in complex systems, straightforward algorithms are often too slow. Thus, fast algorithm design, along with a rigorous study of accuracy, is crucial. This research project focuses on designing, improving, and quantifying the error of state-of-the-art algorithms for complex systems. Potential applications include a wide range of problems arising in materials science, computational chemistry, and solid-state physics. In particular, the methods studied could help pave the way for cheap and efficient in silico drug design. &lt;br/&gt;&lt;br/&gt;The principal investigator will analyze state-of-the-art algorithms using a mixture of rigorous mathematical analysis and computer experiment. An important application will be the efficient simulation of metastable systems, in which the system dynamics tend to remain for very long times in certain subsets of state space. Such systems are widespread in molecular dynamics, an increasingly important tool in computational chemistry. In molecular dynamics, metastability arises from the well-known time scale problem: atomic vibrations occur on a time scale much smaller than that of thermally activated reactions and other interesting dynamical events. For this reason, it is usually impossible to observe the most interesting aspects of the dynamics by direct atomistic simulations. For metastable dynamics, many approximate simulation methods serve as alternatives to direct atomistic simulation, but they are limited by applicability and accuracy. The project will focus on several methods for overcoming metastability, including the parallel replica method, milestoning, and kinetic Monte Carlo. The PI will introduce a mathematical framework for generalizing these algorithms, based largely on the quasi-stationary distribution, a mathematical object that encodes metastability. The PI will show how the more general framework leads to new applications, including more efficient simulation of Markov State Models and glasses. Moreover, the PI will use this framework to pursue rigorous error estimates, which are crucial for extracting quantitative information from simulations.</AbstractNarration>
+<MinAmdLetterDate>08/13/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/13/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1522398</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Aristoff</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David Aristoff</PI_FULL_NAME>
+<EmailAddress>aristoff@rams.colostate.edu</EmailAddress>
+<PI_PHON>9704916355</PI_PHON>
+<NSF_ID>000688007</NSF_ID>
+<StartDate>08/13/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Colorado State University</Name>
+<CityName>Fort Collins</CityName>
+<ZipCode>805232002</ZipCode>
+<PhoneNumber>9704916355</PhoneNumber>
+<StreetAddress>601 S Howes St</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CO02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>785979618</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>COLORADO STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>948905492</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Colorado State University]]></Name>
+<CityName>Fort Collins</CityName>
+<StateCode>CO</StateCode>
+<ZipCode>805214593</ZipCode>
+<StreetAddress><![CDATA[200 W. Lake St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CO02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~179802</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The findings of this proposal represent a step towards the long-term goal of making molecular dynamics simulation on large scales practical. Achieving this goal would likely lead to huge advancements in medicine, materials design and other fields in which physical experiments can be expensive, dangerous or simply time-consuming. Computer simulations are an attractive alternative once hardware, software, and algorithm optimization become sufficiently advanced. We have not yet reached this point, since the simulation time scales accessible by computer simulations, even with the most powerful computers, are still many orders of magnitude smaller than the simulation times needed to observe many important physical events. Physical events of interest include protein binding and unbinding, for instance the binding of a drug to a protein, which leads to the drug having either the desired effect or an unwanted side effect, depending on the type of protein. The time scale gap just mentioned arises from the fact that an important event, like protein binding, usually only occurs after a rare sequence of protein conformations or chemical reactions, which can take a very large amount of simulation time. The findings in this proposal should improve this situation from the algorithmic and software side. Indeed this proposal focuses mainly on the algorithmic aspects, with accompanying software only in the prototype stage, though the scientists involved plan to bring the software to a practically usable stage within the next few years.&nbsp;</p> <p><br />In the short term, the findings of this proposal should be of interest to practitioners in applied fields like materials science and computational chemistry, as well as in more "pure" fields including statistics, Monte Carlo methods, and importance sampling. The major findings of this project concern optimizing the implementation, extending the scope, and analyzing the error of sampling algorithms in various scientific fields, particularly computational chemistry. Our main contributions are threefold. First, we have shown how to optimize algorithms that are already well-established in the community, such as weighted ensemble. Second, we have shown how to extend well-known algorithms, like the parallel replica dynamics, to novel situations and to new molecular dynamics models including the recently fashionable piecewise deterministic Markovian dynamics. And third, with the error analyses we have carried out, practitioners should be able to rigorously validate simulation results and more confidently extrapolate quantitative information. Data without error estimates is not meaningful, and our mathematical error analyses and variance reduction methods should lead to smaller and better error bars. Moreover, the general mathematical framework we have proposed provides a foundation for further error analysis, and could also help pave the way for more algorithms.&nbsp;</p><br> <p>            Last Modified: 10/29/2019<br>      Modified by: David&nbsp;Aristoff</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The findings of this proposal represent a step towards the long-term goal of making molecular dynamics simulation on large scales practical. Achieving this goal would likely lead to huge advancements in medicine, materials design and other fields in which physical experiments can be expensive, dangerous or simply time-consuming. Computer simulations are an attractive alternative once hardware, software, and algorithm optimization become sufficiently advanced. We have not yet reached this point, since the simulation time scales accessible by computer simulations, even with the most powerful computers, are still many orders of magnitude smaller than the simulation times needed to observe many important physical events. Physical events of interest include protein binding and unbinding, for instance the binding of a drug to a protein, which leads to the drug having either the desired effect or an unwanted side effect, depending on the type of protein. The time scale gap just mentioned arises from the fact that an important event, like protein binding, usually only occurs after a rare sequence of protein conformations or chemical reactions, which can take a very large amount of simulation time. The findings in this proposal should improve this situation from the algorithmic and software side. Indeed this proposal focuses mainly on the algorithmic aspects, with accompanying software only in the prototype stage, though the scientists involved plan to bring the software to a practically usable stage within the next few years.    In the short term, the findings of this proposal should be of interest to practitioners in applied fields like materials science and computational chemistry, as well as in more "pure" fields including statistics, Monte Carlo methods, and importance sampling. The major findings of this project concern optimizing the implementation, extending the scope, and analyzing the error of sampling algorithms in various scientific fields, particularly computational chemistry. Our main contributions are threefold. First, we have shown how to optimize algorithms that are already well-established in the community, such as weighted ensemble. Second, we have shown how to extend well-known algorithms, like the parallel replica dynamics, to novel situations and to new molecular dynamics models including the recently fashionable piecewise deterministic Markovian dynamics. And third, with the error analyses we have carried out, practitioners should be able to rigorously validate simulation results and more confidently extrapolate quantitative information. Data without error estimates is not meaningful, and our mathematical error analyses and variance reduction methods should lead to smaller and better error bars. Moreover, the general mathematical framework we have proposed provides a foundation for further error analysis, and could also help pave the way for more algorithms.        Last Modified: 10/29/2019       Submitted by: David Aristoff]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Enabling Multidisciplinary Design Optimization: Inexact-Newton-Krylov and the Individual-Discipline-Feasible Formulation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>303037.00</AwardTotalIntnAmount>
+<AwardAmount>303037</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07030000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CMMI</Abbreviation>
+<LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rich Malak</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project is investigating matrix-free Newton-Krylov algorithms as a means of solving multidisciplinary design optimization  problems.  More precisely, we are exploring the use of matrix-free algorithms to solve simulation-based design optimization problems in a modular way.  Modularity is attractive for these problems because many legacy software libraries already exist that can analyze and optimize problems involving a single discipline, for example fluid dynamics.  In contrast, few libraries are available that can analyze complex multidisciplinary systems, let alone optimize them.  To achieve a modular approach, we have adopted the so-called individual-discipline-feasible (IDF) formulation.  Historically, the IDF formulation has been limited by the need to form computationally expensive matrices demanded by conventional optimization algorithms.  This motivates our investigation of Newton-Krylov algorithms, which will enable a scalable and matrix-free implementation of IDF.&lt;br/&gt;&lt;br/&gt;Engineering systems governed by complex multi-physics are challenging to design, because they often exhibit subtle tradeoffs and defy our intuition.  When the physics are modeled accurately with high-fidelity simulations, numerical optimization can help guide and inform the design of complex engineering systems.  By showing that matrix-free Newton-Krylov methods can be used to efficiently solve IDF-formulated problems, this project promises to make high-fidelity design optimization more tractable and easier to implement for industrial practitioners.  This makes powerful optimization tools more useful to designers, leading to improved products and processes that benefit society; examples include aircraft with lower emissions, more efficient power plants, and better artificial hearts.  Such tools can also streamline the design process, which would improve the economic competitiveness of domestic industries.</AbstractNarration>
+<MinAmdLetterDate>07/18/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>07/18/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1332819</AwardID>
+<Investigator>
+<FirstName>Jason</FirstName>
+<LastName>Hicken</LastName>
+<PI_MID_INIT>E</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jason E Hicken</PI_FULL_NAME>
+<EmailAddress>hickej2@rpi.edu</EmailAddress>
+<PI_PHON>5182764893</PI_PHON>
+<NSF_ID>000631172</NSF_ID>
+<StartDate>07/18/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Rensselaer Polytechnic Institute</Name>
+<CityName>Troy</CityName>
+<ZipCode>121803522</ZipCode>
+<PhoneNumber>5182766000</PhoneNumber>
+<StreetAddress>110 8TH ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY20</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002430742</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RENSSELAER POLYTECHNIC INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002430742</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Rensselaer Polytechnic Institute]]></Name>
+<CityName/>
+<StateCode>NY</StateCode>
+<ZipCode>121803522</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY20</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1464</Code>
+<Text>ESD-Eng &amp; Systems Design</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>067E</Code>
+<Text>DESIGN TOOLS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>068E</Code>
+<Text>DESIGN THEORY</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>073E</Code>
+<Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~303037</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Many complex engineering systems depend on interacting physical phenomena.&nbsp; For example, the performance of an aircraft depends on how its structure responds to aerodynamic loads and vice versa.&nbsp; It is important to account for such interactions during the design process in order to obtain the best possible performance from these multidisciplinary systems.&nbsp; &nbsp;One way to do accomplish this is by modeling the system using coupled, discipline-specific simulations and optimizing the design parameters based on this model.&nbsp; This powerful approach is called multidisciplinary design optimization (MDO).</p> <p><br />One of the challenges of applying MDO in practice is that specialized analysis tools have evolved for each engineering discipline more or less independently; for example, computational fluid dynamics for flow analysis and finite-element methods for structural analysis.&nbsp; Coupling these disparate software components in order to analyze, let alone optimize, multidisciplinary systems is often a difficult, time-consuming task.&nbsp; Motivated by this challenge, researchers in the early '90s proposed an MDO framework called individual discipline feasible, or IDF.&nbsp; The IDF framework achieves a modular approach to MDO by effectively compartmentalizing the analysis tools while still capturing their physical interactions.</p> <p><br />Despite its promise, the IDF approach to MDO has never found widespread use.&nbsp; One reason is that the IDF framework introduces many additional optimization variables and constraints that most numerical optimization algorithms cannot cope with.&nbsp; Consequently, engineers who need to design and optimize complex systems have had to make do with either less modular or less effective MDO frameworks.</p> <p><br />To enable the modular solution of MDO problems, we investigated a novel optimization algorithm for the IDF framework.&nbsp; The algorithm, which is based on the Newton-Krylov method, was chosen because it offers a matrix-free solution strategy.&nbsp; Our hypothesis was that, by employing a matrix-free strategy, the algorithm would be able to handle the many additional variables and constraints introduced by the IDF framework.&nbsp; This hypothesis has been confirmed.</p> <p><br />The project technical outcomes are summarized below.</p> <ul> <li>The Newton-Krylov method can be used to efficiently solve MDO problems posed in the IDF framework. The matrix-vector products required by the Newton-Krylov method can be obtained in a modular way using second-order adjoints.</li> <li>The Krylov iterative method should be modified to avoid convergence to stationary points that are not minimizers.&nbsp; To this end, a novel Krylov iterative method was created that solves an augmented-Lagrangian penalty in the Krylov reduced space.</li> <li>An effective and matrix-free preconditioner is critical to the success of applying the Newton-Krylov method to IDF-posed problems: without a preconditioner the iterative solution of the primal-dual system produced by IDF is impractical.</li> <li>An excellent preconditioner can be constructed based on approximately inverting the IDF-coupling-constraint Jacobian.&nbsp; The proposed preconditioner was found to be effective on a range of problems (both diffusion-dominated and advection-dominated) and problem sizes (100 coupling variables to almost 10000 coupling variables).</li> <li>The IDF-coupling-constraint Jacobian is surprisingly well conditioned.&nbsp; For example, it can be solved iteratively with only 3-5 iterations of a Krylov iterative method independent of the problem size.</li> </ul> <p>In addition to the above technical outcomes, the project has supported the doctoral training of Alp Dener.</p> <p><br />In conclusion, this project has produced an algorithm capable of efficiently solving MDO problems in a modular way.&nbsp; This, in turn, has the potential to enable broader and more effective use of MDO during the design process, which can then lead to better products and reduced costs.</p><br> <p>            Last Modified: 10/30/2017<br>      Modified by: Jason&nbsp;E&nbsp;Hicken</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Many complex engineering systems depend on interacting physical phenomena.  For example, the performance of an aircraft depends on how its structure responds to aerodynamic loads and vice versa.  It is important to account for such interactions during the design process in order to obtain the best possible performance from these multidisciplinary systems.   One way to do accomplish this is by modeling the system using coupled, discipline-specific simulations and optimizing the design parameters based on this model.  This powerful approach is called multidisciplinary design optimization (MDO).   One of the challenges of applying MDO in practice is that specialized analysis tools have evolved for each engineering discipline more or less independently; for example, computational fluid dynamics for flow analysis and finite-element methods for structural analysis.  Coupling these disparate software components in order to analyze, let alone optimize, multidisciplinary systems is often a difficult, time-consuming task.  Motivated by this challenge, researchers in the early '90s proposed an MDO framework called individual discipline feasible, or IDF.  The IDF framework achieves a modular approach to MDO by effectively compartmentalizing the analysis tools while still capturing their physical interactions.   Despite its promise, the IDF approach to MDO has never found widespread use.  One reason is that the IDF framework introduces many additional optimization variables and constraints that most numerical optimization algorithms cannot cope with.  Consequently, engineers who need to design and optimize complex systems have had to make do with either less modular or less effective MDO frameworks.   To enable the modular solution of MDO problems, we investigated a novel optimization algorithm for the IDF framework.  The algorithm, which is based on the Newton-Krylov method, was chosen because it offers a matrix-free solution strategy.  Our hypothesis was that, by employing a matrix-free strategy, the algorithm would be able to handle the many additional variables and constraints introduced by the IDF framework.  This hypothesis has been confirmed.   The project technical outcomes are summarized below.  The Newton-Krylov method can be used to efficiently solve MDO problems posed in the IDF framework. The matrix-vector products required by the Newton-Krylov method can be obtained in a modular way using second-order adjoints. The Krylov iterative method should be modified to avoid convergence to stationary points that are not minimizers.  To this end, a novel Krylov iterative method was created that solves an augmented-Lagrangian penalty in the Krylov reduced space. An effective and matrix-free preconditioner is critical to the success of applying the Newton-Krylov method to IDF-posed problems: without a preconditioner the iterative solution of the primal-dual system produced by IDF is impractical. An excellent preconditioner can be constructed based on approximately inverting the IDF-coupling-constraint Jacobian.  The proposed preconditioner was found to be effective on a range of problems (both diffusion-dominated and advection-dominated) and problem sizes (100 coupling variables to almost 10000 coupling variables). The IDF-coupling-constraint Jacobian is surprisingly well conditioned.  For example, it can be solved iteratively with only 3-5 iterations of a Krylov iterative method independent of the problem size.   In addition to the above technical outcomes, the project has supported the doctoral training of Alp Dener.   In conclusion, this project has produced an algorithm capable of efficiently solving MDO problems in a modular way.  This, in turn, has the potential to enable broader and more effective use of MDO during the design process, which can then lead to better products and reduced costs.       Last Modified: 10/30/2017       Submitted by: Jason E Hicken]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

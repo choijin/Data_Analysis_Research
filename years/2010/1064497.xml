@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Medium: A Code-Centric Approach to Specifying, Checking, and Discovering Shared-Memory Communication</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>901206.00</AwardTotalIntnAmount>
+<AwardAmount>901206</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project aims to improve the practice of shared-memory concurrent programming by exploring a fundamentally new way to specify, verify, test, and monitor how threads communicate via memory.  Shared-memory concurrency has become an increasingly important style of programming because it is a common way to utilize multicore processors, i.e., machines where there is more than one processing core, and desktops, laptops, servers, and even mobile devices are increasingly multicore. Shared-memory concurrency is widely recognized as difficult and error-prone, and much prior work has aimed to detect bugs related to this style automatically.  This project complements prior work by focusing on application-specific specifications in terms of how different parts of the code-base use concurrency to communicate, rather than focusing on how individual pieces of data are used.  This approach aims to improve the quality of software used throughout society, to improve the productivity of software developers and testers, and to influence how students are taught concurrent programming.&lt;br/&gt;&lt;br/&gt;At the heart of the approach is a communication graph in which the nodes are program points and the edges indicate communication via shared memory. That is, for each edge, the code that the source node represents performs a write in one thread that is subsequently read in another thread by the code that the target node represents. Such graphs can form the foundation for conceptual and intellectual tools useful throughout the development and maintenance of software, including specifications (declarations of what communication is allowed), static checking (program analysis to infer possible communication), dynamic checking (efficient run-time communication monitoring), testing (design/evaluation of a test-suite in terms of communication coverage), and automatic anomaly detection and bug isolation (in terms of unexpected communication) for deployed software.  This project is developing and evaluating tools inspired by this foundation, leveraging synergies across the execution stack, including work on computer architecture, run-time systems, compilers, programming languages, automatic testing, and static analysis.</AbstractNarration>
+<MinAmdLetterDate>07/28/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>06/13/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1064497</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Grossman</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel J Grossman</PI_FULL_NAME>
+<EmailAddress>djg@cs.washington.edu</EmailAddress>
+<PI_PHON>2066161124</PI_PHON>
+<NSF_ID>000400274</NSF_ID>
+<StartDate>07/28/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Luis</FirstName>
+<LastName>Ceze</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Luis Ceze</PI_FULL_NAME>
+<EmailAddress>luisceze@cs.washington.edu</EmailAddress>
+<PI_PHON>2065431896</PI_PHON>
+<NSF_ID>000083036</NSF_ID>
+<StartDate>07/28/2011</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981950001</ZipCode>
+<StreetAddress><![CDATA[4333 Brooklyn Ave NE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~588856</FUND_OBLG>
+<FUND_OBLG>2013~312350</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>Accomplishments:</strong></p> <p>This project aimed at making concurrent programming (when multiple threads use shared resources such as memory) easier by developing better tools, libraries, and techniques for identifying how different pieces of a software project use shared resources.&nbsp; Our novel approach is to focus on the code points that communicate more than on locking protocols or critical sections. We have pushed the notion of shared memory in several novel directions, including: (1) toward systems where datasets cannot reside in one machine's memory; (2) toward systems where memory is not perfect (bits may flip for data where software can tolerate such imprecision); (3) toward systems with bugs in which dynamic configuration updates and other changes to external resources; and (4) toward avoiding security-critical time-of-check-to-time-of-use bugs in event-based mobile applications.</p> <p>&nbsp;</p> <p><strong>Major Activities:</strong></p> <p>Because the best approaches can depend on the problem domain, we pursued several complementary directions.&nbsp; For computations over large-scale data, we developed a system for distributing memory across multiple machines withough unduly sacrificing performance or programmability.&nbsp; For computations where data races can make the program incorrect, we developed novel bug-detection tools. &nbsp;Conversely, we showed how assuming data-race freedom can enable additional compiler optimizations.&nbsp; We also showed how thread schedules can be controlled to avoid errors by sticking to schedules that have already been tested.&nbsp; For mobile applications, we developed an implementation of security that is less error-prone than conventional methods.&nbsp; Finally, we showed how to extend the notion of consistent uses of shared resources to the setting where external configuration values are updated while a program is running.</p> <p>&nbsp;</p> <p><strong>Training and Professional Development:</strong></p> <p>Five different graudate students who contributed to this research project received their PhDs to date with another five students still in graduate school.&nbsp; Of the five graduates, three entered industry and two took academic positions.</p> <p>&nbsp;</p> <p><strong>Results Dissemination:</strong></p> <p>We published papers in several research conferences: OOPSLA 2012, ASPLOS 2013, OOPSLA 2014, USENIX ATC 2014 (receiving a best-paper award), ASPLOS 2015, OOPSLA 2015, POPL 2016, ECOOP 2016, CCS2016.&nbsp; We also made several of our software systems publicly available, including systems for: (1) managing large-scale computations where datasets cannot reside in one machine's memory, (2) a dynamic analysis for detecting software errors related to configuration updates, (3) a library for Android applications that can enforce user-driven access control, (4) a dynamic analysis for estimating the performance benefits and debugging issues of (only) approximating the correct answer, (5) a compiler for approximate programs that integrates into the widely used LLVM tool-chain.</p> <p>&nbsp;</p> <p><strong>Impacts:</strong></p> <p>Concurrency errors are notoriously problematic for software quality and are known to be difficult to avoid or even debug.&nbsp; We developed a range of novel analyses and libraries to make this essential aspect of software development easier.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/15/2016<br>      Modified by: Luis&nbsp;Ceze</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Accomplishments:  This project aimed at making concurrent programming (when multiple threads use shared resources such as memory) easier by developing better tools, libraries, and techniques for identifying how different pieces of a software project use shared resources.  Our novel approach is to focus on the code points that communicate more than on locking protocols or critical sections. We have pushed the notion of shared memory in several novel directions, including: (1) toward systems where datasets cannot reside in one machine's memory; (2) toward systems where memory is not perfect (bits may flip for data where software can tolerate such imprecision); (3) toward systems with bugs in which dynamic configuration updates and other changes to external resources; and (4) toward avoiding security-critical time-of-check-to-time-of-use bugs in event-based mobile applications.     Major Activities:  Because the best approaches can depend on the problem domain, we pursued several complementary directions.  For computations over large-scale data, we developed a system for distributing memory across multiple machines withough unduly sacrificing performance or programmability.  For computations where data races can make the program incorrect, we developed novel bug-detection tools.  Conversely, we showed how assuming data-race freedom can enable additional compiler optimizations.  We also showed how thread schedules can be controlled to avoid errors by sticking to schedules that have already been tested.  For mobile applications, we developed an implementation of security that is less error-prone than conventional methods.  Finally, we showed how to extend the notion of consistent uses of shared resources to the setting where external configuration values are updated while a program is running.     Training and Professional Development:  Five different graudate students who contributed to this research project received their PhDs to date with another five students still in graduate school.  Of the five graduates, three entered industry and two took academic positions.     Results Dissemination:  We published papers in several research conferences: OOPSLA 2012, ASPLOS 2013, OOPSLA 2014, USENIX ATC 2014 (receiving a best-paper award), ASPLOS 2015, OOPSLA 2015, POPL 2016, ECOOP 2016, CCS2016.  We also made several of our software systems publicly available, including systems for: (1) managing large-scale computations where datasets cannot reside in one machine's memory, (2) a dynamic analysis for detecting software errors related to configuration updates, (3) a library for Android applications that can enforce user-driven access control, (4) a dynamic analysis for estimating the performance benefits and debugging issues of (only) approximating the correct answer, (5) a compiler for approximate programs that integrates into the widely used LLVM tool-chain.     Impacts:  Concurrency errors are notoriously problematic for software quality and are known to be difficult to avoid or even debug.  We developed a range of novel analyses and libraries to make this essential aspect of software development easier.          Last Modified: 11/15/2016       Submitted by: Luis Ceze]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

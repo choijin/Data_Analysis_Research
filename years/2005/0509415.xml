@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR----SMA Modular Pluggable Program Analyses</AwardTitle>
+<AwardEffectiveDate>10/01/2005</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2009</AwardExpirationDate>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Mohamed G. Gouda</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Developers of program analyses today face an uncomfortable choice: produce a precise analysis that can extract or verify quite sophisticated properties (but fails to scale to large programs) or produce an efficient analysis that scales well (but extracts or verifies only very basic properties). The unfortunate consequence is that the potential benefits of precise program analysis (detecting programming errors, verifying that the program preserves its data structure consistency properties, enhanced ability to extract meaningful design information, etc.) are currently denied to the large programs that need them the most.&lt;br/&gt;&lt;br/&gt;The project will pursue a new approach that enables the focused application of multiple analyses to different instantiable modules in the same program, with each analysis applied to the modules for which it is most appropriate. Each module encapsulates one or more data structures and uses membership in abstract sets to specify how the actions of each module affect the participation of objects in its data structures. Each analysis verifies that the implementation of the analyzed module 1) preserves important internal data structure representation invariants and 2) conforms to a specification that uses formulas in a set algebra to characterize the effects of operations on the data structure.  Each analysis will use an abstraction function to establish the connection between the concrete data structure implementation and abstract set membership. This abstraction function enables the analysis to translate the set membership properties of objects that cross module boundaries back into concrete data structure properties within the module. These properties are crucial to verifying that the data structures remain consistent and that each module correctly implements its abstract set interface.&lt;br/&gt;&lt;br/&gt;Systems often have consistency properties that involve multiple modules. For example, a system may require the sets of objects that participate in two given modules to be disjoint. Because these properties involve objects shared across multiple modules, different analyses must somehow interoperate if they are to successfully verify the property. In the  approaches pursued here , these kinds of invariants are expressed using a boolean algebra of abstract set inclusion properties and locally verified at the appropriate program points by each analysis. This approach therefore eliminates the need to apply complex (and potentially unscalable) analyses across large regions of the program.</AbstractNarration>
+<MinAmdLetterDate>06/29/2005</MinAmdLetterDate>
+<MaxAmdLetterDate>08/04/2008</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0509415</AwardID>
+<Investigator>
+<FirstName>Martin</FirstName>
+<LastName>Rinard</LastName>
+<EmailAddress>rinard@lcs.mit.edu</EmailAddress>
+<StartDate>06/29/2005</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7354</Code>
+<Text>Computer Systems Research (CSR</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>2884</Code>
+<Text>NEXT GENERATION SOFTWARE PROGR</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

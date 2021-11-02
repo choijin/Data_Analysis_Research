@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SI2-SSE: Adaptive Software for Quantum Chemistry</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>391079.00</AwardTotalIntnAmount>
+<AwardAmount>391079</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Daniel Katz</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to establish a new paradigm of scientific software, electing quantum chemistry as the domain science. The new software does not have a static, compiled code, but instead consists of an expert system and code generator. At every execution, it analyzes the hardware and application parameters, determines(parallel) algorithms, and implements them for one-time use. This strategy not only allows unprecedented flexibility in algorithm optimization but can also realize ideas that are impossible otherwise. Since the approach makes no assumption about hardware or application, it is more extensible, maintainable, and portable. It is particularly well suited for chemistry, where a variety of molecules and reactions is infinite.&lt;br/&gt;&lt;br/&gt;The expected long-term impact of this project is a change in the way scientific and engineering computing software is developed and defined. It promises novel software technology, which simultaneously achieves development efficiency, high product quality, and increased ability to optimize the code and enhance the methodological capabilities, by having no fixed source code. This project also offers unique, interdisciplinary education for chemistry graduate students, which places exceptionally large focus on computing, the field that has been a driving force of the 21st century economy.&lt;br/&gt;&lt;br/&gt;This is an award within the solicitation of Software Infrastructure for Sustained Innovation. The award is co-funded by the Office of Cyberinfrastructure, the Division of Chemistry and the Office of Multidisciplinary Activities.</AbstractNarration>
+<MinAmdLetterDate>12/07/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>12/07/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1102418</AwardID>
+<Investigator>
+<FirstName>So</FirstName>
+<LastName>Hirata</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>So Hirata</PI_FULL_NAME>
+<EmailAddress>sohirata@illinois.edu</EmailAddress>
+<PI_PHON>2172440629</PI_PHON>
+<NSF_ID>000489628</NSF_ID>
+<StartDate>12/07/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Champaign</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618207406</ZipCode>
+<StreetAddress><![CDATA[1901 South First Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1253</Code>
+<Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>1978</Code>
+<Text>PROJECTS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~391079</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Software for modern mathematical theories of quantum chemistry is so complex that it can no longer be written by humans. This project aims at fully computerizing its development. It entails not only the computerized program synthesis but also the automatic discoveries and optimizations of underlying algorithms&nbsp;for two of the most difficult parts of quantum chemistry software developments: the evaluation of numerous electron-electron interaction parameters (molecular integrals) and the development of most accurate and complex theories (electron-correlation theories) describing mutually avoiding motion of electrons.&nbsp;</p> <p>For the latter, the project has developed a fully automated scheme that can derive the mathematical equations for a wide variety of theories, generate efficient computational sequences (algorithms) to solve these equations, and then synthesize the corresponding computer codes, which only need to be copied to parent software and compiled. This automated program is made freely available through the PI's website, where there is also an online video tutorial.</p> <p>For the former, a program has been developed that finds the fastest algorithm to evaluate all molecular integrals and then generates the corresponding code for individual problems on a case-by-case basis. Unlike all previous methods for molecular integrals, which propose reasonably efficient algorithms for a typical problem, our method finds the most efficient algorithm tailored to any given problem. Therefore, our method is, in theory and in practice, never less efficient than any of the existing methods for any problem, but is often considerably faster. Furthermore, our method constitutes a new paradigm of scientific software - a codeless software - in which codes are generated on the fly, only after the problem is defined and an optimized tailored algorithm is found. In this new paradigm, the software no longer has a fixed code or executable, but it consists of a small code framework and an expert system that fills it with gigantic computer-optimized and computer-synthesized codes.</p> <p>On the educational front, the PI has also utlized cyberinfrastructure to enhance the learning of undergraduate students in the difficult subject of quantum chemistry and spectroscopy. 37 video lectures have been created by the PI and made available online, which registered students are asked to watch at home and to solve matching problems (mostly derivations of important formulas of quantum chemistry and spectroscopies). During class, students are to show and explain their solutions. In this inverted course, there are more student-student and student-instructor interactions and students are more actively engaged in class. As judged by exam scores, students' learning is enhanced by this method.</p><br> <p>            Last Modified: 10/01/2014<br>      Modified by: So&nbsp;Hirata</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2014/1102418/1102418_10037277_1412185074848_tce--rgov-214x142.jpg" original="/por/images/Reports/POR/2014/1102418/1102418_10037277_1412185074848_tce--rgov-800width.jpg" title="Tensor contraction engine"><img src="/por/images/Reports/POR/2014/1102418/1102418_10037277_1412185074848_tce--rgov-66x44.jpg" alt="Tensor contraction engine"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Graphical user interface of the program that derive the equations, find the optimized comp...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Software for modern mathematical theories of quantum chemistry is so complex that it can no longer be written by humans. This project aims at fully computerizing its development. It entails not only the computerized program synthesis but also the automatic discoveries and optimizations of underlying algorithms for two of the most difficult parts of quantum chemistry software developments: the evaluation of numerous electron-electron interaction parameters (molecular integrals) and the development of most accurate and complex theories (electron-correlation theories) describing mutually avoiding motion of electrons.   For the latter, the project has developed a fully automated scheme that can derive the mathematical equations for a wide variety of theories, generate efficient computational sequences (algorithms) to solve these equations, and then synthesize the corresponding computer codes, which only need to be copied to parent software and compiled. This automated program is made freely available through the PI's website, where there is also an online video tutorial.  For the former, a program has been developed that finds the fastest algorithm to evaluate all molecular integrals and then generates the corresponding code for individual problems on a case-by-case basis. Unlike all previous methods for molecular integrals, which propose reasonably efficient algorithms for a typical problem, our method finds the most efficient algorithm tailored to any given problem. Therefore, our method is, in theory and in practice, never less efficient than any of the existing methods for any problem, but is often considerably faster. Furthermore, our method constitutes a new paradigm of scientific software - a codeless software - in which codes are generated on the fly, only after the problem is defined and an optimized tailored algorithm is found. In this new paradigm, the software no longer has a fixed code or executable, but it consists of a small code framework and an expert system that fills it with gigantic computer-optimized and computer-synthesized codes.  On the educational front, the PI has also utlized cyberinfrastructure to enhance the learning of undergraduate students in the difficult subject of quantum chemistry and spectroscopy. 37 video lectures have been created by the PI and made available online, which registered students are asked to watch at home and to solve matching problems (mostly derivations of important formulas of quantum chemistry and spectroscopies). During class, students are to show and explain their solutions. In this inverted course, there are more student-student and student-instructor interactions and students are more actively engaged in class. As judged by exam scores, students' learning is enhanced by this method.       Last Modified: 10/01/2014       Submitted by: So Hirata]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:Small:A Domain-Specific Language for Designing Cognitive-Science Experiments</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>423575.00</AwardTotalIntnAmount>
+<AwardAmount>423575</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>When a cognitive scientist designs an experiment, the design typically specifies factors of interest, the way that multiple factors are combined, and constraints that avoid combinations that are not interesting or that balance the frequency of combinations. Computers have enabled more sophisticated experimental designs, since a program can generate the steps for an experiment, but writing a program that correctly handles an experiment's constraints can be difficult. Worse, subtle mistakes in the program can bias the generated stimuli and invalidate the experiment's results. The project's novelties are a programming language that lets a scientist describe an experiment's design in higher level terms --- that is, higher than a general-purpose language's loops and conditionals --- and an execution engine to generate an experiment's stimuli from its description. The project's impacts are to make experiment design faster, to provide a better way for scientists to communicate their experiment designs, and to improve the reproducibility of experiments by ensuring statistical properties of the experiment's stimuli.&lt;br/&gt;&lt;br/&gt;The key to good statistical properties for generated stimuli is to uniformly sample the space of solutions to the experiment's constraints. In a simple experiment where all factors are crossed and combinations are weighted equally, random selection is unbiased and easy to implement. The programming problem is considerably more difficult when constraints are imposed on the combinations, such as having twice as many of one kind of stimuli in a row, versus having some other kind of stimuli in a row. State-of-the-art tools, such as UNIGEN, can sample from a constrained space, but the space must be expressed as a SAT formula, which is far from the way that cognitive scientists think about their designs. The project will combine this sampling technology with tools for hosting and compiling domain-specific languages, allowing an experimenter to work in domain terms while bridging the gap between the experimenter's view and the implementation mechanics.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/04/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>06/04/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1813123</AwardID>
+<Investigator>
+<FirstName>Matthew</FirstName>
+<LastName>Flatt</LastName>
+<PI_MID_INIT>R</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Matthew R Flatt</PI_FULL_NAME>
+<EmailAddress>mflatt@cs.utah.edu</EmailAddress>
+<PI_PHON>8015879091</PI_PHON>
+<NSF_ID>000348159</NSF_ID>
+<StartDate>06/04/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName>Salt Lake City</CityName>
+<StateCode>UT</StateCode>
+<ZipCode>841128930</ZipCode>
+<StreetAddress><![CDATA[75 South 2000 East]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~423575</FUND_OBLG>
+</Award>
+</rootTag>

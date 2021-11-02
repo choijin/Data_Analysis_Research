@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small:Performance-Engineered Overlay Networks for Real-time Distributed Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>449999.00</AwardTotalIntnAmount>
+<AwardAmount>449999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Joseph Lyles</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project is exploring how overlay networks can be designed and engineered to meet the demanding performance requirements of real-time distributed applications such as large-scale virtual worlds and distributed cyber-physical systems. These applications are characterized by sessions with large numbers of distributed endpoints that issue regular status reports that must be delivered to a dynamically changing set of recipients. They require non-stop data delivery, even as the communication pattern changes. We address this requirement using a novel communication primitive called a comtree that functions like a per-session private network that is provisioned to support continuous data delivery in the presence of rapidly changing traffic. Each comtree defines its own routing context, enabling simple and scalable routing for both unicast and multicast packets. Multicast groups can be highly dynamic with each endpoint subscribing to tens or hundreds of multicast groups and changing their subscriptions many times per second. Our provisioning methods ensure that each comtree has sufficient capacity to support its traffic, even in the presence of rapidly changing multicast groups. The methods developed in this project will enable large-scale, highly interactive virtual worlds that are better able to support social interaction and group collaboration applications in business and education.</AbstractNarration>
+<MinAmdLetterDate>07/20/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/20/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1016356</AwardID>
+<Investigator>
+<FirstName>Jonathan</FirstName>
+<LastName>Turner</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jonathan S Turner</PI_FULL_NAME>
+<EmailAddress>jon.turner@wustl.edu</EmailAddress>
+<PI_PHON>3149358552</PI_PHON>
+<NSF_ID>000163663</NSF_ID>
+<StartDate>07/20/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Washington University</Name>
+<CityName>Saint Louis</CityName>
+<ZipCode>631304862</ZipCode>
+<PhoneNumber>3147474134</PhoneNumber>
+<StreetAddress>CAMPUS BOX 1054</StreetAddress>
+<StreetAddress2><![CDATA[1 Brookings Drive]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Missouri</StateName>
+<StateCode>MO</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MO01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>068552207</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WASHINGTON UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>068552207</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Washington University]]></Name>
+<CityName>Saint Louis</CityName>
+<StateCode>MO</StateCode>
+<ZipCode>631304862</ZipCode>
+<StreetAddress><![CDATA[CAMPUS BOX 1054]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Missouri</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MO01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~449999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p class="p1">This project has led to a better understanding of the challenges that must be met to enable internet-scale overlay networks capable of supporting applications with demanding performance requirements. We have developed prototype software for an overlay network designed to support large-scale virtual world applications. The network architecture and protocols provide provisioned capacity to virtual world applications and are designed to support worlds with millions of participants. The core provisioning mechanisms ensure consistent performance regardless of how participants move around and interact within the virtual world. The prototype software is available on an open-source basis and can be found at https://code.google.com/p/forest-net/.</p> <p class="p1">There are two specific areas where the research has led to a better understanding of the challenges that need to be addressed. The first area concerns the mechanisms used to allocate and manage resources for individual application sessions. Our original solution to this problem was highly centralized, limiting the rate at which new users could be added to an individual session. We have found a better solution that involves some centralized "guidance" to the resource allocation process, but allows individual routers to actually carry out the process. This dramatically increases the rate at which new users can be added, which allows for much larger application sessions.</p> <p class="p1">The second area concerns the design of scalable software routers based on modern multi-core compute servers. Most of our work on this project used a software router implementation that uses a single core.&nbsp; This router has been an effective experimental tool, but does not take advantage of the power of multi-core servers. Towards the end of the project, we did begin work on a multi-core router implementation. While this did yield to some improvement in performance, the overall results were disappointing and we were unable to demonstrate truly scalable performance.&nbsp; The main obstacle is the fine-grained synchronization requirements of the router data path. A variety of techniques were used to reduce the synchronization overhead, but we have concluded that a more drastic restructuring of the data path may be needed to produce a design capable of fully leveraging the power of multi-core servers.&nbsp; Addressing this problem should be the top priority for follow-on research, since any large-scale overlay network will require scalable software routers in order to move beyond the domain of research prototypes.</p> <p class="p1">&nbsp;</p><br> <p>            Last Modified: 12/30/2014<br>      Modified by: Jonathan&nbsp;S&nbsp;Turner</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[This project has led to a better understanding of the challenges that must be met to enable internet-scale overlay networks capable of supporting applications with demanding performance requirements. We have developed prototype software for an overlay network designed to support large-scale virtual world applications. The network architecture and protocols provide provisioned capacity to virtual world applications and are designed to support worlds with millions of participants. The core provisioning mechanisms ensure consistent performance regardless of how participants move around and interact within the virtual world. The prototype software is available on an open-source basis and can be found at https://code.google.com/p/forest-net/. There are two specific areas where the research has led to a better understanding of the challenges that need to be addressed. The first area concerns the mechanisms used to allocate and manage resources for individual application sessions. Our original solution to this problem was highly centralized, limiting the rate at which new users could be added to an individual session. We have found a better solution that involves some centralized "guidance" to the resource allocation process, but allows individual routers to actually carry out the process. This dramatically increases the rate at which new users can be added, which allows for much larger application sessions. The second area concerns the design of scalable software routers based on modern multi-core compute servers. Most of our work on this project used a software router implementation that uses a single core.  This router has been an effective experimental tool, but does not take advantage of the power of multi-core servers. Towards the end of the project, we did begin work on a multi-core router implementation. While this did yield to some improvement in performance, the overall results were disappointing and we were unable to demonstrate truly scalable performance.  The main obstacle is the fine-grained synchronization requirements of the router data path. A variety of techniques were used to reduce the synchronization overhead, but we have concluded that a more drastic restructuring of the data path may be needed to produce a design capable of fully leveraging the power of multi-core servers.  Addressing this problem should be the top priority for follow-on research, since any large-scale overlay network will require scalable software routers in order to move beyond the domain of research prototypes.         Last Modified: 12/30/2014       Submitted by: Jonathan S Turner]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

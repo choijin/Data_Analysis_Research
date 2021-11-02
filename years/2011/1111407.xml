@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Large: Collaborative Research: Kali:  A System for Sequential Programming of Multicore Processors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>905887.00</AwardTotalIntnAmount>
+<AwardAmount>905887</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anita La Salle</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Most computers today are 'multicore' parallel computers that are capable of executing several independent threads of computation simultaneously. Unfortunately, most existing programs are not parallel and cannot take advantage of this hardware capability. Furthermore, writing parallel programs using current notations like OpenMP is more difficult than writing sequential programs and, as a result, increases development costs and the likelihood of program defects.&lt;br/&gt;&lt;br/&gt;The Kali project is building a software system that will permit most application programmers to write sequential programs and still obtain good performance on multicore processors. Parallelism will be hidden within object-oriented class libraries written by expert parallel programmers and it will be managed by a sophisticated runtime system that uses a range of parallel execution strategies customized to the needs of the application. Applications programmers can take advantage of the benefits of sequential programming such as familiarity, readability, maintainability, and debuggability. They will also be able to tune program performance and power without having to drop down to a lower abstraction level. In addition, the Kali project is studying the use of innovative hardware to facilitate the development of efficient programs. Finally, the project is producing a suite of application benchmarks that will be useful for performance evaluation of similar systems.</AbstractNarration>
+<MinAmdLetterDate>08/06/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/06/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1111407</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Padua</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David A Padua</PI_FULL_NAME>
+<EmailAddress>padua@uiuc.edu</EmailAddress>
+<PI_PHON>2173334233</PI_PHON>
+<NSF_ID>000317715</NSF_ID>
+<StartDate>08/06/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Maria</FirstName>
+<LastName>Garzaran</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Maria J Garzaran</PI_FULL_NAME>
+<EmailAddress>garzaran@cs.uiuc.edu</EmailAddress>
+<PI_PHON>2172448878</PI_PHON>
+<NSF_ID>000297030</NSF_ID>
+<StartDate>08/06/2011</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Champaign</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618207406</ZipCode>
+<StreetAddress><![CDATA[1901 South First Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7925</Code>
+<Text>LARGE PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~905887</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Although parallel computers are everywhere from data-centers to cell-phones, writing efficient parallel programs remains a complex and error-prone task. Existing notations, compilers, and runtime systems for parallel programming were developed mostly for computational science applications concerned with numerical solutions of partial differential equations, and they are not appropriate for applications in emerging disciplines like machine learning and graph analytics, which now constitute the bulk of the applications that need to run on parallel computers.</p> <p>The goals of the Kali project,&nbsp; a collaboration between researchers at the University of Texas at Austin (UTA) and the University of Illinois, Urbana-Champaign (UIUC), were (i) to study applications in emerging disciplines like machine learning and graph analytics, (ii) to identify patterns of parallelism and locality in these applications, and (iii) to design and implement programming notations, compilers, and runtime systems that make it easier to write such applications and execute them efficiently on parallel computers. Since most programmers in these emerging disciplines are not expert parallel programmers, simplifying parallel programming was another important goal.</p> <p>To accomplish these goals, the team studied diverse applications including web-page ranking algorithms, product recommendation systems, and network analysis systems. The studies revealed that these kinds of applications exhibit a parallelism pattern named amorphous data-parallelism, which is not supported well by existing parallel programming systems. Therefore, the team implemented a system called Galois, which permits application programmers to code applications in sequential C++, leaving it to the system software to find amorphous data-parallelism and exploit it efficiently on parallel computing systems. The team also extended the HTA library with array operations suitable for expressing amorphous parallelism.</p> <p>Major outcomes of the Kali project include (i) the Galois system, which is available publicly for download, (ii) the Lonestar and Lonestar GPU benchmark suites of applications that exhibit amorphous data-parallelism, and (iii) the HTA library for exploiting locality. These software products are in use in companies and universities all over the world. In addition, roughly 50 technical papers were published in refereed conferences and journals, and about 10 graduate students were trained with support from this project.</p> <p>The project team also developed course material for teaching parallel programming based on the concepts developed in the Kali project. Tutorials using this material were taught in major parallel computing conferences all over the world. This material is also being used in courses conducted in universities all over the world.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/29/2017<br>      Modified by: David&nbsp;A&nbsp;Padua</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Although parallel computers are everywhere from data-centers to cell-phones, writing efficient parallel programs remains a complex and error-prone task. Existing notations, compilers, and runtime systems for parallel programming were developed mostly for computational science applications concerned with numerical solutions of partial differential equations, and they are not appropriate for applications in emerging disciplines like machine learning and graph analytics, which now constitute the bulk of the applications that need to run on parallel computers.  The goals of the Kali project,  a collaboration between researchers at the University of Texas at Austin (UTA) and the University of Illinois, Urbana-Champaign (UIUC), were (i) to study applications in emerging disciplines like machine learning and graph analytics, (ii) to identify patterns of parallelism and locality in these applications, and (iii) to design and implement programming notations, compilers, and runtime systems that make it easier to write such applications and execute them efficiently on parallel computers. Since most programmers in these emerging disciplines are not expert parallel programmers, simplifying parallel programming was another important goal.  To accomplish these goals, the team studied diverse applications including web-page ranking algorithms, product recommendation systems, and network analysis systems. The studies revealed that these kinds of applications exhibit a parallelism pattern named amorphous data-parallelism, which is not supported well by existing parallel programming systems. Therefore, the team implemented a system called Galois, which permits application programmers to code applications in sequential C++, leaving it to the system software to find amorphous data-parallelism and exploit it efficiently on parallel computing systems. The team also extended the HTA library with array operations suitable for expressing amorphous parallelism.  Major outcomes of the Kali project include (i) the Galois system, which is available publicly for download, (ii) the Lonestar and Lonestar GPU benchmark suites of applications that exhibit amorphous data-parallelism, and (iii) the HTA library for exploiting locality. These software products are in use in companies and universities all over the world. In addition, roughly 50 technical papers were published in refereed conferences and journals, and about 10 graduate students were trained with support from this project.  The project team also developed course material for teaching parallel programming based on the concepts developed in the Kali project. Tutorials using this material were taught in major parallel computing conferences all over the world. This material is also being used in courses conducted in universities all over the world.                Last Modified: 10/29/2017       Submitted by: David A Padua]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

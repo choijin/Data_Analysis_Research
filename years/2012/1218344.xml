@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Next-Generation, Dependent Type-based Software Model Checking for C</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Static formal verification is a crucial last line of defense at the lowest levels of the systems software stack, as at those levels we cannot fall back on dynamic mechanisms to shield against bugs, crashes, or malicious attacks.  The last decade saw significant advances in formal verification research but progress has been hindered by the vexing challenge of precisely inferring invariants of data values that are stored within unbounded heap data structures and manipulated by function pointers, callbacks, and other higher-order constructs.  These problems have been elegantly addressed by the machinery of dependent types which exploit a syntactic programming discipline, to compositionally propagate correctness invariants through data structures and higher-order functions, thereby facilitating precise formal verification. However, mainstream adoption of dependent types is blocked as the machinery has been largely developed in the context of interactive proof assistants or purely functional languages.&lt;br/&gt;&lt;br/&gt;This research will develop the theory, algorithms, and tools required to bring the transformative software engineering benefits of dependent type based software verification to mainstream, systems programming languages like C.  To this end the PI will use the framework of Liquid Types which demonstrates how the powerful machinery of abstract interpretation and software model checking can be used to automatically infer dependent types, thereby automating their use in formal verification. If successful, this research will directly benefit software developers, by incorporating verification smoothly within a familiar technology (types), and by providing rich API specifications that will simplify code review and component reuse; program analysis designers, by providing a general framework that can be instantiated to obtain multiple domain- and application- specific verification engines; and ultimately, end users, by providing static guarantees for a variety of critical safety and security and reliability properties.</AbstractNarration>
+<MinAmdLetterDate>07/30/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/30/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218344</AwardID>
+<Investigator>
+<FirstName>Ranjit</FirstName>
+<LastName>Jhala</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ranjit Jhala</PI_FULL_NAME>
+<EmailAddress>jhala@cs.ucsd.edu</EmailAddress>
+<PI_PHON>8585341420</PI_PHON>
+<NSF_ID>000486287</NSF_ID>
+<StartDate>07/30/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-San Diego</Name>
+<CityName>La Jolla</CityName>
+<ZipCode>920930934</ZipCode>
+<PhoneNumber>8585344896</PhoneNumber>
+<StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+<StreetAddress2><![CDATA[9500 Gilman Drive, 0934]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804355790</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SAN DIEGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-San Diego]]></Name>
+<CityName>La Jolla</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>920930404</ZipCode>
+<StreetAddress><![CDATA[9500 Gilman Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project led to significant advances in techniques for analyzing sequential and concurrent, low-level imperative programs. All the advances were made viathe key insight that novel type systems, extended with logical predicates could lead to an effective, and highly automated way of quickly finding and eliminating problems at design and compile time. The project led to the following concrete outcomes.</p> <p><br /><strong>1. Verifying Systems Software</strong></p> <p><br />First, we showed how refinement types could be used to enforce stateful security properties in C programs by developing a methodology for using refinement types to secure low-level systems software written in C.We showed how a variety of generic, application independent security properties like data sanitization and spatial memory safety can beenforced via carefully designed refinement typed APIs, and demonstrated how how the methodology can be scaled up to two sophisticated application specific security properties: an web browser, where refinements verify that tabs are properly isolated to their domains, and do not interferewith each other; and a web server, where refined APIs verify that authentication is properly implemented. Unlike prior work, our technique is highly automated and requires little manual proof effort.</p> <p><br /><strong>2. Verifying Linked Data Structures</strong></p> <p><br />Second, we developed a new approach to the verification of correctness properties of linked data structures. While there are many techniques for checking such programs, they often require that the programmer annotate the behavior of each procedure, for example, in the form of loop invariants and pre- and post-conditions. Existing abstract interpreters and model checkers are tailored to specific data structures (e.g. lists) and hence, not extensible by developers to their own programs. We showed how to lift existing abstract interpreters to work on linked data structures by factoring the analysis of data structures into two orthogonal components: (1) Alias Types,which reason about the physical shape of heap structures, and (2) Refinement Types, which use simple predicates from an SMT decidable theory to capture the logical properties ofthe structures. We implemented and evaluated our technique agains tthe state of the art, and demonstrated that it shrinks the programmer effort by a factor of 5.</p> <p><br /><strong>3. Verifying Distributed Programs</strong></p> <p><br />Next, building upon the ideas developed for analyzing data structures --namely, precise tracking of effects, we developed a new approach to verifyingunbounded, asynchronous message passing programs. The key idea is to use an effect system to extract from the program a state machine "synchronization skeleton". Next, we have developed a way to compute from the skeleton a single "representative" execution of the programs that we call the symmetric sequentialization. We show that this sequentialization can be computedby extending Lipton&rsquo;s movers with a new notion of symmetric races.We formalize our technique as a proof system that we present in theform of a set of syntax-directed rewriting rules that automatically compute symmetric sequentializations. We have implemented our approach in a tool called Brisk that computes symmetric sequentialization and usedit to model check a variety distributed programs from the literatureto verify the absence of deadlocks.</p> <p><br /><strong>4. Foundations: Making Refinement Typing Complete</strong></p> <p><br />We have solved a core problem in refinement type systems: making refinement typing "complete" for "straight-line" programs that do not contain recursion. We introduce the FUSION algorithm for local refinement typeinference, yielding a new SMT-based method for verifying programs withdata and functions. FUSION is concise as the programmer need only writesignatures for (externally exported) top-level functions, and placeswith cyclic (recursive) dependencies, after which FUSION can predictably synthesize the most precise refinement types for all intermediate expressions (that are expressible in the decidable refinement logic), thereby checking the program without false alarms. We have implemented FUSION and evaluatedit on a suite of low-level pointer manipulating benchmarks.FUSION checks an existing safety benchmark suite nearly 2 to 10 times faster, and, by synthesizing the most precise types, eliminates false alarms makes verification possible.</p> <p><br /><strong>5. Testing with Types</strong></p> <p><br />Finally, we have shown how refinement types go beyond formal verification,and can also help with testing. To this end, we developed a new technique called type targeted testing, which automatically synthesizes comprehensive test suites from refinement types, by generating the types into logical formulas whose models can be converted into tests. Our approach enables the systematic and exhaustive testing of implementations from high-level declarative specifications, and furthermore, provides a gradual path from testingto full verification.</p><br> <p>            Last Modified: 12/01/2016<br>      Modified by: Ranjit&nbsp;Jhala</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project led to significant advances in techniques for analyzing sequential and concurrent, low-level imperative programs. All the advances were made viathe key insight that novel type systems, extended with logical predicates could lead to an effective, and highly automated way of quickly finding and eliminating problems at design and compile time. The project led to the following concrete outcomes.   1. Verifying Systems Software   First, we showed how refinement types could be used to enforce stateful security properties in C programs by developing a methodology for using refinement types to secure low-level systems software written in C.We showed how a variety of generic, application independent security properties like data sanitization and spatial memory safety can beenforced via carefully designed refinement typed APIs, and demonstrated how how the methodology can be scaled up to two sophisticated application specific security properties: an web browser, where refinements verify that tabs are properly isolated to their domains, and do not interferewith each other; and a web server, where refined APIs verify that authentication is properly implemented. Unlike prior work, our technique is highly automated and requires little manual proof effort.   2. Verifying Linked Data Structures   Second, we developed a new approach to the verification of correctness properties of linked data structures. While there are many techniques for checking such programs, they often require that the programmer annotate the behavior of each procedure, for example, in the form of loop invariants and pre- and post-conditions. Existing abstract interpreters and model checkers are tailored to specific data structures (e.g. lists) and hence, not extensible by developers to their own programs. We showed how to lift existing abstract interpreters to work on linked data structures by factoring the analysis of data structures into two orthogonal components: (1) Alias Types,which reason about the physical shape of heap structures, and (2) Refinement Types, which use simple predicates from an SMT decidable theory to capture the logical properties ofthe structures. We implemented and evaluated our technique agains tthe state of the art, and demonstrated that it shrinks the programmer effort by a factor of 5.   3. Verifying Distributed Programs   Next, building upon the ideas developed for analyzing data structures --namely, precise tracking of effects, we developed a new approach to verifyingunbounded, asynchronous message passing programs. The key idea is to use an effect system to extract from the program a state machine "synchronization skeleton". Next, we have developed a way to compute from the skeleton a single "representative" execution of the programs that we call the symmetric sequentialization. We show that this sequentialization can be computedby extending Lipton?s movers with a new notion of symmetric races.We formalize our technique as a proof system that we present in theform of a set of syntax-directed rewriting rules that automatically compute symmetric sequentializations. We have implemented our approach in a tool called Brisk that computes symmetric sequentialization and usedit to model check a variety distributed programs from the literatureto verify the absence of deadlocks.   4. Foundations: Making Refinement Typing Complete   We have solved a core problem in refinement type systems: making refinement typing "complete" for "straight-line" programs that do not contain recursion. We introduce the FUSION algorithm for local refinement typeinference, yielding a new SMT-based method for verifying programs withdata and functions. FUSION is concise as the programmer need only writesignatures for (externally exported) top-level functions, and placeswith cyclic (recursive) dependencies, after which FUSION can predictably synthesize the most precise refinement types for all intermediate expressions (that are expressible in the decidable refinement logic), thereby checking the program without false alarms. We have implemented FUSION and evaluatedit on a suite of low-level pointer manipulating benchmarks.FUSION checks an existing safety benchmark suite nearly 2 to 10 times faster, and, by synthesizing the most precise types, eliminates false alarms makes verification possible.   5. Testing with Types   Finally, we have shown how refinement types go beyond formal verification,and can also help with testing. To this end, we developed a new technique called type targeted testing, which automatically synthesizes comprehensive test suites from refinement types, by generating the types into logical formulas whose models can be converted into tests. Our approach enables the systematic and exhaustive testing of implementations from high-level declarative specifications, and furthermore, provides a gradual path from testingto full verification.       Last Modified: 12/01/2016       Submitted by: Ranjit Jhala]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

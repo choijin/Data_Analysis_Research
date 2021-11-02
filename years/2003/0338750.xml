@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SP:  Very Fine-Grained Proximity Addressing</AwardTitle>
+<AwardEffectiveDate>09/01/2003</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2007</AwardExpirationDate>
+<AwardTotalIntnAmount>496421.00</AwardTotalIntnAmount>
+<AwardAmount>496421</AwardAmount>
+<AwardInstrument>
+<Value>Continuing grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Wu</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Today host computer systems attached to the Internet have two basic identifiers: the IP address and&lt;br/&gt;the Domain Name. Neither identifier reliably indicates how systems are "positioned" in the Internet&lt;br/&gt;with respect to each other. Two IP addresses or Domain Names may be very similar, and yet the two&lt;br/&gt;systems they represent may be far apart in terms of latency or throughput. This lack of a proximity&lt;br/&gt;"address" is a serious limitation of the Internet architecture.&lt;br/&gt;&lt;br/&gt;There have been several research projects to address this limitation. The pioneering work in this area&lt;br/&gt;was IDMaps, which proposed an infrastructure service that could answer queries about proximity&lt;br/&gt;between pairs of IP addresses. A subsequent advancement proposed using Global Network&lt;br/&gt;Positioning (GNP)a proximity address formed from a Cartesian coordinate system super-imposed&lt;br/&gt;on the Internet.&lt;br/&gt;&lt;br/&gt;The primary shortcoming of these and other approaches is that they operate only at course&lt;br/&gt;granularity. At less than 50ms latency (a typical east-to-west coast latency!), over-estimates of 200%&lt;br/&gt;and 300% are common. This is entirely inadequate for applications such as networked first person&lt;br/&gt;shooter games and tightly-coupled grid computing applications, both of which require latencies well&lt;br/&gt;below 50ms. Data intensive grid computing applications and peer-to-peer applications like file&lt;br/&gt;sharing would reduce network load significantly if participants in the same campus network or ISP&lt;br/&gt;could find each other. Another shortcoming of existing approaches is that they typically require that&lt;br/&gt;dedicated infrastructure be deployed. While this is feasible for private corporations like Akamai,&lt;br/&gt;there exists no known business model for a common public proximity service.&lt;br/&gt;&lt;br/&gt;This project will design and implement a system for calculating proximity addresses at very-fine&lt;br/&gt;granularity (microsecond latencies and gigabit throughputs) and at global scale. By necessity this&lt;br/&gt;system will be distributed (peer-to-peer), requiring that all nodes be able to serve as "reference&lt;br/&gt;points" in the coordinate system. This is because it is impossible to represent microsecond latencies&lt;br/&gt;unless the reference points are within microseconds. The existence of a global fine-grained&lt;br/&gt;hierarchical proximity address, however, presents other tantalizing possibilities. For instance, such&lt;br/&gt;an address could be used as the basis for building a new type of routing overlay, which could then be&lt;br/&gt;used as a peer-to-peer discovery mechanism.&lt;br/&gt;&lt;br/&gt;This project presents significant new intellectual challenges comparable to those in network routing&lt;br/&gt;required to move from flat addressing to hierarchical addressing. The research team plans to design new forms of proximity addressing that are hierarchical rather than flat, that do not focus load on a few systems,&lt;br/&gt;and that are simple enough that they can be auto-configured. The researchers also must design new types of P2P networks that are customized for the problem of configuring proximity addresses. These P2P&lt;br/&gt;networks must be simpler than current networks so that they can truly scale to global proportion even&lt;br/&gt;in the face of churn (nodes joining and leaving). This project is expected to produce broad&lt;br/&gt;intellectual results in the structure of hierarchical proximity addresses and how they relate to network&lt;br/&gt;metrics, as well as in how to build very large and simple peer-to-peer networks.&lt;br/&gt;&lt;br/&gt;This project will have two forms of impact. First, any distributed application that dynamically&lt;br/&gt;discovers participants, and requires that participants be nearby, will benefit from very-fine grained&lt;br/&gt;proximity addresses. Such applications include networked games and Grid computing. Indeed the&lt;br/&gt;improvements in granularity may enable the creation of new applications. Second, the advances in&lt;br/&gt;peer-to-peer networking required for this project may serve as the basis for other types of peer-to-&lt;br/&gt;peer applications. Specifically, any peer-to-peer application that requires the discovery of nodes that&lt;br/&gt;can serve a certain role (i.e., act as reference points) will benefit from the advances in scale and&lt;br/&gt;efficiency required for this project.</AbstractNarration>
+<MinAmdLetterDate>09/05/2003</MinAmdLetterDate>
+<MaxAmdLetterDate>06/23/2005</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0338750</AwardID>
+<Investigator>
+<FirstName>Paul</FirstName>
+<LastName>Francis</LastName>
+<EmailAddress>francis@cs.cornell.edu</EmailAddress>
+<StartDate>09/05/2003</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Cornell University</Name>
+<CityName>Ithaca</CityName>
+<ZipCode>148502820</ZipCode>
+<PhoneNumber>6072555014</PhoneNumber>
+<StreetAddress>373 Pine Tree Road</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0206000</Code>
+<Name>Telecommunications</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>4095</Code>
+<Text>SPECIAL PROJECTS IN NET RESEAR</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

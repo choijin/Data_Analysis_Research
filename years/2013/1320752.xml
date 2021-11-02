@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Profiling and Optimizing Embedded Software for Soft Real-Time Behavior and Responsiveness</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>477724.00</AwardTotalIntnAmount>
+<AwardAmount>477724</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project aims to develop a framework for performance characterization, representation, optimization and debugging for the emerging domain of soft real time computing. Key elements include a new metric, called "variance", that characterizes the timing properties of such workloads, and a "variant characterization graph" (VCG) that represents the relationships among the variance contributing functions in a software system. The VCG is subjected to a combination of static analysis, dynamic profiling and statistical analysis. The results of these analyses are applied to the problems of debugging performance bottlenecks, and dynamic performance optimization making use of predictive methods and contextual information obtained at run time. &lt;br/&gt;&lt;br/&gt;Interactive, response-time sensitive applications such as video games, computer vision, and multi-media encoder/decoders are an important, growing class of emerging applications on mobile devices such as the smart-phones. A proliferation of powerful new devices is driving up the scale and pervasiveness of applications. The diversity of new devices and the number of kinds of resources present in them, accompanied by a market-driven demand for shorter application development cycles, are making performance tuning more challenging and more essential. Success of this project would provide a practical conceptual backbone for converting the optimization of such soft real time systems from an art to a science. Transition of the results of this research to practice is furthered through open source distribution of software tools implementing and applying the VCG-based analyses, and an on-line graduate course titled "Optimizations for Interactive Embedded Software".</AbstractNarration>
+<MinAmdLetterDate>09/20/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/20/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320752</AwardID>
+<Investigator>
+<FirstName>Santosh</FirstName>
+<LastName>Pande</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Santosh Pande</PI_FULL_NAME>
+<EmailAddress>santosh@cc.gatech.edu</EmailAddress>
+<PI_PHON>4043852169</PI_PHON>
+<NSF_ID>000253802</NSF_ID>
+<StartDate>09/20/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 North Ave NW]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~477724</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Soft real time applications are defined as those which execute repeatedly under different data sets but whose completion deadline is not hard, it can vary within certain limits. They are contrasted as hard real time systems which must complete their execution strictly within a given deadline.</p> <p>The performance characterization and tuning of soft-real time applications is not well understood and is currently an ad-hoc process that heavily relies on the domain knowledge. The soft real time computing areas however are growing, a few examples of these being, videos and multimedia on one hand and computer gaming, virtual reality and computer vision on the other. The main goal of the project is to develop profiling tools, compiler techniques and runtime systems to allow systematic characterization &nbsp;and tuning of performance for soft real time systems. The performance properties of such software go well beyond simple measures such as execution time (or speed), or energy consumption and measures such as fluctuations in frame-rate, probabilistic deadline conformance and performance anomalies become highly important. Several tools, techniques and artifacts related to compiler passes and runtime systems were produced in this work to solve such problems.Following is the summary of the outcomes of the project.</p> <p>1. A profiling tool was developed to quantify and characterize the properties such as execution variance, probabilistic deadline conformance and performance anomalies (major frame rate violations that could lead to performance bugs) with regard to program artifacts such as functions and parameters of large scale applications in a domain agnostic manner.</p> <p>2. A visualization tool was developed to present these properties and software artifact co-relations to the developer&nbsp; in an actionable manner to help modify the design of the software or to tune its behaviour. The actions by the developer could involve change of key algorithms or a component or a module or even to set a key parameter to adapt the behavior within the desired performance &nbsp;limits (for example to keep the frame rate within certain limits).&nbsp;</p> <p>3.Compiler passes based on the runtime representation of execution time fluctuations (variance) were developed&nbsp; to synthesize programs that could auto-tune.&nbsp;</p> <p>4. A runtime system based on control systems or machine learning &nbsp;or statistical analysis to effectively adapt the performance behaviors to the desired limits. The runtime system was&nbsp; able to learn the behaviors online and capable of performing adaptations to dynamically changing runtime conditions in a rapid, reactive manner. The runtime reacted to the emergent properties of software (such as scene complexity in games) in real time.</p> <p>The complete software was evaluated on multiple diverse domains and was shown to effectively able to tune and adapt runtime behavior for the stochastic properties of the execution time fluctations. The domains of evaluation ranged from : multimedia and video (slow frame rates) contents varying from surveillance to animation, computer games, computer vision and high throughput detection pipelines of search in video and audio. The evaluation criteria involved jitter in frames, and ability to undertake additional processing per group of frames without degrading the throughput and satisfaction ratio which tracks extremes of frame rates that go outside of a pre-defined window by the developer. Two PhD students were supported on the project who graduated and joined US research corporations to further contribute to this exciting area.&nbsp;</p><br> <p>            Last Modified: 04/23/2018<br>      Modified by: Santosh&nbsp;Pande</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Soft real time applications are defined as those which execute repeatedly under different data sets but whose completion deadline is not hard, it can vary within certain limits. They are contrasted as hard real time systems which must complete their execution strictly within a given deadline.  The performance characterization and tuning of soft-real time applications is not well understood and is currently an ad-hoc process that heavily relies on the domain knowledge. The soft real time computing areas however are growing, a few examples of these being, videos and multimedia on one hand and computer gaming, virtual reality and computer vision on the other. The main goal of the project is to develop profiling tools, compiler techniques and runtime systems to allow systematic characterization  and tuning of performance for soft real time systems. The performance properties of such software go well beyond simple measures such as execution time (or speed), or energy consumption and measures such as fluctuations in frame-rate, probabilistic deadline conformance and performance anomalies become highly important. Several tools, techniques and artifacts related to compiler passes and runtime systems were produced in this work to solve such problems.Following is the summary of the outcomes of the project.  1. A profiling tool was developed to quantify and characterize the properties such as execution variance, probabilistic deadline conformance and performance anomalies (major frame rate violations that could lead to performance bugs) with regard to program artifacts such as functions and parameters of large scale applications in a domain agnostic manner.  2. A visualization tool was developed to present these properties and software artifact co-relations to the developer  in an actionable manner to help modify the design of the software or to tune its behaviour. The actions by the developer could involve change of key algorithms or a component or a module or even to set a key parameter to adapt the behavior within the desired performance  limits (for example to keep the frame rate within certain limits).   3.Compiler passes based on the runtime representation of execution time fluctuations (variance) were developed  to synthesize programs that could auto-tune.   4. A runtime system based on control systems or machine learning  or statistical analysis to effectively adapt the performance behaviors to the desired limits. The runtime system was  able to learn the behaviors online and capable of performing adaptations to dynamically changing runtime conditions in a rapid, reactive manner. The runtime reacted to the emergent properties of software (such as scene complexity in games) in real time.  The complete software was evaluated on multiple diverse domains and was shown to effectively able to tune and adapt runtime behavior for the stochastic properties of the execution time fluctations. The domains of evaluation ranged from : multimedia and video (slow frame rates) contents varying from surveillance to animation, computer games, computer vision and high throughput detection pipelines of search in video and audio. The evaluation criteria involved jitter in frames, and ability to undertake additional processing per group of frames without degrading the throughput and satisfaction ratio which tracks extremes of frame rates that go outside of a pre-defined window by the developer. Two PhD students were supported on the project who graduated and joined US research corporations to further contribute to this exciting area.        Last Modified: 04/23/2018       Submitted by: Santosh Pande]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

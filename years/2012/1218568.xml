@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Autograph: A System for Synthesizing Concurrent Data Structure Implementations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>399998.00</AwardTotalIntnAmount>
+<AwardAmount>399998</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Most electronic devices today are built from multicore processors, which consist of four to eight small cores (computers) that cooperate to perform computational tasks.  Programming such multicore processors is much more difficult than programming a single computer, so one of the major research challenges in Computer Science is to design and implement tools that make this programming task easier.  The Autograph project focuses on one aspect of this problem, which is the implementation of data structures that can be read and written safely by multiple cores at the same time.  When completed, the Autograph tool will permit multicore programmers to specify the properties of the desired data structure, leaving it to the tool to synthesize the parallel data structure automatically.  This tool will simplify the parallel programming task substantially.&lt;br/&gt;&lt;br/&gt;The input to Autograph is a high-level relational specification of the desired parallel data structure. Autograph works by composing a set of "building-block" data structures called tiles to implement the parallel data structure.  The application programmer can control which tiles are used to produce the desired data structure.  Therefore, application programmers can quickly produce parallel data structure implementations and tune their performance without having to write explicitly parallel code.  Autograph will (i) implement the full system for the complete relational specification language, (ii) build code generators that can produce parallel C++ graph data structures from this language, (iii) extend this compiler to produce distributed-memory data structures, (iv) produce tools for autotuning the generated implementations, and (v) investigate the use of Autograph in implementing a GraphBLAS.  Autograph will be implemented and demonstrated in the context of speculative parallelization systems like Galois, but it will also produce concurrent data structures for use in parallel systems that do not use speculation, such as OpenMP or pThreads.  By simplifying one of the most complex aspects of parallel programming, namely the production of high-performance parallel data structures, Autograph will have a transformative effect on the critical field of parallel programming.</AbstractNarration>
+<MinAmdLetterDate>09/13/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>09/13/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218568</AwardID>
+<Investigator>
+<FirstName>Keshav</FirstName>
+<LastName>Pingali</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Keshav Pingali</PI_FULL_NAME>
+<EmailAddress>pingali@cs.utexas.edu</EmailAddress>
+<PI_PHON>5122326567</PI_PHON>
+<NSF_ID>000101776</NSF_ID>
+<StartDate>09/13/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName/>
+<StateCode>TX</StateCode>
+<ZipCode>787137726</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>21</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX21</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7329</Code>
+<Text>COMPILERS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~399998</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Computing devices today are parallel in the sense they are comprised of tens to millions of individual processing units called cores that are capable of operating simultaneously to execute programming instructions. These cores are also becoming more diverse and heterogeneous in their design; for example, some cores may be specialized for performing graphics instructions (these are called GPUs) while other may be general-purpose processing units (these are called CPUs). However, most application writers find it difficult to manage parallelism and heterogenety when writing programs, so it is desirable to hide this complexity from them while ensuring that programs run efficiently on computers with parallel, heterogeneous cores.</p> <p>One promising approach to addressing these programming problems is called program synthesis. The intuitive idea is that programmers write high-level specifications of the computation that must be performed, and leave it to the system software to generate programs from these specifications that can run efficiently on parallel and heterogeneous cores.</p> <p>This project focused on one particular aspect of the synthesis problem, which is the problem of implementing efficient data representations for parallel programs. While some data can be organized as tables or matrices, many applications require computing with graphs, which are more complex to represent efficiently. Graphs consist of entities, called nodes, and relations between nodes, called edges. A road-map is an example of a graph in which nodes represent cities and edges represent highways connecting cities directly. Representing graphs in computer memory so that computations can be performed efficiently on them in parallel is very challenging. This project developed and implemented synthesis techniques for automatically generating graph representations optimized for CPUs and for GPUs, and demonstrated their effectiveness in diverse applications ranging from graph analytics, which are used in big-data analysis, to finite-element computations, which are used in computational science.</p><br> <p>            Last Modified: 01/09/2017<br>      Modified by: Keshav&nbsp;Pingali</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Computing devices today are parallel in the sense they are comprised of tens to millions of individual processing units called cores that are capable of operating simultaneously to execute programming instructions. These cores are also becoming more diverse and heterogeneous in their design; for example, some cores may be specialized for performing graphics instructions (these are called GPUs) while other may be general-purpose processing units (these are called CPUs). However, most application writers find it difficult to manage parallelism and heterogenety when writing programs, so it is desirable to hide this complexity from them while ensuring that programs run efficiently on computers with parallel, heterogeneous cores.  One promising approach to addressing these programming problems is called program synthesis. The intuitive idea is that programmers write high-level specifications of the computation that must be performed, and leave it to the system software to generate programs from these specifications that can run efficiently on parallel and heterogeneous cores.  This project focused on one particular aspect of the synthesis problem, which is the problem of implementing efficient data representations for parallel programs. While some data can be organized as tables or matrices, many applications require computing with graphs, which are more complex to represent efficiently. Graphs consist of entities, called nodes, and relations between nodes, called edges. A road-map is an example of a graph in which nodes represent cities and edges represent highways connecting cities directly. Representing graphs in computer memory so that computations can be performed efficiently on them in parallel is very challenging. This project developed and implemented synthesis techniques for automatically generating graph representations optimized for CPUs and for GPUs, and demonstrated their effectiveness in diverse applications ranging from graph analytics, which are used in big-data analysis, to finite-element computations, which are used in computational science.       Last Modified: 01/09/2017       Submitted by: Keshav Pingali]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

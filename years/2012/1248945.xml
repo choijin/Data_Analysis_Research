@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>An Effective and Time-efficient Approach to Solving Linear Discrete Optimization Problems using Discretized Network Flow</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>100000.00</AwardTotalIntnAmount>
+<AwardAmount>100000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jack S. Snoeyink</SignBlockName>
+<PO_EMAI>jsnoeyin@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Discrete optimization finds widespread use in almost all areas of human endeavor ranging from science to technology to business, and encompassing diverse applications such as chip design, power system design, robotics, bioinformatics, transportation, financial computing and industrial engineering. However, currently there is no general discrete optimization solver that can solve hard problems near-optimally in tractable runtimes (fast to moderate runtimes). To rectify this, this project will explore developing novel and efficient techniques for solving the class of 0/1 integer linear programming (ILP) problems that can be used to model a wide range of discrete optimization problems (DOPs). The approach used for this purpose is a solution technique termed discretized network flow (DNF), in which classical network flow (that solves a class of continuous linear programming  problems), is constrained by special discrete requirements on the flow to yield valid solutions to 0/1 ILPs.&lt;br/&gt;&lt;br/&gt;A successful completion of this project will yield algorithms and a software tool for solving large 0/1 ILP problems near-optimally and much faster than current techniques. This will represent a significant advance in the state-of-the-art of such solvers, and can be used to solve large DOPs more accurately and faster in many application areas ranging from genomics to chip design to robotics. This can help in answering fundamental issues in these application areas that have not been attempted so far, and also lead to better products and services in these areas. For example, in the area of chip design, the use of our solver can lead to much lower power and higher quality chips (e.g., with good performance and reliability) than are possible with current CAD tools, and thereby result in better and greener electronic products in several consumer and commercial application areas.</AbstractNarration>
+<MinAmdLetterDate>09/11/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>09/11/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1248945</AwardID>
+<Investigator>
+<FirstName>Shantanu</FirstName>
+<LastName>Dutt</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Shantanu S Dutt</PI_FULL_NAME>
+<EmailAddress>dutt@eecs.uic.edu</EmailAddress>
+<PI_PHON>3123551314</PI_PHON>
+<NSF_ID>000325090</NSF_ID>
+<StartDate>09/11/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606124305</ZipCode>
+<PhoneNumber>3129962862</PhoneNumber>
+<StreetAddress>809 S. Marshfield Avenue</StreetAddress>
+<StreetAddress2><![CDATA[MB 502, M/C 551]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>098987217</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606077052</ZipCode>
+<StreetAddress><![CDATA[851 S. Morgan Street, 1020 SEO]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7933</Code>
+<Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~100000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project, we proposed to develop improvements to a new modeling and computational approach for solving large classes of discrete optimization problem (DOPs) called <em>discretized network flow (DNF)</em>. DNF combines the computational efficiency of continuous optimization methods, in that it uses min-cost network flow (MCNF)&mdash;an optimal continuous optimization technique&mdash;as its basic algorithmic underpinning, with novel discretization techniques so that near-optimal discrete solutions are efficiently obtained for various DOPs.</p> <p>The main class of problems that can be solved by DNF is the class of <em>option selection problems (OSP)</em> in which for each independent variable <em>xi</em> of the problem there is a set of discrete value options, and we need to select exactly one option per variable so that various metric constraints, such as circuit speed for a circuit synthesis problem, are satisfied, and the objective metric of interest, such as total power consumption of the circuit, is optimized. OSP represents a very wide class of DOPs, and, for example, the set of 0/1 integer linear programming problems is a subset of OSP. In the DNF graph modeling of OSPs, there is a unique arc for each variable option, and the set of these option arcs for each variable<em> xi </em>is called an <em>option set OS</em>. Besides these primary OS's (those associated with variables <em>xi</em>), there are secondary OS's that represent functions of the primary variables with as many arcs in each secondary OS as there are different discrete values of the function. &nbsp;Each such secondary OS arc has a cost = the function value it represents. In DNF, there are flows entering each OS, and via a modification of a fixed-charge network flow (FCNF) algorithm, we restrict the flow to enter exactly one arc per OS (primary or secondary), so that the total flow cost is minimized and various constraints satisfied.</p> <p>The underlying computation in DNF is classical min-cost network flow (MCNF) that is iterated several times to solve the DNF problem. This works by selecting in each iteration of MCNF that arc in each OS whose flow is the maximum among all arcs in that OS, and is above a certain threshold. In each iteration of MCNF, for one or more OS, an arc is selected based on the above criteria by making other arcs in theese OS's very expensive in subsequent MCNFs. &nbsp;The novel improvement over basic DNF that was developed in this project is a much more natural approach for selecting arcs in each OS in a two fold process: 1) Each arc e has a unit-flow cost that is different in the forward direction with cost cost(e) (cost to push a unit flow into it) and in the backward direction with cost -cost(e)*cap(e)/flow(e) (cost reduction for pulling a unit of flow out e after an initial flow has gone through it), where cap(e) is the flow capacity of e (and is expected to be filled in the selected arc in each OS) and flow(e) is the current flow anount in e; in classical MCNF, the foward and backward unit-flow costs of an arc are negations of each other. This 2-sided arc cost structure encourages current flow amounts that are in relatively expensive arc paths and thus are small (and thereby have correspondingly higher unit-flow cost reduction to be pulled out) to move out of them in subsequent MCNF iterations so that in each OS either full or almost full flow goes through exactly one arc. &nbsp;2) The determination of which arc in each OS has full or almost full flow through it is made in a decoupled manner by observing over several MCNF iteartions which arc has has the maximum accumulated flow across all valid flow paths branching out of it.</p> <p>We used the 2-sided DNF algorithm to solve the OSP problem that models the gate sizing and threshold voltage assignment problem for digital circuits for minimizing their power consumption under the constraint of a lower bound on th...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project, we proposed to develop improvements to a new modeling and computational approach for solving large classes of discrete optimization problem (DOPs) called discretized network flow (DNF). DNF combines the computational efficiency of continuous optimization methods, in that it uses min-cost network flow (MCNF)&mdash;an optimal continuous optimization technique&mdash;as its basic algorithmic underpinning, with novel discretization techniques so that near-optimal discrete solutions are efficiently obtained for various DOPs.  The main class of problems that can be solved by DNF is the class of option selection problems (OSP) in which for each independent variable xi of the problem there is a set of discrete value options, and we need to select exactly one option per variable so that various metric constraints, such as circuit speed for a circuit synthesis problem, are satisfied, and the objective metric of interest, such as total power consumption of the circuit, is optimized. OSP represents a very wide class of DOPs, and, for example, the set of 0/1 integer linear programming problems is a subset of OSP. In the DNF graph modeling of OSPs, there is a unique arc for each variable option, and the set of these option arcs for each variable xi is called an option set OS. Besides these primary OS's (those associated with variables xi), there are secondary OS's that represent functions of the primary variables with as many arcs in each secondary OS as there are different discrete values of the function.  Each such secondary OS arc has a cost = the function value it represents. In DNF, there are flows entering each OS, and via a modification of a fixed-charge network flow (FCNF) algorithm, we restrict the flow to enter exactly one arc per OS (primary or secondary), so that the total flow cost is minimized and various constraints satisfied.  The underlying computation in DNF is classical min-cost network flow (MCNF) that is iterated several times to solve the DNF problem. This works by selecting in each iteration of MCNF that arc in each OS whose flow is the maximum among all arcs in that OS, and is above a certain threshold. In each iteration of MCNF, for one or more OS, an arc is selected based on the above criteria by making other arcs in theese OS's very expensive in subsequent MCNFs.  The novel improvement over basic DNF that was developed in this project is a much more natural approach for selecting arcs in each OS in a two fold process: 1) Each arc e has a unit-flow cost that is different in the forward direction with cost cost(e) (cost to push a unit flow into it) and in the backward direction with cost -cost(e)*cap(e)/flow(e) (cost reduction for pulling a unit of flow out e after an initial flow has gone through it), where cap(e) is the flow capacity of e (and is expected to be filled in the selected arc in each OS) and flow(e) is the current flow anount in e; in classical MCNF, the foward and backward unit-flow costs of an arc are negations of each other. This 2-sided arc cost structure encourages current flow amounts that are in relatively expensive arc paths and thus are small (and thereby have correspondingly higher unit-flow cost reduction to be pulled out) to move out of them in subsequent MCNF iterations so that in each OS either full or almost full flow goes through exactly one arc.  2) The determination of which arc in each OS has full or almost full flow through it is made in a decoupled manner by observing over several MCNF iteartions which arc has has the maximum accumulated flow across all valid flow paths branching out of it.  We used the 2-sided DNF algorithm to solve the OSP problem that models the gate sizing and threshold voltage assignment problem for digital circuits for minimizing their power consumption under the constraint of a lower bound on their speed. Experimetal results on the ISPD'12 benchmark suite of digital circuits show that a simple version of the 2-sided DNF technique obtains an ...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

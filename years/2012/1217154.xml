@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Accurate high performance computing for nonlinear collisional kinetic theory</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>167677.00</AwardTotalIntnAmount>
+<AwardAmount>167677</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Junping Wang</SignBlockName>
+<PO_EMAI>jwang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924488</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This work will implement, analyze, and benchmark accurate numerical schemes for nonlinear collisional kinetic equations and their extension to high performance computing. Kinetic equations describe physical systems at the mesoscopic level, where there are large numbers of interactions between particles but they are not frequent enough to be described as a continuum. At each point in phase space a nonlinear integral term models the effect of interactions with all of the other particles in the system. This integral is difficult and expensive to evaluate due to the delicate conservation structure of the interactions and its dimensionality, however it has many properties that makes it well-suited for parallel computation. This work seeks to overcome the computational bottleneck of the collisional integral term in kinetic models by adapting a conservative spectral numerical method to massively parallel computer architectures, and will investigate how this scales with increasing computational nodes. The proposed work will further enhance the method by applying high order space and time discretization to the transport terms in the system, which was previously infeasible due to the expense of evaluating the collision term, as well as investigating methods for reducing the complexity of the integration for further efficiency. It will also carefully investigate the order of accuracy of computation with regards to the velocity domain cutoff and quadrature. This work will extend the conservative spectral method to the case of anisotropic in angle collisional models, in particular the grazing collisions (Landau) limit and applications to collisional plasma models. Finally, this work will attempt to extend the ideas of asymptotic-preserving schemes to efficiently compute the collision term in stiff regimes.&lt;br/&gt;&lt;br/&gt;Many important problems in science can be described at the molecular level as individual particles bouncing around, each with its speed and direction. These particles interact with each other as well as other objects through collisions that exchange energy and momentum, and the average behavior of these interactions can be felt as wind, for example. Kinetic models describe problems where particle density is low enough that collisional effects matter in the dynamics of the problem, but is not so strong that one can simply use the average behavior to describe the evolution. Kinetic models can characterize a wide variety of applications such as design of nano- and micro-scale devices, energy applications in plasma physics such as semiconductors and nuclear fusion, and atmospheric re-entry for spacecraft and satellites. In addition to physical applications, these models can be used for the modeling of biological and social dynamics, such as the dynamics of crowds in confined spaces, or modeling the flocking and herding of animals, which could be of security and environmental interest. This work will develop new simulation tools that are able to leverage high performance computing resources to perform high accuracy simulation of problems that were previously computationally infeasible, which can provide a broader view of kinetic applications.</AbstractNarration>
+<MinAmdLetterDate>09/13/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>05/04/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217154</AwardID>
+<Investigator>
+<FirstName>Irene</FirstName>
+<LastName>Gamba</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Irene M Gamba</PI_FULL_NAME>
+<EmailAddress>gamba@math.utexas.edu</EmailAddress>
+<PI_PHON>5124717150</PI_PHON>
+<NSF_ID>000381736</NSF_ID>
+<StartDate>09/13/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jeffrey</FirstName>
+<LastName>Haack</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jeffrey Haack</PI_FULL_NAME>
+<EmailAddress>haack@math.utexas.edu</EmailAddress>
+<PI_PHON>5124716424</PI_PHON>
+<NSF_ID>000611306</NSF_ID>
+<StartDate>09/13/2012</StartDate>
+<EndDate>05/04/2015</EndDate>
+<RoleCode>Former Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName/>
+<StateCode>TX</StateCode>
+<ZipCode>787137726</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>21</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX21</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~167677</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><div class="page" title="Page 11"> <div class="section" style="background-color: rgb(100.000000%, 100.000000%, 100.000000%);"> <div class="layoutArea"> <div class="column"> <p><span style="font-size: 10.000000pt; font-family: 'Times';">This funded project produced several innovative computational approaches&nbsp; in computational plasma models related to the problem of fusion and renewable/green energy sources. It focused&nbsp; on developing accurate high performance, computing methods for nonlinear collisional kinetic theory. These problems are of great importance in the modeling of rarefied gas dynamics, like flight in the outer atmosphere, Plasma dynamics in nanoscale modeling for hot electron transport in submicron electronics devices, as well as well as</span><span style="font-size: 10.000000pt; font-family: 'Times';"> modeling high field effects for semiconductor-electrolyte interface reaction in the modeling of Photo Electro Catalystic (PEC) solar cell devices at submicron scales. </span></p> <p><span style="font-size: 10.000000pt; font-family: 'Times';">The funded Co-PI, Postdoc Jeffrey R. Haack at the University of Texas at Austin, was funded initially by a&nbsp; NSF Research Training Grant (RTG) </span><span style="font-size: 10.000000pt; font-family: 'Times'; font-weight: bold;">EMSW21-RTG - Program in Applied and Computational Analysis, </span><span style="font-size: 10pt;">funded at </span>the Department of Mathematics and the University of Texas at Austin.</p> <p>He was later funded by this grant under the PI supervision. His performance was extraordinary in terms of research and mentoring of graduate students.</p> <p>A byproduct of Dr Haack funding is  the  earning of  a research associate position at the Los Alamos National Laboratory, Santa Fe, New Mexico, held in the area on Computational Fluid Dynamics and Plasma Physics.</p> <p>In addition,&nbsp; this proposal funded four graduate students, all working in related areas to the proposal. Two of them are female applied Mathematicians, Sona Akopian and Maja Taskovic,&nbsp; and the Hispanic computational mathematics scientist, Jose A. Morales Escalante.</p> <div class="page" title="Page 7"> <div class="section"> <div class="layoutArea"> <div class="column"><span style="font-size: 10pt;">&nbsp;</span> <p><span style="font-size: 10pt;"><br /></span></p> </div> </div> </div> </div> <p><span style="font-size: 10.000000pt; font-family: 'Times';"> </span></p> </div> </div> </div> </div><br> <p>            Last Modified: 01/16/2016<br>      Modified by: Irene&nbsp;M&nbsp;Gamba</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[     This funded project produced several innovative computational approaches  in computational plasma models related to the problem of fusion and renewable/green energy sources. It focused  on developing accurate high performance, computing methods for nonlinear collisional kinetic theory. These problems are of great importance in the modeling of rarefied gas dynamics, like flight in the outer atmosphere, Plasma dynamics in nanoscale modeling for hot electron transport in submicron electronics devices, as well as well as modeling high field effects for semiconductor-electrolyte interface reaction in the modeling of Photo Electro Catalystic (PEC) solar cell devices at submicron scales.   The funded Co-PI, Postdoc Jeffrey R. Haack at the University of Texas at Austin, was funded initially by a  NSF Research Training Grant (RTG) EMSW21-RTG - Program in Applied and Computational Analysis, funded at the Department of Mathematics and the University of Texas at Austin.  He was later funded by this grant under the PI supervision. His performance was extraordinary in terms of research and mentoring of graduate students.  A byproduct of Dr Haack funding is  the  earning of  a research associate position at the Los Alamos National Laboratory, Santa Fe, New Mexico, held in the area on Computational Fluid Dynamics and Plasma Physics.  In addition,  this proposal funded four graduate students, all working in related areas to the proposal. Two of them are female applied Mathematicians, Sona Akopian and Maja Taskovic,  and the Hispanic computational mathematics scientist, Jose A. Morales Escalante.                          Last Modified: 01/16/2016       Submitted by: Irene M Gamba]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

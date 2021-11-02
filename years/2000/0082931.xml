@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>ITR: Self-Scheduling N-Body Algorithms</AwardTitle>
+<AwardEffectiveDate>09/01/2000</AwardEffectiveDate>
+<AwardExpirationDate>02/29/2004</AwardExpirationDate>
+<AwardAmount>463940</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Xiaodong Zhang</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>The n-body problem - i.e. simulating the motion of many particles that attract or repel each other - is a classic one with many applications. N-body algorithms are the computational means of solving this problem. The many users of these algorithms include biophysiologists and biochemists studying biological phenomena, pharmaceutical researchers dealing with drug structures and interactions, astrophysicists studying the structure of the cosmos, and engineering researchers studying hydrodynamics. The algorithms are also interesting in their own right to computer scientists. This project will develop an innovative approach to n-body algorithms called self-scheduling n-body algorithms. This family of algorithms promises not only reduced computational complexity, but also a straightforward implementation.&lt;br/&gt;&lt;br/&gt;Technically, the research will use a multiple time step method where each pairwise interaction is evaluated using a dynamic schedule that attempts to equalize the error of each interaction, drastically reducing the computational cost. The fundamental new idea is to equalize the impulses for all interactions, rather than equalizing the time steps for all interactions (which is too conservative in most cases). Mathematically, the constant time step t is traded for a constant impulse I, defined as Fij  tij,  where Fij is the force between particles i and j and tij becomes the time step used to re-evaluate Fij. This leads to an expected execution complexity of O(n4/3) per simulation step. Algorithmic improvements that rely on the first and second derivatives of force reduce the per step computational complexity to O(n log n) and O(n), respectively. The project will fully explore these algorithms, analyze their error bounds and computational complexity, implement prototype versions, and explore additional topics (such as efficient parallelization and cache-efficient memory layouts) as time permits.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>09/12/2000</MinAmdLetterDate>
+<MaxAmdLetterDate>06/30/2003</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0082931</AwardID>
+<Investigator>
+<FirstName>Lars</FirstName>
+<LastName>Nyland</LastName>
+<EmailAddress>lnyland@mines.edu</EmailAddress>
+<StartDate>09/12/2000</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>William</FirstName>
+<LastName>Wright</LastName>
+<EmailAddress/>
+<StartDate>09/12/2000</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Minion</LastName>
+<EmailAddress>minion@email.unc.edu</EmailAddress>
+<StartDate>09/12/2000</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jan</FirstName>
+<LastName>Hermans</LastName>
+<EmailAddress>hermans@med.unc.edu</EmailAddress>
+<StartDate>09/12/2000</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jan</FirstName>
+<LastName>Prins</LastName>
+<EmailAddress>prins@cs.unc.edu</EmailAddress>
+<StartDate>09/12/2000</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of North Carolina at Chapel Hill</Name>
+<CityName>CHAPEL HILL</CityName>
+<ZipCode>275991350</ZipCode>
+<PhoneNumber>9199663411</PhoneNumber>
+<StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0000099</Code>
+<Name>Other Applications NEC</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>1640</Code>
+<Text>INFORMATION TECHNOLOGY RESEARC</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1652</Code>
+<Text>HIGH END COMPUTATION AND INFRASTRUCTURE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>1660</Code>
+<Text>ITR COMPETITION FOR UNDER $500K</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>1686</Code>
+<Text>ITR SMALL GRANTS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>4080</Code>
+<Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9216</Code>
+<Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

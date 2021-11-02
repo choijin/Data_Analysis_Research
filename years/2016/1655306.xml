@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Collaborative Research: Towards Robust and Scalable Hexahedral Meshing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>104850.00</AwardTotalIntnAmount>
+<AwardAmount>104850</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jack S. Snoeyink</SignBlockName>
+<PO_EMAI>jsnoeyin@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The first step of computer modeling, simulation, or analysis for objects with complex, 3-dimensional geometry is to represent the object as a mesh of simpler objects: (warped) cubes that share faces are the most natural and support many analysis tools, but getting cube faces to match while fitting the geometry is a challenge that causes many tools to use tetrahedra instead.  Tetrahedra can be refined locally (replacing one with four, or a touching pair by three) without changing the other faces, but splitting a cube propagates to other cubes, requiring more global insight. This is what this project aims to provide using the concept of "frame fields," with the benefit for better modeling of material and electromagnetic properties of computer-designed and computer-simulated objects. The PIs also plan to continue their work with under-represented groups and with high school students.&lt;br/&gt;&lt;br/&gt;Frame fields assign coordinate axes in a smooth manner throughout a space. The PIs have done some pioneering work on turning 2d frame fields into quadrilateral surface meshes, and want to explore the possibility of extension to 3d.  This project will look to overcome three significant obstacles:  &lt;br/&gt;1. The group of symmetries of the cube is more complex than that of the square -- the PIs will explore a representation based on spherical harmonics.  &lt;br/&gt;2. The third dimension requires changing sizes and warping where 2d could use unit frame fields -- the PIs will explore sizing and anisotropy fields to fit object gradients.  &lt;br/&gt;3. The topology of face-connectedness cubes constrains the mesh -- the PIs will explore the tradeoffs between smooth frames and topology constraints.</AbstractNarration>
+<MinAmdLetterDate>09/13/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/13/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1655306</AwardID>
+<Investigator>
+<FirstName>Mathieu</FirstName>
+<LastName>Desbrun</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mathieu Desbrun</PI_FULL_NAME>
+<EmailAddress>mathieu@caltech.edu</EmailAddress>
+<PI_PHON>6263956230</PI_PHON>
+<NSF_ID>000489836</NSF_ID>
+<StartDate>09/13/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>California Institute of Technology</Name>
+<CityName>PASADENA</CityName>
+<ZipCode>911250600</ZipCode>
+<PhoneNumber>6263956219</PhoneNumber>
+<StreetAddress>1200 E California Blvd</StreetAddress>
+<StreetAddress2><![CDATA[Mail Code 273-6]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>27</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA27</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009584210</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CALIFORNIA INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009584210</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[California Institute of Technology]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>911250001</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>27</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA27</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7929</Code>
+<Text>COMPUTATIONAL GEOMETRY</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7933</Code>
+<Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~104850</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Meshing a domain consists in defining a concise set of simple elements (typically, quadrilaterals for 2D domains, and hexahedra for 3D domains) whose non-overlapping union best describes the domain and its boundaries, while satisfying a series of criteria on element shapes and sizes. In particular, structured quadrilateral/hexahedral meshes are desirable in computational sciences due to their tensor product nature. However, current hexahedral meshing tools are based on a variety of practical heuristics, but lack automatic and reliable tools that quad meshing already has. We propose to leverage recent developments in tetrahedral meshing, quad meshing, and frame field design to move the field of hexahedral meshing forward, by investigating the often overlooked interplay between topological and geometric issues involved in this non-simplicial case. With this goal in mind, this project targeted three different research efforts.</p> <p>We proposed a simple linear programming reformulation of the mixed integer problem to efficiently verify the existence of a conforming coarsequad mesh layout, given the singularity structures formed by integral lines of an input feature-aligned anisotropic frame field. If no layout exists, we proposed to automatically introduce additional singularity pairs to ensure the existence. We provided mathematical proofs of our layout existence test and of our modification of the singularity structure. While previous methods exist, they either fail to work on certain input or are inefficient compared to our linear programming formulation. Our formulation should be extendable to hex meshes, hence this initial research project.</p> <p>We also proposed an approach to quad meshing of arbitrary triangulated surfaces that combines the theoretical guarantees of Morse-based approaches with the practical advantages of parameterization methods. Our method is based on a periodic four-dimensional vector field that aligns with a user-provided frame field and/or a set of features over the input mesh. A seamless parameterization and its associated quad cells are then greedily and efficiently extracted over most of the surface. Finally, the vector field is upsampled on the remaining regions only, and its first component is used as a Morse function to extract the remaining quads. This hybrid parameterization- and Morse-based quad meshing method is guaranteed to provide a non-degenerate, foldover-free, feature aligned quad mesh that closely matches the input frame field over an arbitrary surface. We show on a variety of examples that our approach is faster than Morse based techniques by two orders of magnitude, and more robust than parameterization-based techniques on models with complex features. Once again, the approach should be extensible to hex meshes.</p> <p>Finally, we proposed a controllable embedding method for high- and low-dimensional geometry processing through sparse matrix eigenanalysis. Our approach is equally suitable to perform non-linear dimensionality reduction on big data, or to offer non-linear shape editing of 3D meshes and pointsets. At the core of our approach is the construction of a multi-Laplacian quadratic form that is assembled from local operators whose kernels only contain locally-affine functions. Minimizing this quadratic form provides an embedding that best preserves all relative coordinates of points within their local neighborhoods. We demonstrated the improvements that our approach brings over existing nonlinear dimensionality reduction methods on a number of datasets, and formulated the first eigen-based as-rigid-as-possible shape deformation technique by applying our affine-kernel embedding approach to 3D data augmented with user-imposed constraints on select vertices. This embedding method can be seen as a preprocessing dimensionality reduction step for quad or hexahedron meshing of high dimensional point clouds.</p><br> <p>            Last Modified: 09/07/2017<br>      Modified by: Mathieu&nbsp;Desbrun</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2017/1655306/1655306_10461373_1504811991963_Meshing--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1655306/1655306_10461373_1504811991963_Meshing--rgov-800width.jpg" title="Fast and Robust Quad Meshing"><img src="/por/images/Reports/POR/2017/1655306/1655306_10461373_1504811991963_Meshing--rgov-66x44.jpg" alt="Fast and Robust Quad Meshing"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Quadrangulation through periodic vector field: We present an efficient way to produce quadrangulations from input triangle meshes that mixes the efficacy of parameterization-based methods and the theoretical guarantees of Morse-based methods applied to an optimized 4D periodic vector field.</div> <div class="imageCredit">Caltech/MSU/Zhejiang U.</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Mathieu&nbsp;Desbrun</div> <div class="imageTitle">Fast and Robust Quad Meshing</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Meshing a domain consists in defining a concise set of simple elements (typically, quadrilaterals for 2D domains, and hexahedra for 3D domains) whose non-overlapping union best describes the domain and its boundaries, while satisfying a series of criteria on element shapes and sizes. In particular, structured quadrilateral/hexahedral meshes are desirable in computational sciences due to their tensor product nature. However, current hexahedral meshing tools are based on a variety of practical heuristics, but lack automatic and reliable tools that quad meshing already has. We propose to leverage recent developments in tetrahedral meshing, quad meshing, and frame field design to move the field of hexahedral meshing forward, by investigating the often overlooked interplay between topological and geometric issues involved in this non-simplicial case. With this goal in mind, this project targeted three different research efforts.  We proposed a simple linear programming reformulation of the mixed integer problem to efficiently verify the existence of a conforming coarsequad mesh layout, given the singularity structures formed by integral lines of an input feature-aligned anisotropic frame field. If no layout exists, we proposed to automatically introduce additional singularity pairs to ensure the existence. We provided mathematical proofs of our layout existence test and of our modification of the singularity structure. While previous methods exist, they either fail to work on certain input or are inefficient compared to our linear programming formulation. Our formulation should be extendable to hex meshes, hence this initial research project.  We also proposed an approach to quad meshing of arbitrary triangulated surfaces that combines the theoretical guarantees of Morse-based approaches with the practical advantages of parameterization methods. Our method is based on a periodic four-dimensional vector field that aligns with a user-provided frame field and/or a set of features over the input mesh. A seamless parameterization and its associated quad cells are then greedily and efficiently extracted over most of the surface. Finally, the vector field is upsampled on the remaining regions only, and its first component is used as a Morse function to extract the remaining quads. This hybrid parameterization- and Morse-based quad meshing method is guaranteed to provide a non-degenerate, foldover-free, feature aligned quad mesh that closely matches the input frame field over an arbitrary surface. We show on a variety of examples that our approach is faster than Morse based techniques by two orders of magnitude, and more robust than parameterization-based techniques on models with complex features. Once again, the approach should be extensible to hex meshes.  Finally, we proposed a controllable embedding method for high- and low-dimensional geometry processing through sparse matrix eigenanalysis. Our approach is equally suitable to perform non-linear dimensionality reduction on big data, or to offer non-linear shape editing of 3D meshes and pointsets. At the core of our approach is the construction of a multi-Laplacian quadratic form that is assembled from local operators whose kernels only contain locally-affine functions. Minimizing this quadratic form provides an embedding that best preserves all relative coordinates of points within their local neighborhoods. We demonstrated the improvements that our approach brings over existing nonlinear dimensionality reduction methods on a number of datasets, and formulated the first eigen-based as-rigid-as-possible shape deformation technique by applying our affine-kernel embedding approach to 3D data augmented with user-imposed constraints on select vertices. This embedding method can be seen as a preprocessing dimensionality reduction step for quad or hexahedron meshing of high dimensional point clouds.       Last Modified: 09/07/2017       Submitted by: Mathieu Desbrun]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

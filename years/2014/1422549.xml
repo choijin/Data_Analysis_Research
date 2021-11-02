@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Sparsity in Quadratic Optimization through Low-Rank Approximations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>425239.00</AwardTotalIntnAmount>
+<AwardAmount>425239</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+<PO_EMAI>pregalia@nsf.gov</PO_EMAI>
+<PO_PHON>7032922981</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Nonnegativity and sparsity are highly desirable properties in data and signal decomposition algorithms. Nonnegativity is particularly relevant when the involved variables have a physical interpretation and ensures a separation of properties that interact in an additive manner. Nonnegativity and sparsity have been used in principal component analysis for numerous applications including bioinformatics, hyperspectral imaging and computer vision.&lt;br/&gt;&lt;br/&gt;This research involves the study of sparsity and nonnegativity in quadratic optimization problems. This project develops novel algorithms for solving such problems under sparsity and nonnegativity constraints using a low-rank projection framework. This framework allows the development of novel algorithms for nonnegative sparse principal component analysis and matrix factorization. The research program relies on a fruitful synthesis of tools from information theory, combinatorics and linear algebra. The developed algorithms are both empirically outperforming the previous state of the art and have provable approximation guarantees.</AbstractNarration>
+<MinAmdLetterDate>07/16/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>07/16/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1422549</AwardID>
+<Investigator>
+<FirstName>Georgios-Alex</FirstName>
+<LastName>Dimakis</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Georgios-Alex Dimakis</PI_FULL_NAME>
+<EmailAddress>dimakis@austin.utexas.edu</EmailAddress>
+<PI_PHON>5124713068</PI_PHON>
+<NSF_ID>000515168</NSF_ID>
+<StartDate>07/16/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787121532</ZipCode>
+<StreetAddress><![CDATA[101 East 27th St, Suite 5.300]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~425239</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Sparsity and Nonnegativity are highly desirable structural properties that can be used to describe, compress and analyze complex datasets. Such structural assumptions are central for compressed sensing and principal component analysis and have found numerous applications including bioinformatics, hyperspectral imaging and computer vision.</p> <p>This project studied how such structure can be used to develop provably efficient machine learning algorithms for sensing, denoising, analyzing and compressing complex datasets. A central finding is that deep generative models can be very powerful data priors that perform significantly better compared to sparsity in a known basis and Lasso, a standard algorithm for sparse approximation.&nbsp;</p> <div class="page" title="Page 2"> <div class="section"> <div class="layoutArea"> <div class="column"> <p><span>Compressed sensing algorithms solve linear inverse problems, i.e. estimate unknown signals from underdetermined systems of noisy linear measurements. For almost all results in previous literature, the structure is represented by sparsity in a well&shy;-chosen basis. This project demonstrated how to obtain&nbsp;</span>provable guarantees, similar to standard compressed sensing but without employing sparsity. Instead, the key assumption used in this project is the assumption that the unknown vectors lie near the range of a generative model, e.g. a GAN or a VAE.</p> <p>The project demonstrated how the problems of image inpainting and super&shy;resolution are special cases of a general introduced framework. Further, the&nbsp; RIP (Restricted Isometry Property) condition was generalized for generative models using novel mathematical analysis.&nbsp;</p> </div> </div> </div> </div> <p>This project further established connections between greedy methods for submodular data summarization, low rank approximations and learning high-dimensional distributions from noisy samples.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/19/2019<br>      Modified by: Georgios-Alex&nbsp;Dimakis</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Sparsity and Nonnegativity are highly desirable structural properties that can be used to describe, compress and analyze complex datasets. Such structural assumptions are central for compressed sensing and principal component analysis and have found numerous applications including bioinformatics, hyperspectral imaging and computer vision.  This project studied how such structure can be used to develop provably efficient machine learning algorithms for sensing, denoising, analyzing and compressing complex datasets. A central finding is that deep generative models can be very powerful data priors that perform significantly better compared to sparsity in a known basis and Lasso, a standard algorithm for sparse approximation.       Compressed sensing algorithms solve linear inverse problems, i.e. estimate unknown signals from underdetermined systems of noisy linear measurements. For almost all results in previous literature, the structure is represented by sparsity in a well&shy;-chosen basis. This project demonstrated how to obtain provable guarantees, similar to standard compressed sensing but without employing sparsity. Instead, the key assumption used in this project is the assumption that the unknown vectors lie near the range of a generative model, e.g. a GAN or a VAE.  The project demonstrated how the problems of image inpainting and super&shy;resolution are special cases of a general introduced framework. Further, the  RIP (Restricted Isometry Property) condition was generalized for generative models using novel mathematical analysis.       This project further established connections between greedy methods for submodular data summarization, low rank approximations and learning high-dimensional distributions from noisy samples.           Last Modified: 02/19/2019       Submitted by: Georgios-Alex Dimakis]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

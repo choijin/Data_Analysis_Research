@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Liquid Foundation Internet</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>11/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Internet traffic traveling over wireless networks, such as 5G and wireless mesh networks, inevitably experiences loss, i.e., a fraction of sent data packets are lost and never arrive at their destination.  Loss is exacerbated when senders or receivers are mobile. The current design of the internet inefficiently deals with loss by workarounds such as retransmitting lost data.  This project envisions a redesign of the internet that will accommodate loss by fundamentally reimagining how internet data is stored and transmitted, as well as an investigation of smaller incremental steps that might be taken to facilitate this larger redesign.  Improving the capability of wireless networks in this way will enable deployment of a more reliable, robust, responsive, and efficient internet to underserved and rural communities around the world that rely on wireless connectivity.&lt;br/&gt;&lt;br/&gt;The proposal is to flesh out an internet design based on a fountain code, i.e., all data stored or transmitted within the internet will be fountain encoded data. A fountain code is an erasure code that is scalable in two dimensions: (1) the size of an object which can be efficiently encoded and decoded is essentially unlimited; and (2) the amount of encoded data that can be generated from an object is essentially unlimited. A fountain code has (nearly) optimal recovery, i.e., any portion of encoded data (nearly) equal in size to an object is sufficient to recover the object.  The design will separate loss recovery from congestion control, incorporate universal mechanisms to simply and gracefully handle packet loss, mobility, long latency paths, and failing infrastructure, include mechanisms to address novel security concerns, and take into account deployment concerns.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/16/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>08/16/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1936572</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Luby</LastName>
+<PI_MID_INIT>G</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael G Luby</PI_FULL_NAME>
+<EmailAddress>luby@bitripple.com</EmailAddress>
+<PI_PHON>5105795568</PI_PHON>
+<NSF_ID>000797645</NSF_ID>
+<StartDate>08/16/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>International Computer Science Institute</Name>
+<CityName>Berkeley</CityName>
+<ZipCode>947041345</ZipCode>
+<PhoneNumber>5106662900</PhoneNumber>
+<StreetAddress>2150 Shattuck Ave, Suite 1100</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>187909478</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>INTERNATIONAL COMPUTER SCIENCE INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[International Computer Science Institute]]></Name>
+<CityName>Berkeley</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>947041159</ZipCode>
+<StreetAddress><![CDATA[1947 Center Street Suite 600]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>A primary outcome of this NSF award is the research described in the paper &ldquo;Liquid Data Networking&rdquo; (Byers, Luby, ACM ICN &rsquo;20 conference). The ACM ICN &rsquo;20 conference video presentation of this work is available at <a title="LDN presentation in ACM ICN '20" href="https://www.youtube.com/watch?v=DSlL2MuF97E" target="_blank"><span style="text-decoration: underline;">https://www.youtube.com/watch?v=DSlL2MuF97E</span></a>.</p> <p>Liquid Data Networking (LDN) introduces an Information Centric Networking (ICN) architecture&nbsp;that is designed to enable the benefits of erasure-code enabled object&nbsp;delivery. With an erasure code, the encoded data generated from an object by the encoder can be viewed as liquid data, by which we mean that encoded data is interchangeable; the amount of encoded data that arrives at the decoder determines whether or not an object is recoverable, and not the specific set of encoded data. LDN is based on leveraging this fundamental distinction.</p> <p>The LDN design utilizes an erasure code for which there is a large pool of possible encoded data that can be generated on-the-fly for each object, and thus fountain codes are the best choice for use within LDN.&nbsp; For the reasons outlined in the LDN paper, the RaptorQ code specified in IETF RFC 6330, which is based on LT codes (the first practical fountain codes), is the most suitable fountain code to use within LDN. An educational video describing how LT codes can be used for data delivery and explaining the design and analysis of LT codes at a level that is suitable for an undergraduate curriculum is available at <a title="LT codes - a design and analysis epiphany" href="https://www.youtube.com/watch?v=C4qi_oJoUrE" target="_blank">https://www.youtube.com/watch?v=C4qi_oJoUrE</a>.</p> <p>A primary contribution of LDN is the introduction of stream objects and stream object permutation identifiers&nbsp;(SOPIs), a simple and efficient naming mechanism enabling clients to&nbsp;concurrently download liquid data (encoded data) over multiple interfaces for the&nbsp;same object, to optimize caching efficiency, and to enable seamless&nbsp;mobility. LDN&nbsp;provides provable reliability, performance, and security benefits, is&nbsp;simple, and enables a scalable implementation with low overheads. &nbsp;LDN offers a clean separation of security into object security&nbsp;and data packet security. An evaluation of the architecture and&nbsp;its use with various types of erasure codes is provided.&nbsp;</p> <p>The stream object permutation identifier (SOPI) is key to the LDN design of the object to network data name-mapping and request/response paradigm. SOPIs are used to control the specific set of packets containing encoded data that clients will request from specific nodes within the system. This simple mechanism ensures the benefits mentioned above. Furthermore, the signaling protocols to distribute and use SOPIs are relatively straightforward, and the additional signaling complexity a client incurs is independent of the number of objects downloaded by the client.</p> <p>LDN introduces a new security paradigm. Object verification has been identified as a critical aspect of any ICN architecture. An established provenance approach to support object verification is to enable the entity that generates an object to digitally sign objects as they are generated independent of the delivery network. Another important security aspect is to protect against a denial-of-service attack, i.e., corrupt packets that contain data not useful to recover an object can waste valuable network resources and pose a denial-of-service attack. LDN includes packet verification which allows blame to be assigned to nodes that generate corrupt packets. The design cleanly separates object provenance security requirements from network delivery security requirements. Both object verification and packet verification use standard digital signature schemes.</p> <p>Although LDN is still in its early stages, there is growing interest and excitement in the idea of an LDN architecture, e.g., folks within industry and governmental organizations have reacted very positively to the idea of LDN and seem interested in exploring further.&nbsp; We plan to pursue further work on aspects of LDN both from a research perspective and from a commercial deployment perspective.&nbsp; As examples, we plan to submit a proposal to the NSF to continue research work on LDN, and some of the LDN architectural ideas will likely be incorporated into software products developed by BitRipple, Inc. that utilize a high-performance implementation of the RaptorQ erasure code.</p> <p>LDN has inspired interest in exploring an augmented architecture for a number of use cases, e.g., an augmentation of the architectural foundation for space networks (e.g., layers of LEOs), AR/VR use cases, SD-WAN data acceleration, industrial IoT delivery of data from remote devices back to the cloud, delivering data at high-speed over 5G, Broadcast internet (5G FeMBMS, NextGenTV ATSC 3.0) data delivery to mobile devices (automobiles), and a number of other hybrid use cases where portions or all of the LDN architecture could play a key role in the future.</p> <p>It is possible that a future internet architecture that incorporates LDN features enables optimized deployments that allow improved internet access to underserved populations, remote populations, and remote-to-cloud machine-to-machine type deployments.&nbsp; As examples, BitRipple is working with providers of Internet services to underserved rural populations, and is exploring opportunities to incorporate the LDN architecture into space networks.</p><br> <p>            Last Modified: 03/04/2021<br>      Modified by: Michael&nbsp;G&nbsp;Luby</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ A primary outcome of this NSF award is the research described in the paper "Liquid Data Networking" (Byers, Luby, ACM ICN ’20 conference). The ACM ICN ’20 conference video presentation of this work is available at https://www.youtube.com/watch?v=DSlL2MuF97E.  Liquid Data Networking (LDN) introduces an Information Centric Networking (ICN) architecture that is designed to enable the benefits of erasure-code enabled object delivery. With an erasure code, the encoded data generated from an object by the encoder can be viewed as liquid data, by which we mean that encoded data is interchangeable; the amount of encoded data that arrives at the decoder determines whether or not an object is recoverable, and not the specific set of encoded data. LDN is based on leveraging this fundamental distinction.  The LDN design utilizes an erasure code for which there is a large pool of possible encoded data that can be generated on-the-fly for each object, and thus fountain codes are the best choice for use within LDN.  For the reasons outlined in the LDN paper, the RaptorQ code specified in IETF RFC 6330, which is based on LT codes (the first practical fountain codes), is the most suitable fountain code to use within LDN. An educational video describing how LT codes can be used for data delivery and explaining the design and analysis of LT codes at a level that is suitable for an undergraduate curriculum is available at https://www.youtube.com/watch?v=C4qi_oJoUrE.  A primary contribution of LDN is the introduction of stream objects and stream object permutation identifiers (SOPIs), a simple and efficient naming mechanism enabling clients to concurrently download liquid data (encoded data) over multiple interfaces for the same object, to optimize caching efficiency, and to enable seamless mobility. LDN provides provable reliability, performance, and security benefits, is simple, and enables a scalable implementation with low overheads.  LDN offers a clean separation of security into object security and data packet security. An evaluation of the architecture and its use with various types of erasure codes is provided.   The stream object permutation identifier (SOPI) is key to the LDN design of the object to network data name-mapping and request/response paradigm. SOPIs are used to control the specific set of packets containing encoded data that clients will request from specific nodes within the system. This simple mechanism ensures the benefits mentioned above. Furthermore, the signaling protocols to distribute and use SOPIs are relatively straightforward, and the additional signaling complexity a client incurs is independent of the number of objects downloaded by the client.  LDN introduces a new security paradigm. Object verification has been identified as a critical aspect of any ICN architecture. An established provenance approach to support object verification is to enable the entity that generates an object to digitally sign objects as they are generated independent of the delivery network. Another important security aspect is to protect against a denial-of-service attack, i.e., corrupt packets that contain data not useful to recover an object can waste valuable network resources and pose a denial-of-service attack. LDN includes packet verification which allows blame to be assigned to nodes that generate corrupt packets. The design cleanly separates object provenance security requirements from network delivery security requirements. Both object verification and packet verification use standard digital signature schemes.  Although LDN is still in its early stages, there is growing interest and excitement in the idea of an LDN architecture, e.g., folks within industry and governmental organizations have reacted very positively to the idea of LDN and seem interested in exploring further.  We plan to pursue further work on aspects of LDN both from a research perspective and from a commercial deployment perspective.  As examples, we plan to submit a proposal to the NSF to continue research work on LDN, and some of the LDN architectural ideas will likely be incorporated into software products developed by BitRipple, Inc. that utilize a high-performance implementation of the RaptorQ erasure code.  LDN has inspired interest in exploring an augmented architecture for a number of use cases, e.g., an augmentation of the architectural foundation for space networks (e.g., layers of LEOs), AR/VR use cases, SD-WAN data acceleration, industrial IoT delivery of data from remote devices back to the cloud, delivering data at high-speed over 5G, Broadcast internet (5G FeMBMS, NextGenTV ATSC 3.0) data delivery to mobile devices (automobiles), and a number of other hybrid use cases where portions or all of the LDN architecture could play a key role in the future.  It is possible that a future internet architecture that incorporates LDN features enables optimized deployments that allow improved internet access to underserved populations, remote populations, and remote-to-cloud machine-to-machine type deployments.  As examples, BitRipple is working with providers of Internet services to underserved rural populations, and is exploring opportunities to incorporate the LDN architecture into space networks.       Last Modified: 03/04/2021       Submitted by: Michael G Luby]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

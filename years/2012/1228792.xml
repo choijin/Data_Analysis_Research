@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Phase: Medium: Collaborative Proposal: Understanding and Exploiting Parallelism in Deep Packet Inspection on Concurrent Architectures</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>577998.00</AwardTotalIntnAmount>
+<AwardAmount>577998</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Deep packet inspection (DPI) is a crucial tool for protecting networks from emerging and sophisticated attacks. However, it is becoming increasingly difficult to implement DPI effectively due to the rising need for more complex analysis, combined with the relentless growth in the volume of network traffic that these systems must inspect.  To address this challenge, future DPI technologies must exploit the power of emerging highly concurrent multi- and many-core platforms. Unfortunately, however, current DPI systems severely limit their use of parallelism by either resorting to coarse-grained load-balancing or restricting their analysis to very simple, hard-coded detectors.&lt;br/&gt;&lt;br/&gt;In order to fully exploit parallel hardware platforms, in this project we develop a comprehensive approach that introduces parallelism across all stages of the complex DPI pipeline. We investigate application-independent scheduling strategies that take existing DPI analyses and automatically parallelize their processing. We do so by mapping them into a domain-specific intermediary representation that abstracts from specifics of the underlying hardware architecture while providing low-level consistency guarantees. Conceptually, the project's goal is to virtualize and abstract parallelism as a fundamental primitive, just like how virtual memory abstracts away physical memory size limitations from programmers.</AbstractNarration>
+<MinAmdLetterDate>08/13/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/13/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1228792</AwardID>
+<Investigator>
+<FirstName>Robin</FirstName>
+<LastName>Sommer</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Robin Sommer</PI_FULL_NAME>
+<EmailAddress>robin@icsi.berkeley.edu</EmailAddress>
+<PI_PHON>5106662900</PI_PHON>
+<NSF_ID>000486953</NSF_ID>
+<StartDate>08/13/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>International Computer Science Institute</Name>
+<CityName>Berkeley</CityName>
+<ZipCode>947041345</ZipCode>
+<PhoneNumber>5106662900</PhoneNumber>
+<StreetAddress>2150 Shattuck Ave, Suite 1100</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>187909478</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>INTERNATIONAL COMPUTER SCIENCE INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[International Computer Science Institute]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>947041198</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~577998</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Deep packet inspection (DPI) is a crucial tool for protecting networks from sophisticated cyber attacks. However, it is becoming increasingly difficult to implement DPI effectively due to the rising need for more complex analysis, combined with the relentless growth in the volume of network traffic that these systems must inspect. To address this challenge, in this project we pursued a range of related research efforts aimed at exploiting the power of today&rsquo;s highly concurrent processing platforms across all stages of the DPI pipeline. We summarize some of the main results in the following.</p> <p>We introduced a novel domain-specific concurrency model that proves highly scalable by leveraging a novel notion of &ldquo;detection scope&rdquo;: a unit for partitioning network traffic such that the traffic contained in each resulting "slice" is independent for detection purposes. The notion of scope enables DPI systems to automatically distribute traffic processing, while ensuring that information necessary to detect intrusions remains available to detector instances. We showed that for a large class of detection algorithms, their scope can be automatically inferred via program analysis, and we demonstrated that our approach can exploit the concurrency inherent in network traffic to provide significant throughput improvement.</p> <p>DPI systems process wire format network data from untrusted sources, collecting semantic information from a variety of protocols and file formats as they work their way upwards through the network stack. However, implementing corresponding dissectors for the potpourri of formats that today's networks carry, remains time-consuming and cumbersome, and also poses fundamental security challenges. We introduced a novel framework for dissecting wire format data that facilitates generation of efficient yet safe parsing code. The system sits on top of a lower-level abstract machine model that we developed specifically for supporting highly concurrent DPI tasks, incorporating our domain-specific, scope-based concurrency model. &nbsp;</p> <p>We developed a new low-level system component, Packet Bricks, that efficiently distributes packets captured by a system's network interface to concurrent user-land applications. For a parallel DPI system, it is key to split up the incoming packet stream as early as possible before sending it on to individual analysis threads, since otherwise Amdahl's law severely limits the overall speed-up one can hope to achieve. &nbsp;Furthermore, to add intrusion prevention functionality, a DPI system also needs a feedback channel back into the packet layer to control what's being forwarded. Packet Bricks provides such functionality through a modular interface for users and application developers, enabling them to compose a user-land packet processing pipeline that can include load-balancing, packet duplication, and filtering functionality.</p> <p>We presented the design, implementation, and evaluation of VAST (Visibility Across Space and Time), a distributed platform for high-performance network forensics and incident response that provides both continuous ingestion of voluminous event streams and interactive query performance. VAST features an entirely asynchronous architecture designed in terms of the actor model, a message-passing abstraction for concurrent systems, to fully utilize all available CPU and storage resources, and to transparently scale from single-node to cluster deployments. To support interactive queries, VAST relies extensively on bitmap indexes that we adapted to support its expressive query language. Our evaluation with real-world log and packet data demonstrated the system&rsquo;s potential to support interactive investigation and exploration at a level beyond what current systems offer.&nbsp;</p><br> <p>            Last Modified: 12/01/2017<br>      Modified by: Robin&nbsp;Sommer</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Deep packet inspection (DPI) is a crucial tool for protecting networks from sophisticated cyber attacks. However, it is becoming increasingly difficult to implement DPI effectively due to the rising need for more complex analysis, combined with the relentless growth in the volume of network traffic that these systems must inspect. To address this challenge, in this project we pursued a range of related research efforts aimed at exploiting the power of today?s highly concurrent processing platforms across all stages of the DPI pipeline. We summarize some of the main results in the following.  We introduced a novel domain-specific concurrency model that proves highly scalable by leveraging a novel notion of "detection scope": a unit for partitioning network traffic such that the traffic contained in each resulting "slice" is independent for detection purposes. The notion of scope enables DPI systems to automatically distribute traffic processing, while ensuring that information necessary to detect intrusions remains available to detector instances. We showed that for a large class of detection algorithms, their scope can be automatically inferred via program analysis, and we demonstrated that our approach can exploit the concurrency inherent in network traffic to provide significant throughput improvement.  DPI systems process wire format network data from untrusted sources, collecting semantic information from a variety of protocols and file formats as they work their way upwards through the network stack. However, implementing corresponding dissectors for the potpourri of formats that today's networks carry, remains time-consuming and cumbersome, and also poses fundamental security challenges. We introduced a novel framework for dissecting wire format data that facilitates generation of efficient yet safe parsing code. The system sits on top of a lower-level abstract machine model that we developed specifically for supporting highly concurrent DPI tasks, incorporating our domain-specific, scope-based concurrency model.    We developed a new low-level system component, Packet Bricks, that efficiently distributes packets captured by a system's network interface to concurrent user-land applications. For a parallel DPI system, it is key to split up the incoming packet stream as early as possible before sending it on to individual analysis threads, since otherwise Amdahl's law severely limits the overall speed-up one can hope to achieve.  Furthermore, to add intrusion prevention functionality, a DPI system also needs a feedback channel back into the packet layer to control what's being forwarded. Packet Bricks provides such functionality through a modular interface for users and application developers, enabling them to compose a user-land packet processing pipeline that can include load-balancing, packet duplication, and filtering functionality.  We presented the design, implementation, and evaluation of VAST (Visibility Across Space and Time), a distributed platform for high-performance network forensics and incident response that provides both continuous ingestion of voluminous event streams and interactive query performance. VAST features an entirely asynchronous architecture designed in terms of the actor model, a message-passing abstraction for concurrent systems, to fully utilize all available CPU and storage resources, and to transparently scale from single-node to cluster deployments. To support interactive queries, VAST relies extensively on bitmap indexes that we adapted to support its expressive query language. Our evaluation with real-world log and packet data demonstrated the system?s potential to support interactive investigation and exploration at a level beyond what current systems offer.        Last Modified: 12/01/2017       Submitted by: Robin Sommer]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

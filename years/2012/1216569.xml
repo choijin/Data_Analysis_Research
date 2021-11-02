@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: CPU-GPU Collaborative Execution in Fusion Architectures</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>376484.00</AwardTotalIntnAmount>
+<AwardAmount>376484</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The most recent trend in chip design is to integrate general purpose central processing units (CPUs) with graphics processing units (GPUs) onto a single microprocessor chip. Looking beyond the obvious benefits of simply putting components closer together, such integration presents an unprecedented opportunity for the CPU and GPU to collaborate, yielding a system whose performance far exceeds the sum of its parts. Whereas, currently, the CPU and GPU are delegated different tasks that each is suited for, this project explores new ways for the CPU and GPU to tackle and collaborate on the same task. The collaboration is fundamentally different from conventional parallel processing, because the CPU and GPU have radically different architectures. In particular, the CPU performs novel meta-computation that assists a GPU task, or vice versa. This innovative approach uncovers new opportunities for emerging heterogeneous architectures. &lt;br/&gt;&lt;br/&gt;The project investigates CPU/GPU collaborative execution paradigms to overcome fundamental limitations of both CPU and GPU computing tasks. The GPU achieves high computational throughput and energy efficiency by executing a single instruction on many data items. Its efficiency is severely degraded if some data items are not available due to long memory access latency or different data items require different operations. The CPU/GPU collaboration leverages the CPU to run far ahead of the GPU to prefetch the data and reorganize the operations needed for different data items so as to drastically improve the GPU efficiency. Conversely, on the CPU side, the CPU/GPU collaboration leverages the GPU's parallel processing power to accelerate auxiliary computations that greatly enrich the CPU program. Locality analysis, for instance, reveals the nature of memory accesses but requires high computation time when running on a CPU. GPU acceleration makes it possible to perform locality analysis simultaneously with the CPU program and adapt the memory hierarchy on-the-fly to improve CPU performance. The research cuts through software and hardware layers. From the software perspective, the project develops automated approaches to generate code for collaborative execution. From the hardware perspective, future architectures are defined to facilitate more effective CPU/GPU collaboration. The automated software approach adds value to current and upcoming microprocessors by enabling them to run more efficiently. The performance improvement and energy savings translate directly into enhanced user experience.</AbstractNarration>
+<MinAmdLetterDate>07/23/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/23/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1216569</AwardID>
+<Investigator>
+<FirstName>Huiyang</FirstName>
+<LastName>Zhou</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Huiyang Zhou</PI_FULL_NAME>
+<EmailAddress>hzhou@ncsu.edu</EmailAddress>
+<PI_PHON>9195137386</PI_PHON>
+<NSF_ID>000250126</NSF_ID>
+<StartDate>07/23/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName/>
+<StateCode>NC</StateCode>
+<ZipCode>276957911</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~376484</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>The increasing integration density, as observed in Moore&rsquo;s law, leads to fusion architecture, in which heterogeneous computing units, including CPUs, GPUs, FPGAs, and accelerators, are integrated onto the same chip. This project focuses on developing novel execution paradigms enabled by fusion architecture. This project investigates both compiler and architectural techniques to improve CPU and GPU performance as well as energy efficiency. A total of eight graduate students participated in the project and three Ph.D. dissertations and two master theses are a direct result from this project. </span><span>&nbsp;Numerous papers have been published in premium venues of the computer architecture, compiler, supercomputing and parallel processing research. A new course has been developed based on the researching findings of the project.</span></p> <p><span>On the CPU side,&nbsp;a new quantitative measure of locality is proposed based on conditional probability. It provides a unified definition of both temporal and spatial locality and offers insights on improving the cache performance. A spatial locality aware cache partitioning scheme is developed for the last level cache shared among multi-cores. Adaptive bypassing for inclusive last-level cache is also proposed to improve the performance of CPU memory hierarchy.</span></p> <p><span>On the GPU side, a CPU-GPU collaborative execution is proposed with CPUs prefetching data for GPUs to process, which significantly improves the computing efficiency. The key components in GPU architecture have been dissected and novel schemes have been proposed to improve their architecture, including warp-level processing, shared memory multiplexing, on-chip memory placement, dynamic parallelism, GPU memory hierarchy, preemption, etc. </span></p> <p><span>On the FPGA side, this project targets at improving the newly developed OpenCL for FPGAs framework, which aims to enable software developers to easily program FPGA devices. The project develops techniques at the OpenCL level for performance optimization, profiling, and debugging. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p> <p><span>Besides compiler and architecture research on the fusion architectures, this project also investigates important applications, including FFT, sparse matrix-vector operations, stencil algorithms, erasure coding for software defined storage, and convolutional neural networks. Novel parallel implementations on fusion architectures have been proposed to advance the state of art performance of these important applications.</span></p> <p><span>Detailed research findings from this project are published in conference papers, journal papers, and theses/dissertations. Open source code is also distributed to help reproduce the experimental results and reveal the implementation details.</span><span>&nbsp;</span></p><br> <p>            Last Modified: 09/03/2017<br>      Modified by: Huiyang&nbsp;Zhou</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The increasing integration density, as observed in Moore?s law, leads to fusion architecture, in which heterogeneous computing units, including CPUs, GPUs, FPGAs, and accelerators, are integrated onto the same chip. This project focuses on developing novel execution paradigms enabled by fusion architecture. This project investigates both compiler and architectural techniques to improve CPU and GPU performance as well as energy efficiency. A total of eight graduate students participated in the project and three Ph.D. dissertations and two master theses are a direct result from this project.  Numerous papers have been published in premium venues of the computer architecture, compiler, supercomputing and parallel processing research. A new course has been developed based on the researching findings of the project.  On the CPU side, a new quantitative measure of locality is proposed based on conditional probability. It provides a unified definition of both temporal and spatial locality and offers insights on improving the cache performance. A spatial locality aware cache partitioning scheme is developed for the last level cache shared among multi-cores. Adaptive bypassing for inclusive last-level cache is also proposed to improve the performance of CPU memory hierarchy.  On the GPU side, a CPU-GPU collaborative execution is proposed with CPUs prefetching data for GPUs to process, which significantly improves the computing efficiency. The key components in GPU architecture have been dissected and novel schemes have been proposed to improve their architecture, including warp-level processing, shared memory multiplexing, on-chip memory placement, dynamic parallelism, GPU memory hierarchy, preemption, etc.   On the FPGA side, this project targets at improving the newly developed OpenCL for FPGAs framework, which aims to enable software developers to easily program FPGA devices. The project develops techniques at the OpenCL level for performance optimization, profiling, and debugging.            Besides compiler and architecture research on the fusion architectures, this project also investigates important applications, including FFT, sparse matrix-vector operations, stencil algorithms, erasure coding for software defined storage, and convolutional neural networks. Novel parallel implementations on fusion architectures have been proposed to advance the state of art performance of these important applications.  Detailed research findings from this project are published in conference papers, journal papers, and theses/dissertations. Open source code is also distributed to help reproduce the experimental results and reveal the implementation details.        Last Modified: 09/03/2017       Submitted by: Huiyang Zhou]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

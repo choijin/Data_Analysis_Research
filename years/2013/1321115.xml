@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Beating the Odds in Traffic Measurements/Detection with Optimal Online Learning and Adaptive Policies</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Brassil</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>A key tool for understanding and engineering Internet backbone is the analysis of packet traces. However, given the increasing backbone speed towards 100Gbps, it is prohibitive to monitor individual flows at all times. This project develops optimal online learning and adaptation strategies for accurate traffic sampling, inference, and detection under hard resource constraints (e.g., limited CPU or memory at routers) and dynamic network/traffic conditions. Based on theories and techniques in multi-arm bandits, group testing, and compressed sensing, optimal or near-optimal solutions will be developed by exploiting the unique structures of the specific measurement application under study. Challenges addressed include learning from observations with heavy-tailed distributions and long-range dependencies, coping with sparse and/or imperfect observations, and distributed learning strategies that involve multiple monitors and decision points.&lt;br/&gt;&lt;br/&gt;If successful, this research will provide fundamental design principles for a flexible traffic measurement infrastructure under the software-defined networking (SDN) paradigm. Reconfigurable measurements based on a learning process can be realized in commodity router/switches using SDN APIs such as OpenFlow, leading to potential development of new services. As this project examines problems at the intersection of networking and stochastic learning/optimization, it provides interdisciplinary training to graduate and undergraduate students in a team environment.</AbstractNarration>
+<MinAmdLetterDate>08/30/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>05/29/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1321115</AwardID>
+<Investigator>
+<FirstName>Chen-Nee</FirstName>
+<LastName>Chuah</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Chen-Nee Chuah</PI_FULL_NAME>
+<EmailAddress>chuah@ucdavis.edu</EmailAddress>
+<PI_PHON>5307525825</PI_PHON>
+<NSF_ID>000201231</NSF_ID>
+<StartDate>08/30/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Qing</FirstName>
+<LastName>Zhao</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Qing Zhao</PI_FULL_NAME>
+<EmailAddress>qz16@cornell.edu</EmailAddress>
+<PI_PHON>6072557927</PI_PHON>
+<NSF_ID>000117406</NSF_ID>
+<StartDate>08/30/2013</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Davis</Name>
+<CityName>Davis</CityName>
+<ZipCode>956186134</ZipCode>
+<PhoneNumber>5307547700</PhoneNumber>
+<StreetAddress>OR/Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1850 Research Park Dr., Ste 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>047120084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, DAVIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Davis]]></Name>
+<CityName>Davis</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>956165294</ZipCode>
+<StreetAddress><![CDATA[One Shields Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9102</Code>
+<Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Traffic measurement is central to network operation, management, and security. Our overall project objective is to design optimal learning algorithms to improve the measurement performance (in terms of both accuracy and delay) for a wide variety of traffic measurement, network inference, and anomaly detection problems.</p> <p>We have developed stochastic online learning strategies for traffic matrix estimation based on theories such as multi-arm bandit (MAB), heavy hitter detection based on group testing, and active learning theories under known and unknown traffic models. We successfully developed the optimal test plan that identifies all the heavy hitters with a minimum number of tests/measurements. We established the optimal test-plan in closed form and shows that it is order optimal among all test plans as the population size grows to infinity. We show via simulation examples orders of magnitude improvement of the group testing approach over two prevailing sampling-based approaches in detection accuracy and counter consumption.</p> <p>&nbsp;With a reconfigurable control plan and a global view of the network, SDN architecture allows SDN controller to optimally and dynamically allocate measurement resources to support a variety of monitoring applications. We leverage this flexibility to develop adaptive flow measurement strategies that are tightly coupled with network inference engine to address a variety of network tomography problems, including traffic matrix estimation, link (performance) identification, and network anomaly detection. First, we developed a framework called iSTAMP (Intelligent SDN-based Traffic (de)Aggregation and Measurement Paradigm), which uses the flexibility of SDN to partition TCAM entries of switches/routers into two parts to: 1) optimally aggregate flows to meet routing constraints while providing best observations for network inference, and 2) directly measure <em>K</em> most informative flows. We have built and a prototype of iSTAMP on GENI platform and delivered demos/posters in three GEC conferences. We proceeded to address practical challenges of deploying iSTAMP in multi-node environment, including (1) how to design pseudo-optimal aggregation matrix in real time while meeting the routing and longest-prefix match constraints (i.e., make the rules implementable), (2) how to learn the K most important flows in a scalable manner with minimal &ldquo;learning/exploration&rdquo; phase, and (3) how to allocate flow measurement rules among distributed SDN switches spread across the networks.</p> <p>Looking beyond passive traffic measurement, our team has also developed online learning-based framework for passive and active network performance measurement. For instance, our system can intelligently measure a small sub-set of the precisely determined entries of the matrix of per-flow measurements (known as Optimal Observation Matrix (OOM)) which leads to the best possible estimation accuracy via applying matrix completion techniques</p> <p>Through collaboration with our industry partners, we have applied our measurement and analysis techniques on a variety of data sets, ranging from traffic from backbone ISPs and data centers. This project has graduated one PhD and five MS students. It also provided training for two other PhD and one other MS students. In total, this project has recruited one female PhD and three female MS students (two of which have graduated). Four undergraduate students have conducted independent research studies under this project.</p><br> <p>            Last Modified: 10/27/2016<br>      Modified by: Chen-Nee&nbsp;Chuah</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2016/1321115/1321115_10273325_1475625749236_iSTAMP--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1321115/1321115_10273325_1475625749236_iSTAMP--rgov-800width.jpg" title="iSTAMP"><img src="/por/images/Reports/POR/2016/1321115/1321115_10273325_1475625749236_iSTAMP--rgov-66x44.jpg" alt="iSTAMP"></a> <div class="imageCaptionContainer"> <div class="imageCaption">iSTAMP: Intelligent SDN-based Traffic (de)Aggregation and Measurement Paradigm</div> <div class="imageCredit">M. Malboubi, C. Chuah, P. Sharma</div> <div class="imageSubmitted">Chen-Nee&nbsp;Chuah</div> <div class="imageTitle">iSTAMP</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Traffic measurement is central to network operation, management, and security. Our overall project objective is to design optimal learning algorithms to improve the measurement performance (in terms of both accuracy and delay) for a wide variety of traffic measurement, network inference, and anomaly detection problems.  We have developed stochastic online learning strategies for traffic matrix estimation based on theories such as multi-arm bandit (MAB), heavy hitter detection based on group testing, and active learning theories under known and unknown traffic models. We successfully developed the optimal test plan that identifies all the heavy hitters with a minimum number of tests/measurements. We established the optimal test-plan in closed form and shows that it is order optimal among all test plans as the population size grows to infinity. We show via simulation examples orders of magnitude improvement of the group testing approach over two prevailing sampling-based approaches in detection accuracy and counter consumption.   With a reconfigurable control plan and a global view of the network, SDN architecture allows SDN controller to optimally and dynamically allocate measurement resources to support a variety of monitoring applications. We leverage this flexibility to develop adaptive flow measurement strategies that are tightly coupled with network inference engine to address a variety of network tomography problems, including traffic matrix estimation, link (performance) identification, and network anomaly detection. First, we developed a framework called iSTAMP (Intelligent SDN-based Traffic (de)Aggregation and Measurement Paradigm), which uses the flexibility of SDN to partition TCAM entries of switches/routers into two parts to: 1) optimally aggregate flows to meet routing constraints while providing best observations for network inference, and 2) directly measure K most informative flows. We have built and a prototype of iSTAMP on GENI platform and delivered demos/posters in three GEC conferences. We proceeded to address practical challenges of deploying iSTAMP in multi-node environment, including (1) how to design pseudo-optimal aggregation matrix in real time while meeting the routing and longest-prefix match constraints (i.e., make the rules implementable), (2) how to learn the K most important flows in a scalable manner with minimal "learning/exploration" phase, and (3) how to allocate flow measurement rules among distributed SDN switches spread across the networks.  Looking beyond passive traffic measurement, our team has also developed online learning-based framework for passive and active network performance measurement. For instance, our system can intelligently measure a small sub-set of the precisely determined entries of the matrix of per-flow measurements (known as Optimal Observation Matrix (OOM)) which leads to the best possible estimation accuracy via applying matrix completion techniques  Through collaboration with our industry partners, we have applied our measurement and analysis techniques on a variety of data sets, ranging from traffic from backbone ISPs and data centers. This project has graduated one PhD and five MS students. It also provided training for two other PhD and one other MS students. In total, this project has recruited one female PhD and three female MS students (two of which have graduated). Four undergraduate students have conducted independent research studies under this project.       Last Modified: 10/27/2016       Submitted by: Chen-Nee Chuah]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>BIGDATA: Small: DCM: Collaborative Research: An efficient, versatile, scalable, and portable storage system for scientific data containers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>152022.00</AwardTotalIntnAmount>
+<AwardAmount>152022</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sylvia Spengler</SignBlockName>
+<PO_EMAI>sspengle@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Scientific Bigdata sets are becoming too large and complex to fit in RAM, forcing scientific applications to perform a lot of slow disk and network I/O.  This growth also makes scientific data more vulnerable to corruptions due to crashes and human errors.  This project will use recent results from algorithms, database, and storage research to improve the performance and reliability of standard scientific data formats.  This will make scientific research cheaper, faster, more reliable, and more reproducible.&lt;br/&gt;&lt;br/&gt;The Hierarchical Data Format (HDF5) standard is a container format for scientific data.  It allows scientists to define and store complex data structures inside HDF5 files.  Unfortunately, the current standard forces users to store all data objects and their meta-data properties inside one large physical file; this mix hinders meta-data-specific optimizations.  The current storage also uses data-structures that scale poorly for large data. Lastly, the current model lacks snapshot support, important for recovery from errors.&lt;br/&gt;&lt;br/&gt;A new HDF5 release allows users to create more versatile storage plugins to control storage policies on each object and attribute.  This project is developing support for snapshots in HDF5, designing new data structures and algorithms to scale HDF5 data access on modern storage devices to Bigdata. The project is designing several new HDF5 drivers: mapping objects to a Linux file system; storing objects in a database; and accessing data objects on remote Web servers.  These improvements are evaluated using large-scale visualization applications with Bigdata, stemming from real-world scientific computations.</AbstractNarration>
+<MinAmdLetterDate>06/25/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/25/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1251037</AwardID>
+<Investigator>
+<FirstName>Liuba</FirstName>
+<LastName>Shrira</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Liuba Shrira</PI_FULL_NAME>
+<EmailAddress>Liuba@cs.brandeis.edu</EmailAddress>
+<PI_PHON>7817362704</PI_PHON>
+<NSF_ID>000100143</NSF_ID>
+<StartDate>06/25/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brandeis University</Name>
+<CityName>WALTHAM</CityName>
+<ZipCode>024532728</ZipCode>
+<PhoneNumber>7817362121</PhoneNumber>
+<StreetAddress>415 SOUTH ST MAILSTOP 116</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>616845814</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BRANDEIS UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>055986020</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brandeis University]]></Name>
+<CityName>Waltham</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>024549110</ZipCode>
+<StreetAddress><![CDATA[415 South Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8083</Code>
+<Text>Big Data Science &amp;Engineering</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8083</Code>
+<Text>Big Data Science &amp;Engineering</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~152022</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>As scientists interpret the vast data collected by scientific experiments, they derive complex metadata such as sophisticated visualizations.<br />Today&rsquo;s scientific container storage systems that support big data do not offer reliable storage for&nbsp; complex metadata. Simple&nbsp; failures can corrupt consistency of the metadata, rendering it unusable and leading to the loss of valuable investment of user time and effort.<br />The project developed techniques and software infrastructure to allow scientific applications to protect integrity of the complex metadata stored in scientific data format HDF5, using a persistent consistent snapshot system integrated into the HDF5 library. The approach allows the HDF5 applications to benefit from sophisticated snapshot system access methods. Using our techniques, unlike with the current approach, an HDF5&nbsp; application can visualize data stored in the HDF5 file system using complex visualization procedures stored as crash-consistent versions of multiple interconnected HDF5 objects, enabling rich analysis and flexible interactive visualizations that were considered challenging or impossible with current approaches.<br /><br />We published our techniques in conference and journal publications. We have released the HDF5 library software for thecommunity to use; and already other researchers have been using our release, and published findings produced using those releases.<br /><br />We&nbsp; trained and graduated MS students that are gainfully employed in the high-tech industry and engaged undergraduates thanks in part to this project. <br /><br />We integrated topics from this project into a new&nbsp; undergraduate course. Through our efforts, hundreds of Brandeis University<br />students in Computer Science and other Departments of the School of Arts and Sciences,&nbsp; <br />were exposed to topics related to this project.</p> <p>&nbsp;</p><br> <p>            Last Modified: 04/08/2018<br>      Modified by: Liuba&nbsp;Shrira</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ As scientists interpret the vast data collected by scientific experiments, they derive complex metadata such as sophisticated visualizations. Today?s scientific container storage systems that support big data do not offer reliable storage for  complex metadata. Simple  failures can corrupt consistency of the metadata, rendering it unusable and leading to the loss of valuable investment of user time and effort. The project developed techniques and software infrastructure to allow scientific applications to protect integrity of the complex metadata stored in scientific data format HDF5, using a persistent consistent snapshot system integrated into the HDF5 library. The approach allows the HDF5 applications to benefit from sophisticated snapshot system access methods. Using our techniques, unlike with the current approach, an HDF5  application can visualize data stored in the HDF5 file system using complex visualization procedures stored as crash-consistent versions of multiple interconnected HDF5 objects, enabling rich analysis and flexible interactive visualizations that were considered challenging or impossible with current approaches.  We published our techniques in conference and journal publications. We have released the HDF5 library software for thecommunity to use; and already other researchers have been using our release, and published findings produced using those releases.  We  trained and graduated MS students that are gainfully employed in the high-tech industry and engaged undergraduates thanks in part to this project.   We integrated topics from this project into a new  undergraduate course. Through our efforts, hundreds of Brandeis University students in Computer Science and other Departments of the School of Arts and Sciences,   were exposed to topics related to this project.          Last Modified: 04/08/2018       Submitted by: Liuba Shrira]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

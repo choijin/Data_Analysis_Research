@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>ECCS/CCSS: Neural Network Nonlinear Iterative LDPC Decoders with Guaranteed Error Performance and Fast Convergence</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>320000.00</AwardTotalIntnAmount>
+<AwardAmount>320000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07010000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>ECCS</Abbreviation>
+<LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Zhengdao Wang</SignBlockName>
+<PO_EMAI>zwang@nsf.gov</PO_EMAI>
+<PO_PHON>7032927823</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Low-density parity-check (LDPC) codes are an integral part of modern communications and data storage systems. In many applications, achieving desired data reliability with strict throughput, latency, area, energy or power constraints is challenging, and thus there is an unmet need for fundamental breakthroughs in decoding algorithms. To meet this need, the research team will develop novel sophisticated decoding algorithms for LDPC codes. The new decoders will have a direct application in flash memories and optical communications which have the most stringent requirements on error performance, and in massive machine-type communications requiring very low-latencies. The proposed research will create a path to a new generation of chips with greatly reduced energy requirements and lower environmental footprint. The participating students will receive advanced training in engineering and mathematics. Their educational experiences will be enriched by close collaboration between the PI and his national and international collaborators from academia and industry.&lt;br/&gt;&lt;br/&gt;The conventional LDPC decoding algorithms operate on a graphical model of a code by propagating messages along edges of the graph. In such an iterative message-passing decoder, the memory needed to store messages is proportional to the product of the message width and the number of nodes in the graph, which is of the order of thousands for codes of practical interest. Therefore lowering message width reduces the complexity greatly, but causes a degradation of decoding performance known as error floor, and slows down decoding convergence. The proposed research addresses the hardware complexity, error floor and convergence problems in a unified way by the following novel approaches: (1) Nonlinear message update functions â€“ Error floor is directly linked to the presence of certain subgraph structures, called trapping sets, in the Tanner graph that induce decoder failures. Our message update rules will be nonlinear and judiciously chosen to eliminate the effect of trapping sets, and will thus lower the error floor. (2) Guaranteed error correction capability â€“ Moreover, the precise knowledge of what trapping sets are not correctable by a decoder solves the fundamental issue associated with LDPC codes - the lack of data reliability guarantees. This opens a plethora of design possibilities, but since the number of potentially good message update rules is large, a systematic method is needed to search for the optimal ones, and for this we will rely on neural networks. (3) Neural network decoders â€“ The main idea follows from the observation that a graph unwrapped in time (iterations) essentially forms a neural network which can be trained to produce an optimal update rule. The resulting update rule also requires much smaller number of iterations for a successful decoding. (4) Built-in learning â€“ The decoders will be equipped with instruments of learning. In this way, the gradient descent algorithm is not used offline during training but during decoding. The loss function based on the concept of energy function from statistical mechanics, and captures the distance of the decoder output from a codeword through the number of unsatisfied parity checks.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/18/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>10/14/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2027844</AwardID>
+<Investigator>
+<FirstName>Bane</FirstName>
+<LastName>Vasic</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Bane Vasic</PI_FULL_NAME>
+<EmailAddress>vasic@ece.arizona.edu</EmailAddress>
+<PI_PHON>5206265550</PI_PHON>
+<NSF_ID>000178000</NSF_ID>
+<StartDate>08/18/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Arizona</Name>
+<CityName>Tucson</CityName>
+<ZipCode>857194824</ZipCode>
+<PhoneNumber>5206266000</PhoneNumber>
+<StreetAddress>888 N Euclid Ave</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Arizona</StateName>
+<StateCode>AZ</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>AZ03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>806345617</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ARIZONA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072459266</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Arizona]]></Name>
+<CityName>Tucson</CityName>
+<StateCode>AZ</StateCode>
+<ZipCode>857194824</ZipCode>
+<StreetAddress><![CDATA[888 N Euclid Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Arizona</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>AZ03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7564</Code>
+<Text>CCSS-Comms Circuits &amp; Sens Sys</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>153E</Code>
+<Text>Wireless comm &amp; sig processing</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~320000</FUND_OBLG>
+</Award>
+</rootTag>

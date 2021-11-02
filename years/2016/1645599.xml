@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Towards Automated Characterization of the Data-Movement Complexity of Large Scale Analytics Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>We have entered a new era where power/energy limitations have become fundamental drivers of technological trends.  The cost in both time and energy for moving data from off-chip main memory to the processor is significantly higher than the cost of a double-precision floating-point computation.  With future technologies, this ratio will only get worse.  Therefore the characterization of the inherent data movement costs of algorithms is very important, and is particularly critical for large scale data-analytic applications.  However, unlike the well-understood computational complexity of algorithms, the data movement complexity is known only for a small number of algorithms.&lt;br/&gt;&lt;br/&gt;Prior techniques for characterizing the data movement complexity of algorithms has either been restricted to subclasses of computations, or has required ad hoc manual reasoning. This project develops a scalable automated tool for analyzing the data movement complexity of arbitrary unstructured computations, expressed as computational directed acyclic graphs (CDAGs). The researchers explore several directions including out-of-core strategies, decomposition/recomposition of graphs, directional component analysis, and empirical function fitting, to address scalability challenges.</AbstractNarration>
+<MinAmdLetterDate>08/11/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/11/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1645599</AwardID>
+<Investigator>
+<FirstName>Ponnuswamy</FirstName>
+<LastName>Sadayappan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ponnuswamy Sadayappan</PI_FULL_NAME>
+<EmailAddress>saday@cs.utah.edu</EmailAddress>
+<PI_PHON>6142164213</PI_PHON>
+<NSF_ID>000182536</NSF_ID>
+<StartDate>08/11/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Srinivasan</FirstName>
+<LastName>Parthasarathy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Srinivasan Parthasarathy</PI_FULL_NAME>
+<EmailAddress>srini@cse.ohio-state.edu</EmailAddress>
+<PI_PHON>6142922568</PI_PHON>
+<NSF_ID>000227551</NSF_ID>
+<StartDate>08/11/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University</Name>
+<CityName>Columbus</CityName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888735</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1960 Kenny Road]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832127323</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001964634</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName>Columbus</CityName>
+<StateCode>OH</StateCode>
+<ZipCode>432101016</ZipCode>
+<StreetAddress><![CDATA[1960 Kenny Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp;</p> <p>The cost of data movement greatly exceeds that of performing arithmetic/logic operations, both in terms of time and energy.&nbsp;&nbsp;&nbsp;While the computational complexity of algorithms is well understood data movement costs depend both on capacity in the memory hierarchy as well as the order of execution. Often the abstraction of choice for modeling such data movement is a directed&nbsp;graph (DG). The minimum data-movement requirement for most algorithms is currently unknown. This project investigated methods to advance our understanding of the data-movement complexity of algorithms, with a specific focus on data analytic tasks.&nbsp; A secondary but important focus was the efficient processing and clustering DGs for this purpose.</p> <p>&nbsp;</p> <p>They key project outcomes include:</p> <p>&nbsp;</p> <ol> <li>We analyzed the inherent data movement requirements for several sparse matrix kernels that are frequently utilized in data analytics workflows.&nbsp;&nbsp;&nbsp;A key insight from our analysis was the recognition that the non-zero patterns of sparse matrices arising in practice do not have a uniformly random distribution over the 2D index space of the matrix, but have significant non-uniformity, with some regions of the sparse matrix being extremely sparse, while significant local clustering of non-zeors occurs in other regions. This insight led to the development of several novel schemes for data partitioning and placement such that the resulting realization of these kernels achieves high data-movement efficiency and effective parallelization.&nbsp;&nbsp;These results have been presented and the libraries have been publicly released.</li> <li>Asymptotic parametric expressions of data movement costs (lower bounds) have previously been manually derived for a limited number of algorithms, often without scaling constants. Since the bandwidth of channels and buses for data movement in computer systems is a significant limiting factor, it is of importance to characterize not only the asymptotic data movement complexity of algorithms but also include the scaling constants of the highest order terms. We have developed&nbsp;the first compile-time approach for deriving parametric expressions with scaling constants for data movement lower bounds of arbitrary affine computations.&nbsp;The approach has been implemented in a fully automatic tool (IOLB) that can generate these lower bounds for input affine programs.&nbsp;Its use has been demonstrated by exercising it on all the benchmarks of the PolyBench suite.</li> <li>Asymmetric transitivity is an essential property of directed graphs, since it can play an important role in downstream graph inference and analysis. Maintaining such properties, while reducing the graph to a lower-dimensional vector embedding space, was a key focus. The techniques we developed, incorporates graph hierarchy and reachability information naturally by relying on a non-linear transformation that operates on the core reachability and implicit hierarchy within such graphs. Subsequently, the methodology levers a factorization-based approach to generate two embedding vectors for each node within the graph, to capture the asymmetric transitivity.&nbsp;&nbsp;These results have broad applicability even beyond the goals of this project.&nbsp;&nbsp;For instance, one of the key methods we leveraged has been adopted by Wikipedia for managing their software repository.</li> <li>Two PhD students were trained on this project. One Phd student has graduated and joined a research group in industry while the other is making good progress towards completion. &nbsp;</li> </ol> <p>&nbsp;</p><br> <p>            Last Modified: 01/24/2020<br>      Modified by: Srinivasan&nbsp;Parthasarathy</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[    The cost of data movement greatly exceeds that of performing arithmetic/logic operations, both in terms of time and energy.   While the computational complexity of algorithms is well understood data movement costs depend both on capacity in the memory hierarchy as well as the order of execution. Often the abstraction of choice for modeling such data movement is a directed graph (DG). The minimum data-movement requirement for most algorithms is currently unknown. This project investigated methods to advance our understanding of the data-movement complexity of algorithms, with a specific focus on data analytic tasks.  A secondary but important focus was the efficient processing and clustering DGs for this purpose.     They key project outcomes include:     We analyzed the inherent data movement requirements for several sparse matrix kernels that are frequently utilized in data analytics workflows.   A key insight from our analysis was the recognition that the non-zero patterns of sparse matrices arising in practice do not have a uniformly random distribution over the 2D index space of the matrix, but have significant non-uniformity, with some regions of the sparse matrix being extremely sparse, while significant local clustering of non-zeors occurs in other regions. This insight led to the development of several novel schemes for data partitioning and placement such that the resulting realization of these kernels achieves high data-movement efficiency and effective parallelization.  These results have been presented and the libraries have been publicly released. Asymptotic parametric expressions of data movement costs (lower bounds) have previously been manually derived for a limited number of algorithms, often without scaling constants. Since the bandwidth of channels and buses for data movement in computer systems is a significant limiting factor, it is of importance to characterize not only the asymptotic data movement complexity of algorithms but also include the scaling constants of the highest order terms. We have developed the first compile-time approach for deriving parametric expressions with scaling constants for data movement lower bounds of arbitrary affine computations. The approach has been implemented in a fully automatic tool (IOLB) that can generate these lower bounds for input affine programs. Its use has been demonstrated by exercising it on all the benchmarks of the PolyBench suite. Asymmetric transitivity is an essential property of directed graphs, since it can play an important role in downstream graph inference and analysis. Maintaining such properties, while reducing the graph to a lower-dimensional vector embedding space, was a key focus. The techniques we developed, incorporates graph hierarchy and reachability information naturally by relying on a non-linear transformation that operates on the core reachability and implicit hierarchy within such graphs. Subsequently, the methodology levers a factorization-based approach to generate two embedding vectors for each node within the graph, to capture the asymmetric transitivity.  These results have broad applicability even beyond the goals of this project.  For instance, one of the key methods we leveraged has been adopted by Wikipedia for managing their software repository. Two PhD students were trained on this project. One Phd student has graduated and joined a research group in industry while the other is making good progress towards completion.             Last Modified: 01/24/2020       Submitted by: Srinivasan Parthasarathy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

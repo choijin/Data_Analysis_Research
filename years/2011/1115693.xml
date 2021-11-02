@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Collaborative Research: ReDS: Reputation for Directory Services in P2P Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Joseph Lyles</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Peer-to-peer (P2P) systems are gaining popularity and importance for applications ranging from communications to content delivery over the Internet.  Since such systems are inherently formed by a large collection of untrusted peers, their security and reliability can be adversely impacted by malicious peers in the system.  In particular, P2P systems must provide a reliable decentralized directory service for locating peers with the desired content and services. If malicious peers are able to subvert directory lookups, the integrity of the system is greatly compromised. &lt;br/&gt;&lt;br/&gt;This project advances the state of the art in P2P security and reliability by applying reputation information at the directory level for improved success of subsequent lookups. The new systems will use information from successful and failed lookups, as well as the structure of the peer-to-peer system, to derive reputation information for various peers and estimate the locations of malicious nodes in the system. The project will also include an investigation into mechanisms to limit Sybil attacks, in which attackers attempt to overwhelm the system with malicious peers. The mechanisms will combine the use of social network links and the structure of the P2P system to create a robust identifier space for nodes, thus constraining how many Sybils can be introduced into the system. Through a combination of such techniques, the project will make P2P systems more trustworthy and reliable, directly impacting the millions of users who already make use of such systems today.</AbstractNarration>
+<MinAmdLetterDate>09/08/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>09/08/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1115693</AwardID>
+<Investigator>
+<FirstName>Apu</FirstName>
+<LastName>Kapadia</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Apu Kapadia</PI_FULL_NAME>
+<EmailAddress>kapadia@indiana.edu</EmailAddress>
+<PI_PHON>8128561465</PI_PHON>
+<NSF_ID>000552793</NSF_ID>
+<StartDate>09/08/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Indiana University</Name>
+<CityName>Bloomington</CityName>
+<ZipCode>474013654</ZipCode>
+<PhoneNumber>3172783473</PhoneNumber>
+<StreetAddress>509 E 3RD ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>006046700</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF INDIANA UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>006046700</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Indiana University]]></Name>
+<CityName>Bloomington</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>474013654</ZipCode>
+<StreetAddress><![CDATA[509 E 3RD ST]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-43c75420-4faa-c48c-f222-626470476778"> <p dir="ltr"><span>Peer-to-peer (P2P) systems such as Skype and BitTorrent are decentralized systems, which distribute major aspects of their functionality amongst multiple, networked machines called &lsquo;peers&rsquo;. </span><span>&nbsp;</span><span>P2P systems are used by millions of people today but are highly vulnerable to malicious activity. Attackers can introduce their own machines into the system, as there is little or no restriction to join such systems. These attackers (i.e., malicious peers) can then censor, remove, or falsify information sought by other peers in the system. This research makes an impact on P2P architectures in the real world by making such systems more trustworthy and reliable. This project developed techniques whereby individual peers can maintain &lsquo;reputation&rsquo; information about other peers, i.e., a measure of how accurately other peers have answered search queries. &nbsp;Such reputation information can be then used effectively to avoid malicious peers in the system by inferring their locations based on observations from several search queries. This technique enhances popular P2P architectures such as Kademlia and Chord, thus offering to impact a large class of real-world deployments.</span></p> <p dir="ltr"><span> </span></p> <p dir="ltr"><span>Once the underlying P2P architecture for search queries is made resilient, P2P systems can enable far-reaching applications such as decentralized social networks. Over a billion people use centralized social networks, with great risk to their privacy; this research highlighted one possible harm whereby &lsquo;anonymized&rsquo; social network datasets released by providers can be de-anonymized with high accuracy by leveraging their internal structure. In particular, social networks are naturally composed of &lsquo;communities&rsquo; of interconnected people, e.g., based on common interest. Even if nodes corresponding to the people in the social network are anonymized, this research showed that the underlying community structure can be used to reveal the original identities of those people by comparing the anonymized network with a reference social network known to the attacker. &nbsp;To enable privacy enhanced decentralized social networks, this project developed a social caching technique to leverage trusted relationships in the P2P network to provide higher assurances of privacy while maintaining efficiency. This work shows that two of the major barriers for realizing decentralized social networks --- privacy and efficiency --- can be attained simultaneously, and offers the promise of impacting society by reducing people&rsquo;s reliance on centralized services for their privacy.</span></p> <p dir="ltr"><span> </span></p> <p dir="ltr"><span>The project also sought to strengthen the interests of African American students in STEM fields (science, technology, engineering, and math) as well as graduate study in STEM fields. The PI hosted two African American summer interns, one from an HBCU institution, as part of this effort, with the goal of getting more underrepresented populations interested in computer science and network security and privacy.</span></p> <p dir="ltr"><span> </span></p> <p dir="ltr"><span> </span></p> <br /><br /></span></p> <p>&nbsp;</p><br> <p>            Last Modified: 12/15/2014<br>      Modified by: Apu&nbsp;Kapadia</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  Peer-to-peer (P2P) systems such as Skype and BitTorrent are decentralized systems, which distribute major aspects of their functionality amongst multiple, networked machines called æpeersÆ.  P2P systems are used by millions of people today but are highly vulnerable to malicious activity. Attackers can introduce their own machines into the system, as there is little or no restriction to join such systems. These attackers (i.e., malicious peers) can then censor, remove, or falsify information sought by other peers in the system. This research makes an impact on P2P architectures in the real world by making such systems more trustworthy and reliable. This project developed techniques whereby individual peers can maintain æreputationÆ information about other peers, i.e., a measure of how accurately other peers have answered search queries.  Such reputation information can be then used effectively to avoid malicious peers in the system by inferring their locations based on observations from several search queries. This technique enhances popular P2P architectures such as Kademlia and Chord, thus offering to impact a large class of real-world deployments.   Once the underlying P2P architecture for search queries is made resilient, P2P systems can enable far-reaching applications such as decentralized social networks. Over a billion people use centralized social networks, with great risk to their privacy; this research highlighted one possible harm whereby æanonymizedÆ social network datasets released by providers can be de-anonymized with high accuracy by leveraging their internal structure. In particular, social networks are naturally composed of æcommunitiesÆ of interconnected people, e.g., based on common interest. Even if nodes corresponding to the people in the social network are anonymized, this research showed that the underlying community structure can be used to reveal the original identities of those people by comparing the anonymized network with a reference social network known to the attacker.  To enable privacy enhanced decentralized social networks, this project developed a social caching technique to leverage trusted relationships in the P2P network to provide higher assurances of privacy while maintaining efficiency. This work shows that two of the major barriers for realizing decentralized social networks --- privacy and efficiency --- can be attained simultaneously, and offers the promise of impacting society by reducing peopleÆs reliance on centralized services for their privacy.   The project also sought to strengthen the interests of African American students in STEM fields (science, technology, engineering, and math) as well as graduate study in STEM fields. The PI hosted two African American summer interns, one from an HBCU institution, as part of this effort, with the goal of getting more underrepresented populations interested in computer science and network security and privacy.                 Last Modified: 12/15/2014       Submitted by: Apu Kapadia]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

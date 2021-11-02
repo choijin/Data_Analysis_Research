@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Collaborative Research:Compressed databases for similarity queries: fundamental limits and algorithms</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>250000.00</AwardTotalIntnAmount>
+<AwardAmount>250000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Cozzens</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Project abstract &lt;br/&gt;&lt;br/&gt;Information theory has had a profound impact on the fields of data transmission and compression. In contrast, it has yielded comparably few insights into problems such as knowledge extraction from and efficient search of massive datasets. While current information-theoretic tools and techniques can be applied to these problems to some extent, the paradigms for which these tools were developed will be being carefully reexamined in this project. Models that accurately capture the fundamental challenges faced by efficient search in modern massive database systems will be developed and analyzed. The asymptotic fundamental limits, which characterize the tradeoffs between accuracy, compression rate and search efficiency, will be investigated, along with development of practical algorithms that approach the ultimate benchmarks. One concrete problem being pursued is that of compression for efficient query and search. In this setting, the goal is, given a compressed representation, to answer search queries about the data that was compressed. This is in stark contrast to traditional compression, where the data need be merely reconstructible from the compressed form. The approach taken is tailored to distributed database design, but is also relevant to compression schemes that allow search within the compressed domain. &lt;br/&gt;&lt;br/&gt;The fundamental quantities studied play a similar role to that of the channel capacity and entropy/rate-distortion in channel and source coding, respectively. On one hand, they yield an understanding of the fundamental limits on the performance that any system for similarity queries based on compressed representations can hope to attain. On the other, the insights obtained from the theory are guiding the construction of schemes that approach these limits in practice. We will investigate how existing practical approaches (such as various hashing and clustering techniques) perform with respect to the information theoretic limits, and the extent to which approaches that have proved to be practical in source and channel coding can be used as building blocks to develop new efficient search algorithms that significantly improve on the current state of the art</AbstractNarration>
+<MinAmdLetterDate>06/21/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/21/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1319304</AwardID>
+<Investigator>
+<FirstName>Sergio</FirstName>
+<LastName>Verdu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sergio Verdu</PI_FULL_NAME>
+<EmailAddress>verdu@princeton.edu</EmailAddress>
+<PI_PHON>6092585315</PI_PHON>
+<NSF_ID>000313701</NSF_ID>
+<StartDate>06/21/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Princeton University</Name>
+<CityName>Princeton</CityName>
+<ZipCode>085442020</ZipCode>
+<PhoneNumber>6092583090</PhoneNumber>
+<StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 36]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002484665</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF PRINCETON UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002484665</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Princeton University]]></Name>
+<CityName>Princeton</CityName>
+<StateCode>NJ</StateCode>
+<ZipCode>085442020</ZipCode>
+<StreetAddress><![CDATA[4 New South Building]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~250000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The objective of this project is to develop and analyze models that accurately capture the fundamental challenges faced by efficient search/transmission in modern storage and communications. We have obtained both nonasymptotic and asymptotic fundamental limits, which characterize the tradeoffs between accuracy, compression rate and search efficiency, and developed practical algorithms that approach the ultimate benchmarks.<br />We have studied the fundamental limits of the minimum average length of lossless and lossy variable-length compression, allowing a nonzero error probability &epsilon;, for lossless compression. We have found nonasymptotic bounds on the minimum average length in terms of Erokhin&rsquo;s rate-distortion function and we have used those bounds to obtain a Gaussian approximation on the speed of approach to the limit, which is quite accurate for all but small blocklengths. &nbsp; Not only does a nonzero error probability reduce the asymptotically achievable rate by a factor of 1 &minus; &epsilon;, but this asymptotic limit is approached from below, i.e., larger source dispersions and shorter blocklengths are beneficial.&nbsp;<br />We have also succeeded in quantifying the fundamental limits of variable-length transmission of a general (possibly analog) source over a memoryless channel with noiseless feedback, under a distortion constraint, which may be an excess distortion, average distortion, or guaranteed distortion (d-semifaithful codes) constraint. In contrast to the Shannon asymptotic fundamental limit, a general conclusion is that allowing variable-length codes and feedback leads to a sizable improvement in the fundamental delay-distortion tradeoff. In addition, we have obtained the minimum energy required to reproduce k source samples with a given fidelity after transmission over a memoryless Gaussian channel, showing that the required minimum energy is reduced with feedback and an average (rather than maximal) power constraint.<br />Another set of outcomes of the project pertains to the &nbsp;lossy compression problem in which the compressor observes the source through a noisy channel. We have obtained new general nonasymptotic achievability, converse bounds and the dispersion analysis. While this problem is asymptotically equivalent to a noiseless lossy source coding problem with a modified distortion function, nonasymptotically there is a noticeable gap in how fast their minimum achievable coding rates approach the common rate- distortion function, as evidenced both by the refined asymptotic analysis (dispersion) and the numerical results. A salient conclusion is that the size of the gap between the dispersions of the noisy problem and the asymptotically equivalent noiseless problem depends on the stochastic variability of the channel through which the compressor observes the source.</p><br> <p>            Last Modified: 09/29/2017<br>      Modified by: Sergio&nbsp;Verdu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The objective of this project is to develop and analyze models that accurately capture the fundamental challenges faced by efficient search/transmission in modern storage and communications. We have obtained both nonasymptotic and asymptotic fundamental limits, which characterize the tradeoffs between accuracy, compression rate and search efficiency, and developed practical algorithms that approach the ultimate benchmarks. We have studied the fundamental limits of the minimum average length of lossless and lossy variable-length compression, allowing a nonzero error probability &epsilon;, for lossless compression. We have found nonasymptotic bounds on the minimum average length in terms of Erokhin?s rate-distortion function and we have used those bounds to obtain a Gaussian approximation on the speed of approach to the limit, which is quite accurate for all but small blocklengths.   Not only does a nonzero error probability reduce the asymptotically achievable rate by a factor of 1 &minus; &epsilon;, but this asymptotic limit is approached from below, i.e., larger source dispersions and shorter blocklengths are beneficial.  We have also succeeded in quantifying the fundamental limits of variable-length transmission of a general (possibly analog) source over a memoryless channel with noiseless feedback, under a distortion constraint, which may be an excess distortion, average distortion, or guaranteed distortion (d-semifaithful codes) constraint. In contrast to the Shannon asymptotic fundamental limit, a general conclusion is that allowing variable-length codes and feedback leads to a sizable improvement in the fundamental delay-distortion tradeoff. In addition, we have obtained the minimum energy required to reproduce k source samples with a given fidelity after transmission over a memoryless Gaussian channel, showing that the required minimum energy is reduced with feedback and an average (rather than maximal) power constraint. Another set of outcomes of the project pertains to the  lossy compression problem in which the compressor observes the source through a noisy channel. We have obtained new general nonasymptotic achievability, converse bounds and the dispersion analysis. While this problem is asymptotically equivalent to a noiseless lossy source coding problem with a modified distortion function, nonasymptotically there is a noticeable gap in how fast their minimum achievable coding rates approach the common rate- distortion function, as evidenced both by the refined asymptotic analysis (dispersion) and the numerical results. A salient conclusion is that the size of the gap between the dispersions of the noisy problem and the asymptotically equivalent noiseless problem depends on the stochastic variability of the channel through which the compressor observes the source.       Last Modified: 09/29/2017       Submitted by: Sergio Verdu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

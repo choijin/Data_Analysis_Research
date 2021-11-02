@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Collaborative: Process-Based Technology to Support Comparison and Evaluation of the Security of Elections</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>75000.00</AwardTotalIntnAmount>
+<AwardAmount>75000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Deborah Shands</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project explores process composition tools as applied to elections, concentrating particularly on mail-in and Internet voting.  This includes exploration of how to compose systems from pre-analyzed process components, how to analyze the vulnerability of these systems to attacks, and how to guarantee that important security properties are ensured for the resulting composed system.  The underlying processes represent aspects of national and local elections, their composition produces an election process, and analysis of the composition gives insight into potential errors or attacks on the election.&lt;br/&gt;&lt;br/&gt;Elections are human-intensive processes, processes that directly involve humans in important decision-making and coordination activities, including their interactions with hardware and software components. Providing an approach for formally reasoning about human participation extends current security work. The project also breaks new ground by exploring process-based approaches for modeling and defending against attacks.&lt;br/&gt;&lt;br/&gt;The project works closely with government agencies at both the national and local levels to provide in-depth realistic evaluation of results.&lt;br/&gt;&lt;br/&gt;Election officials in the U.S. can directly employ the results of this work to make U.S. election processes more verifiably secure, simpler, and easier to change as new technologies, laws, and regulations are imposed.  Moreover the technologies developed in this project can be used in most human-intensive processes that have critical security concerns.</AbstractNarration>
+<MinAmdLetterDate>09/13/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>09/13/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1258577</AwardID>
+<Investigator>
+<FirstName>Matt</FirstName>
+<LastName>Bishop</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Matt Bishop</PI_FULL_NAME>
+<EmailAddress>mabishop@ucdavis.edu</EmailAddress>
+<PI_PHON>5307528060</PI_PHON>
+<NSF_ID>000454293</NSF_ID>
+<StartDate>09/13/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Davis</Name>
+<CityName>Davis</CityName>
+<ZipCode>956186134</ZipCode>
+<PhoneNumber>5307547700</PhoneNumber>
+<StreetAddress>OR/Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1850 Research Park Dr., Ste 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>047120084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, DAVIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Davis]]></Name>
+<CityName>Davis</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>956186153</ZipCode>
+<StreetAddress><![CDATA[1850 Research Park Dr., Ste. 300]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~75000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Much computer science research into elections has focused on the computer systems and cryptographic protocols used to, or proposed to, conduct elections. Less attention has been paid to the overall process of holding an election in which those systems or protocols are used. The goal of this project was to extend an application of a formal methodology called iterative process improvement technology to analyze the privacy, security, and reliability of election processes.</p> <p><br />Process improvement technology has been used to model and analyze the election processes of Yolo County, CA and Marin County, CA. The two models that were developed were very similar -- not surprising, as both election processes are governed by the same set of laws, those of the state of California. However, certain elements were different, notably where the votes are counted (at the precinct using precinct-count optical scanners (PCOS) or at Election Central using optical scanners). Even within the two jurisdictions, absentee ballots (called "vote by mail" or VBM ballots) are handled using procedures different than ballots voted at a precinct.</p> <p><br />This suggests that we can identify components that differ between the models, and develop "pluggable modules" or submodels that can be "plugged into" a general model. So we capture the common parts of the model, and then add in the appropriate specialized modules that capture different parts of the process being modeled. We developed such modules for parts of the vote-by-mail process and integrated it into the full process model.</p> <p><br />The benefits of such an approach, aside from the technical ones of elegance and ease of modeling similar processes, lie in the ability to analyze how a change in the process affects the ways in which the task(s) in the substituted model can fail causing the process to fail. So, for example, if a law changes how vote by mail ballots are handled, the new process for handling them can be modeled and then plugged into the model of the existing process. Then we define the hazards (failures), and use automated techniques to develop fault trees describing the effects of these failures upon the election process. We can then determine ow to add additional controls or tasks to enable rapid detection of the failures, and compensate for them.</p> <p><br />An interesting aspect to this work involves the insider threat. First, we examine the tasks that can fail to cause a hazard to occur. Then we look at the agents who could cause these tasks to fail. In this way, we can identify the entities that can cause the process to fail. Further, when the model is instantiated, we can compare the people carrying out the process to the entities that can cause the process to fail. If one person carries out the job of two entities, for example, then that one person can cause the failures that either (or both) entities can cause. This work suggests that more exploration of this aspect of the insider problem may prove fruitful.</p> <p><br />The domain of elections seems to be one in which new threats beget new defenses, which beget newer threats and defenses in a continuing spiral. Indeed, concerns about elections only seem to be growing as new features such as early voting, electronic poll books, and electronic vote recording and counting mechanisms are introduced. &nbsp;Many of these threats arise not from the technology itself, but from its use and its place in the overall election process. In taking a holistic view of election processes, this project developed a framework of structure and reasoning within which approaches to improving the conduct of elections can be evaluated and improved. In this way, the project is playing a part in understanding and improving the elections underlying our representative form of government.</p><br> <p>            Last Modified: 03/24/2015<br>      Modified by: Matt&nbsp;Bishop</p> </div...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Much computer science research into elections has focused on the computer systems and cryptographic protocols used to, or proposed to, conduct elections. Less attention has been paid to the overall process of holding an election in which those systems or protocols are used. The goal of this project was to extend an application of a formal methodology called iterative process improvement technology to analyze the privacy, security, and reliability of election processes.   Process improvement technology has been used to model and analyze the election processes of Yolo County, CA and Marin County, CA. The two models that were developed were very similar -- not surprising, as both election processes are governed by the same set of laws, those of the state of California. However, certain elements were different, notably where the votes are counted (at the precinct using precinct-count optical scanners (PCOS) or at Election Central using optical scanners). Even within the two jurisdictions, absentee ballots (called "vote by mail" or VBM ballots) are handled using procedures different than ballots voted at a precinct.   This suggests that we can identify components that differ between the models, and develop "pluggable modules" or submodels that can be "plugged into" a general model. So we capture the common parts of the model, and then add in the appropriate specialized modules that capture different parts of the process being modeled. We developed such modules for parts of the vote-by-mail process and integrated it into the full process model.   The benefits of such an approach, aside from the technical ones of elegance and ease of modeling similar processes, lie in the ability to analyze how a change in the process affects the ways in which the task(s) in the substituted model can fail causing the process to fail. So, for example, if a law changes how vote by mail ballots are handled, the new process for handling them can be modeled and then plugged into the model of the existing process. Then we define the hazards (failures), and use automated techniques to develop fault trees describing the effects of these failures upon the election process. We can then determine ow to add additional controls or tasks to enable rapid detection of the failures, and compensate for them.   An interesting aspect to this work involves the insider threat. First, we examine the tasks that can fail to cause a hazard to occur. Then we look at the agents who could cause these tasks to fail. In this way, we can identify the entities that can cause the process to fail. Further, when the model is instantiated, we can compare the people carrying out the process to the entities that can cause the process to fail. If one person carries out the job of two entities, for example, then that one person can cause the failures that either (or both) entities can cause. This work suggests that more exploration of this aspect of the insider problem may prove fruitful.   The domain of elections seems to be one in which new threats beget new defenses, which beget newer threats and defenses in a continuing spiral. Indeed, concerns about elections only seem to be growing as new features such as early voting, electronic poll books, and electronic vote recording and counting mechanisms are introduced.  Many of these threats arise not from the technology itself, but from its use and its place in the overall election process. In taking a holistic view of election processes, this project developed a framework of structure and reasoning within which approaches to improving the conduct of elections can be evaluated and improved. In this way, the project is playing a part in understanding and improving the elections underlying our representative form of government.       Last Modified: 03/24/2015       Submitted by: Matt Bishop]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

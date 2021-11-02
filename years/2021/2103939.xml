@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Elements: EXHUME: Extraction for High-Order Unfitted Finite Element Methods</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>297766.00</AwardTotalIntnAmount>
+<AwardAmount>297766</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tevfik Kosar</SignBlockName>
+<PO_EMAI>tkosar@nsf.gov</PO_EMAI>
+<PO_PHON>7032927992</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Unfitted finite element methods allow for the simulation of physical systems that are difficult if not impossible to simulate using classical finite element methods requiring body-fitted meshes. For instance, unfitted finite element methods can be directly applied to the simulation of physical systems exhibiting a change of domain topology, such as the movement of blood cells through a human capillary or the flow of blood past the heart valves between the four main chambers of the human heart. Unfitted finite element methods also streamline the construction of computational design optimization technologies that optimize the geometry and material layout of an engineered system based on prescribed performance metrics. However, the computer implementation of an unfitted finite element method remains a challenging and time-consuming task even for domain experts. The overarching objective of this project is to construct a novel software library, EXHUME (EXtraction for High-order Unfitted finite element MEthods), to enable the use of classical finite element codes for unfitted finite element analysis. EXHUME will empower a large community of scientists and engineers to employ unfitted finite element methods in their own work, allowing them to carry out biomedical, materials science, and geophysical simulations that have been too expensive or too unstable to realize using classical finite element methods. EXHUME will also improve the fidelity of design optimizations being performed in academia, national laboratories, and industry on a near daily basis.&lt;br/&gt;&lt;br/&gt;Unfitted finite element methods simplify the finite element solution of PDEs (Partial Differential Equations) on complex and/or deforming domain geometries by relaxing the requirement that the finite element approximation space be defined on a body-fitted mesh whose elements satisfy restrictive shape and connectivity constraints. Early unfitted finite element methods exhibited low-order convergence rates, but recent progress has led to high-order methods. The key ingredient to success of a high-order unfitted finite element method is accurate numerical integration over cut cells (i.e, unfitted elements cut by domain boundaries). EXHUME uses the concept of extraction to express numerical integration over cut cells in terms of basic operations already implemented in typical finite element codes, an integration mesh, and extraction operators expressing unfitted finite element basis functions in terms of canonical shape functions. EXHUME generates integration meshes and extraction operators outside of the confines of a particular finite element code so it may be paired with existing codes with little implementation effort. A key goal of the project is demonstration of EXHUME by connecting it to existing research codes and the popular FEniCS toolchain for finite element analysis. An effort parallel to software development explores accuracy versus efficiency trade-offs associated with 1) approximations made during extraction and 2) novel numerical quadrature schemes for cut cells. The breadth of EXHUME's technical impact is ensured by several factors: 1) the ubiquity of PDEs across nearly all disciplines of science and engineering, 2) the library's interoperability with existing finite element codes, and 3) the generic nature of the EXHUME+FEniCS demonstrative example, which can be applied to arbitrary systems of PDEs. By simplifying the setup of PDE-based computational models, EXHUME+FEniCS enables classroom demonstrations simulating complicated physical scenarios without letting the technical details of numerical methods distract from the scientific principles being taught.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>05/11/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>05/11/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2103939</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Kamensky</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David M Kamensky</PI_FULL_NAME>
+<EmailAddress>dmkamensky@eng.ucsd.edu</EmailAddress>
+<PI_PHON>7035686004</PI_PHON>
+<NSF_ID>000810238</NSF_ID>
+<StartDate>05/11/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-San Diego</Name>
+<CityName>La Jolla</CityName>
+<CountyName/>
+<ZipCode>920930934</ZipCode>
+<PhoneNumber>8585344896</PhoneNumber>
+<StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+<StreetAddress2><![CDATA[9500 Gilman Drive, 0934]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804355790</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SAN DIEGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-San Diego]]></Name>
+<CityName>La Jolla</CityName>
+<CountyName/>
+<StateCode>CA</StateCode>
+<ZipCode>920930411</ZipCode>
+<StreetAddress><![CDATA[9500 Gilman Drive, MC 0411]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>077Z</Code>
+<Text>CSSI-1: Cyberinfr for Sustained Scientif</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~297766</FUND_OBLG>
+</Award>
+</rootTag>

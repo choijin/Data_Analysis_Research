@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>FMitF: Track II: Automated Verification for Assembly Implementations of Cryptography Libraries</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>99996.00</AwardTotalIntnAmount>
+<AwardAmount>99996</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Mainstream libraries for cryptography, like OpenSSL and BoringSSL, contain several thousand lines of manually optimized assembly code for high performance. Bugs in these systems are unfortunately somewhat common. This project develops techniques and a tool, CASM-Verify, to automatically check the equivalence of highly optimized assembly implementations of cryptographic algorithms against unoptimized reference versions of these algorithms in order to ensure that bugs are not introduced during the optimization process. The project's novelty is in decomposing the equivalence checking problem into several small sub-problems using a combination of concrete and symbolic evaluation. The project aims to improve the assurance of widely used cryptography libraries with usable equivalence checking tools. The project also will educate graduate and undergraduate students and practitioners on various formal tools and techniques.&lt;br/&gt;&lt;br/&gt;The software developed as part of this project takes a given a reference and an optimized implementation, and  concretely execute the two implementations on randomly generated inputs and identifies likely equivalent variables. Subsequently, it uses symbolic verification using satisfiability modulo theory solvers to determine whether the identified variables are indeed equivalent. Further, it decomposes the original query into small sub-queries using a collection of optimizations for memory accesses.  To enable the usage of these ideas by mainstream developers, this project explores the following directions: (1) support Qhasm and Jasmin languages for high-speed cryptography, (2) support reasoning about large integer arithmetic, and (3) verify constant-time properties of assembly implementations.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/23/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/23/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1917897</AwardID>
+<Investigator>
+<FirstName>Santosh</FirstName>
+<LastName>Nagarakatte</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Santosh Nagarakatte</PI_FULL_NAME>
+<EmailAddress>santosh.nagarakatte@rutgers.edu</EmailAddress>
+<PI_PHON>8484458407</PI_PHON>
+<NSF_ID>000630570</NSF_ID>
+<StartDate>07/23/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Rutgers University New Brunswick</Name>
+<CityName>Piscataway</CityName>
+<ZipCode>088543925</ZipCode>
+<PhoneNumber>8489320150</PhoneNumber>
+<StreetAddress>33 Knightsbridge Road</StreetAddress>
+<StreetAddress2><![CDATA[2nd Floor East Wing]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ06</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001912864</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RUTGERS, THE STATE UNIVERSITY OF NEW JERSEY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001912864</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Rutgers University]]></Name>
+<CityName>Piscataway</CityName>
+<StateCode>NJ</StateCode>
+<ZipCode>088548072</ZipCode>
+<StreetAddress><![CDATA[110 Frelinghuysen Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ06</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>094Y</Code>
+<Text>FMitF: Formal Methods in the F</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>062Z</Code>
+<Text>Harnessing the Data Revolution</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~99996</FUND_OBLG>
+</Award>
+</rootTag>

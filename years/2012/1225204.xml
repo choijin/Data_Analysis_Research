@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Scalable Bayesian Inference in Large Medical Databases</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>240000.00</AwardTotalIntnAmount>
+<AwardAmount>240000</AwardAmount>
+<AwardInstrument>
+<Value>Fellowship Award</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sushil K Prasad</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project will develop new efficient algorithms for large-scale nonparametric Bayesian inference in the context of medical prediction problems. The computational techniques will be applied to discover intermediary pathways, known as pathophenotypes, that can be used to predict cardiovascular disease expression and events based on electronic health record and genomic data. While many articles have discussed the promise of electronic health records to improve drug surveillance and efficacy, the advanced statistical methodologies needed to realize this promise requires innovation in efficient computational techniques specially designed for large datasets and modern computer architectures including distributed computing and dealing with streaming data. The contributions of the proposed work will result both in contributions to computer science and statistics as well as in direct impacts for safer, higher-quality healthcare. The work on scalable Bayesian inference will be of general interest to wide breadth of statistics, operations research, economics, and machine learning communities working on efficient inference techniques.&lt;br/&gt;&lt;br/&gt;Each of the technical research objectives is inspired by problems in analyzing large medical data, and thus the proposed work will have direct implications for improved healthcare through more timely predictions of adverse drug events and patient outcomes (well-aligned with NSF?s mission to improve national health, prosperity and welfare). The fellowship will allow the researcher to build on her established teaching record through co-instructing a machine learning course at Harvard, supervising 1-2 masters? students on projects related to the proposed research, and high school outreach through the MIT Educational Studies Program.</AbstractNarration>
+<MinAmdLetterDate>07/20/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/20/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1225204</AwardID>
+<Investigator>
+<FirstName>Finale</FirstName>
+<LastName>Doshi-Velez</LastName>
+<PI_MID_INIT>P</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Finale P Doshi-Velez</PI_FULL_NAME>
+<EmailAddress/>
+<PI_PHON>8043140862</PI_PHON>
+<NSF_ID>000599894</NSF_ID>
+<StartDate>07/20/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Doshi                   Finale         P</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394309</ZipCode>
+<PhoneNumber/>
+<StreetAddress/>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM/>
+<ORG_LGL_BUS_NAME/>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Harvard Medical School]]></Name>
+<CityName>Boston</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021156030</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7696</Code>
+<Text>CI Fellowships</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~240000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>As we learn more about disease processes, we are discovering that many diseases that we consider a single disease--such as diabetes--in fact have many subtypes, while other diseases that we consider distinct--such as depression and anxiety--in fact have deep connections.&nbsp; Electronic health records, which capture longitudinal information about a patient across medical specialties, provide a unique opportunity to study distinctions within and between disease at scale.&nbsp; However, the analysis of these data is challenging: electronic health records are high dimensional, incomplete, and biased toward information that is valuable for billing.&nbsp; The goal of this work was to apply machine learning techniques to derive disease phenotypes from such messy sources.<br /><br />In particular, we focused on studying autism spectrum disorder (ASD) through the electronic health records of 14,000 patients at Boston Children's Hospital.&nbsp; Our initial clustering analysis revealed novel ways to characterize autism spectrum disorders along neurological, gastrointestinal, and psychiatric directions.&nbsp; We followed up with a careful analysis of some of the gastrointestinal correlations, finding a significantly increased prevalence of inflammatory bowel disease among children with autism spectrum disorders.&nbsp; We also developed more advanced machine learning techniques to automatically summarize these derived disease phenotypes in a concise format that would be accessible to clinical researchers.&nbsp; <br /><br />Our work provided important insights into the heterogeneity of ASDs, paving the way for additional research that focuses on causes and treatments for specific types of ASD rather than treating children with ASD as one population.&nbsp; The work was cited as one of the highlights of 2014 at AMIA, the premier medical informatics conference, and the PI has personally received several letters from parents on how this work has helped them explain their child's symptoms to their clinicians.<br /><br />More broadly, this NSF CITraCS postdoctoral fellowship also served as an important opportunity for the PI, whose technical expertise is in computer science, to spend two years embedded in a medical school environment; she now leads a research program for developing advanced statistical techniques for phenotyping diseases and informing clinical treatment.&nbsp; During her time as a CITraCS fellow, she taught several one-off computer science and statistics courses to bioinformatics fellows at the medical school and mentored three undergraduate research projects (including one REU student).</p><br> <p>            Last Modified: 09/08/2015<br>      Modified by: Finale&nbsp;P&nbsp;Doshi-Velez</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ As we learn more about disease processes, we are discovering that many diseases that we consider a single disease--such as diabetes--in fact have many subtypes, while other diseases that we consider distinct--such as depression and anxiety--in fact have deep connections.  Electronic health records, which capture longitudinal information about a patient across medical specialties, provide a unique opportunity to study distinctions within and between disease at scale.  However, the analysis of these data is challenging: electronic health records are high dimensional, incomplete, and biased toward information that is valuable for billing.  The goal of this work was to apply machine learning techniques to derive disease phenotypes from such messy sources.  In particular, we focused on studying autism spectrum disorder (ASD) through the electronic health records of 14,000 patients at Boston Children's Hospital.  Our initial clustering analysis revealed novel ways to characterize autism spectrum disorders along neurological, gastrointestinal, and psychiatric directions.  We followed up with a careful analysis of some of the gastrointestinal correlations, finding a significantly increased prevalence of inflammatory bowel disease among children with autism spectrum disorders.  We also developed more advanced machine learning techniques to automatically summarize these derived disease phenotypes in a concise format that would be accessible to clinical researchers.    Our work provided important insights into the heterogeneity of ASDs, paving the way for additional research that focuses on causes and treatments for specific types of ASD rather than treating children with ASD as one population.  The work was cited as one of the highlights of 2014 at AMIA, the premier medical informatics conference, and the PI has personally received several letters from parents on how this work has helped them explain their child's symptoms to their clinicians.  More broadly, this NSF CITraCS postdoctoral fellowship also served as an important opportunity for the PI, whose technical expertise is in computer science, to spend two years embedded in a medical school environment; she now leads a research program for developing advanced statistical techniques for phenotyping diseases and informing clinical treatment.  During her time as a CITraCS fellow, she taught several one-off computer science and statistics courses to bioinformatics fellows at the medical school and mentored three undergraduate research projects (including one REU student).       Last Modified: 09/08/2015       Submitted by: Finale P Doshi-Velez]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

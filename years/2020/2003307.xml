@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CDS&amp;E: An Effective Thermal Simulation Methodology for GPGPUs Enabled by Data-Driven Model Reduction</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>375000.00</AwardTotalIntnAmount>
+<AwardAmount>375000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07010000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>ECCS</Abbreviation>
+<LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rosa Alejandra Lukaszew</SignBlockName>
+<PO_EMAI>rlukasze@nsf.gov</PO_EMAI>
+<PO_PHON>7032928103</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Demands for general purpose graphics processing units (GPGPUs) in recent years have increased rapidly due to the needs for scientific, engineering and statistical computing.  Meanwhile, GPGPUs are also quickly becoming an essential part of data centers around the globe. The number of data centers are growing drastically due to the recent explosion of social networking, movie streaming, online shopping, big data, internet of things, etc.  With hundreds or thousands of cores running in each GPGPU, severe heating is a serious challenge which   can significantly degrade GPGPU performance, reliability and energy efficiency unless effective cooling is employed.  However, effective cooling of data centers requires enormous expenditure of energy.  To ease all these problems, effective thermal management and thermal-aware task scheduling for GPGPU operation are needed, which however requires an accurate simulation tool that is able to offer efficient dynamic thermal prediction with a reasonable spatial resolution.   Currently, there is a lack of thermal simulation tools that offer high efficiency and accuracy with a reasonable resolution. The proposed work aims to develop an efficient simulation methodology based on a reduced learning algorithm that is capable of predicting accurate dynamic temperature distributions with a high resolution in GPGPUs.  With this novel approach implemented in GPGPUs, effective thermal management and task scheduling will become possible and will improve GPGPU performance and reliability.  This will also improve energy savings in cooling, computing and streaming and minimize the earth’s environmental stress.  This project will also contribute to interdisciplinary workforce training and prepare students for the emerging challenge of heating problems in GPGPU computing. Research related to the proposed work will be integrated into several courses taught by the PIs. Course projects will be developed by the Ph.D. and undergraduate students working on the proposed work. This will offer undergraduate and graduate students a useful learning experience beyond the textbooks and lectures. The PIs will also expand and integrate several ongoing activities to broaden participation of underrepresented groups in STEM, e.g. through the Co-PI's NSF REU site. A special effort will be made to recruit and mentor Native Americans from an Indian Reservation near the PI’s university to join STEM activities and to pursue their careers in STEM.&lt;br/&gt;The goal of this project is to develop a multi-block simulation methodology for efficient, accurate prediction of dynamic thermal profiles of GPGPUs derived from a reduced learning algorithm. To reduce simulation space and thus the computational time while maintaining accurate thermal solution, the domain structure of a GPGPU is projected onto a functional space described by a set of basis functions obtained from the reduced learning method.  This projection learning process however requires collection of massive amounts of thermal data for the entire GPGPU and is computationally prohibitive. Domain decomposition is therefore applied to partition the GPGPU domain into hundreds of smaller generic building blocks. This building-block approach enables more efficient training of the basis functions to develop the multi-block thermal model.  This methodology offers a reduction in the computational time by several orders of magnitude for thermal simulation of semiconductor chips, compared with the direct numerical simulation.  Currently, thermal simulations of GPGPUs rely on the efficient compact resistance-capacitance (RC) thermal model that provides poor resolution and inaccurate thermal profiles. It is expected that the developed thermal simulation model will be even more efficient than the compact RC model.  Also, the multi-block approach possesses a natural advantage of effective parallel computing. This project will implement the developed multi-block model in hundreds of cores in a GPGPU to perform parallel GPGPU computing that will further speed up the thermal simulation of GPGPUs.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>04/30/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>04/30/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2003307</AwardID>
+<Investigator>
+<FirstName>Yu</FirstName>
+<LastName>Liu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yu Liu</PI_FULL_NAME>
+<EmailAddress>yuliu@clarkson.edu</EmailAddress>
+<PI_PHON>3152686510</PI_PHON>
+<NSF_ID>000762662</NSF_ID>
+<StartDate>04/30/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Ming-Cheng</FirstName>
+<LastName>Cheng</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ming-Cheng Cheng</PI_FULL_NAME>
+<EmailAddress>mcheng@clarkson.edu</EmailAddress>
+<PI_PHON>3152687735</PI_PHON>
+<NSF_ID>000178485</NSF_ID>
+<StartDate>04/30/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Clarkson University</Name>
+<CityName>Potsdam</CityName>
+<ZipCode>136761401</ZipCode>
+<PhoneNumber>3152686475</PhoneNumber>
+<StreetAddress>8 Clarkson Avenue</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>21</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY21</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041590993</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CLARKSON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041590993</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Clarkson University]]></Name>
+<CityName>Potsdam</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>136999000</ZipCode>
+<StreetAddress><![CDATA[8 Clarkson Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>21</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY21</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~375000</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CDS&amp;E: SuperSTARLU - STacked, AcceleRated Algorithms for Sparse Linear Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>516000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Robert Beverly</SignBlockName>
+<PO_EMAI>rbeverly@nsf.gov</PO_EMAI>
+<PO_PHON>7032927068</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Computing systems and associated software have long had to make trade-offs in terms of performance due to an imbalance between fast processors and their slower memory hierarchies. Newly released technologies for 3D stacked memories provide an opportunity to reduce this imbalance by providing higher memory bandwidths and novel ways for accessing memory. One of the most promising techniques for using 3D stacked memory involves "memory-centric" computation that moves computation as close as possible to main memory. However, there is little understanding of how to best use these new memory technologies in libraries and applications, even as this hardware is slated to be integrated into near-term exascale supercomputing systems. The goal of this project is to understand the techniques and approaches that are needed to fully utilize 3D stacked memories and to demonstrate a useful set of computational primitives that can serve as a template for accelerating large scientific codes with these new memory components.&lt;br/&gt;&lt;br/&gt;This research considers the specific problem of using "memory-centric" processors effectively to implement sparse primitives as part of a library that supports a number of key scientific applications including radiation transport, fluid flow, and fusion simulations. This library, SuperLU_DIST, is a sparse direct solver library designed for distributed memory multicore systems that has previously been accelerated on both NVIDIA?s graphics co-processors and Intel?s Xeon Phi co-processor.  While this prior work has thus far yielded promising speedups, it has also revealed critical and fundamental algorithmic performance bottlenecks related to memory data transfers. This research project will investigate whether these bottlenecks may be mitigated by using emerging memory-centric co-processors. Such co-processors, which include Micron?s Hybrid Memory Cube (HMC) and High-Bandwidth Memory (HBM), combine 3-D stacked memories and FPGAs to provide lower latency, higher bandwidth data transfer, and support for near-memory data processing. The project will use high-level languages like OpenCL to take advantage of such technologies and will utilize a mix of algorithmic advances and software library development to improve application performance. Additionally, this work will lead to a new, open-source release of SuperLU called Super Stacked, Accelerated LU (SuperSTARLU), which will be made available to application developers and will be demonstrated on one of the next-generation systems with memory-centric co-processors, such as NERSC?s Cori.</AbstractNarration>
+<MinAmdLetterDate>08/02/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>06/11/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1710371</AwardID>
+<Investigator>
+<FirstName>Richard</FirstName>
+<LastName>Vuduc</LastName>
+<PI_MID_INIT>W</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Richard W Vuduc</PI_FULL_NAME>
+<EmailAddress>richie@cc.gatech.edu</EmailAddress>
+<PI_PHON>5103017014</PI_PHON>
+<NSF_ID>000080331</NSF_ID>
+<StartDate>08/02/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Edward</FirstName>
+<LastName>Riedy</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Edward J Riedy</PI_FULL_NAME>
+<EmailAddress>jason.riedy@cc.gatech.edu</EmailAddress>
+<PI_PHON>4048944819</PI_PHON>
+<NSF_ID>000596559</NSF_ID>
+<StartDate>08/02/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jeffrey</FirstName>
+<LastName>Young</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jeffrey Young</PI_FULL_NAME>
+<EmailAddress>jyoung9@gatech.edu</EmailAddress>
+<PI_PHON>4043851513</PI_PHON>
+<NSF_ID>000667897</NSF_ID>
+<StartDate>08/02/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[255 North Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~500000</FUND_OBLG>
+<FUND_OBLG>2020~16000</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Small: Least Privilege Enforcement through Secure Memory Views</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>499902.00</AwardTotalIntnAmount>
+<AwardAmount>499902</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to provide protection against exploits through untrusted third-party software components and against malicious application manipulation. These problems constitute an important class of vulnerabilities in current software, and are tied to a common denominator -- the lack of ability to divide a program and the data manipulated by it in a fine-grained manner and to control the interactions between the resulting constituents. &lt;br/&gt;   &lt;br/&gt;This project proposes practical fine-grained ``least privilege'' enforcement through a computation model where the heap can be divided into a dynamic number of memory domains. Security contexts --- called secure memory views (SMVs) --- can be defined that map privileges of code executing within them onto memory domains. Threads are allowed to dynamically switch their set of privileges (i.e., switch which SMVs they are bound to) in a secure and controlled fashion, termed security context switching. These ideas are realized through three core contributions. (1) A programming model is devised to allow the application programmer to easily apply the proposed techniques, while also providing enough structure to reason about the resulting properties and to secure these. (2) The new concepts are reified within a modern mainstream programming language through development of a compiler supporting the language extensions, as well as modifications of the language runtime. (3) An efficient implementation of security context switching is proposed, involving both the language runtime and the operating system kernel itself. To validate the research, a popular web browser as well as a web server are enhanced to use SMVs. By using widely employed open-source software for implementing and validating the proposed support our concepts become available to a large community for use as well as further research and development.</AbstractNarration>
+<MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>02/01/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1117065</AwardID>
+<Investigator>
+<FirstName>Patrick</FirstName>
+<LastName>Eugster</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Patrick T Eugster</PI_FULL_NAME>
+<EmailAddress>peugster@cs.purdue.edu</EmailAddress>
+<PI_PHON>7654946015</PI_PHON>
+<NSF_ID>000233715</NSF_ID>
+<StartDate>02/01/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Patrick</FirstName>
+<LastName>Eugster</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Patrick T Eugster</PI_FULL_NAME>
+<EmailAddress>peugster@cs.purdue.edu</EmailAddress>
+<PI_PHON>7654946015</PI_PHON>
+<NSF_ID>000233715</NSF_ID>
+<StartDate>08/08/2011</StartDate>
+<EndDate>02/01/2017</EndDate>
+<RoleCode>Former Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Aniket</FirstName>
+<LastName>Kate</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Aniket Kate</PI_FULL_NAME>
+<EmailAddress>aniket@purdue.edu</EmailAddress>
+<PI_PHON>7654941055</PI_PHON>
+<NSF_ID>000705066</NSF_ID>
+<StartDate>02/01/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName>West Lafayette</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>479072114</ZipCode>
+<StreetAddress><![CDATA[Young Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~499902</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project has investigated the feasibility of pure software-based, yet strong, protection against malicious exploits by untrusted third-party software components. Such exploits namely constitute an important class of vulnerabilities in current software due the common scenario of execution of third-party software components for instance in web browsers, and the inability to currently divide a program and the data manipulated by it in a fine-grained manner and to control the interactions between the different components.&nbsp;<br />The project has proposed practical fine-grained ``least privilege'' enforcement through a computation model where the heap can be divided into a dynamic number of memory domains. More precisely, the project has investigated (1) programming abstractions, corresponding (2) low-level as well as (3) high-level programming (language) support, with a close focus on empirical evaluation to demonstrate low performance overheads. Some of the key findings and outcomes in these categories are as follows:</p> <p>(1) We have introduced a notion of security contexts --- called secure memory views (SMVs) --- that can be defined by programmers. These map privileges of code executing within them onto memory domains.&nbsp;</p> <p>(2) Concretely we have implemented this model through a C library in a way extending and generalizing conventional thread and process handling in the kernel of the mainstream Linux operating system.&nbsp;</p> <p>(3) An extension of the higher-level Java programming language and its runtime environment, implemented respectively with the JastAdd extensible compiler and the Jikes research virtual machine, facilitate the use of this model.&nbsp;</p> <p>(4) We have shown the practical performance of our approach on several benchmark programs including web browsers, web servers, as well as generic parallel programming benchmarks such as PARSEC. With our C library overheads consisted typically of around only 5% increase in execution time only despite the strong isolation properties achieved, whilst only few lines of code had to be modified to leverage our SMVs in such existing software.</p><br> <p>            Last Modified: 08/17/2017<br>      Modified by: Patrick&nbsp;T&nbsp;Eugster</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project has investigated the feasibility of pure software-based, yet strong, protection against malicious exploits by untrusted third-party software components. Such exploits namely constitute an important class of vulnerabilities in current software due the common scenario of execution of third-party software components for instance in web browsers, and the inability to currently divide a program and the data manipulated by it in a fine-grained manner and to control the interactions between the different components.  The project has proposed practical fine-grained ``least privilege'' enforcement through a computation model where the heap can be divided into a dynamic number of memory domains. More precisely, the project has investigated (1) programming abstractions, corresponding (2) low-level as well as (3) high-level programming (language) support, with a close focus on empirical evaluation to demonstrate low performance overheads. Some of the key findings and outcomes in these categories are as follows:  (1) We have introduced a notion of security contexts --- called secure memory views (SMVs) --- that can be defined by programmers. These map privileges of code executing within them onto memory domains.   (2) Concretely we have implemented this model through a C library in a way extending and generalizing conventional thread and process handling in the kernel of the mainstream Linux operating system.   (3) An extension of the higher-level Java programming language and its runtime environment, implemented respectively with the JastAdd extensible compiler and the Jikes research virtual machine, facilitate the use of this model.   (4) We have shown the practical performance of our approach on several benchmark programs including web browsers, web servers, as well as generic parallel programming benchmarks such as PARSEC. With our C library overheads consisted typically of around only 5% increase in execution time only despite the strong isolation properties achieved, whilst only few lines of code had to be modified to leverage our SMVs in such existing software.       Last Modified: 08/17/2017       Submitted by: Patrick T Eugster]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

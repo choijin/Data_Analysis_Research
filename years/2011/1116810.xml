@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small:  Hardware Architectures for Data Mining at the Exascale</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>449997.00</AwardTotalIntnAmount>
+<AwardAmount>465997</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The algorithms and techniques used to find useful patterns in large sets of data, collectively known as data mining and information visualization, have become vital to researchers making discoveries in diverse fields. The goals of data mining (and computing in general) at the Exascale have introduced fundamental challenges at the architectural level, and even though the evolution of GPU architecture has partly been driven by these challenges, overall computing system performance is not increasing at an equal rate as that of data generation and collection, thus widening the gap between the capabilities of mining algorithms and the performance of real-world data mining systems. This project investigates the design of new hardware/software platforms that will enable existing data mining algorithms to scale with increasingly large and complex datasets. In doing so, this project builds upon current understanding of the characteristics of data mining applications that differ from those for which modern processors are currently designed, similar to what already has been done in the signal processing and network processing domains. This project also studies a variety of design methodologies and models of computation that could lead to performance improvements. Finally, this project analyzes the inherent tradeoffs between algorithmic accuracy and architecture overhead in an attempt to generalize the accuracy and performance tradeoff. The expected impact is that these research tasks will contribute to the growing body of work in embedded system design at the hardware/software interface, and will help to develop a part of future hybrid multi-core computing platforms.</AbstractNarration>
+<MinAmdLetterDate>07/25/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>04/18/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1116810</AwardID>
+<Investigator>
+<FirstName>Joseph</FirstName>
+<LastName>Zambreno</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Joseph A Zambreno</PI_FULL_NAME>
+<EmailAddress>zambreno@iastate.edu</EmailAddress>
+<PI_PHON>5152943312</PI_PHON>
+<NSF_ID>000315231</NSF_ID>
+<StartDate>07/25/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Iowa State University</Name>
+<CityName>AMES</CityName>
+<ZipCode>500112207</ZipCode>
+<PhoneNumber>5152945225</PhoneNumber>
+<StreetAddress>1138 Pearson</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<StateCode>IA</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IA04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005309844</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005309844</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Iowa State University]]></Name>
+<CityName>AMES</CityName>
+<StateCode>IA</StateCode>
+<ZipCode>500112207</ZipCode>
+<StreetAddress><![CDATA[1138 Pearson]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IA04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~449997</FUND_OBLG>
+<FUND_OBLG>2012~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project focused on exploring the tradeoffs involved in accelerating data mining workloads, in an attempt to discover how computing systems can be better architected for this vital and relatively unexplored application domain. In doing so, the PI and student team supported by this project performed a thorough analysis of key computational kernels, leading to custom platform development. In several circumstances, we were able to demonstrated that an integrated HW/SW platform can have significantly improved performance over even a well-optimized SW implementation.</p> <p>Specifically, this project focused on three main application domains:</p> <p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matrix decomposition &ndash; in analyzing large sparse matrices, over 90% of the runtime is commonly spent in matrix decomposition. There are several different algorithms for decomposing, each with significantly different computational tradeoffs. As part of this project we have built a custom accelerator for sparse LU decomposition for matrices with arbitrary sparsity patterns, which we believe to be a first architecture to do so. This architecture is between 1.6X and 14X faster than an optimized software implementation.</p> <p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graph analysis &ndash; we have demonstrated a working proof-of-concept for parallel breadth-first search, as well as resultant algorithms (strongly connected components, all pairs shortest paths). In doing so we have created more generalizable graph processing accelerator framework. Our architecture for detecting strongly connected components is as much as 17X faster than conventional software-based approaches.</p> <p>3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Classification &ndash; after successfully developing and analyzing our sparse matrix vector multiplication accelerator, we investigated its application to various data mining applications (e.g. k-NN classification for text documents). Although there are a significant number of similar projects in the recent research literature, this project investigated a relatively unexplored path of using various types of matrix compression to lower the overall bandwidth requirements of any sparse matrix vector accelerator.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/05/2016<br>      Modified by: Joseph&nbsp;A&nbsp;Zambreno</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project focused on exploring the tradeoffs involved in accelerating data mining workloads, in an attempt to discover how computing systems can be better architected for this vital and relatively unexplored application domain. In doing so, the PI and student team supported by this project performed a thorough analysis of key computational kernels, leading to custom platform development. In several circumstances, we were able to demonstrated that an integrated HW/SW platform can have significantly improved performance over even a well-optimized SW implementation.  Specifically, this project focused on three main application domains:  1)      Matrix decomposition &ndash; in analyzing large sparse matrices, over 90% of the runtime is commonly spent in matrix decomposition. There are several different algorithms for decomposing, each with significantly different computational tradeoffs. As part of this project we have built a custom accelerator for sparse LU decomposition for matrices with arbitrary sparsity patterns, which we believe to be a first architecture to do so. This architecture is between 1.6X and 14X faster than an optimized software implementation.  2)      Graph analysis &ndash; we have demonstrated a working proof-of-concept for parallel breadth-first search, as well as resultant algorithms (strongly connected components, all pairs shortest paths). In doing so we have created more generalizable graph processing accelerator framework. Our architecture for detecting strongly connected components is as much as 17X faster than conventional software-based approaches.  3)      Classification &ndash; after successfully developing and analyzing our sparse matrix vector multiplication accelerator, we investigated its application to various data mining applications (e.g. k-NN classification for text documents). Although there are a significant number of similar projects in the recent research literature, this project investigated a relatively unexplored path of using various types of matrix compression to lower the overall bandwidth requirements of any sparse matrix vector accelerator.           Last Modified: 09/05/2016       Submitted by: Joseph A Zambreno]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

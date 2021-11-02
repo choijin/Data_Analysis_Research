@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: BreezeFS: File System Transformation for Cloud and Multistore Era</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>498013.00</AwardTotalIntnAmount>
+<AwardAmount>498013</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project, BREEZEFS, aims to build a specific set of six file system transformations that expose new capabilities to ease the development of future cloud systems and the adoption of multistore devices.  Historically, the job of the OS is to provide common functionalities and thus speeding up innovations at the application layer.  For this project, the focus will be the cloud system.  By targeting the cloud and multistore era, the vision is to ease the development of future cloud systems and the adoption of multistore devices. This will be accomplished by developing new common functionalities into the in-kernel file system stack.&lt;br/&gt;&lt;br/&gt;The developed software artifacts will be shared widely with the open source community and with various industry partners to help shape the next generation storage systems.  This is the era of Big-Data computing, and storage systems are one important core. Users from many areas (science, healthcare, business, education, military, and government) may benefit from this work.</AbstractNarration>
+<MinAmdLetterDate>09/15/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>09/15/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1526304</AwardID>
+<Investigator>
+<FirstName>Haryadi</FirstName>
+<LastName>Gunawi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Haryadi Gunawi</PI_FULL_NAME>
+<EmailAddress>haryadi@cs.uchicago.edu</EmailAddress>
+<PI_PHON>7737025772</PI_PHON>
+<NSF_ID>000626546</NSF_ID>
+<StartDate>09/15/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Henry</FirstName>
+<LastName>Hoffmann</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Henry Hoffmann</PI_FULL_NAME>
+<EmailAddress>hankhoffmann@cs.uchicago.edu</EmailAddress>
+<PI_PHON>7737024980</PI_PHON>
+<NSF_ID>000642777</NSF_ID>
+<StartDate>09/15/2015</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606372612</ZipCode>
+<PhoneNumber>7737028669</PhoneNumber>
+<StreetAddress>6054 South Drexel Avenue</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005421136</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CHICAGO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005421136</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606375418</ZipCode>
+<StreetAddress><![CDATA[1100 East 58th Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~498013</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><br />The BreezeFS project has advanced storage and distributed systems with various file/storage system transformations that satisfy the new needs of the cloud and multistore era including fast I/O durability, SLO management, semantic-awareness of cloud I/O characteristics, and energy efficiency.&nbsp;</p> <p><br />With the Manylogs project [MSST '16], we introduce a simple and novel concept of logging that deploys many scattered logs on disk such that small random writes can be appended into any log near the current disk head position such that the small writes attain fast durability while the large I/Os still sustain large bandwidth.&nbsp;</p> <p><br />With the MittOS project [SOSP '17], we provide an operating system support to cut millisecond-level tail latencies for data-parallel applications by advocating a new principle that operating systems should quickly reject IOs that cannot be promptly served by exposing a fast rejecting SLO-aware interface wherein applications can provide their SLOs.&nbsp;</p> <p><br />With the FEMU project [FAST '18], we introduce a software (QEMU-based) flash emulator for fostering future full-stack software/hardware SSD research with a flash emulator that is open-sourced, relatively accurate, scalable (can support 32 parallel channels/chips), and extensible (support internal-only and split-level SSD research).&nbsp;</p> <p><br />With the StrongBox project [ASPLOS '18], we introduce a system design and on-drive data structures that exploit LFS&rsquo;s lack of overwrites to avoid costly rekeying and a counter stored in trusted hardware to protect against attacks, capable of running on an ARM big.LITTLE mobile processor and multiple popular production LFSes.&nbsp;</p> <p><br />With the QLIO project [ASPLOS '19], we present a new cloud storage stack that leverages ARM-based co-processors to offload complex storage services and addresses many deployment challenges such as hardware fungibility, software portability, virtualizability, composability, and efficiency, with a set of OS/software techniques and new hardware properties that provide a uniform address space across the x86 and ARM cores and expose a virtual NVMe storage to unmodified guest VMs, with a competitive speed to bare-metal performance.&nbsp;</p> <p><br />With the TIFA project [In Submission], we show a tail-evading flash array that can deliver predictable performance, by uniquely combining a simple yet powerful host-SSD interface, time window mechanism, and data redundancy to proactively and deterministically reconstruct late requests, with only minor changes to the host software and device firmware, which in aggregate improves upon baseline performance by orders of magnitude between the 99 and 99.99 percentiles.&nbsp;</p> <p><br />With the DESSY project [In Submission], we release an application-level tool that can extract 10 internal properties from any block-level SSDs, together with the analysis result of running Queenie on 21 different SSD models from 7 major SSD vendors including analysis on substantial improve-ment space for both SSD users and manufacturers, enlightening possibilities of unleashing more performance potential in real world scenarios and highlighting the necessity of further exploring our SSD internals.&nbsp;</p> <p><br />Broader Impact: &nbsp;</p> <p><br />The BreezeFS project places significant value on technology transfer; the outcomes of the project have led to direct industrial impacts. &nbsp;For example, approaches from FEMU, QLIO, and DESSY projects are being explored by storage industries. &nbsp;FEMU source code has been tried out by companies that use OpenChannel SSDs. &nbsp;A large cloud provider also is looking to apply QLIO-like approach in a larger scale. &nbsp;DESSY outcomes have been distributed to many engineers at one of the largest storage companies. &nbsp;In addition to this, predictable performance is a key to success of multi-billion dollar computing, and we believe the BreezeFS project and the approaches introduced will be an important ingredient. &nbsp;Users from many areas (science, healthcare, business, education, military, and government) are increasingly use large-scale storage and computing services, and the outcomes of our project will improve the performance stability and efficiency of these services.&nbsp;</p><br> <p>            Last Modified: 12/16/2019<br>      Modified by: Haryadi&nbsp;Gunawi</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  The BreezeFS project has advanced storage and distributed systems with various file/storage system transformations that satisfy the new needs of the cloud and multistore era including fast I/O durability, SLO management, semantic-awareness of cloud I/O characteristics, and energy efficiency.    With the Manylogs project [MSST '16], we introduce a simple and novel concept of logging that deploys many scattered logs on disk such that small random writes can be appended into any log near the current disk head position such that the small writes attain fast durability while the large I/Os still sustain large bandwidth.    With the MittOS project [SOSP '17], we provide an operating system support to cut millisecond-level tail latencies for data-parallel applications by advocating a new principle that operating systems should quickly reject IOs that cannot be promptly served by exposing a fast rejecting SLO-aware interface wherein applications can provide their SLOs.    With the FEMU project [FAST '18], we introduce a software (QEMU-based) flash emulator for fostering future full-stack software/hardware SSD research with a flash emulator that is open-sourced, relatively accurate, scalable (can support 32 parallel channels/chips), and extensible (support internal-only and split-level SSD research).    With the StrongBox project [ASPLOS '18], we introduce a system design and on-drive data structures that exploit LFS’s lack of overwrites to avoid costly rekeying and a counter stored in trusted hardware to protect against attacks, capable of running on an ARM big.LITTLE mobile processor and multiple popular production LFSes.    With the QLIO project [ASPLOS '19], we present a new cloud storage stack that leverages ARM-based co-processors to offload complex storage services and addresses many deployment challenges such as hardware fungibility, software portability, virtualizability, composability, and efficiency, with a set of OS/software techniques and new hardware properties that provide a uniform address space across the x86 and ARM cores and expose a virtual NVMe storage to unmodified guest VMs, with a competitive speed to bare-metal performance.    With the TIFA project [In Submission], we show a tail-evading flash array that can deliver predictable performance, by uniquely combining a simple yet powerful host-SSD interface, time window mechanism, and data redundancy to proactively and deterministically reconstruct late requests, with only minor changes to the host software and device firmware, which in aggregate improves upon baseline performance by orders of magnitude between the 99 and 99.99 percentiles.    With the DESSY project [In Submission], we release an application-level tool that can extract 10 internal properties from any block-level SSDs, together with the analysis result of running Queenie on 21 different SSD models from 7 major SSD vendors including analysis on substantial improve-ment space for both SSD users and manufacturers, enlightening possibilities of unleashing more performance potential in real world scenarios and highlighting the necessity of further exploring our SSD internals.    Broader Impact:     The BreezeFS project places significant value on technology transfer; the outcomes of the project have led to direct industrial impacts.  For example, approaches from FEMU, QLIO, and DESSY projects are being explored by storage industries.  FEMU source code has been tried out by companies that use OpenChannel SSDs.  A large cloud provider also is looking to apply QLIO-like approach in a larger scale.  DESSY outcomes have been distributed to many engineers at one of the largest storage companies.  In addition to this, predictable performance is a key to success of multi-billion dollar computing, and we believe the BreezeFS project and the approaches introduced will be an important ingredient.  Users from many areas (science, healthcare, business, education, military, and government) are increasingly use large-scale storage and computing services, and the outcomes of our project will improve the performance stability and efficiency of these services.        Last Modified: 12/16/2019       Submitted by: Haryadi Gunawi]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

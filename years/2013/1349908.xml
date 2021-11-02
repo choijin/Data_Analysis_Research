@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Homomorphic Encryption, Ideal Membership, and Fourier Transforms</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>299426.00</AwardTotalIntnAmount>
+<AwardAmount>299426</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ralph Wachter</SignBlockName>
+<PO_EMAI>rwachter@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project seeks to simplify the proof of fully homomorphic encryption (FHE) and reduce the computational complexity of the FHE algorithm, motivated by new approaches in lattice theory.  If FHE were computationally practical, it would change security practices in cloud computing and storage that would have significant economic and social benefits.</AbstractNarration>
+<MinAmdLetterDate>08/22/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/22/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1349908</AwardID>
+<Investigator>
+<FirstName>Joseph</FirstName>
+<LastName>Silverman</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Joseph H Silverman</PI_FULL_NAME>
+<EmailAddress>jhs@math.brown.edu</EmailAddress>
+<PI_PHON>4018632708</PI_PHON>
+<NSF_ID>000184104</NSF_ID>
+<StartDate>08/22/2013</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jeffrey</FirstName>
+<LastName>Hoffstein</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jeffrey Hoffstein</PI_FULL_NAME>
+<EmailAddress>jhoff@math.brown.edu</EmailAddress>
+<PI_PHON>4018631127</PI_PHON>
+<NSF_ID>000188175</NSF_ID>
+<StartDate>08/22/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brown University</Name>
+<CityName>Providence</CityName>
+<ZipCode>029129002</ZipCode>
+<PhoneNumber>4018632777</PhoneNumber>
+<StreetAddress>BOX 1929</StreetAddress>
+<StreetAddress2><![CDATA[350 Eddy Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<StateCode>RI</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>RI01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001785542</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BROWN UNIVERSITY IN PROVIDENCE IN THE STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001785542</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brown University]]></Name>
+<CityName>Providence</CityName>
+<StateCode>RI</StateCode>
+<ZipCode>029129002</ZipCode>
+<StreetAddress><![CDATA[BOX 1929]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>RI01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~299426</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>An encryption scheme is a method for efficiently computing an encrypted form e(X) of a given input X. It should be invertible, but computing the inverse, that is, recovering X from e(X), must require a secret key.&nbsp; Roughly speaking, for the scheme to be secure, it should be hard to learn anything useful about a series of inputs X<sub>1</sub>, X<sub>2</sub>, ... ,X<sub>n</sub>, given only the corresponding series of outputs e(X<sub>1</sub>),e(X<sub>2</sub>), ...,e(X<sub>n</sub>). For over 30 years it was an open problem to find a secure encryption function e that is <em>homomorphic</em>, which means that it satisfies the following extra properties: e(X + Y) = e(X) + e(Y) and e(XY) = e(X)e(Y).&nbsp; Among the many potential applications for such an encryption scheme would be the ability to perform calculations in the cloud on vast quantities of health data that has been encrypted for privacy.<br /><br />The first theoretical, but highly impractical, solution to this problem was given by a breakthrough discovery of Craig Gentry in 2009.&nbsp; Since that time many researchers have done a great deal of work on homomorphic encryption, and today's schemes are orders of magnitude more efficient in both time and memory than the original. Yet they are still far from practical, and new ideas are needed.<br /><br />The PIs on this grant worked to develop completely new approaches to the problem of homomorphic encryption. They succeeded in identifying two promising new lines of study that have not hitherto been applied toward homomorphic encryption.&nbsp; The first is based on the mathematical problem of approximating irrational quantities by rational quantities, a subject called Diophantine approximation that dates back to the 19th century.&nbsp; The second is based on the theory of finite fields, which also has a rich mathematical history. The PIs innovation is to use two different descriptions of a single finite finite field. One description, which uses polynomials with small coefficients, serves as the private key, while the second description, which uses random coefficients, becomes the public key.&nbsp; The PI's are continuing to work on refining these ideas approach and hope to obtain a practical and useful solution.</p><br> <p>            Last Modified: 10/04/2016<br>      Modified by: Joseph&nbsp;H&nbsp;Silverman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ An encryption scheme is a method for efficiently computing an encrypted form e(X) of a given input X. It should be invertible, but computing the inverse, that is, recovering X from e(X), must require a secret key.  Roughly speaking, for the scheme to be secure, it should be hard to learn anything useful about a series of inputs X1, X2, ... ,Xn, given only the corresponding series of outputs e(X1),e(X2), ...,e(Xn). For over 30 years it was an open problem to find a secure encryption function e that is homomorphic, which means that it satisfies the following extra properties: e(X + Y) = e(X) + e(Y) and e(XY) = e(X)e(Y).  Among the many potential applications for such an encryption scheme would be the ability to perform calculations in the cloud on vast quantities of health data that has been encrypted for privacy.  The first theoretical, but highly impractical, solution to this problem was given by a breakthrough discovery of Craig Gentry in 2009.  Since that time many researchers have done a great deal of work on homomorphic encryption, and today's schemes are orders of magnitude more efficient in both time and memory than the original. Yet they are still far from practical, and new ideas are needed.  The PIs on this grant worked to develop completely new approaches to the problem of homomorphic encryption. They succeeded in identifying two promising new lines of study that have not hitherto been applied toward homomorphic encryption.  The first is based on the mathematical problem of approximating irrational quantities by rational quantities, a subject called Diophantine approximation that dates back to the 19th century.  The second is based on the theory of finite fields, which also has a rich mathematical history. The PIs innovation is to use two different descriptions of a single finite finite field. One description, which uses polynomials with small coefficients, serves as the private key, while the second description, which uses random coefficients, becomes the public key.  The PI's are continuing to work on refining these ideas approach and hope to obtain a practical and useful solution.       Last Modified: 10/04/2016       Submitted by: Joseph H Silverman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Performance and Fairness with Multiple Page Sizes</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>516000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Matt Mutka</SignBlockName>
+<PO_EMAI>mmutka@nsf.gov</PO_EMAI>
+<PO_PHON>7032927344</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern computing workloads such as machine learning, big data analytics, and scientific computing require enormous memory capacities. The system software that manages memory was designed for much smaller systems, and consequently, it imposes hefty performance and power penalties on modern systems. The time has come to pay this technical debt. This work comprehensively redesigns operating system and virtual machine memory management to accommodate large memories, enabling applications to obtain the performance and efficiency promised by current hardware.&lt;br/&gt;&lt;br/&gt;The goal of this research is a set of principles and a framework for the operating system and hypervisor to transparently support small and large memory pages. Large memory pages (e.g., 2MB pages for the popular x86 architecture instead of the standard 4KB) can provide significant performance benefit by dramatically reducing address translation over- heads. However, their support and adoption has been hindered by fundamental management problems arising from fragmentation and poor visibility into memory accesses. Current large page management suffers a variety of pathologies such as memory bloat and unfairness across processes and/or virtual machines, and system administrators generally disable large pages in production systems. A framework that relies on managing contiguity as a first-class resource and on tracking utilization and access frequency of memory pages will enable an OS to coordinate its currently disparate mechanisms, avoid performance pathologies, and enable applications to enjoy the performance benefits of large pages.</AbstractNarration>
+<MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/18/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1618563</AwardID>
+<Investigator>
+<FirstName>Emmett</FirstName>
+<LastName>Witchel</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Emmett Witchel</PI_FULL_NAME>
+<EmailAddress>witchel@cs.utexas.edu</EmailAddress>
+<PI_PHON>5122327889</PI_PHON>
+<NSF_ID>000164959</NSF_ID>
+<StartDate>08/08/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Christopher</FirstName>
+<LastName>Rossbach</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Christopher J Rossbach</PI_FULL_NAME>
+<EmailAddress>rossbach@cs.utexas.edu</EmailAddress>
+<PI_PHON>5124716424</PI_PHON>
+<NSF_ID>000555484</NSF_ID>
+<StartDate>08/08/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787121532</ZipCode>
+<StreetAddress><![CDATA[01 E. 27th Street, Suite 5.300]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~500000</FUND_OBLG>
+<FUND_OBLG>2018~8000</FUND_OBLG>
+<FUND_OBLG>2019~8000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goals of this research were to improve the efficiency of general-purpose compute infrastructure used in modern big data settings by developing principles and frameworks for&nbsp;operating systems, hypervisors, and system-level infrastructure to better manage memory resources. Modern computing infrastructure relies heavily on techniques that virtualize memory to ensure that shared infrastructure is used safely and efficiently, but those techniques have overheads that translate to lost performance and inefficiency as the world has come to store, use, and compute over larger and larger data.&nbsp;</p> <p>These costs can be dramatically reduced by managing memory in larger chucks, or <em>pages</em>, and current CPUs support mulitple page sizes to enable system software to do just that. However, the software challenge of transparently supporting multiple page sizes was very much unsolved when this project began. Larger pages can provide a significant performance benefit by dramatically reducing memory virtualization costs arising from translation between virtual and physical address spaces. However, the availability of multiple page sizes introduces fundamental management challenges such as fragmentation and poor visibility into memory access patterns. To date, system software has dealt poorly with these challenges, leaving user software faced with a variety of pathologies such as memory bloat and unfairness across processes and/or virtual machines.</p> <p>This research developed a framework that relies on principles such as managing contiguity as a first-class resource, fine-grain tracking of utilization and access frequency of memory pages can enable system software to coordinate mechanisms, avoid pathologies, and improve performance. This framework was first published in a top computer science venue (OSDI) in 2016, and went on to be adopted into practice by commodity hypervisors and operating systems, to impact the memory systems in emerging GPU architectures, and drive the advancement of the field through a series of publications and adoption into CS curriculum at UT Austin.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/16/2020<br>      Modified by: Christopher&nbsp;J&nbsp;Rossbach</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goals of this research were to improve the efficiency of general-purpose compute infrastructure used in modern big data settings by developing principles and frameworks for operating systems, hypervisors, and system-level infrastructure to better manage memory resources. Modern computing infrastructure relies heavily on techniques that virtualize memory to ensure that shared infrastructure is used safely and efficiently, but those techniques have overheads that translate to lost performance and inefficiency as the world has come to store, use, and compute over larger and larger data.   These costs can be dramatically reduced by managing memory in larger chucks, or pages, and current CPUs support mulitple page sizes to enable system software to do just that. However, the software challenge of transparently supporting multiple page sizes was very much unsolved when this project began. Larger pages can provide a significant performance benefit by dramatically reducing memory virtualization costs arising from translation between virtual and physical address spaces. However, the availability of multiple page sizes introduces fundamental management challenges such as fragmentation and poor visibility into memory access patterns. To date, system software has dealt poorly with these challenges, leaving user software faced with a variety of pathologies such as memory bloat and unfairness across processes and/or virtual machines.  This research developed a framework that relies on principles such as managing contiguity as a first-class resource, fine-grain tracking of utilization and access frequency of memory pages can enable system software to coordinate mechanisms, avoid pathologies, and improve performance. This framework was first published in a top computer science venue (OSDI) in 2016, and went on to be adopted into practice by commodity hypervisors and operating systems, to impact the memory systems in emerging GPU architectures, and drive the advancement of the field through a series of publications and adoption into CS curriculum at UT Austin.          Last Modified: 10/16/2020       Submitted by: Christopher J Rossbach]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

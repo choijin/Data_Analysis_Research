@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Unitary Qubit Lattice Algorithms for Quantum Turbulence with Non-Abelian Vortices</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>85000.00</AwardTotalIntnAmount>
+<AwardAmount>85000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03010000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>PHY</Abbreviation>
+<LongName>Division Of Physics</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Bogdan Mihaila</SignBlockName>
+<PO_EMAI>bmihaila@nsf.gov</PO_EMAI>
+<PO_PHON>7032928235</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project will pursue the development of unitary qubit lattice algorithms (QULA) to solve problems in nonlinear physics by extending ideas used in lattice Boltzmann and lattice gas algorithms. QULA for scalar 2D and 3D Bose-Einstein condensates (BEC) have already provided new information on the unexpected behavior of continuum Hamiltonians. The major thrust of this project will be to examine energy spectral cascades in spinor-BEC quantum turbulence where the flow involves both Abelian and non-Abelian vortices.  Such spinor quantum turbulence has yet to be simulated in any real detail, particularly in 3D, and the novel algorithms developed here can be viewed as a mesoscopic model for nonlinear physics. This research is also expected to have a profound impact on plasma and space physics applications, as QULA will allow for the study of magneto-hydrodynamics turbulence and magnetic reconnection. The QULA algorithms are manifestly unitary and can be readily encoded onto future quantum computers.&lt;br/&gt;&lt;br/&gt;The broad impacts of this project include the training of the workforce of the future, with graduate and undergraduate students having the opportunity to learn and work in an important field of scientific inquiry. Students will acquire hands-on experience on the use of high-performance computational platforms, as QULA scale ideally on modern supercomputers and the scaling was tested up to several hundreds of thousands of cores.</AbstractNarration>
+<MinAmdLetterDate>09/10/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/10/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1314245</AwardID>
+<Investigator>
+<FirstName>Linda</FirstName>
+<LastName>Vahala</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Linda L Vahala</PI_FULL_NAME>
+<EmailAddress>lvahala@odu.edu</EmailAddress>
+<PI_PHON>7576834968</PI_PHON>
+<NSF_ID>000299819</NSF_ID>
+<StartDate>09/10/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Old Dominion University Research Foundation</Name>
+<CityName>Norfolk</CityName>
+<ZipCode>235082561</ZipCode>
+<PhoneNumber>7576834293</PhoneNumber>
+<StreetAddress>4111 Monarch Way</StreetAddress>
+<StreetAddress2><![CDATA[Suite 204]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<StateCode>VA</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>VA03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>077945947</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OLD DOMINION UNIVERSITY RESEARCH FOUNDATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Old Dominion University]]></Name>
+<CityName>Norfolk</CityName>
+<StateCode>VA</StateCode>
+<ZipCode>235290001</ZipCode>
+<StreetAddress><![CDATA[5115 Hampton Blvd]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>VA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7244</Code>
+<Text>COMPUTATIONAL PHYSICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~85000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Our project dealt with the construction of ideally parallelized algorithms that will run on both quantum computers (when they become available) and current classical supercomputers.&nbsp; In particular, the algorithms developed lead to novel, efficient and unexpected numerical schemes not discovered by sticking to classical algorithms.&nbsp; In particular an intertwined collision-stream set of operators on the qubits leads, in the long-wavelength limit, to the desired noninear Schrodindger equations. This entanglement of qubits and its propagation throughout the lattice is time-reversible at the qubit level &ndash; qubits being the fundamental building blocks of quantum information.&nbsp; Indeed, the parallelization of our qubit codes is nearly perfect to over 800,000 cores, with the upper bound coming from the number of available cores on the classical supercomputer.&nbsp; In particular we have devised qubit codes to model the time evolution of Bose-Einstein condensates &ndash; both those embedded in a magnetic field (leading to frozen-in spin states and a scalar evolution equation) and in an optical lattice (leading to spinor BEC states).&nbsp; To devise an appropriate initial wavefunction, a qubit imaginary time algorithm was successfully developed for the corresponding 1D nonlinear diffusion equation.&nbsp; However, finding an appropriate 3D ground state wavefunction for spinor-BECs was more elusive.&nbsp; Pade expansions provided radial line vortex solutions that then yielded complex vortex-vortex reconnection without dissipation.&nbsp; In Fig. 1-3 we show vortex isosurfaces for a spin-1 BEC in 3D and the different reconnections for the ms = +1 state.&nbsp; Initially the straight line vortices reconnect forming other vortex structures as the 3 multiplet spin-1 states interact with each other.</p> <p>&nbsp;</p> <p>Since the qubit algorithms are time-reversible, accurate representations were determined for the nonlinear interaction terms.&nbsp; The non-spin interaction can only be treated perturbatively, but closed form summation of the spin-spin interaction was obtained to all orders.&nbsp; This prompted us to examine a summation to all orders of the momentum operator.&nbsp; The qubit fast Fourier transform code was tested successfully for both scalar and vector soliton collisions in 1D and compared to the exact theoretical solutions.&nbsp; In particular we have found that the QLG-FFT algorithm can handle fast soliton speeds unlike our earlier QLG codes that only approximated the momentum operator.&nbsp; The non-FFT algorithms yield solitary waves that emit radiation resulting in both amplitude and speed variations from the exact theoretical solutions.</p> <p>&nbsp;</p> <p>Nonlinear optics is very interested in the formation of stable 3D vortex solitons in particular nonlinear media.&nbsp; One method is to consider a 2D dark soliton stabilized by an orthogonal bright soliton.&nbsp; This was achieved theoretically in 2007 by Efremidis et. al.&nbsp; We have devised a qubit algorithm that models this interaction and our numerical solutions agree with the more difficult direct simulation methods presented by Efremidis, see Fig. 4.</p><br> <p>            Last Modified: 10/15/2018<br>      Modified by: Linda&nbsp;L&nbsp;Vahala</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650572725_Fig3_psi03f_025000--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650572725_Fig3_psi03f_025000--rgov-800width.jpg" title="Late stage development of ms = 1 vortices"><img src="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650572725_Fig3_psi03f_025000--rgov-66x44.jpg" alt="Late stage development of ms = 1 vortices"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Late stage development of the vortex reconnection in the ms = +1 state of the spinor BEC</div> <div class="imageCredit">DoD supercompuing Facilities</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Linda&nbsp;L&nbsp;Vahala</div> <div class="imageTitle">Late stage development of ms = 1 vortices</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650383644_Fig1_psi03f_00000--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650383644_Fig1_psi03f_00000--rgov-800width.jpg" title="Initial Condition for the ms = 1 state"><img src="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650383644_Fig1_psi03f_00000--rgov-66x44.jpg" alt="Initial Condition for the ms = 1 state"></a> <div class="imageCaptionContainer"> <div class="imageCaption">THe Pade generated quantum line vortices for the ms = +1 for the spin-1 BEC system. The color on the contours represents phase information on these vortex cores: blue - zero phase, red - 2*pi</div> <div class="imageCredit">DoD supercompuing Facilities</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Linda&nbsp;L&nbsp;Vahala</div> <div class="imageTitle">Initial Condition for the ms = 1 state</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650470412_Fig2_psi03f_02100--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650470412_Fig2_psi03f_02100--rgov-800width.jpg" title="Vortex reconnection in the ms = 1 state"><img src="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650470412_Fig2_psi03f_02100--rgov-66x44.jpg" alt="Vortex reconnection in the ms = 1 state"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The reconnection of the line vortex initial condition for ms = +1 state of the spinor BEC</div> <div class="imageCredit">DoD supercompuing Facilities</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Linda&nbsp;L&nbsp;Vahala</div> <div class="imageTitle">Vortex reconnection in the ms = 1 state</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650677284_Fig4_psi01f_14000--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650677284_Fig4_psi01f_14000--rgov-800width.jpg" title="Quasi-stable 3D quantum vortex"><img src="/por/images/Reports/POR/2018/1314245/1314245_10278083_1539650677284_Fig4_psi01f_14000--rgov-66x44.jpg" alt="Quasi-stable 3D quantum vortex"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Qubit lattice simulation for the steady state solution of a 3D vortex soliton in a scalar BEC that remains localized due to the interaction between defocusing in 2D and focusing in the 3rd direction</div> <div class="imageCredit">DoD supercompuing Facilities</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Linda&nbsp;L&nbsp;Vahala</div> <div class="imageTitle">Quasi-stable 3D quantum vortex</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Our project dealt with the construction of ideally parallelized algorithms that will run on both quantum computers (when they become available) and current classical supercomputers.  In particular, the algorithms developed lead to novel, efficient and unexpected numerical schemes not discovered by sticking to classical algorithms.  In particular an intertwined collision-stream set of operators on the qubits leads, in the long-wavelength limit, to the desired noninear Schrodindger equations. This entanglement of qubits and its propagation throughout the lattice is time-reversible at the qubit level &ndash; qubits being the fundamental building blocks of quantum information.  Indeed, the parallelization of our qubit codes is nearly perfect to over 800,000 cores, with the upper bound coming from the number of available cores on the classical supercomputer.  In particular we have devised qubit codes to model the time evolution of Bose-Einstein condensates &ndash; both those embedded in a magnetic field (leading to frozen-in spin states and a scalar evolution equation) and in an optical lattice (leading to spinor BEC states).  To devise an appropriate initial wavefunction, a qubit imaginary time algorithm was successfully developed for the corresponding 1D nonlinear diffusion equation.  However, finding an appropriate 3D ground state wavefunction for spinor-BECs was more elusive.  Pade expansions provided radial line vortex solutions that then yielded complex vortex-vortex reconnection without dissipation.  In Fig. 1-3 we show vortex isosurfaces for a spin-1 BEC in 3D and the different reconnections for the ms = +1 state.  Initially the straight line vortices reconnect forming other vortex structures as the 3 multiplet spin-1 states interact with each other.     Since the qubit algorithms are time-reversible, accurate representations were determined for the nonlinear interaction terms.  The non-spin interaction can only be treated perturbatively, but closed form summation of the spin-spin interaction was obtained to all orders.  This prompted us to examine a summation to all orders of the momentum operator.  The qubit fast Fourier transform code was tested successfully for both scalar and vector soliton collisions in 1D and compared to the exact theoretical solutions.  In particular we have found that the QLG-FFT algorithm can handle fast soliton speeds unlike our earlier QLG codes that only approximated the momentum operator.  The non-FFT algorithms yield solitary waves that emit radiation resulting in both amplitude and speed variations from the exact theoretical solutions.     Nonlinear optics is very interested in the formation of stable 3D vortex solitons in particular nonlinear media.  One method is to consider a 2D dark soliton stabilized by an orthogonal bright soliton.  This was achieved theoretically in 2007 by Efremidis et. al.  We have devised a qubit algorithm that models this interaction and our numerical solutions agree with the more difficult direct simulation methods presented by Efremidis, see Fig. 4.       Last Modified: 10/15/2018       Submitted by: Linda L Vahala]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

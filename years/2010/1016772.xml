@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Temporal Causality For Video Event Analysis</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>455768.00</AwardTotalIntnAmount>
+<AwardAmount>455768</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Yang</SignBlockName>
+<PO_EMAI>jyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924768</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project is pursuing a novel strategy for the analysis of temporal structure in video through the exploitation of statistical tests of temporal causality. The motivation is the need for unsupervised video analysis methods which do not require a pre-defined set of video categories or a large corpus of labeled examples. The starting point is the classical formulation of Granger causality, which provides a principled statistical test for directed influence between two time series. Modifying the classical pair-wise Granger test leads to a method which is suitable for video events, which are represented as multiple point processes. Using this representation, methods are being developed for grouping visual words into sets based on their interaction over time. This results in a novel bottom-up segmentation approach which can identify interactions between visual words without supervision. A further goal is the development of an integrated approach to modeling visual events and identifying causal relations. Additional efforts are aimed at developing novel features constructed from causal relations with the goal of improved performance on categorization and retrieval tasks. &lt;br/&gt;&lt;br/&gt;In summary, the project is developing new unsupervised methods for representing and segmenting video based on temporal causal analysis. The resulting algorithms yield improved performance in video retrieval and categorization tasks, and provide new approaches to organizing and searching unstructured content such as YouTube videos. Novel datasets for video segmentation and categorization are being developed along with a library of analysis software to facilitate adoption by the research community.</AbstractNarration>
+<MinAmdLetterDate>09/05/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/05/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1016772</AwardID>
+<Investigator>
+<FirstName>James</FirstName>
+<LastName>Rehg</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>James Rehg</PI_FULL_NAME>
+<EmailAddress>rehg@cc.gatech.edu</EmailAddress>
+<PI_PHON>4048949105</PI_PHON>
+<NSF_ID>000257071</NSF_ID>
+<StartDate>09/05/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 NORTH AVE NW]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~455768</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>We have developed a new capability for automatically analyzing videos and extracting the objects that they contain and the motion of those objects over time. For example, given a video of a busy highway captured by a surveillance camera, our method would make it possible to automatically count the individual cars that pass by and track their movement. These tracking results could be used, for example, to monitor road congestion by determining the speed and proximity of vehicles.</p> <p>&nbsp;</p> <p>A key challenge in video analysis is to determine how to group or segment different parts of the video together to form objects. Each video consists of a sequence of frames composed of pixels. Previous approaches attempted to break each frame down into small groups of pixels, called superpixels. Unfortunately superpixels are not very discriminative, making it hard to match them across frames in building up a video representation. Our work pursues an alternative representation known as object proposals. These proposals are large image segments with complex shapes, and are therefore much more discriminative. They can be generated by selecting seed regions in different parts of an image and growing them out to obtain segments. The result is multiple overlapping segmentations of the same image. Proposals can be matched and intersected to generate high quality object segmentations.</p> <p>&nbsp;</p> <p>The project had two major outcomes. First, we developed an extremely efficient method for generating high quality sets of object proposals. Our method decreased the time it took to analyze a single image by two orders of magnitude, from more than 100 seconds per image to less than 5 seconds. We achieved these savings in part through efficient data structures that reused previously computed results, in a method we call RIGOR, which stands for Reusing Inference in Graph Cuts for generating Object Regions. RIGOR made it practical for the first time to use object proposals for video analysis, since the number of frames that need to be processed would otherwise be prohibitive.</p> <p>&nbsp;</p> <p>The second major outcome was a method for automatically tracking multiple object proposals simultaneously across a video and linking them together to build up representations of video objects. Our approach uses a very efficient formulation of least squares optimization which makes it possible to simultaneously consider of thousands of potential tracks and select the tracks with the best evidence. The combination of these outcomes creates new possibilities for video analysis using object proposals.</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/17/2015<br>      Modified by: James&nbsp;Rehg</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2015/1016772/1016772_10037153_1434548533576_Image1_outcomes_1016772--rgov-214x142.jpg" original="/por/images/Reports/POR/2015/1016772/1016772_10037153_1434548533576_Image1_outcomes_1016772--rgov-800width.jpg" title="Segments"><img src="/por/images/Reports/POR/2015/1016772/1016772_10037153_1434548533576_Image1_outcomes_1016772--rgov-66x44.jpg" alt="Segments"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Effect of segment seeds (best viewed in color). With one seed at the center the algorithm is able to segment the horse. With more seeds it finds the person and gradually starts to obtain segments on the cars in the background.</div> <div class="imageCredit">James Rehg</div> <div class="imagePermisssions...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ We have developed a new capability for automatically analyzing videos and extracting the objects that they contain and the motion of those objects over time. For example, given a video of a busy highway captured by a surveillance camera, our method would make it possible to automatically count the individual cars that pass by and track their movement. These tracking results could be used, for example, to monitor road congestion by determining the speed and proximity of vehicles.     A key challenge in video analysis is to determine how to group or segment different parts of the video together to form objects. Each video consists of a sequence of frames composed of pixels. Previous approaches attempted to break each frame down into small groups of pixels, called superpixels. Unfortunately superpixels are not very discriminative, making it hard to match them across frames in building up a video representation. Our work pursues an alternative representation known as object proposals. These proposals are large image segments with complex shapes, and are therefore much more discriminative. They can be generated by selecting seed regions in different parts of an image and growing them out to obtain segments. The result is multiple overlapping segmentations of the same image. Proposals can be matched and intersected to generate high quality object segmentations.     The project had two major outcomes. First, we developed an extremely efficient method for generating high quality sets of object proposals. Our method decreased the time it took to analyze a single image by two orders of magnitude, from more than 100 seconds per image to less than 5 seconds. We achieved these savings in part through efficient data structures that reused previously computed results, in a method we call RIGOR, which stands for Reusing Inference in Graph Cuts for generating Object Regions. RIGOR made it practical for the first time to use object proposals for video analysis, since the number of frames that need to be processed would otherwise be prohibitive.     The second major outcome was a method for automatically tracking multiple object proposals simultaneously across a video and linking them together to build up representations of video objects. Our approach uses a very efficient formulation of least squares optimization which makes it possible to simultaneously consider of thousands of potential tracks and select the tracks with the best evidence. The combination of these outcomes creates new possibilities for video analysis using object proposals.          Last Modified: 06/17/2015       Submitted by: James Rehg]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

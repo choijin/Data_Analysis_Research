@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: RI: Secure Consistent MAV Navigation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>166214.00</AwardTotalIntnAmount>
+<AwardAmount>166214</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Reid Simmons</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Micro aerial vehicles (MAVs) have gained importance in a wide range of applications over the last decade, such as search and rescue, reconnaissance and surveillance, asset inspection, and delivery services. The economic impact of integrating unmanned aircraft systems into the national airspace is predicted to be significant. By providing rigorous theoretical analysis and solid design tools for securing consistent MAV navigation, this research has the potential to significantly impact our lives, from pushing our knowledge boundary of scientific understanding to protecting people from malicious attacks.&lt;br/&gt;&lt;br/&gt;This research project advances science at the intersection of (nonlinear) estimation consistency and security under resource constraints and seeks to design resource-aware, attack-resilient, consistent MAV navigation. To that end, an analytical study of the effects of sensor system properties such as noise characteristics and sensing frequency on the attainable estimation performance is being conducted to determine the best sensing parameters to use. The integrated outreach program attracts underrepresented minority students to STEM through comprehensive, innovative hands-on teaching and learning of robotics programming for K-12 students.</AbstractNarration>
+<MinAmdLetterDate>03/21/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>03/21/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1566129</AwardID>
+<Investigator>
+<FirstName>Guoquan</FirstName>
+<LastName>Huang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Guoquan Huang</PI_FULL_NAME>
+<EmailAddress>ghuang@udel.edu</EmailAddress>
+<PI_PHON>3028318796</PI_PHON>
+<NSF_ID>000677461</NSF_ID>
+<StartDate>03/21/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Delaware</Name>
+<CityName>Newark</CityName>
+<ZipCode>197160099</ZipCode>
+<PhoneNumber>3028312136</PhoneNumber>
+<StreetAddress>210 Hullihen Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<StateCode>DE</StateCode>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>DE00</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>059007500</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF DELAWARE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>059007500</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Delaware]]></Name>
+<CityName/>
+<StateCode>DE</StateCode>
+<ZipCode>197162553</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>DE00</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~166214</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>State estimation is one of the most important enabling technologies for autonomous systems. In this project, we have gained better understanding of nonlinear state estimation consistency and security under resource constraints. With this insight, we have developed efficient visual-inertial odometry (VIO) and attack-resilient map-based localization algorithms to enable consistent robot navigation. <br /><br />In particular, we have developed a novel sparsity-regularized graph reduction approach for graph-based simultaneous localization and mapping (SLAM) as it suffers from ever-increasing computational costs due to the need of optimizing over the entire robot trajectory. The key idea is to determine an online sparse topology through sparsity-regularized convex optimization, guiding to construct consistent sparse factors to best approximate the original dense factors. <br /><br />We have derived closed-from preintegration (CPI) for graph-based visual-inertial navigation systems (VINS), which provides continuous-time and analytical solutions of IMU preintegration and is open sourced at: https://github.com/rpng/cpi. The CPI has become an enabling technique for our VINS algorithms including: (i) direct VINS which fuses IMU preintegration with direct image alignment results to provide robust motion tracking, (ii) gyro-aided camera-odometer calibration and localization, and (iii) lidar-inertial 3D plane SLAM. &#8232;&#8232;<br /><br />We have designed a new robocentric visual-inertial odometry (RVIO) within a multi-state constraint Kalman filter framework. The key idea is to deliberately reformulate the 3D VINS with respect to a moving local frame (i.e., robocentric), rather than a fixed global frame of reference as in the standard world-centric VINS, and instead utilize high-accuracy relative motion estimates for global pose update. The RVIO is shown to performs better than the state of the art on different sensor platforms from aerial vehicles to ground vehicles to hand-held mobile devices.<br /> <br />To better understand consistent and secure estimation, we have also performed complete observability analysis of aided inertial navigation systems (AINS) using heterogeneous geometric features of points, lines and planes. We have for the first time developed secure map-based localization algorithms including the weighted maximum correntropy criterion EKF (WMCC-EKF) and Secure Estimation-EKF (SE-EKF). The key idea is to design proper weights to inflate the possibly-compromised measurements or to identify/remove the attacked measurements from the EKF update. <br /> <br />With the support of this project, the PI has developed one new undergraduate courses on autonomous driving and one new graduate course on state estimation, which significantly enrich the University of Delaware Mechanical Engineering Curriculum, both undergraduate and graduate. In addition, during the preparation of the new courses, the PI has particularly engaged high-school interns and underrepresented undergraduate researchers, which greatly enriched their education experiences and attracted them to STEM.<br /><br />The transformative nature of this research stems from its theoretical advances in consistency and security of state estimation for stochastic nonlinear systems, while being demonstrated on the real systems with finite resources and under adversarial attacks on sensors. The research results of this project contribute to the theory of stochastic estimation and control, and the theory of sparse and convex optimization, and foster further study on secure and consistent estimation in robotics. As robots including aerial vehicles (drones) become integral to our economy and national security, we face ever-more frequent and threatening attacks. By enabling secure robot navigation in the presence of malicious attacks, the development of this project potentially can add one more layer of protection to our society. On the other hand, this research has the potential to foster novel robotic applications to boost our economic development, such as aerial transportation during humanitarian aid and disaster relief (providing supplies in hard-to-reach areas).</p><br> <p>            Last Modified: 11/08/2018<br>      Modified by: Guoquan&nbsp;Huang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ State estimation is one of the most important enabling technologies for autonomous systems. In this project, we have gained better understanding of nonlinear state estimation consistency and security under resource constraints. With this insight, we have developed efficient visual-inertial odometry (VIO) and attack-resilient map-based localization algorithms to enable consistent robot navigation.   In particular, we have developed a novel sparsity-regularized graph reduction approach for graph-based simultaneous localization and mapping (SLAM) as it suffers from ever-increasing computational costs due to the need of optimizing over the entire robot trajectory. The key idea is to determine an online sparse topology through sparsity-regularized convex optimization, guiding to construct consistent sparse factors to best approximate the original dense factors.   We have derived closed-from preintegration (CPI) for graph-based visual-inertial navigation systems (VINS), which provides continuous-time and analytical solutions of IMU preintegration and is open sourced at: https://github.com/rpng/cpi. The CPI has become an enabling technique for our VINS algorithms including: (i) direct VINS which fuses IMU preintegration with direct image alignment results to provide robust motion tracking, (ii) gyro-aided camera-odometer calibration and localization, and (iii) lidar-inertial 3D plane SLAM. &#8232;&#8232;  We have designed a new robocentric visual-inertial odometry (RVIO) within a multi-state constraint Kalman filter framework. The key idea is to deliberately reformulate the 3D VINS with respect to a moving local frame (i.e., robocentric), rather than a fixed global frame of reference as in the standard world-centric VINS, and instead utilize high-accuracy relative motion estimates for global pose update. The RVIO is shown to performs better than the state of the art on different sensor platforms from aerial vehicles to ground vehicles to hand-held mobile devices.   To better understand consistent and secure estimation, we have also performed complete observability analysis of aided inertial navigation systems (AINS) using heterogeneous geometric features of points, lines and planes. We have for the first time developed secure map-based localization algorithms including the weighted maximum correntropy criterion EKF (WMCC-EKF) and Secure Estimation-EKF (SE-EKF). The key idea is to design proper weights to inflate the possibly-compromised measurements or to identify/remove the attacked measurements from the EKF update.    With the support of this project, the PI has developed one new undergraduate courses on autonomous driving and one new graduate course on state estimation, which significantly enrich the University of Delaware Mechanical Engineering Curriculum, both undergraduate and graduate. In addition, during the preparation of the new courses, the PI has particularly engaged high-school interns and underrepresented undergraduate researchers, which greatly enriched their education experiences and attracted them to STEM.  The transformative nature of this research stems from its theoretical advances in consistency and security of state estimation for stochastic nonlinear systems, while being demonstrated on the real systems with finite resources and under adversarial attacks on sensors. The research results of this project contribute to the theory of stochastic estimation and control, and the theory of sparse and convex optimization, and foster further study on secure and consistent estimation in robotics. As robots including aerial vehicles (drones) become integral to our economy and national security, we face ever-more frequent and threatening attacks. By enabling secure robot navigation in the presence of malicious attacks, the development of this project potentially can add one more layer of protection to our society. On the other hand, this research has the potential to foster novel robotic applications to boost our economic development, such as aerial transportation during humanitarian aid and disaster relief (providing supplies in hard-to-reach areas).       Last Modified: 11/08/2018       Submitted by: Guoquan Huang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

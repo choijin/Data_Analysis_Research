@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Medium: Collaborative Research: Scaling the Implicitly Parallel Programming Model with Lifelong Thread Extraction and Dynamic Adaptation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>04/30/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>399998.00</AwardTotalIntnAmount>
+<AwardAmount>399998</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The microprocessor industry has moved toward multicore designs to leverage increasing transistor counts in the face of physical and micro-architectural limitations.  Unfortunately, providing multiple cores does not translate into performance for most applications. Rather than pushing all the burden onto programmers, this project advocates the use of the implicitly parallel programming model to eliminate the laborious and error-prone process of explicit parallel programming.  Implicit parallel programming leverages sequential languages to facilitate shorter development and debug cycles, and relies on automatic tools, both static compilers and run-time systems, to identify parallelism and customize it to the target platform.  Implicit parallelism can be systematically extracted using: (1) decoupled softwarepipelining, a technique to extract the pipeline parallelism found in many sequential applications; (2) low-frequency and high-confidence speculation to overcome limitations of memory dependence analysis; (3) whole-program scope for parallelization to eliminate analysis boundaries; (4) simple extensions to the sequential programming model that give the programmer the power to refine the meaning of a program; (5) dynamic adaptation to ensure efficiency is maintained across changing environments. This project is developing the set of technologies to realize an implicitly parallel programming system with scalable, lifelong thread extraction and dynamic adaptation.  At the broader level, the implicitly parallel programming approach will free programmers to consider the problems they are trying to solve, rather than forcing them to overcome the processor industry's failure to continue to scale performance.  This approach will keep computers accessible, helping computing to have the same increasingly positive impact on other fields.</AbstractNarration>
+<MinAmdLetterDate>03/08/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/07/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0964478</AwardID>
+<Investigator>
+<FirstName>Scott</FirstName>
+<LastName>Mahlke</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Scott Mahlke</PI_FULL_NAME>
+<EmailAddress>mahlke@eecs.umich.edu</EmailAddress>
+<PI_PHON>7349361602</PI_PHON>
+<NSF_ID>000296943</NSF_ID>
+<StartDate>03/08/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073133571</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MICHIGAN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073133571</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Regents of the University of Michigan - Ann Arbor]]></Name>
+<CityName>Ann Arbor</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>481091274</ZipCode>
+<StreetAddress><![CDATA[3003 South State St. Room 1062]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~128117</FUND_OBLG>
+<FUND_OBLG>2011~271881</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The American semiconductor industry now produces microprocessor designs consisting of multiple cores, or multicores. &nbsp;Unfortunately, providing multiple cores does not directly translate into performance for most applications. &nbsp;The industry has already fallen short of the decades-old performance growth trend, and the trend toward simpler cores means performance might even degrade. &nbsp;To make use of mulitcore, the burden is placed on software developers to develop parallel applications. &nbsp;But, the programming effort involved in creating correct and efficient parallel programs is far more substantial than writing the equivalent sequential version. &nbsp;Converting an existing single-threaded application is often more difficult than writing a new parallel application, as hard sequential constraints are ingrained in the code. &nbsp;In either case, extracting the parallelism necessary for efficient use of multicore systems is not only tedious, but is a recurring cost as machine-specific partitionings lack portability and forward performance compatibility. &nbsp;A more attractive approach is to rely on tools, both compilers and run-time optimizers, to automatically extract threads from sequential applications. This approach avoids the pitfalls of exposing the multicore problem up through the stack to the programmer.</p> <p>For this project, researchers from the University of Michigan, Princeton University, and University of Virginia created the enabling technologies to realize an implicitly parallel programming system with scalable, lifelong thread extraction, and dynamic adaptation. &nbsp;Implicitly parallel programs are sequential programs, but contain abundant parallelism that can be readily extracted and exploited by compilers. &nbsp;The framework, code named Paraprox, addresses the multicore challenge by reliably extracting parallelism from a wide range of applications without burdening the programmer with what should remain low-level implementation details. &nbsp;The Paraprox framework consists of three components: language extensions to C/C++ to support implicit parallelism, flexible automatic thread extraction, and a run-time layer for virtualization and dynamic adaptation.</p> <p>In the language area, this project developed extensions to C/C++ to allow programmers to specify commutative code regions (CommSets). &nbsp; The CommSet model provides programmers the flexibility to specify commutativity relations between arbitrary structured blocks of code and does not require the use of additional parallel constructs. &nbsp;Parallelism that is exposed using CommSets is independent of any particular parallelization strategy of concurrency control mechanism.</p> <p>In the thread extraction area, this project developed new thread extraction techniques for scripting languages. &nbsp;A prototype dynamic thread extraction system was created to show that interpreted languages such as Javascript can be paralllelized at run-time using lightweight compiler analysis and code generation. &nbsp;A broader approach that automatically exploits parallelism within fixed program inputs is achieved by coupling program specialization with automatic parallelization techniques. Program specialization marries a program with the values that remain invariant across the program execution, including fixed inputs, and creates a program that is highly optimized for the invariants. &nbsp;New techniques for speculative parallelization for graphics processing units (GPUs) were also developed that focus on collaborative execution between processors and accelerators like GPUs. &nbsp;A customized distributed dependence checking technique that can be efficiently deployed on GPUs is used to ensure speculative loop parallelization is indeed correct with low execution overhead.</p> <p>In the area of run-time layers, this project developed a prototype system to automatically orchestrate the e...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The American semiconductor industry now produces microprocessor designs consisting of multiple cores, or multicores.  Unfortunately, providing multiple cores does not directly translate into performance for most applications.  The industry has already fallen short of the decades-old performance growth trend, and the trend toward simpler cores means performance might even degrade.  To make use of mulitcore, the burden is placed on software developers to develop parallel applications.  But, the programming effort involved in creating correct and efficient parallel programs is far more substantial than writing the equivalent sequential version.  Converting an existing single-threaded application is often more difficult than writing a new parallel application, as hard sequential constraints are ingrained in the code.  In either case, extracting the parallelism necessary for efficient use of multicore systems is not only tedious, but is a recurring cost as machine-specific partitionings lack portability and forward performance compatibility.  A more attractive approach is to rely on tools, both compilers and run-time optimizers, to automatically extract threads from sequential applications. This approach avoids the pitfalls of exposing the multicore problem up through the stack to the programmer.  For this project, researchers from the University of Michigan, Princeton University, and University of Virginia created the enabling technologies to realize an implicitly parallel programming system with scalable, lifelong thread extraction, and dynamic adaptation.  Implicitly parallel programs are sequential programs, but contain abundant parallelism that can be readily extracted and exploited by compilers.  The framework, code named Paraprox, addresses the multicore challenge by reliably extracting parallelism from a wide range of applications without burdening the programmer with what should remain low-level implementation details.  The Paraprox framework consists of three components: language extensions to C/C++ to support implicit parallelism, flexible automatic thread extraction, and a run-time layer for virtualization and dynamic adaptation.  In the language area, this project developed extensions to C/C++ to allow programmers to specify commutative code regions (CommSets).   The CommSet model provides programmers the flexibility to specify commutativity relations between arbitrary structured blocks of code and does not require the use of additional parallel constructs.  Parallelism that is exposed using CommSets is independent of any particular parallelization strategy of concurrency control mechanism.  In the thread extraction area, this project developed new thread extraction techniques for scripting languages.  A prototype dynamic thread extraction system was created to show that interpreted languages such as Javascript can be paralllelized at run-time using lightweight compiler analysis and code generation.  A broader approach that automatically exploits parallelism within fixed program inputs is achieved by coupling program specialization with automatic parallelization techniques. Program specialization marries a program with the values that remain invariant across the program execution, including fixed inputs, and creates a program that is highly optimized for the invariants.  New techniques for speculative parallelization for graphics processing units (GPUs) were also developed that focus on collaborative execution between processors and accelerators like GPUs.  A customized distributed dependence checking technique that can be efficiently deployed on GPUs is used to ensure speculative loop parallelization is indeed correct with low execution overhead.  In the area of run-time layers, this project developed a prototype system to automatically orchestrate the execution of a single data-parallel kernel across multiple asymmetric processor cores and GPUs.  The programmer is responsible for developing a single application in t...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

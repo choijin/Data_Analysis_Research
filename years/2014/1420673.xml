@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Collaborative Research: Concurrent Programming with Composable Transactional Objects</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>249997.00</AwardTotalIntnAmount>
+<AwardAmount>249997</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>SHF: Small: Collaborative Research: Concurrent Programming with Composable Transactional Objects&lt;br/&gt;&lt;br/&gt;With multicore architectures becoming increasingly prevalent, the problem of constructing scalable and efficient concurrent software has attracted increasing attention.  There has been growing interest in programming models that allow programmers to demarcate regions of thread code---so-called transactions---that should appear to occur atomically, when viewed from the perspective of other threads.&lt;br/&gt;&lt;br/&gt;The premise of this project is that current, monolithic software transactional memory (STM) designs are inherently too inefficient and permit too little parallelism.  Instead we propose a very different approach: a library of customized concurrent data structures that can be composed, through a very light-weight run-time, to form transactions.  Each data structure is optimized to exploit the semantics of its type.  The intellectual merits are the development of new type-specific synchronization and recovery algorithms, along with formal tools to reason about their correctness.  These ideas will be embodied in a novel concurrency library and verification toolkit, which will be used to construct benchmarks and applications.  The boarder impacts involve incorporating concurrency into education and the potential to benefit society through higher performing, more reliable, and less expensive software.</AbstractNarration>
+<MinAmdLetterDate>06/17/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/17/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1420673</AwardID>
+<Investigator>
+<FirstName>Maurice</FirstName>
+<LastName>Herlihy</LastName>
+<PI_MID_INIT>P</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Maurice P Herlihy</PI_FULL_NAME>
+<EmailAddress>herlihy@cs.brown.edu</EmailAddress>
+<PI_PHON>4018637646</PI_PHON>
+<NSF_ID>000333742</NSF_ID>
+<StartDate>06/17/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brown University</Name>
+<CityName>Providence</CityName>
+<ZipCode>029129002</ZipCode>
+<PhoneNumber>4018632777</PhoneNumber>
+<StreetAddress>BOX 1929</StreetAddress>
+<StreetAddress2><![CDATA[350 Eddy Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<StateCode>RI</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>RI01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001785542</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BROWN UNIVERSITY IN PROVIDENCE IN THE STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001785542</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brown University]]></Name>
+<CityName>Providence</CityName>
+<StateCode>RI</StateCode>
+<ZipCode>029129002</ZipCode>
+<StreetAddress><![CDATA[BOX 1929]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>RI01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~249997</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Modern computer systems have become highly parallel: they are capable of doing several things at the same time. Co-ordinating many parallel activities can be a challenge because parallel activities can interact in complex and unforeseen ways. "Transactional Memory" has emerged as a promising approach to organizing parallel activities in a safe and efficient manner. Actions are organized in atomic units called transactions, and each transaction appears to take place atomically with respect to other transactions.</p> <p>This project's goal is to support a transactional model of programming without a heavyweight software transactional memory. Instead of programming on top of a monolithic STM that automatically tracks and records every single read or write access, applications are constructed from a library of composable transactional objects that "snap together" to form atomic transactions, in much the same way that today&rsquo;s Java programmers compose their applications from libraries. The major goals are to develop theory, algorithms, and implementations for a system of Composable Transactional Objects (CTO).</p> <p>The project designed, implemented, and tested the Proust transactional framework, a novel way to integrate libaries of transactional objects on top of a software transactional memory system. The project also designed, implemented, and tested a novel application of transactional object libraries in the form of a proposal to add concurrent execution to "smart contracts" used by cryptocurrencies such as Ethereum.</p><br> <p>            Last Modified: 08/16/2017<br>      Modified by: Maurice&nbsp;Herlihy</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Modern computer systems have become highly parallel: they are capable of doing several things at the same time. Co-ordinating many parallel activities can be a challenge because parallel activities can interact in complex and unforeseen ways. "Transactional Memory" has emerged as a promising approach to organizing parallel activities in a safe and efficient manner. Actions are organized in atomic units called transactions, and each transaction appears to take place atomically with respect to other transactions.  This project's goal is to support a transactional model of programming without a heavyweight software transactional memory. Instead of programming on top of a monolithic STM that automatically tracks and records every single read or write access, applications are constructed from a library of composable transactional objects that "snap together" to form atomic transactions, in much the same way that today?s Java programmers compose their applications from libraries. The major goals are to develop theory, algorithms, and implementations for a system of Composable Transactional Objects (CTO).  The project designed, implemented, and tested the Proust transactional framework, a novel way to integrate libaries of transactional objects on top of a software transactional memory system. The project also designed, implemented, and tested a novel application of transactional object libraries in the form of a proposal to add concurrent execution to "smart contracts" used by cryptocurrencies such as Ethereum.       Last Modified: 08/16/2017       Submitted by: Maurice Herlihy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

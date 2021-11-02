@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: The TAO algorithm: principled, efficient optimization of decision trees, forests, tree-based neural nets, and beyond</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>425000.00</AwardTotalIntnAmount>
+<AwardAmount>425000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rebecca Hwa</SignBlockName>
+<PO_EMAI>rhwa@nsf.gov</PO_EMAI>
+<PO_PHON>7032927148</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Decision trees are one of the earliest machine learning models. They make a prediction for a given input by asking a series of simple questions that lead to a predicted value. This discrete structure makes decision trees very special: they are among the most interpretable of all models (in that the tree can be inspected to understand or manipulate its predictions), and they are very fast (since only one root-leaf path is followed to make a prediction for a given input). Trees can also model highly nonlinear functions. However, there is a large gap between the theoretical power of decision trees and their practical performance, which is due to the lack of an effective way to learn a decision tree from data. This problem is much harder than learning other models because the tree defines a discontinuous function and gradient-based optimization over the nodes' parameters is not applicable. The algorithms used today to learn trees were invented about 50 years ago, and result in suboptimal trees with low accuracy, which makes them not competitive with models such as kernel machines or neural nets, for which a number of effective optimization algorithms exist.  This project seeks to redress this situation by developing an effective optimization algorithm for decision trees. This will make it possible to deploy decision trees in far more applications and to combine them with other models. The project will develop open-source software and teaching materials for decision trees, and train graduate and undergraduate students in machine learning and optimization.&lt;br/&gt;&lt;br/&gt;The project develops the "tree alternating optimization (TAO)" algorithm, based on iteratively optimizing the node parameters over subsets of nondescendant nodes in a tree of fixed structure. TAO sidesteps the need for gradients and capitalizes on existing algorithms to train individual nodes. Starting from any given initial tree, each TAO iteration monotonically decreases the training loss function. This makes trees trainable like other parametric models (such as kernel machines or neural nets). The project will develop TAO for different loss functions and machine learning tasks (the traditional classification and regression, but also dimensionality reduction, semisupervised learning, structured inputs and others); for different regularization via penalty or constraints (such as those promoting sparse or nonnegative parameters); and for different node models (such as linear, kernel machines, neural nets or even decision trees themselves). Further, the project will explore TAO to learn the structure of a tree, to ensemble trees into forests, and to investigate interpretability and fairness of tree-structured models.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>09/02/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>10/15/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2007147</AwardID>
+<Investigator>
+<FirstName>Miguel</FirstName>
+<LastName>Carreira-Perpinan</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Miguel A Carreira-Perpinan</PI_FULL_NAME>
+<EmailAddress>mcarreira-perpinan@ucmerced.edu</EmailAddress>
+<PI_PHON>2092284545</PI_PHON>
+<NSF_ID>000233489</NSF_ID>
+<StartDate>09/02/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California - Merced</Name>
+<CityName>Merced</CityName>
+<ZipCode>953435001</ZipCode>
+<PhoneNumber>2092012039</PhoneNumber>
+<StreetAddress>5200 North Lake Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>16</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA16</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>113645084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, MERCED</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California - Merced]]></Name>
+<CityName>Merced</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>953435001</ZipCode>
+<StreetAddress><![CDATA[5200 N. Lake Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>16</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA16</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~425000</FUND_OBLG>
+</Award>
+</rootTag>

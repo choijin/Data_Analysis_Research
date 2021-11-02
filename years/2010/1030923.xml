@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Tractable Approximation of Dynamic Decision Making Models Under Uncertainty</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07030000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CMMI</Abbreviation>
+<LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Edwin Romeijn</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The objective of this award is to propose a practical, efficient, robust and scalable modeling framework to a broad class of dynamic decision making models under uncertainty. Convex approximation approaches will be proposed to solve multi-stage stochastic program problems with limited data distributional information. Mechanisms to measure the quality of the resulting approximations, both theoretically and computationally, will be developed. Their relationship with robust optimization methodology will also be explored. The proposed tractable approximation approach will be applied to model and solve a variety of important large scale practical problems ranging from supply chain management, healthcare, financial engineering and water resource management. &lt;br/&gt;&lt;br/&gt;If successful, this project would greatly enhance our capabilities to modeling dynamic decision making problems under uncertainty and provide computational tools to solving large scale stochastic programming problems. It would allow the application of stochastic programming to large scale practical dynamic decision making models which were previously out of reach due to their computational complexity. The project would also demonstrate the potential of incorporating uncertainty into practical decision making problems faced by enterprises and facilitate firms with models and computational tools to develop much-needed decision support systems that can handle uncertainty efficiently and effectively.</AbstractNarration>
+<MinAmdLetterDate>08/09/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/09/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1030923</AwardID>
+<Investigator>
+<FirstName>Xin</FirstName>
+<LastName>Chen</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Xin Chen</PI_FULL_NAME>
+<EmailAddress>xinchen@illinois.edu</EmailAddress>
+<PI_PHON>2172448685</PI_PHON>
+<NSF_ID>000428632</NSF_ID>
+<StartDate>08/09/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Champaign</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618207406</ZipCode>
+<StreetAddress><![CDATA[1901 South First Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5514</Code>
+<Text>OPERATIONS RESEARCH</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>073E</Code>
+<Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9147</Code>
+<Text>GENERIC TECHNOL FOR MANUFACTURING CELLS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>MANU</Code>
+<Text>MANUFACTURING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Decision making under uncertainty is the key ingredient in many operations research problems, such as supply chain management, revenue management, water resource management and financial planning, just to name a few. One of the most important approaches for decision making under uncertainty is stochastic programming, in which objectives and constraints of optimization models are defined by averaging possible outcomes or considering probabilities of events of interest. Over the past fifty years, a plethora of deep theory on stochastic programming has been developed and stochastic programming is now widely used for modeling and solving a variety of important practical problems ranging from engineering control to supply chain management. Computational methods, mainly decomposition methods and Monte Carlo sampling methods, for solving stochastic programs, have been proposed and successful implementations have also been reported.</p> <p>However, despite the immense modeling potential, stochastic programming faces two significant challenges. First, stochastic programs, especially multistage problems, are notoriously difficult to solve to optimality and quite often, even finding a feasible solution is already a hard problem. Second, stochastic optimization problems require full distributional knowledge in each of the uncertain data. Unfortunately, such information may rarely be available in practice. The lack of tractable methodology and the full distributional requirement have greatly restricted the applicability of stochastic programming to many important practical problem settings, and thus impeded the development of decision support systems incorporating uncertainty.</p> <p>In this project, we built tractable models, developed fundamental theoretical properties and designed efficient algorithms for practical and challenging dynamic decision making problems under uncertainty that allow for robust and scalable implementation. In particular, the methodologies we developed have been used to analyze and solve a variety of operations models including integrated production, inventory and pricing models in centralized/decentralized supply chain systems and operations models in large-scale water reservoir systems. We developed a novel transformation technique which converts a class of non-convex minimization problems in supply chain settings with supply risk to equivalent convex minimization problems, and new preservation properties of supermodularity to derive monotone comparative statics in parametric optimization models. Our results include many existing results in the literature as special cases, and provide powerful tools to analyze dynamic decision making problems. We also analyzed a class of fundamental quadratic programming problems and illustrated that they can be solved to optimality efficiently with high probability, even though they are NP-hard.&nbsp;</p> <p>Our research provided decision makers with tools to modeling and solving large scale decision making problems faced by an enterprise. We demonstrated the potential of incorporating uncertainty into large scale decision making models, for instance, large-scale water reservoir operations. Our research lead to eighteen high quality academic papers, some of which have appeared in top journals such as Operations Research, Mathematical Programming, Mathematics of Operations Research, SIAM Journal on Control and Optimization, Production and Operations Management, etc., and one PhD thesis. Our results have been incorporated into the book &ldquo;The Logic of Logistics: Theory, Algorithms, and Applications for Logistics Management (3<sup>rd</sup> edition)&rdquo;, which was published in 2014, and presented at many invited seminars and conferences.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/06/2014<br>      Modified by: Xin&nbsp;Chen</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Decision making under uncertainty is the key ingredient in many operations research problems, such as supply chain management, revenue management, water resource management and financial planning, just to name a few. One of the most important approaches for decision making under uncertainty is stochastic programming, in which objectives and constraints of optimization models are defined by averaging possible outcomes or considering probabilities of events of interest. Over the past fifty years, a plethora of deep theory on stochastic programming has been developed and stochastic programming is now widely used for modeling and solving a variety of important practical problems ranging from engineering control to supply chain management. Computational methods, mainly decomposition methods and Monte Carlo sampling methods, for solving stochastic programs, have been proposed and successful implementations have also been reported.  However, despite the immense modeling potential, stochastic programming faces two significant challenges. First, stochastic programs, especially multistage problems, are notoriously difficult to solve to optimality and quite often, even finding a feasible solution is already a hard problem. Second, stochastic optimization problems require full distributional knowledge in each of the uncertain data. Unfortunately, such information may rarely be available in practice. The lack of tractable methodology and the full distributional requirement have greatly restricted the applicability of stochastic programming to many important practical problem settings, and thus impeded the development of decision support systems incorporating uncertainty.  In this project, we built tractable models, developed fundamental theoretical properties and designed efficient algorithms for practical and challenging dynamic decision making problems under uncertainty that allow for robust and scalable implementation. In particular, the methodologies we developed have been used to analyze and solve a variety of operations models including integrated production, inventory and pricing models in centralized/decentralized supply chain systems and operations models in large-scale water reservoir systems. We developed a novel transformation technique which converts a class of non-convex minimization problems in supply chain settings with supply risk to equivalent convex minimization problems, and new preservation properties of supermodularity to derive monotone comparative statics in parametric optimization models. Our results include many existing results in the literature as special cases, and provide powerful tools to analyze dynamic decision making problems. We also analyzed a class of fundamental quadratic programming problems and illustrated that they can be solved to optimality efficiently with high probability, even though they are NP-hard.   Our research provided decision makers with tools to modeling and solving large scale decision making problems faced by an enterprise. We demonstrated the potential of incorporating uncertainty into large scale decision making models, for instance, large-scale water reservoir operations. Our research lead to eighteen high quality academic papers, some of which have appeared in top journals such as Operations Research, Mathematical Programming, Mathematics of Operations Research, SIAM Journal on Control and Optimization, Production and Operations Management, etc., and one PhD thesis. Our results have been incorporated into the book "The Logic of Logistics: Theory, Algorithms, and Applications for Logistics Management (3rd edition)", which was published in 2014, and presented at many invited seminars and conferences.           Last Modified: 11/06/2014       Submitted by: Xin Chen]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Non-blocking Writes</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>481367.00</AwardTotalIntnAmount>
+<AwardAmount>513367</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In current operating systems, writes to pages that are not in core memory require the process to block until the page can be fetched from the backing store. This project investigates buffering the write to a temporary page in core memory, so as to unblock the process to continue computation, and applying the write asynchronously. Research tasks include study and experimentation with implementation techniques for deferring out-of-core page writes, analysis of how scheduling and other aspects of the operating system may need to be modified in order to realize the full benefits of write deferral, and empirical studies to assess the performance impact of write deferral on a variety of applications.&lt;br/&gt;&lt;br/&gt;By incorporating non-blocking writes within the operating system, applications can transparently benefit from a performance improvement, without any modification to the application.  The potential performance benefits apply to a broad spectrum of computer systems and applications.  The project promotes transition of the technology to practice through open source distribution of Linux operating system code implementing the innovations.  Educational activities include involvement of undergraduate students and incorporation of project research into courses taught by the PI.  Outreach includes recruitment of under-represented minority students for participation in the project.</AbstractNarration>
+<MinAmdLetterDate>08/26/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>04/17/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320426</AwardID>
+<Investigator>
+<FirstName>Raju</FirstName>
+<LastName>Rangaswami</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Raju Rangaswami</PI_FULL_NAME>
+<EmailAddress>raju@cs.fiu.edu</EmailAddress>
+<PI_PHON>3053486230</PI_PHON>
+<NSF_ID>000488807</NSF_ID>
+<StartDate>08/26/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Florida International University</Name>
+<CityName>Miami</CityName>
+<ZipCode>331990001</ZipCode>
+<PhoneNumber>3053482494</PhoneNumber>
+<StreetAddress>11200 SW 8TH ST</StreetAddress>
+<StreetAddress2><![CDATA[MARC 430]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>FL26</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>071298814</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>FLORIDA INTERNATIONAL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>159621697</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Florida International University]]></Name>
+<CityName>Miami</CityName>
+<StateCode>FL</StateCode>
+<ZipCode>331990001</ZipCode>
+<StreetAddress><![CDATA[11200 SW 8th Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>FL26</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1139</Code>
+<Text>RSCH EXPER FOR UNDERGRAD SITES</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~481367</FUND_OBLG>
+<FUND_OBLG>2014~16000</FUND_OBLG>
+<FUND_OBLG>2015~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Intellectual merit:&nbsp;</p> <p><br />We developed and evaluated multiple approaches and associated implementations within widely used systems software and evaluated these implementations with both synthetic and real-world workloads. We also did workload studies to understand and evaluate new memory device technologies and production workloads.&nbsp;</p> <p><br />The developed and evaluated systems included &ldquo;Non-blocking Writes&rdquo; and the &ldquo;Multi-Clock&rdquo; persistent memory system. Besides these built systems, we conducted a study of how current generation file system are impacted by the orders-of-magnitude higher performance of next generation persistent memory devices. Finally, we also built a large-scale full-system trace collecting system that currently collects traces from multiple production systems running actively within Florida International University.&nbsp;</p> <p><br />The findings of this project help in building next generation storage systems software and services that offer significantly cost-performance-energy trade-offs than their predecessors.&nbsp;</p> <p>Broader impact:&nbsp;</p> <p>Storage performance is central to the functioning of high-performance software systems and the services infrastructure. Next generation persistent memory systems are significantly benefited by the findings of this research project. These systems provide the opportunity to run services that are vastly superior in terms of performance and energy consumption than their previous generation counterparts. Storage performance optimizations also indirectly contribution to energy savings as well as each system becomes more capable and the energy consumed to carry out an unit of work is reduced. The contributions of this project thus impact state-of-the-art computing technology and computing infrastructure.&nbsp;</p> <p>This project supported three Hispanic PhD students over the duration of the project and one Hispanic undergraduate student via REU supplements.&nbsp;</p><br> <p>            Last Modified: 12/26/2017<br>      Modified by: Raju&nbsp;Rangaswami</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual merit:    We developed and evaluated multiple approaches and associated implementations within widely used systems software and evaluated these implementations with both synthetic and real-world workloads. We also did workload studies to understand and evaluate new memory device technologies and production workloads.    The developed and evaluated systems included "Non-blocking Writes" and the "Multi-Clock" persistent memory system. Besides these built systems, we conducted a study of how current generation file system are impacted by the orders-of-magnitude higher performance of next generation persistent memory devices. Finally, we also built a large-scale full-system trace collecting system that currently collects traces from multiple production systems running actively within Florida International University.    The findings of this project help in building next generation storage systems software and services that offer significantly cost-performance-energy trade-offs than their predecessors.   Broader impact:   Storage performance is central to the functioning of high-performance software systems and the services infrastructure. Next generation persistent memory systems are significantly benefited by the findings of this research project. These systems provide the opportunity to run services that are vastly superior in terms of performance and energy consumption than their previous generation counterparts. Storage performance optimizations also indirectly contribution to energy savings as well as each system becomes more capable and the energy consumed to carry out an unit of work is reduced. The contributions of this project thus impact state-of-the-art computing technology and computing infrastructure.   This project supported three Hispanic PhD students over the duration of the project and one Hispanic undergraduate student via REU supplements.        Last Modified: 12/26/2017       Submitted by: Raju Rangaswami]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

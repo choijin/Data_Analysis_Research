@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Stochastic Planning and Probabilistic Inference for Factored State and Action Spaces</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>11/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>177737.00</AwardTotalIntnAmount>
+<AwardAmount>177737</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Roger Mailler</SignBlockName>
+<PO_EMAI>rmailler@nsf.gov</PO_EMAI>
+<PO_PHON>7032927982</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Many important problems require control of multiple actuators, or agents, in parallel, to achieve a common coordinated goal in a stochastic environment. Examples of such problems include scheduling in a building with multiple elevators, managing a team for fire and rescue operations, managing the inventory of a large company, controlling a robotic soccer team, and controlling a robotic team to manage shelving and orders in a warehouse environment. These problems naturally fit into a formulation as discrete-time central-control problems where we design an algorithm that decides what action each agent takes at any time step in order to optimize the common objective. The corresponding computational problem, known as stochastic planning, is challenging due its sheer size. In particular, the number of possible states (for example, possible positions of robots, shelves and merchandise in a warehouse) and the number of possible joint actions (combinations of actions of individual robots) are huge in any problem instance of interest. State of the art approaches typically fail due to requiring too much time to properly search for a good policy or due to requiring too much memory to store intermediate values. By viewing stochastic planning through the lens of probabilistic inference, this project proposes several novel domain independent algorithmic approaches that take advantage of problem structure to calculate approximate solutions effectively under time constraints. The project funds are largely devoted to support training and research of PhD students therefore directly support human development in an important high impact area for the nation. &lt;br/&gt;&lt;br/&gt;More concretely, we propose three competing approaches to solving such problems, all taking insight from formulating the finite horizon control problem as probabilistic inference in a corresponding graphical model, also known as a dynamic Bayesian network. The first approach uses the idea of Monte Carlo search, but adds a strong symbolic component by introducing aggregate trajectories. Aggregate trajectories are obtained by simulating a compositional symbolic model under independence assumptions over the random variables. Each aggregate trajectory provides a value estimate that is approximate but can replace numerous individual trajectories. In this way we get fast approximation of values and effective control under time constraints. The second approach uses problem structure to translate the inference problem into an integer linear program, where the objective and quality of the solution can be traded-off for speed through problem  decomposition. A novel construction shows how to sidestep the exponential complexity of the problem and obtain a sequence of integer programs that are both small and decomposable so as to yield effective control under time constraints. The third approach, or more accurately framework, builds on the tight connection between stochastic planning and probabilistic inference in the corresponding dynamic Bayesian network. We show that variants of the first two approaches can be viewed in this light, and through this we propose new inference algorithms for solving the stochastic planning problem. In addition, based on this analysis, we propose  new algorithms for probabilistic inference, and new generalized inference questions that go beyond current research on marginal map in graphical models.</AbstractNarration>
+<MinAmdLetterDate>12/03/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>12/03/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2002393</AwardID>
+<Investigator>
+<FirstName>Roni</FirstName>
+<LastName>Khardon</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Roni Khardon</PI_FULL_NAME>
+<EmailAddress>rkhardon@iu.edu</EmailAddress>
+<PI_PHON>8128554075</PI_PHON>
+<NSF_ID>000096076</NSF_ID>
+<StartDate>12/03/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Indiana University</Name>
+<CityName>Bloomington</CityName>
+<CountyName/>
+<ZipCode>474013654</ZipCode>
+<PhoneNumber>3172783473</PhoneNumber>
+<StreetAddress>509 E 3RD ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>006046700</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF INDIANA UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>006046700</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Indiana University]]></Name>
+<CityName>Bloomington</CityName>
+<CountyName/>
+<StateCode>IN</StateCode>
+<ZipCode>474013654</ZipCode>
+<StreetAddress><![CDATA[509 E Third Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~177737</FUND_OBLG>
+</Award>
+</rootTag>

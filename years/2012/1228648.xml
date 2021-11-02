@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Medium: Collaborative Research: Computing on Cryptographic Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Susanne Wetzel</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project is developing new techniques for manipulating sensitive data by exploring two related areas, computing on private keys and computing on authenticated data.  Currently, a private key is an inert object that gives its holder the ability to perform a cryptographic operation on all messages, as may be the case when generating a signature.  The project is exploring a new vision, in which computing on the private key itself creates new restricted private keys that can only perform restricted operations such as, for example, signing only some messages but not others.  In the case of computing on authenticated data -- data for which integrity is important but secrecy is not -- the project is developing new tools to compute on such data and obtain authenticated results.&lt;br/&gt;&lt;br/&gt;The project is committed to the dissemination of research results, education of students, and outreach to industry.   Overall, the proposed project will produce a next generation of technology for managing authenticated and encrypted data while advancing the field of applied cryptography and educating the next generation of researchers.</AbstractNarration>
+<MinAmdLetterDate>08/29/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1228648</AwardID>
+<Investigator>
+<FirstName>Dan</FirstName>
+<LastName>Boneh</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dan Boneh</PI_FULL_NAME>
+<EmailAddress>dabo@cs.stanford.edu</EmailAddress>
+<PI_PHON>6507253897</PI_PHON>
+<NSF_ID>000202506</NSF_ID>
+<StartDate>08/29/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stanford University</Name>
+<CityName>Stanford</CityName>
+<ZipCode>943052004</ZipCode>
+<PhoneNumber>6507232300</PhoneNumber>
+<StreetAddress>450 Jane Stanford Way</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009214214</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>LELAND STANFORD JUNIOR UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009214214</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stanford University]]></Name>
+<CityName>Stanford</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>943059025</ZipCode>
+<StreetAddress><![CDATA[Gates 475]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project explored many directions in computing on cryptographicdata.&nbsp; This work resulted in over 15 publications in this area, a distinguished paper award at the 2015 IEEE Security &amp; PrivacyConference, and several outreach activities to high school and middle schoolkids.&nbsp; Here we briefly describe some of the main outcomes.&nbsp;</p> <p>In a sequence of papers, we developed the concept of constrained pseudorandom functions.&nbsp; This mechanism enables a secret key owner to generate a constrained key that is only good for a limited set of operations.&nbsp; We showed many applications for this concept, including identity-based key exchange, broadcast encryption,&nbsp;indistinguishability obfuscation, and many others. Following our first paper that introduced the concept, we published four papers exploring different aspects of constrained keys.&nbsp; We showed how to hide the constraint of the constrained key, and more recently showed how to constrain keys for other primitives, such as block ciphers.&nbsp; Our work on this topic has been used in many subsequent works and is currently cited by over200 papers.</p> <p>In another line of work we developed a new system called Riposte that enables users to post messages anonymously.&nbsp; Our target application is to enable users in heavily censored regions of the world to post their impressions of local events without fear of reprisal.&nbsp; We built a system called Riposte that efficiently offers a large anonymity set.&nbsp; The system makes use of deep cryptographic techniques developed for a very different application called private information retrieval.&nbsp; This work won the best paper award at the 2015 Security &amp; Privacy conference and was also awarded the 2016 PETS award for outstanding research in privacy enhancing technologies. In a later system called Prio we showed how computations on hidden datacan be used to collect aggregate information about a user population without seeing anyone's data.&nbsp;</p> <p>We also developed the concept of a fully key-homomorphic encryption system, where arbitrary computations can be applied to an encryption public-key. Specifically, a key-homomorphic system is one where the encryption of a message M under a public-key pk can be transformedinto an encryption of M under the public-key f(pk), for a function f.&nbsp; We showed that this concept gives a powerful result, namely attribute-based encryption with very short keys.&nbsp; We constructed a fully key-homomorphic encryption system from the standard learning with errors problem (LWE)on integer lattices.&nbsp; This paper appeared in Eurocrypt 2014 and the techniques introduced in it have been used in many subsequent lattice-based constructions, including in some of our own subsequent work.</p> <p>Two additional important outcomes from the project are (1) an unexpected application of cryptographic techniques to preventing control hijacking attacks on vulnerable software.&nbsp; We call this technique cryptographic control-flow integrity, or CCFI.&nbsp; (2) In a sequence of papers we introduced and explored the question of designing cryptographic primitives that remain secure in a world where quantum computers are ubiquitous. Once laptops become quantum, attackers may be capable of mounting more powerful attacks by exploiting the quantum nature of the user's laptop. We designed cryptosystems that remain secure even if the attacker is allowed to query users on quantum super-positions.</p> <p>During the project we actively participated in many outreach activities, such as teaching in math circles events, giving talks at high schools, and participating in events for&nbsp;Girls who Code.&nbsp; In all these activities we used cryptography as a way to excite students about mathematics and computer science in general.&nbsp;</p><br> <p>            Last Modified: 11/09/2017<br>      Modified by: Dan&nbsp;Boneh</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project explored many directions in computing on cryptographicdata.  This work resulted in over 15 publications in this area, a distinguished paper award at the 2015 IEEE Security &amp; PrivacyConference, and several outreach activities to high school and middle schoolkids.  Here we briefly describe some of the main outcomes.   In a sequence of papers, we developed the concept of constrained pseudorandom functions.  This mechanism enables a secret key owner to generate a constrained key that is only good for a limited set of operations.  We showed many applications for this concept, including identity-based key exchange, broadcast encryption, indistinguishability obfuscation, and many others. Following our first paper that introduced the concept, we published four papers exploring different aspects of constrained keys.  We showed how to hide the constraint of the constrained key, and more recently showed how to constrain keys for other primitives, such as block ciphers.  Our work on this topic has been used in many subsequent works and is currently cited by over200 papers.  In another line of work we developed a new system called Riposte that enables users to post messages anonymously.  Our target application is to enable users in heavily censored regions of the world to post their impressions of local events without fear of reprisal.  We built a system called Riposte that efficiently offers a large anonymity set.  The system makes use of deep cryptographic techniques developed for a very different application called private information retrieval.  This work won the best paper award at the 2015 Security &amp; Privacy conference and was also awarded the 2016 PETS award for outstanding research in privacy enhancing technologies. In a later system called Prio we showed how computations on hidden datacan be used to collect aggregate information about a user population without seeing anyone's data.   We also developed the concept of a fully key-homomorphic encryption system, where arbitrary computations can be applied to an encryption public-key. Specifically, a key-homomorphic system is one where the encryption of a message M under a public-key pk can be transformedinto an encryption of M under the public-key f(pk), for a function f.  We showed that this concept gives a powerful result, namely attribute-based encryption with very short keys.  We constructed a fully key-homomorphic encryption system from the standard learning with errors problem (LWE)on integer lattices.  This paper appeared in Eurocrypt 2014 and the techniques introduced in it have been used in many subsequent lattice-based constructions, including in some of our own subsequent work.  Two additional important outcomes from the project are (1) an unexpected application of cryptographic techniques to preventing control hijacking attacks on vulnerable software.  We call this technique cryptographic control-flow integrity, or CCFI.  (2) In a sequence of papers we introduced and explored the question of designing cryptographic primitives that remain secure in a world where quantum computers are ubiquitous. Once laptops become quantum, attackers may be capable of mounting more powerful attacks by exploiting the quantum nature of the user's laptop. We designed cryptosystems that remain secure even if the attacker is allowed to query users on quantum super-positions.  During the project we actively participated in many outreach activities, such as teaching in math circles events, giving talks at high schools, and participating in events for Girls who Code.  In all these activities we used cryptography as a way to excite students about mathematics and computer science in general.        Last Modified: 11/09/2017       Submitted by: Dan Boneh]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

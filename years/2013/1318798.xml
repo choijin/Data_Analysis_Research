@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Efficient Techniques for Modular Past State Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Retrospection is the ability of a data store to run ad-hoc programs over consistent past states of a data store as if they were the current state. Retrospection makes it easier to analyze past states providing  a valuable tool for auditors, historians, economists, social scientists and others with a need to investigate  historical data. Retrospection is also valuable to those who want to analyze past states to predict the future, an increasingly in-demand feature in modern data management applications.&lt;br/&gt;&lt;br/&gt;Most light-weight data stores today do not support  retrospection. The key reason is that existing retrospection techniques, for performance, require invasive hard-to-adopt modifications to data store internals. Without support for retrospection, it may be hard for application developers to reconstruct the consistent states corresponding to past events of interest.&lt;br/&gt;&lt;br/&gt;This project will develop an easy-to-adopt modular method and a set of associated techniques for supporting retrospection in light-weight transactional data stores using an&lt;br/&gt;embedded persistent consistent past-state system. The technical challenges are:&lt;br/&gt;1) How to provide consistent past states without harming data store performance? The past state system needs to be tightly integrated for efficiency but extensive modifications to the internal data store components are infeasible, requiring new modular  techniques that operate at a low-level in the data store software stack.&lt;br/&gt;2) How to run programs efficiently over past state that spans large time intervals? past state needs to be created  incrementally to avoid disrupting the data store but running a program over incremental state can be slow, requiring new clustering and caching  techniques optimized for incremental data.&lt;br/&gt;3) Can one avoid slowing down programs that do not use retrospection? To evaluate any additional overhead, the project will develop an experimental prototype in an industrial strength data store, and conduct studies to answer this question experimentally and analytically.</AbstractNarration>
+<MinAmdLetterDate>09/09/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/09/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1318798</AwardID>
+<Investigator>
+<FirstName>Liuba</FirstName>
+<LastName>Shrira</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Liuba Shrira</PI_FULL_NAME>
+<EmailAddress>Liuba@cs.brandeis.edu</EmailAddress>
+<PI_PHON>7817362704</PI_PHON>
+<NSF_ID>000100143</NSF_ID>
+<StartDate>09/09/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brandeis University</Name>
+<CityName>WALTHAM</CityName>
+<ZipCode>024532728</ZipCode>
+<PhoneNumber>7817362121</PhoneNumber>
+<StreetAddress>415 SOUTH ST MAILSTOP 116</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>616845814</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BRANDEIS UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>055986020</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brandeis University]]></Name>
+<CityName>Waltham</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>024549110</ZipCode>
+<StreetAddress><![CDATA[415 South Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>Now more than ever, auditing and fact-checking are essential for applications that manage persistent state. It is not difficult to support queries known in advance to be of long- term interest, but it is difficult to support unanticipated, ad-hoc queries on long-ago states.&nbsp;</span></p> <p><span>Retrospection is the ability of a data store to run ad-hoc programs over consistent past states as if they were the current state.&nbsp;</span>Retrospection makes is easier for developers to provide auditing and fact checking but in current light-weight data stores the support for retrospection is limited. Without adequate support it is hard for developers to reconstruct the consistent past states corresponding to the events of interest. Today retrospection is available in&nbsp; temporal data bases used by specialized applications but if regular stores could support retrospection, auditing could become easily available to all applications.&nbsp;</p> <p><span>This project developed an easy-to-adopt method and a set of associated techniques for supporting efficient retrospection in light-weight transactional data stores using an embeded persistent consistent snapshot system.&nbsp;</span>In such a data store, an ad-hoc query to reconstruct the context of a past event, or a request to check claims about series of past events, can be computed from the stored snapshots as easily as computing over the current state.</p> <p><span>Adding a consistent snapshot system needed for retrospection can disrupt data store performance. Current techniques for avoiding performance disruption </span><span>require invasive modifications of the data store internals, a significant challenge for today?s systems. A key novelty of the approach in Retro, the system developed by this project for supporting retrospection&nbsp; in Berkeley DB (BDB), a&nbsp; widely used data store,&nbsp; is an efficient yet simple and robust implementation method based on a low-level snapshot system.&nbsp;</span>Unlike prior approaches, Retro protocols, based on a formal specification,&nbsp; extend standard transaction protocols in a modular way, requiring minimal data store modification (about 250 lines of BDB code). Importantly, they impose minimal 4% worst-case overhead for in-production programs running in the data store.</p> <p>An attractive retrospection feature for developers is that application code base can be used to analyze any snapshot. Auditing however, requires to analyze multiple snapshots. Current snapshot systems offer no satisfactory support for computations that analyze multiple snapshots, requiring developers to write low-level scripts combining snapshot programs. Retro provides a new Retrospective Query Language (RQL), a declarative extension to SQL, that allows to specify and run multi-snapshot computations conveniently, using a small number of&nbsp; mechanisms defined in terms of relational constructs familiar to developers. The mechanisms support both common analysis patterns and general computations and are translated into SQL &nbsp;using SQLite UDF framework.&nbsp;</p> <p>RQL programs running over low-level snapshots bring up new performance issues that have not been studied before. &nbsp;An important new feature in RQL&nbsp; is its analytical performance model that characterizes the performance of a computation over&nbsp; multiple low-level snapshots, in terms familiar to developers, relative to the current state program performance.</p> <p>RQL programs&nbsp; can be costly. Standard SQL optimizer can be used to improve RQL program performance within each snapshot but it can not detect redundancies that occur between snapshots. These redundancies occur when data of interest to audit remains unchanged between snapshots causing exact same duplicate computations to be repeated in multiple snapshots. The problem in&nbsp; prominent in common application workloads where parts of data change slowly, leading to waste of resources and energy.&nbsp;</p> <p><span>The project developed RID, a novel optimizer&nbsp; that eliminates duplicate snapshot computations. RID composes with standard SQL optimizer, boosting its effectiveness for multi-snapshot RQL programs substantially. RID operates at two levels.&nbsp;</span>A low-level detector, implemented in the snapshot system, exploits snapshot system metadata to identify duplicate computations. A high-level eliminator, avoids duplicate computations, instead reusing duplicate results efficiently, taking advantage of RQL query semantics.&nbsp;</p> <p><span>The low-level duplicate detector algorithm is remarkably fast but coarse, it can miss some duplicates, reporting false negatives.&nbsp;</span>A new contribution of RID&nbsp; is an analytical model that explains how application update workload determines the amount of false negatives. Measurements of RQL programs optimized with RID, using synthetic TPC-H workloads corresponding to expected use cases, validate the model, and show that, when an audit programs inspect infrequently modified data, RID provides substantial, sometimes more than 90% reduction in cost, despite coarse detection. &nbsp;</p> <p>The retrospection method and techniques developed by the project were implemented in a SQL-based transactional data store but the approach&nbsp; is more general. The modular snapshot implementation techniques in Retro, the general structure of RQL mechanisms, and RID duplicate detection are language-independent and support other programming languages. Moreover, while RQL implementation and RID result reuse are specialized to SQL, similar approaches are applicable to other languages.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 05/28/2019<br>      Modified by: Liuba&nbsp;Shrira</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Now more than ever, auditing and fact-checking are essential for applications that manage persistent state. It is not difficult to support queries known in advance to be of long- term interest, but it is difficult to support unanticipated, ad-hoc queries on long-ago states.   Retrospection is the ability of a data store to run ad-hoc programs over consistent past states as if they were the current state. Retrospection makes is easier for developers to provide auditing and fact checking but in current light-weight data stores the support for retrospection is limited. Without adequate support it is hard for developers to reconstruct the consistent past states corresponding to the events of interest. Today retrospection is available in  temporal data bases used by specialized applications but if regular stores could support retrospection, auditing could become easily available to all applications.   This project developed an easy-to-adopt method and a set of associated techniques for supporting efficient retrospection in light-weight transactional data stores using an embeded persistent consistent snapshot system. In such a data store, an ad-hoc query to reconstruct the context of a past event, or a request to check claims about series of past events, can be computed from the stored snapshots as easily as computing over the current state.  Adding a consistent snapshot system needed for retrospection can disrupt data store performance. Current techniques for avoiding performance disruption require invasive modifications of the data store internals, a significant challenge for today?s systems. A key novelty of the approach in Retro, the system developed by this project for supporting retrospection  in Berkeley DB (BDB), a  widely used data store,  is an efficient yet simple and robust implementation method based on a low-level snapshot system. Unlike prior approaches, Retro protocols, based on a formal specification,  extend standard transaction protocols in a modular way, requiring minimal data store modification (about 250 lines of BDB code). Importantly, they impose minimal 4% worst-case overhead for in-production programs running in the data store.  An attractive retrospection feature for developers is that application code base can be used to analyze any snapshot. Auditing however, requires to analyze multiple snapshots. Current snapshot systems offer no satisfactory support for computations that analyze multiple snapshots, requiring developers to write low-level scripts combining snapshot programs. Retro provides a new Retrospective Query Language (RQL), a declarative extension to SQL, that allows to specify and run multi-snapshot computations conveniently, using a small number of  mechanisms defined in terms of relational constructs familiar to developers. The mechanisms support both common analysis patterns and general computations and are translated into SQL  using SQLite UDF framework.   RQL programs running over low-level snapshots bring up new performance issues that have not been studied before.  An important new feature in RQL  is its analytical performance model that characterizes the performance of a computation over  multiple low-level snapshots, in terms familiar to developers, relative to the current state program performance.  RQL programs  can be costly. Standard SQL optimizer can be used to improve RQL program performance within each snapshot but it can not detect redundancies that occur between snapshots. These redundancies occur when data of interest to audit remains unchanged between snapshots causing exact same duplicate computations to be repeated in multiple snapshots. The problem in  prominent in common application workloads where parts of data change slowly, leading to waste of resources and energy.   The project developed RID, a novel optimizer  that eliminates duplicate snapshot computations. RID composes with standard SQL optimizer, boosting its effectiveness for multi-snapshot RQL programs substantially. RID operates at two levels. A low-level detector, implemented in the snapshot system, exploits snapshot system metadata to identify duplicate computations. A high-level eliminator, avoids duplicate computations, instead reusing duplicate results efficiently, taking advantage of RQL query semantics.   The low-level duplicate detector algorithm is remarkably fast but coarse, it can miss some duplicates, reporting false negatives. A new contribution of RID  is an analytical model that explains how application update workload determines the amount of false negatives. Measurements of RQL programs optimized with RID, using synthetic TPC-H workloads corresponding to expected use cases, validate the model, and show that, when an audit programs inspect infrequently modified data, RID provides substantial, sometimes more than 90% reduction in cost, despite coarse detection.    The retrospection method and techniques developed by the project were implemented in a SQL-based transactional data store but the approach  is more general. The modular snapshot implementation techniques in Retro, the general structure of RQL mechanisms, and RID duplicate detection are language-independent and support other programming languages. Moreover, while RQL implementation and RID result reuse are specialized to SQL, similar approaches are applicable to other languages.                   Last Modified: 05/28/2019       Submitted by: Liuba Shrira]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

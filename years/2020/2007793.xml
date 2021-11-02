@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: K-Way Speculation for Mapping Applications with Dependencies on Modern HPC Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>499999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern hardware provides parallelism in the form of a large number of threads. If an application involves independent work components, these components can be mapped to such hardware for parallel execution. However, when the work components are not independent, often such hardware is under-utilized. One technique used to overcome this problem is speculation – which involves guessing certain values or outcomes and assigning work to threads based on them. If the guess turns out to be incorrect, we need to re-execute the work.  In current approaches one value or outcome is considered (or speculated): i.e., whether a specific value will be computed or loaded, or whether there will be dependence or not. With presence of massive number of threads, there is an opportunity to consider k-way speculation, e.g., speculating two or more likely values, or in parallel executing one thread that assumes dependence and another that assumes there is no dependence. This project is developing techniques enabling k-way speculation, using k guessed values to benefit from parallelism provided by modern hardware with multiple threads.  The motivation arrives from the fact that modern hardware has a very high degree of parallelism, and it is better to have redundancy in using this parallelism, as compared to settling for a sequential execution. The class of applications this project targets span across scientific computing, data analytics, machine learning, and optimization, and thus this project impacts all of these areas. This project will also make contributions towards advancing curriculum and broadening participation in computing.&lt;br/&gt;  &lt;br/&gt;This project builds on two demonstrated results relevant to k-way speculation.  First, in certain cases, one might speculate k values,  and while none of them may be correct, execution using them can be used to reconstruct  the function.  Second, for Finite State Machines (FSMs), it has been shown that k-way speculation is a better alternative to both (1-way) speculation and enumeration. Both approaches, k-way speculation and reconstruction and k-way speculation for FSMs, are  not scalable to a very large number of cores because of the overhead of merging across different speculated executions. In addition, existing loop-transformation methods respect dependencies and cannot identify and exploit loops that can be parallelized despite dependencies. The following research directions are explored. First, techniques are being developed to remove this bottleneck. Second, the existing framework is being extended to consider nested loops, where one of the levels involves dependencies. Third, several classes of algorithms involve speculation and are candidates for benefiting from k-way speculation, possibly with reconstruction, and this is being explored. Finally, it is being examined if the function corresponding to the loop body does not have a closed-form combination, can the execution on speculated values nevertheless represent the function to a certain level of precision.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/31/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>03/25/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2007793</AwardID>
+<Investigator>
+<FirstName>Gagan</FirstName>
+<LastName>Agrawal</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gagan Agrawal</PI_FULL_NAME>
+<EmailAddress>gagrawal@augusta.edu</EmailAddress>
+<PI_PHON>7067210506</PI_PHON>
+<NSF_ID>000230838</NSF_ID>
+<StartDate>07/31/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>AUGUSTA UNIVERSITY RESEARCH INSTITUTE, INC.</Name>
+<CityName>Augusta</CityName>
+<ZipCode>309120004</ZipCode>
+<PhoneNumber>7067212592</PhoneNumber>
+<StreetAddress>1120 Fifteenth Street</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>966668691</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>AUGUSTA UNIVERSITY RESEARCH INSTITUTE, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>180655748</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Augusta University Research Institute, Inc.]]></Name>
+<CityName>Augusta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>309120001</ZipCode>
+<StreetAddress><![CDATA[1120 15th Street, CJ 3301]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~499999</FUND_OBLG>
+</Award>
+</rootTag>

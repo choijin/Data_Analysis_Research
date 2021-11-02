@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: FTLA: Fault Tolerant Linear Algebra Software for Massively Parallel Architectures</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>324913.00</AwardTotalIntnAmount>
+<AwardAmount>340913</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>As the number of cores in high performance computing (HPC) systems continues to grow, the mean-time-to-failure (MTTF) for large HPC systems is becoming shorter than the execution time of many HPC applications. Fault tolerance is becoming one of the critical techniques for the effective use of large HPC systems.&lt;br/&gt;&lt;br/&gt;This project develops highly efficient algorithmic fault tolerance techniques for selected linear algebra computations to tolerate both fail-stop and fail-continue failures. &lt;br/&gt;Fail-stop failures, where the failed computation crashes, are often tolerated by checkpoint. This project removes checkpoint from fault tolerance for selected linear algebra computations so that neither checkpoint nor rollback is necessary for the protection of these computations.  Fail-continue failures, where the corrupted computation continues to make progress but the computation results cannot be trusted any more, are usually tolerated offline by checking the computation results after the computation finishes. This project designs novel online fault tolerance techniques to detect fail-continue failures in the middle of the computation so that better efficiency can be achieved by stopping the corrupted computations in the middle of the computation in a timely manner.</AbstractNarration>
+<MinAmdLetterDate>11/02/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>11/02/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1305622</AwardID>
+<Investigator>
+<FirstName>Zizhong</FirstName>
+<LastName>Chen</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zizhong Chen</PI_FULL_NAME>
+<EmailAddress>chen@cs.ucr.edu</EmailAddress>
+<PI_PHON>9518275639</PI_PHON>
+<NSF_ID>000347508</NSF_ID>
+<StartDate>11/02/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California Riverside]]></Name>
+<CityName>Riverside</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress><![CDATA[200 University Office Building]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~324913</FUND_OBLG>
+<FUND_OBLG>2012~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In computer industry, a computer&rsquo;s central processing unit is often called a core.&nbsp;The desire of modern computer users to perform faster computations has driven&nbsp;the size of computers from single core, to multicores, and even to millions of cores.&nbsp;The current fastest computer in the world (i.e., Sunway TaihuLight in China)&nbsp;now consists of more than ten million cores. Computers capable of exaFLOP&nbsp;calculations (i.e., 10^18 calculations per second) available soon will be made&nbsp;up of 100 million to 1 billion cores. While today&rsquo;s computer is often susceptible&nbsp;to single bit-flip errors, users of small computers usually do not see such errors&nbsp;because they have already been effectively protected by existing error correction&nbsp;mechanisms. However, as the number of cores in computers continues to increase,&nbsp;the current error protection mechanisms will not be enough any more because&nbsp;double bit-flip errors, miscalculations (i.e., errors like 1+1=3), and many other&nbsp;types of errors, which are less common for small computers, will increase at&nbsp;least linearly with the number of cores. Therefore, in the field of high&nbsp;performance computing (HPC), fault tolerance has been identified as&nbsp;one of the major challenges that must be addressed before computers are&nbsp;able to achieve exaFLOP performance. &nbsp;</p> <p>When an error occurs, the affected application either continues or stops.&nbsp;If the application continues, it is called a fail-continue error. Otherwise,&nbsp;it is called a fail-stop error. This project has developed a series of highly&nbsp;efficient novel fault tolerance techniques that can be used to effectively&nbsp;protect widely used linear algebra computations from both fail-stop and&nbsp;fail-continue errors. This research is very challenging because it must balance many&nbsp;competing requirements including large number of cores, low hardware&nbsp;redundancy, low space and time cost, low communication overhead,&nbsp;high error coverage, high computing efficiency, high energy efficiency,&nbsp;high numerical accuracy, and good numerical stability.&nbsp;</p> <p>Linear algebra is widely used in many science and&nbsp;engineering fields. Highly efficient fault tolerance techniques for linear&nbsp;algebra computations will therefore benefit a larger number of users and&nbsp;a wide range of fields. These techniques are especially important for&nbsp;large scale numerical simulations that aim to achieve scientific breakthroughs&nbsp;via computation and U.S. Department of Energy (DOE) mission-critical&nbsp;applications that need the DOE Leadership Computing Facilities because&nbsp;these computations often need to simultaneously use millions of computing&nbsp;cores.&nbsp;</p> <p>This project has also promoted teaching, training, and learning throughawarding research assistantships to both graduate students and&nbsp;undergraduate students, creating training opportunities for underrepresentedgroups, and incorporating research results into regular teaching.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/28/2016<br>      Modified by: Zizhong&nbsp;Chen</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In computer industry, a computer?s central processing unit is often called a core. The desire of modern computer users to perform faster computations has driven the size of computers from single core, to multicores, and even to millions of cores. The current fastest computer in the world (i.e., Sunway TaihuLight in China) now consists of more than ten million cores. Computers capable of exaFLOP calculations (i.e., 10^18 calculations per second) available soon will be made up of 100 million to 1 billion cores. While today?s computer is often susceptible to single bit-flip errors, users of small computers usually do not see such errors because they have already been effectively protected by existing error correction mechanisms. However, as the number of cores in computers continues to increase, the current error protection mechanisms will not be enough any more because double bit-flip errors, miscalculations (i.e., errors like 1+1=3), and many other types of errors, which are less common for small computers, will increase at least linearly with the number of cores. Therefore, in the field of high performance computing (HPC), fault tolerance has been identified as one of the major challenges that must be addressed before computers are able to achieve exaFLOP performance.    When an error occurs, the affected application either continues or stops. If the application continues, it is called a fail-continue error. Otherwise, it is called a fail-stop error. This project has developed a series of highly efficient novel fault tolerance techniques that can be used to effectively protect widely used linear algebra computations from both fail-stop and fail-continue errors. This research is very challenging because it must balance many competing requirements including large number of cores, low hardware redundancy, low space and time cost, low communication overhead, high error coverage, high computing efficiency, high energy efficiency, high numerical accuracy, and good numerical stability.   Linear algebra is widely used in many science and engineering fields. Highly efficient fault tolerance techniques for linear algebra computations will therefore benefit a larger number of users and a wide range of fields. These techniques are especially important for large scale numerical simulations that aim to achieve scientific breakthroughs via computation and U.S. Department of Energy (DOE) mission-critical applications that need the DOE Leadership Computing Facilities because these computations often need to simultaneously use millions of computing cores.   This project has also promoted teaching, training, and learning throughawarding research assistantships to both graduate students and undergraduate students, creating training opportunities for underrepresentedgroups, and incorporating research results into regular teaching.          Last Modified: 11/28/2016       Submitted by: Zizhong Chen]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Small: Practical Data Confinement</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>499646.00</AwardTotalIntnAmount>
+<AwardAmount>499646</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jeremy Epstein</SignBlockName>
+<PO_EMAI>jepstein@nsf.gov</PO_EMAI>
+<PO_PHON>7032928338</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In today's information-driven economy, organizations are finding it increasingly difficult to control the flow of sensitive information. &lt;br/&gt;This project is building a system called PDC (for Practical Data Confinement), a novel information security architecture built around coarse-grained isolation, fine-grained dynamic information flow tracking (DIFT), and informed policy enforcement. In broad terms, PDC provides mechanisms for tracking the movement of confidential data and enforcing dissemination restrictions that specify how, when, and to whom the data may be externalized. PDC requires no changes to applications or the operating system, and is thus readily deployable in existing IT environments. PDC makes use of an augmented hypervisor that enforces inter-VM isolation and carefully tracks the movement of sensitive data between the virtual CPU registers, memory, and disk within each VM. The hypervisor also intercepts all externally observable output actions (e.g., network communication, writing data to a mobile storage medium, sending data to a printer) and enforces security policies, allowing or denying specific application requests to externalize sensitive data. The main focus of the current work is to overcome the performance barriers that have hindered similar approaches in the past.</AbstractNarration>
+<MinAmdLetterDate>07/19/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/31/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1015470</AwardID>
+<Investigator>
+<FirstName>Scott</FirstName>
+<LastName>Shenker</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Scott Shenker</PI_FULL_NAME>
+<EmailAddress>shenker@berkeley.edu</EmailAddress>
+<PI_PHON>5106433043</PI_PHON>
+<NSF_ID>000241246</NSF_ID>
+<StartDate>07/19/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>International Computer Science Institute</Name>
+<CityName>Berkeley</CityName>
+<ZipCode>947041345</ZipCode>
+<PhoneNumber>5106662900</PhoneNumber>
+<StreetAddress>2150 Shattuck Ave, Suite 1100</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>187909478</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>INTERNATIONAL COMPUTER SCIENCE INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[International Computer Science Institute]]></Name>
+<CityName>Berkeley</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>947041345</ZipCode>
+<StreetAddress><![CDATA[2150 Shattuck Ave, Suite 1100]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~168526</FUND_OBLG>
+<FUND_OBLG>2011~176952</FUND_OBLG>
+<FUND_OBLG>2012~154168</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project looked at how to control information flow in networked environments. Our efforts had four main focus points:</p> <ul> <li>Practical Data Confinement (PDC):&nbsp;<span>This project</span><span>&nbsp;focused on the dominant problem of in</span><span>ternal carelessness and external</span><span>&nbsp;</span><span>attacks, rather than the far</span><span>&nbsp;</span><span>less common problem of malicious insiders.&nbsp;</span><span>PDC&nbsp;</span><span>explicitly tracks sensitive information and</span><span>&nbsp;</span><span>controls how it is&nbsp;</span><span>externalized:&nbsp;</span><span>no limitations are</span><span>&nbsp;</span><span>imposed on how the data is handled locally on the host.</span></li> <li>Controlling formation flow on mobile devices: This involved the Hercules project and the Prosec projects, the former which deals with imposing information controls that span across multiple device interfaces, and the latter which controls information flow in a network with mobile devices.</li> <li>Cloud Terminal: &nbsp;This is a new architecture for secure applications in which the only software running on the end host is a lightweight secure thin terminal, and most application logic is in a remote cloud rendering engine. The secure thin terminal has a very small TCB (23 KLOC) and no dependence on the untrusted OS, so it can be easily checked and remotely attested to.</li> <li>Implementing dataplane functionality at the network edge: This leverages new approaches to implementing network functionality can be used to improve information security.</li> </ul> <p>&nbsp;</p> <div><span> </span></div> <p>&nbsp;</p><br> <p>            Last Modified: 01/04/2015<br>      Modified by: Scott&nbsp;Shenker</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project looked at how to control information flow in networked environments. Our efforts had four main focus points:  Practical Data Confinement (PDC): This project focused on the dominant problem of internal carelessness and external attacks, rather than the far less common problem of malicious insiders. PDC explicitly tracks sensitive information and controls how it is externalized: no limitations are imposed on how the data is handled locally on the host. Controlling formation flow on mobile devices: This involved the Hercules project and the Prosec projects, the former which deals with imposing information controls that span across multiple device interfaces, and the latter which controls information flow in a network with mobile devices. Cloud Terminal:  This is a new architecture for secure applications in which the only software running on the end host is a lightweight secure thin terminal, and most application logic is in a remote cloud rendering engine. The secure thin terminal has a very small TCB (23 KLOC) and no dependence on the untrusted OS, so it can be easily checked and remotely attested to. Implementing dataplane functionality at the network edge: This leverages new approaches to implementing network functionality can be used to improve information security.                Last Modified: 01/04/2015       Submitted by: Scott Shenker]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

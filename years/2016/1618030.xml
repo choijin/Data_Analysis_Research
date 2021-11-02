@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Collaborative Research: Distributed Approximate Packet Classification</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>198346.00</AwardTotalIntnAmount>
+<AwardAmount>198346</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Network traffic classification - assigning incoming packets to classes for processing based on pattern-matching rules - is critical for many network management tasks, including performance monitoring and fault diagnosis.  However, as the number of classification tasks grows, the resources required to store and apply the rules (switch memory in particular) can become scarce.  This project takes an end-to-end view of traffic classification, observing that in addition to the memory usage at switches, other, cheaper resources are involved in packet processing, specifically bandwidth to transfer selected packets to the receivers, and the receiver systems themselves. The proposed approach trades off memory for bandwidth by introducing overselection, in which approximate classification made in reduced memory introduces additional unwanted traffic. The idea is that in many applications, the side-effects of overselection are quite manageable; the project will investigate multiple types of applications such as middleboxes and packet scrubbers that can tolerate overselection. &lt;br/&gt;&lt;br/&gt;The approach involves a Cuckoo-filter-based approximate prefix matcher at switches, which stores classification rules with different prefix lengths. The key challenges in supporting distributed approximate packet classification include: (1) new data structures that best support the tradeoffs between memory and overselection; (2) new algorithms and systems that handle traffic dynamics and network dynamics with overselection; (3) systematic analysis of the impact of overselection on different network functions; and (4) spatial and temporal coordination of switches and receivers.  This project will enable innovations and redesign of these management applications relying on traffic classification in software defined networks (SDN), and thus lead to more efficiently managed enterprise and datacenter networks. Moreover, the work will facilitate interactions among theoretical and systems research. Finally, the principal investigators have a record of engaging underrepresented groups and undergraduates in research and plan to continue these engagements as part of this project.</AbstractNarration>
+<MinAmdLetterDate>09/12/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/12/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1618030</AwardID>
+<Investigator>
+<FirstName>Nicholas</FirstName>
+<LastName>Duffield</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nicholas Duffield</PI_FULL_NAME>
+<EmailAddress>duffieldng@tamu.edu</EmailAddress>
+<PI_PHON>9798457328</PI_PHON>
+<NSF_ID>000658287</NSF_ID>
+<StartDate>09/12/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Texas A&amp;M Engineering Experiment Station</Name>
+<CityName>College Station</CityName>
+<ZipCode>778454645</ZipCode>
+<PhoneNumber>9798626777</PhoneNumber>
+<StreetAddress>400 Harvey Mitchell Pkwy S</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>847205572</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TEXAS A&amp;M ENGINEERING EXPERIMENT STATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042915991</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Texas A&M Engineering Experiment Station]]></Name>
+<CityName>College Station</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>778433128</ZipCode>
+<StreetAddress><![CDATA[3128 TAMU]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~198346</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-151457c6-7fff-1467-40ea-cb07ded5d61a">&nbsp;</span></p> <p dir="ltr"><span><br />In this project, we have taken an end-to-end view of network management tasks by exploring the collaborative techniques that can coordinate switches and end hosts to achieve the best tradeoff between memory usage, bandwidth overhead, and task accuracy. Our project focuses on four directions ranging from packet classification to database query acceleration:</span></p> <p dir="ltr"><span> (1) We propose a collaborative packet classification system for network functions which couples approximate classification at switches with fine-grained filtering where needed at network functions to accomplish overall classification. </span></p> <p dir="ltr"><span>(</span>2) To detect and mitigate load imbalance, we propose color-combining which enables hash function reuse via leveraging topology traits of Clos networks and a coprime-based framework to mitigate the load imbalance in general mesh topologies.</p> <p dir="ltr">(3) We present HPCC (High Precision Congestion Control), a new high-speed CC mechanism which leverages in-network telemetry (INT) at switches to obtain precise link load information and controls traffic precisely. HPCC can quickly converge to utilize free bandwidth while avoiding congestion, and can maintain near-zero in-network queues for ultra-low latency.</p> <p dir="ltr">(4) Finally, we leverage programmable switches to partially offload database queries. To fit in limited memory and programmability constraints at switches, we introduce the concept of data pruning: filtering out entries that are guaranteed not to affect output. Our pruning algorithms work for a variety of queries and significantly improve query completion time compared to Spark.&nbsp;</p> <p><span>The project has resulted in several publications and, in some cases, collaboration and technology transfer in industry. The grant has helped train two female PhD students who have since joined Google and Facebook. </span><span>Several undergraduate and high school students have also participated in the research.</span></p> <p dir="ltr">&nbsp;</p><br> <p>            Last Modified: 12/20/2020<br>      Modified by: Nicholas&nbsp;Duffield</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[    In this project, we have taken an end-to-end view of network management tasks by exploring the collaborative techniques that can coordinate switches and end hosts to achieve the best tradeoff between memory usage, bandwidth overhead, and task accuracy. Our project focuses on four directions ranging from packet classification to database query acceleration:  (1) We propose a collaborative packet classification system for network functions which couples approximate classification at switches with fine-grained filtering where needed at network functions to accomplish overall classification.  (2) To detect and mitigate load imbalance, we propose color-combining which enables hash function reuse via leveraging topology traits of Clos networks and a coprime-based framework to mitigate the load imbalance in general mesh topologies. (3) We present HPCC (High Precision Congestion Control), a new high-speed CC mechanism which leverages in-network telemetry (INT) at switches to obtain precise link load information and controls traffic precisely. HPCC can quickly converge to utilize free bandwidth while avoiding congestion, and can maintain near-zero in-network queues for ultra-low latency. (4) Finally, we leverage programmable switches to partially offload database queries. To fit in limited memory and programmability constraints at switches, we introduce the concept of data pruning: filtering out entries that are guaranteed not to affect output. Our pruning algorithms work for a variety of queries and significantly improve query completion time compared to Spark.   The project has resulted in several publications and, in some cases, collaboration and technology transfer in industry. The grant has helped train two female PhD students who have since joined Google and Facebook. Several undergraduate and high school students have also participated in the research.         Last Modified: 12/20/2020       Submitted by: Nicholas Duffield]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

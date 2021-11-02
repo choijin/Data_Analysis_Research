@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER:   Deep Learning for Microarchitectural Prediction</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Computer programs often have highly predictable behavior.  Microprocessors use predictors to improve program performance and efficiency. Decisions made by a program can often be predicted with good accuracy, and patterns of data usage can be predicted to improve system efficiency and performance. However, incorrect predictions can lead to poor performance or lost opportunities for improving efficiency. This project proposes to use deep learning to improve prediction in microprocessors. Deep learning is a technology that has been used to improve computer vision and other pattern recognition tasks in large computing systems, but so far it has not been applied at the very small scale and tight timing margins of improving microprocessors. The project will likely result in improved microprocessors, as well as educational, mentoring, and career opportunities for under-represented groups in computer science. The PI will incorporate the research into classroom teaching. The Ph.D. students trained through this project will enhance industrial and academic workforce. The PI will continue to recruit women and minority graduate students into his research program for this project. Outreach to under-represented groups will include PI leadership and participation at CRA-W mentoring workshops for women and minority graduate students.&lt;br/&gt;&lt;br/&gt;The goal of the proposed research is to exploit deep learning to design new microarchitectural predictors capable of exploiting previously untapped levels of predictability in program behavior to improve performance, power, and energy. Deep neural networks will be used to greatly improve the accuracy of microarchitectural predictors. This project will first explore latency-tolerant cache locality predictors, then move to control-flow prediction that has tighter timing constraints. Proposed predictors will be evaluated in a variety of contexts representing modern workloads at scales from mobile phones to datacenters. The research incurs a high-risk because no deep neural network has even been developed to operate at the sub-nanosecond level. However, the research offers a high-payoff due to the tremendous potential to improve performance. Results will be manifested through students' theses and dissertations as well as publication in top-tier architecture venues.</AbstractNarration>
+<MinAmdLetterDate>07/27/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/27/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1649242</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Jimenez</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel A Jimenez</PI_FULL_NAME>
+<EmailAddress>djimenez@acm.org</EmailAddress>
+<PI_PHON>9798452434</PI_PHON>
+<NSF_ID>000373616</NSF_ID>
+<StartDate>07/27/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Texas A&amp;M Engineering Experiment Station</Name>
+<CityName>College Station</CityName>
+<ZipCode>778454645</ZipCode>
+<PhoneNumber>9798626777</PhoneNumber>
+<StreetAddress>400 Harvey Mitchell Pkwy S</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>847205572</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TEXAS A&amp;M ENGINEERING EXPERIMENT STATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042915991</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Texas A&M Engineering Experiment Station]]></Name>
+<CityName>College Station</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>778433112</ZipCode>
+<StreetAddress><![CDATA[301 Harvey R Bright Building]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project explored using artificial intelligence techniques for improving performance of computer systems. Microprocessor performance can be improved by knowing the near-term future behavior of the program being executed. For example, microprocessors store frequently used values in caches, but with a small capacity, we must sometimes decide to move things out of the cache in favor of other things. This is the problem of cache replacement. This project used artificial intelligence techniques such as neural networks to predict various types of behavior to improve microprocessors.</p> <p>The project resulted in three main research results:</p> <p>1. Perceptron learning, a simple neural technique, was shown to be as powerful as more complex "deep" learning techniques for predicting the behavior of program in terms of accesses to memory. We showed that, by learning from multiple features, we could do a better job of cache replacement than the state of the art.</p> <p>2. The techniques initially explored for cache management could also be applied to managing other on-chip structures, such as a cache for program instructions and the branch target buffer, which is a cache for storing the next location where control of a program should go based on decisions made during execution.</p> <p>3. Neural learning also provides an excellent filter for prefetches. Prefetching is a technique where a processor can anticipate which items of data might be needed and get them into the cache in advance. However, many prefetching algorithms are too aggressive and bring in too many unneeded items. We find that neural techniques can filter the prefetcher and help bring in mostly items that will be useful, thus improving performance by using cache capacity more efficiently.</p> <p>The research resulted in several publications at top computer architecture conferences.&nbsp;The research has received significant interest from industry.</p> <p>Several Ph.D. and Master's students worked on the project. Two women received their Ph.D.s and one woman received her Master's degree partly as a result of research done on this project. One Hispanic woman who worked on the project and earned her Ph.D. is now an assistant professor at a minority-serving university in South Texas. Another Hispanic woman student continues in our group working on the same ideas first investigated through this project. The research has informed the PIs classroom teaching by providing subject matter and infrastructure for student projects. This EAGER grant has allowed the PI to develop more full proposals on microarchitectural prediction, one of which has recently been funded by NSF.</p><br> <p>            Last Modified: 12/10/2019<br>      Modified by: Daniel&nbsp;A&nbsp;Jimenez</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project explored using artificial intelligence techniques for improving performance of computer systems. Microprocessor performance can be improved by knowing the near-term future behavior of the program being executed. For example, microprocessors store frequently used values in caches, but with a small capacity, we must sometimes decide to move things out of the cache in favor of other things. This is the problem of cache replacement. This project used artificial intelligence techniques such as neural networks to predict various types of behavior to improve microprocessors.  The project resulted in three main research results:  1. Perceptron learning, a simple neural technique, was shown to be as powerful as more complex "deep" learning techniques for predicting the behavior of program in terms of accesses to memory. We showed that, by learning from multiple features, we could do a better job of cache replacement than the state of the art.  2. The techniques initially explored for cache management could also be applied to managing other on-chip structures, such as a cache for program instructions and the branch target buffer, which is a cache for storing the next location where control of a program should go based on decisions made during execution.  3. Neural learning also provides an excellent filter for prefetches. Prefetching is a technique where a processor can anticipate which items of data might be needed and get them into the cache in advance. However, many prefetching algorithms are too aggressive and bring in too many unneeded items. We find that neural techniques can filter the prefetcher and help bring in mostly items that will be useful, thus improving performance by using cache capacity more efficiently.  The research resulted in several publications at top computer architecture conferences. The research has received significant interest from industry.  Several Ph.D. and Master's students worked on the project. Two women received their Ph.D.s and one woman received her Master's degree partly as a result of research done on this project. One Hispanic woman who worked on the project and earned her Ph.D. is now an assistant professor at a minority-serving university in South Texas. Another Hispanic woman student continues in our group working on the same ideas first investigated through this project. The research has informed the PIs classroom teaching by providing subject matter and infrastructure for student projects. This EAGER grant has allowed the PI to develop more full proposals on microarchitectural prediction, one of which has recently been funded by NSF.       Last Modified: 12/10/2019       Submitted by: Daniel A Jimenez]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

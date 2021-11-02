@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: The Shape of Visual Motion</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>449999.00</AwardTotalIntnAmount>
+<AwardAmount>457499</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Yang</SignBlockName>
+<PO_EMAI>jyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924768</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project studies methods for describing motion in video. All visible points in the world are tagged by their identity, and trajectories of their projections on the image plane are tracked through space and time.  This computation is performed globally, both in space and time, and motion discontinuities are explicitly delineated in the output. In contrast with previous techniques, which estimate motion primarily from the bottom up, starting with two frames at a time, the box of data from a video camera is carved up into tube-like regions whose shapes capture information about the motion and deformation of the objects visible in the scene. Novel methods include the projection of all visual motion onto a sparse basis of point trajectories through low-rank matrix data imputation; the use of L1 regularization in a function space that preserves boundaries; the generalization of robust estimation methods from variational calculus and quadratic programming for the efficient computation of tubes and occlusions in the multi-frame case; and several domain-specific techniques for initializing general but local optimization methods close to the global solution. The resulting descriptors enable video retrieval, medical diagnosis of heart rhythm anomalies, assessment of performance in sports, sign language recognition, traffic monitoring, surveillance, and more. The project also forms the basis for a new class on experimental methods for computer vision, the materials of which are made available online.</AbstractNarration>
+<MinAmdLetterDate>08/19/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>05/31/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017017</AwardID>
+<Investigator>
+<FirstName>Carlo</FirstName>
+<LastName>Tomasi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Carlo Tomasi</PI_FULL_NAME>
+<EmailAddress>tomasi@cs.duke.edu</EmailAddress>
+<PI_PHON>9196606539</PI_PHON>
+<NSF_ID>000107168</NSF_ID>
+<StartDate>08/19/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Duke University</Name>
+<CityName>Durham</CityName>
+<ZipCode>277054010</ZipCode>
+<PhoneNumber>9196843030</PhoneNumber>
+<StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+<StreetAddress2><![CDATA[Erwin Square]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>044387793</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>DUKE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>044387793</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Duke University]]></Name>
+<CityName>Durham</CityName>
+<StateCode>NC</StateCode>
+<ZipCode>277054010</ZipCode>
+<StreetAddress><![CDATA[2200 W. Main St, Suite 710]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~113403</FUND_OBLG>
+<FUND_OBLG>2011~344096</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project produced a theory and several algorithms for the analysis of the motions seen in movies. Tracking objects and people in video, as well as describing, sorting out, and separating different motions from each other, are fundamental task that computer algorithms need to be able to perform automatically in order to recognize human activities, analyze body motions for medical purposes, retrieve videos on some topic of interest, build three-dimensional objects of buildings or objects to be inserted into a virtual reality application, and much more. These applications have immediate practical and societal usefulness. In addition, the analysis of visual motion can provide inspiration to neuroscience and cognitive science.</p> <p>What distinguishes the approach followed in this project from prior art is its insistence on describing long-term motion. While most of the literature used to focus on the analysis of a small number of video frames, perhaps covering up to a fraction of a second, this project developed methods to describe motions that evolve over several seconds and possibly minutes. This is important both because long-term analysis makes the separation of different motions more reliable, and because long-term motions convey more information about what is going on in the video.</p> <p>Long-term motion analysis has required an entirely new mathematical setup that describes motions as space-time <em>tubes</em> of sorts that live in four dimensions: the three dimensions of space, plus time. The accompanying figure shows a slice of such a tube in one spatial dimension plus time (see caption for details).</p> <p>The theoretical framework developed under this effort has led to algorithms that can explain the motion of every pixel in a video sequence. It has also branched out into a theory and practical algorithms for tracking many people from a network of cameras placed in a relatively large area such as a shopping mall or a university campus&mdash;methods of potential usefulness in security and surveillance applications.</p> <p>Four graduate students worked on this research over a number of years. Two of them are completing their research towards their PhD theses, and the other two graduated and are employed as computer vision scientists at Google. Together with the principal investigator, these students published articles in the top venues in computer vision and helped mentor undergraduate students in research on various aspects of visual motion analysis. Some of these undergraduates are now pursuing graduate research in computer science.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/25/2015<br>      Modified by: Carlo&nbsp;Tomasi</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2015/1017017/1017017_10021096_1445812996242_epimug--rgov-214x142.jpg" original="/por/images/Reports/POR/2015/1017017/1017017_10021096_1445812996242_epimug--rgov-800width.jpg" title="A slice of a four-dimensional video tube"><img src="/por/images/Reports/POR/2015/1017017/1017017_10021096_1445812996242_epimug--rgov-66x44.jpg" alt="A slice of a four-dimensional video tube"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The central cylinder-like shape is an x-t slice through the space-time visual tube of the body of a rotating mug. The string that spirals around it is a slice through the visual tube of the mug's handle, which alternately hides and is hidden by the mug's body.</div> <div class="imageCredit">Carlo Tomasi, Duke Univers...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project produced a theory and several algorithms for the analysis of the motions seen in movies. Tracking objects and people in video, as well as describing, sorting out, and separating different motions from each other, are fundamental task that computer algorithms need to be able to perform automatically in order to recognize human activities, analyze body motions for medical purposes, retrieve videos on some topic of interest, build three-dimensional objects of buildings or objects to be inserted into a virtual reality application, and much more. These applications have immediate practical and societal usefulness. In addition, the analysis of visual motion can provide inspiration to neuroscience and cognitive science.  What distinguishes the approach followed in this project from prior art is its insistence on describing long-term motion. While most of the literature used to focus on the analysis of a small number of video frames, perhaps covering up to a fraction of a second, this project developed methods to describe motions that evolve over several seconds and possibly minutes. This is important both because long-term analysis makes the separation of different motions more reliable, and because long-term motions convey more information about what is going on in the video.  Long-term motion analysis has required an entirely new mathematical setup that describes motions as space-time tubes of sorts that live in four dimensions: the three dimensions of space, plus time. The accompanying figure shows a slice of such a tube in one spatial dimension plus time (see caption for details).  The theoretical framework developed under this effort has led to algorithms that can explain the motion of every pixel in a video sequence. It has also branched out into a theory and practical algorithms for tracking many people from a network of cameras placed in a relatively large area such as a shopping mall or a university campus&mdash;methods of potential usefulness in security and surveillance applications.  Four graduate students worked on this research over a number of years. Two of them are completing their research towards their PhD theses, and the other two graduated and are employed as computer vision scientists at Google. Together with the principal investigator, these students published articles in the top venues in computer vision and helped mentor undergraduate students in research on various aspects of visual motion analysis. Some of these undergraduates are now pursuing graduate research in computer science.          Last Modified: 10/25/2015       Submitted by: Carlo Tomasi]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

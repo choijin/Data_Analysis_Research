@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: AF:Small: Algorithms for Relational Machine Learning</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>148828.00</AwardTotalIntnAmount>
+<AwardAmount>148828</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>A. Funda Ergun</SignBlockName>
+<PO_EMAI>fergun@nsf.gov</PO_EMAI>
+<PO_PHON>7032922216</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Relational database-management systems constitute a mature, ubiquitous, sophisticated technology that is deeply entrenched.  Seemingly all organizations are collecting vastly increasing volumes of structured as well as unstructured data, and want to extract knowledge from this data using machine-learning techniques/algorithms.  Thus many learning tasks faced by working data scientists involve relational data.  Thus a marriage of machine learning and relational databases seems inevitable.  However, standard machine-learning algorithms are not designed to  operate directly on relational data, and further, it is far from obvious if and how one can adapt many of these algorithms to work on relational data without suffering a significant loss of efficiency.  The current standard practice for a data scientist, confronted with a machine-learning task on relational data, is to  issue a feature-extraction query to extract the (carefully curated) data from the relational database by joining together multiple tables to create a design matrix, and then to import this design matrix  into some  machine-learning tool  to train the model.  This standard practice is wasteful because (1) computing  relational joins is computationally expensive, both in terms of time and space, (2) the resulting design matrix will likely contain much redundant information and consume much more space than the original  tables, and thus (3) the machine-learning task takes more time than should conceptually be necessary.  Algorithms that are orders of magnitude faster for standard machine-learning problems on relational data are certain to exist, and the goal of this research program is to discover them.  Such algorithms would allow the extraction of information from data that is now not currently feasibly extractable.&lt;br/&gt;&lt;br/&gt;The research goals of this project are threefold.  The first goal is to design and analyze relational algorithms for common machine-learning queries. A relational algorithm works directly on the relational data, without forming the design matrix, and can be orders of magnitude faster than standard machine-learning practice for such data.  The second goal  is to design a layer of relational algorithms for commonly arising subproblems and that can be utilized by the data scientists as a sort of middleware toolkit when designing their algorithms.  The third goal is to  build some intuition as to what problems are, and are not, solvable by relational algorithms and that researchers/practitioners can rely on when faced with a new problem.  These goals will require the development of new algorithmic-design and -analysis techniques.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/20/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>10/14/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2036077</AwardID>
+<Investigator>
+<FirstName>Kirk</FirstName>
+<LastName>Pruhs</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kirk Pruhs</PI_FULL_NAME>
+<EmailAddress>kirk@cs.pitt.edu</EmailAddress>
+<PI_PHON>4126248844</PI_PHON>
+<NSF_ID>000388694</NSF_ID>
+<StartDate>08/20/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Pittsburgh</Name>
+<CityName>Pittsburgh</CityName>
+<CountyName/>
+<ZipCode>152133203</ZipCode>
+<PhoneNumber>4126247400</PhoneNumber>
+<StreetAddress>300 Murdoch Building</StreetAddress>
+<StreetAddress2><![CDATA[3420 Forbes Avenue]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>004514360</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF PITTSBURGH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>004514360</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Pittsburgh]]></Name>
+<CityName/>
+<CountyName/>
+<StateCode>PA</StateCode>
+<ZipCode>152133502</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>2878</Code>
+<Text>Special Projects - CCF</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~148828</FUND_OBLG>
+</Award>
+</rootTag>

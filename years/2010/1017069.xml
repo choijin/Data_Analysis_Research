@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS:  Small:  Scaling Routing:  From Theory to Practice (and Back Again)</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2010</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Joseph Lyles</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Traditionally, networks are scaled to very large size through hierarchy: routing is performed on higher level aggregates and subsequently at finer granularity.  The consequences are inefficiency in the form of inflated path lengths, and the use of location-dependent addresses which complicate management, mobility, and multihoming.  Routing on location-independent "flat names" can solve these problems and is independently useful to support secure, self-certifying identifiers.  But no previously proposed protocols exist for scalable, efficient routing directly on flat names. This project is developing distributed compact routing (DCR) protocols which route on flat names while guaranteeing scalability and efficiency for arbitrary networks.  Building on recent theoretical advances in the area of compact routing, DCR addresses key challenges including autonomous distributed operation, congestion, and heterogeneity.  The project is applying these techniques to Internet routing, mobile ad hoc networks, and content-centric networks.  In addition, the project is studying recent systems-oriented proposals to scale Internet routing based on separating the "core" of the Internet from the edges, providing firm theoretical footing by determining when they can improve scalability with little loss of network efficiency. The results of this project will significantly improve scalability, mobility, and manageability in the Internet and other networks, bridging a gap between promising theoretical results and emerging practical needs.   Results will be disseminated through publications and presentations, a public software release, and graduate and undergraduate courses.</AbstractNarration>
+<MinAmdLetterDate>07/07/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/07/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017069</AwardID>
+<Investigator>
+<FirstName>Philip Brighten</FirstName>
+<LastName>Godfrey</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Philip Brighten Godfrey</PI_FULL_NAME>
+<EmailAddress>pbg@illinois.edu</EmailAddress>
+<PI_PHON>2173334862</PI_PHON>
+<NSF_ID>000537388</NSF_ID>
+<StartDate>07/07/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Champaign</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618207406</ZipCode>
+<StreetAddress><![CDATA[1901 South First Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~150000</FUND_OBLG>
+<FUND_OBLG>2011~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project explored provably-efficient network routing for giant networks, improving techniques for the Internet and leading to impact on computer science theory and real-time search in giant social networks.</p> <p>When we send a text message to a friend or search Google or start watching a movie, we are communicating with another computer and often many other computers that can be located anywhere in the world. &nbsp;Behind the scenes, the Internet figures out, within hundreds of milliseconds or less, where in the world this device is located and how to route messages there.</p> <p>How does the Internet find routes for messages through a network composed of many millions of network routers and billions of computers? &nbsp;Traditionally, network routing systems scale to large size with a technique called hierarchical routing: routing is performed on higher level aggregates (like ISPs) and subsequently at finer granularity. &nbsp;However, this leads to inefficiency in the form of inflated path lengths that slow Internet communications, and the use of location-dependent addresses which complicate network management, mobility, and multihoming (use of multiple Internet providers).</p> <p>This project began with the goal of developing efficient routing for large networks, with mathematical guarantees on near-optimal paths and system scalability. &nbsp;The project also led to exciting and initially-unexpected directions, ultimately producing research results in three areas.</p> <p>First, the project developed new algorithms and systems for scalable routing on location-independent names, similar to today's DNS names, with guaranteed near-optimal path length and minimal routing state. &nbsp;The design built on theoretical advances in the area of compact routing, and was the first to realize these guarantees in a dynamic distributed setting.</p> <p>Second, the project's work on practical scalable routing resulted in opening a new line of theory research. Past theoretical work had dealt with an understanding of the scalability of routing in worst-case networks. But essentially all real-world networks have a special structure called sparsity: each node in the network is connected to only a tiny fraction of the others. &nbsp;Routers, for example, typically have tens or hundreds of connections, not millions; Facebook users have hundreds of friends, not hundreds of millions. This project showed that in sparse graphs, the efficiency limits set by past theory work can be broken, realizing important gains.</p> <p>Third, these ideas led to an unexpected new application domain. &nbsp;Computing shortest paths is a fundamental primitive for several social network applications including socially-sensitive ranking, location-aware search, social auctions and social network privacy. Since these applications compute paths in response to a user query, the goal is to minimize latency while maintaining feasible memory requirements. This project showed that the novel scalable routing techniques above, coupled with new data structure and algorithmic mechanisms, allow computation of paths that are nearly always exact shortest paths, within microseconds per query.</p> <p>In addition to these research results, the project produced broader impact: professional development of several undergraduate and PhD researchers, a course module bringing fundamental routing theory to a computer networking audience, and a number of publications in both top computer networking venues and top computer science theory venues. &nbsp;The path-finding technology has been adopted by a social networking company.</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/25/2015<br>      Modified by: Philip Brighten&nbsp;Godfrey</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project explored provably-efficient network routing for giant networks, improving techniques for the Internet and leading to impact on computer science theory and real-time search in giant social networks.  When we send a text message to a friend or search Google or start watching a movie, we are communicating with another computer and often many other computers that can be located anywhere in the world.  Behind the scenes, the Internet figures out, within hundreds of milliseconds or less, where in the world this device is located and how to route messages there.  How does the Internet find routes for messages through a network composed of many millions of network routers and billions of computers?  Traditionally, network routing systems scale to large size with a technique called hierarchical routing: routing is performed on higher level aggregates (like ISPs) and subsequently at finer granularity.  However, this leads to inefficiency in the form of inflated path lengths that slow Internet communications, and the use of location-dependent addresses which complicate network management, mobility, and multihoming (use of multiple Internet providers).  This project began with the goal of developing efficient routing for large networks, with mathematical guarantees on near-optimal paths and system scalability.  The project also led to exciting and initially-unexpected directions, ultimately producing research results in three areas.  First, the project developed new algorithms and systems for scalable routing on location-independent names, similar to today's DNS names, with guaranteed near-optimal path length and minimal routing state.  The design built on theoretical advances in the area of compact routing, and was the first to realize these guarantees in a dynamic distributed setting.  Second, the project's work on practical scalable routing resulted in opening a new line of theory research. Past theoretical work had dealt with an understanding of the scalability of routing in worst-case networks. But essentially all real-world networks have a special structure called sparsity: each node in the network is connected to only a tiny fraction of the others.  Routers, for example, typically have tens or hundreds of connections, not millions; Facebook users have hundreds of friends, not hundreds of millions. This project showed that in sparse graphs, the efficiency limits set by past theory work can be broken, realizing important gains.  Third, these ideas led to an unexpected new application domain.  Computing shortest paths is a fundamental primitive for several social network applications including socially-sensitive ranking, location-aware search, social auctions and social network privacy. Since these applications compute paths in response to a user query, the goal is to minimize latency while maintaining feasible memory requirements. This project showed that the novel scalable routing techniques above, coupled with new data structure and algorithmic mechanisms, allow computation of paths that are nearly always exact shortest paths, within microseconds per query.  In addition to these research results, the project produced broader impact: professional development of several undergraduate and PhD researchers, a course module bringing fundamental routing theory to a computer networking audience, and a number of publications in both top computer networking venues and top computer science theory venues.  The path-finding technology has been adopted by a social networking company.          Last Modified: 02/25/2015       Submitted by: Philip Brighten Godfrey]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

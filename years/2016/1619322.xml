@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Collaborative: Practical Hardware-Assisted Always-On Malware Detection</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>225000.00</AwardTotalIntnAmount>
+<AwardAmount>225000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sandip Kundu</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The project explores building support for malware detection in hardware.   Malware detection is challenging and resource intensive, as the number and sophistication of malware increases.  The resource requirements for malware detection limit its use in practice, leaving malware unchecked on many systems.  We use a low level hardware detector to identify malware as a computational anomaly using low level features such as hardware events, instruction mixes and memory address patterns.  Once malware is suspected, we inform a higher level software detection or protection mechanism that can focus its resources only on suspected malware.  The detector uses low complexity machine learning approaches to classify malware from normal programs using implementations that are feasible in hardware.  &lt;br/&gt;&lt;br/&gt;The project explores countermeasures based on adversarial machine learning to limit attackers trying to evade detection, develops secure integration between the hardware and software detection, and evaluates implementation tradeoffs. The project contributes a new approach to improve the effectiveness of malware detection and to allow systems to be protected continuously without requiring the large resource investment needed by software monitors.  The project holds the promise of significantly impacting an area of critical national need to help secure systems against the expanding threats of malware.  The principles pursued in the proposal can generalize to different computational environments including mobile phones, clouds, and cyberphysical systems.</AbstractNarration>
+<MinAmdLetterDate>07/25/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/25/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1619322</AwardID>
+<Investigator>
+<FirstName>Nael</FirstName>
+<LastName>Abu-Ghazaleh</LastName>
+<PI_MID_INIT>B</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nael B Abu-Ghazaleh</PI_FULL_NAME>
+<EmailAddress>nael@cs.ucr.edu</EmailAddress>
+<PI_PHON>9518272347</PI_PHON>
+<NSF_ID>000677069</NSF_ID>
+<StartDate>07/25/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName>Riverside</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress><![CDATA[900 University Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~225000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project demonstrated that hardware-based malware detectors can  significantly increase security and effectiveness of malware detection  systems and have a potential to become an integral part of future secure  systems if properly designed. Towards this end, the project resulted in  several contributions. First, new approaches to improve the accuracy of  detectors using both ensemble learning (combining multiple detectors)  and detector specializing by malware type were developed.&nbsp; The second  contribution was the demonstration that existing hardware detectors can  be reversed-engineered and evaded by sophisticated attackers that are  aware of the presence of such detectors.&nbsp; We developed evasion  techniques that modify the malware code to inject additional  instructions without requiring the ability to decompile it (which is  generally not possible for obfuscated malware).&nbsp;&nbsp; The project then  demonstrated how hardware detectors can be designed in a way that is  resilient to such reverse-engineeting and evasion attacks. In a third  direction, the project demonstrated that hardware detectors can be a  part of comprehensive hardware-software detection framework, where  hardware detector serves as the first line of defense and prioritizes  the work of the second-level detector. This allows to combine the  benefits of both hardware and software detectors - fast detection, high  coverage and high accuracy. Finally, the project demonstrated that the  integrated hardware-software framework extends to other types of  security monitoring, such as dynamic information flow tracking.&nbsp; New  hardware designs to address emerging attacks that are rooted in hardware  vulnerabilities, such as side-channel attacks on SMT processors, were  also explored.&nbsp; These new techniques, designs, and analyses represent  the intellectual merit contributions of this project.<br /> <br /> The project also produced datasets and analytical models for reasoning  about the performance impact of hardware detectors.&nbsp; Several  publications in top conferences came out of the project, and have made  substantial impact including receiving a high number of citations  already, and being featured in technical press.&nbsp; A research highlight  was in Nature electronics was written about the project contributing to  the dissemination of its results.&nbsp; Several graduate and undergraduate  students have been trained and supported on this grant.&nbsp; The primary PhD  student supported by the project graduated and started a tenure track  position at George Mason University.</p><br> <p>            Last Modified: 01/16/2021<br>      Modified by: Nael&nbsp;B&nbsp;Abu-Ghazaleh</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project demonstrated that hardware-based malware detectors can  significantly increase security and effectiveness of malware detection  systems and have a potential to become an integral part of future secure  systems if properly designed. Towards this end, the project resulted in  several contributions. First, new approaches to improve the accuracy of  detectors using both ensemble learning (combining multiple detectors)  and detector specializing by malware type were developed.  The second  contribution was the demonstration that existing hardware detectors can  be reversed-engineered and evaded by sophisticated attackers that are  aware of the presence of such detectors.  We developed evasion  techniques that modify the malware code to inject additional  instructions without requiring the ability to decompile it (which is  generally not possible for obfuscated malware).   The project then  demonstrated how hardware detectors can be designed in a way that is  resilient to such reverse-engineeting and evasion attacks. In a third  direction, the project demonstrated that hardware detectors can be a  part of comprehensive hardware-software detection framework, where  hardware detector serves as the first line of defense and prioritizes  the work of the second-level detector. This allows to combine the  benefits of both hardware and software detectors - fast detection, high  coverage and high accuracy. Finally, the project demonstrated that the  integrated hardware-software framework extends to other types of  security monitoring, such as dynamic information flow tracking.  New  hardware designs to address emerging attacks that are rooted in hardware  vulnerabilities, such as side-channel attacks on SMT processors, were  also explored.  These new techniques, designs, and analyses represent  the intellectual merit contributions of this project.    The project also produced datasets and analytical models for reasoning  about the performance impact of hardware detectors.  Several  publications in top conferences came out of the project, and have made  substantial impact including receiving a high number of citations  already, and being featured in technical press.  A research highlight  was in Nature electronics was written about the project contributing to  the dissemination of its results.  Several graduate and undergraduate  students have been trained and supported on this grant.  The primary PhD  student supported by the project graduated and started a tenure track  position at George Mason University.       Last Modified: 01/16/2021       Submitted by: Nael B Abu-Ghazaleh]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

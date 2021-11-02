@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER:    Algorithms for Data Set Versioning: Store or Re-create?</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>75000.00</AwardTotalIntnAmount>
+<AwardAmount>75000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rahul Shah</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Technologically facilitated access to large data sets is increasingly emerging as key to scientific research in areas ranging from medicine to climate change with teams of researchers simultaneously engaged in accessing, modifying and cleaning data sets. Not surprisingly, such collaborative data-use has engendered substantial challenges related to data management. Indeed, the continuous modification of large-scale data sets frequently results in the creation of thousands of versions of data sets over time, especially as multiple users? access and edit the data over time. Such proliferation raises some basic questions: Should all versions of a document be saved? While this is certainly convenient, the storage costs may be prohibitively high. Alternatively, should only a certain version be saved? In this case, while the storage costs are low, the cost of recreating a particular version can rise significantly due to the effort involved in making changes to an existing version. This project focuses on the fundamental challenges arising from balancing storage needs with efficient retrieval of information in the context of big data. Thus the primary research goal of this proposal is to design provably good algorithms that will not only result in a deeper understanding of the storage and re-creation tradeoff but will also contribute to the development of effective data storage systems that are based on a sound theoretical foundation.&lt;br/&gt;&lt;br/&gt;In previous NSF-funded projects, the PI has collaborated extensively and successfully with women and high school students and this project will also involve similar collaborations. Over the course of the past five years, the PI has graduated three women PhDs and is currently advising another three. He has also worked with several women undergraduates who are now pursuing doctoral degrees. Additionally, the PI has played a key role establishing connections with the national Braid project, supporting the departmental chapter of the Association of Women in Computing and organizing events and activities focused on bringing in established women computer scientists as role models for current students.&lt;br/&gt; &lt;br/&gt;This fundamental problem can be modeled within a graph theoretic framework, as a directed weighted graph.  Each node denotes a version. In the general form each edge (a,b) has two associated parameters - a weight denoting the storage cost to generate version b, given a copy of a and a cost denoting the cost  to actually perform the computation  of converting a to b. While both these are closely related, they could be different. In addition, the edge weights and costs can be wildly asymmetric. The primary reason for this is that when a new version is created by deleting data, we can simply specify that a significant portion of the data is deleted, however the reverse operation of insertion needs to actually specify the data to be inserted. In this framework, the goal is to compute a rooted tree and the structure and depth of the tree controls the storage and re-creation trade-off. While there exists a deep understanding of this problem for undirected graphs, none of those methods work effectively for directed graphs. This project will develop a deeper understanding of this basic problem.</AbstractNarration>
+<MinAmdLetterDate>09/06/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/06/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1655073</AwardID>
+<Investigator>
+<FirstName>Samir</FirstName>
+<LastName>Khuller</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Samir Khuller</PI_FULL_NAME>
+<EmailAddress>samir.khuller@northwestern.edu</EmailAddress>
+<PI_PHON>8474912748</PI_PHON>
+<NSF_ID>000177377</NSF_ID>
+<StartDate>09/06/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Maryland, College Park</Name>
+<CityName>College Park</CityName>
+<ZipCode>207425141</ZipCode>
+<PhoneNumber>3014056269</PhoneNumber>
+<StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>790934285</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MARYLAND, COLLEGE PARK</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003256088</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Maryland, College Park]]></Name>
+<CityName>College Park</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>207425141</ZipCode>
+<StreetAddress><![CDATA[3112 LEE BLDG 7809 Regents Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~75000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project, we studied a fundamental problem of managing<br />and maintaining multiple dynamically changing version of<br />big data sets. This is a central problem in many applications<br />dealing with many diverse users editing a common data repository.<br />Every small change generates a new version,<br />some of which might be rarely accessed again - thus we cannot<br />afford to explicitly store each version and this leads to<br />a basic tradeoff about which versions to explictly store and<br />for which versions to simply record the changes and then re-apply<br />these if that version is needed. In this way we save on storage,<br />but the retrieval cost goes up.<br /><br />Such a basic problem can be modeled by a directed graph model;<br />and while we have an excellent understanding of how to work<br />with undirected graphs for such a tradeoff, the directed graph<br />problem turns out to be significantly more complex and we<br />can show that the kinds of results that are possible in an undriected<br />graph setting would not be obtainable in a directed graph setting.<br />This firmly establishes that unless we focus on special properties<br />of the graph, it will be difficult to prove results of the<br />type that have been shown in the undirected graph setting.<br /><br />This opens up some new avenues for research, and for example<br />if the graphs are sparse, or planar, we can hope to develop<br />some interesting algorithms.<br /><br /><br /></p><br> <p>            Last Modified: 02/27/2018<br>      Modified by: Samir&nbsp;Khuller</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project, we studied a fundamental problem of managing and maintaining multiple dynamically changing version of big data sets. This is a central problem in many applications dealing with many diverse users editing a common data repository. Every small change generates a new version, some of which might be rarely accessed again - thus we cannot afford to explicitly store each version and this leads to a basic tradeoff about which versions to explictly store and for which versions to simply record the changes and then re-apply these if that version is needed. In this way we save on storage, but the retrieval cost goes up.  Such a basic problem can be modeled by a directed graph model; and while we have an excellent understanding of how to work with undirected graphs for such a tradeoff, the directed graph problem turns out to be significantly more complex and we can show that the kinds of results that are possible in an undriected graph setting would not be obtainable in a directed graph setting. This firmly establishes that unless we focus on special properties of the graph, it will be difficult to prove results of the type that have been shown in the undirected graph setting.  This opens up some new avenues for research, and for example if the graphs are sparse, or planar, we can hope to develop some interesting algorithms.          Last Modified: 02/27/2018       Submitted by: Samir Khuller]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

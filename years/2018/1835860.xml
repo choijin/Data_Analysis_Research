@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: HDR: Data-Driven Earth System Modeling</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>11/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>10/31/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>2499842.00</AwardTotalIntnAmount>
+<AwardAmount>2499842</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>06020106</Code>
+<Directorate>
+<Abbreviation>GEO</Abbreviation>
+<LongName>Directorate For Geosciences</LongName>
+</Directorate>
+<Division>
+<Abbreviation>AGS</Abbreviation>
+<LongName>Div Atmospheric &amp; Geospace Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Eric DeWeaver</SignBlockName>
+<PO_EMAI>edeweave@nsf.gov</PO_EMAI>
+<PO_PHON>7032928527</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Global weather and climate models represent the atmosphere on computational grids with horizontal spacing of perhaps 100km, stacked in layers which can be over a kilometer thick.  Such grids suffice to capture the dynamics of cyclones, fronts, and other large-scale atmospheric phenomena, but these phenomena depend critically on processes with spatial scales much smaller than the grid spacing.  The small-scale processes must be represented indirectly, through parameterization schemes which estimate their net impact on the resolved atmospheric state.  For example clouds are typically too small for the grid spacing yet they are critical for moving moisture from the ocean surface to the mid-troposphere, thus cloud parameterizations play a key role in determining atmospheric humidity even on the largest spatial scales.  Parameterization schemes are inherently approximate, and the development of schemes which produce realistic simulations is a central challenge of model development.  Shortcomings in parameterization limit the usefulness of weather and climate models both for scientific research and for societal applications.&lt;br/&gt;&lt;br/&gt;Most parameterization schemes depend critically on various parameters whose values cannot be determined a priori but must instead be found through trial and error.  This task, referred to as "tuning", is laborious as it is performed separately for each parameterization scheme and involves multiple integrations of the model in multiple configurations. It is also inefficient in its use of observations, which is unfortunate given the large amount of observational data available from satellites and other sources. The resulting parameter sets may not be optimal and may produce unexpected results when all the schemes interact with each other in global simulations.  Finally, manual tuning is not conducive to uncertainty quantification, which would be valuable for estimating the uncertainty in future climate change projections. &lt;br/&gt;&lt;br/&gt;The goal of this project is to replace ad hoc manual tuning with a combination of data assimilation, machine learning, and fine-scale process modeling using large eddy simulation (LES) models.  LES models have grid spacings of a few tens of meters and can explicitly simulate the clouds and turbulence represented by parameterization schemes.  These ingredients are combined to create a global Machine Learning Atmospheric Model (MLAM), in which LES models embedded in selected grid columns of a global model explicitly simulate subgrid-scale processes which are represented by parameterization schemes in the other columns. Machine learning is used to tune the schemes to emulate the behavior of the LES simulations, so that explicit simulations become an online benchmark for parameterization.  In this way all the schemes can be tuned together and interactively within a running global simulation.  Observational data from a variety of sources is assimilated during the model integration to provide a further constraint on parameter values, and estimates of parameter uncertainty are generated as part of the automated tuning.  A similar tuning process is implemented in an ocean general circulation model, and the two are combined to produce a machine learning climate model.  Model tuning is generally viewed as a necessary but mundane activity which is not in itself a research topic.  But a model capable of learning its parameters from observations and process models offers a new path forward, toward both better models and better ways of using models.&lt;br/&gt;&lt;br/&gt;The work has broader impacts due to the societal value of better forecasts and projections from weather and climate models.  The work directly addresses uncertainty in forecasts and projections used by decision makers to plan for weather and climate impacts.  In addition, the modeling strategy developed here is applicable to a broad class of research areas which face the problem of relating large-scale behaviors to small-scale unresolved processes (the problem of relating genotypes to phenotypes in evolutionary biology, for example).  In addition, the PIs will establish a cross-disciplinary graduate program on data-driven Earth system modeling. The program bridges the gap between environmental and computational sciences which currently hinders progress in environmental modeling.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>09/07/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>08/06/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.050</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1835860</AwardID>
+<Investigator>
+<FirstName>Tapio</FirstName>
+<LastName>Schneider</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Tapio Schneider</PI_FULL_NAME>
+<EmailAddress>tapio@caltech.edu</EmailAddress>
+<PI_PHON>6263956143</PI_PHON>
+<NSF_ID>000429933</NSF_ID>
+<StartDate>09/07/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>Stuart</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew M Stuart</PI_FULL_NAME>
+<EmailAddress>astuart@caltech.edu</EmailAddress>
+<PI_PHON>6263954076</PI_PHON>
+<NSF_ID>000741333</NSF_ID>
+<StartDate>09/07/2018</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>California Institute of Technology</Name>
+<CityName>PASADENA</CityName>
+<ZipCode>911250600</ZipCode>
+<PhoneNumber>6263956219</PhoneNumber>
+<StreetAddress>1200 E California Blvd</StreetAddress>
+<StreetAddress2><![CDATA[Mail Code 273-6]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>27</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA27</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009584210</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CALIFORNIA INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009584210</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[California Institute of Technology]]></Name>
+<CityName>Pasadena</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>911250002</ZipCode>
+<StreetAddress><![CDATA[M/C 131-24; 1200 E California Bl]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>27</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA27</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5740</Code>
+<Text>Climate &amp; Large-Scale Dynamics</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8074</Code>
+<Text>EarthCube</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>062Z</Code>
+<Text>Harnessing the Data Revolution</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>4444</Code>
+<Text>INTERDISCIPLINARY PROPOSALS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7925</Code>
+<Text>LARGE PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~1499913</FUND_OBLG>
+<FUND_OBLG>2019~999929</FUND_OBLG>
+</Award>
+</rootTag>

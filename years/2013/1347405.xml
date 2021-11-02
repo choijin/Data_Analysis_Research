@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Reconceiving Scripting Language Design</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Scripting languages such as Python, Javascript, and Ruby have carved out an important niche: rapid development of solutions to small and medium sized problems.  Unfortunately, scripting languages today also have significant shortcomings: type errors arise only at runtime, making it harder to isolate bugs; there are no declared type interfaces, forcing libraries to use informally-described interfaces; and runtime performance is poor compared to statically-typed languages.  The main cause of these problems is the lack of a static type system.&lt;br/&gt;&lt;br/&gt;This project is preliminary work on a new scripting language that addresses this problem by developing a statically-typed scripting language from scratch, aiming to retain the flexibility of existing scripting languages while also solving the fundamental problems of difficult debugging and poor runtime performance.  The PI's approach is based on subtype constraint type inference algorithms, which are very flexible and do not require type declarations.</AbstractNarration>
+<MinAmdLetterDate>08/16/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/16/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1347405</AwardID>
+<Investigator>
+<FirstName>Scott</FirstName>
+<LastName>Smith</LastName>
+<PI_MID_INIT>F</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Scott F Smith</PI_FULL_NAME>
+<EmailAddress>scott@cs.jhu.edu</EmailAddress>
+<PI_PHON>4105165299</PI_PHON>
+<NSF_ID>000291810</NSF_ID>
+<StartDate>08/16/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Johns Hopkins University</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212182686</ZipCode>
+<PhoneNumber>4439971898</PhoneNumber>
+<StreetAddress>1101 E 33rd St</StreetAddress>
+<StreetAddress2><![CDATA[Suite B001]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001910777</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>JOHNS HOPKINS UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001910777</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Johns Hopkins University]]></Name>
+<CityName>Baltimore</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>212182608</ZipCode>
+<StreetAddress><![CDATA[3400 N. Charles St.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Programming language technology underlies all modern computation tasks and is thus pervasive through society. &nbsp;Even a small improvement to this base will lead to broad impacts on society since a single programming language may be found on large servers, in laptops, on cellphones, and in robots, cars, and other devices. &nbsp;For example, if a given program can be made to run faster the computer may require less power; currently around 5% of the US power consumption is to power and cool computers. &nbsp;If a programming language is more <em>productive</em>&nbsp;in that programmers using it finish their tasks more quickly and produce more reliable code it will have a pervasive impact on programmer productivity and software quality and security.</p> <p>The goal of the Big Bang project is to develop fundamental new technologies for this purpose: to develop new programming language principles to build languages that achieve an improvement in both flexibility and efficiency compared to existing programming languages. &nbsp;The particular sort of existing language we focus on are so-called <em>scripting languages</em>, programming languages such as Python, Javascript, Ruby, etc, that were designed to be very flexible and to support fast programming of small tasks. &nbsp;As scripting languages evolved they have been used for larger and larger tasks, but their lack of runtime efficiency and lack of early reporting of type errors make them less than ideal for such tasks. &nbsp;Our primary focus has been the development of novel principles for enabling a compiler to automatically find a wide class of errors in such programs. &nbsp;Our secondary focus has been developing fundamental new principles for compiling such programs which will lead to significantly faster run-time lookup of data and thus much faster performance overall.</p> <p>In the period funded by NSF we made significant refinements and extensions to earlier ideas. &nbsp;One problem with powerful fully automatic analysies is that the complexity becomes overwhelming; we spent considerable time developing a much more concise account of the underyling theory which makes the underling principles more apparent. &nbsp;We also developed several extensions, including added expressiveness features for programmers and a means whereby programmers could assert automatically verified type invariants.</p><br> <p>            Last Modified: 12/01/2014<br>      Modified by: Scott&nbsp;F&nbsp;Smith</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Programming language technology underlies all modern computation tasks and is thus pervasive through society.  Even a small improvement to this base will lead to broad impacts on society since a single programming language may be found on large servers, in laptops, on cellphones, and in robots, cars, and other devices.  For example, if a given program can be made to run faster the computer may require less power; currently around 5% of the US power consumption is to power and cool computers.  If a programming language is more productive in that programmers using it finish their tasks more quickly and produce more reliable code it will have a pervasive impact on programmer productivity and software quality and security.  The goal of the Big Bang project is to develop fundamental new technologies for this purpose: to develop new programming language principles to build languages that achieve an improvement in both flexibility and efficiency compared to existing programming languages.  The particular sort of existing language we focus on are so-called scripting languages, programming languages such as Python, Javascript, Ruby, etc, that were designed to be very flexible and to support fast programming of small tasks.  As scripting languages evolved they have been used for larger and larger tasks, but their lack of runtime efficiency and lack of early reporting of type errors make them less than ideal for such tasks.  Our primary focus has been the development of novel principles for enabling a compiler to automatically find a wide class of errors in such programs.  Our secondary focus has been developing fundamental new principles for compiling such programs which will lead to significantly faster run-time lookup of data and thus much faster performance overall.  In the period funded by NSF we made significant refinements and extensions to earlier ideas.  One problem with powerful fully automatic analysies is that the complexity becomes overwhelming; we spent considerable time developing a much more concise account of the underyling theory which makes the underling principles more apparent.  We also developed several extensions, including added expressiveness features for programmers and a means whereby programmers could assert automatically verified type invariants.       Last Modified: 12/01/2014       Submitted by: Scott F Smith]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

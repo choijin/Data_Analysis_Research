@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SBIR Phase I:  Scalable Formal Verification of Digital Integrated Circuits</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2010</AwardExpirationDate>
+<AwardTotalIntnAmount>0.00</AwardTotalIntnAmount>
+<AwardAmount>175450</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Errol Arkilic</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This Small Business Innovation Research Phase I Project addresses the challenge of scaling pre-silicon functional verification of digital integrated circuits such as microprocessors, ASIC microcontrollers, and SOC products. The complexity of industrial designs results in an large state space with vast room for errors, and prevents designers from being able to comprehensively reason about the correctness of systems deployed in numerous devices, whose real-time failure causes serious losses, monetary and otherwise. Earlier research showed that complexity can be significantly reduced using abstraction and reasoning methods that are applied on design descriptions used for production.  Expected challenges moving forward include automatic tuning of the abstraction, and effective reduction to reasoning engines that can cope with the exponential blowup in the size of designs. &lt;br/&gt;&lt;br/&gt;Reveal's effort specifically addresses the needs of designer and verification engineers by automating the formal verification process through an iterative abstraction and refinement process. The target market for Reveal includes both the integrated design manufacturing and fabless ASIC/SOC suppliers. A typical potential customer would be an ASIC semiconductor design company who is looking to lower its verification costs, decrease time-to-market, and reduce the risks of discovering errors during post-silicon verification or post-production. Given that Reveal's primary function is to find errors in semiconductor design, its implications for equipment with high degrees of complexity, but also with little to no tolerance for failure, which otherwise may pose threat to human lives. Examples of these markets are semiconductor design and manufacturing for hospital equipment, high-availability sensors, and automotive semiconductors.</AbstractNarration>
+<MinAmdLetterDate>10/20/2009</MinAmdLetterDate>
+<MaxAmdLetterDate>07/12/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0945757</AwardID>
+<Investigator>
+<FirstName>Zaher</FirstName>
+<LastName>Andraus</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zaher S Andraus</PI_FULL_NAME>
+<EmailAddress>zandrawi@umich.edu</EmailAddress>
+<PI_PHON>7342728231</PI_PHON>
+<NSF_ID>000534208</NSF_ID>
+<StartDate>10/20/2009</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Reveal, LLC</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481052201</ZipCode>
+<PhoneNumber>7342728231</PhoneNumber>
+<StreetAddress>330 E. Liberty Street, Lower</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832606417</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REVEAL DESIGN AUTOMATION, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Reveal, LLC]]></Name>
+<CityName>Ann Arbor</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>481052201</ZipCode>
+<StreetAddress><![CDATA[330 E. Liberty Street, Lower]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0308000</Code>
+<Name>Industrial Technology</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>5371</Code>
+<Text>SBIR Phase I</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5371</Code>
+<Text>SMALL BUSINESS PHASE I</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>6850</Code>
+<Text>DIGITAL SOCIETY&amp;TECHNOLOGIES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9139</Code>
+<Text>INFORMATION INFRASTRUCTURE &amp; TECH APPL</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~175450</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this SBIR Phase I Project, we prototyped a commercial version of Reveal, a fully automated formal verification system that is able to scale well to modern industrial-size microprocessors without compromising verification coverage. By utilizing partial abstraction and reduction to constraint reasoning, Reveal is able to verify high-level properties on the control logic of microprocessors and microcontrollers implementing various types of optimizations such as pipelining. Reveal is demonstrated using an intuitive equivalence-based verification methodology that requires minimal knowledge about the design or sophisticated formal verification techniques. The project experimented with applying Reveal on the RTL description of a commercial processor by ARM. Reveal exposed a genuine case of unintended behavior, exposed numerous artificially instilled ones, and proved correctness of the refined version of the design, all within minutes of CPU-time.</p> <p>The project advanced two aspects of Reveal's core algorithms. First, it studied the effect of utilizing high-level as well as low-level structures in the design, in order to guide the abstraction/refinement framework. The Reveal framework (based on word-level UF-based abstraction/refinement) is very robust in the sense that structural heuristics have the potential of achieving orders of magnitude speedup for solving using partial abstraction and formula simplifications.</p> <p>Second, it studied the potential of automating the formulation of equivalence-based correctness criterion. In the second commercial core we applied Reveal on, it was evident that due to the way microprocessors are designed today (especially with the high-level optimizations such as pipelining), simplified formulations of ISA-like models can be automatically related (for equivalence) to the RTL model by controlling a minimal set of high-level control signals (or input combinations) for stalling and flushing. However, reasoning on infinite sequences of instructions may require multiple formulations, both inductive and reset-based, to cope with unreachable states and false alarms due to temporal abstraction.</p> <p>Overall, the high-degree of automation in the correctness formulation within Reveal, coupled with the simplicity of the abstraction and solving heuristics, equip the designer or verification engineer with effective means to overcome the state explosion problem without compromising verification coverage and without spending days or weeks of setup time. With the deployment of Reveal, we believe that comprehensive verification of complex microprocessor cores is now feasible.</p> <p>&nbsp;</p><br> <p>            Last Modified: 03/31/2011<br>      Modified by: Zaher&nbsp;S&nbsp;Andraus</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this SBIR Phase I Project, we prototyped a commercial version of Reveal, a fully automated formal verification system that is able to scale well to modern industrial-size microprocessors without compromising verification coverage. By utilizing partial abstraction and reduction to constraint reasoning, Reveal is able to verify high-level properties on the control logic of microprocessors and microcontrollers implementing various types of optimizations such as pipelining. Reveal is demonstrated using an intuitive equivalence-based verification methodology that requires minimal knowledge about the design or sophisticated formal verification techniques. The project experimented with applying Reveal on the RTL description of a commercial processor by ARM. Reveal exposed a genuine case of unintended behavior, exposed numerous artificially instilled ones, and proved correctness of the refined version of the design, all within minutes of CPU-time.  The project advanced two aspects of Reveal's core algorithms. First, it studied the effect of utilizing high-level as well as low-level structures in the design, in order to guide the abstraction/refinement framework. The Reveal framework (based on word-level UF-based abstraction/refinement) is very robust in the sense that structural heuristics have the potential of achieving orders of magnitude speedup for solving using partial abstraction and formula simplifications.  Second, it studied the potential of automating the formulation of equivalence-based correctness criterion. In the second commercial core we applied Reveal on, it was evident that due to the way microprocessors are designed today (especially with the high-level optimizations such as pipelining), simplified formulations of ISA-like models can be automatically related (for equivalence) to the RTL model by controlling a minimal set of high-level control signals (or input combinations) for stalling and flushing. However, reasoning on infinite sequences of instructions may require multiple formulations, both inductive and reset-based, to cope with unreachable states and false alarms due to temporal abstraction.  Overall, the high-degree of automation in the correctness formulation within Reveal, coupled with the simplicity of the abstraction and solving heuristics, equip the designer or verification engineer with effective means to overcome the state explosion problem without compromising verification coverage and without spending days or weeks of setup time. With the deployment of Reveal, we believe that comprehensive verification of complex microprocessor cores is now feasible.          Last Modified: 03/31/2011       Submitted by: Zaher S Andraus]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

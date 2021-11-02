@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: EXPL: FP: Symmetric Queries as a Building Block for Efficient Parallel Query Evaluation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>297592.00</AwardTotalIntnAmount>
+<AwardAmount>297592</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Wei Ding</SignBlockName>
+<PO_EMAI>weiding@nsf.gov</PO_EMAI>
+<PO_PHON>7032928017</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today's applications frequently feature massive and heterogeneous data and complicated computational requirements. There have been many efforts towards efficient parallel query processing and optimization. However, the full potential of parallelism has not been realized by existing techniques and frameworks in scaling to massive datasets, especially for applications that inherently demand recursive data accesses. &lt;br/&gt;&lt;br/&gt;The project offers a theoretical methodology for tackling the problem of parallel query evaluation on massive data. The PI conjectures that to maximize parallelizability of generic queries, e.g., queries that are used frequently in analytical and transactional applications, one needs to examine queries that are inherently parallelizable as the basic unit of study. She identifies symmetric queries as a set of queries that are potentially highly parallelizable and will use such queries as a stepping stone to study parallelizable query languages and leverage the findings to design techniques for efficient evaluation of generic queries. In particular, the project focuses on three separate, yet highly related tasks: (1) design and study a set of query languages whose queries are symmetric, investigate the properties of these languages, and propose and prove theoretical bounds on the computational complexity of the languages, in terms of scaling and data skew; (2) investigate and propose data structures and algorithms for efficiently evaluating queries of these languages in a parallel manner; and (3) propose strategies including query rewrite and optimization techniques for efficient evaluation of arbitrary queries, based on the new data structures and algorithms that  result from (2).&lt;br/&gt;&lt;br/&gt;During the exploratory phase of this project, the PI is conducting research activities in key areas in all three aforementioned topics. These will build the theoretical foundation, form strong collaborations with experts in related areas, and lay the groundwork for an effort suitable for a full-size XPS project. The research result of this project will be beneficial to both the database and the parallel computing communities as a new way to approach the problem of integrating the techniques of each.&lt;br/&gt;&lt;br/&gt;The research methodology and algorithms developed is to be integrated into the undergraduate- and graduate-level database courses the PI teaches, as course materials and topics for course projects. Graduate students are supported by the project as research assistants. The PI works with various initiatives to recruit and encourage undergraduate students to participate in research activities.</AbstractNarration>
+<MinAmdLetterDate>10/29/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/23/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1606557</AwardID>
+<Investigator>
+<FirstName>Yuqing</FirstName>
+<LastName>Wu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yuqing Wu</PI_FULL_NAME>
+<EmailAddress>Melanie.Wu@pomona.edu</EmailAddress>
+<PI_PHON>9096079202</PI_PHON>
+<NSF_ID>000286324</NSF_ID>
+<StartDate>10/29/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Pomona College</Name>
+<CityName>Claremont</CityName>
+<ZipCode>917114434</ZipCode>
+<PhoneNumber>9096218328</PhoneNumber>
+<StreetAddress>Alexander Hall</StreetAddress>
+<StreetAddress2><![CDATA[550 N. College Avenue]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>27</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA27</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>075293357</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>POMONA COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>075293357</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Pomona College]]></Name>
+<CityName>Claremont</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>917114434</ZipCode>
+<StreetAddress><![CDATA[185 E 6th St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>27</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA27</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~297592</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The major goal of this project is to study query languages and how to evaluate them efficiently in a parallel environment.&nbsp;The type of languages at the core of this research project are symmetric queries and their properties, including distinguishability, decidability and complexity.</p> <p>We studied the languages against data on the most abstract level, as a graph with inter-connected nodes. We also studied queries considering their results at the most abstract level, as collections of nodes or node pairs. An significant contribution of the team was that we classified all queries (and sub-queries) as Boolean queries, whose results are Boolean values, node-queries, whose results are set of nodes, or path queries, whose results are node pairs. This classification applies to both queries and sub-queries and allows us to stitch together sub-queries to form larger queries and stitch together results of sub-queries to compute the result of larger queries, via joins or semi-joins.&nbsp;</p> <p>In this project, instead of studying query languages, even symmetric languages, as a whole and considering efficient evaluation of user queries, we studied the sub-languages and the specific data on which these sub-languages can be evaluated efficiently (or not). We focused on the settings in which seemingly difference sub-languages, that is, languages with different levels of complexity, collapse. Such collapse in data of different levels of complexity, including graphs, trees and chains, are illustrated in Hasse diagrams. &nbsp;</p> <p>In our study of the symmetric query languages, we introduced important concepts, such as incidence-relatedness, counting-only and k-counting-only, which we used to discuss the property of sub-languages we introduced, including QuanCALC, SyCALC, k-SyCALC, SimpleCALC-k, and etc., as well as the decidability of the properties of these languages, including satisfiability, validity, query containment, and query equivalence.</p> <p>&nbsp;</p> <p>We also applied our results in domain specific data to test their usefulness. The domain specific data used in our early research include tree structured (XML) and graph-structured (RDF) data of social and citation networks. We also extended the research to temporal data and k-clique type of queries and temporal join queries on such data.&nbsp;For instance, we proposed a semi-join algebra that replace the composition operator in favor of the semi-join operators, studied the relationship between the expressive power of the relation algebras, that heavily rely on composition, and the semi-join algebras and proposed techniques to recognize and apply rewritings that are capable of using semi-joins instead of full composition.</p> <p>&nbsp;</p> <p>In addition to produce scientific results, which are published in leading venues in the field, the PI supported and advised undergraduate students in projects that introduced them to research in computer science. The PI also engaged in and led outreaching activities to promote diversity and equality in the field of computer science. She has been a member of the ACM-W Executive Council and a member of CRA-W board of directors.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/18/2020<br>      Modified by: Yuqing&nbsp;Wu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The major goal of this project is to study query languages and how to evaluate them efficiently in a parallel environment. The type of languages at the core of this research project are symmetric queries and their properties, including distinguishability, decidability and complexity.  We studied the languages against data on the most abstract level, as a graph with inter-connected nodes. We also studied queries considering their results at the most abstract level, as collections of nodes or node pairs. An significant contribution of the team was that we classified all queries (and sub-queries) as Boolean queries, whose results are Boolean values, node-queries, whose results are set of nodes, or path queries, whose results are node pairs. This classification applies to both queries and sub-queries and allows us to stitch together sub-queries to form larger queries and stitch together results of sub-queries to compute the result of larger queries, via joins or semi-joins.   In this project, instead of studying query languages, even symmetric languages, as a whole and considering efficient evaluation of user queries, we studied the sub-languages and the specific data on which these sub-languages can be evaluated efficiently (or not). We focused on the settings in which seemingly difference sub-languages, that is, languages with different levels of complexity, collapse. Such collapse in data of different levels of complexity, including graphs, trees and chains, are illustrated in Hasse diagrams.    In our study of the symmetric query languages, we introduced important concepts, such as incidence-relatedness, counting-only and k-counting-only, which we used to discuss the property of sub-languages we introduced, including QuanCALC, SyCALC, k-SyCALC, SimpleCALC-k, and etc., as well as the decidability of the properties of these languages, including satisfiability, validity, query containment, and query equivalence.     We also applied our results in domain specific data to test their usefulness. The domain specific data used in our early research include tree structured (XML) and graph-structured (RDF) data of social and citation networks. We also extended the research to temporal data and k-clique type of queries and temporal join queries on such data. For instance, we proposed a semi-join algebra that replace the composition operator in favor of the semi-join operators, studied the relationship between the expressive power of the relation algebras, that heavily rely on composition, and the semi-join algebras and proposed techniques to recognize and apply rewritings that are capable of using semi-joins instead of full composition.     In addition to produce scientific results, which are published in leading venues in the field, the PI supported and advised undergraduate students in projects that introduced them to research in computer science. The PI also engaged in and led outreaching activities to promote diversity and equality in the field of computer science. She has been a member of the ACM-W Executive Council and a member of CRA-W board of directors.             Last Modified: 11/18/2020       Submitted by: Yuqing Wu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

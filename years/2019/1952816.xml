@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: SHF: Foundations for Stateful Network Programming</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>02/28/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>126366.00</AwardTotalIntnAmount>
+<AwardAmount>126366</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Billions of people use web-based services on a daily basis for a variety of tasks, such as communication, social networking, and navigation. These services rely on correct and efficient functioning of complex networked systems, which are prone to failures that are often caused by human error. Existing technologies such as software-defined networking (SDN) seek to reduce human error by providing centralized network management and programmability via a standard API, and by separating network management (the SDN "control-plane") from packet forwarding (the SDN "data-plane"). While centralization permits a single network controller to have a global view of the network--which simplifies the control logic--it suffers from severe scalability limitations when the size of a network increases. Moreover, modern SDN data-planes feature powerful, decentralized devices that are able to perform computations and update their local state based on packet contents, thereby allowing them to implement functionality traditionally restricted to the SDN control-plane. Such decentralization requires viewing a network program as a distributed system running on network hardware, rather than as a process running on a controller and interacting with switches. This project establishes a new approach for constructing modern network programs, viewed as distributed systems. The project's novelties are (i) a new abstraction for writing network programs that takes distribution into account and ensures that a network program correctly maintains distributed views of global state; and (ii) techniques for ensuring efficiency of network programs: the techniques ensure that network performance is not penalized by maintenance of global state. The project's impacts are (i) contributions to the general understanding of how to properly build distributed systems, and (ii) development of a language and associated tools which eliminate some of the difficulties domain experts face in building these systems.&lt;br/&gt;&lt;br/&gt;The key contribution is a thorough investigation of the network data-plane as a platform for executing dynamic, stateful code, resulting in a programming system which allows network functions to be realized in the data-plane, and ensures that network programs are verifiably correct and efficiently implementable. The project has two research thrusts. The first thrust focuses on generalizing and implementing event nets. While previous work introduced the concept of event nets (a Petri-nets-based abstraction) for event-driven programming in the context of SDN, this project enriches the event nets language with functionality needed to make it easily usable in other domains such as wireless sensor networking (WSN), internet of things (IoT), and data-centric programming. The resulting language allows programmers to write, for each of these domains, event-driven network programs that use global data structures to describe network-wide behavior, without having to handle unexpected data races during program execution on the (distributed) switches. Additionally, the project implements a compiler that produces executable code from an extended event net: specifically, the compiler automatically constructs a network program's distributed version that targets modern hardware such as Barefoot Network's Tofino chip. The second research thurst focuses on formalizing event nets. The project investigates an algebraic formalization of the extended event nets language, allowing (mechanized) formal reasoning about dynamic, stateful network programs. Finally, the project explores ways in which event nets can be used as a pedagogical tool in teaching undergraduate classes on Computer Networks.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>09/20/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>09/20/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1952816</AwardID>
+<Investigator>
+<FirstName>Jedidiah</FirstName>
+<LastName>McClurg</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jedidiah McClurg</PI_FULL_NAME>
+<EmailAddress>mcclurg@mines.edu</EmailAddress>
+<PI_PHON>3033842131</PI_PHON>
+<NSF_ID>000780303</NSF_ID>
+<StartDate>09/20/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Colorado School of Mines</Name>
+<CityName>Golden</CityName>
+<CountyName/>
+<ZipCode>804011887</ZipCode>
+<PhoneNumber>3032733000</PhoneNumber>
+<StreetAddress>1500 Illinois</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CO07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>010628170</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF THE COLORADO SCHOOL OF MINES</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>010628170</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Colorado School of Mines]]></Name>
+<CityName/>
+<CountyName/>
+<StateCode>CO</StateCode>
+<ZipCode>804011887</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CO07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7798</Code>
+<Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~126366</FUND_OBLG>
+</Award>
+</rootTag>

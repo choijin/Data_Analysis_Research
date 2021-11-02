@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Imaging Planet-Forming Disks and Stellar Surfaces: An Integrated Program of New Observations and Algorithm Development</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>11/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>410090.00</AwardTotalIntnAmount>
+<AwardAmount>410090</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03020000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>AST</Abbreviation>
+<LongName>Division Of Astronomical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Faith Vilas</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The investigators will use the CHARA Interferometer to observe and analyze the inner regions of planet-forming disks around Young Stellar Objects. Their work will test models of accreting protoplanets, stellar surfaces, spectral variability of Young Stellar Objects, and non-axis protoplanetary disk symmetries.  As part of the analysis, they will develop critical imaging software using Compressed Sensing Theory for image reconstruction and analysis of the data.  The work has significant broader impacts in that the algorithms used for image reconstruction will be publicly available and also applicable to astronomical interferometric data obtained with other instruments, including those working at other wavelength regimes (such as radio), and may be used by many astronomers in the community.</AbstractNarration>
+<MinAmdLetterDate>08/22/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/22/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1445935</AwardID>
+<Investigator>
+<FirstName>Fabien</FirstName>
+<LastName>Baron</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Fabien Baron</PI_FULL_NAME>
+<EmailAddress>baron@phy-astr.gsu.edu</EmailAddress>
+<PI_PHON>4044136087</PI_PHON>
+<NSF_ID>000606506</NSF_ID>
+<StartDate>08/22/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia State University Research Foundation, Inc.</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303032921</ZipCode>
+<PhoneNumber>4044133570</PhoneNumber>
+<StreetAddress>58 Edgewood Avenue</StreetAddress>
+<StreetAddress2><![CDATA[PO Box 3999]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>837322494</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA STATE UNIVERSITY RESEARCH FOUNDATION, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia State University]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303032911</ZipCode>
+<StreetAddress><![CDATA[25 Park Place South]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1215</Code>
+<Text>STELLAR ASTRONOMY &amp; ASTROPHYSC</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1207</Code>
+<Text>OBSERVATIONAL ASTRONOMY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~410090</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>All telescopes are limited in the size of the finest details they can distinguish on stars. The size of a telescope, given as the diameter of its main (primary) mirror, dictates how small it can see. Unfortunately even the largest telescopes ever built can barely get more than 4 pixels accross the largest stars. Moreoever much larger mirrors are currently impossible to build since they would sag under their own weight, while costing exponentially more money. And so it seemed stellar imaging was doomed before it could even take off...</p> <p>Yet we would have a lot to learn from imaging the stars and their environments. From the images of Young Stellar Objects (YSOs), these planetary systems in formation, we could understand which stellar systems may or may not develop planets with life-harboring conditions. From the images of stellar surfaces, we could understand the internal magnetism or convection conditions within the star, to better predict future solar storms. <br /><br />Forunately there exist a few techniques that can bypass the single telescope resolution limit. Among these, optical interferometry is the most powerful: by combining the light of several telescopes pointing simultaneously at the same target, astronomers obtain patterns of light known as fringes. In turn, full images can be reconstructed from these fringes thanks to interferometric imaging algorithms. The quality of the reconstruction depends both on the data signal-to-noise ratio and on the assumptions made during the reconstructions. While conventional algorithms have enjoyed reasonable successes on the simplest stars, they are very ill-suited to reconstruct complex objects such as YSOs or rotating stellar surface. Hence this project set up to remedy the situation by developing algorithms that could tackle these hard scenarios.<br /><br />Initially we enhanced the classic algorithms so that they could exploit all the available data acquired at different epochs (times) and at different wavelengths (light colors). Then we introduced the notion of a generic model of stars they could use to guide the reconstruction. For example to model the stellar rotation, our algorithms need to determine the inclination of the star toward us, the amount of darkening spots undergo as they rotate out of view beyond the horizon of the star, and the rotation period of the star. Sometimes this rotation period is not unique and depends on the latitude of the star (such a differential rotation is actually seen on the Sun). We also realized we could tap into the power of Machine Learning, a sucessful computer science technique. Hence we began teaching our software to do what humans can inherently do, i.e. to recognize a stellar object by its features. For example a typical YSO would possess a central star surrounded by a ring of orbiting material, or sometimes a more opaque disc of matter. Meanwhile a spotted star looks like a stellar disc with roundish features on its surface. With this knowledge, even in the presence of very noisy data, our codes can retrieve a "best" image that beat all previous algorithms by a very significant margin.<br /><br />As soon as our algorithms were fully functional, we tested them on the relevant science cases. Thus we recently published two articles in Nature with the highest resolution images ever obtained of spotted stars, first in the case where spots are due to magnetism, and then in the case where they are due to convection. We also recently detected and imaged the differential rotation on the surface of a rotating star. And these are only the first images of future hundreds, as interferometers are only starting to go toward fainter and smaller objects. Finally we have also just initiated very promising studies of spot evolution, to understand what drives the formation and disappearance of these spots.<br /><br />So what about YSO imaging ? With the algorithms ready, all we needed was good data... Unfortunately, while we did manage to collect the highest resolution data ever on YSOs, the final signal-to-noise and quantity of the data did not allow us to reconstruct scientifically useful images, due to an inherent noise limit of our instruments. Yet not all is lost, since in the process we fully analyzed what was needed for imaging fainter objects. It is with this knowledge that we recently started to upgrade the Center for High Angular Resolution Astronomy array with Adaptive Optics and low-noise infrared camera. Once the upgrades are completed in 2018, we will be able to immediately image YSOs with the state-of-the-art algorithms developed during this project.</p><br> <p>            Last Modified: 10/30/2017<br>      Modified by: Fabien&nbsp;Baron</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ All telescopes are limited in the size of the finest details they can distinguish on stars. The size of a telescope, given as the diameter of its main (primary) mirror, dictates how small it can see. Unfortunately even the largest telescopes ever built can barely get more than 4 pixels accross the largest stars. Moreoever much larger mirrors are currently impossible to build since they would sag under their own weight, while costing exponentially more money. And so it seemed stellar imaging was doomed before it could even take off...  Yet we would have a lot to learn from imaging the stars and their environments. From the images of Young Stellar Objects (YSOs), these planetary systems in formation, we could understand which stellar systems may or may not develop planets with life-harboring conditions. From the images of stellar surfaces, we could understand the internal magnetism or convection conditions within the star, to better predict future solar storms.   Forunately there exist a few techniques that can bypass the single telescope resolution limit. Among these, optical interferometry is the most powerful: by combining the light of several telescopes pointing simultaneously at the same target, astronomers obtain patterns of light known as fringes. In turn, full images can be reconstructed from these fringes thanks to interferometric imaging algorithms. The quality of the reconstruction depends both on the data signal-to-noise ratio and on the assumptions made during the reconstructions. While conventional algorithms have enjoyed reasonable successes on the simplest stars, they are very ill-suited to reconstruct complex objects such as YSOs or rotating stellar surface. Hence this project set up to remedy the situation by developing algorithms that could tackle these hard scenarios.  Initially we enhanced the classic algorithms so that they could exploit all the available data acquired at different epochs (times) and at different wavelengths (light colors). Then we introduced the notion of a generic model of stars they could use to guide the reconstruction. For example to model the stellar rotation, our algorithms need to determine the inclination of the star toward us, the amount of darkening spots undergo as they rotate out of view beyond the horizon of the star, and the rotation period of the star. Sometimes this rotation period is not unique and depends on the latitude of the star (such a differential rotation is actually seen on the Sun). We also realized we could tap into the power of Machine Learning, a sucessful computer science technique. Hence we began teaching our software to do what humans can inherently do, i.e. to recognize a stellar object by its features. For example a typical YSO would possess a central star surrounded by a ring of orbiting material, or sometimes a more opaque disc of matter. Meanwhile a spotted star looks like a stellar disc with roundish features on its surface. With this knowledge, even in the presence of very noisy data, our codes can retrieve a "best" image that beat all previous algorithms by a very significant margin.  As soon as our algorithms were fully functional, we tested them on the relevant science cases. Thus we recently published two articles in Nature with the highest resolution images ever obtained of spotted stars, first in the case where spots are due to magnetism, and then in the case where they are due to convection. We also recently detected and imaged the differential rotation on the surface of a rotating star. And these are only the first images of future hundreds, as interferometers are only starting to go toward fainter and smaller objects. Finally we have also just initiated very promising studies of spot evolution, to understand what drives the formation and disappearance of these spots.  So what about YSO imaging ? With the algorithms ready, all we needed was good data... Unfortunately, while we did manage to collect the highest resolution data ever on YSOs, the final signal-to-noise and quantity of the data did not allow us to reconstruct scientifically useful images, due to an inherent noise limit of our instruments. Yet not all is lost, since in the process we fully analyzed what was needed for imaging fainter objects. It is with this knowledge that we recently started to upgrade the Center for High Angular Resolution Astronomy array with Adaptive Optics and low-noise infrared camera. Once the upgrades are completed in 2018, we will be able to immediately image YSOs with the state-of-the-art algorithms developed during this project.       Last Modified: 10/30/2017       Submitted by: Fabien Baron]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

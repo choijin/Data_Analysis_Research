@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SI2-SSE: A GPU-Enabled Toolbox for Solving Hamilton-Jacobi and Level Set Equations on Unstructured Meshes</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>531999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rajiv Ramnath</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>A variety of application domains from geophysics to biomedicine employ some form of Hamilton-Jacobi (H-J) mathematical models. These models are a natural way to express conservation properties, and the two most prevalent H-J models seen in the literature are the Eikonal equation (a static H-J model based upon Fermat's Principle for determining minimal paths) and the Level-Set equations (a time-dependent H-J model used for addressing moving interface problems). The goal of this&lt;br/&gt;effort is to develop, test, document and distribute a collection of software tools for efficiently solving several classes of equations of H-J type -- in particular, Eikonal (minimal path) equations and Level-set equations -- on unstructured (triangular and tetrahedral) meshes using commodity streaming architectures. The PIs have previously demonstrated the feasibility of efficiently solving H-J equations on GPUs; this effort seeks to both scientific extend previous work as well as solidify the software into a publicly available tool suite.&lt;br/&gt; &lt;br/&gt;The intellectual merit of this effort is the development of efficient algorithmic strategies for mapping numerical methods for solving H-J equations on unstructured meshes to commodity streaming architectures. The proposed work will tackle several important technical challenges. One challenge is maintaining sufficient computational density on the parallel computational units (blocks), especially as we move to 3D unstructured meshes. A second technical challenge is the loss in efficiency that comes with communication between blocks. The solutions to these challenges will allow us to exploit currently available commodity streaming architectures that promising to provide teraflop performance on the desktop, which will be a boon for a variety of communities that rely on computationally expensive, simulation-based  experiments. By overcoming the tedious and non-trivial step of developing and distributing software for solving H-J equations on unstructured meshes using commodity streaming architectures, the impact of this work has both longevity and ubiquity in a wide range of applications in diverse fields such as basic science, medicine, and engineering.</AbstractNarration>
+<MinAmdLetterDate>06/25/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>03/31/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1148291</AwardID>
+<Investigator>
+<FirstName>Ross</FirstName>
+<LastName>Whitaker</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ross T Whitaker</PI_FULL_NAME>
+<EmailAddress>whitaker@cs.utah.edu</EmailAddress>
+<PI_PHON>8015818224</PI_PHON>
+<NSF_ID>000193125</NSF_ID>
+<StartDate>06/25/2012</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Robert</FirstName>
+<LastName>Kirby</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME>II</PI_SUFX_NAME>
+<PI_FULL_NAME>Robert M Kirby</PI_FULL_NAME>
+<EmailAddress>kirby@cs.utah.edu</EmailAddress>
+<PI_PHON>8015853421</PI_PHON>
+<NSF_ID>000484303</NSF_ID>
+<StartDate>06/25/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName>Salt Lake City</CityName>
+<StateCode>UT</StateCode>
+<ZipCode>841129200</ZipCode>
+<StreetAddress><![CDATA[72 South Central Campus Dr]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1253</Code>
+<Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7478</Code>
+<Text>DYNAMICAL SYSTEMS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1253</Code>
+<Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7478</Code>
+<Text>DYNAMICAL SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8005</Code>
+<Text>Scientific Software Elements</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~499999</FUND_OBLG>
+<FUND_OBLG>2013~16000</FUND_OBLG>
+<FUND_OBLG>2014~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>The goal of this work is to develop, test, document and distribute a collection of software tools for efficiently solving several classes of equations of H-J type -- in particular, Eikonal (minimal path) equations and level-set equations -- on unstructured (triangular and tetrahedral) meshes using commodity streaming architectures. This effort will allow for the scientific extension and software solidification of both our previous and current Hamilton-Jacobi GPU efforts into a publicly available tool suite. &nbsp;</span></p> <p>The major scientific outcomes of this project were peer-reviewed journal articles that documented new algorithmic advances. &nbsp; Advances in the following areas were made:</p> <p>-- 2d/3d unstructured Eikonal solvers</p> <p>-- Finite Element Method (FEM) and Algebraic Multigrid (AMG) solvers on teh GPU</p> <p>-- 2d/3d unstructured level-set methods on the GPU</p> <p>-- dynamically allocated sparse-matrix allocation methods on the GPU</p> <p>-- hierarchical random ball cover algorithms on the GPU</p> <p>The major engineering outcomes of this project were the hardening of the aforemented algorithms into a publicly available code: GPUTUM. &nbsp;Efforts were made to test the code, document the use cases, set up mailing and distribution lists, and in general to make this code accessible to the scientific community.</p> <p>The major educational outcomes of this project were the students trained, both graduate students and REU undergraduates, and the material and software used in the classroom (the new software suite being accessible for students).</p><br> <p>            Last Modified: 08/04/2016<br>      Modified by: Robert&nbsp;M&nbsp;Kirby</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this work is to develop, test, document and distribute a collection of software tools for efficiently solving several classes of equations of H-J type -- in particular, Eikonal (minimal path) equations and level-set equations -- on unstructured (triangular and tetrahedral) meshes using commodity streaming architectures. This effort will allow for the scientific extension and software solidification of both our previous and current Hamilton-Jacobi GPU efforts into a publicly available tool suite.    The major scientific outcomes of this project were peer-reviewed journal articles that documented new algorithmic advances.   Advances in the following areas were made:  -- 2d/3d unstructured Eikonal solvers  -- Finite Element Method (FEM) and Algebraic Multigrid (AMG) solvers on teh GPU  -- 2d/3d unstructured level-set methods on the GPU  -- dynamically allocated sparse-matrix allocation methods on the GPU  -- hierarchical random ball cover algorithms on the GPU  The major engineering outcomes of this project were the hardening of the aforemented algorithms into a publicly available code: GPUTUM.  Efforts were made to test the code, document the use cases, set up mailing and distribution lists, and in general to make this code accessible to the scientific community.  The major educational outcomes of this project were the students trained, both graduate students and REU undergraduates, and the material and software used in the classroom (the new software suite being accessible for students).       Last Modified: 08/04/2016       Submitted by: Robert M Kirby]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

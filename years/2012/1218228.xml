@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Automatic Software Architecture Recovery: A Machine Learning Approach</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The widespread practice of open source development is changing the IT industry in significant ways. Open source, these days, is a strategy that companies consider as part of their product's marketability. In Science and Engineering, open source has an established track record, and having the source code available to everyone these days is as important as having the data supporting scientific claims available, since Science and Engineering rely more and more on software for substantiating claims. Unfortunately, undocumented source code is as difficult to understand as raw, undocumented data; having it available without being able to understand it is not of much benefit. Open source projects, in particular, are notorious for their lack of documentation, since the developers often don't have the resources to produce artifacts beyond the code, so "the code is the documentation." This is a pervasive problem that impacts Science the most, as it increasingly relies on software that is produced under slim budgets without margin for documentation efforts.&lt;br/&gt;&lt;br/&gt;This project seeks to automatically recover high-level knowledge from software artifacts in order to make software components understandable in the absence of documentation. Recovering high-level knowledge from software artifacts has been a long-sought goal of software engineering research. The achievements so far have been limited. The approach taken here is to use machine learning techniques. This approach may finally start to produce usable solutions to this elusive problem. In pursuing the goal, this project unveils important knowledge and tools related to open source projects. First, it unveils knowledge about which and what kind of relations among source code artifacts correlate with the architecture recovery process. Second, it will produce a catalog of unsupervised learning algorithms tailored for software component identification. This will be publicly available for others to use and study. Third, it will produce a benchmark of software architectures of projects from various domains. Fourth, it will produce a catalog describing the artifacts and the learning technique which best recovered their architecture. Finally, it will produce reusable implementations of (i) several component identification algorithms; and (ii) structural, behavioral, and domain feature extraction. This project combines all this knowledge and tools in a plugin for Eclipse that supports automatic recovery of software architecture.</AbstractNarration>
+<MinAmdLetterDate>08/29/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218228</AwardID>
+<Investigator>
+<FirstName>Cristina</FirstName>
+<LastName>Lopes</LastName>
+<PI_MID_INIT>V</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Cristina V Lopes</PI_FULL_NAME>
+<EmailAddress>lopes@ics.uci.edu</EmailAddress>
+<PI_PHON>9498241525</PI_PHON>
+<NSF_ID>000103290</NSF_ID>
+<StartDate>08/29/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Irvine</Name>
+<CityName>Irvine</CityName>
+<ZipCode>926977600</ZipCode>
+<PhoneNumber>9498247295</PhoneNumber>
+<StreetAddress>160 Aldrich Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>45</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA45</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>046705849</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, IRVINE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Irvine]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>926173067</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>45</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA45</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>Intellectual Merit</strong></p> <p>The primary goal of this project was to explore the effectiveness of machine learning algorithms for solving the problem of software architecture recovery from software artifacts. While we made some initial progress towards that goal, we came across an unexpected, but interesting finding: the fact that there is a large amount of code duplication in software projects, both internal and external. This duplication affected machine learning algorithms, so we proceeded to quantify the phenomenon. For that, we developed a code clone detection tool, SourcererCC, which is capable of detecting near-miss (Type 3) clones in very large code bases in a reasonable amount of time, much better than similar tools, and with an accuracy comparable to the best clone detection tools available. SourcererCC is the most important outcome of this award.</p> <p>SourcererCC exploits an optimized inverted-index to quickly query the potential clones of a given code block. Filtering heuristics based on token ordering are used to significantly reduce the size of the index, the number of code-block comparisons needed to detect the clones, as well as the number of required token-comparisons needed to judge a potential clone.&nbsp;We evaluated the scalability, execution time, recall and precision of SourcererCC, and compared it to four publicly available and state-of-the-art tools. To measure recall, we used two benchmarks: (1) a big benchmark of real clones, BigCloneBench, and (2) a Mutation/Injection-based frameworkof thousands of fine-grained artificial clones. We found SourcererCC to have both high recall and precision, and it was able to scale to a large inter-project repository (25K projects,250MLOC) using a standard workstation.</p> <p>Since the end of this award, we have used SourcererCC to perform clone detection on collections of hundreds of thousands of projects hosted in the popular site GitHub. The code is publicly available at&nbsp;https://github.com/Mondego/SourcererCC.</p> <p><strong>Broader Impacts</strong></p> <p>This award contributed to train several graduate students, one of which has successfully defended his thesis on the topic of large-scale clone detection. The results of the award were published in several scientific papers, and presented at several conferences. Work resulting from this award has been integrated in the Information Retrieval course at UC Irvine, and SourcererCC continues to be maintained and improved. Several other researchers are using SourcererCC, too.&nbsp;In particular, SourcererCC is being used in the DARPA MUSE project as part of the pipeline for ingesting projects for further static analysis.</p> <p>&nbsp;</p><br> <p>            Last Modified: 01/18/2017<br>      Modified by: Cristina&nbsp;V&nbsp;Lopes</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual Merit  The primary goal of this project was to explore the effectiveness of machine learning algorithms for solving the problem of software architecture recovery from software artifacts. While we made some initial progress towards that goal, we came across an unexpected, but interesting finding: the fact that there is a large amount of code duplication in software projects, both internal and external. This duplication affected machine learning algorithms, so we proceeded to quantify the phenomenon. For that, we developed a code clone detection tool, SourcererCC, which is capable of detecting near-miss (Type 3) clones in very large code bases in a reasonable amount of time, much better than similar tools, and with an accuracy comparable to the best clone detection tools available. SourcererCC is the most important outcome of this award.  SourcererCC exploits an optimized inverted-index to quickly query the potential clones of a given code block. Filtering heuristics based on token ordering are used to significantly reduce the size of the index, the number of code-block comparisons needed to detect the clones, as well as the number of required token-comparisons needed to judge a potential clone. We evaluated the scalability, execution time, recall and precision of SourcererCC, and compared it to four publicly available and state-of-the-art tools. To measure recall, we used two benchmarks: (1) a big benchmark of real clones, BigCloneBench, and (2) a Mutation/Injection-based frameworkof thousands of fine-grained artificial clones. We found SourcererCC to have both high recall and precision, and it was able to scale to a large inter-project repository (25K projects,250MLOC) using a standard workstation.  Since the end of this award, we have used SourcererCC to perform clone detection on collections of hundreds of thousands of projects hosted in the popular site GitHub. The code is publicly available at https://github.com/Mondego/SourcererCC.  Broader Impacts  This award contributed to train several graduate students, one of which has successfully defended his thesis on the topic of large-scale clone detection. The results of the award were published in several scientific papers, and presented at several conferences. Work resulting from this award has been integrated in the Information Retrieval course at UC Irvine, and SourcererCC continues to be maintained and improved. Several other researchers are using SourcererCC, too. In particular, SourcererCC is being used in the DARPA MUSE project as part of the pipeline for ingesting projects for further static analysis.          Last Modified: 01/18/2017       Submitted by: Cristina V Lopes]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

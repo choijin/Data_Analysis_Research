@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Collaborative Research: Optimal Provision of Backhaul and Radio Access Networks: A Cross-Network Approach</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>310000.00</AwardTotalIntnAmount>
+<AwardAmount>310000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+<PO_EMAI>pregalia@nsf.gov</PO_EMAI>
+<PO_PHON>7032922981</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The explosive growth in the number of smart consumer devices leads to projections that within 10 years' time, wireless cellular networks need to offer 1000x throughput increase over the current 4G technology. By that time the network should be able to deliver fiber-like user experience boasting 10 Gb/s individual transmission rate for data intensive cloud-based applications. To move such a huge amount of data from the network to the users' handheld devices in real time, revolutionary network infrastructure and advanced network provision are required. Two key enablers of the envisioned future mobile networks are the ultra-dense deployment of base stations and centralized cloud-based processing. This project addresses the challenging problem of managing such densely deployed, cloud-based radio access networks.&lt;br/&gt;&lt;br/&gt;The proposed research includes the introduction of a unified cross-network framework to manage a cloud-based radio access network. Important aspects of resource management in different sub-networks, including the backhaul and the cloud networks, will be considered. The project focuses on providing theoretical insights as well as designing practical algorithms for the optimal provisioning of a cloud-based radio access network. Fundamental computational issues of key cross-network resource management tasks will be investigated, revealing their intrinsic complexity. Moreover, practical schemes capable of optimally utilizing resources across networks will be developed, using cross-network optimization formulations. These algorithms will be optimized to fully exploit the computational resources offered by the cloud centers, addressing key issues such as parallel/distributed implementation, asynchronous computation, and load balancing. The goal is to determine how computational resources should be deployed through the proposed cross-network framework to dramatically improve the performance of a cloud-based radio access network.</AbstractNarration>
+<MinAmdLetterDate>08/26/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/26/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1526434</AwardID>
+<Investigator>
+<FirstName>Zhi-Quan</FirstName>
+<LastName>Luo</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zhi-Quan Luo</PI_FULL_NAME>
+<EmailAddress>luozq@ece.umn.edu</EmailAddress>
+<PI_PHON>6126250242</PI_PHON>
+<NSF_ID>000094217</NSF_ID>
+<StartDate>08/26/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Minnesota-Twin Cities</Name>
+<CityName>Minneapolis</CityName>
+<ZipCode>554552070</ZipCode>
+<PhoneNumber>6126245599</PhoneNumber>
+<StreetAddress>200 OAK ST SE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<StateCode>MN</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MN05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>555917996</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MINNESOTA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>117178941</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Minnesota-Twin Cities]]></Name>
+<CityName>Minneapolis</CityName>
+<StateCode>MN</StateCode>
+<ZipCode>554550170</ZipCode>
+<StreetAddress><![CDATA[200 Union Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MN05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~310000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project develops algorithmic strategies to jointly provision wireless access and backhaul networks in a way that maximizes the network performance (such as throughput) by selecting user-basestation associations, flow paths, and basestation transmission power. The overall problem is cast as a cross-tier network resource optimization problem involving both continuous and discrete variables, and an objective function that is both nonsmooth and nonconvex. As such, the optimization problem is shown to be computationally intractable (i.e., NP-hard). This project develops distributed optimization strategies that are based on successive upper bound minimizations and can be implemented over a number of compute nodes distributed across a communication network. The proposed optimal network provision approach is provably convergent -- local convergence has been established for the developed algorithms. Simulations of realistic networks and traffic flows show that the developed optimal strategies can increase the network performance almost three times WITHOUT adding any hardware to the communication networks.</p> <p>The research problems considered in this project lie at the core of efficient resource management for modern communication networks. The developed technologies are essential to reduce network congestions and traffic delays, and increase network throughput, while not requiring any new network gears. Simple and provably convergent, they can be implemented over practical networks to significantly enhance the network performance.</p><br> <p>            Last Modified: 10/01/2018<br>      Modified by: Zhi-Quan&nbsp;Luo</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project develops algorithmic strategies to jointly provision wireless access and backhaul networks in a way that maximizes the network performance (such as throughput) by selecting user-basestation associations, flow paths, and basestation transmission power. The overall problem is cast as a cross-tier network resource optimization problem involving both continuous and discrete variables, and an objective function that is both nonsmooth and nonconvex. As such, the optimization problem is shown to be computationally intractable (i.e., NP-hard). This project develops distributed optimization strategies that are based on successive upper bound minimizations and can be implemented over a number of compute nodes distributed across a communication network. The proposed optimal network provision approach is provably convergent -- local convergence has been established for the developed algorithms. Simulations of realistic networks and traffic flows show that the developed optimal strategies can increase the network performance almost three times WITHOUT adding any hardware to the communication networks.  The research problems considered in this project lie at the core of efficient resource management for modern communication networks. The developed technologies are essential to reduce network congestions and traffic delays, and increase network throughput, while not requiring any new network gears. Simple and provably convergent, they can be implemented over practical networks to significantly enhance the network performance.       Last Modified: 10/01/2018       Submitted by: Zhi-Quan Luo]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

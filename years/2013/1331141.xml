@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>BSF:2012171:Progress Guarantees for Hardware Transactional Memory</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>44996.00</AwardTotalIntnAmount>
+<AwardAmount>44996</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project is funded as part of the United States-Israel Collaboration in Computer Science (USICCS) program. Through this program, NSF and the United States - Israel Binational Science Foundation (BSF) jointly support collaborations among US-based researchers and Israel-based researchers. Until recently, processors became faster every year, because basic circuit elements like transistors and wires became both smaller and faster.  Around 2005, things changed. Every year, circuits elements continue to become smaller, but they no longer become faster, because they overheat.  In response, processor manufacturers now put multiple processors on each chip.  Instead of doing one task faster, these multicore architectures do many tasks in parallel. This revolution in computer architecture presents enormous challenges to software designers, who must now structure software to exploit increasing parallelism, not speed.&lt;br/&gt;&lt;br/&gt;Recently, Intel and IBM announced new multicore architectures with direct hardware support for transactions, a programming abstraction that promises to make parallel software much easier to design.  The move to hardware transactions can bring about a fundamental positive change in the way we program multicore machines, and now is the time to understand the implications of such a shift.  The proposed research will center around rethinking and redesigning basic synchronization structures such as locks, memory management, and a range of concurrent data structures such as heaps, hash tables, and skip lists, and on how progress guarantees for these data structures interact with issues such as memory management.</AbstractNarration>
+<MinAmdLetterDate>09/11/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/11/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1331141</AwardID>
+<Investigator>
+<FirstName>Maurice</FirstName>
+<LastName>Herlihy</LastName>
+<PI_MID_INIT>P</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Maurice P Herlihy</PI_FULL_NAME>
+<EmailAddress>herlihy@cs.brown.edu</EmailAddress>
+<PI_PHON>4018637646</PI_PHON>
+<NSF_ID>000333742</NSF_ID>
+<StartDate>09/11/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brown University</Name>
+<CityName>Providence</CityName>
+<ZipCode>029129002</ZipCode>
+<PhoneNumber>4018632777</PhoneNumber>
+<StreetAddress>BOX 1929</StreetAddress>
+<StreetAddress2><![CDATA[350 Eddy Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<StateCode>RI</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>RI01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001785542</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BROWN UNIVERSITY IN PROVIDENCE IN THE STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001785542</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brown University]]></Name>
+<CityName>Providence</CityName>
+<StateCode>RI</StateCode>
+<ZipCode>029129002</ZipCode>
+<StreetAddress><![CDATA[BOX 1929]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>RI01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>2878</Code>
+<Text>Special Projects - CCF</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7798</Code>
+<Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~44996</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Every year, modern computer systems grow to encompass more and more parallel processing cores. This growth presents a challenge to software developers, who must coordinate these parallel activities efficiently and correctly. <em>Hardware transactional memory</em> (HTM), currently supported by Intel and Power architectures, has emerged as a promising way to address this challenge. The project investigated ways in which HTM can be used more effectively to guarantee that programs are not delayed by synchronization and coordination.</p> <p><br />The project invented a new programming design pattern, called <em>state teleportation,</em> that uses best-effort hardware transactional memory to speed up certain kinds of legacy concurrent data structures. Teleportation unifies and explains several existing data structure designs, and it serves as the basis for novel approaches to reducing the memory traffic associated with fine-grained locking, and with memory reclamation techniques such as hazard poiners or reference counting.</p> <p><br />The project also proposed novel concurrent memory management techniques designed to exploit the properties of HTM, including <em>thrifty-malloc</em>: a transaction-friendly dynamic memory manager for high-end embedded multicore systems. Thrifty-malloc combines modularity, ease-of-use and hardware transactional memory (HTM) compatibility in a lightweight and memory-efficient design.</p> <p><br />Software using HTM often requires at least two carefully-coordinated code paths: one for transactions, and at least one for when transactions either fail, or are not supported at all. This project developed the novel <em>MCMS</em> interface that allows a simple design of fast concurrent data structures. MCMS-based code can execute efficiently when HTM support is provided, but it also executes well on platforms that do not support HTM, and it handles transaction failures as well.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/05/2018<br>      Modified by: Maurice&nbsp;P&nbsp;Herlihy</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Every year, modern computer systems grow to encompass more and more parallel processing cores. This growth presents a challenge to software developers, who must coordinate these parallel activities efficiently and correctly. Hardware transactional memory (HTM), currently supported by Intel and Power architectures, has emerged as a promising way to address this challenge. The project investigated ways in which HTM can be used more effectively to guarantee that programs are not delayed by synchronization and coordination.   The project invented a new programming design pattern, called state teleportation, that uses best-effort hardware transactional memory to speed up certain kinds of legacy concurrent data structures. Teleportation unifies and explains several existing data structure designs, and it serves as the basis for novel approaches to reducing the memory traffic associated with fine-grained locking, and with memory reclamation techniques such as hazard poiners or reference counting.   The project also proposed novel concurrent memory management techniques designed to exploit the properties of HTM, including thrifty-malloc: a transaction-friendly dynamic memory manager for high-end embedded multicore systems. Thrifty-malloc combines modularity, ease-of-use and hardware transactional memory (HTM) compatibility in a lightweight and memory-efficient design.   Software using HTM often requires at least two carefully-coordinated code paths: one for transactions, and at least one for when transactions either fail, or are not supported at all. This project developed the novel MCMS interface that allows a simple design of fast concurrent data structures. MCMS-based code can execute efficiently when HTM support is provided, but it also executes well on platforms that do not support HTM, and it handles transaction failures as well.           Last Modified: 10/05/2018       Submitted by: Maurice P Herlihy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Distance, Consensus, and Query Algorithms for Recombinant Genealogies</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>213481.00</AwardTotalIntnAmount>
+<AwardAmount>213481</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>08010207</Code>
+<Directorate>
+<Abbreviation>BIO</Abbreviation>
+<LongName>Direct For Biological Sciences</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DEB</Abbreviation>
+<LongName>Division Of Environmental Biology</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>George Gilchrist</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Due to recombination of DNA, the genes passed to an offspring will be a unique combination of DNA from the two grandparents. Because an organism?s DNA, or genome, is organized into chromosomes, a result of recombination is that different parts of a chromosome can have different histories going back in time.  Several computer programs claim to be able to reconstruct these tangled histories of the organization of DNA, but these claims are not well validated.  This project will develop a mathematical measure of similarity between reconstructions of a chromosome's history, so that researchers can test whether existing reconstruction algorithms actually work.  It will also develop software to assess and display areas of agreement or disagreement among multiple reconstructions.  These software tools will be incorporated into computer-based lab exercises to improve understanding of genome structure among undergraduate and graduate college biology students.&lt;br/&gt;&lt;br/&gt;This work aims to improve computational tools used in gene mapping, important in understanding traits encoded in an organism?s DNA including disease inheritance, and improving agricultural breeds of plants and animals.  The tools will contribute to inferring relationships and patterns of evolution among closely related organisms, including crop species, pathogens and pests.  Finally, this research will contribute to identification of genetic traits that have increased or decreased over time, such as traits involved in domestication or disease resistance.  The educational materials will help prepare students to work in evolutionary biology, population genetics, and conservation science.</AbstractNarration>
+<MinAmdLetterDate>12/11/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>12/11/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.074</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1256731</AwardID>
+<Investigator>
+<FirstName>Mary</FirstName>
+<LastName>Kuhner</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mary K Kuhner</PI_FULL_NAME>
+<EmailAddress>mkkuhner@u.washington.edu</EmailAddress>
+<PI_PHON>2065438751</PI_PHON>
+<NSF_ID>000473321</NSF_ID>
+<StartDate>12/11/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981051016</ZipCode>
+<StreetAddress><![CDATA[4333 Brooklyn Ave NE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1171</Code>
+<Text>PHYLOGENETIC SYSTEMATICS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7378</Code>
+<Text>EVOLUTIONARY GENETICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7378</Code>
+<Text>EVOLUTIONARY GENETICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9169</Code>
+<Text>BIODIVERSITY AND ECOSYSTEM DYNAMICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>EGCH</Code>
+<Text>ENVIRONMENT AND GLOBAL CHANGE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~213481</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Different parts of the genome descend from different ancestors:&nbsp; for example, I have a copy of chromosome 1 that is a patchwork of my maternal grandmother's and maternal grandfather's.&nbsp; The ancestral recombination graph (ARG) is a family tree for a chromosome segment that takes this patchwork into account.&nbsp; Several computer programs are in use which may be able to infer the ARG from genetic data, but they have never been tested or validated for this purpose because two key tools were lacking:&nbsp; (1)&nbsp; a measure of how similar an inferred ARG is to the true ARG, (2) a way to summarize multiple estimates of the ARG into a single estimate (the "consensus ARG").&nbsp; We have successfully created these tools: (1) metrics to measure similarity between ARGs; (2) an algorithm for building a consensus ARG.&nbsp; We have published tests of these methods on simulated data and find them to perform well, and have distributed software implementing them.&nbsp; This work will, for the first time, allow ARG inference methods to be compared and validated.&nbsp; We expect the resulting methods to be broadly useful in fields such as virology, plant and animal breeding, and the study of human prehistory.&nbsp; For example, accurate ARG inference could answer questions about the origin of recombinant HIV-1 strains, or the influence of Neanderthal genes on the modern human population.&nbsp; We have also created an online educational module which allows students to examine human and Neanderthal genetic data in order to locate genes of interest, assess the possibility of human/Neanderthal mixture, and better grasp the history of the human genome.</p><br> <p>            Last Modified: 03/06/2017<br>      Modified by: Mary&nbsp;K&nbsp;Kuhner</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Different parts of the genome descend from different ancestors:  for example, I have a copy of chromosome 1 that is a patchwork of my maternal grandmother's and maternal grandfather's.  The ancestral recombination graph (ARG) is a family tree for a chromosome segment that takes this patchwork into account.  Several computer programs are in use which may be able to infer the ARG from genetic data, but they have never been tested or validated for this purpose because two key tools were lacking:  (1)  a measure of how similar an inferred ARG is to the true ARG, (2) a way to summarize multiple estimates of the ARG into a single estimate (the "consensus ARG").  We have successfully created these tools: (1) metrics to measure similarity between ARGs; (2) an algorithm for building a consensus ARG.  We have published tests of these methods on simulated data and find them to perform well, and have distributed software implementing them.  This work will, for the first time, allow ARG inference methods to be compared and validated.  We expect the resulting methods to be broadly useful in fields such as virology, plant and animal breeding, and the study of human prehistory.  For example, accurate ARG inference could answer questions about the origin of recombinant HIV-1 strains, or the influence of Neanderthal genes on the modern human population.  We have also created an online educational module which allows students to examine human and Neanderthal genetic data in order to locate genes of interest, assess the possibility of human/Neanderthal mixture, and better grasp the history of the human genome.       Last Modified: 03/06/2017       Submitted by: Mary K Kuhner]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

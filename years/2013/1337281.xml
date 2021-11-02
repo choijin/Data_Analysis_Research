@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: FP: Collaborative Research: Parallel Irregular Programs: From High-Level Specifications to Run-time Optimizations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>375131.00</AwardTotalIntnAmount>
+<AwardAmount>375131</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The high performance super-computers of today and the ordinary computers of tomorrow have an ever-increasing number of cores.  Utilizing these computers efficiently will allow research advancements in every field of science, from understanding the brain to understanding the fundamental particles to understanding the cosmos.  These new computers are increasingly complex and difficult to program.  At the same time, standard algorithms used in science and engineering are evolving and are increasingly hard to map to these machines.  Advances in programming models, tools, and implementations which make implementing complex algorithms simpler, while achieving high performance, are essential to making high performance computing a standard tool of all scientists.&lt;br/&gt;&lt;br/&gt;Regular algorithms, usually expressed with matrices, have driven high performance computing.  Increasingly there is considerable interest in using large-scale computers for irregular algorithms. Irregular algorithms arise in manipulating graphs, sparse-matrices, trees, adaptive meshes, etc and are increasingly a standard tool used by computational scientists.  Expressing such algorithms at a high-level has allowed high-performance run-times to achieve performance comparable to the best hand-coded implementations of these algorithms on shared-memory machines.  A high level description frees the programmer from the complexities of parallel programming.  The PIs are building run-times and compilers to allow the execution of complex, irregular algorithms on distributed-memory, large-scale computers.  A high-level representation allows the system to exploit considerable knowledge about the semantics of the algorithm to optimize communication, mask latency, and achieve high-performance.</AbstractNarration>
+<MinAmdLetterDate>08/29/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1337281</AwardID>
+<Investigator>
+<FirstName>Keshav</FirstName>
+<LastName>Pingali</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Keshav Pingali</PI_FULL_NAME>
+<EmailAddress>pingali@cs.utexas.edu</EmailAddress>
+<PI_PHON>5122326567</PI_PHON>
+<NSF_ID>000101776</NSF_ID>
+<StartDate>08/29/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>Lenharth</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew Lenharth</PI_FULL_NAME>
+<EmailAddress>lenharth@ices.utexas.edu</EmailAddress>
+<PI_PHON>5124716424</PI_PHON>
+<NSF_ID>000642806</NSF_ID>
+<StartDate>08/29/2013</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787137726</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>21</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX21</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~375131</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Supercomputers are constructed by  connecting&nbsp; tens of  thousand of individual machines into a "cluster," using  specialized, high-performance networks. Communication libraries are used  by those machines to talk to each other over the network.<br /> <br /> Until a decade ago, such supercomputers were used mainly for the  simulation of complex physical systems, such as the earth atmosphere,  for weather prediction, or a flying plane, for aircraft design. MPI, the  main communication library used on supercomputers,  was designed to match the needs of such applications.<br /> <br /> Today, supercomputing clusters are used more and more for the analysis of large  data sets. In many of these applications, the data is organized as a  structure known as a graph in Computer Science. The computing and  communication requirements of these applications are quite different  from those of traditional engineering and science  applications. It is necessary to revisit the design and implementation  of communication software in supercomputers  to&nbsp; optimize this software for such big-data, graph analytics applications.<br /> <br /> This project developed communication software called the Lightweight  Communication Interface (LCI) to better address the needs of graph  analytics applications. It maps  more&nbsp; directly to the underlying hardware and better matches the  requirements of graph analytics applications, thus eliminating software  overheads and improving performance. It enables more light-weight  interaction with computation and communication,&nbsp; by  eliminating semantic features in libraries such as MPI that are not  required for graph analytics applications; and by providing directly  functionality&nbsp; that  require additional layers of  software&nbsp; when built atop MPI.<br /> <br /> The LCI communication software was integrated into a system called  D-Galois, developed at the University of Texas at Austin, for  programming graph analytics applications.  The&nbsp; goal of D-Galois is to permit application developers to write  graph analytics applications using high-level programming abstractions  that promote programmer productivity.</p> <p>Experimental studies on big clusters at the Texas Advanced Computing Center (TACC)  showed&nbsp; that the integration of D-Galois and LCI resulted in a  powerful system that was roughly ten times faster than previous  state-of-the-art cluster-based graph analytics systems.</p><br> <p>            Last Modified: 12/17/2018<br>      Modified by: Keshav&nbsp;Pingali</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Supercomputers are constructed by  connecting  tens of  thousand of individual machines into a "cluster," using  specialized, high-performance networks. Communication libraries are used  by those machines to talk to each other over the network.    Until a decade ago, such supercomputers were used mainly for the  simulation of complex physical systems, such as the earth atmosphere,  for weather prediction, or a flying plane, for aircraft design. MPI, the  main communication library used on supercomputers,  was designed to match the needs of such applications.    Today, supercomputing clusters are used more and more for the analysis of large  data sets. In many of these applications, the data is organized as a  structure known as a graph in Computer Science. The computing and  communication requirements of these applications are quite different  from those of traditional engineering and science  applications. It is necessary to revisit the design and implementation  of communication software in supercomputers  to  optimize this software for such big-data, graph analytics applications.    This project developed communication software called the Lightweight  Communication Interface (LCI) to better address the needs of graph  analytics applications. It maps  more  directly to the underlying hardware and better matches the  requirements of graph analytics applications, thus eliminating software  overheads and improving performance. It enables more light-weight  interaction with computation and communication,  by  eliminating semantic features in libraries such as MPI that are not  required for graph analytics applications; and by providing directly  functionality  that  require additional layers of  software  when built atop MPI.    The LCI communication software was integrated into a system called  D-Galois, developed at the University of Texas at Austin, for  programming graph analytics applications.  The  goal of D-Galois is to permit application developers to write  graph analytics applications using high-level programming abstractions  that promote programmer productivity.  Experimental studies on big clusters at the Texas Advanced Computing Center (TACC)  showed  that the integration of D-Galois and LCI resulted in a  powerful system that was roughly ten times faster than previous  state-of-the-art cluster-based graph analytics systems.       Last Modified: 12/17/2018       Submitted by: Keshav Pingali]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

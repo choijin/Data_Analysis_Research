@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: Algorithms and software for a new polyhedral polynomial system solver</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/15/2011</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jack S. Snoeyink</SignBlockName>
+<PO_EMAI>jsnoeyin@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Polyhedral methods to solve polynomial systems exploit the sparsity structure and give rise to hybrid symbolic-numeric algorithms for the computation of Puiseux series expansions of the solutions. The leading powers of the series are tropisms and are defined by the exact Newton polytopes of the system, while the coefficients of the series are solutions of initial form systems which may have coefficients of limited accuracy. The new algorithms will be implemented in the free open source software system PHCpack, with interfaces to computer algebra systems such as Macaulay 2 and Sage (linking the PHCpack library as a Python module). As almost all modern computers have multiple cores enabling to compute in parallel, we design our algorithms for speedup and quality, using the multiple cores to compensate for the cost of multiprecision arithmetic.&lt;br/&gt;&lt;br/&gt;Solving polynomial systems is a fundamental problem in mathematics with applications to various fields of science and engineering. Solvers that exploit the sparse structure provide better solutions faster. Algorithms and software produced by the proposed research will be disseminated through the users and developers community of Macaulay 2, a computer algebra system for research and teaching in algebraic geometry and commutative algebra. Implementations on parallel computers will enable the efficient solution of large computational problems.</AbstractNarration>
+<MinAmdLetterDate>05/25/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>05/25/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1115777</AwardID>
+<Investigator>
+<FirstName>Jan</FirstName>
+<LastName>Verschelde</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jan Verschelde</PI_FULL_NAME>
+<EmailAddress>janv@uic.edu</EmailAddress>
+<PI_PHON>3129964609</PI_PHON>
+<NSF_ID>000326311</NSF_ID>
+<StartDate>05/25/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606124305</ZipCode>
+<PhoneNumber>3129962862</PhoneNumber>
+<StreetAddress>809 S. Marshfield Avenue</StreetAddress>
+<StreetAddress2><![CDATA[MB 502, M/C 551]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>098987217</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606124305</ZipCode>
+<StreetAddress><![CDATA[809 S. Marshfield Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7933</Code>
+<Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Polynomial systems arise in many fields of science and engineering.&nbsp; The solutions of polynomial systems can be isolated points, or then can be positive dimensional solution sets, such as curves and surfaces.&nbsp; Whether a system has a solution set that is positive dimensional can be determined already from the structure of the exponents that occur in the system, by so-called polyhedral methods.&nbsp; On important benchmark problems such as the cyclic n-roots polynomial systems, jointly with Danko Adrovic, developed polyhedral methods to compute representations for the positive dimensional solution sets.</p> <p>When solving larger polynomial systems, the double precision as provided by standard hardware processor is no longer sufficient to compute the solutions accurately.&nbsp;&nbsp; For accurate solutions, we use double double and quad double precision as provided by the software libraries.&nbsp; To compensate for the cost overhead caused by the software driven arithmetic, we proposed to use a general purpose Graphics Processor Unit (GPU).&nbsp;&nbsp; Jointly with Genady Yoffe and Xiangcheng Yu, code was developed to accelerate Newton's method in double double and quad double arithmetic.&nbsp;&nbsp; Our results on some benchmark problems show that with GPU acceleration we can compensate for one level of extra precision.&nbsp; We achieve what can be called quality up: with GPU acceleration we can double the precision and still obtain results faster than the unaccelerated code in the standard hardware double precision.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/04/2015<br>      Modified by: Jan&nbsp;Verschelde</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Polynomial systems arise in many fields of science and engineering.  The solutions of polynomial systems can be isolated points, or then can be positive dimensional solution sets, such as curves and surfaces.  Whether a system has a solution set that is positive dimensional can be determined already from the structure of the exponents that occur in the system, by so-called polyhedral methods.  On important benchmark problems such as the cyclic n-roots polynomial systems, jointly with Danko Adrovic, developed polyhedral methods to compute representations for the positive dimensional solution sets.  When solving larger polynomial systems, the double precision as provided by standard hardware processor is no longer sufficient to compute the solutions accurately.   For accurate solutions, we use double double and quad double precision as provided by the software libraries.  To compensate for the cost overhead caused by the software driven arithmetic, we proposed to use a general purpose Graphics Processor Unit (GPU).   Jointly with Genady Yoffe and Xiangcheng Yu, code was developed to accelerate Newton's method in double double and quad double arithmetic.   Our results on some benchmark problems show that with GPU acceleration we can compensate for one level of extra precision.  We achieve what can be called quality up: with GPU acceleration we can double the precision and still obtain results faster than the unaccelerated code in the standard hardware double precision.          Last Modified: 09/04/2015       Submitted by: Jan Verschelde]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

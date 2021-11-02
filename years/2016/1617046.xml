@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Scalable, heterogeneity-aware load balancing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>394981.00</AwardTotalIntnAmount>
+<AwardAmount>394981</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Several extremely large online services are provided by distributed systems. Load balancers play a vital role in such systems by distributing incoming requests among the back-end nodes. However, given the rise in cloud computing and the increasing popularity of online services, load balancers today face significant challenges that impact performance. Key among them is the need to quickly distribute millions of requests among heterogeneous nodes while adapting to changing system conditions. Failure to serve requests in a timely manner can lead to loss of revenue due to customer abandonment. This research proposes novel, scalable algorithms that enable high-throughput load balancers for cloud deployments. By leveraging concepts from queueing theory, this research will investigate dynamic, near-optimal load distribution policies with provable performance guarantees. The proposed algorithms will be designed for easy adoption in existing open-source load balancers, including Apache, HAProxy, and nginx. &lt;br/&gt;&lt;br/&gt;Recent network function virtualization trends have put the spotlight back on software network functions. This project will explore novel software load balancers for modern computing environments, including dedicated clusters and shared cloud environments. Given the need for high-throughput load balancing decisions, this research focuses on simple yet powerful randomized load balancer designs. The key idea of the proposed research is to dynamically adapt the routing probability based on inferred changes in the workload and infrastructure. Queueing theoretic models will be leveraged to understand the impact of routing on performance, and machine learning techniques will be employed for detecting system changes. The proposed load balancers will be evaluated in Web and data-dependent environments, including MapReduce implementations. The integrated theory-systems research approach will provide unique interdisciplinary educational and collaborative opportunities, including (cross-listed) course development, student training, and technology transfer with industrial partners.</AbstractNarration>
+<MinAmdLetterDate>09/07/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/07/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617046</AwardID>
+<Investigator>
+<FirstName>Anshul</FirstName>
+<LastName>Gandhi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Anshul Gandhi</PI_FULL_NAME>
+<EmailAddress>anshul@cs.stonybrook.edu</EmailAddress>
+<PI_PHON>6316328475</PI_PHON>
+<NSF_ID>000651407</NSF_ID>
+<StartDate>09/07/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>SUNY at Stony Brook</Name>
+<CityName>Stony Brook</CityName>
+<ZipCode>117940001</ZipCode>
+<PhoneNumber>6316329949</PhoneNumber>
+<StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804878247</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>020657151</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[SUNY at Stony Brook]]></Name>
+<CityName>Stony Brook</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>117943362</ZipCode>
+<StreetAddress><![CDATA[WEST 5510 FRK MEL LIB]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~394981</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Today's applications often run in heterogeneous environments with different execution options (e.g., CPU vs. <span><span>GPU</span></span>), different resource allocations (e.g., <span><span>VMs</span></span> of different sizes and under various levels of contention), and different hosting models (e.g., <span><span>serverless</span></span> applications). Existing load balancing and scheduling approaches are largely oblivious to such heterogeneity.</p> <p><span>This project developed load balancers and schedulers specifically for heterogeneous environments. For <span>TensorFlow</span> jobs that can executed on <span>GPUs</span> and CPUs, the project developed Pesto, a static operation placer that optimizes the model parallelism of large deep neural nets across CPUs and <span>GPUs</span> in a host. For contention-aware cloud environments, this project developed DIAL and Scavenger to accommodate latency-sensitive <span>VM</span> applications on consolidated hosts as well as <span>colocation</span> with batch workloads. For <span>serverless</span> applications, this project developed ENSURE, an efficient scheduler and resource managers that scales well in <span>serverless</span> environments.</span></p> <p>The design and evaluation of our load balancers and schedulers has been published in leading venues on performance modeling and cloud computing. Topics from this project have been integrated into existing graduate courses taught by the PI. The projects promoted interdisciplinary education by involving faculty and students from the Applied Mathematics and Statistics department and the College of Business at Stony Brook University.</p> <p>The interdisciplinary nature of this project provided valuable theoretical and hands-on learning opportunities to the graduate students and high school students engaged in the project. Several MS students involved with this project are now gainfully employed in the industry. The PhD students involved in this project presented their research at academic conferences. One student involved in the project has now graduated and is pursuing his post-doctoral research. Another student is scheduled to graduate soon.</p><br> <p>            Last Modified: 11/02/2020<br>      Modified by: Anshul&nbsp;Gandhi</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Today's applications often run in heterogeneous environments with different execution options (e.g., CPU vs. GPU), different resource allocations (e.g., VMs of different sizes and under various levels of contention), and different hosting models (e.g., serverless applications). Existing load balancing and scheduling approaches are largely oblivious to such heterogeneity.  This project developed load balancers and schedulers specifically for heterogeneous environments. For TensorFlow jobs that can executed on GPUs and CPUs, the project developed Pesto, a static operation placer that optimizes the model parallelism of large deep neural nets across CPUs and GPUs in a host. For contention-aware cloud environments, this project developed DIAL and Scavenger to accommodate latency-sensitive VM applications on consolidated hosts as well as colocation with batch workloads. For serverless applications, this project developed ENSURE, an efficient scheduler and resource managers that scales well in serverless environments.  The design and evaluation of our load balancers and schedulers has been published in leading venues on performance modeling and cloud computing. Topics from this project have been integrated into existing graduate courses taught by the PI. The projects promoted interdisciplinary education by involving faculty and students from the Applied Mathematics and Statistics department and the College of Business at Stony Brook University.  The interdisciplinary nature of this project provided valuable theoretical and hands-on learning opportunities to the graduate students and high school students engaged in the project. Several MS students involved with this project are now gainfully employed in the industry. The PhD students involved in this project presented their research at academic conferences. One student involved in the project has now graduated and is pursuing his post-doctoral research. Another student is scheduled to graduate soon.       Last Modified: 11/02/2020       Submitted by: Anshul Gandhi]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

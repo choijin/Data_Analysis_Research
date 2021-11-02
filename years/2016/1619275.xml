@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Trustworthy Code Generation for the LLVM Compiler Infrastructure</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>It is becoming widespread practice for software applications to be shipped in the form of a virtual instruction set (i.e,. as "virtual code") and translated to the instruction set of a physical computer ("machine code") after shipping, e.g., when downloading an app to an iPhone or just before execution for code embedded in many Web pages. Increasingly the LLVM virtual instruction set (developed by the principal investigator under prior NSF funding) is being used by various industries. A serious problem with this model is that application developers are unable to test the final computer code that is generated for their applications: they are only able to test the virtual code.&lt;br/&gt;&lt;br/&gt;This project is developing new techniques that allow application developers to have much higher confidence in the final code for applications that ship as virtual code.  The basic approach, called "translation validation," allows the translation process from virtual to machine code to also generate a formal proof that the machine code preserves all the correct behaviors of the virtual code, and does not introduce any unexpected incorrect behaviors.  Unlike existing work on translation validation, this work can generate proofs for translation between two very different languages, as well as formal guarantees in the presence of possible incorrect behaviors in the virtual code.  Besides these reliability benefits, the strategy also improves the security of software because virtual code is widely used today as a means to enforce security requirements of important systems, e.g., Web browsers, operating systems, and database systems.  Such systems rely on correct translations of virtual code to machine code to enforce security, and formally verified translations will prevent security vulnerabilities that might otherwise be introduced by bugs in complex (and so, inherently bug-prone) translators.</AbstractNarration>
+<MinAmdLetterDate>05/31/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>05/31/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1619275</AwardID>
+<Investigator>
+<FirstName>Vikram</FirstName>
+<LastName>Adve</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vikram S Adve</PI_FULL_NAME>
+<EmailAddress>vadve@cs.uiuc.edu</EmailAddress>
+<PI_PHON>2172442016</PI_PHON>
+<NSF_ID>000334755</NSF_ID>
+<StartDate>05/31/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Grigore</FirstName>
+<LastName>Rosu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Grigore Rosu</PI_FULL_NAME>
+<EmailAddress>grosu@illinois.edu</EmailAddress>
+<PI_PHON>2172447431</PI_PHON>
+<NSF_ID>000488532</NSF_ID>
+<StartDate>05/31/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName/>
+<StateCode>IL</StateCode>
+<ZipCode>618207473</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Software applications are widely used for security-critical tasks today: financial transactions, legal contracts, health care data, military command and control, transportation systems, and many others. It is then essential that such software is trustworthy, meaning it will operate according to its specification, and secure, meaning it cannot be manipulated by malicious attackers for harmful purposes. &nbsp;The scientific community has dedicated a lot of resources into designing techniques for providing guarantees of software correctness and security as well as for extensive software testing to detect errors and security vulnerabilities. &nbsp;Unfortunately most of this research applies to software at the source code level, that is software written in a human-readable programming language such as C/C++, Fortran, Rust, Swift, Go, etc. &nbsp;On the other hand, software is actually executed using a binary, machine-understandable representation of the code. &nbsp;The tools that translate software from the source level to the binary level, known as compilers, are themselves extremely complicated pieces of software that not only perform the translation but also transform the code extensively to make it more efficient (e.g. maximizing speed, minimizing memory requirements, and minimizing energy consumption). &nbsp;The compilation step makes correctness and security guarantees that have been verified at the source level void for the binary level, unless there is high trust in the compiler itself. &nbsp;This is not a desirable outcome, since compilers are similarly plagued by errors as any other complicated software tool. &nbsp;However, if the binary code generated from source programs could be proved equivalent to the original source, then it would suffice to apply sophisticated correctness and security checking tools to source programs in order to obtain the corresponding guarantees for the binary code.</p> <p>Our research aims to develop new and improved techniques to prove the equivalence of source code and generated binary code, a widely studied approach known as Translation Validation (TV). &nbsp;A key advantage of the TV approach, in general, is that it requires only limited internal information from the compiler, and so it can be retrofitted relatively easily to complex and constantly evolving production compilers. &nbsp;In our research, we advance the state of the art in Translation Validation in three ways. &nbsp;First, we design a TV-based verifier that can be reused across transformations, while separating out the parts of the verifier that must be transformation-specific. &nbsp;This enables a common TV-based verifier to be reused across most of the major phases of a modern compiler, greatly reducing the effort for developing an end-to-end TV system for such a compiler. &nbsp;Second, we design our verifier algorithm so that it can work for any pair of input and output languages (technically, these languages can be specified as inputs to the algorithm, along with the input and output programs). &nbsp;This is important because compilers translate programs through a sequence of intermediate languages on the way to generating the final binary code, with as many as four to eight different languages in modern production compilers. &nbsp;In contrast, all previous TV algorithms were specific to a particular language pair and, therefore, could be used for only a single phase of a compiler. &nbsp;Third, we use these algorithms to prove formally the correctness of two of the most important and complex phases of the widely-used LLVM Compiler Infrastructure, namely, Instruction Selection (which translates a mid-level, machine independent program representation to the machine instructions of a target machine) and Register Allocation (which assigns variables of the input program to the physical registers of the target machine). &nbsp;In our ongoing work, we are further using our algorithms to prove the correctness of other phases of LLVM-based compilers. &nbsp;The eventual goal of our work is an end-to-end system capable of proving correctness of an LLVM-based compiler system, which would have major theoretical implications (because the modularity and language-independence of our techniques make them easy to reuse for other production compilers) and practical benefits (because LLVM is used for important real-world compilers, including ones from Apple, Google, Intel, IBM, NVIDIA, Cray, and many other companies).</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/20/2020<br>      Modified by: Vikram&nbsp;S&nbsp;Adve</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Software applications are widely used for security-critical tasks today: financial transactions, legal contracts, health care data, military command and control, transportation systems, and many others. It is then essential that such software is trustworthy, meaning it will operate according to its specification, and secure, meaning it cannot be manipulated by malicious attackers for harmful purposes.  The scientific community has dedicated a lot of resources into designing techniques for providing guarantees of software correctness and security as well as for extensive software testing to detect errors and security vulnerabilities.  Unfortunately most of this research applies to software at the source code level, that is software written in a human-readable programming language such as C/C++, Fortran, Rust, Swift, Go, etc.  On the other hand, software is actually executed using a binary, machine-understandable representation of the code.  The tools that translate software from the source level to the binary level, known as compilers, are themselves extremely complicated pieces of software that not only perform the translation but also transform the code extensively to make it more efficient (e.g. maximizing speed, minimizing memory requirements, and minimizing energy consumption).  The compilation step makes correctness and security guarantees that have been verified at the source level void for the binary level, unless there is high trust in the compiler itself.  This is not a desirable outcome, since compilers are similarly plagued by errors as any other complicated software tool.  However, if the binary code generated from source programs could be proved equivalent to the original source, then it would suffice to apply sophisticated correctness and security checking tools to source programs in order to obtain the corresponding guarantees for the binary code.  Our research aims to develop new and improved techniques to prove the equivalence of source code and generated binary code, a widely studied approach known as Translation Validation (TV).  A key advantage of the TV approach, in general, is that it requires only limited internal information from the compiler, and so it can be retrofitted relatively easily to complex and constantly evolving production compilers.  In our research, we advance the state of the art in Translation Validation in three ways.  First, we design a TV-based verifier that can be reused across transformations, while separating out the parts of the verifier that must be transformation-specific.  This enables a common TV-based verifier to be reused across most of the major phases of a modern compiler, greatly reducing the effort for developing an end-to-end TV system for such a compiler.  Second, we design our verifier algorithm so that it can work for any pair of input and output languages (technically, these languages can be specified as inputs to the algorithm, along with the input and output programs).  This is important because compilers translate programs through a sequence of intermediate languages on the way to generating the final binary code, with as many as four to eight different languages in modern production compilers.  In contrast, all previous TV algorithms were specific to a particular language pair and, therefore, could be used for only a single phase of a compiler.  Third, we use these algorithms to prove formally the correctness of two of the most important and complex phases of the widely-used LLVM Compiler Infrastructure, namely, Instruction Selection (which translates a mid-level, machine independent program representation to the machine instructions of a target machine) and Register Allocation (which assigns variables of the input program to the physical registers of the target machine).  In our ongoing work, we are further using our algorithms to prove the correctness of other phases of LLVM-based compilers.  The eventual goal of our work is an end-to-end system capable of proving correctness of an LLVM-based compiler system, which would have major theoretical implications (because the modularity and language-independence of our techniques make them easy to reuse for other production compilers) and practical benefits (because LLVM is used for important real-world compilers, including ones from Apple, Google, Intel, IBM, NVIDIA, Cray, and many other companies).          Last Modified: 12/20/2020       Submitted by: Vikram S Adve]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

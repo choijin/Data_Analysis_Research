@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Asymptotically Guided Calculations of Thermophysical Properties</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>240000.00</AwardTotalIntnAmount>
+<AwardAmount>240000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sushil K Prasad</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This research focuses on the development, implementation, and application of new computational methods for characterizing the behavior of fluids from molecular models. The analytical formulation is based on the virial equation of state (VEOS). To guide the calculation of virial coefficients, asymptotic expansion methods are applied in two ways: (1) to more accurately capture the behavior near the vapor-liquid critical point, and (2) to characterize the temperature dependence from sub- to super-critical conditions. The actual calculations are implemented on an HPC cluster system using newly acquired Netezza Data Intensive Super Computer (DISC) hardware, in an effort to keep the data close to the processors.  This gives us the opportunity to develop novel data-intensive algorithms that work in unison with the DISC system&lt;br/&gt;&lt;br/&gt;The VEOS and related methods are appealing routes to describing fluid-phase behavior, because they are based rigorously on molecular considerations. Specifically, the VEOS expresses the pressure as a power series in density.  One of the limitations of this treatment is encountered in applications near the vapor-liquid critical point, where the true behavior is known to be non-analytic.  Crossover methods and asymptotic analysis can remedy this problem, while also suggesting novel routes to perform the calculations. A side effect of this development is the huge proliferation of so-called cluster integrals that are required for calculation, making this a problem that is ideally suited for computational research. The computations are structured such that independent calculations can be combined to yield a precise result for a given cluster integral. Although computationally expensive, the approach is perfectly parallelizable, and thus the calculations are well conditioned for new multi-core architectures and distributed-processor paradigms.</AbstractNarration>
+<MinAmdLetterDate>12/29/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>12/29/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1048579</AwardID>
+<Investigator>
+<FirstName>Nathaniel</FirstName>
+<LastName>Barlow</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nathaniel S Barlow</PI_FULL_NAME>
+<EmailAddress/>
+<PI_PHON>3152128852</PI_PHON>
+<NSF_ID>000567553</NSF_ID>
+<StartDate>12/29/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Barlow                  Nathaniel      S</Name>
+<CityName>Buffalo</CityName>
+<ZipCode>142163589</ZipCode>
+<PhoneNumber/>
+<StreetAddress/>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY26</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM/>
+<ORG_LGL_BUS_NAME/>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Barlow                  Nathaniel      S]]></Name>
+<CityName>Buffalo</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>142163589</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY26</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7696</Code>
+<Text>CI Fellowships</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~240000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The interdisciplinary nature of this award (pairing Engineers, Computational Scientists, and Mathematicians) provided a forum for discussion, and ultimately led to the application of asymptotic analysis towards emerging molecular-computational methods.&nbsp; The net result of the ensuing work was thermodynamic models having extended range of applicability. By matching the low- and high-density asymptotic behaviors of fluids defined by soft repulsive intermolecular interactions (such as polymers in solution) a new <em>asymptotically consistent</em> approximant was developed.&nbsp; The result is the most accurate equation of state for such fluids to date [1].</p> <p>&nbsp;Now thirty years after Wilson won the Nobel Prize for explaining the physics of critical phenomena, engineers are still challenged to understand behavior away from the critical region. Under the direction of this award, asymptotic analysis was applied to advance the solution to this problem. An approximant was developed to bridge low-density series for the critical isotherm to non-analytic critical behavior, allowing the series to give, for the first time, accurate values of the critical parameters [2].</p> <p>&nbsp;The outcomes summarized above hinge on an accurate representation of low-density fluid behavior as described by the "virial series", where fluid pressure is given in terms of a series in fluid density.&nbsp; Each term contains a temperature-dependent "virial coefficient" accounting for the contributions from no molecular interactions (1st term, ideal gas law), 2-body interactions (2nd term), 3-body interactions (3rd term), etc. The n<sup>th</sup> virial coefficient is expressed in terms of integrals over the positions of n molecules, where the attraction/repulsion between molecules is governed by the prescribed molecular model (i.e. type of fluid).&nbsp; Special techniques, such as Mayer Sampling Monte-Carlo integration, are required to evaluate these highly multidimensional integrals. Even with such techniques, it is computationally expensive to obtain values for higher-order coefficients to within an adequate degree of precision.&nbsp; With the advancement of computational architecture (e.g. graphics processors) and algorithms (work done under this project, [3]), it is now possible to compute higher-order virial coefficients, enabling the fulfillment of the outcomes summarized in the paragraphs above, as well as further exploration of the thermodynamic phase space.</p> <p>&nbsp;[1] NS Barlow, AJ Schultz, DA Kofke, SJ Weinstein, "An asymptotically consistent approximant method with application to soft- and hard-sphere fluids",&nbsp; J. Chem. Phys. 137, 204102 (2012)</p> <p>[2] NS Barlow, AJ Schultz, DA Kofke, SJ Weinstein, "Critical isotherms from virial series using asymptotically consistent approximants", AIChE J. (awaiting publication, 2014)</p> <p>[3] AJ Schultz, NS Barlow, V Chaudhary, DA Kofke, "Mayer Sampling Monte Carlo calculation of virial coefficients on graphics processors", Mol. Phys. 111, 4 (2013)</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/10/2014<br>      Modified by: Nathaniel&nbsp;S&nbsp;Barlow</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The interdisciplinary nature of this award (pairing Engineers, Computational Scientists, and Mathematicians) provided a forum for discussion, and ultimately led to the application of asymptotic analysis towards emerging molecular-computational methods.  The net result of the ensuing work was thermodynamic models having extended range of applicability. By matching the low- and high-density asymptotic behaviors of fluids defined by soft repulsive intermolecular interactions (such as polymers in solution) a new asymptotically consistent approximant was developed.  The result is the most accurate equation of state for such fluids to date [1].   Now thirty years after Wilson won the Nobel Prize for explaining the physics of critical phenomena, engineers are still challenged to understand behavior away from the critical region. Under the direction of this award, asymptotic analysis was applied to advance the solution to this problem. An approximant was developed to bridge low-density series for the critical isotherm to non-analytic critical behavior, allowing the series to give, for the first time, accurate values of the critical parameters [2].   The outcomes summarized above hinge on an accurate representation of low-density fluid behavior as described by the "virial series", where fluid pressure is given in terms of a series in fluid density.  Each term contains a temperature-dependent "virial coefficient" accounting for the contributions from no molecular interactions (1st term, ideal gas law), 2-body interactions (2nd term), 3-body interactions (3rd term), etc. The nth virial coefficient is expressed in terms of integrals over the positions of n molecules, where the attraction/repulsion between molecules is governed by the prescribed molecular model (i.e. type of fluid).  Special techniques, such as Mayer Sampling Monte-Carlo integration, are required to evaluate these highly multidimensional integrals. Even with such techniques, it is computationally expensive to obtain values for higher-order coefficients to within an adequate degree of precision.  With the advancement of computational architecture (e.g. graphics processors) and algorithms (work done under this project, [3]), it is now possible to compute higher-order virial coefficients, enabling the fulfillment of the outcomes summarized in the paragraphs above, as well as further exploration of the thermodynamic phase space.   [1] NS Barlow, AJ Schultz, DA Kofke, SJ Weinstein, "An asymptotically consistent approximant method with application to soft- and hard-sphere fluids",  J. Chem. Phys. 137, 204102 (2012)  [2] NS Barlow, AJ Schultz, DA Kofke, SJ Weinstein, "Critical isotherms from virial series using asymptotically consistent approximants", AIChE J. (awaiting publication, 2014)  [3] AJ Schultz, NS Barlow, V Chaudhary, DA Kofke, "Mayer Sampling Monte Carlo calculation of virial coefficients on graphics processors", Mol. Phys. 111, 4 (2013)          Last Modified: 06/10/2014       Submitted by: Nathaniel S Barlow]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

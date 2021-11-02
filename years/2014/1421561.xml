@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Lightning in Clouds: Detection and Characterization of Very Short Bottlenecks</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>A plausible explanation for the persistent low utilization of data centers (around 18% by Gartner reports) is the managerial need to maintain quality of service against the well-known Latency Long Tail problem, where some apparently random requests that normally return within milliseconds would suddenly take multiple seconds. The latency long tail problem arises at moderate utilization levels (e.g., 50%) with all resources far from saturation. Despite the efforts to remedy the latency long tail problem in various ways, its causes have remained elusive: In most cases, the very requests that took several seconds actually return within milliseconds when executed by themselves. Studying and solving the latency long tail problem will contribute to better utilization while maintaining quality of service, leading to lower costs for cloud users, higher return on investment for cloud providers, and lower power consumption for the environment. The main goal of this project is the investigation of the class of very short bottlenecks, in which the CPU becomes saturated only for a small fraction of a second, as a significant cause of latency long tail problems. Despite their short lifespan, very short bottlenecks can lead to significant response time increases (several seconds) by propagating queuing effects up and down the request chain in an n-tier application system because of strong dependencies among the tiers during request processing. &lt;br/&gt;&lt;br/&gt;This project runs large scale experiments in clouds and simulators to generate extensive fine-grain monitoring data in the investigation of very short bottlenecks, which are virtually invisible under typical performance monitoring tools with sampling periods of seconds or minutes. To match the time scale of very short bottlenecks, special instrumentation software tools are being refined to sample intra-server resource utilization at millisecond resolution and timestamp inter-server messages at microsecond resolution. Preliminary studies of n-tier application benchmarks with naturally bursty workloads have found very short bottlenecks that cause latency long tail in several system layers: systems software (JVM garbage collection), processor architecture (dynamic voltage and frequency scaling), and consolidation of applications in virtualized cloud environments. They show the potential for many other sources of very short bottlenecks, e.g., kernel daemon processes that use 100% of CPU for several milliseconds. Through careful distributed event analysis of the experimental data, new kinds of very short bottlenecks can be discovered, verified, reproduced, and studied in detail. Concrete solutions for specific very short bottlenecks have been developed, e.g., an improved Java garbage collector. However, other very short bottlenecks have no specific bug-fixes, e.g., those created by consolidated workload overlapping bursts of statistical nature. As an alternative to bug-fixes, more general solutions that disrupt queuing propagation are being explored. As a concrete example, instead of using a classic request/response approach, where waiting threads participate in the queuing propagation, asynchronous requests with notification of responses to reduce overall queuing is being investigated as a potential solution to eliminate or reduce the impact of several kinds of very short bottlenecks.</AbstractNarration>
+<MinAmdLetterDate>08/05/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/05/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421561</AwardID>
+<Investigator>
+<FirstName>Calton</FirstName>
+<LastName>Pu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Calton Pu</PI_FULL_NAME>
+<EmailAddress>calton@cc.gatech.edu</EmailAddress>
+<PI_PHON>4043851106</PI_PHON>
+<NSF_ID>000432066</NSF_ID>
+<StartDate>08/05/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 North Avenue NW]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Web-facing applications (e.g., e-commerce) have stringent quality of service requirements (typical response time of milliseconds) due to intense competitive pressure. A study by Amazon reported that every increase of 100 milliseconds in page loading time is correlated to roughly 1% loss in sales. Similarly, Google found that a 500ms additional delay in returning search results could reduce revenues by up to 20%. However, the persistence of response time long tail problem over the last two decades, where a relatively small number of requests (a few percent) take a very long time (several seconds) to return, remains a serious research challenge despite its growing practical importance. Companies really want to reduce the response time long tails to the 99<sup>th</sup> and 99.9<sup>th</sup> percentiles, preferably achieving 100% near-zero-latency response time.</p> <p>This research project focused on the experimental results that led to the development of the Millibottleneck Theory to explain the very long response time (VLRT) requests that form the response time long tail problem. According to the Millibottleneck Theory, many VLRT requests are caused by millisecond-scale performance bugs called <em>millibottlenecks</em>. Informally stated, millibottlenecks (with duration of tens to hundreds of milliseconds) can cause ripple effects through a large distributed system due to dependencies among the components. Thus, initially modest queueing effects in one component can become amplified, resulting in dropped packets and VLRT requests. The millibottlenecks may happen with many kinds of resources (e.g., software such as Java garbage collector, or hardware such as dynamic voltage and frequency scaling &ndash; DVFS) and involve various kinds of dependencies (e.g., resource sharing through locks, or synchronous control flow using remote procedure calls &ndash; RPC). The simple, yet powerful, Millibottleneck Theory for millisecond-scale performance bugs is the first major outcome of the project.</p> <p>The second major outcome of the project is a set of experiments that validate the predictions of Millibottleneck Theory. These concrete results (made publicly available as part of the Alpha release of the MilliMonitor toolkit &ndash; see below) include: scripts that created the experiments, data produced by the experiments, and analysis of the experimental data in published papers. A concrete example consists of the noisy neighbor problem in a virtual machine (VM) consolidation environment: The millibottleneck is on CPU, the dependencies are due to RPC-style synchronous invocations among servers (Apache, Tomcat, and MySQL), and the observable results consist of reliably reproducible VLRT requests each time the co-located noisy neighbor VM generates a sufficiently high burst of requests.</p> <p>The attached figure illustrates the noisy neighbor VM scenario. The x-axis shows the timeline from the beginning of the experiment and all 5 parts of the figure (from (a) to (e)) refer to the same 20 seconds during the experiment. Part (a), top of the figure, shows presence of the response time long tail problem, with 5 peaks of requests taking a long time. These VLRT requests are shown in part (b). Around the same time of these groups of VLRT requests (about 2s, 5s, 9s, 15s, and 17s in all parts), the queues in the Apache and Tomcat servers are shown in part (c), and they explain the dropped packets that caused the VLRT requests. The queues are explained by CPU millibottlenecks in part (d), which in turn are caused by the generated workload bursts shown in part (e). Through this kind of experimental data, the VLRT requests are shown to be linked to the millibottlenecks from various sources.</p> <p>The third major outcome of the project is the Alpha release of the MilliMonitor toolkit, with three main components. The first component consists of fine-grain resource monitors that generate data to enable the finding of millibottlenecks similar to the ones shown in part (d) of the attached figure. The second component of MilliMonitor consists of detailed specialized event monitors that record the timestamps of arrival/departure times of each request and response. The detailed event data allow the finding of queues as shown in part (c) of the attached figure. The third component of MilliMonitor consists of the n-tier benchmark (RUBBoS) that creates the workload, including the bursts shown in part (e) and the job statistics shown in parts (a) and (b) of the attached figure.</p> <p>In summary, the project was successful in defining a simple and powerful model (the Millibottleneck Theory) to explain the appearance of VLRT requests and the difficulties in studying them due to the millisecond-scale of these performance bugs. Significant experimental data show the prevalence of the millibottlenecks (e.g., CPU, memory, and disks). Scientifically, the Alpha release of the MilliMonitor toolkit will allow the experimental computer science research community to study millibottlenecks and reproduce or disprove the findings from the project. Practically, the identification of millibottlenecks will enable a better understanding of large scale distributed systems and their prevention will enable a higher utilization level of data centers and computing clouds.</p><br> <p>            Last Modified: 10/22/2017<br>      Modified by: Calton&nbsp;Pu</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2017/1421561/1421561_10328199_1508730257593_outcome-VM-figure--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1421561/1421561_10328199_1508730257593_outcome-VM-figure--rgov-800width.jpg" title="Millibottlenecks and Very Long Response Time Requests Found in Cloud Environments"><img src="/por/images/Reports/POR/2017/1421561/1421561_10328199_1508730257593_outcome-VM-figure--rgov-66x44.jpg" alt="Millibottlenecks and Very Long Response Time Requests Found in Cloud Environments"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Experimental confirmation of millibottlenecks causing Very Long Response Time Requests in n-tier applications running in cloud environments: the case of noisy neighbor in consolidated virtual machine environments.</div> <div class="imageCredit">Georgia Institute of Technology</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Calton&nbsp;Pu</div> <div class="imageTitle">Millibottlenecks and Very Long Response Time Requests Found in Cloud Environments</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Web-facing applications (e.g., e-commerce) have stringent quality of service requirements (typical response time of milliseconds) due to intense competitive pressure. A study by Amazon reported that every increase of 100 milliseconds in page loading time is correlated to roughly 1% loss in sales. Similarly, Google found that a 500ms additional delay in returning search results could reduce revenues by up to 20%. However, the persistence of response time long tail problem over the last two decades, where a relatively small number of requests (a few percent) take a very long time (several seconds) to return, remains a serious research challenge despite its growing practical importance. Companies really want to reduce the response time long tails to the 99th and 99.9th percentiles, preferably achieving 100% near-zero-latency response time.  This research project focused on the experimental results that led to the development of the Millibottleneck Theory to explain the very long response time (VLRT) requests that form the response time long tail problem. According to the Millibottleneck Theory, many VLRT requests are caused by millisecond-scale performance bugs called millibottlenecks. Informally stated, millibottlenecks (with duration of tens to hundreds of milliseconds) can cause ripple effects through a large distributed system due to dependencies among the components. Thus, initially modest queueing effects in one component can become amplified, resulting in dropped packets and VLRT requests. The millibottlenecks may happen with many kinds of resources (e.g., software such as Java garbage collector, or hardware such as dynamic voltage and frequency scaling &ndash; DVFS) and involve various kinds of dependencies (e.g., resource sharing through locks, or synchronous control flow using remote procedure calls &ndash; RPC). The simple, yet powerful, Millibottleneck Theory for millisecond-scale performance bugs is the first major outcome of the project.  The second major outcome of the project is a set of experiments that validate the predictions of Millibottleneck Theory. These concrete results (made publicly available as part of the Alpha release of the MilliMonitor toolkit &ndash; see below) include: scripts that created the experiments, data produced by the experiments, and analysis of the experimental data in published papers. A concrete example consists of the noisy neighbor problem in a virtual machine (VM) consolidation environment: The millibottleneck is on CPU, the dependencies are due to RPC-style synchronous invocations among servers (Apache, Tomcat, and MySQL), and the observable results consist of reliably reproducible VLRT requests each time the co-located noisy neighbor VM generates a sufficiently high burst of requests.  The attached figure illustrates the noisy neighbor VM scenario. The x-axis shows the timeline from the beginning of the experiment and all 5 parts of the figure (from (a) to (e)) refer to the same 20 seconds during the experiment. Part (a), top of the figure, shows presence of the response time long tail problem, with 5 peaks of requests taking a long time. These VLRT requests are shown in part (b). Around the same time of these groups of VLRT requests (about 2s, 5s, 9s, 15s, and 17s in all parts), the queues in the Apache and Tomcat servers are shown in part (c), and they explain the dropped packets that caused the VLRT requests. The queues are explained by CPU millibottlenecks in part (d), which in turn are caused by the generated workload bursts shown in part (e). Through this kind of experimental data, the VLRT requests are shown to be linked to the millibottlenecks from various sources.  The third major outcome of the project is the Alpha release of the MilliMonitor toolkit, with three main components. The first component consists of fine-grain resource monitors that generate data to enable the finding of millibottlenecks similar to the ones shown in part (d) of the attached figure. The second component of MilliMonitor consists of detailed specialized event monitors that record the timestamps of arrival/departure times of each request and response. The detailed event data allow the finding of queues as shown in part (c) of the attached figure. The third component of MilliMonitor consists of the n-tier benchmark (RUBBoS) that creates the workload, including the bursts shown in part (e) and the job statistics shown in parts (a) and (b) of the attached figure.  In summary, the project was successful in defining a simple and powerful model (the Millibottleneck Theory) to explain the appearance of VLRT requests and the difficulties in studying them due to the millisecond-scale of these performance bugs. Significant experimental data show the prevalence of the millibottlenecks (e.g., CPU, memory, and disks). Scientifically, the Alpha release of the MilliMonitor toolkit will allow the experimental computer science research community to study millibottlenecks and reproduce or disprove the findings from the project. Practically, the identification of millibottlenecks will enable a better understanding of large scale distributed systems and their prevention will enable a higher utilization level of data centers and computing clouds.       Last Modified: 10/22/2017       Submitted by: Calton Pu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

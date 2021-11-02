@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Using Machine Learning to Increase the Operational Efficiency of Large Distributed Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>299994.00</AwardTotalIntnAmount>
+<AwardAmount>299994</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Large, distributed systems are nowadays ubiquitous and part of sustainable IT solutions to a broad range of customers and applications.  Data centers in the private or public cloud and high performance computing systems are two examples of complex, highly distributed systems: the former are used by almost everyone on a daily basis, the latter are used by computational scientists for advancing science and engineering.  High availability and reliability of these complex systems are important for the quality of user experience.  Efficient management of such systems contributes to their availability and reliability, and relies on a priori knowledge of the timing of the collective demands of users and a priori knowledge of certain performance measures (e.g., usage, temperature, power) of various systems components.&lt;br/&gt;&lt;br/&gt;This  project aims to provide a systematic methodology to improve the operational efficiency of complex, distributed systems by developing neural networks that can efficiently and accurately predict the incoming workload within fine and coarse time scales. Such workload prediction can dramatically improve the operational efficiency of data centers and high performance systems by driving proactive management strategies that specifically aim to enhance reliability.  For datacenters, the focus is on actively reducing performance tickets that are automatically triggered by pro-actively managing virtual machine resizing and migration. For high performance computing systems the focus is on predicting hardware faults to autonomically improve the scheduler's efficiency, direct cooling, and improve performance and memory bandwidth.</AbstractNarration>
+<MinAmdLetterDate>09/01/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/01/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1649087</AwardID>
+<Investigator>
+<FirstName>Evgenia</FirstName>
+<LastName>Smirni</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Evgenia Smirni</PI_FULL_NAME>
+<EmailAddress>esmirni@cs.wm.edu</EmailAddress>
+<PI_PHON>7572213580</PI_PHON>
+<NSF_ID>000346140</NSF_ID>
+<StartDate>09/01/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>College of William and Mary</Name>
+<CityName>Williamsburg</CityName>
+<ZipCode>231878795</ZipCode>
+<PhoneNumber>7572213966</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 8795]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<StateCode>VA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>VA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>074762238</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>COLLEGE OF WILLIAM &amp; MARY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>074762238</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[College of William and Mary]]></Name>
+<CityName>Williamsburg</CityName>
+<StateCode>VA</StateCode>
+<ZipCode>231878795</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>VA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~299994</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Workloads in today&rsquo;s distributed, large scale systems are diverse, continuously evolving, and often following complex short- and long-term patterns. Future workload knowledge is pivotal for effective systems management that aims to improve reliability and availability. The important issue becomes the following: if one could know a priori certain performance measures (e.g., usage, temperature, power) for selected system components, and/or the demands and timings of the ensemble of jobs to be executed simultaneously, then robust management solutions could be found. Workload discovery through trace analysis is key for the development of such solutions.</p> <p>The proposed research aims at providing a systematic methodology to increase the reliability and availability of large, distributed systems by developing neural networks and other machine learning models that can efficiently and accurately predict the upcoming workload. Such workload discovery can dramatically improve system operational efficiency via proactive management strategies driven by workload forecasting to increase system reliability and availability. In this project we focused on three data sets that were found in-the-wild: 1)<strong>&nbsp;data centers in the IBM private cloud</strong>, 2) a&nbsp;<strong>high performance computing system at Oak Ridge National Lab</strong>, and 3) the&nbsp;<strong>storage system of a Google data center</strong>. We have developed various machine learning workload predictors in the above three environments and have validate them extensively with the common goal to improving system reliability and availability.</p> <p><strong>Data Centers</strong>: The focus here is on improving system reliability via active ticket management. Performance ticketing systems provide the means to data centers to interactively improve user experience and maintain high system availability at all times. Typically, tickets are issued either automatically via system monitoring (e.g., when high resource usage is observed due to transient workload dynamics) or manually by the users themselves when a performance violation is encountered (e.g., unresponsive or slower than expected service). Performance ticket resolution is an expensive operation as a significant amount of manual labor is required for root-cause analysis. In highly virtualized cloud data centers where physical boxes host multiple virtual machines, a large body of tickets arise from resource usage warnings, e.g., CPU and RAM usages that exceed predefined thresholds. We demonstrated that we can use neural networks for effective time series prediction that can drastically reduce the number of performance tickets via pro-active virtual machine resizing and virtual machine migration policies.</p> <p><strong>HPC Systems:</strong>&nbsp;Applications that execute on HPC systems are typically large-scale, long-running scientific applications, i.e., they may execute from several hours to days. GPU reliability becomes an important issue as potential hardware faults could jeopardize application completion. In collaboration with colleagues at ORNL, we have conducted a very detailed characterization study of soft errors on the Titan&rsquo;s GPU nodes including single bit errors (SBEs), dynamic page retirement errors, and double bit errors [29]. The trace of a fully operating system was collected from February 2015 to June 2015 (more than 60 million node hours) across all 18,688 GPUs on the Titan. Our characterization study has shed some light into the conditions that may trigger faults, but this characterization alone cannot provide any clear prediction of when and where the faults will occur. For this problem, we have developed several machine learning predictors that can effectively predict the occurence and location of soft errors on the Titan.</p> <p><strong>Solid State Drive (SSD) Reliability:</strong>In recent years, solid state drives (SSDs) have become a staple of high-performance data centers for their speed and energy efficiency. We study the failure characteristics of 30,000 drives from a Google data center spanning six years. We characterize the workload conditions that lead to failures and illustrate that their root causes differ from common expectation but remain difficult to discern. Particularly, we study failure incidents that result in manual intervention from the repair &nbsp;process. We observe high levels of infant mortality and characterize the differences between infant &nbsp;and non-infant failures. We develop several machine learning failure prediction models that are &nbsp;shown to be surprisingly accurate, achieving high recall and low false positive rates. These models are used beyond simple prediction as they aid us to untangle the complex interaction of workload &nbsp;characteristics that lead to failures and identify failure root causes from monitored symptoms.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/13/2019<br>      Modified by: Evgenia&nbsp;Smirni</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Workloads in today’s distributed, large scale systems are diverse, continuously evolving, and often following complex short- and long-term patterns. Future workload knowledge is pivotal for effective systems management that aims to improve reliability and availability. The important issue becomes the following: if one could know a priori certain performance measures (e.g., usage, temperature, power) for selected system components, and/or the demands and timings of the ensemble of jobs to be executed simultaneously, then robust management solutions could be found. Workload discovery through trace analysis is key for the development of such solutions.  The proposed research aims at providing a systematic methodology to increase the reliability and availability of large, distributed systems by developing neural networks and other machine learning models that can efficiently and accurately predict the upcoming workload. Such workload discovery can dramatically improve system operational efficiency via proactive management strategies driven by workload forecasting to increase system reliability and availability. In this project we focused on three data sets that were found in-the-wild: 1) data centers in the IBM private cloud, 2) a high performance computing system at Oak Ridge National Lab, and 3) the storage system of a Google data center. We have developed various machine learning workload predictors in the above three environments and have validate them extensively with the common goal to improving system reliability and availability.  Data Centers: The focus here is on improving system reliability via active ticket management. Performance ticketing systems provide the means to data centers to interactively improve user experience and maintain high system availability at all times. Typically, tickets are issued either automatically via system monitoring (e.g., when high resource usage is observed due to transient workload dynamics) or manually by the users themselves when a performance violation is encountered (e.g., unresponsive or slower than expected service). Performance ticket resolution is an expensive operation as a significant amount of manual labor is required for root-cause analysis. In highly virtualized cloud data centers where physical boxes host multiple virtual machines, a large body of tickets arise from resource usage warnings, e.g., CPU and RAM usages that exceed predefined thresholds. We demonstrated that we can use neural networks for effective time series prediction that can drastically reduce the number of performance tickets via pro-active virtual machine resizing and virtual machine migration policies.  HPC Systems: Applications that execute on HPC systems are typically large-scale, long-running scientific applications, i.e., they may execute from several hours to days. GPU reliability becomes an important issue as potential hardware faults could jeopardize application completion. In collaboration with colleagues at ORNL, we have conducted a very detailed characterization study of soft errors on the Titan’s GPU nodes including single bit errors (SBEs), dynamic page retirement errors, and double bit errors [29]. The trace of a fully operating system was collected from February 2015 to June 2015 (more than 60 million node hours) across all 18,688 GPUs on the Titan. Our characterization study has shed some light into the conditions that may trigger faults, but this characterization alone cannot provide any clear prediction of when and where the faults will occur. For this problem, we have developed several machine learning predictors that can effectively predict the occurence and location of soft errors on the Titan.  Solid State Drive (SSD) Reliability:In recent years, solid state drives (SSDs) have become a staple of high-performance data centers for their speed and energy efficiency. We study the failure characteristics of 30,000 drives from a Google data center spanning six years. We characterize the workload conditions that lead to failures and illustrate that their root causes differ from common expectation but remain difficult to discern. Particularly, we study failure incidents that result in manual intervention from the repair  process. We observe high levels of infant mortality and characterize the differences between infant  and non-infant failures. We develop several machine learning failure prediction models that are  shown to be surprisingly accurate, achieving high recall and low false positive rates. These models are used beyond simple prediction as they aid us to untangle the complex interaction of workload  characteristics that lead to failures and identify failure root causes from monitored symptoms.          Last Modified: 11/13/2019       Submitted by: Evgenia Smirni]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

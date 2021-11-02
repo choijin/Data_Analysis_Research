@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Uncertainty Quantification in Seismic Inversion by Nonlinear Sampling</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>407916.00</AwardTotalIntnAmount>
+<AwardAmount>407916</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>06030000</Code>
+<Directorate>
+<Abbreviation>GEO</Abbreviation>
+<LongName>Directorate For Geosciences</LongName>
+</Directorate>
+<Division>
+<Abbreviation>EAR</Abbreviation>
+<LongName>Division Of Earth Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Paul Raterron</SignBlockName>
+<PO_EMAI>praterro@nsf.gov</PO_EMAI>
+<PO_PHON>7032928565</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In many branches of science and engineering construction of an image of targets from remotely sensed data is an essential task for drawing meaningful inferences. The data, however, are often far from being ideal in that they are generally contaminated with noise and may be inadequate because of issues such as the geometry or density of the recording stations with respect to the targets to be imaged. In addition, resolution of the target is often chosen in an ad-hoc manner, introducing uncertainty in the resulting answer. Quantitative measures of uncertainty are, therefore, crucial to establishing confidence in the results of data analysis. Existing methods of characterizing uncertainty are often based on simplistic assumptions primarily because of limitations of computing powers. The objective of this proposal is to develop a technique for estimation of uncertainty using nonlinear sampling that will be applied to imaging of seismic data.&lt;br/&gt;&lt;br/&gt;Seismic tomography is the primary tool for estimating Earth?s subsurface images from seismic travel time, amplitude and waveform data. The data are often inadequate and noisy, and the forward modeling is generally based on approximate physics. Ad hoc parameterization of subsurface model parameters adds further complication in estimation of subsurface characteristics. The non-uniqueness in the solution estimates has been well recognized in the past and the need for uncertainty quantification has been promoted by the geophysics community. The Bayesian approach to describing our inverse problems has been found appropriate for this purpose. It enables us to describe our answer in terms of a probability density function, called the posterior probability density (PPD). A simple functional description of the PPD is generally not available, however. Thus, estimating samples from the PPD which is generally highly multi-modal is a challenging task. The common practice is to derive the maximum a posterioi (MAP) model and represent the uncertainty using the Hessian at the MAP point. This method assumes that the PPD is Gaussian ? an assumption often violated due to the nonlinear nature of the forward problem and the noise characteristics in the data. On the other hand, Metropolis-Hastings based Markov chain Monte Carlo methods are computationally very expensive, often requiring over a million forward model evaluations. Here we propose to develop computationally efficient MCMC methods for uncertainty quantification with application to seismic tomography. A Reversible jump Monte Carlo method (RJMCMC) in which the data themselves are allowed to find suitable number of model parameters required, addresses some of the shortcomings of the commonly used methods. The method, however, is computationally expensive. The researchers propose to develop and implement a new method called Reversible jump Hamiltonian Monte Carlo (RJHMC) method to seismic inversion. This method can be demonstrated to be two times faster than the conventional RJMCMC since it uses gradient information to take large jumps in MCMC steps. It will be applied to a 2D marine multi-channel seismic dataset.</AbstractNarration>
+<MinAmdLetterDate>07/05/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>06/17/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.050</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1723019</AwardID>
+<Investigator>
+<FirstName>Mrinal</FirstName>
+<LastName>Sen</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mrinal K Sen</PI_FULL_NAME>
+<EmailAddress>mrinal@ig.utexas.edu</EmailAddress>
+<PI_PHON>5124710466</PI_PHON>
+<NSF_ID>000372383</NSF_ID>
+<StartDate>07/05/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Adrien</FirstName>
+<LastName>Arnulf</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Adrien Arnulf</PI_FULL_NAME>
+<EmailAddress>aarnulf@ig.utexas.edu</EmailAddress>
+<PI_PHON>5124710376</PI_PHON>
+<NSF_ID>000694625</NSF_ID>
+<StartDate>07/05/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas Institute for Geophysics]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787584445</ZipCode>
+<StreetAddress><![CDATA[10100 Burnet Rd., ROC/Bldg. 196]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1574</Code>
+<Text>Geophysics</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~111679</FUND_OBLG>
+<FUND_OBLG>2018~138141</FUND_OBLG>
+<FUND_OBLG>2019~158096</FUND_OBLG>
+</Award>
+</rootTag>

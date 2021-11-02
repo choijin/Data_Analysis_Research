@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NRI: Collaborative Research: Learning Deep Sensorimotor Policies for Shared Autonomy</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rebecca Hwa</SignBlockName>
+<PO_EMAI>rhwa@nsf.gov</PO_EMAI>
+<PO_PHON>7032927148</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Assistive robots have the potential to transform the lives of persons with upper extremity disabilities, by helping them perform basic daily activities, such as manipulating objects and feeding. However, human control of assistive robots presents substantial challenges. The high dimensionality of robotic arms means that joystick-like interfaces are unnatural hard to use intuitively, and motions resulting from direct teleoperation are often slow, imprecise, and severely limited in their dexterity. This research address these challenges by developing learning algorithms for shared autonomy, where the robot anticipates the user's intent and provides a degree of assistive autonomy to ensure fluid and successful motions. This research will also pave the way for future research that can bootstrap from teleoperation and build towards full robot autonomy. &lt;br/&gt;&lt;br/&gt;The research proposes a hierarchical and multi-phased approach to shared autonomy, using techniques from deep learning and reinforcement learning. The system begins by using deep inverse reinforcement learning to quickly ascertain the user's high-level goal, such as whether the user wants to grasp a particular object or operate an appliance, from raw sensory inputs. This goal inference layer supplies objectives to the lower control layer, which consists of deep neural network control policies that can directly process raw sensory input about the environment and the user to make decisions. These policies choose low-level controls to satisfy the high-level objective while minimizing disagreement with the user's commands. The algorithms will be deployed and tested on a wheelchair-mounted robot arm with the potential to assist users with upper extremity disabilities to perform activities of daily living.</AbstractNarration>
+<MinAmdLetterDate>12/06/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>12/06/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1700696</AwardID>
+<Investigator>
+<FirstName>Sergey</FirstName>
+<LastName>Levine</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sergey Levine</PI_FULL_NAME>
+<EmailAddress>sergey.levine@gmail.com</EmailAddress>
+<PI_PHON>5106423214</PI_PHON>
+<NSF_ID>000705338</NSF_ID>
+<StartDate>12/06/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Berkeley]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>947045940</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8013</Code>
+<Text>NRI-National Robotics Initiati</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8086</Code>
+<Text>Natl Robotics Initiative (NRI)</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this project was to develop new algorithms for shared autonomy based on deep reinforcement learning and inverse reinforcement learning. Shared autonomy refers to a mode for controlling a robotic system where a person directs the robot, while the robot provides semi-autonomous assistance. For example, a robot designed to aid persons with disabilities might allow for direct control via a joystick or some other interface, but instead of directly moving the arm as directed by the user, it might instead aim to infer the user?s intent from their controls, and then act in a way that more optimally carries out their intent.</p> <p>Over the course of this project, we developed a number of algorithms that address these goals. We developed the first deep reinforcement learning algorithm that could provide for shared autonomy directly end-to-end, learning in the loop with a human operator. This algorithm can be configured to derive task rewards directly from human feedback. We evaluated this approach in simulation, aiding human players in playing a ?lunar lander? video game, and in the real world, aiding humans in piloting a quadcopter. We also developed a number of model-based techniques for inferring the intent of human users and providing assistance under various models of user suboptimality, including algorithms that compensate for human users with imperfect knowledge about the world, as well as algorithms that account for imperfect state estimation. These methods utilize simple models of the user?s mental state to determine their intent even when they are not acting optimally, and then provide assistance to help them perform a task more effectively.</p> <p>This project also served to bootstrap an ongoing collaboration between our lab and collaborators at UCSF studying brain-computer interfaces for persons with disabilities, which is currently underway. In this ongoing collaboration, our aim is to evaluate the methods we?ve developed as part of this NSF-funded project in a clinical setting with a real patient.</p> <p>In addition to the core algorithms for shared autonomy, this project has also resulted in a number of algorithmic developments that support the broader goals of enabling reliable semi-autonomous human-directed robotic systems. This includes algorithms for inferring objectives and goals from easily-provided human demonstrations and examples, meta-learning algorithms that can learn to infer goals more efficiently from past experience, and reinforcement learning algorithms with robustness and safety guarantees.</p> <p>Addressing broader impacts, over the course of this project Prof. Levine established a mentoring program at UC Berkeley to promote participation of underrepresented groups in AI research, and established a collaboration aimed at eventually transferring the methods developed as part of this project into a clinical setting.</p><br> <p>            Last Modified: 11/29/2020<br>      Modified by: Sergey&nbsp;Levine</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702157869_shared_autonomy--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702157869_shared_autonomy--rgov-800width.jpg" title="Shared autonomy via RL"><img src="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702157869_shared_autonomy--rgov-66x44.jpg" alt="Shared autonomy via RL"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Our shared autonomy via deep RL algorithm aids a user in playing a video game (a) and in landing a real-world quadcopter (b and c).</div> <div class="imageCredit">Siddharth Reddy</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Sergey&nbsp;Levine</div> <div class="imageTitle">Shared autonomy via RL</div> </div> </li> <li> <a href="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702043526_gaze--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702043526_gaze--rgov-800width.jpg" title="Assistive RL for gaze-based typing"><img src="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702043526_gaze--rgov-66x44.jpg" alt="Assistive RL for gaze-based typing"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Our RL algorithm aids a user in selecting words for a typing task using gaze -- this system adapts to users from direct feedback, and is aimed at supporting typing for persons with disabilities.</div> <div class="imageCredit">Siddharth Reddy</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Sergey&nbsp;Levine</div> <div class="imageTitle">Assistive RL for gaze-based typing</div> </div> </li> <li> <a href="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702376132_assistive_perception--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702376132_assistive_perception--rgov-800width.jpg" title="Assistive perception"><img src="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702376132_assistive_perception--rgov-66x44.jpg" alt="Assistive perception"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Our "assistive perception" system chooses which observation to provide to the user (here, in the form of text) to compensate for imperfect state estimation on the part of the user.</div> <div class="imageCredit">Siddharth Reddy</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Sergey&nbsp;Levine</div> <div class="imageTitle">Assistive perception</div> </div> </li> <li> <a href="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702452215_scaled--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702452215_scaled--rgov-800width.jpg" title="Scaled autonomy"><img src="/por/images/Reports/POR/2020/1700696/1700696_10459525_1606702452215_scaled--rgov-66x44.jpg" alt="Scaled autonomy"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Here, the user is assisted by a learned policy to help them control multiple robots at the same time.</div> <div class="imageCredit">Gokul Swamy</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Sergey&nbsp;Levine</div> <div class="imageTitle">Scaled autonomy</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this project was to develop new algorithms for shared autonomy based on deep reinforcement learning and inverse reinforcement learning. Shared autonomy refers to a mode for controlling a robotic system where a person directs the robot, while the robot provides semi-autonomous assistance. For example, a robot designed to aid persons with disabilities might allow for direct control via a joystick or some other interface, but instead of directly moving the arm as directed by the user, it might instead aim to infer the user?s intent from their controls, and then act in a way that more optimally carries out their intent.  Over the course of this project, we developed a number of algorithms that address these goals. We developed the first deep reinforcement learning algorithm that could provide for shared autonomy directly end-to-end, learning in the loop with a human operator. This algorithm can be configured to derive task rewards directly from human feedback. We evaluated this approach in simulation, aiding human players in playing a ?lunar lander? video game, and in the real world, aiding humans in piloting a quadcopter. We also developed a number of model-based techniques for inferring the intent of human users and providing assistance under various models of user suboptimality, including algorithms that compensate for human users with imperfect knowledge about the world, as well as algorithms that account for imperfect state estimation. These methods utilize simple models of the user?s mental state to determine their intent even when they are not acting optimally, and then provide assistance to help them perform a task more effectively.  This project also served to bootstrap an ongoing collaboration between our lab and collaborators at UCSF studying brain-computer interfaces for persons with disabilities, which is currently underway. In this ongoing collaboration, our aim is to evaluate the methods we?ve developed as part of this NSF-funded project in a clinical setting with a real patient.  In addition to the core algorithms for shared autonomy, this project has also resulted in a number of algorithmic developments that support the broader goals of enabling reliable semi-autonomous human-directed robotic systems. This includes algorithms for inferring objectives and goals from easily-provided human demonstrations and examples, meta-learning algorithms that can learn to infer goals more efficiently from past experience, and reinforcement learning algorithms with robustness and safety guarantees.  Addressing broader impacts, over the course of this project Prof. Levine established a mentoring program at UC Berkeley to promote participation of underrepresented groups in AI research, and established a collaboration aimed at eventually transferring the methods developed as part of this project into a clinical setting.       Last Modified: 11/29/2020       Submitted by: Sergey Levine]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

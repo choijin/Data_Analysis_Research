@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>STARSS: Small: Collaborative: Specification and Verification for Secure Hardware</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>153333.00</AwardTotalIntnAmount>
+<AwardAmount>153333</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>There is a growing need for techniques to detect security vulnerabilities in hardware and at the hardware-software interface. Such vulnerabilities arise from the use of untrusted supply chains for processors and system-on-chip components and from the scope for malicious agents to subvert a system by exploiting hardware defects arising from design errors, incomplete specifications, or maliciously inserted blocks. This project addresses the problem by developing foundational techniques and tools for formal and semi-formal specification and verification of security properties of hardware. &lt;br/&gt;&lt;br/&gt;This project addresses gaps in the current specification and verification processes for hardware designs. Given a design and a (possibly informal) specification, the approach first identifies signals that correspond to high-integrity or confidential parts of the design, such as privileged mode flags or secret keys. The approach uses this information to perform critical signal analysis, specification generation, security-aware specification analysis, and test characterization and augmentation. These steps are iterated  until a suitable level of security assurance is attained. The methods build upon formal computational engines for Boolean reasoning, symbolic simulation, and model checking. The project is evaluated using case studies based on processor cores and non-processor blocks, where each case study includes both offensive and defensive components. Tangible results will include theories, threat models, software tools, benchmarks, and case studies. Results from the project are incorporated into courses and textbooks written by the PIs to teach students how to design systems with a security mindset.</AbstractNarration>
+<MinAmdLetterDate>08/11/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/11/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1525527</AwardID>
+<Investigator>
+<FirstName>Randal</FirstName>
+<LastName>Bryant</LastName>
+<PI_MID_INIT>E</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Randal E Bryant</PI_FULL_NAME>
+<EmailAddress>bryant@cs.cmu.edu</EmailAddress>
+<PI_PHON>4122688821</PI_PHON>
+<NSF_ID>000321686</NSF_ID>
+<StartDate>08/11/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133890</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8225</Code>
+<Text>SaTC Special Projects</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~153333</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project did foundational work on improving the reliability and security of computer hardware.&nbsp; It comprised to projects</p> <p><strong>Formal Verification of Microprocessors</strong></p> <p>We used the UCLID5 verification system, developed at U.C., Berkeley, to verify the correctness of several, simple microprocessor designs.&nbsp; These designs are presented in the textbook <em>Computer Systems: A Programmer?s Perspective, 3<sup>rd</sup> edition</em>, by Bryant and O?Hallaron.&nbsp; All of them are intended to execute the same instruction set, but they use different implementation styles.</p> <p>One, named SEQ, provides a direct implementation based on the instruction set definition.&nbsp; On each clock cycle, it fully executes a complete instruction.&nbsp; It would not make a very efficient design, but it serves as a useful reference model for more complex versions.&nbsp;</p> <p>The others, collectively named PIPE, make use of pipelining to achieve greater performance.&nbsp; These overlap the execution of multiple instructions.&nbsp; When introducing pipelining, it is easy to introduce subtle bugs, where instructions interact in unintended ways because of their overlapped execution.</p> <p>Using a methodology illustrated in the figure, we could generate verification models for UCLID5 by combining the descriptions of PIPE and SEQ with other modules that describe how to test that the two versions are equivalent.&nbsp; With this verification, we can guarantee that PIPE and SEQ will have identical behavior when executing an arbitrary program.</p> <p><strong>Chain Compression for Decision Diagrams</strong></p> <p>Both binary decision diagrams (BDDs) and zero-suppressed decision diagrams (ZDDs) represent logic functions as graphs of nodes and edges.&nbsp; They have found widespread use in hardware and software verification, hardware synthesis, and solving combinatorial problems.&nbsp; For some functions, BDDs are more compact than ZDDs, and vice versa.&nbsp; At the extreme, each can be up to n/2 times larger than the other, for a function with n variables.</p> <p>By introducing extra information in the graph nodes, we were able to create <em>chain compression</em>, enabling each form (BDD and ZDD) to take advantage of the compactions found in the other.&nbsp; The resulting data representations, CBDDs and CZDDs, are guaranteed to have sizes within a small constant factor of each other, as well as with those of BDDs and ZDDs.</p> <p>We implemented chain compression in the widely used decision diagram package CUDD and demonstrated that chain compression works well in practice.</p><br> <p>            Last Modified: 10/04/2019<br>      Modified by: Randal&nbsp;E&nbsp;Bryant</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2019/1525527/1525527_10386231_1570220315548_up-verification--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1525527/1525527_10386231_1570220315548_up-verification--rgov-800width.jpg" title="Verification Methodology"><img src="/por/images/Reports/POR/2019/1525527/1525527_10386231_1570220315548_up-verification--rgov-66x44.jpg" alt="Verification Methodology"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Methodology used to generate verification models.  Representations of two different microprocessor designs (SEQ and PIPE) were automatically extracted and combined with other modules to create a file that could be verified using UCLID5.</div> <div class="imageCredit">Carnegie Mellon University</div> <div class="imageSubmitted">Randal&nbsp;E&nbsp;Bryant</div> <div class="imageTitle">Verification Methodology</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1525527/1525527_10386231_1570221605514_ratios--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1525527/1525527_10386231_1570221605514_ratios--rgov-800width.jpg" title="Maximum size ratios for decision diagram representations"><img src="/por/images/Reports/POR/2019/1525527/1525527_10386231_1570221605514_ratios--rgov-66x44.jpg" alt="Maximum size ratios for decision diagram representations"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Upper bounds on the maximum relative sizes between four different ways to represent logical functions symbolically</div> <div class="imageCredit">Carnegie Mellon University</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Randal&nbsp;E&nbsp;Bryant</div> <div class="imageTitle">Maximum size ratios for decision diagram representations</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project did foundational work on improving the reliability and security of computer hardware.  It comprised to projects  Formal Verification of Microprocessors  We used the UCLID5 verification system, developed at U.C., Berkeley, to verify the correctness of several, simple microprocessor designs.  These designs are presented in the textbook Computer Systems: A Programmer?s Perspective, 3rd edition, by Bryant and O?Hallaron.  All of them are intended to execute the same instruction set, but they use different implementation styles.  One, named SEQ, provides a direct implementation based on the instruction set definition.  On each clock cycle, it fully executes a complete instruction.  It would not make a very efficient design, but it serves as a useful reference model for more complex versions.   The others, collectively named PIPE, make use of pipelining to achieve greater performance.  These overlap the execution of multiple instructions.  When introducing pipelining, it is easy to introduce subtle bugs, where instructions interact in unintended ways because of their overlapped execution.  Using a methodology illustrated in the figure, we could generate verification models for UCLID5 by combining the descriptions of PIPE and SEQ with other modules that describe how to test that the two versions are equivalent.  With this verification, we can guarantee that PIPE and SEQ will have identical behavior when executing an arbitrary program.  Chain Compression for Decision Diagrams  Both binary decision diagrams (BDDs) and zero-suppressed decision diagrams (ZDDs) represent logic functions as graphs of nodes and edges.  They have found widespread use in hardware and software verification, hardware synthesis, and solving combinatorial problems.  For some functions, BDDs are more compact than ZDDs, and vice versa.  At the extreme, each can be up to n/2 times larger than the other, for a function with n variables.  By introducing extra information in the graph nodes, we were able to create chain compression, enabling each form (BDD and ZDD) to take advantage of the compactions found in the other.  The resulting data representations, CBDDs and CZDDs, are guaranteed to have sizes within a small constant factor of each other, as well as with those of BDDs and ZDDs.  We implemented chain compression in the widely used decision diagram package CUDD and demonstrated that chain compression works well in practice.       Last Modified: 10/04/2019       Submitted by: Randal E Bryant]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

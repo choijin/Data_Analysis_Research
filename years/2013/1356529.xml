@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>ABI Innovation: A Novel Framework for Detecting Genomic Structural Variation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>733316.00</AwardTotalIntnAmount>
+<AwardAmount>733316</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>08080000</Code>
+<Directorate>
+<Abbreviation>BIO</Abbreviation>
+<LongName>Direct For Biological Sciences</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DBI</Abbreviation>
+<LongName>Div Of Biological Infrastructure</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jennifer Weller</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Genomic structural variation has been identified as a significant contributor to phenotype diversity across a wide phylogenetic spectrum, including humans, vertebrates, nematodes, insects, and plants. These variants are large polymorphic regions of chromosomes that contain rearrangement of DNA. While numerous tools exist for detecting these variants from sequencing data, they are not able to accurately resolve regions with a high repetitive content or variants with a complex structure. This project addresses the algorithmic limitations of current approaches and develops tools to enable the identification of these complex and repetitive variants. It also develops a computational platform to facilitate the development of advanced tools by other members of the research community. &lt;br/&gt;&lt;br/&gt;Understanding the role that genomic variation plays is one of the major scientific challenges and opportunities facing society today. The improved detection of these variants will have an impact across a wide range of biological areas, including population genetics, evolutionary developmental biology, and plant genomics. It will also lead to better understanding of the mechanisms behind devastating diseases such as cancer, where complex and repetitive elements have been shown to play an important role.  To educate future leaders in this important field, the project will develop graduate and undergraduate classes to train future generations of scientists and engineers and to advance the collaborative frontiers of biology and computer science. Strong efforts will be made to promote diversity through recruitment of students from under-represented groups.</AbstractNarration>
+<MinAmdLetterDate>06/06/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/06/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.074</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1356529</AwardID>
+<Investigator>
+<FirstName>Paul</FirstName>
+<LastName>Medvedev</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Paul Medvedev</PI_FULL_NAME>
+<EmailAddress>pashadag@cse.psu.edu</EmailAddress>
+<PI_PHON>8148631242</PI_PHON>
+<NSF_ID>000636101</NSF_ID>
+<StartDate>06/06/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Pennsylvania State Univ University Park</Name>
+<CityName>University Park</CityName>
+<ZipCode>168021503</ZipCode>
+<PhoneNumber>8148651372</PhoneNumber>
+<StreetAddress>201 Old Main</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003403953</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PENNSYLVANIA STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003403953</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Pennsylvania State Univ University Park]]></Name>
+<CityName>University Park</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>168021503</ZipCode>
+<StreetAddress><![CDATA[201 Old Main]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1165</Code>
+<Text>ADVANCES IN BIO INFORMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9179</Code>
+<Text>GRADUATE INVOLVEMENT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~733316</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p id="docs-internal-guid-ead70fd8-7fff-e275-6d5e-80e4847bed2d" dir="ltr"><span>Genomic structural variation (SV) has been identified as a significant contributor to phenotype diversity across a wide phylogenetic spectrum, including humans, vertebrates, nematodes, insects, and plants. These variants are large polymorphic regions, including deletions,duplications, and other chromosomal rearrangements. Current methods work by aligning high throughput sequencing data to a reference genome and using the patterns of alignment to infer SVs. This project has pursued several avenues to improve the power and accuracy of SV detection algorithms.</span></p> <p>Since the quality of most SV detection methods depends on the quality of the reference genome, we have worked to improve genome assembly methods. We have developed several tools to improve the speed and accuracy of such methods. We have also developed new theoretical approaches for the assembly problem, which promise to improve assembly contiguity and a more rigorous understanding of the fundamental challenges facing algorithm developers. An application of specific interest that we targeted is the understanding of the sequence in mammalian Y chromosomes. In our project, we have assembled the Y chromosome of the gorilla and provided the public with a tool for performing such an analysis. Even after variants are discovered, there are downstream challenges before they can be effectively used to discover new biology. In this project, we have tackled several of these challenges, including how to match sets of variants discovered by different tools and how to quickly genotype a set of variants in a new individual.</p> <p>The algorithms and software we developed are freely available for use through open source software sharing platforms like GitHub and BioConda. As part of this project, we developed a new graduate classes and training materials. We have also trained future generations of scientists and engineers to enhance and use bioinformatic/genomic cyber resources. These include both undergraduate and graduate students, as well as post-doctoral scholars. We have created creative, cyber-enabled boundary-crossing collaborations, to advance the collaborative frontiers of biology and computer science. We have promoted diversity through recruitment from under-represented groups.</p><br> <p>            Last Modified: 08/27/2018<br>      Modified by: Paul&nbsp;Medvedev</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[Genomic structural variation (SV) has been identified as a significant contributor to phenotype diversity across a wide phylogenetic spectrum, including humans, vertebrates, nematodes, insects, and plants. These variants are large polymorphic regions, including deletions,duplications, and other chromosomal rearrangements. Current methods work by aligning high throughput sequencing data to a reference genome and using the patterns of alignment to infer SVs. This project has pursued several avenues to improve the power and accuracy of SV detection algorithms.  Since the quality of most SV detection methods depends on the quality of the reference genome, we have worked to improve genome assembly methods. We have developed several tools to improve the speed and accuracy of such methods. We have also developed new theoretical approaches for the assembly problem, which promise to improve assembly contiguity and a more rigorous understanding of the fundamental challenges facing algorithm developers. An application of specific interest that we targeted is the understanding of the sequence in mammalian Y chromosomes. In our project, we have assembled the Y chromosome of the gorilla and provided the public with a tool for performing such an analysis. Even after variants are discovered, there are downstream challenges before they can be effectively used to discover new biology. In this project, we have tackled several of these challenges, including how to match sets of variants discovered by different tools and how to quickly genotype a set of variants in a new individual.  The algorithms and software we developed are freely available for use through open source software sharing platforms like GitHub and BioConda. As part of this project, we developed a new graduate classes and training materials. We have also trained future generations of scientists and engineers to enhance and use bioinformatic/genomic cyber resources. These include both undergraduate and graduate students, as well as post-doctoral scholars. We have created creative, cyber-enabled boundary-crossing collaborations, to advance the collaborative frontiers of biology and computer science. We have promoted diversity through recruitment from under-represented groups.       Last Modified: 08/27/2018       Submitted by: Paul Medvedev]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

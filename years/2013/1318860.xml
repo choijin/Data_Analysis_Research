@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Collaborative: Toward Trusted Third-Party Microprocessor Cores: A Proof Carrying Code Approach</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>216606.00</AwardTotalIntnAmount>
+<AwardAmount>216606</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Deborah Shands</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Third-party hardware Intellectual Property (IP), written as code in a Hardware Description Language (HDL), is extensively used in modern integrated circuits. Contemporary electronics typically include 75% of third party hardware IP and only 25% in-house design to provide customization or a profit-making edge. Such extensive use of third-party hardware IP in both commercial and military applications raises security and trustworthiness concerns, especially in today's globalized market. Malicious modifications to a module's HDL code may introduce vulnerabilities, jeopardizing the security of the larger system within which it is integrated. So how does one protect electronics from the threat of potentially tampered with third-party hardware IP? To this end, this project is developing a framework for facilitating acquisition of provably trustworthy microprocessor cores. Drawing concepts from software proof-carrying code (PCC), security-related properties are codified in a temporal logic to outline the boundaries of trusted operation. In the case of microprocessor cores, these security properties ensure that the microprocessor instruction set architecture (ISA) does not introduce malicious architectural state changes, thereby preventing attackers from using a programming interface to exploit maliciously introduced hardware modifications. A formal proof of these security properties is then crafted by the vendor and presented to the consumer, who can automatically check correctness and validate compliance to the security properties. An ecosystem for developing provably trustworthy microprocessor cores, including a foundations framework, libraries, software tools, and demonstrations, as well as an educational module on Trusted Integrated Circuits and Systems are being developed as part of this project.</AbstractNarration>
+<MinAmdLetterDate>08/19/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/19/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1318860</AwardID>
+<Investigator>
+<FirstName>Yiorgos</FirstName>
+<LastName>Makris</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yiorgos Makris</PI_FULL_NAME>
+<EmailAddress>yiorgos.makris@utdallas.edu</EmailAddress>
+<PI_PHON>9728834360</PI_PHON>
+<NSF_ID>000488515</NSF_ID>
+<StartDate>08/19/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Dallas</Name>
+<CityName>Richardson</CityName>
+<ZipCode>750803021</ZipCode>
+<PhoneNumber>9728832313</PhoneNumber>
+<StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX32</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>800188161</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT DALLAS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Dallas]]></Name>
+<CityName>Richardson</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>750803021</ZipCode>
+<StreetAddress><![CDATA[800 W. Campbell Rd]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX32</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~216606</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project, we developed and enhanced a proof-carrying hardware framework for ensuring trustworthiness of hardware designs. Specifically, we developed rules to convert a hardware design to a formal representation and develop security properties ensuring trustworthiness of microprocessor circuits. These security properties ensure that instructions produce correct results at the specified register/memory location, do not illegally access registers or memory locations, and do not change the program execution flow. While our initial conversion methodology flattens the design hierarchy in the formal representation, we also enhanced the rules to preserve hierarchy. This new conversion approach enables development of hybrid hardware modules containing the hardware design and the lemmas which can be used in the development of proofs of security properties in higher level modules, thereby improving reusability of lemmas and reducing the proof development burden. To help designers in the conversion, we automated the process and introduced <em>VeriCoq</em> and VeriCoq-H which implement the conversion using the flat and hierarchy-preserving approach, respectively.</p> <p>&nbsp;</p> <p>While automating the whole process, including the proof construction for security properties, requires a much broader effort and might not be entirely feasible, we were able to develop a fully automate proof-carrying hardware framework for specialized classes of circuits. Specifically, we enhanced the proof-carrying hardware framework with information flow tracking capabilities and introduced <em>VeriCoq-IFT</em>. <em>VeriCoq-IFT</em> , seeking to (i) automate the process of converting designs from HDL to the Coq formal language, (ii) generate security property theorems ensuring information flow policies, (iii) construct proofs for such theorems, and (iv) check their validity for the design, with minimal user intervention. <em>VeriCoq-IFT</em> can be utilized to reveal possible information leakage capabilities in hardware designs and we successfully tested its utility in<em> </em>evaluating trustworthiness of several genuine and Trojan infested DES and AES encryption cores. In conjunction with the original proof-carrying hardware framework, we also demonstrated that our methodology can be applied to protect data secrecy, including integrity of sensitive information, in hardware designs.</p> <p>&nbsp;</p> <p><em>VeriCoq-IFT</em> focuses on information leakage in the digital domain. The risk of accidental information leakage, however, is not restricted to the digital domain. Indeed, analog signals originating from sources of sensitive information, such as biometric sensors, as well as analog outputs of a circuit, could also carry or leak secrets. Moreover, similar to digital designs, analog circuits can also be contaminated with malicious information leakage channels capable of evading traditional manufacturing test. Compounding the problem, in analog/mixed-signal circuits such information leakage channels can cross the analog/digital or digital/analog interface, making their detection even harder. To this end, we invoked the proof-carrying hardware methodology to enable systematic formal evaluation of information flow policies in analog/mixed-signal designs. By integrating IFT across the digital and analog domain, we demonstrated that our method is able to detect sensitive data leakage from the digital domain to the analog domain and vice versa, without requiring any modification of the current analog/mixed-signal circuit design flow.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 03/29/2017<br>      Modified by: Yiorgos&nbsp;Makris</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project, we developed and enhanced a proof-carrying hardware framework for ensuring trustworthiness of hardware designs. Specifically, we developed rules to convert a hardware design to a formal representation and develop security properties ensuring trustworthiness of microprocessor circuits. These security properties ensure that instructions produce correct results at the specified register/memory location, do not illegally access registers or memory locations, and do not change the program execution flow. While our initial conversion methodology flattens the design hierarchy in the formal representation, we also enhanced the rules to preserve hierarchy. This new conversion approach enables development of hybrid hardware modules containing the hardware design and the lemmas which can be used in the development of proofs of security properties in higher level modules, thereby improving reusability of lemmas and reducing the proof development burden. To help designers in the conversion, we automated the process and introduced VeriCoq and VeriCoq-H which implement the conversion using the flat and hierarchy-preserving approach, respectively.     While automating the whole process, including the proof construction for security properties, requires a much broader effort and might not be entirely feasible, we were able to develop a fully automate proof-carrying hardware framework for specialized classes of circuits. Specifically, we enhanced the proof-carrying hardware framework with information flow tracking capabilities and introduced VeriCoq-IFT. VeriCoq-IFT , seeking to (i) automate the process of converting designs from HDL to the Coq formal language, (ii) generate security property theorems ensuring information flow policies, (iii) construct proofs for such theorems, and (iv) check their validity for the design, with minimal user intervention. VeriCoq-IFT can be utilized to reveal possible information leakage capabilities in hardware designs and we successfully tested its utility in evaluating trustworthiness of several genuine and Trojan infested DES and AES encryption cores. In conjunction with the original proof-carrying hardware framework, we also demonstrated that our methodology can be applied to protect data secrecy, including integrity of sensitive information, in hardware designs.     VeriCoq-IFT focuses on information leakage in the digital domain. The risk of accidental information leakage, however, is not restricted to the digital domain. Indeed, analog signals originating from sources of sensitive information, such as biometric sensors, as well as analog outputs of a circuit, could also carry or leak secrets. Moreover, similar to digital designs, analog circuits can also be contaminated with malicious information leakage channels capable of evading traditional manufacturing test. Compounding the problem, in analog/mixed-signal circuits such information leakage channels can cross the analog/digital or digital/analog interface, making their detection even harder. To this end, we invoked the proof-carrying hardware methodology to enable systematic formal evaluation of information flow policies in analog/mixed-signal designs. By integrating IFT across the digital and analog domain, we demonstrated that our method is able to detect sensitive data leakage from the digital domain to the analog domain and vice versa, without requiring any modification of the current analog/mixed-signal circuit design flow.             Last Modified: 03/29/2017       Submitted by: Yiorgos Makris]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Operating System Abstractions for GPU-Accelerated Interactive Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Corman</SignBlockName>
+<PO_EMAI>dcorman@nsf.gov</PO_EMAI>
+<PO_PHON>7032928754</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The most dramatic gains in compute density in the last decade have come from graphics processing units (GPUs) rather than central processing units (CPUs). Unfortunately, current operating systems (OSes) do not provide the same kind of high-level programming abstractions for GPUs that applications expect for other resources like CPUs, input devices, and file systems. OSes hide GPUs behind an awkward ioctl interface, shifting the burden of abstraction onto user libraries and run-times.&lt;br/&gt;&lt;br/&gt;New technologies require new abstractions. Rich interfaces like recognizing gestures, brain-computer interfaces, and audio/visual interfaces are highly compute-intensive. Because they process voluminous data under real-time constraints, they are beyond the capabilities of modern CPUs. These workloads rely on data-parallel algorithms, making GPUs an ideal resource to accelerate these tasks, but some form of OS support is required to ensure safe interaction with the user.&lt;br/&gt;&lt;br/&gt;The SymbiOS model is a fundamental reorganization of kernel abstractions for managing interactive, massively parallel devices. The kernel must expose enough of the hardware detail of GPUs to allow programmers to take advantage of their enormous processing capabilities, but must hide programmer inconveniences like memory that is incoherent between the CPU and GPU. Under the SymbiOS model, GPUs are promoted to first-class computing resources, with traditional OS guarantees such as fairness and isolation.&lt;br/&gt;&lt;br/&gt;The goal of this project is the design and development of OS abstractions for GPUs, and  implementation of several case-studies including a gesture-driven UI that leverages the SymbiOS Model to deliver real-time performance on commodity GPU hardware.</AbstractNarration>
+<MinAmdLetterDate>07/19/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/28/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017785</AwardID>
+<Investigator>
+<FirstName>Emmett</FirstName>
+<LastName>Witchel</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Emmett Witchel</PI_FULL_NAME>
+<EmailAddress>witchel@cs.utexas.edu</EmailAddress>
+<PI_PHON>5122327889</PI_PHON>
+<NSF_ID>000164959</NSF_ID>
+<StartDate>07/19/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Christopher</FirstName>
+<LastName>Rossbach</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Christopher J Rossbach</PI_FULL_NAME>
+<EmailAddress>rossbach@cs.utexas.edu</EmailAddress>
+<PI_PHON>5124716424</PI_PHON>
+<NSF_ID>000555484</NSF_ID>
+<StartDate>07/19/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787595316</ZipCode>
+<StreetAddress><![CDATA[3925 W Braker Lane, Ste 3.340]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~163827</FUND_OBLG>
+<FUND_OBLG>2011~336173</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Graphical processing units (GPUs) have a highly parallel internal structure that allows them to compute certain algorithms moreefficiently than central processing units (CPUs). &nbsp;GPUs are efficientfor problems that apply nearly identical functions to different inputdata. Because of their computational efficiency, GPUs have become theprocessor of choice for many types of intensively parallel computations from data mining to molecular dynamics simulations.</p> <p>As GPUs have matured and acquired increasingly general-purpose processing capabilities, a richer and more powerful set of languages, tools, and computational algorithms have evolved to make use of GPU hardware. Unfortunately, GPU programming models are still almost entirely lacking core system abstractions, such as files and sockets, that CPU programmers have taken for granted for decades. &nbsp;Today's GPU is a bit of an idiot savant: it is capable of amazing computational feats when spoon-fed with the right data and micro-managed by application code on the host CPU. &nbsp;However, it is incapable of initiating even the simplest system interactions for itself, such as reading an input file from a disk. &nbsp;The traditional coprocessor-style GPU programming model requires developers to explicitly manage GPU I/O on the host CPU, which increases the design complexity and code size of even simple GPU programs that require system services.</p> <p>The work supported by this grant has gone into development of software prototypes that make it easier for GPU programs to access files (via GPUfs) and to connect with other machines over the network (via GPUnet).&nbsp;</p> <p>The first figure shows the design of GPUfs, where both CPU and GPU applications can access files and the system optimizes locality by caching those files in the memory where it is being used. &nbsp;The second figure shows the design of GPUnet, where both CPU and GPU applications can create network connections, with network data being transfered directly into GPU memory.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/24/2014<br>      Modified by: Emmett&nbsp;Witchel</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2014/1017785/1017785_10018737_1416816102465_gpufs-design--rgov-214x142.jpg" original="/por/images/Reports/POR/2014/1017785/1017785_10018737_1416816102465_gpufs-design--rgov-800width.jpg" title="GPUfs design"><img src="/por/images/Reports/POR/2014/1017785/1017785_10018737_1416816102465_gpufs-design--rgov-66x44.jpg" alt="GPUfs design"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Design of GPUfs.</div> <div class="imageCredit">Emmett Witchel</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Emmett&nbsp;Witchel</div> <div class="imageTitle">GPUfs design</div> </div> </li> <li> <a href="/por/images/Reports/POR/2014/1017785/1017785_10018737_1416816148501_gpunet-design--rgov-214x142.jpg" original="/por/images/Reports/POR/2014/1017785/1017785_10018737_1416816148501_gpunet-design--rgov-800width.jpg" title="GPUnet design"><img src="/por/images/Reports/POR/2014/1017785/1017785_10018737_1416816148501_gpunet-design--rgov-66x44.jpg" alt="GPUnet design"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Design of GPUnet.</div> <div class="imageCredit">Emmett Witchel</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Em...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Graphical processing units (GPUs) have a highly parallel internal structure that allows them to compute certain algorithms moreefficiently than central processing units (CPUs).  GPUs are efficientfor problems that apply nearly identical functions to different inputdata. Because of their computational efficiency, GPUs have become theprocessor of choice for many types of intensively parallel computations from data mining to molecular dynamics simulations.  As GPUs have matured and acquired increasingly general-purpose processing capabilities, a richer and more powerful set of languages, tools, and computational algorithms have evolved to make use of GPU hardware. Unfortunately, GPU programming models are still almost entirely lacking core system abstractions, such as files and sockets, that CPU programmers have taken for granted for decades.  Today's GPU is a bit of an idiot savant: it is capable of amazing computational feats when spoon-fed with the right data and micro-managed by application code on the host CPU.  However, it is incapable of initiating even the simplest system interactions for itself, such as reading an input file from a disk.  The traditional coprocessor-style GPU programming model requires developers to explicitly manage GPU I/O on the host CPU, which increases the design complexity and code size of even simple GPU programs that require system services.  The work supported by this grant has gone into development of software prototypes that make it easier for GPU programs to access files (via GPUfs) and to connect with other machines over the network (via GPUnet).   The first figure shows the design of GPUfs, where both CPU and GPU applications can access files and the system optimizes locality by caching those files in the memory where it is being used.  The second figure shows the design of GPUnet, where both CPU and GPU applications can create network connections, with network data being transfered directly into GPU memory.                Last Modified: 11/24/2014       Submitted by: Emmett Witchel]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

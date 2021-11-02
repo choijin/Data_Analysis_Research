@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>I-Corps:  Source Recovery from Binaries Using SecondWrite</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>50000.00</AwardTotalIntnAmount>
+<AwardAmount>50000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rathindra DasGupta</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This I-Corps team plans to further develop a software tool that takes x86 binary programs as input (including stripped binaries), and produces equivalent source-code programs in C. The binary can be compiled from any language. The output C code is not the same as the original source code, but is functionally equivalent. The output C code is fully functional: it can be modified, recompiled, and run as needed. Alternately, the software can output a rewritten binary, or the intermediate representation (IR) of the open-source LLVM compiler, allowing further analysis and transformation of binary code with existing or new LLVM passes. The software developed by the team is able to perform deep binary analysis where the output code is high-level, containing symbols, functions, arguments, return values, types (including aggregate types), and there are high-level control flow constructs, and an abstract stack. Alias analysis and type recovery schemes have been developed that work synergistically to do effective alias analysis on binary code, and recover types including aggregate types like structures and arrays. The team has also developed technologies to rewrite stripped binaries (i.e., those without relocation and symbolic information).&lt;br/&gt;&lt;br/&gt;With further development this software tool may be a valuable tool for the recovery of source code from legacy binaries. Both in government and industry, legacy code is run every day, but its source code is often hard to track or lost, given that the original code vendor may have gone through corporate mergers, reorganization or liquidations. Re-developing code from scratch can be costly and difficult to replicate as the full scope of the original functionality is often unknown. In these cases, this software tool may be able to provide source code that can be understood, maintained, updated and recompiled with newer compliers and for newer versions of the x86 instruction set. Additionally, this tool may have applications in forensics to examine and understand the behavior of vulnerable or un-trusted code prior to or after a security breach. This goes beyond existing security tools in dynamic binary rewriters or binary analysis tools, which used automated security tools that are useful, but cannot help with the human understanding of un-trusted or vulnerable code.</AbstractNarration>
+<MinAmdLetterDate>10/18/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>10/18/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1265331</AwardID>
+<Investigator>
+<FirstName>Rajeev</FirstName>
+<LastName>Barua</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Rajeev Barua</PI_FULL_NAME>
+<EmailAddress>barua@eng.umd.edu</EmailAddress>
+<PI_PHON>3014058137</PI_PHON>
+<NSF_ID>000096111</NSF_ID>
+<StartDate>10/18/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Maryland, College Park</Name>
+<CityName>College Park</CityName>
+<ZipCode>207425141</ZipCode>
+<PhoneNumber>3014056269</PhoneNumber>
+<StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>790934285</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MARYLAND, COLLEGE PARK</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003256088</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Maryland, College Park]]></Name>
+<CityName>College Park</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>207425141</ZipCode>
+<StreetAddress><![CDATA[3112 LEE BLDG 7809 Regents Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8023</Code>
+<Text>I-Corps</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~50000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this project was to study the commercial feasibility of research at the University of Maryland on&nbsp;the analysis and transformation of executable computer software. Our software to do this analysis and transformation is called SecondWrite.</p> <p>Based on almost one hundred interviews during the NSF-funded&nbsp;I-corps (Michigan, Oct - Nov 2012) customer discovery process, we believe that SecondWrite will be a game changer that will dramatically improve the speed, efficiency and efficacy in countering cyber threats.</p> <p>President Obama recently cited cyber-threats as one of our most serious economic and national security challenges. Cyber-crime costs the US economy billions of dollars and poses a direct threat to our national infrastructure and financial institutions. The losses from theft of intellectual property alone cost American companies around $250 Billion per year.</p> <p>SecondWrite has the potential to enable orders-of-magnitude productivity improvements across the cyber security spectrum including malware analysis, exposing undesirable behavior in untrusted code and detecting vulnerabilities from proprietary software. SecondWrite&rsquo;s innovative techniques result in a precise discovery of features and robust defense measures against the threats. SecondWrite also enables modification and maintenance of legacy software whose source code has been lost.</p> <p>Consequently, SecondWrite enables a substantially faster, automated, and more detailed analysis of cyber-threats resulting in a more robust defense capability. SecondWrite directly contributes to minimizing losses to the US economy. Better protection of our IP and trade secrets also contributes to minimizing American job losses.</p><br> <p>            Last Modified: 10/23/2013<br>      Modified by: Rajeev&nbsp;Barua</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this project was to study the commercial feasibility of research at the University of Maryland on the analysis and transformation of executable computer software. Our software to do this analysis and transformation is called SecondWrite.  Based on almost one hundred interviews during the NSF-funded I-corps (Michigan, Oct - Nov 2012) customer discovery process, we believe that SecondWrite will be a game changer that will dramatically improve the speed, efficiency and efficacy in countering cyber threats.  President Obama recently cited cyber-threats as one of our most serious economic and national security challenges. Cyber-crime costs the US economy billions of dollars and poses a direct threat to our national infrastructure and financial institutions. The losses from theft of intellectual property alone cost American companies around $250 Billion per year.  SecondWrite has the potential to enable orders-of-magnitude productivity improvements across the cyber security spectrum including malware analysis, exposing undesirable behavior in untrusted code and detecting vulnerabilities from proprietary software. SecondWriteÆs innovative techniques result in a precise discovery of features and robust defense measures against the threats. SecondWrite also enables modification and maintenance of legacy software whose source code has been lost.  Consequently, SecondWrite enables a substantially faster, automated, and more detailed analysis of cyber-threats resulting in a more robust defense capability. SecondWrite directly contributes to minimizing losses to the US economy. Better protection of our IP and trade secrets also contributes to minimizing American job losses.       Last Modified: 10/23/2013       Submitted by: Rajeev Barua]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

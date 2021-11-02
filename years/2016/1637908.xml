@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NRI: Collaborative Research: Accelerating Robotic Manipulation with Data-Enhanced Contact Mechanics</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>422050.00</AwardTotalIntnAmount>
+<AwardAmount>422050</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Miller</SignBlockName>
+<PO_EMAI>damiller@nsf.gov</PO_EMAI>
+<PO_PHON>7032924914</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Robotic manipulation depends upon mechanical contact between robot and object.  A better understanding of mechanical contact enables a wider range of more flexible manipulation techniques, which in turn enables the applications of greatest societal benefit such as eldercare, disaster response, or surgery.   This project is developing a broader and more accurate understanding of frictional contact, using a fusion of physics and data.  The project combines recent advances in a physics-based understanding of frictional contact with new machine learning techniques applied to a large corpus of experimental data.  One operation of great interest is manipulation of an object held in the robot gripper, even when the gripper is very simple.  Other operations of interest are handling objects in clutter, and manipulation of flexible objects, such as clothing.&lt;br/&gt;&lt;br/&gt;The project is attacking several central challenges: modeling frictional contact, modeling deformation, measuring small motions and interaction forces, gathering large amounts of data, and developing techniques for learning in a closed-loop system.  Parametric and semi-parametric models enable the project to apply engineering models enhanced with observation data, for both planning and control.  New machine learning techniques such as predictive state representations (PSRs) enable identification and modeling of previously hidden state, as well as learning in closed-loop systems.  New infrastructure enables gathering of relevant, precise data, on a large scale.  The project is developing and employing a Robotic Manipulation Arena, with a unique combination of manipulation resources and instrumentation to provide high volumes of high quality experimental data.  The primary outcomes are robust and practical contact models, so that robots can work more dexterously and opportunistically.</AbstractNarration>
+<MinAmdLetterDate>07/27/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/27/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1637908</AwardID>
+<Investigator>
+<FirstName>Matthew</FirstName>
+<LastName>Mason</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Matthew T Mason</PI_FULL_NAME>
+<EmailAddress>matt.mason@cs.cmu.edu</EmailAddress>
+<PI_PHON>4122688804</PI_PHON>
+<NSF_ID>000362470</NSF_ID>
+<StartDate>07/27/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8013</Code>
+<Text>NRI-National Robotics Initiati</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8086</Code>
+<Text>Natl Robotics Initiative (NRI)</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~422050</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Robotic manipulation depends on physical contact to move things around -- to grasp things, or to use the myriad other acts by which humans or robots might control their immediate environment. &nbsp;However, contact is a tricky business. &nbsp;To describe the interaction of two items in contact can be very difficult, which makes it difficult to create useful robots, and also difficult to produce good simulations.</p> <p>The primary goal of the project was to produce data-driven contact models, meaning that we would record huge amounts of data, and then use machine learning techniques to produce models of contact. &nbsp;And those models of contact are then the foundation with which we can build more useful robots. &nbsp;The project followed through on that goal. &nbsp;That included (1) the final revisions on our earlier work on pushing things, which had won the best paper prize at the biggest robotics conference, &nbsp;(2) a system for gathering an enormous amount of data recorded of a robot handling a block with a simple hand, and (3) using that data to produce a model that could give the probabilities of different outcomes.</p> <p>Then the project took an interesting turn, as we began to focus on some new manipulation techniques: &nbsp;pivoting an object between two fingers, rolling an object between the hand and a supporting table, sliding one object up the face of another, and even combining suction cups with conventional fingered grippers. &nbsp;This was made possible by learning more about contact, including how to plan and control contact. &nbsp; Perhaps the most surprising result is the first efficient algorithm for enumerating contact modes.</p> <p>The impact of this work is quite broad. &nbsp;The work aligned with the original primary goal -- data-driven models of contact mechanics -- is already having a significant impact in the field. &nbsp;But some of the unexpected outcomes will have a broader impact. &nbsp;The project's most recent work focuses on new techniques that may hasten the broader application of robotics in applications in new task domains. &nbsp;The contact mode enumeration algorithm will likely have an impact in other fields such as dynamic simulations. &nbsp;Some of the results have already appeared in curricular materials. &nbsp;The project also supported a survey of manipulation that might support entry into the field of new or mature researchers. And the project also provided professional training for a diverse group of students.</p> <p>&nbsp;</p><br> <p>            Last Modified: 07/01/2020<br>      Modified by: Matthew&nbsp;T&nbsp;Mason</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Robotic manipulation depends on physical contact to move things around -- to grasp things, or to use the myriad other acts by which humans or robots might control their immediate environment.  However, contact is a tricky business.  To describe the interaction of two items in contact can be very difficult, which makes it difficult to create useful robots, and also difficult to produce good simulations.  The primary goal of the project was to produce data-driven contact models, meaning that we would record huge amounts of data, and then use machine learning techniques to produce models of contact.  And those models of contact are then the foundation with which we can build more useful robots.  The project followed through on that goal.  That included (1) the final revisions on our earlier work on pushing things, which had won the best paper prize at the biggest robotics conference,  (2) a system for gathering an enormous amount of data recorded of a robot handling a block with a simple hand, and (3) using that data to produce a model that could give the probabilities of different outcomes.  Then the project took an interesting turn, as we began to focus on some new manipulation techniques:  pivoting an object between two fingers, rolling an object between the hand and a supporting table, sliding one object up the face of another, and even combining suction cups with conventional fingered grippers.  This was made possible by learning more about contact, including how to plan and control contact.   Perhaps the most surprising result is the first efficient algorithm for enumerating contact modes.  The impact of this work is quite broad.  The work aligned with the original primary goal -- data-driven models of contact mechanics -- is already having a significant impact in the field.  But some of the unexpected outcomes will have a broader impact.  The project's most recent work focuses on new techniques that may hasten the broader application of robotics in applications in new task domains.  The contact mode enumeration algorithm will likely have an impact in other fields such as dynamic simulations.  Some of the results have already appeared in curricular materials.  The project also supported a survey of manipulation that might support entry into the field of new or mature researchers. And the project also provided professional training for a diverse group of students.          Last Modified: 07/01/2020       Submitted by: Matthew T Mason]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

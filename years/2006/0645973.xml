@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SGER:Change-Focused Scene Capture for Gigapixel Imagery</AwardTitle>
+<AwardEffectiveDate>09/01/2006</AwardEffectiveDate>
+<AwardExpirationDate>02/29/2008</AwardExpirationDate>
+<AwardTotalIntnAmount>0.00</AwardTotalIntnAmount>
+<AwardAmount>60000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Lawrence Rosenblum</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Risk and Reward: The risk is high because pixels have been the unrivaled foundation of almost all digital imaging since its inception several decades ago, and the in-camera computational requirements may prove impractical. Even if the resulting higher-level image descriptors can be made, they might not prove sufficiently scaleable to enable image collection on gigapixel scales. The resulting devices may require substantial computational power, but such power is now commonplace even in hand-held, battery-powered devices. The camera sensor's output will require computation to construct a displayable image, even for the camera's viewfinder, but the potential payoff is great: we may be able to defer almost every image-making decision (e.g. all exposure settings, lighting, framing, focus, resolution, noise, time-of-snapshot, color compensation, motion compensation, flash adjustment) until after the photo is made; current digital cameras force irreversible decisions at the time of photography. The results may fundamentally change the process of photography itself, finally achieving features that were impossible with digitized film.&lt;br/&gt;To achieve these ambitious goals, we will pursue change-focused imagery; adaptively sensing changes in the viewed scene rather than a temporally and spatially-fixed grid of intensity values. We will attempt to merge and extend two already-successful complementary strategies: gradient-camera methods from my own previous work, and adaptive frameless sampling from my colleagues Ben Watson (NCSU) and Dave Luebke (now at Nvidia, Inc). Gradient-based methods estimate the partial derivatives of the image field rather attempting to estimate direct, instantaneous intensity. Adaptive frameless sampling discards traditional rigid temporal and spatial sampling patterns organized as uniformly spaced pixels, scanlines, and frames. Instead, it computes sample locations dynamically, in response to spatio-temporal gradient estimates to find regions and times of greatest change. When combined with gradient and velocity estimators, it dynamically estimates edges and motion. Adaptive reconstruction creates displayable images by velocity-sensitive interpolation where sample weights depend on age and displacement.&lt;br/&gt;These goals are ambitious but grounded: I do not propose to actually build new camera sensors, rendering hardware, and monitors, but instead to lay the necessary intellectual groundwork and run detailed, practical simulations. My colleagues Ben Watson and Dave Luebke will share their adaptive rendering code-base, and I also have active collaborations with partners in industry capable of taking these ideas to practice, including Microsoft Research, Adobe Systems, Inc., Mitsubishi Electric Research Labs(MERL), and Nvidia Corporation.&lt;br/&gt;Intellectual merit: Pixels may become low-level implementation details, entirely internal entities for 'smarter' displays and sensors that communicate using higher-level primitives that avoid rigid latency constraints ordinarily imposed by frame-buffered capture, rendering, and display. Visualization researchers may eventually interactively explore vast datasets with reduced-latency gigapixel video. If sufficiently sparse, these same methods may make gigapixel video transmission practical. Adaptation may enable predictive scene estimators to produce negative latencies, to cancel transmission delays in interactive systems and greatly improve critical interactive applications such as tele-robotics and remote medical examination and treatment.&lt;br/&gt;Broader impacts: Microsoft, Mitsubishi, Adobe and Nvidia are convinced that gigapixel devices will broadly reach consumers; their collaboration will help our chances for real-world impact. Educational impact from course development ("Computational Photography") will attract upper-level undergraduates and graduate students to this burgeoning field via individual projects. My funded collaborations and active outreach with Chicago-area museum curators and conservation scientists (Art Institute of Chicago, The Field Museum) and with the NU Anthropology department will directly benefit from measurable change-sensing, even without efficient new sensors; new opportunities abound for student involvement.</AbstractNarration>
+<MinAmdLetterDate>08/31/2006</MinAmdLetterDate>
+<MaxAmdLetterDate>08/24/2007</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0645973</AwardID>
+<Investigator>
+<FirstName>John</FirstName>
+<LastName>Tumblin</LastName>
+<EmailAddress>jet@cs.northwestern.edu</EmailAddress>
+<StartDate>08/31/2006</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Northwestern University</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606114579</ZipCode>
+<PhoneNumber>3125037955</PhoneNumber>
+<StreetAddress>750 N. Lake Shore Drive</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7453</Code>
+<Text>GRAPHICS &amp; VISUALIZATION</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9237</Code>
+<Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

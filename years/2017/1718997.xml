@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SaTC: CORE: Small: Practical Whole Kernel Memory Safety Enforcement</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>474399.00</AwardTotalIntnAmount>
+<AwardAmount>474399</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jeremy Epstein</SignBlockName>
+<PO_EMAI>jepstein@nsf.gov</PO_EMAI>
+<PO_PHON>7032928338</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The operating system (OS) kernel is the security-critical foundation of a computer system. Unfortunately, errors in the kernel software of commodity operating systems like Windows and Linux can allow a malicious attacker to take over the whole system. This research project is developing new techniques to eliminate certain types of critical errors from commodity OS kernels in a way that is both mathematically provable and efficient.&lt;br/&gt;&lt;br/&gt;The researchers are developing a unique combination of static and dynamic techniques to provide practical spatial memory safety for commodity OS kernels. These techniques include a new type system which guarantees that for every kernel module all its memory accesses are within bounds and the corresponding access type (read, write, execute) is allowed by the module's capabilities. This is achieved by automatically inserting necessary runtime checks during compilation. Since these new checks introduce performance overhead, the project includes additional techniques to reduce the overhead. The first optimization approach is utilizing software compartmentalization and model checking to eliminate redundant checks. The second optimization is adopting Intel MPX (memory protection extension), a new and commercially available hardware feature to reduce the cost of runtime checks.</AbstractNarration>
+<MinAmdLetterDate>07/18/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>07/18/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1718997</AwardID>
+<Investigator>
+<FirstName>Mohsen</FirstName>
+<LastName>Lesani</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mohsen Lesani</PI_FULL_NAME>
+<EmailAddress>lesani@cs.ucr.edu</EmailAddress>
+<PI_PHON>9518275535</PI_PHON>
+<NSF_ID>000728236</NSF_ID>
+<StartDate>07/18/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Chengyu</FirstName>
+<LastName>Song</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Chengyu Song</PI_FULL_NAME>
+<EmailAddress>csong@cs.ucr.edu</EmailAddress>
+<PI_PHON>9518275478</PI_PHON>
+<NSF_ID>000728805</NSF_ID>
+<StartDate>07/18/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>925089800</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>42</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA42</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~474399</FUND_OBLG>
+</Award>
+</rootTag>

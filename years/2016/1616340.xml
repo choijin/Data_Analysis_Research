@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>An optimization-based framework for deconvolution: theoretical guarantees and practical algorithms</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>184481.00</AwardTotalIntnAmount>
+<AwardAmount>184481</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Victor Roytburd</SignBlockName>
+<PO_EMAI>vroytbur@nsf.gov</PO_EMAI>
+<PO_PHON>7032928584</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Deconvolution is an inverse problem that consists of teasing apart the contributions of different signal sources in data. While these problems are common across the applied sciences, this project will focus on three examples. In neuroscience, recordings of neuron activity using extracellular electrodes measure the action potentials or spikes of adjacent cells. Spike sorting, or equivalently multi-waveform deconvolution, is the problem of identifying the signals corresponding to each cell and deconvolving them to reveal the separate spiking patterns. Super-resolution fluorescence microscopy allows one to obtain images or videos of complex cell structures at high resolution from low-resolution data. In computer vision, blurred pictures, such as ones taken from a cellphone, are well approximated by the convolution of a sharp image with a motion-blur kernel. The aim of this project is to develop and analyze algorithms to tackle these problems, with special emphasis on adapting these methods so that they can be applied efficiently to large amounts of data. &lt;br/&gt;&lt;br/&gt;Most recent literature on underdetermined linear inverse problems under sparsity constraints focuses on randomized sensing schemes, which do not allow to model convolution problems such as super-resolution, spike sorting in neuroscience, or blind deconvolution in computer vision. The main goal of this project is to develop optimization-based methods for deterministic deconvolution problems, as well as to derive theoretical guarantees on their performance and their robustness to noise. This will require developing novel proof techniques, which do not rely on probabilistic tools, to characterize the conditioning of convolution operators and the optimality conditions of L1-norm minimization problems. Building upon these optimization-based methods, practical algorithms will be designed to operate in big-data regimes where it is not computationally tractable to apply sophisticated processing uniformly across the data.</AbstractNarration>
+<MinAmdLetterDate>07/25/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/25/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1616340</AwardID>
+<Investigator>
+<FirstName>Carlos</FirstName>
+<LastName>Fernandez Granda</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Carlos Fernandez Granda</PI_FULL_NAME>
+<EmailAddress>cfg3@nyu.edu</EmailAddress>
+<PI_PHON>2129983289</PI_PHON>
+<NSF_ID>000709510</NSF_ID>
+<StartDate>07/25/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100121110</ZipCode>
+<StreetAddress><![CDATA[251 Mercer Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1266</Code>
+<Text>APPLIED MATHEMATICS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~184481</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-80e0a38f-7fff-9a2c-7048-c4c8709751a4"> </span></p> <p dir="ltr"><span>Deconvolution is the problem of estimating the location of point sources distorted by a known blur function. This is an important inverse problem in many domains, including microscopy, seismography, signal processing, and spectroscopy. This project built a theoretical framework to understand the potential and limitations of methods to solve deconvolution based on sparse estimation and convex optimization. These techniques had been applied in practice since the 1970s, but were not well characterized mathematically. The theory developed in the project provides precise guarantees on the performance of these methods in terms of signal recovery, and robustness to noise and outliers. The theory was also shown to generalize to more general parameter-estimation problems, arising for instance in brain imaging. The theoretical insights were leveraged to design new methodology for quantitative estimation of nuclear-spin relaxation times in magnetic-resonance imaging, in collaboration with the NYU School of Medicine.&nbsp;</span>In addition, a novel learning-based framework was designed for the problem of estimating sinusoid frequencies, which is fast, fully-automatic, and outperforms existing methodology. The research activities contributed to train five Ph.D. students and five Masters students. PI Fernandez-Granda designed and taught two courses on mathematical data science, producing self-contained lecture notes that are available online. In addition, he gave yearly public lectures to engage high-school students in mathematics and data science.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 08/19/2019<br>      Modified by: Carlos&nbsp;Fernandez Granda</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   Deconvolution is the problem of estimating the location of point sources distorted by a known blur function. This is an important inverse problem in many domains, including microscopy, seismography, signal processing, and spectroscopy. This project built a theoretical framework to understand the potential and limitations of methods to solve deconvolution based on sparse estimation and convex optimization. These techniques had been applied in practice since the 1970s, but were not well characterized mathematically. The theory developed in the project provides precise guarantees on the performance of these methods in terms of signal recovery, and robustness to noise and outliers. The theory was also shown to generalize to more general parameter-estimation problems, arising for instance in brain imaging. The theoretical insights were leveraged to design new methodology for quantitative estimation of nuclear-spin relaxation times in magnetic-resonance imaging, in collaboration with the NYU School of Medicine. In addition, a novel learning-based framework was designed for the problem of estimating sinusoid frequencies, which is fast, fully-automatic, and outperforms existing methodology. The research activities contributed to train five Ph.D. students and five Masters students. PI Fernandez-Granda designed and taught two courses on mathematical data science, producing self-contained lecture notes that are available online. In addition, he gave yearly public lectures to engage high-school students in mathematics and data science.                Last Modified: 08/19/2019       Submitted by: Carlos Fernandez Granda]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

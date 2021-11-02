@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Efficient CSMA in Wireless Networks: Theory, Protocol Design, and Implementation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>385921.00</AwardTotalIntnAmount>
+<AwardAmount>385921</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Wenjing Lou</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Deployment of wireless local area networks (WLAN) has undergone dramatic growth in recent years. Multiple WLAN standards have been developed, including several versions of IEEE 802.11. The widespread deployment of IEEE 802.11 is based on the Distributed Coordination Function (DCF) component of the standard, which incorporates channel contention resolution using CSMA (Carrier Sense Multiple Access). However, an important shortcoming of past deployments of CSMA-based protocols has been their inability to achieve optimal performance.  In recent years, researchers have developed new throughput-optimal CSMA algorithms. These results have opened up the possibility of designing CSMA-based protocols that can perform close to the optimal. However, the prior work on throughput-optimal CSMA makes several simplifying assumptions, including assumptions of perfect carrier sensing, symmetric interference relationship between links, and fixed rate transmissions. &lt;br/&gt;&lt;br/&gt;The thrust of this project is on developing CSMA-based scheduling mechanisms that can work well in practical networks. Towards this goal, the project investigates systematic relaxation of unrealistic assumptions and constraints, and attempts to develop CSMA algorithms that can perform well under the relaxed conditions. The scope of the project includes implementation of selected protocols on an experimental testbed. The project explores CSMA in the context of wireless multi-hop mesh networks, as well as infrastructure-based wireless LANs. Expected results from the project include new theoretical algorithms as well as efficient CSMA-based protocols that can perform well in practice.</AbstractNarration>
+<MinAmdLetterDate>08/01/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/01/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1117539</AwardID>
+<Investigator>
+<FirstName>Nitin</FirstName>
+<LastName>Vaidya</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nitin H Vaidya</PI_FULL_NAME>
+<EmailAddress>nv198@georgetown.edu</EmailAddress>
+<PI_PHON>2026870317</PI_PHON>
+<NSF_ID>000101142</NSF_ID>
+<StartDate>08/01/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Champaign</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618207406</ZipCode>
+<StreetAddress><![CDATA[1901 South First Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~385921</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Deployment of wireless local area networks (WLAN) has undergone dramatic growth in recent years. The widely deployed WLANs use a channel access mechanism based on Carrier Sense Multiple Access (CSMA). The primary goal of this project is to develop mechanisms that improve the performance of the CSMA-based channel access protocols. The scope of the project includes theoretical analysis as well as practical protocol development and implementation. While achieving this goal, the project has yielded several interesting outcomes, as briefly summarized here.</p> <p><br />The project developed a mechanism that augments CSMA with a token-based approach for contention resolution. &nbsp;The proposed approach can reduce the idle time overhead as well as the collision overhead of CSMA. It uses tokens piggybacked on data to opportunistically pass transmission privileges, and exploits the ability to overhear wireless transmissions to share queue state information between different nodes. We developed and evaluated an improvement of our token-based approach that also performs piggybacking of acknowledgments to improve performance. Our evaluations suggest that the proposed approach can significantly improve performance of CSMA-based protocols.</p> <p><br />Another performance enhancement mechanism explored in the project is called Concurrent-MAC. In CSMA protocols, due to the well-known exposed terminals problem, some concurrent transmissions are suppressed even though they have the potential to be completed reliably despite their concurrent transmission. Concurrent-MAC enables nodes to transmit concurrently if their concurrent transmissions can be reliably captured by at least one of the access points among the set of available access points. Concurrent-MAC exploits the presence of the network infrastructure to measure the path loss between the nodes and the access points. Based on this information, the set of nodes that can transmit concurrently is determined. When a node transmits, it gives a privilege to an appropriate set of neighboring nodes, which can then transmit concurrently. Simulation results show that Concurrent-MAC can achieve improvement in aggregate throughput when compared to the CSMA-based standard IEEE 802.11.</p> <p>&nbsp;</p> <p>It has been previously shown that CSMA protocols can be designed to achieve optimal throughput in wireless networks, but at the cost of a potentially long average delay. The past work does not adequately consider the worst-case delay for the transmissions, which is a practical concern. In our work, we investigated a scheduling approach with the goal of limiting the worst-case delay in transmission of packets. The project also investigated mechanisms to improve CSMA-based multi-channel network performance. In particular, we explored a queue-based priority scheduling strategy, motivated by throughput-optimal CSMA protocols. The queue-based strategy assigns priorities to packets based on the queue sizes, with higher queue sizes resulting in higher priorities. Importantly, the strategy used for choosing the priority for a certain queue size takes into account the maximum known queue size. We have also explored the benefits of packet-level channel switching for improving performance. In particular, when transmissions on the current channel used by a node are unsuccessful, the node intelligently chooses another alternate channel to retransmit the packet. These multi-channel mechanisms have been shown to provide performance improvement in simulation experiments. &nbsp;&nbsp;</p> <p><br />In prior work, spectrum auction has been explored as a mechanism for improving channel utilization by allowing the secondary users to use the spectrum when primary users are idle. Researchers working on this project developed a spectrum auction framework based on a randomized algorithm, motivated by the CSMA mechanisms. Analysis shows that the auction framewor...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Deployment of wireless local area networks (WLAN) has undergone dramatic growth in recent years. The widely deployed WLANs use a channel access mechanism based on Carrier Sense Multiple Access (CSMA). The primary goal of this project is to develop mechanisms that improve the performance of the CSMA-based channel access protocols. The scope of the project includes theoretical analysis as well as practical protocol development and implementation. While achieving this goal, the project has yielded several interesting outcomes, as briefly summarized here.   The project developed a mechanism that augments CSMA with a token-based approach for contention resolution.  The proposed approach can reduce the idle time overhead as well as the collision overhead of CSMA. It uses tokens piggybacked on data to opportunistically pass transmission privileges, and exploits the ability to overhear wireless transmissions to share queue state information between different nodes. We developed and evaluated an improvement of our token-based approach that also performs piggybacking of acknowledgments to improve performance. Our evaluations suggest that the proposed approach can significantly improve performance of CSMA-based protocols.   Another performance enhancement mechanism explored in the project is called Concurrent-MAC. In CSMA protocols, due to the well-known exposed terminals problem, some concurrent transmissions are suppressed even though they have the potential to be completed reliably despite their concurrent transmission. Concurrent-MAC enables nodes to transmit concurrently if their concurrent transmissions can be reliably captured by at least one of the access points among the set of available access points. Concurrent-MAC exploits the presence of the network infrastructure to measure the path loss between the nodes and the access points. Based on this information, the set of nodes that can transmit concurrently is determined. When a node transmits, it gives a privilege to an appropriate set of neighboring nodes, which can then transmit concurrently. Simulation results show that Concurrent-MAC can achieve improvement in aggregate throughput when compared to the CSMA-based standard IEEE 802.11.     It has been previously shown that CSMA protocols can be designed to achieve optimal throughput in wireless networks, but at the cost of a potentially long average delay. The past work does not adequately consider the worst-case delay for the transmissions, which is a practical concern. In our work, we investigated a scheduling approach with the goal of limiting the worst-case delay in transmission of packets. The project also investigated mechanisms to improve CSMA-based multi-channel network performance. In particular, we explored a queue-based priority scheduling strategy, motivated by throughput-optimal CSMA protocols. The queue-based strategy assigns priorities to packets based on the queue sizes, with higher queue sizes resulting in higher priorities. Importantly, the strategy used for choosing the priority for a certain queue size takes into account the maximum known queue size. We have also explored the benefits of packet-level channel switching for improving performance. In particular, when transmissions on the current channel used by a node are unsuccessful, the node intelligently chooses another alternate channel to retransmit the packet. These multi-channel mechanisms have been shown to provide performance improvement in simulation experiments.      In prior work, spectrum auction has been explored as a mechanism for improving channel utilization by allowing the secondary users to use the spectrum when primary users are idle. Researchers working on this project developed a spectrum auction framework based on a randomized algorithm, motivated by the CSMA mechanisms. Analysis shows that the auction framework can achieve truthfulness, while achieving satisfactory utility or social welfare.   The project also developed a testbed cons...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

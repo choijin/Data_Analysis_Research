@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Noisy Computation of Distributed State Machines</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>72322.00</AwardTotalIntnAmount>
+<AwardAmount>72322</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rahul Shah</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Distributed systems are collections of computational devices that work together to solve problems. These systems play an increasingly important role in modern society - from data centers serving popular websites to GPU clusters tackling deep scientific problems. A key obstacle in designing these systems is that due to many different unpredictable factors individual devices might behave in a faulty manner. Standard strategies to cope with this possibility assume that only a bounded fraction of the devices might suffer from faults (which can be catastrophic), while the rest execute perfectly. This project, by contrast, explores novel modeling and analysis techniques for studying systems in which every device might be faulty to some degree, but the faults are assumed less severe than the typical definitions. By doing so, it tackles the following fundamental question: when and how is it possible for a collection of locally unreliable devices to work together to reliably solve a global problem?  Answers to this question can support the development of more cost effective and robust distributed systems. They will also provide potential insight into coordination problems in nature where the underlying computational "devices" (be they cells, ants, or bees) execute much less precisely than digital processors. In addition to these large scale impacts, this project will also have a local impact in the classroom. The PI will include insights from this work into a course that includes a module on novel ideas in the theory of distributed systems, and the project will help fund a graduate student to work on the topic.&lt;br/&gt;&lt;br/&gt;In more detail, the canonical approach to formally modeling a distributed system is to represent the distributed processes as state machines that interact through shared objects or network channels. This project describes local faults (called "computational noise" in the following) as state machine transition functions that might probabilistically deviate from their specification. There are many different ways to instantiate this general idea. This project will investigate two main approaches: one which describes noise by allowing bounded adversarial modifications to the system's state machines, and another which describes noise as injections of random offsets to the underlying multi-dimensional vector of property values describing each device's current configuration. The project will apply these two approaches to two representative and well-studied problems: symmetry breaking on a shared channel and threshold detection with population protocols. The goal is to produce new results of immediate application to existing areas of computer science research, as well as to develop a foundation of models and tools on which a long-term investigation of this topic can be built.</AbstractNarration>
+<MinAmdLetterDate>09/06/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/06/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1649484</AwardID>
+<Investigator>
+<FirstName>Calvin</FirstName>
+<LastName>Newport</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Calvin Newport</PI_FULL_NAME>
+<EmailAddress>cnewport@cs.georgetown.edu</EmailAddress>
+<PI_PHON>2026875082</PI_PHON>
+<NSF_ID>000608649</NSF_ID>
+<StartDate>09/06/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgetown University</Name>
+<CityName>Washington</CityName>
+<ZipCode>200571789</ZipCode>
+<PhoneNumber>2026250100</PhoneNumber>
+<StreetAddress>37th &amp; O St N W</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>District of Columbia</StateName>
+<StateCode>DC</StateCode>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>DC00</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049515844</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGETOWN UNIVERSITY (THE)</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049515844</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgetown University]]></Name>
+<CityName>Washington</CityName>
+<StateCode>DC</StateCode>
+<ZipCode>200571789</ZipCode>
+<StreetAddress><![CDATA[37th & O St N W]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>District of Columbia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>DC00</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7934</Code>
+<Text>PARAL/DISTRIBUTED ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~72322</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This two-year exploratory project investigated the impact of computational noise in distributed systems. In more detail, in the study of computer science we are used to thinking about computation as a precise process: we specify an algorithm, and it is either executed exactly as described, or it suffers a catastrophic fault, such as crashing. In this standard approach, the <em>input</em> to the algorithm might suffer from more moderate errors, such as a noisy signal, but the algorithm itself either works perfectly or not at all.</p> <p>When dealing with standard electronic computing hardware this is a reasonable assumption. Error correction is integrated into the underlying design of the chips, and precise and predictable execution of commands specified by an algorithm is expected.</p> <p>When we move to more exotic computing scenarios, however, we can no longer expect that our computation will proceed exactly as specified. The execution of commands might be subject to noise.</p> <p>Consider, for example, the implicit computation that helps systems in nature process information, coordinate, and react in an adaptive manner. These "natural algorithms" are not executed on error corrected computer chips, but instead implemented by much messier and less precise analog processes, such as varying ion concentrations in cells or binding DNA molecules.</p> <p>Another context in which noisy computation is relevant is in the study of increasingly large distributed systems, where the sheer volume of components increases the chances that the system as a whole deviates from the behavior for which it is programmed.</p> <p>This project investigated fundamental questions of how best to model these styles of computational noise, and how to design algorithm strategies that can still reliably solve problems in the presence of such noise.</p> <p>In doing so, it generated impact in both the research literature and the classroom.</p> <p>In the context of the research literature, the project led to the development of two novel computational models for studying noise in distributed systems. The first model, which is general enough to capture noise in multiple contexts, was published and presented at the top conference for distributed algorithm theory. The second model, which focuses on a specific biological context in which noise is fundamental, has been published as a publicly available technical report and will generate peer-reviewed paper submissions.</p> <p>In the classroom, the project partially funded a graduate student to study technical aspets of computaitonal noise in biological systems, and it motivated a doctoral seminar on distributed computation in biology, with a focus on the impact of noise.</p><br> <p>            Last Modified: 12/20/2018<br>      Modified by: Calvin&nbsp;Newport</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This two-year exploratory project investigated the impact of computational noise in distributed systems. In more detail, in the study of computer science we are used to thinking about computation as a precise process: we specify an algorithm, and it is either executed exactly as described, or it suffers a catastrophic fault, such as crashing. In this standard approach, the input to the algorithm might suffer from more moderate errors, such as a noisy signal, but the algorithm itself either works perfectly or not at all.  When dealing with standard electronic computing hardware this is a reasonable assumption. Error correction is integrated into the underlying design of the chips, and precise and predictable execution of commands specified by an algorithm is expected.  When we move to more exotic computing scenarios, however, we can no longer expect that our computation will proceed exactly as specified. The execution of commands might be subject to noise.  Consider, for example, the implicit computation that helps systems in nature process information, coordinate, and react in an adaptive manner. These "natural algorithms" are not executed on error corrected computer chips, but instead implemented by much messier and less precise analog processes, such as varying ion concentrations in cells or binding DNA molecules.  Another context in which noisy computation is relevant is in the study of increasingly large distributed systems, where the sheer volume of components increases the chances that the system as a whole deviates from the behavior for which it is programmed.  This project investigated fundamental questions of how best to model these styles of computational noise, and how to design algorithm strategies that can still reliably solve problems in the presence of such noise.  In doing so, it generated impact in both the research literature and the classroom.  In the context of the research literature, the project led to the development of two novel computational models for studying noise in distributed systems. The first model, which is general enough to capture noise in multiple contexts, was published and presented at the top conference for distributed algorithm theory. The second model, which focuses on a specific biological context in which noise is fundamental, has been published as a publicly available technical report and will generate peer-reviewed paper submissions.  In the classroom, the project partially funded a graduate student to study technical aspets of computaitonal noise in biological systems, and it motivated a doctoral seminar on distributed computation in biology, with a focus on the impact of noise.       Last Modified: 12/20/2018       Submitted by: Calvin Newport]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

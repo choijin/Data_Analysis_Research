@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Uncertainty-driven Dynamic 3D Reconstruction</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>368003.00</AwardTotalIntnAmount>
+<AwardAmount>368003</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Yang</SignBlockName>
+<PO_EMAI>jyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924768</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project develops technologies of dynamic 3D reconstruction with applications to broader areas, such as free-viewpoint video, markerless motion capture, special effects for 3D and conventional films, and augmented reality.  While image and video-based 3D reconstruction of static scenes is well-understood and is among the most active research areas in computer vision, the current 3D reconstruction methods are not be able to reconstruct  dynamic scenes containing non-rigidly moving people, animals or objects well.  Furthermore, these methods are unable to self-assess their output. This research effort casts dense multi-view 3D reconstruction as an estimation problem with explicit uncertainty modeling distinguishing between geometric and correspondence uncertainty which are due to very different causes. Other innovations include the combined use of viewpoint-based and world-based processing with explicit and implicit representations and uncertainty-driven regularization.&lt;br/&gt;&lt;br/&gt;The outcomes of this project improve 3D reconstruction quality and reduce cost for the above applications which have broader impact on different research areas. Ongoing outreach efforts focus on improving Science, Technology, Engineering and Mathematics (STEM) education in several ways: by teaching high school students during the summer, by mentoring them as interns and by training graduate students working with high school STEM teachers. The project also includes a plan of creating the first publicly available dataset of multiple-view dynamic scenes with ground truth depth.</AbstractNarration>
+<MinAmdLetterDate>07/16/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/16/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217797</AwardID>
+<Investigator>
+<FirstName>Philippos</FirstName>
+<LastName>Mordohai</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Philippos Mordohai</PI_FULL_NAME>
+<EmailAddress>Philippos.Mordohai@stevens.edu</EmailAddress>
+<PI_PHON>2012165611</PI_PHON>
+<NSF_ID>000512790</NSF_ID>
+<StartDate>07/16/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stevens Institute of Technology</Name>
+<CityName>HOBOKEN</CityName>
+<ZipCode>070305991</ZipCode>
+<PhoneNumber>2012168762</PhoneNumber>
+<StreetAddress>CASTLE POINT ON HUDSON</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>064271570</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>STEVENS INSTITUTE OF TECHNOLOGY (INC)</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>064271570</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stevens Institute of Technology]]></Name>
+<CityName>Hoboken</CityName>
+<StateCode>NJ</StateCode>
+<ZipCode>070305991</ZipCode>
+<StreetAddress><![CDATA[Castle Point on Hudson]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~368003</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This document describes the most significant outcomes achieved under this grant. It begins with research accomplishments and concludes with educational and outreach efforts.</p> <p>&nbsp;</p> <p>Our research distinguishes between geometric and correspondence uncertainty in 3D reconstruction and advanced the field in both directions. (3D reconstruction is the problem of estimating 3D shape from two or more images. It is one of the most well-studied problems in computer vision. Given corresponding pixels in the images and camera parameters, the 3D point that generated the pixels can be estimated by triangulation. Thus, the most critical aspect of 3D reconstruction is the detection of corresponding pixels.)</p> <p>&nbsp;</p> <p>In a paper published in the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) in 2015, we identified a bias in depth estimation from triangulation. Despite the large volume of research and publications on this topic, this was the first time this bias was precisely computed as a function of the coordinates of the triangulated point and camera parameters. We proposed a correction that is easy to compute in closed form and completely eliminates the bias. In addition, we also presented a method for computing the uncertainty of the reconstruction, in the form of the error covariance matrix.</p> <p>&nbsp;</p> <p>Another significant result is our next-best-view (NBV) estimation approach which is based on minimizing the geometric uncertainty. It is the first approach that estimates the NBV in a continuous domain without having to test discrete 6D pose hypotheses, while also considering realistic sensor uncertainty models that depend on relative distance and viewing angle from the targets. Papers presenting the approach for static and dynamic targets were published in the IEEE International Conference on Robotics and Automation (ICRA) and the IEEE International Conference on Decision and Control (CDC) respectively.</p> <p>&nbsp;</p> <p>Our research on correspondence uncertainty estimation produced a paper that was presented at CVPR 2014 and addressed two questions: whether it is possible to predict the correctness of pixel correspondences and whether such predictions can be useful in improving the accuracy of a depth map. The answer is affirmative in both cases. A random forest classifier was trained on image pairs with ground truth depth maps and it can predict the confidence of pixel correspondences. The strongest correspondences can then be used as constraints in a global optimization process that estimates highly accurate depth maps. This work has inspired similar research efforts in several universities in the US and abroad and was the starting point for another award by the NSF to further investigate the use of machine learning for improving 3D reconstruction.</p> <p>&nbsp;</p> <p>We also investigated dense temporal correspondence estimation on shapes undergoing non-rigid motion. Our method is capable of automatically discovering the articulated parts of the surface without requiring knowledge of the topology or the number of rigid parts. Initially potential sparse correspondences between the source and the target surface are detected. These are used to align the largest corresponding parts of the two surfaces. Fragments of the surface that are not consistent with this alignment generate part hypotheses on which the algorithm is applied recursively. A paper describing this approach was published in the Visual Computer journal.</p> <p>&nbsp;</p> <p>The main outreach activity supported by this award was mentoring high school students in their first steps in research. Between May and August 2013, a rising high school senior from High Technology High School (NJ) spent several weeks on campus and performed research on enforcing frame-to-frame consistency on 3D reconstruction using video streams captured by cameras mounted on a moving vehicle. A second high school student, a rising junior from Brooklyn Technical High School (NY), was an intern from July to September 2016 and developed a real-time app that will be used to guide robots in a student contest. A third high school student, a rising junior from Pine Crest School (FL), was an intern for two weeks in July 2016 and was trained on programming and fundamental aspects of computer vision. Furthermore, the PI taught a module on image processing and computer vision in the &ldquo;CS Intensive program&rdquo; for high school students organized by the Department of Computer Science in July 2013.</p> <p>&nbsp;</p> <p>Finally, a total of seven undergraduate students were engaged for at least one semester in research directly related to this project. Most of these students, who have already graduated, are currently pursuing graduate degrees.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/29/2016<br>      Modified by: Philippos&nbsp;Mordohai</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This document describes the most significant outcomes achieved under this grant. It begins with research accomplishments and concludes with educational and outreach efforts.     Our research distinguishes between geometric and correspondence uncertainty in 3D reconstruction and advanced the field in both directions. (3D reconstruction is the problem of estimating 3D shape from two or more images. It is one of the most well-studied problems in computer vision. Given corresponding pixels in the images and camera parameters, the 3D point that generated the pixels can be estimated by triangulation. Thus, the most critical aspect of 3D reconstruction is the detection of corresponding pixels.)     In a paper published in the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) in 2015, we identified a bias in depth estimation from triangulation. Despite the large volume of research and publications on this topic, this was the first time this bias was precisely computed as a function of the coordinates of the triangulated point and camera parameters. We proposed a correction that is easy to compute in closed form and completely eliminates the bias. In addition, we also presented a method for computing the uncertainty of the reconstruction, in the form of the error covariance matrix.     Another significant result is our next-best-view (NBV) estimation approach which is based on minimizing the geometric uncertainty. It is the first approach that estimates the NBV in a continuous domain without having to test discrete 6D pose hypotheses, while also considering realistic sensor uncertainty models that depend on relative distance and viewing angle from the targets. Papers presenting the approach for static and dynamic targets were published in the IEEE International Conference on Robotics and Automation (ICRA) and the IEEE International Conference on Decision and Control (CDC) respectively.     Our research on correspondence uncertainty estimation produced a paper that was presented at CVPR 2014 and addressed two questions: whether it is possible to predict the correctness of pixel correspondences and whether such predictions can be useful in improving the accuracy of a depth map. The answer is affirmative in both cases. A random forest classifier was trained on image pairs with ground truth depth maps and it can predict the confidence of pixel correspondences. The strongest correspondences can then be used as constraints in a global optimization process that estimates highly accurate depth maps. This work has inspired similar research efforts in several universities in the US and abroad and was the starting point for another award by the NSF to further investigate the use of machine learning for improving 3D reconstruction.     We also investigated dense temporal correspondence estimation on shapes undergoing non-rigid motion. Our method is capable of automatically discovering the articulated parts of the surface without requiring knowledge of the topology or the number of rigid parts. Initially potential sparse correspondences between the source and the target surface are detected. These are used to align the largest corresponding parts of the two surfaces. Fragments of the surface that are not consistent with this alignment generate part hypotheses on which the algorithm is applied recursively. A paper describing this approach was published in the Visual Computer journal.     The main outreach activity supported by this award was mentoring high school students in their first steps in research. Between May and August 2013, a rising high school senior from High Technology High School (NJ) spent several weeks on campus and performed research on enforcing frame-to-frame consistency on 3D reconstruction using video streams captured by cameras mounted on a moving vehicle. A second high school student, a rising junior from Brooklyn Technical High School (NY), was an intern from July to September 2016 and developed a real-time app that will be used to guide robots in a student contest. A third high school student, a rising junior from Pine Crest School (FL), was an intern for two weeks in July 2016 and was trained on programming and fundamental aspects of computer vision. Furthermore, the PI taught a module on image processing and computer vision in the "CS Intensive program" for high school students organized by the Department of Computer Science in July 2013.     Finally, a total of seven undergraduate students were engaged for at least one semester in research directly related to this project. Most of these students, who have already graduated, are currently pursuing graduate degrees.          Last Modified: 10/29/2016       Submitted by: Philippos Mordohai]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

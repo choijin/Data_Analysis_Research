@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: Small: Fully Implicit Methods for Partial Differential Equations and Software for Hybrid Architecture</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jack S. Snoeyink</SignBlockName>
+<PO_EMAI>jsnoeyin@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The first goal of the project is to develop new domain decomposition algorithms and software for the numerical solution of some highly nonlinear, coupled systems of partial differential equations arising from multi-physics applications.  For simple problems, implicit methods are relatively easy to develop from a given explicit or semi-implicit method, but for some multi-physics problems it is quite difficult to develop a fully implicit method that allows a high performance implementation.  Most of the existing techniques are non-smooth and therefore difficult to solve with Newton type solver. In the project, some discretization techniques will be developed that involve high order non-smooth discretization for capturing the domain information, and low order locally smooth discretization for building the Jacobian system of the Newton iterations. The low order discretization serves as a nonlinear preconditioner that speeds up the convergence, but doesn't change the accuracy of the solution. The second goal of the project is to develop an efficient implementation of the proposed linear and nonlinear preconditioning approaches on high performance computers with a large number of processors. &lt;br/&gt;&lt;br/&gt;Relatively mature technologies including algorithms and software are available for solving many types of single physics problems, but for coupled multi-physics problems, robust and scalable techniques are badly needed, especially for large scale parallel computers with accelerators. The proposed algorithms and software will have a great impact on several important application areas, such as the simulation of global atmospheric flows and the bio-fluids, and will also have substantial influence on other areas of computational sciences where large linear and nonlinear equations need to be solved. To broaden the impact of the research, the software will be made fully compatible with the widely used PETSc package. The research is a rich area in opportunities for both graduate and undergraduate students interested in high performance computing and general Computational Science and Engineering.</AbstractNarration>
+<MinAmdLetterDate>07/31/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/31/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1216314</AwardID>
+<Investigator>
+<FirstName>Xiao-Chuan</FirstName>
+<LastName>Cai</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Xiao-Chuan Cai</PI_FULL_NAME>
+<EmailAddress>cai@cs.colorado.edu</EmailAddress>
+<PI_PHON>3034923746</PI_PHON>
+<NSF_ID>000162736</NSF_ID>
+<StartDate>07/31/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Colorado at Boulder</Name>
+<CityName>Boulder</CityName>
+<ZipCode>803031058</ZipCode>
+<PhoneNumber>3034926221</PhoneNumber>
+<StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+<StreetAddress2><![CDATA[572 UCB]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CO02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>007431505</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF COLORADO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>007431505</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Colorado at Boulder]]></Name>
+<CityName>Boulder</CityName>
+<StateCode>CO</StateCode>
+<ZipCode>803090572</ZipCode>
+<StreetAddress><![CDATA[3100 Marine St. Room 479]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CO02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7933</Code>
+<Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The aim of the project is to develop fast implicit methods for solving partial differential equations arising from different application areas such as fluid dynamics, solid mechanics and coupled multi-physics problems. Implicit methods have the advantages that large time steps can be used and they are always stable, but the resulting linear and nonlinear algebraic systems are usually very large and ill-conditioned. Several linear and nonlinear preconditioning methods were introduced to effectively reduce the condition numbers and unbalanced nonlinearities. When solving these large systems on supercomputers with a large number of processors, the scalability of the algorithms is determined by the multilevel structure of the algorithms. In the case of structured meshes, the coarse meshes can be generated by uniformly coarsen the fine mesh, but for unstructured meshes, the uniform coarsening approach doesn't work well; the resulting multilevel approach is usually scalable in terms of the number of linear and nonlinear iterations, but not in terms of the total compute time.&nbsp; A new class of coarsening algorithms was introduced to drastically reduce the number of coarse mesh points in the interior of the computational domain, but preserve the geometric information of the domain. With such isogeometric coarse meshes, the overall multilevel domain decomposition method becomes highly scalable in terms of the number of iterations and the total compute time.</p><br> <p>            Last Modified: 12/03/2016<br>      Modified by: Xiao-Chuan&nbsp;Cai</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The aim of the project is to develop fast implicit methods for solving partial differential equations arising from different application areas such as fluid dynamics, solid mechanics and coupled multi-physics problems. Implicit methods have the advantages that large time steps can be used and they are always stable, but the resulting linear and nonlinear algebraic systems are usually very large and ill-conditioned. Several linear and nonlinear preconditioning methods were introduced to effectively reduce the condition numbers and unbalanced nonlinearities. When solving these large systems on supercomputers with a large number of processors, the scalability of the algorithms is determined by the multilevel structure of the algorithms. In the case of structured meshes, the coarse meshes can be generated by uniformly coarsen the fine mesh, but for unstructured meshes, the uniform coarsening approach doesn't work well; the resulting multilevel approach is usually scalable in terms of the number of linear and nonlinear iterations, but not in terms of the total compute time.  A new class of coarsening algorithms was introduced to drastically reduce the number of coarse mesh points in the interior of the computational domain, but preserve the geometric information of the domain. With such isogeometric coarse meshes, the overall multilevel domain decomposition method becomes highly scalable in terms of the number of iterations and the total compute time.       Last Modified: 12/03/2016       Submitted by: Xiao-Chuan Cai]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Efficient Query Processing in Large Search Engines</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>499852.00</AwardTotalIntnAmount>
+<AwardAmount>499852</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Maria Zemankova</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The largest web search engines now receive hundreds of millions of queries per day that need to be answered in fractions of a second on collections of tens of billions of web documents. In order to process all these queries, search engines consume increasing amounts of hardware and energy resources. This project focuses on developing new algorithms, index structures, and other software techniques for scaling query processing in search engines, that is, techniques that allow queries to be executed faster and on larger data sets using fewer hardware and energy resources. &lt;br/&gt;&lt;br/&gt; Research activities in this project focus on three main approaches. First, the project studies how index size and access time can be reduced through improved index compression techniques. Second, work on new early termination techniques considers how the top results for a query can be computed without exhaustive traversal of the index structures for the query terms, for simple ranking functions such as BM25 or Cosine, and for the more complex functions with many features used by current web search engines. Finally, the project explores general techniques for query optimization in information retrieval (IR) systems, inspired by the significant body of work on query optimizers in database systems.  &lt;br/&gt;&lt;br/&gt; Web search engines are a multi-billion dollar industry and a crucial component of the internet. Techniques resulting from this project are expected to benefit this industry by reducing the hardware cost and energy consumption of large-scale search services. Results will be disseminated through publications in major conferences and journals, tutorials at conferences, distribution of software libraries, contributions to existing software tools such as Lucene. This project provides research and educational opportunities for graduate and undergraduate students and prepare them for later work at companies, research labs, or universities. Web site (http://cis.poly.edu/westlab/queryproc/) provides more information about this project.</AbstractNarration>
+<MinAmdLetterDate>08/16/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/16/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1117829</AwardID>
+<Investigator>
+<FirstName>Torsten</FirstName>
+<LastName>Suel</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Torsten Suel</PI_FULL_NAME>
+<EmailAddress>torsten.suel@nyu.edu</EmailAddress>
+<PI_PHON>6469973354</PI_PHON>
+<NSF_ID>000493079</NSF_ID>
+<StartDate>08/16/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York University]]></Name>
+<CityName>NEW YORK</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100121019</ZipCode>
+<StreetAddress><![CDATA[70 WASHINGTON SQUARE S]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~499852</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>This project developed new techniques that allow web search engines to more efficiently execute keyword queries posed by users. Large search engines receive billions of queries per day that have to be processed over hundreds of billions of web pages and other types of documents. To do this, companies have to build many large data centers with thousands of machines each, resulting in large hardware, maintenance, and energy costs. Reducing these costs by even a moderate amount thus can have great benefits for the economy and environment.</span></p> <p>Our work proposed new algorithmic techniques (i.e., smart algorithms and data structures) for this problem that can improve efficiency in many scenarios. Our two main contributions are as follows:</p> <p><strong>1. A new approach for fast candidate generation for cascading rankers</strong>. State-of-the-art search engines order query results based on highly complex ranking functions that use hundreds of features (signals). This increases the cost of query processing, but is necessary to return relevant results to the user. For efficiency, search engines implement this by using a cascading approach to query processing that first applies a very simple ranking function to the entire index to narrow down the field and identify a small set of candidate documents; these candidates are then further ranked and winnowed using increasingly complex ranking functions. We proposed a new approach that identifies such candidates much faster than previous oublished work, thus significantly reducing the cost of the first phase of the cascading approach.</p> <p><strong>2. Faster algorithms for disjunctive top-k queries under simple ranking functions.</strong> Disjunctive top-k queries return the k results with highest scores among all documents containing at least one of the query keywords. Such queries are an important building block in search engines, e.g., for first-cascade ranking, and a classical problem in Information Retrieval that has been studied by many researchers. Our work further improved an approach based on so-called block-max index structures, which are index structures that enable skipping of less relevant parts of the index during query processing. Our algorithms achieve speed-ups of 2-5 over the fastest previous solutions on standard data sets.</p> <p>Other research conducted in this project proposed improved algorithms for index pruning (which is the process of identifying and removing index entries that are unlikely to be useful for any queries that are likely to happen), for updating and reorganizing large text index structures on single machines and in distributed systems, and for quickly estimating distances in very large graphs, such as those arising from social networks or the hyperlink structure of the web.</p> <p>The research conducted in this project has the potential to improve the efficiency of existing commercial search engines, an industry with tens of billions of dollars of economic impact per year in the US, and to help new companies entering this and related fields. The project also supported the training of 5 PhD and 3 MS students in Computer Science, including a female PhD graduate, a Hispanic PhD student, and an MS student with disabilities. Results of this research were published in peer-reviewed publication venues and are expected to lead to significant follow-up work by other researchers.</p> <p>&nbsp;</p><br> <p>            Last Modified: 08/04/2016<br>      Modified by: Torsten&nbsp;Suel</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project developed new techniques that allow web search engines to more efficiently execute keyword queries posed by users. Large search engines receive billions of queries per day that have to be processed over hundreds of billions of web pages and other types of documents. To do this, companies have to build many large data centers with thousands of machines each, resulting in large hardware, maintenance, and energy costs. Reducing these costs by even a moderate amount thus can have great benefits for the economy and environment.  Our work proposed new algorithmic techniques (i.e., smart algorithms and data structures) for this problem that can improve efficiency in many scenarios. Our two main contributions are as follows:  1. A new approach for fast candidate generation for cascading rankers. State-of-the-art search engines order query results based on highly complex ranking functions that use hundreds of features (signals). This increases the cost of query processing, but is necessary to return relevant results to the user. For efficiency, search engines implement this by using a cascading approach to query processing that first applies a very simple ranking function to the entire index to narrow down the field and identify a small set of candidate documents; these candidates are then further ranked and winnowed using increasingly complex ranking functions. We proposed a new approach that identifies such candidates much faster than previous oublished work, thus significantly reducing the cost of the first phase of the cascading approach.  2. Faster algorithms for disjunctive top-k queries under simple ranking functions. Disjunctive top-k queries return the k results with highest scores among all documents containing at least one of the query keywords. Such queries are an important building block in search engines, e.g., for first-cascade ranking, and a classical problem in Information Retrieval that has been studied by many researchers. Our work further improved an approach based on so-called block-max index structures, which are index structures that enable skipping of less relevant parts of the index during query processing. Our algorithms achieve speed-ups of 2-5 over the fastest previous solutions on standard data sets.  Other research conducted in this project proposed improved algorithms for index pruning (which is the process of identifying and removing index entries that are unlikely to be useful for any queries that are likely to happen), for updating and reorganizing large text index structures on single machines and in distributed systems, and for quickly estimating distances in very large graphs, such as those arising from social networks or the hyperlink structure of the web.  The research conducted in this project has the potential to improve the efficiency of existing commercial search engines, an industry with tens of billions of dollars of economic impact per year in the US, and to help new companies entering this and related fields. The project also supported the training of 5 PhD and 3 MS students in Computer Science, including a female PhD graduate, a Hispanic PhD student, and an MS student with disabilities. Results of this research were published in peer-reviewed publication venues and are expected to lead to significant follow-up work by other researchers.          Last Modified: 08/04/2016       Submitted by: Torsten Suel]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

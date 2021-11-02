@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: FMitF: Track I: Differentiable Probabilistic Programming with Recursive Structured Models</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>375294.00</AwardTotalIntnAmount>
+<AwardAmount>375294</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Wei Ding</SignBlockName>
+<PO_EMAI>weiding@nsf.gov</PO_EMAI>
+<PO_PHON>7032928017</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Symbols (like the letters of the alphabet) and structures (like words formed out of letters) are natural for humans to work with: they are ubiquitous in daily life, they are easy for us to understand, and it is easy to write programs that work with them. But current artificial intelligence (AI) systems learn by making many small changes to see which ones improve the performance of the system; they are therefore good at working with representations that allow small changes, like numbers, and not so good with symbols and structures, like letters and words. This can be an obstacle both to building AI systems and to understanding why they work. A typical way for an AI system to learn to work with symbols and structures is to consider all choices and make small changes to their probabilities. But what if there are not 26 choices, but 26 trillion? For example, the grammatical structure of a sentence can be represented by a tree, one out of a large or even infinite number of possible trees. In such cases -- which are the rule rather than the exception -- one can resort to approximations, like randomly selecting a few thousand possibilities, or one can use carefully constructed algorithms to consider all of them. But it is not easy to do the latter or even to know when it is possible. This project's novelty is to develop a new programming framework to make it easy to code such algorithms, so that writing a program that learns to use trees can be as easy as writing a program that uses trees. If successful, the project's impact is to help make machine learning an everyday part of computer programming, not only for researchers but even for beginners.&lt;br/&gt;&lt;br/&gt;This project draws on and contributes to the fields of machine learning, programming languages, and formal language theory. In machine learning, there is growing interest in neural networks that make probabilistic decisions about discrete structures such as trees that represent the possible grammatical structures of a sentence. In programming language research, there has been much work on probabilistic programs and operations on them that preserve meaning exactly. However, in existing frameworks for both neural networks and probabilistic programs, it is still difficult to represent distributions over recursive structures exactly and to efficiently perform operations on them like differentiation. This project uses ideas from formal language theory to bridge this gap, making it easy to work on these distributions exactly and efficiently. The project has three stages: First, it is extending and vectorizing exact transformations on probabilistic programs so that they work on programs parameterized by differentiable tensors. Second, the project is using hyperedge replacement graph grammars (HRGs) to represent distributions over recursive structures. HRGs generalize both graphical models and string/tree automata, providing a single highly expressive formalism for structured models. Methods for efficient inference on HRGs are also being developed. Third, the team is automating the translation of probabilistic code that uses recursive data structures into HRGs. The techniques developed are being implemented in an open-source deep-learning framework.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/24/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>06/24/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2019291</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Chiang</LastName>
+<PI_MID_INIT>W</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David W Chiang</PI_FULL_NAME>
+<EmailAddress>dchiang@nd.edu</EmailAddress>
+<PI_PHON>5746319441</PI_PHON>
+<NSF_ID>000071687</NSF_ID>
+<StartDate>06/24/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Notre Dame</Name>
+<CityName>NOTRE DAME</CityName>
+<ZipCode>465565708</ZipCode>
+<PhoneNumber>5746317432</PhoneNumber>
+<StreetAddress>940 Grace Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>824910376</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF NOTRE DAME DU LAC</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>048994727</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Notre Dame]]></Name>
+<CityName>Notre Dame</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>465565708</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>094Y</Code>
+<Text>FMitF: Formal Methods in the F</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>071Z</Code>
+<Text>FMitF-Formal Methods in the Field</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~375294</FUND_OBLG>
+</Award>
+</rootTag>

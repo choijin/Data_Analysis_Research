@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Sparse spectral-tau methods for binary neutron star initial data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>11464.00</AwardTotalIntnAmount>
+<AwardAmount>11464</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rosemary Renaut</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Binary neutron star inspiral is the most certain source of gravitational waves detectable by Earth-based observatories like the US LIGO project, and simulations of such binaries should facilitate eventual detections. These simulations require initial conditions: solutions to the initial value problem of general relativity for the coupled gravity-matter system. The conformal thin sandwich method is an excellent approach for solving the initial value problem; however, although not an intrinsic assumption of the method, in practice the approach has assumed conformal flatness (as have other valuable approaches). Conformal flatness yields unphysical junk radiation. By numerically constructing helically symmetric solutions to the Einstein equations, the PI will extract initial data (or conformal thin sandwich trial data) which does not rely on conformal flatness, and therefore contains the correct initial gravitational wave content. The mixed PDEs arising from the helical reduction of the Einstein equations (or their approximation in the post-Minkowski formalism) will be solved with innovative techniques: sparse modal spectral-tau methods with new preconditioning strategies. In part, these strategies may rely on randomized algorithms for the interpolative decomposition. Spectral methods deliver superb accuracy for smooth problems(neutron star spacetimes are smooth almost everywhere), and sparsity affords a fast matrix-vector multiply when using a Krylov-subspace method to iteratively solve a linear system. Whereas the preconditioning of nodal (collocation) spectral methods is well studied, less is known about modal preconditioning. Our techniques have been successfully applied to models of the binary neutron star problem. Moreover, the problem's physical structure has already been explored with different, but limited, techniques. &lt;br/&gt;&lt;br/&gt;This project is to combine two sets of techniques (each already developed) and further develop the first set (spectral-tau methods), in order to obtain new results for a leading problem in gravitational wave physics. The PI will develop these mathematical methods by applying them to the specific neutron star problem described above. This strategy of specificity is often used in the development of techniques, which then prove to be more general. Because the scientific problem is of great interest, much is known about it, and results therefore exist withwhich comparisons can be made. These comparisons facilitate the development of mathematical algorithms. Conversely, new mathematical methods deliver more and/or better solutions which enhances scientific understanding.</AbstractNarration>
+<MinAmdLetterDate>09/23/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>09/23/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1555033</AwardID>
+<Investigator>
+<FirstName>Richard</FirstName>
+<LastName>Price</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Richard H Price</PI_FULL_NAME>
+<EmailAddress>rprice.physics@gmail.com</EmailAddress>
+<PI_PHON>9564660144</PI_PHON>
+<NSF_ID>000156158</NSF_ID>
+<StartDate>09/23/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts, Dartmouth</Name>
+<CityName>North Dartmouth</CityName>
+<ZipCode>027472300</ZipCode>
+<PhoneNumber>5089998953</PhoneNumber>
+<StreetAddress>285 Old Westport Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>799477427</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts, Dartmouth]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>027472300</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~11464</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In scientific and engineering modelling, computers are typically used to solve partial differential equations. This can be done in relatively straightforward ways ("finite difference" or "finite element" methods), but a more sophisticated class of mathematical formulations, "spectral methods," holds the promise of much better precision. &nbsp;In our work we go one step further, applying a refined form of a spectral method, called a tau method, or integration &nbsp;preconditioning. This method, in effect, takes the first step toward a solution through the mathematical structure itself, without requiring significant computation. The tau method has been shown to be very effective for some ordinary differential equations, but not for the much more difficult challenge of partial differential equations.</p> <p>It is often best to develop new mathematcal/computational methods in the context of a specific physical problem. In our case the problem involves binary neutron stars. A binary pair of such stars emits gravitational radiation and spirals inward, a process that is described by the partial differential equations of Einstein's general theory of relativity. The evolution in time of inspiral can currently be computed well with highly developed computational infrastructure.</p> <p>What is missing is the starting point, the initial configuration.<br />The partial differential equations that must be solved for the initial configuration have been too great a challenge, and researchers have typically used a solution that is mathematically convenient, but physically very far from appropriate. This starting point evolves into a correct solution after a few orbits, and the initial incorrect radiation can be ignored, with only later results being taken as valid. &nbsp;But this workaround means that the evolution computation must be carried out for a longer time than would be necessary for a physically more accurate starting solution.</p> <p>We have sought to use tau methods to solve for a phyiscally good initial approximation. The magnitude of the challenge has required that the problem be broken into a sequence of ever more advanced projects. The first of these was the solution not of the Einstein equations, but of Newton's equations for the initial binary configuration. The main simplification in this model is that there is no radiation. &nbsp;Solving this "simple" problem turned out, as anticipated, to solve many of the details and to set up much of the infrastructure that would be needed later for a more accurage model. Indeed, many unanticipated problems developed in the Newtonian model, in particular, those problems involving the stellar surface, problems that were not particularly "Einsteinian."</p> <p>The outcome of this work is a highly precise set of computer programs that solve for initial neutron star structure. We have not solved the Einstein equations themselves, but rather a solution to an approximation ("post-Newtonian/post-Minkowskian") to Einstein'sequations. This approximation should be more than adequate for the initial configuration. We have, therefore, partially &nbsp;reached the goal of this work. Next steps include looking at the physics inherent in the initial solutions themselves, and collaborating with researchers who need initial configurations for their codes that evolve these initial configurations.</p><br> <p>            Last Modified: 11/28/2016<br>      Modified by: Richard&nbsp;H&nbsp;Price</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In scientific and engineering modelling, computers are typically used to solve partial differential equations. This can be done in relatively straightforward ways ("finite difference" or "finite element" methods), but a more sophisticated class of mathematical formulations, "spectral methods," holds the promise of much better precision.  In our work we go one step further, applying a refined form of a spectral method, called a tau method, or integration  preconditioning. This method, in effect, takes the first step toward a solution through the mathematical structure itself, without requiring significant computation. The tau method has been shown to be very effective for some ordinary differential equations, but not for the much more difficult challenge of partial differential equations.  It is often best to develop new mathematcal/computational methods in the context of a specific physical problem. In our case the problem involves binary neutron stars. A binary pair of such stars emits gravitational radiation and spirals inward, a process that is described by the partial differential equations of Einstein's general theory of relativity. The evolution in time of inspiral can currently be computed well with highly developed computational infrastructure.  What is missing is the starting point, the initial configuration. The partial differential equations that must be solved for the initial configuration have been too great a challenge, and researchers have typically used a solution that is mathematically convenient, but physically very far from appropriate. This starting point evolves into a correct solution after a few orbits, and the initial incorrect radiation can be ignored, with only later results being taken as valid.  But this workaround means that the evolution computation must be carried out for a longer time than would be necessary for a physically more accurate starting solution.  We have sought to use tau methods to solve for a phyiscally good initial approximation. The magnitude of the challenge has required that the problem be broken into a sequence of ever more advanced projects. The first of these was the solution not of the Einstein equations, but of Newton's equations for the initial binary configuration. The main simplification in this model is that there is no radiation.  Solving this "simple" problem turned out, as anticipated, to solve many of the details and to set up much of the infrastructure that would be needed later for a more accurage model. Indeed, many unanticipated problems developed in the Newtonian model, in particular, those problems involving the stellar surface, problems that were not particularly "Einsteinian."  The outcome of this work is a highly precise set of computer programs that solve for initial neutron star structure. We have not solved the Einstein equations themselves, but rather a solution to an approximation ("post-Newtonian/post-Minkowskian") to Einstein'sequations. This approximation should be more than adequate for the initial configuration. We have, therefore, partially  reached the goal of this work. Next steps include looking at the physics inherent in the initial solutions themselves, and collaborating with researchers who need initial configurations for their codes that evolve these initial configurations.       Last Modified: 11/28/2016       Submitted by: Richard H Price]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

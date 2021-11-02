@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Compute Cluster Nodes for Factoring Integers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>10000.00</AwardTotalIntnAmount>
+<AwardAmount>10000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jennifer Pearl</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The Number Field Sieve (NFS) is the fastest known integer factoring algorithm.  The polynomial selection and sieving steps of NFS are easily parallelizable and may be performed on many independent machines with little internode communication.  Purdue's Condor system has tens of thousands of machines available and is well-positioned to perform this part of the algorithm.  However, the linear algebra step of NFS is best performed on several cores of a multicore machine with large memory.&lt;br/&gt;Although Purdue's Condor system is available to all faculty, use of its multicore machines is restricted to those faculty who helped to pay for the machine through a grant.  Multicore service is available through TeraGrid, but this service is limited and requires annual applications.&lt;br/&gt;The award will be used to purchase part of a new multicore machine and then the PI and his students will have access to it during its lifetime.  The machine will be used to run the linear algebra step of NFS to factor important numbers, such as those in the Cunningham Project.&lt;br/&gt;&lt;br/&gt;The factorizations of Cunningham numbers, which will be discovered by the multicore machine after the Condor system performs the sieving, have significant applications throughout mathematics.  These applications include period lengths of decimal fractions, discovery of new algebraic identities, perfect numbers, evaluation of arithmetic functions, determining the structure of cyclotomic fields, construction of elliptic curve cryptosystems, and design of linear feedback shift registers.  Furthermore, the running time taken by each factorization will provide another benchmark for the difficulty of factoring integers, and tell cryptographers how large to choose parameters for certain ciphers.  These ciphers and the elliptic curve cryptosystems are used to secure private communication by business and government and for many other purposes.  The PI's students will use the multicore machine and gain experience programming supercomputers as well as learn the best techniques for factoring integers.  When they graduate, these students will take this knowledge to careers in research, education, government and business.</AbstractNarration>
+<MinAmdLetterDate>04/01/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>04/01/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1068350</AwardID>
+<Investigator>
+<FirstName>Samuel</FirstName>
+<LastName>Wagstaff</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME>Jr.</PI_SUFX_NAME>
+<PI_FULL_NAME>Samuel S Wagstaff</PI_FULL_NAME>
+<EmailAddress>ssw@cerias.purdue.edu</EmailAddress>
+<PI_PHON>7654946022</PI_PHON>
+<NSF_ID>000102876</NSF_ID>
+<StartDate>04/01/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName>West Lafayette</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>479072114</ZipCode>
+<StreetAddress><![CDATA[Young Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1260</Code>
+<Text>INFRASTRUCTURE PROGRAM</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~10000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The purpose of this NSF grant was to purchase equipment.&nbsp; The funds were used to buy compute clusters at Purdue University.&nbsp; These nodes are used to perform the linear algebra portion of a fast integer factoring algorithm, the number field sieve (NFS).&nbsp; The other parts of the algorithm are done as thousands of short jobs on the Condor system.</p> <p>&nbsp;</p> <p>The program was ported to the Condor/compute cluster environment by the PI and a graduate student, who gained valuable experience.&nbsp; After the program was working, it was used to factor several large integers using NFS.&nbsp; It will factor many more large numbers during the lifetime of the compute clusters.</p> <p>&nbsp;</p> <p>When the compute clusters are not busy with NFS linear algebra, they are used to factor numbers with the elliptic curve method.</p> <p>&nbsp;</p> <p>One finding was the factors themselves, which have many uses in mathematics.&nbsp; Another finding was how to choose parameters for the NFS in an unusual computing environment in which it is cheap to run many short jobs, but expensive to run one long job whose time is shorter than the total time for the short jobs.&nbsp; In this case the size of the factor base of small primes should be smaller than it would be if the cost of a job was simply proportional to its time.&nbsp; An unexpected finding was the discovery of two large prime factors by the elliptic curve method when the nodes were not doing NFS.&nbsp; The 79 and 75-digit primes discovered are the largest two primes ever found by this algorithm, as of September, 2012.</p> <p>&nbsp;</p> <p>The results of this grant have been published on several web pages.&nbsp; These include Zimmermann's list of record elliptic curve factorizations http://www.loria.fr/~zimmerma/records/factor.html and http://www.loria.fr/~zimmerma/records/top50.html.&nbsp; Brent has published some results of this grant at http://wwwmaths.anu.edu.au/~brent/ftp/champs.txt.</p> <p>The PI has put some of the factors on his web pages</p> <p>http://homes.cerias.purdue.edu/~ssw/cun/oldp/cun124</p> <p>http://homes.cerias.purdue.edu/~ssw/cun/oldp/chmp124</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/20/2012<br>      Modified by: Samuel&nbsp;S&nbsp;Wagstaff</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The purpose of this NSF grant was to purchase equipment.  The funds were used to buy compute clusters at Purdue University.  These nodes are used to perform the linear algebra portion of a fast integer factoring algorithm, the number field sieve (NFS).  The other parts of the algorithm are done as thousands of short jobs on the Condor system.     The program was ported to the Condor/compute cluster environment by the PI and a graduate student, who gained valuable experience.  After the program was working, it was used to factor several large integers using NFS.  It will factor many more large numbers during the lifetime of the compute clusters.     When the compute clusters are not busy with NFS linear algebra, they are used to factor numbers with the elliptic curve method.     One finding was the factors themselves, which have many uses in mathematics.  Another finding was how to choose parameters for the NFS in an unusual computing environment in which it is cheap to run many short jobs, but expensive to run one long job whose time is shorter than the total time for the short jobs.  In this case the size of the factor base of small primes should be smaller than it would be if the cost of a job was simply proportional to its time.  An unexpected finding was the discovery of two large prime factors by the elliptic curve method when the nodes were not doing NFS.  The 79 and 75-digit primes discovered are the largest two primes ever found by this algorithm, as of September, 2012.     The results of this grant have been published on several web pages.  These include Zimmermann's list of record elliptic curve factorizations http://www.loria.fr/~zimmerma/records/factor.html and http://www.loria.fr/~zimmerma/records/top50.html.  Brent has published some results of this grant at http://wwwmaths.anu.edu.au/~brent/ftp/champs.txt.  The PI has put some of the factors on his web pages  http://homes.cerias.purdue.edu/~ssw/cun/oldp/cun124  http://homes.cerias.purdue.edu/~ssw/cun/oldp/chmp124          Last Modified: 09/20/2012       Submitted by: Samuel S Wagstaff]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

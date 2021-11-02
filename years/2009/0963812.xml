@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Medium: Collaborative Research: Building an Intelligent, Uncertainty-Resilient Detection and Tracking Sensor Network</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>249786.00</AwardTotalIntnAmount>
+<AwardAmount>249786</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+<PO_EMAI>tnandago@nsf.gov</PO_EMAI>
+<PO_PHON>7032924550</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Detection, identification, and tracking of CBRNE (Chemical, Biological, Radiological, Nuclear, and Explosive) plumes can be accomplished by combining the modalities of sensor and cyber networks. The sensor network provides information about physical-space activities, e.g., locations and movements of the plume sources. The cyber network provides storage and computational resources to analyze and infer where the plume originated, the trajectory of its movement, and the prediction of its future movement. The challenges in realizing such a sensor cyber network include intelligent sensing (intelligent sensor selection and coverage) and the capability to deal with uncertainties (uncertainty in measurement as well as in modeling). This project proposes to leverage the convergence between the sensor and the cyber networks to achieve these goals. In particular, the plan is to carry out three synergistic research tasks: 1) network formation by sensor selection, placement, and coverage; 2) sensor tasking protocol with temporal/spatial uncertainty management; 3) protocols for reliable sensor-cyber communication supporting the above two tasks. The PIs will prototype the research results and integrate the prototypes for different components to build the sensor cyber network for plume detection, identification and tracking. They will also evaluate the sensor cyber network using various test scenarios in collaboration with Oak Ridge National Lab. If successful, the project will provide technology for building detection and tracking sensor networks that can give great protection to people and the environment against harmful plumes.</AbstractNarration>
+<MinAmdLetterDate>05/06/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/07/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0963812</AwardID>
+<Investigator>
+<FirstName>Sartaj</FirstName>
+<LastName>Sahni</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sartaj K Sahni</PI_FULL_NAME>
+<EmailAddress>sahni@cise.ufl.edu</EmailAddress>
+<PI_PHON>3523921527</PI_PHON>
+<NSF_ID>000126089</NSF_ID>
+<StartDate>05/06/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Florida</Name>
+<CityName>GAINESVILLE</CityName>
+<ZipCode>326112002</ZipCode>
+<PhoneNumber>3523923516</PhoneNumber>
+<StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>FL03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>969663814</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF FLORIDA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>159621697</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Florida]]></Name>
+<CityName>GAINESVILLE</CityName>
+<StateCode>FL</StateCode>
+<ZipCode>326112002</ZipCode>
+<StreetAddress><![CDATA[1 UNIVERSITY OF FLORIDA]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>FL03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~80889</FUND_OBLG>
+<FUND_OBLG>2011~168897</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Sensor networks gather vast amounts of data that need to be processed efficiently, often in real time. We have focussed on the development of efficient parallel algorithms to process sensor data. Efficient GPU algorithms (parallel algorithms that run on graphics processing units or boards found in commercial PCs) for fundamental problems such as matrix multiplication and sorting as well as for image reconstruction from synthetic aperture radar data have been developed.</p> <p>The performance of big-data computing using a GPU may be enahnced byoverlapping the time spend transferring data from the host computer to the GPU,with that spent doing the computation on the GPU and that spent getting the results&nbsp;back from the GPU to the host. The processing of sensor netwok data is anexample; large amounts of data are gathered, transmitted to the gpu, incrementallyprocessed, and results sent back to the host CPU. We have developed optimalstrategies to process such big-data problems on a GPU.&nbsp;These strategies were tested using the multiple string matching problem, which also is of relevance to our sensor network project as one aspect of processing sensor data is to detect known patterns (strings) within the data.</p> <p>This project also trained three PhD students who have since graduated and joined the workforce. These students have tremendous skills in the development of algorithms for parallel computers; skills that are in exceptionally short supply worldwide.</p><br> <p>            Last Modified: 06/18/2014<br>      Modified by: Sartaj&nbsp;K&nbsp;Sahni</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Sensor networks gather vast amounts of data that need to be processed efficiently, often in real time. We have focussed on the development of efficient parallel algorithms to process sensor data. Efficient GPU algorithms (parallel algorithms that run on graphics processing units or boards found in commercial PCs) for fundamental problems such as matrix multiplication and sorting as well as for image reconstruction from synthetic aperture radar data have been developed.  The performance of big-data computing using a GPU may be enahnced byoverlapping the time spend transferring data from the host computer to the GPU,with that spent doing the computation on the GPU and that spent getting the results back from the GPU to the host. The processing of sensor netwok data is anexample; large amounts of data are gathered, transmitted to the gpu, incrementallyprocessed, and results sent back to the host CPU. We have developed optimalstrategies to process such big-data problems on a GPU. These strategies were tested using the multiple string matching problem, which also is of relevance to our sensor network project as one aspect of processing sensor data is to detect known patterns (strings) within the data.  This project also trained three PhD students who have since graduated and joined the workforce. These students have tremendous skills in the development of algorithms for parallel computers; skills that are in exceptionally short supply worldwide.       Last Modified: 06/18/2014       Submitted by: Sartaj K Sahni]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

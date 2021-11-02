@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR-PDOS: Fast, Consistent Distributed File Systems through Operating System Speculation</AwardTitle>
+<AwardEffectiveDate>09/01/2005</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2009</AwardExpirationDate>
+<AwardTotalIntnAmount>599998.00</AwardTotalIntnAmount>
+<AwardAmount>599998</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Mohamed G. Gouda</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>This project is investigating how generic support for speculative&lt;br/&gt;execution in a commodity operating system can improve the performance&lt;br/&gt;and consistency of remote data access.  Rather than block applications&lt;br/&gt;during a remote file system operation, the operating system&lt;br/&gt;checkpoints the state of the calling process, predicts the result of&lt;br/&gt;the remote operation, and speculatively resumes execution based upon&lt;br/&gt;the predicted results.  If the speculation proves correct, the&lt;br/&gt;checkpoint is discarded; if the speculation is incorrect, the calling&lt;br/&gt;process is restored to the checkpoint and the operation retried.  The&lt;br/&gt;operating system guarantees safe execution by preventing speculative&lt;br/&gt;processes from externalizing output until the speculations upon which&lt;br/&gt;that output depends have proven correct.  By tracking causal&lt;br/&gt;dependencies created through inter-process communication, the&lt;br/&gt;operating system allows multiple processes to safely share speculative&lt;br/&gt;state.  In addition to file systems, this project is exploring uses of&lt;br/&gt;speculation in diverse areas, including cyber-foraging, remote&lt;br/&gt;desktops, and software installation.&lt;br/&gt;&lt;br/&gt;The major impact of this project lies in improving the performance,&lt;br/&gt;consistency guarantees, and safety of current distributed file&lt;br/&gt;systems.  The project is developing speculative versions of NFS, AFS&lt;br/&gt;and other distributed file systems that perform substantially better&lt;br/&gt;than current versions of these file systems.  At the same time, these&lt;br/&gt;versions provide stronger consistency and safety guarantees to&lt;br/&gt;applications.  The software artifacts developed as part of this&lt;br/&gt;project, including a modifed version of Linux that supports&lt;br/&gt;speculation, are being released to the open-source community.&lt;br/&gt;Additionally, educational initiatives are helping train the next&lt;br/&gt;generation of systems software developers.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>06/15/2005</MinAmdLetterDate>
+<MaxAmdLetterDate>07/07/2007</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0509093</AwardID>
+<Investigator>
+<FirstName>Peter</FirstName>
+<LastName>Chen</LastName>
+<EmailAddress>pmchen@umich.edu</EmailAddress>
+<StartDate>06/15/2005</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jason</FirstName>
+<LastName>Flinn</LastName>
+<EmailAddress>jflinn@umich.edu</EmailAddress>
+<StartDate>06/15/2005</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

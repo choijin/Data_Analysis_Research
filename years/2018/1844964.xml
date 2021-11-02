@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Modal Abstractions of Systems Concepts for OS Kernel Verification</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>579853.00</AwardTotalIntnAmount>
+<AwardAmount>375461</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Operating systems (OSes) are software systems that coordinate sharing of hardware between other applications (such as sharing memory without conflict), provide a high-level abstraction of hardware, and include reusable functionality for common program tasks (such as storing and retrieving files from disk). Because they have control over other programs and mediate use of hardware resources, defects in operating system code can compromise the reliability or security of any software running on the OS.  Most computers run one of just a few general-purpose operating systems, so a bug in any one of those systems will likely affect very many computers, making their correctness critical to countless computer-based systems used daily around the world. This project explores new ways to mathematically prove correctness properties of operating systems, and thereby to establish conclusively the impossibility of bugs in them. The project's novelties are a focus on verifying realistic OS designs similar to those used in industry, treating significant subtleties of OS control over hardware, and new approaches to specifying correctness for common design patterns in low-level code. The project's impacts are the introduction of new verification techniques for low-level code that are expected to apply more broadly than to operating systems, and integration with education. The project develops new ways of teaching undergraduate automata and computability courses, integrating modern applications from security and software verification to better demonstrate the material's value and improve student engagement.&lt;br/&gt; &lt;br/&gt;The project brings a range of techniques from modal logic to bear on OS verification, and attempts to show that these techniques support three kinds of reasoning that occur in operating system kernels and systems code in general: location virtualization (as in virtual-memory management and copy-on-write filesystems), caching (including hardware store buffers, translation lookaside buffers, and OS-level caches), and abstraction of a single protocol to be used in multiple different ways but in a compatible manner (as relevant to device driver frameworks). The project constructs a detailed model of the multicore x86-64 architecture, including details of interactions between interrupt handling, virtual memory management, and weak memory models.  The project uses the model to implement a small OS following standard OS designs (in particular, using the same standard abstractions for address spaces, device drivers, the virtual filesystem layer, and filesystem caching), and verifies the OS in a Hoare logic extended with new reasoning principles.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>02/01/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>08/04/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1844964</AwardID>
+<Investigator>
+<FirstName>Colin</FirstName>
+<LastName>Gordon</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Colin S Gordon</PI_FULL_NAME>
+<EmailAddress>csg63@drexel.edu</EmailAddress>
+<PI_PHON>2155714360</PI_PHON>
+<NSF_ID>000707785</NSF_ID>
+<StartDate>02/01/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Drexel University</Name>
+<CityName>Philadelphia</CityName>
+<ZipCode>191021119</ZipCode>
+<PhoneNumber>2158956342</PhoneNumber>
+<StreetAddress>1505 Race St, 10th Floor</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002604817</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>DREXEL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002604817</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Drexel University]]></Name>
+<CityName>Philadelphia</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>191021119</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>2878</Code>
+<Text>Special Projects - CCF</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~139672</FUND_OBLG>
+<FUND_OBLG>2020~235789</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Harnessing Dependency to Achieve Efficient Resource Management in Scalable Multi-stage Data Processing Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>124998.00</AwardTotalIntnAmount>
+<AwardAmount>140998</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This EArly-concept Grants for Exploratory Research (EAGER) award will develop an efficient resource management framework for a large-scale system to serve a large volume of multi-stage data processing jobs. The major research goals include enabling cross-job data flows, and exploiting the dependency between stages to efficiently allocate system resources. The current data processing framework encapsulates each job during its execution which disables possible data sharing between jobs (stages) and query optimization. The proposed work for this research will allow users to specify enriched job meta-data that identifies the data input of each stage. Processing servers will recognize the cross-job data flows according to the job meta-data. In addition, a significant contribution will be a dependency-driven resource management scheme that carefully examines the unique overlapping transition and dependency between consecutive stages. The proposed work will improve the existing platforms of multi-stage data processing. In addition, the collaborations with industrial contacts have the potential for rapid technology transfer.</AbstractNarration>
+<MinAmdLetterDate>08/25/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/12/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1552525</AwardID>
+<Investigator>
+<FirstName>Bo</FirstName>
+<LastName>Sheng</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Bo Sheng</PI_FULL_NAME>
+<EmailAddress>bo.sheng@umb.edu</EmailAddress>
+<PI_PHON>6172875370</PI_PHON>
+<NSF_ID>000583291</NSF_ID>
+<StartDate>08/25/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts Boston</Name>
+<CityName>Dorchester</CityName>
+<ZipCode>021253300</ZipCode>
+<PhoneNumber>6172875370</PhoneNumber>
+<StreetAddress>100 Morrissey Boulevard</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>808008122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts Boston]]></Name>
+<CityName>Boston</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021253300</ZipCode>
+<StreetAddress><![CDATA[100 Morrissey Boulevard]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~124998</FUND_OBLG>
+<FUND_OBLG>2016~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Big data processing is an emerging topic, and the processing platforms are quite complex comparing to the traditional database systems. A large computer cluster will host the large set of input data, and process a large volume of data processing jobs. The current data processing jobs are also complex often involving multiple processing stages, and thus being split into multiple small tasks with dependency among them. Therefore, the management of such a cluster becomes very challenging, i.e., how to allocate system resources such as CPU and memory to serve all the tasks/jobs? The traditional solutions for job scheduling usually yield a poor overall system performance.</p> <p>&nbsp;</p> <p>This project aims to develop a suite of new schemes/algorithms that particularly consider the unique properties in such systems, e.g., the dependency between tasks and computation stages. The exploration crosses different layers, e.g., the application layer, resource management, and storage layer. The proposed solutions break the barriers of these individual modules and achieve a holistic improvement or optimization. This project considers different application scopes and workload, and has developed adaptive solutions that can adjust the parameters at runtime. Our work also investigated the security issues in big data platforms, and their impact on resource management and system performance. Finally, all the proposed solutions have been implemented in real systems, and evaluated with experiments. The techniques, findings, and the system implementation will certainly benefit the research community. During the project, 9 research papers have been published in premium journals or conferences. This project has produced 5 new resource management schemes and 4 new storage layer designs. All of them target on the popular platforms such as Hadoop and Spark running a large-scale cluster. The evaluation results from well-accepted benchmark experiments show significant performance improvements comparing to the default systems.</p> <p>&nbsp;</p> <p>In addition, the research activities have been involved into 2 graduate courses and 1 undergraduate course. Two on-campus seminars were hosted to introduce the new platforms and techniques. 3 Ph.D. students, 1 M.S. student, and 3 undergraduate students participated this project. The M.S. student and 1 undergraduate student are U.S. veterans, and both of them have successfully graduated. 2 of the 3 Ph.D. students are female, and carried out the major research activities.&nbsp;Both of them have graduated, one became a tenure-track professor, and the other joined a company in U.S.</p><br> <p>            Last Modified: 07/29/2019<br>      Modified by: Bo&nbsp;Sheng</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Big data processing is an emerging topic, and the processing platforms are quite complex comparing to the traditional database systems. A large computer cluster will host the large set of input data, and process a large volume of data processing jobs. The current data processing jobs are also complex often involving multiple processing stages, and thus being split into multiple small tasks with dependency among them. Therefore, the management of such a cluster becomes very challenging, i.e., how to allocate system resources such as CPU and memory to serve all the tasks/jobs? The traditional solutions for job scheduling usually yield a poor overall system performance.     This project aims to develop a suite of new schemes/algorithms that particularly consider the unique properties in such systems, e.g., the dependency between tasks and computation stages. The exploration crosses different layers, e.g., the application layer, resource management, and storage layer. The proposed solutions break the barriers of these individual modules and achieve a holistic improvement or optimization. This project considers different application scopes and workload, and has developed adaptive solutions that can adjust the parameters at runtime. Our work also investigated the security issues in big data platforms, and their impact on resource management and system performance. Finally, all the proposed solutions have been implemented in real systems, and evaluated with experiments. The techniques, findings, and the system implementation will certainly benefit the research community. During the project, 9 research papers have been published in premium journals or conferences. This project has produced 5 new resource management schemes and 4 new storage layer designs. All of them target on the popular platforms such as Hadoop and Spark running a large-scale cluster. The evaluation results from well-accepted benchmark experiments show significant performance improvements comparing to the default systems.     In addition, the research activities have been involved into 2 graduate courses and 1 undergraduate course. Two on-campus seminars were hosted to introduce the new platforms and techniques. 3 Ph.D. students, 1 M.S. student, and 3 undergraduate students participated this project. The M.S. student and 1 undergraduate student are U.S. veterans, and both of them have successfully graduated. 2 of the 3 Ph.D. students are female, and carried out the major research activities. Both of them have graduated, one became a tenure-track professor, and the other joined a company in U.S.       Last Modified: 07/29/2019       Submitted by: Bo Sheng]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

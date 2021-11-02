@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: SHF: Medium: Collaborative Research: New Horizons in Deterministic Execution</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>473363.00</AwardTotalIntnAmount>
+<AwardAmount>473363</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Matt Mutka</SignBlockName>
+<PO_EMAI>mmutka@nsf.gov</PO_EMAI>
+<PO_PHON>7032927344</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>If you have ever thought to yourself "huh, my computer didn't do that last time", you may have experienced what computer scientists call non-determinism. Today, most computer hardware executes programs in a non-deterministic fashion: a program may yield different output or behavior in different runs, given the exact same input, sometimes with disastrous consequences. Recent research enforces deterministic execution in inherently non-deterministic systems. Unfortunately, this often comes at a steep performance price. Also, until now determinism is only available for non-interactive programs. The goal of this project is to improve the efficiency of deterministic execution of concurrent programs, and to include a large class of interactive programs in the scope of deterministic execution. Longer term, the goal is to make deterministic computing a viable choice, where nondeterminism is the only option today. This would likely improve both the safety and quality of the vast number of multithreaded programs running on today's and tomorrow's multicore devices.&lt;br/&gt;&lt;br/&gt;To bring the benefits of deterministic execution to real-world programs, this project investigates algorithms, runtime systems, operating systems and hardware support to improve the performance and applicability of determinism. The project is organized along three major thrusts: combating the clock skew in deterministic logical clocks that imposes unnecessary waiting on threads, using speculation to break the serial bottleneck that current systems impose on synchronization operations, and extending the scope of determinism to encompass interactive applications. The researchers plan to openly distribute the systems built for this project to facilitate examination by other researchers and integration with computer systems education.</AbstractNarration>
+<MinAmdLetterDate>05/26/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>10/15/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1703425</AwardID>
+<Investigator>
+<FirstName>Jakob</FirstName>
+<LastName>Eriksson</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jakob Eriksson</PI_FULL_NAME>
+<EmailAddress>jakob@uic.edu</EmailAddress>
+<PI_PHON>3124132103</PI_PHON>
+<NSF_ID>000537836</NSF_ID>
+<StartDate>05/26/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606124305</ZipCode>
+<PhoneNumber>3129962862</PhoneNumber>
+<StreetAddress>809 S. Marshfield Avenue</StreetAddress>
+<StreetAddress2><![CDATA[MB 502, M/C 551]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>098987217</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606077042</ZipCode>
+<StreetAddress><![CDATA[851 S Morgan St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~217577</FUND_OBLG>
+<FUND_OBLG>2019~125941</FUND_OBLG>
+<FUND_OBLG>2020~129845</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project investigated novel techniques for, and applications of, deterministic execution of multi-threaded programs. Here, determinism means that for the same input, a program is guaranteed to produce the same output, every time. Surprisingly, this guarantee is not provided for multi-threaded programs in most of today's computing environments. Multi-threading, meanwhile, adds significant complexity to a program's behavior, but is necessary in order to take full advantage of modern, multi-core computer hardware.&nbsp;</p> <p>Past work on deterministic multi-threading provided suitable guarantees, but at the cost of significantly slowing down the program, often to such an extent that any performance advantage provided by a multi-core computer were negated, or worse. Thus, both the overhead and the poor scalability of deterministic multi-threading were prohibitive for most use cases.</p> <p>Key to deterministic multi-threading is the concept of a logical clock. This is essentially a counter that is regularly incremented at fixed points in the program, indicating the passage of time without being subject to actual timing variations that may result in nondeterminism. Having a logical clock enables the deterministic ordering of key operations between threads, which is necessary to preserve determinism. As part of this project, we developed a new logical clock with fine granularity and high efficiency, both crucial for fast deterministic multi-threading. Past work has demonstrated fine granularity, or high efficiency, but not the combination of the two.&nbsp;</p> <p>The project also explored extending the definition of deterministic execution, to find other compelling applications of the technology developed. Among these, a particulary promising application is high-frequency background polling. Today, if an application needs to frequently check for some condition, such as externally triggered changes to values in memory, the only practical solution is to dedicate a full core to the task of "busy polling" for this condition: checking over and over. This is often done where very high networking or input-output performance is needed, but can be very wasteful, as it occupies an entire core whether or not any work is actually being performed.&nbsp;</p> <p>Using our deterministic logical clock, we can efficiently (and deterministically) interleave even very frequent polling (millions of times per second) with other useful application work, eliminating the need for a dedicated core, thus significantly improving efficiency and performance. This, in turn, reduces both the amount of energy needed for a given task, and the time needed to perform it, in turn reducing equipment needs. While we did not foresee this particular application at the outset of the project, we anticipate that this contribution will become at least as important as deterministic multi-threading itself.</p> <p>&nbsp;</p><br> <p>            Last Modified: 07/01/2021<br>      Modified by: Jakob&nbsp;Eriksson</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project investigated novel techniques for, and applications of, deterministic execution of multi-threaded programs. Here, determinism means that for the same input, a program is guaranteed to produce the same output, every time. Surprisingly, this guarantee is not provided for multi-threaded programs in most of today's computing environments. Multi-threading, meanwhile, adds significant complexity to a program's behavior, but is necessary in order to take full advantage of modern, multi-core computer hardware.   Past work on deterministic multi-threading provided suitable guarantees, but at the cost of significantly slowing down the program, often to such an extent that any performance advantage provided by a multi-core computer were negated, or worse. Thus, both the overhead and the poor scalability of deterministic multi-threading were prohibitive for most use cases.  Key to deterministic multi-threading is the concept of a logical clock. This is essentially a counter that is regularly incremented at fixed points in the program, indicating the passage of time without being subject to actual timing variations that may result in nondeterminism. Having a logical clock enables the deterministic ordering of key operations between threads, which is necessary to preserve determinism. As part of this project, we developed a new logical clock with fine granularity and high efficiency, both crucial for fast deterministic multi-threading. Past work has demonstrated fine granularity, or high efficiency, but not the combination of the two.   The project also explored extending the definition of deterministic execution, to find other compelling applications of the technology developed. Among these, a particulary promising application is high-frequency background polling. Today, if an application needs to frequently check for some condition, such as externally triggered changes to values in memory, the only practical solution is to dedicate a full core to the task of "busy polling" for this condition: checking over and over. This is often done where very high networking or input-output performance is needed, but can be very wasteful, as it occupies an entire core whether or not any work is actually being performed.   Using our deterministic logical clock, we can efficiently (and deterministically) interleave even very frequent polling (millions of times per second) with other useful application work, eliminating the need for a dedicated core, thus significantly improving efficiency and performance. This, in turn, reduces both the amount of energy needed for a given task, and the time needed to perform it, in turn reducing equipment needs. While we did not foresee this particular application at the outset of the project, we anticipate that this contribution will become at least as important as deterministic multi-threading itself.          Last Modified: 07/01/2021       Submitted by: Jakob Eriksson]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

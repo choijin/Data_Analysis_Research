@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>ICE-T:RI: Towards End-to-End Resource Optimization for Time-Critical Computing Using Reinforcement Learning and Program Analysis</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>100000.00</AwardTotalIntnAmount>
+<AwardAmount>100000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Deepankar Medhi</SignBlockName>
+<PO_EMAI>dmedhi@nsf.gov</PO_EMAI>
+<PO_PHON>7032922935</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Data-intensive, time-critical applications generate an enormous amount of data that needs to be analyzed quickly.  Resource optimization for time-critical computing faces many challenges including high demand on programming skills, difficulty in determining suitable parallelism degree, and great complexity in making resource allocation considering multiple optimization targets.  To help in designing more efficient applications, this project investigates end-to-end resource optimization for time-critical computing using reinforcement learning and program analysis techniques. The approach integrates both resource request optimization by program analysis, and resource scheduling by reinforcement learning with consideration of time-critical features.  The project will enhance our understanding of the challenges involved in addressing problem demand with reinforcement learning and semantics-aware program analysis.&lt;br/&gt;&lt;br/&gt;This project seeks to make the following novel contributions: (1) designing a semantics-aware optimization for data-intensive applications including two stages. The offline stage uses static program analysis for analyzing big data system primitives and user-defined functions to generate a parameterized data framework and fix partial performance flaws by rule-based and cost-based models. The online stage uses dynamic program analysis that instantiates a parameterized framework based on execution metrics to repair performance problems; (2) exploring the trade-off between enlarging parallelism degree and minimizing the amount of data shuffling across computing nodes; and (3) designing a reinforcement learning based model for resource allocation.&lt;br/&gt;&lt;br/&gt;This project initiates a research collaboration between the University of Central Florida and the University of Amsterdam, Netherlands.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/28/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>08/28/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1836881</AwardID>
+<Investigator>
+<FirstName>Liqiang</FirstName>
+<LastName>Wang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Liqiang Wang</PI_FULL_NAME>
+<EmailAddress>lwang@cs.ucf.edu</EmailAddress>
+<PI_PHON>4078233187</PI_PHON>
+<NSF_ID>000248300</NSF_ID>
+<StartDate>08/28/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>The University of Central Florida Board of Trustees</Name>
+<CityName>Orlando</CityName>
+<ZipCode>328168005</ZipCode>
+<PhoneNumber>4078230387</PhoneNumber>
+<StreetAddress>4000 CNTRL FLORIDA BLVD</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>FL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>150805653</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CENTRAL FLORIDA BOARD OF TRUSTEES, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>159621697</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Central Florida]]></Name>
+<CityName>Orlando</CityName>
+<StateCode>FL</StateCode>
+<ZipCode>328162362</ZipCode>
+<StreetAddress><![CDATA[4328 Scorpius Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>FL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~100000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project made the following <strong>novel research contributions</strong>:</p> <p>(1)&nbsp;&nbsp; We designed a holistic semantics-aware optimization for data-intensive applications using hybrid (static and dynamic) program analysis to assist programmers to tune performance issues. The system includes three kinds of optimization strategies: element pruning, operation reordering and cache management. Element pruning is a static rule-based model and the other two are hybrid models using static and dynamic information.</p> <p>(2)&nbsp;&nbsp; We utilized deep reinforcement learning for developing elasticity-compatible resource management for a heterogeneous distributed computing environment, aiming for less occurrences of missing temporal deadline while maintaining low average execution time ratio. Along with reinforcement learning we designed a deep model employing Long Short-Term Memory (LSTM) structure and partial model sharing for multi-target learning mechanism. The experimental results show that the proposed approach could greatly outperform baselines and serve as a robust resource management for variant workloads.</p> <p>(3)&nbsp; We also designed related (deep) machine learning algorithms to improve the training of long-tailed dataset, knowledge distillation, and security of deep neural models, as well as their applications in social networks.</p> <p><strong>Broader Impacts:</strong></p> <p>(1) Our research results can help scientists of other disciplines to automatically optimize performance, reduce their burdens in identifying programming and performance problems of big-data applications, as well as design new deep learning algorithms. Our research also gives insights to develop next-generation&nbsp;big data computing systems.</p> <p>(2) The PI collaborated with collaborators in the University of Amsterdam and researchers at the University of Central Florida (e.g., Institute of Simulation and Training) to conduct interdisciplinary big&nbsp;data research.</p> <p>&nbsp;<strong>Publications.</strong></p> <p>The grants has resulted in 10 publications on prestigious international conferences or journals such as ACM Transactions on Management Information Systems, Future Generation Computer Systems, International Conference on Machine Learning (ICML), International Conference on Parallel Processing&nbsp;(ICPP), International Conference on Big Data, International Conference on Cloud Compuputing.</p> <p><strong>Education</strong></p> <p>The project supported three Ph.D. students. One of them has graduated and joined academia. The other two are going to graduate soon.</p> <p>The project contributes in training and education of students by enriching the syllabus of courses such as "Cloud and Parallel Computing" and &ldquo;Artificial Intelligence&rdquo;, and also encourages students to get familiar with the latest advances in the field through course projects.</p><br> <p>            Last Modified: 06/18/2021<br>      Modified by: Liqiang&nbsp;Wang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project made the following novel research contributions:  (1)   We designed a holistic semantics-aware optimization for data-intensive applications using hybrid (static and dynamic) program analysis to assist programmers to tune performance issues. The system includes three kinds of optimization strategies: element pruning, operation reordering and cache management. Element pruning is a static rule-based model and the other two are hybrid models using static and dynamic information.  (2)   We utilized deep reinforcement learning for developing elasticity-compatible resource management for a heterogeneous distributed computing environment, aiming for less occurrences of missing temporal deadline while maintaining low average execution time ratio. Along with reinforcement learning we designed a deep model employing Long Short-Term Memory (LSTM) structure and partial model sharing for multi-target learning mechanism. The experimental results show that the proposed approach could greatly outperform baselines and serve as a robust resource management for variant workloads.  (3)  We also designed related (deep) machine learning algorithms to improve the training of long-tailed dataset, knowledge distillation, and security of deep neural models, as well as their applications in social networks.  Broader Impacts:  (1) Our research results can help scientists of other disciplines to automatically optimize performance, reduce their burdens in identifying programming and performance problems of big-data applications, as well as design new deep learning algorithms. Our research also gives insights to develop next-generation big data computing systems.  (2) The PI collaborated with collaborators in the University of Amsterdam and researchers at the University of Central Florida (e.g., Institute of Simulation and Training) to conduct interdisciplinary big data research.   Publications.  The grants has resulted in 10 publications on prestigious international conferences or journals such as ACM Transactions on Management Information Systems, Future Generation Computer Systems, International Conference on Machine Learning (ICML), International Conference on Parallel Processing (ICPP), International Conference on Big Data, International Conference on Cloud Compuputing.  Education  The project supported three Ph.D. students. One of them has graduated and joined academia. The other two are going to graduate soon.  The project contributes in training and education of students by enriching the syllabus of courses such as "Cloud and Parallel Computing" and "Artificial Intelligence", and also encourages students to get familiar with the latest advances in the field through course projects.       Last Modified: 06/18/2021       Submitted by: Liqiang Wang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

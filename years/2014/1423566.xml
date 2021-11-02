@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Better Security for Efficient Secret-Key Cryptography</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>498751.00</AwardTotalIntnAmount>
+<AwardAmount>498751</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Present-day cryptography crucially relies on secret-key cryptography, the setting where communicating parties use a shared secret key, hidden to the attacker, to securely encrypt and/or authenticate data.  Secret-key cryptography is based on standardized efficient algorithms known as cryptographic primitives, such as block ciphers and hash functions.  These act as building blocks for so-called modes of operations, cryptographic algorithms achieving strong security goals for encryption and authentication, and which are orders of magnitude faster than public-key ones. &lt;br/&gt;&lt;br/&gt;This project addresses the two shortcomings of current symmetric key cryptography, namely the lack of provable security for existing block ciphers and the lack of flexibility due to fixed parameters in existing implementations of primitives.  The project develops new provably secure ciphers with strong security guarantees under the assumption that an attacker only has black box access to a simple underlying component. The investigator explores a new formal model that captures tradeoffs between local computation and key-dependent access in cryptographic attacks, and develops new modes of operation with improved security under this new viewpoint. The project will have broad impact on society by laying the foundations for the development of secret key cryptography which is used to secure modern communications and commerce.</AbstractNarration>
+<MinAmdLetterDate>06/30/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/30/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1423566</AwardID>
+<Investigator>
+<FirstName>Stefano</FirstName>
+<LastName>Tessaro</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Stefano Tessaro</PI_FULL_NAME>
+<EmailAddress>tessaro@cs.washington.edu</EmailAddress>
+<PI_PHON>2065430373</PI_PHON>
+<NSF_ID>000660734</NSF_ID>
+<StartDate>06/30/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Santa Barbara</Name>
+<CityName>Santa Barbara</CityName>
+<ZipCode>931062050</ZipCode>
+<PhoneNumber>8058934188</PhoneNumber>
+<StreetAddress>Office of Research</StreetAddress>
+<StreetAddress2><![CDATA[Rm 3227 Cheadle Hall]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>24</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA24</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>094878394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SANTA BARBARA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Santa Barbara]]></Name>
+<CityName>Santa Barbara</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>931065110</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>24</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA24</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8251</Code>
+<Text>Math Sci Innovation Incubator</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~498751</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-4e185d87-7fff-9a7d-de4a-afc6cc2f314e"> </span></p> <p dir="ltr"><span>Cryptography is ubiquitous. For example, while browsing the Internet, the data we send and receive is often protected by TLS, a complex protocol combining multiple cryptographic tools. A key role in such protocols is played by so-called "symmetric" cryptographic algorithms, which come to use after a secret key is initially established between a client and a server. As&nbsp;these algorithms are responsible for protecting the exchanged data, they need to be highly secure, but also extremely efficient.</span></p> <p dir="ltr"><span>The symmetric cryptography that underlies protocols like TLS, however, is often not subject to sufficient levels of scrutiny. This is surprising: indeed, over the last three decades, theoretical cryptography has developed a paradigm known as &ldquo;provable security&rdquo;, a rigorous framework to formally define and prove the security of cryptographic schemes. Often, however, the efficiency demands of real-world applications, along with complex, subtle, and non-standard security requirements, make proving security hard. Another obstacle is the need for precise quantitative estimates on the effort required by an adversary to compromise security, as opposed to qualitative guarantees that often suffice in theoretical cryptography.</span></p> <p dir="ltr"><span>This project contributed to narrowing the gap between provable security and practical cryptography, with a specific focus on symmetric cryptography. It developed new techniques and models to prove the security of practical solutions and proposed new approaches with better security. </span></p> <p dir="ltr">In particular, the project validated the security of real-world standards for block ciphers, data encryption,&nbsp;data authentication, authenticated encryption,&nbsp;and password protection. The project also made fundamental contributions to the study of emerging threats such as large-scale attackers and dedicated hardware.</p> <p dir="ltr">These concrete contributions are an application of more general techniques that also will be useful to support the design of next-generation cryptographic algorithms. These techniques exploit connections with other research areas, such as complexity theory, information theory, and statistics.&nbsp;</p> <p>The project also supported a number of graduate students.</p> <div><span><br /></span></div> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/30/2018<br>      Modified by: Stefano&nbsp;Tessaro</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   Cryptography is ubiquitous. For example, while browsing the Internet, the data we send and receive is often protected by TLS, a complex protocol combining multiple cryptographic tools. A key role in such protocols is played by so-called "symmetric" cryptographic algorithms, which come to use after a secret key is initially established between a client and a server. As these algorithms are responsible for protecting the exchanged data, they need to be highly secure, but also extremely efficient. The symmetric cryptography that underlies protocols like TLS, however, is often not subject to sufficient levels of scrutiny. This is surprising: indeed, over the last three decades, theoretical cryptography has developed a paradigm known as "provable security", a rigorous framework to formally define and prove the security of cryptographic schemes. Often, however, the efficiency demands of real-world applications, along with complex, subtle, and non-standard security requirements, make proving security hard. Another obstacle is the need for precise quantitative estimates on the effort required by an adversary to compromise security, as opposed to qualitative guarantees that often suffice in theoretical cryptography. This project contributed to narrowing the gap between provable security and practical cryptography, with a specific focus on symmetric cryptography. It developed new techniques and models to prove the security of practical solutions and proposed new approaches with better security.  In particular, the project validated the security of real-world standards for block ciphers, data encryption, data authentication, authenticated encryption, and password protection. The project also made fundamental contributions to the study of emerging threats such as large-scale attackers and dedicated hardware. These concrete contributions are an application of more general techniques that also will be useful to support the design of next-generation cryptographic algorithms. These techniques exploit connections with other research areas, such as complexity theory, information theory, and statistics.   The project also supported a number of graduate students.               Last Modified: 09/30/2018       Submitted by: Stefano Tessaro]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

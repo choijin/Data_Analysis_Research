@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:Small:RUI: Observationally Cooperative Multithreading</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>375395.00</AwardTotalIntnAmount>
+<AwardAmount>375395</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today's multicore processors are often underutilized because programmers lack tools and techniques to program them effectively.  To understand the problem, imagine that a microprocessor is like a restaurant kitchen.  For years, processor designers improved execution speed, replacing the chef with one who can work even faster.  Because this strategy has physical limits, hardware vendors are turning to multicore CPUs, akin to multiple chefs.  Some problems adapt easily to multiple cores; if you need to bake 16 identical cakes, it's easy to use 16 chefs in separate kitchens (i.e., symmetric parallelism).  But if you need to prepare a complex banquet (i.e., irregular parallelism), the many tasks can require significant coordination. One mistake (e.g., two chefs using the same bowl at the same time) and the results may be disastrously wrong.  Experience has shown that few programmers can foresee and avoid all possible coordination issues ahead of time.  This project develops the approach Observationally Cooperative Multithreading (OCM) for solving problems on parallel machines.  OCM makes it easier to write correct code, while allowing speedup on from multiple processing cores. Because of its simplicity, OCM could make parallelism and concurrency more accessible to a broad audience, including introductory students.&lt;br/&gt;&lt;br/&gt;Specifically, in programs written for the well-understood cooperative multithreading (CM) model, subtasks take turns and execute one at a time. This approach rules out conflicts between subtasks and simplifies programming and debugging. OCM takes these same programs but runs them on modern multicore machines, executing subtasks simultaneously (and hence more efficiently) when there are no conflicts.  This research, extending preliminary work on OCM, will involve 18 undergraduate students over three years.  They will help design, develop and evaluate practical OCM implementations using techniques such as Transactional Memory and Lock Inference, addressing the concerns both of the parallel-programming community (who value demonstrated performance) and of the CS education community (who value ease of use and desperately need a simpler introduction to concurrency and parallelism).</AbstractNarration>
+<MinAmdLetterDate>09/06/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>09/06/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1219243</AwardID>
+<Investigator>
+<FirstName>Christopher</FirstName>
+<LastName>Stone</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Christopher A Stone</PI_FULL_NAME>
+<EmailAddress>stone@cs.hmc.edu</EmailAddress>
+<PI_PHON>9096078975</PI_PHON>
+<NSF_ID>000205474</NSF_ID>
+<StartDate>09/06/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Melissa</FirstName>
+<LastName>O'Neill</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Melissa O'Neill</PI_FULL_NAME>
+<EmailAddress>melissa_oneill@hmc.edu</EmailAddress>
+<PI_PHON>9096218121</PI_PHON>
+<NSF_ID>000486724</NSF_ID>
+<StartDate>09/06/2012</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Harvey Mudd College</Name>
+<CityName>CLAREMONT</CityName>
+<ZipCode>917115901</ZipCode>
+<PhoneNumber>9096218121</PhoneNumber>
+<StreetAddress>301 Platt Boulevard</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>27</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA27</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>066691130</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>HARVEY MUDD COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>066691130</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Harvey Mudd College]]></Name>
+<CityName>Claremont</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>917115901</ZipCode>
+<StreetAddress><![CDATA[301 Platt Boulevard]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>27</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA27</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>2878</Code>
+<Text>Special Projects - CCF</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~375395</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Most people believe that &ldquo;computers get faster every year&rdquo;, but the challenge of improving performance year after year has become an increasingly difficult one. As an analogy, we can imagine the processing core of a computer running a program as being like a chef in a kitchen making a recipe, and over the years we have managed to make that chef work ever faster. But a single chef, no matter how advanced and skilled, will eventually reach a limit on how fast they can work. Thus today&rsquo;s computers&mdash;from Internet servers to laptops to cellphones&mdash;don&rsquo;t just rely on a single processing cores running quickly, instead they provide <em>more than one</em> core. Like having more than one chef in the kitchen, multiple cores allow computers to do more work, but add new problems related to <em>coordination</em>. Unlike people, every aspect of how processor cores coordinate must be painstakingly specified or things will go awry (imagine two cooks trying to use a the same frying pan at the same time!). Writing this kind of <em>concurrent code</em> is notoriously difficult.&nbsp;</p> <p><span><em>Observationally Cooperative Multithreading</em> (OCM) is a new approach to concurrent programming that makes writing correct concurrent code <em>easier</em>. The key insight is that concurrent programming is difficult because of the myriad ways that multiple processing cores may interact (often in entirely unexpected ways!), and so this aspect of concurrent programming must be addressed in a new way. OCM provides a simpler one-at-a-time model for concurrent programming where far fewer unexpected interactions are possible, and yet it takes advantage of modern multicore CPUs by running many tasks simultaneously when it is safe to do so.&nbsp;</span></p> <p><span>In our cooking analogy, OCM provides a kitchen where each chef can imagine that they are working alone in the kitchen, stepping out of the kitchen for a rest break only when it is convenient (and thereby allowing another chef in to work while they have stepped out), but behind the scenes, we allow more than one chef to work if we can be sure they will never notice anyone else is working there. Thus if two chefs will use the same frying pan, they cannot be allowed to share the kitchen, but if one chef chops vegetables while another is putting a cake in the oven, we can envision a kitchen where they do so without getting in each others&rsquo; way or even noticing the other one is there. OCM enables this arrangement without the cooks ever having to tell anyone in advance what they are going to cook! That ability might seem magical, but it is what our OCM implementations achieve.</span>&nbsp;</p> <p><span>This project involved 18 undergraduate CS majors, many of whom had no previous experience with concurrency or parallelism, and all of whom left with detailed knowledge of this important topic and an understanding of key (and leading edge) techniques from computer science that make OCM possible.</span></p> <p><span>Our conclusions are:</span></p> <ul> <li>OCM makes concurrency more approachable.</li> <li>When introducing concurrency to novices, video explanations work better than text documents and analogies help&nbsp;(e.g., chefs). We created and made available three animated introductory videos on concurrency:<ol> <li>&nbsp;<ol> <li>Concurrency and the difficulties it introduces</li> <li>The traditional solution &mdash; <em>locks</em></li> <li>Our solution &mdash; OCM</li> </ol></li> </ol></li> <li>Implementations of OCM that use Intel's HTM (Hardware Transactional Memory) facilities do see some speedup without much effort from the programmer.</li> <li>In <em>any</em> concurrent system (OCM or not), there are many difficulties in getting good speedup, i.e., to take full advantage of many cores:     <ul> <li>Any interaction between processor cores slows down progress noteably, and the more cores in use, the more often such interactions can occur. (Two cooks in a kitchen might get a cake made almost twice as fast, but 60 cooks will not get it made 60 times quicker!)</li> <li>Even completely independent tasks are often slow once you have a dozen cores or more, because they compete over access to memory (through a channel of limited size) or over use of fast cache memory (a resource of limited size).&nbsp;</li> <li>In general, modern hardware has become extremely complex, and having more cores working on a problem often does not lead to quicker results without significant work, because there are so many bottlenecks that can affect speed.</li> </ul> </li> <li>Historically, computer science has often been fascinated by problems in <em>concurrency</em> (e.g., trying to make ten cooks share a kitchen to bake a cake more quickly), rather than problems in <em>parallelism</em> (e.g., having ten cooks baking ten cakes in ten kitchens), considering the latter problem &ldquo;uninteresting&rdquo; because it presents no coordination difficulty. We argue that nevertheless, most programmers, most of the time, should be looking to parallelism, not concurrency, if they wish to generate faster programs. OCM supports both approaches, but also encourages programmers to think less about coordination (which is slow) and more about independent work, has most chance of running quickly.</li> </ul><br> <p>            Last Modified: 12/30/2016<br>      Modified by: Christopher&nbsp;A&nbsp;Stone</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430466055_ants-speedup--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430466055_ants-speedup--rgov-800width.jpg" title="OCM can achieve good speedup"><img src="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430466055_ants-speedup--rgov-66x44.jpg" alt="OCM can achieve good speedup"></a> <div class="imageCaptionContainer"> <div class="imageCaption">At best, a 4-core system can run programs 4x faster than a 1-core system. Modifying this ant-simulation program for OCM was easy, and achieved 2-3x speedup. ("Making Impractical Implementations Practical: Observationally Cooperative Multithreading Using HLE", TRANSACT 2015)</div> <div class="imageCredit">HMC OCM Team</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Christopher&nbsp;A&nbsp;Stone</div> <div class="imageTitle">OCM can achieve good speedup</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430773602_spanningtree-speedup--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430773602_spanningtree-speedup--rgov-800width.jpg" title="OCM can achieve good speedup (2)"><img src="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430773602_spanningtree-speedup--rgov-66x44.jpg" alt="OCM can achieve good speedup (2)"></a> <div class="imageCaptionContainer"> <div class="imageCaption">OCM is simple to use, even for "irregular parallelism" that normally causes difficulties. An undergraduate student very quickly created a new correct parallel spanning-tree algorithm for, verified it on a 48-core machine, and got a 10x speedup for sparse graphs.</div> <div class="imageCredit">The OCM Team</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Christopher&nbsp;A&nbsp;Stone</div> <div class="imageTitle">OCM can achieve good speedup (2)</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430922588_analogy--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430922588_analogy--rgov-800width.jpg" title="An Animated Introduction to Concurrency"><img src="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482430922588_analogy--rgov-66x44.jpg" alt="An Animated Introduction to Concurrency"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Students created three short animated videos, now publicly available: an introduction to concurrency and the problems it causes; an introduction to solving concurrency problems with locks; and an introduction to solving concurrency problems with OCM.</div> <div class="imageCredit">The OCM Team</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Christopher&nbsp;A&nbsp;Stone</div> <div class="imageTitle">An Animated Introduction to Concurrency</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482431096837_animation-race--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482431096837_animation-race--rgov-800width.jpg" title="An Animated Introduction to Concurrency (2)"><img src="/por/images/Reports/POR/2016/1219243/1219243_10211526_1482431096837_animation-race--rgov-66x44.jpg" alt="An Animated Introduction to Concurrency (2)"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The animated videos using the analogy of students in a machine shop in order to discuss problems such as "race conditions" that arise.</div> <div class="imageCredit">The OCM Team</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Christopher&nbsp;A&nbsp;Stone</div> <div class="imageTitle">An Animated Introduction to Concurrency (2)</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Most people believe that "computers get faster every year", but the challenge of improving performance year after year has become an increasingly difficult one. As an analogy, we can imagine the processing core of a computer running a program as being like a chef in a kitchen making a recipe, and over the years we have managed to make that chef work ever faster. But a single chef, no matter how advanced and skilled, will eventually reach a limit on how fast they can work. Thus today?s computers&mdash;from Internet servers to laptops to cellphones&mdash;don?t just rely on a single processing cores running quickly, instead they provide more than one core. Like having more than one chef in the kitchen, multiple cores allow computers to do more work, but add new problems related to coordination. Unlike people, every aspect of how processor cores coordinate must be painstakingly specified or things will go awry (imagine two cooks trying to use a the same frying pan at the same time!). Writing this kind of concurrent code is notoriously difficult.   Observationally Cooperative Multithreading (OCM) is a new approach to concurrent programming that makes writing correct concurrent code easier. The key insight is that concurrent programming is difficult because of the myriad ways that multiple processing cores may interact (often in entirely unexpected ways!), and so this aspect of concurrent programming must be addressed in a new way. OCM provides a simpler one-at-a-time model for concurrent programming where far fewer unexpected interactions are possible, and yet it takes advantage of modern multicore CPUs by running many tasks simultaneously when it is safe to do so.   In our cooking analogy, OCM provides a kitchen where each chef can imagine that they are working alone in the kitchen, stepping out of the kitchen for a rest break only when it is convenient (and thereby allowing another chef in to work while they have stepped out), but behind the scenes, we allow more than one chef to work if we can be sure they will never notice anyone else is working there. Thus if two chefs will use the same frying pan, they cannot be allowed to share the kitchen, but if one chef chops vegetables while another is putting a cake in the oven, we can envision a kitchen where they do so without getting in each others? way or even noticing the other one is there. OCM enables this arrangement without the cooks ever having to tell anyone in advance what they are going to cook! That ability might seem magical, but it is what our OCM implementations achieve.   This project involved 18 undergraduate CS majors, many of whom had no previous experience with concurrency or parallelism, and all of whom left with detailed knowledge of this important topic and an understanding of key (and leading edge) techniques from computer science that make OCM possible.  Our conclusions are:  OCM makes concurrency more approachable. When introducing concurrency to novices, video explanations work better than text documents and analogies help (e.g., chefs). We created and made available three animated introductory videos on concurrency:   Concurrency and the difficulties it introduces The traditional solution &mdash; locks Our solution &mdash; OCM   Implementations of OCM that use Intel's HTM (Hardware Transactional Memory) facilities do see some speedup without much effort from the programmer. In any concurrent system (OCM or not), there are many difficulties in getting good speedup, i.e., to take full advantage of many cores:      Any interaction between processor cores slows down progress noteably, and the more cores in use, the more often such interactions can occur. (Two cooks in a kitchen might get a cake made almost twice as fast, but 60 cooks will not get it made 60 times quicker!) Even completely independent tasks are often slow once you have a dozen cores or more, because they compete over access to memory (through a channel of limited size) or over use of fast cache memory (a resource of limited size).  In general, modern hardware has become extremely complex, and having more cores working on a problem often does not lead to quicker results without significant work, because there are so many bottlenecks that can affect speed.   Historically, computer science has often been fascinated by problems in concurrency (e.g., trying to make ten cooks share a kitchen to bake a cake more quickly), rather than problems in parallelism (e.g., having ten cooks baking ten cakes in ten kitchens), considering the latter problem "uninteresting" because it presents no coordination difficulty. We argue that nevertheless, most programmers, most of the time, should be looking to parallelism, not concurrency, if they wish to generate faster programs. OCM supports both approaches, but also encourages programmers to think less about coordination (which is slow) and more about independent work, has most chance of running quickly.        Last Modified: 12/30/2016       Submitted by: Christopher A Stone]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

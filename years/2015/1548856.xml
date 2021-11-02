@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Collaborative Research: Leveraging Graph Databases for Incremental and Scalable Symbolic Analysis and Verification of Web Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>02/28/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>100000.00</AwardTotalIntnAmount>
+<AwardAmount>100000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern human society relies heavily on web applications and is deeply affected by their poor dependability. Unfortunately, no matter how much effort is put into verification and validation of software, existing techniques are inherently limited, and software is routinely released with bugs and issues that limit its functionality and can dramatically affect the user experience. This project investigates an approach that has the potential to significantly improve the scalability and effectiveness of symbolic program analysis and verification techniques, that will improve the dependability of modern web applications,. &lt;br/&gt;&lt;br/&gt;This project develops techniques and tools that use symbolic execution and automata-based verification techniques to automatically analyze and verify web applications, and store results of symbolic analyses in a graph database for efficient storage, and retrieval. The methods use incremental and differential analysis strategies that utilize the graph database in order to improve scalability and effectiveness of software analysis and verification. The project trains graduate students, and will make its artifacts publicly available to other researchers and educators.</AbstractNarration>
+<MinAmdLetterDate>07/24/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/24/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1548856</AwardID>
+<Investigator>
+<FirstName>Wenke</FirstName>
+<LastName>Lee</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Wenke Lee</PI_FULL_NAME>
+<EmailAddress>wenke@cc.gatech.edu</EmailAddress>
+<PI_PHON>4048948384</PI_PHON>
+<NSF_ID>000165836</NSF_ID>
+<StartDate>07/24/2015</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Alessandro</FirstName>
+<LastName>Orso</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alessandro Orso</PI_FULL_NAME>
+<EmailAddress>orso@cc.gatech.edu</EmailAddress>
+<PI_PHON>4043852066</PI_PHON>
+<NSF_ID>000489660</NSF_ID>
+<StartDate>07/24/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 North Ave NW]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~100000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The main goal of this project was to develop scalable program analysistechniques to improve security and dependability of software systems.Within the scope of this project, we have developed several novel programanalysis techniques and improved their scalability.&nbsp;</p> <p>We developed novel constraint solving and model counting techniques forhandling both numeric and string constraints and their combinations. Weimplemented our results in a novel constraint solver called ABC that storesconstraints as automata.&nbsp; To improve scalability of constraint based programanalysis, we developed a constraint database called Cashew that can cachenumeric and string constraints and model counting queries.&nbsp; We conductedempirical studies that demonstrate that constraint caching can significantlyimprove the performance of symbolic and quantitative program analyses.</p> <p>Our results on constraint cashing demonstrate that using appropriateconstraint databases, the scalability of symbolic program analysis can besignificantly improved.</p> <p>We developed a novel static, scalable analysis technique for detectingside channels in software systems based on symbolic cost analysis ofprogram paths.&nbsp; We implemented our symbolic path cost analysis techniquefor detecting side channels in a prototype tool, CoCo-Channel (CompositionalConstraint-based side Channel analyzer), for analyzing Java programs.</p> <p>We developed symbolic analysis techniques for detecting vulnerabilitiesthat are due to adaptive side-channel attacks, and synthesizing attacks thatexploit the identified vulnerabilities.</p> <p>Our results on side channel analysis demonstrate that symbolic executiontechniques, when combined with automata-based model-counting constraintsolvers, can be used to identify side channels in software applications. Sidechannel analysis is a very important problem in computing since it can beused to identify leakage of privileged information, which is crucial fordependability of modern software systems.</p> <p>Our results on automated attack synthesis enable us to identify the attacksthat malicious users can launch against software systems.&nbsp; This knowledgeis necessary for remedying existing vulnerabilities.</p> <p>We developed a static analysis technique for iOS executables for checkingAPI call vulnerabilities.&nbsp; Using a combination of dependency analysis andstring analysis, we were able to detect potential violations of Apple&rsquo;sAPI policies (such as restricted use of private/sensitive APIs) in iOSexecutables.</p> <p>Our results on information-flow tracking show that it is feasible to performaccurate forensic analysis of attacks in real-world scenarios. This canhelp making software systems more secure against the increasingly commonphenomenon of advanced persistent threats.</p> <p>The results from the research conducted within the scope of this project werepublished in international conferences and presented to the internationalresearch community. PIs gave invited, distinguished and keynote talks topresent the research results they obtained within the scope of this project.</p> <p>The students who participated in this research project have gained valuableresearch experience and training. They have furthered their education andimproved their research skills.</p><br> <p>            Last Modified: 05/28/2018<br>      Modified by: Alessandro&nbsp;Orso</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The main goal of this project was to develop scalable program analysistechniques to improve security and dependability of software systems.Within the scope of this project, we have developed several novel programanalysis techniques and improved their scalability.   We developed novel constraint solving and model counting techniques forhandling both numeric and string constraints and their combinations. Weimplemented our results in a novel constraint solver called ABC that storesconstraints as automata.  To improve scalability of constraint based programanalysis, we developed a constraint database called Cashew that can cachenumeric and string constraints and model counting queries.  We conductedempirical studies that demonstrate that constraint caching can significantlyimprove the performance of symbolic and quantitative program analyses.  Our results on constraint cashing demonstrate that using appropriateconstraint databases, the scalability of symbolic program analysis can besignificantly improved.  We developed a novel static, scalable analysis technique for detectingside channels in software systems based on symbolic cost analysis ofprogram paths.  We implemented our symbolic path cost analysis techniquefor detecting side channels in a prototype tool, CoCo-Channel (CompositionalConstraint-based side Channel analyzer), for analyzing Java programs.  We developed symbolic analysis techniques for detecting vulnerabilitiesthat are due to adaptive side-channel attacks, and synthesizing attacks thatexploit the identified vulnerabilities.  Our results on side channel analysis demonstrate that symbolic executiontechniques, when combined with automata-based model-counting constraintsolvers, can be used to identify side channels in software applications. Sidechannel analysis is a very important problem in computing since it can beused to identify leakage of privileged information, which is crucial fordependability of modern software systems.  Our results on automated attack synthesis enable us to identify the attacksthat malicious users can launch against software systems.  This knowledgeis necessary for remedying existing vulnerabilities.  We developed a static analysis technique for iOS executables for checkingAPI call vulnerabilities.  Using a combination of dependency analysis andstring analysis, we were able to detect potential violations of Apple?sAPI policies (such as restricted use of private/sensitive APIs) in iOSexecutables.  Our results on information-flow tracking show that it is feasible to performaccurate forensic analysis of attacks in real-world scenarios. This canhelp making software systems more secure against the increasingly commonphenomenon of advanced persistent threats.  The results from the research conducted within the scope of this project werepublished in international conferences and presented to the internationalresearch community. PIs gave invited, distinguished and keynote talks topresent the research results they obtained within the scope of this project.  The students who participated in this research project have gained valuableresearch experience and training. They have furthered their education andimproved their research skills.       Last Modified: 05/28/2018       Submitted by: Alessandro Orso]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

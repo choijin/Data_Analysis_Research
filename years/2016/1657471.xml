@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CIF: Learning with Memory Constraints: Efficient Algorithms and Information Theoretic Lower Bounds</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/15/2017</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>175000.00</AwardTotalIntnAmount>
+<AwardAmount>175000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+<PO_EMAI>pregalia@nsf.gov</PO_EMAI>
+<PO_PHON>7032922981</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The trade-offs between resources such as the amount of data, the amount of storage, computation time for statistical estimation tasks are at the core of modern data science. Depending on the setting, some of the resources might be more valuable than others. For example, in credit analysis and population genetics, the amount of data is vital. For applications involving mobile devices, sensor networks, or biomedical implants, the storage available is limited and is a precious resource. This project aims to advance our understanding of the trade-offs between the amount of storage and the amount of data required for statistical tasks by (i) designing efficient algorithms that require small space and (ii) establishing fundamental limits on the storage required for these tasks. The research is at the intersection of streaming algorithms, which is primarily concerned with storage requirements of algorithmic problems, and statistical learning, which studies data requirements for statistical tasks. &lt;br/&gt;&lt;br/&gt;The investigators formulate basic statistical problems under storage constraints. The specific questions include entropy estimation of discrete distributions, a canonical problem that researchers from various fields including statistics, information theory, and computer science have studied. The paradigm of interest is the following: while the known sample-efficient entropy estimation algorithms require a lot of storage, it might be possible to reduce the storage requirements drastically by taking a little more than the optimal number of samples. The complementary side of the problem is purely information theoretic. In it, the researchers expect to develop general lower bounds that can be used to prove fundamental limits on the storage-sample trade-offs.</AbstractNarration>
+<MinAmdLetterDate>02/10/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>02/10/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1657471</AwardID>
+<Investigator>
+<FirstName>Jayadev</FirstName>
+<LastName>Acharya</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jayadev Acharya</PI_FULL_NAME>
+<EmailAddress>acharya@cornell.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000728718</NSF_ID>
+<StartDate>02/10/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Cornell University</Name>
+<CityName>Ithaca</CityName>
+<ZipCode>148502820</ZipCode>
+<PhoneNumber>6072555014</PhoneNumber>
+<StreetAddress>373 Pine Tree Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY23</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>872612445</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CORNELL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002254837</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Cornell University]]></Name>
+<CityName>Ithaca</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>148533801</ZipCode>
+<StreetAddress><![CDATA[136 Hoy Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY23</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7797</Code>
+<Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~175000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Inferring about the underlying process from observations is a critical component of data science. In several of these applications, such inference has to be performed with a limited amount of resources such as amount of memory of the device, or amount of communication or even whether the data is sensitive and must be privatized. For example, in biomedical implants we may care about all of the above, namely the implant should be of small size, require little communication, and protects sensitive data about the individual. One basic statistical property is the entropy of the underlying process, which measures the amount of randomness present and is useful to detect anomalies, such as potentially threatening changes in functions of the organs in the body. We designed new methods for estimating the entropy of distributions that require a small space while at the same time requiring few samples. Understanding how much space is needed for different statistical tasks is a fundamental scientific question that can lead to new and more efficient applications with small memory footprint. Privatizing data of individuals is of critical importance in several applications, and often these privatization mechanisms lead to a significant blow-up in the data size causing communication bottlenecks. We designed privatization schemes using ideas from information and coding theory that have a small representation while at the same time preserving as much information about the data as possible.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/13/2020<br>      Modified by: Jayadev&nbsp;Acharya</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Inferring about the underlying process from observations is a critical component of data science. In several of these applications, such inference has to be performed with a limited amount of resources such as amount of memory of the device, or amount of communication or even whether the data is sensitive and must be privatized. For example, in biomedical implants we may care about all of the above, namely the implant should be of small size, require little communication, and protects sensitive data about the individual. One basic statistical property is the entropy of the underlying process, which measures the amount of randomness present and is useful to detect anomalies, such as potentially threatening changes in functions of the organs in the body. We designed new methods for estimating the entropy of distributions that require a small space while at the same time requiring few samples. Understanding how much space is needed for different statistical tasks is a fundamental scientific question that can lead to new and more efficient applications with small memory footprint. Privatizing data of individuals is of critical importance in several applications, and often these privatization mechanisms lead to a significant blow-up in the data size causing communication bottlenecks. We designed privatization schemes using ideas from information and coding theory that have a small representation while at the same time preserving as much information about the data as possible.           Last Modified: 09/13/2020       Submitted by: Jayadev Acharya]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Elements: FLARE infrastructure for reproducible active learning of Bayesian force fields for ex-machina exascale molecular dynamics</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>379050.00</AwardTotalIntnAmount>
+<AwardAmount>379050</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Seung-Jong Park</SignBlockName>
+<PO_EMAI>spark@nsf.gov</PO_EMAI>
+<PO_PHON>7032924383</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Much needed progress in technologies for energy storage and conversion relies on our ability to design and understand next-generation key functional materials at the core of these systems. The fundamental physical effects that govern the functions of batteries, catalysts and fuel cells originate at the atomic level. Molecular dynamics simulations are indispensable tools with broad applicability for materials research due to their ability to probe microscopic details of atomic motion and predict thermodynamics, reaction kinetics and ionic diffusivities of many materials. Machine learning approaches are transforming how simulations of complex materials are performed; hence software tools are needed to make this transition faster and smoother. Our main goal is to advance machine learning methods and create software for constructing accurate fast simulation models that contain principled uncertainty of their predictions, which is a highly desirable target in many data science areas beyond atomistic modeling. Principled uncertainty quantification is especially critical for prediction of non-equilibrium dynamics, where rare important events, such as the breaking of bonds or atomic migration, determine the material’s performance but involve atomic configurations that are unlikely to be in a naive unbiased training set. Tools that we aim to develop will accelerate and automate computational research efforts in the fields of catalysis, batteries, thermal coatings, soft structural and functional materials, and actuators, to name a few.&lt;br/&gt;&lt;br/&gt;Currently available tools for machine learning based force fields are based on non-parametric methods that only provide estimates without uncertainties, require large amounts of training data, and are slow to evaluate for large numbers of atoms of different species. Our goal is to develop community software infrastructure to enable a new paradigm of simulating non-equilibrium dynamics of complex materials, where ML models are automatically trained and dramatically accelerate ab-initio simulations on-the-fly, preserving exact physical symmetries with minimal accuracy loss. We will create and freely disseminate FLARE (Fast Learning of Atomistic Rare Events), a parallelized database-driven automation framework tightly coupling ML model training with high-fidelity DFT computations, using rigorous model uncertainty to guide data acquisition via closed-loop active learning. Specially designed many-body multi-species kernels and tools for systematic hyperparameter optimization will allow the models to be mapped to fast tabulated Bayesian force fields, implemented in the widely used MD software aimed at exascale computing performance. The result will be the ability to perform MD simulations of materials systems of millions of atoms at near-DFT accuracy and with predictive uncertainty. The unique advantages of the proposed infrastructure are (1) the automated training requiring minimal amounts of DFT data, (2) predictions containing principled Bayesian uncertainty, (3) scalable performance of at least 5 orders of magnitude faster than ab-initio molecular dynamics, and (4) ability to record full provenance and reproducibility information of training and prediction workflows.&lt;br/&gt;&lt;br/&gt;This award by the NSF Office of Advanced Cyberinfrastructure is jointly supported by the Division of Materials Research and the Division of Chemistry within the NSF Directorate of Mathematical and Physical Sciences and the Division of Chemical, Bioengineering, Environmental and Transport Systems within the NSF Directorate of Engineering.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>04/20/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>04/20/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2003725</AwardID>
+<Investigator>
+<FirstName>Boris</FirstName>
+<LastName>Kozinsky</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Boris Kozinsky</PI_FULL_NAME>
+<EmailAddress>bkoz@seas.harvard.edu</EmailAddress>
+<PI_PHON>7818565228</PI_PHON>
+<NSF_ID>000568587</NSF_ID>
+<StartDate>04/20/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Harvard University</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021385369</ZipCode>
+<PhoneNumber>6174955501</PhoneNumber>
+<StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[5th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>082359691</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PRESIDENT AND FELLOWS OF HARVARD COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001963263</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Harvard University]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021385369</ZipCode>
+<StreetAddress><![CDATA[29 Oxford St.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1642</Code>
+<Text>Special Initiatives</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>1712</Code>
+<Text>DMR SHORT TERM SUPPORT</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>054Z</Code>
+<Text>(MGI) Materials Genome Initiative</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>075Z</Code>
+<Text>Artificial Intelligence (AI)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>077Z</Code>
+<Text>CSSI-1: Cyberinfr for Sustained Scientif</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>079Z</Code>
+<Text>Machine Learning Theory</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8396</Code>
+<Text>Clean Energy Technology</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8399</Code>
+<Text>Energy Storage or Transmission</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8604</Code>
+<Text>Fuel Cells</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9216</Code>
+<Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~379050</FUND_OBLG>
+</Award>
+</rootTag>

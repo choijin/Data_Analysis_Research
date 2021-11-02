@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: EXPL: Hippogriff: Efficient Heterogeneous Servers for Data Centers and Cloud Services</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The growing importance of artificial intelligence, network services, and cloud storage drives the demand of building powerful computer systems that can perform many operation at once.  Building computers with different kinds of computing processors (i.e., heterogeneous processing) is an effective way to achieve this goal. However, this approach also creates new problems that can negate some of the benefits it provides.  In particular, using different processors for different tasks requires moving data between those processors.  This movement takes time and can cancel out saving heterogeneous processing provides. This project is addressing this problem in heterogeneous computing systems by making the movement of data between different processors more efficient.  This improved efficiency leads directly to benefits for applications of scientific and commercial importance.&lt;br/&gt;&lt;br/&gt;Much of the cost of data movement heterogeneous computing systems stems from the entrenched central processing unit (CPU)-centric programming model.  This project is revisiting the design of the application interface, system software and hardware components to remove CPUs and main memory from the critical path of moving data.  The project provides an efficient programming model that allows the system software stack to automatically and efficiently setup the data movements between heterogeneous processors. We are applying the system to large-scale database systems, massive parallel programming systems like Spark and MapReduce as well as scientific computing that power important daily applications and research projects.</AbstractNarration>
+<MinAmdLetterDate>09/08/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/08/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1629395</AwardID>
+<Investigator>
+<FirstName>Steven</FirstName>
+<LastName>Swanson</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Steven Swanson</PI_FULL_NAME>
+<EmailAddress>swanson@cs.ucsd.edu</EmailAddress>
+<PI_PHON>8585340246</PI_PHON>
+<NSF_ID>000069307</NSF_ID>
+<StartDate>09/08/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-San Diego</Name>
+<CityName>La Jolla</CityName>
+<ZipCode>920930934</ZipCode>
+<PhoneNumber>8585344896</PhoneNumber>
+<StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+<StreetAddress2><![CDATA[9500 Gilman Drive, 0934]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804355790</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SAN DIEGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-San Diego]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>920930404</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Modern computer systems are experiencing a revolution a range of new memory, networking, and compute technologies appear.&nbsp; These new technologies will exist along side existing technologies to create heterogeneous computing systems comprised of a multiplicity of technologies each providing strengths and weaknesses.&nbsp; One of the central challenge facing system designers in the coming decade is how to combine these technologies so that their complimentary strengths are available to applications.&nbsp; The "front line" in this challenge is in warehouse-scale datacenter or computing clouds that power the modern applications that we all rely on.&nbsp;</p> <p>Our work focuses on how to architect systems that includes this range of technologies.&nbsp; We have attacked this problem from several complimentary directions.&nbsp; For instance, the FileMR project provide a more efficient mechanism for transferring persistent program state across next-generation RDMA networks. &nbsp;The Hippogriff project developed software techniques to efficiently move data between processors, co-processors, and memory. &nbsp;KAML introduced a novel kind of SSD storage device that can store key-value pairs rather than just streams of bytes. The Corundum project provides a new programming framework that can prevent a broad class of bugs in persistent memory programs rather than relying on programmers to track them down after-the-fact. &nbsp;The SoftFlash project blurred the line between SSDs and network interfaces to bring compute, storage, and data movement together in a single device. &nbsp;Finally, we worked to make it faster and more efficient to develop and deploy custom silicon in the data center.</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/09/2021<br>      Modified by: Steven&nbsp;Swanson</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Modern computer systems are experiencing a revolution a range of new memory, networking, and compute technologies appear.  These new technologies will exist along side existing technologies to create heterogeneous computing systems comprised of a multiplicity of technologies each providing strengths and weaknesses.  One of the central challenge facing system designers in the coming decade is how to combine these technologies so that their complimentary strengths are available to applications.  The "front line" in this challenge is in warehouse-scale datacenter or computing clouds that power the modern applications that we all rely on.   Our work focuses on how to architect systems that includes this range of technologies.  We have attacked this problem from several complimentary directions.  For instance, the FileMR project provide a more efficient mechanism for transferring persistent program state across next-generation RDMA networks.  The Hippogriff project developed software techniques to efficiently move data between processors, co-processors, and memory.  KAML introduced a novel kind of SSD storage device that can store key-value pairs rather than just streams of bytes. The Corundum project provides a new programming framework that can prevent a broad class of bugs in persistent memory programs rather than relying on programmers to track them down after-the-fact.  The SoftFlash project blurred the line between SSDs and network interfaces to bring compute, storage, and data movement together in a single device.  Finally, we worked to make it faster and more efficient to develop and deploy custom silicon in the data center.          Last Modified: 02/09/2021       Submitted by: Steven Swanson]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: Small: CSPs --- Approximability versus Time</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>426188.00</AwardTotalIntnAmount>
+<AwardAmount>426188</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jack S. Snoeyink</SignBlockName>
+<PO_EMAI>jsnoeyin@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The proposed research addresses the algorithmic complexity of very basic optimization tasks - network partitioning, solving linear equations, satisfying logical formulas, and other constraint satisfaction problems (CSPs).  Previous research on these kinds of problems suggested the existence of either very efficient algorithms yielding solutions of a certain quality, or very inefficient algorithms achieving perfect quality.   However recent research, including a newly evolving algorithmic technique called the "SOS method", suggests the possibility of a nontrivial tradeoff between efficiency and quality.  Specifically, the work has the following three technical goals:&lt;br/&gt;1. Further understand the power and the limitations of the SOS Method.&lt;br/&gt;2. Improve the known NP-hardness results for CSPs, with an emphasis on giving evidence against subexponential-time algorithms.&lt;br/&gt;3. Find new random families of CSP instances - especially "Small-Set Expansion" or "Unique Games" instances - which seem algorithmically difficult.&lt;br/&gt;&lt;br/&gt;The research will ultimately have broad impact on the practice of algorithms; more specifically, on developing (and ruling out) truly efficient heuristics for solving constraint satisfaction problems.  It is also possible that the research on finding new families of hard-seeming CSP instances may lead to advances in cryptography.</AbstractNarration>
+<MinAmdLetterDate>06/10/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/10/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1319743</AwardID>
+<Investigator>
+<FirstName>Ryan</FirstName>
+<LastName>O'Donnell</LastName>
+<PI_MID_INIT>W</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ryan W O'Donnell</PI_FULL_NAME>
+<EmailAddress>odonnell@cs.cmu.edu</EmailAddress>
+<PI_PHON>4123308512</PI_PHON>
+<NSF_ID>000431551</NSF_ID>
+<StartDate>06/10/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName/>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7927</Code>
+<Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7927</Code>
+<Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~426188</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The topic of the proposal was the computational complexity of an important class of tasks: <em>constraint satisfaction problems&nbsp;(CSPs)</em>. &nbsp;These problems that involve finding an optimal solution (e.g., schedule, assignment, design) for a very large task when there are many constraints on the allowable solutions.</p> <p>One of the basic questions explored is whether there are good algorithms that achieve a <em>tradeoff </em>between running time and solution quality. &nbsp;Prior to the PI's research, there was in some sense a fixed efficient algorithm which was guaranteed to return solutions of a certain quality, and it was unclear whether allowing for additional time helped.</p> <p>A main strand of the PI's research involved studying the power of a relatively new kind of algorithm, called the "Sum of Squares (SoS) Method", which comes with a tunable parameter "d". &nbsp;The larger the value d is, the slower the algorithm runs; however, it comes with the potential to deliver higher quality solutions. &nbsp;But it was not known if this potential is realized -- i.e., whether larger d does lead to better results.</p> <p>In two research papers resulting from the award (joint with the PI's PhD students Sarah R. Allen and David Witmer, and others), the PI showed that in the context of random CSPs, the SoS Method <em>does</em>&nbsp;yield increasing power as it is given increased running time; furthermore, the PI and coauthors exactly established limits on <em>how well</em>&nbsp;the powerful SoS Method performs.</p> <p>In other outcomes generated by the award, the PI established new limits on the ability of <em>any</em>&nbsp;efficient algorithm to deliver high-quality solutions to the "Maximum Cut" problem and the problem of satisfying 2-variable linear equations.</p> <p>In all, the project supported the publication of 27 research articles by the PI and his Ph.D. students. &nbsp;In addition, it contributed to the development of human resources by providing partial financial support for 5 Ph.D. students: Sarah R. Allen, David Witmer, John Wright, Yu Zhao, and Yuan Zhou. &nbsp;Additional broader impact was achieved by the PI through: the co-organization of a workshop on the project's topic at the Banff International Research station; numerous public lectures given by the PI on the topic, online and at research institutions around the world; and, through integration of the research material into the PI's teaching at Carnegie Mellon University.</p><br> <p>            Last Modified: 11/21/2016<br>      Modified by: Ryan&nbsp;W&nbsp;O'donnell</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The topic of the proposal was the computational complexity of an important class of tasks: constraint satisfaction problems (CSPs).  These problems that involve finding an optimal solution (e.g., schedule, assignment, design) for a very large task when there are many constraints on the allowable solutions.  One of the basic questions explored is whether there are good algorithms that achieve a tradeoff between running time and solution quality.  Prior to the PI's research, there was in some sense a fixed efficient algorithm which was guaranteed to return solutions of a certain quality, and it was unclear whether allowing for additional time helped.  A main strand of the PI's research involved studying the power of a relatively new kind of algorithm, called the "Sum of Squares (SoS) Method", which comes with a tunable parameter "d".  The larger the value d is, the slower the algorithm runs; however, it comes with the potential to deliver higher quality solutions.  But it was not known if this potential is realized -- i.e., whether larger d does lead to better results.  In two research papers resulting from the award (joint with the PI's PhD students Sarah R. Allen and David Witmer, and others), the PI showed that in the context of random CSPs, the SoS Method does yield increasing power as it is given increased running time; furthermore, the PI and coauthors exactly established limits on how well the powerful SoS Method performs.  In other outcomes generated by the award, the PI established new limits on the ability of any efficient algorithm to deliver high-quality solutions to the "Maximum Cut" problem and the problem of satisfying 2-variable linear equations.  In all, the project supported the publication of 27 research articles by the PI and his Ph.D. students.  In addition, it contributed to the development of human resources by providing partial financial support for 5 Ph.D. students: Sarah R. Allen, David Witmer, John Wright, Yu Zhao, and Yuan Zhou.  Additional broader impact was achieved by the PI through: the co-organization of a workshop on the project's topic at the Banff International Research station; numerous public lectures given by the PI on the topic, online and at research institutions around the world; and, through integration of the research material into the PI's teaching at Carnegie Mellon University.       Last Modified: 11/21/2016       Submitted by: Ryan W O'donnell]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

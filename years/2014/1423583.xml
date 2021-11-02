@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Adaptive Brink-of-Failure Memory Architectures for Future Technologies and Workloads</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>499096.00</AwardTotalIntnAmount>
+<AwardAmount>499096</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Computer systems are expected to provide correct outputs at all times, and are therefore operated very conservatively. Unfortunately, this conservativeness leaves significant performance untapped. The objective of this project is to capture this untapped performance by selectively relaxing the operating conditions while recovering from any resulting errors.  The project will investigate if such a system is especially well suited for workloads that can tolerate occasional errors.  If successful, the project will yield technologies that can boost performance and lay the foundations for new kinds of algorithms.&lt;br/&gt;&lt;br/&gt;Computer systems have generous timing margins so they can behave correctly in spite of parameter variations, voltage noise, temperature fluctuations, etc.  The project attempts to shave these timing margins in the memory system to safely push its performance to its limits. The memory controller can handle different parts of the memory system differently, depending on the parameter variation that is observed. Such a capability will be even more vital in future technologies where parameter variations will mandate generous timing margins.  When a memory controller operates on the brink of failure, some errors are inevitable.  To cope with such errors, the memory system will be augmented with a tailor-made error correction system.  The proposed memory system will be an excellent fit for emerging "approximate computing" workloads.  In addition to simulation-based studies, the project will develop an FPGA prototype of the adaptive memory controller and will carry out an empirical analysis of timing margins in off-the-shelf commodity memory chips.  The project spans multiple layers of the system stack, with key innovations to the hardware, operating system, programming models, and applications.  The proposed work will increase the community's understanding of parameter variation and the merits of different approaches to exploit these variations.  It will help create a new class of promising applications.  The project will also support the educational mission at the University of Utah and various outreach efforts.</AbstractNarration>
+<MinAmdLetterDate>08/14/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/14/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1423583</AwardID>
+<Investigator>
+<FirstName>Rajeev</FirstName>
+<LastName>Balasubramonian</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Rajeev Balasubramonian</PI_FULL_NAME>
+<EmailAddress>rajeev@cs.utah.edu</EmailAddress>
+<PI_PHON>8015814553</PI_PHON>
+<NSF_ID>000136755</NSF_ID>
+<StartDate>08/14/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName/>
+<StateCode>UT</StateCode>
+<ZipCode>841128930</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~499096</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project attempted to discover if memory chips exhibited significant variation even within a single chip.&nbsp; The project began by developing (FPGA) infrastructure to measure variation in chips.&nbsp; The results showed that indeed some parts of a memory chip did operate faster than other parts.&nbsp; This led to new ideas where these speeds were exposed to the processor and the processor was able to place data such that critical data was placed in faster memory regions.&nbsp; The result was a performance boost of 25% for systems limited by memory accesses.</p> <p>The above efforts introduced a broader problem: as new memory technologies mature, and more memory products arrive on the market, a system designer will likely construct a heterogeneous memory system, where parts of the memory are optimized for high speed or power-efficiency or reliability, while other parts are optimized for low cost and high capacity.&nbsp; To assist in such efforts, the project constructed a tool to explore the design space and estimate the characteristics for a variety of memory systems.&nbsp; This tool has been released publicly to assist scientists and practitioners.</p> <p>In the project's last phase, a detailed case study was carried out to identify how a heterogeneous memory system may benefit key workloads.&nbsp; The project examined genomics workloads and discovered that modified algorithms can exploit a heterogeneous memory system and cause an order of magnitude performance improvement for some kernels.</p> <p>By accelerating workloads like genome analysis, the project can directly impact human health and society.&nbsp; The project has also produced many graduates with key skills to drive the nation's technological workforce.&nbsp; The project has also produced tools that will advance future research.&nbsp; Finally, the PI has leveraged the project to advance education and outreach within and beyond his institution.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/23/2018<br>      Modified by: Rajeev&nbsp;Balasubramonian</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project attempted to discover if memory chips exhibited significant variation even within a single chip.  The project began by developing (FPGA) infrastructure to measure variation in chips.  The results showed that indeed some parts of a memory chip did operate faster than other parts.  This led to new ideas where these speeds were exposed to the processor and the processor was able to place data such that critical data was placed in faster memory regions.  The result was a performance boost of 25% for systems limited by memory accesses.  The above efforts introduced a broader problem: as new memory technologies mature, and more memory products arrive on the market, a system designer will likely construct a heterogeneous memory system, where parts of the memory are optimized for high speed or power-efficiency or reliability, while other parts are optimized for low cost and high capacity.  To assist in such efforts, the project constructed a tool to explore the design space and estimate the characteristics for a variety of memory systems.  This tool has been released publicly to assist scientists and practitioners.  In the project's last phase, a detailed case study was carried out to identify how a heterogeneous memory system may benefit key workloads.  The project examined genomics workloads and discovered that modified algorithms can exploit a heterogeneous memory system and cause an order of magnitude performance improvement for some kernels.  By accelerating workloads like genome analysis, the project can directly impact human health and society.  The project has also produced many graduates with key skills to drive the nation's technological workforce.  The project has also produced tools that will advance future research.  Finally, the PI has leveraged the project to advance education and outreach within and beyond his institution.          Last Modified: 10/23/2018       Submitted by: Rajeev Balasubramonian]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

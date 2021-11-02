@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Multiscale multilevel iterative substructuring</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>199920.00</AwardTotalIntnAmount>
+<AwardAmount>199920</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The PI will develop novel algorithms that can be used for the simulation of flow through porous media in real-world reservoir models. The simulation of flow in porous media finds applications in a number of areas, such as water management, oil and gas recovery, carbon dioxide (CO2) sequestration, and nuclear waste disposal, to name a few. The underlying mathematical models and efficient numerical simulation is challenging due to several aspects. The reservoirs are typically very large, so the discretized mathematical model leads to systems of equations with hundreds of millions of unknowns, they have irregular structure, which complicates the model geometry, and they consist of materials that significantly differ in geological properties, which translates in the model to jumps in coefficients over several orders of magnitude. Moreover, the geological formations quite often also contain fractures that alter the effective permeabilities, and therefore need to be be accurately incorporated into the numerical model. For example, the flow of water in granite rock, which represents one of the suitable sites for nuclear waste deposit, is conducted by the complex system of vugs, cavities and fractures with various topology and sizes. Alternatively, the fractures might result from the engineering activities, for example hydraulic fracturing (also known as fracking) used for the extraction of natural gas.&lt;br/&gt;&lt;br/&gt;The PI will develop novel algorithms for solving saddle-point linear systems combining numerical upscaling techniques with parallel, domain decomposition iterative solvers. There are many aspects of multiscale and domain decomposition methods that are quite well understood, but the major drawback of current methodologies is that they do not take full advantage of their potential by using the multiscale phenomena in the design of the solvers, which results in their inefficiency. Multiscale methods also frequently consist in fact only of two scales, whereas in a porous medium there are typically many scales. At the same time, advances in multicore architectures, networking, high end computers, and large data stores, are ushering in a new era of high performance parallel and distributed simulations. Naturally, with these new capabilities come new challenges in computing and system modeling. The goal of this project is to open new avenues to tackle these issues. In particular, the PI will develop multiscale methods that allows for a multiple of scales, and uses the upscaling algorithm to build a multilevel preconditioner for the iterative solver. The components of the method are thus recycled, which significantly decreases the computational cost. Moreover, this approach can be applied recursively and thus naturally offers a multilevel multiscale potential, unlike many traditional multiscale approaches that consist in fact of only two scales. It is expected that understanding of the issues related to design of multiscale and multilevel methods for extremely large problems will ultimately contribute to development of the next generation of parallel iterative solvers suitable for implementation on future exascale supercomputers.</AbstractNarration>
+<MinAmdLetterDate>09/01/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>09/01/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1521563</AwardID>
+<Investigator>
+<FirstName>Bedrich</FirstName>
+<LastName>Sousedik</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Bedrich Sousedik</PI_FULL_NAME>
+<EmailAddress>bedrich.sousedik@gmail.com</EmailAddress>
+<PI_PHON>4104553298</PI_PHON>
+<NSF_ID>000552098</NSF_ID>
+<StartDate>09/01/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Maryland Baltimore County</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212500002</ZipCode>
+<PhoneNumber>4104553140</PhoneNumber>
+<StreetAddress>1000 Hilltop Circle</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>061364808</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MARYLAND BALTIMORE COUNTY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003256088</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Maryland Baltimore County]]></Name>
+<CityName>Baltimore</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>212500002</ZipCode>
+<StreetAddress><![CDATA[1000 Hilltop Circle]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~199920</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project we studied numerical solutions of models for flow in porous media and some closely related topics. This is a challenging area due to a multiple of reasons. The porous media reservoirs are usually very large, so the discretized mathematical models lead to systems of equations with hundreds of millions of unknowns, they have irregular structure, which complicates the model geometry, and they consist of materials that significantly differ in geological properties, so the coefficients in the model have jumps even&nbsp;over several orders of magnitude.&nbsp;For example, the flow of water in granite rock, which represents one of the suitable sites for nuclear waste deposit, is conducted by the complex system of vugs, cavities and fractures with various topology and sizes, all of which need to be properly incorporated into the model. There are three possible models for flow of fluids in porous media given by Darcy, Stokes, Stokes-Brinkman and Navier-Stokes equations. In this project we studied all of these models. Specifically, we proposed numerical methods for solution of Stokes and Navier-Stokes equations with stochastic viscosity, using stochastic Galerkin formulation and polynomial chaos framework, that allow to compute efficiently statistical moments (such as mean and variance) of the solution (velocities and pressures) much more efficiently than a typical approach based on Monte Carlo simulation. We further omproved the techniques by low-rank techniques, which allow to compress the solution by representing only its numerically significant part. We proposed an adaptive domain decomposition method for solution of Darcy model that allow parallel implementation for supercomputers. The combination of Darcy and Stokes models results in the so-called Stokes-Brinkman model, for which we developed and implemented a posteriori error estimates that suggest how to refine the underlying finite element grid to achieve desired accuracy of the solution and preserve reasonable computational cost. In undergraduate research, a mentored student developed an efficient implementation of the discretization of Darcy model that allows to set up models with hundreds of millions of degrees of freedom. Since the adaptive domain decomposition requires solution of certain eigenvalue problems, we also designed new algorithms that allow to characterize the eigenvalues and eigenvectors under uncertainty. Finally during the term of the award a special course topics was offered to graduate students on topics related to this research, the research was presented by the PI and both graduate and undergraduate students at conferences, several undergarduate students graduated and continue in PhD programs (including a student from an underrepresented minority) and four PhD dissertations are in progress.&nbsp;</p><br> <p>            Last Modified: 12/02/2019<br>      Modified by: Bedrich&nbsp;Sousedik</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project we studied numerical solutions of models for flow in porous media and some closely related topics. This is a challenging area due to a multiple of reasons. The porous media reservoirs are usually very large, so the discretized mathematical models lead to systems of equations with hundreds of millions of unknowns, they have irregular structure, which complicates the model geometry, and they consist of materials that significantly differ in geological properties, so the coefficients in the model have jumps even over several orders of magnitude. For example, the flow of water in granite rock, which represents one of the suitable sites for nuclear waste deposit, is conducted by the complex system of vugs, cavities and fractures with various topology and sizes, all of which need to be properly incorporated into the model. There are three possible models for flow of fluids in porous media given by Darcy, Stokes, Stokes-Brinkman and Navier-Stokes equations. In this project we studied all of these models. Specifically, we proposed numerical methods for solution of Stokes and Navier-Stokes equations with stochastic viscosity, using stochastic Galerkin formulation and polynomial chaos framework, that allow to compute efficiently statistical moments (such as mean and variance) of the solution (velocities and pressures) much more efficiently than a typical approach based on Monte Carlo simulation. We further omproved the techniques by low-rank techniques, which allow to compress the solution by representing only its numerically significant part. We proposed an adaptive domain decomposition method for solution of Darcy model that allow parallel implementation for supercomputers. The combination of Darcy and Stokes models results in the so-called Stokes-Brinkman model, for which we developed and implemented a posteriori error estimates that suggest how to refine the underlying finite element grid to achieve desired accuracy of the solution and preserve reasonable computational cost. In undergraduate research, a mentored student developed an efficient implementation of the discretization of Darcy model that allows to set up models with hundreds of millions of degrees of freedom. Since the adaptive domain decomposition requires solution of certain eigenvalue problems, we also designed new algorithms that allow to characterize the eigenvalues and eigenvectors under uncertainty. Finally during the term of the award a special course topics was offered to graduate students on topics related to this research, the research was presented by the PI and both graduate and undergraduate students at conferences, several undergarduate students graduated and continue in PhD programs (including a student from an underrepresented minority) and four PhD dissertations are in progress.        Last Modified: 12/02/2019       Submitted by: Bedrich Sousedik]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

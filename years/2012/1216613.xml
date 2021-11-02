@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Programming with Non-Coherent Memory</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The preponderance of language design and program analysis efforts in the study of multicore systems has implicitly assumed the presence of an underlying coherent memory that ensures global visibility of updates performed on processor-local caches.  Because all threads witness a consistent view of data, concurrency bugs manifest purely as a consequence of unintended non-determinism introduced by scheduler-driven thread interleavings and inadequate synchronization.  As new architectural advances lead to multicore or manycore platforms supporting hundreds of (potentially heterogenous) cores, automatically enforcing memory coherence becomes an increasingly complex and expensive proposition.  Indeed, new architectural designs are likely to sacrifice local coherence guarantees in exchange for a simple commodity-based scalable design, equipped with a limited degree of global shared memory.  Applications that target such platforms must be carefully written not to make assumptions about the consistency of the contents of memory locations accessed and modified locally.  In the absence of coherence, new techniques are needed to recover the abstraction benefits that are now lost; these issues become exacerbated at scale.  The broader impacts of the proposal have obvious positive interaction with industry efforts to promote multicore and manycore processor platforms.&lt;br/&gt;&lt;br/&gt;This project will consider novel ways to map consistency models expressed in the context of high-level managed languages onto non-coherent architectural platforms.  In doing so, it will consider new programming models, abstractions, analyses, and implementations to enable (a) avoidance of coherency enforcement whenever possible, (b) reduction of coherency demands based on application logic, (c) specification of complex consistency requirements that can be used to inform the implementation of specialized software-based coherence protocols, and (d) integration of language-level memory models with weakly-coherent architectures.  The project will subsume formal, rigorous development of different abstractions, analyses, and implementations that enable the automatic construction of new protocol families that express complex aggregates of communication and computation actions with sensible consistency semantics even when executed on non-coherent platforms.</AbstractNarration>
+<MinAmdLetterDate>06/25/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>11/22/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1216613</AwardID>
+<Investigator>
+<FirstName>Sunil</FirstName>
+<LastName>Prabhakar</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sunil K Prabhakar</PI_FULL_NAME>
+<EmailAddress>sunil@purdue.edu</EmailAddress>
+<PI_PHON>7654945736</PI_PHON>
+<NSF_ID>000490800</NSF_ID>
+<StartDate>09/14/2015</StartDate>
+<EndDate>11/22/2016</EndDate>
+<RoleCode>Former Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Suresh</FirstName>
+<LastName>Jagannathan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Suresh Jagannathan</PI_FULL_NAME>
+<EmailAddress>suresh@cs.purdue.edu</EmailAddress>
+<PI_PHON>7654940971</PI_PHON>
+<NSF_ID>000181308</NSF_ID>
+<StartDate>11/22/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Gustavo</FirstName>
+<LastName>Petri</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gustavo Petri</PI_FULL_NAME>
+<EmailAddress>gpetri@purdue.edu</EmailAddress>
+<PI_PHON>7654941055</PI_PHON>
+<NSF_ID>000653846</NSF_ID>
+<StartDate>09/30/2013</StartDate>
+<EndDate>09/14/2015</EndDate>
+<RoleCode>Former Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName/>
+<StateCode>IN</StateCode>
+<ZipCode>479062017</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The evolution from single-core to multi- and many-core architectures has led to new programming models and abstractions for concurrent programming.&nbsp; To reason about the behavior and correctness of applications executing in such environments, program analyses and runtime monitors have been able to safely assume the availability of an underlying coherent memory that ensures global visibility of updates performed on processor-local caches.&nbsp; Because all threads witness a consistent view of data, concurrency bugs manifest purely because of unintended non-determinism introduced by scheduler-driven thread interleavings and inadequate synchronization.</p> <p>Scaling demands, however, have led to new architectural designs supporting hundreds of potentially heterogeneous cores that make coherence enforcement an increasingly expensive and complex proposition.&nbsp; These architectures more closely resemble loosely-coupled distributed systems which typically offer few coherency guarantees.&nbsp; While there is no clear consensus on how these systems will ultimately evolve, &nbsp;the benefits to scalability, power, and simplicity suggest that designs without system-wide hardware coherence support are likely to become more common.&nbsp; The emergence of such systems requires a radical rethinking of the entire software stack, from the operating system and kernel design to application-level semantics, programming abstractions, and models.&nbsp; It is an investigation of these ideas that forms the central focus of this proposal.</p> <p>Applications that target such platforms must be carefully written not to make assumptions about the global consistency of the contents of cache locations accessed and modified locally.&nbsp; In the absence of coherence support, new techniques are needed to recover the abstraction benefits that are now lost.</p> <p>This project has considered new ways to map consistency models expressed in the context of high-level managed languages onto non-coherent concurrent and distributed platforms.&nbsp; In doing we have explored new programming models, abstractions, analyses, and implementations to enable (a)&nbsp; avoidance of coherency enforcement whenever possible, (b) reduction of coherency demands based on application logic, (c) specification of complex consistency requirements that can be used to inform the implementation of specialized software-based coherence protocols, and (d) integration of language-level memory models with weakly-coherent architectures.<br /><br /><br />&nbsp;<br /><br /><br /></p><br> <p>            Last Modified: 03/12/2018<br>      Modified by: Suresh&nbsp;Jagannathan</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The evolution from single-core to multi- and many-core architectures has led to new programming models and abstractions for concurrent programming.  To reason about the behavior and correctness of applications executing in such environments, program analyses and runtime monitors have been able to safely assume the availability of an underlying coherent memory that ensures global visibility of updates performed on processor-local caches.  Because all threads witness a consistent view of data, concurrency bugs manifest purely because of unintended non-determinism introduced by scheduler-driven thread interleavings and inadequate synchronization.  Scaling demands, however, have led to new architectural designs supporting hundreds of potentially heterogeneous cores that make coherence enforcement an increasingly expensive and complex proposition.  These architectures more closely resemble loosely-coupled distributed systems which typically offer few coherency guarantees.  While there is no clear consensus on how these systems will ultimately evolve,  the benefits to scalability, power, and simplicity suggest that designs without system-wide hardware coherence support are likely to become more common.  The emergence of such systems requires a radical rethinking of the entire software stack, from the operating system and kernel design to application-level semantics, programming abstractions, and models.  It is an investigation of these ideas that forms the central focus of this proposal.  Applications that target such platforms must be carefully written not to make assumptions about the global consistency of the contents of cache locations accessed and modified locally.  In the absence of coherence support, new techniques are needed to recover the abstraction benefits that are now lost.  This project has considered new ways to map consistency models expressed in the context of high-level managed languages onto non-coherent concurrent and distributed platforms.  In doing we have explored new programming models, abstractions, analyses, and implementations to enable (a)  avoidance of coherency enforcement whenever possible, (b) reduction of coherency demands based on application logic, (c) specification of complex consistency requirements that can be used to inform the implementation of specialized software-based coherence protocols, and (d) integration of language-level memory models with weakly-coherent architectures.              Last Modified: 03/12/2018       Submitted by: Suresh Jagannathan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

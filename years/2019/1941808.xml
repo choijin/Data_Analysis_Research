@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Learning Neurosymbolic 3D Models</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2025</AwardExpirationDate>
+<AwardTotalIntnAmount>549999.00</AwardTotalIntnAmount>
+<AwardAmount>225352</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ephraim Glinert</SignBlockName>
+<PO_EMAI>eglinert@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>High-quality 3D models are increasingly in demand, driven by numerous industries and by the need for synthetic training data to scale up autonomous vision systems. But creating such models is a laborious and time-consuming process requiring years of training, so current practice will be insufficient to satisfy future data demands. One way forward is through generative models of 3D objects, that is to have machines learn to synthesize high-quality objects, a nice vision which has yet to be realized. Existing 3D generative models fall into one of two broad categories, each with limitations. Symbolic generative models such as shape grammars can enable non-experts to generate high-quality geometry but have severely limited expressiveness, while neural generative models are flexible and can in theory learn to express any shape but they are inscrutable and produce flawed geometry.  This project will explore a new class of generative shape model that combines the best of both worlds: neuro-symbolic 3D models. The main insight is to use a symbolic program to model the logical part structure of a 3D object (e.g., the legs of a chair are connected to its seat), and then to use neural networks to refine this structure into high-quality geometry. Such a representation supports synthesis of new objects, reconstruction of objects from real-world sensor input, and high-level editing of object structure and geometry. It also supports modeling of higher-order object properties, including kinematics and physics.  To enable massive-scale generation of synthetic 3D training data for computer vision and robotics, a neuro-symbolic version of the widely used ShapeNet dataset will be implemented and released. To help democratize 3D content creation, the project will collaborate with Unity Technologies to integrate neuro-symbolic 3D models into their popular 3D graphics engine. Project outcomes will also include an open-source, pedagogical deep learning framework to educate a new generation of researchers with the multidisciplinary skillset needed for neuro-symbolic modeling, in concert with activities (e.g., piloting new integrated visual computing curricula via summer schools and hosting visiting student researchers from historically under-represented groups) designed to improve student mastery of neural network fundamentals.&lt;br/&gt;&lt;br/&gt;The recognition-by-components theory of vision posits that people recognize objects by first understanding their fundamental parts and then using a secondary process to handle objects that are not distinguishable by these parts alone. Neuro-symbolic 3D models operationalize this theory for object synthesis via two algorithmic phases. The first phase is a new procedural representation called a hierarchical part graph program that is a human-readable computer program which, when executed, constructs a graph of connected object parts at multiple levels of detail wherein the bottom level of detail consists of parametric primitives such as cuboids and cylinders. While suggestive of shape, these graphs do not capture the full variety of geometry found in real-world objects. Thus, the second phase of the model is a new neural adaptive subdivision procedure which converts the low-fidelity parts into high-fidelity surface geometry. This decomposition is a natural fit for the common case of human-made objects, but it can also be extended to organic objects. The hypothesis is that this approach to 3D object generation will be able to efficiently synthesize and reconstruct a variety of high-quality objects in a unified, easily-editable representation.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>03/16/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>03/18/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1941808</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Ritchie</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel Ritchie</PI_FULL_NAME>
+<EmailAddress>daniel_ritchie@brown.edu</EmailAddress>
+<PI_PHON>4018632777</PI_PHON>
+<NSF_ID>000737205</NSF_ID>
+<StartDate>03/16/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brown University</Name>
+<CityName>Providence</CityName>
+<CountyName>PROVIDENCE</CountyName>
+<ZipCode>029129002</ZipCode>
+<PhoneNumber>4018632777</PhoneNumber>
+<StreetAddress>BOX 1929</StreetAddress>
+<StreetAddress2><![CDATA[350 Eddy Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<StateCode>RI</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>RI01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001785542</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BROWN UNIVERSITY IN PROVIDENCE IN THE STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001785542</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brown University]]></Name>
+<CityName>Providence</CityName>
+<CountyName>PROVIDENCE</CountyName>
+<StateCode>RI</StateCode>
+<ZipCode>029129093</ZipCode>
+<StreetAddress><![CDATA[Office of Sponsored Projects]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>RI01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7367</Code>
+<Text>HCC-Human-Centered Computing</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7367</Code>
+<Text>Cyber-Human Systems</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~118990</FUND_OBLG>
+<FUND_OBLG>2021~106362</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: GridStat behavior at scale using GENI</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>102546.00</AwardTotalIntnAmount>
+<AwardAmount>102546</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Joseph Lyles</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Washington State University's GridStat project is developing middleware for electric power grid monitoring and control systems incorporating new technology that precisely measures currents, voltages, and phase angles many times per second. The GridStat at Scale using GENI project will demonstrate GridStat middleware?s ability to meet the power grid?s need for high-speed, reliable communications and will establish baseline performance expectations. Using GENI as the experimental platform allows experimentation with hundreds of nodes and isolated networks to make repeatable performance measurements over wide geographic areas. The ability of redundant resources in GridStat networks to help withstand attacks that attempt to remove or overload resources will be assessed.&lt;br/&gt;&lt;br/&gt;These experiments will establish credibility factors for wide-area communications used in coordinated control systems to enhance the reliability and efficiency of the electric power grid and will establish an approach for testing new design ideas for the smart transmission grid.</AbstractNarration>
+<MinAmdLetterDate>08/13/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/13/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1050221</AwardID>
+<Investigator>
+<FirstName>Carl</FirstName>
+<LastName>Hauser</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Carl H Hauser</PI_FULL_NAME>
+<EmailAddress>hauser@eecs.wsu.edu</EmailAddress>
+<PI_PHON>5093356470</PI_PHON>
+<NSF_ID>000430911</NSF_ID>
+<StartDate>08/13/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Min Sik</FirstName>
+<LastName>Kim</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Min Sik Kim</PI_FULL_NAME>
+<EmailAddress>msk@eecs.wsu.edu</EmailAddress>
+<PI_PHON>5093359661</PI_PHON>
+<NSF_ID>000568801</NSF_ID>
+<StartDate>08/13/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Washington State University</Name>
+<CityName>PULLMAN</CityName>
+<ZipCode>991641060</ZipCode>
+<PhoneNumber>5093359661</PhoneNumber>
+<StreetAddress>280 Lighty</StreetAddress>
+<StreetAddress2><![CDATA[PO BOX 641060]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041485301</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WASHINGTON STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041485301</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Washington State University]]></Name>
+<CityName>PULLMAN</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>991641060</ZipCode>
+<StreetAddress><![CDATA[280 Lighty]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~102546</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Developments in power grid measurement and monitoring technology have  enabled precise and frequent measurement of the state of the power grid. The current power grid communication infrastructure is insufficient for the  effective forwarding of this information to the necessary control  facilities. The GridStat framework offers an efficient, low-latency data  forwarding framework that can provide the necessary Quality of Service  for control facilities to maintain sub-second status of monitored power  grid substations. However, at the outset of this project GridStat prototypes had not been  tested outside local clusters. The purpose of the "GridStat behavior at scale using GENI" project was to use and evaluate the GENI infrastructure as a  platform for testing GridStat at scale and  identify problems with the current framework</p> <dl class="clearing"><dt>Our initial work concerned detecting and mitigating distributed denial of service (DDoS) attacks on the real-time behavior of GridStat. Many existing DDoS systems keep per-flow state to detect anomalies and do not scale well with high volume networks. We developed and deployed in PlanetLab a collaborative DDoS detection framework that scales well in a highly distributed manner, but still provides a global view of the system. By utilizing this type of framework, it becomes possible to identify anomaly or attack attempts and react to those stimuli to ensure that the system remains functional</dt><dt><br /></dt><dt>The Collaborative DDoS system utilizes <em>local detectors</em> and a <em>global detector. </em>Local detectors are deployed at edge-routers where localized statistics can be gathered and updated to the global detector. Local detectors can initiate mitigation actions within tightly defined time bounds. The global detector examines the aggregate of the local detectors to arrive at a global view of the system. It learns from the system and makes decisions to preserve the overall network. </dt><dt><br /></dt><dt>Our work on the DDoS system indicated that GENI/PlanetLab is a viable platform for evaluation of some aspects of GridStat but PlanetLab does not provide QoS guarantees and is therefore not sufficient for evaluating the more timing-dependent properties of interest. This observation led to  further explorations of resilience using the DETERLab testbed at USC-ISI  where it is possible to explore the consequences of having QoS  guarantees.</dt><dt><br /></dt><dt>The focus of the last year's work on the project was developing tools for  deploying wide area monitoring and control experiments for power grids  on DETERLab. We developed  compiler-like tools to transform a unified system description  encompassing a power system, an IP topology and a GridStat data delivery  topology that support a monitoring and control experiment into a live  DETERLab experiment. The description of interesting data delivery  systems is necessarily complicated, and the complexity is compounded by  deployment issues. The goal of these efforts has been to mitigate the  latter once the former has been established via automated deployment  mechanisms. DETERLab researchers recognized the value of  the scale-up work we were doing and provided direct support for and even  on-site use of DETERLab.</dt><dt><br /></dt><dt>The   culmination of this effort is a tool called the  GridStat   Structured Text (GSST) compiler. Using GSST we   described a real world 700+ bus power system experiment  topology along with the associated communication infrastructure and deployed that model in DETERLab.  This work was   presented at CSIIRW 13.</dt><dt><br /></dt><dt>Multiple researchers in our lab have also used GSST in the  deployment  of their large-scale GridStat experiments. This  user experience has helped us to  iterate with the core  developers of  GridStat to develop more  integrated tools for the  deployment of GridStat  in testbed  environmen...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Developments in power grid measurement and monitoring technology have  enabled precise and frequent measurement of the state of the power grid. The current power grid communication infrastructure is insufficient for the  effective forwarding of this information to the necessary control  facilities. The GridStat framework offers an efficient, low-latency data  forwarding framework that can provide the necessary Quality of Service  for control facilities to maintain sub-second status of monitored power  grid substations. However, at the outset of this project GridStat prototypes had not been  tested outside local clusters. The purpose of the "GridStat behavior at scale using GENI" project was to use and evaluate the GENI infrastructure as a  platform for testing GridStat at scale and  identify problems with the current framework Our initial work concerned detecting and mitigating distributed denial of service (DDoS) attacks on the real-time behavior of GridStat. Many existing DDoS systems keep per-flow state to detect anomalies and do not scale well with high volume networks. We developed and deployed in PlanetLab a collaborative DDoS detection framework that scales well in a highly distributed manner, but still provides a global view of the system. By utilizing this type of framework, it becomes possible to identify anomaly or attack attempts and react to those stimuli to ensure that the system remains functional The Collaborative DDoS system utilizes local detectors and a global detector. Local detectors are deployed at edge-routers where localized statistics can be gathered and updated to the global detector. Local detectors can initiate mitigation actions within tightly defined time bounds. The global detector examines the aggregate of the local detectors to arrive at a global view of the system. It learns from the system and makes decisions to preserve the overall network.  Our work on the DDoS system indicated that GENI/PlanetLab is a viable platform for evaluation of some aspects of GridStat but PlanetLab does not provide QoS guarantees and is therefore not sufficient for evaluating the more timing-dependent properties of interest. This observation led to  further explorations of resilience using the DETERLab testbed at USC-ISI  where it is possible to explore the consequences of having QoS  guarantees. The focus of the last year's work on the project was developing tools for  deploying wide area monitoring and control experiments for power grids  on DETERLab. We developed  compiler-like tools to transform a unified system description  encompassing a power system, an IP topology and a GridStat data delivery  topology that support a monitoring and control experiment into a live  DETERLab experiment. The description of interesting data delivery  systems is necessarily complicated, and the complexity is compounded by  deployment issues. The goal of these efforts has been to mitigate the  latter once the former has been established via automated deployment  mechanisms. DETERLab researchers recognized the value of  the scale-up work we were doing and provided direct support for and even  on-site use of DETERLab. The   culmination of this effort is a tool called the  GridStat   Structured Text (GSST) compiler. Using GSST we   described a real world 700+ bus power system experiment  topology along with the associated communication infrastructure and deployed that model in DETERLab.  This work was   presented at CSIIRW 13. Multiple researchers in our lab have also used GSST in the  deployment  of their large-scale GridStat experiments. This  user experience has helped us to  iterate with the core  developers of  GridStat to develop more  integrated tools for the  deployment of GridStat  in testbed  environments. This  work has shown that DETERlab can provide an intermediate- scale    testing environment for real-world distributed cyber-physical technology built    around GridStat middleware, and that tools can render this testin...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

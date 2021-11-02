@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>On Statistical Modeling and Parameter Estimation for High Dimensional Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/06/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>120658.00</AwardTotalIntnAmount>
+<AwardAmount>120658</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Gabor Szekely</SignBlockName>
+<PO_EMAI>gszekely@nsf.gov</PO_EMAI>
+<PO_PHON>7032928869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The dramatic improvements in data collection and acquisition technologies over the last decades have enabled scientists to collect massive amounts of high-dimensional data that allow for monitoring and studying of complex systems.  Due to their intrinsic nature, many of the high-dimensional datasets, such as omics and genome-wide association study (GWAS) data, have a much smaller sample size compared to the dimension (referred to as the small-n-large-P problem). Current research on statistical modeling of small-n-large-P data focuses on linear and generalized linear models. However, these approaches are often not adequate for modeling complex systems, and estimation of the model parameters is challenging.  This project addresses two fundamental problems, statistical modeling and parameter estimation, toward a valid statistical analysis of high-dimensional data.  Successful completion of this project will generate hands-on tools for statistical inference of high-dimensional complex systems, which can benefit researchers in many areas of science and technology.  In particular, the proposed applications to biomedical studies will lead to accurate tools for detecting biomarkers associated with disease processes and tailoring optimal therapy for individual patients with complex diseases. The research results will be disseminated to the statistical and biomedical communities, via collaboration, conference presentations, books, and articles to be published in academic journals. The project will also have significant impact on education through the involvement of graduate students in the project, and incorporation of results into undergraduate and graduate courses.  In addition, the R package developed under this project will provide a valuable tool for statistical analysis of high-dimensional data.&lt;br/&gt;&lt;br/&gt;The current approach to modeling small-n-large-P data focuses on linear and generalized linear models, and casts the problem as variable selection by imposing a sparsity constraint on parameter values.  Although these models have many advantages, such as simplicity and computational efficiency, estimation of the parameters is still a challenging problem.  While regularization is often used in these situations, it can perform poorly when the sample size is small and the variables are highly correlated.  Two new methods are proposed to address these concerns, namely, Bayesian neural network (BNN) and blockwise coordinate consistency (BCC).  The BNN method works by first fitting the data with a feed-forward neural network, conducting variable selection through network structure selection under a Bayesian framework, and resolving the associated computational difficulty via parallel computing. Compared to existing methods, BNN can lead to much more precise selection of relevant variables and outcome prediction for high-dimensional nonlinear systems.  The BCC method works by maximizing a new objective function, the expectation of the log-likelihood function, using a cyclic algorithm and iteratively finding consistent estimates for each block of parameters conditional on the current estimates of the other parameters.  The BCC method reduces the high-dimensional parameter estimation problem to a series of low-dimensional parameter estimation problems.  The preliminary results indicate that BCC can provide a drastic improvement in both parameter estimation and variable selection over regularization methods. The validity of the proposed methods will be rigorously studied and applied to biomarker discovery, precision medicine, and joint estimation of the regression coefficients and precision matrix for high-dimensional multivariate regression.</AbstractNarration>
+<MinAmdLetterDate>12/14/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>12/14/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1818674</AwardID>
+<Investigator>
+<FirstName>Faming</FirstName>
+<LastName>Liang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Faming Liang</PI_FULL_NAME>
+<EmailAddress>fmliang@purdue.edu</EmailAddress>
+<PI_PHON>7654944452</PI_PHON>
+<NSF_ID>000490214</NSF_ID>
+<StartDate>12/14/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName/>
+<StateCode>IN</StateCode>
+<ZipCode>479072114</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1269</Code>
+<Text>STATISTICS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~120658</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The dramatic improvement in data collection and acquisition  technologies in the last decades has enabled scientists to collect a  great amount of high dimensional data which allow for monitoring and  study of complex systems. Due to their intrinsic nature, many of the  high-dimensional data, such as omics data and genome-wide association  study (GWAS) data, have a much smaller sample size than the dimension  (a.k.a. small-n-large-P ). How to model this type of data has put a  great challenge on the existing statistical methods. The current research  on statistical modeling of small-n-large-p data focuses on linear and  generalized linear models, and casts the problem as variable selection  by imposing a sparsity constraint on parameter values. Although the  linear and generalized linear models have many advantages, such as  simplicity and computational efficiency, they are not adequate for  modeling complex systems.&nbsp;</p> <p>With the partial support of this award,&nbsp; some sparse neural network methods have been developed for statistical modeling of high-dimensional complex data.&nbsp; These methods work for both shallow and deep neural network with the connection weights being subject to appropriate prior distributions. The consistency of these methods can be justified under the Bayesian framework. In  particular, it is shown that a sparse neural network of size  O(n/log(n))&nbsp; has been large enough for providing consistent  approximation to the true posterior distribution and the structure of the sparse neural network can  be consistently&nbsp; determined using a marginal  posterior inclusion probability approach.&nbsp;&nbsp; The numerical results indicate  that the sparse neural network methods can perform very well in  large-scale network compression as well as feature selection for  high-dimensional nonlinear regression, both advancing interpretable  machine learning.</p> <p>Other than sparse neural network methods,&nbsp; a blockwise coordinate descent method is also developed under this project. The blockwise coordinate method pertains to parameter estimation for high-dimensional complex models, and it works by maximizing the expectation of the likelihood function using a cyclic algorithm: iteratively finding consistent estimates for each block of parameters conditional on the current estimates of the other parameters. The blockwise coordinate descent method reduces the high-dimensional parameter estimation problem to a series of low-dimensional parameter estimation problems and is ready to be applied for estimating parameters of complex models involved in high-dimensional data analayis. The validity of the blockwise coordinate method has been rigorously studied.&nbsp;</p> <div class="tinyMCEContent"> <p>The sparse neural network and blockwise coordinate descent methods enrich the toolbox of statistics,&nbsp; and are expected to play important roles in statistical analysis of high-diemsional complex data.&nbsp; These methods have wide applications in biomedical science, for example, they can be used for eQTL analysis and biomarker discovery with high-throught omics data.</p> </div><br> <p>            Last Modified: 11/18/2019<br>      Modified by: Faming&nbsp;Liang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The dramatic improvement in data collection and acquisition  technologies in the last decades has enabled scientists to collect a  great amount of high dimensional data which allow for monitoring and  study of complex systems. Due to their intrinsic nature, many of the  high-dimensional data, such as omics data and genome-wide association  study (GWAS) data, have a much smaller sample size than the dimension  (a.k.a. small-n-large-P ). How to model this type of data has put a  great challenge on the existing statistical methods. The current research  on statistical modeling of small-n-large-p data focuses on linear and  generalized linear models, and casts the problem as variable selection  by imposing a sparsity constraint on parameter values. Although the  linear and generalized linear models have many advantages, such as  simplicity and computational efficiency, they are not adequate for  modeling complex systems.   With the partial support of this award,  some sparse neural network methods have been developed for statistical modeling of high-dimensional complex data.  These methods work for both shallow and deep neural network with the connection weights being subject to appropriate prior distributions. The consistency of these methods can be justified under the Bayesian framework. In  particular, it is shown that a sparse neural network of size  O(n/log(n))  has been large enough for providing consistent  approximation to the true posterior distribution and the structure of the sparse neural network can  be consistently  determined using a marginal  posterior inclusion probability approach.   The numerical results indicate  that the sparse neural network methods can perform very well in  large-scale network compression as well as feature selection for  high-dimensional nonlinear regression, both advancing interpretable  machine learning.  Other than sparse neural network methods,  a blockwise coordinate descent method is also developed under this project. The blockwise coordinate method pertains to parameter estimation for high-dimensional complex models, and it works by maximizing the expectation of the likelihood function using a cyclic algorithm: iteratively finding consistent estimates for each block of parameters conditional on the current estimates of the other parameters. The blockwise coordinate descent method reduces the high-dimensional parameter estimation problem to a series of low-dimensional parameter estimation problems and is ready to be applied for estimating parameters of complex models involved in high-dimensional data analayis. The validity of the blockwise coordinate method has been rigorously studied.    The sparse neural network and blockwise coordinate descent methods enrich the toolbox of statistics,  and are expected to play important roles in statistical analysis of high-diemsional complex data.  These methods have wide applications in biomedical science, for example, they can be used for eQTL analysis and biomarker discovery with high-throught omics data.        Last Modified: 11/18/2019       Submitted by: Faming Liang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: EAGER: HI-HDFS - Holistic I/O optimizations for the Hadoop distributed filesystem</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>File systems and their outdated POSIX "byte stream" interface suffer from an impedance mismatch with the versatile I/O requirements of today's applications. Specifically, the I/O path from the application to the raw storage device is becoming longer and it involves the interplay of intricate software and hardware components. This produces complex aggregate I/O patterns that application developers (often subject matter experts with limited knowledge of how massive concurrency creates I/O bottlenecks) cannot optimize based on intuition alone. File systems that tout their high scalability, such as the Hadoop distributed file system, largely do so by limiting applications to sequential access patterns. The question of whether one can accelerate the I/O performance of the Hadoop distributed file system for analytical applications with complex data models that cannot readily serialize data contiguously for fast sequential access remains open.&lt;br/&gt; &lt;br/&gt;This project seeks to address this question and build HI-HDFS -- a framework that automatically collects and manages semantically richer I/O metadata to guide object placement in the Hadoop distributed file system. The HI-HDFS framework synthesizes the I/O activity across software components throughout the datacenter in a navigable graph structure to identify application-agnostic motifs in I/O activity. A novel I/O forecasting technique identifies and ameliorates bottlenecks at large scale by inspecting I/O activity from small-scale runs. Overall, the HI-HDFS framework challenges the I/O optimization mantra that manual data placement is the cornerstone of I/O performance and paves the way towards next-generation object-centric storage systems for high-performance computers. The efficacy of this automated approach will be examined on a complex data processing workload from the domain of emergency response which exhibits I/O patterns that are characteristic of modern analytical applications. The broader impacts of this work are expected to include open-source prototype implementations as well as pedagogical impact on a cloud computing course for both Computer Science and Data Analytics undergraduate majors at Ohio State.</AbstractNarration>
+<MinAmdLetterDate>08/29/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1747447</AwardID>
+<Investigator>
+<FirstName>Srinivasan</FirstName>
+<LastName>Parthasarathy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Srinivasan Parthasarathy</PI_FULL_NAME>
+<EmailAddress>srini@cse.ohio-state.edu</EmailAddress>
+<PI_PHON>6142922568</PI_PHON>
+<NSF_ID>000227551</NSF_ID>
+<StartDate>08/29/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Spyros</FirstName>
+<LastName>Blanas</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Spyros Blanas</PI_FULL_NAME>
+<EmailAddress>blanas.2@osu.edu</EmailAddress>
+<PI_PHON>6142926381</PI_PHON>
+<NSF_ID>000652382</NSF_ID>
+<StartDate>08/29/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Yang</FirstName>
+<LastName>Wang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yang Wang</PI_FULL_NAME>
+<EmailAddress>wang.7564@osu.edu</EmailAddress>
+<PI_PHON>6142922577</PI_PHON>
+<NSF_ID>000689394</NSF_ID>
+<StartDate>08/29/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University</Name>
+<CityName>Columbus</CityName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888735</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1960 Kenny Road]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832127323</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001964634</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName>Columbus</CityName>
+<StateCode>OH</StateCode>
+<ZipCode>432101016</ZipCode>
+<StreetAddress><![CDATA[1960 Kenny Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p style="margin-bottom: 0in; line-height: 100%;">An impedance mismatch exists between the increasing sophistication of array-centric analytics and the rudimentary bytestream-based I/O interface of parallel file systems. In particular, scientific data analytics pipelines face scalability bottlenecks when processing massive datasets that consist of millions of small files. The adoption of scalable data analytics infrastructure further exacerbates I/O bottlenecks for many applications, as processing small files is notoriously inefficient. Such I/O bottlenecks commonly arise in problems as diverse as detecting supernovae and post-processing computational fluid dynamics simulations.</p> <p style="margin-bottom: 0in; line-height: 100%;">The major goal of this project was to characterize unexplored I/O optimization opportunities that arise during the analysis of array-centric datasets, often with machine learning techniques. The project focused on common analytical methods, in particular sequence learning using a long short-term model (LSTM) and image classification using a convolutional neural network (CNN), and analyzed their respective I/O patterns on the Hadoop Distributed File System (HDFS), a popular parallel file system in cloud environments due to its ability to scale I/O to thousands of nodes. The main thrusts of the project were (1) identifying I/O patterns and bottlenecks at runtime at various levels of the I/O stack, (2) predicting their performance impact and (3) optimizing I/O to alleviate bottlenecks and improve performance. The major activities of this project were (1) the development of PatternMiner, a tool to analyze I/O traces from small experiments and extrapolate such traces at larger scale to understand I/O bottlenecks, and (2) the development of ASHWHIN, an I/O library that exposes an array-centric data access interface to applications but seamlessly stores data in the Hadoop Distributed File System.</p> <p style="margin-bottom: 0in; line-height: 100%;">The key outcome of this project is that it has demonstrated that object consolidation has the potential to equalize performance across systems with diverse I/O characteristics. Although the research community has extensively studied data placement algorithms for complex I/O hierarchies, the results from this project show that data consolidation mechanisms have an equally significant role to play. Research results have been disseminated through publication in venues that focus on database systems (IEEE ICDE), cloud computing (ACM SoCC), performance analysis (IEEE MASCOTS), and high-performance computing (IEEE HPEC). Additional papers are currently under review. The prototype implementation of the developed system is available under an open-source license at <a href="http://code.osu.edu/arraybridge">http://code.osu.edu/arraybridge</a>.</p> <p style="margin-bottom: 0in; line-height: 100%;">Broader impacts from this project include curriculum development activities and professional development opportunities for students. From a curricular standpoint, the I/O patterns of the scientific applications that were identified as part of this project guided the development of lab assignments for the "Data Management in the Cloud" course based on various Hadoop technologies (HDFS, Impala, Spark, TileDB). From a pedagogical standpoint, this project has directly contributed to the professional development of two Ph.D., one M.Sc. and two B.Sc. students.</p> <!-- p { margin-bottom: 0.1in; line-height: 120%; }a:link { } --><br> <p>            Last Modified: 01/26/2019<br>      Modified by: Spyros&nbsp;Blanas</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[An impedance mismatch exists between the increasing sophistication of array-centric analytics and the rudimentary bytestream-based I/O interface of parallel file systems. In particular, scientific data analytics pipelines face scalability bottlenecks when processing massive datasets that consist of millions of small files. The adoption of scalable data analytics infrastructure further exacerbates I/O bottlenecks for many applications, as processing small files is notoriously inefficient. Such I/O bottlenecks commonly arise in problems as diverse as detecting supernovae and post-processing computational fluid dynamics simulations. The major goal of this project was to characterize unexplored I/O optimization opportunities that arise during the analysis of array-centric datasets, often with machine learning techniques. The project focused on common analytical methods, in particular sequence learning using a long short-term model (LSTM) and image classification using a convolutional neural network (CNN), and analyzed their respective I/O patterns on the Hadoop Distributed File System (HDFS), a popular parallel file system in cloud environments due to its ability to scale I/O to thousands of nodes. The main thrusts of the project were (1) identifying I/O patterns and bottlenecks at runtime at various levels of the I/O stack, (2) predicting their performance impact and (3) optimizing I/O to alleviate bottlenecks and improve performance. The major activities of this project were (1) the development of PatternMiner, a tool to analyze I/O traces from small experiments and extrapolate such traces at larger scale to understand I/O bottlenecks, and (2) the development of ASHWHIN, an I/O library that exposes an array-centric data access interface to applications but seamlessly stores data in the Hadoop Distributed File System. The key outcome of this project is that it has demonstrated that object consolidation has the potential to equalize performance across systems with diverse I/O characteristics. Although the research community has extensively studied data placement algorithms for complex I/O hierarchies, the results from this project show that data consolidation mechanisms have an equally significant role to play. Research results have been disseminated through publication in venues that focus on database systems (IEEE ICDE), cloud computing (ACM SoCC), performance analysis (IEEE MASCOTS), and high-performance computing (IEEE HPEC). Additional papers are currently under review. The prototype implementation of the developed system is available under an open-source license at http://code.osu.edu/arraybridge. Broader impacts from this project include curriculum development activities and professional development opportunities for students. From a curricular standpoint, the I/O patterns of the scientific applications that were identified as part of this project guided the development of lab assignments for the "Data Management in the Cloud" course based on various Hadoop technologies (HDFS, Impala, Spark, TileDB). From a pedagogical standpoint, this project has directly contributed to the professional development of two Ph.D., one M.Sc. and two B.Sc. students.        Last Modified: 01/26/2019       Submitted by: Spyros Blanas]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Optimization and Decision-Making Under Uncertainty</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>20000.00</AwardTotalIntnAmount>
+<AwardAmount>20000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Investigations of algorithms and computational complexity in theoretical computer science typically assume that the function to be computed and the inputs to that function are completely specified and known in advance. In most realistic cases, however, the computation proceeds in stages, and knowledge of the function and the inputs becomes known progressively at different stages of this process. In addition, these data may be drawn from a probability distribution, which may be known or may have to be discovered by sampling. The workshop will be devoted to exploring particular settings in which such uncertainties arise, and developing suitable paradigms for evaluating algorithms in such settings.&lt;br/&gt;&lt;br/&gt;The workshop will enhance communication among the mathematics, computer science, statistics and operations research communities. It will be open to all potential participants, and the workshop findings (including video recordings of presentations) will be distributed to the public for comment and engagement. The organizers will encourage students to attend the workshop, and will actively recruit scientists from a diversity of backgrounds to contribute to a wide range of applications.</AbstractNarration>
+<MinAmdLetterDate>05/16/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>05/16/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1639628</AwardID>
+<Investigator>
+<FirstName>Richard</FirstName>
+<LastName>Karp</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Richard M Karp</PI_FULL_NAME>
+<EmailAddress>karp@cs.berkeley.edu</EmailAddress>
+<PI_PHON>5106425799</PI_PHON>
+<NSF_ID>000099536</NSF_ID>
+<StartDate>05/16/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Berkeley]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>947045940</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>2878</Code>
+<Text>Special Projects - CCF</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~20000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>Workshop Report: Optimization and Decision Making Under Uncertainty<br /></strong><em>Simons Institute for the Theory of Computing, September 19-23, 2016</em></p> <p><em>Organizers:&nbsp; Shipra Agrawal (Columbia), Nikhil Bansal (TU Eindhoven), Robert Kleinberg (Cornell), Kamesh Munagala (Duke), Jay Sethuraman (Columbia), Adam Wierman (Caltech)</em></p> <p class="normal">The goal of this workshop was to bring together researchers in theoretical computer science, computational learning, and operations research who work in the broad area of optimization under uncertainty, but whose research domains have different flavors. The classical area of online algorithms requires us to make decisions over time as the input is slowly revealed, without any knowledge of the future. This has been widely studied, e.g., in the competitive analysis model within theoretical computer science, and, in parallel, in the model of regret minimization in computational learning. Another widely studied setting in operations research incorporates stochastic uncertainty about the input; this uncertainty reduces over time, but postponing decisions is either costly or impossible. Recent developments have shown connections between these disparate models, with new algorithms that interpolate between the various settings and combine different techniques. The goal of the workshop was to researchers working in these areas to exchange ideas and techniques and forge deeper connections. Below we highlight some particularly interesting research themes that emerged during the workshop.<br /><br />A common criticism of adversarial input models is that their predictions and the resulting algorithms tend to be too pessimistic, hedging continuously against a worst case that probably never arises. On the other hand, stochastic input models often suffer from the criticism that they assume a certain probabilistic model of the world that may simply not be true. A subset of talks focused on the question of how to combine these models and achieve the best of both these worlds.&nbsp;</p> <p class="normal">A related theme that emerged is the analysis of the same problems through the lens of competitive analysis, and with a stochastic/Bayesian prior distribution. Talks by Thomas Kesselheim and Ola Svensson focused on the classical secretary problem, where a resource allocation problem must be solved online. The algorithms and analyses differ fundamentally depending on whether the input is assumed to be adversarially generated but presented in a random order, or whether the input is stochastic from a known distribution.&nbsp;</p> <p class="normal">Several talks focused on the interplay between algorithm design and statistical applications in the real world. Don Berry talked about his journey in getting the medical community to use multi-armed bandit algorithms for adaptively assigning cancer patients to clinical trials, instead of the classical but wasteful random assignment model. In a related spirit, Ramesh Johari described his experience in implementing algorithms that achieve the optimal trade-off between statistical power and sample size in a commercial grade A/B testing platform. Vivek Farias explored a related model for optimally assigning subjects for A/B tests via dynamic programming. An interesting avenue for future research that emerged from these discussions is how to convert the vast theoretical knowledge base we have developed in computational learning and online algorithms into practical algorithms that can be implemented in the real world.</p> <p class="normal">A final theme we should highlight is the generalization to many dimensions of online and learning problems that have classically been studied in one dimension. This presents several challenges in terms of both algorithm design and analysis. Yossi Azar talked about packing multi-dimensional vectors; Niv Buchbinder considered online packing and covering problems with multidimensional resources and nonlinear objectives; Nikhil Devanur discussed related problems in the bandit model where input arrives from an unknown distribution; Sebastien Bubeck considered the classic bandit problem in high-dimensional convex spaces; and Kamesh Munagala talked about scheduling problems where jobs need resources in many dimensions. The techniques showcased the centrality of linear and convex programming methods such as duality and gradient descent, and showed that there is a lot more we need to learn about even these very basic techniques. This is another exciting avenue for future research.</p><br> <p>            Last Modified: 11/13/2017<br>      Modified by: Richard&nbsp;M&nbsp;Karp</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Workshop Report: Optimization and Decision Making Under Uncertainty Simons Institute for the Theory of Computing, September 19-23, 2016  Organizers:  Shipra Agrawal (Columbia), Nikhil Bansal (TU Eindhoven), Robert Kleinberg (Cornell), Kamesh Munagala (Duke), Jay Sethuraman (Columbia), Adam Wierman (Caltech) The goal of this workshop was to bring together researchers in theoretical computer science, computational learning, and operations research who work in the broad area of optimization under uncertainty, but whose research domains have different flavors. The classical area of online algorithms requires us to make decisions over time as the input is slowly revealed, without any knowledge of the future. This has been widely studied, e.g., in the competitive analysis model within theoretical computer science, and, in parallel, in the model of regret minimization in computational learning. Another widely studied setting in operations research incorporates stochastic uncertainty about the input; this uncertainty reduces over time, but postponing decisions is either costly or impossible. Recent developments have shown connections between these disparate models, with new algorithms that interpolate between the various settings and combine different techniques. The goal of the workshop was to researchers working in these areas to exchange ideas and techniques and forge deeper connections. Below we highlight some particularly interesting research themes that emerged during the workshop.  A common criticism of adversarial input models is that their predictions and the resulting algorithms tend to be too pessimistic, hedging continuously against a worst case that probably never arises. On the other hand, stochastic input models often suffer from the criticism that they assume a certain probabilistic model of the world that may simply not be true. A subset of talks focused on the question of how to combine these models and achieve the best of both these worlds.  A related theme that emerged is the analysis of the same problems through the lens of competitive analysis, and with a stochastic/Bayesian prior distribution. Talks by Thomas Kesselheim and Ola Svensson focused on the classical secretary problem, where a resource allocation problem must be solved online. The algorithms and analyses differ fundamentally depending on whether the input is assumed to be adversarially generated but presented in a random order, or whether the input is stochastic from a known distribution.  Several talks focused on the interplay between algorithm design and statistical applications in the real world. Don Berry talked about his journey in getting the medical community to use multi-armed bandit algorithms for adaptively assigning cancer patients to clinical trials, instead of the classical but wasteful random assignment model. In a related spirit, Ramesh Johari described his experience in implementing algorithms that achieve the optimal trade-off between statistical power and sample size in a commercial grade A/B testing platform. Vivek Farias explored a related model for optimally assigning subjects for A/B tests via dynamic programming. An interesting avenue for future research that emerged from these discussions is how to convert the vast theoretical knowledge base we have developed in computational learning and online algorithms into practical algorithms that can be implemented in the real world. A final theme we should highlight is the generalization to many dimensions of online and learning problems that have classically been studied in one dimension. This presents several challenges in terms of both algorithm design and analysis. Yossi Azar talked about packing multi-dimensional vectors; Niv Buchbinder considered online packing and covering problems with multidimensional resources and nonlinear objectives; Nikhil Devanur discussed related problems in the bandit model where input arrives from an unknown distribution; Sebastien Bubeck considered the classic bandit problem in high-dimensional convex spaces; and Kamesh Munagala talked about scheduling problems where jobs need resources in many dimensions. The techniques showcased the centrality of linear and convex programming methods such as duality and gradient descent, and showed that there is a lot more we need to learn about even these very basic techniques. This is another exciting avenue for future research.       Last Modified: 11/13/2017       Submitted by: Richard M Karp]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

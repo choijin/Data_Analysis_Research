@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>BSF:2012259:Circular compositional reasoning by learning and abstraction-refinement</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>40000.00</AwardTotalIntnAmount>
+<AwardAmount>40000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project is funded as part of the United States-Israel Collaboration in Computer Science (USICCS) program.  Through this program, NSF and the United States - Israel Binational Science Foundation (BSF) jointly support collaborations among US-based researchers and Israel-based researchers. The project targets scalable verification of concurrent software via compositional techniques. Compositional techniques break-up the full program into smaller components that are checked separately. Typically, a component cannot be verified in isolation from its environment, consisting of the other components. The component is therefore verified under a relatively small assumption on its environment. Progress has been made in the past on automating assumption generation in the context of a simple reasoning rule, where assumptions and properties are related in an acyclic manner. However, there are cases where circular dependency within a system is a real phenomenon that requires more complex, circular rules, which typically use inductive arguments. Although effective in scaling up verification, the applicability of these rules has been limited by the manual effort involved in defining the assumptions.&lt;br/&gt;&lt;br/&gt;The project addresses the automation of the assumption discovery process in the context of existing circular rules and of new rules, developed as needed. Abstraction and learning techniques are used to iteratively build assumptions and refine them based on counterexamples obtained from checking components separately. The algorithms developed incorporate 3-valued reasoning to allow for more precise yet concise assumptions. The techniques aim at increasing the assurance of general-purpose concurrent and distributed software, by scaling up existing verification techniques through novel automated circular compositional reasoning. Two specific application areas are investigated, namely UML-based software and security protocols; both these areas can highly benefit from compositional reasoning.</AbstractNarration>
+<MinAmdLetterDate>09/11/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/11/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1329278</AwardID>
+<Investigator>
+<FirstName>Corina</FirstName>
+<LastName>Pasareanu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Corina Pasareanu</PI_FULL_NAME>
+<EmailAddress>corina.pasareanu@sv.cmu.edu</EmailAddress>
+<PI_PHON>6503352823</PI_PHON>
+<NSF_ID>000608625</NSF_ID>
+<StartDate>09/11/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie Mellon University Silicon Valley]]></Name>
+<CityName>Moffett Field</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>940350001</ZipCode>
+<StreetAddress><![CDATA[NASA Ames Research Park]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>2878</Code>
+<Text>Special Projects - CCF</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7798</Code>
+<Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~40000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp;</p> <p>The outcomes of this project include techniques, tools and publications on the subject: automated compositional verification based on circular assume guarantee rules. In this work, we focused on automating circular</p> <div class="data"> <div class="data">assume-guarantee reasoning in which the verification of individual components mutually depends on each other. We used sound and complete circular assume-guarantee rules and we developed algorithms to automatically build the assump-<br />tions needed for using the rule. Our algorithm accumulates joint constraints on the assumptions based on (spurious) counterexamples obtained from checking the premises of the rule, and uses a SAT solver to synthesize minimal assumptions that satisfy these constraints. To the best of our knowledge, our work is the first to fully automate circular assume-guarantee reasoning.</div> </div> <div class="data"><br />We implemented our approach and compared it with an established learning-based method that uses an acyclic rule. In all cases, the assumptions generated for the circular rule were significantly smaller, leading to smaller verification problems. Further, on larger examples, we obtained a significant speedup as well.</div> <div class="data"></div> <div class="data">In the most recent work we have also studied the problem of automatic repair for composite systems.</div> <div class="data"></div> <div class="data">We have produced the following publications:</div> <div class="data"></div> <div class="data">1. Karam Abd Elkader, Orna Grumberg, Corina S. Pasareanu, Sharon Shoham:<br />Automated circular assume-guarantee reasoning. Formal Asp. Comput. 30(5): 571-595 (2018)<br />2. Karam Abd Elkader, Orna Grumberg, Corina S. Pasareanu, Sharon Shoham:<br />Automated Circular Assume-Guarantee Reasoning with N-way Decomposition and Alphabet Refinement. CAV (1) 2016: 329-351<br />3. Karam Abd Elkader, Orna Grumberg, Corina S. Pasareanu, Sharon Shoham:<br />Automated Circular Assume-Guarantee Reasoning. FM 2015: 23-39<br />4. Hadar Frenkel, Orna Grumberg, Corina Pasareanu: Assume, Guarantee or Repair (in preparation).</div><br> <p>            Last Modified: 10/01/2018<br>      Modified by: Corina&nbsp;Pasareanu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[    The outcomes of this project include techniques, tools and publications on the subject: automated compositional verification based on circular assume guarantee rules. In this work, we focused on automating circular  assume-guarantee reasoning in which the verification of individual components mutually depends on each other. We used sound and complete circular assume-guarantee rules and we developed algorithms to automatically build the assump- tions needed for using the rule. Our algorithm accumulates joint constraints on the assumptions based on (spurious) counterexamples obtained from checking the premises of the rule, and uses a SAT solver to synthesize minimal assumptions that satisfy these constraints. To the best of our knowledge, our work is the first to fully automate circular assume-guarantee reasoning.   We implemented our approach and compared it with an established learning-based method that uses an acyclic rule. In all cases, the assumptions generated for the circular rule were significantly smaller, leading to smaller verification problems. Further, on larger examples, we obtained a significant speedup as well.  In the most recent work we have also studied the problem of automatic repair for composite systems.  We have produced the following publications:  1. Karam Abd Elkader, Orna Grumberg, Corina S. Pasareanu, Sharon Shoham: Automated circular assume-guarantee reasoning. Formal Asp. Comput. 30(5): 571-595 (2018) 2. Karam Abd Elkader, Orna Grumberg, Corina S. Pasareanu, Sharon Shoham: Automated Circular Assume-Guarantee Reasoning with N-way Decomposition and Alphabet Refinement. CAV (1) 2016: 329-351 3. Karam Abd Elkader, Orna Grumberg, Corina S. Pasareanu, Sharon Shoham: Automated Circular Assume-Guarantee Reasoning. FM 2015: 23-39 4. Hadar Frenkel, Orna Grumberg, Corina Pasareanu: Assume, Guarantee or Repair (in preparation).       Last Modified: 10/01/2018       Submitted by: Corina Pasareanu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

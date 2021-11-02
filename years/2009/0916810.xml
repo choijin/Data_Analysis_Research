@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Efficient Dynamic Checking of Heap Invariants using the Garbage Collector</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2011</AwardExpirationDate>
+<AwardTotalIntnAmount>0.00</AwardTotalIntnAmount>
+<AwardAmount>139826</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern software is increasingly developed using managed programming languages, such as Java and C#, because they eliminate a large class of low-level memory-related errors that have plagued languages such as C and C++ and caused countless failures and security vulnerabilities.  Unfortunately, software still suffers from a troubling array of higher-level semantic errors, which can cause programs to misbehave without necessarily triggering an overt failure. Prior techniques for detecting these errors suffer from some combination of imprecision (false positives), poor scalability on large programs, or extremely high run-time overheads.&lt;br/&gt;&lt;br/&gt;This project will explore a new approach for detecting programming errors that is precise, informative, scalable, and efficient enough to use in deployed software. The approach leverages techniques from static analysis that allow programmers to express expected program properties, but overcomes prior limitations by checking the properties at run-time. The key idea is to piggyback error checking on the garbage collector, which can check and elucidate complex program properties with very low overhead because it periodically visits all objects in the heap. The result of this research will be a much-needed technique for detecting and diagnosing bugs in deployed software -- especially large, complex, and highly dynamic programs, such as server applications.  &lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>08/07/2009</MinAmdLetterDate>
+<MaxAmdLetterDate>05/24/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0916810</AwardID>
+<Investigator>
+<FirstName>Samuel</FirstName>
+<LastName>Guyer</LastName>
+<PI_MID_INIT>Z</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Samuel Z Guyer</PI_FULL_NAME>
+<EmailAddress>sguyer@cs.tufts.edu</EmailAddress>
+<PI_PHON>6176273417</PI_PHON>
+<NSF_ID>000091427</NSF_ID>
+<StartDate>08/07/2009</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Tufts University</Name>
+<CityName>Boston</CityName>
+<ZipCode>021111817</ZipCode>
+<PhoneNumber>6176273696</PhoneNumber>
+<StreetAddress>136 Harrison Ave</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073134835</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF TUFTS COLLEGE INC</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073134835</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Tufts University]]></Name>
+<CityName>Boston</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021111817</ZipCode>
+<StreetAddress><![CDATA[136 Harrison Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9216</Code>
+<Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9217</Code>
+<Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0109</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2009~131426</FUND_OBLG>
+<FUND_OBLG>2010~8400</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The focus of this research project is on developing techniques for improving the reliability of software. Software bugs continue to be a significant economic and security problem. Detecting and fixing them,however, can be extremely challenging. There are two broad approaches to this problem, each with pros and cons: static analysis (try to find bugs in software by inspecting the code) and dynamic analysis (observe programs as they run and detect bugs on-the-fly). The advantage of static analysis is that it is very thorough and detects bugs before software is deployed. The disadvantage is that it is very difficult to accurately predict everything that a program could do. Dynamic analysis is very precise, since it only detects bugs that actually happen, but at a cost: it runs along side the program, consuming some computing power, and often causes the program to slow down noticeably.</p> <p><br />In this project we explored a new approach to dynamic analysis that can detect a wide range of complex bugs at a very low runtime cost, breaking this tradeoff. The key to our approach is to make use of a subsystem, called the garbage collector, that already runs along side many programs monitoring their behavior. Traditionally, the garbage collector's job is to monitor program behavior in order to efficiently recycle memory resources. Our system gives the garbage collector the additional task of checking for bugs, which amounts to only a small amount of additional work.</p> <p><br />In the course of this project we also developed a programming tool, called HeapViz, for interactively visualizing the internal state of a program. The purpose of this tool is to give programmers a new window into the inner workings of their programs, allowing them to more quickly understand software, make changes, and fix problems. Existing tools, such as debuggers, can show individual items of data, while our tool shows all of the data in a program at one time, and includes powerful ways to navigate and search that data.</p><br> <p>            Last Modified: 12/22/2011<br>      Modified by: Samuel&nbsp;Z&nbsp;Guyer</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The focus of this research project is on developing techniques for improving the reliability of software. Software bugs continue to be a significant economic and security problem. Detecting and fixing them,however, can be extremely challenging. There are two broad approaches to this problem, each with pros and cons: static analysis (try to find bugs in software by inspecting the code) and dynamic analysis (observe programs as they run and detect bugs on-the-fly). The advantage of static analysis is that it is very thorough and detects bugs before software is deployed. The disadvantage is that it is very difficult to accurately predict everything that a program could do. Dynamic analysis is very precise, since it only detects bugs that actually happen, but at a cost: it runs along side the program, consuming some computing power, and often causes the program to slow down noticeably.   In this project we explored a new approach to dynamic analysis that can detect a wide range of complex bugs at a very low runtime cost, breaking this tradeoff. The key to our approach is to make use of a subsystem, called the garbage collector, that already runs along side many programs monitoring their behavior. Traditionally, the garbage collector's job is to monitor program behavior in order to efficiently recycle memory resources. Our system gives the garbage collector the additional task of checking for bugs, which amounts to only a small amount of additional work.   In the course of this project we also developed a programming tool, called HeapViz, for interactively visualizing the internal state of a program. The purpose of this tool is to give programmers a new window into the inner workings of their programs, allowing them to more quickly understand software, make changes, and fix problems. Existing tools, such as debuggers, can show individual items of data, while our tool shows all of the data in a program at one time, and includes powerful ways to navigate and search that data.       Last Modified: 12/22/2011       Submitted by: Samuel Z Guyer]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

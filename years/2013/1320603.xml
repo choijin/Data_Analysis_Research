@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Bench-testing Environment for Automated Software Tuning (BEAST)</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>499995.00</AwardTotalIntnAmount>
+<AwardAmount>499995</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In the world of high-performance scientific computing, the rapid emergence of hybrid processors that  make heavy use of accelerator technologies, such as Graphics Processing Units (GPUs) or the Intel Xeon  Phi (a.k.a., Many Integrated Cores, MIC), raises critical new challenges for computational scientists. Their research applications typically depend on computational kernels (i.e., software implementations of one or more of the basic patterns of scientific computing) that are optimized for speed. Such programs spend most of their computing time executing one or more of these kernels, and long experience has taught developers that tuning their kernels for the architecture of a given processor is absolutely essential to achieving excellent performance at the level of the individual computing node. Since scientists want to run these applications on supercomputers with thousands of such nodes, high performance at the node  level is essential to high productivity for the application at large. Unfortunately, for the vast majority of computational kernels, the three classic approaches to performance tuning?compiler-driven code transformations, low-level manual programming, or empirical autotuning?have always been very difficult, often producing mixed results; and the emerging era of hybrid processors makes all three techniques less effective still. The Bench-testing Environment for Automated Software Tuning (BEAST) makes a substantial contribution to solving this important problem.   &lt;br/&gt;BEAST creates a framework for exploring and optimizing the performance of computational kernels on hybrid processors that 1) applies to a diverse range of computational kernels, 2) (semi)automatically generates better performing implementations on various hybrid processor architectures, and 3) increases developer insight into why given kernel/processor combinations have the performance profiles they do. To achieve this three-fold goal, it applies the model used for traditional application benchmarking in a completely novel way: it combines an abstract kernel specification and corresponding verification test, similar to standard benchmarking, with an automated testing engine and data analysis and machine learning tools, called the BEAST workbench. Using a new method for specifying language-neutral code stencils and a prototype BEAST workbench, the project explores alternative tuning methods and strategies for a diverse range of computational kernels. &lt;br/&gt;Experiments carried out under this project are expected to show that the BEAST framework can dramatically improve the performance of many computational kernels that are of fundamental importance to scientific computing. As this software and the techniques for using it are made widely available to the science and engineering community, they will help to ensure the timely delivery of performance- optimized kernels for many domains and many types of hybrid processors, making the impact of the BEAST bench-tuning software infrastructure very broad indeed. Scientists and engineers, across a vast array of intellectually, economically and socially important domains, will be able to rapidly tune the underlying kernels in their applications to the characteristics of the latest platform, and thereby quickly gain the productivity benefits of each successive generation of accelerator technology.</AbstractNarration>
+<MinAmdLetterDate>07/26/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>07/26/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320603</AwardID>
+<Investigator>
+<FirstName>Jack</FirstName>
+<LastName>Dongarra</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jack J Dongarra</PI_FULL_NAME>
+<EmailAddress>dongarra@icl.utk.edu</EmailAddress>
+<PI_PHON>8659748295</PI_PHON>
+<NSF_ID>000299281</NSF_ID>
+<StartDate>07/26/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Tennessee Knoxville</Name>
+<CityName>Knoxville</CityName>
+<ZipCode>379163801</ZipCode>
+<PhoneNumber>8659743466</PhoneNumber>
+<StreetAddress>1331 CIR PARK DR</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<StateCode>TN</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TN02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003387891</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TENNESSEE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003387891</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Tennessee Knoxville]]></Name>
+<CityName/>
+<StateCode>TN</StateCode>
+<ZipCode>379960003</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TN02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>6892</Code>
+<Text>CI REUSE</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>6892</Code>
+<Text>CI REUSE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~499995</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-1e037249-a0e0-9e9e-ffa2-9c7572c7f73c"> </span></p> <p dir="ltr"><span>The main outcome of the BEAST project is producing a methodology for the development of fast computational kernels for accelerators. Here, a kernel means a small piece of code implementing a well-defined computational task, such as multiplying matrices, and an accelerator means a device geared toward high computational throughput, and is mostly synonymous with a graphics processing unit (GPU).</span></p> <p dir="ltr"><span>In the BEAST approach, the programmer implements a parametrized kernel, meaning a single piece of source code, which can be compiled to produce a large number of alternative implementations. BEAST provides an intuitive language for expressing the parameter search space along with a set of pruning constraints that eliminate invalid or deficient kernels. The kernels passing the elimination process are then compiled and run, and performance metrics are collected, to identify the fastest or the most energy-efficient kernels. Also, a trove of information can be collected from the hardware performance counters, which can then be analyzed and visualized for gaining insights into the hardware, the algorithm, and their mutual interactions.</span></p> <p dir="ltr"><span>In the course of the project, numerous GPU kernels were implemented, tuned, and analyzed, leading to many valuable insights about the hardware, the algorithms, and the implementation tradeoffs. The kernels ranged from basic matrix operations to much more complex machine-learning workloads. Two prime examples of the potential of the BEAST methodology are the batched linear system solver kernel &mdash; which outperformed NVIDIA cuBLAS implementations by an order of magnitude &mdash; and the alternating least squares kernel &mdash; which outperformed the implementation in the mainstream Spark MLLib package, also by an order of magnitude. (See Figure.)</span></p> <p dir="ltr">The most important aspect of the autotuning methodology is that, when a new generation of hardware replaces an old generation, the codes do not have to be rewritten, only re-tuned, in an automated manner. In other words, autotuning leads to performance portability.</p> <div><span><br /></span></div> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/11/2016<br>      Modified by: Jack&nbsp;J&nbsp;Dongarra</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2016/1320603/1320603_10261361_1476115666646_BEAST-figures--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1320603/1320603_10261361_1476115666646_BEAST-figures--rgov-800width.jpg" title="BEAST Methodology Potential"><img src="/por/images/Reports/POR/2016/1320603/1320603_10261361_1476115666646_BEAST-figures--rgov-66x44.jpg" alt="BEAST Methodology Potential"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Left chart: the batched linear system solver kernel, which outperformed NVIDIA cuBLAS implementations by an order of magnitude. Right chart: the alternating least squares kernel, which outperformed the implementation in the mainstream Spark MLLib package, also by an order of magnitude.</div> <div class="imageCredit">Jakub Kurzak et al., Innovative Computing Laboratory</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Jack&nbsp;J&nbsp;Dongarra</div> <div class="imageTitle">BEAST Methodology Potential</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   The main outcome of the BEAST project is producing a methodology for the development of fast computational kernels for accelerators. Here, a kernel means a small piece of code implementing a well-defined computational task, such as multiplying matrices, and an accelerator means a device geared toward high computational throughput, and is mostly synonymous with a graphics processing unit (GPU). In the BEAST approach, the programmer implements a parametrized kernel, meaning a single piece of source code, which can be compiled to produce a large number of alternative implementations. BEAST provides an intuitive language for expressing the parameter search space along with a set of pruning constraints that eliminate invalid or deficient kernels. The kernels passing the elimination process are then compiled and run, and performance metrics are collected, to identify the fastest or the most energy-efficient kernels. Also, a trove of information can be collected from the hardware performance counters, which can then be analyzed and visualized for gaining insights into the hardware, the algorithm, and their mutual interactions. In the course of the project, numerous GPU kernels were implemented, tuned, and analyzed, leading to many valuable insights about the hardware, the algorithms, and the implementation tradeoffs. The kernels ranged from basic matrix operations to much more complex machine-learning workloads. Two prime examples of the potential of the BEAST methodology are the batched linear system solver kernel &mdash; which outperformed NVIDIA cuBLAS implementations by an order of magnitude &mdash; and the alternating least squares kernel &mdash; which outperformed the implementation in the mainstream Spark MLLib package, also by an order of magnitude. (See Figure.) The most important aspect of the autotuning methodology is that, when a new generation of hardware replaces an old generation, the codes do not have to be rewritten, only re-tuned, in an automated manner. In other words, autotuning leads to performance portability.               Last Modified: 10/11/2016       Submitted by: Jack J Dongarra]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

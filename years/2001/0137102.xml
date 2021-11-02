@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>New Directions in Accounting and Traffic Measurement</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2007</AwardExpirationDate>
+<AwardTotalIntnAmount>0.00</AwardTotalIntnAmount>
+<AwardAmount>649754</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050200</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Wu</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>     Accurate network traffic measurement is required for accounting, bandwidth provisioning, and detecting DOS attacks. However, keeping a counter to measure the traffic sent by each of a million concurrent flows is too expensive (using SRAM) or slow (using DRAM). The current state-of-the-art (e.g., Cisco NetFlow) methods which log periodically sampled packets are slow, inaccurate, and memory-intensive. This proposal introduces a paradigm shift by concentrating on the problem of measuring only "heavy" flows | i.e., flows whose traffic is above some threshold such as 1% of the link. After showing that a number of simple solutions based on cached&lt;br/&gt;counters and classical sampling do not work, the resarchers describe two novel and scalable schemes for this purpose which take a constant number of memory references per packet and use a small amount of memory. Further, unlike NetFlow estimates, we have provable bounds on the accuracy of measured rates and the probability of false negatives. The researchers propose to implement, evaluate, and fine-tune these new ideas.                                                                                           Using these ideas as a basis, the researchers also propose to investigate the following questions. First, they will investigate a new form of accounting called threshold accounting in which only flows above threshold are charged by usage while the rest are charged a fixed fee. Threshold accounting generalizes the familiar notions of usage-based and duration based pricing. Second, they propose to investigate a more general question: the computation of flow statistics at very high speeds using very small amounts of high speed memory. Examples of other potentially useful flow statistics include the number of flows, the standard deviation of flow sizes, the average duration of a flow etc. Naive algorithms to measure such quantities all scale linearly with the number of flows. Finally, with colleagues at CAIDA, the researchers plan to deploy our algorithms in real-time on 5 traffic monitors placed at strategic Internet sites (AIX, the UCSD backbone, and possibly on Abilene).                                                                                                                                             The potential impact of this proposal is the development of novel and practical tools for accounting, measurement, and security. These are three central problems as the Internet transitions from a research network to a commercial enterprise.</AbstractNarration>
+<MinAmdLetterDate>09/10/2002</MinAmdLetterDate>
+<MaxAmdLetterDate>08/30/2006</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0137102</AwardID>
+<Investigator>
+<FirstName>George</FirstName>
+<LastName>Varghese</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>George Varghese</PI_FULL_NAME>
+<EmailAddress>varghese@cs.ucla.edu</EmailAddress>
+<PI_PHON>3108257649</PI_PHON>
+<NSF_ID>000250977</NSF_ID>
+<StartDate>09/10/2002</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Moore</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David Moore</PI_FULL_NAME>
+<EmailAddress>dmoore@caida.org</EmailAddress>
+<PI_PHON>8585345160</PI_PHON>
+<NSF_ID>000446777</NSF_ID>
+<StartDate>09/10/2002</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-San Diego</Name>
+<CityName>La Jolla</CityName>
+<CountyName>SAN DIEGO</CountyName>
+<ZipCode>920930934</ZipCode>
+<PhoneNumber>8585344896</PhoneNumber>
+<StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+<StreetAddress2><![CDATA[9500 Gilman Drive, 0934]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804355790</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SAN DIEGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-San Diego]]></Name>
+<CityName>La Jolla</CityName>
+<CountyName>SAN DIEGO</CountyName>
+<StateCode>CA</StateCode>
+<ZipCode>920930934</ZipCode>
+<StreetAddress><![CDATA[Office of Contract &amp; Grant A]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0206000</Code>
+<Name>Telecommunications</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>4095</Code>
+<Text>SPECIAL PROJECTS IN NET RESEAR</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0102</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>490100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2002~649754</FUND_OBLG>
+</Award>
+</rootTag>

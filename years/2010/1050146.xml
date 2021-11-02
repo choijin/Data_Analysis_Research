@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Adaptive Source Routing on GENI</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>135000.00</AwardTotalIntnAmount>
+<AwardAmount>135000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Joseph Lyles</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Source controlled routing, where the edges of the network have some control over the paths taken by their packets, is a promising technique to improve network reliability and path quality. However, past studies of source-controlled routing algorithms have been based on overlay networks rather than via direct control of switches or routers---despite the performance-sensitive nature of these systems.&lt;br/&gt;&lt;br/&gt;This EAGER project is studying adaptive multipath, source-routing algorithms to improve performance for real-time applications. The experiments use GENI Alpha, which provides a unique combination of coexistence with real traffic and deep programmability, which are essential to obtain accurate results in these experiments.  Thus, the results of this project will develop novel, practical and experimentally-grounded techniques to improve reliability and path quality, and it will quantitatively demonstrate the value of experimenting on GENI infrastructure by comparing with overlay-based experiments.  Results will be disseminated through publications, presentations, and demos of the software.</AbstractNarration>
+<MinAmdLetterDate>08/14/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/14/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1050146</AwardID>
+<Investigator>
+<FirstName>Philip Brighten</FirstName>
+<LastName>Godfrey</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Philip Brighten Godfrey</PI_FULL_NAME>
+<EmailAddress>pbg@illinois.edu</EmailAddress>
+<PI_PHON>2173334862</PI_PHON>
+<NSF_ID>000537388</NSF_ID>
+<StartDate>08/14/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Champaign</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618207406</ZipCode>
+<StreetAddress><![CDATA[1901 South First Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~135000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Many of the limitations of today&rsquo;s Internet lie in interdomain routing&mdash;the system which controls the paths that data packets take as they travel across the Internet. &nbsp;These problems include unreliability, inefficiency, and a general lack of flexibility. &nbsp;One way to address these problems is through a technique called source-controlled routing, which yields more flexible routing. &nbsp;Past proposals designed feasible, policy-compliant architectures for Internet-wide source-controlled routing but had not experimentally demonstrated how this newfound flexibility could be put to work, in the face of network dynamics and with direct control of switches and routers.<br /><br />This project funded experiments on the NSF GENI infrastructure which demonstrated the effectiveness of source-controlled routing. We implemented a prototype of pathlet routing, a future Internet routing and forwarding architecture which enables flexible policy-compliant source-controlled routing. &nbsp;On top of this substrate, we experimented with adaptive multipath source-controlled routing algorithms to improve performance for real-time applications and weather &ldquo;storms&rdquo; or attacks on the network. The GENI infrastructure made these experiments possible via a broad slate of experimental servers and OpenFlow-capable routers. &nbsp;The project produced a live demo of the developed techniques at the 9th GENI Engineering Conference (GEC9).<br /><br />A major contribution of the project was to further develop the most promising technique studied in the early phase of the project: using redundant transmission of data (across multiple paths, or to multiple servers) to reduce latency. Our initial work looked at using redundant multipath routing: by sending packets over two paths, the receiver can use whichever ones arrive first. Any problem on just one path, such as congestion, is masked. &nbsp;This technique leads to overhead (duplicated work), but intuitively, although this uses extra capacity to send duplicate packets, capacity is relatively cheap in many cases while improving latency is extremely valuable. Our theoretical and experimental results (funded in part by this project) bore this out, demonstrating that the benefits outweigh the costs in many cases. &nbsp;We applied this technique to a number of systems. &nbsp;In storage systems on Amazon EC2, our techniques yield 2x lower mean request latency and 8x lower 99.9th perecentile latency. &nbsp;Applied to the Domain Name System (DNS), a major contributor to web page load time, we obtained roughly 2x lower mean latency.<br /><br />The project enabled PhD and undergraduate students to obtain significant practical experience in systems and networking research. &nbsp;It produced publications at top venues, including ACM HotNets 2012 and ACM CoNEXT 2013. &nbsp;Techniques developed in this project have been implemented by a network acceleration startup company, and we are now preparing a software release of our own.</p><br> <p>            Last Modified: 12/17/2013<br>      Modified by: Philip Brighten&nbsp;Godfrey</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Many of the limitations of todayÆs Internet lie in interdomain routing&mdash;the system which controls the paths that data packets take as they travel across the Internet.  These problems include unreliability, inefficiency, and a general lack of flexibility.  One way to address these problems is through a technique called source-controlled routing, which yields more flexible routing.  Past proposals designed feasible, policy-compliant architectures for Internet-wide source-controlled routing but had not experimentally demonstrated how this newfound flexibility could be put to work, in the face of network dynamics and with direct control of switches and routers.  This project funded experiments on the NSF GENI infrastructure which demonstrated the effectiveness of source-controlled routing. We implemented a prototype of pathlet routing, a future Internet routing and forwarding architecture which enables flexible policy-compliant source-controlled routing.  On top of this substrate, we experimented with adaptive multipath source-controlled routing algorithms to improve performance for real-time applications and weather "storms" or attacks on the network. The GENI infrastructure made these experiments possible via a broad slate of experimental servers and OpenFlow-capable routers.  The project produced a live demo of the developed techniques at the 9th GENI Engineering Conference (GEC9).  A major contribution of the project was to further develop the most promising technique studied in the early phase of the project: using redundant transmission of data (across multiple paths, or to multiple servers) to reduce latency. Our initial work looked at using redundant multipath routing: by sending packets over two paths, the receiver can use whichever ones arrive first. Any problem on just one path, such as congestion, is masked.  This technique leads to overhead (duplicated work), but intuitively, although this uses extra capacity to send duplicate packets, capacity is relatively cheap in many cases while improving latency is extremely valuable. Our theoretical and experimental results (funded in part by this project) bore this out, demonstrating that the benefits outweigh the costs in many cases.  We applied this technique to a number of systems.  In storage systems on Amazon EC2, our techniques yield 2x lower mean request latency and 8x lower 99.9th perecentile latency.  Applied to the Domain Name System (DNS), a major contributor to web page load time, we obtained roughly 2x lower mean latency.  The project enabled PhD and undergraduate students to obtain significant practical experience in systems and networking research.  It produced publications at top venues, including ACM HotNets 2012 and ACM CoNEXT 2013.  Techniques developed in this project have been implemented by a network acceleration startup company, and we are now preparing a software release of our own.       Last Modified: 12/17/2013       Submitted by: Philip Brighten Godfrey]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

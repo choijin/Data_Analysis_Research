@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Small: Collaborative Research: Exploration and Validation of Hardware Primitives for Security and Trust</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>361342.00</AwardTotalIntnAmount>
+<AwardAmount>361342</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Hardware-level security and trust in many of society's microelectronic-based infrastructures, e.g., transportation, energy, etc., is inadequate. This project investigates chip-level hardware primitives that are designed to improve the security and trust in such systems. In particular, many security mechanisms depend on a secret, unique identifier that is associated with the chip or board in the system. An embedded digital signature inserted by the manufacturer is not secure because it can be extracted by adversaries. A physical unclonable function (PUF) is a recent approach for providing an entire set of secure, unique identifiers for each chip. PUFs are chip-level primitives that leverage the intrinsic and random manufacturing variations of the process technology. A PUF that measures the resistance variations in the chip's power grid is investigated as a hardware primitive for providing secure, unique identifiers.  Similarly, integrated circuit trust relates to the degree of confidence one has that a fabricated instance of a chip implements only those functions described in the original specification -- nothing more and nothing less. &lt;br/&gt;There are increasing opportunities for adversaries to secretly change a chip's function given the trend of the industry to disseminate the chip fabrication process over many organizations. "Trust but verify" is likely the only approach to dealing with this threat. To support this verification process, a set of hardware primitives are investigated that are designed to measure the parametric, analog characteristics of chip as a means of detecting any malicious logic that might have been inserted by an adversary. A chip built in an advanced technology is used to experimentally validate the PUF and hardware Trojan detection methods.</AbstractNarration>
+<MinAmdLetterDate>07/21/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/21/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018748</AwardID>
+<Investigator>
+<FirstName>James</FirstName>
+<LastName>Plusquellic</LastName>
+<PI_MID_INIT>F</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>James F Plusquellic</PI_FULL_NAME>
+<EmailAddress>jimp@ece.unm.edu</EmailAddress>
+<PI_PHON>2404751882</PI_PHON>
+<NSF_ID>000212368</NSF_ID>
+<StartDate>07/21/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of New Mexico</Name>
+<CityName>Albuquerque</CityName>
+<ZipCode>871310001</ZipCode>
+<PhoneNumber>5052774186</PhoneNumber>
+<StreetAddress>1700 Lomas Blvd. NE, Suite 2200</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New Mexico</StateName>
+<StateCode>NM</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NM01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>868853094</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF NEW MEXICO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>784121725</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of New Mexico]]></Name>
+<CityName>Albuquerque</CityName>
+<StateCode>NM</StateCode>
+<ZipCode>871310001</ZipCode>
+<StreetAddress><![CDATA[1700 Lomas Blvd. NE, Suite 2200]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Mexico</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NM01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~361342</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The following outcomes are associated with the research carried out under this grant:<br />The PI and his students designed, fabricated and tested 60 copies of a custom ASIC that included several physical unclonable functions (PUFs), namely a metal resistance PUF, a transmission-gate PUF, a ring oscillator PUF, an arbiter PUF and a embedded delay based PUF, and several embedded test structures for detecting hardware Trojans. The chip included an implementation of a heavily used encryption engine based on the Advanced Encryption Standard (AES) algorithm and a fully pipelined floating point unit (FPU), both of which served as test vehicles for implementations of several of the PUFs and hardware Trojan methods. Three Ph.D. students participated in the development of the test chip, which exposed them to commercial-grade CAD tools including behavioral synthesis, place-and-route, simulation, automatic test pattern generation and timing analysis tools.<br />The high quality of the statistical analysis results from the metal resistance PUF made it possible tech. transfer this PUF to the Science and Technology Center (STC) at UNM, which was then licensed by a start-up company. A complete on-chip implementation was later developed in a 40 nm technology based on the lessons learned from the 90 nm ASIC implementation.<br />The transmission-gate PUF provided the basis for the development of several reliability enhancing techniques including thresholding and XMR. Although thresholding was proposed by other groups, we developed a complete implementation and applied it to data collected from 60 chips across industrial level temperature and supply voltage variations. XMR is a unique contribution that can reduce bit flip errors in bitstring generation by 3 to 6 orders of magnitude over other existing techniques.<br />The test chip included 7 copies of a dual purpose time-to-digital (TDC) and voltage-to-digital (VDC) test structure for digitizing voltages for use by the metal resistance PUF and path delays for use by the delay PUF. Although the TDC was proposed previously, we demonstrated it utility for applications related to on-chip measurements of path delays for PUF bitstring generation.<br />The test chip included 40 copies of a second embedded test structure called REBEL (regional delay behavior) for measuring path delays. REBEL integrates directly in the scan chain of the AES and FPU functional units and therefore it has a low area and performance overhead penalty. REBEL extends the length of short paths, which allows their delays to be measured without running the system clock faster-than-at-speed, and captures the output behavior, e.g., glitching, of the path in a single snapshot. REBEL and TDC have also been tech transferred to STC, along with the delay-based PUF called HELP, and have been licensed by an investor group called the New Mexico Angels.<br />A chip-averaging method has been developed and applied to the IDDQ and delay data collected from the test chips as a mechanism for detecting hardware Trojans. The primary benefit of chip-averaging is to reduce the complexity of simulation-based golden model approaches to hardware Trojan detection. <br /><br />The broader impacts of this research include the development of a new course at UNM called Hardware-Oriented Security and Trust (http://ece-research.unm.edu/jimp/HOST/index.html) and it delivery to students every year over the five year span of this research proposal. Other educational impacts include the development of on-line CAD tool tutorials and other materials related to the research activities carried out under this grant (http://ic-hal.ece.unm.edu/index.html). The funding provided by this grant supported 7 PhD students from 2010 through 2015.<br />Beyond hardware security and trust, a significant, additional benefit of the developed hardware infrastructure and techniques is the capability that they can provide f...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The following outcomes are associated with the research carried out under this grant: The PI and his students designed, fabricated and tested 60 copies of a custom ASIC that included several physical unclonable functions (PUFs), namely a metal resistance PUF, a transmission-gate PUF, a ring oscillator PUF, an arbiter PUF and a embedded delay based PUF, and several embedded test structures for detecting hardware Trojans. The chip included an implementation of a heavily used encryption engine based on the Advanced Encryption Standard (AES) algorithm and a fully pipelined floating point unit (FPU), both of which served as test vehicles for implementations of several of the PUFs and hardware Trojan methods. Three Ph.D. students participated in the development of the test chip, which exposed them to commercial-grade CAD tools including behavioral synthesis, place-and-route, simulation, automatic test pattern generation and timing analysis tools. The high quality of the statistical analysis results from the metal resistance PUF made it possible tech. transfer this PUF to the Science and Technology Center (STC) at UNM, which was then licensed by a start-up company. A complete on-chip implementation was later developed in a 40 nm technology based on the lessons learned from the 90 nm ASIC implementation. The transmission-gate PUF provided the basis for the development of several reliability enhancing techniques including thresholding and XMR. Although thresholding was proposed by other groups, we developed a complete implementation and applied it to data collected from 60 chips across industrial level temperature and supply voltage variations. XMR is a unique contribution that can reduce bit flip errors in bitstring generation by 3 to 6 orders of magnitude over other existing techniques. The test chip included 7 copies of a dual purpose time-to-digital (TDC) and voltage-to-digital (VDC) test structure for digitizing voltages for use by the metal resistance PUF and path delays for use by the delay PUF. Although the TDC was proposed previously, we demonstrated it utility for applications related to on-chip measurements of path delays for PUF bitstring generation. The test chip included 40 copies of a second embedded test structure called REBEL (regional delay behavior) for measuring path delays. REBEL integrates directly in the scan chain of the AES and FPU functional units and therefore it has a low area and performance overhead penalty. REBEL extends the length of short paths, which allows their delays to be measured without running the system clock faster-than-at-speed, and captures the output behavior, e.g., glitching, of the path in a single snapshot. REBEL and TDC have also been tech transferred to STC, along with the delay-based PUF called HELP, and have been licensed by an investor group called the New Mexico Angels. A chip-averaging method has been developed and applied to the IDDQ and delay data collected from the test chips as a mechanism for detecting hardware Trojans. The primary benefit of chip-averaging is to reduce the complexity of simulation-based golden model approaches to hardware Trojan detection.   The broader impacts of this research include the development of a new course at UNM called Hardware-Oriented Security and Trust (http://ece-research.unm.edu/jimp/HOST/index.html) and it delivery to students every year over the five year span of this research proposal. Other educational impacts include the development of on-line CAD tool tutorials and other materials related to the research activities carried out under this grant (http://ic-hal.ece.unm.edu/index.html). The funding provided by this grant supported 7 PhD students from 2010 through 2015. Beyond hardware security and trust, a significant, additional benefit of the developed hardware infrastructure and techniques is the capability that they can provide for measuring and monitoring process variations for applications to integrated circuit manufacturing process...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

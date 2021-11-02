@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SaTC: CORE: Small: Checking Security Checks in OS Kernels</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>499996.00</AwardTotalIntnAmount>
+<AwardAmount>499996</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Daniela Oliveira</SignBlockName>
+<PO_EMAI>doliveir@nsf.gov</PO_EMAI>
+<PO_PHON>7032924352</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Operating system (OS) kernels play a critical role in computer systems by virtually having complete control over the systems. OS kernels not only manage hardware and system resources, but also provide services and protection. Given these tasks, OS kernels have to process external untrusted inputs and perform complicated operations, both of which are error-prone. To avoid entering into erroneous states, OS kernels tend to enforce a large number of security checks---"if" and "switch" statements that are used to validate states.  Unfortunately, security checks themselves are often buggy.  In particular, a security check may be missing or incomplete, be placed in an improper location, target a wrong variable, etc. Buggy security checks often cause critical security impact because the intended validation for potential errors can be void.  This project aims to systematically investigate security checks in OS kernels, to automatically identify security checks, and to develop a set of new techniques to detect the common classes of security-check bugs.  This project is expected to effectively find a potentially large number of previously unknown security-check bugs in widely used OS kernels, and thus to significantly improve the security of computer systems with billions of users.  The broader educational activities of this project include integrating research with outreach, organizing Capture The Flag competitions among universities and industries in Minnesota, and developing courses for training interdisciplinary and underrepresented students.&lt;br/&gt;&lt;br/&gt;The goal of this project is to systematically investigate security checks and effectively detect the common and critical security-check bugs in popular OS kernels, including the Linux kernel, the Android kernel, the FreeBSD kernel, Darwin-XNU (MacOS), and ReactOS (Windows-like). The project is comprised of two main research thrusts: (1) identifying security checks and (2) detecting security-check bugs. Both research thrusts are challenging because they require the understanding of code semantics and contexts, and even developer logic. Therefore, this project develops a set of semantic-and context-aware approaches. This project also enhances existing techniques such as fuzzing and symbolic execution to effectively and scalably detect security-check bugs. Multiple general techniques developed in this project, such as accurately finding indirect-call targets, identifying semantically-similar peer code paths, modeling OS-kernel boundary, would also advance future research on systems analysis and protection.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/12/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>08/12/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1931208</AwardID>
+<Investigator>
+<FirstName>Kangjie</FirstName>
+<LastName>Lu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kangjie Lu</PI_FULL_NAME>
+<EmailAddress>kjlu@umn.edu</EmailAddress>
+<PI_PHON>4048343976</PI_PHON>
+<NSF_ID>000763690</NSF_ID>
+<StartDate>08/12/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Minnesota-Twin Cities</Name>
+<CityName>Minneapolis</CityName>
+<CountyName/>
+<ZipCode>554552070</ZipCode>
+<PhoneNumber>6126245599</PhoneNumber>
+<StreetAddress>200 OAK ST SE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<StateCode>MN</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MN05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>555917996</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MINNESOTA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>117178941</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Minnesota-Twin Cities]]></Name>
+<CityName>Minneapolis</CityName>
+<CountyName/>
+<StateCode>MN</StateCode>
+<ZipCode>554552070</ZipCode>
+<StreetAddress><![CDATA[200 Union St SE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MN05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~499996</FUND_OBLG>
+</Award>
+</rootTag>

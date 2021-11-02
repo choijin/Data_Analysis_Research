@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:Small:Arithmetic Algorithms and Applications of Hereditarily Binary Numbers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>253161.00</AwardTotalIntnAmount>
+<AwardAmount>253161</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Number representations have evolved from the unary representation where one scratch on the wall represented a unit, to the base-n number system, with the remarkable benefit of a logarithmic representation size. Over the last 1000 years, this representation has proved to be unusually resilient, partly because all practical computations could be performed with reasonable efficiency within the notation. Still, one might ask if radically different numbering systems can offer similar services. And one step further one might want to ask if there are number systems that can accommodate significantly larger numbers while still providing comparably efficient computations with the familiar ones. This project has several practical uses involving efficient computations with very large numbers which is important for fields like number theory and cryptography.&lt;br/&gt;&lt;br/&gt;The project studies algorithms working with such a numbering system: hereditarily binary numbers. It involves computing with trees obtained by recursively compressing sequences of zeros and ones occurring in the binary representation of a number. With them, computations with giant numbers, including towers of exponents and all record holding prime numbers become tractable. The project includes work on compact representation and computation with sets and boolean logic, study of connections to a family of combinatorial objects, advanced number-theoretical algorithms as well as an open source software library implementing computations with hereditarily binary numbers and their applications.</AbstractNarration>
+<MinAmdLetterDate>06/18/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/18/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1423324</AwardID>
+<Investigator>
+<FirstName>Paul</FirstName>
+<LastName>Tarau</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Paul Tarau</PI_FULL_NAME>
+<EmailAddress>paul.tarau@unt.edu</EmailAddress>
+<PI_PHON>9403007171</PI_PHON>
+<NSF_ID>000361730</NSF_ID>
+<StartDate>06/18/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of North Texas</Name>
+<CityName>Denton</CityName>
+<ZipCode>762035017</ZipCode>
+<PhoneNumber>9405653940</PhoneNumber>
+<StreetAddress>1155 Union Circle #305250</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX26</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>614168995</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF NORTH TEXAS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>064117963</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of North texas]]></Name>
+<CityName>Denton</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>762035017</ZipCode>
+<StreetAddress><![CDATA[1155 Union Circle #305250]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX26</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~253161</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Number representations have evolved over time from the unary "cave man" representation, where one scratch on the wall represented a unit, to the bitstring-based number system in use on today's computers.&nbsp;<br /><br />To address the inability of bitstring-based number representations to handle giant numbers (for instance linear combinations of towers of exponents of 2) we have designed several tree-based number systems that we have called "hereditarily binary numbers" as they are obtained by recursively encoding counts of 0 and 1 sequences in binary.<br /><br />While having comparable average-case time and space requirements to bitstring-based number representations, they can handle giant numbers that occur in some interesting number-theoretical computations.&nbsp;<br /><br />Computations involving several record holder number-theoretical objects like Mersenne, Proth, Cullen, Woodall, Sophie Germain primes and generalized Fermat and prefect numbers) benefit from extremely compact representations in our tree-based number systems.<br /><br />We have defined bijective mappings between boolean vectors represented as tree-based numbers and collections (sets, multisets, lists) and designed new algorithms for their operations favoring sparse sets and sets that have sparse complements.<br />The arithmetization, using our number systems for tree and graph data structures has opened interesting new venues in the study of the combinatorics of lambda terms, with practical application to random test generators for functional programming languages, proof assistants and theorem provers.<br /><br />A number of 25 peer-reviewed publications have acknowledged support from this grant and 4 open-source software packaging implementing computations with tree-based numbering systems in Haskell, Scala and Python have been made available at: https://github.com/ptarau.<br /><br />Graduate Courses in Computational Mathematics and Programming Languages have been designed using material from the research supported by this grant and two female PhD students have graduated under the supervision of the PI.&nbsp;</p><br> <p>            Last Modified: 09/17/2019<br>      Modified by: Paul&nbsp;Tarau</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568756069805_mers49--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568756069805_mers49--rgov-800width.jpg" title="The 49-th Mersenne Prime in a tree-based numbering system"><img src="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568756069805_mers49--rgov-66x44.jpg" alt="The 49-th Mersenne Prime in a tree-based numbering system"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Balanced parentheses labeling the nodes represent subtrees, integers mark the order of arcs and shared subtrees are merged.</div> <div class="imageCredit">Paul Tarau</div> <div class="imageSubmitted">Paul&nbsp;Tarau</div> <div class="imageTitle">The 49-th Mersenne Prime in a tree-based numbering system</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568770480005_woodallPrime--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568770480005_woodallPrime--rgov-800width.jpg" title="Largest Woodall Prime"><img src="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568770480005_woodallPrime--rgov-66x44.jpg" alt="Largest Woodall Prime"></a> <div class="imageCaptionContainer"> <div class="imageCaption">A tree-representation of the Woodall Prime</div> <div class="imageCredit">Paul Tarau</div> <div class="imageSubmitted">Paul&nbsp;Tarau</div> <div class="imageTitle">Largest Woodall Prime</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568771041447_genFermatPrime--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568771041447_genFermatPrime--rgov-800width.jpg" title="Generalized Fermat Prime"><img src="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568771041447_genFermatPrime--rgov-66x44.jpg" alt="Generalized Fermat Prime"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Tree representation of Generalized Fermat Prime 27653^9167433+1</div> <div class="imageCredit">Paul Tarau</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Paul&nbsp;Tarau</div> <div class="imageTitle">Generalized Fermat Prime</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568771290207_sophieGermainePrime--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568771290207_sophieGermainePrime--rgov-800width.jpg" title="Tree-representation of Sophie Germaine Prime"><img src="/por/images/Reports/POR/2019/1423324/1423324_10311457_1568771290207_sophieGermainePrime--rgov-66x44.jpg" alt="Tree-representation of Sophie Germaine Prime"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Sophie Germaine Prime18543637900515^666667-1</div> <div class="imageCredit">Paul Tarau</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Paul&nbsp;Tarau</div> <div class="imageTitle">Tree-representation of Sophie Germaine Prime</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Number representations have evolved over time from the unary "cave man" representation, where one scratch on the wall represented a unit, to the bitstring-based number system in use on today's computers.   To address the inability of bitstring-based number representations to handle giant numbers (for instance linear combinations of towers of exponents of 2) we have designed several tree-based number systems that we have called "hereditarily binary numbers" as they are obtained by recursively encoding counts of 0 and 1 sequences in binary.  While having comparable average-case time and space requirements to bitstring-based number representations, they can handle giant numbers that occur in some interesting number-theoretical computations.   Computations involving several record holder number-theoretical objects like Mersenne, Proth, Cullen, Woodall, Sophie Germain primes and generalized Fermat and prefect numbers) benefit from extremely compact representations in our tree-based number systems.  We have defined bijective mappings between boolean vectors represented as tree-based numbers and collections (sets, multisets, lists) and designed new algorithms for their operations favoring sparse sets and sets that have sparse complements. The arithmetization, using our number systems for tree and graph data structures has opened interesting new venues in the study of the combinatorics of lambda terms, with practical application to random test generators for functional programming languages, proof assistants and theorem provers.  A number of 25 peer-reviewed publications have acknowledged support from this grant and 4 open-source software packaging implementing computations with tree-based numbering systems in Haskell, Scala and Python have been made available at: https://github.com/ptarau.  Graduate Courses in Computational Mathematics and Programming Languages have been designed using material from the research supported by this grant and two female PhD students have graduated under the supervision of the PI.        Last Modified: 09/17/2019       Submitted by: Paul Tarau]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

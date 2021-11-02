@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>STI:  Plethora: A Wide-Area Read-Write Object Repository for the Internet</AwardTitle>
+<AwardEffectiveDate>09/15/2003</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2007</AwardExpirationDate>
+<AwardTotalIntnAmount>549635.00</AwardTotalIntnAmount>
+<AwardAmount>549635</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Kevin Thompson</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Conventional computing infrastructure is characterized by several unmistakable trends: (i) in the past decade, storage capacity per unit cost has increased at a rate in excess of Moore's law; at this rate, it is predicted that a terabyte of IDE storage will cost less than $100 within five years; (ii) applications have exploited storage trends by increasing their storage requirements, they are increasingly dependent on collaborative/concurrent access, and support service/process mobility; for example, the Virtual Observatory is a large-scale collaborative effort that will allow astronomy researchers to query and mine potentially hundreds of terabytes of data distributed among distant geographical locations, and (iii) the emergence of IP-based storage protocols such as iSCSI or FcIP will allow applications to access distributed storage seamlessly over wide-area networks. These trends motivate the development of foundational technologies for building a wide-area read-write storage repository capable of providing a single image of a distributed storage resource. The overarching design goals of such an infrastructure include client performance, global resource utilization, system scalability (providing a single logical view of larger resource and user pools) and application scalability (enabling single applications with large resource requirements).&lt;br/&gt;&lt;br/&gt;This proposal describes ongoing research and proposed work towards building such a repository, Plethora, for semi-static peer-to-peer (P2P) networks implemented on a wide-area Internet testbed. In contrast to many current efforts that focus entirely on unstructured dynamic P2P environments, Plethora focuses on semi-static peers with strong network connectivity and a partially persistent network state. In a semistaticP2P network, peers are likely to remain participants in the network over long periods of time (e.g. compute servers), and are capable of providing reasonably high availability and response-time guarantees. The repository integrates novel concepts in locality enhancing overlay networks, transactional semantics for read-write data coupled with hierarchical versioning, intelligent replication for robustness.&lt;br/&gt;&lt;br/&gt; At the heart of Plethora is a routing mechanism that relies on two distinct networks - a local overlay for content caching and a global overlay for content location. The local overlay optimizes network proximity by relying on existing Internet infrastructure that defines Autonomous Systems (AS). In doing so, it achieves excellent peer performance and optimizes global network utilization. Built upon this routing core is support for transactional semantics, which enhances scalability by aggregating commits within a local overlay before propagating them to the global overlay. Finally, robustness and availability are incorporated by suitable replication through synthetic demand generation. This project aims to fully develop the core algorithms and software underlying Plethora, exhaustively validate it using simulations (on our P2P evaluation testbed, PET)and experimentation (using the PlanetLab infrastructure), and deploy it in the context of selected applications.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>09/05/2003</MinAmdLetterDate>
+<MaxAmdLetterDate>09/05/2003</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0334141</AwardID>
+<Investigator>
+<FirstName>Ananth</FirstName>
+<LastName>Grama</LastName>
+<EmailAddress>ayg@cs.purdue.edu</EmailAddress>
+<StartDate>09/05/2003</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Suresh</FirstName>
+<LastName>Jagannathan</LastName>
+<EmailAddress>suresh@cs.purdue.edu</EmailAddress>
+<StartDate>09/05/2003</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0206000</Code>
+<Name>Telecommunications</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>1766</Code>
+<Text>STRATEGIC TECH FOR INTERNET</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1766</Code>
+<Text>STRATEGIC TECH FOR INTERNET</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9217</Code>
+<Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

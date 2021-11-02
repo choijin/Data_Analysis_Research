@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Efficient Learning Algorithms for Modeling Natural Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>449999.00</AwardTotalIntnAmount>
+<AwardAmount>449999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Kenneth Whang</SignBlockName>
+<PO_EMAI>kwhang@nsf.gov</PO_EMAI>
+<PO_PHON>7032925149</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The ability to accurately model such complex phenomena as the natural scene statistics inherent in stacks of photographs or movies, or the collective behavior of hundreds of simultaneously recorded neurons in the cerebral cortex, would be transformative for our understanding of the natural world and of human thought.  The insights gained would not only enhance our understanding of the brain and the sensory stimuli it can process, but they would confer practical advantages as well -- leading to improvements in automated speech recognition and meaningful analysis of real-time video, for example.  The various data needed for these studies is coming online at a rapid pace, but these large and complex data sets defy traditional modeling and analysis techniques.  Unfortunately, the complexity and size of many recently acquired corpora in biology, physics, and engineering domains render them incapable of being fit by powerful mathematical models unless they are constrained by strong and unjustified assumptions about the data.  This, coupled with the general difficulty of developing general purpose machine learning algorithms has driven most contemporary scientists and engineers to focus on algorithms tailored to narrow problem spaces rather than tackling the more general machine learning problem.  Fortunately, some researchers have continued to push for general learning algorithms with capabilities more similar to human intelligence, but they have typically had to rely on ad hoc assumptions or uncontrolled approximations in order to make progress on this daunting problem.  This proposal is to further develop a recently introduced machine learning technique, called Minimum Probability Flow learning, so that it is capable of fitting exceedingly general parametric models to much larger data sets than has ever been possible before.  In addition, this proposal is to develop novel, complimentary methods for sampling efficiently from a model distribution once the parameters have been fit to data, so that the models can be understood and meaningfully compared with one another.  These techniques will be used to study the statistical structure of natural scenes by fitting a new and powerful mathematical model to a database consisting of a large number of photographs.  The program proposed here is highly interdisciplinary, drawing ideas and approaches from physics, engineering, computer science, and systems neuroscience.</AbstractNarration>
+<MinAmdLetterDate>08/31/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/31/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1219199</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>DeWeese</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael DeWeese</PI_FULL_NAME>
+<EmailAddress>deweese@berkeley.edu</EmailAddress>
+<PI_PHON>5164281658</PI_PHON>
+<NSF_ID>000077484</NSF_ID>
+<StartDate>08/31/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Berkeley]]></Name>
+<CityName>Berkeley</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>947045940</ZipCode>
+<StreetAddress><![CDATA[132 Barker Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~449999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>We developed efficient algorithms for obtaining representative samples from arbitrarily complex probabilistic models.&nbsp; More specifically, we developed a novel extension of the Hamiltonian Monte Carlo sampling method that outperforms previous sampling techniques in terms of the mixing time --- the time needed to achieve samples that are decorrelated from the initial state of the system. &nbsp;Our approach relies on its ability to relax the usual requirement of detailed balance needed for previous sampling methods.&nbsp; One benefit of our algorithm is that it reduces the number of "reversals" needed to enforce detailed balance as the sampler moves through the space of states of the model.&nbsp; We have also developed a more sophisticated scheme involving multiple auxiliary variables added to the model, compared to the one auxiliary variable needed for every original model variable for the usual Hamiltonian Monte Carlo approach.</p> <p>We also further developed our &ldquo;Minimum Probability Flow&rdquo; (MPF) algorithm for fitting mathematical models to complex data sets.&nbsp; We now have rigorous mathematical bounds on the speed of convergence of the MPF algorithm.&nbsp; Such bounds, and even estimates of convergence time, have proven difficult to obtain for traditional fitting algorithms.&nbsp; Related to these bounds on convergence time, we have also derived bounds on the goodness-of-fit of the model parameters obtained by MPF once it has converged.&nbsp; These types of results are also hard to achieve with traditional learning algorithms.&nbsp; We have written and posted online user-friendly code for several of the most successful extensions of MPF that we have developed. &nbsp; &nbsp; &nbsp;&nbsp;</p> <p>We derived a new work energy relation for non-equilibrium systems that remains valid even for systems that do not obey Hamiltonian dynamics.&nbsp; We show how our relation can be used as a computational device to compute changes in free energy in otherwise intractable systems that do obey Hamiltonian dynamics.</p> <p>We derived the minimum amount of entropy associated with any binary system consistent with any specified set of first- and second-order statistics for arbitrarily large systems.&nbsp; We motivated the work in terms of population activity in neural networks, but our results have implications for a wide range of systems.</p> <p>We computed the optimal protocols for achieving a variety of desired transitions between states in a variety of driven non-equilibrium systems.&nbsp; In particular, we found the procedure for erasing a bit of information in finite time while dissipating the least amount of waste heat into the environment for several model systems.&nbsp; This is an important result related to the design of future computing technology that will need to be efficient in order to perform substantially better than existing approaches.</p> <p>We designed and built a prototype ultrasonic sonar device for assisting blind people in navigation.&nbsp; The basic idea is to emit high frequency sounds from speakers mounted on a pair of eyeglasses worn by the subject.&nbsp; These sounds are reflected on nearby objects and then recorded by microphones mounted on the same pair of glasses.&nbsp; The recordings are shifted downward in frequency in real time and played through earphones to the subject so she can then use the reflected sounds to detect the presence of walls, stairs, and other nearby surfaces while walking.</p> <p>We introduced a collection of novel information measures to the study of neural activity and discovered both universal and unique features for a range of spiking neuron models.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/20/2016<br>      Modified by: Michael&nbsp;Deweese</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ We developed efficient algorithms for obtaining representative samples from arbitrarily complex probabilistic models.  More specifically, we developed a novel extension of the Hamiltonian Monte Carlo sampling method that outperforms previous sampling techniques in terms of the mixing time --- the time needed to achieve samples that are decorrelated from the initial state of the system.  Our approach relies on its ability to relax the usual requirement of detailed balance needed for previous sampling methods.  One benefit of our algorithm is that it reduces the number of "reversals" needed to enforce detailed balance as the sampler moves through the space of states of the model.  We have also developed a more sophisticated scheme involving multiple auxiliary variables added to the model, compared to the one auxiliary variable needed for every original model variable for the usual Hamiltonian Monte Carlo approach.  We also further developed our "Minimum Probability Flow" (MPF) algorithm for fitting mathematical models to complex data sets.  We now have rigorous mathematical bounds on the speed of convergence of the MPF algorithm.  Such bounds, and even estimates of convergence time, have proven difficult to obtain for traditional fitting algorithms.  Related to these bounds on convergence time, we have also derived bounds on the goodness-of-fit of the model parameters obtained by MPF once it has converged.  These types of results are also hard to achieve with traditional learning algorithms.  We have written and posted online user-friendly code for several of the most successful extensions of MPF that we have developed.         We derived a new work energy relation for non-equilibrium systems that remains valid even for systems that do not obey Hamiltonian dynamics.  We show how our relation can be used as a computational device to compute changes in free energy in otherwise intractable systems that do obey Hamiltonian dynamics.  We derived the minimum amount of entropy associated with any binary system consistent with any specified set of first- and second-order statistics for arbitrarily large systems.  We motivated the work in terms of population activity in neural networks, but our results have implications for a wide range of systems.  We computed the optimal protocols for achieving a variety of desired transitions between states in a variety of driven non-equilibrium systems.  In particular, we found the procedure for erasing a bit of information in finite time while dissipating the least amount of waste heat into the environment for several model systems.  This is an important result related to the design of future computing technology that will need to be efficient in order to perform substantially better than existing approaches.  We designed and built a prototype ultrasonic sonar device for assisting blind people in navigation.  The basic idea is to emit high frequency sounds from speakers mounted on a pair of eyeglasses worn by the subject.  These sounds are reflected on nearby objects and then recorded by microphones mounted on the same pair of glasses.  The recordings are shifted downward in frequency in real time and played through earphones to the subject so she can then use the reflected sounds to detect the presence of walls, stairs, and other nearby surfaces while walking.  We introduced a collection of novel information measures to the study of neural activity and discovered both universal and unique features for a range of spiking neuron models.             Last Modified: 12/20/2016       Submitted by: Michael Deweese]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Plan Execution for Continuous Dynamical Systems Within Risk Bounds</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>298807.00</AwardTotalIntnAmount>
+<AwardAmount>298807</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Todd Leen</SignBlockName>
+<PO_EMAI>tleen@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In many applications, from undersea to space, an autonomous agent is given a set of operational goals to achieve optimally, while taking into account the uncertainties that arise from uncontrollable events. For example, in a monitoring mission for an autonomous under-water vehicle (AUV), the goal might be to maximize scientific return, while avoiding hazards. Due to uncertainty, it is unrealistic for many real-world mission to guarantee 100% success. One approach explored extensively within the decision-theoretic planning community is to maximize an objective that trades risk for utility. However, this does not provide any hard guarantees. An alternative approach, commonly employed in engineering practice is to specify risk as a hard constraint, in terms of an upper bound on mission failure (called a chance constraint). For example, NASA Mars missions are designed to meet or exceed a requirement on the probability of successful landing; human-rated vehicles are designed to similar requirements. Given a chance-constrained mission, an agent performing the mission may strive to maximize expected reward, while ensuring that the chance constraint and other operating constraints are met.  &lt;br/&gt;&lt;br/&gt;This research is developing a model-based executive that achieves goal-level plans within specified risk bounds, while attempting to maximize expected reward. Key attributes of this executive include: 1) user specification of time-evolved goal behaviors; 2) plan execution by generating a sequence of discrete and continuous actions for controlling the plant; and 3) optimal, stochastic planning of control actions within risk bounds and dynamic constraints. The research under this grant is laying the groundwork for longer-term objectives of facilitating continuous adaptation of the initial plan and allocation of risk as uncertainties are resolved during plan execution. Among other applications, we plan tests with AUVs engaged in scientific missions, measuring performance within obstacle-related, time and energy bounds.</AbstractNarration>
+<MinAmdLetterDate>09/13/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/13/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017992</AwardID>
+<Investigator>
+<FirstName>Brian</FirstName>
+<LastName>Williams</LastName>
+<PI_MID_INIT>C</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Brian C Williams</PI_FULL_NAME>
+<EmailAddress>williams@mit.edu</EmailAddress>
+<PI_PHON>6172531678</PI_PHON>
+<NSF_ID>000050903</NSF_ID>
+<StartDate>09/13/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 MASSACHUSETTS AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~298807</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Autonomous planning and scheduling unlocks efficient ways of achieving user-specified goals. The ability of intelligent systems to quantify the consequences of actions can be used to find good ways to satisfy requirements specified by human operators. Efficient, reliable, intelligent systems can enable scientific progress by automating data collection, allowing labor-intensive tasks to be performed without direct human involvement.</p> <p>A major obstacle to the widespread adoption of autonomy is the lack of trust in the system to conform to specifications, given real-world uncertainty. For example, oceanographers may wish to use autonomous vehicles to survey sites on the seafloor for methane plumes, the strength of which fluctuates with the time of day. Due to ocean currents, drift in position keeping, and difficult terrain, the positions of the vehicle at various times in the mission are uncertain. We need to insure against this uncertainty, allowing the vehicle to be punctual and accurate in its trajectory in time-critical missions.</p> <p>This project responded to the need for confidence by investigating planning and scheduling with guarantees on the probability of meeting specifications. The algorithms derived in this project produce action plans and timetables, such that the probability of failing to meet user-specified properties is below a safe margin. We call this paradigm, in which algorithms find the best possible plan or schedule which meets a safety guarantee and executes the plans in response to real-time observations, chance-constrained planning and execution.</p> <p>The project focused on chance-constrained planning and execution and comprised three thrusts: 1) chance-constrained planning and execution of discrete-time controls; 2) chance-constrained scheduling; and 3) a chance-constrained mission level planner.</p> <p>Chance-constrained planning of discrete-time controls finds a sequence of actions such that the system state evolves according to user specifications. The algorithm has been applied to temperature controls for a smart home concept, which automatically adjust air conditioning and heating energy use based on weather forecasts and occupant use-patterns. The system has proven to yield significant energy savings over existing PID controllers. In addition, the algorithms have been demonstrated on SPHERES hardware maintained by the MIT Space Systems Laboratory. The SPHERES robots are used in educational outreach and zero-gravity controls research, and the deployment of the algorithm helps ensure the safety of the research and educational assets by finding efficient control actions which avoid crashes into obstacles.</p> <p>Chance-constrained scheduling of events finds timetables for missions with a large number of activities, the durations of which are stochastic. The algorithm was originally inspired by scheduling for Woods Hole Oceanographic Institute (WHOI) missions, in which multiple autonomous and remotely-controlled underwater vehicles are used to survey the seafloor. The algorithm is able to account for the uncertainty in the duration of the vehicle traversals while meeting constraints on the timing between crew shifts and ship maintenance operations.</p> <p>The chance-constrained mission level planner considers planning for mission specifications at a macro level. Whereas the discrete time controller chooses good controls at each time step, the mission level planner tries to sequence activities so that both timing specification and system state specifications are met. The mission level controller will decide, for example, the sequence in which a subset of survey sites are to be visited, while the discrete-time controller will ensure safe traversal between the locations. The algorithm has received interest from NASA airport operations researchers, as extensions will allow efficient airport runway operations by increasing throughput an...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Autonomous planning and scheduling unlocks efficient ways of achieving user-specified goals. The ability of intelligent systems to quantify the consequences of actions can be used to find good ways to satisfy requirements specified by human operators. Efficient, reliable, intelligent systems can enable scientific progress by automating data collection, allowing labor-intensive tasks to be performed without direct human involvement.  A major obstacle to the widespread adoption of autonomy is the lack of trust in the system to conform to specifications, given real-world uncertainty. For example, oceanographers may wish to use autonomous vehicles to survey sites on the seafloor for methane plumes, the strength of which fluctuates with the time of day. Due to ocean currents, drift in position keeping, and difficult terrain, the positions of the vehicle at various times in the mission are uncertain. We need to insure against this uncertainty, allowing the vehicle to be punctual and accurate in its trajectory in time-critical missions.  This project responded to the need for confidence by investigating planning and scheduling with guarantees on the probability of meeting specifications. The algorithms derived in this project produce action plans and timetables, such that the probability of failing to meet user-specified properties is below a safe margin. We call this paradigm, in which algorithms find the best possible plan or schedule which meets a safety guarantee and executes the plans in response to real-time observations, chance-constrained planning and execution.  The project focused on chance-constrained planning and execution and comprised three thrusts: 1) chance-constrained planning and execution of discrete-time controls; 2) chance-constrained scheduling; and 3) a chance-constrained mission level planner.  Chance-constrained planning of discrete-time controls finds a sequence of actions such that the system state evolves according to user specifications. The algorithm has been applied to temperature controls for a smart home concept, which automatically adjust air conditioning and heating energy use based on weather forecasts and occupant use-patterns. The system has proven to yield significant energy savings over existing PID controllers. In addition, the algorithms have been demonstrated on SPHERES hardware maintained by the MIT Space Systems Laboratory. The SPHERES robots are used in educational outreach and zero-gravity controls research, and the deployment of the algorithm helps ensure the safety of the research and educational assets by finding efficient control actions which avoid crashes into obstacles.  Chance-constrained scheduling of events finds timetables for missions with a large number of activities, the durations of which are stochastic. The algorithm was originally inspired by scheduling for Woods Hole Oceanographic Institute (WHOI) missions, in which multiple autonomous and remotely-controlled underwater vehicles are used to survey the seafloor. The algorithm is able to account for the uncertainty in the duration of the vehicle traversals while meeting constraints on the timing between crew shifts and ship maintenance operations.  The chance-constrained mission level planner considers planning for mission specifications at a macro level. Whereas the discrete time controller chooses good controls at each time step, the mission level planner tries to sequence activities so that both timing specification and system state specifications are met. The mission level controller will decide, for example, the sequence in which a subset of survey sites are to be visited, while the discrete-time controller will ensure safe traversal between the locations. The algorithm has received interest from NASA airport operations researchers, as extensions will allow efficient airport runway operations by increasing throughput and timeliness of flights.  In addition to the algorithmic results, the project also support future ...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

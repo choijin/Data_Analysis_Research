@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Collaborative Proposal: Towards Robust Uncertain Data Management</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>248627.00</AwardTotalIntnAmount>
+<AwardAmount>248627</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>nan zhang</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to develop a systematic framework to enable "robust" query processing in presence of data uncertainties that arise naturally in a wide variety of application domains. Data uncertainties may take the form of missing or incomplete data, inherent noise in the data, trust or reputation scores assigned to data based on their sources of origin, or confidences in predictions made using automated modeling tools. The input uncertainties naturally lead to uncertainties in the results of any queries or analyses performed on such data. To enable robust and systematic reasoning over such uncertain query results, efficient algorithms and practical tools are developed to: (a) identify the input uncertainties to which query results are most sensitive, (b) decide how to use scarce resources like subject matter experts to resolve uncertainties in query results, and (c) incorporate user feedback to improve the robustness of the input uncertainty parameters themselves.  The tools have the potential to make it easy and intuitive to process and analyze uncertain data and extract useful information from it in a wide range of real-world application domains including social media analysis, scientific and biological data management, sensor data management, web data integration, and information extraction. This project provides research opportunities for graduate and undergraduate students, and is aligned with several advanced graduate courses offered by the PIs.  The prototype implementation of the framework, publications, and experimental data, will be disseminated via the project web site: http://www.cs.umd.edu/~amol/RPrDB.</AbstractNarration>
+<MinAmdLetterDate>09/04/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/05/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218367</AwardID>
+<Investigator>
+<FirstName>Amol</FirstName>
+<LastName>Deshpande</LastName>
+<PI_MID_INIT>V</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Amol V Deshpande</PI_FULL_NAME>
+<EmailAddress>amol@cs.umd.edu</EmailAddress>
+<PI_PHON>3014056269</PI_PHON>
+<NSF_ID>000486255</NSF_ID>
+<StartDate>09/04/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Maryland, College Park</Name>
+<CityName>College Park</CityName>
+<ZipCode>207425141</ZipCode>
+<PhoneNumber>3014056269</PhoneNumber>
+<StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>790934285</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MARYLAND, COLLEGE PARK</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003256088</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Maryland, College Park]]></Name>
+<CityName>College Park</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>207425141</ZipCode>
+<StreetAddress><![CDATA[3112 LEE BLDG 7809 Regents Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~84494</FUND_OBLG>
+<FUND_OBLG>2013~164133</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This NSF-funded project was motivated by the observation that, much of the data that needs to be processed and analyzed in today's "big data" world is inherently uncertain, imprecise, and probabilistic in nature, and the impacts of such uncertainty on the results or the outcomes of an analysis are hard to predict or reason about. Uncertainty is often inherent in the raw data itself, especially in data that is autonomously generated by IoT devices or scientific instruments, or that is collected from a variety of data sources with unknown provenance on the Internet; it is often also introduced as a result of running statistical or machine learning tools to extract higher-level events and knowledge from data. This abundance of uncertain data has led to a vast body of literature in the database community within the last decade, focused on developing techniques for managing and querying such data. Although the prior work on "probabilistic databases" shows us how to annotate the data with such uncertainties, and how to propagate those uncertainties through different types of analyses or querying, this in itself is not sufficient to make probabilistic databases useful as a tool in practice. In particular, we need to understand how to: (a) resolve uncertainties in query results by gathering more information so that the decision-makers can have more confidence in their decisions, (b) analyze sensitivity of the output of a specific query to the uncertainties in the input, and (c) meaningfully interpret the numeric uncertainty scores as probabilities. The goal of this project was to develop a systematic framework to address these challenges to enable "robust" probabilistic data management.<br /><br />The key outcomes of the project can be summarized as follows. It resulted in the development of a collection of algorithms, in many cases with provable approximation guarantees, for query-driven uncertainty resolution; here the goal is to minimize the expected cost of fully determining the value of a given Boolean function on uncertain inputs. Such algorithms were developed for a variety of different classes of Boolean functions, including linear threshold functions where a linear function over the uncertain inputs is compared to a threshold value, and Boolean formulas containing conjunctions and/or disjunctions. Several of the algorithms are designed for the case where a "sample" of the input space is provided, which does not require making strict independence assumptions about how the uncertainties of different inputs relate to each other. We also designed a general framework to resolve uncertainty for a collection of ranking and partitioning problems, where the goal is to rank or partition a set of objects using incomplete information about user preferences. Finally, we also demonstrated that the effects of "uncalibrated" probabilities can be significant, by showing that simple transformations of numeric uncertainty scores can result in complex transformations on the results of simple queries. Key results from this project were published in conference and journal papers in Computer Science. This project also trained several graduate and undergraduate students to do research.<br /><br />Overall this project has made significant advances in our ability to query and reason about uncertain data in a robust manner, and has thus paved the way for incorporating uncertainty in commercial database systems. More details about the project, and the publications that resulted from it, can be found at: http://www.cs.umd.edu/~amol/DBGroup/RobustPrDB.html</p><br> <p>            Last Modified: 01/06/2017<br>      Modified by: Amol&nbsp;V&nbsp;Deshpande</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This NSF-funded project was motivated by the observation that, much of the data that needs to be processed and analyzed in today's "big data" world is inherently uncertain, imprecise, and probabilistic in nature, and the impacts of such uncertainty on the results or the outcomes of an analysis are hard to predict or reason about. Uncertainty is often inherent in the raw data itself, especially in data that is autonomously generated by IoT devices or scientific instruments, or that is collected from a variety of data sources with unknown provenance on the Internet; it is often also introduced as a result of running statistical or machine learning tools to extract higher-level events and knowledge from data. This abundance of uncertain data has led to a vast body of literature in the database community within the last decade, focused on developing techniques for managing and querying such data. Although the prior work on "probabilistic databases" shows us how to annotate the data with such uncertainties, and how to propagate those uncertainties through different types of analyses or querying, this in itself is not sufficient to make probabilistic databases useful as a tool in practice. In particular, we need to understand how to: (a) resolve uncertainties in query results by gathering more information so that the decision-makers can have more confidence in their decisions, (b) analyze sensitivity of the output of a specific query to the uncertainties in the input, and (c) meaningfully interpret the numeric uncertainty scores as probabilities. The goal of this project was to develop a systematic framework to address these challenges to enable "robust" probabilistic data management.  The key outcomes of the project can be summarized as follows. It resulted in the development of a collection of algorithms, in many cases with provable approximation guarantees, for query-driven uncertainty resolution; here the goal is to minimize the expected cost of fully determining the value of a given Boolean function on uncertain inputs. Such algorithms were developed for a variety of different classes of Boolean functions, including linear threshold functions where a linear function over the uncertain inputs is compared to a threshold value, and Boolean formulas containing conjunctions and/or disjunctions. Several of the algorithms are designed for the case where a "sample" of the input space is provided, which does not require making strict independence assumptions about how the uncertainties of different inputs relate to each other. We also designed a general framework to resolve uncertainty for a collection of ranking and partitioning problems, where the goal is to rank or partition a set of objects using incomplete information about user preferences. Finally, we also demonstrated that the effects of "uncalibrated" probabilities can be significant, by showing that simple transformations of numeric uncertainty scores can result in complex transformations on the results of simple queries. Key results from this project were published in conference and journal papers in Computer Science. This project also trained several graduate and undergraduate students to do research.  Overall this project has made significant advances in our ability to query and reason about uncertain data in a robust manner, and has thus paved the way for incorporating uncertainty in commercial database systems. More details about the project, and the publications that resulted from it, can be found at: http://www.cs.umd.edu/~amol/DBGroup/RobustPrDB.html       Last Modified: 01/06/2017       Submitted by: Amol V Deshpande]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

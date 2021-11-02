@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>FoMR: Microarchitecture mechanisms for handling conditional branches that are (a) very hard to predict accurately or (b) impossible to predict accurately</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>105000.00</AwardTotalIntnAmount>
+<AwardAmount>105000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Computers are playing a continually increasing role in supporting a better quality of life, including targeted health care, autonomous vehicles, and weather prediction. Their effectiveness in doing so, however, depends on how fast these computers can execute the programs that do more accurate and quicker decisions and predictions. A computer program that predicts a tsunami will hit tomorrow is of no value if the computer produces its result three days from now. This speed and accuracy are tightly coupled with a basic logical step: How fast can a computer process conditional branch instruction, such as an if-then-else. Conditional branch instructions are commands in a computer program that direct the computer to choose between executing alternate tasks. This basic function can end up being a bottleneck in modern systems that have to make millions of decisions as part of complex models. This research addresses that bottleneck, and can greatly improve the capabilities of modern computer processors. &lt;br/&gt;&lt;br/&gt;To improve performance of the microarchitecture, assembly lines (aka pipelines) were introduced long ago to process each instruction. Like all assembly lines, most instructions benefit greatly from this assembly line. However, not so with conditional branch instructions, since they require the computer to decide at the front of the assembly line what to do next (aka branch prediction). The problem is that a wrong guess means trashing everything on the assembly line, which degrades performance enormously. This research minimizes that from happening by recognizing that conditional branches are of three types: those predicted accurately, those not predicted well today, but can benefit significantly from some the first type, by using the well-known Tagged Geometric history length branch predictor (TAGE). For the second type, TAGE is augmented with the results of information learned from machine learning. For the third type, not predict at all, but perform other tasks while waiting for the necessary information to reach the end of the assembly line instead of guessing incorrectly and then trashing all the useless work already performed as a result of the wrong guess.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/13/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>07/13/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2011145</AwardID>
+<Investigator>
+<FirstName>Yale</FirstName>
+<LastName>Patt</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yale N Patt</PI_FULL_NAME>
+<EmailAddress>patt@ece.utexas.edu</EmailAddress>
+<PI_PHON>5124714085</PI_PHON>
+<NSF_ID>000790911</NSF_ID>
+<StartDate>07/13/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName/>
+<StateCode>TX</StateCode>
+<ZipCode>787121532</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>021Z</Code>
+<Text>Industry Partnerships</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7798</Code>
+<Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8585</Code>
+<Text>NSF/Intel Partnership Projects</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~105000</FUND_OBLG>
+</Award>
+</rootTag>

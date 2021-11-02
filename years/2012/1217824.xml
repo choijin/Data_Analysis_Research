@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Diversity and Feedback in Random Testing for Systems Software</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>242244.00</AwardTotalIntnAmount>
+<AwardAmount>242244</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Testing is an extremely important part of any software development effort, especially for programs that have access to sensitive resources (personal information, sensor data, etc.) and that can be reached through the Internet. The PIs' work will improve the state of the art in software testing for mobile applications running on the open source Android platform, resulting in fewer bugs and reduced testing effort.&lt;br/&gt;&lt;br/&gt;The foundation of the PIs' work is random testing, where random numbers are used as inputs to an algorithm for constructing test cases. Although random testing has been shown to be highly effective for discovering serious bugs in complex software systems, it suffers from various problems including the fact that it is very difficult to engineer a random tester that doesn't spend a lot of time re-exploring the same application behaviors over and over again. The PIs will build upon their "swarm testing" work, which has been shown to be an inexpensive way to increase the diversity of random test cases, and also to increase their effectiveness in discovering bugs. Additionally, the PIs are investigating how to marry random testing with modern symbolic execution methods, and how to use feedback from executions of the software under test in order to improve the efficacy of random testing.&lt;br/&gt;&lt;br/&gt;The development of more efficient and effective testing techniques and tools will lower the cost and raise the quality of software.  Test coverage is a challenging, open problem that is being addressed here in a novel way.</AbstractNarration>
+<MinAmdLetterDate>08/01/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/31/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217824</AwardID>
+<Investigator>
+<FirstName>Alex</FirstName>
+<LastName>Groce</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alex D Groce</PI_FULL_NAME>
+<EmailAddress>agroce@gmail.com</EmailAddress>
+<PI_PHON>3362448738</PI_PHON>
+<NSF_ID>000512250</NSF_ID>
+<StartDate>08/01/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Oregon State University</Name>
+<CityName>Corvallis</CityName>
+<ZipCode>973318507</ZipCode>
+<PhoneNumber>5417374933</PhoneNumber>
+<StreetAddress>OREGON STATE UNIVERSITY</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Oregon</StateName>
+<StateCode>OR</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OR04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>053599908</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OREGON STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>053599908</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Oregon State University]]></Name>
+<CityName/>
+<StateCode>OR</StateCode>
+<ZipCode>973318507</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Oregon</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OR04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~242244</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project investigate novel methods for increasing (and using) diversity of test cases in random testing of systems software. &nbsp;In random testing, pseudo-random numbers are mapping into test inputs for a system. &nbsp;This has the advantage of producing inputs that developers (and human testers) will not have expected, exposing subtle faults in the software system. &nbsp;Unfortunately, while individual inputs are randomly generated, random tests have a tendency to appear, at a larger statistical level (e.g., how often each function call is chosen) highly similar to each other, and not test truly diverse behaviors of a system. &nbsp;This project extended "swarm" testing methods that apply meta-random generation of the probability distribution itself for random testing (changing it with each test). Previous work had shown such a method to be highly effective in testing production compilers.</p> <p>The outcomes of this project included: &nbsp;1) novel techniques for constructing highly efficient test suites for programs, based on such diverse tests, using the delta-debugging technique (this work won a Best Paper Award at the 2014 IEEE Conference on Software Testing, Verification and Validation); 2) novel methods for targeting random testing (again, using swarm diversity techniques) to improve coverage/fault detection for known-suspicous parts of a program; 3) improvements to practical aspects of random testing, such as identifying tests failing due to the same fault for "bug triage" purposes; 4) methods for improving symbolic execution-based testing, in addition to random testing, and for combining random testing and symbolic execution. &nbsp;Other research topics in which the state-of-the-art was advanced included understanding of the value of source code coverage in testing. &nbsp;The project produced more than 10 refereed conference and workshop publications, many in top ACM/IEEE software engineering or programming language venues, and two journal papers.</p> <p>In addition to basic scientific research, this project produced tools and datasets available to other researchers. &nbsp;The TSTL Template Scripting Testing Language, developed late in the project life (https://github.com/agroce/tstl) makes swarm-based test diversity easily available to developers of Python programs, and can serve as a rapid prototyping environment for future research in software test generation. &nbsp;We also released (https://github.com/agroce/swarmed_tools) swarmed versions of test generation tools produced by other groups or by industry. &nbsp;In addition, we have made some of our data sets available (https://github.com/agroce/mutants16/tree/master/tests).</p> <p>Swarm techniques have become popular in compiler testing work by other groups than our own, and between our efforts and the efforts of others, this project has contributed to the discovery of numerous faults in real-world software systems, including production compilers and a variety of well-known and widely used Python libraries (and the base Python implementation itself).</p> <p>Two PhD students (one graduated, and one finishing now) were primarily associated with this work at Oregon State University, and received training and mentoring as a result of this project. &nbsp;Other graduate students and undergraduates also participated in various projects, or covered topics from this project in a class.</p><br> <p>            Last Modified: 02/02/2017<br>      Modified by: Alex&nbsp;D&nbsp;Groce</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project investigate novel methods for increasing (and using) diversity of test cases in random testing of systems software.  In random testing, pseudo-random numbers are mapping into test inputs for a system.  This has the advantage of producing inputs that developers (and human testers) will not have expected, exposing subtle faults in the software system.  Unfortunately, while individual inputs are randomly generated, random tests have a tendency to appear, at a larger statistical level (e.g., how often each function call is chosen) highly similar to each other, and not test truly diverse behaviors of a system.  This project extended "swarm" testing methods that apply meta-random generation of the probability distribution itself for random testing (changing it with each test). Previous work had shown such a method to be highly effective in testing production compilers.  The outcomes of this project included:  1) novel techniques for constructing highly efficient test suites for programs, based on such diverse tests, using the delta-debugging technique (this work won a Best Paper Award at the 2014 IEEE Conference on Software Testing, Verification and Validation); 2) novel methods for targeting random testing (again, using swarm diversity techniques) to improve coverage/fault detection for known-suspicous parts of a program; 3) improvements to practical aspects of random testing, such as identifying tests failing due to the same fault for "bug triage" purposes; 4) methods for improving symbolic execution-based testing, in addition to random testing, and for combining random testing and symbolic execution.  Other research topics in which the state-of-the-art was advanced included understanding of the value of source code coverage in testing.  The project produced more than 10 refereed conference and workshop publications, many in top ACM/IEEE software engineering or programming language venues, and two journal papers.  In addition to basic scientific research, this project produced tools and datasets available to other researchers.  The TSTL Template Scripting Testing Language, developed late in the project life (https://github.com/agroce/tstl) makes swarm-based test diversity easily available to developers of Python programs, and can serve as a rapid prototyping environment for future research in software test generation.  We also released (https://github.com/agroce/swarmed_tools) swarmed versions of test generation tools produced by other groups or by industry.  In addition, we have made some of our data sets available (https://github.com/agroce/mutants16/tree/master/tests).  Swarm techniques have become popular in compiler testing work by other groups than our own, and between our efforts and the efforts of others, this project has contributed to the discovery of numerous faults in real-world software systems, including production compilers and a variety of well-known and widely used Python libraries (and the base Python implementation itself).  Two PhD students (one graduated, and one finishing now) were primarily associated with this work at Oregon State University, and received training and mentoring as a result of this project.  Other graduate students and undergraduates also participated in various projects, or covered topics from this project in a class.       Last Modified: 02/02/2017       Submitted by: Alex D Groce]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

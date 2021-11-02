@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Resource Management and QoS in Heterogeneous Servers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2014</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>400391.00</AwardTotalIntnAmount>
+<AwardAmount>416391</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Explosive growth in shared-data-center computing has increased the need for fair resource-allocation policies and mechanisms that provide quality-of-service (QoS) guarantees for tenants sharing a physical infrastructure. The focus today is on virtualizing entire applications with  integrated compute, storage, and networking resources.  This requires automated techniques for dynamically slicing and aggregating the underlying physical infrastructure, to create ensembles of virtual resources with  flexible mixes of different resource types. &lt;br/&gt;&lt;br/&gt;The project involves the development of policies, algorithms, and scheduling mechanisms to optimize the joint allocation of multiple heterogeneous resources. Models for fair sharing of multiple resources suitable for these systems will be defined, and new resource allocation algorithms that maximize consolidation ratios will be developed and evaluated. The results will advance the development of the fast-growing cloud IT infrastructure by increasing resource efficiency  for the service providers, and providing better QoS guarantees and isolation for the tenants. The project will also result in the education and training of students in a topical and important sector of Information Technology.</AbstractNarration>
+<MinAmdLetterDate>07/10/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>07/09/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421434</AwardID>
+<Investigator>
+<FirstName>Peter</FirstName>
+<LastName>Varman</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Peter J Varman</PI_FULL_NAME>
+<EmailAddress>pjv@rice.edu</EmailAddress>
+<PI_PHON>7135273990</PI_PHON>
+<NSF_ID>000378151</NSF_ID>
+<StartDate>07/10/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>William Marsh Rice University</Name>
+<CityName>Houston</CityName>
+<ZipCode>770051827</ZipCode>
+<PhoneNumber>7133484820</PhoneNumber>
+<StreetAddress>6100 MAIN ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>050299031</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WILLIAM MARSH RICE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>050299031</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[William Marsh Rice University]]></Name>
+<CityName>Houston</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>770051827</ZipCode>
+<StreetAddress><![CDATA[6100 S Main Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~400391</FUND_OBLG>
+<FUND_OBLG>2015~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The high-level goal of the project was to develop a resource management framework for the integrated allocation of multiple heterogeneous resources in a shared datacenter. Guaranteeing application-level performance requires jointly orchestrating many different types of resources; making isolated allocation decisions based on individual resource controls leads to poor system utilization since demands and availability across different resources are not coordinated. The project's aim is to develop resource allocation and scheduling algorithms for multiple resource types, with theoretical guarantees on performance and formal fairness properties.</p> <p>A new allocation algorithm known as Bottleneck Aware Allocation (BAA) was developed and applied to systems of Hard Disk Drives (HDDs) and Solid-State Drives (SSDs). Clients'&nbsp; workloads are characterized by the fraction of accesses to the SSDs. BAA computes the optimal allocation of HDD and SSD bandwidth for the competing clients to maximize the total system throughput while simultaneously guaranteeing the fairness properties of Envy Freedom and Sharing Incentive. The former property ensures that no clients can improve their throughput by swapping their allocation with another client, and the second guarantees that each client does at least as well as statically dividing each resource equally among the clients. The initial BAA algorithm used a Linear Programming optimization framework. In later work a much faster direct solution for two resources was developed with time complexity bounded by O(n log n) where n is the number of clients.</p> <p>A multi-resource allocation model (MAA) which allows clients to specify throughput reservations (minimum), limits (maximum), and shares (relative priorities), in a multiple resource setting was proposed, generalizing known models for a single resource. An efficient algorithm was developed for maximizing the system throughput in hybrid HDD/SSD storage, subject to the specified controls on reservation, limits, and shares. Two insights led to significantly reduced time complexity of the optimization algorithms: first by suitably ordering the resource dimensions it was possible to reduce the exponential search space to quadratic; then the quadratic search space was reduced to linear by exploiting a monotonicity property between solutions in different regions of the search space.</p> <p>A framework to perform fair time division in a hybrid storage system was developed, along with efficient allocation algorithms (TBAA). Partitioning of time rather than physical resources like bandwidth allows better client isolation when server capacity is itself dependent on the workload. In this model, each client is allocated a fraction of the time on each device and the throughput it gets depends only on its own workload characteristics. &nbsp;The allocations satisfy the fairness properties of Sharing Incentive, Envy Freedom and Local Fairness (clients bottlenecked on the same device get equal time on the bottleneck device). In the TBAA model there is a difference between maximizing system utilization and maximizing system throughput, which are identical goals in the original BAA model. Efficient allocation algorithms for both throughput and utilization was derived and formal proofs showing their optimality were derived. Experiments comparing TBBA with the Linux Completely Fair Scheduler (CFS) and multi-resource allocation schemes like Dominant Resource Fairness (DRF) were used to validate the advantages of TBAA. &nbsp;</p> <p>A generalized framework (GBAA) for allocating heterogeneous resources like CPU, memory and network bandwidth to a set of clients while maintaining fairness was developed. &nbsp;A formal model and allocation algorithms were developed. Experimental results from MATLAB simulations and actual implementation on a Linux server validated the theoretical claims. The GBAA model was also applied to the situation of fairly allocating bandwidth of different datacenter links to clients represented by clusters of communicating VMs. Scalable heuristics were also developed to place the VMs of a communicating cluster on a host network while meeting multiple resource constraints on CPU, memory and network overloading. The approach uses a genetic optimization algorithm (GA) along with using &nbsp;locality heuristics to create a good set of initial candidates for the GA.</p> <p>Allocation and scheduling algorithms providing coarse-grained reservation and limit controls in a distributed storage cluster were designed and evaluated. The solutions (bQueue and pShift) are based on periodic reallocation of tokens among servers and work in conjunction with a priority round-robin scheduler at the servers. Requests backed by reservation tokens are given priority by the scheduler while the limit tokens upper bound the number of IOs done in an allocation period. The bQueue approach introduced the model and used a max-flow based optimization algorithm. This was followed by the pShift algorithm that uses a novel allocation algorithm that is much faster than bQueue and is amenable to parallelization and approximation for further speedup.</p> <p>A female Ph.D. student and an MS student completed their degrees with this support. Another MS and Ph.D. student were partially supported in their continuing research. Several undergraduates performed research projects under the REU supplement.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/02/2019<br>      Modified by: Peter&nbsp;J&nbsp;Varman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The high-level goal of the project was to develop a resource management framework for the integrated allocation of multiple heterogeneous resources in a shared datacenter. Guaranteeing application-level performance requires jointly orchestrating many different types of resources; making isolated allocation decisions based on individual resource controls leads to poor system utilization since demands and availability across different resources are not coordinated. The project's aim is to develop resource allocation and scheduling algorithms for multiple resource types, with theoretical guarantees on performance and formal fairness properties.  A new allocation algorithm known as Bottleneck Aware Allocation (BAA) was developed and applied to systems of Hard Disk Drives (HDDs) and Solid-State Drives (SSDs). Clients'  workloads are characterized by the fraction of accesses to the SSDs. BAA computes the optimal allocation of HDD and SSD bandwidth for the competing clients to maximize the total system throughput while simultaneously guaranteeing the fairness properties of Envy Freedom and Sharing Incentive. The former property ensures that no clients can improve their throughput by swapping their allocation with another client, and the second guarantees that each client does at least as well as statically dividing each resource equally among the clients. The initial BAA algorithm used a Linear Programming optimization framework. In later work a much faster direct solution for two resources was developed with time complexity bounded by O(n log n) where n is the number of clients.  A multi-resource allocation model (MAA) which allows clients to specify throughput reservations (minimum), limits (maximum), and shares (relative priorities), in a multiple resource setting was proposed, generalizing known models for a single resource. An efficient algorithm was developed for maximizing the system throughput in hybrid HDD/SSD storage, subject to the specified controls on reservation, limits, and shares. Two insights led to significantly reduced time complexity of the optimization algorithms: first by suitably ordering the resource dimensions it was possible to reduce the exponential search space to quadratic; then the quadratic search space was reduced to linear by exploiting a monotonicity property between solutions in different regions of the search space.  A framework to perform fair time division in a hybrid storage system was developed, along with efficient allocation algorithms (TBAA). Partitioning of time rather than physical resources like bandwidth allows better client isolation when server capacity is itself dependent on the workload. In this model, each client is allocated a fraction of the time on each device and the throughput it gets depends only on its own workload characteristics.  The allocations satisfy the fairness properties of Sharing Incentive, Envy Freedom and Local Fairness (clients bottlenecked on the same device get equal time on the bottleneck device). In the TBAA model there is a difference between maximizing system utilization and maximizing system throughput, which are identical goals in the original BAA model. Efficient allocation algorithms for both throughput and utilization was derived and formal proofs showing their optimality were derived. Experiments comparing TBBA with the Linux Completely Fair Scheduler (CFS) and multi-resource allocation schemes like Dominant Resource Fairness (DRF) were used to validate the advantages of TBAA.    A generalized framework (GBAA) for allocating heterogeneous resources like CPU, memory and network bandwidth to a set of clients while maintaining fairness was developed.  A formal model and allocation algorithms were developed. Experimental results from MATLAB simulations and actual implementation on a Linux server validated the theoretical claims. The GBAA model was also applied to the situation of fairly allocating bandwidth of different datacenter links to clients represented by clusters of communicating VMs. Scalable heuristics were also developed to place the VMs of a communicating cluster on a host network while meeting multiple resource constraints on CPU, memory and network overloading. The approach uses a genetic optimization algorithm (GA) along with using  locality heuristics to create a good set of initial candidates for the GA.  Allocation and scheduling algorithms providing coarse-grained reservation and limit controls in a distributed storage cluster were designed and evaluated. The solutions (bQueue and pShift) are based on periodic reallocation of tokens among servers and work in conjunction with a priority round-robin scheduler at the servers. Requests backed by reservation tokens are given priority by the scheduler while the limit tokens upper bound the number of IOs done in an allocation period. The bQueue approach introduced the model and used a max-flow based optimization algorithm. This was followed by the pShift algorithm that uses a novel allocation algorithm that is much faster than bQueue and is amenable to parallelization and approximation for further speedup.  A female Ph.D. student and an MS student completed their degrees with this support. Another MS and Ph.D. student were partially supported in their continuing research. Several undergraduates performed research projects under the REU supplement.             Last Modified: 06/02/2019       Submitted by: Peter J Varman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

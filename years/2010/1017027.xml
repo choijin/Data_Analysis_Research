@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: SMALL: Practical Linear Types for Safe Protocols</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Software errors frequently arise because a component of the program does&lt;br/&gt;not correctly follow a well-defined protocol for accessing some stateful&lt;br/&gt;resource. Common examples include programs that misuse resource handles&lt;br/&gt;provided by the operating system, incorrectly deallocate the same memory&lt;br/&gt;or other resource multiple times, or fail to properly sequence calls to&lt;br/&gt;a complex program module. Such protocol violations lead to software&lt;br/&gt;crashes or unintended behavior, potentially with disastrous&lt;br/&gt;consequences.&lt;br/&gt;&lt;br/&gt;The project objective is to develop programming language technology to&lt;br/&gt;allows software developers to conveniently describe protocols over&lt;br/&gt;stateful resources. This technology will uncover such bugs at design&lt;br/&gt;time by statically checking whether the program is appropriately&lt;br/&gt;following the desired protocols, thereby ruling out the wide class of&lt;br/&gt;software flaws.  The new language mechanisms will be general purpose,&lt;br/&gt;practical, and suitable for use in a wide variety of applications&lt;br/&gt;ranging from memory management to traditional protocol implementation.&lt;br/&gt;The researchers will create a compiler infrastructure prototype and&lt;br/&gt;establish the correctness of the approach by a machine-checked proof of&lt;br/&gt;type soundness.  The primary broader impact of the project is the&lt;br/&gt;development of technology to help eliminate such programming errors&lt;br/&gt;early in the software-design life cycle to decrease the cost of building&lt;br/&gt;correct, reliable software.</AbstractNarration>
+<MinAmdLetterDate>09/16/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/16/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017027</AwardID>
+<Investigator>
+<FirstName>Stephan</FirstName>
+<LastName>Zdancewic</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Stephan A Zdancewic</PI_FULL_NAME>
+<EmailAddress>stevez@cis.upenn.edu</EmailAddress>
+<PI_PHON>2158982661</PI_PHON>
+<NSF_ID>000220116</NSF_ID>
+<StartDate>09/16/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Pennsylvania</Name>
+<CityName>Philadelphia</CityName>
+<ZipCode>191046205</ZipCode>
+<PhoneNumber>2158987293</PhoneNumber>
+<StreetAddress>Research Services</StreetAddress>
+<StreetAddress2><![CDATA[3451 Walnut St, 5th Flr Franklin]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042250712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042250712</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Pennsylvania]]></Name>
+<CityName>Philadelphia</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>191046205</ZipCode>
+<StreetAddress><![CDATA[Research Services]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The correctness of computer software often relies on whether certaincommunication protocols are adhered to by different components of thesystem. For example, one part of a program might need to requestaccess to a file provided by the operating system. Such a file canthen be read or written, but then must be closed by the program sothat the data can be stored properly and be available for other partsof the system. An erroneous program might inadvertently fail to closethe file, or it might try to close the file twice, either of which maycrash the program or cause the files to be unavailable to otherprocesses. Such communication patterns between the program and theoperating system constitute a protocol on file access: first open,then read and write (potentially many times), then close the file.</p> <p><br />This research investigated software engineering techniques, in theform of programming language type systems, that allow softwaredevelopers to specify protocols like the one in the file-systemexample explained above. The mechanisms studied, called "polymorphiclinear types", form a general foundation for building programs thatcan be automatically checked by a compiler to ensure that they adhereto the intended protocol.</p> <p><br />This research investigated both the simple case, like the file systemexample, in which the program interacts with other parts of the systemin a sequential way. &nbsp;It also investigated the more complex situationin which two parts of the program might be running concurrently. &nbsp;Thisresearch project developed the mathematical foundations for studyinglinear type systems for safe protocols, demonstrated many exampleapplications from software systems, and led to the proposal of newprogramming language features that would help software developers makeuse of this technology, thereby making it easier to develop less buggysoftware.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/01/2013<br>      Modified by: Stephan&nbsp;A&nbsp;Zdancewic</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The correctness of computer software often relies on whether certaincommunication protocols are adhered to by different components of thesystem. For example, one part of a program might need to requestaccess to a file provided by the operating system. Such a file canthen be read or written, but then must be closed by the program sothat the data can be stored properly and be available for other partsof the system. An erroneous program might inadvertently fail to closethe file, or it might try to close the file twice, either of which maycrash the program or cause the files to be unavailable to otherprocesses. Such communication patterns between the program and theoperating system constitute a protocol on file access: first open,then read and write (potentially many times), then close the file.   This research investigated software engineering techniques, in theform of programming language type systems, that allow softwaredevelopers to specify protocols like the one in the file-systemexample explained above. The mechanisms studied, called "polymorphiclinear types", form a general foundation for building programs thatcan be automatically checked by a compiler to ensure that they adhereto the intended protocol.   This research investigated both the simple case, like the file systemexample, in which the program interacts with other parts of the systemin a sequential way.  It also investigated the more complex situationin which two parts of the program might be running concurrently.  Thisresearch project developed the mathematical foundations for studyinglinear type systems for safe protocols, demonstrated many exampleapplications from software systems, and led to the proposal of newprogramming language features that would help software developers makeuse of this technology, thereby making it easier to develop less buggysoftware.           Last Modified: 11/01/2013       Submitted by: Stephan A Zdancewic]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

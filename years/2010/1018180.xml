@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Fighting Concurrency Bugs through Effect-Oriented Approaches</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>469488.00</AwardTotalIntnAmount>
+<AwardAmount>469488</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Among all types of software bugs, concurrency bugs in multi-threaded parallel programs are especially troublesome. They widely exist and are becoming increasingly severe due to the pervasiveness of multi-core machines. Existing approaches to detecting concurrency bugs mostly struggle at the complicated cause of concurrency bugs --- non-deterministic interaction among multiple threads in concurrent programs.&lt;br/&gt;&lt;br/&gt;This project aims to address the concurrency bug problem through an effect-oriented approach. Specifically, it will provide (1) a characteristic study and a deep understanding of the error propagation process of real-world concurrency bugs; (2) an effect-oriented bug detection and testing framework that can identify potential failures in a program and search for concurrency bugs leading to these failures through backward analysis; (3) a bug-fixing tool that leverages the error propagation information identified above and suggests patches to software developers; (4) a general effect-oriented philosophy that can guide other tools related to multi-threaded parallel programs. This research will improve our understanding of the dependability problem of concurrent software, provide substantial tool support to help lower software development and maintenance costs, and improve software users' everyday experience through faster and more reliable software on a wide spectrum of platforms.</AbstractNarration>
+<MinAmdLetterDate>07/22/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/22/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018180</AwardID>
+<Investigator>
+<FirstName>Shan</FirstName>
+<LastName>Lu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Shan Lu</PI_FULL_NAME>
+<EmailAddress>shanlu@cs.uchicago.edu</EmailAddress>
+<PI_PHON>7737023184</PI_PHON>
+<NSF_ID>000552962</NSF_ID>
+<StartDate>07/22/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Wisconsin-Madison</Name>
+<CityName>MADISON</CityName>
+<ZipCode>537151218</ZipCode>
+<PhoneNumber>6082623822</PhoneNumber>
+<StreetAddress>21 North Park Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 6401]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<StateCode>WI</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WI02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>161202122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WISCONSIN SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041188822</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Wisconsin-Madison]]></Name>
+<CityName>MADISON</CityName>
+<StateCode>WI</StateCode>
+<ZipCode>537151218</ZipCode>
+<StreetAddress><![CDATA[21 North Park Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WI02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~469488</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>With the pervasive use of multi-threaded software in the multi-core era, concurrency bugs (i.e., synchronization problems among multiple threads) are a huge threat to the availability and reliability of software systems everywhere. Unfortunately, due to the complicated root causes of concurrency bugs, previous techniques suffer from low accuracy in bug detection, high overhead in failure diagnosis and recovery, and provide no support for automated bug fixing.</p> <p>This project tackles the concurrency bug problem from a novel perspective --- the effect/error-propagation patterns of common real-world concurrency bugs. By understanding and leveraging the effect patterns, this project has made significant contributions to the state of the art in concurrency-bug detection, failure diagnosis, failure recovery, and fixing:</p> <p>- It designs effect-oriented <strong>detection tools</strong> that can automatically identify concurrency bugs with much higher accuracy than traditional tools and have found previously unknown concurrency bugs from real-world open-source software;</p> <p>- It provides low-overhead <strong>failure diagnosis tools</strong> that leverages hardware performance monitoring unit and cooperative failure diagnosis philosophy to help figure out the root causes of production-run failures with low run-time overhead;</p> <p>- It provides a featherweight effect-oriented <strong>failure recovery system</strong> that can automatically and transparently recover production-run software from concurrency-bug failures with non-perceivable run-time overhead on commodity systems;</p> <p>- It also pioneers automated <strong>bug fixing</strong> for one common type of concurrency bugs --- atomicity violations.</p> <p>The above techniques can help significantly improve the availability and reliability of multi-threaded software, and hence improve the daily experience of software users ---- with better bug detection tools, fewer bugs will escape to the field; with effective failure recovery, end users will rarely be bothered by the manifestation of concurrency bugs; with efficient failure diagnosis and automated bug fixing, the system down-town will be significantly reduced.</p> <p>The research results of this project have been disseminated through top-tier conference proceedings, research talks, benchmark dissemination, and others. Work from this project won ACM-SIGPLAN CACM Research Highlight Nomination. Tech-transfer for some of the techniques are under way.</p> <p>Two Ph.D. students, three master students, and three undergraduate students have gone through thorough training in this project and have graduated, becoming faculty member in academia, researcher in research lab, graduate students in top graduate programs, and software developer in software industry. Out-reach activities and teaching improvement based on this project are also conducted by the PI.&nbsp;</p><br> <p>            Last Modified: 10/22/2014<br>      Modified by: Shan&nbsp;Lu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ With the pervasive use of multi-threaded software in the multi-core era, concurrency bugs (i.e., synchronization problems among multiple threads) are a huge threat to the availability and reliability of software systems everywhere. Unfortunately, due to the complicated root causes of concurrency bugs, previous techniques suffer from low accuracy in bug detection, high overhead in failure diagnosis and recovery, and provide no support for automated bug fixing.  This project tackles the concurrency bug problem from a novel perspective --- the effect/error-propagation patterns of common real-world concurrency bugs. By understanding and leveraging the effect patterns, this project has made significant contributions to the state of the art in concurrency-bug detection, failure diagnosis, failure recovery, and fixing:  - It designs effect-oriented detection tools that can automatically identify concurrency bugs with much higher accuracy than traditional tools and have found previously unknown concurrency bugs from real-world open-source software;  - It provides low-overhead failure diagnosis tools that leverages hardware performance monitoring unit and cooperative failure diagnosis philosophy to help figure out the root causes of production-run failures with low run-time overhead;  - It provides a featherweight effect-oriented failure recovery system that can automatically and transparently recover production-run software from concurrency-bug failures with non-perceivable run-time overhead on commodity systems;  - It also pioneers automated bug fixing for one common type of concurrency bugs --- atomicity violations.  The above techniques can help significantly improve the availability and reliability of multi-threaded software, and hence improve the daily experience of software users ---- with better bug detection tools, fewer bugs will escape to the field; with effective failure recovery, end users will rarely be bothered by the manifestation of concurrency bugs; with efficient failure diagnosis and automated bug fixing, the system down-town will be significantly reduced.  The research results of this project have been disseminated through top-tier conference proceedings, research talks, benchmark dissemination, and others. Work from this project won ACM-SIGPLAN CACM Research Highlight Nomination. Tech-transfer for some of the techniques are under way.  Two Ph.D. students, three master students, and three undergraduate students have gone through thorough training in this project and have graduated, becoming faculty member in academia, researcher in research lab, graduate students in top graduate programs, and software developer in software industry. Out-reach activities and teaching improvement based on this project are also conducted by the PI.        Last Modified: 10/22/2014       Submitted by: Shan Lu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

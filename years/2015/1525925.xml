@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Collaborative Research:Variation-Resilient VLSI Systems with Cross-Layer Controlled Approximation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>210000.00</AwardTotalIntnAmount>
+<AwardAmount>210000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sankar Basu</SignBlockName>
+<PO_EMAI>sabasu@nsf.gov</PO_EMAI>
+<PO_PHON>7032927843</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Applications driven by human-computer interactions through the five human senses are projected to underpin the next generation of computing. For many of these applications, occasional small errors are often not only acceptable but also bring opportunities for building lighter, cheaper, and more robust systems that use less energy and may have a longer battery life. This project will study how to advance computing technology by allowing deliberate imprecision in hardware implementations through the notion of approximate computing.  The outcomes of this project will be a set of design techniques for approximate computing that can become a key component of hardware computing technology, potentially benefiting systems ranging from high performance computing for big data analytics and low power implementation for internet of things. This project will also provide an opportunity for training students with the latest design and computing technology.&lt;br/&gt; &lt;br/&gt;The research goals of this project are to create new approximate computing techniques to optimize a system at all stages of its life, from design-time to runtime, which can enable cross-layer control of performance-power-precision trade-offs. The research agenda consists of several components. First, new error models with different accuracy-complexity trade-offs will be developed. Second, new design-time optimization techniques, especially hardware resource scheduling and binding in high-level synthesis, will be studied with consideration of approximation, variation, and runtime circuit reconfiguration. Third, compile-time and operating-system-level task mapping/scheduling algorithms will be investigated to make the best use of circuits with various precisions. Last but not least, runtime precision control techniques will be explored in conjunction with dynamic voltage and frequency scaling in order to achieve a smooth trade-off between power and user experience.</AbstractNarration>
+<MinAmdLetterDate>07/29/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/29/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1525925</AwardID>
+<Investigator>
+<FirstName>Sachin</FirstName>
+<LastName>Sapatnekar</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sachin S Sapatnekar</PI_FULL_NAME>
+<EmailAddress>sachin@umn.edu</EmailAddress>
+<PI_PHON>6126250025</PI_PHON>
+<NSF_ID>000161507</NSF_ID>
+<StartDate>07/29/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Minnesota-Twin Cities</Name>
+<CityName>Minneapolis</CityName>
+<ZipCode>554552070</ZipCode>
+<PhoneNumber>6126245599</PhoneNumber>
+<StreetAddress>200 OAK ST SE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<StateCode>MN</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MN05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>555917996</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MINNESOTA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>117178941</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Minnesota-Twin Cities]]></Name>
+<CityName>Minneapolis</CityName>
+<StateCode>MN</StateCode>
+<ZipCode>554550170</ZipCode>
+<StreetAddress><![CDATA[200 Union St. SE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MN05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7945</Code>
+<Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~210000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Intellectual merits: In today's computing environment, many emerging applications are highly error-resilient and do not require absolute accuracy during computation. Examples of such applications include scenarios where computing interacts with the human end user (e.g., a small error in a pixel computation in an image is unnoticed by the user), or where the application is inherently robust to error (e.g., neural computation, where the task of classifying inputs such as images is unaffected by minor computation errors), or where an approximate result is better than no result (e.g., in a real-time system that operates under a deadline, but the exact result cannot be computed in time to meet the deadline). The key idea of this work is to exploit the reduced accuracy requirements in these scenarios to reduce the power dissipation of the system. The benefits of power reduction are numerous, e.g., in mobile applications, power reduction directly translates into extended battery life for the mobile platform such as a cellular phone.</p> <p>This project has developed methods for deploying approximate computing at the gate level, the block level, the system-design level, and the application level, enabling crosslayer optimization for power savings at minimal loss in quality or user experience, and deployed these on benchmark circuits and systems. The approaches have been applied to a variety of systems that perform functions such as image processing, neural computation, and real-time computing.</p> <p>Significant results from the project include the use of approximate computing in the following scenarios:</p> <ol> <li>Fast and accurate algorithms for the analysis of the error probability<br />distribution of multipliers through gate-level error propagation. The capacity of these methods surpass all prior approaches.</li> <li>Novel, fast, and efficient methods for the analysis of directed acyclic graphs containing adders and multipliers using transform calculus, enabling the gate-level solutions to be linked to register-transfer-level circuit descriptions.</li> <li>Optimization of directed acyclic graphs containing adders and multipliers,<br />and demonstration on audio samples.</li> <li>Dynamic approximation of JPEG hardware based on the properties of an input image, to enhance energy efficiency with minimal quality loss.</li> <li>Optimization of computations in real-time systems under deadline constraints.</li> <li>Power reduction of dedicated hardware for building convolutional neural networks (CNNs) for neural computation to recognize images in an automated manner.</li> </ol> <p>Broader impact: This project has resulted in the training of several graduate students, dissemination of the work through peer-reviewed publications in top venues. The two doctoral students supported on this project were all women, and both have graduated with a PhD, adding to the diversity of the workforce. During the duration of the project, the PI taught a special sophomore level class for Honors students titled "`How does my cell phone work?' and beyond: Engineering mobile wireless systems" which served to evangelize this topic among undergraduate students. About half of this class consisted of women students.</p> <p>&nbsp;</p><br> <p>            Last Modified: 08/13/2019<br>      Modified by: Sachin&nbsp;S&nbsp;Sapatnekar</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual merits: In today's computing environment, many emerging applications are highly error-resilient and do not require absolute accuracy during computation. Examples of such applications include scenarios where computing interacts with the human end user (e.g., a small error in a pixel computation in an image is unnoticed by the user), or where the application is inherently robust to error (e.g., neural computation, where the task of classifying inputs such as images is unaffected by minor computation errors), or where an approximate result is better than no result (e.g., in a real-time system that operates under a deadline, but the exact result cannot be computed in time to meet the deadline). The key idea of this work is to exploit the reduced accuracy requirements in these scenarios to reduce the power dissipation of the system. The benefits of power reduction are numerous, e.g., in mobile applications, power reduction directly translates into extended battery life for the mobile platform such as a cellular phone.  This project has developed methods for deploying approximate computing at the gate level, the block level, the system-design level, and the application level, enabling crosslayer optimization for power savings at minimal loss in quality or user experience, and deployed these on benchmark circuits and systems. The approaches have been applied to a variety of systems that perform functions such as image processing, neural computation, and real-time computing.  Significant results from the project include the use of approximate computing in the following scenarios:  Fast and accurate algorithms for the analysis of the error probability distribution of multipliers through gate-level error propagation. The capacity of these methods surpass all prior approaches. Novel, fast, and efficient methods for the analysis of directed acyclic graphs containing adders and multipliers using transform calculus, enabling the gate-level solutions to be linked to register-transfer-level circuit descriptions. Optimization of directed acyclic graphs containing adders and multipliers, and demonstration on audio samples. Dynamic approximation of JPEG hardware based on the properties of an input image, to enhance energy efficiency with minimal quality loss. Optimization of computations in real-time systems under deadline constraints. Power reduction of dedicated hardware for building convolutional neural networks (CNNs) for neural computation to recognize images in an automated manner.   Broader impact: This project has resulted in the training of several graduate students, dissemination of the work through peer-reviewed publications in top venues. The two doctoral students supported on this project were all women, and both have graduated with a PhD, adding to the diversity of the workforce. During the duration of the project, the PI taught a special sophomore level class for Honors students titled "`How does my cell phone work?' and beyond: Engineering mobile wireless systems" which served to evangelize this topic among undergraduate students. About half of this class consisted of women students.          Last Modified: 08/13/2019       Submitted by: Sachin S Sapatnekar]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

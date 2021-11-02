@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: HCC: Medium: Differentiable Rendering for Computer Graphics</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2025</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ephraim Glinert</SignBlockName>
+<PO_EMAI>eglinert@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Creating realistic images in computer graphics has historically relied on accurately computing the values at each point or pixel in the image based on physically accurate simulation of lighting in the scene, but recently it has become clear that simply computing image values is not adequate. One needs to also be able to understand how these values change with changes in the environment, for example as the sun moves across the sky, a door is opened letting light into the scene, or the material properties of an object are gradually changed from velvet to metallic.  Mathematically, this involves computing the derivatives of the image to determine how it changes with respect to the input parameters.  This research will create a class of differentiable renderers that compute both images and their derivatives.  Project outcomes will have broad impact because the computation of derivatives is increasingly central to many areas of computer graphics, computer vision, robotics and machine learning, with potential benefit to applications as diverse as perception control in self-driving cars and robots, optimization of indoor lighting for architecture, fabrication of 3D objects with a desired appearance, statistics and epidemiology.  Additional impact will derive from the fact that the PIs are educators committed to broadening participation in computing who participate in early research scholars programs and will develop new online courses in rendering.&lt;br/&gt;&lt;br/&gt;Computing the derivatives or gradients of general light transport involves tackling fundamental challenges of differential calculus, Monte Carlo integration, signal processing, automatic differentiation, and metaprogramming systems.  One challenge is in handling discontinuities of various forms, which lead to Dirac delta terms that require careful and analytic treatment that cannot be provided by traditional automatic differentiation.  Even for the smooth variation, computing gradients involves a large number of intermediate variables that necessitate tradeoffs across bias, variance, compute and memory.  Moreover, full generality requires differentiable rendering in new representations such as implicit surfaces and procedural materials, as well as new problem domains such as transient rendering for non-line-of-sight imaging and geometrical diffraction for acoustics.  One also needs to effectively apply the gradients for optimization in inverse problems.  This project will develop a broad transformative agenda, seeking to enable differentiable renderers to efficiently reconstruct billions of varied primitives from millions of pixels under general and diverse light transport situations.  The research plan consists of four interconnected components involving computational foundations and efficient algorithms for solving visibility gradients including: analytic and area sampling methods; a unified system for exploring computational and memory tradeoffs in differentiable rendering algorithms; generalizations to new physical phenomena such as transient rendering and geometrical diffraction; and advances in inverse problems and deep learning including new approaches to continuous optimization involving Euler-Lagrange equations.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/14/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>06/14/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2105819</AwardID>
+<Investigator>
+<FirstName>Fredo</FirstName>
+<LastName>Durand</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Fredo Durand</PI_FULL_NAME>
+<EmailAddress>fredo@graphics.lcs.mit.edu</EmailAddress>
+<PI_PHON>6172537223</PI_PHON>
+<NSF_ID>000107364</NSF_ID>
+<StartDate>06/14/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[Massachusetts Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7367</Code>
+<Text>HCC-Human-Centered Computing</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7367</Code>
+<Text>Cyber-Human Systems</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~400000</FUND_OBLG>
+</Award>
+</rootTag>

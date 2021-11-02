@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER:   Collaborative Research:  Inverse Procedural Material Modeling for Battery Design</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>100000.00</AwardTotalIntnAmount>
+<AwardAmount>100000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Maria Zemankova</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Nearly all portable electronic devices commonly used today -- cameras, phones, music players and the like -- rely on rechargeable Lithium-ion batteries. Improvements in the capabilities of these devices can be achieved by improving the design of these batteries. This work will produce new computational methods for designing batteries with desirable properties such as high power output and long lifespan. The new computational methods will use techniques that have successfully described complex volumetric structures (such as porous rocks and sponges) in computer graphics for film and games. These computer graphics techniques will be applied to describing the materials in batteries. Instead of focusing on finding volumetric structures that give the correct visual appearance, the new computational methods will focus on structures that produce the correct performance characteristics such as power density. The new volumetric descriptions will be used to generate a large number of potential volumetric materials, and these models will be characterized in terms of battery properties and performance. Using recently developed machine learning techniques, this large number of potential models will be converted into a form that is convenient to use in battery design. In addition to providing tools to create improved portable batteries, the new computational methods have the potential to be further extended and applied to other problems involving materials with complex volumetric structure such as understanding geologic measurements and designing conservation strategies for cultural heritage monuments and artifacts.&lt;br/&gt;&lt;br/&gt;A straightforward approach to battery design is to theorize material microstructures, run forward simulations to assess their performance, and evaluate the results. However, simulations require hours (up to 50 hours on current multi-core systems for power density calculations), making forward simulation prohibitively expensive for iterative design. The design process can be dramatically improved if an inverse function is available that can produce a microstructure description given desired performance characteristics. Barriers to creating such an inverse function are the complexity of microstructure descriptions and the relationship between structure and performance. To create an inverse function, we need a microstructure description that is lower in dimension than a full enumeration of a high-resolution grid. A procedural model can provide such a lower dimensional description. The approach explored in this project for finding appropriate procedural models is based on combining and transforming models that have been successful in other problem domains to fit data from real battery material measurements. Given an appropriate procedural model, the design problem is reduced to determining the procedural model parameters that generate the input; a problem called "inverse procedural modeling". Even with a compact microstructure description, the problem is too complex to be mathematically inverted. Rather than attempt to find a mathematical function, machine learning (deep neural networks) are used. A database of microstructures and their performance characteristics will be populated synthetically with example microstructures computed from a large sampling of procedural model parameters. Forward simulations will be run on these samples to compute properties (tortuosity and area density) and performance characteristics (power and energy density.) Machine learning optimizations will then be used to find the relationship between model parameters and performance characteristics and this relationship will be used in the design process. The overall method of finding procedural models to fit data and then learning the relationships from synthetic data generated from the models brings the power of new data-driven approaches to the domain of battery design. The software, data and publications resulting from this project will be available at the project website (http://hpcg.purdue.edu/Eager2018/).</AbstractNarration>
+<MinAmdLetterDate>07/26/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>07/26/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1747522</AwardID>
+<Investigator>
+<FirstName>Holly</FirstName>
+<LastName>Rushmeier</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Holly Rushmeier</PI_FULL_NAME>
+<EmailAddress>rushmeier@cs.yale.edu</EmailAddress>
+<PI_PHON>2034324091</PI_PHON>
+<NSF_ID>000179012</NSF_ID>
+<StartDate>07/26/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Yale University</Name>
+<CityName>New Haven</CityName>
+<ZipCode>065208327</ZipCode>
+<PhoneNumber>2037854689</PhoneNumber>
+<StreetAddress>Office of Sponsored Projects</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 208327]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<StateCode>CT</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CT03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>043207562</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>YALE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>043207562</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Yale University]]></Name>
+<CityName>New Haven</CityName>
+<StateCode>CT</StateCode>
+<ZipCode>065208285</ZipCode>
+<StreetAddress><![CDATA[AKW Watson Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CT03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1765</Code>
+<Text>CONDENSED MATTER &amp; MAT THEORY</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7726</Code>
+<Text>Data Cyberinfrastructure</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8092</Code>
+<Text>Materials Eng. &amp; Processing</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>023E</Code>
+<Text>STRUCTURE OF MATERIALS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>077E</Code>
+<Text>SIMULATION MODELS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8396</Code>
+<Text>Clean Energy Technology</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8399</Code>
+<Text>Energy Storage or Transmission</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~100000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this work, performed in collaboration with researchers at Purdue University, has been to develop tools that will facilitate the design batteries with improved functional properties. We focused on graphite-based batteries that are used in a wide variety of portable electronics for both consumer and defense applications. Improved battery design will result in lighter weight products which can operate longer periods before recharging is necessary.</p> <p>&nbsp;</p> <p>The approach we have used to develop novel tools is to combine ideas from computer graphics and machine learning with models from material science. Computer graphics is concerned with the definition of objects and scenes to generate new images, with major applications being film and games. One class of methods that has been developed in computer graphics is procedural modeling of complicated 3D volumetric materials, such sponges or aggregate building materials. These methods allow a user to specify a small number of parameters to generate a wide variety of geometric models.&nbsp; Machine learning is concerned with developing complicated mathematical relationships between variables from large quantities of data. &nbsp;In particular, deep convolutional neural networks (CNN) have been used successfully for this task.&nbsp; In our work, we compute properties of complex geometric models of battery material computed from procedural models, using mathematical models of functional performance from material science. We compute these efficiently so that we can create a large synthetic data base to be used in machine learning of the complicated functional relationships. The final design tools will allow the synthesis of improved battery designs by inverting the relationships from machine learning.</p> <p>&nbsp;</p> <p>The work has proceeded in three parts ? generating volumetric models, generating a synthetic data base of structures and properties, and developing deep networks. In the first part, an efficient procedural generator for volumes composed of ellipsoidal particles has been developed that produces results in a voxel format. The description in voxel format is then used in a rapid simulation of key battery properties such as directionally dependent tortuosity and reactive area density. The simulation code, developed by the Purdue team for this project, is orders of magnitude faster than previous simulation techniques. The volume generation methods and simulations are then used for the second part to create a synthetic data base of structures with associated properties. This data base was then used to train a CNN to predict functional properties from 2D cross sections of battery material. The CNN was found to predict properties in good agreement with full simulations on 3D structures. Based on this success with the CNN, the development of a Generative Adversarial Network for predicting 3D structures from the specification of functional properties. This work is being continued by the Purdue team.</p> <p>&nbsp;</p> <p>The work has successfully produced new algorithms and software for creating new battery structures and simulating their performance. Machine learning techniques have been developed and tested that allow the evaluation of designs in a fraction of the time previously possible. The building blocks for a new machine learning approach for battery design are in place. Graduate students and post-docs in computer and material science have successfully collaborated to produce these results.</p><br> <p>            Last Modified: 11/27/2018<br>      Modified by: Holly&nbsp;Rushmeier</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this work, performed in collaboration with researchers at Purdue University, has been to develop tools that will facilitate the design batteries with improved functional properties. We focused on graphite-based batteries that are used in a wide variety of portable electronics for both consumer and defense applications. Improved battery design will result in lighter weight products which can operate longer periods before recharging is necessary.     The approach we have used to develop novel tools is to combine ideas from computer graphics and machine learning with models from material science. Computer graphics is concerned with the definition of objects and scenes to generate new images, with major applications being film and games. One class of methods that has been developed in computer graphics is procedural modeling of complicated 3D volumetric materials, such sponges or aggregate building materials. These methods allow a user to specify a small number of parameters to generate a wide variety of geometric models.  Machine learning is concerned with developing complicated mathematical relationships between variables from large quantities of data.  In particular, deep convolutional neural networks (CNN) have been used successfully for this task.  In our work, we compute properties of complex geometric models of battery material computed from procedural models, using mathematical models of functional performance from material science. We compute these efficiently so that we can create a large synthetic data base to be used in machine learning of the complicated functional relationships. The final design tools will allow the synthesis of improved battery designs by inverting the relationships from machine learning.     The work has proceeded in three parts ? generating volumetric models, generating a synthetic data base of structures and properties, and developing deep networks. In the first part, an efficient procedural generator for volumes composed of ellipsoidal particles has been developed that produces results in a voxel format. The description in voxel format is then used in a rapid simulation of key battery properties such as directionally dependent tortuosity and reactive area density. The simulation code, developed by the Purdue team for this project, is orders of magnitude faster than previous simulation techniques. The volume generation methods and simulations are then used for the second part to create a synthetic data base of structures with associated properties. This data base was then used to train a CNN to predict functional properties from 2D cross sections of battery material. The CNN was found to predict properties in good agreement with full simulations on 3D structures. Based on this success with the CNN, the development of a Generative Adversarial Network for predicting 3D structures from the specification of functional properties. This work is being continued by the Purdue team.     The work has successfully produced new algorithms and software for creating new battery structures and simulating their performance. Machine learning techniques have been developed and tested that allow the evaluation of designs in a fraction of the time previously possible. The building blocks for a new machine learning approach for battery design are in place. Graduate students and post-docs in computer and material science have successfully collaborated to produce these results.       Last Modified: 11/27/2018       Submitted by: Holly Rushmeier]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

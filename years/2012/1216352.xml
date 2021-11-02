@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Simulation of Multicore Processors with One (or More) Fast Core(s) Using Wind River SIMICS</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>499999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The most important task for scientific computing is to plan the way forward from the current era of multicore microprocessors implemented in deeply submicron CMOS.    This has to be done in such a way that performance improvements are guaranteed.  Otherwise the escalating costs of fabrication at the nanometer scale will not be sustainable.   Heterogeneous multiple core microprocessors face several major problems, not the least of which is codified in Amdahl?s Law, which shows that even relatively small amounts of serial or low-parallelism code can limit the gains that are possible.  It is clear that the ultimate way to circumvent this dilemma is to greatly accelerate the serial code using a high clock rate unit (HCRU) core using a ?beyond-CMOS? device approach.  Past research suggests that clock rates of 20-30 GHz are possible for many key components using BiCMOS, but 3D technology is needed to mitigate memory wall problems. This research explores a brand new 90nm IBM SiGe HBT (300GHz fT) BiCMOS process to accomplish this goal while trading excess speed for 4X lower power. The strategy will be to redesign certain critical components of a computer in this new process to verify that the same high speed is obtained at a lower power.   The second thrust of the project is to verify by high-level simulation that the execution of serial code at a high clock rate will in fact result in the expected improvement in performance.  This is to be conducted using the Wind River SIMICS simulation package.</AbstractNarration>
+<MinAmdLetterDate>08/28/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/28/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1216352</AwardID>
+<Investigator>
+<FirstName>John</FirstName>
+<LastName>McDonald</LastName>
+<PI_MID_INIT>F</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>John F McDonald</PI_FULL_NAME>
+<EmailAddress>mcdonald@unix.cie.rpi.edu</EmailAddress>
+<PI_PHON>5182762919</PI_PHON>
+<NSF_ID>000116086</NSF_ID>
+<StartDate>08/28/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Rensselaer Polytechnic Institute</Name>
+<CityName>Troy</CityName>
+<ZipCode>121803522</ZipCode>
+<PhoneNumber>5182766000</PhoneNumber>
+<StreetAddress>110 8TH ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY20</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002430742</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RENSSELAER POLYTECHNIC INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002430742</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Rensselaer Polytechnic Institute]]></Name>
+<CityName>Troy</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>121803522</ZipCode>
+<StreetAddress><![CDATA[110 8th St.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY20</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1714</Code>
+<Text>SPECIAL PROJECTS - CISE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~499999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Amdahl's Law addresses one of the limitations on parallel processing, namely the presence of serial or low parallelizable code content. &nbsp;In the event that all the parallelizable code is fully parallelized to the extent that its run time is near zero, what remains is the unparallizable or serial code. &nbsp;If this code is 20-30% of the total mix of code, then the best one can hope for is improvement by a factor of 3-5 with an infinite number of parallel nodes. &nbsp;This of course is a result for idealized assumptions, and in reality, thread management, and other burdens of parallelization can further degrade the result. &nbsp;In an effort to speed up serial code or low parallelizable code a high clock rate computer has been pursued. &nbsp;This study obtained realistic performance improvement factors for real code running on real operating systems using SIMICS. &nbsp;Various assumptions about the ratio of the serial code clock rate to the parallelizable code clock rate per node were studied and in all cases the performance improvement was clear. &nbsp;This work built upon earlier work in which key components of a high clock rate serial code accelerator were designed, fabricated and tested using IBM's SiGe HBT BiCMOS process. &nbsp;As expected huge speedups are seen since the serial code, being the only code left after fully parallalizing, ran faster still on the high speed node. &nbsp;This idea is seen in the INTEL Turbo mode, but not fully exploited since CMOS alone cannot accomplish the goal of 10X higher clock rates. &nbsp;The SiGe HBT can do this but with the existing vertical device the power level is too high to be practical. This vertical device is a victim of its own simplicity in that no effort was expended to do aggressive lateral scaling. &nbsp;As a result huge currents are needed to switch the lateral parasitics. &nbsp;During the course of this investigation a study of an old idea, going back to 1960, the lateral bipolar device on SOI was explored at contemporary lithography dimensions of 33nm. &nbsp;Additionally another contemporary idea of using Ge in the lateral bipolar base created much higher beta's and much faster devices at current levels that could be 100 times lower than the vertical device. So a 1600 watt microprocessor using using the vertical device &nbsp;would only be 16 watts and run at 10GHz or faster using the lateral device. &nbsp;Furthermore the device study has now been extended to shorter base lengths and at 22nm the npn device has an fT of 1.5THZ, and the pnp has a fT of 1.2 THz. &nbsp;I2L circuits could be devised using this technology that would run at even lower power levels and exhibit enormous speed and wire capacitance driving capability. &nbsp;In addition, as Tak Ning noted in one of his publications the turn on characteristic is exponential, guaranteeing low leakage. &nbsp;As a result the next phase of the research is directed towards developing circuit simulation models of these devices so that one can begin looking at computer circuits built using this technology. &nbsp;In short this is the breakthrough we have all been looking for, a way to accelerate serial code with something that is CMOS compatible, even BiCMOS compatible, and which can be co-integrated with contemporary CMOS using concepts like the FINbipolar in a FINFET processing line, all at a much lower power level. &nbsp; As a side benefit all sorts of mixed signal and analog applications would also benefit. &nbsp;As a second side benefit this high speed at low power might encourage more incorporation of key operations into hardware to strenthen cybersecurity, a problem we will all face in the emerging cyber aware hostile world.</p><br> <p>            Last Modified: 10/04/2016<br>      Modified by: John&nbsp;F&nbsp;Mcdonald</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475617086683_ScreenShot2016-10-04at5.35.03PM--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475617086683_ScreenShot2016-10-04at5.35.03PM--rgov-800width.jpg" title="Summary"><img src="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475617086683_ScreenShot2016-10-04at5.35.03PM--rgov-66x44.jpg" alt="Summary"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The lateral SiGe HBT opens the door to much higher computing speeds at modest power levels, with which one can expect to accelerate serial code, and address the problems of Amdahl's Law.  This approach will clearly also need 3D integration for memory wall mitigation,  but industry is committed to 3D</div> <div class="imageCredit">J. F. McDonald</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">John&nbsp;F&nbsp;Mcdonald</div> <div class="imageTitle">Summary</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475615649656_ScreenShot2016-10-04at5.07.02PM--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475615649656_ScreenShot2016-10-04at5.07.02PM--rgov-800width.jpg" title="THz Lateral SiGe HBT on SOI to Address Amdahl&rsquo;s Law"><img src="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475615649656_ScreenShot2016-10-04at5.07.02PM--rgov-66x44.jpg" alt="THz Lateral SiGe HBT on SOI to Address Amdahl&rsquo;s Law"></a> <div class="imageCaptionContainer"> <div class="imageCaption">In a 1967 AFIPS paper Gene Amdahl published his now famous Law, which in effect states that unless Serial Code can be sped up in hardware, or reduced by clever programming - parallelism will fail.  While clever programming helped many algorithms, a half century laterAmdahl's Law is still a problem.</div> <div class="imageCredit">J. F. McDoanld</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">John&nbsp;F&nbsp;Mcdonald</div> <div class="imageTitle">THz Lateral SiGe HBT on SOI to Address Amdahl?s Law</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475615907548_ScreenShot2016-10-04at5.14.27PM--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475615907548_ScreenShot2016-10-04at5.14.27PM--rgov-800width.jpg" title="Amdahl&rsquo;s Figure of Merit"><img src="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475615907548_ScreenShot2016-10-04at5.14.27PM--rgov-66x44.jpg" alt="Amdahl&rsquo;s Figure of Merit"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Run time without parallelism divided by Run Time with Parallelism.  No noticeable improvement till S is less than 4%</div> <div class="imageCredit">J. F. McDonald</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">John&nbsp;F&nbsp;Mcdonald</div> <div class="imageTitle">Amdahl?s Figure of Merit</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616233220_ScreenShot2016-10-04at5.20.52PM--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616233220_ScreenShot2016-10-04at5.20.52PM--rgov-800width.jpg" title="Lateral SiGe HBT on SOI for THz Logic"><img src="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616233220_ScreenShot2016-10-04at5.20.52PM--rgov-66x44.jpg" alt="Lateral SiGe HBT on SOI for THz Logic"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Lateral SiGe HBT offers very similar fabrication to CMOS but offers THz Speed and excellent wire capacitance driving capability at modest power levels due to lateral scaling</div> <div class="imageCredit">J. F. McDoanld</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">John&nbsp;F&nbsp;Mcdonald</div> <div class="imageTitle">Lateral SiGe HBT on SOI for THz Logic</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616498800_ScreenShot2016-10-04at5.24.44PM--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616498800_ScreenShot2016-10-04at5.24.44PM--rgov-800width.jpg" title="Comparison of fT for graded vs non graded Ge base"><img src="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616498800_ScreenShot2016-10-04at5.24.44PM--rgov-66x44.jpg" alt="Comparison of fT for graded vs non graded Ge base"></a> <div class="imageCaptionContainer"> <div class="imageCaption">28nm NPN Ft Increases with 5-25% Ge Alloy Grading for the Base of the Lateral SiGe HBT on SOI, and shows a roughly 1.5V BVceo</div> <div class="imageCredit">J. F. McDonald</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">John&nbsp;F&nbsp;Mcdonald</div> <div class="imageTitle">Comparison of fT for graded vs non graded Ge base</div> </div> </li> <li> <a href="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616717757_ScreenShot2016-10-04at5.28.26PM--rgov-214x142.jpg" original="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616717757_ScreenShot2016-10-04at5.28.26PM--rgov-800width.jpg" title="Net Projected  Improvements"><img src="/por/images/Reports/POR/2016/1216352/1216352_10206951_1475616717757_ScreenShot2016-10-04at5.28.26PM--rgov-66x44.jpg" alt="Net Projected  Improvements"></a> <div class="imageCaptionContainer"> <div class="imageCaption">10GHz HCRU for Various Numbers (2-8) of 2 GHz CMOS Cores Using Wind River SIMICS</div> <div class="imageCredit">J. F. McDonald</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">John&nbsp;F&nbsp;Mcdonald</div> <div class="imageTitle">Net Projected  Improvements</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Amdahl's Law addresses one of the limitations on parallel processing, namely the presence of serial or low parallelizable code content.  In the event that all the parallelizable code is fully parallelized to the extent that its run time is near zero, what remains is the unparallizable or serial code.  If this code is 20-30% of the total mix of code, then the best one can hope for is improvement by a factor of 3-5 with an infinite number of parallel nodes.  This of course is a result for idealized assumptions, and in reality, thread management, and other burdens of parallelization can further degrade the result.  In an effort to speed up serial code or low parallelizable code a high clock rate computer has been pursued.  This study obtained realistic performance improvement factors for real code running on real operating systems using SIMICS.  Various assumptions about the ratio of the serial code clock rate to the parallelizable code clock rate per node were studied and in all cases the performance improvement was clear.  This work built upon earlier work in which key components of a high clock rate serial code accelerator were designed, fabricated and tested using IBM's SiGe HBT BiCMOS process.  As expected huge speedups are seen since the serial code, being the only code left after fully parallalizing, ran faster still on the high speed node.  This idea is seen in the INTEL Turbo mode, but not fully exploited since CMOS alone cannot accomplish the goal of 10X higher clock rates.  The SiGe HBT can do this but with the existing vertical device the power level is too high to be practical. This vertical device is a victim of its own simplicity in that no effort was expended to do aggressive lateral scaling.  As a result huge currents are needed to switch the lateral parasitics.  During the course of this investigation a study of an old idea, going back to 1960, the lateral bipolar device on SOI was explored at contemporary lithography dimensions of 33nm.  Additionally another contemporary idea of using Ge in the lateral bipolar base created much higher beta's and much faster devices at current levels that could be 100 times lower than the vertical device. So a 1600 watt microprocessor using using the vertical device  would only be 16 watts and run at 10GHz or faster using the lateral device.  Furthermore the device study has now been extended to shorter base lengths and at 22nm the npn device has an fT of 1.5THZ, and the pnp has a fT of 1.2 THz.  I2L circuits could be devised using this technology that would run at even lower power levels and exhibit enormous speed and wire capacitance driving capability.  In addition, as Tak Ning noted in one of his publications the turn on characteristic is exponential, guaranteeing low leakage.  As a result the next phase of the research is directed towards developing circuit simulation models of these devices so that one can begin looking at computer circuits built using this technology.  In short this is the breakthrough we have all been looking for, a way to accelerate serial code with something that is CMOS compatible, even BiCMOS compatible, and which can be co-integrated with contemporary CMOS using concepts like the FINbipolar in a FINFET processing line, all at a much lower power level.   As a side benefit all sorts of mixed signal and analog applications would also benefit.  As a second side benefit this high speed at low power might encourage more incorporation of key operations into hardware to strenthen cybersecurity, a problem we will all face in the emerging cyber aware hostile world.       Last Modified: 10/04/2016       Submitted by: John F Mcdonald]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

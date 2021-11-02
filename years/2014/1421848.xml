@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF:Small:Collaborative Research:Efficient Codes and their Performance Limits for Distributed Storage Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>162699.00</AwardTotalIntnAmount>
+<AwardAmount>162699</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+<PO_EMAI>pregalia@nsf.gov</PO_EMAI>
+<PO_PHON>7032922981</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The explosive growth of data being generated and collected has rekindled interest in efficient means of storing such data.  Large data centers and distributed storage systems have become more widespread, playing an ever-increasing role in our everyday computational tasks.  While a data center should never lose data, disk failures occur on a daily basis as confirmed by the industry statistics. Methods and ideas from error correcting codes developed in this project enable the system to provide better guarantees against data loss as well as to reduce the amount of data that needs to be moved in order to enable recovery of information lost due to disk failures. Another related goal of this project is the reduction of storage overhead needed to support the recovery procedures. These goals are accomplished by relying on algebraic methods of constructing the data encoding procedures as well as on novel algorithms of data exchange and recovery. Overall the research performed in the course of this project contributes to the development of more efficient data management procedures in large-scale distributed storage systems.&lt;br/&gt;&lt;br/&gt;This project puts forward new algebraic procedures for data encoding and recovery that enables one to achieve tradeoff between overhead and repair bandwidth based on the concept of local recovery.  The project studies both the case of recovering from a single disk loss, which is the most frequent problem in systems, as well as from the failure of multiple disks, addressing the problem of correcting one erasure as well as multiple erasures in data encoding. New bounds on the distance of codes with the locality requirement derived in this research are attained with new constructions of optimal locally recoverable codes equipped with simple recovery procedures. The project also addresses the problem of simultaneous recovery of data from multiple locations, enhancing data availability in large-scale distributed storage systems which are a key backbone component of the 21st century economy.</AbstractNarration>
+<MinAmdLetterDate>07/22/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>05/16/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421848</AwardID>
+<Investigator>
+<FirstName>P. Vijay</FirstName>
+<LastName>Kumar</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>P. Vijay Kumar</PI_FULL_NAME>
+<EmailAddress>vijayk@usc.edu</EmailAddress>
+<PI_PHON>2137404668</PI_PHON>
+<NSF_ID>000468293</NSF_ID>
+<StartDate>07/22/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Southern California</Name>
+<CityName>Los Angeles</CityName>
+<ZipCode>900890001</ZipCode>
+<PhoneNumber>2137407762</PhoneNumber>
+<StreetAddress>University Park</StreetAddress>
+<StreetAddress2><![CDATA[3720 S. Flower St.]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA37</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072933393</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF SOUTHERN CALIFORNIA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072933393</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Southern California]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900892565</ZipCode>
+<StreetAddress><![CDATA[3740 McClintock Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA37</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~162699</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This NSF project is concerned with coding for distributed storage, a field of research originating in the 2008 time frame.&nbsp; Research under the project has contributed significantly to advancing the field.&nbsp; &nbsp;There are two broad classes of codes for distributed storage: regenerating codes and codes with locality.&nbsp; &nbsp;Both are concerned with the storage of large amounts of data as takes place in a large-scale data center.&nbsp; The concern here is that while traditional erasure codes are efficient at recovering the entire codeword in the presence of symbol erasures, they are not quite that efficient when it comes to the erasure of a single code symbol.&nbsp; In the setting of a data center, this would correspond to the failure of a single node or storage unit.&nbsp; Each storage unit could store Terabytes of data.&nbsp;&nbsp;</p> <p>Efficiency of node repair is measured in terms of several parameters.&nbsp; The two principal parameters are the repair bandwidth and the repair degree.&nbsp; The repair bandwidth is a reference to the total number of symbols that need to be downloaded to repair a failed node.&nbsp; &nbsp;The repair degree is the total number of nodes that need to be contacted for node repair.&nbsp; Regenerating codes (RGC) are codes that offer the least possible repair bandwidth while locally recoverable codes (LRC) offer the least possible repair degree.&nbsp; &nbsp;RGCs are codes over a vector alphabet, thus each code symbol is a vector of "a" symbols over a finite field.&nbsp; The parameter "a" is called the sub-packetization level.&nbsp; There is interest within the class of regenerating codes in minimizing both "a" as well as the number of symbols accessed at a helper node.&nbsp;&nbsp;</p> <p>Principal results of the project include making progress (in stages) at constructing efficient high-rate regenerating codes culminating in the construction of the Clay code, that is optimal in four respects: simultaneously achieving least-possible values of storage overhead, repair bandwidth, sub-packetization level and number of symbols accessed.&nbsp; The Clay code was first discovered by Ye and Barg and then subsequently by our team independently two months later.&nbsp; Both teams collaborated in a successful submission to the FAST 2018 conference.&nbsp; There has been interest in the Clay code from industry including from Uber and Salesforce.&nbsp; Our team has been able to incorporate the Clay code as an erasure-code plugin for a development version of Ceph (please see <a href="https://docs.ceph.com/docs/master/rados/operations/erasure-code-clay/">https://docs.ceph.com/docs/master/rados/operations/erasure-code-clay/</a>).&nbsp;</p> <p>A tight upper bound on the sub-packetization level of an optimal-access RGC developed under this project was used to prove optimality with respect to sub-packetization level of the Clay code.&nbsp;</p> <p>In the direction of LRC, work under the project led to the development of hierarchical LRC.&nbsp; These codes allow the concept of LRC to scale with block length.&nbsp; &nbsp; The group contributed significantly to the development of the theory of LRC for two erasures, leading to a publication on the topic in the IEEE Transactions on Information Theory.&nbsp; In the general case of multiple erasures, the group pioneered the construction of codes with sequential recovery leading to the proof of a conjecture and a tight upper bound with matching constructions for codes with sequential recovery.&nbsp; This paper was a finalist for the 2017 IEEE International Symposium on Information Theory's (ISIT) Jack Wolf Student Paper Award.&nbsp;</p> <p>Work carried out under the project is well cited, and has been widely disseminated.&nbsp; There was an invited (plenary) talk at ISIT 2015, and at workshops worldwide including: Gothenberg, Adelaide, London, Atlanta and Paris.&nbsp; An invited&nbsp; 45-page survey article on the topic has also appeared in Science China Information Sciences.&nbsp;</p><br> <p>            Last Modified: 11/30/2019<br>      Modified by: P. Vijay&nbsp;Kumar</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This NSF project is concerned with coding for distributed storage, a field of research originating in the 2008 time frame.  Research under the project has contributed significantly to advancing the field.   There are two broad classes of codes for distributed storage: regenerating codes and codes with locality.   Both are concerned with the storage of large amounts of data as takes place in a large-scale data center.  The concern here is that while traditional erasure codes are efficient at recovering the entire codeword in the presence of symbol erasures, they are not quite that efficient when it comes to the erasure of a single code symbol.  In the setting of a data center, this would correspond to the failure of a single node or storage unit.  Each storage unit could store Terabytes of data.    Efficiency of node repair is measured in terms of several parameters.  The two principal parameters are the repair bandwidth and the repair degree.  The repair bandwidth is a reference to the total number of symbols that need to be downloaded to repair a failed node.   The repair degree is the total number of nodes that need to be contacted for node repair.  Regenerating codes (RGC) are codes that offer the least possible repair bandwidth while locally recoverable codes (LRC) offer the least possible repair degree.   RGCs are codes over a vector alphabet, thus each code symbol is a vector of "a" symbols over a finite field.  The parameter "a" is called the sub-packetization level.  There is interest within the class of regenerating codes in minimizing both "a" as well as the number of symbols accessed at a helper node.    Principal results of the project include making progress (in stages) at constructing efficient high-rate regenerating codes culminating in the construction of the Clay code, that is optimal in four respects: simultaneously achieving least-possible values of storage overhead, repair bandwidth, sub-packetization level and number of symbols accessed.  The Clay code was first discovered by Ye and Barg and then subsequently by our team independently two months later.  Both teams collaborated in a successful submission to the FAST 2018 conference.  There has been interest in the Clay code from industry including from Uber and Salesforce.  Our team has been able to incorporate the Clay code as an erasure-code plugin for a development version of Ceph (please see https://docs.ceph.com/docs/master/rados/operations/erasure-code-clay/).   A tight upper bound on the sub-packetization level of an optimal-access RGC developed under this project was used to prove optimality with respect to sub-packetization level of the Clay code.   In the direction of LRC, work under the project led to the development of hierarchical LRC.  These codes allow the concept of LRC to scale with block length.    The group contributed significantly to the development of the theory of LRC for two erasures, leading to a publication on the topic in the IEEE Transactions on Information Theory.  In the general case of multiple erasures, the group pioneered the construction of codes with sequential recovery leading to the proof of a conjecture and a tight upper bound with matching constructions for codes with sequential recovery.  This paper was a finalist for the 2017 IEEE International Symposium on Information Theory's (ISIT) Jack Wolf Student Paper Award.   Work carried out under the project is well cited, and has been widely disseminated.  There was an invited (plenary) talk at ISIT 2015, and at workshops worldwide including: Gothenberg, Adelaide, London, Atlanta and Paris.  An invited  45-page survey article on the topic has also appeared in Science China Information Sciences.        Last Modified: 11/30/2019       Submitted by: P. Vijay Kumar]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

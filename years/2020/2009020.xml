@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Program Optimization with Data-Specific Compilation</AwardTitle>
+<AwardEffectiveDate>07/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>449929.00</AwardTotalIntnAmount>
+<AwardAmount>449929</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Irregular data structures, as exemplified with sparse matrices, are essential in modern computing: they are central in numerous scientific applications, ranging from physics simulation to graph processing. A key challenge is to deliver high-performance implementations for computations on irregular structures, which typically use additional arrays to store explicitly the coordinates of non-zero elements in the structure. The project's novelties address the next opportunity for code customization by developing a new kind of data-specific compilation approach that is customized to the unique sparsity pattern in the input data structures. This project designs and fully automates data-specific compilation techniques that can discover and exploit hidden regularity in sparse structures, reducing the development cost to produce high-performance implementations. The project's impacts also include novel theoretical results and practical algorithms to model irregular data structures as a union of (piecewise-)regular structures, exploiting this representation for increased application performance. In machine learning, sparsely connected neural networks can directly benefit from this data-specific compilation approach, enabling the development of improved inference implementations for deep networks.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Specifically, the project develops new theory and algorithms to represent sparse data structures using unions of hierarchical polyhedra: the list of non-zero coordinates can be compressed into specialized and more compact affine functions that, when evaluated, would generate exactly the input list of coordinates. The investigators target a range of different hardware accelerators based on SIMD engine principles, and facilitate performance portability by using cost-driven yet machine-independent algorithms to search for optimized implementations. Tools produced are made publicly available as open-source BSD-licensed software.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/16/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>06/16/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>2009020</AwardID>
+<Investigator>
+<FirstName>Louis-Noel</FirstName>
+<LastName>Pouchet</LastName>
+<EmailAddress>pouchet@cs.colostate.edu</EmailAddress>
+<StartDate>06/16/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Colorado State University</Name>
+<CityName>Fort Collins</CityName>
+<ZipCode>805232002</ZipCode>
+<PhoneNumber>9704916355</PhoneNumber>
+<StreetAddress>601 S Howes St</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+</Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+</Award>
+</rootTag>

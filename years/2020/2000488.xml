@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CSR: GPU-Accelerated, Multi-Display Applications for Large Computer-Aide Design (CAD) Model Visualization on a Commodity Desktop</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/13/2019</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>7965.00</AwardTotalIntnAmount>
+<AwardAmount>7965</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project focuses on utilizing parallel architectures within graphical processing units (GPUs) to fill the need for real-time interaction with large datasets in Computer-Aided Design (CAD) systems. GPU-accelerated multi-display applications for visualizing large 3D datasets are important because new scientific discoveries and dynamic investigations of complex digital contents rely on visualization results, favoring with latencies measured in milliseconds rather than seconds and the rich information displayed with high-resolution on multiple screens. The potential of this work is an end-to-end solution for visualizing large 3D datasets on a commodity desktop and providing high-speed interactions and visual explorations of the datasets while having the advantage on cost savings.&lt;br/&gt;&lt;br/&gt;Even more specifically, the algorithms and visualization systems developed through this research will allow engineers and designers to interactively create, change, and visually analyze large datasets. By providing a parallel computational foundation on visualization further innovation in CAD research is possible. Graduate students involved will be trained in the principles and uses of advanced computer by designing and implementing GPU algorithms. In addition, creating applications that make good use of GPUs also impacts interactive learning, especially on graphics-assisted and multi-dimensional educational applications, by providing breakthrough technology to increase the performance of educational applications while displaying complex graphical contents.&lt;br/&gt;&lt;br/&gt;Traditionally, acceleration algorithms for rendering (e.g., view-dependent mesh simplification) are implemented sequentially in visualization applications, which are not suitable for fast processing the model, composed of large amount of geometric primitives. The algorithms developed in this project will support primitive-level parallelization on GPUs and enable dynamic adjustments of detail levels of 3D meshes upon the changes of camera configurations. Though multi-GPU applications are available commercially, load-balancing issues among GPUs have not been successfully addressed. Imbalanced workload distributions hurt overall performance and affect the quality of mesh renderings. This research will develop a screen-partitioning balancer to balance GPU workloads and employ a pipelined approach to conduct GPU-to-GPU and CPU-to-GPU streaming for efficient data management. The efficiencies of inter-device communications will be given an in-depth evaluation.</AbstractNarration>
+<MinAmdLetterDate>10/22/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>10/22/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2000488</AwardID>
+<Investigator>
+<FirstName>Chao</FirstName>
+<LastName>Peng</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Chao Peng</PI_FULL_NAME>
+<EmailAddress>cxpigm@rit.edu</EmailAddress>
+<PI_PHON>5854757385</PI_PHON>
+<NSF_ID>000678345</NSF_ID>
+<StartDate>10/22/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Rochester Institute of Tech</Name>
+<CityName>ROCHESTER</CityName>
+<ZipCode>146235603</ZipCode>
+<PhoneNumber>5854757987</PhoneNumber>
+<StreetAddress>1 LOMB MEMORIAL DR</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY25</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002223642</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>ROCHESTER INSTITUTE OF TECHNOLOGY (INC)</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002223642</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Rochester Institute of Tech]]></Name>
+<CityName>Rochester</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>146235603</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~7965</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>With the increasing size and complexity of the output 3D models in many research and industry areas, such as computer-aided design, big data visualization and simulations, the demand on the real-time rendering of massive 3D models becomes urgent.&nbsp;In a standard rendering pipeline, geometric primitives such as triangles must be&nbsp;rasterized into pixels using graphics processing units (GPUs) before they can be displayed on&nbsp;the screen. Nowadays, a complex 3D model may be composed of hundreds of millions of triangles that make the model cannot fit into the GPU memory. In this work, we have contributed a multi-GPU and multi-display solution to process and render such complex models at a highly interactive frame rate. Our research findings are a set of parallel computing algorithms that optimize the movement of a large number of triangles between CPU main memory and multiple GPUs' memory, dynamically balance workloads among GPUs, minimize the communication cost among GPU devices, and make the system scalable to the increasing size of data with a seamless integration of level-of-detail (LOD) techniques. Through the system evaluation with those parallel algorithms, we found that the algorithms make GPUs' computational and memory resources fully utilized. Although our system has to spend some extra computations on workload balancing, LOD mesh selection, and inter-GPU communication, comparing to the state-of-the-art hardware and middle solutions, our system is capable of handling a data set much larger than the size that the GPU memory could retain. This work has a large potential to benefit research and industrial areas such as modeling and simulation, complex mechanical design, manufacturing of complex products. In those areas, complex 3D models are likely a standard data type that people would want to visualize and interact with in real-time. </span></p> <p>&nbsp;</p><br> <p>            Last Modified: 05/01/2020<br>      Modified by: Chao&nbsp;Peng</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/2000488/2000488_10352651_1588307861716_teaser_new--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/2000488/2000488_10352651_1588307861716_teaser_new--rgov-800width.jpg" title="Multi-GPU Multi-Display Rendering System"><img src="/por/images/Reports/POR/2020/2000488/2000488_10352651_1588307861716_teaser_new--rgov-66x44.jpg" alt="Multi-GPU Multi-Display Rendering System"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The workstation we built with four graphics processing units (GPUs) and four display monitors. It supports the customized rendering of complex polygonal models using one, two, three, or four GPUs, where each GPU connects to one display monitor.</div> <div class="imageCredit">Yangzi Dong and Chao Peng</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Chao&nbsp;Peng</div> <div class="imageTitle">Multi-GPU Multi-Display Rendering System</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ With the increasing size and complexity of the output 3D models in many research and industry areas, such as computer-aided design, big data visualization and simulations, the demand on the real-time rendering of massive 3D models becomes urgent. In a standard rendering pipeline, geometric primitives such as triangles must be rasterized into pixels using graphics processing units (GPUs) before they can be displayed on the screen. Nowadays, a complex 3D model may be composed of hundreds of millions of triangles that make the model cannot fit into the GPU memory. In this work, we have contributed a multi-GPU and multi-display solution to process and render such complex models at a highly interactive frame rate. Our research findings are a set of parallel computing algorithms that optimize the movement of a large number of triangles between CPU main memory and multiple GPUs' memory, dynamically balance workloads among GPUs, minimize the communication cost among GPU devices, and make the system scalable to the increasing size of data with a seamless integration of level-of-detail (LOD) techniques. Through the system evaluation with those parallel algorithms, we found that the algorithms make GPUs' computational and memory resources fully utilized. Although our system has to spend some extra computations on workload balancing, LOD mesh selection, and inter-GPU communication, comparing to the state-of-the-art hardware and middle solutions, our system is capable of handling a data set much larger than the size that the GPU memory could retain. This work has a large potential to benefit research and industrial areas such as modeling and simulation, complex mechanical design, manufacturing of complex products. In those areas, complex 3D models are likely a standard data type that people would want to visualize and interact with in real-time.           Last Modified: 05/01/2020       Submitted by: Chao Peng]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

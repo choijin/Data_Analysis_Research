@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>ABI Innovation: Fast Algorithms and Tools for Single-Molecule Sequencing Reads</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>898857.00</AwardTotalIntnAmount>
+<AwardAmount>914857</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>08080000</Code>
+<Directorate>
+<Abbreviation>BIO</Abbreviation>
+<LongName>Direct For Biological Sciences</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DBI</Abbreviation>
+<LongName>Div Of Biological Infrastructure</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Peter McCartney</SignBlockName>
+<PO_EMAI>pmccartn@nsf.gov</PO_EMAI>
+<PO_PHON>7032928470</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Genomics, which studies the structure, function and evolution of DNA and RNA sequences of organisms, now has significant impact on every aspect of life sciences, such as agriculture, environment, medicine and biology. The rapid advance of sequencing technologies is one of the most important reasons behind the evolution of genomics research. Next-generation sequencing (NGS), which has significantly lowered the cost for sequencing DNA and RNA, has remarkably increased the application of genomics in every aspect of life sciences. More recently, we have seen the emergence of third-generation long-read Single-Molecule Sequencing (SMS) technologies from companies like PacBio and Oxford Nanopore. Unlike short (100-500 bp) NGS reads, the SMS reads have the distinguishing characteristics of long read length (2,000-50,000 bp), unbiased sequencing, a different type and frequency of random errors, and detection of additional modifications to the DNA bases, called epigenetic modification information. These characteristics make SMS reads useful in many genomics investigations, such as de novo genome assemblies (where there is no guiding framework available), methylation detection, gene isoform detection (small sequence changes that identify different alleles of a gene) and structural variation detection (large rearrangements in the organization of the genes). This project will develop efficient algorithms and tools to improve the effectiveness, usefulness and applicability domain of SMS reads. The successful completion of this project will significantly transform genomics research. The new tools will enable biologists to perform genomics studies, such as de novo assembly and global methylation detection, on large genomes using SMS. The tools will significantly lower the cost of analysis and increase the utility of the data for biologists so that they can advance their research. All algorithms, tools and demonstrations resulting from this project will be made publicly available to educators, researchers and students through our project website and GitHub. This project will be useful to train computer science students, including women and minority students, on bioinformatics problems and algorithm design.&lt;br/&gt;&lt;br/&gt;Although SMS is now widely used in the genomics studies of small bacterial and archaeal genomes, the computational cost and high data volume currently prevent its use in the study of mid-to-large size genomes. The overall goal of this project is to develop fast algorithms and tools to investigate remedies for problems in three SMS applications: pairwise and reference alignment, error correction, and base modification detection. First, we will develop a tool for pairwise and reference genome alignments of SMS reads at least 5X faster than those currently available by designing and integrating fast k-mer matching, linear positional chaining and SIMD (Single-Instruction-Multiple-Data) based banded Smith-Waterman-Gotoh algorithms. Then, we will develop a linear space and linear time algorithm for reads alignment graph (RAG) based method, as well as a multiple reads alignment graph (MRAG) based method to efficiently correct processing for Oxford Nanopore technology data output. Furthermore, we will design an optimized and parallelized Spark pipeline for base modification detection using SMS reads, as well as a two-step classification method for effectively detecting base modification in SMS reads using neural networks. This research will substantially advance the state-of-the-art algorithms and tools for SMS reads. Project pages will be linked from https://people.cs.clemson.edu/~luofeng/research.html .&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/18/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>05/23/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.074</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1759856</AwardID>
+<Investigator>
+<FirstName>Pradip</FirstName>
+<LastName>Srimani</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Pradip Srimani</PI_FULL_NAME>
+<EmailAddress>srimani@cs.clemson.edu</EmailAddress>
+<PI_PHON>8646565886</PI_PHON>
+<NSF_ID>000302714</NSF_ID>
+<StartDate>06/18/2018</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Zijun</FirstName>
+<LastName>Wang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zijun Wang</PI_FULL_NAME>
+<EmailAddress>jzwang@cs.clemson.edu</EmailAddress>
+<PI_PHON>8646567678</PI_PHON>
+<NSF_ID>000484204</NSF_ID>
+<StartDate>06/18/2018</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Feng</FirstName>
+<LastName>Luo</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Feng Luo</PI_FULL_NAME>
+<EmailAddress>luofeng@clemson.edu</EmailAddress>
+<PI_PHON>8646564793</PI_PHON>
+<NSF_ID>000492683</NSF_ID>
+<StartDate>06/18/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Clemson University</Name>
+<CityName>CLEMSON</CityName>
+<ZipCode>296345701</ZipCode>
+<PhoneNumber>8646562424</PhoneNumber>
+<StreetAddress>230 Kappa Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 200]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>South Carolina</StateName>
+<StateCode>SC</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>SC03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042629816</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CLEMSON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042629816</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Clemson University]]></Name>
+<CityName>Clemson</CityName>
+<StateCode>SC</StateCode>
+<ZipCode>296340001</ZipCode>
+<StreetAddress><![CDATA[230 Kappa Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>South Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>SC03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>084Y</Code>
+<Text>IIBR: Infrastructure Innovatio</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>1165</Code>
+<Text>ADVANCES IN BIO INFORMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1165</Code>
+<Text>ADVANCES IN BIO INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~898857</FUND_OBLG>
+<FUND_OBLG>2019~16000</FUND_OBLG>
+</Award>
+</rootTag>

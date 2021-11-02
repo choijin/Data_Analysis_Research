@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Efficient Monitor-Based Synchronization Mechanisms for Concurrent Programs</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>165000.00</AwardTotalIntnAmount>
+<AwardAmount>165000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Programming multicore processors is a challenging task due to bugs resulting&lt;br/&gt;from concurrency and synchronization.  A fundamental reason for the difficulty&lt;br/&gt;is that current programming mechanisms require programmers to manually&lt;br/&gt;coordinate synchronization between threads running on these systems.&lt;br/&gt;Consequently, concurrent systems are prone to bugs due to faulty&lt;br/&gt;synchronization problems such as missing, wrong, or lost notifications for&lt;br/&gt;threads.  Moreover, these bugs are hard to find during testing because they may&lt;br/&gt;appear only under a rare schedule of events.  Current programming mechanisms&lt;br/&gt;also limit the amount of concurrency in threads to ensure that a shared&lt;br/&gt;variable is not updated by multiple threads. As a result, many concurrent&lt;br/&gt;systems slow down due to sequential bottleneck of accessing shared variables.&lt;br/&gt;This project is expected to fundamentally change the way synchronization&lt;br/&gt;mechanisms (such as monitors) are written and implemented.  It will lead to&lt;br/&gt;better understanding of how conditions in a multithreaded program can be&lt;br/&gt;evaluated efficiently.  As a result, the concurrent programming systems will&lt;br/&gt;become more reliable and faster.  The impact on society is expected to be large&lt;br/&gt;because all new systems are based on concurrent programs.&lt;br/&gt;&lt;br/&gt;The project is developing new synchronization mechanisms with two fundamental&lt;br/&gt;goals. The first goal is to make synchronization as simple and intuitive as&lt;br/&gt;possible for programmers.   Current (monitor based) synchronization&lt;br/&gt;mechanisms require programmers to explicitly signal threads that may be waiting&lt;br/&gt;on certain conditions. In the synchronization mechanism developed in this&lt;br/&gt;project, there is no notion of condition variables and it is the responsibility&lt;br/&gt;of the runtime system to automatically signal appropriate threads.  Analogous&lt;br/&gt;to automatic garbage collection in Java, the project is designing efficient&lt;br/&gt;algorithms and techniques for automatic signaling.  The project is&lt;br/&gt;investigating techniques to deal with fairness and exploitation of runtime&lt;br/&gt;information such as idle cores for effective and efficient automatic signaling.&lt;br/&gt;The second goal is to increase the concurrency in implementation of monitor&lt;br/&gt;without requiring programmers to do any additional work and without violating&lt;br/&gt;the guarantee provided by the monitor that execution of its methods is&lt;br/&gt;equivalent to one in which there is at most one thread in the monitor at any&lt;br/&gt;time.  &lt;br/&gt;&lt;br/&gt;There is also a strong educational component for this project.  Synchronization is a fundamental topic&lt;br/&gt;in computer science education and is taught in all operating system courses. By&lt;br/&gt;eliminating manual signaling from these courses, students would get more time&lt;br/&gt;to focus on higher level concurrent programming concerns.&lt;br/&gt;&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>09/05/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/05/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1346245</AwardID>
+<Investigator>
+<FirstName>Vijay</FirstName>
+<LastName>Garg</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vijay K Garg</PI_FULL_NAME>
+<EmailAddress>garg@ece.utexas.edu</EmailAddress>
+<PI_PHON>5124719424</PI_PHON>
+<NSF_ID>000453995</NSF_ID>
+<StartDate>09/05/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787595316</ZipCode>
+<StreetAddress><![CDATA[3925 W Braker Lane, Ste 3.340]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~165000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo} span.s1 {font-variant-ligatures: no-common-ligatures} --> <p class="p1"><span class="s1">Current monitor based systems have many disadvantages for multi object operations. They require the programmers to (1) manually determine the order of locking operations, (2) manually determine the points of execution where threads should signal other threads, (3) use global locks or perform busy waiting for operations that depend upon a condition that spans multiple objects. Transactional memory systems eliminate the need for explicit lock</span>s, but do not support conditional synchronization. They also require the ability to rollback transactions. &nbsp;</p> <!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo} span.s1 {font-variant-ligatures: no-common-ligatures} --> <p class="p1"><span class="s1">We have developed new monitor based methods that provide automatic signaling for global conditions that span multiple objects.&nbsp; Our system provides automatic notification for global conditions.&nbsp; Assuming that the global condition is a Boolean expression of local predicates, our method allows efficient monitoring of the conditions without any need for global locks. Furthermore, our system solves the compositionally problem of monitor systems without requiring global locks. We have implemented our constructs on top of Java and have evaluated their overhead. Our results show that on most of the multiobject problems, not only our code is simpler but also faster than Java&rsquo;s reentrant-lock as well as the Deuce transactional memory system.</span></p> <!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo} span.s1 {font-variant-ligatures: no-common-ligatures} --> <p class="p1"><span class="s1">We have also investigated methods to analyze computations of parallel programs.&nbsp; The happened-before model (or the poset model) has been widely used for modeling the computations (execution traces) of parallel programs and detecting predicates (user-specified conditions). This model captures potential causality as well as locking constraints among the executed events of computations using happened-before relation. The detection of a predicate in a computation is performed by checking if the predicate could become true in any reachable global state of the computation. In this project, we show that locking constraints are fundamentally different from potential causality. Hence, a poset is not an appropriate model for debugging purposes when the computations contain locking constraints. We have developed a model called Locking Poset, or a Loset, that generalizes the poset model for locking constraints. Just as a poset captures possibly an exponential number of total orders, a loset captures possibly an exponential number of posets. Therefore, detecting a predicate in a loset is equivalent to detecting the predicate in all corresponding posets.</span></p> <p class="p1">Our work will result in improving programmer productivity and reducing concurrency errors in development of multicore programs. It will also improve the performance by such programs by incorporating techniques that exploit additional cores and memory to improve concurrency and reduce context switches.&nbsp; There is also a strong educational component for this project. We are integrating methods developed in this project are being integrated in the class room teaching.&nbsp; The students supported by the project have also been trained in fundamentals of multicore computing.</p> <p class="p1"><span class="s1"><br /></span></p> <p>&nbsp;</p><br> <p>            Last Modified: 11/02/2016<br>      Modified by: Vijay&nbsp;K&nbsp;Garg</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Current monitor based systems have many disadvantages for multi object operations. They require the programmers to (1) manually determine the order of locking operations, (2) manually determine the points of execution where threads should signal other threads, (3) use global locks or perform busy waiting for operations that depend upon a condition that spans multiple objects. Transactional memory systems eliminate the need for explicit locks, but do not support conditional synchronization. They also require the ability to rollback transactions.    We have developed new monitor based methods that provide automatic signaling for global conditions that span multiple objects.  Our system provides automatic notification for global conditions.  Assuming that the global condition is a Boolean expression of local predicates, our method allows efficient monitoring of the conditions without any need for global locks. Furthermore, our system solves the compositionally problem of monitor systems without requiring global locks. We have implemented our constructs on top of Java and have evaluated their overhead. Our results show that on most of the multiobject problems, not only our code is simpler but also faster than Java?s reentrant-lock as well as the Deuce transactional memory system.  We have also investigated methods to analyze computations of parallel programs.  The happened-before model (or the poset model) has been widely used for modeling the computations (execution traces) of parallel programs and detecting predicates (user-specified conditions). This model captures potential causality as well as locking constraints among the executed events of computations using happened-before relation. The detection of a predicate in a computation is performed by checking if the predicate could become true in any reachable global state of the computation. In this project, we show that locking constraints are fundamentally different from potential causality. Hence, a poset is not an appropriate model for debugging purposes when the computations contain locking constraints. We have developed a model called Locking Poset, or a Loset, that generalizes the poset model for locking constraints. Just as a poset captures possibly an exponential number of total orders, a loset captures possibly an exponential number of posets. Therefore, detecting a predicate in a loset is equivalent to detecting the predicate in all corresponding posets. Our work will result in improving programmer productivity and reducing concurrency errors in development of multicore programs. It will also improve the performance by such programs by incorporating techniques that exploit additional cores and memory to improve concurrency and reduce context switches.  There is also a strong educational component for this project. We are integrating methods developed in this project are being integrated in the class room teaching.  The students supported by the project have also been trained in fundamentals of multicore computing.            Last Modified: 11/02/2016       Submitted by: Vijay K Garg]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

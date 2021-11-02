@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Small: LockBox: Enabling Users to Keep Data Safe</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>496086.00</AwardTotalIntnAmount>
+<AwardAmount>496086</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jeremy Epstein</SignBlockName>
+<PO_EMAI>jepstein@nsf.gov</PO_EMAI>
+<PO_PHON>7032928338</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern computer security requires bug-free code at every layer of the software stack. But in a world where operating systems and hypervisors are increasingly buggy, it can be dangerous to assume these components are trustworthy. LockBox provides an additional layer of security such that if the operating system or other system management software fails, certain portions of the system remain resistant to attack. LockBox embeds a set of security features into the architecture to provide a form of memory protection that enables correctly coded applications to resist attack even if underlying portions of the software stack become malicious or are otherwise compromised.  &lt;br/&gt;&lt;br/&gt;A nesting hypervisor is used to prototype the hardware modifications. Ultimately, the security features can be implemented either as a series of small hardware modifications or as a nesting hypervisor. In the former case, the hypervisor is unnecessary and the user will gain performance benefits. In the latter, users will not need to wait for new hardware to benefit from LockBox's security features. &lt;br/&gt;&lt;br/&gt;LockBox provides the user with final authority to set security policy on the machine. It is a rights-preserving architecture in which the user's capabilities cannot be restricted. This is critical to alleviating fears that hardware security systems could one day restrict a user's capability to control their own hardware.  &lt;br/&gt;&lt;br/&gt;In summary, LockBox creates a next-generation trustworthy computing environment that can be trusted by users to keep data safe against malicious management software.</AbstractNarration>
+<MinAmdLetterDate>07/19/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/19/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018928</AwardID>
+<Investigator>
+<FirstName>Darrell</FirstName>
+<LastName>Long</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Darrell D Long</PI_FULL_NAME>
+<EmailAddress>darrell@cs.ucsc.edu</EmailAddress>
+<PI_PHON>8314592616</PI_PHON>
+<NSF_ID>000470073</NSF_ID>
+<StartDate>07/19/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Ethan</FirstName>
+<LastName>Miller</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ethan L Miller</PI_FULL_NAME>
+<EmailAddress>elm@ucsc.edu</EmailAddress>
+<PI_PHON>8314591222</PI_PHON>
+<NSF_ID>000230226</NSF_ID>
+<StartDate>07/19/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Santa Cruz</Name>
+<CityName>Santa Cruz</CityName>
+<ZipCode>950641077</ZipCode>
+<PhoneNumber>8314595278</PhoneNumber>
+<StreetAddress>1156 High Street</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA20</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>125084723</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SANTA CRUZ</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Santa Cruz]]></Name>
+<CityName>Santa Cruz</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>950641077</ZipCode>
+<StreetAddress><![CDATA[1156 High Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA20</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~496086</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The LockBox project took a novel approach to enabling users to keep data safe on their machines.&nbsp; The goal of the LockBox project was to increase the resiliency of computing systems even during a system compromise.&nbsp; The LockBox design explored possibilities to create hardware features to restrict compromised operating systems from stealing application data.&nbsp; In addition to further developing the design of this system, the project produced a number of peripheral outcomes:</p> <ul> <li>SeaOS, an operating system development framework consisting of a simple, self-hosting mostly unix-like kernel and associated toolset.&nbsp; This system allows systems researchers to more quickly iterate on design ideas and test out operating system theories in a simple environment.</li> <li>A suite of memory analysis tools: memsnap, memdiff and memxamine, which allow for analysis of memory change patterns over time.&nbsp; This suite of tools helps researchers study cases where applications leave traces of their activities even if their memory space is only visible as ciphertext.</li> <li>A port of a more recent version of the Linux kernel for OpenSPARC on an FPGA.</li> <li>A study on security indicator interfaces that provides guidance for other researchers designing user interfaces to security systems.</li> <li>fived, a network security design to explore how a session layer could impact the security and flexibility of the modern Internet.</li> </ul> <p>Many of the resources and outcomes from this project are publicly available on github.</p><br> <p>            Last Modified: 12/07/2015<br>      Modified by: Darrell&nbsp;E&nbsp;Long</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The LockBox project took a novel approach to enabling users to keep data safe on their machines.  The goal of the LockBox project was to increase the resiliency of computing systems even during a system compromise.  The LockBox design explored possibilities to create hardware features to restrict compromised operating systems from stealing application data.  In addition to further developing the design of this system, the project produced a number of peripheral outcomes:  SeaOS, an operating system development framework consisting of a simple, self-hosting mostly unix-like kernel and associated toolset.  This system allows systems researchers to more quickly iterate on design ideas and test out operating system theories in a simple environment. A suite of memory analysis tools: memsnap, memdiff and memxamine, which allow for analysis of memory change patterns over time.  This suite of tools helps researchers study cases where applications leave traces of their activities even if their memory space is only visible as ciphertext. A port of a more recent version of the Linux kernel for OpenSPARC on an FPGA. A study on security indicator interfaces that provides guidance for other researchers designing user interfaces to security systems. fived, a network security design to explore how a session layer could impact the security and flexibility of the modern Internet.   Many of the resources and outcomes from this project are publicly available on github.       Last Modified: 12/07/2015       Submitted by: Darrell E Long]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

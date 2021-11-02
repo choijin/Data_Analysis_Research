@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Using Thread-Local Memory Mapping to Support Memory Abstractions for Dynamic Multithreading</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Dynamic multithreading has emerged as a dominant paradigm for simplifying the programming of parallel applications on shared-memory multicore processors.  Concurrency platforms incorporating dynamic multithreading provide memory abstractions, such as cactus stacks and hyperobjects, which make many parallel programming chores more like ordinary serial programming.  Unfortunately, the overhead of these memory abstractions limits the contexts in which they can be effectively used.  &lt;br/&gt;&lt;br/&gt;This project is exploring how thread-local memory mapping (TLMM) can be used to provide low-overhead support for memory abstractions.  TLMM is a novel operating-system feature that allows different pthreads to map a region of an otherwise shared virtual-address space independently.  &lt;br/&gt;&lt;br/&gt;The researchers are building a robust TLMM-Linux and a fully functional prototype of a concurrency platform, called Cilk-M, which includes a portable compiler, an efficient implementation of a runtime scheduler, and implementations of cactus stacks and hyperobjects.  They are also engaged in programming and measuring application benchmarks, such as Boolean satisfiability, to understand how the memory abstractions might be optimized and what new memory abstractions might be invented to simplify dynamic multithreaded programming.  Finally, they are studying the Cilk-M technology to understand its theoretical properties and investigating how operating systems and hardware might better facilitate the implementation of memory abstractions.</AbstractNarration>
+<MinAmdLetterDate>07/15/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/15/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017058</AwardID>
+<Investigator>
+<FirstName>Charles</FirstName>
+<LastName>Leiserson</LastName>
+<PI_MID_INIT>E</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Charles E Leiserson</PI_FULL_NAME>
+<EmailAddress>cel@csail.mit.edu</EmailAddress>
+<PI_PHON>6172535833</PI_PHON>
+<NSF_ID>000114754</NSF_ID>
+<StartDate>07/15/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Bradley</FirstName>
+<LastName>Kuszmaul</LastName>
+<PI_MID_INIT>C</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Bradley C Kuszmaul</PI_FULL_NAME>
+<EmailAddress>bradley@mit.edu</EmailAddress>
+<PI_PHON>6173246029</PI_PHON>
+<NSF_ID>000407994</NSF_ID>
+<StartDate>07/15/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 MASSACHUSETTS AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This research investigated how to provide strong memory abstractions<br />for the scalable model of dynamic multithreading without incurring<br />significant overheads.&nbsp; The project explored operating-system support<br />in the form of thread-local memory mapping (TLMM) as a means to<br />accomplish this end.&nbsp; The researchers studied how to simplify<br />parallel programming using high-level lingustics and tools.<br /><br />The researchers developed the Cilk-M runtime system for<br />parallel programming, which uses TLMM to maintain the cactus stack, as<br />well as to implement a low-overhead reducer-hyperobject mechanism.<br />The Cilk-M system incorporates provably good algorithms for<br />scheduling, while supporting interoperability with legacy and<br />third-party binary executables, and also provides a vehicle for<br />studying applications that use these capabilities.&nbsp; The Cilk-M system<br />is plug-in compatible with Intel's Cilk Plus system.<br /><br />The researchers also developed the prototype Cilk-P runtime system for<br />pipeline parallelism.&nbsp; Cilk-P i exploits optimizations such as lazy<br />enabling and dependency folding.&nbsp; The researchers ported the three<br />PARSEC benchmarks that exhibit pipeline parallelism to run on Cilk-P.<br />One of these, x264, cannot readily be executed by systems that support<br />only construct-and-run pipeline parallelism.&nbsp; Benchmark results<br />indicate that Cilk-P has low serial overhead and good scalability.&nbsp; On<br />x264, for example, Cilk-P exhibits a speedup of 13.87 over its<br />respective serial counterpart when running on $16$ processors.<br /><br />The researchers developed a mechanism called pedigrees which can be<br />built into the runtime system to enable efficient deterministic<br />parallel random-number generation. Experiments with the open-source<br />MIT Cilk runtime system show that the overhead for maintaining<br />pedigrees is negligible. Specifically, on a suite of 10 benchmarks,<br />the relative overhead of Cilk with pedigrees to the original Cilk has<br />a geometric mean of less than 1%.&nbsp; The researchers persuaded Intel to<br />modify its commercial C/C++ compiler, which provides the Cilk Plus<br />concurrency platform, to include pedigrees, and they built a library<br />implementation of a deterministic parallel random-number generator<br />called DOTMIX that compresses the pedigree and then "RC6-mixes" the<br />result. The statistical quality of DOTMIX is comparable to that of the<br />popular Mersenne twister, but somewhat slower than a nondeterministic<br />parallel version of this efficient and high-quality serial<br />random-number generator.<br /><br />This two-year research project produced 18 publications, one of which<br />won a Best Paper at a highly competitive conference.&nbsp; It educated<br />several Masters and Ph.D. students, including two women, and two<br />Ph.D. theses were completed.&nbsp; The project engaged undergraduate<br />students as part of MIT's Undergraduate Research Opportunities<br />Program.&nbsp; Course materials on dynamic multithreading were developed<br />for MIT classes and were made freely available to the public via the<br />MIT OpenCourseWare initiative .</p><br> <p>            Last Modified: 12/30/2013<br>      Modified by: Charles&nbsp;E&nbsp;Leiserson</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This research investigated how to provide strong memory abstractions for the scalable model of dynamic multithreading without incurring significant overheads.  The project explored operating-system support in the form of thread-local memory mapping (TLMM) as a means to accomplish this end.  The researchers studied how to simplify parallel programming using high-level lingustics and tools.  The researchers developed the Cilk-M runtime system for parallel programming, which uses TLMM to maintain the cactus stack, as well as to implement a low-overhead reducer-hyperobject mechanism. The Cilk-M system incorporates provably good algorithms for scheduling, while supporting interoperability with legacy and third-party binary executables, and also provides a vehicle for studying applications that use these capabilities.  The Cilk-M system is plug-in compatible with Intel's Cilk Plus system.  The researchers also developed the prototype Cilk-P runtime system for pipeline parallelism.  Cilk-P i exploits optimizations such as lazy enabling and dependency folding.  The researchers ported the three PARSEC benchmarks that exhibit pipeline parallelism to run on Cilk-P. One of these, x264, cannot readily be executed by systems that support only construct-and-run pipeline parallelism.  Benchmark results indicate that Cilk-P has low serial overhead and good scalability.  On x264, for example, Cilk-P exhibits a speedup of 13.87 over its respective serial counterpart when running on $16$ processors.  The researchers developed a mechanism called pedigrees which can be built into the runtime system to enable efficient deterministic parallel random-number generation. Experiments with the open-source MIT Cilk runtime system show that the overhead for maintaining pedigrees is negligible. Specifically, on a suite of 10 benchmarks, the relative overhead of Cilk with pedigrees to the original Cilk has a geometric mean of less than 1%.  The researchers persuaded Intel to modify its commercial C/C++ compiler, which provides the Cilk Plus concurrency platform, to include pedigrees, and they built a library implementation of a deterministic parallel random-number generator called DOTMIX that compresses the pedigree and then "RC6-mixes" the result. The statistical quality of DOTMIX is comparable to that of the popular Mersenne twister, but somewhat slower than a nondeterministic parallel version of this efficient and high-quality serial random-number generator.  This two-year research project produced 18 publications, one of which won a Best Paper at a highly competitive conference.  It educated several Masters and Ph.D. students, including two women, and two Ph.D. theses were completed.  The project engaged undergraduate students as part of MIT's Undergraduate Research Opportunities Program.  Course materials on dynamic multithreading were developed for MIT classes and were made freely available to the public via the MIT OpenCourseWare initiative .       Last Modified: 12/30/2013       Submitted by: Charles E Leiserson]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Elements: Software: NSCI: A high performance suite of SVD related solvers for machine learning</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>600000.00</AwardTotalIntnAmount>
+<AwardAmount>600000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Robert Beverly</SignBlockName>
+<PO_EMAI>rbeverly@nsf.gov</PO_EMAI>
+<PO_PHON>7032927068</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The accrual of vast amounts of data is one of the defining characteristics of our century. With the help of computers, scientists use this data to make and test hypotheses, draw inferences, predict complex phenomena, and make educated policy decisions. Machine learning (ML) is an area in computer science that uses statistical methods to allow computers to "learn" from data, with and without human supervision. Central to the application of machine learning methods is the numerical computation of the Singular Value Decomposition (SVD) of matrices of very large dimension, often larger than a million or even a billion. Since "off-the-shelf" algorithms and SVD software, however, cannot handle matrices of very large dimension, iterative methods used in scientific computing are more appropriate. Yet their stringent approximation quality requirements are often excessive for downstream applications, and result in slow execution times. Recently, methods based on randomization have improved execution times, but their implementations relax the approximation quality, often to detrimental levels. This project proposes to develop a software package that unifies randomized and iterative methods with a particular focus on the specific requirements of various ML applications and with high performance optimizations for modern computing platforms. This will allow scientists to analyze significantly larger datasets, ML researchers to study large models that could not be tackled before, and ML service providers to use the new solvers to reduce their operational cost. &lt;br/&gt;&lt;br/&gt;This project proposes to develop a software package that unifies randomized and iterative methods with a particular focus on the specific requirements of various ML applications and with high performance optimizations for modern computing platforms. This will allow scientists to analyze significantly larger datasets, ML researchers to study large models that could not be tackled before, and ML service providers to use the new solvers to reduce their operational cost. Specifically, the software package builds upon the state-of-the-art eigenvalue/singular value software package PRIMME that integrates cutting-edge iterative methods and high-performance implementations. The development of the package consists of two thrusts: (T1) Unifying state-of-the-art algorithmic techniques including randomized, streaming, and iterative methods, to deliver consistent experience for a diverse range of matrices with different quality requirements, hardware platforms and precisions, and programming environments. (T2) Developing software devices that enable downstream systems and SVD solvers to interoperate so that users can tune and customize solvers without being experts in numeric linear algebra.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>09/06/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>09/06/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1835821</AwardID>
+<Investigator>
+<FirstName>Andreas</FirstName>
+<LastName>Stathopoulos</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andreas Stathopoulos</PI_FULL_NAME>
+<EmailAddress>andreas@cs.wm.edu</EmailAddress>
+<PI_PHON>7572213483</PI_PHON>
+<NSF_ID>000346145</NSF_ID>
+<StartDate>09/06/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Zhenming</FirstName>
+<LastName>Liu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zhenming Liu</PI_FULL_NAME>
+<EmailAddress>zliu20@wm.edu</EmailAddress>
+<PI_PHON>7572213470</PI_PHON>
+<NSF_ID>000730307</NSF_ID>
+<StartDate>09/06/2018</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>College of William and Mary</Name>
+<CityName>Williamsburg</CityName>
+<CountyName>**WILLIAMSBURG</CountyName>
+<ZipCode>231878795</ZipCode>
+<PhoneNumber>7572213966</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 8795]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<StateCode>VA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>VA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>074762238</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>COLLEGE OF WILLIAM &amp; MARY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>074762238</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[College of William and Mary]]></Name>
+<CityName/>
+<CountyName>**WILLIAMSBURG</CountyName>
+<StateCode>VA</StateCode>
+<ZipCode>231878795</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>VA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7726</Code>
+<Text>Data Cyberinfrastructure</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>077Z</Code>
+<Text>CSSI-1: Cyberinfr for Sustained Scientif</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~600000</FUND_OBLG>
+</Award>
+</rootTag>

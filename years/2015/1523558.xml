@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Scalable Transactional Replication: Theory, Protocols, and Middleware Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>With the exponentially increasing popularity of web-based networked applications, their back-end IT systems must process an ever growing volume of data and service requests. Obtaining high scalability is challenging when application workloads generate concurrent accesses on shared data that is replicated to ensure data survival and service availability in the presence of failures. The classical transactional technology for solving this problem -- State Machine Replication -- does not scale: regulating the commits of distributed transactions requires solving consensus, whose leader is a significant scalability bottleneck. Leaderless consensus protocols unfruitfully pay the cost of large quorums for providing fast decisions only whenever possible. &lt;br/&gt;&lt;br/&gt;To overcome these limitations, the project is developing two complimentary techniques for building scalable consensus protocols for transactional systems. In the first technique, called the Caesar approach, consensus decisions are always made in two communication delays, i.e., fast decisions, using a scheme based on proposed positions: a transaction activated on a node, i.e., the transaction's coordinator, is executed on all nodes at a position proposed by the transaction's coordinator, and after the execution of any other conflicting transaction that was chosen at a lesser position. To achieve that, the transaction's coordinator only needs to know that the proposed position is not rejected by a fast quorum of nodes. However, by exploiting network delays and clock drift estimates, the positions are adjusted in a way such that they are never rejected. Thus, the cost of using fast quorums larger than the ones necessary to solve consensus in order to exploit a fast decision is amortized by the ability of always deciding in that way. In the second technique, called the M^2Paxos approach, the order of transactions is generally decided in only two communication delays by relying on the classical quorum size that is strictly necessary to solve consensus, i.e., a majority of nodes. This is achieved by exploiting application's data access locality. In particular, in case of low contention, M^2Paxos inspects the data to be accessed by a submitted transaction and determines the node responsible for ordering the transaction. This allows all transactions accessing the same data to be implicitly ordered by the same node.&lt;br/&gt;&lt;br/&gt;The project is transitioning Caesar and M^2Paxos into the experimental, open-source HyFlow transactional middleware system, which enables adoption of the techniques by the research community at large. Additionally, the project is transitioning the techniques into Red Hat/JBoss's production transactional middleware, Infinispan, which enables adoption of the techniques by J2EE developers at large.</AbstractNarration>
+<MinAmdLetterDate>08/24/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/24/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1523558</AwardID>
+<Investigator>
+<FirstName>Binoy</FirstName>
+<LastName>Ravindran</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Binoy Ravindran</PI_FULL_NAME>
+<EmailAddress>binoy@vt.edu</EmailAddress>
+<PI_PHON>5402313777</PI_PHON>
+<NSF_ID>000201874</NSF_ID>
+<StartDate>08/24/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Sebastiano</FirstName>
+<LastName>Peluso</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sebastiano Peluso</PI_FULL_NAME>
+<EmailAddress>peluso@vt.edu</EmailAddress>
+<PI_PHON>5402315281</PI_PHON>
+<NSF_ID>000689430</NSF_ID>
+<StartDate>08/24/2015</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Virginia Polytechnic Institute and State University</Name>
+<CityName>BLACKSBURG</CityName>
+<ZipCode>240610001</ZipCode>
+<PhoneNumber>5402315281</PhoneNumber>
+<StreetAddress>Sponsored Programs 0170</StreetAddress>
+<StreetAddress2><![CDATA[300 Turner Street NW, Suite 4200]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<StateCode>VA</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>VA09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003137015</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>VIRGINIA POLYTECHNIC INSTITUTE AND STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003137015</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Systems Software Research Group]]></Name>
+<CityName>Blacksburg</CityName>
+<StateCode>VA</StateCode>
+<ZipCode>240610001</ZipCode>
+<StreetAddress><![CDATA[1145 Perry St (467 Durham Hall)]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>VA09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Ensuring fault tolerance in consensus-based distributed systems is necessary for guaranteeing durability and data availability under failures caused by node crashes as well as malicious intrusive actors, also known as byzantine failures. However, providing such guarantees usually introduces significant overhead that may negatively impact the system performance. The fundamental result of this project is that, it is indeed possible to build highly reliable, byzantine fault-tolerant distributed systems with high performance and scalability.</p> <p>The project?s most significant results include the ezBFT and Elpis byzantine fault-tolerant&nbsp;consensus protocols.</p> <p>ezBFT is a novel leaderless, distributed consensus protocol capable of tolerating byzantine faults. ezBFT?s main goal is to minimize the client-side latency in wide-area network deployments. It achieves this by (i) having no designated primary replica, and instead, enabling every replica to order the requests that it receives from clients; (ii) using only three communication steps to order requests in the common case; and (iii) involving clients actively in the consensus process. In addition, ezBFT minimizes the potentially negative effect of a byzantine replica on the overall system performance. The project?s experimental studies reveal that ezBFT improves client-side latency by as much as 40% over state-of-the-art byzantine fault-tolerant consensus protocols including PBFT, FaB, and Zyzzyva.</p> <p>Elpis is the first multi-leader Cross Fault-Tolerant (XFT) consensus protocol. By adopting the Generalized Consensus specification, the project was able to devise a multi-leader protocol that exploits the commutativity property inherent in the commands ordered by the system. Elpis maps accessed objects to non-faulty replicas during periods of synchrony. Subsequently, these replicas order all commands which access these objects. The project?s experimental studies show that Elpis achieves up to 2x speedup over XPaxos and up to 3.5x speedup over state-of-the-art byzantine fault-tolerant consensus protocols including PBFT and Zyzzyva.</p> <p>The project?s additional significant results include the Dester and Bumblebee protocols.</p> <p>Dester is a leaderless hybrid state machine replication protocol that incorporates a novel trusted subsystem, called Trudep, built using trust-based computing platforms (e.g., Intel SGX) for achieving high performance in geo-scale deployments. Dester allows any replica to propose and commit client commands in two communication steps in most practical situations, while clients minimize latency by sending commands to the closest replica. The project?s experimental studies reveal that Dester is able to reduce latency by as much as 30% compared to recent state-of-the-art solutions, while providing better throughput and tolerance to faults.</p> <p>Bumblebee is a general methodology for transforming crash-fault tolerant (CFT) consensus protocols to tolerate byzantine faults by incorporating a trusted subsystem realized using trusted execution environments (e.g., Intel SGX). The project demonstrates the feasibility of the Bumblebee approach by transforming common CFT protocols including Raft, Paxos, and WPaxos into their hybrid byzantine counterparts. By incorporating the Bumblebee approach in etcd?s Raft consensus, the project demonstrates that overheads due to transformation are less than 30% in terms of system throughput.</p> <p>Other accomplished results include Spectrum, a consensus framework that is able to switch consensus protocols at run-time, with zero downtime, to adapt to changes in workload characteristics and deployment scenarios in order to deliver always-available low-latency responses to users.</p> <p>The project has produced prototype implementations of the ezBFT and Elpis protocols. ezBFT is written in Go and provides capabilities such as normal and recovery operation algorithms. Elpis is written in Java and includes features such as failure recovery and trust-based election mechanisms. The ezBFT and Elpis prototypes will soon be freely available as open-source software at the project?s website: <a href="http://hyflow.org">http://hyflow.org</a>.</p> <p>&nbsp;A subset of the project's major research accomplishments is being transitioned into the Cloud Native Computing Foundation?s etcd, an open-source enterprise-level distributed key-value store. Transitioning of the project's results into etcd will likely have a high impact on the large userbase that design, develop, maintain, and use etcd. Similar to the other software implementations of the project, the new version of etcd will be released on the project's website as open-source software.</p> <p>The project has contributed to the scientific training of research faculty members, PhD students, and MS students.</p> <p>To summarize, the project?s research results conclusively demonstrate that, it is possible to construct highly reliable distributed software systems with high programmability, performance, and scalability using the distributed consensus technology, in particular, for systems that are subject to malicious attacks and failures.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/05/2019<br>      Modified by: Binoy&nbsp;Ravindran</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Ensuring fault tolerance in consensus-based distributed systems is necessary for guaranteeing durability and data availability under failures caused by node crashes as well as malicious intrusive actors, also known as byzantine failures. However, providing such guarantees usually introduces significant overhead that may negatively impact the system performance. The fundamental result of this project is that, it is indeed possible to build highly reliable, byzantine fault-tolerant distributed systems with high performance and scalability.  The project?s most significant results include the ezBFT and Elpis byzantine fault-tolerant consensus protocols.  ezBFT is a novel leaderless, distributed consensus protocol capable of tolerating byzantine faults. ezBFT?s main goal is to minimize the client-side latency in wide-area network deployments. It achieves this by (i) having no designated primary replica, and instead, enabling every replica to order the requests that it receives from clients; (ii) using only three communication steps to order requests in the common case; and (iii) involving clients actively in the consensus process. In addition, ezBFT minimizes the potentially negative effect of a byzantine replica on the overall system performance. The project?s experimental studies reveal that ezBFT improves client-side latency by as much as 40% over state-of-the-art byzantine fault-tolerant consensus protocols including PBFT, FaB, and Zyzzyva.  Elpis is the first multi-leader Cross Fault-Tolerant (XFT) consensus protocol. By adopting the Generalized Consensus specification, the project was able to devise a multi-leader protocol that exploits the commutativity property inherent in the commands ordered by the system. Elpis maps accessed objects to non-faulty replicas during periods of synchrony. Subsequently, these replicas order all commands which access these objects. The project?s experimental studies show that Elpis achieves up to 2x speedup over XPaxos and up to 3.5x speedup over state-of-the-art byzantine fault-tolerant consensus protocols including PBFT and Zyzzyva.  The project?s additional significant results include the Dester and Bumblebee protocols.  Dester is a leaderless hybrid state machine replication protocol that incorporates a novel trusted subsystem, called Trudep, built using trust-based computing platforms (e.g., Intel SGX) for achieving high performance in geo-scale deployments. Dester allows any replica to propose and commit client commands in two communication steps in most practical situations, while clients minimize latency by sending commands to the closest replica. The project?s experimental studies reveal that Dester is able to reduce latency by as much as 30% compared to recent state-of-the-art solutions, while providing better throughput and tolerance to faults.  Bumblebee is a general methodology for transforming crash-fault tolerant (CFT) consensus protocols to tolerate byzantine faults by incorporating a trusted subsystem realized using trusted execution environments (e.g., Intel SGX). The project demonstrates the feasibility of the Bumblebee approach by transforming common CFT protocols including Raft, Paxos, and WPaxos into their hybrid byzantine counterparts. By incorporating the Bumblebee approach in etcd?s Raft consensus, the project demonstrates that overheads due to transformation are less than 30% in terms of system throughput.  Other accomplished results include Spectrum, a consensus framework that is able to switch consensus protocols at run-time, with zero downtime, to adapt to changes in workload characteristics and deployment scenarios in order to deliver always-available low-latency responses to users.  The project has produced prototype implementations of the ezBFT and Elpis protocols. ezBFT is written in Go and provides capabilities such as normal and recovery operation algorithms. Elpis is written in Java and includes features such as failure recovery and trust-based election mechanisms. The ezBFT and Elpis prototypes will soon be freely available as open-source software at the project?s website: http://hyflow.org.   A subset of the project's major research accomplishments is being transitioned into the Cloud Native Computing Foundation?s etcd, an open-source enterprise-level distributed key-value store. Transitioning of the project's results into etcd will likely have a high impact on the large userbase that design, develop, maintain, and use etcd. Similar to the other software implementations of the project, the new version of etcd will be released on the project's website as open-source software.  The project has contributed to the scientific training of research faculty members, PhD students, and MS students.  To summarize, the project?s research results conclusively demonstrate that, it is possible to construct highly reliable distributed software systems with high programmability, performance, and scalability using the distributed consensus technology, in particular, for systems that are subject to malicious attacks and failures.          Last Modified: 10/05/2019       Submitted by: Binoy Ravindran]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

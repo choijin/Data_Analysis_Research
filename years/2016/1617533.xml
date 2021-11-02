@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Novel Representations for Inference in Graphical Models</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>484137.00</AwardTotalIntnAmount>
+<AwardAmount>484137</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sylvia Spengler</SignBlockName>
+<PO_EMAI>sspengle@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Probabilistic inference is an important tool that allows humans to gain insight and make predictions from data. An analyst posits a probabilistic model for observed data, and then conducts inference to fit parameters, assess model validity, and make predictions. With data growing in size and complexity across nearly all domains of science and society, rich probabilistic models paired with fast and accurate inference algorithms are essential to the data analytic process. Probabilistic graphical models support these goals by leveraging graph structure to design rich models and enable fast message-passing algorithms for inference. However, exact message passing applies only to limited model classes. The goal of this project is to significantly expand the class of models to which message-passing algorithms apply by developing novel representations of probability distributions and messages. The research is expected to significantly improve the available inference techniques for a wide range of models that are encountered in practice, especially in the fields of time-series modeling and population ecology. The project website will be used to disseminate research prototypes. &lt;br/&gt;&lt;br/&gt;This work proposes two novel representations for factors in graphical models. The first proposed representation is based on probability generating functions for models with count variables. Message passing does not currently apply to these models because the variables have countably infinite support and factors cannot be manipulated in finite space and time using standard representations. However, in many cases, probability generating functions can represent countably infinite factors exactly and compactly. The goal of the proposed work is develop expressive classes of generating functions that are amenable to algorithmic manipulation and can represent commonly appearing factors in graphical models, and then to develop exact and approximate algorithms to perform message passing directly in the space of generating functions. The second proposed representation is based on piecewise-exponential functions, which provide approximate representations of continuous densities. Piecewise-exponential functions are compact, computationally tractable, and provide a tunable level of approximation. They apply to models with continuous but non-Gaussian variables. The goal of the proposed work is to develop techniques to construct accurate piecewise exponential approximations and propagate them within message-passing algorithms. The algorithms developed by this work will be tested and applied to improve inference in existing models and provide new capabilities for models in population ecology.</AbstractNarration>
+<MinAmdLetterDate>06/30/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/30/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617533</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Sheldon</LastName>
+<PI_MID_INIT>R</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel R Sheldon</PI_FULL_NAME>
+<EmailAddress>sheldon@cs.umass.edu</EmailAddress>
+<PI_PHON>4135454843</PI_PHON>
+<NSF_ID>000515483</NSF_ID>
+<StartDate>06/30/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts Amherst</Name>
+<CityName>Hadley</CityName>
+<ZipCode>010359450</ZipCode>
+<PhoneNumber>4135450698</PhoneNumber>
+<StreetAddress>Research Administration Building</StreetAddress>
+<StreetAddress2><![CDATA[100 Venture Way, Suite 201]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>153926712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts Amherst]]></Name>
+<CityName>Amherst</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>010039264</ZipCode>
+<StreetAddress><![CDATA[140 Governors Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~484137</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project developed new algorithms and software for probabilistic and statistical inference. Probabilistic inference is an important tool that allows humans to gain insight and make predictions from data. With data growing in size and complexity, it is important to support computationally efficient inference for rich models that can support applied scientific inquiry.</p> <p>One line of work developed the first exact and efficient algorithms for count-based models such as those used for population modeling in ecology and epidemiology. These models describe a population that is changing over time due to processes such as reproduction, mortality, and immigration. It was not previously known how to perform exact computations for such models. The project introduced new technical tools to represent probability distributions using probability generating functions to perform exact and efficient computations. Several papers developed this theory for a sequence of increasingly general and more widely applicable models. The new algorithms enable the application of existing models for animal populations to larger data sets and lead to more accurate statistical estimation.</p> <p>The second line of work developed new algorithms to make statistical inferences about populations of people while preserving the privacy of individuals who contribute data. Privacy is quantified using the differential privacy framework, which provide rigorous mathematical guarantees about disclosure risk. New algorithms were developed to estimate a widely-used class of models (probabilistic graphical models) under differential privacy. Other algorithms were developed to conduct Bayesian inference under differential privacy for canonical statistical models and regression models. Finally, practical algorithms were developed for constructing confidence intervals while maintaining differential privacy.</p> <p>The work led to new algorithms for applied ecological modeling that are faster and more accurate than previous ones, and practically applicable algorithms for extracting insights from data about people in a way that provides rigorous privacy guarantees. Seven graduate students received training as part of this award, and led to two Ph.D. dissertations and one MS thesis based primarily on this project. The project team gave numerous talks at scientific meetings and in workshops for the emerging research communities of computational sustainability and AI for social good, and published a book chapter for a general audience in a book about AI for conservation.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/04/2020<br>      Modified by: Daniel&nbsp;R&nbsp;Sheldon</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project developed new algorithms and software for probabilistic and statistical inference. Probabilistic inference is an important tool that allows humans to gain insight and make predictions from data. With data growing in size and complexity, it is important to support computationally efficient inference for rich models that can support applied scientific inquiry.  One line of work developed the first exact and efficient algorithms for count-based models such as those used for population modeling in ecology and epidemiology. These models describe a population that is changing over time due to processes such as reproduction, mortality, and immigration. It was not previously known how to perform exact computations for such models. The project introduced new technical tools to represent probability distributions using probability generating functions to perform exact and efficient computations. Several papers developed this theory for a sequence of increasingly general and more widely applicable models. The new algorithms enable the application of existing models for animal populations to larger data sets and lead to more accurate statistical estimation.  The second line of work developed new algorithms to make statistical inferences about populations of people while preserving the privacy of individuals who contribute data. Privacy is quantified using the differential privacy framework, which provide rigorous mathematical guarantees about disclosure risk. New algorithms were developed to estimate a widely-used class of models (probabilistic graphical models) under differential privacy. Other algorithms were developed to conduct Bayesian inference under differential privacy for canonical statistical models and regression models. Finally, practical algorithms were developed for constructing confidence intervals while maintaining differential privacy.  The work led to new algorithms for applied ecological modeling that are faster and more accurate than previous ones, and practically applicable algorithms for extracting insights from data about people in a way that provides rigorous privacy guarantees. Seven graduate students received training as part of this award, and led to two Ph.D. dissertations and one MS thesis based primarily on this project. The project team gave numerous talks at scientific meetings and in workshops for the emerging research communities of computational sustainability and AI for social good, and published a book chapter for a general audience in a book about AI for conservation.          Last Modified: 11/04/2020       Submitted by: Daniel R Sheldon]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

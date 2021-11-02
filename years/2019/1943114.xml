@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Dynamic Management of Compressed Arrays for High-Performance Computing Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2025</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>308164</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>High-performance computing (HPC) has enabled significant advancements across all fields of science and engineering by allowing researchers to simulate complex phenomena that are difficult, if not impossible, in a normal laboratory setting. As new HPC systems come online, computational speed far exceeds the speed of data movement. Thus, data movement can limit application performance and system throughput. However, the disparity allows the expenditure of computational time to lower the bandwidth requirements to move data in HPC applications, mitigating performance bottlenecks. This project investigates the performance and utility of data compression and aggregation techniques to reduce the volume of data communicated, computed on, and stored by large-scale scientific applications. An outcome of this project is a transformative data management runtime that allows science and engineering applications that require large amounts of memory enables them to be run on cheaper and more common systems with less memory. Thus, the throughput of workloads can be greatly improved, facilitating research progress in their respected areas. Furthermore, reducing the amount of memory required by the application allows the application to run larger and more detailed problems, allowing scientists and engineers to run and analyze previously intractable experiments. Finally, this project seeks to broaden undergraduates' use and understanding of HPC by creating a multi-semester hands-on research course. This course engages STEM students to build/design/use the next generation of HPC systems and applications and prepares them with the cross-disciplinary skills needed to succeed in on-campus research opportunities, graduate school, and the modern workforce.&lt;br/&gt;&lt;br/&gt;This project improves current state-of-the-art lossy and lossless data compression by adding logic to dynamically manage compressed data; reducing the performance impact of high-cost compression and decompression times. The data management runtime allows application users/developers to select a subset of variables to register. Data, from the point of allocation, resides compressed in main memory and remains compressed during all inter/intra-process data motion. For inter-node communication, the runtime aggregates messages with the same destination node before transmission. Data that are needed for computation are decompressed just before use and are placed in a reconfigurable software-managed cache that utilizes a prefetcher to decompress data prior to use, limiting delays on the critical path of the application. For variables that use lossy compression, the runtime seeks to mitigate the accumulation of error beyond what the application can tolerate by dynamically altering the lossy compression error bound. This project evaluates the data management runtime on a diverse set of proxy application and production-level applications with varying memory requirements, communication computation ratios, communication patterns, and data access patterns.&lt;br/&gt;&lt;br/&gt;This project is jointly funded by CCF Division Software and Hardware Foundations Program and the Established Program to Stimulate Competitive Research (EPSCoR).&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>03/17/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>03/17/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1943114</AwardID>
+<Investigator>
+<FirstName>Jon</FirstName>
+<LastName>Calhoun</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jon Calhoun</PI_FULL_NAME>
+<EmailAddress>jonccal@clemson.edu</EmailAddress>
+<PI_PHON>8646562646</PI_PHON>
+<NSF_ID>000766964</NSF_ID>
+<StartDate>03/17/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Clemson University</Name>
+<CityName>CLEMSON</CityName>
+<CountyName/>
+<ZipCode>296345701</ZipCode>
+<PhoneNumber>8646562424</PhoneNumber>
+<StreetAddress>230 Kappa Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 200]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>South Carolina</StateName>
+<StateCode>SC</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>SC03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042629816</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CLEMSON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042629816</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Clemson University]]></Name>
+<CityName>Clemson</CityName>
+<CountyName/>
+<StateCode>SC</StateCode>
+<ZipCode>296340001</ZipCode>
+<StreetAddress><![CDATA[230 Kappa Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>South Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>SC03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>9150</Code>
+<Text>EPSCoR Co-Funding</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~308164</FUND_OBLG>
+</Award>
+</rootTag>

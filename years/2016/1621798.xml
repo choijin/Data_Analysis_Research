@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Asynchronous parallel stochastic frameworks with convergence guarantee for solving large-scale fixed point problems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Christopher Stark</SignBlockName>
+<PO_EMAI>cstark@nsf.gov</PO_EMAI>
+<PO_PHON>7032924869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In the last two decades, the size of data sets in a large number of areas has grown quickly. In many applications of machine learning, there are massive amounts of training data sets and the data sets may be collected and stored at different locations. Learning a model from these data sets imposes high demands for computation, memory, and data transfer on algorithms. Asynchronous parallel algorithms are applied to solve these large-scale problems via high performance computing and reduced communication and idle time. The performance of asynchronous parallel algorithms is improved largely comparing to synchronous parallel algorithms, especially when the number of cores is large. However, theoretical analysis on the convergence and convergence rates of these algorithms still investigation. &lt;br/&gt; &lt;br/&gt;In this proposal, the PI will develop fast and robust generic asynchronous parallel stochastic frameworks with provable convergence for solving large-scale fixed point problems that have applications in a large number of areas. One objective is to develop asynchronous stochastic algorithms for finding a zero point of a random operator, the sum of a random operator and a deterministic operator, and the sum of two random operators and show the convergence of these algorithms. Another objective is to couple coordinate updates into these asynchronous stochastic algorithms and show their convergence. The last objective is to implement these algorithms and develop software to help people without knowledge about parallel computing run asynchronous algorithms. The research in solving fixed point problems is motivated by problems in various computational sciences and engineering, and its development benefits all these fields by providing fast and robust algorithms. Areas impacted by the proposed work include machine learning, optimization, optimal control, statistics, finance, signal and image processing, compressive sensing, as well as other lines of research involving large data sets and distributed data.</AbstractNarration>
+<MinAmdLetterDate>08/30/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/30/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1621798</AwardID>
+<Investigator>
+<FirstName>Ming</FirstName>
+<LastName>Yan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ming Yan</PI_FULL_NAME>
+<EmailAddress>yanm@math.msu.edu</EmailAddress>
+<PI_PHON>5174320401</PI_PHON>
+<NSF_ID>000707404</NSF_ID>
+<StartDate>08/30/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Michigan State University</Name>
+<CityName>East Lansing</CityName>
+<ZipCode>488242600</ZipCode>
+<PhoneNumber>5173555040</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[426 Administration Bldg, Rm2]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>193247145</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MICHIGAN STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>053343976</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Michigan State University]]></Name>
+<CityName>East Lansing</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>488241000</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8083</Code>
+<Text>Big Data Science &amp;Engineering</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This funded project developed synchronous and asynchronous algorithms for solving large-scale optimization problems. Nowadays, large datasets are usually collected and stored at different agents at possibly different locations. Transferring all the data to a data center is inefficient or impossible, and both the communication and the computation are major components in solving optimization problems with large datasets. This project focused on reducing the time for both components. We developed asynchronous parallel algorithms that can remove the idle time in the communication steps and significantly reduce the communication time without sacrificing the computation time. These algorithms have been applied in various artificial intelligence applications. This project also developed fast algorithms to reduce the computational time, and these algorithms are applied to machine learning and frequency alignment in distributed phased arrays. Furthermore, many optimization problems and algorithms are developed for signal and image applications. Specifically, one algorithm is developed to quantify different types of cells in a mixed population and provides a promising solution to identify cold cancers.&nbsp;&nbsp;</p> <p>This project partially funded two graduate students and one postdoc. One female student in the department of computational mathematics, science and engineering is still in her fourth year of Ph.D. study now. Another student in the department of computer science and engineering is still in his third year. The postdoc started his job as an assistant professor at East China Normal University now. In addition, there are eight undergraduate students worked in this project, and three of them are female. Many of them continued their graduate study in STEM fields.</p> <p>During this funded period, the PI gave more than thirty presentations at national and international workshops, conferences, and seminars. Also, he organized two workshops (The Eighteenth Midwest Optimization Meeting at Michigan State University and the First Workshop on Recent Developments on Mathematical/Statistical Approaches in Data Science at The University of Texas at Dallas) and several mini-symposia in SIAM conferences.</p> <p>The PI collaborated with a research scientist at Los Alamos National Laboratory on seismic image processing, and two graduate students visited the lab as summer interns. He also collaborated with a research scientist at the industry on optimization algorithms for emerging machine learning problems.</p><br> <p>            Last Modified: 12/19/2019<br>      Modified by: Ming&nbsp;Yan</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This funded project developed synchronous and asynchronous algorithms for solving large-scale optimization problems. Nowadays, large datasets are usually collected and stored at different agents at possibly different locations. Transferring all the data to a data center is inefficient or impossible, and both the communication and the computation are major components in solving optimization problems with large datasets. This project focused on reducing the time for both components. We developed asynchronous parallel algorithms that can remove the idle time in the communication steps and significantly reduce the communication time without sacrificing the computation time. These algorithms have been applied in various artificial intelligence applications. This project also developed fast algorithms to reduce the computational time, and these algorithms are applied to machine learning and frequency alignment in distributed phased arrays. Furthermore, many optimization problems and algorithms are developed for signal and image applications. Specifically, one algorithm is developed to quantify different types of cells in a mixed population and provides a promising solution to identify cold cancers.    This project partially funded two graduate students and one postdoc. One female student in the department of computational mathematics, science and engineering is still in her fourth year of Ph.D. study now. Another student in the department of computer science and engineering is still in his third year. The postdoc started his job as an assistant professor at East China Normal University now. In addition, there are eight undergraduate students worked in this project, and three of them are female. Many of them continued their graduate study in STEM fields.  During this funded period, the PI gave more than thirty presentations at national and international workshops, conferences, and seminars. Also, he organized two workshops (The Eighteenth Midwest Optimization Meeting at Michigan State University and the First Workshop on Recent Developments on Mathematical/Statistical Approaches in Data Science at The University of Texas at Dallas) and several mini-symposia in SIAM conferences.  The PI collaborated with a research scientist at Los Alamos National Laboratory on seismic image processing, and two graduate students visited the lab as summer interns. He also collaborated with a research scientist at the industry on optimization algorithms for emerging machine learning problems.       Last Modified: 12/19/2019       Submitted by: Ming Yan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

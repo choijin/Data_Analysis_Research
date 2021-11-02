@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Collaborative: EVADE: Evidence-Assisted Detection and Elimination of Security Vulnerabilities</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>250000.00</AwardTotalIntnAmount>
+<AwardAmount>250000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today's software remains vulnerable to attack. Despite decades of advances in areas ranging from testing to static analysis and verification, all large real-world software is deployed with errors. Because this software is either written in or underpinned by unsafe languages, errors often translate to security vulnerabilities. Although techniques exist that could prevent or limit the risk of exploits, high performance overhead blocks their adoption, leaving today's systems open to attack. To address these problems, we propose a new approach: evidence-assisted detection and elimination of security vulnerabilities (EVADE). EVADE will prevent security vulnerabilities from compromising a system . The challenge, and the goal, is to make it efficient in time and space, and to make it practical for deployment. EVADE will produce detailed reports for developers to reduce the time and effort required to fix their applications. By blocking a wide range of attacks and automatically pinpointing vulnerabilities, EVADE will dramatically increase the security of application software running on servers and desktop platforms, and it will enable a new class of post-attack security analyses.&lt;br/&gt;&lt;br/&gt;The technical approach is a novel one that spans the traditional research boundaries of runtime systems, operating systems, and virtual machines. EVADE will run unmodified applications in a coordinated framework that will perform selective forensic analysis before any output is committed, blocking exploits from compromising their host and making it possible to pinpoint errors with low overhead. The EVADE runtime system will place lightweight tripwires at random locations in memory that can be quickly validated to detect malicious behavior. Within an application, these take the form of signatures placed on the stack and in the heap, while at the hypervisor-level EVADE they may protect the system call table or other crucial data structures. The EVADE VM will divide execution into incrementally-checkpointed epochs. At each epoch boundary, before any system state is committed, the EVADE virtual machine will indicate to the EVADE runtime system which pages have been modified, letting it perform checks to identify vulnerabilities. EVADE will thus dramatically increase the security of vulnerable applications with extremely low runtime overhead, and will assist developers in locating vulnerabilities when an exploit does occur.</AbstractNarration>
+<MinAmdLetterDate>08/12/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/12/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1525888</AwardID>
+<Investigator>
+<FirstName>Emery</FirstName>
+<LastName>Berger</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Emery Berger</PI_FULL_NAME>
+<EmailAddress>emery@cs.umass.edu</EmailAddress>
+<PI_PHON>4135450698</PI_PHON>
+<NSF_ID>000483414</NSF_ID>
+<StartDate>08/12/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts Amherst</Name>
+<CityName>Hadley</CityName>
+<ZipCode>010359450</ZipCode>
+<PhoneNumber>4135450698</PhoneNumber>
+<StreetAddress>Research Administration Building</StreetAddress>
+<StreetAddress2><![CDATA[100 Venture Way, Suite 201]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>153926712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts Amherst]]></Name>
+<CityName>Amherst</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>010039242</ZipCode>
+<StreetAddress><![CDATA[70 Butterfield Terrace]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~250000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-bc834ca7-7fff-4a48-6813-62382d02b502"> <p dir="ltr"><span>EVADE Project Outcomes Report</span></p> <p dir="ltr"><span>Software will always be vulnerable to attacks. Despite decades of advances in areas ranging from testing to static analysis and verification, all large real-&shy;world software is deployed with errors. Because this software is either written in or underpinned by unsafe languages, errors often translate to security vulnerabilities. Although techniques exist that could prevent or limit the risk of exploits, high performance overhead blocks their adoption, leaving today's systems open to attack.</span></p> <p dir="ltr"><span>This project investigated evidence-&shy;assisted detection and elimination of security vulnerabilities. Our goals were to (1) prevent security vulnerabilities from compromising a system by detecting evidence of attacks, (2) be efficient in time and space, making them practical for deployment, (3) produce detailed reports for developers to reduce the time and effort required to fix their applications, (4) provide strong protection without requiring substantial application changes.</span></p> <p dir="ltr"><span>In DoubleTake, we developed the first tool for evidence&shy;-based dynamic analysis, an approach that enables a range of dynamic analyses (including buffer overflows, use&shy; after&shy;-free errors, and memory leaks) while imposing minimal overhead (under 5%), making it practical for the first time to perform these analyses in deployed settings on unmodified applications. The key insight of evidence&shy;-based dynamic analysis is that for many types of errors, it is possible to ensure that evidence that they happened at some point in the past remains for later detection. Evidence&shy;-based dynamic analysis allows execution to proceed at nearly full speed until the end of an epoch (e.g., a heavyweight system call). It then examines program state to check for evidence that an error occurred at some time during that epoch. If so, it rolls back execution and re&shy;-executes the code with instrumentation activated to pinpoint the error. Our approach was published at ICSE 2016.</span></p> <p dir="ltr"><span>Our TimeCop system provides resilience in the face of security attacks or errors. Under TimeCop, program execution proceeds as in DoubleTake, with the system&nbsp;checking integrity before performing irrevokable system calls If a problem is detected, the system rolls back to the last-known good state, and then adjusts objects in memory in a way that undoes the effect of the attack, letting the program run as if the attack never happened. Timecop thus enables high availability applications the possibility of continuing ex-ecution in the face of errors that are often&nbsp;exploited by hackers in deployed in systems like web browsers, HTTP servers, and other network-connected devices.<br /></span></p> <p dir="ltr"><span>Our CRIMES project applied the concept of evidence-based analysis to entire virtual machines (VMs). By optimizing the virtual machine memory checkpointing system, CRIMES can take snapshots of a virtual machine&rsquo;s state tens of times per second. The checkpoint is then analyzed using VM introspection techniques to detect evidence of an attack, efficiently targeting the changed memory pages for threat analysis while retaining context of the full system. CRIMES uses the popular Volatility memory forensics tool for its analysis, transforming it from an offline tool to an automated live security scanning system. After an attack happens, CRIMES automates forensic analysis to facilitate security investigation and exploit patching. Our work on CRIMES was published at Middleware 2018.</span></p> <p dir="ltr"><span>Finally, we have sought ways to provide similar security properties for network middleboxes. Middleboxes provide in-network services like caching proxies, intrusion detection systems, etc., and must operate at speeds of 10Gbps and beyond. &nbsp;Such speeds are generally achieved with kernel bypass and shared memory-based IO; however, these techniques improve performance at the expense of isolation. For example, an OpenSSL-based proxy with the heartbleed bug could be exploited to observe all network traffic from other middleboxes running on the same server due to the use of shared packet memory pools. We proposed two techniques to resolve this. First, we used new Intel MPX CPU features to detect invalid memory accesses in a multi-tenant middlebox framework. As the standard MPX approach incurs too high a cost for middleboxes, in FastPaaS (published at SOSR 2018) we developed a coarse grained memory protection scheme that doubles throughput while still meeting the required security guarantees. Second, we leverage new &ldquo;smart NIC&rdquo; hardware to programmatically demultiplex incoming packets before they are loaded onto the host. This approach offloads sensitive work to the HW, reducing the trusted compute base and improving performance by eliminating the need to copy packets with the CPU. &nbsp;Our results, published in LANMAN 2018, showed that this extra copy can cut throughput by half. Thus, our approach substantially improves performance, while offering better security properties than existing techniques.</span></p> <p dir="ltr"><span>Together, these projects have provided novel techniques for detecting and responding to memory-based attacks. In the past, stronger security has often come at the expense of higher performance overheads. &nbsp;Our work has shown that this trade-off is not a necessity and that security services can be seamlessly applied to applications, virtual machines, and network middleboxes without requiring source code modifications.</span></p> <br /></span></p> <p>&nbsp;</p><br> <p>            Last Modified: 05/31/2019<br>      Modified by: Emery&nbsp;Berger</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  EVADE Project Outcomes Report Software will always be vulnerable to attacks. Despite decades of advances in areas ranging from testing to static analysis and verification, all large real-&shy;world software is deployed with errors. Because this software is either written in or underpinned by unsafe languages, errors often translate to security vulnerabilities. Although techniques exist that could prevent or limit the risk of exploits, high performance overhead blocks their adoption, leaving today's systems open to attack. This project investigated evidence-&shy;assisted detection and elimination of security vulnerabilities. Our goals were to (1) prevent security vulnerabilities from compromising a system by detecting evidence of attacks, (2) be efficient in time and space, making them practical for deployment, (3) produce detailed reports for developers to reduce the time and effort required to fix their applications, (4) provide strong protection without requiring substantial application changes. In DoubleTake, we developed the first tool for evidence&shy;-based dynamic analysis, an approach that enables a range of dynamic analyses (including buffer overflows, use&shy; after&shy;-free errors, and memory leaks) while imposing minimal overhead (under 5%), making it practical for the first time to perform these analyses in deployed settings on unmodified applications. The key insight of evidence&shy;-based dynamic analysis is that for many types of errors, it is possible to ensure that evidence that they happened at some point in the past remains for later detection. Evidence&shy;-based dynamic analysis allows execution to proceed at nearly full speed until the end of an epoch (e.g., a heavyweight system call). It then examines program state to check for evidence that an error occurred at some time during that epoch. If so, it rolls back execution and re&shy;-executes the code with instrumentation activated to pinpoint the error. Our approach was published at ICSE 2016. Our TimeCop system provides resilience in the face of security attacks or errors. Under TimeCop, program execution proceeds as in DoubleTake, with the system checking integrity before performing irrevokable system calls If a problem is detected, the system rolls back to the last-known good state, and then adjusts objects in memory in a way that undoes the effect of the attack, letting the program run as if the attack never happened. Timecop thus enables high availability applications the possibility of continuing ex-ecution in the face of errors that are often exploited by hackers in deployed in systems like web browsers, HTTP servers, and other network-connected devices.  Our CRIMES project applied the concept of evidence-based analysis to entire virtual machines (VMs). By optimizing the virtual machine memory checkpointing system, CRIMES can take snapshots of a virtual machine?s state tens of times per second. The checkpoint is then analyzed using VM introspection techniques to detect evidence of an attack, efficiently targeting the changed memory pages for threat analysis while retaining context of the full system. CRIMES uses the popular Volatility memory forensics tool for its analysis, transforming it from an offline tool to an automated live security scanning system. After an attack happens, CRIMES automates forensic analysis to facilitate security investigation and exploit patching. Our work on CRIMES was published at Middleware 2018. Finally, we have sought ways to provide similar security properties for network middleboxes. Middleboxes provide in-network services like caching proxies, intrusion detection systems, etc., and must operate at speeds of 10Gbps and beyond.  Such speeds are generally achieved with kernel bypass and shared memory-based IO; however, these techniques improve performance at the expense of isolation. For example, an OpenSSL-based proxy with the heartbleed bug could be exploited to observe all network traffic from other middleboxes running on the same server due to the use of shared packet memory pools. We proposed two techniques to resolve this. First, we used new Intel MPX CPU features to detect invalid memory accesses in a multi-tenant middlebox framework. As the standard MPX approach incurs too high a cost for middleboxes, in FastPaaS (published at SOSR 2018) we developed a coarse grained memory protection scheme that doubles throughput while still meeting the required security guarantees. Second, we leverage new "smart NIC" hardware to programmatically demultiplex incoming packets before they are loaded onto the host. This approach offloads sensitive work to the HW, reducing the trusted compute base and improving performance by eliminating the need to copy packets with the CPU.  Our results, published in LANMAN 2018, showed that this extra copy can cut throughput by half. Thus, our approach substantially improves performance, while offering better security properties than existing techniques. Together, these projects have provided novel techniques for detecting and responding to memory-based attacks. In the past, stronger security has often come at the expense of higher performance overheads.  Our work has shown that this trade-off is not a necessity and that security services can be seamlessly applied to applications, virtual machines, and network middleboxes without requiring source code modifications.            Last Modified: 05/31/2019       Submitted by: Emery Berger]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

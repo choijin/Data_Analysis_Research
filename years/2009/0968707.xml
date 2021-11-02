@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Directed Regression</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>04/30/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>330000.00</AwardTotalIntnAmount>
+<AwardAmount>330000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07030000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CMMI</Abbreviation>
+<LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sheldon Jacobson</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The research objective of this project is to develop efficient regression algorithms for fitting models that are to be used to guide subsequent decisions.  Linear regression algorithms will be designed for static models that support repeated decisions as well as for linear time series models that support dynamic decisions.  Logistic regression algorithms will be designed to accommodate use of discrete choice data.  The algorithms will take as input decision objectives in addition to data and a model specification.&lt;br/&gt;&lt;br/&gt;If successful, new algorithms resulting from this research project will enhance, relative to more standard regression algorithms, the quality of decisions made using regression models when selected features do not perfectly capture relationships present in systems that generate data.</AbstractNarration>
+<MinAmdLetterDate>04/19/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>04/19/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0968707</AwardID>
+<Investigator>
+<FirstName>Benjamin</FirstName>
+<LastName>Van Roy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Benjamin Van Roy</PI_FULL_NAME>
+<EmailAddress>bvr@stanford.edu</EmailAddress>
+<PI_PHON>6507250544</PI_PHON>
+<NSF_ID>000228301</NSF_ID>
+<StartDate>04/19/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stanford University</Name>
+<CityName>Stanford</CityName>
+<ZipCode>943052004</ZipCode>
+<PhoneNumber>6507232300</PhoneNumber>
+<StreetAddress>450 Jane Stanford Way</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009214214</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>LELAND STANFORD JUNIOR UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009214214</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stanford University]]></Name>
+<CityName>Stanford</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>943052004</ZipCode>
+<StreetAddress><![CDATA[450 Jane Stanford Way]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0107000</Code>
+<Name>Operations Research</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>5514</Code>
+<Text>OPERATIONS RESEARCH</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>073E</Code>
+<Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9147</Code>
+<Text>GENERIC TECHNOL FOR MANUFACTURING CELLS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>MANU</Code>
+<Text>MANUFACTURING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~330000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>A common practice in decision analytics is to build a model from historical data using a statistical learning method such as linear or logistic regression or principal component analysis and then to optimize decisions using the resulting model. &nbsp;This process typically treats estimation of model parameters separately from their use to make decisions. &nbsp;In the case of linear regression, for example, estimation is carried out via ordinary least squares without consideration of the decision objective. &nbsp;The resulting model is then used to optimize decisions. &nbsp;When the regression model does not perfectly capture relationships that generated the data, it is often beneficial to account for the decision objective in the estimation process.</p> <p>This project has produced new approaches to linear regression and principal component analysis that treat model estimation and decision making in an integrated manner. &nbsp;Extensive computational results demonstrate the benefits to decision quality. &nbsp;The work on directed linear regression has appeared in the proceedings of the conference on Neural Information Processing Systems (NIPS), while the work on directed principal component analysis is reported in a paper under review for publication in the journal Operations Research. &nbsp;The latter work required mathematical and algorithmic developments, which as a by-product led to a new estimation method for factor models that improves on prior art for a broad range of pure estimation problems. &nbsp;This is reported in the paper <em>Learning a Factor Model via Regularized PCA</em>, which has appeared in the journal Machine Learning.</p> <p>The body of work described above has produced tools that may benefit a wide variety of application domains in which large quantities of data are available and used to inform decisions. &nbsp;Examples include electronically mediated transaction systems (e.g., search engines, recommendation systems, pricing and revenue management), health care, smart electric grids, and financial markets. &nbsp;It also serves as a starting point for further research on models and methods for integrating estimation and decision-making in value-generating ways.</p><br> <p>            Last Modified: 07/01/2013<br>      Modified by: Benjamin&nbsp;Van Roy</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2013/0968707/0968707_10014989_1372713970244_Slide1--rgov-214x142.jpg" original="/por/images/Reports/POR/2013/0968707/0968707_10014989_1372713970244_Slide1--rgov-800width.jpg" title="directed learning overview"><img src="/por/images/Reports/POR/2013/0968707/0968707_10014989_1372713970244_Slide1--rgov-66x44.jpg" alt="directed learning overview"></a> <div class="imageCaptionContainer"> <div class="imageCaption">An overview of directed learning</div> <div class="imageCredit">Yi-hao Kao and Benjamin Van Roy</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Benjamin&nbsp;Van Roy</div> <div class="imageTitle">directed learning overview</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ A common practice in decision analytics is to build a model from historical data using a statistical learning method such as linear or logistic regression or principal component analysis and then to optimize decisions using the resulting model.  This process typically treats estimation of model parameters separately from their use to make decisions.  In the case of linear regression, for example, estimation is carried out via ordinary least squares without consideration of the decision objective.  The resulting model is then used to optimize decisions.  When the regression model does not perfectly capture relationships that generated the data, it is often beneficial to account for the decision objective in the estimation process.  This project has produced new approaches to linear regression and principal component analysis that treat model estimation and decision making in an integrated manner.  Extensive computational results demonstrate the benefits to decision quality.  The work on directed linear regression has appeared in the proceedings of the conference on Neural Information Processing Systems (NIPS), while the work on directed principal component analysis is reported in a paper under review for publication in the journal Operations Research.  The latter work required mathematical and algorithmic developments, which as a by-product led to a new estimation method for factor models that improves on prior art for a broad range of pure estimation problems.  This is reported in the paper Learning a Factor Model via Regularized PCA, which has appeared in the journal Machine Learning.  The body of work described above has produced tools that may benefit a wide variety of application domains in which large quantities of data are available and used to inform decisions.  Examples include electronically mediated transaction systems (e.g., search engines, recommendation systems, pricing and revenue management), health care, smart electric grids, and financial markets.  It also serves as a starting point for further research on models and methods for integrating estimation and decision-making in value-generating ways.       Last Modified: 07/01/2013       Submitted by: Benjamin Van Roy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

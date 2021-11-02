@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: FMitF: Track I: Game Theoretic Updates for Network and Cloud Functions</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>295000.00</AwardTotalIntnAmount>
+<AwardAmount>295000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Updates are common in cloud-computing networks, and they occur for many reasons. Some network updates are planned while others are unplanned and automated. Since network updates can take seconds or minutes to complete, and cloud-computing networks must be "always on", updates must be efficient and transparent. Researchers have proposed various abstractions for network updating that leverage advances in formal methods to synthesize update plans and protocols, ensuring that the system remains well-behaved during an ongoing update. However, despite several high-profile cases of network updates gone wrong, operators continue to use relatively naive approaches. We investigate key shortcomings of prior work on update abstractions that limit their utility and widespread use in practice, and develop a new abstraction that addresses the heterogeneity, scale, and dynamic nature of real-world updates. The project's novelties are (1) a new game-theoretic foundation for network updates, (2) algorithms for synthesizing update controllers that are robust to failures and changing conditions during the update, (3) algorithms for explaining update failures, (4) a language design that allows synthesized controllers to be safely modified, and (5) implementations and evaluations of these mechanisms for virtual network functions and serverless-computing platforms. The project provides network operators with tools that make updates to networked systems easier, safer, and more reliable, and develops a framework that makes datacenter computing more reliable and secure.&lt;br/&gt;&lt;br/&gt;Some specific key shortcomings of previous work on network updates are the following. (1) They assume that the network behaves predictably during the update. However, at scale, network demands and concurrent updates can cause unpredictable or even adversarial behavior in response to the update. (2) They have limited explanatory power when an update plan cannot be found or cannot be completed. (3) They make it hard for operators to choose between alternative update plans. This project consists of a comprehensive research plan to address these shortcomings. The key technical innovation is a formulation of updates as the search for a winning strategy in a two-player game, between the operator (or control plane) and the network. This formulation allows a uniform modeling of key elements, including hardware and software failures, variations in demand, and the addition and removal of network elements. To produce updates that are robust to changing conditions and failures, this work uses program-synthesis techniques to automatically generate an update controller that corresponds to a winning strategy in the game. To help operators when fatal errors occur, the project develops algorithms that exploit this game-theoretic formulation to explain the root cause of update failures and present alternatives. Finally, to give operators more control over updates, the investigators develop approaches for synthesizing update controllers that are interpretable and modifiable. The game-theoretic formulation is applicable to several kinds of networked systems, and the project will instantiate and evaluate our tools for platforms that implement virtual network functions and serverless functions.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/18/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>06/18/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2018393</AwardID>
+<Investigator>
+<FirstName>Arjun</FirstName>
+<LastName>Guha</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Arjun Guha</PI_FULL_NAME>
+<EmailAddress>a.guha@northeastern.edu</EmailAddress>
+<PI_PHON>6173732000</PI_PHON>
+<NSF_ID>000633150</NSF_ID>
+<StartDate>06/18/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts Amherst</Name>
+<CityName>Hadley</CityName>
+<ZipCode>010359450</ZipCode>
+<PhoneNumber>4135450698</PhoneNumber>
+<StreetAddress>Research Administration Building</StreetAddress>
+<StreetAddress2><![CDATA[100 Venture Way, Suite 201]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>153926712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts Amherst]]></Name>
+<CityName>Hadley</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>010359450</ZipCode>
+<StreetAddress><![CDATA[100 Venture Way, Suite 201]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>094Y</Code>
+<Text>FMitF: Formal Methods in the F</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>071Z</Code>
+<Text>FMitF-Formal Methods in the Field</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~0</FUND_OBLG>
+</Award>
+</rootTag>

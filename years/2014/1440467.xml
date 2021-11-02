@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SI2-SSE: Collaborative Proposal: Symbolic-Numeric Approaches to Polynomials</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>149346.00</AwardTotalIntnAmount>
+<AwardAmount>149346</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rajiv Ramnath</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Polynomial systems arise naturally in many areas of human endeavor. These include the modeling of tumor growth; the design of robotic devices; chemical systems arising in areas ranging from combustion to blood clotting; assorted problems in physics; plus many areas with mathematics. The solution of the polynomial systems answers questions critical to these endeavors. This research will be devoted to developing the next generation of Bertini, an open source software package, which has been used successfully by many researchers on many problems, which include all those mentioned above.&lt;br/&gt;&lt;br/&gt;Bertini will be rewritten in C++ to be scriptable and modular, which will allow it to be interfaced transparently with symbolic software. The new Bertini will include tools allowing the user to construct and manipulate homotopies based on the output of Bertini. A major focus of the research will be given to systems of polynomials arising from the discretization of systems of differential equations. The great challenge of these very large systems of polynomials is balanced by the great potential impact new efficient and robust methods of solution will have.</AbstractNarration>
+<MinAmdLetterDate>08/01/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/01/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1440467</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Bates</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel Bates</PI_FULL_NAME>
+<EmailAddress>bates@math.colostate.edu</EmailAddress>
+<PI_PHON>9704911101</PI_PHON>
+<NSF_ID>000520622</NSF_ID>
+<StartDate>08/01/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Colorado State University</Name>
+<CityName>Fort Collins</CityName>
+<ZipCode>805232002</ZipCode>
+<PhoneNumber>9704916355</PhoneNumber>
+<StreetAddress>601 S Howes St</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CO02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>785979618</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>COLORADO STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>948905492</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Colorado State University]]></Name>
+<CityName>Fort Collins</CityName>
+<StateCode>CO</StateCode>
+<ZipCode>805214593</ZipCode>
+<StreetAddress><![CDATA[200 W. Lake St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CO02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1253</Code>
+<Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8005</Code>
+<Text>Scientific Software Elements</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8251</Code>
+<Text>Math Sci Innovation Incubator</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~149346</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Polynomial systems arise throughout mathematics, science, and engineering, making the solution of such problems a fundamental concern in computational mathematics.&nbsp; The mathematical field called numerical algebraic geometry includes a wide range of techniques for computing numerical approximations of the solutions of polynomial systems.&nbsp; The primary goal of this&nbsp;<span class="il">project</span>&nbsp;was the construction of easily extensible and maintainable software for such computations.</p> <div></div> <div> <div>More specifically, Bertini 2 is a re-implementation of the venerable Bertini 1 from C into C++ and Python.&nbsp; The&nbsp;<span class="il">project</span>, which is hosted publicly on GitHub and has a GPL3 open source license, currently consists of two major components.&nbsp; The first is the core library, implementing symbolics and numerics in C++.&nbsp; The second is PyBertini, consisting of the Python bindings for the core. The core provides a full set of tools for forming polynomial and non-polynomial systems directly in compiled code, as well as via parsed strings.&nbsp; A system may be differentiated, evaluated, and queried for various properties, as well as made projective via homogenization and patching.&nbsp; Numerical path tracking in double, multiple, and adaptive precisions are implemented, and extensible by overloading just a few functions.&nbsp; The total degree start system is provided, as is the multihomogeneous which accepts arbitrary variable groupings.&nbsp; The power series and Cauchy endgames are also provided.&nbsp;&nbsp;</div> <div></div> <div>Taken together, a complete modern implementation of numerical homotopy continuation in a nice interface exists in the Bertini 2 core.&nbsp; PyBertini exposes the C++ core to Python via compiled bindings.&nbsp; Nearly the entire core is usable in Python, meaning that a user does not have to compile code to do numerical algebraic geometry, nor to they have to write or parse plain text data files.&nbsp; The entire system is supported by an Autotools build system, automated testing, automatically built and uploaded documentation and tutorials, and a wiki site.&nbsp; Distribution is handled via GitHub.&nbsp; The code can currently be compiled from source, though the developers are considering additional distribution methods to ease the burden on users.&nbsp;&nbsp;</div> </div><br> <p>            Last Modified: 10/29/2018<br>      Modified by: Daniel&nbsp;Bates</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827386169_fig1--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827386169_fig1--rgov-800width.jpg" title="Homotopy Continuation"><img src="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827386169_fig1--rgov-66x44.jpg" alt="Homotopy Continuation"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Schematic of homotopy continuation for a polynomial system f(z) in N variables (denoted z).  Some technical details may be found in Figure 2.  Further details can be found on the Bertini 2 GitHub page and throughout the numerical algebraic geometry literature.</div> <div class="imageCredit">Danielle Brake</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Daniel&nbsp;Bates</div> <div class="imageTitle">Homotopy Continuation</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827465528_fig2--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827465528_fig2--rgov-800width.jpg" title="Predictor-Corrector Methods"><img src="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827465528_fig2--rgov-66x44.jpg" alt="Predictor-Corrector Methods"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Schematic of how to track a single path from Figure 1.  Predictions (blue arrows) are made from points near the path, followed by corrections back to the path.  Euler's method is a standard predictor; Newton's method is the standard corrector.</div> <div class="imageCredit">Danielle Brake</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Daniel&nbsp;Bates</div> <div class="imageTitle">Predictor-Corrector Methods</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827516508_fig3--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827516508_fig3--rgov-800width.jpg" title="Tracker Flowchart"><img src="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827516508_fig3--rgov-66x44.jpg" alt="Tracker Flowchart"></a> <div class="imageCaptionContainer"> <div class="imageCaption">One of many planning documents used to outline the steps of homotopy continuation during initial development of Bertini 2.  This plantUML-generated document shows high-level predictor-corrector methods used for path tracking.</div> <div class="imageCredit">Danielle Brake</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Daniel&nbsp;Bates</div> <div class="imageTitle">Tracker Flowchart</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827633005_fig4--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827633005_fig4--rgov-800width.jpg" title="An exceptional Stewart-Gough platform"><img src="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827633005_fig4--rgov-66x44.jpg" alt="An exceptional Stewart-Gough platform"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Stewart-Gough platforms are mechanisms consisting of a moving platform and six links connected to a bottom platform.  The set of configurations of such mechanisms can be encoded in polynomial systems.  This is an example of a Stewart-Gough platform, discovered via numerical algebraic geometry.</div> <div class="imageCredit">Jonathan Hauenstein</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Daniel&nbsp;Bates</div> <div class="imageTitle">An exceptional Stewart-Gough platform</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827635895_fig5--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827635895_fig5--rgov-800width.jpg" title="Equilibria of the Kuramoto model"><img src="/por/images/Reports/POR/2018/1440467/1440467_10327237_1540827635895_fig5--rgov-66x44.jpg" alt="Equilibria of the Kuramoto model"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The Kuramoto model describes the interactions and combined effect of several coupled oscillators and can be encoded in a polynomial system.  This figure shows a decomposition of the parameter space of this model, based on the number of equilibria.</div> <div class="imageCredit">Jonathan Hauenstein</div> <div class="imagePermisssions">Royalty-free (unrestricted use)</div> <div class="imageSubmitted">Daniel&nbsp;Bates</div> <div class="imageTitle">Equilibria of the Kuramoto model</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Polynomial systems arise throughout mathematics, science, and engineering, making the solution of such problems a fundamental concern in computational mathematics.  The mathematical field called numerical algebraic geometry includes a wide range of techniques for computing numerical approximations of the solutions of polynomial systems.  The primary goal of this project was the construction of easily extensible and maintainable software for such computations.   More specifically, Bertini 2 is a re-implementation of the venerable Bertini 1 from C into C++ and Python.  The project, which is hosted publicly on GitHub and has a GPL3 open source license, currently consists of two major components.  The first is the core library, implementing symbolics and numerics in C++.  The second is PyBertini, consisting of the Python bindings for the core. The core provides a full set of tools for forming polynomial and non-polynomial systems directly in compiled code, as well as via parsed strings.  A system may be differentiated, evaluated, and queried for various properties, as well as made projective via homogenization and patching.  Numerical path tracking in double, multiple, and adaptive precisions are implemented, and extensible by overloading just a few functions.  The total degree start system is provided, as is the multihomogeneous which accepts arbitrary variable groupings.  The power series and Cauchy endgames are also provided.    Taken together, a complete modern implementation of numerical homotopy continuation in a nice interface exists in the Bertini 2 core.  PyBertini exposes the C++ core to Python via compiled bindings.  Nearly the entire core is usable in Python, meaning that a user does not have to compile code to do numerical algebraic geometry, nor to they have to write or parse plain text data files.  The entire system is supported by an Autotools build system, automated testing, automatically built and uploaded documentation and tutorials, and a wiki site.  Distribution is handled via GitHub.  The code can currently be compiled from source, though the developers are considering additional distribution methods to ease the burden on users.          Last Modified: 10/29/2018       Submitted by: Daniel Bates]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

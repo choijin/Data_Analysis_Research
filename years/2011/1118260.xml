@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Innovative Methods for Computational Workflow Optimization</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>267342.00</AwardTotalIntnAmount>
+<AwardAmount>267342</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Daniel Katz</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>We will explore in this EAGER proposal new methodologies for matching algorithms and code to architecture, allowing the efficient execution of large complex workflows using an ensemble of available computing architectures ranging from distributed memory multi-core supercomputers to graphic processing units and high performance data intensive computing devices. In this exploratory work we will focus on the matching of computer architectures to computational needs and a tuning of the methodology of Uncertainty Quantification to the architectures at hand. We will first instrument our suite of tools to record computational, memory, data and energy usage. This data will then be analyzed and modeled to create guidelines for prediction of effective and efficient usage. The facilities available to us at the University at Buffalo, Center for Computation Research (CCR) and on the xD framework of resource providers will allow us to conduct this investigation.</AbstractNarration>
+<MinAmdLetterDate>08/19/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/19/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1118260</AwardID>
+<Investigator>
+<FirstName>Abani</FirstName>
+<LastName>Patra</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Abani K Patra</PI_FULL_NAME>
+<EmailAddress>abani.patra@tufts.edu</EmailAddress>
+<PI_PHON>6176273718</PI_PHON>
+<NSF_ID>000395619</NSF_ID>
+<StartDate>08/19/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>SUNY at Buffalo</Name>
+<CityName>Buffalo</CityName>
+<ZipCode>142282567</ZipCode>
+<PhoneNumber>7166452634</PhoneNumber>
+<StreetAddress>520 Lee Entrance</StreetAddress>
+<StreetAddress2><![CDATA[Suite 211]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY26</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>038633251</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>020657151</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[SUNY at Buffalo]]></Name>
+<CityName>Buffalo</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>142282567</ZipCode>
+<StreetAddress><![CDATA[520 Lee Entrance]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY26</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7798</Code>
+<Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~267342</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Intellectual Merit</p> <p>The project focused on developing new methods for optimizing computational and data analytics workflows for analysis of the outcomes of large-scale simulations. Such complex inference from simulation ensembles used in Uncertainty Quantification leads to twin computational challenges of managing large amount of data and performing cpu intensive computing. While algorithmic innovations using surrogates, localization and parallelization can make the problem feasible one still has very large data and compute tasks. The problem of dealing with large data gets compounded when data warehousing and data mining are intertwined with computationally expensive tasks. We developed here an approach to solving this problem by using a mix of hardware suitable for each task in a carefully orchestrated workow.</p> <p>&nbsp;</p> <p>In particular, we focused on the problem of estimating risk from volcanic mass flow hazards using large ensembles of simulations (O(2000) simulations) each of which generates greater than 2GB of data. The sample computing environment is essentially an integration of Netezza database and high performance cluster. It is based on the simple idea of segregating the data intensive and compute intensive tasks and assigning the right architecture for them. The computing model and the new computational scheme were adopted to generate probabilistic hazard maps in time that was order of magnitude faster than earlier practices &ndash; from a week to a day. We also worked with cheaper more readily available hardware platforms wherein the savings were still significant.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>Broader Impacts</p> <p>While the volcanic hazard analysis tools directly developed in this effort s will help emergency managers the generated methods for uncertainty quantification can benefit many other types of hazards from floods to hurricanes and even failure analysis calculations. During the project we supported 3 graduates students including one female student in the course of their doctoral studies. Work was disseminated not only at major national meetings but also through customized training to students and post-doctoral fellows.&nbsp; During the project we also hosted students from France, Columbia, Japan and China.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/29/2014<br>      Modified by: Abani&nbsp;K&nbsp;Patra</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2014/1118260/1118260_10124538_1419889446811_Workflow2--rgov-214x142.jpg" original="/por/images/Reports/POR/2014/1118260/1118260_10124538_1419889446811_Workflow2--rgov-800width.jpg" title="Workflow for hazard analysis"><img src="/por/images/Reports/POR/2014/1118260/1118260_10124538_1419889446811_Workflow2--rgov-66x44.jpg" alt="Workflow for hazard analysis"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Sample workflow designed to exploit high performance computing and analytics hardware</div> <div class="imageCredit">Abani Patra</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Abani&nbsp;K&nbsp;Patra</div> <div class="imageTitle">Workflow for hazard analysis</div> </div> </li> <li> <a href="/por/images/Reports/POR/2014/1118260/1118260_10124538_1419889646325_Max_pile_height--rgov-214x142.jpg" original="/por/images/Reports/POR/2014/1118260/1118260_10124538_1419889646325_Max_pile_height--rgov-800width.jpg" title="Single...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual Merit  The project focused on developing new methods for optimizing computational and data analytics workflows for analysis of the outcomes of large-scale simulations. Such complex inference from simulation ensembles used in Uncertainty Quantification leads to twin computational challenges of managing large amount of data and performing cpu intensive computing. While algorithmic innovations using surrogates, localization and parallelization can make the problem feasible one still has very large data and compute tasks. The problem of dealing with large data gets compounded when data warehousing and data mining are intertwined with computationally expensive tasks. We developed here an approach to solving this problem by using a mix of hardware suitable for each task in a carefully orchestrated workow.     In particular, we focused on the problem of estimating risk from volcanic mass flow hazards using large ensembles of simulations (O(2000) simulations) each of which generates greater than 2GB of data. The sample computing environment is essentially an integration of Netezza database and high performance cluster. It is based on the simple idea of segregating the data intensive and compute intensive tasks and assigning the right architecture for them. The computing model and the new computational scheme were adopted to generate probabilistic hazard maps in time that was order of magnitude faster than earlier practices &ndash; from a week to a day. We also worked with cheaper more readily available hardware platforms wherein the savings were still significant.        Broader Impacts  While the volcanic hazard analysis tools directly developed in this effort s will help emergency managers the generated methods for uncertainty quantification can benefit many other types of hazards from floods to hurricanes and even failure analysis calculations. During the project we supported 3 graduates students including one female student in the course of their doctoral studies. Work was disseminated not only at major national meetings but also through customized training to students and post-doctoral fellows.  During the project we also hosted students from France, Columbia, Japan and China.             Last Modified: 12/29/2014       Submitted by: Abani K Patra]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Inference for Network Models with Covariates: Leveraging Local Information for Statistically and Computationally Efficient Estimation of Global Parameters</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>240000.00</AwardTotalIntnAmount>
+<AwardAmount>240000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Gabor Szekely</SignBlockName>
+<PO_EMAI>gszekely@nsf.gov</PO_EMAI>
+<PO_PHON>7032928869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Large datasets, which are naturally modeled as a network or graph, arise in almost every field of human endeavor. For example, Facebook is a social network, where nodes are users, with edges corresponding to friendships. In gene networks, nodes represent genes with connections corresponding to their co-expression. In ecological networks, the nodes are animal species, with edges determined according to who eats whom.   A major focus of research for network or graph data has been on identifying community membership of the nodes.  However, what is often more important for scientific purposes is examining the nature and evolution of edge and membership probabilities, for instance changes in gene features of individuals as a function of some unknown factor, like a disease.  The focus on using other measured features of nodes and edges could add, in decisive ways, to the information available from observed edges or interactions between nodes.  These could be disease symptoms or test results, or demographic information of users in social networks.  Statistical inference in such models, despite its importance, has only just begun to be studied.  There are both theoretical and computational challenges, due both to the complexity of models fitted, and the size of data sets.   The research will lead to the development of algorithms for fitting models and statistical measures of confidence, with potential applications to many fields. &lt;br/&gt;&lt;br/&gt;The research is focused on block models for graphs, when node or edge covariates are present. When formulated, these models are no longer block models, but models whose membership probabilities depend upon covariates and whose connection probabilities depend both on block membership and individual covariates.  Fitting algorithms involve alternating between fitting block and covariate parameters.  Variational (mean field) approaches which effectively lead to semi-parametric model fitting with nK membership "nuisance" parameters, with n representing the number of nodes and K the number of communities, are examined.  As these approaches have been found by the PIs to be unstable for large n, the PIs have already begun to investigate the theoretical and practical aspects of divide and conquer algorithms where many subgraphs are independently fit.   The PIs will study the statistical properties, both asymptotically and through simulations, and develop practicable and computationally stable methods for large, relatively sparse graphs.</AbstractNarration>
+<MinAmdLetterDate>04/25/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>04/25/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1713083</AwardID>
+<Investigator>
+<FirstName>Peter</FirstName>
+<LastName>Bickel</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Peter J Bickel</PI_FULL_NAME>
+<EmailAddress>bickel@stat.berkeley.edu</EmailAddress>
+<PI_PHON>5106421381</PI_PHON>
+<NSF_ID>000452301</NSF_ID>
+<StartDate>04/25/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Berkeley]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>947045940</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1269</Code>
+<Text>STATISTICS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~240000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>We studied herarchical (tree structured) block models for networks ,</p> <p>&nbsp; &nbsp;and developed a formulation and fitting procedure.The formulation was that of a tree with&nbsp; basic blocks (communities ) being the leaves ,with intermediate branches corresponding to larger communities.</p> <p>Theoretical results obtained that were natural but&nbsp; striking were that in situations where identifying membership in leaf blocks&nbsp; &nbsp; was theoretically&nbsp; impossible our methods enabld us. to identify&nbsp; membership in higher&nbsp; level blocks (near the root) perfectly.We applied these methods in various simulated data sets ,but most interestingly , to&nbsp; two real networks.One was a citation network in statistics previiously analyzed by Jiashun Jin and collaborators.The results of the hierarchical model corresponded. much more closely to evidence from other sources.A second network for genes ,where an edge corresponded to joint&nbsp; mention in&nbsp; &nbsp;at least&nbsp; 2 articles in matters related to blood physiology .again yielded a tree structure where&nbsp; node communities&nbsp; &nbsp;could be biologically ientified with particular conditions such as anemia and genes such a theone responsible for sickle cell anema appeared as a natural hub in the anemia block.</p> <p>We in another collaboration,developed. divide and conquer methods to identify communities in large networks.The methods we developed&nbsp; had theeproperty of greatly reducing computing time with a small loss in classification accuracy</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/14/2020<br>      Modified by: Peter&nbsp;J&nbsp;Bickel</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ We studied herarchical (tree structured) block models for networks ,     and developed a formulation and fitting procedure.The formulation was that of a tree with  basic blocks (communities ) being the leaves ,with intermediate branches corresponding to larger communities.  Theoretical results obtained that were natural but  striking were that in situations where identifying membership in leaf blocks    was theoretically  impossible our methods enabld us. to identify  membership in higher  level blocks (near the root) perfectly.We applied these methods in various simulated data sets ,but most interestingly , to  two real networks.One was a citation network in statistics previiously analyzed by Jiashun Jin and collaborators.The results of the hierarchical model corresponded. much more closely to evidence from other sources.A second network for genes ,where an edge corresponded to joint  mention in   at least  2 articles in matters related to blood physiology .again yielded a tree structure where  node communities   could be biologically ientified with particular conditions such as anemia and genes such a theone responsible for sickle cell anema appeared as a natural hub in the anemia block.  We in another collaboration,developed. divide and conquer methods to identify communities in large networks.The methods we developed  had theeproperty of greatly reducing computing time with a small loss in classification accuracy          Last Modified: 10/14/2020       Submitted by: Peter J Bickel]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: SHF: Core: Medium: Causal Performance Debugging for Highly-Configurable Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>408567.00</AwardTotalIntnAmount>
+<AwardAmount>408567</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Software performance is critical for most software systems to achieve scale and limit operating costs and energy consumption. As modern software systems, such as big data and machine-learning systems, are increasingly built by composing many reusable infrastructure components and deployed on distributed and heterogeneous hardware, developers have powerful tools and abstractions at their fingertips, and as a result face immense configuration complexity. Software and hardware need to be selected and configured carefully to achieve high performance for a given system and task. Unfortunately, in practice, performance faults and misconfigurations are common, where a system performs much worse than expected, not achieving its mission or simply wasting cost and energy. In large configuration spaces, end-users and developers face severe challenges in understanding and fixing performance faults by changing software configuration, changing hardware deployment, or modifying the software's code itself. Current approaches that model system performance by analyzing correlations among performance measurements and options are slow and may produce misleading results, obfuscating the actual causes of performance faults. Even if they can fix the problem, most of them cannot explain why (1) the obtained configurations are the real cause of the problem, and (2) a user/developer should consider the proposed recommendations. In both cases, the lack of explainability is a big issue. The project is intended to initiate a paradigm shift in today's testing and debugging methodology for complex, highly configurable systems, thereby positively impacting a broad range of industrial sectors relying on complex, highly configurable systems. Specifically, the project contributes to substantial energy savings and reduced carbon emissions, especially for the many big-data and machine-learning systems that operate at a massive scale. Finally, the research is providing valuable training for involved students from diverse backgrounds in research and generating high-quality researchers and practitioners for society.&lt;br/&gt; &lt;br/&gt;This project develops and evaluates foundations and tools for a causal approach to performance modeling and performance debugging. This project introduces the new concept of causal performance models that are learned using causal structure learning by intervening over configuration options and observing system performance regarding (multiple) performance objectives, rather than just analyzing correlations. Causal models enable causal inference and counterfactual reasoning for numerous tasks, including debugging performance faults and misconfigurations. Based on a solid technical foundation of causal modeling and extensive experience with performance modeling for configurable systems, this project develops innovations in three thrusts: (1) It designs and refines a causal modeling approach for software performance of systems composed of multiple configurable components, using innovations in sampling strategies, code analysis, compositional reasoning, and transfer learning to build accurate causal models efficiently. (2) It develops and evaluates user-facing tool support, based on causal models, to help users select well-performing configurations for their specific tasks and hardware and resolve misconfiguration faults with configuration changes, highlighting the (causal) performance impact of configuration decisions and providing a Pareto analysis of involved tradeoffs. (3) It develops and evaluates developer-facing tool support to foster code-level debugging and documentation. Finally, all contributions are being evaluated end-to-end with developers on real performance faults, showing how both users and developers benefit from causal models and related tools.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/14/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>07/14/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2106853</AwardID>
+<Investigator>
+<FirstName>Christian</FirstName>
+<LastName>Kastner</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Christian Kastner</PI_FULL_NAME>
+<EmailAddress>kaestner@cmu.edu</EmailAddress>
+<PI_PHON>4122689527</PI_PHON>
+<NSF_ID>000634835</NSF_ID>
+<StartDate>07/14/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie Mellon University]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~408567</FUND_OBLG>
+</Award>
+</rootTag>

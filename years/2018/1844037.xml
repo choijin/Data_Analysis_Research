@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SBIR Phase I:  Subspace: A Decentralized Database of End-User Devices</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>225000.00</AwardTotalIntnAmount>
+<AwardAmount>225000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anna Brady-Estevez</SignBlockName>
+<PO_EMAI>abrady@nsf.gov</PO_EMAI>
+<PO_PHON>7032927077</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The broader market impact/commercial potential of this Small Business Innovation Research (SBIR) project is to foster the mainstream use of decentralized database solutions in place of centrally owned and operated data centers and cloud services offered by companies like Amazon, Google and Facebook. Data security breaches involving tens or hundreds of millions of customers are now commonplace, as are high-profile news stories related to questionable uses of customer-supplied data.&lt;br/&gt;&lt;br/&gt;This SBIR Phase I project proposes to solve the key problem of developing a new network protocol that allows for a low-latency, secure, persistent and highly-available, decentralized No-SQL database which may operate at Internet scale. Key objectives include: development of a novel P2P overlay network which combines a zero-hop Distributed Hash Table (DHT) as a base routing layer and any number of traditional Kademlia DHTs as application specific leaf networks, all of which may communicate through a variety of transport protocols; constructing a new proof-of-space for use  both as the consensus layer of a proof-of-space blockchain and as a proof-of-capacity for storage nodes; creating a secure Decentralized Storage Network utilizing a proof of replication based on verifiable delay functions; and implementing and testing the protocol across common host devices and client runtimes. The end goal of the project is to validate the technical feasibility, scalability, and market interest for the subspace protocol.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>02/08/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>02/08/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1844037</AwardID>
+<Investigator>
+<FirstName>Jeremiah</FirstName>
+<LastName>Wagstaff</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jeremiah Wagstaff</PI_FULL_NAME>
+<EmailAddress>jeremiah@omnibuilds.com</EmailAddress>
+<PI_PHON>5129947799</PI_PHON>
+<NSF_ID>000782451</NSF_ID>
+<StartDate>02/08/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Subspace Labs, Inc.</Name>
+<CityName>Menlo Park</CityName>
+<ZipCode>940250000</ZipCode>
+<PhoneNumber>5129947799</PhoneNumber>
+<StreetAddress>1259 El Camino Real Ste B</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>14</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA14</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>080896487</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>SUBSPACE LABS, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Omnibuilds, Inc.]]></Name>
+<CityName>Mountain View</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>940401645</ZipCode>
+<StreetAddress><![CDATA[2111 Latham Street, Unit 101]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5371</Code>
+<Text>SBIR Phase I</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5371</Code>
+<Text>SMALL BUSINESS PHASE I</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8030</Code>
+<Text>Chemical Technology</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~225000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Over an 18 month period, beginning January 2019, Subspace Labs conducted primary research and development towards the creation of a persistent, decentralized database anchored to a public, permissionless blockchain based on Proofs-of-Capacity (PoC). Initial research resulted in the design and implementation of a novel architecture for a decentralized database service, known as Subspace Database (SSDB). However, since a suitable public, permissionless blockchain based on PoC did not yet exist, significant research time and effort was allocated towards creating one. The end result was a secure, working implementation of a novel blockchain protocol based on proofs-of-archival-storage in less than 10,000 lines of Rust and described separately in a technical white paper. Following the launch of this new Layer I protocol, Subspace Labs will focus on the original goal of extending it with SSDB as a Layer II network.</p> <p><br />The main contribution of this research is the design and development of a fundamentally new Layer I blockchain protocol, known as the Subspace Network Ledger (SNL). Compared to proof-of-work based Nakamoto consensus, this protocol has much higher transaction throughput, much faster confirmation latency, and is several orders of magnitude more energy efficient (measured in watts per transaction). Most importantly, since it is based on proofs-of-storage it is far more decentralized and ASIC resistant &mdash; anyone who has a hard drive may participate in consensus. Remarkably, it maintains the same security guarantees as Nakamoto consensus, namely that no attacker may successfully double-spend coins who control less than one-half of the storage resources pledged to the network. Compared to other proposed proof-of-stake and proof-of-capacity protocols it remains completely open and permissionless &mdash; players may come and go at any time and do not rely on any special purpose nodes or high-end hardware to maintain the security of the protocol.</p><br> <p>            Last Modified: 09/18/2020<br>      Modified by: Jeremiah&nbsp;Wagstaff</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Over an 18 month period, beginning January 2019, Subspace Labs conducted primary research and development towards the creation of a persistent, decentralized database anchored to a public, permissionless blockchain based on Proofs-of-Capacity (PoC). Initial research resulted in the design and implementation of a novel architecture for a decentralized database service, known as Subspace Database (SSDB). However, since a suitable public, permissionless blockchain based on PoC did not yet exist, significant research time and effort was allocated towards creating one. The end result was a secure, working implementation of a novel blockchain protocol based on proofs-of-archival-storage in less than 10,000 lines of Rust and described separately in a technical white paper. Following the launch of this new Layer I protocol, Subspace Labs will focus on the original goal of extending it with SSDB as a Layer II network.   The main contribution of this research is the design and development of a fundamentally new Layer I blockchain protocol, known as the Subspace Network Ledger (SNL). Compared to proof-of-work based Nakamoto consensus, this protocol has much higher transaction throughput, much faster confirmation latency, and is several orders of magnitude more energy efficient (measured in watts per transaction). Most importantly, since it is based on proofs-of-storage it is far more decentralized and ASIC resistant &mdash; anyone who has a hard drive may participate in consensus. Remarkably, it maintains the same security guarantees as Nakamoto consensus, namely that no attacker may successfully double-spend coins who control less than one-half of the storage resources pledged to the network. Compared to other proposed proof-of-stake and proof-of-capacity protocols it remains completely open and permissionless &mdash; players may come and go at any time and do not rely on any special purpose nodes or high-end hardware to maintain the security of the protocol.       Last Modified: 09/18/2020       Submitted by: Jeremiah Wagstaff]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

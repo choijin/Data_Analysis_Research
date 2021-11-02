@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Secure and Fast Federated Low-Rank Recovery from Few Column-wise Linear, or Quadratic, Projections</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>564500.00</AwardTotalIntnAmount>
+<AwardAmount>564500</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Scott Acton</SignBlockName>
+<PO_EMAI>sacton@nsf.gov</PO_EMAI>
+<PO_PHON>7032922124</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Large-scale usage of Internet-of-Things (IoT) devices, smartphones and surveillance cameras has resulted in huge amounts of geographically distributed data in current times. This naturally leads to questions of algorithm design for efficient processing and inference on this data. There is a need to compress (sketch) this data before it can be stored, processed, or transmitted.  At the other extreme, in projection-imaging settings, such as magnetic resonance imaging (MRI), computed tomography (CT), Fourier ptychography, or sub-diffraction imaging, data is acquired one sample at a time, making the process very slow. In this scenario as well, data may be distributed, e.g., for a jointly reconstructed functional MR images of different human subjects, with scans that may have been acquired at different hospitals around the country. In many of these settings, privacy concerns dictate that the acquired measurements need to be processed in a federated manner. Moreover, the distributed nature of the data necessitates the design of secure approaches that are robust to attacks by potentially malicious nodes. &lt;br/&gt;&lt;br/&gt;Both efficient sketching and fast dynamic projection imaging require the ability to recover the true signal or image sequence from highly undersampled measurements.  Since the early work on compressed sensing (CS), sparsity and structured sparsity assumptions have been exploited very fruitfully for both type of problems. However, there is limited literature on the use of the low-rank (LR) assumption on signal sequences, and almost none that theoretically analyzes the resulting approaches. This project develops fast, sample-efficient, and federated (private and communication-efficient) algorithms for provably correct subspace learning and low-rank matrix recovery from  few column-wise independent linear, or quadratic projections. Extensions to LR plus sparse (LR+S) recovery are also examined. It should be noted that this problem setting is very different from other well-investigated LR recovery problems such as multivariate regression (due to the use of different independent measurement matrices for each signal), LR matrix sensing, or LR matrix completion. The team is investigating the design of Gradient Descent (GD) based solutions that are guaranteed, with high probability, to recover an n x q rank-r matrix from m independent linear projections of each of its q columns with m just large enough to satisfy mq &gt; C (n+q) r^2 approximately, and that converge geometrically to the true matrix. Furthermore, this project designs novel secure algorithms that are robust to Byzantine nodes for the above classes of problems. This effort is expected to lead to newer solution approaches and analysis techniques, since commonly used assumptions such as strongly convex cost functions and i.i.d. measurements do not hold in this setting. Finally, this project partially supports the new CyMathKids initiative, whose goal is to provide sustained year-long support and extension in Mathematics to grade-school students from under-funded school districts in Des Moines, Iowa. It is intended to fill some of the academic achievement gaps between disadvantaged students and advantaged ones, and do so while the gaps are still small: the pilot phase focuses on elementary students with a plan to follow the same students through the school years.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>05/28/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>05/28/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2115200</AwardID>
+<Investigator>
+<FirstName>Namrata</FirstName>
+<LastName>Vaswani</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Namrata Vaswani</PI_FULL_NAME>
+<EmailAddress>namrata@iastate.edu</EmailAddress>
+<PI_PHON>5152944012</PI_PHON>
+<NSF_ID>000234521</NSF_ID>
+<StartDate>05/28/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Aditya</FirstName>
+<LastName>Ramamoorthy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Aditya Ramamoorthy</PI_FULL_NAME>
+<EmailAddress>adityar@iastate.edu</EmailAddress>
+<PI_PHON>5152941583</PI_PHON>
+<NSF_ID>000305890</NSF_ID>
+<StartDate>05/28/2021</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Iowa State University</Name>
+<CityName>AMES</CityName>
+<ZipCode>500112207</ZipCode>
+<PhoneNumber>5152945225</PhoneNumber>
+<StreetAddress>1138 Pearson</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<StateCode>IA</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IA04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005309844</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005309844</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Iowa State University]]></Name>
+<CityName>AMES</CityName>
+<StateCode>IA</StateCode>
+<ZipCode>500112207</ZipCode>
+<StreetAddress><![CDATA[1138 Pearson]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IA04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9102</Code>
+<Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~564500</FUND_OBLG>
+</Award>
+</rootTag>

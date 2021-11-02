@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CC*IIE Integration: Development and Integration of perfSONAR for End-to End Network Cyberinfrastructure</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Kevin Thompson</SignBlockName>
+<PO_EMAI>kthompso@nsf.gov</PO_EMAI>
+<PO_PHON>7032924220</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project enhances the perfSONAR network measurement system to improve the application impact and utility of network performance information.  The perfSONAR system monitors and measures the network cyberinfrastructure that connects scientists with resources and ever-increasing data.  This project increases the impact of this network telemetry on the performance of large-scale data applications by calibrating network data and making it actionable.&lt;br/&gt;&lt;br/&gt;While it can be determined when the network is behaving correctly and when it is lightly or heavily loaded,  scientific workflows have yet to be provided the same level of performance estimation that car drivers can get from a navigation system in a car.  This project calibrates and quantifies data from scientific data networks and applications in order to provide reasonable predictions for the logistics of moving scientific data.  This includes controlled experiments under repeatable conditions as well as longitudinal studies with high performance networks and applications.&lt;br/&gt;&lt;br/&gt;In addition, efforts are made to scale the perfSONAR ecosystem by orders of magnitude, and to move toward a more scalable service model for subscribing components and developing autonomic configuration and management of measurement activities.  As the perfSONAR system moves outside the network operations community, many aspects of scalability will need to be addressed.</AbstractNarration>
+<MinAmdLetterDate>09/11/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>09/11/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1440667</AwardID>
+<Investigator>
+<FirstName>Douglas</FirstName>
+<LastName>Swany</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME>Dr.</PI_SUFX_NAME>
+<PI_FULL_NAME>Douglas M Swany</PI_FULL_NAME>
+<EmailAddress>swany@iu.edu</EmailAddress>
+<PI_PHON>8128567795</PI_PHON>
+<NSF_ID>000347755</NSF_ID>
+<StartDate>09/11/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Indiana University</Name>
+<CityName>Bloomington</CityName>
+<ZipCode>474013654</ZipCode>
+<PhoneNumber>3172783473</PhoneNumber>
+<StreetAddress>509 E 3RD ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>006046700</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF INDIANA UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>006046700</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Indiana University]]></Name>
+<CityName>Bloomington</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>474057104</ZipCode>
+<StreetAddress><![CDATA[150 S. Woodlawn Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8080</Code>
+<Text>Campus Cyberinfrastructure</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this effort was to investigate strategies to improve the scalability and efficacy of the perfSONAR network measurement system. &nbsp;Our sister system, Periscope, is designed to augment perfSONAR and to serve as a research vehicle to provide capabilities to network-aware applications and to improve the scalability of the perfSONAR system. This work had three major thrusts aimed to improve the scalability and accuracy of perfSONAR.<br />First, we did extensive work to improve the scalability and functionality of the perfSONAR/Periscope Unified Network Information Service (UNIS). &nbsp;Some of this work informed the production perfSONAR Lookup Service, which adopted a similar architecture and builds on the same components.</p> <p>The second thread of this work focused on scalable measurements by ensuring that ensuring that measurements do not confict with one another. &nbsp;The HELM service schedules measurements such that they do not conflict by using common links. &nbsp;Having measurements use the same resources can significantly perturb the results. &nbsp;This issue is especially problematic in virtual network environments. &nbsp;In these cases, the UNIS topology service is used to identify cases in which seemingly distinct virtual networks actually transit the same underlying physical network elements.</p> <p><br />Finally, we worked to calibrate the measurments produced by perfSONAR measurement tools. &nbsp;We investigated a variety of mechanisms to externally observe packet transmission and reception. &nbsp;After investigating various approaches, we settled on using network-enabled FPGAs to observe packet reception and transmission from a single clock domain. &nbsp;While the analysis of the observations is still being completed, we are seeing interesting effects that show the difference between reported results and what is actually happening on the wire.</p><br> <p>            Last Modified: 06/22/2018<br>      Modified by: Douglas&nbsp;M&nbsp;Swany</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this effort was to investigate strategies to improve the scalability and efficacy of the perfSONAR network measurement system.  Our sister system, Periscope, is designed to augment perfSONAR and to serve as a research vehicle to provide capabilities to network-aware applications and to improve the scalability of the perfSONAR system. This work had three major thrusts aimed to improve the scalability and accuracy of perfSONAR. First, we did extensive work to improve the scalability and functionality of the perfSONAR/Periscope Unified Network Information Service (UNIS).  Some of this work informed the production perfSONAR Lookup Service, which adopted a similar architecture and builds on the same components.  The second thread of this work focused on scalable measurements by ensuring that ensuring that measurements do not confict with one another.  The HELM service schedules measurements such that they do not conflict by using common links.  Having measurements use the same resources can significantly perturb the results.  This issue is especially problematic in virtual network environments.  In these cases, the UNIS topology service is used to identify cases in which seemingly distinct virtual networks actually transit the same underlying physical network elements.   Finally, we worked to calibrate the measurments produced by perfSONAR measurement tools.  We investigated a variety of mechanisms to externally observe packet transmission and reception.  After investigating various approaches, we settled on using network-enabled FPGAs to observe packet reception and transmission from a single clock domain.  While the analysis of the observations is still being completed, we are seeing interesting effects that show the difference between reported results and what is actually happening on the wire.       Last Modified: 06/22/2018       Submitted by: Douglas M Swany]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

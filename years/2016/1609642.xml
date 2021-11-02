@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>ParCell: A Parallel Computation Framework for Scalable and Mechanistic Modeling and Simulation of Multicellular Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>349995.00</AwardTotalIntnAmount>
+<AwardAmount>349995</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07020000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CBET</Abbreviation>
+<LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ron Joslin</SignBlockName>
+<PO_EMAI>rjoslin@nsf.gov</PO_EMAI>
+<PO_PHON>7032927030</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>PI:  Barua, Dipak&lt;br/&gt;Proposal Number: 1609642&lt;br/&gt;&lt;br/&gt;This multidisciplinary proposal aims to model multicellular biological systems based on modeling of the behavior of each individual cell. This research will relate sub-cellular protein interactions to full scale cell behavior, and to the behavior of a system of many cells using computational methods. Cell division, growth, death and function will be modeled. Results from this work can have an impact both on Bioengineering and on Computer Science. &lt;br/&gt;&lt;br/&gt;Traditional computational modeling and simulation methods are inadequate to address the biological complexity of cells. In recent years, considerable efforts have been devoted to developing multiscale models that capture biological complexity at distinct time and spatial resolutions. However, little progress has been made in developing multiscale models capable of integrating high resolution biological details with long-time cellular behavior. The primary goal of this proposal is to develop a parallel computation framework, called ParCell, for multiscale cell population modeling and simulation. ParCell will link subcellular biochemistry to long-time cell behavior determined by cell death, division, fate decision, and other cellular functions. Current multiscale population models mostly rely on serial computation-based simulation techniques. Such limitations and challenges prohibit the understanding and analysis of many important biological systems, such as tissue regeneration, clonal expansion of antigen-exposed immune cells, cell migration in wound healing, evolution of drug resistance in cells, and cellular phenotypes under disease and treatment conditions. ParCell will be the framework for modeling of heterogeneous multicellular systems that will link high resolution molecular details of signaling and gene transcription to evolutionary cell fate decisions and population dynamics. Current cell population models are mostly based on agent-based modeling (ABM) technique, where cells are represented as software objects or agents. Instead, it is proposed that  cells will be represented as stand-alone parallel simulations (i.e., threads) rather than software objects. Using parallel computation, ParCell will systematically expand a single-cell biochemical network model, created using other software or languages, into a population model. Specifically, it will launch parallel simulations on a single-cell biochemical network model, and treat each simulation thread as an independent cell. It will also use a message passing interface (MPI) to link subcellular network dynamics (parallel thread corresponding to each cell) to cellular fate decisions and phenotypes based on model-specific (user-supplied) rules. Such distributed structure of the models combined with parallel computation will enable unprecedented scalability and mechanistic abstraction. Additionally, ParCell will use a novel load-balancing scheme for arbitrary model scalability in dynamic and heterogeneous cloud environments. The models can be made as mechanistic as any single-cell reaction network without adding model complexity or programming efforts. The PIs will leverage various summer camp programs organized by the Diversity, Outreach, and Women's Programs to recruit female and underrepresented minority students into the project.</AbstractNarration>
+<MinAmdLetterDate>08/09/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/18/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1609642</AwardID>
+<Investigator>
+<FirstName>Sajal</FirstName>
+<LastName>Das</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sajal K Das</PI_FULL_NAME>
+<EmailAddress>sdas@mst.edu</EmailAddress>
+<PI_PHON>5733417708</PI_PHON>
+<NSF_ID>000430507</NSF_ID>
+<StartDate>08/09/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Dipak</FirstName>
+<LastName>Barua</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dipak Barua</PI_FULL_NAME>
+<EmailAddress>baruad@mst.edu</EmailAddress>
+<PI_PHON>5733414134</PI_PHON>
+<NSF_ID>000684255</NSF_ID>
+<StartDate>08/09/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Missouri University of Science and Technology</Name>
+<CityName>Rolla</CityName>
+<ZipCode>654096506</ZipCode>
+<PhoneNumber>5733414134</PhoneNumber>
+<StreetAddress>300 W 12th Street</StreetAddress>
+<StreetAddress2><![CDATA[202 Centennial Hall]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Missouri</StateName>
+<StateCode>MO</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MO08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804883767</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MISSOURI SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>006326904</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Missouri University of Science and Technology]]></Name>
+<CityName>Rolla</CityName>
+<StateCode>MO</StateCode>
+<ZipCode>654096506</ZipCode>
+<StreetAddress><![CDATA[300 W 12th Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Missouri</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MO08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~349995</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The major goal of this multidisciplinary ParCell project involving PIs in Chemical and Biochemical Engineering, and Computer Science was to model the multicellular biological systems based on modeling the behavior of each individual cell including cell division, growth, death and function. The project resulted in a multiscale modeling and simulation framework by bridging the subcellular biochemistry to population dynamics. Existing modeling and simulation techniques provide very limited capabilities to bridge these processes that occur at vastly developed time and spatial scales. Currently, the subcellular molecular processes and cellular-scale processes are modeled and studied separately. However, for a mechanistic understanding of how the molecular-scale processes determine cellular fate decision and evolution, it is essential to bridge these processes at distinct time and spatial scales. The ParCell project filled this gap.</p> <p><strong>Intellectual Merits:</strong> A novel message passing interface (MPI) based parallel computing framework was proposed in the ParCell project to systematically create non-spatial multiscale cell population models from a single-cell biochemical network models. This resulted in a highly scalable mechanistic models that use MPI communications to link the subcellular network dynamics to cellular decision making for death, division, and other fate decisions. Thus, the models enable simulation of population dynamics arising from the subcellular protein-protein interactions in signaling and gene transcription. The MPI&rsquo;s internal capabilities dynamically create new parallel threads (daughter cells) from an existing thread (mother cell), and terminate an existing parallel thread (death of a cell).<strong> </strong>The capability was extended to spatiotemporal modeling with the help of an agent based framework to capture the heterogeneity at the tissue scale, where the cells are subject to the static or time-dependent local growth conditions. Thus the biochemistry of each cell is influenced by the local concentrations of nutrients, drug molecules, or other biological factors. A numerical algorithm enables the evolution of the local growth conditions to the internal molecular-scale dynamics of cells in the system. To address the underlying computational challenges, a load-balancing scheme was developed to ensure cost-optimal job allocation across the computing nodes in a multiprocessor cluster environment.<strong>&nbsp;</strong></p> <p><strong>Broader Impacts:</strong> The ParCell project has tremendous impact on not only the scientific community but also on the student training and educational missions. In particular, the project trained four Ph.D. students in Chemical Engineering and Computer Science Departments, in interdisciplinary research. They successfully completed their degrees and are now postdoctoral researchers at reputed institutions. One female undergraduate student was also trained through this project. The research findings were published in high quality, peer-reviewed journals and conference proceedings. The results were further disseminated through poster presentations at premier meetings and invited seminar talks. Finally, the outcomes of this project helped enhance course teachings in Chemical Engineering.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/07/2020<br>      Modified by: Sajal&nbsp;K&nbsp;Das</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The major goal of this multidisciplinary ParCell project involving PIs in Chemical and Biochemical Engineering, and Computer Science was to model the multicellular biological systems based on modeling the behavior of each individual cell including cell division, growth, death and function. The project resulted in a multiscale modeling and simulation framework by bridging the subcellular biochemistry to population dynamics. Existing modeling and simulation techniques provide very limited capabilities to bridge these processes that occur at vastly developed time and spatial scales. Currently, the subcellular molecular processes and cellular-scale processes are modeled and studied separately. However, for a mechanistic understanding of how the molecular-scale processes determine cellular fate decision and evolution, it is essential to bridge these processes at distinct time and spatial scales. The ParCell project filled this gap.  Intellectual Merits: A novel message passing interface (MPI) based parallel computing framework was proposed in the ParCell project to systematically create non-spatial multiscale cell population models from a single-cell biochemical network models. This resulted in a highly scalable mechanistic models that use MPI communications to link the subcellular network dynamics to cellular decision making for death, division, and other fate decisions. Thus, the models enable simulation of population dynamics arising from the subcellular protein-protein interactions in signaling and gene transcription. The MPI’s internal capabilities dynamically create new parallel threads (daughter cells) from an existing thread (mother cell), and terminate an existing parallel thread (death of a cell). The capability was extended to spatiotemporal modeling with the help of an agent based framework to capture the heterogeneity at the tissue scale, where the cells are subject to the static or time-dependent local growth conditions. Thus the biochemistry of each cell is influenced by the local concentrations of nutrients, drug molecules, or other biological factors. A numerical algorithm enables the evolution of the local growth conditions to the internal molecular-scale dynamics of cells in the system. To address the underlying computational challenges, a load-balancing scheme was developed to ensure cost-optimal job allocation across the computing nodes in a multiprocessor cluster environment.   Broader Impacts: The ParCell project has tremendous impact on not only the scientific community but also on the student training and educational missions. In particular, the project trained four Ph.D. students in Chemical Engineering and Computer Science Departments, in interdisciplinary research. They successfully completed their degrees and are now postdoctoral researchers at reputed institutions. One female undergraduate student was also trained through this project. The research findings were published in high quality, peer-reviewed journals and conference proceedings. The results were further disseminated through poster presentations at premier meetings and invited seminar talks. Finally, the outcomes of this project helped enhance course teachings in Chemical Engineering.          Last Modified: 10/07/2020       Submitted by: Sajal K Das]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Collaborative Research: Practical HTTPS Traffic Manipulation At Middleboxes</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>140000.00</AwardTotalIntnAmount>
+<AwardAmount>140000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Deepankar Medhi</SignBlockName>
+<PO_EMAI>dmedhi@nsf.gov</PO_EMAI>
+<PO_PHON>7032922935</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Use of encrypted Web traffic is growing at an unprecedented rate. While enhancing user privacy, Secure Hypertext Transfer Protocol (HTTPS) makes it difficult for middleboxes that are commonly used by Internet service providers and mobile carriers to operate, because numerous beneficial middlebox functions (e.g., caching, web page optimization) rely on accessing the unencrypted traffic content. To overcome this challenge, this project develops a system aiming for a practical, ready-to-deploy solution that allows middleboxes to selectively inspect and manipulate HTTPS traffic while still respect the privacy requirements of users. This research will lead to new and continuous innovations in network services that are hard or impossible to achieve today. &lt;br/&gt;&lt;br/&gt;The system has two prominent features. First, it is only deployed at client hosts as an operating system (OS) service, as well as on middleboxes. In addition to being transparent to applications, it does not change the encryption protocol or anything on the server side. Therefore, the system can be easily deployed by, for example, regular OS update pushed by mobile carriers. Second, the system allows clients to control what information the middlebox can access. Doing so provides least privileges to middleboxes for performing their functions. In addition, the proposed system is easy to use, secure, and incurs low overhead. &lt;br/&gt;&lt;br/&gt;Developing these technologies will facilitate our understanding of the possible design space to allow coordinated, secure, and efficient manipulation of HTTPS traffic, ultimately leading to improved Internet user experience and privacy. The PIs will incorporate knowledge and results developed in this project into both undergraduate and graduate courses in networking, mobile computing and network security.</AbstractNarration>
+<MinAmdLetterDate>09/12/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/12/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1619391</AwardID>
+<Investigator>
+<FirstName>Zhiyun</FirstName>
+<LastName>Qian</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zhiyun Qian</PI_FULL_NAME>
+<EmailAddress>zhiyun.qian@ucr.edu</EmailAddress>
+<PI_PHON>9518275639</PI_PHON>
+<NSF_ID>000677475</NSF_ID>
+<StartDate>09/12/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~140000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>The security of our Internet depends on the various pieces of protocols and network infrastructure that operate mostly transparently to end-users. For example, encryption is now widespread with the growth of HTTPS traffic, in particular fueled by new web protocols such as SPDY and HTTP/2 that make encryption mandatory. Despite enhancing the Internet privacy, HTTPS makes it difficult for application-layer middleboxes, commonly used by ISPs and mobile carriers, to operate given that numerous middlebox functions rely on accessing the traffic payload. This project chooses a completely new design point that implements everything at the system layer and is completely transparent to applications. The proposed system, named CloudEye, aims for a practical, ready-to-deploy solution which allows middleboxes to selectively manipulate HTTPS traffic.&nbsp;</span></p> <p><span>In addition to developing new primitives in middleboxes, we have also looked at flaws in existing middleboxes and protocols. First, we looked at how robust middleboxes are in terms of reassembling traffic at the TCP layer (and not missing any packets due to subtle evasion attempts). Second, we have inspected how the DNS infrastructure may be subject to the DNS cache poisoning attacks which can redirect unsuspecting users to visit an attacker-controlled server (when they intend to visit a benign domain). The findings have resulted in real-world patches in prominent DNS and opearting system software.</span></p><br> <p>            Last Modified: 10/03/2020<br>      Modified by: Zhiyun&nbsp;Qian</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The security of our Internet depends on the various pieces of protocols and network infrastructure that operate mostly transparently to end-users. For example, encryption is now widespread with the growth of HTTPS traffic, in particular fueled by new web protocols such as SPDY and HTTP/2 that make encryption mandatory. Despite enhancing the Internet privacy, HTTPS makes it difficult for application-layer middleboxes, commonly used by ISPs and mobile carriers, to operate given that numerous middlebox functions rely on accessing the traffic payload. This project chooses a completely new design point that implements everything at the system layer and is completely transparent to applications. The proposed system, named CloudEye, aims for a practical, ready-to-deploy solution which allows middleboxes to selectively manipulate HTTPS traffic.   In addition to developing new primitives in middleboxes, we have also looked at flaws in existing middleboxes and protocols. First, we looked at how robust middleboxes are in terms of reassembling traffic at the TCP layer (and not missing any packets due to subtle evasion attempts). Second, we have inspected how the DNS infrastructure may be subject to the DNS cache poisoning attacks which can redirect unsuspecting users to visit an attacker-controlled server (when they intend to visit a benign domain). The findings have resulted in real-world patches in prominent DNS and opearting system software.       Last Modified: 10/03/2020       Submitted by: Zhiyun Qian]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

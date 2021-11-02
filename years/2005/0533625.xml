@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Recovery for Service-Oriented Applications</AwardTitle>
+<AwardEffectiveDate>01/01/2006</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2009</AwardExpirationDate>
+<AwardTotalIntnAmount>0.00</AwardTotalIntnAmount>
+<AwardAmount>245204</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Gia-Loi Le Gruenwald</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>IIS-0533625&lt;br/&gt;Betty Salzberg &lt;salzberg@ccs.neu.edu&gt;&lt;br/&gt;Northeastern University&lt;br/&gt;&lt;br/&gt;Recovery for Service-Oriented Applications&lt;br/&gt;&lt;br/&gt;The goal of this research project is to provide application recovery&lt;br/&gt;in a realistic setting.  The server software, called an SOA, or&lt;br/&gt;Service-Oriented Application, is realized as a process and provides&lt;br/&gt;its service through an interface consisting of application methods.  A&lt;br/&gt;client, either an end client application or another SOA, uses the SOA&lt;br/&gt;service via remote procedure call to application methods.  Many&lt;br/&gt;mission-critical electronic business application servers fit this&lt;br/&gt;model.&lt;br/&gt;&lt;br/&gt;The recovery model is tiered. The innermost tier consists of shared&lt;br/&gt;memory (application variables shared by the different threads of the&lt;br/&gt;server process). The middle tier, called a service domain, consists of&lt;br/&gt;tightly-coupled SOAS.  Optimistic logging is used within the service&lt;br/&gt;domain.  Optimistic logging does not write log records to disk before&lt;br/&gt;sending messages and is thus low-overhead.  Communication outside the&lt;br/&gt;service domain uses pessimistic logging, where log records are written&lt;br/&gt;to disk before messages are sent. Special result logging is used to&lt;br/&gt;communicate with transactional systems such as DBMSs.&lt;br/&gt;&lt;br/&gt;The results of this research will help provide availability for&lt;br/&gt;applications which use web services. Since many mission-critical&lt;br/&gt;electronic business application servers fit this model, the greatest&lt;br/&gt;impact of this research will be in increasing availability for those&lt;br/&gt;servers and hence for the applications which depend on them.  In&lt;br/&gt;addition, the project will be used in training of Computer Science&lt;br/&gt;Ph.D. students, currently a national priority.  The code and&lt;br/&gt;manuscripts for this project will be disseminated via the project web&lt;br/&gt;site http://www.ccs.neu.edu/home/salzberg/soa/&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>12/29/2005</MinAmdLetterDate>
+<MaxAmdLetterDate>03/20/2008</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0533625</AwardID>
+<Investigator>
+<FirstName>Betty</FirstName>
+<LastName>Salzberg</LastName>
+<EmailAddress>salzberg@ccs.neu.edu</EmailAddress>
+<StartDate>12/29/2005</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Javed</FirstName>
+<LastName>Aslam</LastName>
+<EmailAddress>jaa@ccs.neu.edu</EmailAddress>
+<StartDate>03/20/2008</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Northeastern University</Name>
+<CityName>BOSTON</CityName>
+<ZipCode>021155005</ZipCode>
+<PhoneNumber>6173733004</PhoneNumber>
+<StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0104000</Code>
+<Name>Information Systems</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7485</Code>
+<Text>DATA MANAGEMENT SYSTEMS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7496</Code>
+<Text>COLLABORATIVE SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Single-grid Multi-level Solvers for Coupled PDE Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>450415.00</AwardTotalIntnAmount>
+<AwardAmount>450415</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to develop and study a special class of multilevel methods that combine techniques from the Geometric Multigrid (GMG) and Algebraic Multigrid (AMG) methodologies, which we refer to as the "single-grid multilevel method" (SGML). The focus is discretized partial differential equations, for which detailed information on the underlying geometric grid is generally available to the user. The research team is designing solvers that use information from the finest grid (hence termed the single-grid method) to select a simple and fixed coarsening that allows for explicit control of the overall grid and operator complexities of the multilevel solver. The central new idea that we are investigating concerns the design and analysis of algorithms for adaptive construction of the MG relaxation scheme when used as a smoother. In contrast to existing AMG methods, in which the smoother is fixed and coarsening is the key component in the setup phase, SGML will construct the smoother in the setup phase to complement its simple geometry-based coarsening process. It should be noted that the algebraic construction of the smoother can also benefit from using properties of the geometric grid, for example, to obtain a suitable partitioning of the unknowns in parallel. The SGML approach (together with the many of the promising algebraic techniques for constructing the MG interpolations developed over the last decade) is also under consideration. The PI and co-PIs, though, are focusing on the SGML method because of its ability to explicitly control complexity, which in turn allows for (nearly) optimal load balancing and predictable communication patterns, such that the method is well suited for parallel computing. &lt;br/&gt;&lt;br/&gt;Overall, the iterative solvers under development are designed to be implemented in open source parallel codes and made available to the scientific computing community. This will provide a computational framework for future algorithm research and development in related areas as well as powerful tools for simulation. In summary, the proposed methodology constructs solvers using all the information available to increase the efficiency of numerical modeling and simulation of physical phenomena on parallel multi-core computing architectures. Educational activities include the training of graduate students.</AbstractNarration>
+<MinAmdLetterDate>07/12/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/04/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217142</AwardID>
+<Investigator>
+<FirstName>Jinchao</FirstName>
+<LastName>Xu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jinchao Xu</PI_FULL_NAME>
+<EmailAddress>xu@math.psu.edu</EmailAddress>
+<PI_PHON>8148651110</PI_PHON>
+<NSF_ID>000184340</NSF_ID>
+<StartDate>07/12/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Ludmil</FirstName>
+<LastName>Zikatanov</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ludmil T Zikatanov</PI_FULL_NAME>
+<EmailAddress>ltz1@psu.edu</EmailAddress>
+<PI_PHON>8148657527</PI_PHON>
+<NSF_ID>000487917</NSF_ID>
+<StartDate>07/12/2012</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>James</FirstName>
+<LastName>Brannick</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>James J Brannick</PI_FULL_NAME>
+<EmailAddress>brannick@psu.edu</EmailAddress>
+<PI_PHON>8148637327</PI_PHON>
+<NSF_ID>000445849</NSF_ID>
+<StartDate>07/12/2012</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Pennsylvania State Univ University Park</Name>
+<CityName>University Park</CityName>
+<ZipCode>168021503</ZipCode>
+<PhoneNumber>8148651372</PhoneNumber>
+<StreetAddress>201 Old Main</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003403953</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PENNSYLVANIA STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003403953</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Pennsylvania State Univ University Park]]></Name>
+<CityName>University Park</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>168021503</ZipCode>
+<StreetAddress><![CDATA[201 Old Main]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~146287</FUND_OBLG>
+<FUND_OBLG>2013~150097</FUND_OBLG>
+<FUND_OBLG>2014~154031</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project, we presented theories and techniques for developing mathematically optimal solvers that are robust and easy to use for a variety of problems in practice. Though the focus of the project was to solve coupled systems of partial differential equaitons, progess in developing solvers for general graph problems was also made.&nbsp; To reach this goal, we developed and studied single-grid multilevel methods (SGML) that use a fixed (isotropic) coarsening process and adaptively choose smoothers to complement the given coarsening process. That is, we have designed solvers that make use of the information from the finest grid (when it is available) to select a simple and fixed coarsening that allows for explicit control of the overall grid and operator complexities of the multilevel solver, which in turn allows for (nearly) optimal load balancing and predictable communication patterns, resulting in methods that are well suited for parallel computing. Furthermore, we designed algorithms for adaptive construction of the MG relaxation scheme (smoother). This is a special class of multilevel methods that combine techniques from the Geometric Multigrid (GMG) and Algebraic Multigrid (AMG) methodologies. We focused on discretized partial differential equations, for which detailed information on the underlying geometric grid is generally available to the user. Especially, we developed efficient solvers for the targeted fluid structural interactions (FSI) and Magnetohydrodynamics (MHD) coupled partial differential equation systems.</p> <p>&nbsp;</p> <p>Using the SGML methodology, we developed reliable numerical schemes and solver techniques that ultimately lead to the establishment of efficient solvers for both the FSI and MHD problems. We developed structure preserving discretizations for the FSI and MHD problems as well and we also studied the well-posedness of these problems.&nbsp; Based on the established well-posedness property, we designed theoretically provable uniform preconditioners which are robust with respect to the physical quantitates and discretization parameters. Furthermore, we developed: algebraic multilevel methods based on matching and aggressions in graphs; efficient and parallel coarsening strategies based on an auxiliary grid; &nbsp;parallel versions of these algebraic multigrid methods on graphic processing units; a robust numerical scheme for asymptotically disappearing solutions of Maxwell's Equations; optimal multilevel solvers for the finite element approximation of second order linear elliptic problems with jump coefficients on bisection grids; an efficient and optimal preconditioner on unstructured shape-regular grids based on the single-grid multilevel framework using auxiliary structured grids.</p> <p>&nbsp;</p> <p><strong>Impact of the project.</strong> The SGML method represents a new paradigm for constructing generally applicable multilevel iterative solvers for coupled systems of partial differential equations.&nbsp; Through its use of (aggressive) geometric coarsening together with general block/polynomial smoothers, the methodology shifts the difficulty of designing an efficient multilevel solver from that of finding the coarse space basis to that of automatically constructing a suitable smoother. In this way, the SGML approach offers a viable compromise between GMG and AMG in terms of efficiency, robustness, parallelization, and mathematical rigor.&nbsp;</p> <p>&nbsp;</p> <p>The iterative solvers we developed were implemented in open source parallel codes and will be made available to the scientific computing community in the near future, thus, providing a computational framework for future algorithm research and development in related areas as well as powerful tools for simulation. The project provided PhD students with opportunities to participate in a variety of education and research activities. Through their involvement with...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project, we presented theories and techniques for developing mathematically optimal solvers that are robust and easy to use for a variety of problems in practice. Though the focus of the project was to solve coupled systems of partial differential equaitons, progess in developing solvers for general graph problems was also made.  To reach this goal, we developed and studied single-grid multilevel methods (SGML) that use a fixed (isotropic) coarsening process and adaptively choose smoothers to complement the given coarsening process. That is, we have designed solvers that make use of the information from the finest grid (when it is available) to select a simple and fixed coarsening that allows for explicit control of the overall grid and operator complexities of the multilevel solver, which in turn allows for (nearly) optimal load balancing and predictable communication patterns, resulting in methods that are well suited for parallel computing. Furthermore, we designed algorithms for adaptive construction of the MG relaxation scheme (smoother). This is a special class of multilevel methods that combine techniques from the Geometric Multigrid (GMG) and Algebraic Multigrid (AMG) methodologies. We focused on discretized partial differential equations, for which detailed information on the underlying geometric grid is generally available to the user. Especially, we developed efficient solvers for the targeted fluid structural interactions (FSI) and Magnetohydrodynamics (MHD) coupled partial differential equation systems.     Using the SGML methodology, we developed reliable numerical schemes and solver techniques that ultimately lead to the establishment of efficient solvers for both the FSI and MHD problems. We developed structure preserving discretizations for the FSI and MHD problems as well and we also studied the well-posedness of these problems.  Based on the established well-posedness property, we designed theoretically provable uniform preconditioners which are robust with respect to the physical quantitates and discretization parameters. Furthermore, we developed: algebraic multilevel methods based on matching and aggressions in graphs; efficient and parallel coarsening strategies based on an auxiliary grid;  parallel versions of these algebraic multigrid methods on graphic processing units; a robust numerical scheme for asymptotically disappearing solutions of Maxwell's Equations; optimal multilevel solvers for the finite element approximation of second order linear elliptic problems with jump coefficients on bisection grids; an efficient and optimal preconditioner on unstructured shape-regular grids based on the single-grid multilevel framework using auxiliary structured grids.     Impact of the project. The SGML method represents a new paradigm for constructing generally applicable multilevel iterative solvers for coupled systems of partial differential equations.  Through its use of (aggressive) geometric coarsening together with general block/polynomial smoothers, the methodology shifts the difficulty of designing an efficient multilevel solver from that of finding the coarse space basis to that of automatically constructing a suitable smoother. In this way, the SGML approach offers a viable compromise between GMG and AMG in terms of efficiency, robustness, parallelization, and mathematical rigor.      The iterative solvers we developed were implemented in open source parallel codes and will be made available to the scientific computing community in the near future, thus, providing a computational framework for future algorithm research and development in related areas as well as powerful tools for simulation. The project provided PhD students with opportunities to participate in a variety of education and research activities. Through their involvement with our research group they received advanced training in multilevel methods, had opportunities to collaborate with colleagues from industry and DoE labs, and...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

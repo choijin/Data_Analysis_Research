@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Collaborative Research: Static Analysis Infrastructure for Variability-Aware Bug Detection and Translation of Highly-Configurable Software Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>229087.00</AwardTotalIntnAmount>
+<AwardAmount>253087</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Highly-configurable systems, e.g., the Linux kernel, form our most critical infrastructure, underpinning everything from high-performance computing clusters to IoT devices.  Keeping these systems secure and reliable with automated tools is essential.  However, tool support is lacking for such systems because of the complexity and scale of their configurability.  This leaves some of the most critical software with some of the least tool support.  The problem is that most software tools are not variability-aware; that is, they do not account for the many configurations of the software.  Serious defects, including null pointer errors and buffer overflows, can and do appear in specific configurations, making them hard to find without accounting for variability.  The goal of this project is to advance the state of the art for systems development and debugging, resulting in more secure and less error-prone systems, benefiting the millions who rely on highly-configurable software infrastructure.&lt;br/&gt;&lt;br/&gt;To solve these challenges, this project aims to develop the infrastructure, analysis techniques, and language support for debugging and maintaining configurable software systems written in C-family languages, currently lacking for software developers.  The first part of the project is to develop a front-end infrastructure that captures these sources of variability in a new intermediate representation. Such reusable infrastructure is crucial to the development of state-of-the-art analyses.  The second part seeks to create variability-aware versions of static analyses and propose new inter-procedural analyses that enable tradeoffs between scalability and precision.  While static analysis has proven useful for detecting bugs, accounting for configurations increases the complexity of analysis.  Systematic extensions to bug detection algorithms based on these new analyses can target previously obscured bugs.  Since the C preprocessor has long been recognized as a source of problems, the third part of this project is to develop new language extensions to C, supplanting preprocessor usage and enabling compiler support for variability specifications.  Translators to the new language based on our front-end analysis infrastructure will enable existing software to benefit from the new language.  The PIs on this project will mentor graduate students and are committed to promoting female and under-represented minority participation.  Artifacts developed in this project will be used in courses to introduce students to state-of-the-art software tool development.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/05/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>06/02/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1840934</AwardID>
+<Investigator>
+<FirstName>Paul</FirstName>
+<LastName>Gazzillo</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Paul Gazzillo</PI_FULL_NAME>
+<EmailAddress>paul.gazzillo@ucf.edu</EmailAddress>
+<PI_PHON>4078235239</PI_PHON>
+<NSF_ID>000762243</NSF_ID>
+<StartDate>07/05/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>The University of Central Florida Board of Trustees</Name>
+<CityName>Orlando</CityName>
+<ZipCode>328168005</ZipCode>
+<PhoneNumber>4078230387</PhoneNumber>
+<StreetAddress>4000 CNTRL FLORIDA BLVD</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>FL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>150805653</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CENTRAL FLORIDA BOARD OF TRUSTEES, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>159621697</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Central Florida]]></Name>
+<CityName>Orlando</CityName>
+<StateCode>FL</StateCode>
+<ZipCode>328168005</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>FL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~229087</FUND_OBLG>
+<FUND_OBLG>2019~16000</FUND_OBLG>
+<FUND_OBLG>2020~8000</FUND_OBLG>
+</Award>
+</rootTag>

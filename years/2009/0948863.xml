@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Upgrading the Computing System Used by the Geodesy and Geodynamics Group at OSU</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2011</AwardExpirationDate>
+<AwardTotalIntnAmount>39485.00</AwardTotalIntnAmount>
+<AwardAmount>39485</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>06030202</Code>
+<Directorate>
+<Abbreviation>GEO</Abbreviation>
+<LongName>Directorate For Geosciences</LongName>
+</Directorate>
+<Division>
+<Abbreviation>EAR</Abbreviation>
+<LongName>Division Of Earth Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Russell Kelz</SignBlockName>
+<PO_EMAI>rkelz@nsf.gov</PO_EMAI>
+<PO_PHON>7032924747</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>0948863&lt;br/&gt;Bevis&lt;br/&gt;&lt;br/&gt;This grant supports upgrade of the computer facilities used by the Geodesy and Geodynamics group in the School of Earth Sciences (SES) at Ohio State University.  Modern computational platforms will immediately serve NSF funded crustal motion geodetic research in South America, Greenland and Antarctica, PI analysis of the global vertical velocity field in support of studies of sea level change, and work in GPS meteorology and kinematic positioning.  Specific equipment to be acquired includes five dual Intel-based quadcore Macintosh compute systems each with 16 Gb RAM and a 640 Gb hard drive.  The compute facility will serve four graduate students and two professional staff scientists in PI Mike Bevis?s research group as well as students in Professor Terry Wilson's research group at OSU.  The PIs have ported the geodetic processing package GAMIT/GLOBK to enable it to run on a Macintosh Xgrid system.  This modified version of GAMIT/GLOBK would be available to any MIT licensed user.</AbstractNarration>
+<MinAmdLetterDate>03/29/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>03/29/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.050</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0948863</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Bevis</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael Bevis</PI_FULL_NAME>
+<EmailAddress>mbevis@osu.edu</EmailAddress>
+<PI_PHON>6144995966</PI_PHON>
+<NSF_ID>000181289</NSF_ID>
+<StartDate>03/29/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University Research Foundation -DO NOT USE</Name>
+<CityName>Columbus</CityName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888734</PhoneNumber>
+<StreetAddress>1960 KENNY RD</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>071650709</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY RESEARCH FOUNDATION, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName>Columbus</CityName>
+<StateCode>OH</StateCode>
+<ZipCode>432101016</ZipCode>
+<StreetAddress><![CDATA[Office of Sponsored Programs]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0000099</Code>
+<Name>Other Applications NEC</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>1580</Code>
+<Text>Instrumentation &amp; Facilities</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~39485</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><br />Crustal motion geodesy - i.e. precise measurement of the motion and the deformation of the surface of the solid earth - is now widely used in the geosciences to study processes as diverse as plate tectonics, mountain building, earthquakes and climate change. The Geodesy and Geodynamics Group at Ohio State University (OSU) processes very large quantities of GPS data from many hundreds of geodetic GPS stations distributed all around the world, including the stations of several regional GPS networks that we at OSU have helped to build in order to solve specific regional problems in geodynamics and earth system science. Until recently, the routine geodetic analysis of all this GPS data was the productivity 'bottleneck' for almost every project in which we were engaged. We were 'compute limited'. We performed routine geodetic analysis of our GPS data using a cluster of forty Intel-based computers running the LINUX operating system. The basic&nbsp; geodetic analysis is performed using GAMIT software produced by MIT. (Their GLOBK software is used too, but it involves much less computation).<br /><br />Our grant from the EAR Instrumentation and Facilities program at NSF allowed us to build a new GPS data processing system using eight Macintosh Pro systems, each of which has eight physical cores. We used one of these computers to manage the new cluster, and the remaining seven computers to provide the processing nodes. The supervising computer manages the job submission queue, interfaces with our GPS data archive, and saves all the solutions produced by the processing nodes. Each physical core is associated with a virtual core that allows two jobs to run simultaneously (though one is slightly slower than the other). Benchmark tests established that in effect the new cluster can process 91 GAMIT jobs simultaneously. We use this system to compute our own daily orbital solutions for the GPS satellites , as well as to solve for the network geometry (polyhedron) of the globally distributed GPS stations used to constrain these orbits, and to densify the global polyhedron using regional GPS networks. <br /><br />When we ran daily global orbit estimation, which is our most intensive task, for the time period 2000-2010, we completed it in 28 days using the new cluster, whereas our old LINUX cluster required 226 days to perform the same tasks. Densification of the global polyhedron using regional GPS networks also improved. A task which used to take us 124 days on the LINUX&nbsp; cluster takes can be completed in 19 days on the Mac Pro cluster. Not only is the new cluster much faster than the old one, it had a lower total cost, and it is smaller and easier to manage. The major increase in computational throughput provided by the new processing cluster has allowed us the luxury of processing many large data sets over and over, thereby driving a 'continuous improvement' cycle which has greatly benefitted the quality of our geodetic solutions. The new cluster is positively impacting almost every scientific project in which we are engaged.</p><br> <p>            Last Modified: 05/02/2011<br>      Modified by: Michael&nbsp;Bevis</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  Crustal motion geodesy - i.e. precise measurement of the motion and the deformation of the surface of the solid earth - is now widely used in the geosciences to study processes as diverse as plate tectonics, mountain building, earthquakes and climate change. The Geodesy and Geodynamics Group at Ohio State University (OSU) processes very large quantities of GPS data from many hundreds of geodetic GPS stations distributed all around the world, including the stations of several regional GPS networks that we at OSU have helped to build in order to solve specific regional problems in geodynamics and earth system science. Until recently, the routine geodetic analysis of all this GPS data was the productivity 'bottleneck' for almost every project in which we were engaged. We were 'compute limited'. We performed routine geodetic analysis of our GPS data using a cluster of forty Intel-based computers running the LINUX operating system. The basic  geodetic analysis is performed using GAMIT software produced by MIT. (Their GLOBK software is used too, but it involves much less computation).  Our grant from the EAR Instrumentation and Facilities program at NSF allowed us to build a new GPS data processing system using eight Macintosh Pro systems, each of which has eight physical cores. We used one of these computers to manage the new cluster, and the remaining seven computers to provide the processing nodes. The supervising computer manages the job submission queue, interfaces with our GPS data archive, and saves all the solutions produced by the processing nodes. Each physical core is associated with a virtual core that allows two jobs to run simultaneously (though one is slightly slower than the other). Benchmark tests established that in effect the new cluster can process 91 GAMIT jobs simultaneously. We use this system to compute our own daily orbital solutions for the GPS satellites , as well as to solve for the network geometry (polyhedron) of the globally distributed GPS stations used to constrain these orbits, and to densify the global polyhedron using regional GPS networks.   When we ran daily global orbit estimation, which is our most intensive task, for the time period 2000-2010, we completed it in 28 days using the new cluster, whereas our old LINUX cluster required 226 days to perform the same tasks. Densification of the global polyhedron using regional GPS networks also improved. A task which used to take us 124 days on the LINUX  cluster takes can be completed in 19 days on the Mac Pro cluster. Not only is the new cluster much faster than the old one, it had a lower total cost, and it is smaller and easier to manage. The major increase in computational throughput provided by the new processing cluster has allowed us the luxury of processing many large data sets over and over, thereby driving a 'continuous improvement' cycle which has greatly benefitted the quality of our geodetic solutions. The new cluster is positively impacting almost every scientific project in which we are engaged.       Last Modified: 05/02/2011       Submitted by: Michael Bevis]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Collaborative Research: SANE: Semantic-Aware Namespace in Exascale File Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>190947.00</AwardTotalIntnAmount>
+<AwardAmount>190947</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Explosive growth in volume and complexity of data exacerbates the key challenge facing the management of massive data in a way that fundamentally improves the ease and efficacy of their usage. Exascale storage systems in general rely on hierarchically structured namespace that leads to severe performance bottlenecks and makes it hard to support real-time queries on multi-dimensional attributes. Thus, existing storage systems, characterized by the hierarchical directory tree structure, are not scalable in light of the explosive growth in both the volume and the complexity of data. As a result, directory-tree based hierarchical namespace has become restrictive, difficult to use, and limited in scalability for today's large-scale file systems.&lt;br/&gt;&lt;br/&gt;This project investigates a novel semantic-aware namespace scheme to provide dynamic and adaptive namespace management and support typical file-based operations in Exascale file systems. The project leverages semantic correlations among files and exploits the evolution of metadata attributes to support customized namespace management, with the end goal of efficiently facilitating file identification and end users data lookup. This project provides significant performance improvements for existing file systems in Exascale file systems. Since Exascale file systems constitute one of the backbones of the high-performance computing infrastructure, the semantic-aware techniques also benefits a great number of scientific and engineering data-intensive applications. This project strengthens the ongoing development of high performance computing infrastructures at both UNL and UMaine. The project enhances undergraduate and graduate education at both participating institutions and outreach to K-12 in UMaine via an ongoing NSF-funded ITEST program.</AbstractNarration>
+<MinAmdLetterDate>08/20/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/20/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1117032</AwardID>
+<Investigator>
+<FirstName>Yifeng</FirstName>
+<LastName>Zhu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yifeng Zhu</PI_FULL_NAME>
+<EmailAddress>zhu@eece.maine.edu</EmailAddress>
+<PI_PHON>2075812499</PI_PHON>
+<NSF_ID>000396103</NSF_ID>
+<StartDate>08/20/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Maine</Name>
+<CityName>ORONO</CityName>
+<ZipCode>044695717</ZipCode>
+<PhoneNumber>2075811484</PhoneNumber>
+<StreetAddress>5717 Corbett Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Maine</StateName>
+<StateCode>ME</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>ME02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>186875787</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MAINE SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071750426</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Maine]]></Name>
+<CityName>ORONO</CityName>
+<StateCode>ME</StateCode>
+<ZipCode>044695717</ZipCode>
+<StreetAddress><![CDATA[5717 Corbett Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maine</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>ME02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~190947</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project aimed to improve the performance and energy efficiency of I/O operations of large-scale cluster computing platforms.</p> <p>A challenging issue in performance evaluation of parallel storage systems through trace-driven simulation is to accurately characterize and emulate I/O behaviors in real applications. The correlation study of inter-arrival times between I/O requests, with an emphasis on I/O intensive scientific applications, shows the necessity to further study the self-similarity of parallel I/O arrivals. We have analyzed several I/O traces collected in large-scale supercomputers and concluded that parallel I/Os exhibit statistically self-similar like behaviors. We have implement a memory access series generator in which the inputs are the measured properties of the available memory trace series. Experimental results show that this model can faithfully capture the complex access arrival characteristics of memory workloads, particularly the heavy-tail characteristics under both Gaussian and non-Gaussian workloads.</p> <p>Another challenging issue in large-scale cluster servers is the power consumption. Prior studies have shown most memory space on data servers is used for buffer caching and thus cache replacement becomes critical. Temporally concentrating memory accesses to a smaller set of memory chips increases the chances of free riding through DMA overlapping and also enlarges the opportunities for other ranks to power down. We have designed a new power and thermal-aware buffer cache replacement algorithm. Our simulation results based real-world TPC-R I/O trace show that our algorithm can save up to 12.2% energy with marginal degradation in the cache performance. In addition, row accesses in memory chips are not only very slow in response but also cost significant amount of energy. The interleaved access from different process segments destroys access locality seen at process segment. To address this, we design a new memory architecture that adds a small cache in memory controller to recover accesses locality and a new cache management scheme that exploits the semantic information of memory access requests to better capture the access locality.</p> <p>To increase the performance of I/O systems, we have designed and implemented a hybrid storage system that dynamically allocates or migrates data between SSD and hard disks in order to achieve the optimal performance gain. We designed a hybrid storage architecture that treats the SSD as a by-passable cache to hard disks, and developed an online algorithm that judiciously exchanges data between the SSD and the disks. Our basic principle is to place hot and randomly accessed data on the SSD, and other data, particularly cold and sequentially accessed data on hard disks. Our hybrid storage system, called Hot Random Off-loading (HRO), is implemented as a simple and general user-level layer above conventional file systems in Linux and supports standard POSTIX interfaces, thus requiring no modifications to underneath file systems or users applications. This prototype is comprehensively evaluated by using a commodity hard disk and SSD.</p> <p>This project helps improve the energy-efficiency of cluster computers and promote green computing. Large-scale cluster computers consume large amounts of electrical power. Prior research founds storage systems and computer memory consumes a significant portion of electrical power. This research helps improve the energy efficiency of memory and storage systems by incorporating energy-aware buffer cache replacement algorithms and by integrating energy-efficient SSD with conventional hard disk drives.</p> <p>We have published more than ten research papers in top conferences and journals to disseminate our research results and findings. In addition, this project has successfully trained two Ph.D. students. This project has also trained two Ph.D. students and 1 M.S. stude...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project aimed to improve the performance and energy efficiency of I/O operations of large-scale cluster computing platforms.  A challenging issue in performance evaluation of parallel storage systems through trace-driven simulation is to accurately characterize and emulate I/O behaviors in real applications. The correlation study of inter-arrival times between I/O requests, with an emphasis on I/O intensive scientific applications, shows the necessity to further study the self-similarity of parallel I/O arrivals. We have analyzed several I/O traces collected in large-scale supercomputers and concluded that parallel I/Os exhibit statistically self-similar like behaviors. We have implement a memory access series generator in which the inputs are the measured properties of the available memory trace series. Experimental results show that this model can faithfully capture the complex access arrival characteristics of memory workloads, particularly the heavy-tail characteristics under both Gaussian and non-Gaussian workloads.  Another challenging issue in large-scale cluster servers is the power consumption. Prior studies have shown most memory space on data servers is used for buffer caching and thus cache replacement becomes critical. Temporally concentrating memory accesses to a smaller set of memory chips increases the chances of free riding through DMA overlapping and also enlarges the opportunities for other ranks to power down. We have designed a new power and thermal-aware buffer cache replacement algorithm. Our simulation results based real-world TPC-R I/O trace show that our algorithm can save up to 12.2% energy with marginal degradation in the cache performance. In addition, row accesses in memory chips are not only very slow in response but also cost significant amount of energy. The interleaved access from different process segments destroys access locality seen at process segment. To address this, we design a new memory architecture that adds a small cache in memory controller to recover accesses locality and a new cache management scheme that exploits the semantic information of memory access requests to better capture the access locality.  To increase the performance of I/O systems, we have designed and implemented a hybrid storage system that dynamically allocates or migrates data between SSD and hard disks in order to achieve the optimal performance gain. We designed a hybrid storage architecture that treats the SSD as a by-passable cache to hard disks, and developed an online algorithm that judiciously exchanges data between the SSD and the disks. Our basic principle is to place hot and randomly accessed data on the SSD, and other data, particularly cold and sequentially accessed data on hard disks. Our hybrid storage system, called Hot Random Off-loading (HRO), is implemented as a simple and general user-level layer above conventional file systems in Linux and supports standard POSTIX interfaces, thus requiring no modifications to underneath file systems or users applications. This prototype is comprehensively evaluated by using a commodity hard disk and SSD.  This project helps improve the energy-efficiency of cluster computers and promote green computing. Large-scale cluster computers consume large amounts of electrical power. Prior research founds storage systems and computer memory consumes a significant portion of electrical power. This research helps improve the energy efficiency of memory and storage systems by incorporating energy-aware buffer cache replacement algorithms and by integrating energy-efficient SSD with conventional hard disk drives.  We have published more than ten research papers in top conferences and journals to disseminate our research results and findings. In addition, this project has successfully trained two Ph.D. students. This project has also trained two Ph.D. students and 1 M.S. student at the University of Maine.  This project has also help integrate the research result int...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

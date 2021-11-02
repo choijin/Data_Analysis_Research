@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Operating Systems Kernels in High-Level Languages</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Most software depends on the correctness and efficiency of the underlying operating system kernel, since the kernel mediates access to resources such as storage, network, and memory. Kernels are typically implemented in low-level languages, for example, the Linux kernel is written in the C language; such languages are efficient but difficult to use correctly. In contrast, implementing kernels in high-level languages could in principle result in both reduced programmer effort and reduced incidence of bugs. This research will explore the costs and benefits of implementing kernels in high-level languages.&lt;br/&gt;&lt;br/&gt;The main reason kernels use C is performance. C allows a kernel to define its own high-performance mechanisms for memory management, thread scheduling, interrupts, etc. In contrast, high-level languages tend to prescribe specific particular mechanisms in these areas, which are difficult to change. One potential problem is that high-level languages are often garbage-collected to improve safety, but garbage collection is widely viewed as too slow to use in kernels.&lt;br/&gt;&lt;br/&gt;This project will first investigate performance: whether a kernel written in a high-level language can be as fast as a kernel written in C. The project will implement a kernel using the Go language, a type-safe, garbage-collected language with good support for threads. Then, the plan is to compare performance with existing C kernels such as Linux, OpenBSD, and FreeBSD. It is expected there will be a need to face efficiency and functionality challenges, particularly in the use of garbage collection for large kernel data structures such as file and page caches.&lt;br/&gt;&lt;br/&gt;The project's second area of focus will be to exploit the high-level language to achieve multi-core in-kernel parallelism in situations that are not practical when using C. C impedes flexible use of transient threads, since the programmer must supply the logic to decide when the last thread has finished using each shared object, which can then be freed. Extensive use of threads is much easier when a garbage collector automates this task. The plan is to exploit Go's garbage collection by implementing complex system calls such as fork and exec using internal worker threads on multiple cores. The team will evaluate whether the resulting performance and scalability improvement can be made to outweigh the costs of garbage collection and thread overhead.&lt;br/&gt;&lt;br/&gt;Intellectual merit.&lt;br/&gt;This work will shed quantitative light on the effect of language choice on kernel performance, a question that is currently understood mostly anecdotally. The interaction of garbage collection with the specific ways kernels use memory is particularly worth understanding. The investigation of in-kernel parallelism will exploit high-level language support to harness techniques that are impractical in C kernels.&lt;br/&gt;&lt;br/&gt;Broader impacts.&lt;br/&gt;The work has the potential for broad impact because most software depends critically on services provided by the operating system kernel. Using a better language for the kernel would likely reduce the prevalence of bugs and increase the ease with which kernel developers can provide desirable new features. Providing solid evidence to support an eventual switch to language technology which ought to make kernels more reliable and easier to develop is the intended outcome.</AbstractNarration>
+<MinAmdLetterDate>08/10/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/10/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617487</AwardID>
+<Investigator>
+<FirstName>M. Frans</FirstName>
+<LastName>Kaashoek</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>M. Frans Kaashoek</PI_FULL_NAME>
+<EmailAddress>kaashoek@lcs.mit.edu</EmailAddress>
+<PI_PHON>6172537149</PI_PHON>
+<NSF_ID>000098539</NSF_ID>
+<StartDate>08/10/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Robert</FirstName>
+<LastName>Morris</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Robert T Morris</PI_FULL_NAME>
+<EmailAddress>rtm@csail.mit.edu</EmailAddress>
+<PI_PHON>6172535983</PI_PHON>
+<NSF_ID>000471357</NSF_ID>
+<StartDate>08/10/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Nickolai</FirstName>
+<LastName>Zeldovich</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nickolai Zeldovich</PI_FULL_NAME>
+<EmailAddress>nickolai@csail.mit.edu</EmailAddress>
+<PI_PHON>6172536005</PI_PHON>
+<NSF_ID>000520788</NSF_ID>
+<StartDate>08/10/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 Massachusetts Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7359</Code>
+<Text>CCRI-CISE Cmnty Rsrch Infrstrc</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project's goal is to explore whether high-level programming languages are practical for operating systems kernel development. This is an important question because most software systems rely on kernels for many services, and the choice of programming language can have a significant effect on their robustness, efficiency, and maintainability.<br />The usual programming language for operating system kernels is C: Linux, OS X, and Windows all use C. C is popular for kernels because it can deliver high performance via flexible low-level access to memory and control over memory management (allocation and freeing). C, however, requires care and experience to use safely, and even then low-level bugs are common. For example, in 2016 five Linux kernel security vulnerabilities were reported that involved buffer overflows in C code.<br />High-level languages (HLLs) provide type- and memory-safety and convenient abstractions such as threads. Many HLLs provide garbage collection (automated freeing of unused memory) to further reduce programmer burden and memory bugs. But operating system designers have been skeptical that garbage collection and restrictions imposed by HLLs are compatible with high-performance kernels. Because the non-performance benefits of garbage collection and HLLs are significant, it seems worthwhile to decide whether to use them in kernels based on measurements of their costs in that context. Although kernels have been written in HLLs in the past, there are no studies exploring their effect on kernel performance.<br />In order to conduct such a study, we implemented a new operating system (called Biscuit) in the Go language. Go features garbage collection, memory- and type-safety, and built-in support for high-level constructs such as threads and communication channels. Biscuit provides a POSIX-subset system call interface so that it can run many existing applications. We compared Biscuit's performance with that of Linux.&nbsp;<br />If a programmer has the choice of writing a new kernel (or virtual machine monitor) in C or Go, our results indicate the following:<br />- If performance is paramount, C is a good choice, since a C kernel is up to 15% faster;<br />- If low memory usage is paramount, C is a good choice, since Go needs roughly a factor of 3 slack memory to keep garbage collection costs low;<br />- If safety is paramount, Go is a good choice.&nbsp; 40 CVEs that resulted in Linux kernel exploits in 2017 are impossible in Go, because of Go's HLL features;<br />- If performance is merely important, Go is a good choice.&nbsp; A Go kernel is somewhat slower and needs more memory, but is more secure and simplifies development effort.<br />The papers reporting the findings and the code for Biscuit are at: https://pdos.csail.mit.edu/projects/biscuit.html</p><br> <p>            Last Modified: 12/10/2019<br>      Modified by: M. Frans&nbsp;Kaashoek</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project's goal is to explore whether high-level programming languages are practical for operating systems kernel development. This is an important question because most software systems rely on kernels for many services, and the choice of programming language can have a significant effect on their robustness, efficiency, and maintainability. The usual programming language for operating system kernels is C: Linux, OS X, and Windows all use C. C is popular for kernels because it can deliver high performance via flexible low-level access to memory and control over memory management (allocation and freeing). C, however, requires care and experience to use safely, and even then low-level bugs are common. For example, in 2016 five Linux kernel security vulnerabilities were reported that involved buffer overflows in C code. High-level languages (HLLs) provide type- and memory-safety and convenient abstractions such as threads. Many HLLs provide garbage collection (automated freeing of unused memory) to further reduce programmer burden and memory bugs. But operating system designers have been skeptical that garbage collection and restrictions imposed by HLLs are compatible with high-performance kernels. Because the non-performance benefits of garbage collection and HLLs are significant, it seems worthwhile to decide whether to use them in kernels based on measurements of their costs in that context. Although kernels have been written in HLLs in the past, there are no studies exploring their effect on kernel performance. In order to conduct such a study, we implemented a new operating system (called Biscuit) in the Go language. Go features garbage collection, memory- and type-safety, and built-in support for high-level constructs such as threads and communication channels. Biscuit provides a POSIX-subset system call interface so that it can run many existing applications. We compared Biscuit's performance with that of Linux.  If a programmer has the choice of writing a new kernel (or virtual machine monitor) in C or Go, our results indicate the following: - If performance is paramount, C is a good choice, since a C kernel is up to 15% faster; - If low memory usage is paramount, C is a good choice, since Go needs roughly a factor of 3 slack memory to keep garbage collection costs low; - If safety is paramount, Go is a good choice.  40 CVEs that resulted in Linux kernel exploits in 2017 are impossible in Go, because of Go's HLL features; - If performance is merely important, Go is a good choice.  A Go kernel is somewhat slower and needs more memory, but is more secure and simplifies development effort. The papers reporting the findings and the code for Biscuit are at: https://pdos.csail.mit.edu/projects/biscuit.html       Last Modified: 12/10/2019       Submitted by: M. Frans Kaashoek]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

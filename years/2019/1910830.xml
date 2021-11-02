@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Regret-Bounded Query Evaluation via Reinforcement Learning</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>499999</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Wei Ding</SignBlockName>
+<PO_EMAI>weiding@nsf.gov</PO_EMAI>
+<PO_PHON>7032928017</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Database systems try to shield their users from the intricacies of data processing. Users specify queries at a high level of abstraction, describing desired results rather than the way in which they are generated. Hence, given a query, database systems need to find efficient data processing plans automatically. Those plans are generated based on simplifying assumptions about queries and data. All too often, those assumptions turn out to be overly simplistic and generated plans do not finish within reasonable amounts of processing time. In such cases, efficient processing plans must be generated manually, based on expert knowledge. This creates high overheads for organizations which employ database experts. Laymen users who have no access to such expertise may be unable to execute certain queries altogether. The proposed project will overcome those challenges by a novel approach to plan generation. This approach makes no simplifying assumptions and therefore guarantees near-optimal plans.&lt;br/&gt;&lt;br/&gt;The proposed work will explore the potential for "intra-query learning," a new approach combining query execution and plan generation. Intra-query learning divides the execution of a single query into many micro-episodes in which different plans are tried. Each episode serves two purposes. First, it generates query result fragments that will be collected to form complete query results. Second, it yields information on the quality of plan alternatives. This information will be leveraged to select better plans for the remaining episodes. The project will use methods from the area of reinforcement learning to select plans in each episode. Those methods offer formal guarantees on making near-optimal decisions under uncertainty. This project will translate such guarantees into guarantees on near-optimal expected processing cost. The research outcomes will be integrated into SkinnerDB, a novel database system designed from the ground up for robust performance without manual interventions. SkinnerDB will entirely abandon tools such as coarse-grained data statistics, or simplifying cost and cardinality models, that are traditionally used to select query plans. Instead, it will rely exclusively on reinforcement learning in combination with an execution engine that is tailored to the needs of intra-query learning. This will enable it to learn near-optimal plans from scratch even for queries that execute on freshly loaded data or contain newly introduced user-defined functions. Starting from a first approach showing promising performance, the project will explore various extensions such as parallel and distributed processing, query plan compilation, and disk-based data processing.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/27/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/10/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1910830</AwardID>
+<Investigator>
+<FirstName>Immanuel</FirstName>
+<LastName>Trummer</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Immanuel Trummer</PI_FULL_NAME>
+<EmailAddress>it224@cornell.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000738187</NSF_ID>
+<StartDate>07/27/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Cornell University</Name>
+<CityName>Ithaca</CityName>
+<ZipCode>148502820</ZipCode>
+<PhoneNumber>6072555014</PhoneNumber>
+<StreetAddress>373 Pine Tree Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY23</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>872612445</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CORNELL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002254837</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Cornell University]]></Name>
+<CityName>Ithaca</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>148537501</ZipCode>
+<StreetAddress><![CDATA[107 Hoy Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY23</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~363257</FUND_OBLG>
+<FUND_OBLG>2020~136742</FUND_OBLG>
+</Award>
+</rootTag>

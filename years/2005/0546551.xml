@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER:     An Evolvable Architecture for Internet Data Transfer</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>03/01/2006</AwardEffectiveDate>
+<AwardExpirationDate>02/29/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Making changes to the established Internet architecture and its core protocols has become increasingly difficult as the Internet has exploded in popularity.  Changes may require modifying dozens or hundreds of software implementations deployed on hundreds of millions of computers.  Other than sheer scale, a major reason that these changes are difficult to deploy is a high degree of coupling between applications and the underlying network protocols and their semantics.  This coupling is evident for an important class of network applications that function primarily as data transfer agents (e.g., email, file transfer, web, and so on).  These applications typically bundle the functions of content negotiation---naming objects, negotiating common languages, handling cookies, etc.---and data transfer---the process of actually sending the data across the network. The result of this coupling is that in order to deploy a novel data transfer mechanism, one must modify every application that makes use of the network.&lt;br/&gt;&lt;br/&gt;Intellectual Merit:&lt;br/&gt;The Principal Investigator proposes to design and implement a novel data-oriented transfer layer that performs data transfer on behalf of applications.  The transfer layer will be a narrow waist at which to introduce new mechanisms for data transfer, and have them immediately benefit all applications using the transfer layer.  By serving as a locus for modifications, the transfer layer will also facilitate the adoption of changes within the underlying network.  A new transfer-layer module will be able to make the network-intensive portion of applications use new network-layer functionality with no application modification.&lt;br/&gt;&lt;br/&gt;As a first use of the transfer layer, this project will develop novel techniques for improving the resilience of Internet applications to challenging network environments.  These environments are characterized by intermittent connectivity or poor link quality, such as that provided by cheap wireless links or satellites.  The techniques developed will be used to create a network that performs drastically better in the face of accidental and malicious failures.  The approaches the project will explore include performing transfers by using multiple network paths in parallel, supporting out of band transfers via portable storage, and ensuring that transfers continue to make forward progress in the face of network interruptions. &lt;br/&gt;&lt;br/&gt;This project will address several major challenges to building and deploying a practical transfer service.  The first is the design and evaluation of the interface that the transfer service provides to applications.  The design must simultaneously fit naturally into existing and future applications, while not precluding the optimization necessary for its use in a production environment.  The second challenge is the development and implementation of a security model that balances the need to provide equivalent or better security while allowing an efficient implementation.  The appropriate security model will likely require the development of novel techniques for securely sharing cached data.  The third challenge is the design of algorithms to select among the different sources of data that the transfer layer will enable.  These algorithms must react to changing network conditions and balance between shared paths with incredibly different performance characteristics.&lt;br/&gt;&lt;br/&gt;Broader Impact:&lt;br/&gt;Continued evolution is critical for making the Internet and its protocols suitable for more applications, particularly those that require more availability than today's Internet can provide.  Improved protocols may also significantly reduce the operational costs associated with managing the Internet.  This research may significantly accelerate the rate of adoption of new protocols and technologies by providing a narrowed interface on which developers can concentrate, instead of spreading their effort across dozens of different applications.  The techniques developed as a part of this research for communication in challenging environments could help improve the availability and reach of the Internet into areas formerly only poorly served by network connectivity. The project will release a freely available reference implementation of the transfer service for others to build upon.&lt;br/&gt;&lt;br/&gt;The PI will use the framework developed in the course of this research as a central part of an upcoming graduate class at CMU.  If successfully deployed, the transfer framework will be used as a vehicle for making course content (slides, notes, assignments, and videos of each lecture) from the PI's classes freely available on the Internet in a way that is accessible to students in underserved areas with poor network connectivity.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>01/12/2006</MinAmdLetterDate>
+<MaxAmdLetterDate>03/08/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0546551</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Andersen</LastName>
+<PI_MID_INIT>G</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David G Andersen</PI_FULL_NAME>
+<EmailAddress>dga@cs.cmu.edu</EmailAddress>
+<PI_PHON>4122683064</PI_PHON>
+<NSF_ID>000423704</NSF_ID>
+<StartDate>01/12/2006</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName>PITTSBURGH</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>4090</Code>
+<Text>ADVANCED NET INFRA &amp; RSCH</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>1187</Code>
+<Text>PECASE- eligible</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7388</Code>
+<Text>NETWORKING RESEARCH (NR)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0106</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>490100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0107</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>490100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0108</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0109</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2006~90804</FUND_OBLG>
+<FUND_OBLG>2007~95078</FUND_OBLG>
+<FUND_OBLG>2008~100712</FUND_OBLG>
+<FUND_OBLG>2009~104249</FUND_OBLG>
+<FUND_OBLG>2010~109157</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This grant sought funding to explore the design, implementation,&nbsp;and evaluation of a novel "data-oriented transfer layer" for&nbsp;Internet applications. &nbsp;This "transfer layer" would perform data&nbsp;transfer on behalf of applications: &nbsp;Where today, each application&nbsp;(such as a web browser or email reader) implements its own mechanisms&nbsp;for data transfer, this project explored the benefits that could be&nbsp;obtained by having all applications running on a computer share a&nbsp;service that would perform such data transfers on their behalf.&nbsp;</p> <p><br />The potential benefits of this architecture were increased flexibility&nbsp;and evolvability (existing applications could take advantage of&nbsp;improvements in data transfer techniques added to the transfer&nbsp;service); the development of innovative mechanisms for data transfer;&nbsp;and the ability to increase efficiency through cross-application&nbsp;sharing when multiple applications request the same or similar data.</p> <p><br />The project had several positive outcomes. &nbsp;Beyond the intellectual&nbsp;merit, development and release of usable software, and identification&nbsp;of several networking problems of substantial commercial importance,&nbsp;the research conducted within this project formed an important part of&nbsp;three students' Ph.D. theses; one of these students is now CEO of a&nbsp;computer storage systems startup, one is a researcher at IBM, and one&nbsp;is at Microsoft. &nbsp;The project also involved collaborations with&nbsp;colleagues in computer science theory, and led to a collaborative&nbsp;research effort in optical networking with colleagues at Intel and&nbsp;UCSD.</p> <p><br />The core hypothesis of the project appears supported: Providing a&nbsp;common set of tools for data transfer provides substantial benefits to&nbsp;evolvability. &nbsp;This core idea is being explored in more depth today by&nbsp;several projects in the networking community in the form of&nbsp;"content-centric networking". &nbsp;</p> <p><br />Along with this architecture, the project developed several innovative&nbsp;mechanisms for how to accomplish data transfer. &nbsp;Several explored new&nbsp;mechanisms for peer-to-peer data transfer, such as&nbsp;"SET" -- Similarity Enhanced Transfer. &nbsp;In typical P2P data transfers,&nbsp;"peers" can only download from other nodes that have the exact file they&nbsp;are interested in. &nbsp;SET extends such systems to allow peers to download from&nbsp;"similar" files. &nbsp;For example, a SET peer might be able to transfer much a powerpoint presentation from a nearby computer that had an older version, and retrieve only the newer parts from a farther-away node.&nbsp;</p> <p><br />Together with a colleague expert in storage systems, the project&nbsp;identified a critical problem facing datacenter networks during&nbsp;high-bandwidth, high-fan-in data transfer, called the "Incast"&nbsp;problem. &nbsp;This problem is similar to what happens when several people&nbsp;all try to talk to one listener at the same time: Some of the data&nbsp;gets lost, causing slowdowns and unpredictable speeds. &nbsp;The problem is&nbsp;particularly important at the huge scale now being achieved by&nbsp;industry giants such as Google, Microsoft, and Facebook. &nbsp;The work&nbsp;done under this project spurred a large amount of follow-on work, with&nbsp;over 70 papers written so far that build upon it.</p> <p><br />Overall, the PI believes that this project was successful on technical&nbsp;grounds, and in meeting the program's goals of building ``a foundation&nbsp;for a lifetime of leadership'' in both education and research. &nbsp;The&nbsp;CAREER award was one of the PI's first major awards, and it proved&nbsp;instrumental in supporting research that led to several additional&nbsp;research programs, and directly contributed to the PIs continued&nbsp;involvement in the...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This grant sought funding to explore the design, implementation, and evaluation of a novel "data-oriented transfer layer" for Internet applications.  This "transfer layer" would perform data transfer on behalf of applications:  Where today, each application (such as a web browser or email reader) implements its own mechanisms for data transfer, this project explored the benefits that could be obtained by having all applications running on a computer share a service that would perform such data transfers on their behalf.    The potential benefits of this architecture were increased flexibility and evolvability (existing applications could take advantage of improvements in data transfer techniques added to the transfer service); the development of innovative mechanisms for data transfer; and the ability to increase efficiency through cross-application sharing when multiple applications request the same or similar data.   The project had several positive outcomes.  Beyond the intellectual merit, development and release of usable software, and identification of several networking problems of substantial commercial importance, the research conducted within this project formed an important part of three students' Ph.D. theses; one of these students is now CEO of a computer storage systems startup, one is a researcher at IBM, and one is at Microsoft.  The project also involved collaborations with colleagues in computer science theory, and led to a collaborative research effort in optical networking with colleagues at Intel and UCSD.   The core hypothesis of the project appears supported: Providing a common set of tools for data transfer provides substantial benefits to evolvability.  This core idea is being explored in more depth today by several projects in the networking community in the form of "content-centric networking".     Along with this architecture, the project developed several innovative mechanisms for how to accomplish data transfer.  Several explored new mechanisms for peer-to-peer data transfer, such as "SET" -- Similarity Enhanced Transfer.  In typical P2P data transfers, "peers" can only download from other nodes that have the exact file they are interested in.  SET extends such systems to allow peers to download from "similar" files.  For example, a SET peer might be able to transfer much a powerpoint presentation from a nearby computer that had an older version, and retrieve only the newer parts from a farther-away node.    Together with a colleague expert in storage systems, the project identified a critical problem facing datacenter networks during high-bandwidth, high-fan-in data transfer, called the "Incast" problem.  This problem is similar to what happens when several people all try to talk to one listener at the same time: Some of the data gets lost, causing slowdowns and unpredictable speeds.  The problem is particularly important at the huge scale now being achieved by industry giants such as Google, Microsoft, and Facebook.  The work done under this project spurred a large amount of follow-on work, with over 70 papers written so far that build upon it.   Overall, the PI believes that this project was successful on technical grounds, and in meeting the program's goals of building ``a foundation for a lifetime of leadership'' in both education and research.  The CAREER award was one of the PI's first major awards, and it proved instrumental in supporting research that led to several additional research programs, and directly contributed to the PIs continued involvement in the Future Internet Architecture program. .adslot-overlay {position: absolute; font-family: arial, sans-serif; background-color: rgba(0,0,0,0.65); border: 2px solid rgba(0,0,0,0.65); color: white !important; margin: 0; z-index: 2147483647; text-decoration: none; box-sizing: border-box; text-align: left;}.adslot-overlay-iframed {top: 0; left: 0; right: 0; bottom: 0;}.slotname {position: absolute; top: 0; left: 0; right: 0; font-size: 13px...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

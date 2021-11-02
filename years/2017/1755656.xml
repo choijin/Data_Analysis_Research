@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CIF: Crowdsourcing-aware Learning</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>174934.00</AwardTotalIntnAmount>
+<AwardAmount>174934</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+<PO_EMAI>pregalia@nsf.gov</PO_EMAI>
+<PO_PHON>7032922981</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Machine learning has significantly advanced the state of the art in a variety of applications. These successes have required massive labeled datasets for training machine learning algorithms. The collection of these labeled datasets usually involves human annotation. For instance, the training labels for supervised learning algorithms are often obtained through "crowdsourcing" where people label the data over the Internet in exchange for monetary incentives. Most learning algorithms, however, are agnostic of this human-labeling process. This project designs improved learning algorithms by incorporating the "human" aspect of the data collection process in the machine learning objective.&lt;br/&gt;&lt;br/&gt;In more detail, this project considers supervised binary classification tasks where the labels for the training data are obtained from people. The research involves design of learning algorithms that jointly consider the human collection process -- including the interfaces and incentives available to the human labelers -- and the overall learning objective. Theoretical guarantees of optimality are derived and compared with guarantees for algorithms which are agnostic of the human component. The algorithms and guarantees are based on models of human behavior from psychology, such as permutation-based models, that allow for maximal accuracy while making minimal assumptions on how the human labelers behave. The theoretical results are corroborated with practical implementations (open sourced) and real-world experiments (data freely available online).&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>12/18/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>12/18/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1755656</AwardID>
+<Investigator>
+<FirstName>Nihar</FirstName>
+<LastName>Shah</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nihar Shah</PI_FULL_NAME>
+<EmailAddress>nihars@andrew.cmu.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000753892</NSF_ID>
+<StartDate>12/18/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~174934</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-c30bc887-7fff-af1c-2945-bdf43117ce5d"> </span></p> <p dir="ltr"><span>In this research, we first identified problems in various algorithms that operate on data from people due to not accounting for the complexities of human behavior. We demonstrated these problems in important applications such as crowdsourcing, peer review, and peer grading. Examples include algorithms that evaluate gender or racial biases in peer review but can be misled by other factors; algorithms that are susceptible to strategic behavior of the participants in crowdsourcing, peer grading and peer review; and algorithms that do not account for the complex miscalibration when people provide ratings.</span></p> <p dir="ltr"><span>We then designed algorithms that incorporate the "human"&nbsp;aspect in these applications. We supplemented these algorithms with rigorous mathematical guarantees, proving that these algorithms are guaranteed to be robust to various forms of complex human behavior. We also evaluated these algorithms on crowdsourcing platforms and using peer review data, and these evaluations corroborate the significant benefits of incorporating the "human" aspect.</span></p> <p dir="ltr"><span>A key component of this research pertained to mathematical modeling. Many learning algorithms in these applications are based on mathematical models for the data. There is an inherent tradeoff regarding these models: More complex models provide a better approximation to the complex human behavior but are more challenging with respect to algorithm design and analysis. In this research, we designed models that are judicious regarding this trade off: Our models are general enough to capture various complexities of human behavior while being tractable enough to allow us to design algorithms and conduct a thorough analysis.&nbsp;</span></p> <p dir="ltr"><span>We envisage that the insights, models and algorithms developed in this project will be of use in various other applications involving data from people.</span></p> <p dir="ltr"><span>The project provided training and research experience to two PhD students and two undergraduate students. In addition, the project also provided exposure to this area of research to high school students via interactive lectures given by the PI at multiple forums. The results of this project were disseminated by means of several talks, blog posts, and a tutorial.</span></p><br> <p>            Last Modified: 04/12/2020<br>      Modified by: Nihar&nbsp;Shah</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   In this research, we first identified problems in various algorithms that operate on data from people due to not accounting for the complexities of human behavior. We demonstrated these problems in important applications such as crowdsourcing, peer review, and peer grading. Examples include algorithms that evaluate gender or racial biases in peer review but can be misled by other factors; algorithms that are susceptible to strategic behavior of the participants in crowdsourcing, peer grading and peer review; and algorithms that do not account for the complex miscalibration when people provide ratings. We then designed algorithms that incorporate the "human" aspect in these applications. We supplemented these algorithms with rigorous mathematical guarantees, proving that these algorithms are guaranteed to be robust to various forms of complex human behavior. We also evaluated these algorithms on crowdsourcing platforms and using peer review data, and these evaluations corroborate the significant benefits of incorporating the "human" aspect. A key component of this research pertained to mathematical modeling. Many learning algorithms in these applications are based on mathematical models for the data. There is an inherent tradeoff regarding these models: More complex models provide a better approximation to the complex human behavior but are more challenging with respect to algorithm design and analysis. In this research, we designed models that are judicious regarding this trade off: Our models are general enough to capture various complexities of human behavior while being tractable enough to allow us to design algorithms and conduct a thorough analysis.  We envisage that the insights, models and algorithms developed in this project will be of use in various other applications involving data from people. The project provided training and research experience to two PhD students and two undergraduate students. In addition, the project also provided exposure to this area of research to high school students via interactive lectures given by the PI at multiple forums. The results of this project were disseminated by means of several talks, blog posts, and a tutorial.       Last Modified: 04/12/2020       Submitted by: Nihar Shah]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

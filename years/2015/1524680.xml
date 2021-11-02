@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>STARSS: Small: Collaborative: Practical and Scalable Security Verification of Security-Aware Hardware Architectures</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>166667.00</AwardTotalIntnAmount>
+<AwardAmount>166667</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Computers form the backbone of any modern society, and often process large amounts of sensitive and private information.  To help secure the software, and the sensitive data, a number of secure hardware-software and processor architectures have been proposed.  These architectures incorporate novel protection and defense mechanisms directly in the hardware where they cannot be modified or bypassed, unlike software protections.  However, due to lack of practical and scalable security verification tools and methodologies, very few of the proposed hardware security architectures have been commercially deployed.  This project develops a security verification methodology that is applicable to different hardware-software security architectures. &lt;br/&gt;&lt;br/&gt;This project develops security invariants and methodology that hardware architects can deploy to check the security properties of their architectures in a scalable and semi-automated manner. The methodology is applied to verify hardware-enhanced isolation architectures and architectures that minimize the attack surface in cloud computing.  Verification of a secure cache's resistance to cache side channel attacks is also investigated. Researchers and designers will have a new method to systematically check their designs, and show to others the conditions under which they work.  Hardware manufacturers will gain assurance to actually implement these security architectures in real products.  In turn, customers will gain assurance about the secure hardware that protects their computations running on their devices or virtual machines running on remote cloud servers. Security architectures are important to customers and hardware manufacturers, however, security verification is needed to make them a reality.</AbstractNarration>
+<MinAmdLetterDate>08/20/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/20/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1524680</AwardID>
+<Investigator>
+<FirstName>Jakub</FirstName>
+<LastName>Szefer</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jakub Szefer</PI_FULL_NAME>
+<EmailAddress>jakub.szefer@yale.edu</EmailAddress>
+<PI_PHON>2172200073</PI_PHON>
+<NSF_ID>000519676</NSF_ID>
+<StartDate>08/20/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Yale University</Name>
+<CityName>New Haven</CityName>
+<ZipCode>065208327</ZipCode>
+<PhoneNumber>2037854689</PhoneNumber>
+<StreetAddress>Office of Sponsored Projects</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 208327]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<StateCode>CT</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CT03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>043207562</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>YALE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>043207562</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Yale University]]></Name>
+<CityName>New Haven</CityName>
+<StateCode>CT</StateCode>
+<ZipCode>065116814</ZipCode>
+<StreetAddress><![CDATA[10 Hillhouse Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CT03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8226</Code>
+<Text>SaTC: STARSS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~166667</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project developed a security verification framework, called SecChisel, that can be used to check, at design time, that a processor architecture can maintain confidentiality of secrets, such as cryptographic keys.&nbsp; The framework uses the so-called information flow tracking approach, at compile time, to track how information flows in an architecture.&nbsp; By introducing new security tags in the hardware description of the processor, the framework is able to check if sensitive information, such as cryptographic keys, may leak out to outside of the processor and thus leak information.&nbsp; The framework was implemented in Chisel language, which is used to realize the now popular, open-source RISC-V processor.&nbsp; In addition, it leveraged a SAT solver for the actual information flow checking.&nbsp; As RISC-V architecture and processors become integral to many consumer electronics, this project allows for checking RISC-V designs based on Chisel and can thus improve security of many products.&nbsp; Further, the project also focused on verification of a secure cache's resistance to cache side-channel attacks.&nbsp; A new method was proposed for checking security of processor caches using a three-step model, which can in future be realize in Computation Tree Logic. With the security verification framework for whole processors and the cache verification model, this research has shown how to improve and check security of processor designs.</p><br> <p>            Last Modified: 01/28/2019<br>      Modified by: Jakub&nbsp;Szefer</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691195390_ScreenShot2019-01-28at10.56.32AM--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691195390_ScreenShot2019-01-28at10.56.32AM--rgov-800width.jpg" title="Computation tree based on a cache controller state machine."><img src="/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691195390_ScreenShot2019-01-28at10.56.32AM--rgov-66x44.jpg" alt="Computation tree based on a cache controller state machine."></a> <div class="imageCaptionContainer"> <div class="imageCaption">An image of a simplified, sample cache controller Kripke structure showing a computation tree based on a cache controller state machine.</div> <div class="imageCredit">Shuwen Deng and Wenjie Xiong and Jakub Szefer</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Jakub&nbsp;Szefer</div> <div class="imageTitle">Computation tree based on a cache controller state machine.</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691720909_ScreenShot2019-01-28at11.07.01AM--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691720909_ScreenShot2019-01-28at11.07.01AM--rgov-800width.jpg" title="Overview of the SecChisel framework."><img src="/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691720909_ScreenShot2019-01-28at11.07.01AM--rgov-66x44.jpg" alt="Overview of the SecChisel framework."></a> <div class="imageCaptionContainer"> <div class="imageCaption">Overview of the SecChisel framework showing steps in the security verification process.</div> <div class="imageCredit">Shuwen Deng and Wenjie Xiong and Jakub Szefer</div> <div class="imageSubmitted">Jakub&nbsp;Szefer</div> <div class="imageTitle">Overview of the SecChisel framework.</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project developed a security verification framework, called SecChisel, that can be used to check, at design time, that a processor architecture can maintain confidentiality of secrets, such as cryptographic keys.  The framework uses the so-called information flow tracking approach, at compile time, to track how information flows in an architecture.  By introducing new security tags in the hardware description of the processor, the framework is able to check if sensitive information, such as cryptographic keys, may leak out to outside of the processor and thus leak information.  The framework was implemented in Chisel language, which is used to realize the now popular, open-source RISC-V processor.  In addition, it leveraged a SAT solver for the actual information flow checking.  As RISC-V architecture and processors become integral to many consumer electronics, this project allows for checking RISC-V designs based on Chisel and can thus improve security of many products.  Further, the project also focused on verification of a secure cache's resistance to cache side-channel attacks.  A new method was proposed for checking security of processor caches using a three-step model, which can in future be realize in Computation Tree Logic. With the security verification framework for whole processors and the cache verification model, this research has shown how to improve and check security of processor designs.       Last Modified: 01/28/2019       Submitted by: Jakub Szefer]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

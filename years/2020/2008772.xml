@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>OAC Core: Small: Architecture and Network-aware Partitioning Algorithms for Scalable PDE Solvers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>499317.00</AwardTotalIntnAmount>
+<AwardAmount>499317</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Seung-Jong Park</SignBlockName>
+<PO_EMAI>spark@nsf.gov</PO_EMAI>
+<PO_PHON>7032924383</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Solving large-scale partial differential equations (PDE) is common in science and engineering, from studying gravitational waves to designing aerodynamic cars. Given the scale of these problems, solving such PDEs requires supercomputing resources. The latest supercomputing architectures are different from the previous generation of leadership class architectures and and are characterized by high levels of diversity within and across machines. Such diversity and heterogeneity makes it extremely difficult to effectively distribute work, i.e., partition the data or tasks, across disparate computing resources. Since the primary objective of building leadership class machines is to further scientific discovery and national prosperity, it is essential that applications, old and new, are able to scale and utilize these machines to their full potential. This project develops novel data and task partitioning algorithms that factor in the architectural characteristics of modern supercomputers to enable efficient and scalable utilization of current and future computing architectures.&lt;br/&gt;&lt;br/&gt;Existing data and task partitioning schemes do not explicitly consider the underlying architectural topology while partitioning or is done indirectly during the design of the algorithm and codes. Ignoring topology leads to loss of scalability and performance, while shifting the burden to algorithm/code design increases the development costs and complexity, and decreases portability.  While data and task partitioning for parallelization, along with mapping the partitions to processes, have been studied for a long time, they have not been considered as a combined problem. To a large extent this was due to the simple structures and symmetry that existed in cluster computing architectures. Inefficiencies that did not significantly impact performance and scalability ten years ago are starting to inhibit scalability and thereby scientific discovery. This project is a first step in ensuring that scientific discovery is not hampered as a result of the difficulty in porting codes to new architectures. This project develops new graph and space-filling-curve-based partitioning algorithms that are aware of the architectural topology and are able to automatically generate data/task partitions and mappings to address problems with current schemes. The algorithms and software developed as part of this proposal will have wide-ranging impact, by improving the performance and scalability of legacy applications and reducing the development cost and improving the portability of new applications, to run efficiently on systems ranging from simple shared memory architectures to the largest heterogeneous clusters.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>05/13/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>05/13/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2008772</AwardID>
+<Investigator>
+<FirstName>Hari</FirstName>
+<LastName>Sundar</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Hari Sundar</PI_FULL_NAME>
+<EmailAddress>hari@cs.utah.edu</EmailAddress>
+<PI_PHON>8015816903</PI_PHON>
+<NSF_ID>000671836</NSF_ID>
+<StartDate>05/13/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<CountyName>SALT LAKE</CountyName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName>SALT LAKE CITY</CityName>
+<CountyName>SALT LAKE</CountyName>
+<StateCode>UT</StateCode>
+<ZipCode>841129205</ZipCode>
+<StreetAddress><![CDATA[50 CENTRAL CAMPUS DR]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>090Y</Code>
+<Text>OAC-Advanced Cyberinfrast Core</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~499317</FUND_OBLG>
+</Award>
+</rootTag>

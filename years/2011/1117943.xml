@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Small: Security Architectures for Smartphones</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ralph Wachter</SignBlockName>
+<PO_EMAI>rwachter@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern smartphones from Apple, Google, and others have remarkably complex security needs. Applications, installed from a variety of third-party vendors, must be separated from one other, since some might be buggy or malicious, yet they must also communicate and share in a variety of ways, including displaying multimedia, sharing authentication credentials, and acting as local proxies for remote Internet sites to support payment services, advertisements, and so forth.&lt;br/&gt;&lt;br/&gt;We design, implement, and evaluate novel smartphone mechanisms, leveraging Google's open-source Android project. For example, we carefully control how privileges are managed within the phone as applications collaborate. We must defeat "confused deputy" attacks, where privileged-but-buggy applications inadvertently allow their callers to exercise sensitive privileges, yet our infrastructure must also enable "intentional deputies" who are trusted to leverage dangerous privileges while offering safe interfaces.&lt;br/&gt;&lt;br/&gt;Our work also considers the user's view of security features. Many applications require users to frequently retype passwords, annoying users and also making them vulnerable to spoofing attacks, because an attacker can fake a pixel-perfect dialog. We are studying a variety of approaches to improve security and usability, including better ways for applications to share credentials with one another (avoiding dialog boxes), and better ways for multiple applications to share screen real-estate (avoiding the need for singleton applications to be granted unnecessary privileges).&lt;br/&gt;&lt;br/&gt;All of our research output will be available under suitable open-source licenses, helping our work to influence phone vendors and ultimately to have impact on the huge installed base of smartphone users.</AbstractNarration>
+<MinAmdLetterDate>07/13/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>07/13/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1117943</AwardID>
+<Investigator>
+<FirstName>Dan</FirstName>
+<LastName>Wallach</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dan S Wallach</PI_FULL_NAME>
+<EmailAddress>dwallach@rice.edu</EmailAddress>
+<PI_PHON>7133486155</PI_PHON>
+<NSF_ID>000095002</NSF_ID>
+<StartDate>07/13/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>William Marsh Rice University</Name>
+<CityName>Houston</CityName>
+<ZipCode>770051827</ZipCode>
+<PhoneNumber>7133484820</PhoneNumber>
+<StreetAddress>6100 MAIN ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>050299031</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WILLIAM MARSH RICE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>050299031</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[William Marsh Rice University]]></Name>
+<CityName>Houston</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>770051827</ZipCode>
+<StreetAddress><![CDATA[6100 MAIN ST]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This effort touched on a number of aspects of smartphone security. We investigated improved security architectures that operate within Android phones to better track the provenance of information as it flows through the system, defeating a number of subtle attacks. We also turned a good degree of attention toward the problem of privacy-invasive advertisements in the smartphone ecosystem, measuring the extent to which those privacy problems have grown worse over time.</p> <p>Our efforts have shown intellectual merit in the engineering techniques we used both for our Android architectural changes as well as for our privacy measurement studies. We showed how to track information flows within Android with negligible performance overheads. We showed how to efficiently process hundreds of thousands of Android apps to quantify their privacy issues.</p> <p>Our efforts have demonstrated broader impact on improving the security of smartphones used by huge numbers of people worldwide. Our measurements have had a significant impact in the policy sphere, helping non-technical audiences understand the privacy-related behaviors of the advertising ecosystem. Regulators in the U.S. and in Europe are increasingly concerned with the privacy of smartphone users and our data helps inform the actions they may wish to take.</p> <p>Lastly, we collaborated with researchers at Google to improve techniques for user login (from smartphones and web browsers), to have better usability and stronger security, even in the face of very strong attackers. This work, especially as it's closely connected to Google products, has the potential to significantly improve the security posture of huge numbers of users worldwide.</p><br> <p>            Last Modified: 04/07/2016<br>      Modified by: Dan&nbsp;S&nbsp;Wallach</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This effort touched on a number of aspects of smartphone security. We investigated improved security architectures that operate within Android phones to better track the provenance of information as it flows through the system, defeating a number of subtle attacks. We also turned a good degree of attention toward the problem of privacy-invasive advertisements in the smartphone ecosystem, measuring the extent to which those privacy problems have grown worse over time.  Our efforts have shown intellectual merit in the engineering techniques we used both for our Android architectural changes as well as for our privacy measurement studies. We showed how to track information flows within Android with negligible performance overheads. We showed how to efficiently process hundreds of thousands of Android apps to quantify their privacy issues.  Our efforts have demonstrated broader impact on improving the security of smartphones used by huge numbers of people worldwide. Our measurements have had a significant impact in the policy sphere, helping non-technical audiences understand the privacy-related behaviors of the advertising ecosystem. Regulators in the U.S. and in Europe are increasingly concerned with the privacy of smartphone users and our data helps inform the actions they may wish to take.  Lastly, we collaborated with researchers at Google to improve techniques for user login (from smartphones and web browsers), to have better usability and stronger security, even in the face of very strong attackers. This work, especially as it's closely connected to Google products, has the potential to significantly improve the security posture of huge numbers of users worldwide.       Last Modified: 04/07/2016       Submitted by: Dan S Wallach]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

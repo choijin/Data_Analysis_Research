@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Efficient Analysis of Non-Linear and Non-Gaussian State-Space Representations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2009</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>404463.00</AwardTotalIntnAmount>
+<AwardAmount>404463</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>04050000</Code>
+<Directorate>
+<Abbreviation>SBE</Abbreviation>
+<LongName>Direct For Social, Behav &amp; Economic Scie</LongName>
+</Directorate>
+<Division>
+<Abbreviation>SES</Abbreviation>
+<LongName>Divn Of Social and Economic Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Michael Reksulak</SignBlockName>
+<PO_EMAI>mreksula@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The investigators propose to develop numerical methods for achieving likelihood evaluation and filtering in applications involving non-linear and/or non-Gaussian state space models. The hallmark of these models is their representation of the interaction of observable variables (typically observed subject to measurement error) and unobservable state variables. The models serve as workhorses in a broad spectrum of applications ranging from reduced-form representations of, e.g., asset-return behavior, to representations of dynamic stochastic general equilibrium (DSGE) models amenable to likelihood-based estimation and inference. The objective of filtering is to infer time-t behavior of state variables given measurement of the observable variables through time t, conditional on the specified model, but unconditional on the past behavior of the state. Likelihood evaluation involves probability assessments regarding the observable variables measured through time t, again conditional on the model but unconditional on current and past behavior of the state. Both objectives require the calculation of integrals necessary for eliminating the dependence of inferences on realizations of the state.&lt;br/&gt;When the model in question is linear and stochastic innovations are Gaussian, the integrals required for achieving likelihood evaluation and filtering can be calculated analytically via the Kalman filter. However, theoretical and empirical considerations often necessitate extensions beyond linear/Gaussian frameworks. For example, approximation errors associated with linear approximations of DSGE models can impart significant errors in corresponding likelihood representations. Highly accurate non-linear model approximations can all but eliminate associated likelihood approximation errors, but the adoption of such model approximations of course entails a departure from linearity. Departures from either linearity or normality render required integrals as analytically intractable; their calculation thus entails the use of numerical methods.&lt;br/&gt;&lt;br/&gt;The objective of the project is to develop numerical methods for achieving likelihood evaluation and filtering that are straightforward to implement, and that deliver accurate and numerically efficient approximations of targeted integrals. The objective will be pursued through the implementation of efficient importance sampling (EIS) techniques, which by design yield optimal global approximations of targeted integrands. In the context of state-space representations, implementation of EIS is complicated by the unavailability of analytical representations of targeted integrands.  Thus the objective of the project ? development of the EIS filter ? amounts to the development of techniques for overcoming this complication in a broad range of settings.&lt;br/&gt;&lt;br/&gt;Broader Impacts: Results obtained to date indicate that the EIS filter can deliver dramatic improvements in accuracy and numerical efficiency over existing techniques.  Results have been obtained from applications to two models studied previously in the filtering literature for which the EIS filter reduces numerical standard errors of targeted integrands by several orders of magnitude relative to the particle filter, while entailing reduced computational times. Moreover, likelihood approximations associated with the EIS filter are continuous functions of model parameters, easing greatly the problem of model estimation. These results suggest that by developing robust algorithms for implementing the EIS filter in general state-space environments (including those involving high dimensional state spaces and singular transition densities), this project can broaden substantially the range of problems for which the shackles of linearity/normality can be loosened.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>01/30/2009</MinAmdLetterDate>
+<MaxAmdLetterDate>08/04/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.075</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0850448</AwardID>
+<Investigator>
+<FirstName>Jean-Francois</FirstName>
+<LastName>Richard</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jean-Francois Richard</PI_FULL_NAME>
+<EmailAddress>fantin@pitt.edu</EmailAddress>
+<PI_PHON>4126481750</PI_PHON>
+<NSF_ID>000252459</NSF_ID>
+<StartDate>01/30/2009</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>DeJong</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David N DeJong</PI_FULL_NAME>
+<EmailAddress>dejong@pitt.edu</EmailAddress>
+<PI_PHON>4126482242</PI_PHON>
+<NSF_ID>000269414</NSF_ID>
+<StartDate>01/30/2009</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Pittsburgh</Name>
+<CityName>Pittsburgh</CityName>
+<ZipCode>152133203</ZipCode>
+<PhoneNumber>4126247400</PhoneNumber>
+<StreetAddress>300 Murdoch Building</StreetAddress>
+<StreetAddress2><![CDATA[3420 Forbes Avenue]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>004514360</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF PITTSBURGH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>004514360</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Pittsburgh]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133203</ZipCode>
+<StreetAddress><![CDATA[300 Murdoch Building]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1320</Code>
+<Text>Economics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>0000</Code>
+<Text>UNASSIGNED</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>OTHR</Code>
+<Text>OTHER RESEARCH OR EDUCATION</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0109</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2009~133541</FUND_OBLG>
+<FUND_OBLG>2010~270922</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>NSF PROJECT OUTCOME REPORT FOR AWARD NUMBER 0850448 (EFFICIENT ANALYSIS OF NON-LINEAR AND NON-GAUSSIAN STATE-SPACE REPRESENTATIONS)</strong></p> <p>State-space models are widely used in Sciences (Economics, Engineering,&hellip;). They consist of two key components: first, a state model describing the stochastic evolution over time of a set of state variables characterizing the system under investigation, and second, a measurement model linking noisy measurements to the state variables. Important examples in economics are Dynamic Stochastic General Equilibrium (DSGE) models describing the evolution over time of key economic aggregates (production, consumption, capital stock, investment,&hellip;.) and recognizing that such aggregates are inevitably measured with errors. Examples in sciences are tracking models when the target state consists of such variables as position, velocity, acceleration while radar measurement include target range, elevation, Doppler frequency and the like.</p> <p>Except for a very restrictive (linear Gaussian) class of models for which analytical results are available, the analysis of state-space models relies upon sequential simulation techniques. In a nutshell, one draws sequential random trajectories for the state variables. These trajectories are then weighted according to their compatibility with measurements and quantities of interest are approximated by weighted average across trajectories. The most widely used set of techniques for doing so are known as Particle Filters, whereby state distribution in any given period are represented by a swarm of draws labeled particles. Particle Filters are fairly easy to implement but often require very large numbers of trajectories in order to produce accurate estimates, reflecting the well documented fact that as sample size gets larger, an increasingly large proportion of trajectories receive negligible weights, properties known as degeneracy and sample impoverishment.</p> <p>In this project, we develop a new highly efficient filtering technique for constructing close continuous approximations to the sequential distributions of the state variables conditional on measurements. These are then used to draw trajectories that are fully adapted (in the sense that they fully account for the measurements). It immediately follows that far fewer simulated trajectories will be required in order to produce accurate estimates of the quantities of interest. We call this new technique EIS filtering, where EIS stands for Efficient Importance Sampling which is the numerical technique we rely upon to compute good (efficient) density approximations. Application of this new technique to a pair of DSGE models, we are able to produce highly accurate estimates of their log-likelihood functions (which are then used for statistical inference) with as little as 200 trajectories. In sharp contrast, standard particle filters require of the order of 65,000,000 to 600,000,000 trajectories to achieve comparable accuracy. In terms of computing time (accounting for differences in computing time per trajectory) we are discussing seconds versus days on a personal computer. Such massive efficiency gains are unheard of in the literature on filtering. In economics, our method paves the way for accurate estimation of DSGE models that are the workhorses of modern macroeconomics modeling. In sciences it will facilitate real-time tracking of more complex state systems. Ongoing research aims at developing even more flexible density approximations as these are the central components of our new technique.</p><br> <p>            Last Modified: 08/13/2012<br>      Modified by: Jean-Francois&nbsp;Richard</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ NSF PROJECT OUTCOME REPORT FOR AWARD NUMBER 0850448 (EFFICIENT ANALYSIS OF NON-LINEAR AND NON-GAUSSIAN STATE-SPACE REPRESENTATIONS)  State-space models are widely used in Sciences (Economics, Engineering,&hellip;). They consist of two key components: first, a state model describing the stochastic evolution over time of a set of state variables characterizing the system under investigation, and second, a measurement model linking noisy measurements to the state variables. Important examples in economics are Dynamic Stochastic General Equilibrium (DSGE) models describing the evolution over time of key economic aggregates (production, consumption, capital stock, investment,&hellip;.) and recognizing that such aggregates are inevitably measured with errors. Examples in sciences are tracking models when the target state consists of such variables as position, velocity, acceleration while radar measurement include target range, elevation, Doppler frequency and the like.  Except for a very restrictive (linear Gaussian) class of models for which analytical results are available, the analysis of state-space models relies upon sequential simulation techniques. In a nutshell, one draws sequential random trajectories for the state variables. These trajectories are then weighted according to their compatibility with measurements and quantities of interest are approximated by weighted average across trajectories. The most widely used set of techniques for doing so are known as Particle Filters, whereby state distribution in any given period are represented by a swarm of draws labeled particles. Particle Filters are fairly easy to implement but often require very large numbers of trajectories in order to produce accurate estimates, reflecting the well documented fact that as sample size gets larger, an increasingly large proportion of trajectories receive negligible weights, properties known as degeneracy and sample impoverishment.  In this project, we develop a new highly efficient filtering technique for constructing close continuous approximations to the sequential distributions of the state variables conditional on measurements. These are then used to draw trajectories that are fully adapted (in the sense that they fully account for the measurements). It immediately follows that far fewer simulated trajectories will be required in order to produce accurate estimates of the quantities of interest. We call this new technique EIS filtering, where EIS stands for Efficient Importance Sampling which is the numerical technique we rely upon to compute good (efficient) density approximations. Application of this new technique to a pair of DSGE models, we are able to produce highly accurate estimates of their log-likelihood functions (which are then used for statistical inference) with as little as 200 trajectories. In sharp contrast, standard particle filters require of the order of 65,000,000 to 600,000,000 trajectories to achieve comparable accuracy. In terms of computing time (accounting for differences in computing time per trajectory) we are discussing seconds versus days on a personal computer. Such massive efficiency gains are unheard of in the literature on filtering. In economics, our method paves the way for accurate estimation of DSGE models that are the workhorses of modern macroeconomics modeling. In sciences it will facilitate real-time tracking of more complex state systems. Ongoing research aims at developing even more flexible density approximations as these are the central components of our new technique.       Last Modified: 08/13/2012       Submitted by: Jean-Francois Richard]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

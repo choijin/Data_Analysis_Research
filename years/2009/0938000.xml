@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research:  An Application Driven I/O Optimization Approach for PetaScale Systems and Scientific Discoveries</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>04/30/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>320000.00</AwardTotalIntnAmount>
+<AwardAmount>320000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This research focuses on developing scalable parallel file access methods for multi-scale problem domain decompositions, such as the one presented in Adaptive Mesh Refinement (AMR) based algorithms. Existing parallel I/O methods concentrate on optimizing the process collaboration under a fairly evenly-distributed request pattern. However, they are not suitable for data structures in AMR, because the underlying  data distribution is highly irregular and dynamic. Process synchronization in the existing parallel I/O methods can penalize the I/O parallelism if the process collaboration is not carefully coordinated. &lt;br/&gt;This research addresses such synchronization issue by developing scalable solutions in the Parallel netCDF library (PnetCDF), particularly to address AMR structured data and its I/O patterns. PnetCDF is a popular I/O library used by many computer simulation communities. A scalable solution for storing and accessing AMR data in parallel is considered a challenging task. This research will design a process-group based parallel I/O approach to eliminate unrelated processes and thus avoid possible I/O serialization. In addition, a new metadata representation will also be developed in pnetCDF for conserving tree-structured AMR data relationship in a portable form.</AbstractNarration>
+<MinAmdLetterDate>05/10/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>05/10/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0938000</AwardID>
+<Investigator>
+<FirstName>Alok</FirstName>
+<LastName>Choudhary</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alok N Choudhary</PI_FULL_NAME>
+<EmailAddress>choudhar@ece.northwestern.edu</EmailAddress>
+<PI_PHON>8474674129</PI_PHON>
+<NSF_ID>000101070</NSF_ID>
+<StartDate>05/10/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Wei-keng</FirstName>
+<LastName>Liao</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Wei-keng Liao</PI_FULL_NAME>
+<EmailAddress>wkliao@eecs.northwestern.edu</EmailAddress>
+<PI_PHON>8474912916</PI_PHON>
+<NSF_ID>000164583</NSF_ID>
+<StartDate>05/10/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Northwestern University</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606114579</ZipCode>
+<PhoneNumber>3125037955</PhoneNumber>
+<StreetAddress>750 N. Lake Shore Drive</StreetAddress>
+<StreetAddress2><![CDATA[Rubloff 7th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>160079455</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTHWESTERN UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005436803</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Northwestern University]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606114579</ZipCode>
+<StreetAddress><![CDATA[750 N. Lake Shore Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7952</Code>
+<Text>HECURA</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~320000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p class="Default">The goal of this project is to bring benefits of scalable I/O techniques to production applications that allow scientists to store data in a metadata-rich file format and obtain high-performance I/O. Through collaboration with domain scientists who have developed production-level application already running on petascale systems, this project brings the real benefits of scalable I/O techniques for reading and writing peta-bytes of data, scaling checkpoint/restart, and post-processing data analysis based on their needs and requirements.</p> <p class="Default">&nbsp;</p> <p class="Default">The products of this project include scalable file input/output (I/O) optimizations within the Parallel netCDF library (PnetCDF) to include multi-array I/O optimizations for Adaptive Mesh Refinement (AMR) data structures, file storage techniques that allow the flexibility to dynamically adjust data layouts based on the file system workload at real time, adaptive file placement techniques, including data reorganization and migration tools based on system environments and existing I/O optimizations. Performance evaluation on several supercomputers demonstrated scalable I/O performance on a selected list of production-level applications. This project also provides the software and benchmark codes in the public domain.</p> <p class="Default">&nbsp;</p> <p class="Default">Through<strong> </strong>collaboration with application domain scientists in astrophysics and climate research, this project creates new I/O modules for the existing large-scale computer simulation programs and improves their I/O performance on state-of-the-art supercomputers. Theses computer simulation programs are the Hardware Accelerated Cosmology Codes (HACC), a large-scale cosmology simulation application, developed at Argonne National Laboratory, FLASH, a code to study the surfaces of compact stars such as neutron stars and white dwarf stars, developed at the ASC / Alliances Center?for Astrophysical Thermonuclear Flashes at the University of Chicago, and the Global Cloud Resolving Model (GCRM) a major climate simulation supported by the DOE Office of Science.</p> <p class="Default">&nbsp;</p> <p class="Default">PnetCDF library was released in several versions during this project period: from 1.1.0 to 1.4.1. Many features have been added to the library, including I/O aggregation, file layout alignment, new CDF-5 file format, Fortran 90 and C++ APIs, etc. The library web page contains user documents, such as example programs, tutorials, C API references, Frequently Asked Questions, and benchmark suites. The interoperability between PnetCDF and netCDF-4 has been established, so a genuine netCDF-4 program can performance parallel I/O through PnetCDF internally. Many climate research software packages have been adopted PnetCDF for carrying out the parallel I/O operations, including Community Earth System Model (CESM), Weather Research and Forecast (WRF) modeling system, Global Cloud Resolving Model (GCRM), Parallel Ice Sheet Model (PISM), etc.</p> <p class="Default">This project has supported two post-doctoral associates and two female graduate students. One student graduated with a Ph.D. degree in September 2010.</p> <p>&nbsp;</p><br> <p>            Last Modified: 07/04/2014<br>      Modified by: Wei-Keng&nbsp;Liao</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[The goal of this project is to bring benefits of scalable I/O techniques to production applications that allow scientists to store data in a metadata-rich file format and obtain high-performance I/O. Through collaboration with domain scientists who have developed production-level application already running on petascale systems, this project brings the real benefits of scalable I/O techniques for reading and writing peta-bytes of data, scaling checkpoint/restart, and post-processing data analysis based on their needs and requirements.   The products of this project include scalable file input/output (I/O) optimizations within the Parallel netCDF library (PnetCDF) to include multi-array I/O optimizations for Adaptive Mesh Refinement (AMR) data structures, file storage techniques that allow the flexibility to dynamically adjust data layouts based on the file system workload at real time, adaptive file placement techniques, including data reorganization and migration tools based on system environments and existing I/O optimizations. Performance evaluation on several supercomputers demonstrated scalable I/O performance on a selected list of production-level applications. This project also provides the software and benchmark codes in the public domain.   Through collaboration with application domain scientists in astrophysics and climate research, this project creates new I/O modules for the existing large-scale computer simulation programs and improves their I/O performance on state-of-the-art supercomputers. Theses computer simulation programs are the Hardware Accelerated Cosmology Codes (HACC), a large-scale cosmology simulation application, developed at Argonne National Laboratory, FLASH, a code to study the surfaces of compact stars such as neutron stars and white dwarf stars, developed at the ASC / Alliances Center?for Astrophysical Thermonuclear Flashes at the University of Chicago, and the Global Cloud Resolving Model (GCRM) a major climate simulation supported by the DOE Office of Science.   PnetCDF library was released in several versions during this project period: from 1.1.0 to 1.4.1. Many features have been added to the library, including I/O aggregation, file layout alignment, new CDF-5 file format, Fortran 90 and C++ APIs, etc. The library web page contains user documents, such as example programs, tutorials, C API references, Frequently Asked Questions, and benchmark suites. The interoperability between PnetCDF and netCDF-4 has been established, so a genuine netCDF-4 program can performance parallel I/O through PnetCDF internally. Many climate research software packages have been adopted PnetCDF for carrying out the parallel I/O operations, including Community Earth System Model (CESM), Weather Research and Forecast (WRF) modeling system, Global Cloud Resolving Model (GCRM), Parallel Ice Sheet Model (PISM), etc. This project has supported two post-doctoral associates and two female graduate students. One student graduated with a Ph.D. degree in September 2010.          Last Modified: 07/04/2014       Submitted by: Wei-Keng Liao]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

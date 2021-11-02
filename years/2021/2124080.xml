@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>FMitF: Track I: Verifying System Software on an Arm Multiprocessor Hardware Model</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2025</AwardExpirationDate>
+<AwardTotalIntnAmount>750000.00</AwardTotalIntnAmount>
+<AwardAmount>750000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Matt Mutka</SignBlockName>
+<PO_EMAI>mmutka@nsf.gov</PO_EMAI>
+<PO_PHON>7032927344</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Software bugs and vulnerabilities pose major security risks for software systems that provide the foundation for today’s computing infrastructure, such as Operating System kernels and hypervisors. These risks are increased by the growing complexity of software running on modern hardware, as vulnerabilities are much more easily overlooked in complex software executing on sophisticated hardware. Formal verification offers a potential solution to this problem by proving that the system software is implemented correctly. Unfortunately, existing verified software systems are based on over-simplified hardware models, meaning proven properties may not reflect the software’s behavior on real hardware.  To address this problem, this project is designing, implementing, and evaluating VArm, a verification framework for verifying complex systems software over a realistic ARM multiprocessor hardware model. This project’s novelties are (1) a novel hardware model that faithfully captures the behavior of multiprocessor ARM hardware, (2) a highly abstract machine model for reasoning about well-synchronized multiprocessor programs, and (3) a multi-layered framework that combines these models.  The combination is accurate yet easy to use such that real system software can, for the first time, be verified over ARM multiprocessor hardware. The project's impacts are to improve the state-of-the-art of formal-verification methods and reduce security risks for real-world software systems.&lt;br/&gt;&lt;br/&gt;VArm introduces a novel layered approach, gradually refining a detailed low-level machine model, RealArm, to a simpler abstract model, AbsArm. RealArm is a hardware model that faithfully and correctly reflects ARM multiprocessor hardware behavior.  This behavior includes relaxed memory consistency, tagged Translation Look-aside Buffers (TLBs), shared page tables, and cache coherence. AbsArm is a highly abstract machine model that hides or simplifies low-level hardware features.  Nevertheless, AbsArm allows well-synchronized programs to be verified as if they were almost sequential while still ensuring the proofs hold for ARM multiprocessor hardware. The project will show that RealArm refines AbsArm for well-synchronized programs, such that verified guarantees on AbsArm also hold on RealArm. To demonstrate its effectiveness, the researchers plan to use VArm to re-verify various systems such as Kernel-based Virtual Machine (KVM) such that their proofs will hold on ARM multiprocessor hardware.  The project will remove previously limiting assumptions such as sequential consistency and no sharing of page tables. These will be the first correctness proofs of system software that are verified to hold on a realistic multiprocessor hardware model.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/08/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>06/08/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2124080</AwardID>
+<Investigator>
+<FirstName>Jason</FirstName>
+<LastName>Nieh</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jason Nieh</PI_FULL_NAME>
+<EmailAddress>nieh@cs.columbia.edu</EmailAddress>
+<PI_PHON>2129397160</PI_PHON>
+<NSF_ID>000304769</NSF_ID>
+<StartDate>06/08/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Ronghui</FirstName>
+<LastName>Gu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ronghui Gu</PI_FULL_NAME>
+<EmailAddress>ronghui.gu@columbia.edu</EmailAddress>
+<PI_PHON>2034302840</PI_PHON>
+<NSF_ID>000786097</NSF_ID>
+<StartDate>06/08/2021</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Columbia University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100276902</ZipCode>
+<PhoneNumber>2128546851</PhoneNumber>
+<StreetAddress>2960 Broadway</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049179401</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049179401</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Columbia University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100276623</ZipCode>
+<StreetAddress><![CDATA[500 West 120th Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>071Z</Code>
+<Text>FMitF-Formal Methods in the Field</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~750000</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Accelerating Cryptographic Protocols with Reconfigurable Hardware</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>497997.00</AwardTotalIntnAmount>
+<AwardAmount>497997</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jeremy Epstein</SignBlockName>
+<PO_EMAI>jepstein@nsf.gov</PO_EMAI>
+<PO_PHON>7032928338</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project is motivated by several observations. First, a number of cryptographic protocols have recently made the transition from pure theory to proof-of-concept instantiations. Second, in these instantiations, the remaining obstacles to genuine practicality seem amenable to hardware acceleration. An example is verifiable computation (one party is given assurance that another computed correctly); in this kind of protocol, computations are represented using a circuit formalism, and there are parallelizable cryptographic operations (modular exponentiation, etc.). Other protocols, including multi-party computation, functional encryption, etc., have analogous overheads.&lt;br/&gt;&lt;br/&gt;Given this motivation, the project explores the development, optimization, and application of hybrid software and hardware platforms for cryptographic protocols. The project is developing new techniques for parallelization on reconfigurable hardware, by drawing on integrated circuit design and testing methods; the project is also exploring hardware and software interfaces that enable efficient interaction between software and hardware accelerators. The methods include software and hardware design, implementation, modeling performance and costs, and rigorous experimental and empirical evaluation.&lt;br/&gt;&lt;br/&gt;Project results include a class of cryptographic protocols (verifiable computation, multi-party computation, functional encryption, etc.) suitable for practical use. The project's success thus makes a range of computing applications safer, including cloud computing and high assurance computing. Results are disseminated through peer-reviewed publications, and through code and experimental configurations released on a Web site.  The project includes undergraduate involvement in research.</AbstractNarration>
+<MinAmdLetterDate>08/13/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/13/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1423249</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Walfish</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael H Walfish</PI_FULL_NAME>
+<EmailAddress>mwalfish@gmail.com</EmailAddress>
+<PI_PHON>6172337067</PI_PHON>
+<NSF_ID>000653725</NSF_ID>
+<StartDate>08/13/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100036806</ZipCode>
+<StreetAddress><![CDATA[715 Broadway]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~497997</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>IMPACT AND INTELLECTUAL MERIT</strong></p> <p>This project tackled the problem of untrusted hardware. There were three thrusts.</p> <p><strong>Thrust 1: Malicious peripherals and Cinch</strong></p> <p><br /><span>Peripheral devices are now powerful and portable. For example, inexpensive "<span>USB</span> sticks" include a complete computer. This trend enables attackers to create malicious peripheral devices that look to the human user like an ordinary peripheral (as happened with the infamous <span>Stuxnet</span>).&nbsp; Another alarming possibility is that the malicious device pretends to be a keyboard, and then uses its keystroke-producing ability to install a virus or steal data from the main computer. Malicious peripherals can also eavesdrop on the communication between other devices and the main computer. Furthermore, these problems are going to get worse: on many portable computers, all ports, including the power port, are <span>USB</span>, which means that the aforementioned attacks can be carried out by a maliciously-manufactured power charger.</span></p> <p><br /><span>In response, this project proposed, designed, and implemented a system called Cinch. Cinch is a "<span>USB</span> firewall", running in software on the protected computer. Cinch leverages <span>virtualization</span> hardware, a capability of modern computers. Cinch <span>repurposes</span> this capability to place the untrusted physical hardware in a logically separate, untrusted machine, and then installs a "decontamination layer" between the untrusted machine and the protected one. This layer accepts or rejects interaction with physical devices, and enforces security policies that are easily configured and extended by users.</span></p> <p><br /><strong><span>Thrust 2: Untrusted supply chain and Verifiable <span>ASICs</span></span></strong></p> <p><br /><span>The power to determine the function of a microchip rests with its manufacturer, not its designer. Therefore, if the designer of an <span>ASIC</span> (a term that refers to a custom hardware microchip) wants high-assurance execution, it must control the manufacturing chain by using a trusted, on-shore foundry (the term for a microchip manufacturer). The trouble is semiconductor economics: leading-edge foundries, usually located off-shore, produce hardware that is orders of magnitude less expensive in performance and price, compared to what legacy foundries produce.</span></p> <p><br />In response, this project proposed an arrangement called Verifiable ASICs (see figure). The idea of Verifiable ASICs is to manufacture two chips, a fast one and a slow one. The fast one is manufactured in the untrusted foundry; the slow one is manufactured in a trusted foundry.&nbsp; Then, the two use <em>probabilistic proofs</em>, which is sophisticated theoretical machinery (the PI has refined this machinery in other NSF-funded projects). This machinery allows the fast chip to prove to the slow chip that it is executing correctly. Probabilistic proofs bring overhead for the prover in general, but in this setting that overhead is affordable because the fast chip is so much faster than the slow one.</p> <p><br /><span>This project built two Verifiable <span>ASICs</span> systems, called Zebra and Giraffe. Each was a milestone. Zebra was the first hardware design and implementation of a probabilistic proofs system. Zebra was also the first work to identify a setting in which one can simultaneously capture the cost of a prover and verifier together, and the first implementation for which that cost is sometimes less expensive than having the verifier compute on its own. Giraffe was the first probabilistic proofs system to pass a basic applicability test: namely, it is the first system for verifiable outsourcing in which the system is cheaper than simply not outsourcing.&nbsp; Giraffe also made the prover's work asymptotically optimal.</span></p> <p><br /><span>Follow-on work continued to advance the state of the art in probabilistic proofs. The <span>Hyrax</span> work, building on Giraffe, is also a milestone. It is the first <span>zkSNARK</span> (a technical term for a class of probabilistic proofs) that is efficient for the prover and verifier, and does not require a trusted entity. Furthermore, the interactive protocol from which it is derived achieved a new and better <span>tradeoff</span> among various costs and assumptions.</span></p> <p><br /><strong>Thrust 3: Verifying remote, untrusted storage&nbsp;</strong></p> <p><br />Users of remote databases, for example those provided as cloud services, have no visibility into those services' operation and implementation.&nbsp; This thrust demonstrated a way to give users assurance that the database is executing as it is supposed to. A key component of the approach is to use local, trusted hardware to accelerate the computationally-intensive task of verifying whether the remote service is executing according to its contract.</p> <p><br /><strong>DISSEMINATION AND EDUCATION</strong></p> <p><br /><span>The results of the project have been disseminated in competitive, peer-reviewed venues; in nearly all cases, source code is available <span>online</span>. The project has provided crucial research training to a number of graduate students. The project has also funded participation of two undergraduates, who have co-authored some of the publications produced by the project. </span></p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/14/2020<br>      Modified by: Michael&nbsp;H&nbsp;Walfish</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/1423249/1423249_10331823_1592157138512_fig-setup--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1423249/1423249_10331823_1592157138512_fig-setup--rgov-800width.jpg" title="Verifiable ASICs"><img src="/por/images/Reports/POR/2020/1423249/1423249_10331823_1592157138512_fig-setup--rgov-66x44.jpg" alt="Verifiable ASICs"></a> <div class="imageCaptionContainer"> <div class="imageCaption">A principal outsources the production of an ASIC (P) to an untrusted foundry and gains high-assurance execution via a trusted verifier (V) and a probabilistic proof protocol.</div> <div class="imageCredit">Wahby et al., "Verifiable ASICs", IEEE Symposium on Security and Privacy (aka "Oakland"), May 2016.</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Michael&nbsp;H&nbsp;Walfish</div> <div class="imageTitle">Verifiable ASICs</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ IMPACT AND INTELLECTUAL MERIT  This project tackled the problem of untrusted hardware. There were three thrusts.  Thrust 1: Malicious peripherals and Cinch   Peripheral devices are now powerful and portable. For example, inexpensive "USB sticks" include a complete computer. This trend enables attackers to create malicious peripheral devices that look to the human user like an ordinary peripheral (as happened with the infamous Stuxnet).  Another alarming possibility is that the malicious device pretends to be a keyboard, and then uses its keystroke-producing ability to install a virus or steal data from the main computer. Malicious peripherals can also eavesdrop on the communication between other devices and the main computer. Furthermore, these problems are going to get worse: on many portable computers, all ports, including the power port, are USB, which means that the aforementioned attacks can be carried out by a maliciously-manufactured power charger.   In response, this project proposed, designed, and implemented a system called Cinch. Cinch is a "USB firewall", running in software on the protected computer. Cinch leverages virtualization hardware, a capability of modern computers. Cinch repurposes this capability to place the untrusted physical hardware in a logically separate, untrusted machine, and then installs a "decontamination layer" between the untrusted machine and the protected one. This layer accepts or rejects interaction with physical devices, and enforces security policies that are easily configured and extended by users.   Thrust 2: Untrusted supply chain and Verifiable ASICs   The power to determine the function of a microchip rests with its manufacturer, not its designer. Therefore, if the designer of an ASIC (a term that refers to a custom hardware microchip) wants high-assurance execution, it must control the manufacturing chain by using a trusted, on-shore foundry (the term for a microchip manufacturer). The trouble is semiconductor economics: leading-edge foundries, usually located off-shore, produce hardware that is orders of magnitude less expensive in performance and price, compared to what legacy foundries produce.   In response, this project proposed an arrangement called Verifiable ASICs (see figure). The idea of Verifiable ASICs is to manufacture two chips, a fast one and a slow one. The fast one is manufactured in the untrusted foundry; the slow one is manufactured in a trusted foundry.  Then, the two use probabilistic proofs, which is sophisticated theoretical machinery (the PI has refined this machinery in other NSF-funded projects). This machinery allows the fast chip to prove to the slow chip that it is executing correctly. Probabilistic proofs bring overhead for the prover in general, but in this setting that overhead is affordable because the fast chip is so much faster than the slow one.   This project built two Verifiable ASICs systems, called Zebra and Giraffe. Each was a milestone. Zebra was the first hardware design and implementation of a probabilistic proofs system. Zebra was also the first work to identify a setting in which one can simultaneously capture the cost of a prover and verifier together, and the first implementation for which that cost is sometimes less expensive than having the verifier compute on its own. Giraffe was the first probabilistic proofs system to pass a basic applicability test: namely, it is the first system for verifiable outsourcing in which the system is cheaper than simply not outsourcing.  Giraffe also made the prover's work asymptotically optimal.   Follow-on work continued to advance the state of the art in probabilistic proofs. The Hyrax work, building on Giraffe, is also a milestone. It is the first zkSNARK (a technical term for a class of probabilistic proofs) that is efficient for the prover and verifier, and does not require a trusted entity. Furthermore, the interactive protocol from which it is derived achieved a new and better tradeoff among various costs and assumptions.   Thrust 3: Verifying remote, untrusted storage    Users of remote databases, for example those provided as cloud services, have no visibility into those services' operation and implementation.  This thrust demonstrated a way to give users assurance that the database is executing as it is supposed to. A key component of the approach is to use local, trusted hardware to accelerate the computationally-intensive task of verifying whether the remote service is executing according to its contract.   DISSEMINATION AND EDUCATION   The results of the project have been disseminated in competitive, peer-reviewed venues; in nearly all cases, source code is available online. The project has provided crucial research training to a number of graduate students. The project has also funded participation of two undergraduates, who have co-authored some of the publications produced by the project.                 Last Modified: 06/14/2020       Submitted by: Michael H Walfish]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

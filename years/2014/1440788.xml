@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SI2-SSE: Enhancement and Support of DMTCP for Adaptive, Extensible Checkpoint-Restart</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>499167.00</AwardTotalIntnAmount>
+<AwardAmount>514427</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Alan Sussman</SignBlockName>
+<PO_EMAI>alasussm@nsf.gov</PO_EMAI>
+<PO_PHON>7032927563</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Society's increasingly complex cyberinfrastructure creates a concern for software robustness and reliability.  Yet, this same complex infrastructure is threatening the continued use of fault tolerance. Consider when a single application or hardware device crashes.  Today, in order to resume that application from the point where it crashed, one must also consider the complex subsystem to which it belongs. While in the past, many developers would write application-specific code to support fault tolerance for a single application, this strategy is no longer feasible when restarting the many inter-connected applications of a complex subsystem.  This project will support a plugin architecture for transparent checkpoint-restart.  Transparency implies that the software developer does not need to write any application-specific code. The plugin architecture implies that each software developer writes the necessary plugins only once.  Each plugin takes responsibility for resuming any interrupted sessions for just one particular component. At a higher level, the checkpoint-restart system employs an ensemble of autonomous plugins operating on all of the applications of a complex subsystem, without any need for application-specific code.&lt;br/&gt;&lt;br/&gt;The plugin architecture is part of a more general approach called process virtualization, in which all subsystems external to a process are virtualized.  It will be built on top of the DMTCP checkpoint-restart system.  One simple example of process virtualization is virtualization of ids.  A plugin maintains a virtualization table and arranges for the application code of the process to see only virtual ids, while the outside world sees the real id.  Any system calls and library calls using this real id are extended to translate between real and virtual id. On restart, the real ids are updated with the latest value, and the process memory remains unmodified, since it contains only virtual ids. Other techniques employing process virtualization include shadow device drivers, record-replay logs, and protocol virtualization.  Some targets of the research include transparent checkpoint-restart support for the InfiniBand network, for programmable GPUs (including shaders), for networks of virtual machines, for big data systems such as Hadoop, and for mobile computing platforms such as Android.</AbstractNarration>
+<MinAmdLetterDate>08/08/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>11/17/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1440788</AwardID>
+<Investigator>
+<FirstName>Gene</FirstName>
+<LastName>Cooperman</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gene Cooperman</PI_FULL_NAME>
+<EmailAddress>gene@ccs.neu.edu</EmailAddress>
+<PI_PHON>6173738686</PI_PHON>
+<NSF_ID>000191040</NSF_ID>
+<StartDate>08/08/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Northeastern University</Name>
+<CityName>BOSTON</CityName>
+<ZipCode>021155005</ZipCode>
+<PhoneNumber>6173733004</PhoneNumber>
+<StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+<StreetAddress2><![CDATA[177-500]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001423631</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTHEASTERN UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001423631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Northeastern University]]></Name>
+<CityName>Boston</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021155005</ZipCode>
+<StreetAddress><![CDATA[360 Huntington Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>2878</Code>
+<Text>Special Projects - CCF</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>2878</Code>
+<Text>SPECIAL PROJECTS - CCF</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8005</Code>
+<Text>Scientific Software Elements</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~499167</FUND_OBLG>
+<FUND_OBLG>2015~15260</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of the project is to demonstrate scalable transparent  checkpoint-restart for a variety of configurations.&nbsp; Transparency is  important because it implies that the end user does not need to modify  their application executable, or any system libraries or other code.&nbsp;  Thus, it makes fault tolerance more easily accessible to scientists and engineers.</p> <p>Scalable checkpoint-restart capability was extended to  support the common MPI implementations, the InfiniBand network, CUDA  for NVIDIA GPU computing, and common resource managers such as Slurm.&nbsp;  More importantly, a sophisticated plugin system based on the concept of  process virtualization has been developed, in order to extend and adapt  the checkpointing capability in order to coexist with additional  external subsystems (database servers, license servers, specialized  hardware devices, newer types of networks, and so on).</p> <p>The work is based on a free and open-source software platform for  research and production:&nbsp; DMTCP (Distributed MultiThreaded  CheckPointing; http://dmtcp.sourceforge.net).&nbsp; More than 100&nbsp;refereed  publications are listed at the DMTCP site, in which the authors use  DMTCP intrinsically in their own work.&nbsp; During the project period,  version&nbsp;2.5.2 of DMTCP was released.&nbsp; Additionally, a future major  version upgrade (DMTCP version&nbsp;3.0) is to be found at  https://github.com/dmtcp/dmtcp as the master branch.</p> <p>Among the important outcomes, transparent checkpointing at the  petascale level was demonstrate4d for HPCG over 32,752&nbsp;CPU cores and  NAMD over 16,368 CPU cores on the Stampede supercomputer at TACC.&nbsp;&nbsp; In the  largest case, a 38&nbsp;terabyte checkpoint image was generated in 11&nbsp;minutes  using the Stampede Lustre filesystem.&nbsp; This demonstrates the  practicality and generality of scalable, transparent checkpointing as scientists  and engineers move from petascale computing toward exascale computing.</p> <p>In addition to the plugin software for process virtualization, there are other specific software packages arising from this project.&nbsp; Two are the CRUM extension to DMTCP for checkpointing hybrid MPI/CUDA applications using NVIDIA GPUs, and a configuration of DMTCP for use in Slurm.&nbsp; Finally, the CRUM research project has demonstrated the benefits of a proxy-based approach to isolate application code (to be checkpointed) from system resources (which need never be checkpointed).&nbsp; It is expected that this approach will be refined and extended to other architecture platforms besides GPUs in the future.</p> <p>The intellectual merit of this project lies in the ability to adapt checkpointing in a world where computer architectures are changing fast.&nbsp; Examples of fast-changing architectures are newer NVIDIA GPUs as accelerators for large-scale computation, newer RDMA networks (e.g., tag-based extensions to standard InfiniBand, and a proliferation of other RDMA networks), many-core CPUs, and the growth of data-centric architectures.&nbsp; The plugin approach to process virtualization in this project has made advances in each of these areas.</p> <p>The broader impact lies in the needs of society as its cyberinfrastructure becomes more complex.&nbsp; Connected software systems with multiple subsytems are becoming ever more common.&nbsp; Platforms now include the Internet of Things (IoT), newer cloud infrastructures, and extensions to traditional resource managers for high performance computing.&nbsp; The process virtualization model of this project enables end users to add robustness and reliability to their software through user-defined plugins that interact with the external world.</p><br> <p>            Last Modified: 12/20/2018<br>      Modified by: Gene&nbsp;Cooperman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of the project is to demonstrate scalable transparent  checkpoint-restart for a variety of configurations.  Transparency is  important because it implies that the end user does not need to modify  their application executable, or any system libraries or other code.   Thus, it makes fault tolerance more easily accessible to scientists and engineers.  Scalable checkpoint-restart capability was extended to  support the common MPI implementations, the InfiniBand network, CUDA  for NVIDIA GPU computing, and common resource managers such as Slurm.   More importantly, a sophisticated plugin system based on the concept of  process virtualization has been developed, in order to extend and adapt  the checkpointing capability in order to coexist with additional  external subsystems (database servers, license servers, specialized  hardware devices, newer types of networks, and so on).  The work is based on a free and open-source software platform for  research and production:  DMTCP (Distributed MultiThreaded  CheckPointing; http://dmtcp.sourceforge.net).  More than 100 refereed  publications are listed at the DMTCP site, in which the authors use  DMTCP intrinsically in their own work.  During the project period,  version 2.5.2 of DMTCP was released.  Additionally, a future major  version upgrade (DMTCP version 3.0) is to be found at  https://github.com/dmtcp/dmtcp as the master branch.  Among the important outcomes, transparent checkpointing at the  petascale level was demonstrate4d for HPCG over 32,752 CPU cores and  NAMD over 16,368 CPU cores on the Stampede supercomputer at TACC.   In the  largest case, a 38 terabyte checkpoint image was generated in 11 minutes  using the Stampede Lustre filesystem.  This demonstrates the  practicality and generality of scalable, transparent checkpointing as scientists  and engineers move from petascale computing toward exascale computing.  In addition to the plugin software for process virtualization, there are other specific software packages arising from this project.  Two are the CRUM extension to DMTCP for checkpointing hybrid MPI/CUDA applications using NVIDIA GPUs, and a configuration of DMTCP for use in Slurm.  Finally, the CRUM research project has demonstrated the benefits of a proxy-based approach to isolate application code (to be checkpointed) from system resources (which need never be checkpointed).  It is expected that this approach will be refined and extended to other architecture platforms besides GPUs in the future.  The intellectual merit of this project lies in the ability to adapt checkpointing in a world where computer architectures are changing fast.  Examples of fast-changing architectures are newer NVIDIA GPUs as accelerators for large-scale computation, newer RDMA networks (e.g., tag-based extensions to standard InfiniBand, and a proliferation of other RDMA networks), many-core CPUs, and the growth of data-centric architectures.  The plugin approach to process virtualization in this project has made advances in each of these areas.  The broader impact lies in the needs of society as its cyberinfrastructure becomes more complex.  Connected software systems with multiple subsytems are becoming ever more common.  Platforms now include the Internet of Things (IoT), newer cloud infrastructures, and extensions to traditional resource managers for high performance computing.  The process virtualization model of this project enables end users to add robustness and reliability to their software through user-defined plugins that interact with the external world.       Last Modified: 12/20/2018       Submitted by: Gene Cooperman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

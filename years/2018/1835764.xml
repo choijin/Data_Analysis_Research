@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Framework: Software: NSCI: Collaborative Research: Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>11/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>10/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>2850000.00</AwardTotalIntnAmount>
+<AwardAmount>2866000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Seung-Jong Park</SignBlockName>
+<PO_EMAI>spark@nsf.gov</PO_EMAI>
+<PO_PHON>7032924383</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern high performance computing (HPC) applications generate massive amounts of data. However, the performance improvement of disk based storage systems has been much slower than that of memory, creating a significant Input/Output (I/O) performance gap. To reduce the performance gap, storage subsystems are under extensive changes, adopting new technologies and adding more layers into the memory/storage hierarchy. With a deeper memory hierarchy, the data movement complexity of memory systems is increased significantly, making it harder to utilize the potential of the deep memory and storage hierarchy (DMSH) design. As we move towards the exascale era, I/O bottleneck is a must to solve performance bottleneck facing the HPC community. DMSHs with multiple levels of memory/storage layers offer a feasible solution but are very complex to use  effectively. Ideally, the presence of multiple layers of storage should be transparent to applications without having to sacrifice I/O performance. There is a need  to enhance and extend current software systems to support data access and movement transparently and effectively under DMSHs. Hierarchical Data Format (HDF) technologies are a set of current I/O solutions addressing the problems in organizing, accessing, analyzing, and preserving data. HDF5 library is widely popular within the scientific community. Among the high level I/O libraries used in DOE labs, HDF5 is the undeniable leader with 99% of the share. HDF5 addresses the I/O bottleneck by hiding the complexity of performing coordinated I/O to single, shared files, and by encapsulating general purpose optimizations. While HDF technologies, like other existing I/O middleware, are not designed to support DMSHs, its wide popularity and its middleware nature make HDF5 an ideal candidate to enable, manage, and supervise I/O buffering under DMSHs. This project proposes the development of Hermes, a heterogeneous aware, multi tiered, dynamic, and distributed I/O buffering system that will significantly accelerate I/O performance. &lt;br/&gt;&lt;br/&gt;This project  proposes to extend HDF technologies with the Hermes design. Hermes is new,  and the enhancement of HDF5 is new. The deliveries of this research include an enhanced HDF5 library, a set of extended HDF technologies, and a group of general I/O buffering and memory system optimization mechanisms and methods. We believe that the combination of DMSH I/O buffering and HDF technologies is a reachable practical solution that can efficiently support scientific discovery. Hermes will advance HDF5 core technology by developing new buffering algorithms and mechanisms to support 1) vertical and horizontal buffering in DMSHs: here vertical means access data to/from different levels locally and horizontal means spread/gather data across remote compute nodes; 2) selective buffering via HDF5: here selective means some memory layer, e.g. NVMe, only for selected data; 3) dynamic buffering via online system profiling: the buffering schema can be changed dynamically based on messaging traffic; 4) adaptive buffering via Reinforcement Learning: by learning the application's access pattern, we can adapt prefetching algorithms and cache replacement policies at runtime. The development Hermes will be translated into high quality dependable software and will be released with the core HDF5 library.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>09/12/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>02/04/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1835764</AwardID>
+<Investigator>
+<FirstName>Xian-He</FirstName>
+<LastName>Sun</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Xian-He Sun</PI_FULL_NAME>
+<EmailAddress>sun@iit.edu</EmailAddress>
+<PI_PHON>3125675260</PI_PHON>
+<NSF_ID>000318956</NSF_ID>
+<StartDate>09/12/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Gerd</FirstName>
+<LastName>Heber</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gerd Heber</PI_FULL_NAME>
+<EmailAddress>gheber@hdfgroup.org</EmailAddress>
+<PI_PHON>4759994373</PI_PHON>
+<NSF_ID>000593356</NSF_ID>
+<StartDate>02/04/2021</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Ann</FirstName>
+<LastName>Johnson</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ann Johnson</PI_FULL_NAME>
+<EmailAddress>ann.johnson@hdfgroup.org</EmailAddress>
+<PI_PHON>4084318707</PI_PHON>
+<NSF_ID>000776669</NSF_ID>
+<StartDate>09/12/2018</StartDate>
+<EndDate>11/20/2018</EndDate>
+<RoleCode>Former Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Elena</FirstName>
+<LastName>Pourmal</LastName>
+<PI_MID_INIT>I</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Elena I Pourmal</PI_FULL_NAME>
+<EmailAddress>epourmal@hdfgroup.org</EmailAddress>
+<PI_PHON>2175316112</PI_PHON>
+<NSF_ID>000792264</NSF_ID>
+<StartDate>11/20/2018</StartDate>
+<EndDate>02/04/2021</EndDate>
+<RoleCode>Former Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Illinois Institute of Technology</Name>
+<CityName>Chicago</CityName>
+<CountyName>COOK</CountyName>
+<ZipCode>606163717</ZipCode>
+<PhoneNumber>3125673035</PhoneNumber>
+<StreetAddress>10 West 35th Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 7D71]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042084434</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>ILLINOIS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042084434</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Illinois Institute of Technology]]></Name>
+<CityName>Chicago</CityName>
+<CountyName>COOK</CountyName>
+<StateCode>IL</StateCode>
+<ZipCode>606163717</ZipCode>
+<StreetAddress><![CDATA[Department of Computer Science,]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>077Z</Code>
+<Text>CSSI-1: Cyberinfr for Sustained Scientif</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7925</Code>
+<Text>LARGE PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~2850000</FUND_OBLG>
+<FUND_OBLG>2020~16000</FUND_OBLG>
+</Award>
+</rootTag>

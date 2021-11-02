@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CPS:  Breakthrough:  Cyber-Physical System Securitization by Responsibility Analysis</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Corman</SignBlockName>
+<PO_EMAI>dcorman@nsf.gov</PO_EMAI>
+<PO_PHON>7032928754</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Programs describe successions of actions to be performed by computers. Unfortunately programmers make errors which are exploited by attackers to divert program actions from their goals. Accordingly, program actions must be checked to be always safe and secure.  Program security starts with the definition of which actions might be insecure and when they are bad. Insecure actions cannot be always forbidden as for safety.  This project formalizes the concept of responsibility analysis.  Responsibility analysis aims at determining automatically which program entities cause bad insecure actions to happen.  This is possible by examining the program text only, because this text precisely describes all possible actions that can happen when later running a program. &lt;br/&gt;&lt;br/&gt;Based on an operational semantics of programs, the project formally defines semantic responsibility as the most precise way of locating the possible origin of bad actions.  A sound static responsibility analysis will be designed by abstract interpretation of this operational semantics, on top of traditional safety analyses of C programs.  A prototype static responsibility analyzer will be built to check for the security of cyber-physical systems (given bad actions and a security policy).  The result of the analysis will be used to check that all entities responsible for bad actions are duly authorized (or the security policy is wrong).  This tool will help programmers to soundly cure potential vulnerabilities at program design time as opposed to present-day post-mortem remedies after those attacks on programs that get detected.  This would be a breakthrough at the confluence of cyber security, privacy, and cyber-physical systems.</AbstractNarration>
+<MinAmdLetterDate>09/09/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>09/09/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1446511</AwardID>
+<Investigator>
+<FirstName>Patrick</FirstName>
+<LastName>Cousot</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Patrick Cousot</PI_FULL_NAME>
+<EmailAddress>pcousot@cs.nyu.edu</EmailAddress>
+<PI_PHON>2129982121</PI_PHON>
+<NSF_ID>000504419</NSF_ID>
+<StartDate>09/09/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100121110</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1640</Code>
+<Text>Information Technology Researc</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8234</Code>
+<Text>CPS-Breakthrough</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Responsibility is the&nbsp;state&nbsp;or fact of being&nbsp;accountable&nbsp;or to blame for something. Responsibility analysis is a static analysis able to infer which program actions are responsible for given program behaviors. Program behaviors can be bad (like dividing by zero) or good (like correctly answering a question). In general, the programs behaviors of interest are depending on what the program is supposed to do, or not, and so must be specified by the programmer. Program actions are instructions, procedure/library calls, inputs, etc. Static analysis means automatically determining from the program text, and without running the program, which actions are responsible for a specific behavior during program executions.</p> <p>The language semantics formalizes the executions of programs in the language. We choose a trace semantics meaning that an execution is a finite or infinite sequence of actions.</p> <p>It is well-known in everyday life that responsibility for a behavior depends on what is known about who does what. And two observers with different knowledges about what happened may conclude at different responsibilities. This explains the notion of cognizance: what is known about program executions. An omniscient observer knows exactly the semantics. For example, if a password is entered during a program execution, this password will be known to the omniscient observer. However, in general an observer has a restricted cognizance about the program semantics. For example, an attacker may not know the password, but is able to observe whether it failed or not.</p> <p>To perform a responsibility analysis, one must first define what responsibility means exactly. Many existing definitions are inadequate because they are based on a model of what happed that can be changed, whereas the semantics of a programming language is fixed. Second, the temporal ordering of actions must be taken into account. The responsibility entity must be able to make choices. For example, a purely mechanical car is not responsible for an accident. It is either the driver, the owner or the car mechanic that did not do the necessary repairs, or the car manufacturer who designed the car with flaws. All had the choice to make their job correctly, and the first who failed in this list will be held responsible. These considerations and the study of numerous examples, lead to the following informal definition of responsibility</p> <p>``To the cognizance of an observer, an action a<sub>R</sub> is responsible for the behavior B of interest in a given program execution, if and only if, according to the observer&rsquo;s observation, a<sub>R</sub> is free to make choices that may lead to B or not, and such a choice is the first one that guarantees the occurrence of B in that execution."</p> <p>This is for one execution. Since programs have many possible executions, different actions a<sub>R</sub> may be held responsible for B on different executions.</p> <p>Once this definition was understood, a next task was to express this definition formally based on the program trace semantics. The theory of abstract interpretation was adequate for this since given behaviors B of interest and a cognizance, responsibility is an abstraction of the semantics i.e. knowing who is responsible for what provides information about what happened (the semantics) but not necessarily all details, which means that responsibility abstracts away the semantics. The theory of abstract interpretation formalizes this idea, in particular to design sound abstract semantics and static analyses.</p> <p>Then a static analysis of responsibility was designed. Responsibility is undecidable (no program can always correctly determine the responsibilities for programs in finite time). So, a static analysis is necessarily approximate. It will determine a set of potentially responsible actions. The ones not in the set are definitely not responsible. The responsible actions are definitely in the set. An automatic tool necessarily has uncertainties on the possible program behaviors that may lead to designate as potentially responsible, actions that are not responsible when exactly considering what happens at execution (which is impossible automatically by undecidability). So undecidability is taken into account in static analysis required to be correct and finite by allowing answers to be sound but maybe imprecise.</p> <p>The analysis is a combination of under- and over-approximating of forward and backward analyses. Under-approximating analyses consider a subset of program behaviors (to eliminate impossible behaviors), over-approximating analyses consider a superset of program behaviors (to account for all behaviors and maybe more). Forward analyses follow program executions from present to future whereas backward analyses go back in time, from present to past. as described by the program text.</p> <p>In conclusion this project has delivered a formal definition of responsibility applicable to computer programs and systems, as well as a formal specification, proved correct, of an automatic static analysis of responsibility.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/01/2020<br>      Modified by: Patrick&nbsp;Cousot</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Responsibility is the state or fact of being accountable or to blame for something. Responsibility analysis is a static analysis able to infer which program actions are responsible for given program behaviors. Program behaviors can be bad (like dividing by zero) or good (like correctly answering a question). In general, the programs behaviors of interest are depending on what the program is supposed to do, or not, and so must be specified by the programmer. Program actions are instructions, procedure/library calls, inputs, etc. Static analysis means automatically determining from the program text, and without running the program, which actions are responsible for a specific behavior during program executions.  The language semantics formalizes the executions of programs in the language. We choose a trace semantics meaning that an execution is a finite or infinite sequence of actions.  It is well-known in everyday life that responsibility for a behavior depends on what is known about who does what. And two observers with different knowledges about what happened may conclude at different responsibilities. This explains the notion of cognizance: what is known about program executions. An omniscient observer knows exactly the semantics. For example, if a password is entered during a program execution, this password will be known to the omniscient observer. However, in general an observer has a restricted cognizance about the program semantics. For example, an attacker may not know the password, but is able to observe whether it failed or not.  To perform a responsibility analysis, one must first define what responsibility means exactly. Many existing definitions are inadequate because they are based on a model of what happed that can be changed, whereas the semantics of a programming language is fixed. Second, the temporal ordering of actions must be taken into account. The responsibility entity must be able to make choices. For example, a purely mechanical car is not responsible for an accident. It is either the driver, the owner or the car mechanic that did not do the necessary repairs, or the car manufacturer who designed the car with flaws. All had the choice to make their job correctly, and the first who failed in this list will be held responsible. These considerations and the study of numerous examples, lead to the following informal definition of responsibility  ``To the cognizance of an observer, an action aR is responsible for the behavior B of interest in a given program execution, if and only if, according to the observer’s observation, aR is free to make choices that may lead to B or not, and such a choice is the first one that guarantees the occurrence of B in that execution."  This is for one execution. Since programs have many possible executions, different actions aR may be held responsible for B on different executions.  Once this definition was understood, a next task was to express this definition formally based on the program trace semantics. The theory of abstract interpretation was adequate for this since given behaviors B of interest and a cognizance, responsibility is an abstraction of the semantics i.e. knowing who is responsible for what provides information about what happened (the semantics) but not necessarily all details, which means that responsibility abstracts away the semantics. The theory of abstract interpretation formalizes this idea, in particular to design sound abstract semantics and static analyses.  Then a static analysis of responsibility was designed. Responsibility is undecidable (no program can always correctly determine the responsibilities for programs in finite time). So, a static analysis is necessarily approximate. It will determine a set of potentially responsible actions. The ones not in the set are definitely not responsible. The responsible actions are definitely in the set. An automatic tool necessarily has uncertainties on the possible program behaviors that may lead to designate as potentially responsible, actions that are not responsible when exactly considering what happens at execution (which is impossible automatically by undecidability). So undecidability is taken into account in static analysis required to be correct and finite by allowing answers to be sound but maybe imprecise.  The analysis is a combination of under- and over-approximating of forward and backward analyses. Under-approximating analyses consider a subset of program behaviors (to eliminate impossible behaviors), over-approximating analyses consider a superset of program behaviors (to account for all behaviors and maybe more). Forward analyses follow program executions from present to future whereas backward analyses go back in time, from present to past. as described by the program text.  In conclusion this project has delivered a formal definition of responsibility applicable to computer programs and systems, as well as a formal specification, proved correct, of an automatic static analysis of responsibility.                Last Modified: 09/01/2020       Submitted by: Patrick Cousot]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

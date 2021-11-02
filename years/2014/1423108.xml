@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Efficient CPU-GPU Communication for Heterogeneous Architectures</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>498976.00</AwardTotalIntnAmount>
+<AwardAmount>498976</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sankar Basu</SignBlockName>
+<PO_EMAI>sabasu@nsf.gov</PO_EMAI>
+<PO_PHON>7032927843</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Future chip multiprocessors (CMPs) will have silicon space and technology to incorporate hundreds of cores. The trend is to integrate tens of cores and hardware accelerators (HAs), such as GPUs, on a single platform. The proposed heterogeneous architecture will enable future chips to operate within their power budgets while providing the high-throughput per Watt required for large scientific applications. Many of the top-500 supercomputers integrate thousands of CPUs with GPU accelerators to achieve the desired throughput for scientific applications. Considerable effort, however, is needed to design efficient communication mechanisms between heterogeneous components in such a system. Currently, HAs are not fully integrated with the system architecture; offloading computation from the CPU to the HAs adds large communication overhead. This research project explores comprehensive solutions to this problem through many different techniques. The project has significant broader impact in terms of research publications, graduate student supervision, and minority education because UCR is a minority serving institution.&lt;br/&gt;&lt;br/&gt;This project will develop new CPU-GPU communication techniques through static programming and run-time optimization. It will develop a divisible load theory (DLT) technique to overlap communication with computation, and optimize the time and size of data transfer between the CPU and GPU. The research will also develop run-time techniques that can monitor the efficiency of execution and dynamically change the transfer parameters by considering the execution behaviors of different applications. Architectural changes are to be incorporated in the GPU to initiate data transfers based on task execution inside the GPU. Design of the shared virtual memory (SVM) architecture is to be developed, where the accelerator and system memories share a single virtual address space; and CPUs and HAs in the system will communicate through the SVM. The hardware controllers, memory management unit (MMU), GPU cache memory architectures, cache coherence protocols, and other interfaces between the GPU and CPU cores will also be designed. The project proposes suitable hybrid cache coherence protocols and efficient interconnection networks for scalable system design. Finally, run-time system and software interfaces will be developed that can execute multiple multithreaded applications on a heterogeneous multicore architecture.</AbstractNarration>
+<MinAmdLetterDate>06/18/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/18/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1423108</AwardID>
+<Investigator>
+<FirstName>Laxmi</FirstName>
+<LastName>Bhuyan</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Laxmi N Bhuyan</PI_FULL_NAME>
+<EmailAddress>bhuyan@cs.ucr.edu</EmailAddress>
+<PI_PHON>9518272281</PI_PHON>
+<NSF_ID>000318919</NSF_ID>
+<StartDate>06/18/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName>Riverside</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress><![CDATA[Department of CSE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~498976</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>Intellectual Merit: </strong>The current trend in high performance computing is to integrate hundreds of cores and hardware accelerators (HAs), such as GPUs, on a single platform. This heterogeneous architecture will enable future chips to operate within their power budgets while providing the high throughput per Watt required for various applications. Considerable effort, however, is needed to design efficient GPU algorithms and communication mechanisms between heterogeneous components in such a system. Currently, offloading data from the CPU to the HAs and sending them back to CPUs add large communication overhead. In this project, we thoroughly analyze the bottlenecks for data transfer over PCI bus transfer and develop new software techniques to overlap CPU-GPU communication with GPU execution through multi-streaming optimizations. We also present a complete execution framework, CuMAS, to enable ?data transfer aware? sharing of GPUs across multiple CUDA applications by designing novel host side CUDA task scheduler and a corresponding runtime, to capture multiple CUDA calls and re-order them for improved overall system utilization. Apart from communication bottleneck, there is a lack of fast algorithms for various irregular applications, which cannot be efficiently executed by SIMD machines. The project developed efficient graph processing algorithms for both for single and multiple GPUs and developed suitable techniques for data transfers between GPUs. Finally, a major effort was devoted to developing algorithms and runtime techniques for reducing power consumption in various scientific applications without much degradation in performance. Techniques, such as DVFS, undervolting and overclocking, were employed to to reduce both the static and dynamic power consumption. &nbsp;All the techniques, developed in this project, have been published in high quality conferences, such as PACT, HPDC, MICRO, ICS, and Supercomputing over the last few years.&nbsp;</p> <p><strong>Broader Impact:</strong> The project has significant broader impact in terms of research publications, and graduate student supervision. Several Ph.D. students have graduated under the project and joined US computer industries designing high-performance computers and applications for future. One female graduate student was supported under this project and is continuing her Ph.D. thesis. Two undergraduate students worked on the project and one of them published a paper as a joint author.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/25/2019<br>      Modified by: Laxmi&nbsp;N&nbsp;Bhuyan</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual Merit: The current trend in high performance computing is to integrate hundreds of cores and hardware accelerators (HAs), such as GPUs, on a single platform. This heterogeneous architecture will enable future chips to operate within their power budgets while providing the high throughput per Watt required for various applications. Considerable effort, however, is needed to design efficient GPU algorithms and communication mechanisms between heterogeneous components in such a system. Currently, offloading data from the CPU to the HAs and sending them back to CPUs add large communication overhead. In this project, we thoroughly analyze the bottlenecks for data transfer over PCI bus transfer and develop new software techniques to overlap CPU-GPU communication with GPU execution through multi-streaming optimizations. We also present a complete execution framework, CuMAS, to enable ?data transfer aware? sharing of GPUs across multiple CUDA applications by designing novel host side CUDA task scheduler and a corresponding runtime, to capture multiple CUDA calls and re-order them for improved overall system utilization. Apart from communication bottleneck, there is a lack of fast algorithms for various irregular applications, which cannot be efficiently executed by SIMD machines. The project developed efficient graph processing algorithms for both for single and multiple GPUs and developed suitable techniques for data transfers between GPUs. Finally, a major effort was devoted to developing algorithms and runtime techniques for reducing power consumption in various scientific applications without much degradation in performance. Techniques, such as DVFS, undervolting and overclocking, were employed to to reduce both the static and dynamic power consumption.  All the techniques, developed in this project, have been published in high quality conferences, such as PACT, HPDC, MICRO, ICS, and Supercomputing over the last few years.   Broader Impact: The project has significant broader impact in terms of research publications, and graduate student supervision. Several Ph.D. students have graduated under the project and joined US computer industries designing high-performance computers and applications for future. One female graduate student was supported under this project and is continuing her Ph.D. thesis. Two undergraduate students worked on the project and one of them published a paper as a joint author.          Last Modified: 09/25/2019       Submitted by: Laxmi N Bhuyan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

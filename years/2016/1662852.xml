@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Radiotherapy Planning for Organ Motion Management</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/15/2017</AwardEffectiveDate>
+<AwardExpirationDate>04/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>62357.00</AwardTotalIntnAmount>
+<AwardAmount>62357</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07030000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CMMI</Abbreviation>
+<LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Georgia-Ann Klutke</SignBlockName>
+<PO_EMAI>gaklutke@nsf.gov</PO_EMAI>
+<PO_PHON>7032922443</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Radiotherapy is one of the most effective and commonly used modalities for cancer treatment. Radiotherapy uses high-energy radiation to eradicate cancer cells while sparing the surrounding normal tissue as much as possible. However, if unaccounted for, internal organ motion during radiation delivery may lead to underdosing of cancer cells or overdosing of normal tissue. Organ motion is of particular concern in the treatment of lung and abdominal cancers, where breathing induces large tumor displacement and organ deformation. A recent technological innovation is a new generation of radiotherapy systems equipped with on-board magnetic resonance imaging (MRI) scanners providing a real-time high-contrast movie of the patient's anatomy during radiation delivery. This research will develop the methods to enable use of real-time imaging to control the progress of radiation delivery in order to correct for any dose discrepancy, thus allowing treatment plans to actively adjust to anatomical changes.  If successful, the research will provide clinicians with real-time organ-motion management tools that have the potential to improve the delivery efficiency and radiation dose conformity for MRI-guided radiotherapy, leading to higher rates of disease control and fewer side effects for cancer patients, thus improving their quality of life after treatment.  The project will provide support for a graduate student who will benefit from the multi-disciplinary research environment.&lt;br/&gt;&lt;br/&gt;This research employs medical-image processing techniques to infer the time-dependent state of the patient's anatomy from the stream of MRI sequences and to estimate the cumulative delivered dose in real-time. Using the inferred anatomical information, a stochastic model will be developed to project the immediate future trajectory of the anatomical motion. The cumulative dose estimation and the projected anatomical trajectory will be integrated as feedback and feed-forward control signals, respectively, into a stochastic control problem, which will be solved dynamically to (re)optimize the radiotherapy plan over the remainder of the treatment session. The control approach will be tested on clinical cancer patients previously treated with MRI-guided radiotherapy at a collaborating cancer center to quantify the anticipated improvement in plan quality and delivery efficiency. The project also provides a foundation from which to quantify the value of real-time MRI information.</AbstractNarration>
+<MinAmdLetterDate>05/08/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>05/08/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1662852</AwardID>
+<Investigator>
+<FirstName>Gregory</FirstName>
+<LastName>Sharp</LastName>
+<PI_MID_INIT>C</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gregory C Sharp</PI_FULL_NAME>
+<EmailAddress>gcsharp@partners.org</EmailAddress>
+<PI_PHON>6177242722</PI_PHON>
+<NSF_ID>000341199</NSF_ID>
+<StartDate>05/08/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts General Hospital</Name>
+<CityName>Somerville</CityName>
+<ZipCode>021451446</ZipCode>
+<PhoneNumber>8572821670</PhoneNumber>
+<StreetAddress>Research Management</StreetAddress>
+<StreetAddress2><![CDATA[399 Revolution Drive]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073130411</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS GENERAL HOSPITAL, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>825636988</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts General Hospital]]></Name>
+<CityName>Boston</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021142696</ZipCode>
+<StreetAddress><![CDATA[55 Fruit Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>006Y</Code>
+<Text>OE Operations Engineering</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>073E</Code>
+<Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8023</Code>
+<Text>Health Care Enterprise Systems</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~62357</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this project is to use optimization theory and feedback control to improve the safety and efficacy of radiation therapy (RT) to moving tumors.&nbsp; In this context, we refer to tumors within organs that move due to respiration, such as the lungs, liver, and other abdominal locations. An RT treatment takes several minutes to deliver, and respiratory motion complicates treatments.&nbsp; In current practice, the most common approaches to accomodate motion include increasing the treatment margin, forced breath-hold, voluntary breath-hold, abdominal compression, respiratory gated therapy, and beam tracking. Of these, beam tracking is the most complex; it allows continuous treatment while the beam follows the moving tumor. However, in none of the methods above, the deposited dose is dynamically monitored in real time, nor is there any self-correction mechanism to account for potential dose discrepancies.<br /><br />Recent advances in MRI-guided radiation therapy have enabled a new paradigm for daily adaptive RT.&nbsp; In addition, they support real-time, non-invasive tumor position monitoring.&nbsp; With this information, we investigate the concept of real-time treatment plan adaptation.&nbsp; Unlike existing methods, which either gate the beam or track the tumor position, we propose to continuously adapt the treatment in real-time.&nbsp; To achieve this, we have developed methods to estimate the mapping between real-time 2-D MRI images and an estimate of the 3-D model.&nbsp; Using this 3-D model, we estimate the dose already delivered, and then compute an optimal set of apertures to be used for the remainder of the treatment.&nbsp; The estimate of delivered dose using this method is more accurate than estimations based on static anatomy, and on-line adaptation can help improve an important quality metric: dose uniformity.<br /><br /><br /><br /></p><br> <p>            Last Modified: 11/11/2020<br>      Modified by: Gregory&nbsp;C&nbsp;Sharp</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this project is to use optimization theory and feedback control to improve the safety and efficacy of radiation therapy (RT) to moving tumors.  In this context, we refer to tumors within organs that move due to respiration, such as the lungs, liver, and other abdominal locations. An RT treatment takes several minutes to deliver, and respiratory motion complicates treatments.  In current practice, the most common approaches to accomodate motion include increasing the treatment margin, forced breath-hold, voluntary breath-hold, abdominal compression, respiratory gated therapy, and beam tracking. Of these, beam tracking is the most complex; it allows continuous treatment while the beam follows the moving tumor. However, in none of the methods above, the deposited dose is dynamically monitored in real time, nor is there any self-correction mechanism to account for potential dose discrepancies.  Recent advances in MRI-guided radiation therapy have enabled a new paradigm for daily adaptive RT.  In addition, they support real-time, non-invasive tumor position monitoring.  With this information, we investigate the concept of real-time treatment plan adaptation.  Unlike existing methods, which either gate the beam or track the tumor position, we propose to continuously adapt the treatment in real-time.  To achieve this, we have developed methods to estimate the mapping between real-time 2-D MRI images and an estimate of the 3-D model.  Using this 3-D model, we estimate the dose already delivered, and then compute an optimal set of apertures to be used for the remainder of the treatment.  The estimate of delivered dose using this method is more accurate than estimations based on static anatomy, and on-line adaptation can help improve an important quality metric: dose uniformity.           Last Modified: 11/11/2020       Submitted by: Gregory C Sharp]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

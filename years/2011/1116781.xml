@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Hardware-Software Co-Design for Next Generation Packet Forwarding Engines</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>399914.00</AwardTotalIntnAmount>
+<AwardAmount>399914</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The Internet backbone, including both core and edge routers, is becoming more flexible, scalable and programmable to enable future innovations in the next generation Internet. While the functionality of Internet routers evolves, the performance remains a major concern for real-life deployment. Traditionally, core routers have been designed using throughput as a key performance metric. While the throughput requirements continue to grow, peak power and total energy dissipated have emerged as additional critical considerations in the design of core routers as well as in other network equipment. Although ternary content addressable memories (TCAMs) have been widely used for packet forwarding, they have poor power performance. This work studies the use of low-power memory technology such as the static random access memory (SRAM) combined with field-programmable gate arrays (FPGAs) / application-specific integrated circuits (ASICs) to develop high-throughput and power-efficient solutions for various packet forwarding&lt;br/&gt;engines including IP lookup, router virtualization, packet classification and flexible flow processing (e.g., OpenFlow).  Packet forwarding engines in next generation routers and switches are designed using a hardware-software co-design framework. Based on this framework, novel architectures and algorithms are developed using power (including energy) as a key performance metric in addition to throughput. Specifically, to bridge the gap between software and hardware development, high-level power-performance models for hardware implementations of packet forwarding engines are developed and validated. These models facilitate design of various heuristics for power-efficient algorithms and architectures for virtualized IP lookup, multi-field packet classification and flexible flow processing. Instead of the highly popular TCAM based solutions, this work focuses on SRAM-based parallel and pipeline architectures. Novel techniques including partitioning, clock gating, power-aware data structure design and power-aware load balancing are studied to simultaneously increase throughput and reduce power and/or energy dissipation</AbstractNarration>
+<MinAmdLetterDate>06/30/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>06/30/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1116781</AwardID>
+<Investigator>
+<FirstName>Viktor</FirstName>
+<LastName>Prasanna</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Viktor K Prasanna</PI_FULL_NAME>
+<EmailAddress>prasanna@usc.edu</EmailAddress>
+<PI_PHON>2137404483</PI_PHON>
+<NSF_ID>000209825</NSF_ID>
+<StartDate>06/30/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Southern California</Name>
+<CityName>Los Angeles</CityName>
+<ZipCode>900890001</ZipCode>
+<PhoneNumber>2137407762</PhoneNumber>
+<StreetAddress>University Park</StreetAddress>
+<StreetAddress2><![CDATA[3720 S. Flower St.]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA37</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072933393</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF SOUTHERN CALIFORNIA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072933393</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Southern California]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900890001</ZipCode>
+<StreetAddress><![CDATA[University Park]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA37</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~399914</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>As the throughput requirements in the design of core routers and other network processing systems continue to grow, peak power and total energy dissipated have become critical performance metrics.</p> <p>The aim of this project was to investigate novel algorithms, data structures, and architectures that exploit the programmability feature of Field Programmable Gate Array (FPGA) technology for optimal power-performance tradeoffs. A hardware-software co-design framework to optimize packet forwarding engine designs in both algorithm (software) and architecture (hardware) was proposed. Based on the framework, high-throughput and power-efficient solutions for various packet forwarding engines including IP lookup, router virtualization, packet classification and flexible network flow processing were developed.</p> <p><strong>IP Lookup:</strong></p> <p>Data structure optimizations to minimize the power consumption of Static Random Access Memory (SRAM)-based IP lookup architectures were studied. Three different architectures including non-pipelined, simple pipelined and memory-balanced architectures were considered. A theoretical framework to determine the optimal strides for the well-known Multibit-trie algorithms deployed in current routers was developed. Experiments using real-life backbone routing tables showed that the selection of strides based on our framework achieved substantial reduction in power consumption.</p> <p><strong>Router Virtualization:</strong></p> <p>A memory-efficient solution to realize scalable router virtualization was developed. The address space allocation of provider edge networks was exploited to reduce the memory requirement of the router. This also improved the scalability of our virtualized router significantly. A shared trie data structure was used to guarantee traffic isolation which is a critical requirement for network virtualization. The experiments performed showed that our solution achieves up to 5X memory usage reduction compared to the state-of-the-art techniques for router virtualization.</p> <p><strong>Flexible Flow Processing:</strong></p> <p>An FPGA-based design for online statistical flow feature extraction was proposed. A dynamically configurable parameter to define the number of packets to be processed before reporting the feature values of the flow was incorporated into the design. An application specific data forwarding mechanism was developed to handle the potential data hazards in the pipelined architecture without stalling the pipeline. Our implementation on a state-of-the-art FPGA device achieved a throughput of 96 Gbps while supporting 64 K concurrent flows.</p> <p>The techniques developed in this project have a significant effect on the backbone of the Internet. Our techniques can be used by commercial vendors in diverse application areas to develop, optimize, synthesize and evaluate a large variety of applications using parallel and high-performance networking systems and hardware. Our development of power-aware architectures for networking applications enables the rapid increase in information capacity while meeting the demands of critical constraints such as energy and power.</p><br> <p>            Last Modified: 09/28/2015<br>      Modified by: Viktor&nbsp;K&nbsp;Prasanna</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ As the throughput requirements in the design of core routers and other network processing systems continue to grow, peak power and total energy dissipated have become critical performance metrics.  The aim of this project was to investigate novel algorithms, data structures, and architectures that exploit the programmability feature of Field Programmable Gate Array (FPGA) technology for optimal power-performance tradeoffs. A hardware-software co-design framework to optimize packet forwarding engine designs in both algorithm (software) and architecture (hardware) was proposed. Based on the framework, high-throughput and power-efficient solutions for various packet forwarding engines including IP lookup, router virtualization, packet classification and flexible network flow processing were developed.  IP Lookup:  Data structure optimizations to minimize the power consumption of Static Random Access Memory (SRAM)-based IP lookup architectures were studied. Three different architectures including non-pipelined, simple pipelined and memory-balanced architectures were considered. A theoretical framework to determine the optimal strides for the well-known Multibit-trie algorithms deployed in current routers was developed. Experiments using real-life backbone routing tables showed that the selection of strides based on our framework achieved substantial reduction in power consumption.  Router Virtualization:  A memory-efficient solution to realize scalable router virtualization was developed. The address space allocation of provider edge networks was exploited to reduce the memory requirement of the router. This also improved the scalability of our virtualized router significantly. A shared trie data structure was used to guarantee traffic isolation which is a critical requirement for network virtualization. The experiments performed showed that our solution achieves up to 5X memory usage reduction compared to the state-of-the-art techniques for router virtualization.  Flexible Flow Processing:  An FPGA-based design for online statistical flow feature extraction was proposed. A dynamically configurable parameter to define the number of packets to be processed before reporting the feature values of the flow was incorporated into the design. An application specific data forwarding mechanism was developed to handle the potential data hazards in the pipelined architecture without stalling the pipeline. Our implementation on a state-of-the-art FPGA device achieved a throughput of 96 Gbps while supporting 64 K concurrent flows.  The techniques developed in this project have a significant effect on the backbone of the Internet. Our techniques can be used by commercial vendors in diverse application areas to develop, optimize, synthesize and evaluate a large variety of applications using parallel and high-performance networking systems and hardware. Our development of power-aware architectures for networking applications enables the rapid increase in information capacity while meeting the demands of critical constraints such as energy and power.       Last Modified: 09/28/2015       Submitted by: Viktor K Prasanna]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

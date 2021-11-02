@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Nonlinear Preconditioning Techniques for Coupled Multi-physics Problems on Massively Parallel Computers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>264000.00</AwardTotalIntnAmount>
+<AwardAmount>270000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Junping Wang</SignBlockName>
+<PO_EMAI>jwang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924488</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Mature technologies are available for solving many types of single physics problems, but for coupled multi-physics problems, robust and scalable techniques are badly needed, especially for large scale parallel computers. The focus of the proposal is on some new domain decomposition based nonlinear preconditioning techniques for the numerical solution of some highly nonlinear, coupled systems of partial differential equations (PDEs) arising from multi-physics applications. These PDEs often represent multiple interacting fields (for example, fluid and solid), each is modeled by a certain type of equations. Current approaches usually involve a careful splitting of the fields and the use of field-by-field iterations to obtain a solution of the coupled problem. Such approaches have many advantages such as ease of implementation since only single field solvers are needed, but also exhibit disadvantages. For example, certain nonlinear interactions between the fields may not be fully captured, and for unsteady problems, stable time integration schemes are difficult to design. In addition, when implemented on large scale parallel computers, the sequential nature of the field-by-field iterations substantially reduces the parallel efficiency. To overcome the disadvantages, fully coupled approaches are investigated in order to obtain full physics simulations. The success of such a fully coupled approach depends almost entirely on a nonlinear algebraic system solver that is robust and scalable. Unfortunately, traditional nonlinear iterative methods do not work well, for example, Newton-like methods often converge very slowly because of the existence of local non-smooth components in the solution and the lack of good initial guess. The new algorithms are motivated by the nonlinear preconditioning methods recently introduced by the PI and his co-workers for solving algebraic nonlinear equations that have unbalanced nonlinearities. The scalability is obtained by incorporating the multigrid methods into the algorithms. Several important applications will be studied including the simulation of blood flows in compliant arteries using a coupled Navier-Stokes and elasticity equations.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>09/16/2009</MinAmdLetterDate>
+<MaxAmdLetterDate>08/26/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0913089</AwardID>
+<Investigator>
+<FirstName>Xiao-Chuan</FirstName>
+<LastName>Cai</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Xiao-Chuan Cai</PI_FULL_NAME>
+<EmailAddress>cai@cs.colorado.edu</EmailAddress>
+<PI_PHON>3034923746</PI_PHON>
+<NSF_ID>000162736</NSF_ID>
+<StartDate>09/16/2009</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Colorado at Boulder</Name>
+<CityName>Boulder</CityName>
+<ZipCode>803031058</ZipCode>
+<PhoneNumber>3034926221</PhoneNumber>
+<StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+<StreetAddress2><![CDATA[572 UCB]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CO02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>007431505</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF COLORADO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>007431505</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Colorado at Boulder]]></Name>
+<CityName>Boulder</CityName>
+<StateCode>CO</StateCode>
+<ZipCode>803031058</ZipCode>
+<StreetAddress><![CDATA[3100 Marine Street, Room 481]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CO02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0000099</Code>
+<Name>Other Applications NEC</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>0000</Code>
+<Text>UNASSIGNED</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>OTHR</Code>
+<Text>OTHER RESEARCH OR EDUCATION</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0109</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2009~264000</FUND_OBLG>
+<FUND_OBLG>2010~6000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The focus of the project was on the development of domain decomposition techniques for the numerical solution of some highly nonlinear, coupled systems of partial differential equations arising from multi-physics applications. These multiphysics problens often represent multiple interacting single-physic fields (for example, fluid and structure), each is modeled by a certain type of equations. Good algorithms and software packages are available for solving many single physics problems, but for coupled multi-physics problems, robust and scalable techniques are badly needed, especially for large scale parallel computers. In this project, we worked on several classes of nonlinear multi-physics problems including compressible and incompressible fluid flow problems, fluid-structure interaction problems, and transport problems governed by the Boltzmann's equations. Each set of equations is attached to a particular application. Domain decomposition based parallel algorithms were developed and tested for two- and three-dimensional problems. For some of the problems, we also extended the results to unstructured meshes. The algorithms and software developed in this project will have a great impact on many important application areas involving fluid flow simulations such as the simulation of blood flows in artery and the simulation of atmospheric flows. The work will also have substantial influence on other areas of computational science and engineering where large nonlinear equations need to be solved.</p><br> <p>            Last Modified: 12/17/2014<br>      Modified by: Xiao-Chuan&nbsp;Cai</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The focus of the project was on the development of domain decomposition techniques for the numerical solution of some highly nonlinear, coupled systems of partial differential equations arising from multi-physics applications. These multiphysics problens often represent multiple interacting single-physic fields (for example, fluid and structure), each is modeled by a certain type of equations. Good algorithms and software packages are available for solving many single physics problems, but for coupled multi-physics problems, robust and scalable techniques are badly needed, especially for large scale parallel computers. In this project, we worked on several classes of nonlinear multi-physics problems including compressible and incompressible fluid flow problems, fluid-structure interaction problems, and transport problems governed by the Boltzmann's equations. Each set of equations is attached to a particular application. Domain decomposition based parallel algorithms were developed and tested for two- and three-dimensional problems. For some of the problems, we also extended the results to unstructured meshes. The algorithms and software developed in this project will have a great impact on many important application areas involving fluid flow simulations such as the simulation of blood flows in artery and the simulation of atmospheric flows. The work will also have substantial influence on other areas of computational science and engineering where large nonlinear equations need to be solved.       Last Modified: 12/17/2014       Submitted by: Xiao-Chuan Cai]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

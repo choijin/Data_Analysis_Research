@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Elements: Advanced Lossless and Lossy Compression Algorithms for netCDF Datasets in Earth and Engineering Sciences (CANDEE)</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>599916.00</AwardTotalIntnAmount>
+<AwardAmount>599916</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Seung-Jong Park</SignBlockName>
+<PO_EMAI>spark@nsf.gov</PO_EMAI>
+<PO_PHON>7032924383</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Data compression is used to store and transmit digital data such as music, television, and satellite measurements more efficiently by reducing storage space and download times. The compression software broker that this project provides will facilitate the adoption of modern compression techniques in many branches of science. Compressors come in two flavors: lossless, those that perfectly preserve the original information; and lossy, those that irretrievably discard parts of the "signal" to further improve compression. Modern lossless and lossy compression improvements in efficiency, speed, and fidelity, are striking and will benefit critical research areas by permitting researchers to simulate, store, and analyze phenomena such as stellar evolution, chemical reactions, and hurricane formation at finer detail than before, with no extra storage costs. Since digital storage consumes power, better compression also reduces power consumption and associated greenhouse gas emissions. This project will develop the software infrastructure necessary for scientific researchers to seamlessly shift their applications to produce and use data stored with state-of-the-art lossless techniques, and by new lossy techniques that are more accurate than any others.&lt;br/&gt;&lt;br/&gt;The two most widely-used self-describing dataset storage formats, HDF5 and netCDF4, support by default only one patent unencumbered lossless compression format, the venerable DEFLATE algorithm standardized in the 1990s. Our project will develop a dynamic and extensible software library of modern COmpressors and DECompressors (codecs) for scientific data called the Community Codec Repository (CCR). We will populate the CCR with cutting-edge open-source compression technology, including the LZ4, Facebook's Zstandard, and Google's Snappy codecs, and will implement default netCDF support for the CCR. Sequential lossy-then-lossless compression improves both the size and speed of compression/decompression yet is currently tedious to perform. We will implement a user-friendly method to "chain" codecs into sequential operations in memory (no intermediate files required) in our widely used netCDF Operators software package. We will also produce a new precision-preserving lossy codec, Granular Bit Grooming, that has unsurpassed compression ratio and statistical accuracy. Technical success will be evaluated by the size and speed improvements of compressing a prototypical geoscience/engineering "big data" project, the Coupled Model Intercomparison Project version 6 (CMIP6).&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>04/09/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>04/09/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2004993</AwardID>
+<Investigator>
+<FirstName>Charles</FirstName>
+<LastName>Zender</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Charles S Zender</PI_FULL_NAME>
+<EmailAddress>zender@uci.edu</EmailAddress>
+<PI_PHON>9498912429</PI_PHON>
+<NSF_ID>000437893</NSF_ID>
+<StartDate>04/09/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Irvine</Name>
+<CityName>Irvine</CityName>
+<CountyName/>
+<ZipCode>926977600</ZipCode>
+<PhoneNumber>9498247295</PhoneNumber>
+<StreetAddress>160 Aldrich Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>45</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA45</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>046705849</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, IRVINE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Irvine]]></Name>
+<CityName>Irvine</CityName>
+<CountyName>ORANGE</CountyName>
+<StateCode>CA</StateCode>
+<ZipCode>926973100</ZipCode>
+<StreetAddress><![CDATA[Croul Hall 3323]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>45</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA45</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1610</Code>
+<Text>PHYSICAL OCEANOGRAPHY</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>5740</Code>
+<Text>Climate &amp; Large-Scale Dynamics</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>077Z</Code>
+<Text>CSSI-1: Cyberinfr for Sustained Scientif</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>4444</Code>
+<Text>INTERDISCIPLINARY PROPOSALS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~599916</FUND_OBLG>
+</Award>
+</rootTag>

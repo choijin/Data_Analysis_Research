@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>FMitF: Track I: ADVERT: Compositional Atomic Specifications for Distributed System Verification</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>749943.00</AwardTotalIntnAmount>
+<AwardAmount>749943</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Distributed systems are difficult to verify due to their inherent complexity from handling concurrency and network asynchrony. Significant advances have been made in formally specifying and verifying distributed systems, but existing approaches focus on reasoning about specific instances of distributed systems and do little to expose the common high-level behaviors while hiding the implementation details.  As a result, verifying individual distributed systems today requires redundant reasoning, and the absence of a high-level model makes it difficult to address the new challenges that modern applications are often composed of multiple distributed systems.  This project's novelties are a compositional atomic distributed object model that facilitates reasoning and verification of both individual and composition of distributed systems, and a formal verification tool, ADVERT, that can be used to build large-scale certified distributed systems.  The project's impacts include new tools to significantly improve the reliability and security of large-scale software infrastructures, such as the cloud, and applications that run on top of the infrastructure, and also new courses on distributed-system design and verification that will broaden the participation of underrepresented groups.&lt;br/&gt;&lt;br/&gt;The atomic distributed object model encapsulates the key safety properties of individual distributed systems. The project develops multiple network-based specifications that capture the common network-level behavior of similar classes of distributed systems. A network-based specification helps individual systems to verify their refinement relation to the atomic distributed object model, provides reusable proofs that are derived from common system behaviors, and acts as a verification template that establishes the safety properties encapsulated in the atomic object model for free.  Once individual distributed systems are verified to be correct and safe based on the atomic distributed object model, the high-level abstraction of the model can be used to reason about multiple distributed system interactions.  The project develops a distributed system verification framework, ADVERT, based around the atomic distributed object model, to verify individual distributed systems and their interactions.  The investigators demonstrate through concrete examples that proving properties even of composite distributed systems can be straightforward with the atomic distributed object model due to the elegantly simple object interface.  Finally, the investigators verify real-world cutting-edge distributed systems written in C.  One of the target systems is a distributed shared memory that uses a programmable switch, a low-latency network, and multiple sharded distributed components that run consensus protocols.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/19/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>11/03/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2019285</AwardID>
+<Investigator>
+<FirstName>Zhong</FirstName>
+<LastName>Shao</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Zhong Shao</PI_FULL_NAME>
+<EmailAddress>zhong.shao@yale.edu</EmailAddress>
+<PI_PHON>2034326828</PI_PHON>
+<NSF_ID>000201856</NSF_ID>
+<StartDate>06/19/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Robert</FirstName>
+<LastName>Soule</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Robert Soule</PI_FULL_NAME>
+<EmailAddress>robert.soule@yale.edu</EmailAddress>
+<PI_PHON>2034326403</PI_PHON>
+<NSF_ID>000795050</NSF_ID>
+<StartDate>06/19/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Ji Yong</FirstName>
+<LastName>Shin</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ji Yong Shin</PI_FULL_NAME>
+<EmailAddress>jiyong.shin@yale.edu</EmailAddress>
+<PI_PHON>2034322003</PI_PHON>
+<NSF_ID>000819299</NSF_ID>
+<StartDate>06/19/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Yale University</Name>
+<CityName>New Haven</CityName>
+<ZipCode>065208327</ZipCode>
+<PhoneNumber>2037854689</PhoneNumber>
+<StreetAddress>Office of Sponsored Projects</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 208327]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<StateCode>CT</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CT03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>043207562</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>YALE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>043207562</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Yale University]]></Name>
+<CityName>New Haven</CityName>
+<StateCode>CT</StateCode>
+<ZipCode>065118937</ZipCode>
+<StreetAddress><![CDATA[51 Prospect St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Connecticut</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CT03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>094Y</Code>
+<Text>FMitF: Formal Methods in the F</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>071Z</Code>
+<Text>FMitF-Formal Methods in the Field</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~749943</FUND_OBLG>
+</Award>
+</rootTag>

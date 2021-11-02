@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Enabling In-Network Computation for Datacenter Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>475000.00</AwardTotalIntnAmount>
+<AwardAmount>475000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The emergence of programmable network devices, such as reconfigurable switches and customizable network accelerators, along with the increasing traffic of data centers, motivate the use of in-network computation. Today's latest reconfigurable switches support configurable per-packet processing, including customizable packet headers, customizable packet processing, and the ability to maintain state inside the switch. Given this hardware trend, this project seeks to offload computing operations onto intermediate networking devices for a broad range of application services ranging from distributed storage to big data analytics and distributed machine learning, thus optimizing the operations of data center applications. &lt;br/&gt;&lt;br/&gt;The project's primary goal is to build a programming framework to enable in-network computing using programmable networking hardware. In designing and implementing this framework, the project addresses the following research questions: First, the project tackles how to best integrate reconfigurable switches and network accelerators into a data center network, as they both have limitations in terms of the operations that they can execute. Second, a key project goal is to identify what is a simple and yet powerful programming application program interface (API) for these programmable devices to support a broad class of applications. Third, another key challenge addressed is how to keep state and computations on these devices consistent with that of application servers, and how to co-design data center applications to take advantage of the performance benefits enabled by this paradigm. &lt;br/&gt;&lt;br/&gt;This project seeks to improve the efficiency of network-intensive data center applications that are used by literally billions of people around the globe on a daily basis. By improving their efficiency, one can dramatically reduce the cost of data center services as well as make it much cheaper for new public services to be developed. Collaborators at various switch vendors are equal partners in this effort, providing access to new technologies as well as assisting in technology transfer to the industry.  The project will integrate undergraduate students as researchers, and material from the project will be incorporated into both undergraduate and graduate courses.&lt;br/&gt;&lt;br/&gt;A key project goal is to publicly release developed software and enable a rich set of high-performance data center applications. All software will be made public as soon as they are developed, hosted via GitHub at https://github.com/arvindkrish/incbricks and accessible from the project website at the University of Washington. A mirrored version of this repository will be maintained at the University for at least five years.</AbstractNarration>
+<MinAmdLetterDate>07/28/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>07/28/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1714508</AwardID>
+<Investigator>
+<FirstName>Arvind</FirstName>
+<LastName>Krishnamurthy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Arvind Krishnamurthy</PI_FULL_NAME>
+<EmailAddress>arvind@cs.washington.edu</EmailAddress>
+<PI_PHON>2066160957</PI_PHON>
+<NSF_ID>000488256</NSF_ID>
+<StartDate>07/28/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981952350</ZipCode>
+<StreetAddress><![CDATA[185 Stevens Way]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~475000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>We seek to take advantage of emerging networking hardware that is programmable and customizable in order to suit application needs. Today's latest reconfigurable switches support configurable per-packet processing, including customizable packet headers, header processing primitives in the data plane, and the ability to maintain state inside the switch. Examples include Intel FlexPipe, Barefoot Network products, and the Cavium XPliant devices. In addition to these programmable switches, we are also witnessing the advent of programmable network accelerators (e.g., Cavium's Octeon), which are highly parallel and yet low-power devices, that are capable of performing a substantial amount of packet processing.</p> <p>Given this hardware trend, our project seeks to offload computing operations onto intermediate networking devices (e.g., switches, accelerator devices) for a broad range of application services ranging from distributed storage to big data analytics and distributed machine learning. Our programming framework would enable applications to execute program logic on these devices in a customizable manner. There are many benefits of doing so, including reduction in end-to-end latencies for application-level operations, reduction in datacenter traffic, and energy savings due to the use of low-power accelerators instead of server-class machines.</p> <p>We explore a hardware-software co-designed system that allows doing in-network computations on a programmable networking middlebox that is built using a reconfigurable switch and a programmable network accelerator. Our work provides new abstractions and an execution framework for the use of programmable network devices, while respecting the hardware constraints that are associated with these technologies. We also prototype a diverse set of applications that can use in-network computing support and evaluate the performance benefits made possible by this paradigm.</p> <p>In particular, we build a programming framework to enable in-networking computing using programmable networking hardware and provide applications with significant performance gains. In designing and implementing this framework, we address the following research questions that haven't been addressed before:&nbsp; First, how to best integrate reconfigurable switches and network accelerators into a datacenter network? Both reconfigurable switches and network accelerators have limitations; reconfigurable switches can operate at line rate, but typically limit the type and number of operations performed ona packet and the amount of state maintained inside the switch, whereas network accelerators can perform more complex computations but cannot sustain large amounts of traffic. Second, what is a simple and yet powerful programming API for these programmable devices in order to support a broad class of applications? Third, how to keep state and computations on these devices consistent with that of application servers? And, finally, how to co-design datacenter applications to take advantage of the performance benefits enabled by this paradigm?&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/27/2020<br>      Modified by: Arvind&nbsp;Krishnamurthy</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ We seek to take advantage of emerging networking hardware that is programmable and customizable in order to suit application needs. Today's latest reconfigurable switches support configurable per-packet processing, including customizable packet headers, header processing primitives in the data plane, and the ability to maintain state inside the switch. Examples include Intel FlexPipe, Barefoot Network products, and the Cavium XPliant devices. In addition to these programmable switches, we are also witnessing the advent of programmable network accelerators (e.g., Cavium's Octeon), which are highly parallel and yet low-power devices, that are capable of performing a substantial amount of packet processing.  Given this hardware trend, our project seeks to offload computing operations onto intermediate networking devices (e.g., switches, accelerator devices) for a broad range of application services ranging from distributed storage to big data analytics and distributed machine learning. Our programming framework would enable applications to execute program logic on these devices in a customizable manner. There are many benefits of doing so, including reduction in end-to-end latencies for application-level operations, reduction in datacenter traffic, and energy savings due to the use of low-power accelerators instead of server-class machines.  We explore a hardware-software co-designed system that allows doing in-network computations on a programmable networking middlebox that is built using a reconfigurable switch and a programmable network accelerator. Our work provides new abstractions and an execution framework for the use of programmable network devices, while respecting the hardware constraints that are associated with these technologies. We also prototype a diverse set of applications that can use in-network computing support and evaluate the performance benefits made possible by this paradigm.  In particular, we build a programming framework to enable in-networking computing using programmable networking hardware and provide applications with significant performance gains. In designing and implementing this framework, we address the following research questions that haven't been addressed before:  First, how to best integrate reconfigurable switches and network accelerators into a datacenter network? Both reconfigurable switches and network accelerators have limitations; reconfigurable switches can operate at line rate, but typically limit the type and number of operations performed ona packet and the amount of state maintained inside the switch, whereas network accelerators can perform more complex computations but cannot sustain large amounts of traffic. Second, what is a simple and yet powerful programming API for these programmable devices in order to support a broad class of applications? Third, how to keep state and computations on these devices consistent with that of application servers? And, finally, how to co-design datacenter applications to take advantage of the performance benefits enabled by this paradigm?           Last Modified: 10/27/2020       Submitted by: Arvind Krishnamurthy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Database Processing on GPUs</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>499996.00</AwardTotalIntnAmount>
+<AwardAmount>499996</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Maria Zemankova</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Modern Graphic Processing Units (GPUs) offer more parallelism and higher memory bandwidth than CPUs.  This project aims to take advantage of these properties by developing a system to efficiently process database queries over GPU-resident datasets.  To achieve this goal this project employs the following approaches: (a) The development of novel indexing techniques that combine multidimensional partitioning with block-oriented bitmaps, and whose parameters are sensitive to the query distribution;(b) The optimization of memory bank contention and value contention between threads; (c) The efficient implementation of a complete set of relational database operators, including aggregation, joins, and indexed selections; and (d) The evaluation of the performance of the system on query-intensive workloads, using real applications and standard benchmarks.  Improvements in database system performance would have wide-ranging impact on the efficiency of many enterprises that employ database systems for analytics.  The project supports PhD students working on database system implementation techniques.  The innovations and software created during the project will be used to enhance the curriculum of the Database Systems Implementation course at Columbia University.  Publications, software, and other project data will be disseminated via the web at our project web site (http://www.cs.columbia.edu/~kar/gpuproject.html).</AbstractNarration>
+<MinAmdLetterDate>07/16/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>06/07/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218222</AwardID>
+<Investigator>
+<FirstName>Kenneth</FirstName>
+<LastName>Ross</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kenneth A Ross</PI_FULL_NAME>
+<EmailAddress>kar@cs.columbia.edu</EmailAddress>
+<PI_PHON>2129397058</PI_PHON>
+<NSF_ID>000446976</NSF_ID>
+<StartDate>07/16/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Columbia University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100276902</ZipCode>
+<PhoneNumber>2128546851</PhoneNumber>
+<StreetAddress>2960 Broadway</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049179401</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049179401</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Columbia University]]></Name>
+<CityName/>
+<StateCode>NY</StateCode>
+<ZipCode>100276902</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~111248</FUND_OBLG>
+<FUND_OBLG>2013~388748</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>While originally designed for graphics workloads, Graphics Processing Units (GPUs) have recently been applied to other domains. For certain classes of computations, GPUs can provide superior performance, measured either by the speed of computation, or the energy needed to complete a computation. This project applied GPUs to problems in database management. We have made contributions to three kinds of database management problems.</p> <p>&nbsp;</p> <p>First, we showed how to best utilize GPU memory for processing queries in a way that avoids some common performance pitfalls. For example, GPU memory is organized in "banks", and an imbalance in the work assigned to each bank can degrade performance. Our work described ways to place and sometimes copy data items across the GPU memory to avoid these pitfalls.</p> <p>&nbsp;</p> <p>Second, we investigated methods for compressing and decompressing data using GPUs. Compression is a key feature of data management systems, necessary to reduce the memory footprint, as well as to reduce the bandwidth requirements for data transfer. We describe novel methods to decompress data in parallel, using the many concurrent threads provided by GPUs.&nbsp;<span>We achieve a 2X speed-up in a head-to-head comparison with several multi-core CPU-based libraries, while achieving a 17% energy saving with comparable compression ratios.</span></p> <p>&nbsp;</p> <p>Finally, we investigated methods for string processing using GPUs. Strings are sequences of characters used to store information such as text or biological sequences. A common string operation used in database queries asks for strings in the database that contain a particular query substring. Searching many strings in parallel on a GPU is challenging because different threads may progress at different rates, straining the memory subsystem of the GPU. We investigated a variety of string processing algorithms, and several ways of laying out strings in memory.&nbsp;<span>Our proposed methods outperform previous CPU and GPU algorithms in terms of raw performance and power efficiency. The Knuth&ndash;Morris&ndash;Pratt algorithm is a good choice for GPUs because its regular memory access pattern makes it amenable to several GPU optimizations. We also looked at ways to search for regular expression patterns within strings. This problem is challenging on GPUs and other processors with single-instruction multiple-data (SIMD) features because the processors may be underutilized if some of the strings being searched in parallel are accepted or rejected earlier than others. We show how to immediately begin work on a new string within the SIMD computation, and can improve performance significantly.</span></p> <p>&nbsp;</p><br> <p>            Last Modified: 10/27/2017<br>      Modified by: Kenneth&nbsp;A&nbsp;Ross</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ While originally designed for graphics workloads, Graphics Processing Units (GPUs) have recently been applied to other domains. For certain classes of computations, GPUs can provide superior performance, measured either by the speed of computation, or the energy needed to complete a computation. This project applied GPUs to problems in database management. We have made contributions to three kinds of database management problems.     First, we showed how to best utilize GPU memory for processing queries in a way that avoids some common performance pitfalls. For example, GPU memory is organized in "banks", and an imbalance in the work assigned to each bank can degrade performance. Our work described ways to place and sometimes copy data items across the GPU memory to avoid these pitfalls.     Second, we investigated methods for compressing and decompressing data using GPUs. Compression is a key feature of data management systems, necessary to reduce the memory footprint, as well as to reduce the bandwidth requirements for data transfer. We describe novel methods to decompress data in parallel, using the many concurrent threads provided by GPUs. We achieve a 2X speed-up in a head-to-head comparison with several multi-core CPU-based libraries, while achieving a 17% energy saving with comparable compression ratios.     Finally, we investigated methods for string processing using GPUs. Strings are sequences of characters used to store information such as text or biological sequences. A common string operation used in database queries asks for strings in the database that contain a particular query substring. Searching many strings in parallel on a GPU is challenging because different threads may progress at different rates, straining the memory subsystem of the GPU. We investigated a variety of string processing algorithms, and several ways of laying out strings in memory. Our proposed methods outperform previous CPU and GPU algorithms in terms of raw performance and power efficiency. The Knuth&ndash;Morris&ndash;Pratt algorithm is a good choice for GPUs because its regular memory access pattern makes it amenable to several GPU optimizations. We also looked at ways to search for regular expression patterns within strings. This problem is challenging on GPUs and other processors with single-instruction multiple-data (SIMD) features because the processors may be underutilized if some of the strings being searched in parallel are accepted or rejected earlier than others. We show how to immediately begin work on a new string within the SIMD computation, and can improve performance significantly.          Last Modified: 10/27/2017       Submitted by: Kenneth A Ross]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

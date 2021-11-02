@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Power-Efficient Multicore Scheduling for Network Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>High-speed multicore computers are widely available at low cost. They have the potential to process high speed network applications, such as deep packet inspection, and multi-channel real-time streaming of high-definition audio and video. However, they need better scheduling approaches to address the demand of high throughput and low latency of these applications while reducing energy consumption. Current approaches do not consider real-time demands, network traffic patterns and details of the specific multicore architectures. Lack of power-aware core scheduling and thermal management has also led to a great challenge in energy efficiency. Reducing power consumption saves energy cost, reduces the need for building additional cooling, and improves computer hardware reliability.&lt;br/&gt;&lt;br/&gt;This project makes fundamental contributions to the design and applications of high-demand network systems. It provides packet level scheduling solutions that improve throughput, reduce latency and energy consumption. The project develops and incorporates network traffic models, architectural details, power consumption models, and thermal models simultaneously for coordinated workload processing and energy consumption. Quality-of-service (QoS) of packet streams/connections is also considered by improving the jitter and out-of-order packet departures. Superiority of the proposed technical approaches is verified through real implementation of network applications and performance and power measurements on commercial multicore architectures. An open-source framework is developed for multicore scheduling, and is made available to the researchers along with optimized multithreaded codes for network applications.</AbstractNarration>
+<MinAmdLetterDate>08/16/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/16/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1216014</AwardID>
+<Investigator>
+<FirstName>Laxmi</FirstName>
+<LastName>Bhuyan</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Laxmi N Bhuyan</PI_FULL_NAME>
+<EmailAddress>bhuyan@cs.ucr.edu</EmailAddress>
+<PI_PHON>9518272281</PI_PHON>
+<NSF_ID>000318919</NSF_ID>
+<StartDate>08/16/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>As the network capacity has grown over the years, power consumption in network elements has become a major concern among the designers. Similarly, data centers consume an abundant amount of energy today. This NSF project designs several techniques for reducing the energy consumption in both networks and data centers. Since the applications in these environments are characterized by their random ON/OFF arrival and processing patterns, normal energy saving techniques cannot be applied. The project develops vacation and rate adaptation schemes for network applications based on processor sleep states. It builds power consumption and thermal models to develop thermal-aware scheduling technique to save power during application execution. For data centers, a dynamic sleep technique is designed to adjust the sleep time dynamically with the request arrivals. Network consolidation technique is developed to save network power when the datacenter traffic is low. Then energy saving optimization is carried out considering both the server sleeping and network consolidation. Finally, the project also introduces a technique to save energy at the expense of quality. Considering a web search application as an example, it develops a technique to save considerable energy while satisfying both the quality and latency constraints. The proposed techniques are verified through real implementation on commercial multiprocessors. The results are published in high quality journals and conferences.</p><br> <p>            Last Modified: 12/13/2017<br>      Modified by: Laxmi&nbsp;N&nbsp;Bhuyan</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ As the network capacity has grown over the years, power consumption in network elements has become a major concern among the designers. Similarly, data centers consume an abundant amount of energy today. This NSF project designs several techniques for reducing the energy consumption in both networks and data centers. Since the applications in these environments are characterized by their random ON/OFF arrival and processing patterns, normal energy saving techniques cannot be applied. The project develops vacation and rate adaptation schemes for network applications based on processor sleep states. It builds power consumption and thermal models to develop thermal-aware scheduling technique to save power during application execution. For data centers, a dynamic sleep technique is designed to adjust the sleep time dynamically with the request arrivals. Network consolidation technique is developed to save network power when the datacenter traffic is low. Then energy saving optimization is carried out considering both the server sleeping and network consolidation. Finally, the project also introduces a technique to save energy at the expense of quality. Considering a web search application as an example, it develops a technique to save considerable energy while satisfying both the quality and latency constraints. The proposed techniques are verified through real implementation on commercial multiprocessors. The results are published in high quality journals and conferences.       Last Modified: 12/13/2017       Submitted by: Laxmi N Bhuyan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

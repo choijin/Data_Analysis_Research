@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Learning Open Domain Semantic Parsers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>425821.00</AwardTotalIntnAmount>
+<AwardAmount>425821</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tatiana Korelsky</SignBlockName>
+<PO_EMAI>tkorelsk@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Supervised semantic parsers, which learn to map language to relational data, perform poorly on texts that differ in vocabulary or style from the training text, and on databases that differ from the database used in training.  Today's semantic parsers have only been tested on narrowly-circumscribed domains like geography, but the ideal semantic parser would generalize to the many and incredibly diverse relational databases available on the Web.  &lt;br/&gt;&lt;br/&gt;This project develops semantic parsers that approach this ideal system.  The project divides the overall task into two parts:  mapping named-entities in text to database constants in any domain, and mapping full sentences and questions to logical forms written in a variant of the lambda calculus.  Techniques for resolving named-entities make use of domain-independent contextual information around the named-entity for disambiguation.  To connect words like "directed" with a database relation listing directors of movies, the project relies on schema-matching techniques from database integration.  The system extracts a relational view of a corpus, and then generates alignments between these extracted alignments and the fixed relational structure of existing databases.  The project uses transfer-learning and co-training approaches to estimate parameters for statistical models for named-entity disambiguation and schema matching across domains and databases.&lt;br/&gt;&lt;br/&gt;The project is expected to produce new methods and software systems for connecting human language with relational data.  It enables language-based queries to the broad array of structured data available on the Web, making it easier to find information than ever before.</AbstractNarration>
+<MinAmdLetterDate>07/30/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/30/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218692</AwardID>
+<Investigator>
+<FirstName>Alexander</FirstName>
+<LastName>Yates</LastName>
+<PI_MID_INIT>P</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alexander P Yates</PI_FULL_NAME>
+<EmailAddress>yates@temple.edu</EmailAddress>
+<PI_PHON>2152048869</PI_PHON>
+<NSF_ID>000509321</NSF_ID>
+<StartDate>07/30/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Temple University</Name>
+<CityName>Philadelphia</CityName>
+<ZipCode>191226003</ZipCode>
+<PhoneNumber>2157077547</PhoneNumber>
+<StreetAddress>1801 N. Broad Street</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>057123192</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TEMPLE UNIVERSITY-OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>057123192</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Temple University]]></Name>
+<CityName>Philadelphia</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>191226003</ZipCode>
+<StreetAddress><![CDATA[1805 N. Broad St.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~425821</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project has demonstrated the ability of software to learn to connect relationships described in text with relationships stored in other data formats, such as databases and tables in reports. &nbsp;Such connections are important for software systems to learn, as it makes it possible to support language-based searches of large data sets.</p> <p>The methods in this project extend existing methods to allow software to learn these relationships in two key ways. &nbsp;First, we have demonstrated the feasibility of learning connections between language and structured data in a domain-independent way. &nbsp;This is the first attempt in the literature at performing this task, and we have provided a definition and dataset of the task for the research community. &nbsp;Our systems for performing this task showed that a human could jump-start the process by providing a limited amount of examples for learning, for example, that the words "starred in" could refer to movie star filmography relationships on the IMDB website. &nbsp;The system can leverage these examples across very different kinds of databases and areas of discourse, to learn for instance that the phrase "played for" might refer to a specific kind of relationship on the Yahoo! Fantasy Sports website. &nbsp;Unlike previous systems, the system is able to generalize from movies to sports without further human effort or intervention. &nbsp;In subsequent tests, we have demonstrated the ability of our system to generalize to domains further afield, including reports on the results of clinical drug trials.</p> <p>Second, we have investigated techniques for generalizing semantic parsing learning algorithms (in particular, semantic parsers based on combinatory categorial grammar) to handle complex grammatical and semantic constructions that we have found in our new datasets. &nbsp;We have developed a biomedical semantic parsing dataset and a Freebase semantic parsing dataset, each of which have proved problematic even for standard supervised learning algorithms for semantic parsers. &nbsp;We have developed empirically-motivated improvements to the standard learning techniques that allow semantic parsers to generalize to the constructions we have found in our datasets. &nbsp;As a result, our systems can provide an interpretation of far more sentences or questions referring to these database than any previous system, in some cases more than doubling the previous state-of-the-art system's coverage.</p> <p>&nbsp;</p><br> <p>            Last Modified: 04/28/2016<br>      Modified by: Alexander&nbsp;P&nbsp;Yates</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project has demonstrated the ability of software to learn to connect relationships described in text with relationships stored in other data formats, such as databases and tables in reports.  Such connections are important for software systems to learn, as it makes it possible to support language-based searches of large data sets.  The methods in this project extend existing methods to allow software to learn these relationships in two key ways.  First, we have demonstrated the feasibility of learning connections between language and structured data in a domain-independent way.  This is the first attempt in the literature at performing this task, and we have provided a definition and dataset of the task for the research community.  Our systems for performing this task showed that a human could jump-start the process by providing a limited amount of examples for learning, for example, that the words "starred in" could refer to movie star filmography relationships on the IMDB website.  The system can leverage these examples across very different kinds of databases and areas of discourse, to learn for instance that the phrase "played for" might refer to a specific kind of relationship on the Yahoo! Fantasy Sports website.  Unlike previous systems, the system is able to generalize from movies to sports without further human effort or intervention.  In subsequent tests, we have demonstrated the ability of our system to generalize to domains further afield, including reports on the results of clinical drug trials.  Second, we have investigated techniques for generalizing semantic parsing learning algorithms (in particular, semantic parsers based on combinatory categorial grammar) to handle complex grammatical and semantic constructions that we have found in our new datasets.  We have developed a biomedical semantic parsing dataset and a Freebase semantic parsing dataset, each of which have proved problematic even for standard supervised learning algorithms for semantic parsers.  We have developed empirically-motivated improvements to the standard learning techniques that allow semantic parsers to generalize to the constructions we have found in our datasets.  As a result, our systems can provide an interpretation of far more sentences or questions referring to these database than any previous system, in some cases more than doubling the previous state-of-the-art system's coverage.          Last Modified: 04/28/2016       Submitted by: Alexander P Yates]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

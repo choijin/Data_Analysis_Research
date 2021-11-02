@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>A High Order Discontinuous Galerkin Multi-Scale Approach for Kinetic-Hydrodynamic Simulations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/16/2018</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>137612.00</AwardTotalIntnAmount>
+<AwardAmount>137612</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This research project will develop novel numerical methods for simulation of the dynamics of rarefied gas.  Compared with the widely used Monte Carlo approach, the algorithm under development will be able to more accurately capture complicated solution structures in long-time simulations. Moreover, physically conserved quantities such as mass, momentum, and energy can be exactly preserved at the discrete level. The new algorithm also has the potential to be extended to a broader class of applications such as plasma physics, astrophysics, and semi-conductor device simulation.  Students will be trained through involvement in the research project.&lt;br/&gt;&lt;br/&gt;This project aims to develop a very high order mesh-based multi-scale numerical approach to modeling rarified gas dynamics between the kinetic and hydrodynamic regimes. The approach is based on the so-called micro-macro formulation of the kinetic equation, which involves a natural decomposition of the problem into equilibrium and non-equilibrium parts. The high order spatial accuracy is achieved by a nodal discontinuous Galerkin (DG) finite element approach, and the high order temporal accuracy is achieved by globally stiffly accurate implicit-explicit Runge-Kutta methods.  Due to deliberate design and considerations of the hydrodynamic asymptotics, the scheme under development becomes a DG method with explicit RK time discretizations for the Euler system in the zero limit of the Knudsen number, and a local DG discretization of the Navier-Stokes equations for a simplified BGK collision operator in a formal asymptotic analysis. Such a local DG method is similar in spirit to classical approaches based on a mixed formulation of the equations. The new scheme will be tested on problems at kinetic-hydrodynamic scales and compared with the results from the simplified BGK model, its ellipsoidal statistical (ES-BGK) extension, as well as with results from the macroscopic hydrodynamic models. The project will also study numerically the boundary layer for kinetic simulations when a diffusive hydrodynamic limit is considered.</AbstractNarration>
+<MinAmdLetterDate>04/26/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>04/26/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1834686</AwardID>
+<Investigator>
+<FirstName>Jing-Mei</FirstName>
+<LastName>Qiu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jing-Mei Qiu</PI_FULL_NAME>
+<EmailAddress>jingqiu@udel.edu</EmailAddress>
+<PI_PHON>3028316135</PI_PHON>
+<NSF_ID>000515352</NSF_ID>
+<StartDate>04/26/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Delaware</Name>
+<CityName>Newark</CityName>
+<ZipCode>197160099</ZipCode>
+<PhoneNumber>3028312136</PhoneNumber>
+<StreetAddress>210 Hullihen Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<StateCode>DE</StateCode>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>DE00</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>059007500</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF DELAWARE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>059007500</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Delaware]]></Name>
+<CityName>Newark</CityName>
+<StateCode>DE</StateCode>
+<ZipCode>197160099</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>DE00</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7237</Code>
+<Text>NANO NON-SOLIC SCI &amp; ENG AWD</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~137612</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>We developed high order multi-scale discontinuous Galerkin (DG) Method coupled with implicit-explicit (IMEX) time discretization for kinetic-hydrodynamic problems based on a micro-macro decomposition of the system. A sequence of research on algorithm development, analysis and application have been performed for the multi-scale BGK problem with its hyperbolic Euler and Navier-Stokes limit; and for diffusion limit. In particular, the following goals have been achieved:</p> <p>(1) We developed a multi-scale nodal DG-IMEX method for the BGK equation. The method is theoretically analyzed and numerically verified to be asymptotically consistent and accurate to the compressible Navier-Stokes (CNS) or Euler limits respectively.&nbsp;</p> <p>(2) We built a hierarchical method which couples numerical solvers for different regimes by interface conditions that locally preserve mass, momentum and energy. The scheme enjoys AP property as well as uniform high order accuracy. Numerical experiments demonstrate efficiency and effectiveness of the proposed approach with significant CPU savings (more than 80% for some of our test problems).</p> <p>(3) We developed semi-Lagrangian DG method coupled with implicit Runge-Kutta scheme along characteristics for the BGK model with analysis on accuracy and stability in the multi-scale setting. With the semi-Lagrangian framework for the transport, and the implicit discretization of the stiff relaxation term, the time stepping constraint can be relaxed and much larger than that from an Eulerian framework. We perform accuracy analysis of the scheme both in the kinetic regime when the Knudsen number is of order 1, and in the fluid regime when the Knudsen number approaches 0. Extensive numerical tests are performed to verify the high order accuracy of the proposed method for smooth test cases, and for its performance on problems with shocks.&nbsp;</p> <p>(4) We are developing and analyzing a stability enhanced asymptotic preserving DG-IMEX scheme for linear kinetic transport equations under a diffusive regime. The enhanced stability is achieved by adding a weighted diffusion term to both sides of the equation and apply an implicit treatment to it. The unconditional stability is achieved in the diffusive regime when the Knudsen number approaches zero; and high order accuracy is achieve for both the kinetic and fluid regimes.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/01/2019<br>      Modified by: Jing-Mei&nbsp;Qiu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ We developed high order multi-scale discontinuous Galerkin (DG) Method coupled with implicit-explicit (IMEX) time discretization for kinetic-hydrodynamic problems based on a micro-macro decomposition of the system. A sequence of research on algorithm development, analysis and application have been performed for the multi-scale BGK problem with its hyperbolic Euler and Navier-Stokes limit; and for diffusion limit. In particular, the following goals have been achieved:  (1) We developed a multi-scale nodal DG-IMEX method for the BGK equation. The method is theoretically analyzed and numerically verified to be asymptotically consistent and accurate to the compressible Navier-Stokes (CNS) or Euler limits respectively.   (2) We built a hierarchical method which couples numerical solvers for different regimes by interface conditions that locally preserve mass, momentum and energy. The scheme enjoys AP property as well as uniform high order accuracy. Numerical experiments demonstrate efficiency and effectiveness of the proposed approach with significant CPU savings (more than 80% for some of our test problems).  (3) We developed semi-Lagrangian DG method coupled with implicit Runge-Kutta scheme along characteristics for the BGK model with analysis on accuracy and stability in the multi-scale setting. With the semi-Lagrangian framework for the transport, and the implicit discretization of the stiff relaxation term, the time stepping constraint can be relaxed and much larger than that from an Eulerian framework. We perform accuracy analysis of the scheme both in the kinetic regime when the Knudsen number is of order 1, and in the fluid regime when the Knudsen number approaches 0. Extensive numerical tests are performed to verify the high order accuracy of the proposed method for smooth test cases, and for its performance on problems with shocks.   (4) We are developing and analyzing a stability enhanced asymptotic preserving DG-IMEX scheme for linear kinetic transport equations under a diffusive regime. The enhanced stability is achieved by adding a weighted diffusion term to both sides of the equation and apply an implicit treatment to it. The unconditional stability is achieved in the diffusive regime when the Knudsen number approaches zero; and high order accuracy is achieve for both the kinetic and fluid regimes.           Last Modified: 12/01/2019       Submitted by: Jing-Mei Qiu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

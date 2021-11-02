@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Efficient Parallel Iterative Monte Carlo Methods for Statistical Analysis of Big Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>81575.00</AwardTotalIntnAmount>
+<AwardAmount>81575</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yong Zeng</SignBlockName>
+<PO_EMAI>yzeng@nsf.gov</PO_EMAI>
+<PO_PHON>7032927902</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The integration of computer technology into science and daily life has enabled the collection of massive volumes of data. To analyze these data, one may have to resort to parallel and distributed architectures. While the parallel and distributed architectures present new capabilities for storage and manipulation of big data, it is unclear, from the inferential point of view, how the current statistical methodology can be transported to the paradigm of big data. Also, growing data size typically comes together with a growing complexity of data structures and of the models needed to account for the structures. Although iterative Monte Carlo algorithms, such as the Markov chain Monte Carlo (MCMC), stochastic approximation, and expectation-maximization (EM) algorithms, have proven to be very powerful and typically unique computational tools for analyzing data of complex structures, they are infeasible for big data as for which a large number of iterations and a complete scan of the full dataset for each iteration are typically required. Big data have put a great challenge on the current statistical methodology. The investigators propose a general principle for developing Monte Carlo algorithms that are feasible for big data and workable on parallel and distributed architectures; that is, using Monte Carlo averages calculated in parallel from subsamples to approximate the quantities that originally need to calculate from the full dataset. This principle avoids the requirement for repeated scans of full data in algorithm iterations, while enabling the algorithm to produce statistically sensible solutions to the problem under consideration. Under this principle, a general algorithm, the so-called subsampling approximation-based parallel stochastic approximation algorithm, is proposed for parameter estimation for big data problems. Unlike the existing algorithms, such as the bag of little bootstraps, aggregated estimation equation, and split-and-conquer algorithms, the proposed algorithm works for the problems for which the observations are generally dependent. Under the same principle, a subsampling approximation-based parallel Metropolis-Hastings algorithm is proposed for Bayesian analysis of big data, and a subsampling approximation-based parallel Monte Carlo EM algorithm is proposed for parameter estimation for the big data problems with missing observations. In addition to the subsampling approximation-based parallel iterative Monte Carlo algorithms, an embarrassingly parallel MCMC algorithm is proposed for Bayesian analysis of big data based on the popular idea of divide-and-conquer. Various schemes of dataset partition and results aggregation are proposed. The validity of the proposed parallel iterative Monte Carlo algorithms, including both the subsampling approximation-based and embarrassingly parallel ones, will be rigorously studied. The proposed algorithms will be applied to spatio-temporal modeling of satellite climate data, genome-wide association study, and stream data analysis.&lt;br/&gt;&lt;br/&gt;The intellectual merit of this project is to propose a general principle for statistical analysis of big data: Using Monte Carlo averages of subsamples to approximate the quantities that originally need to calculate from the full dataset. This principle provides a general strategy for transporting the current statistical methodology to the paradigm of big data. Under this principle, a few subsampling approximation-based parallel iterative Monte Carlo algorithms are proposed. The proposed algorithms address the core problem of big data analysis?how to make a statistically sensible analysis for big data while avoiding repeated scans of the full dataset. This project will have broader impacts because big data are ubiquitous throughout almost all fields of science and technology. A successful research program in theory and methods of parallel iterative Monte Carlo computations can have immense benefit widely throughout science and technology.  The research results will be disseminated to the communities of interest, such as atmospheric science, biomedical science, engineering, and social science, via direct collaboration with researchers in these disciplines, conference presentations, books, and papers to be published in academic journals. The project will have also significant impacts on education through direct involvement of graduate students in the project and incorporation of results into undergraduate and graduate courses. In addition, the package Distributed Iterative Statistical Computing (DISC) that will be developed under this project is designed to provide a platform for Ph.D. students and researchers like the investigators with network-connected computers to experiment new ideas of developing efficient iterative Monte Carlo algorithms in parallel or, more exactly, grid computing environments.</AbstractNarration>
+<MinAmdLetterDate>06/26/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/26/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1316922</AwardID>
+<Investigator>
+<FirstName>Chuanhai</FirstName>
+<LastName>Liu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Chuanhai Liu</PI_FULL_NAME>
+<EmailAddress>chuanhai@purdue.edu</EmailAddress>
+<PI_PHON>7654946030</PI_PHON>
+<NSF_ID>000096911</NSF_ID>
+<StartDate>06/26/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName>West Lafayette</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>479072066</ZipCode>
+<StreetAddress><![CDATA[250 N. University Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~81575</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Iterative statistical&nbsp;algorithms such as Expectation-Maximization and Markov Chain Monte Carlo methods have proven to be indispensable&nbsp;tools for statistical analysis with complex models. Developing such methods for analyzing big data in parallel and distributed&nbsp;computing environment is useful but very challenging.&nbsp;In this collaborative research on&nbsp;Efficient Parallel Iterative Monte Carlo Methods for Statistical Analysis of Big Data, the investigator studied statistical computing software or environment for big data analysis. With new ideas appeared in the world of&nbsp;software development, the PI designed and built a prototype of a multi-threaded and distributed R-like software, temporarily called&nbsp;SupR.</p> <p>Over the period of three years, partially supported by this&nbsp;award,&nbsp;the PI started with an initial effort to develop a prototype of a software, purely written in R, for Distributed Iterative Statistical Computation (DISC). This prototype, based on the approach of Apache Hadoop,&nbsp;was&nbsp;created as an add-on R package. It is currently&nbsp;available at&nbsp;http://www.stat.purdue.edu/~chuanhai/disc/update.txt. This package was used at Purdue in graduate topic courses taught by the PI to discuss parallel and distributed statistical computing.</p> <p>The world of software development is an exciting place&nbsp;where new ideas and products appear quickly.&nbsp;During the period of the research, for example, Apache Spark and Apache Flink&nbsp;became very popular. The PI studied the Spark functionality for iterative statistical computing and, as an experiment,&nbsp;modified Spark system source code for efficient distributed iterative statistical computing. This work along with the modified source code and test examples can be found at&nbsp;http://www.stat.purdue.edu/~chuanhai/teaching/BigData2015/spp/index.html.</p> <p>For creating user-friendly software for data analysts, the PI also developed a prototype of a multi-threaded and distributed R-like software, temporarily called SupR.&nbsp;At a high level, SupR is a R-style implementation of a computing system for DISC. The prototype was&nbsp;built from&nbsp;<a href="http://www.r-project.org/">R</a>, Version 3.1.1 and was focused&nbsp;on the implementation of (1) a R-style front-end by maintaining the existing R syntax and internal basic data structures, (2) a Java-like multithreading model, which would be the key to the success of big data analysis, (3) a Spark-like cluster computing environment, and (4) a builtin Simple Distributed File System, which, to some extent, represents a kind of cluster-wide namespace. The prototype of SupR is currently available at&nbsp;http://www.stat.purdue.edu/~chuanhai/SupR/index.html with documentation and simple examples such as EM and distributed linear regression.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/22/2017<br>      Modified by: Chuanhai&nbsp;Liu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Iterative statistical algorithms such as Expectation-Maximization and Markov Chain Monte Carlo methods have proven to be indispensable tools for statistical analysis with complex models. Developing such methods for analyzing big data in parallel and distributed computing environment is useful but very challenging. In this collaborative research on Efficient Parallel Iterative Monte Carlo Methods for Statistical Analysis of Big Data, the investigator studied statistical computing software or environment for big data analysis. With new ideas appeared in the world of software development, the PI designed and built a prototype of a multi-threaded and distributed R-like software, temporarily called SupR.  Over the period of three years, partially supported by this award, the PI started with an initial effort to develop a prototype of a software, purely written in R, for Distributed Iterative Statistical Computation (DISC). This prototype, based on the approach of Apache Hadoop, was created as an add-on R package. It is currently available at http://www.stat.purdue.edu/~chuanhai/disc/update.txt. This package was used at Purdue in graduate topic courses taught by the PI to discuss parallel and distributed statistical computing.  The world of software development is an exciting place where new ideas and products appear quickly. During the period of the research, for example, Apache Spark and Apache Flink became very popular. The PI studied the Spark functionality for iterative statistical computing and, as an experiment, modified Spark system source code for efficient distributed iterative statistical computing. This work along with the modified source code and test examples can be found at http://www.stat.purdue.edu/~chuanhai/teaching/BigData2015/spp/index.html.  For creating user-friendly software for data analysts, the PI also developed a prototype of a multi-threaded and distributed R-like software, temporarily called SupR. At a high level, SupR is a R-style implementation of a computing system for DISC. The prototype was built from R, Version 3.1.1 and was focused on the implementation of (1) a R-style front-end by maintaining the existing R syntax and internal basic data structures, (2) a Java-like multithreading model, which would be the key to the success of big data analysis, (3) a Spark-like cluster computing environment, and (4) a builtin Simple Distributed File System, which, to some extent, represents a kind of cluster-wide namespace. The prototype of SupR is currently available at http://www.stat.purdue.edu/~chuanhai/SupR/index.html with documentation and simple examples such as EM and distributed linear regression.             Last Modified: 02/22/2017       Submitted by: Chuanhai Liu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

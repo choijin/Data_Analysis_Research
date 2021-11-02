@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: FULL: Hardware Software Abstractions: Addressing Specification and Verification Gaps in Accelerator-Oriented Parallelism</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>875000.00</AwardTotalIntnAmount>
+<AwardAmount>875000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Given slowdowns in semiconductor technology scaling, it has become increasingly challenging to maintain processor performance scaling at acceptable power constraints. In response, microprocessors increasingly use complex architectures with heterogeneous parallelism and specialized compute units known as accelerators.  Accelerators provide high compute performance at reduced power/energy by avoiding the overhead of instruction-programmability. The key challenge, however, is that unlike traditional microprocessor CPUs, accelerators have no durable, portable instruction set architecture (ISA), and instead are programmed via drivers or library APIs. These increase the effort of porting accelerator-oriented programs to other platforms with similar functionality but different implementations. The increased effort has serious consequences for software cost. Furthermore, the fact that accelerators have no formal, durable ISA causes increased verification complexity at a time when it is already the limiting factor in the design of future computing platforms. The intellectual merits of this work are that the research is developing Instruction-Level Abstractions (ILAs) that extend the ISA concept to accelerators in order to address these programming and verification challenges. ILAs offer a formal and high-level summary of the visible state updates that an accelerator will perform on each invocation.  The project?s broader significance and importance are the work?s ability to impact industry designs of future accelerator-based computing platforms and thereby help sustain the US computing industry.&lt;br/&gt;&lt;br/&gt;There are two components to an ILA: specifying the state updates, and specifying the Memory Consistency Model, i.e., the permitted ordering of state updates relative to other parallel compute elements. The research develops ILA methodologies that are (i) uniform across accelerators, (ii) symmetric with the ISA of instruction-programmable processors and (iii) unified across both computation (state change) and memory (data/storage state update) abstractions. To show the value of ILAs, the research develops: (i) ILA specification mechanisms for a rich set of accelerators, (ii) synthesis techniques and tools for generating these ILAs automatically, (iii) verification techniques and tools that check these abstractions against implementations and (iv) further tools enabled by ILAs including full-system architectural simulation. Through these efforts, this work addresses fundamental software portability and verification gaps in the design and deployment of accelerator-oriented systems.</AbstractNarration>
+<MinAmdLetterDate>06/28/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>10/24/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1628926</AwardID>
+<Investigator>
+<FirstName>Sharad</FirstName>
+<LastName>Malik</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sharad Malik</PI_FULL_NAME>
+<EmailAddress>sharad@princeton.edu</EmailAddress>
+<PI_PHON>6092584625</PI_PHON>
+<NSF_ID>000462582</NSF_ID>
+<StartDate>06/28/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Margaret</FirstName>
+<LastName>Martonosi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Margaret Martonosi</PI_FULL_NAME>
+<EmailAddress>martonosi@princeton.edu</EmailAddress>
+<PI_PHON>6092581912</PI_PHON>
+<NSF_ID>000395997</NSF_ID>
+<StartDate>06/28/2016</StartDate>
+<EndDate>10/24/2019</EndDate>
+<RoleCode>Former Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Princeton University</Name>
+<CityName>Princeton</CityName>
+<CountyName>MERCER</CountyName>
+<ZipCode>085442020</ZipCode>
+<PhoneNumber>6092583090</PhoneNumber>
+<StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 36]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002484665</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF PRINCETON UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002484665</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Princeton University]]></Name>
+<CityName>Princeton</CityName>
+<CountyName>MERCER</CountyName>
+<StateCode>NJ</StateCode>
+<ZipCode>085442020</ZipCode>
+<StreetAddress><![CDATA[87 Prospect Avenue, 2nd floor]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~875000</FUND_OBLG>
+</Award>
+</rootTag>

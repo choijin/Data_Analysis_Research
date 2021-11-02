@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIC:  EAGER:  Scalable Algebraic Visualization in the Cloud</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>117567.00</AwardTotalIntnAmount>
+<AwardAmount>117567</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sylvia Spengler</SignBlockName>
+<PO_EMAI>sspengle@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The requirements for large-scale scientific visualization systems and large-scale scientific databases are converging.  Visualization systems are being equipped with rudimentary query processing capabilities, observing that simply "throwing datasets" through the graphics pipeline ignores the scalable restructuring, manipulation, and filtering required by realistic applications.  Further, there is increasing emphasis on in situ visualization --- execution of visualization and data processing on a single platform to avoid data transfer costs and afford new optimizations.  In particular, the role of cloud computing as a large-scale visualizaton platform in addition to a large-scale data processing platform is underexplored.&lt;br/&gt;&lt;br/&gt;In response to these pressures, the PI proposes a novel approach to the problem of scalable visualization, one informed by the algebraic query processing techniques developed by the database community coupled with recent advances in data-intensive scalable computing latforms such as MapReduce, Dryad, and their contemporaries.  Specifically, the PI is developing an algebra of scalable visualization operators specialized for manipulating and visualizing mesh-structured datasets.  The PI's previous work on an algebra for unstructured grid datasets found in finite element simulations provides a foundation, but does not support efficient parallel processing and cannot express certain common visualization tasks.  Other existing systems favor depth over breadth, focusing on optimizations for specific visualization algorithms on specific hardware rather than a generic platform for visual analytics that can run on the shared-nothing clusters of commodity computers typically found in the cloud.  The new approach, being developed and deployed on the Windows Azure platform, provides a core set of scalable primitives for manipulating mesh datasets using shared-nothing architectures, capable of expressing a variety of visualization algorithms, and amenable to algebraic reasoning and optimization.&lt;br/&gt;&lt;br/&gt;For further information see the project web page:  http://visdb.cs.washington.edu</AbstractNarration>
+<MinAmdLetterDate>08/24/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/24/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1060213</AwardID>
+<Investigator>
+<FirstName>Bill</FirstName>
+<LastName>Howe</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME>Dr.</PI_SUFX_NAME>
+<PI_FULL_NAME>Bill Howe</PI_FULL_NAME>
+<EmailAddress>billhowe@uw.edu</EmailAddress>
+<PI_PHON>2066858746</PI_PHON>
+<NSF_ID>000084191</NSF_ID>
+<StartDate>08/24/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981950001</ZipCode>
+<StreetAddress><![CDATA[4333 Brooklyn Ave NE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8010</Code>
+<Text>Computing in the Cloud</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8010</Code>
+<Text>Computing in the Cloud</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~117567</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p class="p1">Our primary goal of this EAGER award was to develop an algebra of visualization primitives and implement them in the context of parallel shared-nothing platforms including MapReduce, its contemporaries, parallel databases, and related systems.</p> <p class="p2">Our work toward this goal has branched in two directions: First, motivated by the requirements of visualization techniques, we have pursued a general framework for sophistcated algorithms at scale, which informed the Myria system (funded through NSF BigData award 1247469).&nbsp; Second, we focused on improving support for the 3D mesh data types used in scientific visualization.&nbsp; This latter effort led to a new fundamental ``interpolating join'' operator.</p> <p class="p2">The project has been an effective vehicle for interdisciplinary training and research.&nbsp; A graduate student in Applied Math has been the lead researcher on the project, gaining experience in large-scale databases, software engineering, and performance analysis of algorithms.&nbsp; In addition, the software we have delivered has been adopted by the oceanography modeling community for serving data and supporting server-side manipulation.</p> <p class="p2">We have released two public libraries for algebraic manipulation of 3D meshes used in computational fluid dynamics and visualization applications.&nbsp; Both are available in the gridfields code base (https://code.google.com/p/gridfields/).&nbsp; The first allows subsetting of complex meshes while respecting the correctness properties of the mesh topology.&nbsp; This library has been incorporated into the OPeNDAP data server Hyrax, popular for data hosting in the earth sciences and especially oceanography.&nbsp; The second library allows conservative regridding: when data is mapped from one mesh to another, naive methods will destroy quantitative properties --- total amount of mass or total amount of salt in a body of ocean water, for example.&nbsp; As a result,researchers tend to write and rewrite brittle, specialized code to perform model-model comparisons, model-data comparisons, and visualization because they cannot rely on simpler generic techniques.&nbsp; We solved this problem by incorporating conservative regridding into a new fundamental database operator called ``interpolating join.''&nbsp; We consider query optimization techniques in the presence of this operator and prove bounds on the quantitative error propagation through the operator as a function of grid shape and size and their relationship to the data values being modeled.&nbsp; This work provides a general abstraction that links continuous domain problems studied in computational science to the discrete data manipulation problems motivated by enterprise data management and studied in the database community.&nbsp; Moreover, we believe this framework can incorporate a variety of statistical approximation methods as well as the numerical approximation methods we have focused on up to this point.</p><br> <p>            Last Modified: 04/15/2014<br>      Modified by: Bill&nbsp;Howe</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[Our primary goal of this EAGER award was to develop an algebra of visualization primitives and implement them in the context of parallel shared-nothing platforms including MapReduce, its contemporaries, parallel databases, and related systems. Our work toward this goal has branched in two directions: First, motivated by the requirements of visualization techniques, we have pursued a general framework for sophistcated algorithms at scale, which informed the Myria system (funded through NSF BigData award 1247469).  Second, we focused on improving support for the 3D mesh data types used in scientific visualization.  This latter effort led to a new fundamental ``interpolating join'' operator. The project has been an effective vehicle for interdisciplinary training and research.  A graduate student in Applied Math has been the lead researcher on the project, gaining experience in large-scale databases, software engineering, and performance analysis of algorithms.  In addition, the software we have delivered has been adopted by the oceanography modeling community for serving data and supporting server-side manipulation. We have released two public libraries for algebraic manipulation of 3D meshes used in computational fluid dynamics and visualization applications.  Both are available in the gridfields code base (https://code.google.com/p/gridfields/).  The first allows subsetting of complex meshes while respecting the correctness properties of the mesh topology.  This library has been incorporated into the OPeNDAP data server Hyrax, popular for data hosting in the earth sciences and especially oceanography.  The second library allows conservative regridding: when data is mapped from one mesh to another, naive methods will destroy quantitative properties --- total amount of mass or total amount of salt in a body of ocean water, for example.  As a result,researchers tend to write and rewrite brittle, specialized code to perform model-model comparisons, model-data comparisons, and visualization because they cannot rely on simpler generic techniques.  We solved this problem by incorporating conservative regridding into a new fundamental database operator called ``interpolating join.''  We consider query optimization techniques in the presence of this operator and prove bounds on the quantitative error propagation through the operator as a function of grid shape and size and their relationship to the data values being modeled.  This work provides a general abstraction that links continuous domain problems studied in computational science to the discrete data manipulation problems motivated by enterprise data management and studied in the database community.  Moreover, we believe this framework can incorporate a variety of statistical approximation methods as well as the numerical approximation methods we have focused on up to this point.       Last Modified: 04/15/2014       Submitted by: Bill Howe]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

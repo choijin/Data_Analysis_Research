@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Fast Direct Solvers for Boundary Value Problems on Evolving Geometries</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>149980.00</AwardTotalIntnAmount>
+<AwardAmount>149980</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>With the ability to reduce the cost of testing theories and ideas, numerical simulations will continue to play a growing role in scientific discovery and device development. Frequently, these simulations involve the solution of problems that are prescribed by physics.  In many cases, the speed and accuracy with which such problems can be solved is a key limiting factor to what can and cannot be modeled numerically.  Fast direct solvers have recently shown great promise for solving a large number of problems involving the same geometry by reusing the most expensive part of the solution technique.  This situation happens often in settings such as product development where each problem involving the geometry corresponds to a different physical situation.  When a large number of problems are under consideration, the fast direct solvers can show hundreds of times speed up over other techniques.  While this speed up is great, many engineering situations involve a large number of problems with slightly different geometries. Each different geometry requires the most expensive part of the solver to be recomputed.  This project will focus on the development and application of fast direct solvers to problems with evolving geometries.  The new technique will recycle information obtained in the construction of the fast direct solver for one geometry to build solvers for the evolved geometries.  As a result, the cost of the most expensive step in the fast direct solution technique will be substantially reduced while retaining the benefit of being able to solve multiple problems for each geometry quickly.  This work should accelerate many numerical simulations and will have a technological impact on society through applications such as solar cell design, meta-material design, sonar, radar and simulations of blood flow.&lt;br/&gt;&lt;br/&gt;The numerical simulations under consideration in the proposed work will involve the solution of linear boundary value problems.  Many linear boundary value problems can be recast as integral equations.  Solution techniques based on integral equations come with the cost of having to solve a dense linear system upon discretization.  Fast direct solvers invert a dense system by exploiting structure in the matrix with a cost that grows linearly (or nearly linearly) with the problem size. The proposed work will adapt the fast linear algebra framework to create efficient direct solvers for a family of problems with similar geometries. The new technique will be the first to reuse the structural information obtained in the construction of a fast direct solver for a single geometry to build new direct solvers for evolved geometries.  This recycling of structural information reduces the cost of the most expensive step in constructing fast direct solvers. The new technique should accelerate time-stepping for evolution equations, Stokes' flow, optimal design algorithms, model reduction methods and periodic boundary value problem simulations.  The solution technique will be applied to microfluids, inverse scattering, and periodic scattering.</AbstractNarration>
+<MinAmdLetterDate>07/28/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/28/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1522631</AwardID>
+<Investigator>
+<FirstName>Adrianna</FirstName>
+<LastName>Gillman</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Adrianna Gillman</PI_FULL_NAME>
+<EmailAddress>adrianna.gillman@colorado.edu</EmailAddress>
+<PI_PHON>3034924066</PI_PHON>
+<NSF_ID>000647831</NSF_ID>
+<StartDate>07/28/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>William Marsh Rice University</Name>
+<CityName>Houston</CityName>
+<ZipCode>770051827</ZipCode>
+<PhoneNumber>7133484820</PhoneNumber>
+<StreetAddress>6100 MAIN ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>050299031</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WILLIAM MARSH RICE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>050299031</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[William Marsh Rice University]]></Name>
+<CityName>Houston</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>770051827</ZipCode>
+<StreetAddress><![CDATA[6100 Main Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~149980</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Numerical simulations play a growing role in the scientific discovery and device development and thus are extremely important to scientists and engineers.&nbsp; Frequently, these simulations involve the solution of boundary value problems.&nbsp; In many cases, the speed and accuracy with which such problems can be solved is a key limiting factor to what can and cannot be modeled numerically.&nbsp; <br /><br />Recently, fast direct solvers have shown great promise for problems where the solutions are needed for multiple right-hand sides.&nbsp; By computing an approximation of the inverse, they can show hundreds of times speed up over iterative solvers for problems with many right-hand sides.&nbsp; While this speed up is great, many engineering situations involve a large number of boundary value problems with slightly different geometries and/or equations describing the underlying physics.&nbsp; Since the cost of building a fast direct solver from scratch for each new problem is very high, new algorithms are needed to make fast direct solvers useful for these applications.<br /><br />The main goal of this project was to start developing these algorithms.&nbsp; In the first project, a fast direct solver for applications (such as optimal design) where the geometry varies in small regions between problems was developed.&nbsp; This solver is currently being extended to aid in the design of microfluidic devices but it can be used in other contexts.&nbsp; In another project, an adaptive discretization technique that comes with an efficient direct solver.&nbsp; The key to efficiently updating the solver in the adaptive method is to glue the solver for the geometry that is not refined together.&nbsp; This idea is going to integrated into adaptive mesh refinement software (ForestClaw).&nbsp; Additionally the solution technique can be extended to problems where the governing equations and/or the geometry change locally.&nbsp; A high performance computing implementation of this work is currently being developed so that the algorithm can be utilized in large scale simulations.&nbsp; A first edition of this work has been published. A problem specific solver was built for multi-layered scattering problems.&nbsp; Problems of this form arise in the design of composite materials such as solar cells and inverse scattering applications such as finding the depth of the sand layer at the bottom of the ocean or the thickness of an Arctic ice sheet.&nbsp; The solver is 87 times faster than building one from scratch from problems with nearly 200 right hand sides.&nbsp; An additional feature of the solver is updating the solver for a change in a subset of the layers can be done for minimal computational cost.&nbsp; Making the solution technique ideal for the optimal design and inverse scattering applications mentioned.&nbsp; <br /><br />A final project that is not directly related to boundary value problems was conducted in the duration of support.&nbsp; It is a robust algorithm for evaluating the Discrete Spheroidal Wave functions.&nbsp; These special functions are used in applications such as compressed sensing.&nbsp; Until this work, only a limited number of the functions could be evaluated accurately.&nbsp; This work will likely increase the range of applications using these special functions.<br /><br />The intellectual merit of the support work lies in increasing the range of&nbsp; applications for which fast direct solvers are useful and a robust technique for evaluating a class of special functions.&nbsp; Fast direct solvers had previously been useful for problems on static geometries.&nbsp; Requiring a new solver to be built for any set of related problems even if it was a local change in the geometry.&nbsp; The fast direct solvers constructed in this project are able to reuse a previously constructed solver to reduce the cost of building a new one.&nbsp;&nbsp; The special function evaluator is able to compute special functions that could not be evaluated previously.&nbsp; This is done by exploiting the relationship these special functions have with a tridiagonal matrix, an ordinary differential equation and a Toeplitz matrix.</p> <p>The broader impact of this work is wide ranging.&nbsp; Minor extensions of the work are currently under way.&nbsp; This includes numerically simulating microfluidic devices and aiding in the simulation of Hemostasis.&nbsp; Much of the work can be integrated directly into optimal design procedures.&nbsp; The PI has been approached by an applied physicist to extend the work on multilayered medium to metal layers.&nbsp; This work is underway.&nbsp; Some of the work is being integrated into publicly available adaptive mesh generation software.&nbsp; The special function evaluation has the potential to have as big an impact as the corresponding work on Spheroidal Wave functions.<br /><br /><br /></p><br> <p>            Last Modified: 10/30/2019<br>      Modified by: Adrianna&nbsp;Gillman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Numerical simulations play a growing role in the scientific discovery and device development and thus are extremely important to scientists and engineers.  Frequently, these simulations involve the solution of boundary value problems.  In many cases, the speed and accuracy with which such problems can be solved is a key limiting factor to what can and cannot be modeled numerically.    Recently, fast direct solvers have shown great promise for problems where the solutions are needed for multiple right-hand sides.  By computing an approximation of the inverse, they can show hundreds of times speed up over iterative solvers for problems with many right-hand sides.  While this speed up is great, many engineering situations involve a large number of boundary value problems with slightly different geometries and/or equations describing the underlying physics.  Since the cost of building a fast direct solver from scratch for each new problem is very high, new algorithms are needed to make fast direct solvers useful for these applications.  The main goal of this project was to start developing these algorithms.  In the first project, a fast direct solver for applications (such as optimal design) where the geometry varies in small regions between problems was developed.  This solver is currently being extended to aid in the design of microfluidic devices but it can be used in other contexts.  In another project, an adaptive discretization technique that comes with an efficient direct solver.  The key to efficiently updating the solver in the adaptive method is to glue the solver for the geometry that is not refined together.  This idea is going to integrated into adaptive mesh refinement software (ForestClaw).  Additionally the solution technique can be extended to problems where the governing equations and/or the geometry change locally.  A high performance computing implementation of this work is currently being developed so that the algorithm can be utilized in large scale simulations.  A first edition of this work has been published. A problem specific solver was built for multi-layered scattering problems.  Problems of this form arise in the design of composite materials such as solar cells and inverse scattering applications such as finding the depth of the sand layer at the bottom of the ocean or the thickness of an Arctic ice sheet.  The solver is 87 times faster than building one from scratch from problems with nearly 200 right hand sides.  An additional feature of the solver is updating the solver for a change in a subset of the layers can be done for minimal computational cost.  Making the solution technique ideal for the optimal design and inverse scattering applications mentioned.    A final project that is not directly related to boundary value problems was conducted in the duration of support.  It is a robust algorithm for evaluating the Discrete Spheroidal Wave functions.  These special functions are used in applications such as compressed sensing.  Until this work, only a limited number of the functions could be evaluated accurately.  This work will likely increase the range of applications using these special functions.  The intellectual merit of the support work lies in increasing the range of  applications for which fast direct solvers are useful and a robust technique for evaluating a class of special functions.  Fast direct solvers had previously been useful for problems on static geometries.  Requiring a new solver to be built for any set of related problems even if it was a local change in the geometry.  The fast direct solvers constructed in this project are able to reuse a previously constructed solver to reduce the cost of building a new one.   The special function evaluator is able to compute special functions that could not be evaluated previously.  This is done by exploiting the relationship these special functions have with a tridiagonal matrix, an ordinary differential equation and a Toeplitz matrix.  The broader impact of this work is wide ranging.  Minor extensions of the work are currently under way.  This includes numerically simulating microfluidic devices and aiding in the simulation of Hemostasis.  Much of the work can be integrated directly into optimal design procedures.  The PI has been approached by an applied physicist to extend the work on multilayered medium to metal layers.  This work is underway.  Some of the work is being integrated into publicly available adaptive mesh generation software.  The special function evaluation has the potential to have as big an impact as the corresponding work on Spheroidal Wave functions.          Last Modified: 10/30/2019       Submitted by: Adrianna Gillman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

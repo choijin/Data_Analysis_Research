@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: SaTC: ExHume: An Empirical Approach to Program Analysis for Security</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>174952.00</AwardTotalIntnAmount>
+<AwardAmount>174952</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>As software controls an ever-increasing number of devices that perform critical tasks, their security and robustness are of paramount importance to society. In addition, malicious software and "greyware" that violates the privacy of users causes billions in damage every year and erodes public confidence in computing systems. However, despite decades of work on techniques to analyze software with automated techniques, it remains a difficult and largely manual task. The ExHume project aims to address this issue by collecting detailed information about both normal and erroneous behaviors of a large corpus of real-world software. This behavioral information will then be used to inform a new generation of empirically guided program analysis techniques, with the goal of significantly improving software vulnerability discovery and reverse engineering techniques.&lt;br/&gt;&lt;br/&gt;The technical approach taken by ExHume is to capture in vivo traces of software using low-overhead record and replay techniques. This corpus, which will consist of normal and buggy executions of benign and malicious software, can then be mined to extract a wide variety of detailed, dynamic information about the runtime properties of the software under test. Specifically, the data gathered will be used to create (a) new heuristics for guiding program exploration, which can be used for symbolic execution and guided fuzz testing; (b) methods for identifying previously unseen implementations of known functionality and algorithms; and (c) a set of domain-specific dynamic taint analyses that can aid in explicating the features used by image processing and machine learning algorithms.</AbstractNarration>
+<MinAmdLetterDate>01/27/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>01/27/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1657199</AwardID>
+<Investigator>
+<FirstName>Brendan</FirstName>
+<LastName>Dolan-Gavitt</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Brendan Dolan-Gavitt</PI_FULL_NAME>
+<EmailAddress>bd52@nyu.edu</EmailAddress>
+<PI_PHON>2129982121</PI_PHON>
+<NSF_ID>000701772</NSF_ID>
+<StartDate>01/27/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100121019</ZipCode>
+<StreetAddress><![CDATA[70 Washington Square S]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~174952</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goals of the ExHume project were to 1) create large datasets of both benign and malicious software; 2) develop techniques to analyze those datasets and produce novel insights for use in program analysis; and 3) develop new program analyses to support goals like finding vulnerabilities in software.</p> <p><br />The project made substantial progress on all three goals. We created a large dataset of execution traces of malicious software (Malrec) and a dataset of traces of Linux kernel crashes. We also developed an improved and easier to use tool for capturing and analyzing such traces, PyPANDA, and released it as open source software. Finally, we developed techniques for creating benchmarks that can be used to evaluate the performance of bug-finding tools, and ran a competition that ranked participants on their bug-finding abilities, Rode0day.</p> <p><br />The datasets we collected led to insights that helped improve the state of the art in vulnerability detection and uncover hidden features in mobile applications. We developed a new tool, HeapExpo, that makes detection of a particular class of software vulnerabilitie, known as "use-after-free" vulnerabilities, more precise. And we helped to develop and evaluate a new technique that can uncover hidden behavior in Android applications, including backdoors, secret features, and censorship activities, and used it to analyze over 150,000 Android apps.</p> <p><br />The broader impact of these new tools, datasets, and techniques is to make it easier to find and fix vulnerabilities in software, analyze and classify malicious software in order to better defend against it, and improve the security of mobile applications.</p> <p>&nbsp;</p><br> <p>            Last Modified: 07/05/2021<br>      Modified by: Brendan&nbsp;Dolan-Gavitt</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goals of the ExHume project were to 1) create large datasets of both benign and malicious software; 2) develop techniques to analyze those datasets and produce novel insights for use in program analysis; and 3) develop new program analyses to support goals like finding vulnerabilities in software.   The project made substantial progress on all three goals. We created a large dataset of execution traces of malicious software (Malrec) and a dataset of traces of Linux kernel crashes. We also developed an improved and easier to use tool for capturing and analyzing such traces, PyPANDA, and released it as open source software. Finally, we developed techniques for creating benchmarks that can be used to evaluate the performance of bug-finding tools, and ran a competition that ranked participants on their bug-finding abilities, Rode0day.   The datasets we collected led to insights that helped improve the state of the art in vulnerability detection and uncover hidden features in mobile applications. We developed a new tool, HeapExpo, that makes detection of a particular class of software vulnerabilitie, known as "use-after-free" vulnerabilities, more precise. And we helped to develop and evaluate a new technique that can uncover hidden behavior in Android applications, including backdoors, secret features, and censorship activities, and used it to analyze over 150,000 Android apps.   The broader impact of these new tools, datasets, and techniques is to make it easier to find and fix vulnerabilities in software, analyze and classify malicious software in order to better defend against it, and improve the security of mobile applications.          Last Modified: 07/05/2021       Submitted by: Brendan Dolan-Gavitt]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

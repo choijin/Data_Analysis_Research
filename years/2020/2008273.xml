@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CNS Core: Small: Network-wide Policy Enforcement in Programmable Networks using Logical Queues</AwardTitle>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>499999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Deepankar Medhi</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Data center networks and Internet eXchange Points (IXPs) are a critical part of today's computing infrastructure that support important cloud services like Google, Facebook, and Netflix.  In these networks, competing companies (tenants) run many different distributed applications that communicate across the network.  Unfortunately, existing networks are not able to ensure that these competing applications are isolated.  For example, if a malicious tenant were to open more connections and inject more data into the network than other tenants, it could consume more than its fair share of network capacity and adversely affect the performance of other tenants' applications. This work introduces a new system that can enforce network-wide isolation policies and ensure that competing tenants cannot game the system and get more performance by opening more connections or by injecting more data.&lt;br/&gt;&lt;br/&gt;Existing approaches to providing in-network performance isolation use virtual queues to isolate traffic.  Unfortunately, these approaches suffer from key limitations with respect to scalability, performance, update latency, and TCP-friendliness.  To overcome these limitations, this proposal aims to rethink the design of how switches track and respond to dynamically changing traffic patterns and how end-hosts are notified of congestion information.  Specifically, it will introduce logical queues, which use counters to approximately behave as a switch with a large number of virtual queues without the associated hardware costs.  The key insight is that since today's switches are already dedicating switch resources (SRAM) to counters that are used for monitoring, these same counters can be repurposed to implement logical queues with low overheads.&lt;br/&gt;&lt;br/&gt;This work will have significant implications for application developers, network hardware vendors, cloud providers, and users of cloud infrastructure.  The new abstractions have the potential to become commonplace in both the development and teaching of network applications, and it has the potential to significantly improve performance and security isolation in today's networks. This proposal has the potential to also broaden the appeal of today’s programmable switches and open up a new segment of the market. &lt;br/&gt;&lt;br/&gt;The software created as part of this work will be made broadly available for public reuse under flexible open-source licenses through github (https://github.com/uic-data-center-systems/). The investigators have a strong record of releasing the source codes of their research prototypes to the broader research community.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/17/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>10/19/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>2008273</AwardID>
+<Investigator>
+<FirstName>Balajee</FirstName>
+<LastName>Vamanan</LastName>
+<EmailAddress>bvamanan@uic.edu</EmailAddress>
+<StartDate>08/17/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Brent</FirstName>
+<LastName>Stephens</LastName>
+<EmailAddress>brents@uic.edu</EmailAddress>
+<StartDate>08/17/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606124305</ZipCode>
+<PhoneNumber>3129962862</PhoneNumber>
+<StreetAddress>809 S. Marshfield Avenue</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+</Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+</Appropriation>
+</Award>
+</rootTag>

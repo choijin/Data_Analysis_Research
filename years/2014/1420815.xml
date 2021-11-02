@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Self-Service Cloud Computing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>499880.00</AwardTotalIntnAmount>
+<AwardAmount>499880</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Shannon Beck</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Cloud computing poses significant risks to the security of client data.   Virtual Machine Monitors (VMMs) that underlie cloud systems typically have all-powerful administrative domains that can be exploited or misused to snoop on client virtual machines (VMs) and steal/modify their data. Moreover, although virtual machine technology enables several novel security services that clients may wish to use, such services are privileged and must be implemented within the administrative domain. &lt;br/&gt;&lt;br/&gt;This project develops the Self-service Cloud Computing (SSC) model to improve the security of client data. SSC employs privilege separation to reduce the privileges granted to the system-wide administrative domain, and expose new abstractions to clients that give them greater control over their VMs. Thus, SSC mitigates the impact of attacks directed on client VMs via the administrative domain, and allows clients to deploy security services on their own VMs.&lt;br/&gt;&lt;br/&gt;SSC can have broad impact by ameliorating the threats to client data on the cloud, thus encouraging clients to move to the cloud. The concept of cloud app markets developed in this project is also likely to be of independent interest. The project also includes an educational component that will develop new cloud-related material for inclusion in graduate and undergraduate curricula.</AbstractNarration>
+<MinAmdLetterDate>08/05/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/05/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1420815</AwardID>
+<Investigator>
+<FirstName>Vinod</FirstName>
+<LastName>Ganapathy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vinod Ganapathy</PI_FULL_NAME>
+<EmailAddress>vinodganapathy@gmail.com</EmailAddress>
+<PI_PHON>8484458039</PI_PHON>
+<NSF_ID>000502351</NSF_ID>
+<StartDate>08/05/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Rutgers University New Brunswick</Name>
+<CityName>Piscataway</CityName>
+<ZipCode>088543925</ZipCode>
+<PhoneNumber>8489320150</PhoneNumber>
+<StreetAddress>33 Knightsbridge Road</StreetAddress>
+<StreetAddress2><![CDATA[2nd Floor East Wing]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ06</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001912864</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RUTGERS, THE STATE UNIVERSITY OF NEW JERSEY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001912864</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Rutgers University New Brunswick]]></Name>
+<CityName>Piscataway</CityName>
+<StateCode>NJ</StateCode>
+<ZipCode>088548019</ZipCode>
+<StreetAddress><![CDATA[110 Frelinghuysen Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ06</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~499880</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Modern cloud computing infrastructures use virtual machine monitors (VMMs) that often include a large and complex administrative domain with privileges to inspect client VM state. Attacks against or misuse of the administrative domain can <em>compromise client security and privacy</em>.  Moreover, these VMMs provide clients <em>inflexible control</em> over their own VMs, as a result of which clients have to rely on the cloud provider to deploy useful services, such as VM introspection-based security tools.</p> <p>We introduce a new self-service cloud (SSC) computing model that addresses these two shortcomings. SSC&nbsp;splits administrative privileges between a system-wide domain and per-client administrative domains. Each client can manage and perform privileged system tasks on its own VMs, thereby providing flexibility. The system-wide administrative domain cannot inspect the code, data or computation of client VMs, thereby ensuring security and privacy.</p> <p>A key contribution of the project is the application of the SSC model to Intel SGX. <span style="left: 550px; top: 493.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.891296);"> SGX  has  the  unfortunate  con-</span><span style="left: 525px; top: 512.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.901092);">sequence  of  flipping  the  trust  model  that  is  prevalent  on</span><span style="left: 525px; top: 531.18px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.914296);">contemporary  cloud  platforms.  On  non-SGX  platforms,  a</span><span style="left: 525px; top: 549.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.904826);">benign  cloud  provider  benefits  from  the  ability  to  inspect</span><span style="left: 525px; top: 568.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.923776);">client code and data. The cloud provider can provide clients</span><span style="left: 525px; top: 587.18px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.921902);">with services such as malware detection, vulnerability scan-</span><span style="left: 525px; top: 605.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.91041);">ning,  and  memory  deduplication.  Such  services  are  also</span><span style="left: 525px; top: 624.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.882878);">beneficial  to  benign  clients.  The  cloud  provider  can  check</span><span style="left: 525px; top: 643.18px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.89931);">client  VMs  for  service-level  agreement  (SLA)  compliance,</span><span style="left: 525px; top: 661.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.927816);">thereby  catching  malicious  clients  who  may  misuse  the</span><span style="left: 525px; top: 680.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.920258);">cloud  platform  in  various  ways,</span><span style="left: 759.383px; top: 680.63px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.856929);">e.g.,</span><span style="left: 795.133px; top: 680.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.911597);">by  using  it  to  host</span><span style="left: 525px; top: 699.18px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.891892);">a  botnet  command  and  control  server.  In  contrast,  on  an</span><span style="left: 525px; top: 717.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.937697);">SGX platform, the cloud provider can no longer inspect the</span><span style="left: 525px; top: 736.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.886183);">content  of  a  client&rsquo;s  enclaves.  This  a</span><span style="left: 786.15px; top: 731.097px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(1.11789);">ff</span><span style="left: 796.15px; top: 736.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.887921);">ects  benign  clients,</span><span style="left: 525px; top: 755.18px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.912237);">who can no longer avail of cloud-based services for their en-</span><span style="left: 525px; top: 773.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.931735);">claves. It also benefits malicious clients by giving them free</span><span style="left: 525px; top: 792.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.960502);">reign to perform a variety of SLA-violating activities within</span><span style="left: 525px; top: 811.18px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.897209);">enclaves. Researchers have discussed the possibility of such</span><span style="left: 525px; top: 829.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.914409);">&ldquo;detection-proof&rdquo;  SGX  malware.  Without  the</span><span style="left: 525px; top: 848.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.948599);">ability to inspect the client&rsquo;s code, the cloud provider is left</span><span style="left: 525px; top: 867.18px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.937658);">to using other, indirect means to infer the presence of such</span><span style="left: 525px; top: 885.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.935846);">malicious activities. For example, minibox verifies that</span><span style="left: 525px; top: 904.513px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.906593);">an  application  behaves  properly  by  checking  system  call</span><span style="left: 525px; top: 923.18px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.914221);">parameters of the application for malicious activities such as</span><span style="left: 525px; top: 941.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.899164);">accessing sensitive files that do not belong to the application.</span></p> <p><span style="left: 196.66px; top: 333.53px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.874272);">We built EnGarde,  an  en</span><span style="left: 90px; top: 352.197px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.916101);">clave inspection library that achieves the above goal without</span><span style="left: 90px; top: 370.863px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.874146);">TTPs.  Cloud  providers  and  clients  agree  upon  the  policies</span><span style="left: 90px; top: 389.53px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.875865);">that  enclave  code  must  satisfy  and  encode  it  in  EnGarde.</span><span style="left: 90px; top: 408.197px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.899273);">Thus,  cloud  providers  and  clients  mutually  trust  EnGarde</span><span style="left: 90px; top: 426.863px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.929713);">with policy enforcement. The cloud provider creates a fresh</span><span style="left: 90px; top: 445.53px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.923814);">enclave provisioned with EnGarde, and proves to the client,</span><span style="left: 90px; top: 464.197px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.920683);">using  SGX&rsquo;s  hardware  attestation,  that  the  enclave  was</span><span style="left: 90px; top: 482.863px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.922513);">created securely. The client then hands its sensitive content</span><span style="left: 90px; top: 501.53px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.902919);">to  EnGarde  over  an  encrypted  channel.  It  provisions  the</span><span style="left: 90px; top: 520.197px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.924542);">enclave with the client&rsquo;s content only if the content is policy-</span><span style="left: 90px; top: 538.863px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.914409);">compliant.  If  not,  it  informs  the  cloud  provider,  who  can</span><span style="left: 90px; top: 557.53px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.93763);">prevent the client from creating the enclave.</span></p> <p><span style="left: 525px; top: 941.847px; font-size: 16.6667px; font-family: sans-serif; transform: scaleX(0.899164);"><br /></span></p><br> <p>            Last Modified: 06/24/2019<br>      Modified by: Vinod&nbsp;Ganapathy</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Modern cloud computing infrastructures use virtual machine monitors (VMMs) that often include a large and complex administrative domain with privileges to inspect client VM state. Attacks against or misuse of the administrative domain can compromise client security and privacy.  Moreover, these VMMs provide clients inflexible control over their own VMs, as a result of which clients have to rely on the cloud provider to deploy useful services, such as VM introspection-based security tools.  We introduce a new self-service cloud (SSC) computing model that addresses these two shortcomings. SSC splits administrative privileges between a system-wide domain and per-client administrative domains. Each client can manage and perform privileged system tasks on its own VMs, thereby providing flexibility. The system-wide administrative domain cannot inspect the code, data or computation of client VMs, thereby ensuring security and privacy.  A key contribution of the project is the application of the SSC model to Intel SGX.  SGX  has  the  unfortunate  con-sequence  of  flipping  the  trust  model  that  is  prevalent  oncontemporary  cloud  platforms.  On  non-SGX  platforms,  abenign  cloud  provider  benefits  from  the  ability  to  inspectclient code and data. The cloud provider can provide clientswith services such as malware detection, vulnerability scan-ning,  and  memory  deduplication.  Such  services  are  alsobeneficial  to  benign  clients.  The  cloud  provider  can  checkclient  VMs  for  service-level  agreement  (SLA)  compliance,thereby  catching  malicious  clients  who  may  misuse  thecloud  platform  in  various  ways,e.g.,by  using  it  to  hosta  botnet  command  and  control  server.  In  contrast,  on  anSGX platform, the cloud provider can no longer inspect thecontent  of  a  client?s  enclaves.  This  affects  benign  clients,who can no longer avail of cloud-based services for their en-claves. It also benefits malicious clients by giving them freereign to perform a variety of SLA-violating activities withinenclaves. Researchers have discussed the possibility of such"detection-proof"  SGX  malware.  Without  theability to inspect the client?s code, the cloud provider is leftto using other, indirect means to infer the presence of suchmalicious activities. For example, minibox verifies thatan  application  behaves  properly  by  checking  system  callparameters of the application for malicious activities such asaccessing sensitive files that do not belong to the application.  We built EnGarde,  an  enclave inspection library that achieves the above goal withoutTTPs.  Cloud  providers  and  clients  agree  upon  the  policiesthat  enclave  code  must  satisfy  and  encode  it  in  EnGarde.Thus,  cloud  providers  and  clients  mutually  trust  EnGardewith policy enforcement. The cloud provider creates a freshenclave provisioned with EnGarde, and proves to the client,using  SGX?s  hardware  attestation,  that  the  enclave  wascreated securely. The client then hands its sensitive contentto  EnGarde  over  an  encrypted  channel.  It  provisions  theenclave with the client?s content only if the content is policy-compliant.  If  not,  it  informs  the  cloud  provider,  who  canprevent the client from creating the enclave.          Last Modified: 06/24/2019       Submitted by: Vinod Ganapathy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

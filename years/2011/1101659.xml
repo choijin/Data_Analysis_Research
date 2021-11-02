@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>ICES: Small: Mechanism Design for Highly Anonymous Environments</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In mechanism design, the goal is to design rules that lead to desirable outcomes even when agents behave strategically.  This project focuses on a specific type of strategic behavior: a single agent can pretend to be multiple agents, and thereby participate in the mechanism more than once. One approach to address this is to design the mechanism so that this behavior is always suboptimal for the agent.  Other approaches include: making it costly to obtain additional identifiers; doing some limited verification of identities; detecting false identifiers based on the social-network structure among the agents; and designing methods to sample from the agents in an unbiased way.  These approaches require a blend of techniques from computer science and economics.&lt;br/&gt;&lt;br/&gt;Internet-based mechanisms such as online rating systems and online elections, as well as mechanisms for electronic commerce, play an increasingly important role in the economy and social infrastructure.  It is often easy to participate multiple times in such mechanisms, leading to distorted results and economic inefficiencies.  Hence, the research under this project has the potential to make Internet-based mechanisms more meaningful and efficient.</AbstractNarration>
+<MinAmdLetterDate>07/06/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>10/02/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1101659</AwardID>
+<Investigator>
+<FirstName>Vincent</FirstName>
+<LastName>Conitzer</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vincent Conitzer</PI_FULL_NAME>
+<EmailAddress>conitzer@cs.duke.edu</EmailAddress>
+<PI_PHON>9196606503</PI_PHON>
+<NSF_ID>000487289</NSF_ID>
+<StartDate>07/06/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Duke University</Name>
+<CityName>Durham</CityName>
+<ZipCode>277054010</ZipCode>
+<PhoneNumber>9196843030</PhoneNumber>
+<StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+<StreetAddress2><![CDATA[Erwin Square]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>044387793</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>DUKE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>044387793</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Duke University]]></Name>
+<CityName>Durham</CityName>
+<StateCode>NC</StateCode>
+<ZipCode>277054010</ZipCode>
+<StreetAddress><![CDATA[2200 W. Main St, Suite 710]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8052</Code>
+<Text>Inter Com Sci Econ Soc S (ICE)</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Computer systems are increasingly used by multiple parties with different objectives.&nbsp; We cannot simply specify the behavior of these diverse participants; what we can do, however, is to provide incentives for desirable behavior.&nbsp; This is where mechanism design comes in.<br /><br />In mechanism design, the goal is to design rules that result in desirable outcomes even when used by strategic agents that each pursue their own self-interest.&nbsp; Most of mechanism design has focused on the problem of the strategic misreporting of preferences.&nbsp; For example, in an election, a voter may not vote for her most-preferred alternative because she does not believe it has a serious chance of winning; in an auction, a bidder may bid less than she thinks the item is worth because she hopes to win it at a lower price.&nbsp; Mechanisms unlike these, where it is in fact always optimal to report truthfully, are called strategy-proof.<br /><br />However, the applications that motivate computer scientists are often run in highly anonymous environments, such as the Internet.&nbsp; Online voting, rating, and auction systems are pervasive.&nbsp; In these contexts, other types of strategic manipulation are possible: for example, an agent is often able to participate multiple times, under different identities.&nbsp; Strategy-proof mechanisms are generally still vulnerable to such false-name manipulation; mechanisms that are robust to this type of manipulation are called false-name-proof.<br /><br />In accordance with the proposal, we have focused our research on the design of mechanisms for highly anonymous environments.&nbsp; Among other contributions, we have provided a statistical technique for analyzing how confident we can be in the outcome of a vote when false-name manipulation may have taken place; analyzed which matching mechanisms (such as the mechanism used to match residents to hospitals) are false-name-proof, and in what precise sense; designed mechanisms for allocating tasks to agents when it cannot be directly observed whether the agent puts effort into the task; characterized a voting mechanism by its robustness to the insertion of clone alternatives; and analyzed the computational complexity of designing mechanisms when agents can pretend to be of a different type, at some cost.</p><br> <p>            Last Modified: 11/30/2015<br>      Modified by: Vincent&nbsp;Conitzer</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Computer systems are increasingly used by multiple parties with different objectives.  We cannot simply specify the behavior of these diverse participants; what we can do, however, is to provide incentives for desirable behavior.  This is where mechanism design comes in.  In mechanism design, the goal is to design rules that result in desirable outcomes even when used by strategic agents that each pursue their own self-interest.  Most of mechanism design has focused on the problem of the strategic misreporting of preferences.  For example, in an election, a voter may not vote for her most-preferred alternative because she does not believe it has a serious chance of winning; in an auction, a bidder may bid less than she thinks the item is worth because she hopes to win it at a lower price.  Mechanisms unlike these, where it is in fact always optimal to report truthfully, are called strategy-proof.  However, the applications that motivate computer scientists are often run in highly anonymous environments, such as the Internet.  Online voting, rating, and auction systems are pervasive.  In these contexts, other types of strategic manipulation are possible: for example, an agent is often able to participate multiple times, under different identities.  Strategy-proof mechanisms are generally still vulnerable to such false-name manipulation; mechanisms that are robust to this type of manipulation are called false-name-proof.  In accordance with the proposal, we have focused our research on the design of mechanisms for highly anonymous environments.  Among other contributions, we have provided a statistical technique for analyzing how confident we can be in the outcome of a vote when false-name manipulation may have taken place; analyzed which matching mechanisms (such as the mechanism used to match residents to hospitals) are false-name-proof, and in what precise sense; designed mechanisms for allocating tasks to agents when it cannot be directly observed whether the agent puts effort into the task; characterized a voting mechanism by its robustness to the insertion of clone alternatives; and analyzed the computational complexity of designing mechanisms when agents can pretend to be of a different type, at some cost.       Last Modified: 11/30/2015       Submitted by: Vincent Conitzer]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

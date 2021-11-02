@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>A Semi-Analytical Framework for Faster Deterministic and Stochastic Power System Simulations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>303863.00</AwardTotalIntnAmount>
+<AwardAmount>303863</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07010000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>ECCS</Abbreviation>
+<LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Aranya Chakrabortty</SignBlockName>
+<PO_EMAI>achakrab@nsf.gov</PO_EMAI>
+<PO_PHON>7032928113</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>With the increasing penetration of intermittent and renewable resources, electric utilities are facing new challenges in computer simulation of interconnected power systems. These challenges include (1) how to handle the fast growing dimensionality and nonlinearity in mathematical models of power grids, and (2) how to deal with increasing uncertainties in daily grid operations. The increasing uncertainties stem from the varying and unpredictable nature of renewable energy sources such as solar and wind, and even from inaccuracy in the mathematical models of renewable sources. The so-called "faster-than-real-time simulation" of a power grid is expected to start as soon as a disturbance is detected and to conclude even before the impact ends so as to improve real-time situational awareness and decision support capability of the grid operator against major power outages and enable real-time stability assessment and control. However, the traditional numerical integration based simulation approach has little power to improve time performance for real-time implementation due to its mechanism of iterative computations. Stochastic simulations are becoming more important for power grids with a high penetration of renewables but have not been executed well using the traditional simulation approach. This project will explore a completely new direction to achieve faster power grid simulation in both deterministic and stochastic approaches. The proposed semi-analytical framework is a better fit for faster-than-real-time simulation on parallel computers and also for stochastic power system simulations involving renewable sources. Success of the project may inspire software vendors to apply this new semi-analytical methodology leading to faster power grid simulation tools to help reduce the risk of the power grid to blackouts. This new methodology for power grid simulation can be generalized for fast simulation of other large-scale nonlinear dynamic systems. &lt;br/&gt;&lt;br/&gt;Unlike the traditional simulation approach solving power grid nonlinear differential-algebraic equations by numerical integration and iteration,  this new approach decomposes the solution process into tasks in two basic stages: the offline stage uses the Adomian decomposition method to derive an approximate, analytical solution called a "semi-analytical solution" (SAS) for each state variable, which is valid for a certain time interval and has symbolic variables such as the time, other state variables and parameters on the system condition; the online stage evaluates the analytical expression of each SAS by plugging in values of its symbolic variables for consecutive intervals until achieving the desired period of simulation, so the simulation result can be given in an extremely fast manner without any numerical integration or iteration. The project will take four steps to establish this semi-analytical methodology and its theoretical framework: (1) developing a systematic procedure to derive SASs for realistic power grid models; (2) studying the maximum potential of this new approach in fast deterministic and stochastic simulations; (3) implementing and testing this approach on a high-performance supercomputer; and (4) incorporating the approach with the traditional numerical approach into a hybrid approach under the recently studied "Parareal in Time" framework to explore the biggest potential in faster-than-real-time simulation for interconnected power systems.</AbstractNarration>
+<MinAmdLetterDate>07/14/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/14/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1610025</AwardID>
+<Investigator>
+<FirstName>Kai</FirstName>
+<LastName>Sun</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kai Sun</PI_FULL_NAME>
+<EmailAddress>kaisun@utk.edu</EmailAddress>
+<PI_PHON>8659743982</PI_PHON>
+<NSF_ID>000632898</NSF_ID>
+<StartDate>07/14/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Tennessee Knoxville</Name>
+<CityName>Knoxville</CityName>
+<ZipCode>379163801</ZipCode>
+<PhoneNumber>8659743466</PhoneNumber>
+<StreetAddress>1331 CIR PARK DR</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<StateCode>TN</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TN02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003387891</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TENNESSEE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003387891</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Tennessee Knoxville]]></Name>
+<CityName>Knoxville</CityName>
+<StateCode>TN</StateCode>
+<ZipCode>379960003</ZipCode>
+<StreetAddress><![CDATA[1 CIRCLE PARK]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TN02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7607</Code>
+<Text>EPCN-Energy-Power-Ctrl-Netwrks</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>155E</Code>
+<Text>Electric power networks</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~303863</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>With the increasing penetration of renewable generators and other distributed energy resources, electricity utilities are facing two challenges in power system simulation: (1) the fast growing dimensionality and nonlinearity of the mathematical model of an interconnected power grid, and (2) increasing uncertainties in both daily operating conditions and disturbances due to renewables. Given a large-scale power grid modelled in nonlinear differential-algebraic equations, a computer simulation program employing numerical solvers is rarely competent to achieve real-time simulation or more proactively, faster-than-real-time simulation because the mechanism of these numerical solvers is iterative computation. They become even more time-consuming when a power system simulation involves stochastic variables on responsive loads and intermittent distributed energy resources.</p> <p>This project has introduced a new paradigm for simulation of electric power systems in both deterministic and stochastic manners by taking a completely new, semi-analytical approach. From the mathematical model of an electric power system, this new approach first offline derives an approximate but analytical solution named a <em>semi-analytical solution</em> about the system state to be solved for simulation. The semi-analytical solution guarantees its accuracy over a certain time interval and, if applied to consecutive time intervals, can extend its validity for a long enough simulation period. Compared to a numerical simulation approach, this semi-analytical approach decomposes the computation burden for a simulation task into two stages: 1) in the offline preparation stage, a semi-analytical solution is derived as an analytical function of time, the system state and other selected parameters, which are all symbolized, and this portion of computational burden is the same for both deterministic and stochastic simulations; 2) in the next online simulation stage, values are plugged into symbolic variables over consecutive time intervals to evaluate the semi-analytical solution,&nbsp;so a simulation can run extremely fast without the need for numerical iterations. By its new methodology, this approach is a better fit not only for simulation of future power grids having a 50% or more renewable energy but also for a high-performance parallel computing environment.</p> <p>In order to establish such a new simulation paradigm and its theoretical framework, this project has developed a set of semi-analytical solvers for detailed and practical power system models, which build upon mathematical methods including the Adomian Decomposition, Differential Transformation, Holomorphic Embedding, Homotopy Analysis, Pade Approximation and Continued Fraction Approximation. The project provided a systematic procedure to derive and evaluate semi-analytical solutions for simulating large-scale electric power systems. &nbsp;The project has also implemented parallel-in-time semi-analytical simulation of large-scale power grids on high-performance supercomputers and demonstrated a significant speed-up (usually, two-digit) compared to numerical simulation. &nbsp;</p> <p>An important feature of resilient power grids is faster-than-real-time simulation whenever a failure is initiated or foreseen in order to take a proactive control action before it develops to a major disturbance or even a power outage. Faster-than-real-time simulation will be facilitated by the new semi-analytical methodology. Technology transfer will be conducted on the prototype solvers developed under this project and will also inspire software vendors to explore this new paradigm for fast and parallel power system simulation and analysis tools. Nowadays, computer science and data science are rapidly changing the world. Computer simulations and subsequent data analytics have been recognized as a viable path to understanding and control of complex systems. Electric power systems are among the most sophisticated large-scale complex systems of the mankind. Leveraged by high-performance computers, semi-analytical simulations together with conventional numerical simulations will promote generation of big data on power system dynamics and control and will drive applications and development of emerging intelligent methods and tools to design, plan and operate more resilient power grids. All these make learning of STEM subjects relevant and exciting to the general public.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/28/2020<br>      Modified by: Kai&nbsp;Sun</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/1610025/1610025_10440728_1603918989067_ProjectOutcomes--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1610025/1610025_10440728_1603918989067_ProjectOutcomes--rgov-800width.jpg" title="Semi-Analytical Power System Simulation"><img src="/por/images/Reports/POR/2020/1610025/1610025_10440728_1603918989067_ProjectOutcomes--rgov-66x44.jpg" alt="Semi-Analytical Power System Simulation"></a> <div class="imageCaptionContainer"> <div class="imageCaption">A semi-analytical simulation approach decomposes a time-consuming simulation task into two stages, i.e. derivation and evaluation of a semi-analytical solution of a power grid DAE model. The simulation can be parallelized and run extremely fast without the need for numerical iterations.</div> <div class="imageCredit">Kai Sun</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Kai&nbsp;Sun</div> <div class="imageTitle">Semi-Analytical Power System Simulation</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ With the increasing penetration of renewable generators and other distributed energy resources, electricity utilities are facing two challenges in power system simulation: (1) the fast growing dimensionality and nonlinearity of the mathematical model of an interconnected power grid, and (2) increasing uncertainties in both daily operating conditions and disturbances due to renewables. Given a large-scale power grid modelled in nonlinear differential-algebraic equations, a computer simulation program employing numerical solvers is rarely competent to achieve real-time simulation or more proactively, faster-than-real-time simulation because the mechanism of these numerical solvers is iterative computation. They become even more time-consuming when a power system simulation involves stochastic variables on responsive loads and intermittent distributed energy resources.  This project has introduced a new paradigm for simulation of electric power systems in both deterministic and stochastic manners by taking a completely new, semi-analytical approach. From the mathematical model of an electric power system, this new approach first offline derives an approximate but analytical solution named a semi-analytical solution about the system state to be solved for simulation. The semi-analytical solution guarantees its accuracy over a certain time interval and, if applied to consecutive time intervals, can extend its validity for a long enough simulation period. Compared to a numerical simulation approach, this semi-analytical approach decomposes the computation burden for a simulation task into two stages: 1) in the offline preparation stage, a semi-analytical solution is derived as an analytical function of time, the system state and other selected parameters, which are all symbolized, and this portion of computational burden is the same for both deterministic and stochastic simulations; 2) in the next online simulation stage, values are plugged into symbolic variables over consecutive time intervals to evaluate the semi-analytical solution, so a simulation can run extremely fast without the need for numerical iterations. By its new methodology, this approach is a better fit not only for simulation of future power grids having a 50% or more renewable energy but also for a high-performance parallel computing environment.  In order to establish such a new simulation paradigm and its theoretical framework, this project has developed a set of semi-analytical solvers for detailed and practical power system models, which build upon mathematical methods including the Adomian Decomposition, Differential Transformation, Holomorphic Embedding, Homotopy Analysis, Pade Approximation and Continued Fraction Approximation. The project provided a systematic procedure to derive and evaluate semi-analytical solutions for simulating large-scale electric power systems.  The project has also implemented parallel-in-time semi-analytical simulation of large-scale power grids on high-performance supercomputers and demonstrated a significant speed-up (usually, two-digit) compared to numerical simulation.    An important feature of resilient power grids is faster-than-real-time simulation whenever a failure is initiated or foreseen in order to take a proactive control action before it develops to a major disturbance or even a power outage. Faster-than-real-time simulation will be facilitated by the new semi-analytical methodology. Technology transfer will be conducted on the prototype solvers developed under this project and will also inspire software vendors to explore this new paradigm for fast and parallel power system simulation and analysis tools. Nowadays, computer science and data science are rapidly changing the world. Computer simulations and subsequent data analytics have been recognized as a viable path to understanding and control of complex systems. Electric power systems are among the most sophisticated large-scale complex systems of the mankind. Leveraged by high-performance computers, semi-analytical simulations together with conventional numerical simulations will promote generation of big data on power system dynamics and control and will drive applications and development of emerging intelligent methods and tools to design, plan and operate more resilient power grids. All these make learning of STEM subjects relevant and exciting to the general public.          Last Modified: 10/28/2020       Submitted by: Kai Sun]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

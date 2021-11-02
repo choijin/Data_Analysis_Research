@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SaTC: CORE: Small: Collaborative: Understanding and Detecting Memory Bugs in Rust</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>298404.00</AwardTotalIntnAmount>
+<AwardAmount>298404</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Rust is a young programming language designed for systems software development. Its main design goal is to achieve runtime performance as good as its competitor language, C, while offering better memory and thread safety using a linear type system and strict compile-time checking. Rust has become increasingly popular among developers of safety-critical software, such as operating systems, browsers, and block-chain systems. However, both practitioners and researchers know little about the status of memory bugs in real-world Rust programs. For example, do Rust compile-time checks eliminate all memory bugs? If not, do memory bugs in Rust exhibit certain detectable patterns? This project seeks answers to these questions by devising techniques to identify and eliminate the memory bugs? In particular, it aims to achieve a better understanding of common mistakes made by Rust programmers and build novel techniques to catch memory bugs missed by Rust compile-time checks. The outcome will influence how Rust evolves, guide how developers program Rust safely, and improve the safety of the Rust ecosystem.     &lt;br/&gt;&lt;br/&gt;Rust safety mechanisms are sound, but sometimes they are too strict and prevent flexible control over low-level resources. To mitigate this problem, Rust allows developers to bypass its compiler checks using unsafe code. A function can be declared as unsafe. A piece of code inside a safe function can be unsafe, known as interior unsafe, where the unsafe code is encapsulated internally and treated as safe externally. Unfortunately, unsafe code and interior unsafe code can lead to memory bugs since they bypass Rust safety checks. This project aims to better understand Rust memory bugs and build novel static/dynamic tools to combat Rust memory bugs. This project contains three components: (1) a comprehensive taxonomy of Rust memory bugs, (2) novel static techniques to identify memory bugs in interior unsafe functions, and (3) novel fuzzing techniques enhanced by the safe/unsafe information in Rust.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/30/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>06/30/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1955965</AwardID>
+<Investigator>
+<FirstName>Linhai</FirstName>
+<LastName>Song</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Linhai Song</PI_FULL_NAME>
+<EmailAddress>lus401@ist.psu.edu</EmailAddress>
+<PI_PHON>6084485496</PI_PHON>
+<NSF_ID>000755117</NSF_ID>
+<StartDate>06/30/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Pennsylvania State Univ University Park</Name>
+<CityName>University Park</CityName>
+<CountyName/>
+<ZipCode>168021503</ZipCode>
+<PhoneNumber>8148651372</PhoneNumber>
+<StreetAddress>201 Old Main</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003403953</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PENNSYLVANIA STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003403953</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Pennsylvania State Univ University Park]]></Name>
+<CityName>University Park</CityName>
+<CountyName/>
+<StateCode>PA</StateCode>
+<ZipCode>168021503</ZipCode>
+<StreetAddress><![CDATA[201 Old Main]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~298404</FUND_OBLG>
+</Award>
+</rootTag>

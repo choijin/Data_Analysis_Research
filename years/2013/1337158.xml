@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: CLCCA: On the Hunt for Correctness and Performance Bugs in Large-scale Programs</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>260331.00</AwardTotalIntnAmount>
+<AwardAmount>292331</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The scale of computing applications has been dramatically increasing over the past several years. As applications in domains such as computational genomics, data mining, and machine learning are let loose on ever-more-complex problems, the scale of the inputs to these applications has shot up. And as the pursuit of parallelism has led to increasing core counts for servers, and increasing numbers of servers and racks for data centers, the scale of the systems that these applications must run on has also dramatically risen. A critical problem in developing large scale applications is detecting and debugging scaling issues, which are problems with program behavior that emerge only as a program scales up. Scaling issues show up as correctness bugs or performance bottlenecks. Unfortunately, detecting bugs that arise at large scales is difficult. Manually poring through logs or performance profiling individual application processes is not practical. Moreover, the developer may not have access to the inputs and systems necessary to run the application at large scales. This research project aims to develop automated techniques to detect and diagnose correctness and performance bugs for large-scale programs using program behavior modeling, training at small scale runs, and extrapolating to large-scale runs.&lt;br/&gt;&lt;br/&gt;To achieve our objectives, we build statistical models that incorporate scale. By relating program scale to program behavior, we can predict how a program behaves at large scales, without ever seeing correct behavior at that scale, and use those predictions to detect and diagnose bugs. The project is structured around three thrusts, each using the computational genomics applications for context. In the first, we build statistical models of program behavior that incorporate scale. In the second, we build statistical techniques for detecting when there is an error and then drilling down to identify potential root causes in the software. In the third, we build a testing tool which will allow us to uncover such scaling issues in an accelerated manner.  In aggregate, the project combines in innovative ways applications of static analysis, dynamic instrumentation, modeling, and machine learning-based data analysis.  The project will use computational genomics applications, such as Blast, Bowtie, Trinity/Butterfly, and Margin, to evaluate the approach.</AbstractNarration>
+<MinAmdLetterDate>09/13/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>04/24/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1337158</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Gribskov</LastName>
+<PI_MID_INIT>R</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael R Gribskov</PI_FULL_NAME>
+<EmailAddress>gribskov@purdue.edu</EmailAddress>
+<PI_PHON>7654946933</PI_PHON>
+<NSF_ID>000434915</NSF_ID>
+<StartDate>09/13/2013</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Saurabh</FirstName>
+<LastName>Bagchi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Saurabh Bagchi</PI_FULL_NAME>
+<EmailAddress>sbagchi@purdue.edu</EmailAddress>
+<PI_PHON>7654941741</PI_PHON>
+<NSF_ID>000309372</NSF_ID>
+<StartDate>09/13/2013</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Milind</FirstName>
+<LastName>Kulkarni</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Milind Kulkarni</PI_FULL_NAME>
+<EmailAddress>milind@purdue.edu</EmailAddress>
+<PI_PHON>7654941742</PI_PHON>
+<NSF_ID>000549148</NSF_ID>
+<StartDate>09/13/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName>West Lafayette</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>479072035</ZipCode>
+<StreetAddress><![CDATA[465 Northwestern Ave.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1640</Code>
+<Text>Information Technology Researc</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~260331</FUND_OBLG>
+<FUND_OBLG>2014~16000</FUND_OBLG>
+<FUND_OBLG>2015~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Genomics is an important area of study that holds the promise of unraveling mysteries of how our genes guide our lives and how personalized gene therapies may be used to treat various medical conditions. The increasing adoption of massively-parallel sequencing technologies, known as next generation sequencing (NGS) technologies, has resulted in a situation where computation has become the bottleneck in our ability to ingest all the genetic information and to synthesize actionable knowledge from this information.</p> <p><br /><strong>Intellectual Merit</strong></p> <p>We addressed this problem by developing computational approaches, with a focus on the above domain of computational genomics.<br /><br /><strong>Extracting parallelism</strong>. We developed a principled way to extract parallelism from applications. We leveraged the approximate nature of some of these applications (e.g., the DNA sequence match does not need to be exact) to aid in the parallelism. We identified coarse-grained, inter-query parallelism and fine-grained, intra-query parallelism inherent in many of the genomics workflows. We developed parallel building blocks for alignment of genomic sequences, assembly of genomes, and pattern mining for determining regulatory elements in the genome, epigenome, and metagenome.<br /><br /><strong>Modeling</strong>. The quality of the scaling model determines how well our system can predict the behavior of a program at large scales. We extended existing modeling techniques that can capture a wide variety of scaling behaviors and automatically select which program behaviors to track. We also modeled the data dependence that many of the target algorithms exhibit and came up with techniques to quantify the confidence in the output of the model.<br /><br /><strong>Detection and diagnosis</strong>. Because the scaling model captures the relationship between scale and behavior, we used it to predict a program&rsquo;s behavior even when run at a new, heretofore-unseen scale. Thus, discrepancy between the predicted behavior and the observed behavior was an indicator that there is a manifested software bug. By isolating the source of those deviations to particular program behaviors, such as a particular loop&rsquo;s executing too many times, we could localize the source of the bug. The key feature of our approach is that the modeling can be done, efficiently, at small scales, and the model applied for detection and diagnosis at large production scales.</p> <p><br /><strong>Broader Impact</strong></p> <p>We disseminated the deliverables of the project through open source software, a domain specific language geared toward genomics researchers and practitioners who want to develop scalable and high-performing applications, and tutorials presented at the Biology Division of the Argonne National Laboratory. To further simplify the use of our deliverables, we created a web server that can take queries about which parts of the human epigenome exert a regulatory effect and visualize it. At the backend, this runs a distributed machine learning algorithm that runs a classification task.</p><br> <p>            Last Modified: 01/15/2017<br>      Modified by: Milind&nbsp;Kulkarni</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484230488800_sarvavid--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484230488800_sarvavid--rgov-800width.jpg" title="Sarvavid genomics DSL"><img src="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484230488800_sarvavid--rgov-66x44.jpg" alt="Sarvavid genomics DSL"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Many computational genomics applications can be decomposed into reusable software building blocks. Our Domain Specific Language Sarvavid provides such building blocks and enables one to compose them easily, while its compiler infrastructure creates efficient binaries.</div> <div class="imageCredit">Project team members</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Saurabh&nbsp;Bagchi</div> <div class="imageTitle">Sarvavid genomics DSL</div> </div> </li> <li> <a href="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484230903392_dbg--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484230903392_dbg--rgov-800width.jpg" title="Vanilla De Brujn graph construction"><img src="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484230903392_dbg--rgov-66x44.jpg" alt="Vanilla De Brujn graph construction"></a> <div class="imageCaptionContainer"> <div class="imageCaption">A sample genomic assembly process that uses De Brujn graph for assembly. In this, the algorithm (such as, IDBA or SPAdes) iterates through multiple k values in the k-mer construction. This shows the serial bottleneck in the assembly process which prevents it from working at large scales.</div> <div class="imageCredit">Project team members</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Saurabh&nbsp;Bagchi</div> <div class="imageTitle">Vanilla De Brujn graph construction</div> </div> </li> <li> <a href="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484231131757_dbgk2--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484231131757_dbgk2--rgov-800width.jpg" title="Parallel De Brujn graph construction"><img src="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484231131757_dbgk2--rgov-66x44.jpg" alt="Parallel De Brujn graph construction"></a> <div class="imageCaptionContainer"> <div class="imageCaption">This shows our contribution in doing parallel De Brujn graph construction for genomic assembly. The insight is that the k-mer graphs for different k values can be constructed in parallel and then "patched up".</div> <div class="imageCredit">Project team members</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Saurabh&nbsp;Bagchi</div> <div class="imageTitle">Parallel De Brujn graph construction</div> </div> </li> <li> <a href="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484231378392_avishkar--rgov-214x142.jpg" original="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484231378392_avishkar--rgov-800width.jpg" title="Avishkar: Machine learning for identifying genomic regulatory elements"><img src="/por/images/Reports/POR/2017/1337158/1337158_10280114_1484231378392_avishkar--rgov-66x44.jpg" alt="Avishkar: Machine learning for identifying genomic regulatory elements"></a> <div class="imageCaptionContainer"> <div class="imageCaption">This shows our contribution of distributed machine learning algorithms for mining patterns in the human epigenome to determine which ones affect gene expression levels. Our algorithm runs on a Spark backend and is the first to run on the entire human epigenome based on public dataset from NCBI.</div> <div class="imageCredit">Project team members</div> <div class="imageSubmitted">Saurabh&nbsp;Bagchi</div> <div class="imageTitle">Avishkar: Machine learning for identifying genomic regulatory elements</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Genomics is an important area of study that holds the promise of unraveling mysteries of how our genes guide our lives and how personalized gene therapies may be used to treat various medical conditions. The increasing adoption of massively-parallel sequencing technologies, known as next generation sequencing (NGS) technologies, has resulted in a situation where computation has become the bottleneck in our ability to ingest all the genetic information and to synthesize actionable knowledge from this information.   Intellectual Merit  We addressed this problem by developing computational approaches, with a focus on the above domain of computational genomics.  Extracting parallelism. We developed a principled way to extract parallelism from applications. We leveraged the approximate nature of some of these applications (e.g., the DNA sequence match does not need to be exact) to aid in the parallelism. We identified coarse-grained, inter-query parallelism and fine-grained, intra-query parallelism inherent in many of the genomics workflows. We developed parallel building blocks for alignment of genomic sequences, assembly of genomes, and pattern mining for determining regulatory elements in the genome, epigenome, and metagenome.  Modeling. The quality of the scaling model determines how well our system can predict the behavior of a program at large scales. We extended existing modeling techniques that can capture a wide variety of scaling behaviors and automatically select which program behaviors to track. We also modeled the data dependence that many of the target algorithms exhibit and came up with techniques to quantify the confidence in the output of the model.  Detection and diagnosis. Because the scaling model captures the relationship between scale and behavior, we used it to predict a program?s behavior even when run at a new, heretofore-unseen scale. Thus, discrepancy between the predicted behavior and the observed behavior was an indicator that there is a manifested software bug. By isolating the source of those deviations to particular program behaviors, such as a particular loop?s executing too many times, we could localize the source of the bug. The key feature of our approach is that the modeling can be done, efficiently, at small scales, and the model applied for detection and diagnosis at large production scales.   Broader Impact  We disseminated the deliverables of the project through open source software, a domain specific language geared toward genomics researchers and practitioners who want to develop scalable and high-performing applications, and tutorials presented at the Biology Division of the Argonne National Laboratory. To further simplify the use of our deliverables, we created a web server that can take queries about which parts of the human epigenome exert a regulatory effect and visualize it. At the backend, this runs a distributed machine learning algorithm that runs a classification task.       Last Modified: 01/15/2017       Submitted by: Milind Kulkarni]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

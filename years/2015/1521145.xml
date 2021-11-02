@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Non-uniform sampling of permutations and large scale hypothesis testing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>399690.00</AwardTotalIntnAmount>
+<AwardAmount>399690</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Christopher Stark</SignBlockName>
+<PO_EMAI>cstark@nsf.gov</PO_EMAI>
+<PO_PHON>7032924869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern scientific tools are delivering very large data sets. This is especially true in biology where expression levels for thousands of genes or even the specific DNA information at millions of locations on the genome can be measured. Scientists would like to correlate these variables with other measured quantities, especially the presence or absence of a disease. When millions of hypotheses are investigated, it is possible that one of them will correlate with some genes just by chance. It is common to insist that the observed correlation for one test be so strong that it would happen by chance at most once in 20 million tries. The usual way to measure chance correlations is to shuffle the data at random and see how often a strong effect appears. If the event of interest is a one in 20 million outcome we usually need about ten times that many random shuffles to be sure. This proposal is about finding more efficient random shuffling strategies to get a desired answer with fewer shuffles. The goal is to find important biological variables with much less computation and greater reliability. Finding the important genes is a first step for followup work that includes mining the literature and running experiments to understand the role of those genes and determine whether their relationship is useful or not. Part of the work will also involve adjusting for other factors measured or otherwise that could make the observed correlations misleading. New mathematical methods for finding and measuring rare and unusual outcomes can also be used in industrial problems where the rare phenomenon is an unusually effective product design as measured by computer simulations.&lt;br/&gt;&lt;br/&gt;The usual way to test whether a gene or a gene set is associated with a phenotype (disease, height, etc.) or a treatment (diet, medicines, etc.) is to run a permutation test. From n data points, there are as many as n! permutations to run. Usually this amount of permutations is beyond our budget and we sample from the permutations as well. If we compute our test statistic M times, once on the original data and once for each of M-1 permutations, then the smallest p value we can possibly get is 1/M.  That is, to attain a target p value we have to compute our statistic at least 1/p times. The standard threshold for genome wide association studies translates into a bare minimum of 20,000,000 computations. To have adequate power in a permutation test requires more like 10/p computations. When the phenotype/treatment is binary, the permutation test reduces to sampling with replacement. This project uses non-uniform sampling of permutations or combinations. The main method is importance sampling from mixtures of proposals using the mixture component probabilities as control variates. Markov chain Monte Carlo methods will be investigated.</AbstractNarration>
+<MinAmdLetterDate>06/22/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/14/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1521145</AwardID>
+<Investigator>
+<FirstName>Art</FirstName>
+<LastName>Owen</LastName>
+<PI_MID_INIT>B</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Art B Owen</PI_FULL_NAME>
+<EmailAddress>owen@stat.stanford.edu</EmailAddress>
+<PI_PHON>6507252232</PI_PHON>
+<NSF_ID>000472351</NSF_ID>
+<StartDate>06/22/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stanford University</Name>
+<CityName>Stanford</CityName>
+<ZipCode>943052004</ZipCode>
+<PhoneNumber>6507232300</PhoneNumber>
+<StreetAddress>450 Jane Stanford Way</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009214214</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>LELAND STANFORD JUNIOR UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009214214</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stanford University]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>943054020</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~129094</FUND_OBLG>
+<FUND_OBLG>2016~133184</FUND_OBLG>
+<FUND_OBLG>2017~137412</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project considers efficent ways to make a great many statistical tests with an emphasis on testing which genes are related to an outcome of interest such as having a disease or attaining extreme longevity. &nbsp;These problems can be hard because the amount of computation can be extremely large. &nbsp;Or they can be hard because there are an extremely large number of genes hence more chances to make a discovery by random chance that is not related to the outcome of interest.</p> <p><br />One of the papers worked out a way to get approximate permutation tests without doing the enormous number of permutations that would be required in an exact permutation test.</p> <p><br />One of the papers found a method to identify positions on the genome that are associated with extreme longevity, as measured by living past the age 100. There are few centenarians who have been sequenced and many genetic locations to test. &nbsp;The paper developed a method based on harnessing other studies such as those on age related disease in order to home in on the best candidates.</p> <p><br />One of the papers and one as yet unpublished paper study partial conjunction tests. &nbsp;Sometimes it is not enough to find an association between a gene and a condition just once. &nbsp;It is more convincing to find that association every time (conjunction testing) or perhaps r times of out n (partial conjunction testing). &nbsp;For instance, something that holds true in multiple populations is on a sounder basis than something found only once.</p> <p><br />Similar statistical samplling problems come up in measuring just how rare a rare event is in simulation. One of the papers developed methods for finding the probability of one or more extremely rare events happening when those events are defined as a point landing in certain sets in very high dimensional space. &nbsp;In collaboration with researchers at Los Alamos, that work lead to methods to estimate the probability of a failure in the electrical grid.</p> <p><br />This project supported fourteen publications, five theses and someadditional articles are still under review.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/17/2019<br>      Modified by: Art&nbsp;B&nbsp;Owen</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project considers efficent ways to make a great many statistical tests with an emphasis on testing which genes are related to an outcome of interest such as having a disease or attaining extreme longevity.  These problems can be hard because the amount of computation can be extremely large.  Or they can be hard because there are an extremely large number of genes hence more chances to make a discovery by random chance that is not related to the outcome of interest.   One of the papers worked out a way to get approximate permutation tests without doing the enormous number of permutations that would be required in an exact permutation test.   One of the papers found a method to identify positions on the genome that are associated with extreme longevity, as measured by living past the age 100. There are few centenarians who have been sequenced and many genetic locations to test.  The paper developed a method based on harnessing other studies such as those on age related disease in order to home in on the best candidates.   One of the papers and one as yet unpublished paper study partial conjunction tests.  Sometimes it is not enough to find an association between a gene and a condition just once.  It is more convincing to find that association every time (conjunction testing) or perhaps r times of out n (partial conjunction testing).  For instance, something that holds true in multiple populations is on a sounder basis than something found only once.   Similar statistical samplling problems come up in measuring just how rare a rare event is in simulation. One of the papers developed methods for finding the probability of one or more extremely rare events happening when those events are defined as a point landing in certain sets in very high dimensional space.  In collaboration with researchers at Los Alamos, that work lead to methods to estimate the probability of a failure in the electrical grid.   This project supported fourteen publications, five theses and someadditional articles are still under review.          Last Modified: 10/17/2019       Submitted by: Art B Owen]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

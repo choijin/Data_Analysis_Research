@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: Extensible Web Browsers and User Privacy</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>374774.00</AwardTotalIntnAmount>
+<AwardAmount>374774</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern Web browsers provide a "private browsing" mode, wherein the browser does not record the user's behavior such as which sites they visited.  This mode is valuable to users of all stripes, from the privacy-conscious to those those worried about persecution by totalitarian regimes.  Browser implementers therefore take great care to try to ensure these modes function correctly.  However, modern browsers are highly extensible: users can install extensions to customize their browser, and millions have done so.  Unfortunately, it is technically challenging for browsers to automatically flag which extensions are privacy-preserving and which are not, so browsers currently do not attempt to offer such guidance -- leaving users to fend for themselves.&lt;br/&gt;&lt;br/&gt;This work presents a type system for verifying whether extensions violate private browsing mode.  The types distinguish Safe values (that may always be used in private mode) from Unsafe ones (that may lead to privacy violations).  The type system is engineered to be&lt;br/&gt;"lightweight": extensions that never perform unsafe actions should type check without changes, and extension authors must only annotate their extension code when an unsafe action is used.  Extensions that pass this check are accompanied by a guarantee that they do not perform privacy-violating actions, and are thus safe to install in private-browsing mode.</AbstractNarration>
+<MinAmdLetterDate>08/17/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/17/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1223231</AwardID>
+<Investigator>
+<FirstName>Shriram</FirstName>
+<LastName>Krishnamurthi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Shriram Krishnamurthi</PI_FULL_NAME>
+<EmailAddress>sk+17@cs.brown.edu</EmailAddress>
+<PI_PHON>4018637722</PI_PHON>
+<NSF_ID>000280993</NSF_ID>
+<StartDate>08/17/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Benjamin</FirstName>
+<LastName>Lerner</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Benjamin Lerner</PI_FULL_NAME>
+<EmailAddress>Benjamin_Lerner@brown.edu</EmailAddress>
+<PI_PHON>4018637600</PI_PHON>
+<NSF_ID>000603008</NSF_ID>
+<StartDate>08/17/2012</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brown University</Name>
+<CityName>Providence</CityName>
+<ZipCode>029129002</ZipCode>
+<PhoneNumber>4018632777</PhoneNumber>
+<StreetAddress>BOX 1929</StreetAddress>
+<StreetAddress2><![CDATA[350 Eddy Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<StateCode>RI</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>RI01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001785542</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BROWN UNIVERSITY IN PROVIDENCE IN THE STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001785542</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brown University]]></Name>
+<CityName>Providence</CityName>
+<StateCode>RI</StateCode>
+<ZipCode>029129093</ZipCode>
+<StreetAddress><![CDATA[Office of Sponsored Projects]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>RI01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~374774</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>JavaScript is a widely-used Web programming language. It powers both the pages of the Web and, in some cases, the Web browser itself. In the latter capacity, in particular, it can be used by developers to augment the browser's functionality in many ways. Unfortunately, these extensions can cause numerous problems, and in particular interact poorly with browser modalities such as private browsing (which is often used to enhance the user's privacy).</p> <p>These problems mean that this setting in particular, and more broadly JavaScript in general, need deeper and more rigorous analyses. Unfortunately, the highly dynamic nature of JavaScript acts precisely as a deterrent to such analyses, making this a technically challenging task.</p> <p>The team of this grant has worked on this problem from several dimensions. Most narrowly, it has built analysis systems that can identify vulnerabilities in real-world JavaScript extensions, some of them widely used and some, ironically enough, designed preciselyt to enhance user privacy.</p> <p>Stepping out a level, the team has worked more generally on general-purpose tools for JavaScript analysis in the form of type systems and flow analyses, which are the technologies used to implement the vulnerability checkers. These tools represent novel approaches to program analyses that take into account the vagaries of JavaScript. In particular, the team has identified that no one tool fits the many different uses of JavaScript, and rather the language needs a <em>family</em>&nbsp;of tools that can be easily composed and customized. The team has created such a family of checkers and a theory&mdash;&ldquo;progressive types&rdquo;&mdash;to explain their behavior.</p> <p>Even ore broadly, the team has worked on pinning down one of the core problems in JavaScript, which is the perception that it is semantically bloated. While many developers and researchers have an intuitive feel for this concept, this is not usually put on a formal footing. The team has tried to create a metric to evaluating such claims, and applied it to JavaScript (identifying the features that most contribute to its bloat). This result has been brought to the attention of the JavaScript standardization committee, in the hope that such efforts can be used to guide the future design of the language, not only to retroactively analyze decisions after they have been committed.</p> <p>Finally, the team is applying results from this proposal broadly to other realms. In particular, the team has created a new education-friendly programming language that uses team members' expertise to create secure interfaces for Web programming. This is a very attractive concept for beginning programmers, and the team is in active collaboration with high-school teachers to take these ideas to broad student audiences.</p><br> <p>            Last Modified: 08/13/2015<br>      Modified by: &nbsp;</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ JavaScript is a widely-used Web programming language. It powers both the pages of the Web and, in some cases, the Web browser itself. In the latter capacity, in particular, it can be used by developers to augment the browser's functionality in many ways. Unfortunately, these extensions can cause numerous problems, and in particular interact poorly with browser modalities such as private browsing (which is often used to enhance the user's privacy).  These problems mean that this setting in particular, and more broadly JavaScript in general, need deeper and more rigorous analyses. Unfortunately, the highly dynamic nature of JavaScript acts precisely as a deterrent to such analyses, making this a technically challenging task.  The team of this grant has worked on this problem from several dimensions. Most narrowly, it has built analysis systems that can identify vulnerabilities in real-world JavaScript extensions, some of them widely used and some, ironically enough, designed preciselyt to enhance user privacy.  Stepping out a level, the team has worked more generally on general-purpose tools for JavaScript analysis in the form of type systems and flow analyses, which are the technologies used to implement the vulnerability checkers. These tools represent novel approaches to program analyses that take into account the vagaries of JavaScript. In particular, the team has identified that no one tool fits the many different uses of JavaScript, and rather the language needs a family of tools that can be easily composed and customized. The team has created such a family of checkers and a theory&mdash;"progressive types"&mdash;to explain their behavior.  Even ore broadly, the team has worked on pinning down one of the core problems in JavaScript, which is the perception that it is semantically bloated. While many developers and researchers have an intuitive feel for this concept, this is not usually put on a formal footing. The team has tried to create a metric to evaluating such claims, and applied it to JavaScript (identifying the features that most contribute to its bloat). This result has been brought to the attention of the JavaScript standardization committee, in the hope that such efforts can be used to guide the future design of the language, not only to retroactively analyze decisions after they have been committed.  Finally, the team is applying results from this proposal broadly to other realms. In particular, the team has created a new education-friendly programming language that uses team members' expertise to create secure interfaces for Web programming. This is a very attractive concept for beginning programmers, and the team is in active collaboration with high-school teachers to take these ideas to broad student audiences.       Last Modified: 08/13/2015       Submitted by:]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Conic optimization methods for control, system identification, and signal processing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>329618.00</AwardTotalIntnAmount>
+<AwardAmount>343483</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07010000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>ECCS</Abbreviation>
+<LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Radhakisan Baheti</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Convex optimization methods are important in control, signal processing, machine learning, and many other fields of engineering and applied science. Advances in algorithms for convex optimization over the last twenty-five years have resulted in reliable and user-friendly software tools that are widely used in academic research and industry. The most popular software packages are based on a separation between a modeling front-end and a general-purpose solver for semidefinite optimization (a matrix extension of classical linear programming, and a special case of conic linear optimization). The task of the modeling front-end is to translate the optimization problem into the canonical form required by the semidefinite optimization solver. The techniques used in this translation step are the outcome of extensive research on how to represent nonlinear convex constraints in the semidefinite optimization format. The algorithms used in the solvers are primal-dual interior-point methods for semidefinite optimization, which reached a high level of maturity in the early 2000s. Each of these two layers brings a limit on scalability. The reduction to semidefinite optimization in the modeling step often requires the introduction of auxiliary variables and constraints, which can increase the size of the optimization problem considerably. In addition, the semidefinite optimization algorithms that are commonly used in convex optimization solvers are second-order methods and require in each iteration the solution of large, often dense, sets of linear equations.  This further limits the size of the problems that can be solved. This proposal is motivated by the increasing demand for large-scale convex optimization algorithms in control, signal processing, and system identification. The project focuses on developing specialized methods for two types of constraints that underlie some of the most important convex optimization applications in these areas, and that have recently found new applications in statistical signal processing and machine learning.    &lt;br/&gt;&lt;br/&gt;The first class of problems consists of convex optimization problems involving convex cones of nonnegative Popov functions. This includes nonnegative matrix polynomials and trigonometric polynomials, and is of fundamental importance in linear system theory, control, and signal processing. The second class includes system identification methods based on minimizing the nuclear norm (trace norm) of structured matrices. The focus on these two problem classes is motivated by several reasons: first, their central position in system theory and signal processing; second, well-known difficulties in solving them using general-purpose semidefinite optimization software;  and, third, their importance in recently discovered techniques that extend 1-norm optimization methods for sparse signal recovery to sparse signal recovery problems over continuous domains and to matrix rank minimization problems. Two algorithmic approaches will be considered for each of the two problem classes: interior-point methods for non-symmetric conic optimization, that handle the constraints directly without embedding them in a much larger semidefinite optimization problem, and first-order proximal algorithms based on operator splitting and decomposition techniques.</AbstractNarration>
+<MinAmdLetterDate>07/23/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/30/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1509789</AwardID>
+<Investigator>
+<FirstName>Lieven</FirstName>
+<LastName>Vandenberghe</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Lieven Vandenberghe</PI_FULL_NAME>
+<EmailAddress>vandenbe@ee.ucla.edu</EmailAddress>
+<PI_PHON>3102061259</PI_PHON>
+<NSF_ID>000488711</NSF_ID>
+<StartDate>07/23/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Los Angeles</Name>
+<CityName>LOS ANGELES</CityName>
+<ZipCode>900951406</ZipCode>
+<PhoneNumber>3107940102</PhoneNumber>
+<StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+<StreetAddress2><![CDATA[Suite 700]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA33</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>092530369</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, LOS ANGELES</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California, Los Angeles]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900951594</ZipCode>
+<StreetAddress><![CDATA[Electrical Engineering Dept.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA33</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7607</Code>
+<Text>EPCN-Energy-Power-Ctrl-Netwrks</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>092E</Code>
+<Text>Control systems &amp; applications</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>155E</Code>
+<Text>Electric power networks</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~329618</FUND_OBLG>
+<FUND_OBLG>2016~8000</FUND_OBLG>
+<FUND_OBLG>2018~5865</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Convex optimization techniques are widely used in control, system&nbsp;identification, signal processing, and related disciplines. In these applications the convex optimization problems are&nbsp;often solved by first reformulating them as semidefinite optimization&nbsp;problems (linear optimization problems over the convex cone of positive semidefinite symmetric matrices) and then applying general-purpose software packages for&nbsp;semidefinite optimization.&nbsp; The most commonly used solvers are&nbsp; implementations of primal-dual interior-point algorithms developed about twenty years ago.&nbsp; For many important applications&nbsp;these algorithms do not scale to the problem sizes that are needed in&nbsp;&nbsp;current practice.&nbsp; A major goal of the project has been the development of&nbsp;&nbsp;more efficient methods for certain classes of semidefinite&nbsp;optimization problems that are particularly important in control and&nbsp;signal processing.&nbsp; &nbsp;The new approaches are based on first-order proximal&nbsp;algorithms and the use of non-Euclidean distance functions tailored to&nbsp;&nbsp;the structure in the problem.</p> <p>A first class of problems are optimization problems over the cone of nonnegative trigonometric polynomials.&nbsp; Problems of this type arise frequently in signal processing, and extensions to other types of&nbsp;&nbsp;nonnegative polynomial or rational function constraints are important in&nbsp;&nbsp;control and system theory.&nbsp; When applying first-order methods to these&nbsp;problems, the critical step is the projection on the cone of nonnegative trigonometric polynomials.&nbsp; By using the Itakura-Saito generalized&nbsp;distance, we were able to reduce the cost of this computation to roughly&nbsp;quadratic in the order of the polynomial.&nbsp;&nbsp;Interior-point methods or Euclidean proximal methods for the same&nbsp;problems, on the other hand, have a complexity per iteration that is at&nbsp;&nbsp;least cubic in the order of the polynomial.&nbsp; &nbsp;As a second application, the problem of exploiting sparsity in&nbsp;&nbsp;semidefinite optimization was studied.&nbsp; An algorithm was proposed for the centering problem in sparse semidefinite optimization. By using the generalized distance defined by the logarithmic barrier&nbsp;function the per-iteration complexity of the centering computation was reduced to&nbsp;&nbsp;roughly the cost of a sparse Cholesky factorization.&nbsp; &nbsp;The method&nbsp;therefore scales to much larger problems than algorithms based on&nbsp;&nbsp;Newton's method or Euclidean proximal methods.</p> <p>The project also advanced applications of semidefinite optimization.&nbsp; &nbsp;We applied convex duality and the Kalman-Yakubovich-Popov lemma&nbsp;to provide simple, constructive proofs of the semidefinite representations&nbsp;of the penalty functions used in gridless compressed sensing and related applications in signal processing.&nbsp; The connection led to several&nbsp;extensions to convex penalty functions for estimation problems over structured sets of vectors parameterized via the nullspace of matrix pencils.&nbsp; We also investigated system identification methods based on subspace algorithms, matrix trace norm minimization, and convex optimization, for applications in which some signal measurements are heavily corrupted by artifacts or some signal channels are missing, and applied the techniques to a problem in biomedical signal processing.</p> <p>Several of the results obtained in the project have been integrated into a graduate course on large-scale optimization at UCLA.</p><br> <p>            Last Modified: 10/20/2020<br>      Modified by: Lieven&nbsp;Vandenberghe</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Convex optimization techniques are widely used in control, system identification, signal processing, and related disciplines. In these applications the convex optimization problems are often solved by first reformulating them as semidefinite optimization problems (linear optimization problems over the convex cone of positive semidefinite symmetric matrices) and then applying general-purpose software packages for semidefinite optimization.  The most commonly used solvers are  implementations of primal-dual interior-point algorithms developed about twenty years ago.  For many important applications these algorithms do not scale to the problem sizes that are needed in  current practice.  A major goal of the project has been the development of  more efficient methods for certain classes of semidefinite optimization problems that are particularly important in control and signal processing.   The new approaches are based on first-order proximal algorithms and the use of non-Euclidean distance functions tailored to  the structure in the problem.  A first class of problems are optimization problems over the cone of nonnegative trigonometric polynomials.  Problems of this type arise frequently in signal processing, and extensions to other types of  nonnegative polynomial or rational function constraints are important in  control and system theory.  When applying first-order methods to these problems, the critical step is the projection on the cone of nonnegative trigonometric polynomials.  By using the Itakura-Saito generalized distance, we were able to reduce the cost of this computation to roughly quadratic in the order of the polynomial.  Interior-point methods or Euclidean proximal methods for the same problems, on the other hand, have a complexity per iteration that is at  least cubic in the order of the polynomial.   As a second application, the problem of exploiting sparsity in  semidefinite optimization was studied.  An algorithm was proposed for the centering problem in sparse semidefinite optimization. By using the generalized distance defined by the logarithmic barrier function the per-iteration complexity of the centering computation was reduced to  roughly the cost of a sparse Cholesky factorization.   The method therefore scales to much larger problems than algorithms based on  Newton's method or Euclidean proximal methods.  The project also advanced applications of semidefinite optimization.   We applied convex duality and the Kalman-Yakubovich-Popov lemma to provide simple, constructive proofs of the semidefinite representations of the penalty functions used in gridless compressed sensing and related applications in signal processing.  The connection led to several extensions to convex penalty functions for estimation problems over structured sets of vectors parameterized via the nullspace of matrix pencils.  We also investigated system identification methods based on subspace algorithms, matrix trace norm minimization, and convex optimization, for applications in which some signal measurements are heavily corrupted by artifacts or some signal channels are missing, and applied the techniques to a problem in biomedical signal processing.  Several of the results obtained in the project have been integrated into a graduate course on large-scale optimization at UCLA.       Last Modified: 10/20/2020       Submitted by: Lieven Vandenberghe]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

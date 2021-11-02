@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Mobile Power Management as a Network Primitive</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>10/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>69977.00</AwardTotalIntnAmount>
+<AwardAmount>69977</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+<PO_EMAI>tnandago@nsf.gov</PO_EMAI>
+<PO_PHON>7032924550</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Battery power is a scarce resource on phones and is one of the main factors that limit the deployment of rich new kinds of mobile applications. There is presently no comprehensive solution to this power management problem, and existing solutions are narrowly focused on specific applications or specific device components. In this research, we will develop a system called PowerMedic that makes device-wide energy decisions across applications. The approach is to implement power management as a fundamental primitive. Much like other network primitives such as send and receive, applications need only specify their requirements; they no longer need to perform low-level energy optimizations. PowerMedic takes into account the interactions between device components such as network, CPU, screen, and sensors, to optimize power consumption, while satisfying the application requirements. The runtime decisions to save power are dynamic and driven by the user's application patterns, mobility, network connectivity, and other environmental factors. For evaluation purposes, it is expected that a user study will be conducted to gather mobile usage data. The data can be used to build predictive models of user behavior, such as charging patterns, to further improve the system.&lt;br/&gt;&lt;br/&gt;This research is relevant to a broad segment of the population, as it is projected that there will be 1 billion smartphones worldwide by 2013. PowerMedic will enable a wide range of critical applications on phones, ranging from healthcare applications to providing assistive technology for the disabled. Today, these applications have limited success on phones because of the power bottleneck. This research will also benefit the research community through the release of the PowerMedic software and the user study data.</AbstractNarration>
+<MinAmdLetterDate>08/03/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/03/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1551909</AwardID>
+<Investigator>
+<FirstName>Aruna</FirstName>
+<LastName>Balasubramanian</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Aruna Balasubramanian</PI_FULL_NAME>
+<EmailAddress>arunab@cs.stonybrook.edu</EmailAddress>
+<PI_PHON>6316329949</PI_PHON>
+<NSF_ID>000600655</NSF_ID>
+<StartDate>08/03/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>SUNY at Stony Brook</Name>
+<CityName>Stony Brook</CityName>
+<ZipCode>117940001</ZipCode>
+<PhoneNumber>6316329949</PhoneNumber>
+<StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804878247</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>020657151</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[SUNY at Stony Brook]]></Name>
+<CityName>Stony Brook</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>117943365</ZipCode>
+<StreetAddress><![CDATA[S5422 Frank Melville Junior Libr]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~69977</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this project was to design novel power management solutions that target a class of applications. The insight is that different classes of applications have different power inefficiencies. Improving the power consumption requires that inefficiencies for each application class be systematically studies and addressed.&nbsp;<br />Intellectual Merit: The project resulted in three systems specifically for different classes of applications. First, the system FindAll reduces the power consumption of Web search applications, where users search of the same articles repeatedly. FindAll builds a local search engine that does not require the Internet to refind articles that were previously browsed. FindAll significantly reduces power consumption for Web search while improving availability. A paper describing FindAll was published at CoNext 2013. Second, the system MobileHub reduces the power consumption of always-on sensing applications. Always-on sensing apps are power hungry because the sensing task needs to frequently wake up the expensive CPU. Instead, MobileHub offloads sensing to a low-power micro-controller which requires much less power compared to the CPU. MobileHub reduces power consumption of always-on sensing apps by over 80% in many cases. A paper describing MobileHub was published at Ubicomp 2015, and won both the best paper award and the best student paper award. Third, the system RECON performs fine-grained modeling and prediction of Web page energy consumption. &nbsp;Several Web optimizations exist to improve Web performance, but the effect of the optimization on energy is not well understood. Not knowing the effect of a Web enhancement on energy consumption can have severe consequences. RECON accurately predicts the energy consumption for loading a Web page, with and without a given optimization. A paper describing RECON will appear at Sigmetrics 2017.&nbsp;<br />Broader Impact: This research targets a broad segment of the population, as there are over 1 billion smartphones worldwide. A wide range of critical applications cannot be deployed on phones today because of the battery scarcity. Reducing the power consumption on phones is important to support critical applications on phones. In terms of education, the project funded five (5) graduate students. The project provided research exposure to the ten (10) undergraduate students, many of whom were in their sophomore year with little research experience.</p><br> <p>            Last Modified: 01/18/2017<br>      Modified by: Aruna&nbsp;Balasubramanian</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this project was to design novel power management solutions that target a class of applications. The insight is that different classes of applications have different power inefficiencies. Improving the power consumption requires that inefficiencies for each application class be systematically studies and addressed.  Intellectual Merit: The project resulted in three systems specifically for different classes of applications. First, the system FindAll reduces the power consumption of Web search applications, where users search of the same articles repeatedly. FindAll builds a local search engine that does not require the Internet to refind articles that were previously browsed. FindAll significantly reduces power consumption for Web search while improving availability. A paper describing FindAll was published at CoNext 2013. Second, the system MobileHub reduces the power consumption of always-on sensing applications. Always-on sensing apps are power hungry because the sensing task needs to frequently wake up the expensive CPU. Instead, MobileHub offloads sensing to a low-power micro-controller which requires much less power compared to the CPU. MobileHub reduces power consumption of always-on sensing apps by over 80% in many cases. A paper describing MobileHub was published at Ubicomp 2015, and won both the best paper award and the best student paper award. Third, the system RECON performs fine-grained modeling and prediction of Web page energy consumption.  Several Web optimizations exist to improve Web performance, but the effect of the optimization on energy is not well understood. Not knowing the effect of a Web enhancement on energy consumption can have severe consequences. RECON accurately predicts the energy consumption for loading a Web page, with and without a given optimization. A paper describing RECON will appear at Sigmetrics 2017.  Broader Impact: This research targets a broad segment of the population, as there are over 1 billion smartphones worldwide. A wide range of critical applications cannot be deployed on phones today because of the battery scarcity. Reducing the power consumption on phones is important to support critical applications on phones. In terms of education, the project funded five (5) graduate students. The project provided research exposure to the ten (10) undergraduate students, many of whom were in their sophomore year with little research experience.       Last Modified: 01/18/2017       Submitted by: Aruna Balasubramanian]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Joint Learning for Knowledge-Rich Coreference Resolution</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>130004.00</AwardTotalIntnAmount>
+<AwardAmount>130004</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tatiana Korelsky</SignBlockName>
+<PO_EMAI>tkorelsk@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This Early Grant for Exploratory Research seeks to investigate the viability of a knowledge-rich, joint-learning approach to coreference resolution, with the ultimate goal of advancing the state of the art in coreference resolution. Given recent advances in research on lexical semantics and discourse, and the development of large-scale lexical databases, the first objective of this grant is to investigate whether existing language technologies are mature enough to accurately extract semantic, discourse, and world knowledge from structured and unstructured data so that learning-based coreference systems can be significantly improved when such knowledge is employed.&lt;br/&gt;&lt;br/&gt;An assumption underlying the first objective is the use of a pipeline system architecture, where sophisticated linguistic information from various sources is computed prior to coreference resolution. While a pipeline architecture is popularly-used in coreference research, the errors made by the upstream components may propagate to the coreference component and adversely affect its performance. To address this problem, the second objective of this grant is to explore an approach in which multiple tasks in the pipeline are learned in a joint fashion. While most research on joint learning for language processing focuses on two tasks, this work seeks to take the challenge involved in joint learning to the next level by simultaneously learning a large number of tasks in semantics, discourse, and information extraction, which can all benefit from their interactions with each other and with coreference in the learning process.</AbstractNarration>
+<MinAmdLetterDate>07/26/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>07/26/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1147644</AwardID>
+<Investigator>
+<FirstName>Vincent</FirstName>
+<LastName>Ng</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vincent Ng</PI_FULL_NAME>
+<EmailAddress>vince@hlt.utdallas.edu</EmailAddress>
+<PI_PHON>9728832313</PI_PHON>
+<NSF_ID>000182032</NSF_ID>
+<StartDate>07/26/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Dallas</Name>
+<CityName>Richardson</CityName>
+<ZipCode>750803021</ZipCode>
+<PhoneNumber>9728832313</PhoneNumber>
+<StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX32</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>800188161</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT DALLAS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Unviersity of Texas at Dalals]]></Name>
+<CityName>Richardson</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>750803021</ZipCode>
+<StreetAddress><![CDATA[800 W. Campbell Rd., MS EC 31]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX32</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~130004</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Noun phrase coreference resolution is the task of determining which noun phrases in a text or dialogue refer to the same real-world entity. Coreference is generally considered one of the most difficult tasks in NLP. Its difficulty stems in part from its reliance on background knowledge. To exemplify, consider the following text segment.</p> <p>Martha Stewart is hoping people don't run out on her. The celebrity indicted on charges stemming from...</p> <p>Humans can easily determine that "the celebrity" refers to "Martha Stewart" using background knowledge. Rather than employing background knowledge, coreference systems have typically employed heuristics in the resolution process. One such heuristic, which resolves a noun phrase to the closest preceding noun phrase in the subject position, will enable a coreference system to correctly resolve "the celebrity" to "Martha Stewart."</p> <p>However, since such heuristics are rarely perfect, complementing them with world knowledge would be an important step towards bringing coreference systems to the next level of performance.</p> <p>One of the objectives of this Early Grant for Exploratory Research project was to exploit background knowledge for coreference resolution. To this end, we extracted background knowledge from a large-scale knowledge base, YAGO. YAGO contains more than five million facts, each of which is a relation involving two entities. We employed two of the 90 YAGO relation types, namely the IS-A relation (e.g., Martha Stewart IS a celebrity) and the MEANS relation, which tells us, for instance, that Einstein can MEAN Albert Einstein or Alfred Einstein. Empirical results on a standard data set suggested that incorporating such background knowledge significantly improved the performance of our coreference system.</p> <p>Another objective of this project was to improve coreference systems via joint learning. The idea was to learn coreference resolution simultaneously with other information extraction tasks, so that all of these tasks could benefit from their interactions with each other. Our experiments indicated that for joint learning to be effective in simultaneously improving these tasks, we would need a lot more data to train these systems than is currently available.&nbsp;</p> <p>Given this outcome, we instead sought to improve coreference systems by investigating a hybrid rule-based and learning-based approach. The idea behind the hybrid approach was fairly simple: we leveraged human insights in combining linguistic features to design coreference rules, and applied the machine-learned classifier to determine whether two noun phrases are coreferent only if none of the hand-written rules were applicable. In essence, the hybrid approach was an elegant way of injecting human insights into learning-based coreference systems to improve their performance. Our hybrid approach was implemented in our Chinese coreference system, which achieved the best performance on the Chinese test data in the CoNLL-2012 shared task on coreference resolution. We subsequently employed this hybrid approach to develop a coreference system for the biomedical domain, which again achieved the best reported results on standard data sets. Given this success, we applied it to another core information extraction task, temporal relation extraction, for which we also achieved state-of-the-art results. Overall, these results demonstrated the wide applicability of the hybrid approach: it can be used to develop high-performing coreference systems for other languages and domains, and equally importantly, it can be applied to other NLP tasks. A post-hoc analysis revealed that our hybrid approach is particularly useful for those NLP tasks that have many minority classes and whose classification decisions need to be made by combining a large number of sophisticated features that cannot be computed with high accuracies (e.g., semantic and discours...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Noun phrase coreference resolution is the task of determining which noun phrases in a text or dialogue refer to the same real-world entity. Coreference is generally considered one of the most difficult tasks in NLP. Its difficulty stems in part from its reliance on background knowledge. To exemplify, consider the following text segment.  Martha Stewart is hoping people don't run out on her. The celebrity indicted on charges stemming from...  Humans can easily determine that "the celebrity" refers to "Martha Stewart" using background knowledge. Rather than employing background knowledge, coreference systems have typically employed heuristics in the resolution process. One such heuristic, which resolves a noun phrase to the closest preceding noun phrase in the subject position, will enable a coreference system to correctly resolve "the celebrity" to "Martha Stewart."  However, since such heuristics are rarely perfect, complementing them with world knowledge would be an important step towards bringing coreference systems to the next level of performance.  One of the objectives of this Early Grant for Exploratory Research project was to exploit background knowledge for coreference resolution. To this end, we extracted background knowledge from a large-scale knowledge base, YAGO. YAGO contains more than five million facts, each of which is a relation involving two entities. We employed two of the 90 YAGO relation types, namely the IS-A relation (e.g., Martha Stewart IS a celebrity) and the MEANS relation, which tells us, for instance, that Einstein can MEAN Albert Einstein or Alfred Einstein. Empirical results on a standard data set suggested that incorporating such background knowledge significantly improved the performance of our coreference system.  Another objective of this project was to improve coreference systems via joint learning. The idea was to learn coreference resolution simultaneously with other information extraction tasks, so that all of these tasks could benefit from their interactions with each other. Our experiments indicated that for joint learning to be effective in simultaneously improving these tasks, we would need a lot more data to train these systems than is currently available.   Given this outcome, we instead sought to improve coreference systems by investigating a hybrid rule-based and learning-based approach. The idea behind the hybrid approach was fairly simple: we leveraged human insights in combining linguistic features to design coreference rules, and applied the machine-learned classifier to determine whether two noun phrases are coreferent only if none of the hand-written rules were applicable. In essence, the hybrid approach was an elegant way of injecting human insights into learning-based coreference systems to improve their performance. Our hybrid approach was implemented in our Chinese coreference system, which achieved the best performance on the Chinese test data in the CoNLL-2012 shared task on coreference resolution. We subsequently employed this hybrid approach to develop a coreference system for the biomedical domain, which again achieved the best reported results on standard data sets. Given this success, we applied it to another core information extraction task, temporal relation extraction, for which we also achieved state-of-the-art results. Overall, these results demonstrated the wide applicability of the hybrid approach: it can be used to develop high-performing coreference systems for other languages and domains, and equally importantly, it can be applied to other NLP tasks. A post-hoc analysis revealed that our hybrid approach is particularly useful for those NLP tasks that have many minority classes and whose classification decisions need to be made by combining a large number of sophisticated features that cannot be computed with high accuracies (e.g., semantic and discourse features).   A significant product of this project is our state-of-the-art Chinese coreference system...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

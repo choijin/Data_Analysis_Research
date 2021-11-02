@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>"AF:Small:Efficient and reliable low-rank approximation techniques and fast solutions to large sparse linear equations"</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In many computational and engineering problems, it is critical to solve large sparse linear systems of equations rapidly and reliably. Nevertheless, many practical but difficult large linear systems of equations remain out of reach computationally. In this project, the PI develops structured fast direct methods and pre-conditioners for solving such large sparse linear systems. These methods systematically exploit potentially rich numerical low-rank patterns within the fill-ins for large reductions in computational time and memory. The efficiency of these methods comes from three innovative design strategies: the PI develops randomized algorithms that can rapidly compute high quality low-rank approximations with low numerical compression overhead; the PI adapts these methods to preserve desirable properties of the original matrix for enhanced numerical reliability; and the PI re-organizes the computations so that no numerical compression and data communication is performed unless necessary.&lt;br/&gt;&lt;br/&gt;The outcome of this research has the potential to create a novel class of direct solvers and pre-conditioners that in conjunction with iterative solvers can become powerful weapons for solving difficult large sparse linear systems, and the low-rank approximation schemes would become a valuable tool for the general scientific community, as effective data compression is essential in many areas of science and engineering. Mathematical software for rapidly solving large sparse linear systems of equations and for effective compression of large data sets will be made available to the scientific computing public.</AbstractNarration>
+<MinAmdLetterDate>08/21/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/21/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1319312</AwardID>
+<Investigator>
+<FirstName>Ming</FirstName>
+<LastName>Gu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ming Gu</PI_FULL_NAME>
+<EmailAddress>mgu@math.berkeley.edu</EmailAddress>
+<PI_PHON>5106423145</PI_PHON>
+<NSF_ID>000205573</NSF_ID>
+<StartDate>08/21/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California, Berkeley Math Department]]></Name>
+<CityName>Berkeley</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>947203840</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7933</Code>
+<Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7933</Code>
+<Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp;</p> <p>Three graduate students have received Ph.D. degrees under NSF support with this award. Two more graduate students have done the majority of their thesis work, and are due to graduate in Spring Semester, 2018.&nbsp;</p> <p>Two graduate students have presented/will present their findings at four well-recognized conferences in machine learning and high performance computing, with four publications in the conference proceedings.&nbsp;</p> <p><span>Intellectual merit:&nbsp; w</span>e have demonstrated that randomization can be an integral part of the standard techniques for solving classical problems in numerical linear algebra, leading to outstanding results and algorithms.&nbsp;Our work demonstrates that, when properly re-designed, the classical LU, QR, and Cholesky factorizations are perfectly capable of low-rank matrix approximation, at the same approximation quality but reduced computational costs.&nbsp; We have also developed randomized LU factorization with complete pivoting algorithm and its variant for symmetric LU factorization. It has long been well-known that the work-horse for solving linear systems of equations, the LU factorization with partial pivoting algorithm, can be numerically unstable even in practice. Yet, this algorithm remains the method of choice in practice because no stable algorithm is known to be as efficient. Our randomized LU factorization with complete pivoting algorithms will fill likely this gap.</p> <p><span>Broader impact:&nbsp;</span>One of the fundamental problems in large scale data analysis is the efficient and effective approximation of any given matrix by a matrix of much lower rank. This problem has now become of central importance in the era of large data.</p> <p>We have demonstrated that classical matrix factorizations, when properly redesigned, are perfectly capable of low-rank matrix approximation, at the same approximation quality but reduced computational costs. Thus our work has provided people in machine learning community faster and relaible methods for data compression.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/24/2017<br>      Modified by: Ming&nbsp;Gu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[    Three graduate students have received Ph.D. degrees under NSF support with this award. Two more graduate students have done the majority of their thesis work, and are due to graduate in Spring Semester, 2018.   Two graduate students have presented/will present their findings at four well-recognized conferences in machine learning and high performance computing, with four publications in the conference proceedings.   Intellectual merit:  we have demonstrated that randomization can be an integral part of the standard techniques for solving classical problems in numerical linear algebra, leading to outstanding results and algorithms. Our work demonstrates that, when properly re-designed, the classical LU, QR, and Cholesky factorizations are perfectly capable of low-rank matrix approximation, at the same approximation quality but reduced computational costs.  We have also developed randomized LU factorization with complete pivoting algorithm and its variant for symmetric LU factorization. It has long been well-known that the work-horse for solving linear systems of equations, the LU factorization with partial pivoting algorithm, can be numerically unstable even in practice. Yet, this algorithm remains the method of choice in practice because no stable algorithm is known to be as efficient. Our randomized LU factorization with complete pivoting algorithms will fill likely this gap.  Broader impact: One of the fundamental problems in large scale data analysis is the efficient and effective approximation of any given matrix by a matrix of much lower rank. This problem has now become of central importance in the era of large data.  We have demonstrated that classical matrix factorizations, when properly redesigned, are perfectly capable of low-rank matrix approximation, at the same approximation quality but reduced computational costs. Thus our work has provided people in machine learning community faster and relaible methods for data compression.                Last Modified: 10/24/2017       Submitted by: Ming Gu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

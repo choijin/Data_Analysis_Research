@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CI-New:  Collaborative Research:  Modeling the Next-Generation Hybrid Cooling Systems for High-Performance Processors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>231961.00</AwardTotalIntnAmount>
+<AwardAmount>231961</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Design of future high-performance chips is hindered by severe temperature challenges. For example, existing cooling mechanisms cannot efficiently cool the extremely high power densities that are expected in exascale systems. Emerging cooling technologies, which may address these temperature challenges, are not easily accessible for experimentation to computer engineers. In fact, there is a substantial lag before a cooling technology becomes available for system design and optimization. Such lags cause design quality to be left on the table. To this end, this project proposes a software infrastructure that enables accurate modeling of cutting-edge cooling methods and that facilitates mutually customizing the computing and cooling systems to dramatically push system energy efficiency. &lt;br/&gt;&lt;br/&gt;The proposed infrastructure is a system-level design automation tool that includes compact thermal models of emerging cooling methods (thermoelectric coolers, two-phase cooling with microchannels or nanopores, phase-change materials, and single-phase liquid cooling). The project plan includes (1) synthesizing novel device-level models into compact representations; (2) using measurements on prototypes for validation of the proposed models; and (3) developing automation tooling to co-design hybrid customized cooling subsystems together with a given computing system. The broader impact of the project will be to help advance computing beyond the limitations of Moore's Law by making efficient design of high-power-density systems possible. The proposed infrastructure will enable transformative research in design automation, computer architecture, and system design with emerging cooling technologies, particularly in the dimensions of performance, variability, energy, heterogeneity, and cross-layer design. The infrastructure will be released to the community as open source software. The interdisciplinary nature of the project creates ample opportunities for undergraduate projects and outreach programs for underrepresented groups and K-12 students.</AbstractNarration>
+<MinAmdLetterDate>05/09/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>05/09/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1730003</AwardID>
+<Investigator>
+<FirstName>Sherief</FirstName>
+<LastName>Reda</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sherief Reda</PI_FULL_NAME>
+<EmailAddress>Sherief_Reda@brown.edu</EmailAddress>
+<PI_PHON>4018631455</PI_PHON>
+<NSF_ID>000489039</NSF_ID>
+<StartDate>05/09/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brown University</Name>
+<CityName>Providence</CityName>
+<ZipCode>029129002</ZipCode>
+<PhoneNumber>4018632777</PhoneNumber>
+<StreetAddress>BOX 1929</StreetAddress>
+<StreetAddress2><![CDATA[350 Eddy Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<StateCode>RI</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>RI01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001785542</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BROWN UNIVERSITY IN PROVIDENCE IN THE STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001785542</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brown University]]></Name>
+<CityName>Providence</CityName>
+<StateCode>RI</StateCode>
+<ZipCode>029129002</ZipCode>
+<StreetAddress><![CDATA[BOX 1929]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>RI01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7359</Code>
+<Text>CCRI-CISE Cmnty Rsrch Infrstrc</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7359</Code>
+<Text>COMPUTING RES INFRASTRUCTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~231961</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Embedded processors, such as processors in smartphones, operate under tight thermal constraints, and their cooling methods impact their performance and the user experience. Existing thermal models are based on finite-element methods (FEM). These FEM models are time-consuming and have large memory requirements. Due to these reasons, FEM models cannot be easily integrated with system-level simulators. This project has led to new compact thermal models for emerging cooling methods, such as thermoelectric coolers, microchannel liquid cooling, and two-phase cooling using micropillars. These compact models are fast, accurate, and can be integrated into full-system simulators, as software modules and libraries.&nbsp;</p> <p>Using the developed thermal models, the project devised novel cooling optimization flows to find the optimal cooling solution and its cooling parameters, for a target chip and its power profile, that minimizes the cooling power under a specific temperature constraint. Candidates for cooling solutions included liquid cooling via microchannels, thermoelectric coolers, two-phase Vapor Chambers with micropillar evaporators, and microchannel-based two-phase cooling. Using realistic simulations, we showed that our cooling optimization flow is capable of improving cooling efficiencies by 40%.</p> <p>Furthermore, we developed a full open-source PArallel Compact Thermal simulator (PACT) that achieves fast and accurate steady-state and transient parallel thermal simulations for processors and their associated cooling systems. PACT utilizes the advantages of multicore processing and includes several solvers to speed up both steady-state and transient simulations. In comparison to state-of-the-art FEM methods, PACT is faster by two orders of magnitude while delivering highly accurate thermal simulations.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 07/08/2021<br>      Modified by: Sherief&nbsp;Reda</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Embedded processors, such as processors in smartphones, operate under tight thermal constraints, and their cooling methods impact their performance and the user experience. Existing thermal models are based on finite-element methods (FEM). These FEM models are time-consuming and have large memory requirements. Due to these reasons, FEM models cannot be easily integrated with system-level simulators. This project has led to new compact thermal models for emerging cooling methods, such as thermoelectric coolers, microchannel liquid cooling, and two-phase cooling using micropillars. These compact models are fast, accurate, and can be integrated into full-system simulators, as software modules and libraries.   Using the developed thermal models, the project devised novel cooling optimization flows to find the optimal cooling solution and its cooling parameters, for a target chip and its power profile, that minimizes the cooling power under a specific temperature constraint. Candidates for cooling solutions included liquid cooling via microchannels, thermoelectric coolers, two-phase Vapor Chambers with micropillar evaporators, and microchannel-based two-phase cooling. Using realistic simulations, we showed that our cooling optimization flow is capable of improving cooling efficiencies by 40%.  Furthermore, we developed a full open-source PArallel Compact Thermal simulator (PACT) that achieves fast and accurate steady-state and transient parallel thermal simulations for processors and their associated cooling systems. PACT utilizes the advantages of multicore processing and includes several solvers to speed up both steady-state and transient simulations. In comparison to state-of-the-art FEM methods, PACT is faster by two orders of magnitude while delivering highly accurate thermal simulations.                   Last Modified: 07/08/2021       Submitted by: Sherief Reda]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Medium: Constructing Knowledge Bases by Extracting Entity-Relations and Meanings from Natural Language via "Universal Schema"</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>1000000.00</AwardTotalIntnAmount>
+<AwardAmount>1000000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Hector Munoz-Avila</SignBlockName>
+<PO_EMAI>hmunoz@nsf.gov</PO_EMAI>
+<PO_PHON>7032924481</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Automated knowledge base (KB) construction from natural language is of fundamental importance to (a) scientists (for example, there has been long-standing interest in building KBs of genes and proteins), (b) social scientists (for example, building social networks from textual data), and (c) national defense (where network analysis of criminals and terrorists have proven useful). The core of a knowledge base is its objects ("entities", such as proteins, people, organizations and locations) and its connections between these objects ("relations", such as one protein increasing production of another, or a person working for an organization). This project aims to greatly increase the accuracy with which entity-relations can be extracted from text, as well as increase the fidelity which many subtle distinctions among types of relations can be represented. The project's technical approach -- which we call "universal schema" -- is a markedly novel departure from traditional methods, based on representing all of the input relation expressions as positions in a common multi-dimensional space, with nearby relations having similar meanings. Broader impacts will include collaboration with industry on applications of economic importance, collaboration with academic non-computer-scientists on a multidisciplinary application, creating and publicly releasing new data sets for benchmark evaluation by ourselves and others (enabling scientific progress through improved performance comparisons), creating and publicly releasing an open-source implementation of our methods (enabling further scientific research, easy large-scale use, rapid commercialization and third-party enhancements). Education impacts include creating and teaching a new course on knowledge base construction for the sciences, organizing a research workshop on embeddings, extraction and knowledge representation, and training multiple undergraduates and graduate students. &lt;br/&gt;&lt;br/&gt;Most previous research in relation extraction falls into one of two categories. In the first, one must define a pre-fixed schema of relation types (such as lives-in, employed-by and a handful of others), which limits expressivity and hides language ambiguities. Training machine learning models here either relies on labeled training data (which is scarce and expensive), or uses lightly-supervised self-training procedures (which are often brittle and wander farther from the truth with additional iterations). In the second category, one extracts into an "open" schema based on language strings themselves (lacking ability to generalize among them), or attempts to gain generalization with unsupervised clustering of these strings (suffering from clusters that fail to capture reliable synonyms, or even find the desired semantics at all). This project proposes research in relation extraction of "universal schema", where we learn a generalizing model of the union of all input schemas, including multiple available pre-structured KBs as well as all the observed natural language surface forms. The approach thus embraces the diversity and ambiguity of original language surface forms (not trying to force relations into pre-defined boxes), yet also successfully generalizes by learning non-symmetric implicature among explicit and implicit relations using new extensions to the probabilistic matrix factorization and vector embedding methods that were so successful in the NetFlix prize competition. Universal schema provide for a nearly limitless diversity of relation types (due to surface forms), and support convenient semi-supervised learning through integration with existing structured data (i.e., the relation types of existing databases). In preliminary experiments, the approach already surpassed by a wide margin the previous state-of-the-art relation extraction methods on a benchmark task. New proposed research includes new training processes, new representations that include multiple-senses for the same surface form as well as embeddings with variances, new methods of incorporating constraints, joint inference between entity- and relation-types, new models of non-binary and higher-order relations, and scalability through parallel distribution. The project web site (http://www.iesl.cs.umass.edu/projects/NSF_USchema.html) will include information on the project and provide access to data sets, source code and documentation, teaching and workshop materials, and publications. In addition, datasets will be disseminated via UCI Machine Learning Repository (or other similar archive location for machine learning data) to facilitate sharing with other researchers and ensure long-term availability, and GitHub will be used to facilitate release, sharing, and archiving of code.</AbstractNarration>
+<MinAmdLetterDate>08/24/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>09/17/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1514053</AwardID>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>McCallum</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew K McCallum</PI_FULL_NAME>
+<EmailAddress>mccallum@cs.umass.edu</EmailAddress>
+<PI_PHON>4135451323</PI_PHON>
+<NSF_ID>000253651</NSF_ID>
+<StartDate>08/24/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts Amherst</Name>
+<CityName>Hadley</CityName>
+<ZipCode>010359450</ZipCode>
+<PhoneNumber>4135450698</PhoneNumber>
+<StreetAddress>Research Administration Building</StreetAddress>
+<StreetAddress2><![CDATA[100 Venture Way, Suite 201]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>153926712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts Amherst]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>010039242</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~1000000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p dir="ltr">A knowledge base (KB) is a structured, navigable map of knowledge about objects ("entities", such as proteins, people, organizations and locations) and the connections between them ("relations", such as one protein increasing production of another, or a person working for an organization).&nbsp; KBs provide a queryable, browsable, and machine-readable view on knowledge that usually otherwise would be spread across many natural language textual documents.&nbsp; For example, if given only a document collection, biomedical scientist can merely search for documents and read them; however, if given a KB, biomedical scientists can browse a navigable map from gene to protein to disease to symptom---a map that has integrated disparate information from across many scientific documents about any one gene, etc.&nbsp; KBs are of fundamental importance to accelerating scientific progress, national defense, business, and many other disciplines.&nbsp;&nbsp;</p> <p dir="ltr">Automated knowledge base construction (AKBC) is the process of using natural language processing (NLP) and other artificial intelligence (AI) techniques to build the KB from massive document collections without requiring humans to do data-entry.&nbsp; It is a tremendously challenging task that requires subtle interpretation, resolving ambiguities, and flexible knowledge representation.</p> <p dir="ltr">This project has developed new methods in machine learning (ML), NLP and AI that greatly increase the accuracy with which entity-relations can be extracted from text, as well as increase the fidelity with which many subtle distinctions among types of relations can be represented. The project's technical approach---which we call "universal schema"---is based on representing all of the input relation expressions as vector positions in a common multi-dimensional space, with nearby relations having similar meanings.&nbsp;&nbsp;</p> <p dir="ltr">Prior to this project, most research in relation extraction fell into one of two categories. In the first, one must define a pre-fixed schema of relation types (such as &ldquo;lives-in&rdquo;, &ldquo;employed-by&rdquo;, and a handful of others), which limits expressivity and hides language ambiguities. In the second category, one extracts into an &lsquo;&lsquo;open&rsquo;&rsquo; schema based on language strings themselves (lacking ability to generalize among them), or attempts to gain generalization with unsupervised clustering of these strings (suffering from clusters that fail to capture reliable synonyms, or even find the desired semantics at all).</p> <p dir="ltr">In our &ldquo;universal schema&rdquo; we avoid this dichotomy, using a vector space to learn a model of the union of all input schemas, including multiple available pre-structured KBs as well as all the observed natural language surface forms. Our approach thus embraces the diversity and ambiguity of original language surface forms (not trying to force relations into predefined categories), yet also successfully generalizes by learning non-symmetric implicature among explicit and implicit relations using new extensions to the probabilistic matrix factorization and vector embedding methods that have been so successful in recommender systems and deep neural networks.</p> <p>&nbsp;</p> <p dir="ltr">Intellectual Merit</p> <p dir="ltr">Our approach is a markedly novel departure from previous, traditional methods. Our latent embedding vectors for entities and relations offer an intriguing flexible approach to semantics, relational implicature, and semi-supervised training. Universal schema provide for a nearly limitless diversity of relation types (coming from the subtleties of natural language), and also support convenient semi-supervised learning through integration with existing structured data (i.e. the relation types and schema of existing databases).&nbsp;</p> <p dir="ltr">The work supported by this grant bore out our optimism about our approach.&nbsp; We surpassed previous state-of-the-art results in many areas, including the NIST TAC-Knowledge Base Population task.&nbsp; We developed new machine learning methods and natural language processing techniques, publishing over 20 peer-reviewed research papers.&nbsp; We developed intellectual connections between &ldquo;universal schema&rdquo; and other areas of ML and NLP, including joint inference, deep neural networks, parsing, coreference, and question answering.</p> <p>&nbsp;</p> <p dir="ltr">Broader Impacts</p> <p dir="ltr">Information overload has become an increasingly burdensome problem across many fields of high national priority, including biomedicine, material science, national defense, business decision-making, and many other areas.&nbsp; Improved methods for building and maintaining knowledge bases are a key ingredient to help decision-makers navigate high-information domains.&nbsp; The work supported by this grant has yielded new methods that not only have merit through intellectual novelty, but also yielded broad practical impact.&nbsp;&nbsp;</p> <p dir="ltr">Our &ldquo;universal schema&rdquo; method and its successors are now widely used in industry, in both large companies such as IBM, Oracle and Google, and startup companies such as Lexalytics.&nbsp; External deployments of our ideas have been employed in a wide variety of fields, including biomedicine, business decision-making, and national defense.</p> <p dir="ltr">We have made more than five open-source software releases implementing our methods, enabling others to apply and extend our work.&nbsp; We have released multiple datasets allowing others to test their&nbsp; methods and compare them to ours.&nbsp;&nbsp;</p> <p dir="ltr">The work of this project has also supported the creation of new scientific communities.&nbsp; In 2019 the PI launched (and served as the General Chair of) the first international conference on &ldquo;Automated Knowledge Base Construction&rdquo; which is now in its third successful year, bringing together researchers from ML, NLP, semantic web, and databases.</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/11/2021<br>      Modified by: Andrew&nbsp;K&nbsp;Mccallum</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[A knowledge base (KB) is a structured, navigable map of knowledge about objects ("entities", such as proteins, people, organizations and locations) and the connections between them ("relations", such as one protein increasing production of another, or a person working for an organization).  KBs provide a queryable, browsable, and machine-readable view on knowledge that usually otherwise would be spread across many natural language textual documents.  For example, if given only a document collection, biomedical scientist can merely search for documents and read them; however, if given a KB, biomedical scientists can browse a navigable map from gene to protein to disease to symptom---a map that has integrated disparate information from across many scientific documents about any one gene, etc.  KBs are of fundamental importance to accelerating scientific progress, national defense, business, and many other disciplines.   Automated knowledge base construction (AKBC) is the process of using natural language processing (NLP) and other artificial intelligence (AI) techniques to build the KB from massive document collections without requiring humans to do data-entry.  It is a tremendously challenging task that requires subtle interpretation, resolving ambiguities, and flexible knowledge representation. This project has developed new methods in machine learning (ML), NLP and AI that greatly increase the accuracy with which entity-relations can be extracted from text, as well as increase the fidelity with which many subtle distinctions among types of relations can be represented. The project's technical approach---which we call "universal schema"---is based on representing all of the input relation expressions as vector positions in a common multi-dimensional space, with nearby relations having similar meanings.   Prior to this project, most research in relation extraction fell into one of two categories. In the first, one must define a pre-fixed schema of relation types (such as "lives-in", "employed-by", and a handful of others), which limits expressivity and hides language ambiguities. In the second category, one extracts into an ‘‘open’’ schema based on language strings themselves (lacking ability to generalize among them), or attempts to gain generalization with unsupervised clustering of these strings (suffering from clusters that fail to capture reliable synonyms, or even find the desired semantics at all). In our "universal schema" we avoid this dichotomy, using a vector space to learn a model of the union of all input schemas, including multiple available pre-structured KBs as well as all the observed natural language surface forms. Our approach thus embraces the diversity and ambiguity of original language surface forms (not trying to force relations into predefined categories), yet also successfully generalizes by learning non-symmetric implicature among explicit and implicit relations using new extensions to the probabilistic matrix factorization and vector embedding methods that have been so successful in recommender systems and deep neural networks.    Intellectual Merit Our approach is a markedly novel departure from previous, traditional methods. Our latent embedding vectors for entities and relations offer an intriguing flexible approach to semantics, relational implicature, and semi-supervised training. Universal schema provide for a nearly limitless diversity of relation types (coming from the subtleties of natural language), and also support convenient semi-supervised learning through integration with existing structured data (i.e. the relation types and schema of existing databases).  The work supported by this grant bore out our optimism about our approach.  We surpassed previous state-of-the-art results in many areas, including the NIST TAC-Knowledge Base Population task.  We developed new machine learning methods and natural language processing techniques, publishing over 20 peer-reviewed research papers.  We developed intellectual connections between "universal schema" and other areas of ML and NLP, including joint inference, deep neural networks, parsing, coreference, and question answering.    Broader Impacts Information overload has become an increasingly burdensome problem across many fields of high national priority, including biomedicine, material science, national defense, business decision-making, and many other areas.  Improved methods for building and maintaining knowledge bases are a key ingredient to help decision-makers navigate high-information domains.  The work supported by this grant has yielded new methods that not only have merit through intellectual novelty, but also yielded broad practical impact.   Our "universal schema" method and its successors are now widely used in industry, in both large companies such as IBM, Oracle and Google, and startup companies such as Lexalytics.  External deployments of our ideas have been employed in a wide variety of fields, including biomedicine, business decision-making, and national defense. We have made more than five open-source software releases implementing our methods, enabling others to apply and extend our work.  We have released multiple datasets allowing others to test their  methods and compare them to ours.   The work of this project has also supported the creation of new scientific communities.  In 2019 the PI launched (and served as the General Chair of) the first international conference on "Automated Knowledge Base Construction" which is now in its third successful year, bringing together researchers from ML, NLP, semantic web, and databases.          Last Modified: 02/11/2021       Submitted by: Andrew K Mccallum]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

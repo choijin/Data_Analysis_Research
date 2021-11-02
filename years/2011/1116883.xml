@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Collaborative Research: Static and Dynamic Analysis for Cooperative Concurrency</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>359509.00</AwardTotalIntnAmount>
+<AwardAmount>359509</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The widespread adoption of multicore processors requires multithreaded&lt;br/&gt;software to exploit these hardware resources.  Unfortunately, the&lt;br/&gt;construction and validation of reliable concurrent software currently&lt;br/&gt;requires extraordinary effort, due to unanticipated interactions&lt;br/&gt;between concurrent threads.  Thus, developing better programming&lt;br/&gt;techniques and tools for concurrent programming is essential.  This&lt;br/&gt;research develops a cooperative programming methodology for&lt;br/&gt;multithreaded software, based on the philosophy that all thread&lt;br/&gt;interference must be explicitly documented via source-level "yield"&lt;br/&gt;annotations by the programmer.&lt;br/&gt;&lt;br/&gt;The project will investigate both static and dynamic checking&lt;br/&gt;techniques to verify the correctness of yield annotations.  Once&lt;br/&gt;verified, these annotations guarantee that code executed between&lt;br/&gt;successive yields is serializable and thus amenable to sequential&lt;br/&gt;reasoning.  Moreover, yield-free code is deterministic.  Despite&lt;br/&gt;provided these strong safety guarantees, this methodology does not&lt;br/&gt;impact program performance.  The cooperative methodology provides a&lt;br/&gt;robust foundation for multithreaded software and can potentially&lt;br/&gt;transform the principles and practices of multithreaded software&lt;br/&gt;engineering.  This work on cooperability will also provide research&lt;br/&gt;opportunities for graduate and undergraduate students, and it will&lt;br/&gt;support endeavors to provide access to science education for all&lt;br/&gt;students.</AbstractNarration>
+<MinAmdLetterDate>06/27/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>06/27/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1116883</AwardID>
+<Investigator>
+<FirstName>Cormac</FirstName>
+<LastName>Flanagan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Cormac Flanagan</PI_FULL_NAME>
+<EmailAddress>cormac@ucsc.edu</EmailAddress>
+<PI_PHON>8314595375</PI_PHON>
+<NSF_ID>000492363</NSF_ID>
+<StartDate>06/27/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Santa Cruz</Name>
+<CityName>Santa Cruz</CityName>
+<ZipCode>950641077</ZipCode>
+<PhoneNumber>8314595278</PhoneNumber>
+<StreetAddress>1156 High Street</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA20</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>125084723</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SANTA CRUZ</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Santa Cruz]]></Name>
+<CityName>Santa Cruz</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>950641077</ZipCode>
+<StreetAddress><![CDATA[1156 High Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA20</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~359509</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The nation's computing infrastructure plays a central role in all aspects of our society. Despite the prominence and importance of this infrastructure, constructing reliable software remains extremely challenging. Faulty software can have an enormous damaging effect on the economy, security, privacy, and even personal safety.</p> <p>Most computing systems now use multicore or multiprocessor architectures capable of performing multiple tasks at the same time. This ability to run concurrent threads of control has enabled computations at scales previously unimaginable. However, threads may interfere with each other in subtle ways if the programmer does not properly coordinate their behavior. Errors caused by such unanticipated interactions are a particularly pernicious type of defect. They are difficult to discover during testing since they typically happen only intermittently and are discovered long after the damaging interference occurs.</p> <p>This grant explored a programming methodology to support more reliable multithreaded software development. Specifically, we investigated a cooperative programming methodology based on the philosophy that all thread interference must be explicitly documented by the programmer via source-level 'yield' annotations. If a program contains yield annotations at all possible interference points, it is much easier to reason about the program's behavior and to validate its correctness since those annotations mark all possible places where interference may occur.&nbsp;</p> <p>As part of this work, we developed specification techniques for 'yield' annotations and designed programming tools to help programmers ensure that the cooperative programming methodology is safely followed. These programming tools include both static and dynamic analyses, with an emphasis on ensuring their reasoning is precise enough to be useful and scalable to large pieces of software.</p> <p>The intellectual merit and scientific contributions of this work include the development of a programming methodology supporting more reliable software construction together with analysis tools to enforce that methodology. It also pushes forward the state-of-the-art in program analysis techniques for concurrent systems. The techniques studied are able to identify and document thread interference and enforce noninterference in yield-free code fragments.</p> <p>This work has supported numerous undergraduate research students who received valuable training in performing scientific research. Several of the students are now pursuing advanced degrees. In addition, we have participated in a number of curricular efforts and tutorials to improve and broaden the dissemination of our work on concurrent programming and program analysis.</p> <p>The greatest broader impact of our work on cooperative programming is improving the reliability and robustness of the nation's software infrastructure. This methodology and associated checkers can prevent common, but potentially highly damaging, defects due to improper coordination among threads. By integrating new methodologies like cooperative programming into computer science curricula, our work may also lead to wide adoption of improved software engineering practices.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/01/2015<br>      Modified by: Cormac&nbsp;Flanagan</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The nation's computing infrastructure plays a central role in all aspects of our society. Despite the prominence and importance of this infrastructure, constructing reliable software remains extremely challenging. Faulty software can have an enormous damaging effect on the economy, security, privacy, and even personal safety.  Most computing systems now use multicore or multiprocessor architectures capable of performing multiple tasks at the same time. This ability to run concurrent threads of control has enabled computations at scales previously unimaginable. However, threads may interfere with each other in subtle ways if the programmer does not properly coordinate their behavior. Errors caused by such unanticipated interactions are a particularly pernicious type of defect. They are difficult to discover during testing since they typically happen only intermittently and are discovered long after the damaging interference occurs.  This grant explored a programming methodology to support more reliable multithreaded software development. Specifically, we investigated a cooperative programming methodology based on the philosophy that all thread interference must be explicitly documented by the programmer via source-level 'yield' annotations. If a program contains yield annotations at all possible interference points, it is much easier to reason about the program's behavior and to validate its correctness since those annotations mark all possible places where interference may occur.   As part of this work, we developed specification techniques for 'yield' annotations and designed programming tools to help programmers ensure that the cooperative programming methodology is safely followed. These programming tools include both static and dynamic analyses, with an emphasis on ensuring their reasoning is precise enough to be useful and scalable to large pieces of software.  The intellectual merit and scientific contributions of this work include the development of a programming methodology supporting more reliable software construction together with analysis tools to enforce that methodology. It also pushes forward the state-of-the-art in program analysis techniques for concurrent systems. The techniques studied are able to identify and document thread interference and enforce noninterference in yield-free code fragments.  This work has supported numerous undergraduate research students who received valuable training in performing scientific research. Several of the students are now pursuing advanced degrees. In addition, we have participated in a number of curricular efforts and tutorials to improve and broaden the dissemination of our work on concurrent programming and program analysis.  The greatest broader impact of our work on cooperative programming is improving the reliability and robustness of the nation's software infrastructure. This methodology and associated checkers can prevent common, but potentially highly damaging, defects due to improper coordination among threads. By integrating new methodologies like cooperative programming into computer science curricula, our work may also lead to wide adoption of improved software engineering practices.          Last Modified: 09/01/2015       Submitted by: Cormac Flanagan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

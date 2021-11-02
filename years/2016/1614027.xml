@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAPSI: Designing Network Infrastructure for Efficient Data Distribution</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>400.00</AwardTotalIntnAmount>
+<AwardAmount>400</AwardAmount>
+<AwardInstrument>
+<Value>Fellowship Award</Value>
+</AwardInstrument>
+<Organization>
+<Code>01090000</Code>
+<Directorate>
+<Abbreviation>O/D</Abbreviation>
+<LongName>Office Of The Director</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OISE</Abbreviation>
+<LongName>Office Of Internatl Science &amp;Engineering</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anne Emig</SignBlockName>
+<PO_EMAI>aemig@nsf.gov</PO_EMAI>
+<PO_PHON>7032927241</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Terminals are places that want to either send or receive information. The problem is to build networks for every terminal so that every one of them is able to send or receive all the necessary information. The goal of the project is to develop an algorithm which finds low cost networks meeting all the necessary demands of the terminals. In this problem, we will focus on minimizing operation costs as opposed to minimizing installation costs. This view of costs is a significant shift from how the problem has previously been studied. In order to better investigate this problem, I will go to Japan to work with Dr. Takuro Fukunaga at the National Institute for Informatics. Dr. Fukunaga has previous worked on various related problems with the costs based on upkeep and developed novel approaches for solving them. &lt;br/&gt;&lt;br/&gt;The node weighted design of overlapping networks problem (DON) is a network design problem where a core graph with node weights and a demand graph between pairs of terminals are given. The goal is to build connected networks for each terminal of total minimum cost such that all demands are satisfied.  A demand for a pair (s,t) is satisfied if there is a node which is in both s's network and t's network. An edge is in a network if both of its nodes are in the network. The total cost is the sum of all the networks; in particular if some node is in multiple networks it will be counted multiple times. Previous work on this problem has studied the edge weighted version, in the cases of a complete bipartite demand graph and a general demand graph. The goal of the summer is to develop approximation algorithms for node weighted DON, and find lower bounds based on hardness. &lt;br/&gt;&lt;br/&gt;This award under the East Asia and Pacific Summer Institutes program supports summer research by a U.S. graduate student and is jointly funded by NSF and the Japan Society for the Promotion of Science.</AbstractNarration>
+<MinAmdLetterDate>07/20/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/20/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.079</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1614027</AwardID>
+<Investigator>
+<FirstName>Jennifer</FirstName>
+<LastName>Iglesias</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jennifer M Iglesias</PI_FULL_NAME>
+<EmailAddress/>
+<PI_PHON>6307794895</PI_PHON>
+<NSF_ID>000709268</NSF_ID>
+<StartDate>07/20/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Iglesias                Jennifer       M</Name>
+<CityName>Pittsburgh</CityName>
+<ZipCode>152171636</ZipCode>
+<PhoneNumber/>
+<StreetAddress/>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM/>
+<ORG_LGL_BUS_NAME/>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Iglesias                Jennifer       M]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152171636</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7316</Code>
+<Text>EAPSI</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5921</Code>
+<Text>JAPAN</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>5978</Code>
+<Text>EAST ASIA AND PACIFIC PROGRAM</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7316</Code>
+<Text>EAPSI</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~400</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>There are many naturally occurring optimization problems in today&rsquo;s society which fall into a class of problems called NP-hard. These problems include: what is the fastest route for a truck to make all desired deliveries, what is the best way to assign tasks to many workers with different talents so that all the tasks are finished as quickly as possible, and what is the least number of boxes needed to pack a certain set of items. These problems often need to be solved quickly. However, NP-hard problems are widely believed to have no algorithms which solve these problems both quickly and exactly. Hence, many researchers in mathematics and computer science work to find approximation algorithms; algorithms which run quickly (in polynomial time) and find a solution which is pretty close to optimal.</p> <p>My research focus is on designing approximation algorithms for network design problems. Network design problems are where the goal of the problem is to build a cheap network so that some requirements are fulfilled. One problem of particular interest to me is the design of overlapping networks (DON) problem, which can also be called a publisher-subscriber problem. In this problem, there are some publishers and subscribers, and every subscriber has some set of publishers they are interested in. In order to satisfy all the demands, a network for every publisher and every subscriber is built so that every subscriber&rsquo;s network has some node in common with every publisher it is interested in. The goal is to build a network to satisfy all the subscribers and which minimizes the total cost of all the networks.&nbsp;</p> <p>This summer we investigated the DON problem with node weights. I had previously studied the problem where the cost of the network was based on edge weights. However, in applications on wireless networks, it is more practical to consider node weights rather than edge weights. Thus it is an important research subject to design an efficient approximation algorithm for the DON problem with node weights.</p> <p>To tackle the DON problem with node weights, we took an approach of using the concept of universal approximation. In universal approximation, we are given a set of instances of a problem, and the goal is to create a solution which induces a near-optimal solution for all given instances. We believe that efficient universal approximation algorithms for node-weighted network design problems are useful for solving the DON problem with node weights. Motivated by this observation, we investigated universal approximation algorithms to several typical node-weighted network design problems while they were considered only for edge-weighted problems previously. In particular, we considered node-weighted Steiner tree, group Steiner tree, and facility location problems. We also developed better lower bounds on universal approximability for edge-weighted Steiner tree problem, and developed the first lower bound for facility location problem with metric connection costs.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 08/30/2017<br>      Modified by: Jennifer&nbsp;M&nbsp;Iglesias</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ There are many naturally occurring optimization problems in today?s society which fall into a class of problems called NP-hard. These problems include: what is the fastest route for a truck to make all desired deliveries, what is the best way to assign tasks to many workers with different talents so that all the tasks are finished as quickly as possible, and what is the least number of boxes needed to pack a certain set of items. These problems often need to be solved quickly. However, NP-hard problems are widely believed to have no algorithms which solve these problems both quickly and exactly. Hence, many researchers in mathematics and computer science work to find approximation algorithms; algorithms which run quickly (in polynomial time) and find a solution which is pretty close to optimal.  My research focus is on designing approximation algorithms for network design problems. Network design problems are where the goal of the problem is to build a cheap network so that some requirements are fulfilled. One problem of particular interest to me is the design of overlapping networks (DON) problem, which can also be called a publisher-subscriber problem. In this problem, there are some publishers and subscribers, and every subscriber has some set of publishers they are interested in. In order to satisfy all the demands, a network for every publisher and every subscriber is built so that every subscriber?s network has some node in common with every publisher it is interested in. The goal is to build a network to satisfy all the subscribers and which minimizes the total cost of all the networks.   This summer we investigated the DON problem with node weights. I had previously studied the problem where the cost of the network was based on edge weights. However, in applications on wireless networks, it is more practical to consider node weights rather than edge weights. Thus it is an important research subject to design an efficient approximation algorithm for the DON problem with node weights.  To tackle the DON problem with node weights, we took an approach of using the concept of universal approximation. In universal approximation, we are given a set of instances of a problem, and the goal is to create a solution which induces a near-optimal solution for all given instances. We believe that efficient universal approximation algorithms for node-weighted network design problems are useful for solving the DON problem with node weights. Motivated by this observation, we investigated universal approximation algorithms to several typical node-weighted network design problems while they were considered only for edge-weighted problems previously. In particular, we considered node-weighted Steiner tree, group Steiner tree, and facility location problems. We also developed better lower bounds on universal approximability for edge-weighted Steiner tree problem, and developed the first lower bound for facility location problem with metric connection costs.             Last Modified: 08/30/2017       Submitted by: Jennifer M Iglesias]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

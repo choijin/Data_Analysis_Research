@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AitF: Collaborative Research: Topological Algorithms for 3D/4D Cardiac Images: Understanding Complex and Dynamic Structures</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>265981.00</AwardTotalIntnAmount>
+<AwardAmount>265981</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The interiors of ventricles of a human heart are spanned by a fine net of muscle fibers that are difficult to resolve, even in high resolution CT images.  An accurate account of these structures, however, could improve diagnosis of cardiac disease, evaluation of cardiac function, assessment of stroke risk, and simulation of cardiac blood flow. Topology is the branch of abstract mathematics that deals with connections; this project uses the theory of persistent homology to identify crucial topological handles that can be useful for accurate reconstruction and analysis of the complex cardiac dynamics from these CT images. The outcome of the project will not only advance our understanding of cardiac function, but also generate novel computational topology methods that are more efficient and effective for practical applications. This project not only bridges the gap between the theory of computational topology and the practical problem of cardiac image analysis, but also trains the next generation of researchers and educators to do so by a carefully integrated education plan. The PIs will engage undergraduate students, high school students, women and other underrepresented students in their proposed research.&lt;br/&gt;&lt;br/&gt;The goal of this project is to develop a topological approach to unveil the intrinsic structures from complex and dynamic 3D/4D cardiac data, and furthermore, to provide principled tools to quantitatively analyze these structures. The PIs will create new computational topology methodologies and algorithms to extract rich information from the intrinsic structure of cardiac data. They will develop novel methodologies to extract localized topological features and to track them based on their spatial and temporal coherence. They also plan to design new algorithms to untangle ambiguous and uncertain situations for tracking structures through time sequence data. The resulting techniques and software will be validated on cardiac CT data to produce quantitative assessments of accuracy and to characterize the advantages and limitations of these approaches. Domain experts will validate the quality of the approaches via scientific hypotheses and data exploration. The methods to be developed are general and will impact other scientific fields where intrinsic complex and dynamic structures exist.</AbstractNarration>
+<MinAmdLetterDate>09/05/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>09/05/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1733843</AwardID>
+<Investigator>
+<FirstName>Dimitris</FirstName>
+<LastName>Metaxas</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dimitris N Metaxas</PI_FULL_NAME>
+<EmailAddress>dnm@cs.rutgers.edu</EmailAddress>
+<PI_PHON>7324452914</PI_PHON>
+<NSF_ID>000236186</NSF_ID>
+<StartDate>09/05/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Rutgers University New Brunswick</Name>
+<CityName>Piscataway</CityName>
+<ZipCode>088543925</ZipCode>
+<PhoneNumber>8489320150</PhoneNumber>
+<StreetAddress>33 Knightsbridge Road</StreetAddress>
+<StreetAddress2><![CDATA[2nd Floor East Wing]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ06</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001912864</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RUTGERS, THE STATE UNIVERSITY OF NEW JERSEY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001912864</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Rutgers University New Brunswick]]></Name>
+<CityName>Piscataway</CityName>
+<StateCode>NJ</StateCode>
+<ZipCode>088548072</ZipCode>
+<StreetAddress><![CDATA[617 Bowser Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ06</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7239</Code>
+<Text>Algorithms in the Field</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~265981</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this project was&nbsp; to develop efficient algorithms to find the optimal generator for topological structures in 4D cardiac images or other general context. To achieve this we developed novel methods and algorithms to track topological features through time sequences to better model the 4D data using graphical model inference. We used these methods to analyze cardiac image sequences, with a particular focus on trabeculation and their characterization.</p> <p>In particular we developed a new permutation-invariant network for 3D point cloud processing. The network is composed of a recurrent set encoder and a convolutional feature aggregator. Given an unordered point set, the encoder firstly partitions its ambient space into parallel beams. Points within each beam are then modeled as a sequence and encoded into subregional geometric features by a shared recurrent neural network (RNN). The spatial layout of the beams is regular, and this allows the beam features to be further fed into an efficient 2D convolutional neural network (CNN) for hierarchical feature aggregation. This network is effective at spatial feature learning, and competes favorably with the state-of-the-arts&nbsp; on a number of benchmarks while being more efficient.&nbsp;</p> <p>We worked on the modes-inference problem using graphical models. We developed more efficient heuristic search algorithms for modes and for multiple-inference problems. These methods can be applied to various biomedical image analysis tasks, e.g., for neuron reconstruction from electronmicroscopic (EM) images.</p> <p>We also&nbsp; worked on novel medical image analysis methods. In particular, we developed novel deep generative models (generativeadversarial networks, in short GANs) that learn to generate medical images in a federated learning setting. In federated learning, we learned data from a large multi-sitecohort of data. But each site (e.g., hospital) is not allowed to share its data. To this end, in a collaboration with the other two PIs Chen and Wang, we proposed novel Federated GAN models. The model has a centralized generator. It generates synthetic images andsends them to different sites. Within each site, the local discriminator compares thesynthetic images and its own images in terms of distribution. it aggregates information from local discriminators to improve the centralized generator. This algorithm is designed to protectsprivacy. Meanwhile the resulting synthetic images can be shared with different users for arbitrary analysis tasks. These methods were applied to pathology images and brain MRI images. Several papers were submitted and accepted to the top medical image analysis conferences.</p> <p>The outcomes from this project hasve resulted in several publications to the top machine learning and medical image analysis conferences and journals.&nbsp; In addition, 2 PhD students were partially supported who will be graduating in fsll 2021, while the PI gave several invited talks at universities and conferences.</p> <p>&nbsp;</p><br> <p>            Last Modified: 05/17/2021<br>      Modified by: Dimitris&nbsp;N&nbsp;Metaxas</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this project was  to develop efficient algorithms to find the optimal generator for topological structures in 4D cardiac images or other general context. To achieve this we developed novel methods and algorithms to track topological features through time sequences to better model the 4D data using graphical model inference. We used these methods to analyze cardiac image sequences, with a particular focus on trabeculation and their characterization.  In particular we developed a new permutation-invariant network for 3D point cloud processing. The network is composed of a recurrent set encoder and a convolutional feature aggregator. Given an unordered point set, the encoder firstly partitions its ambient space into parallel beams. Points within each beam are then modeled as a sequence and encoded into subregional geometric features by a shared recurrent neural network (RNN). The spatial layout of the beams is regular, and this allows the beam features to be further fed into an efficient 2D convolutional neural network (CNN) for hierarchical feature aggregation. This network is effective at spatial feature learning, and competes favorably with the state-of-the-arts  on a number of benchmarks while being more efficient.   We worked on the modes-inference problem using graphical models. We developed more efficient heuristic search algorithms for modes and for multiple-inference problems. These methods can be applied to various biomedical image analysis tasks, e.g., for neuron reconstruction from electronmicroscopic (EM) images.  We also  worked on novel medical image analysis methods. In particular, we developed novel deep generative models (generativeadversarial networks, in short GANs) that learn to generate medical images in a federated learning setting. In federated learning, we learned data from a large multi-sitecohort of data. But each site (e.g., hospital) is not allowed to share its data. To this end, in a collaboration with the other two PIs Chen and Wang, we proposed novel Federated GAN models. The model has a centralized generator. It generates synthetic images andsends them to different sites. Within each site, the local discriminator compares thesynthetic images and its own images in terms of distribution. it aggregates information from local discriminators to improve the centralized generator. This algorithm is designed to protectsprivacy. Meanwhile the resulting synthetic images can be shared with different users for arbitrary analysis tasks. These methods were applied to pathology images and brain MRI images. Several papers were submitted and accepted to the top medical image analysis conferences.  The outcomes from this project hasve resulted in several publications to the top machine learning and medical image analysis conferences and journals.  In addition, 2 PhD students were partially supported who will be graduating in fsll 2021, while the PI gave several invited talks at universities and conferences.          Last Modified: 05/17/2021       Submitted by: Dimitris N Metaxas]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Medium: Collaborative Research: Random Number Generation and Use in Virtualized Environments</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>449937.00</AwardTotalIntnAmount>
+<AwardAmount>449937</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ralph Wachter</SignBlockName>
+<PO_EMAI>rwachter@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Hypervisors and virtualization simplify application and system deployment. The many benefits of virtualization have resulted in a headlong rush into a world where virtualization is ubiquitous. However, virtualization can break assumptions that applications and operating systems make about the platform. This research investigates an important case: the intersection of virtualization and random-number generators (RNGs). Strong randomization is requisite in today's computer security tools.&lt;br/&gt;&lt;br/&gt;Deployment of existing RNGs in virtualized settings introduces vulnerabilities. When RNGs fail, catastrophic attacks can be mounted on the the cryptographic services upon which modern information security relies. VM snapshots, which can be used to reset a VM and its contained applications, can cause RNGs to repeat outputs and break some encryption systems. Moreover, the environment presented by virtualization can degrade the quality of RNG outputs because entropy sources are virtual rather than physical hardware and hence lower quality.&lt;br/&gt;&lt;br/&gt;This research develops the theoretical and architectural foundations for the next generation of RNG designs and RNG-using mechanisms. The investigators quantify the scope of VM-introduced vulnerabilities using dynamic and static analysis of program source code. They develop new, secure RNG systems for use in VMs. Finally, the reserearch advances cryptographic theory by extending provable security techniques to better account for the realities of RNG deployment and use in virtualized settings.&lt;br/&gt;&lt;br/&gt;This work not only provides practical impact via stronger RNG systems but also opens up new directions in cryptographic theory in the important areas of generating and using randomness.</AbstractNarration>
+<MinAmdLetterDate>03/17/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>03/17/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1065288</AwardID>
+<Investigator>
+<FirstName>Yevgeniy</FirstName>
+<LastName>Dodis</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yevgeniy Dodis</PI_FULL_NAME>
+<EmailAddress>dodis@cs.nyu.edu</EmailAddress>
+<PI_PHON>2129983084</PI_PHON>
+<NSF_ID>000122311</NSF_ID>
+<StartDate>03/17/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York University]]></Name>
+<CityName>NEW YORK</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100121019</ZipCode>
+<StreetAddress><![CDATA[70 WASHINGTON SQUARE S]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~449937</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Hypervisors and virtualization make it easy to deploy applications and systems in virtual machines (VMs). On the flip side, virtualization can break assumptions that applications and the operating system make about the platform. In this project we study the scenario which arises when cryptographic random number generators (RNGs) 'collide' with virtualization. These introduces many problems such as unexpected security vulnerabilities caused by VM resets, degrading quality of resulting RNGs, and cryptographic failures due to poor randomness, to name a few.<br /><br />Motivated by these problems, we provided the theoretical and architectural foundations for the next generation of RNG designs, especially (but not exclusively) when such RNGs are to be used in virtualized environments. In particular, we extended formal<br />models used to analyze security of cryptographic algorithms to more honestly treat how randomness is generated in practice, and to provide best-possible security when using imperfect RNGs. From NYU side, our research especially focused on solving the following questions: (a) design of resettable and clonable RNGs; (b) design of better extractors and key derivation functions; (c) design of hash functions and privacy amplification protocols.<br /><br />Below is the list of high-level tasks accomplished by this project: <br /><br />1) Quantification of the scope of VM-introduced RNG (random number generator) vulnerabilities<br />2) Building more secure RNG systems for VMs<br />3) Designing new mechanisms for secure use of randomization in the face of virtualization, resets, and legacy code.<br />4) Bridging the gap between cryptographic theory and practice.</p> <p>Most notably, our work advanced the state of knowledge regarding cryptographic theory supporting RNG design for (4). In particular, we have found serious attacks on the /dev/random&nbsp; RNG in the Linux operating system, and used these attacks to motivate a new model of RNGs with input. Based on this new model, we designed a first provably secure RNG satisfying a very general and robust notion of security. We have then showed that our RNG is an order of magnitude faster than /dev/random, while not suffering from the problems of the latter. In the follow-up work, we considered the classical premature-next problem in the RNG design, which motivated the design of the Windows 8 RNG Fortuna. We showed that a close variant of Fortuna is secure in our setting.<br /><br />We also investigated a clean-slate design of a drop-in<br />replacement for Linux /dev/random and /dev/urandom. While we also investigated legacy-compatible countermeasures that attempt to inject randomness into a legacy VM in various ways, we found that these were ultimately unsatisfying. What's more it's long been recognized that the Linux RNG is (overly)&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; complicated. We therefore designed, implemented, and experimented with a new RNG that we called Whirlwind.&nbsp; It solves the issues surrounding reset security&nbsp; while also being significantly simpler. It also is provably sound relative to new&nbsp; security framework that we developed.</p><br> <p>            Last Modified: 12/01/2016<br>      Modified by: Yevgeniy&nbsp;Dodis</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Hypervisors and virtualization make it easy to deploy applications and systems in virtual machines (VMs). On the flip side, virtualization can break assumptions that applications and the operating system make about the platform. In this project we study the scenario which arises when cryptographic random number generators (RNGs) 'collide' with virtualization. These introduces many problems such as unexpected security vulnerabilities caused by VM resets, degrading quality of resulting RNGs, and cryptographic failures due to poor randomness, to name a few.  Motivated by these problems, we provided the theoretical and architectural foundations for the next generation of RNG designs, especially (but not exclusively) when such RNGs are to be used in virtualized environments. In particular, we extended formal models used to analyze security of cryptographic algorithms to more honestly treat how randomness is generated in practice, and to provide best-possible security when using imperfect RNGs. From NYU side, our research especially focused on solving the following questions: (a) design of resettable and clonable RNGs; (b) design of better extractors and key derivation functions; (c) design of hash functions and privacy amplification protocols.  Below is the list of high-level tasks accomplished by this project:   1) Quantification of the scope of VM-introduced RNG (random number generator) vulnerabilities 2) Building more secure RNG systems for VMs 3) Designing new mechanisms for secure use of randomization in the face of virtualization, resets, and legacy code. 4) Bridging the gap between cryptographic theory and practice.  Most notably, our work advanced the state of knowledge regarding cryptographic theory supporting RNG design for (4). In particular, we have found serious attacks on the /dev/random  RNG in the Linux operating system, and used these attacks to motivate a new model of RNGs with input. Based on this new model, we designed a first provably secure RNG satisfying a very general and robust notion of security. We have then showed that our RNG is an order of magnitude faster than /dev/random, while not suffering from the problems of the latter. In the follow-up work, we considered the classical premature-next problem in the RNG design, which motivated the design of the Windows 8 RNG Fortuna. We showed that a close variant of Fortuna is secure in our setting.  We also investigated a clean-slate design of a drop-in replacement for Linux /dev/random and /dev/urandom. While we also investigated legacy-compatible countermeasures that attempt to inject randomness into a legacy VM in various ways, we found that these were ultimately unsatisfying. What's more it's long been recognized that the Linux RNG is (overly)         complicated. We therefore designed, implemented, and experimented with a new RNG that we called Whirlwind.  It solves the issues surrounding reset security  while also being significantly simpler. It also is provably sound relative to new  security framework that we developed.       Last Modified: 12/01/2016       Submitted by: Yevgeniy Dodis]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

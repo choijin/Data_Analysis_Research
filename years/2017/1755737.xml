@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CSR: Toward Understanding and Automatically Detecting Specious Configuration in Large Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>174955.00</AwardTotalIntnAmount>
+<AwardAmount>174955</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Erik Brunvand</SignBlockName>
+<PO_EMAI>ebrunvan@nsf.gov</PO_EMAI>
+<PO_PHON>7032922767</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Software configurations allow users to customize a software system for different needs. Today, it is not uncommon for a system to expose hundreds of parameters to users for customizing configuration. Such high customizability comes at a price, as errors in configuration are a major source of system failures. While various solutions have been developed to tackle misconfiguration, they mainly focus on invalid configurations, which violate some correctness criteria. Unfortunately, many misconfigurations are technically valid, yet cause severe production problems such as poor performance. These are called specious configurations. The goal of this project is to systematically investigate and proactively prevent specious configurations.&lt;br/&gt;&lt;br/&gt;Specifically, the project will study specious configuration from both open-source and commercial systems to understand its broad scope, traits and how it affects system execution. Informed by this study, this project will then design algorithms and techniques for modeling the risk of a configuration change by using static analysis and selective symbolic execution to construct parameterized impact tables and then enhance them with offline profiling data. Based on this model, this project will develop an online risk assessment tool which can alert expert operators about specious configuration before production.&lt;br/&gt;&lt;br/&gt;Specious configuration is frequently cited for lost productivity. This project will further our understanding of underlying factors behind specious configuration and help practitioners reduce misconfiguration-induced failures in large-scale systems. &lt;br/&gt;&lt;br/&gt;Results from this research will be distilled into graduate seminars and classes on Operating Systems. The resulting dataset, software, publications and course materials will be maintained in an open-source repository for at least five years beyond the completion of the project.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>03/05/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>03/05/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1755737</AwardID>
+<Investigator>
+<FirstName>Peng</FirstName>
+<LastName>Huang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Peng Huang</PI_FULL_NAME>
+<EmailAddress>huang@cs.jhu.edu</EmailAddress>
+<PI_PHON>4105164522</PI_PHON>
+<NSF_ID>000754849</NSF_ID>
+<StartDate>03/05/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Johns Hopkins University</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212182686</ZipCode>
+<PhoneNumber>4439971898</PhoneNumber>
+<StreetAddress>1101 E 33rd St</StreetAddress>
+<StreetAddress2><![CDATA[Suite B001]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001910777</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>JOHNS HOPKINS UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001910777</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Johns Hopkins University]]></Name>
+<CityName>Baltimore</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>212182608</ZipCode>
+<StreetAddress><![CDATA[3400 N Charles St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026y</Code>
+<Text/>
+</ProgramElement>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~174955</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Misconfiguration is a major cause of system failures and downtime. While various solutions have been proposed to address misconfiguration, they focus on the basic, simple kind of invalid configurations. Unfortunately, many misconfigurations are technically valid, yet cause severe production problems such as poor performance. These are called specious configurations.&nbsp;</p> <p><strong>Intellectual Merit</strong></p> <p>This project is the first to systematically investigate and proactively prevent specious configurations. This project have analyzed real-world specious configuration cases in popular software and summarized the common code patterns. The findings from our study provide unique insights to the essence of this problem. The project further explored a novel technique <span>using static analysis and selective symbolic execution to construct parameterized impact tables and then enhance them with offline profiling data</span> to automatically detect specious configurations. <span>The final results demonstrated the proposed approach can scale to large systems, which is a surprising finding to the discipline.</span>&nbsp;</p> <p><strong>Broader Impacts</strong></p> <p class="p2">Misconfiguration is a prevalent cause for many impactful failures in our society. Specious configuration is especially common and dangerous. The findings from this research effectively improved the community's understandings about specious configuration. The developed solutions significantly helped reduce such failures in cloud systems.&nbsp;</p> <p><strong>Outcomes</strong></p> <ol> <li>We developed an end-to-end toolchain that contains the new techniques proposed in this project.&nbsp; The toolchain was released to the open-source community.</li> <li>The research toolchain was successfully applied to popular, large software and automatically derived performance impact models for hundreds of configuration parameters.&nbsp;</li> <li>The solution was further evaluated on real-world specious configurations and detected 88% of the cases.</li> <li>The solution also found unknown specious configurations that were fixed in the latest software releases.</li> <li>The results of the project are disseminated to the research community through several publications at the top systems conferences and workshops.&nbsp;</li> <li>The results are further incorporated as educational materials into the PI's courses.&nbsp;</li> <li>This project provided hands-on training for multiple graduate students as well as for students from under-represented groups. An undergraduate student who participated in this research received the CRA Outstanding Undergraduate Researcher Award honorable mention.</li> </ol><br> <p>            Last Modified: 08/15/2021<br>      Modified by: Peng&nbsp;Huang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Misconfiguration is a major cause of system failures and downtime. While various solutions have been proposed to address misconfiguration, they focus on the basic, simple kind of invalid configurations. Unfortunately, many misconfigurations are technically valid, yet cause severe production problems such as poor performance. These are called specious configurations.   Intellectual Merit  This project is the first to systematically investigate and proactively prevent specious configurations. This project have analyzed real-world specious configuration cases in popular software and summarized the common code patterns. The findings from our study provide unique insights to the essence of this problem. The project further explored a novel technique using static analysis and selective symbolic execution to construct parameterized impact tables and then enhance them with offline profiling data to automatically detect specious configurations. The final results demonstrated the proposed approach can scale to large systems, which is a surprising finding to the discipline.   Broader Impacts Misconfiguration is a prevalent cause for many impactful failures in our society. Specious configuration is especially common and dangerous. The findings from this research effectively improved the community's understandings about specious configuration. The developed solutions significantly helped reduce such failures in cloud systems.   Outcomes  We developed an end-to-end toolchain that contains the new techniques proposed in this project.  The toolchain was released to the open-source community. The research toolchain was successfully applied to popular, large software and automatically derived performance impact models for hundreds of configuration parameters.  The solution was further evaluated on real-world specious configurations and detected 88% of the cases. The solution also found unknown specious configurations that were fixed in the latest software releases. The results of the project are disseminated to the research community through several publications at the top systems conferences and workshops.  The results are further incorporated as educational materials into the PI's courses.  This project provided hands-on training for multiple graduate students as well as for students from under-represented groups. An undergraduate student who participated in this research received the CRA Outstanding Undergraduate Researcher Award honorable mention.        Last Modified: 08/15/2021       Submitted by: Peng Huang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

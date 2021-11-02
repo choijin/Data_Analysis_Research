@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small:Scalable Support for Concurrency in Multicore Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>399997.00</AwardTotalIntnAmount>
+<AwardAmount>415997</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Processor designs are predicted to continue the many-core trend, often with heterogeneous computational components. While the raw compute power may increase roughly linearly with the core count, unfortunately, realizing the available computational power at the application level remains a challenge. The gap between CPU and memory speeds continues to widen, resulting in the memory system often being unable to feed the computational demands. Parallel application developers and users alike must be aware of the details of the underlying hardware and runtime details in order to extract the most benefit from the system, compromising performance portability. Programmers are also increasingly exploiting concurrency via the use of pre-parallelized libraries, resulting in poor composability. The proposed research aims to address these issues by improving the ease of use, scalability, and energy efficiency of multicore and multiprocessor systems, with impact on environments ranging from smart phone to servers.&lt;br/&gt;&lt;br/&gt;As part of this research, a "pay-as-you-use" application-adaptive approach is used to develop a novel on-chip memory system. The key observation leveraged is that high-level modular application structure has predictable spatial locality. Rather than use a rigid parameter for the cache line granularity as in current designs, the underlying cache design adapts to match existing access granularity. Additionally, this research aims to develop runtime techniques that map application tasks to hardware compute resources by a) respecting the dependencies across tasks, b) matching task needs with the computational and memory capabilities of the resource, and c) determining the appropriate degree of parallelism at each level to minimize execution time and energy consumption. The new memory system design will improve on-chip storage utilization, eliminate energy wasted in transferring unused bytes of data, and reduce the pressure on off-chip memory bandwidth. The new runtime techniques will improve the ease of use and scalability of computational utilization by the increasingly innovative applications of the future.</AbstractNarration>
+<MinAmdLetterDate>06/13/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/18/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217920</AwardID>
+<Investigator>
+<FirstName>Sandhya</FirstName>
+<LastName>Dwarkadas</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sandhya Dwarkadas</PI_FULL_NAME>
+<EmailAddress>sandhya@cs.rochester.edu</EmailAddress>
+<PI_PHON>5852755647</PI_PHON>
+<NSF_ID>000368396</NSF_ID>
+<StartDate>06/13/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Rochester</Name>
+<CityName>Rochester</CityName>
+<ZipCode>146270140</ZipCode>
+<PhoneNumber>5852754031</PhoneNumber>
+<StreetAddress>518 HYLAN, RC BOX 270140</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY25</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041294109</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ROCHESTER</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041294109</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Rochester]]></Name>
+<CityName/>
+<StateCode>NY</StateCode>
+<ZipCode>146270140</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~399997</FUND_OBLG>
+<FUND_OBLG>2014~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp;</p> <p>&nbsp;</p> <p>Processor designs are predicted to continue the many-core trend, often with heterogeneous computational and storage components. The work, at both hardware and software layers, supported by this proposal, alleviates the scaling bottlenecks and ease with which parallelism in applications may be efficiently exploited on these systems.&nbsp;</p> <p>Current multiprocessor systems design with a one size fits all approach, resulting in poor hardware scaling even for applications that are well behaved, i.e., with an inherently high computation to communication ratio. We designed and evaluated a family of coherence protocols that can be made to scale by dynamically tailoring themselves to the sharing behavior of the application. Our design family, named Protozoa, is able to communicate data and invalidate copies at the spatial granularity<span> dynamically exhibited by the application, thereby avoiding extraneous communication</span><span> of unutilized data.&nbsp;</span></p> <p>State-of-the-art operating systems manage resources at the level of time and space using only coarse-grain information to determine the benefits of and apply affinity rules. We demonstrate that fine-grain information on application resource demand and performance from hardware performance counters is sufficiently low overhead to allow informed resource management at the operating system level. We developed application task mapping strategies, named SAM (Sharing-Aware Mapper),&nbsp; that use the aggregated coherence and bandwidth event counts available from hardware performance counters&nbsp; to separate traffic caused by data sharing from that due to memory accesses, and to identify application latency tolerance and computational demand. SAM automates the colocation of tasks that share data and distribution of tasks with high demand for cache capacity and memory bandwidth, thereby freeing application users from requiring knowledge of the underlying machine resource availability in order to effectively utilize the resources.</p> <p><br />Seven graduate students and one undergraduate student have participated in the research and benefited from the training in scalable systems development that they received. &nbsp;The hardware and software techniques developed with the help of support from this grant automate the reduction in communication required to deliver portable performance to applications, whether parallel or sequential. <span>The techniques developed improve the scalability of future many-core and accelerator-based architectures.&nbsp;These architectures form the building blocks of compute resources, from supercomputers to smart phones and&nbsp;embedded systems.&nbsp;</span><span>Improved scalability and ease of use translates directly to new discoveries in any field using&nbsp;</span><span>computing, from health care to the environment. It also has a direct impact on commercial enterprise as well as&nbsp;</span><span>individual quality of life. The improved resource utilization efficiency helps reduce the carbon footprint of society's growing computational infrastructure.&nbsp;</span></p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/31/2016<br>      Modified by: Sandhya&nbsp;Dwarkadas</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[       Processor designs are predicted to continue the many-core trend, often with heterogeneous computational and storage components. The work, at both hardware and software layers, supported by this proposal, alleviates the scaling bottlenecks and ease with which parallelism in applications may be efficiently exploited on these systems.   Current multiprocessor systems design with a one size fits all approach, resulting in poor hardware scaling even for applications that are well behaved, i.e., with an inherently high computation to communication ratio. We designed and evaluated a family of coherence protocols that can be made to scale by dynamically tailoring themselves to the sharing behavior of the application. Our design family, named Protozoa, is able to communicate data and invalidate copies at the spatial granularity dynamically exhibited by the application, thereby avoiding extraneous communication of unutilized data.   State-of-the-art operating systems manage resources at the level of time and space using only coarse-grain information to determine the benefits of and apply affinity rules. We demonstrate that fine-grain information on application resource demand and performance from hardware performance counters is sufficiently low overhead to allow informed resource management at the operating system level. We developed application task mapping strategies, named SAM (Sharing-Aware Mapper),  that use the aggregated coherence and bandwidth event counts available from hardware performance counters  to separate traffic caused by data sharing from that due to memory accesses, and to identify application latency tolerance and computational demand. SAM automates the colocation of tasks that share data and distribution of tasks with high demand for cache capacity and memory bandwidth, thereby freeing application users from requiring knowledge of the underlying machine resource availability in order to effectively utilize the resources.   Seven graduate students and one undergraduate student have participated in the research and benefited from the training in scalable systems development that they received.  The hardware and software techniques developed with the help of support from this grant automate the reduction in communication required to deliver portable performance to applications, whether parallel or sequential. The techniques developed improve the scalability of future many-core and accelerator-based architectures. These architectures form the building blocks of compute resources, from supercomputers to smart phones and embedded systems. Improved scalability and ease of use translates directly to new discoveries in any field using computing, from health care to the environment. It also has a direct impact on commercial enterprise as well as individual quality of life. The improved resource utilization efficiency helps reduce the carbon footprint of society's growing computational infrastructure.                    Last Modified: 10/31/2016       Submitted by: Sandhya Dwarkadas]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

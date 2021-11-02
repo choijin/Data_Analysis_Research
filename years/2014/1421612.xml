@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Collaborative Research: Hybrid Static-Dynamic Analyses for Region Serializability</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>364979.00</AwardTotalIntnAmount>
+<AwardAmount>364979</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Title: SHF: Small: Collaborative Research: Hybrid Static-Dynamic Analyses for Region Serializability&lt;br/&gt;&lt;br/&gt;Computer systems' performance has grown exponentially for decades, enabling advances in science, health, engineering, and other areas. However, due to power, heat, and wire-length limitations, chip manufacturers are now producing microprocessors that have more, instead of faster, computing cores. To scale with this increasingly parallel hardware, software systems must become more parallel. However, writing correct, scalable shared-memory programs is notoriously difficult. A key challenge is that modern programming languages and software and hardware systems provide virtually no guarantees for programs that have a common, hard-to-eliminate behavior called data races -- because no one knows how to provide better guarantees while retaining high performance. As a result, software is difficult to reason about and fails unexpectedly, leading to high development and testing costs, and imperiling reliability and security of mission- and safety-critical systems. This project provides stronger guarantees for software, achieving reasonable performance on contemporary systems. The intellectual merits are novel program analyses and runtime support that provide strong behavioral guarantees for programs. The project's broader significance and importance are making software systems automatically more reliable; eliminating whole classes of errors; reducing development and testing costs by simplifying programming; and simplifying and reducing costs of program analyses and software system support. Furthermore, the PIs' educational, mentoring, and outreach activities enhance the project by helping educate a diverse workforce of computer scientists trained in the project's work.&lt;br/&gt;&lt;br/&gt;A key contribution is a novel hybrid static-dynamic analysis that enforces a memory model called statically bounded region serializability (SBRS) entirely in software. This memory model is strictly stronger than sequential consistency (SC) and has the potential to be more efficient than SC to enforce, since it allows compilers and hardware to reorder instructions within regions. The project involves designing, implementing, and evaluating (1) three compiler transformations for enforcing SBRS, (2) enhancements to the static-dynamic analysis for performance and flexibility, (3) a novel asynchronous protocol for overlapping concurrency control with program execution while enforcing SBRS, and (4) enhancements to a software transactional memory (STM) system to use the asynchronous protocol to improve scalability. The work provides, for the first time, support for always-on, end-to-end SBRS that is practical, and it makes further advancements in providing high-performance runtime support for atomicity.</AbstractNarration>
+<MinAmdLetterDate>08/14/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/14/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421612</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Bond</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael Bond</PI_FULL_NAME>
+<EmailAddress>mikebond@cse.ohio-state.edu</EmailAddress>
+<PI_PHON>6142923805</PI_PHON>
+<NSF_ID>000565569</NSF_ID>
+<StartDate>08/14/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University</Name>
+<CityName>Columbus</CityName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888735</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1960 Kenny Road]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832127323</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001964634</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName/>
+<StateCode>OH</StateCode>
+<ZipCode>432101063</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~364979</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-f6a47b51-7fff-01a6-c6bf-1c9ab3ba8cb2"> </span></p> <p dir="ltr"><span>As power and heat limitations prevent processor clock rates from increasing and processors necessarily add more cores to improve performance, software systems must become more parallel to achieve performance gains. However, writing parallel software that both performs well and is reliable, is inherently challenging. The project developed new approaches for automatically improving the robustness of parallel software systems and for finding bugs automatically in parallel software.</span></p> <p dir="ltr"><span>The team designed, implemented, and evaluated compiler- and hardware-based techniques for automatically hardening (i.e., eliminating bugs that lead to errors such as crashes) of software systems by enforcing atomicity of executing regions of code and thereby eliminating many erroneous behaviors. The various techniques use a mix of software and hardware approaches that explore the tradeoffs between performance and flexibility. The most practical of the techniques leverages recently available processor support called hardware transactional memory to provide region atomicity efficiently, suggesting that it can be used in practice in production systems.</span></p> <p dir="ltr"><span>The team designed, implemented, and evaluated techniques that programmers can use when testing software to find hard-to-detect errors called data races that lead to crashes and other erroneous behaviors. These techniques extend predictive analysis to identify more data races than prior techniques have been able to find, while ensuring that reported data races are real and providing performance competitive with widely used commercial data race detectors that cannot "predict" data races and thus report fewer data races than the project's techniques.</span></p> <p dir="ltr"><span>&nbsp;</span>These contributions demonstrate how to make software and hardware systems more reliable and less costly, which has the potential for positive impacts on all domains that rely on computing, including health, science, engineering, education, transportation, and business.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/29/2018<br>      Modified by: Michael&nbsp;Bond</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   As power and heat limitations prevent processor clock rates from increasing and processors necessarily add more cores to improve performance, software systems must become more parallel to achieve performance gains. However, writing parallel software that both performs well and is reliable, is inherently challenging. The project developed new approaches for automatically improving the robustness of parallel software systems and for finding bugs automatically in parallel software. The team designed, implemented, and evaluated compiler- and hardware-based techniques for automatically hardening (i.e., eliminating bugs that lead to errors such as crashes) of software systems by enforcing atomicity of executing regions of code and thereby eliminating many erroneous behaviors. The various techniques use a mix of software and hardware approaches that explore the tradeoffs between performance and flexibility. The most practical of the techniques leverages recently available processor support called hardware transactional memory to provide region atomicity efficiently, suggesting that it can be used in practice in production systems. The team designed, implemented, and evaluated techniques that programmers can use when testing software to find hard-to-detect errors called data races that lead to crashes and other erroneous behaviors. These techniques extend predictive analysis to identify more data races than prior techniques have been able to find, while ensuring that reported data races are real and providing performance competitive with widely used commercial data race detectors that cannot "predict" data races and thus report fewer data races than the project's techniques.  These contributions demonstrate how to make software and hardware systems more reliable and less costly, which has the potential for positive impacts on all domains that rely on computing, including health, science, engineering, education, transportation, and business.          Last Modified: 11/29/2018       Submitted by: Michael Bond]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

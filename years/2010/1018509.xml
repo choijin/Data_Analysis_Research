@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF:  Small:  Gossiping, Intermittency, and Kalman Filtering</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>493778.00</AwardTotalIntnAmount>
+<AwardAmount>493778</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Cozzens</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This research considers large scale sparsely networked systems as they arise in large critical infrastructures, e.g., the power grid, or a large transportation system, or when monitoring large physical spaces instrumented with ad-hoc networks of sensors, as in environmental applications. The research will develop a completely novel distributed estimator to process the measurements collected by the networked sensors. A significant problem is the intermittent availability of the measurements because the underlying communication infrastructure among the sensors may exhibit random failures (e.g., due to packet loss in switched networks) or may communicate through a random protocol (gossip or variations.) Due to this intermittency, the estimator equations are random and the filter equations switch at random times between two modes of behaviors; in particular, the filter Riccati equation switches randomly between a linear algebraic matrix equation (Lyapounov) and a quadratic algebraic matrix equation. This research develops an appropriate distributed estimation algorithm, establishes under what structural conditions and for what rates of measurement collection does the filtering error stay bounded, and aims at determining the probability of the filtering error growing unbounded. To study these issues, this work develops new, potentially transformative, powerful methodologies that draw from the theory of random dynamical systems and (moderate) large deviations principle. The work will define appropriate conditions under which the sequences of the filter random covariances converge, determine their limiting invariant distributions, define appropriate rare events, and develop a moderate deviations principle that determines appropriate best rates at which the probability of rare events vanishes.</AbstractNarration>
+<MinAmdLetterDate>07/24/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/24/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018509</AwardID>
+<Investigator>
+<FirstName>Jose</FirstName>
+<LastName>Moura</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jose M Moura</PI_FULL_NAME>
+<EmailAddress>moura@ece.cmu.edu</EmailAddress>
+<PI_PHON>4122686341</PI_PHON>
+<NSF_ID>000101574</NSF_ID>
+<StartDate>07/24/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName>PITTSBURGH</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~493778</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This research considered very large systems that are the interconnect of similar components (or agents). The agents cooperate among themselves to achieve a common goal. This cooperation is through a sparse network of interconnections among the agents. Each agent collects data from the outside world &nbsp;that we refer to as observations or measurements. A common goal is to learn about the state of the world, for example, to compute the average temperature of the environment from the individual (local) temperature measurements of the agents. This could be done if every agent sent their temperature reading to a centralized location who would then average all received readings and rebroadcast the average temperature to all the agents. This is called a centralized processor. Centralized processing has numerous disadvantages, including single point of failure and overcrowding certain parts of the system. The cooperative distributed processing we considered achieves the same goal (in our simple example, computing the average temperature) but with only local communication, i.e., each agent only interchanging its information with a few selected neighbors. We consider these types of problems by extending in significant directions the standard consensus algorithm. In particular, we extended the algorithm to consider that each agent makes a new measurement each time it also cooperates with its neighbors. We proposed a new class of algorithms that we call consensus + innovations, where, at each time step, agents interchange their current state with neighbors and assimilate their new measurement; in other words, at each time step, each agent updates its state by processing the information about the state of their neighbors and their current new measurement.</p> <p>Intellectual merit: We considered problems of distributed inference where agents detect an event about the world or estimate characteristics or parameters of the world by cooperating among themselves and processing their local data as they receive it sequentially in time. We proposed a new class of distributed algorithms, consensus + innovations, to address these distributed inference problems. The effect of the consensus term is to compute locally a global average; the effect of the innovations term is to assimilate locally the current observation of the agent. &nbsp;The copnsensus+innovations algorithms that we considered address distributed inference in a very broad framework: the measurements may be nonlinearly related to the desired world parameters; there may be noise in the communications among agents; due to bandwidth constraints, the communication among agents needs to be quantized; the agents may fail at random intermittent times; the communications among agents may fail at random times; and the protocol used for distributed communications may be random (of the gossip type). Under this broad set of conditions we showed that the distributed consensus + innovations class of algorithms exhibits performance that is asymptotically, i.e., in the sense of a large number of processing steps, equivalent to the performance of the centralized processor. For example, for distributed estimation, we show that the consensus + innovations distributed estimator is asymptotically unbiased, consistent, asymptotically efficient, and converges in time at the same rate as the centralized processor. These results are obtained by carefully designing two vanishing weight sequences, one weigthing the consensus term and the other weighting the innovations term. The techniques introduced to prove these results extend in very significant way current methodologies to analyse performance of distributed processing algorithms.</p> <p>&nbsp;</p> <p>Broad impact: Our results have broad applicability in very diverse domains from large scale critical networked infrastructures like the power grid to social networks where rumours or fads spread and diffuse across communities through social contacts. &nbsp;Our results were broadly disseminated among the technical community; we published seventeen journal papers and eighteen conference papers. Our results generated broad interest and we gave numerous keynotes and plenaries at major technical international meetings and conferences. We also gave numerous distinguished seminars at Universities and Laboratories across the world. There were four PhD students whose work was directly impacted by this research, one a female student.</p><br> <p>            Last Modified: 06/09/2017<br>      Modified by: Jose&nbsp;M&nbsp;Moura</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This research considered very large systems that are the interconnect of similar components (or agents). The agents cooperate among themselves to achieve a common goal. This cooperation is through a sparse network of interconnections among the agents. Each agent collects data from the outside world  that we refer to as observations or measurements. A common goal is to learn about the state of the world, for example, to compute the average temperature of the environment from the individual (local) temperature measurements of the agents. This could be done if every agent sent their temperature reading to a centralized location who would then average all received readings and rebroadcast the average temperature to all the agents. This is called a centralized processor. Centralized processing has numerous disadvantages, including single point of failure and overcrowding certain parts of the system. The cooperative distributed processing we considered achieves the same goal (in our simple example, computing the average temperature) but with only local communication, i.e., each agent only interchanging its information with a few selected neighbors. We consider these types of problems by extending in significant directions the standard consensus algorithm. In particular, we extended the algorithm to consider that each agent makes a new measurement each time it also cooperates with its neighbors. We proposed a new class of algorithms that we call consensus + innovations, where, at each time step, agents interchange their current state with neighbors and assimilate their new measurement; in other words, at each time step, each agent updates its state by processing the information about the state of their neighbors and their current new measurement.  Intellectual merit: We considered problems of distributed inference where agents detect an event about the world or estimate characteristics or parameters of the world by cooperating among themselves and processing their local data as they receive it sequentially in time. We proposed a new class of distributed algorithms, consensus + innovations, to address these distributed inference problems. The effect of the consensus term is to compute locally a global average; the effect of the innovations term is to assimilate locally the current observation of the agent.  The copnsensus+innovations algorithms that we considered address distributed inference in a very broad framework: the measurements may be nonlinearly related to the desired world parameters; there may be noise in the communications among agents; due to bandwidth constraints, the communication among agents needs to be quantized; the agents may fail at random intermittent times; the communications among agents may fail at random times; and the protocol used for distributed communications may be random (of the gossip type). Under this broad set of conditions we showed that the distributed consensus + innovations class of algorithms exhibits performance that is asymptotically, i.e., in the sense of a large number of processing steps, equivalent to the performance of the centralized processor. For example, for distributed estimation, we show that the consensus + innovations distributed estimator is asymptotically unbiased, consistent, asymptotically efficient, and converges in time at the same rate as the centralized processor. These results are obtained by carefully designing two vanishing weight sequences, one weigthing the consensus term and the other weighting the innovations term. The techniques introduced to prove these results extend in very significant way current methodologies to analyse performance of distributed processing algorithms.     Broad impact: Our results have broad applicability in very diverse domains from large scale critical networked infrastructures like the power grid to social networks where rumours or fads spread and diffuse across communities through social contacts.  Our results were broadly disseminated among the technical community; we published seventeen journal papers and eighteen conference papers. Our results generated broad interest and we gave numerous keynotes and plenaries at major technical international meetings and conferences. We also gave numerous distinguished seminars at Universities and Laboratories across the world. There were four PhD students whose work was directly impacted by this research, one a female student.       Last Modified: 06/09/2017       Submitted by: Jose M Moura]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

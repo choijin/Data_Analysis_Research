@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Leverage Subsampling for Regression and Dimension Reduction</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>225000.00</AwardTotalIntnAmount>
+<AwardAmount>225000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yong Zeng</SignBlockName>
+<PO_EMAI>yzeng@nsf.gov</PO_EMAI>
+<PO_PHON>7032927902</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>As a result of rapid advances in information technology, massive datasets are being generated in all fields of science, engineering, social science, business, and government. Useful information is often extracted from these data through statistical model fitting, e.g., through regression models. These models are useful for describing relationships between predictor variables and a response variable. Given a set of n data elements and p predictors, p and/or n can be large in much modern massive data set applications. In these cases, conventional algorithms often face severe computational challenges. Subsampling of rows and/or columns of a data matrix have traditionally been employed as a heuristic to reduce the size of large data sets, thus enabling computations to run more quickly. Recently, however, an innovative sampling methodology that uses the empirical statistical leverage scores of the data matrix as a nonuniform importance sampling distribution has been proposed. This has been applied to the ordinary least squares (OLS) problem and other related problems, and this leverage-based nonuniform sampling procedure gives a very good approximation to the OLS based on full data (when p is small and n is large) more rapidly than traditional methods, both in worst-case theory and in high-quality numerical implementations. As of yet, however, the statistical properties of these algorithms are unexplored. Understanding these properties is of interest for both fundamental and very practical reasons; and the investigators' work addresses these problems. The investigators consider both statistical theory as well as the evaluation of that theory with high-quality numerical implementations on large real-world data. &lt;br/&gt;&lt;br/&gt;This research proposal consists of two related research thrusts, both of which center around the common goal of an integrated treatment of statistical and computational issues. The first research thrust focuses on studying the statistical properties of the subsampling estimation using the statistical leverage scores in linear regression. The second research thrust generalizes the theory and methods to nonlinear regression and dimension reduction models. The proposed theory and methods serve as an inspiration for new ideas to push statistical methodology development forward. The research provides new insight into the existing algorithms, produces innovative methodologies for analyzing large-scale data, inspires new lines of quantitative investigations in interdisciplinary research and offers a unique educational experience.</AbstractNarration>
+<MinAmdLetterDate>08/29/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1228246</AwardID>
+<Investigator>
+<FirstName>Bin</FirstName>
+<LastName>Yu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Bin Yu</PI_FULL_NAME>
+<EmailAddress>binyu@stat.berkeley.edu</EmailAddress>
+<PI_PHON>5106422021</PI_PHON>
+<NSF_ID>000465148</NSF_ID>
+<StartDate>08/29/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Berkeley]]></Name>
+<CityName>Berkeley</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>947203860</ZipCode>
+<StreetAddress><![CDATA[367 Evans Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~225000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>With rapid advances of information technology, massive datasets are collected by all fields of science, engineering, social science, business, and government. Useful or meaningful information is extracted from these data often through statistical means or model fitting, typically through regression models.&nbsp;</span>Various models and methods have been developed for regression analysis in the literature, ranging from classic linear regression to nonparametric regression. Nevertheless, every regression model and method can be seriously compromised if the dimensionality of X, say p, is large. For example, the computational cost and the sample size that needed for smoothing the nonparametric regression escalate exponentially as p increases. Therefore, unless we have gigantic samples and unlimited computational resources, it is necessary to reduce the number of predictors or dimensions of X to ensure the success of regression analysis. Supported by this project, we have developed powerful statistical tools that make use of sampling ideas for tackling big data regression problem.</p> <div class="page" title="Page 1"> <div class="layoutArea"> <div class="column"> <p><strong>Intellectual Merit&nbsp;</strong></p> </div> </div> </div> <p>Supported by this project, we obtained the following significant results. &nbsp;</p> <p>(1) &nbsp;We provide the first interpretation of algorithmic leveraging&nbsp;paradigm from a statistical analysis point of view. For theoretical results, we provide a simple yet effective framework to evaluate the&nbsp;statistical properties of algorithmic leveraging in the context of estimating&nbsp;parameters in a linear regression model with a fixed number of predictors.&nbsp;</p> <p>(2) We bridge that gap by providing the statistical analysis of the algorithmic leveraging paradigm. We do so in the context of parameter estimation in fitting linear regression models for large-scale data|where, by "large-scale," we mean that the data dene a high-dimensional problem in terms of sample size n, as opposed to the dimension p of the parameter space.&nbsp;</p> <p>(3) We&nbsp;reviewed the general framework of sliced inverse regression and introduced the weighted leverage score for variable screening, illustrated the asymptotic behavior and rank consistency of weighted leverage score. Simulation studies and real data applications are also conducted to show the power of proposed methods.</p> <p>(4)&nbsp;We proposed a reference-free and distribution-free binning method, MetaGen, which makes use of the relative abundance information from multiple samples to cluster contigs into different species bins and the Bayesian information criterion (BIC) to determine the number of species in the samples.</p> <p>(5) We proposed the sequential leveraging method and stated the main theorem, present some simulation results to support the theorem presented and do a real data analysis using sequential leveraging method.</p> <p>(6) F<span>or the first time in the case of p&gt;&gt;n, valid confidence intervals for post-Lasso estimators via parametric bootstrap when p&gt;&gt;n and first statistical analysis of leverage sampling and LS estimation with two new improved procedures based on leverage sampling for the fixed p case. Both problems are important for big data since both LS and Lasso are canonical methods for discovering relationships between variables.</span></p> <p><span>(7)&nbsp;In line with statistical dimension reduction methods, we developed staNMF, a method that combines a scalable implementation of nonnegative matrix factorization with a new stability-driven model selection criterion.&nbsp;</span></p> <p><span>(8) &nbsp;We&nbsp;<span>use the Lasso to both select relevant&nbsp;covariates and perform the adjustment. We study the resulting estimator under&nbsp;the Neyman-Rubin&nbsp;model for randomization and present conditions on the&nbsp;covariates and potential outcomes which guarantee that the Lasso is more&nbsp;efficient than the unadjusted estimator and provide a conservative estimate of the&nbsp;asymptotic variance.</span></span></p> <div class="page" title="Page 1"> <div class="layoutArea"> <div class="column"> <div class="page" title="Page 1"> <div class="layoutArea"> <div class="column"> <p><strong>Broader Impacts&nbsp;</strong></p> </div> </div> </div> <div class="page" title="Page 1"> <div class="layoutArea"> <div class="column"> <p><span>Our broad research spectrum from basic statistical theory research to applied fields such as Biology and Chemistry.&nbsp;</span></p> </div> </div> </div> <p><span>As a popular sampling based framework for solving scalable least squares&nbsp;regression and other matrix problems&nbsp;via the empirical statistical leverage scores of the data, algorithmic leveraging has been demonstrating many&nbsp;desirable algorithmic properties. Our proposed algorithms&nbsp;<span>demonstrated its benefits on several real dataset. Especially, the proposed&nbsp;<span>SSANOVAs show the promising potential for discovering interesting functional&nbsp;relationships among large noisy data sets in the physical and social sciences.</span></span></span></p> <p>In Biology, t<span>he proposed leveraging algorithms have been applied to analyze high throughput RNAseq&nbsp;</span><span>data. We observe that LEV, LEVUNW, SLEV, and UNIF all have comparable sample variances. When the subsample size is very small, all four methods have comparable sample bias; but when the subsample size is larger, then LEVUNW has a slightly larger bias than the other three estimates. In the other direction of genetic data analysis, o</span>ur purposed statNMF method has been very successful in analyzing noisy gene expression data.&nbsp;</p> <p>In Chemistry, the tensor sufficient dimension reduction model is proposed to analyze the optical electronic nose data (also known as the colorimetric sensor array data). The data set contained large amount of tensor observations, which are multiway arrays.</p> </div> </div> </div> <p>&nbsp;</p><br> <p>            Last Modified: 12/15/2016<br>      Modified by: Bin&nbsp;Yu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ With rapid advances of information technology, massive datasets are collected by all fields of science, engineering, social science, business, and government. Useful or meaningful information is extracted from these data often through statistical means or model fitting, typically through regression models. Various models and methods have been developed for regression analysis in the literature, ranging from classic linear regression to nonparametric regression. Nevertheless, every regression model and method can be seriously compromised if the dimensionality of X, say p, is large. For example, the computational cost and the sample size that needed for smoothing the nonparametric regression escalate exponentially as p increases. Therefore, unless we have gigantic samples and unlimited computational resources, it is necessary to reduce the number of predictors or dimensions of X to ensure the success of regression analysis. Supported by this project, we have developed powerful statistical tools that make use of sampling ideas for tackling big data regression problem.     Intellectual Merit      Supported by this project, we obtained the following significant results.    (1)  We provide the first interpretation of algorithmic leveraging paradigm from a statistical analysis point of view. For theoretical results, we provide a simple yet effective framework to evaluate the statistical properties of algorithmic leveraging in the context of estimating parameters in a linear regression model with a fixed number of predictors.   (2) We bridge that gap by providing the statistical analysis of the algorithmic leveraging paradigm. We do so in the context of parameter estimation in fitting linear regression models for large-scale data|where, by "large-scale," we mean that the data dene a high-dimensional problem in terms of sample size n, as opposed to the dimension p of the parameter space.   (3) We reviewed the general framework of sliced inverse regression and introduced the weighted leverage score for variable screening, illustrated the asymptotic behavior and rank consistency of weighted leverage score. Simulation studies and real data applications are also conducted to show the power of proposed methods.  (4) We proposed a reference-free and distribution-free binning method, MetaGen, which makes use of the relative abundance information from multiple samples to cluster contigs into different species bins and the Bayesian information criterion (BIC) to determine the number of species in the samples.  (5) We proposed the sequential leveraging method and stated the main theorem, present some simulation results to support the theorem presented and do a real data analysis using sequential leveraging method.  (6) For the first time in the case of p&gt;&gt;n, valid confidence intervals for post-Lasso estimators via parametric bootstrap when p&gt;&gt;n and first statistical analysis of leverage sampling and LS estimation with two new improved procedures based on leverage sampling for the fixed p case. Both problems are important for big data since both LS and Lasso are canonical methods for discovering relationships between variables.  (7) In line with statistical dimension reduction methods, we developed staNMF, a method that combines a scalable implementation of nonnegative matrix factorization with a new stability-driven model selection criterion.   (8)  We use the Lasso to both select relevant covariates and perform the adjustment. We study the resulting estimator under the Neyman-Rubin model for randomization and present conditions on the covariates and potential outcomes which guarantee that the Lasso is more efficient than the unadjusted estimator and provide a conservative estimate of the asymptotic variance.        Broader Impacts         Our broad research spectrum from basic statistical theory research to applied fields such as Biology and Chemistry.      As a popular sampling based framework for solving scalable least squares regression and other matrix problems via the empirical statistical leverage scores of the data, algorithmic leveraging has been demonstrating many desirable algorithmic properties. Our proposed algorithms demonstrated its benefits on several real dataset. Especially, the proposed SSANOVAs show the promising potential for discovering interesting functional relationships among large noisy data sets in the physical and social sciences.  In Biology, the proposed leveraging algorithms have been applied to analyze high throughput RNAseq data. We observe that LEV, LEVUNW, SLEV, and UNIF all have comparable sample variances. When the subsample size is very small, all four methods have comparable sample bias; but when the subsample size is larger, then LEVUNW has a slightly larger bias than the other three estimates. In the other direction of genetic data analysis, our purposed statNMF method has been very successful in analyzing noisy gene expression data.   In Chemistry, the tensor sufficient dimension reduction model is proposed to analyze the optical electronic nose data (also known as the colorimetric sensor array data). The data set contained large amount of tensor observations, which are multiway arrays.             Last Modified: 12/15/2016       Submitted by: Bin Yu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

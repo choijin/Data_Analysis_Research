@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Convex Architecture for Human Movement Understanding</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>380193.00</AwardTotalIntnAmount>
+<AwardAmount>380193</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Yang</SignBlockName>
+<PO_EMAI>jyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924768</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project focuses on convex methods for human movement understanding, the task of estimating and quantifying human motion and movement in videos. Compared with previous approaches, the convex methods explicitly model complex inter-component correlations and global constraints and are able to achieve more reliable results. The convex formulations are automatically generated using learning methods. By taking advantage of their special structures, efficient algorithms are devised. This project studies human movement understanding from different perspectives and provides convex solutions to global movement estimation, body part tracking, and local patch motion trajectory estimation. The key research components include convex articulated graph matching with complexity decoupled from the sizes of target candidate sets, convex structure learning and efficient decomposition methods for solving large-scale problems. With robust movement estimation, this project further addresses performance recognition, a new application that quantifies the style and performance of actions.&lt;br/&gt;&lt;br/&gt;This project benefits surveillance, robotics, human computer interaction, entertainment, sports and medical applications. The convex framework developed in this project can also be extended to many other areas to construct optimal models for information retrieval, control systems, scheduling and network analysis, and to solve large-scale problems in operational research and simulation. &lt;br/&gt;&lt;br/&gt;This project develops a new technology for understanding human movements; a benchmark dataset is also developed. The results are disseminated by peer reviewed publications, web page downloads, and by university courses.</AbstractNarration>
+<MinAmdLetterDate>08/05/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>11/16/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018641</AwardID>
+<Investigator>
+<FirstName>Hao</FirstName>
+<LastName>Jiang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Hao Jiang</PI_FULL_NAME>
+<EmailAddress>hjiang@cs.bc.edu</EmailAddress>
+<PI_PHON>6175528983</PI_PHON>
+<NSF_ID>000508958</NSF_ID>
+<StartDate>08/05/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Boston College</Name>
+<CityName>Chestnut Hill</CityName>
+<ZipCode>024673800</ZipCode>
+<PhoneNumber>6175528000</PhoneNumber>
+<StreetAddress>140 Commonwealth Avenue</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>045896339</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF BOSTON COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>045896339</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Boston College]]></Name>
+<CityName>Chestnut Hill</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>024673800</ZipCode>
+<StreetAddress><![CDATA[140 Commonwealth Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~79385</FUND_OBLG>
+<FUND_OBLG>2011~300808</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project, we developed novel global approaches to understand human movements in images and videos. Human movement understanding involves tackling complex search problems in which we extract the positions of key points, body parts or the regions of human blobs. Traditional local methods are easily trapped in local minimum and fail. Global search scheme is preferred. However, the choice does have a cost. The big challenge is that global methods often have high computational complexity.  We developed novel methods that reduce complex optimization problems into simpler convex problems so that  high quality global search can be efficiently applied.</p> <p>By taking advantage of the special structures of the formulations,  we developed fast and reliable methods to solve the problems including non-tree 2D/3D human pose estimation, topology constrained human figure/ground separation, human key point detection and tracking in fast sports videos with motion blur, scale and rotation invariant point and region matching in strong clutter using lower convex hull and linearly augmented tree schemes, action detection in videos using shape flow, and common action localization across multiple videos. Compared to traditional methods, the proposed novel convex approaches are able to include more accurate global constraints and find the global optimal or near global optimal solution while maintaining the computational efficiency.</p> <p>These novel convex approaches are quite general. They can be used to solve problems in many different domains. With the same scheme, we have successfully solved the problem of structure discovering and matching in RGB-Depth images. The proposed large scale optimization method can also be used to solve problems with similar structures in other science and engineering domains. This research has been disseminated in more than twenty publications, most of which in the prestigious journals and conferences in the field. It also provided a great opportunity for education. Many postdoctoral researchers and undergraduate student researchers participated in and contributed to the research.  This research also provided interesting real-life course projects  and teaching materials for the Special Topics on Computer Vision course at Boston College, which equips students with not only knowledge but also skills for exploring the unknown in science.</p><br> <p>            Last Modified: 08/01/2016<br>      Modified by: Hao&nbsp;Jiang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project, we developed novel global approaches to understand human movements in images and videos. Human movement understanding involves tackling complex search problems in which we extract the positions of key points, body parts or the regions of human blobs. Traditional local methods are easily trapped in local minimum and fail. Global search scheme is preferred. However, the choice does have a cost. The big challenge is that global methods often have high computational complexity.  We developed novel methods that reduce complex optimization problems into simpler convex problems so that  high quality global search can be efficiently applied.  By taking advantage of the special structures of the formulations,  we developed fast and reliable methods to solve the problems including non-tree 2D/3D human pose estimation, topology constrained human figure/ground separation, human key point detection and tracking in fast sports videos with motion blur, scale and rotation invariant point and region matching in strong clutter using lower convex hull and linearly augmented tree schemes, action detection in videos using shape flow, and common action localization across multiple videos. Compared to traditional methods, the proposed novel convex approaches are able to include more accurate global constraints and find the global optimal or near global optimal solution while maintaining the computational efficiency.  These novel convex approaches are quite general. They can be used to solve problems in many different domains. With the same scheme, we have successfully solved the problem of structure discovering and matching in RGB-Depth images. The proposed large scale optimization method can also be used to solve problems with similar structures in other science and engineering domains. This research has been disseminated in more than twenty publications, most of which in the prestigious journals and conferences in the field. It also provided a great opportunity for education. Many postdoctoral researchers and undergraduate student researchers participated in and contributed to the research.  This research also provided interesting real-life course projects  and teaching materials for the Special Topics on Computer Vision course at Boston College, which equips students with not only knowledge but also skills for exploring the unknown in science.       Last Modified: 08/01/2016       Submitted by: Hao Jiang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

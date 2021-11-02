@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Medium: Collaborative: Development and Evaluation of Next Generation Homomorphic Encryption Schemes</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>275397.00</AwardTotalIntnAmount>
+<AwardAmount>275397</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Andrew Pollington</SignBlockName>
+<PO_EMAI>adpollin@nsf.gov</PO_EMAI>
+<PO_PHON>7032924878</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Fully homomorphic encryption (FHE) is a promising new technology that enables an untrusted party to efficiently compute directly on ciphertexts. For instance, with FHE a cloud server without access to the user's encrypted content can still provide text search services.  An efficient FHE scheme would significantly improve the security of sensitive user data stored and processed on cloud servers. Significant progress has been made in bringing FHE proposals closer to practice. The PIs conduct a multi-pronged investigation of next generation homomorphic encryption schemes that do not require heavy computation or storage.&lt;br/&gt;&lt;br/&gt;The investigation is structured in two research modules. The first module focuses on the theoretical foundation of FF-Encrypt - a new scheme by the PIs - including a thorough security analysis, selection of parameters for secure and efficient construction, and investigation of noise mitigation techniques. The second module compares the new scheme to existing ones with similar properties to establish its security and efficiency. Further techniques are studied to improve the scalability of the scheme. The performance of the developed theoretical homomorphic encryption schemes is scrutinized under the lens of optimized software and hardware implementations.&lt;br/&gt;&lt;br/&gt;The investigation develops strategies for creating and optimizing next generation FHE schemes. In particular, the proposed new FF-Encrypt scheme has the potential to reduce parameter sizes while also eliminating evaluation keys, pushing FHE a step closer to the realm of real-world applications. The challenges in this project include the analysis of a new homomorphic scheme based on a new assumed computationally hard problem.</AbstractNarration>
+<MinAmdLetterDate>07/21/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/21/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1561536</AwardID>
+<Investigator>
+<FirstName>Berk</FirstName>
+<LastName>Sunar</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Berk Sunar</PI_FULL_NAME>
+<EmailAddress>sunar@wpi.edu</EmailAddress>
+<PI_PHON>5088315494</PI_PHON>
+<NSF_ID>000434676</NSF_ID>
+<StartDate>07/21/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Worcester Polytechnic Institute</Name>
+<CityName>WORCESTER</CityName>
+<ZipCode>016092247</ZipCode>
+<PhoneNumber>5088315000</PhoneNumber>
+<StreetAddress>100 INSTITUTE RD</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041508581</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WORCESTER POLYTECHNIC INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041508581</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Worcester Polytechnic Institute]]></Name>
+<CityName>Worcester</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>016092280</ZipCode>
+<StreetAddress><![CDATA[100 Institute Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~275397</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The overarching goal of this project has been the development of new fully homomorphic encryption algorithms whose security is based on new mathematical problems which experts believe to be hard. In a nutshell, homomorphic encryption allows encrypted data to be further processed without the need for decryption and therefore has the potential for greatly improving the security of our infrastructure, including servers that store masses of sensitive data. For example, Google could serve private search results without knowing the search terms or the search results which would all be kept encrypted form.&nbsp;</p> <p><br />In the project, the researchers investigated a completely new conjectured hard mathematical problem and defined a new fully homomorphic encryption scheme. All existing fully homomorphic encryption schemes use noise to hide the data and therefore are susceptible to noise growth. There is limited space fo the noise to grow and as the encrypted data is processed beyond a limit the data becomes undecryptable. The researchers, have used a recently introduced technique called flattening to exponentially improve the noise performance of their new scheme. The new encryption algorithm supports deep computations and therefore can be used a wide array of applications.</p> <p><br />To improve the processing speed of their encryption algorithm, the researchers developed new optimization techniques that greatly improves the speed on&nbsp; graphics processing units (GPUs). GPUs are commonly used in gaming applications and for scientific computation, due to their unmatched performance per price and raw processing power. The challenge however is that GPUs process data fundamentally differently than regular computers, and therefore, optimization requires fundamental redesign in algorithms. The researchers designed a new data transformation method optimized for GPUs which operates 20 times faster than the previously best implementation. This transformation is at the heart of all fully homomorphic encryption algorithms. Therefore the software library may be used to accelerate numerous fully homomorphic encryption algorithms.&nbsp;The software is made available for public download and was already adopted by a company to bring privacy into so-called smart contracts, executing pieces of code, embedded in new generation Blockchains.&nbsp;</p> <p>To field test the optimized software library the researchers focused on an operation, i.e. sorting of an array integers, that is common building block in a wide array of applications. The main difference however is that the array is in encrypted form. Therefore, the numerous techniques available in the literature may not be used directly and need to be adapted into the blinded computation model. The researchers discovered a novel encoding algorithm that greatly improves the encrypted sorting capability. In terms of scalability, the proposed algorithm improves over the best in the literature and may be used to sort much larger arrays with smaller processing times.&nbsp;</p> <p>Beyond the technical outcomes, the project provided an excellent training opportunity for both graduate and undergraduate students. The students were exposed to the fundamental principles of privacy and cryptography, and techniques for encrypted computation, optimized data processing and GPU architectures. Two of the senior researchers, have completed their doctoral dissertations and have been recruited by two premier companies to work in their security divisions. Another two undergraduate students and are currently continuing to pursue careers with further training in cybersecurity.</p><br> <p>            Last Modified: 06/01/2019<br>      Modified by: Berk&nbsp;Sunar</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The overarching goal of this project has been the development of new fully homomorphic encryption algorithms whose security is based on new mathematical problems which experts believe to be hard. In a nutshell, homomorphic encryption allows encrypted data to be further processed without the need for decryption and therefore has the potential for greatly improving the security of our infrastructure, including servers that store masses of sensitive data. For example, Google could serve private search results without knowing the search terms or the search results which would all be kept encrypted form.    In the project, the researchers investigated a completely new conjectured hard mathematical problem and defined a new fully homomorphic encryption scheme. All existing fully homomorphic encryption schemes use noise to hide the data and therefore are susceptible to noise growth. There is limited space fo the noise to grow and as the encrypted data is processed beyond a limit the data becomes undecryptable. The researchers, have used a recently introduced technique called flattening to exponentially improve the noise performance of their new scheme. The new encryption algorithm supports deep computations and therefore can be used a wide array of applications.   To improve the processing speed of their encryption algorithm, the researchers developed new optimization techniques that greatly improves the speed on  graphics processing units (GPUs). GPUs are commonly used in gaming applications and for scientific computation, due to their unmatched performance per price and raw processing power. The challenge however is that GPUs process data fundamentally differently than regular computers, and therefore, optimization requires fundamental redesign in algorithms. The researchers designed a new data transformation method optimized for GPUs which operates 20 times faster than the previously best implementation. This transformation is at the heart of all fully homomorphic encryption algorithms. Therefore the software library may be used to accelerate numerous fully homomorphic encryption algorithms. The software is made available for public download and was already adopted by a company to bring privacy into so-called smart contracts, executing pieces of code, embedded in new generation Blockchains.   To field test the optimized software library the researchers focused on an operation, i.e. sorting of an array integers, that is common building block in a wide array of applications. The main difference however is that the array is in encrypted form. Therefore, the numerous techniques available in the literature may not be used directly and need to be adapted into the blinded computation model. The researchers discovered a novel encoding algorithm that greatly improves the encrypted sorting capability. In terms of scalability, the proposed algorithm improves over the best in the literature and may be used to sort much larger arrays with smaller processing times.   Beyond the technical outcomes, the project provided an excellent training opportunity for both graduate and undergraduate students. The students were exposed to the fundamental principles of privacy and cryptography, and techniques for encrypted computation, optimized data processing and GPU architectures. Two of the senior researchers, have completed their doctoral dissertations and have been recruited by two premier companies to work in their security divisions. Another two undergraduate students and are currently continuing to pursue careers with further training in cybersecurity.       Last Modified: 06/01/2019       Submitted by: Berk Sunar]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

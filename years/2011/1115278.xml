@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Numerical approaches for incompressible viscous flows with high order accuracy up to the boundary</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>119998.00</AwardTotalIntnAmount>
+<AwardAmount>119998</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The research in this project focuses on the development, analysis, and implementation of efficient strategies to solve incompressible viscous flow problems with high order accuracy up to the boundary, with specific emphasis on the accurate calculation of stresses at the boundaries. To that end, Pressure Poisson Equation (PPE) reformulations of the time-dependent Navier-Stokes equations are considered. These reformulations are equivalent to the original equation, however, they yield explicit boundary conditions for the fluid pressure. As a consequence, numerical discretizations of PPE reformulations do not suffer from certain problems that traditional projection techniques incur, such as numerical boundary layers and inaccuracies in stresses at boundaries. The goal of this project is the exploitation of this fundamental advantage to develop effective, and high order accurate, implementations for incompressible viscous fluid flows in general domains, using various techniques such as finite elements, finite differences, and meshfree particle methods.&lt;br/&gt;Moreover, the numerical approximation of the actual Pressure Poisson Equations is a rich source of questions of interest to the numerical linear algebra community, and this project involves interactions with collaborators from that area.&lt;br/&gt;&lt;br/&gt;In many applications in science and engineering, the accurate and efficient computation of forces and stresses at boundaries between fluids and solids is of crucial importance. Examples in which boundary forces (in the form of lift and drag) are key quantities of interest are the design of airplane wings, motor vehicles, and wind turbines, as well as the simulation of sedimentation in stratified fluids and bio-locomotion. The investigators are researching new methodologies and implementations of approaches that allow for a highly accurate computation of these boundary forces. This project relates developments in computational fluid dynamics with both theoretical aspects regarding the mathematical structure of the equations of incompressible flows, as well as fundamental questions that arise in the effective solution of large systems of equations. The involvement and training of graduate students is an important component of this project.</AbstractNarration>
+<MinAmdLetterDate>08/18/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/18/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1115278</AwardID>
+<Investigator>
+<FirstName>Rodolfo</FirstName>
+<LastName>Rosales</LastName>
+<PI_MID_INIT>R</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Rodolfo R Rosales</PI_FULL_NAME>
+<EmailAddress>rrr@math.mit.edu</EmailAddress>
+<PI_PHON>6172532784</PI_PHON>
+<NSF_ID>000449413</NSF_ID>
+<StartDate>08/18/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 MASSACHUSETTS AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~119998</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project has contributed new computational approaches for the simulation of incompressible viscous fluid flows. Many popular traditional methodologies lose accuracy near domain boundaries (such as the surface of an airplane wing), resulting in poor estimates of fluid stresses (as important for lift and drag, for example). The newly developed numerical methods are based on reformulations of the Navier-Stokes equations that describe the motion of incompressible viscous fluids. These reformulations are then approximated using proper numerical approaches, such as finite elements and meshfree methods, that allow for highly accurate approximations. Moreover, this research has provided theoretical insight to numerical methods for fluid flows by demonstrating that certain existing classical approaches ("nodal-based finite elements") fail at capturing the correct solutions of the studied reformulations. In addition: (1) Models describing the behavior of walking/bouncing fluid drops were developed and analyzed. (2) Simplified models for shocks in reacting media were developed and analyzed.The Intellectual Merit of this research lies in (a) fundamental insights into the equations describing viscous fluid flows (e.g., the studied reformulations provide a generalization of the Navier-Stokes equations); (b) a better theoretical understanding of the success and failure of various types of finite element methods for fluid flow problems; (c) the development of new, modular and highly accurate computational methods for fluid flows; (d) development of mathematical models for walking/bouncing fluid drops; and (e) development of simplified mathematical models for reacting shock waves.The Broader Impacts stem from the fact that fluid flow computations with accurate surface forces are of crucial importance in many applications in science and engineering, including airplane wings, motor vehicles, and wind turbines, as well as the simulation of sedimentation in stratified fluids and bio-locomotion. The theoretical aspects of this research provide new perspectives on the equations describing flows, including viscous fluids and radiative transfer. A better understanding of the complex dynamics of reacting shock waves has implications for applications involving combustion. Finally, simplified mathematical models have pedagogical value as tools to introduce students to complex physical and mathematical phenomena in a context where understanding is easier. This project involved national and international collaborations, the training of five graduate students, one postdoctoral researcher, and the involvement of one undergraduate student researcher.Products created in this project that go beyond journal publications are: three PhD thesis and publicly available software codes.</p><br> <p>            Last Modified: 11/22/2015<br>      Modified by: Rodolfo&nbsp;R&nbsp;Rosales</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project has contributed new computational approaches for the simulation of incompressible viscous fluid flows. Many popular traditional methodologies lose accuracy near domain boundaries (such as the surface of an airplane wing), resulting in poor estimates of fluid stresses (as important for lift and drag, for example). The newly developed numerical methods are based on reformulations of the Navier-Stokes equations that describe the motion of incompressible viscous fluids. These reformulations are then approximated using proper numerical approaches, such as finite elements and meshfree methods, that allow for highly accurate approximations. Moreover, this research has provided theoretical insight to numerical methods for fluid flows by demonstrating that certain existing classical approaches ("nodal-based finite elements") fail at capturing the correct solutions of the studied reformulations. In addition: (1) Models describing the behavior of walking/bouncing fluid drops were developed and analyzed. (2) Simplified models for shocks in reacting media were developed and analyzed.The Intellectual Merit of this research lies in (a) fundamental insights into the equations describing viscous fluid flows (e.g., the studied reformulations provide a generalization of the Navier-Stokes equations); (b) a better theoretical understanding of the success and failure of various types of finite element methods for fluid flow problems; (c) the development of new, modular and highly accurate computational methods for fluid flows; (d) development of mathematical models for walking/bouncing fluid drops; and (e) development of simplified mathematical models for reacting shock waves.The Broader Impacts stem from the fact that fluid flow computations with accurate surface forces are of crucial importance in many applications in science and engineering, including airplane wings, motor vehicles, and wind turbines, as well as the simulation of sedimentation in stratified fluids and bio-locomotion. The theoretical aspects of this research provide new perspectives on the equations describing flows, including viscous fluids and radiative transfer. A better understanding of the complex dynamics of reacting shock waves has implications for applications involving combustion. Finally, simplified mathematical models have pedagogical value as tools to introduce students to complex physical and mathematical phenomena in a context where understanding is easier. This project involved national and international collaborations, the training of five graduate students, one postdoctoral researcher, and the involvement of one undergraduate student researcher.Products created in this project that go beyond journal publications are: three PhD thesis and publicly available software codes.       Last Modified: 11/22/2015       Submitted by: Rodolfo R Rosales]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

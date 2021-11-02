@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: AfterBurner: Efficient Performance Scaling via Post-Retirement Processing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2011</AwardExpirationDate>
+<AwardTotalIntnAmount>118999.00</AwardTotalIntnAmount>
+<AwardAmount>118999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ahmed Louri</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The AfterBurner project looks at improving single-thread performance on both simple and high-performance out-of-order cores in an energy efficient way.  Aside from explicit parallelism, this is the primary challenge of multi-core architectures going forward. The most energy-efficient way to improve single-thread performance is to accelerate low-performing program regions.  This approach yields the greatest benefit.  It also has a low cost because it doesnot require high-bandwidth execution, making it applicable to both simple and high-performance cores.  Low single-thread performance is caused by squashes due to control and data mis-speculations and by long latency loads and stores which clog the pipeline.  AfterBurner unifies two recently proposed techniques---speculative retirement which can efficiently buffer large numbers of completed instructions and selective re-execution which can re-execute dynamically generated program subgraphs to back-patch program state---and uses them to tolerate all four classes of low-performance events. AfterBurner's multi-purpose infrastructure approach to performance reduces cost, simplifies design, and expands applicability to code that suffers from different low-performance events simulatenously.&lt;br/&gt;&lt;br/&gt;In addition to education and student tarining, the AfterBurner project marks the beginning of a systems research collaboration between Uniersity of Pennsylvania and Drexel computer science departments.</AbstractNarration>
+<MinAmdLetterDate>09/09/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/09/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017654</AwardID>
+<Investigator>
+<FirstName>Mark</FirstName>
+<LastName>Hempstead</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mark Hempstead</PI_FULL_NAME>
+<EmailAddress>mark@ece.tufts.edu</EmailAddress>
+<PI_PHON>6176270969</PI_PHON>
+<NSF_ID>000555349</NSF_ID>
+<StartDate>09/09/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Drexel University</Name>
+<CityName>Philadelphia</CityName>
+<ZipCode>191021119</ZipCode>
+<PhoneNumber>2158956342</PhoneNumber>
+<StreetAddress>1505 Race St, 10th Floor</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002604817</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>DREXEL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002604817</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Drexel University]]></Name>
+<CityName>Philadelphia</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>191021119</ZipCode>
+<StreetAddress><![CDATA[1505 Race St, 10th Floor]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~118999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><div> <p style="text-align: center;">FINAL OUTCOMES REPORT FOR AWARD # CCF-1017654<br /> AFTERBURNER: EFFICIENT PERFORMANCE SCALING VIA<br /> POST-RETIREMENT PROCESSING<br /> REPORT PERIOD &ndash; START DATE: 09-01-2010 &mdash; END DATE: 12-31-2011<br /> PI: MARK HEMPSTEAD, DREXEL UNIVERSITY</p> <p>Power consumption is the main concern facing designers of modern computing systems as transistor power density is increasing with each new process technology generation. Power consumption affects multiple layers of the design space, from high-performance microarchitecture, to system architecture and operating systems. Through the combination of circuit simulations and measurements of actual hardware we have developed power models; we are using these models to evaluate new microarchitecture and system design ideas.&nbsp; Our research progress over the 15 months of the project in these three areas have resulted in three published papers, including a best paper nominee at a high-impact conference for high performance computer architecture, HPCA.</p> <p>The goal of the AfterBurner project is to study new microarchitecture techniques to improve the performance of regions of code that exhibit small amounts of instruction-level parallelism (low ILP regions). We target low-ILP regions because they are a key factor limiting improvements in single-thread performance. These new microarchitecture techniques must be evaluated in terms of both performance and energy efficiency.&nbsp; The AfterBurner project is a collaboration between Prof. Mark Hempstead, at Drexel University, and Prof. Amir Roth at the University of Pennsylvania.</p> <p>The Drexel portion of the project, which was conducted during the first year of the three year project, focused on power modeling efforts at both the system and microarchitecture levels. The research accomplishments of this project span three different areas from high performance computer architecture, low power medical imaging, and energy efficient operating systems .</p> </div> <div> <ul> <li><strong>Power Modeling of Reference Counts for High-Performance Microarchitectures</strong> - We evaluated reference counting, a new microarchitecture technique to mange register allocation. We have developed custom RTL and HSPICE circuit models of the reference count structure. Our results show that reference counting can be used to reduce energy consumption and enable new mechanisms, including: fine-grained power-gating, cheap checkpointing, and move elimination. This work will be published at HPCA 2012 and has been <strong>nominated for best paper<br /></strong></li> <li><strong>Evaluation of Low Power Accelerator Architectures for Ultrasound Imaging</strong> -&nbsp; We study the trend of using specialized energy-efficient hardware accelerators to increase overall system performance, through an algorithm used to de-speckle Ultrasound images. We developed a customized circuit for this application and compared this implementation to both CPU and GPU (graphics processing unit) implementations of the algorithm. This work was published in a top conference for embedded system architecture, CASES 2011.</li> </ul> <ul> <li><strong>Energy-proportional Architectures and Operating Systems</strong> - Researchers have observed that the energy consumption of a system is often not proportional to a machine's computation load. We have proposed a solution to the problem by managing a system of heterogeneous components through the operating system to select the most energy-efficient ensemble for each application. An overview of this approach was presented at HotOS'11. </li> </ul> </div><br> <p>            Last Modified: 02/07/2012<br>      Modified by: Mark&nbsp;Hempstead</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ FINAL OUTCOMES REPORT FOR AWARD # CCF-1017654  AFTERBURNER: EFFICIENT PERFORMANCE SCALING VIA  POST-RETIREMENT PROCESSING  REPORT PERIOD &ndash; START DATE: 09-01-2010 &mdash; END DATE: 12-31-2011  PI: MARK HEMPSTEAD, DREXEL UNIVERSITY  Power consumption is the main concern facing designers of modern computing systems as transistor power density is increasing with each new process technology generation. Power consumption affects multiple layers of the design space, from high-performance microarchitecture, to system architecture and operating systems. Through the combination of circuit simulations and measurements of actual hardware we have developed power models; we are using these models to evaluate new microarchitecture and system design ideas.  Our research progress over the 15 months of the project in these three areas have resulted in three published papers, including a best paper nominee at a high-impact conference for high performance computer architecture, HPCA.  The goal of the AfterBurner project is to study new microarchitecture techniques to improve the performance of regions of code that exhibit small amounts of instruction-level parallelism (low ILP regions). We target low-ILP regions because they are a key factor limiting improvements in single-thread performance. These new microarchitecture techniques must be evaluated in terms of both performance and energy efficiency.  The AfterBurner project is a collaboration between Prof. Mark Hempstead, at Drexel University, and Prof. Amir Roth at the University of Pennsylvania.  The Drexel portion of the project, which was conducted during the first year of the three year project, focused on power modeling efforts at both the system and microarchitecture levels. The research accomplishments of this project span three different areas from high performance computer architecture, low power medical imaging, and energy efficient operating systems .    Power Modeling of Reference Counts for High-Performance Microarchitectures - We evaluated reference counting, a new microarchitecture technique to mange register allocation. We have developed custom RTL and HSPICE circuit models of the reference count structure. Our results show that reference counting can be used to reduce energy consumption and enable new mechanisms, including: fine-grained power-gating, cheap checkpointing, and move elimination. This work will be published at HPCA 2012 and has been nominated for best paper  Evaluation of Low Power Accelerator Architectures for Ultrasound Imaging -  We study the trend of using specialized energy-efficient hardware accelerators to increase overall system performance, through an algorithm used to de-speckle Ultrasound images. We developed a customized circuit for this application and compared this implementation to both CPU and GPU (graphics processing unit) implementations of the algorithm. This work was published in a top conference for embedded system architecture, CASES 2011.   Energy-proportional Architectures and Operating Systems - Researchers have observed that the energy consumption of a system is often not proportional to a machine's computation load. We have proposed a solution to the problem by managing a system of heterogeneous components through the operating system to select the most energy-efficient ensemble for each application. An overview of this approach was presented at HotOS'11.          Last Modified: 02/07/2012       Submitted by: Mark Hempstead]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

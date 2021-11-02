@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Big Memory: Exploring Memory Management Mechanisms and Policies for Rack-Scale Computers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>499997.00</AwardTotalIntnAmount>
+<AwardAmount>499997</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Matt Mutka</SignBlockName>
+<PO_EMAI>mmutka@nsf.gov</PO_EMAI>
+<PO_PHON>7032927344</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Large-memory applications, including data analytics, in-memory object&lt;br/&gt;caches, and in-memory databases, are a major consumer of data center&lt;br/&gt;resources.  Moreover, these applications can effectively use more&lt;br/&gt;memory than a single computer can provide.  Traditional approaches to&lt;br/&gt;scaling these applications involve parallelism across multiple&lt;br/&gt;computers.  However, that may not use resources cost-effectively, as&lt;br/&gt;the ratio of processing, networking, and memory is determined by the&lt;br/&gt;configuration of the underlying computers, not the application.  This&lt;br/&gt;project explores disaggregated servers, or "rack-scale computers".&lt;br/&gt;These servers consist of pools of processors, memory, and I/O devices&lt;br/&gt;within a rack that can be flexibly allocated to virtual machines based&lt;br/&gt;on the needs of their resident applications.&lt;br/&gt;&lt;br/&gt;This project focuses on one aspect of disaggregated servers: managing&lt;br/&gt;a large pool of memory within the rack.  Specifically, using this pool&lt;br/&gt;to dynamically add memory to and remove memory from virtual machines.&lt;br/&gt;This will enable applications to handle bursty load without the need&lt;br/&gt;to spin up/down entire virtual machines.  In order to effectively&lt;br/&gt;manage memory across virtual machines, the hypervisor will need a&lt;br/&gt;better understanding of how memory is being used, by both the guest&lt;br/&gt;operating systems and applications.  Therefore, we are exploring the&lt;br/&gt;interfaces, mechanisms, and policies within and between the&lt;br/&gt;hypervisor, guest operating system, and application that will enable&lt;br/&gt;the use of large disaggregated memories. This research is one step &lt;br/&gt;towards rethinking what a computer is and how to construct one that &lt;br/&gt;better serves data science and analytics applications that can benefit &lt;br/&gt;from large amounts of memory.</AbstractNarration>
+<MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1619124</AwardID>
+<Investigator>
+<FirstName>Alan</FirstName>
+<LastName>Cox</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alan Cox</PI_FULL_NAME>
+<EmailAddress>alc@rice.edu</EmailAddress>
+<PI_PHON>7133485730</PI_PHON>
+<NSF_ID>000277789</NSF_ID>
+<StartDate>08/08/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Scott</FirstName>
+<LastName>Rixner</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Scott Rixner</PI_FULL_NAME>
+<EmailAddress>rixner@rice.edu</EmailAddress>
+<PI_PHON>7133486353</PI_PHON>
+<NSF_ID>000102366</NSF_ID>
+<StartDate>08/08/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>William Marsh Rice University</Name>
+<CityName>Houston</CityName>
+<ZipCode>770051827</ZipCode>
+<PhoneNumber>7133484820</PhoneNumber>
+<StreetAddress>6100 MAIN ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>050299031</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WILLIAM MARSH RICE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>050299031</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[William Marsh Rice University]]></Name>
+<CityName>Houston</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>770051827</ZipCode>
+<StreetAddress><![CDATA[6100 Main St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~499997</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The major goals of this project focus on effective management of disaggregated memory for future rack-scale computers.&nbsp; In current systems, memory is statically allocated among virtual machines when they are launched.&nbsp; When there is sufficient memory for all virtual machines and their applications to run comfortably, this can be effective.&nbsp; However, when the aggregate demand for memory across the system exceeds the supply, static allocation of memory leads to suboptimal performance.&nbsp; Our work has enabled the ability to dynamically add and remove memory from virtual machines on demand.&nbsp; The ability to do so from an extremely large pool of memory within the rack will change the way we allocate physical resources in the data center. This will enable applications to better respond to bursty behavior without the need to spin up/down entire virtual machines to handle changes in application load. This will lead to better trade-offs among parallelism and memory utilization.</p> <p>We developed three interlocking systems-level solutions to this problem: a system to dynamically adjust how free memory is reclaimed within the virtual machine, a system to dynamically reallocate memory among virtual machines, and a system to reallocate memory in a non-uniform memory access-aware manner that transparently adjusts memory placement and parallelism for OpenMP applications.&nbsp; Together, these innovations move us closer to the reality of fully dynamic memory allocation and reallocation among virtual machines in a rack-scale computer.</p> <p>At the operating system level, it is very important to first be able to efficiently utlize the available memory before requesting additional memory from the virtualization system.&nbsp; Modern systems use a static watermark (or set of watermarks) to determine when to reclaim memory.&nbsp; When the working set size of the applications running on the system fits comfortably within the memory such policies are effective.&nbsp; However, bursty demand for additional memory can lead to unnecessary memory reclamation, leading to performance issues when the reclaimed memory is needed again and must be reloaded from disk.&nbsp; We developed a dynamic thresholding system for data-instensive applications that runs at "critical points", where their working set is at or around the amount of physical memory allocated to the system.&nbsp; In these situations, our system improves performance simply by more efficiently utilizing the available memory.&nbsp; This, in turn, will reduce the demands to dynamically increase the physical memory available to the virtual machine.</p> <p>Within the virtualization system, it is important to efficiently allocate memory among the virtual machines, in order to achieve both fairness and performance.&nbsp; Modern systems generally statically allocate memory among virtual machines, so as not to lead to unpredictable performance.&nbsp; Our system, responds to changes in the memory demands of virtual machines in order to dynamically and automatically reallocate memory among virtual machines.&nbsp; All virtual machines are guaranteed a minimum amount of memory, but can increase their memory allocations when the system determines it is beneficial to do so.&nbsp; Using a variety of existing and innovative mechanisms, the system continually and transparently monitors the memory utilization of all of the virtual machines running on the system and reallocates memory in response to changes in demand.&nbsp; The system is able to quickly and fairly reallocate memory in a way that leads to overall performance improvements of the system.</p> <p>Finally, large, rack-scale systems are composed of non-uniform access memory, where different regions of memory have different access latencies, because of their different distances from the processing core that is accessing them.&nbsp; To achieve good performance on such NUMA (non-uniform memory access) systems, it is important to carefully manage data placement within memory and parallelism. &nbsp;OpenMP is one commonly-used language and run-time library to help application developers write effective parallel applications on such NUMA machines.&nbsp; The dyanamic reallocation of memory among virtual machines necessarily modifies the underlying NUMA topology of the virtual machines.&nbsp; Current memory ballooning mechanisms for resizing virtual machines typically ignore the NUMA topology, leading over time to incomprehensible NUMA topologies that neither applications nor run-time libraries, like OpenMP's, can effectively manage.&nbsp; We developed a multi-layered system that coordinates among the virtualization system, the virtual machines, and the OpenMP run-time library to transparently adjust the NUMA topology as the virtual machine's memory allocation is modified.&nbsp; This leads to better overall application-level performance under dynamic memory reallocation.</p> <p>This work has developed innovative solutions across the system to enable better overall memory management in virtualized rack-scale systems.&nbsp; Each of the innovations stands on its own and provides benefits across a wide variety of systems.&nbsp; In combination, these policies and mechanisms will lead to more efficient, fair, and effective use of available memory in large-scale systems with dynamically changing memory demands.</p> <p>&nbsp;</p><br> <p>            Last Modified: 01/29/2021<br>      Modified by: Alan&nbsp;Cox</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The major goals of this project focus on effective management of disaggregated memory for future rack-scale computers.  In current systems, memory is statically allocated among virtual machines when they are launched.  When there is sufficient memory for all virtual machines and their applications to run comfortably, this can be effective.  However, when the aggregate demand for memory across the system exceeds the supply, static allocation of memory leads to suboptimal performance.  Our work has enabled the ability to dynamically add and remove memory from virtual machines on demand.  The ability to do so from an extremely large pool of memory within the rack will change the way we allocate physical resources in the data center. This will enable applications to better respond to bursty behavior without the need to spin up/down entire virtual machines to handle changes in application load. This will lead to better trade-offs among parallelism and memory utilization.  We developed three interlocking systems-level solutions to this problem: a system to dynamically adjust how free memory is reclaimed within the virtual machine, a system to dynamically reallocate memory among virtual machines, and a system to reallocate memory in a non-uniform memory access-aware manner that transparently adjusts memory placement and parallelism for OpenMP applications.  Together, these innovations move us closer to the reality of fully dynamic memory allocation and reallocation among virtual machines in a rack-scale computer.  At the operating system level, it is very important to first be able to efficiently utlize the available memory before requesting additional memory from the virtualization system.  Modern systems use a static watermark (or set of watermarks) to determine when to reclaim memory.  When the working set size of the applications running on the system fits comfortably within the memory such policies are effective.  However, bursty demand for additional memory can lead to unnecessary memory reclamation, leading to performance issues when the reclaimed memory is needed again and must be reloaded from disk.  We developed a dynamic thresholding system for data-instensive applications that runs at "critical points", where their working set is at or around the amount of physical memory allocated to the system.  In these situations, our system improves performance simply by more efficiently utilizing the available memory.  This, in turn, will reduce the demands to dynamically increase the physical memory available to the virtual machine.  Within the virtualization system, it is important to efficiently allocate memory among the virtual machines, in order to achieve both fairness and performance.  Modern systems generally statically allocate memory among virtual machines, so as not to lead to unpredictable performance.  Our system, responds to changes in the memory demands of virtual machines in order to dynamically and automatically reallocate memory among virtual machines.  All virtual machines are guaranteed a minimum amount of memory, but can increase their memory allocations when the system determines it is beneficial to do so.  Using a variety of existing and innovative mechanisms, the system continually and transparently monitors the memory utilization of all of the virtual machines running on the system and reallocates memory in response to changes in demand.  The system is able to quickly and fairly reallocate memory in a way that leads to overall performance improvements of the system.  Finally, large, rack-scale systems are composed of non-uniform access memory, where different regions of memory have different access latencies, because of their different distances from the processing core that is accessing them.  To achieve good performance on such NUMA (non-uniform memory access) systems, it is important to carefully manage data placement within memory and parallelism.  OpenMP is one commonly-used language and run-time library to help application developers write effective parallel applications on such NUMA machines.  The dyanamic reallocation of memory among virtual machines necessarily modifies the underlying NUMA topology of the virtual machines.  Current memory ballooning mechanisms for resizing virtual machines typically ignore the NUMA topology, leading over time to incomprehensible NUMA topologies that neither applications nor run-time libraries, like OpenMP's, can effectively manage.  We developed a multi-layered system that coordinates among the virtualization system, the virtual machines, and the OpenMP run-time library to transparently adjust the NUMA topology as the virtual machine's memory allocation is modified.  This leads to better overall application-level performance under dynamic memory reallocation.  This work has developed innovative solutions across the system to enable better overall memory management in virtualized rack-scale systems.  Each of the innovations stands on its own and provides benefits across a wide variety of systems.  In combination, these policies and mechanisms will lead to more efficient, fair, and effective use of available memory in large-scale systems with dynamically changing memory demands.          Last Modified: 01/29/2021       Submitted by: Alan Cox]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

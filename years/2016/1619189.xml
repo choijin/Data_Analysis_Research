@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Effective bounds for distributed storage and data access</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>306107.00</AwardTotalIntnAmount>
+<AwardAmount>306107</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+<PO_EMAI>pregalia@nsf.gov</PO_EMAI>
+<PO_PHON>7032922981</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today's data centers rely on advanced methods to efficiently store increasing volumes of data. To protect against loss of data, data is stored redundantly on multiple disks. At the large scale of clusters of thousands of disks, simple replication of data is inefficient and not an option. To address the challenge of efficient, reliable and secure storage of data at a large scale, the project uses various combinations of algebraic and combinatorial methods. New constructions are given for the efficient recovery of data in case of disk failure. New methods are introduced to optimize bounds for storage capacity. New secure schemes are developed to ensure that information can only be obtained from the combined data of multiple disks. The research uses a novel algebraic approach to fundamental aspects of data storage and data access. Undergraduate and graduate students will be involved, working on projects with both a theoretical and a computational component.&lt;br/&gt;&lt;br/&gt;Algorithms for data storage encode and divide data over several disks. The encoding challenge is to optimize the allocation of storage space between primary data and repair data. The optimization is analyzed for the general case in the setting of entropy inequalities and for the linear case in the setting of rank inequalities for matroids. The main focus is on three aspects. 1) Outer bounds: Optimize the use of available storage space under various combinations of constraints. 2) Multiple-access: Use coordinated encoding of data from different sources to add error-correction without sacrificing storage capacity. 3) Small alphabets: Using a novel approach, analyze nontraditional coset schemes that are defined over smaller fields.</AbstractNarration>
+<MinAmdLetterDate>06/10/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/10/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1619189</AwardID>
+<Investigator>
+<FirstName>Iwan</FirstName>
+<LastName>Duursma</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Iwan M Duursma</PI_FULL_NAME>
+<EmailAddress>duursma@math.uiuc.edu</EmailAddress>
+<PI_PHON>2172650677</PI_PHON>
+<NSF_ID>000190767</NSF_ID>
+<StartDate>06/10/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Urbana</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618013620</ZipCode>
+<StreetAddress><![CDATA[506 S. Wright Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~306107</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Error correcting codes have been used for many decades to automatically recognize and correct certain types of errors that occur when data is stored or transmitted. Data centers store data in new and different ways, by employing clusters of thousands of disks and dividing large data into smaller pieces that are stored on different disks. Standard solutions to protect data against errors such as 3-replication (storing each piece of data in the same form on three different disks) do not scale well to the size of data centers. It requires advanced code constructions to store data reliably while at the same time limiting hardware cost, network traffic, and energy consumption.<br /><br />The research led to two new families of codes for large scale distributed data storage. Both families have a clear underlying structure that relies on combinatorics and multilinear algebra. The mathematical framework is used to prove the performance of the codes. The codes adapt to different storage scenarios and different parameters can be used to optimize the use of available resources and to minimize their cost.<br /><br />As part of the research the known Hadoop code was analyzed and then improved. Previous work had reduced the repair bandwidth (the number of bits that disks exchange to correct a single error) from 80 to 64 bits. A new repair scheme was formulated that uses 54 bits.</p><br> <p>            Last Modified: 09/08/2020<br>      Modified by: Iwan&nbsp;M&nbsp;Duursma</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Error correcting codes have been used for many decades to automatically recognize and correct certain types of errors that occur when data is stored or transmitted. Data centers store data in new and different ways, by employing clusters of thousands of disks and dividing large data into smaller pieces that are stored on different disks. Standard solutions to protect data against errors such as 3-replication (storing each piece of data in the same form on three different disks) do not scale well to the size of data centers. It requires advanced code constructions to store data reliably while at the same time limiting hardware cost, network traffic, and energy consumption.  The research led to two new families of codes for large scale distributed data storage. Both families have a clear underlying structure that relies on combinatorics and multilinear algebra. The mathematical framework is used to prove the performance of the codes. The codes adapt to different storage scenarios and different parameters can be used to optimize the use of available resources and to minimize their cost.  As part of the research the known Hadoop code was analyzed and then improved. Previous work had reduced the repair bandwidth (the number of bits that disks exchange to correct a single error) from 80 to 64 bits. A new repair scheme was formulated that uses 54 bits.       Last Modified: 09/08/2020       Submitted by: Iwan M Duursma]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

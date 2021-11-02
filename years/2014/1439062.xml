@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: FULL: FP: Collaborative Research: Taming parallelism: optimally exploiting high-throughput parallel architectures</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>330250.00</AwardTotalIntnAmount>
+<AwardAmount>330250</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Title: XPS: FULL: FP: Collaborative Research: Taming parallelism: Optimally exploiting high-throughput parallel architectures&lt;br/&gt;&lt;br/&gt;Over the past decade, computer manufacturers have focused on producing "multicore" chips, that package multiple, powerful computing cores on a single chip. Researchers have invested significant effort in developing methods for writing programs that can run efficiently on these cores. The basic idea is to allow programmers to write programs using a high-level programming model and to rely on an underlying compiler and runtime system to efficiently schedule these programs on multicore platforms. However, due to power and heat dissipation concerns, emerging "throughput-oriented" computing systems increasingly rely on far simpler computing cores to deliver parallel computing performance. These cores are much more efficient than traditional multicores, and can deliver much higher performance. Practitioners across numerous fields -- bioinformatics, data analytics, machine learning, etc. -- are deploying these systems to harness their power. Unfortunately, existing high level programming models are targeted to multicore chips, and do not produce code that can run effectively on these new systems. As a result, practitioners are forced to rewrite their applications, with painstaking low-level optimization and scheduling. This project will develop schemes to adapt applications written for multicore systems to run efficiently on throughput-oriented processors. The intellectual merits are novel program optimizations that will transform multicore-oriented programs into forms that map efficiently to throughput-oriented processors, scheduling mechanisms that ensure that these throughput-oriented processors do not waste computational resources, and scheduling policies that ensure that the mechanisms are used effectively. The project's broader significance and importance are that programmers will be able to write portable, high-performant and energy-efficient programs for both traditional multicore systems as well as throughput-oriented systems. Moreover, high-level programming models will be used to program the throughput-oriented machines, thus leading to significant reduction of programming effort for practitioners in many science and engineering disciplines. Finally, outreach efforts enhance the project by providing training and mentoring to a diverse group of students.&lt;br/&gt;&lt;br/&gt;Languages like Cilk provide support for "dynamic multithreading", which allows programmers to identify all of the parallelism in their program, while relying on sophisticated runtime systems to map that parallelism to available parallel execution hardware at runtime. However, Cilk-style execution is inappropriate for the vector-based parallelism found in SIMD units, GPUs and the Xeon Phi; vector parallelism requires finding identical computations performed on different data units. This project investigates a series of transformations that will morph Cilk-style programs into programs that expose vectorizable parallelism, allowing dynamic multithreading programs to be mapped to emerging throughput-oriented architectures. The enabling transformation involves transforming task parallel applications into data-parallel applications by identifying similar tasks being performed at different points in the computation. This project develops a series of scheduling mechanisms and provably efficient scheduling policies that ensure that parallelizing dynamic multithreading applications on throughput-oriented architectures are effective. In this manner, this project enables portable applications that run efficiently both on multicores and on vector-based architectures.</AbstractNarration>
+<MinAmdLetterDate>08/06/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/06/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1439062</AwardID>
+<Investigator>
+<FirstName>Kunal</FirstName>
+<LastName>Agrawal</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kunal Agrawal</PI_FULL_NAME>
+<EmailAddress>kunal@cse.wustl.edu</EmailAddress>
+<PI_PHON>3149354838</PI_PHON>
+<NSF_ID>000555177</NSF_ID>
+<StartDate>08/06/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Washington University</Name>
+<CityName>Saint Louis</CityName>
+<ZipCode>631304862</ZipCode>
+<PhoneNumber>3147474134</PhoneNumber>
+<StreetAddress>CAMPUS BOX 1054</StreetAddress>
+<StreetAddress2><![CDATA[1 Brookings Drive]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Missouri</StateName>
+<StateCode>MO</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MO01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>068552207</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WASHINGTON UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>068552207</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Washington University]]></Name>
+<CityName>Saint Louis</CityName>
+<StateCode>MO</StateCode>
+<ZipCode>631304899</ZipCode>
+<StreetAddress><![CDATA[One Brookings Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Missouri</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MO01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~330250</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-1c904970-7fff-d9cd-6623-dff32985fcdc"> <p dir="ltr"><span>With the end of Dennard scaling, and the subsequent end of single-threaded performance scaling, architects have begun to rethink how computer hardware should be designed to achieve the optimal performance/efficiency tradeoff. One point in the design space that has seen substantial interest is in </span><span>throughput oriented</span><span> architectures, that rely on massive parallelism to obtain computational power; examples of these include Graphics Processing Units (GPUs) and wide vector machines. To make this massive parallelism energy efficient, however, these throughput oriented architectures have a host of constraints that programs must obey to extract performance; in particular, programs must be structured carefully so that parallel computations are </span><span>regular</span><span>: the different threads of computation must be executing the same kind of instruction at the same time, in a structured manner. These constraints are relatively easy (though not trivial) to satisfy for</span><span> data parallel</span><span> programs that operate over dense arrays and matrices; indeed, throughput orientied architecutres were designed with data parallel programs in mind. Unforunately, the constraints are much harder to satisfy for </span><span>task parallel </span><span>programs that operate over recursive structures. In fact, it is not clear that recursive task parallel programs can be mapped effectively to throughput-oriented machines at all.</span></p> <p dir="ltr"><span>This project took the first steps towards showing that task parallelism can be effectively mapped to throughput oriented architectures both in theory and in practice. The project developed the first program transformations that extracted data parallelism from task-parallel programs: programs written in a task parallel manner were automatically rewritten to expose data parallelism. To ensure that the data parallelism efficiently exploited hardware resources, the project next developed scheduling mechanisms that continually rebalanced task parallel computation to ensure that the massive parallelism of throughput-oriented architecutres was occupied.</span></p> <p dir="ltr"><span>To show that these schedulers did indeed suffice to map task parallelism to data parallel architecures, this project undertook a series of theoretical explorations to prove that the scheduling mechanisms were </span><span>efficient</span><span>: that they did not lose parallelism compared to a "normal" execution model, and hence efficiently exploited the parallelism of throughput architectures.</span></p> <p dir="ltr"><span>The project next extended both the practical scheduling results and the theoretical optimality results to more complex programs: those that combined data parallelism and task parallelism. These new schedulers deployed more sophisticated techniques to extract data parallelism, ensuring that even for more complex task-parallel programs, parallel hardware could be kept busy. The project next showed how to combine these novel schedulers with traditional task-parallel schedulers, creating systems that can efficiently trade off data- and task-parallelism.</span></p> <p dir="ltr"><span>Finally, the project undertook two tasks to improve the programmability of task parallel programs. It developed the first efficient record-and-replay system for task parallel programs that allowed for programs to be (correctly) debugged while running on more processors than the original program, speeding up the debugging process. It also developed novel race detectors for a more general class of parallel programs, allowing developer to catch bugs more effectively.</span></p> <p dir="ltr"><span>The potential broader impacts of this project are many. First, task parallel programming is a popular style of parallel programming, as exemplified by many production-level programming models: Cilk, OpenMP Tasks, X10, and the like. This project showed that these programming models are inherently compatible with emerging throughput oriented architectures, opening up a broader class of programs to the promise of efficient, massive parallelism. Second, the programming tools developed as part of this project make it easier for programmers to write correct task parallel programs, speeding up the development cycle. Finally, the efforts of this project supported the research of a number of graduate students, and brought multiple undergrads into research projects as well.</span></p> <br /></span></p> <p>&nbsp;</p><br> <p>            Last Modified: 12/01/2020<br>      Modified by: Kunal&nbsp;Agrawal</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  With the end of Dennard scaling, and the subsequent end of single-threaded performance scaling, architects have begun to rethink how computer hardware should be designed to achieve the optimal performance/efficiency tradeoff. One point in the design space that has seen substantial interest is in throughput oriented architectures, that rely on massive parallelism to obtain computational power; examples of these include Graphics Processing Units (GPUs) and wide vector machines. To make this massive parallelism energy efficient, however, these throughput oriented architectures have a host of constraints that programs must obey to extract performance; in particular, programs must be structured carefully so that parallel computations are regular: the different threads of computation must be executing the same kind of instruction at the same time, in a structured manner. These constraints are relatively easy (though not trivial) to satisfy for data parallel programs that operate over dense arrays and matrices; indeed, throughput orientied architecutres were designed with data parallel programs in mind. Unforunately, the constraints are much harder to satisfy for task parallel programs that operate over recursive structures. In fact, it is not clear that recursive task parallel programs can be mapped effectively to throughput-oriented machines at all. This project took the first steps towards showing that task parallelism can be effectively mapped to throughput oriented architectures both in theory and in practice. The project developed the first program transformations that extracted data parallelism from task-parallel programs: programs written in a task parallel manner were automatically rewritten to expose data parallelism. To ensure that the data parallelism efficiently exploited hardware resources, the project next developed scheduling mechanisms that continually rebalanced task parallel computation to ensure that the massive parallelism of throughput-oriented architecutres was occupied. To show that these schedulers did indeed suffice to map task parallelism to data parallel architecures, this project undertook a series of theoretical explorations to prove that the scheduling mechanisms were efficient: that they did not lose parallelism compared to a "normal" execution model, and hence efficiently exploited the parallelism of throughput architectures. The project next extended both the practical scheduling results and the theoretical optimality results to more complex programs: those that combined data parallelism and task parallelism. These new schedulers deployed more sophisticated techniques to extract data parallelism, ensuring that even for more complex task-parallel programs, parallel hardware could be kept busy. The project next showed how to combine these novel schedulers with traditional task-parallel schedulers, creating systems that can efficiently trade off data- and task-parallelism. Finally, the project undertook two tasks to improve the programmability of task parallel programs. It developed the first efficient record-and-replay system for task parallel programs that allowed for programs to be (correctly) debugged while running on more processors than the original program, speeding up the debugging process. It also developed novel race detectors for a more general class of parallel programs, allowing developer to catch bugs more effectively. The potential broader impacts of this project are many. First, task parallel programming is a popular style of parallel programming, as exemplified by many production-level programming models: Cilk, OpenMP Tasks, X10, and the like. This project showed that these programming models are inherently compatible with emerging throughput oriented architectures, opening up a broader class of programs to the promise of efficient, massive parallelism. Second, the programming tools developed as part of this project make it easier for programmers to write correct task parallel programs, speeding up the development cycle. Finally, the efforts of this project supported the research of a number of graduate students, and brought multiple undergrads into research projects as well.            Last Modified: 12/01/2020       Submitted by: Kunal Agrawal]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

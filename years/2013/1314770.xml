@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Medium: Collaborative: A Unified Statistics-Based Framework for Side-Channel Attack Analysis and Security Evaluation of Cryptosystems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>275955.00</AwardTotalIntnAmount>
+<AwardAmount>275955</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Fen Zhao</SignBlockName>
+<PO_EMAI>fzhao@nsf.gov</PO_EMAI>
+<PO_PHON>7032920000</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Side-channel attack (SCA) has shown to be a serious implementation attack to many cryptosystems. Practical countermeasures only mitigate the vulnerability to some extent. Considerable research efforts on leakage-resilient cryptography have so far not led to practical leakage-resilient implementations. One hindering reason is the lack of commonly accepted and sound metrics, standards, and evaluation procedures to measure and evaluate the vulnerability/resilience of cryptosystems to various side-channel attacks. Accurate modeling of side channels, however, is one of the open problems in applied crypto research. This project aims to close the gap between SCA theories and practices by formalizing a general framework for side-channel attack analysis and security evaluation of cryptosystems. &lt;br/&gt;&lt;br/&gt;The proposed framework quantifies the effect of algorithmic and implementation characteristics on the success rate of the theoretically strongest maximum likelihood attack, revealing system-inherent SCA-related parameters for security improvement. The framework will extract maximum leakage from the observed measurement data in the black-box scenario, often the realistic situation for adversaries. State-of-the-art statistical methods are employed in the framework to precisely analyze and evaluate the overall side-channel leakage. This holistic framework will significantly alleviate the burden of security system architects, software developers, and hardware designers in their quest to build SCA security into systems they design, so as to ultimately yield provably secure hardware.</AbstractNarration>
+<MinAmdLetterDate>06/14/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/14/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1314770</AwardID>
+<Investigator>
+<FirstName>Thomas</FirstName>
+<LastName>Eisenbarth</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Thomas Eisenbarth</PI_FULL_NAME>
+<EmailAddress>teisenbarth@wpi.edu</EmailAddress>
+<PI_PHON>5088315914</PI_PHON>
+<NSF_ID>000568440</NSF_ID>
+<StartDate>06/14/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Worcester Polytechnic Institute</Name>
+<CityName>WORCESTER</CityName>
+<ZipCode>016092247</ZipCode>
+<PhoneNumber>5088315000</PhoneNumber>
+<StreetAddress>100 INSTITUTE RD</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041508581</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WORCESTER POLYTECHNIC INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041508581</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Worcester Polytechnic Institute]]></Name>
+<CityName>Worcester</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>016092280</ZipCode>
+<StreetAddress><![CDATA[100 Institute Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~275955</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The final outcome of the project includes an efficient and holistic cryptanalytic framework, which can be used throughout the entire life cycle of implementation and evaluation of the next-generation secure cryptographic system.</p> <p>Within the framework, we developed three information leakage metrics: confusion coefficient, information leakage amount, and observation fidelity, for CPA, higher-order CPA, and interference-based cache attacks, respectively. The unique feature of these metrics is they can be used fairly early on in the design stage to quantify the information leakage, which is also indicative of the final success rate. They capture the side-channel vulnerability of the cryptographic algorithm under certain power leakage and timing interference model. The results have been published in many conference and journal papers, for example, CHES 2012, CHES 2014, AsiaCrypt 2014, and JCE 2015.</p> <p>We also derived several analytical success rate models based on these leakage metrics for CPA, higher-order CPA, and cache attacks. &nbsp;The success rate formula is a function over the leakage metrics and system implementation parameters (e.g., power side-channel signal-to-noise ratio, and computer architecture setting).</p> <p>In addition, we developed a sound and optimal leakage detection procedure, and used machine learning techniques as another effective tool for extracting information in cases where the leakage behavior cannot be modeled well. Results have been published at venues such as COSADE 2016, COSADE 2017, AsiaCrypt 2016 and AsiaCCS 2017.</p> <p>We believe the broader impacts of our holistic security evaluation framework are significant, as it benefits system security architects, software developers, and hardware designers in their quest to build SCA security into systems they design, so as to ultimately yield provable secure hardware.</p><br> <p>            Last Modified: 10/10/2017<br>      Modified by: Thomas&nbsp;Eisenbarth</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The final outcome of the project includes an efficient and holistic cryptanalytic framework, which can be used throughout the entire life cycle of implementation and evaluation of the next-generation secure cryptographic system.  Within the framework, we developed three information leakage metrics: confusion coefficient, information leakage amount, and observation fidelity, for CPA, higher-order CPA, and interference-based cache attacks, respectively. The unique feature of these metrics is they can be used fairly early on in the design stage to quantify the information leakage, which is also indicative of the final success rate. They capture the side-channel vulnerability of the cryptographic algorithm under certain power leakage and timing interference model. The results have been published in many conference and journal papers, for example, CHES 2012, CHES 2014, AsiaCrypt 2014, and JCE 2015.  We also derived several analytical success rate models based on these leakage metrics for CPA, higher-order CPA, and cache attacks.  The success rate formula is a function over the leakage metrics and system implementation parameters (e.g., power side-channel signal-to-noise ratio, and computer architecture setting).  In addition, we developed a sound and optimal leakage detection procedure, and used machine learning techniques as another effective tool for extracting information in cases where the leakage behavior cannot be modeled well. Results have been published at venues such as COSADE 2016, COSADE 2017, AsiaCrypt 2016 and AsiaCCS 2017.  We believe the broader impacts of our holistic security evaluation framework are significant, as it benefits system security architects, software developers, and hardware designers in their quest to build SCA security into systems they design, so as to ultimately yield provable secure hardware.       Last Modified: 10/10/2017       Submitted by: Thomas Eisenbarth]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

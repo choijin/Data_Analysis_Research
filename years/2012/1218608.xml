@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Design for Competitive Automated Layout (DCAL) of Mobile Application Processors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>350000.00</AwardTotalIntnAmount>
+<AwardAmount>350000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Smart phones, tablet computers, and other mobile devices are transforming the way people work, play, and interact. Their mobility, connection to the cloud, and integration of sensors, computation and communication have inspired unique applications unforeseen just a short time ago. The future holds even greater promise, as applications fuse diverse inputs to deliver new levels of situation awareness and embedded intelligence. To fuel this rapidly growing market, the processors that power mobile devices must be designed more quickly than processors in conventional computers, even as the complexity of mobile processors approaches that of desktop and server processors. Product development is accelerated by licensing hardware descriptions of the latest processors - called soft cores - from third parties, and integrating them with proprietary designs into an overall system-on-chip. Unfortunately, there is an additional step that erodes the productivity gains won by licensing soft cores. A soft core must be converted into a hard core, i.e., a circuit layout that can be fabricated in a semiconductor foundry. Producing a high-quality layout is a painstaking, manual process requiring niche expertise. Alternatively, automated synthesis and place-and-route (SPR) tools can be used, but they produce poor layouts with sub-par performance and power consumption.&lt;br/&gt;&lt;br/&gt;This research combines the convenience of automated layout with the quality of manual layout. The key innovation is to not compromise on automation - SPR must be used - but rather to modify the design of mobile processors so that SPR is able to produce a quality layout on par with manual layout. That is, the mobile processor is designed with the knowledge that SPR is going to be used. This new paradigm is called Design for Competitive Automated Layout (DCAL). DCAL applies a novel regimen of design strategies at multiple levels that enables SPR to produce competitive layouts. A common theme across all levels is to restructure or eliminate sources of processor complexity that SPR handles poorly. (1) Circuit-level DCAL: Highly-ported memory structures traditionally require intense manual layout. Making matters worse, there are many of them in a modern processor. These are restructured to achieve quality layouts without manual effort. (2) Microarchitecture-level DCAL: The most challenging processor units are restructured so that aggressive circuit and layout optimizations for meeting timing closure are rendered unnecessary. (3) Core-level DCAL: Designing a single microarchitecture that performs well across arbitrary program phases is a significant source of complexity. Core-level DCAL divides program behaviors into useful classes and provides dedicated core designs for these classes; the cores are streamlined for the targeted behaviors, enabling SPR to produce quality physical designs. (4) ISA-level DCAL: For portability across many different processors, mobile device software is often distributed using a virtual instruction-set-architecture (ISA) that does not correspond to any particular processor ISA. The prerequisite for translating the virtual ISA into a processor ISA on-the-fly opens the door to improvising on the processor's ISA for one or multiple core types, with the aim of further streamlining cores for SPR to generate quality physical designs.&lt;br/&gt;&lt;br/&gt;The economic and societal benefits of DCAL are tangible. Automation accelerates innovation by allowing companies to focus more on developing richer user experiences and less on low-level technology that makes it all possible. Moreover, automation puts this technology into the hands of more people, including folks without niche expertise and small nimble design teams. Both companies and everyday users profit from the fact that more innovative products are being delivered to market sooner.</AbstractNarration>
+<MinAmdLetterDate>07/03/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>06/05/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218608</AwardID>
+<Investigator>
+<FirstName>Eric</FirstName>
+<LastName>Rotenberg</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Eric Rotenberg</PI_FULL_NAME>
+<EmailAddress>ericro@ncsu.edu</EmailAddress>
+<PI_PHON>9195132822</PI_PHON>
+<NSF_ID>000340411</NSF_ID>
+<StartDate>07/03/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName>Raleigh</CityName>
+<StateCode>NC</StateCode>
+<ZipCode>276957911</ZipCode>
+<StreetAddress><![CDATA[Box 7911]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~350000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>At a high level, designing a computer&rsquo;s central processing unit (CPU) is a two-step process. The first step is to conceive the CPU&rsquo;s overall microarchitecture &ndash; the major units and their connections &ndash; and describe the microarchitecture using a hardware description language. The second step is to map the microarchitecture&rsquo;s description into logic gates, then transistors and wires, and ultimately a &ldquo;layout&rdquo; or literal drawing of all the shapes across many physical layers that make up the transistors and wires, in a particular semiconductor technology. This final layout is the blueprint used by a semiconductor foundry to fabricate the CPU chip. Altogether, the many sub-steps comprising the second step is referred to as &ldquo;physical design&rdquo; because it involves translating the microarchitecture&rsquo;s description into a blueprint for physical implementation.</p> <p>Many tools exist to help automate the physical design step, but the best physical designs typically require manual intervention. Thus, physical design can range from no automation to full automation, with a trade-off between physical design effort and physical design quality.&nbsp; Our findings indicate that manual physical design tuning has a 2x to 3x advantage over fully automated synthesis and layout of CPUs, but aggressive tuning is too labor-intensive and prone to reliability problems moving forward.</p> <p>The goal of this project is to bridge the gap between manual and automated physical design of CPUs, using a regimen of physical-design-aware strategies called "Design for Competitive Automated Layout" or DCAL. Below is a summary of concepts, findings, and technologies developed in the course of this project.</p> <p><strong>&ldquo;A Case for Standard-Cell Based RAMs in Highly-Ported Superscalar Processor Structures&rdquo;</strong><br /> <br /> Highly-ported memories are pervasive within superscalar processors. Accordingly, they have been targets for full-custom design using multi-ported versions of the 6T SRAM bitcell. Unfortunately, full-custom design of highly-ported memories is becoming exceedingly difficult in deep sub-micron technologies. This paper makes the case for implementing highly-ported memories with standard cells (flip-flops, muxes, clock buffers). In lieu of exotic peripheral circuits for each port, standard-cell SRAMs use muxes. Consequently, area differences between full-custom and standard-cell designs are greatly reduced at a high number of ports. To also compete with full-custom memories in terms of timing and power, we introduce a standard-cell memory compiler with three key features: (i) per-row clock gating, (ii) a new tri-state based mux standard cell, and (iii) a modular layout strategy, which is the centerpiece of the memory compiler. For a 16-read/8-write 128-entry register file, our modular standard-cell memory consumes 13% more area and 4% more power, and is 35% faster, than the custom memory produced by FabMem. The automatic (built-in) robustness of standard cell designs further weigh in their favor, contrasted with exquisite transistor sizing/tuning of intertwined sub-circuits in a full-custom design.<strong></strong></p> <p><br /> <strong>&ldquo;</strong><strong>Design-Effort Alloy: Boosting a Highly Tuned Primary Core with Untuned Alternate Cores&rdquo;</strong><br /> <br /> We invented a new class of single-ISA heterogeneous multi-core processor, called Design-Effort Alloy (DEA).&nbsp; The key idea is to augment a flagship full-custom superscalar core (high-effort physical design) with multiple microarchitecturally diverse synthesized cores (low-effort physical design).&nbsp; The synthesized cores' diverse microarchitectures accelerate outlier program phases at low non-recurring engineering (NRE) cost owing to their fully-automated approach to physical design.</p> <p>Our evaluation of a DEA processor comprised of one high-effort core type (HEC) and three low-effort core types (LEC) yielded the following key findings:<br /> <br /> 1. The DEA processor's HEC is the same core type in the best high-effort homogeneous multi-core, owing to most program phases demonstrating "average" instruction-level behavior and favoring this balanced core.<br /> <br /> 2. The DEA processor yields a speedup in BIPS<sup>3</sup>/W of 1%-87%, and a geometric-mean speedup of 25%, on 20 out of 179 benchmark phases over the best high-effort homogeneous multi-core (hence, over the HEC). Moreover, 9 of these 20 benchmark phases actually run faster on the LECs (speedup in BIPS, owing to microarchitectures adapted for memory latency tolerance and memory level parallelism). Thus, untuned LECs operating at less than half the frequency of the HEC nonetheless accelerate program phases with "outlier" instruction-level behavior.<br /> <br /></p> <p><strong>&ldquo;A Profitable Fully-Synthesized Trace Processor&rdquo;</strong><br /> <br /> We revisited the Trace Processor [Rotenberg, et al., MICRO-30, 1997] as a microarchitecture amenable to automated layout. Its large hierarchical window -- replicated superscalar processing elements (PEs), hierarchical physical register file (per-PE local register files, replicated global register file), local and global bypasses, etc. -- provide a starting point for modular, hence efficient, automated layout.&nbsp; Novel trace selection policies and global register communication policies are some of the key to-be-disclosed technologies that facilitate a trace processor featuring high instructions-per-cycle (IPC), high frequency, and low physical design effort.</p><br> <p>            Last Modified: 04/03/2018<br>      Modified by: Eric&nbsp;Rotenberg</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2018/1218608/1218608_10186866_1522776967523_DCAL-image-1--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1218608/1218608_10186866_1522776967523_DCAL-image-1--rgov-800width.jpg" title="circuit-level DCAL"><img src="/por/images/Reports/POR/2018/1218608/1218608_10186866_1522776967523_DCAL-image-1--rgov-66x44.jpg" alt="circuit-level DCAL"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Tool for auto-generating  standard-cell based RAMs for use as highly-ported superscalar processor structures.</div> <div class="imageCredit">Sungkwan Ku and Eric Rotenberg</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Eric&nbsp;Rotenberg</div> <div class="imageTitle">circuit-level DCAL</div> </div> </li> <li> <a href="/por/images/Reports/POR/2018/1218608/1218608_10186866_1522777179047_DCAL-image-2--rgov-214x142.jpg" original="/por/images/Reports/POR/2018/1218608/1218608_10186866_1522777179047_DCAL-image-2--rgov-800width.jpg" title="microarchitecture-level DCAL"><img src="/por/images/Reports/POR/2018/1218608/1218608_10186866_1522777179047_DCAL-image-2--rgov-66x44.jpg" alt="microarchitecture-level DCAL"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Auto-generated, efficient layout of a clustered microarchitecture.</div> <div class="imageCredit">Sungkwan Ku and Eric Rotenberg</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Eric&nbsp;Rotenberg</div> <div class="imageTitle">microarchitecture-level DCAL</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ At a high level, designing a computer?s central processing unit (CPU) is a two-step process. The first step is to conceive the CPU?s overall microarchitecture &ndash; the major units and their connections &ndash; and describe the microarchitecture using a hardware description language. The second step is to map the microarchitecture?s description into logic gates, then transistors and wires, and ultimately a "layout" or literal drawing of all the shapes across many physical layers that make up the transistors and wires, in a particular semiconductor technology. This final layout is the blueprint used by a semiconductor foundry to fabricate the CPU chip. Altogether, the many sub-steps comprising the second step is referred to as "physical design" because it involves translating the microarchitecture?s description into a blueprint for physical implementation.  Many tools exist to help automate the physical design step, but the best physical designs typically require manual intervention. Thus, physical design can range from no automation to full automation, with a trade-off between physical design effort and physical design quality.  Our findings indicate that manual physical design tuning has a 2x to 3x advantage over fully automated synthesis and layout of CPUs, but aggressive tuning is too labor-intensive and prone to reliability problems moving forward.  The goal of this project is to bridge the gap between manual and automated physical design of CPUs, using a regimen of physical-design-aware strategies called "Design for Competitive Automated Layout" or DCAL. Below is a summary of concepts, findings, and technologies developed in the course of this project.  "A Case for Standard-Cell Based RAMs in Highly-Ported Superscalar Processor Structures"    Highly-ported memories are pervasive within superscalar processors. Accordingly, they have been targets for full-custom design using multi-ported versions of the 6T SRAM bitcell. Unfortunately, full-custom design of highly-ported memories is becoming exceedingly difficult in deep sub-micron technologies. This paper makes the case for implementing highly-ported memories with standard cells (flip-flops, muxes, clock buffers). In lieu of exotic peripheral circuits for each port, standard-cell SRAMs use muxes. Consequently, area differences between full-custom and standard-cell designs are greatly reduced at a high number of ports. To also compete with full-custom memories in terms of timing and power, we introduce a standard-cell memory compiler with three key features: (i) per-row clock gating, (ii) a new tri-state based mux standard cell, and (iii) a modular layout strategy, which is the centerpiece of the memory compiler. For a 16-read/8-write 128-entry register file, our modular standard-cell memory consumes 13% more area and 4% more power, and is 35% faster, than the custom memory produced by FabMem. The automatic (built-in) robustness of standard cell designs further weigh in their favor, contrasted with exquisite transistor sizing/tuning of intertwined sub-circuits in a full-custom design.    "Design-Effort Alloy: Boosting a Highly Tuned Primary Core with Untuned Alternate Cores"    We invented a new class of single-ISA heterogeneous multi-core processor, called Design-Effort Alloy (DEA).  The key idea is to augment a flagship full-custom superscalar core (high-effort physical design) with multiple microarchitecturally diverse synthesized cores (low-effort physical design).  The synthesized cores' diverse microarchitectures accelerate outlier program phases at low non-recurring engineering (NRE) cost owing to their fully-automated approach to physical design.  Our evaluation of a DEA processor comprised of one high-effort core type (HEC) and three low-effort core types (LEC) yielded the following key findings:    1. The DEA processor's HEC is the same core type in the best high-effort homogeneous multi-core, owing to most program phases demonstrating "average" instruction-level behavior and favoring this balanced core.    2. The DEA processor yields a speedup in BIPS3/W of 1%-87%, and a geometric-mean speedup of 25%, on 20 out of 179 benchmark phases over the best high-effort homogeneous multi-core (hence, over the HEC). Moreover, 9 of these 20 benchmark phases actually run faster on the LECs (speedup in BIPS, owing to microarchitectures adapted for memory latency tolerance and memory level parallelism). Thus, untuned LECs operating at less than half the frequency of the HEC nonetheless accelerate program phases with "outlier" instruction-level behavior.     "A Profitable Fully-Synthesized Trace Processor"    We revisited the Trace Processor [Rotenberg, et al., MICRO-30, 1997] as a microarchitecture amenable to automated layout. Its large hierarchical window -- replicated superscalar processing elements (PEs), hierarchical physical register file (per-PE local register files, replicated global register file), local and global bypasses, etc. -- provide a starting point for modular, hence efficient, automated layout.  Novel trace selection policies and global register communication policies are some of the key to-be-disclosed technologies that facilitate a trace processor featuring high instructions-per-cycle (IPC), high frequency, and low physical design effort.       Last Modified: 04/03/2018       Submitted by: Eric Rotenberg]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

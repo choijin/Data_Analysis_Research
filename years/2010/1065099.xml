@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Medium: Collaborative Research: Extending Declarative Parallel Programming with State and Nondeterminism</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>412261.00</AwardTotalIntnAmount>
+<AwardAmount>420261</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anita La Salle</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project addresses parallelism in applications with the goal of improving the efficiency of those applications.&lt;br/&gt;&lt;br/&gt;Today's multicore and manycore computers provide increasing amounts of computational power in the form of parallel processing.  But, before a software application can take advantage of such parallel hardware and exhibit speedups in execution, a software developer must (re)write the program to indicate which portions may be executed in parallel and which portions must be executed sequentially.  The Manticore research project designed and implemented the Parallel ML programming language, a functional programming language with a rich collection of explicitly- and implicitly-parallel programming features.  To date, this team built an implementation of PML that is efficient and scalable.  However, PML lacks some features present in other languages, such as shared state, which grants the ability to freely modify data shared between parallel threads, and nondeterminism, which grants the ability to return results that may depend upon the order of parallel execution.  These features are generally considered difficult to use correctly and difficult to implement efficiently in a parallel setting; yet, they have the potential to make greater portions of an application amenable to parallel execution.&lt;br/&gt;&lt;br/&gt;Therefore, this project focuses on the significant problem of increasing the amount of parallelism exposed by applications by extending Parallel ML with mechanisms like shared state and nondeterminism in a safe and efficient manner.  A key feature of the design is that it provides ways to isolate the stateful and nondeterministic components of a program; this isolation makes these mechanisms easier and safer to use by software developers.  Another key feature of the design is that it captures common programming idioms, such as caching to avoid redundant computations and make independent writes to a shared sparse data structure in a manner that ensures safe and efficient program execution.  Thus, this proejct frees the software developer from the difficult and error-prone task of explicitly programming the low-level details that manage the parallel execution of an application; instead, the software developer focuses on the high-level application logic, while the compiler and runtime system allocates the parallel execution over the available computational resources.  This research is helping guide future language design efforts and transforming programming practice toward higher-level and more declarative models, yielding improved productivity, correctness, performance, and scalability.</AbstractNarration>
+<MinAmdLetterDate>07/28/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>09/20/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1065099</AwardID>
+<Investigator>
+<FirstName>Matthew</FirstName>
+<LastName>Fluet</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Matthew Fluet</PI_FULL_NAME>
+<EmailAddress>mtf@cs.rit.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000105569</NSF_ID>
+<StartDate>07/28/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Rochester Institute of Tech</Name>
+<CityName>ROCHESTER</CityName>
+<ZipCode>146235603</ZipCode>
+<PhoneNumber>5854757987</PhoneNumber>
+<StreetAddress>1 LOMB MEMORIAL DR</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY25</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002223642</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>ROCHESTER INSTITUTE OF TECHNOLOGY (INC)</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002223642</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Rochester Institute of Tech]]></Name>
+<CityName>ROCHESTER</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>146235603</ZipCode>
+<StreetAddress><![CDATA[1 LOMB MEMORIAL DR]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1640</Code>
+<Text>Information Technology Researc</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~269580</FUND_OBLG>
+<FUND_OBLG>2012~150681</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The Manticore project focuses on the technical challenges in the expressive design and efficient implementation of parallel functional languages. &nbsp;The rapid trend toward multicore architectures creates significant difficulties for software development, because of the lack of good programming models for exploiting the parallelism in such architectures. &nbsp;One of the main goals of the Manticore project is to make parallel programming accessible to a larger community of programmers. &nbsp;It is well known that functional programming languages provide a good semantic base for concurrent and parallel programming, but for such languages to be successful, they need to provide competitive performance and scalability. &nbsp;With this award, we have turned our attention to the significant problem of increasing the amount of parallelism exposed by applications by extending Manticore with mechanisms like shared state, which grants the ability to freely modify data shared between parallel threads, and nondeterminism, which grants the ability to return results that may depend upon the order of parallel execution, in a safe and efficient manner. &nbsp;We have undertaken and published novel research in two main areas.</p> <p><br />First, we have extended Manticore with two techniques, "memoization" and "mutable state with local reasoning", that address the observation that there are parallel stateful algorithms that exhibit asymptotically better performance than the corresponding parallel algorithm without mutable state. &nbsp;These results were the main focus of Lars Bergstrom's Ph.D. research at the University of Chicago. &nbsp;We added "memoization", a technique that stores previous results from function calls and makes them available subsequent calls of that function with the same inputs. &nbsp;We have taken this deterministic technique and combined it with a high-performance implementation of a dynamically sized, parallel hash table to provide scalable performance. &nbsp;We make the key observation that memoization should be provided as a language feature, rather than a language library, in order to ensure the important semantic properties of memoization (such as idempotence of updates). &nbsp;We have also added "mutable state", which allows the user to share arbitrary results across parallel threads, under several execution models, all of which preserve the ability to reason locally about the behavior of code. &nbsp;To provide scalable performance, we consider various lock-based implementations and optimizations that remove redundant locking operations. &nbsp;The latter makes use of an effect analysis to approximate the computational actions performed during the evaluation of an expression; expression's whose effects are sufficiently pure may have locks elided.</p> <p><br />Second, we have explored novel extensions of existing approaches to shared state in a parallel setting. &nbsp;These results have been the main focus of Matthew Le's Ph.D. research at the Rochester Institute of Technology. &nbsp;We have developed a novel combination of IVars with speculative parallelism. &nbsp;In the context of purely functional parallel languages, IVars, which are write-once shared-memory references, allow threads to share information while preserving a deterministic semantics. &nbsp;However, in the presence of speculative parallelism (cancellation), this determinism guarantee is lost. &nbsp;To restore the determinism, we propose a dynamic rollback mechanism that "undoes" any observable effects of a canceled computation by resetting all IVars and dependent readers that are transitively reachable from the canceled computation. &nbsp;We have also developed a novel implementation of software transactional memory (STM) that supports partial aborts. &nbsp;An STM implementation guarantees that a collection of operations on shared memory references executed as a transaction occurs atomically with respect to all other concurrent transactions. &nbsp;Typically, an STM implementation records the locations of memory that were read and written within the transaction and checks at the end if there are any conflicts with transactions that committed during its execution; if there are conflicts, then the transaction is aborted and re-executes from the beginning; if there are no conflicts, then the transaction commits. &nbsp;We propose an implementation of STM with partial aborts. &nbsp;When a transaction is aborted, rather than abandoning all of the transaction's work and re-executing from the beginning, we restart the transaction from the earliest consistent point in its execution, retaining a (sometimes substantial) portion of the previous work. &nbsp;A crucial aspect of both of these extensions is the use of Manticore's first-class continuations, which allows efficient capturing of the current execution state. &nbsp;Another crucial aspect of both of these extensions is that their correctness, with respect to the base implementation, has been proven formally, using a proof assistant.</p> <p><br />Other novel research undertaken during this project has explored efficient implementations of data-parallel computations with a hybrid flattening transformation and with a NESL-to-GPU compilation strategy and has explored extensions and applications of control-flow analysis (CFA) with a type- and control-flow analysis for System F and with a reformulation of the environment consonance problem for higher-order inlining as a graph reachability problem. &nbsp;Throughout, we have continued to improve the Manticore compiler and implementation, which is freely available through a public source code repository.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/29/2016<br>      Modified by: Matthew&nbsp;Fluet</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The Manticore project focuses on the technical challenges in the expressive design and efficient implementation of parallel functional languages.  The rapid trend toward multicore architectures creates significant difficulties for software development, because of the lack of good programming models for exploiting the parallelism in such architectures.  One of the main goals of the Manticore project is to make parallel programming accessible to a larger community of programmers.  It is well known that functional programming languages provide a good semantic base for concurrent and parallel programming, but for such languages to be successful, they need to provide competitive performance and scalability.  With this award, we have turned our attention to the significant problem of increasing the amount of parallelism exposed by applications by extending Manticore with mechanisms like shared state, which grants the ability to freely modify data shared between parallel threads, and nondeterminism, which grants the ability to return results that may depend upon the order of parallel execution, in a safe and efficient manner.  We have undertaken and published novel research in two main areas.   First, we have extended Manticore with two techniques, "memoization" and "mutable state with local reasoning", that address the observation that there are parallel stateful algorithms that exhibit asymptotically better performance than the corresponding parallel algorithm without mutable state.  These results were the main focus of Lars Bergstrom's Ph.D. research at the University of Chicago.  We added "memoization", a technique that stores previous results from function calls and makes them available subsequent calls of that function with the same inputs.  We have taken this deterministic technique and combined it with a high-performance implementation of a dynamically sized, parallel hash table to provide scalable performance.  We make the key observation that memoization should be provided as a language feature, rather than a language library, in order to ensure the important semantic properties of memoization (such as idempotence of updates).  We have also added "mutable state", which allows the user to share arbitrary results across parallel threads, under several execution models, all of which preserve the ability to reason locally about the behavior of code.  To provide scalable performance, we consider various lock-based implementations and optimizations that remove redundant locking operations.  The latter makes use of an effect analysis to approximate the computational actions performed during the evaluation of an expression; expression's whose effects are sufficiently pure may have locks elided.   Second, we have explored novel extensions of existing approaches to shared state in a parallel setting.  These results have been the main focus of Matthew Le's Ph.D. research at the Rochester Institute of Technology.  We have developed a novel combination of IVars with speculative parallelism.  In the context of purely functional parallel languages, IVars, which are write-once shared-memory references, allow threads to share information while preserving a deterministic semantics.  However, in the presence of speculative parallelism (cancellation), this determinism guarantee is lost.  To restore the determinism, we propose a dynamic rollback mechanism that "undoes" any observable effects of a canceled computation by resetting all IVars and dependent readers that are transitively reachable from the canceled computation.  We have also developed a novel implementation of software transactional memory (STM) that supports partial aborts.  An STM implementation guarantees that a collection of operations on shared memory references executed as a transaction occurs atomically with respect to all other concurrent transactions.  Typically, an STM implementation records the locations of memory that were read and written within the transaction and checks at the end if there are any conflicts with transactions that committed during its execution; if there are conflicts, then the transaction is aborted and re-executes from the beginning; if there are no conflicts, then the transaction commits.  We propose an implementation of STM with partial aborts.  When a transaction is aborted, rather than abandoning all of the transaction's work and re-executing from the beginning, we restart the transaction from the earliest consistent point in its execution, retaining a (sometimes substantial) portion of the previous work.  A crucial aspect of both of these extensions is the use of Manticore's first-class continuations, which allows efficient capturing of the current execution state.  Another crucial aspect of both of these extensions is that their correctness, with respect to the base implementation, has been proven formally, using a proof assistant.   Other novel research undertaken during this project has explored efficient implementations of data-parallel computations with a hybrid flattening transformation and with a NESL-to-GPU compilation strategy and has explored extensions and applications of control-flow analysis (CFA) with a type- and control-flow analysis for System F and with a reformulation of the environment consonance problem for higher-order inlining as a graph reachability problem.  Throughout, we have continued to improve the Manticore compiler and implementation, which is freely available through a public source code repository.          Last Modified: 11/29/2016       Submitted by: Matthew Fluet]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

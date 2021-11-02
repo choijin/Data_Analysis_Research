@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: EARS: Crowd-based Spectrum Monitoring and Enforcement</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>230000.00</AwardTotalIntnAmount>
+<AwardAmount>230000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03020000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>AST</Abbreviation>
+<LongName>Division Of Astronomical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jon Williams</SignBlockName>
+<PO_EMAI>jonwilli@nsf.gov</PO_EMAI>
+<PO_PHON>7032922455</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The scientists identify an important issue for a world of devices all communicating wirelessly: "How to identify malfunctioning devices or those not fairly sharing the spectrum with others?"  The scientists explore scenarios for leveraging local, crowd-sourced mobile devices to detect and identify unauthorized transmitters.   The goal of this technique is to reduce the cost of enforcement of network rules by adding the capability of some smart phones to sense the radio spectrum use and report back to a central database.&lt;br/&gt;&lt;br/&gt;The PIs propose to develop a Crowd-based Spectrum ENforcement System (CSENS), which takes a data-driven approach to spectrum enforcement. Specifically, the PIs propose to conduct 3 tasks: (i) real-time on-demand spectrum monitoring, which enables real-time responses to spectrum measurement tasks; (ii) utilizing physical layer features to embed cryptographic spectrum permits into transmissions, which enables reliably distinguish between authorized and unauthorized spectrum users; (iii) using a library of known signatures for network applications, unauthorized transmitters can be uniquely identified.</AbstractNarration>
+<MinAmdLetterDate>08/26/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/26/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1443945</AwardID>
+<Investigator>
+<FirstName>Xia</FirstName>
+<LastName>Zhou</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Xia Zhou</PI_FULL_NAME>
+<EmailAddress>Xia.Zhou@Dartmouth.edu</EmailAddress>
+<PI_PHON>6036468871</PI_PHON>
+<NSF_ID>000659637</NSF_ID>
+<StartDate>08/26/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Dartmouth College</Name>
+<CityName>HANOVER</CityName>
+<ZipCode>037551421</ZipCode>
+<PhoneNumber>6036463007</PhoneNumber>
+<StreetAddress>OFFICE OF SPONSORED PROJECTS</StreetAddress>
+<StreetAddress2><![CDATA[11 ROPE FERRY RD #6210]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New Hampshire</StateName>
+<StateCode>NH</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NH02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041027822</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF DARTMOUTH COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041027822</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Dartmouth College]]></Name>
+<CityName>Hanover</CityName>
+<StateCode>NH</StateCode>
+<ZipCode>037553510</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Hampshire</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NH02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7976</Code>
+<Text>EARS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7976</Code>
+<Text>EARS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~230000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project has focused on designing an efficient crowdsourced framework to monitor and enforce the usage of radio spectrum. The team have conducted the following main research activities:&nbsp;<br />1. The team designed a system framework for collecting crowdsourced, real-time spectrum measurements using commodity, low-cost radios (RTL-SDR) attached to mobile devices. The team then addressed challenges of using crowdsourced measurements, including noises in the measurement data, interference from radio signals, and sampling biases.&nbsp;<br />2. The team explored locating an unauthorized transmitter using crowdsourced spectrum measurements. The localization scheme is based on three design elements: 1) to deal with measurement noises, measurement data are divided into segments, where noises within a segment are relatively stable. Also, a confidence level is derived for each estimated transmitter location based on the reliability of measurement data; 2) to leverage the measurement diversity introduced by user mobility, monitoring results are combined over time, weighted by their confidence levels, to boost localization accuracy; 3) to avoid the impact of radio signal interference, spectrum permits using cyclostationary features are designed to separate the estimation of signal strength of each transmission, allowing the localization of authorized transmission in the presence of interference.&nbsp;<br />3. The team have analyzed the energy overhead of collecting crowdsourced measurements on smartphones, compared it to that of Wi-Fi, and analyzed the tradeoff between energy consumption and sensing accuracy.&nbsp;<br />4. Using the proposed framework, the team have collected spectrum measurement data with real smartphone users (48 volunteer users recruited via emails in the UCSB campus and 7 users in the Dartmouth campus) over the duration of three months (January to March 2015). Most measurement data were collected outdoors in the UCSB campus. The severe weather and heavy snow in the Dartmouth campus prevented us from conducting extensive outdoor measurement in that time period.&nbsp;<br />The team have also joined the Microsoft Spectrum Observatory (https://observatory.microsoftspectrum.com/). At both the UCSB and Dartmouth campus, we have also set up spectrum monitoring stations using USRP radios to continuously collect long-term signal data over the spectrum band of 50 MHz -- 4.4 GHz.<br />5. The team further studied the potential of using drones to augment crowdsourced spectrum measurements, and investigated mechanisms to facilitate a drone locating itself in the environment for target measurements.<br /><br />+++++++++ Major opportunities&nbsp;<br />This project has provided opportunities to train several graduate and undergraduate students in both UCSB and Dartmouth. Specifically in Dartmouth, this project has contributed to the training of 1 post-doc researcher, 2 PhD students, 6 master students, and 3 undergraduate students. The students have worked together to analyze noises of spectrum measurements from low-cost dongles, develop a mobile application to collect real-time signal data using dongles, recruit students to perform measurements, collect and analyze the spectrum data, and conduct drone measurements.<br />PI Zhou has integrated research results into the curriculum. In the fall of 2014 and 2015, PI Zhou has included lectures on spectrum monitoring in CS69/169: Advanced Topics in Computer Networking, andCS69/169: All Things Wireless, respectively. This project has also led to class projects in these courses.&nbsp;<br /><br />++++++ Outcomes report<br />This project has produced following publications:<br />- Ana Nika, Zengbin Zhang, Xia Zhou, Ben Y. Zhao, and Haitao Zheng. Towards Commoditized Real-time Spectrum Monitoring. The 1st ACM Workshop on Hot Topics in Wireless (HotWireless), 2014.<br />- Ana Nika, Zhijing Li, Yanzi Zhu, Yibo Zhu, Ben Y. Zhao, Xia Zhou, and Haitao Zheng. Empirical Validation of Commodity Spectrum Monitoring. The ACM Conference on Embedded Networked Sensor Systems (SenSys), 2016.<br />- Ethan Yu, Xi Xiong, and Xia Zhou. Automating 3D Wireless Measurements with Drones. ACM International Workshop on Wireless Network Testbeds, Experimental evaluation &amp; Characterization(WiNTECH), October, 2016.<br />- Augmenting Indoor Inertial Tracking with Polarized Light. Zhao Tian, Yu-Lin Wei, Wei-Nin Chang, Xi Xiong, Changxi Zheng, Hsin-Mu Tsai, Kate Ching-Ju Lin, and Xia Zhou. MobiSys 2018.&nbsp;</p> <p>We have disseminated results in above conferences and workshops, as well as seminars/invited talks during PI Zhou's visit to National Taiwan University, University of Cambridge, and Queen Mary University of London in 2016 - 2017. One of the lead PhD students on this project has also participated in the Programming N' Pizza event, a crowd-learning initiative led by the Dartmouth Library and Research Computing, as an opportunity for the entire Dartmouth community to share, teach and learn programming skills. Zhao demonstrated how to program a Crazyflie drone.</p> <p>We have also participated in the Spectrum Observatory ThinkTank event and disseminated the initial results.(http://research.microsoft.com/en-us/events/spectrum2014/)</p> <p>The project has a significant impact on developing efficient, low-cost spectrum monitoring and enforcement approaches. Our results identify several sources of errors in crowdsourced spectrum data. We design techniques to address these errors and demonstrate the feasibility of crowdsourced spectrum monitoring as a tool for maintaining and updating spectrum databases. The research outcomes have practical values for both government agencies and wireless service providers.&nbsp;</p><br> <p>            Last Modified: 11/21/2018<br>      Modified by: Xia&nbsp;Zhou</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project has focused on designing an efficient crowdsourced framework to monitor and enforce the usage of radio spectrum. The team have conducted the following main research activities:  1. The team designed a system framework for collecting crowdsourced, real-time spectrum measurements using commodity, low-cost radios (RTL-SDR) attached to mobile devices. The team then addressed challenges of using crowdsourced measurements, including noises in the measurement data, interference from radio signals, and sampling biases.  2. The team explored locating an unauthorized transmitter using crowdsourced spectrum measurements. The localization scheme is based on three design elements: 1) to deal with measurement noises, measurement data are divided into segments, where noises within a segment are relatively stable. Also, a confidence level is derived for each estimated transmitter location based on the reliability of measurement data; 2) to leverage the measurement diversity introduced by user mobility, monitoring results are combined over time, weighted by their confidence levels, to boost localization accuracy; 3) to avoid the impact of radio signal interference, spectrum permits using cyclostationary features are designed to separate the estimation of signal strength of each transmission, allowing the localization of authorized transmission in the presence of interference.  3. The team have analyzed the energy overhead of collecting crowdsourced measurements on smartphones, compared it to that of Wi-Fi, and analyzed the tradeoff between energy consumption and sensing accuracy.  4. Using the proposed framework, the team have collected spectrum measurement data with real smartphone users (48 volunteer users recruited via emails in the UCSB campus and 7 users in the Dartmouth campus) over the duration of three months (January to March 2015). Most measurement data were collected outdoors in the UCSB campus. The severe weather and heavy snow in the Dartmouth campus prevented us from conducting extensive outdoor measurement in that time period.  The team have also joined the Microsoft Spectrum Observatory (https://observatory.microsoftspectrum.com/). At both the UCSB and Dartmouth campus, we have also set up spectrum monitoring stations using USRP radios to continuously collect long-term signal data over the spectrum band of 50 MHz -- 4.4 GHz. 5. The team further studied the potential of using drones to augment crowdsourced spectrum measurements, and investigated mechanisms to facilitate a drone locating itself in the environment for target measurements.  +++++++++ Major opportunities  This project has provided opportunities to train several graduate and undergraduate students in both UCSB and Dartmouth. Specifically in Dartmouth, this project has contributed to the training of 1 post-doc researcher, 2 PhD students, 6 master students, and 3 undergraduate students. The students have worked together to analyze noises of spectrum measurements from low-cost dongles, develop a mobile application to collect real-time signal data using dongles, recruit students to perform measurements, collect and analyze the spectrum data, and conduct drone measurements. PI Zhou has integrated research results into the curriculum. In the fall of 2014 and 2015, PI Zhou has included lectures on spectrum monitoring in CS69/169: Advanced Topics in Computer Networking, andCS69/169: All Things Wireless, respectively. This project has also led to class projects in these courses.   ++++++ Outcomes report This project has produced following publications: - Ana Nika, Zengbin Zhang, Xia Zhou, Ben Y. Zhao, and Haitao Zheng. Towards Commoditized Real-time Spectrum Monitoring. The 1st ACM Workshop on Hot Topics in Wireless (HotWireless), 2014. - Ana Nika, Zhijing Li, Yanzi Zhu, Yibo Zhu, Ben Y. Zhao, Xia Zhou, and Haitao Zheng. Empirical Validation of Commodity Spectrum Monitoring. The ACM Conference on Embedded Networked Sensor Systems (SenSys), 2016. - Ethan Yu, Xi Xiong, and Xia Zhou. Automating 3D Wireless Measurements with Drones. ACM International Workshop on Wireless Network Testbeds, Experimental evaluation &amp; Characterization(WiNTECH), October, 2016. - Augmenting Indoor Inertial Tracking with Polarized Light. Zhao Tian, Yu-Lin Wei, Wei-Nin Chang, Xi Xiong, Changxi Zheng, Hsin-Mu Tsai, Kate Ching-Ju Lin, and Xia Zhou. MobiSys 2018.   We have disseminated results in above conferences and workshops, as well as seminars/invited talks during PI Zhou's visit to National Taiwan University, University of Cambridge, and Queen Mary University of London in 2016 - 2017. One of the lead PhD students on this project has also participated in the Programming N' Pizza event, a crowd-learning initiative led by the Dartmouth Library and Research Computing, as an opportunity for the entire Dartmouth community to share, teach and learn programming skills. Zhao demonstrated how to program a Crazyflie drone.  We have also participated in the Spectrum Observatory ThinkTank event and disseminated the initial results.(http://research.microsoft.com/en-us/events/spectrum2014/)  The project has a significant impact on developing efficient, low-cost spectrum monitoring and enforcement approaches. Our results identify several sources of errors in crowdsourced spectrum data. We design techniques to address these errors and demonstrate the feasibility of crowdsourced spectrum monitoring as a tool for maintaining and updating spectrum databases. The research outcomes have practical values for both government agencies and wireless service providers.        Last Modified: 11/21/2018       Submitted by: Xia Zhou]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Buddyguard - A Buddy System for Reliable IP Prefix Monitoring</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Wenjing Lou</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Because of operational malpractice or security attacks, every Internet IP prefix (i.e., every block of IP addresses) can undergo various routing anomalies, causing business loss, identity theft, or many other devastating effects.  For example, in prefix hijacking, an attacker can hijack traffic toward legitimate users of a prefix. However, a solution that is both effective in monitoring anomalies and resilient against attacker circumvention is yet to be seen.  This research will investigate, design, and evaluate a new approach to reliable monitoring of IP prefixes. Dubbed Buddyguard, it surrounds a prefix with a buddy system composed of buddy prefixes, or buddies, and monitors the behavior of the prefix against its buddies.  The scientific contributions will include: (i) A Buddyguard architecture for monitoring routing anomalies of IP prefixes, including various difficult prefix hijacking cases; (ii) A buddy discovery, selection and maintenance algorithm to choose buddies for a monitored prefix, including a rigorous analysis on what and how many buddies are needed to effectively detect routing anomalies and be resilient against attackers? circumvention; (iii) A scalable and easy-to-deploy algorithm to use a prefix?s buddies to detect routing anomalies reliably, quickly, and resiliently; and (iv) A deep and thorough understanding on the feasibility, advantages, performance, and limitations of using a buddy system for prefix monitoring.  Once deployed, Buddyguard will be offered as a service to the public.  The results as well as tools, software code, and documents from this research will also be disseminated.  This research also incorporates a solid curriculum and education plan.</AbstractNarration>
+<MinAmdLetterDate>07/07/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>07/07/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1118101</AwardID>
+<Investigator>
+<FirstName>Jun</FirstName>
+<LastName>Li</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jun Li</PI_FULL_NAME>
+<EmailAddress>lijun@cs.uoregon.edu</EmailAddress>
+<PI_PHON>5413464424</PI_PHON>
+<NSF_ID>000489582</NSF_ID>
+<StartDate>07/07/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Oregon Eugene</Name>
+<CityName>Eugene</CityName>
+<ZipCode>974035219</ZipCode>
+<PhoneNumber>5413465131</PhoneNumber>
+<StreetAddress>5219 UNIVERSITY OF OREGON</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Oregon</StateName>
+<StateCode>OR</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OR04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>079289626</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF OREGON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049793995</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Oregon Eugene]]></Name>
+<CityName>Eugene</CityName>
+<StateCode>OR</StateCode>
+<ZipCode>974035219</ZipCode>
+<StreetAddress><![CDATA[5219 UNIVERSITY OF OREGON]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Oregon</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OR04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Because of operational malpractice or security attacks, an IP prefix (i.e., a block of IP addresses) on the Internet can undergo many types of routing anomalies that can cause loss of business, identity theft, or many other devastating effects. The most well-known is probably prefix hijacking, in which an attacker hijacks traffic meant to reach the legitimate user of a prefix. Unfortunately, because of the seemingly insurmountable barrier for deploying secure routing solutions, any prefix on the Internet continues to be susceptible to such anomalies.</p> <p><br />While various approaches have been proposed to monitor routing anomalies with IP prefixes, these approaches usually can only detect a limited number of cases. &nbsp;Worse, they typically underestimate what attackers can do, especially their ability to circumvent the monitoring in place.</p> <p><br />This research develops the Buddyguard system that offers a new approach to monitoring IP prefixes. &nbsp;Its detection latency is minimal and its accuracy is high. &nbsp;Particularly, its introduction and use of "buddy" prefixes enables it to be resilient against resourceful attackers which may use countermeasures to defeat monitoring. &nbsp;Buddyguard encompasses three unique features:</p> <p>(1) Unlike classic methods that use historical behavior to define normality, which can mislabel unseen but normal behavior (e.g., a new route to a prefix) as abnormal, Buddyguard invents a novel method to define the normality of a prefix by comparing its behavior against that of its buddies on the fly.</p> <p>(2) Buddyguard is superior to previous work in detecting prefix-level routing anomalies. In particular, it departs from existing approaches by emphasizing the need to be resilient against attacker countermeasures. Every monitored prefix has hundreds or even thousands of buddies from everywhere. For an attacker to circumvent Buddyguard, she faces an extremely difficult task since she has to locate and simultaneously attack enough buddy prefixes.</p> <p>(3) Buddyguard is designed with real deployment in mind. It is not only effective and fast, but also easy to deploy, lightweight, and scalable, and it is extensible to monitor new types of anomalies.</p> <p><br />In supporting of these features, Buddyguard introduces mechanisms for discovering buddy candidates for a monitored prefix and selecting buddies for the prefix. &nbsp;Every prefix--no matter how special the prefix may be--will have enough buddies that meet a well-defined selection criteria, including a rigorous analysis on what and how many buddies are needed to achieve the resiliency against attackers' circumvention.</p> <p>&nbsp;</p> <p>Last but not least, this research provided graduate student researchers working on this project with solid research skills and experience. &nbsp;They accumulated hands-on experience in understanding and processing network routing data, designing effective algorithms, and running experiments. &nbsp;This research further allowed the principal investigator to incorporate certain research ideas and results into his teaching, benefiting students in the classroom with better understanding how Internet routing works and how an Internet monitoring system can be designed.</p> <p>&nbsp;</p><br> <p>            Last Modified: 01/01/2016<br>      Modified by: Jun&nbsp;Li</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Because of operational malpractice or security attacks, an IP prefix (i.e., a block of IP addresses) on the Internet can undergo many types of routing anomalies that can cause loss of business, identity theft, or many other devastating effects. The most well-known is probably prefix hijacking, in which an attacker hijacks traffic meant to reach the legitimate user of a prefix. Unfortunately, because of the seemingly insurmountable barrier for deploying secure routing solutions, any prefix on the Internet continues to be susceptible to such anomalies.   While various approaches have been proposed to monitor routing anomalies with IP prefixes, these approaches usually can only detect a limited number of cases.  Worse, they typically underestimate what attackers can do, especially their ability to circumvent the monitoring in place.   This research develops the Buddyguard system that offers a new approach to monitoring IP prefixes.  Its detection latency is minimal and its accuracy is high.  Particularly, its introduction and use of "buddy" prefixes enables it to be resilient against resourceful attackers which may use countermeasures to defeat monitoring.  Buddyguard encompasses three unique features:  (1) Unlike classic methods that use historical behavior to define normality, which can mislabel unseen but normal behavior (e.g., a new route to a prefix) as abnormal, Buddyguard invents a novel method to define the normality of a prefix by comparing its behavior against that of its buddies on the fly.  (2) Buddyguard is superior to previous work in detecting prefix-level routing anomalies. In particular, it departs from existing approaches by emphasizing the need to be resilient against attacker countermeasures. Every monitored prefix has hundreds or even thousands of buddies from everywhere. For an attacker to circumvent Buddyguard, she faces an extremely difficult task since she has to locate and simultaneously attack enough buddy prefixes.  (3) Buddyguard is designed with real deployment in mind. It is not only effective and fast, but also easy to deploy, lightweight, and scalable, and it is extensible to monitor new types of anomalies.   In supporting of these features, Buddyguard introduces mechanisms for discovering buddy candidates for a monitored prefix and selecting buddies for the prefix.  Every prefix--no matter how special the prefix may be--will have enough buddies that meet a well-defined selection criteria, including a rigorous analysis on what and how many buddies are needed to achieve the resiliency against attackers' circumvention.     Last but not least, this research provided graduate student researchers working on this project with solid research skills and experience.  They accumulated hands-on experience in understanding and processing network routing data, designing effective algorithms, and running experiments.  This research further allowed the principal investigator to incorporate certain research ideas and results into his teaching, benefiting students in the classroom with better understanding how Internet routing works and how an Internet monitoring system can be designed.          Last Modified: 01/01/2016       Submitted by: Jun Li]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

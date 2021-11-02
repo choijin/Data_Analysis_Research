@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CNS Core: Small: Designing Efficient Cloud Datacenter Network Fabrics</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Cloud datacenter networks are tasked with providing connectivity between an ever-increasing number of end hosts whose link rates improve by orders of magnitude every few years.  What network operators would ideally like is a single, full-bandwidth switch that could connect every endpoint at full rate.  Such an idealized network would enable them to place jobs and data where it is convenient, without worrying about bandwidth bottlenecks, hotspots, and other network-induced limitations.  Unfortunately, preserving this ``big-switch'' illusion of a single network with full bandwidth is increasingly cost prohibitive and likely soon infeasible.&lt;br/&gt;&lt;br/&gt;This project will explore an alternative method of constructing datacenter network fabrics based upon a provably optimal topological construct, an expander graph.  If successful, the project will result in network fabrics that are more flexible, capable, and scalable than existing state-of-the-art approaches.  This project will develop a family of cloud datacenter network topologies based on expander graphs that eliminate the capacity bottlenecks inherent in hierarchical Clos-based topologies while minimizing the bandwidth tax incurred due to indirect routing.  A single, large expander-graph network topology can be constructed out of multiple, disjoint expander graphs; this project will show how judicious tenant placement can then provide both isolation and dynamic capacity while minimizing the bandwidth tax.  Moreover, by employing reconfigurable network components (i.e., circuit switches), it is even possible to evolve the set of constituent expander graphs over various time scales, allowing cloud datacenter operators to better suit the needs of their current tenants. Indeed, if the timescales are sufficiently small (e.g., 100s of milliseconds) tenants may then choose to buffer traffic until a particularly favorable (set of) path(s) is available, further decreasing the overall bandwidth inefficiency or "tax". If the network topology evolves at a rapid rate, it is possible to choose, on a per-packet basis, whether to either (1) immediately send a packet over whatever static expander is currently instantiated, incurring a modest tax on this small fraction of traffic, or (2) buffer the packet and wait until a direct link is established to the ultimate destination, eliminating the bandwidth tax on the vast majority of bytes.&lt;br/&gt;&lt;br/&gt;This project will engage graduate and undergraduate students through structured courses, intense mentorship, and hands-on research activities through participation in the NSF-funded UC San Diego Early Research Scholars Program (ERSP).&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/05/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>08/05/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1911104</AwardID>
+<Investigator>
+<FirstName>Alex</FirstName>
+<LastName>Snoeren</LastName>
+<PI_MID_INIT>C</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alex C Snoeren</PI_FULL_NAME>
+<EmailAddress>snoeren@cs.ucsd.edu</EmailAddress>
+<PI_PHON>8588222289</PI_PHON>
+<NSF_ID>000482412</NSF_ID>
+<StartDate>08/05/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>George</FirstName>
+<LastName>Porter</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>George Porter</PI_FULL_NAME>
+<EmailAddress>gmporter@cs.ucsd.edu</EmailAddress>
+<PI_PHON>8588226818</PI_PHON>
+<NSF_ID>000553493</NSF_ID>
+<StartDate>08/05/2019</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-San Diego</Name>
+<CityName>La Jolla</CityName>
+<ZipCode>920930934</ZipCode>
+<PhoneNumber>8585344896</PhoneNumber>
+<StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+<StreetAddress2><![CDATA[9500 Gilman Drive, 0934]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804355790</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SAN DIEGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-San Diego]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>920930404</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~500000</FUND_OBLG>
+</Award>
+</rootTag>

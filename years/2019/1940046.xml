@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CSR: Rethinking the FTL in SSDs -- a file translation layer instead of a flash translation layer</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/15/2019</AwardEffectiveDate>
+<AwardExpirationDate>02/29/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>61788.00</AwardTotalIntnAmount>
+<AwardAmount>61788</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>As data sets for artificial intelligence, network services, and cloud storage grows, so does the demand of quickly and efficiently serving data from the storage device. Using solid state drives (SSDs) based on non-volatile, flash memory technologies is an effective approach to improve the performance of storage devices. However, as the rest parts of the computer system leverage the entrenched interface to communicate with SSDs, the overhead of supporting these abstractions buries the real potential of SSDs. Specifically, the different addressing modes for different system layers result in multiple address translations when accessing a single file and require additional system resource to maintain the mapping. This address translation overhead takes time and limits the bandwidth of SSDs. This project is addressing this problem by proposing an innovative storage interface that minimizes the system overhead but better fits the behaviors of applications in accessing data. The proposed interface will simplify the design of operating systems. This interface will require no modifications to existing applications. &lt;br/&gt;&lt;br/&gt;As most file accessing overhead coming from the operating system, simplifying operating systems with the proposed interface will significantly boost the latency and bandwidth when applications access SSDs. This project will implement the proposed design in real SSDs without changes to existing hardware, meaning that the result of this project can immediately facilitate existing computer systems hosting big data applications without additional hardware costs. This project will also encourage researchers to revisit existing hardware/software interfaces for achieving better performance on emerging peripheral devices as well as exploring other benefits, including enhanced security and reduced energy consumption of pursuing this research direction.</AbstractNarration>
+<MinAmdLetterDate>07/30/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/30/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1940046</AwardID>
+<Investigator>
+<FirstName>Hung-Wei</FirstName>
+<LastName>Tseng</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Hung-Wei Tseng</PI_FULL_NAME>
+<EmailAddress>htseng@ucr.edu</EmailAddress>
+<PI_PHON>9518279347</PI_PHON>
+<NSF_ID>000728421</NSF_ID>
+<StartDate>07/30/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName>riverside</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~61788</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z">As non-volatile memory storage devices, especially solid state drives</span><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z s-lparen"> </span><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z h-lparen">(SSDs),</span><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z"> significantly shrinking their internal media access latency and containing multi-core controllers to handle requests, applications can potentially leverage the intelligence near raw data to further reduce the bandwidth demand, end-to-end latency and computation power for data processing. However, as conventional computer systems create and maintain the file abstraction outside of storage devices &mdash; using the host computer processors and main memory, any computation relying on file system abstraction will still require the host system resources, burying the potential of near-data processing model. An ultimate architecture that addresses the aforementioned deficiency is allowing the storage device itself to understand the semantic of file system abstraction and thus reducing the unnecessary queries to the host system when managing, preprocessing data inside storage devices.</span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z"><br /></span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z">This work explores and produces three prototype systems that demonstrates the effectiveness of an SSD architecture that can work without relying on the file system abstraction on the host computer.</span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z"><br /></span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z">The first is an intelligent SSD prototype that uses its built-in machine learning model to automatically detect the type of incoming data and use the most appropriate data compression algorithm without any hint from the application or the host file system. In contrast to conventional approaches that either require the file system to consume additional host computer processor resources or modify the application code, the proposed intelligent SSD architecture does not have any of these drawbacks. The real system implementation of the this SSD prototype shows 19% improvement in SSD&rsquo;s lifetime with reasonable 13.4% performance degradation.</span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z"><br /></span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z">The second prototype used the same intelligent SSD prototype, but the firmware code on the SSD controller to work with applications in storing and managing storage data by understanding the graphical relationships of data elements in applications. In this way, SSDs&rsquo; firmware code can retrieve important information regarding the graph stored inside the device without querying the host system&rsquo;s application or file system and directly preprocess large graph efficiently. The result shows up to 1.85x speedup over the conventional approach in fetching graphs.</span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z"><br /></span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z">The third prototype is an intelligent SSD that completely host the file system in-storage, and the host system&rsquo;s file system is simply an interface to the file system on SSD. This work is still under submission to a peer-reviewed conference. To demonstrate the full potential of this work, the third prototype also provides a easy-to-program interface that allows code accessing storage data to flexibly located among different system components without worrying about the file system abstraction. The result shows 29% performance gain over traditional intelligent SSD frameworks.</span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z"><br /></span></div> <div><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z">This work resulted in a number of papers, an award paper</span><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z s-lparen"> </span><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z h-lparen">(top</span><span class=" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qovuvz88zlez122zvz82z8z76z0z80zdcz79zij4z70zz81zz69zz68zz75z8volz87zdyz83z"> picks in computer architecture, recognizing the top research publications from the prior year), a number of invited research and distinguished lecture talks at universities and industry locations, and a software/hardware infrastructure that will be made available to other users after all the produced papers are published. The result of the work also becomes part of the materials in the PI&rsquo;s operating systems and computer architecture classes. Among the students who have worked on the project and been mentored by the PI, several are continuing students at UC Riverside, but two have joined industry and are currently working in related fields.</span></div> </p><br> <p>            Last Modified: 04/27/2020<br>      Modified by: Hung-Wei&nbsp;Tseng</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  As non-volatile memory storage devices, especially solid state drives (SSDs), significantly shrinking their internal media access latency and containing multi-core controllers to handle requests, applications can potentially leverage the intelligence near raw data to further reduce the bandwidth demand, end-to-end latency and computation power for data processing. However, as conventional computer systems create and maintain the file abstraction outside of storage devices &mdash; using the host computer processors and main memory, any computation relying on file system abstraction will still require the host system resources, burying the potential of near-data processing model. An ultimate architecture that addresses the aforementioned deficiency is allowing the storage device itself to understand the semantic of file system abstraction and thus reducing the unnecessary queries to the host system when managing, preprocessing data inside storage devices.   This work explores and produces three prototype systems that demonstrates the effectiveness of an SSD architecture that can work without relying on the file system abstraction on the host computer.   The first is an intelligent SSD prototype that uses its built-in machine learning model to automatically detect the type of incoming data and use the most appropriate data compression algorithm without any hint from the application or the host file system. In contrast to conventional approaches that either require the file system to consume additional host computer processor resources or modify the application code, the proposed intelligent SSD architecture does not have any of these drawbacks. The real system implementation of the this SSD prototype shows 19% improvement in SSD’s lifetime with reasonable 13.4% performance degradation.   The second prototype used the same intelligent SSD prototype, but the firmware code on the SSD controller to work with applications in storing and managing storage data by understanding the graphical relationships of data elements in applications. In this way, SSDs’ firmware code can retrieve important information regarding the graph stored inside the device without querying the host system’s application or file system and directly preprocess large graph efficiently. The result shows up to 1.85x speedup over the conventional approach in fetching graphs.   The third prototype is an intelligent SSD that completely host the file system in-storage, and the host system’s file system is simply an interface to the file system on SSD. This work is still under submission to a peer-reviewed conference. To demonstrate the full potential of this work, the third prototype also provides a easy-to-program interface that allows code accessing storage data to flexibly located among different system components without worrying about the file system abstraction. The result shows 29% performance gain over traditional intelligent SSD frameworks.   This work resulted in a number of papers, an award paper (top picks in computer architecture, recognizing the top research publications from the prior year), a number of invited research and distinguished lecture talks at universities and industry locations, and a software/hardware infrastructure that will be made available to other users after all the produced papers are published. The result of the work also becomes part of the materials in the PI’s operating systems and computer architecture classes. Among the students who have worked on the project and been mentored by the PI, several are continuing students at UC Riverside, but two have joined industry and are currently working in related fields.        Last Modified: 04/27/2020       Submitted by: Hung-Wei Tseng]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

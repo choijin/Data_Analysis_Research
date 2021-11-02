@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Collaborative: PHY-Informed Networking (PHY-IN): Rethinking Wireless Protocol Design with the Knowledge of PHY</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/16/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>190006.00</AwardTotalIntnAmount>
+<AwardAmount>190006</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Wenjing Lou</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Traditionally, there has been an isolation of responsibilities of physical layer (PHY) and higher layers of the network stack leading to severe inefficiencies in bandwidth-limited wireless networks. Remedying these inefficiencies requires rethinking and redesigning wireless protocols such that higher layers and PHY work in synergy. This project explores three schemes under the PHY-Informed Networking (PHY-IN) framework. 1) Carrier Sense Multiple Access with Collision Notification (CSMA/CN) mechanism detects and aborts collisions, breaking away from the existing collision avoidance (CSMA/CA) based schemes such as 802.11. 2) Constellation BAsed Rate (CBAR) adaptation scheme jumps to the best feasible rate suitable for a varying channel. 3) Remap scheme permutes bit-to-subcarrier assignment for a retransmission to improve the chances of its success. The PHY-IN framework has the potential to impact the landscape of future wireless networking protocols. Apart from mentoring both undergraduate and graduate students into independent researchers, this project, involving an EPSCoR university and a research lab, will also help broaden the participation and industry collaboration.</AbstractNarration>
+<MinAmdLetterDate>03/14/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>03/14/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1430033</AwardID>
+<Investigator>
+<FirstName>Romit</FirstName>
+<LastName>Roy Choudhury</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Romit Roy Choudhury</PI_FULL_NAME>
+<EmailAddress>croy@illinois.edu</EmailAddress>
+<PI_PHON>2173007577</PI_PHON>
+<NSF_ID>000492158</NSF_ID>
+<StartDate>03/14/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName/>
+<StateCode>IL</StateCode>
+<ZipCode>618207473</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~190006</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>This proposal is focussed on exploiting physical (PHY) layer capabilities</span><br /><span>towards wireless protocol design. This is not a new topic and</span><br /><span>has been advocated by several researchers in the past. However, in</span><br /><span>the absence of a suitable experimentation platform, various PHY-aware</span><br /><span>ideas have been limited to creative thought experiments or</span><br /><span>simulations. We believe that maturing software radio platforms are</span><br /><span>changing the landscape of communications system design. Protocol</span><br /><span>designers are beginning to harness PHY layer functionalities, and as a</span><br /><span>consequence, understanding the network-wide implications of PHY-aware</span><br /><span>protocols. The PHY layer community, in turn, is beginning to receive</span><br /><span>feedback on practical constraints from the networking systems</span><br /><span>community. Such a holistic approach is enabling the design,</span><br /><span>implementation, and validation of bold, unconve</span><span>ntional ideas. We intend to&nbsp;contribute in this direction.</span></p> <p>Towards this broader goal, this proposal has developed:</p> <p>(1) Channel access algorithms that operate in the frequency domain (as opposed to the time domain).</p> <p>(2) Rate selection protocols that exploit the PHY layer constellation information for provably optimal rate selection</p> <p>(3) CSMA/CN, a scheme that is the seed for full duplex communication.</p> <p>(4) Robotic wireless networks in which performance improvements are gained by physically moving the wireless devices/access points. Specifically, a home WiFi access point now moves in the scale of 10s of inches to offer substantial throughput improvement, while a quadcopter can be made to fly and operate in a way that offers better SNR to congested areas.</p> <p>&nbsp;</p><br> <p>            Last Modified: 04/28/2016<br>      Modified by: Romit&nbsp;Roy Choudhury</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This proposal is focussed on exploiting physical (PHY) layer capabilities towards wireless protocol design. This is not a new topic and has been advocated by several researchers in the past. However, in the absence of a suitable experimentation platform, various PHY-aware ideas have been limited to creative thought experiments or simulations. We believe that maturing software radio platforms are changing the landscape of communications system design. Protocol designers are beginning to harness PHY layer functionalities, and as a consequence, understanding the network-wide implications of PHY-aware protocols. The PHY layer community, in turn, is beginning to receive feedback on practical constraints from the networking systems community. Such a holistic approach is enabling the design, implementation, and validation of bold, unconventional ideas. We intend to contribute in this direction.  Towards this broader goal, this proposal has developed:  (1) Channel access algorithms that operate in the frequency domain (as opposed to the time domain).  (2) Rate selection protocols that exploit the PHY layer constellation information for provably optimal rate selection  (3) CSMA/CN, a scheme that is the seed for full duplex communication.  (4) Robotic wireless networks in which performance improvements are gained by physically moving the wireless devices/access points. Specifically, a home WiFi access point now moves in the scale of 10s of inches to offer substantial throughput improvement, while a quadcopter can be made to fly and operate in a way that offers better SNR to congested areas.          Last Modified: 04/28/2016       Submitted by: Romit Roy Choudhury]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SPX: Collaborative Research: Moving Towards Secure and Massive Parallel Computing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>68331.00</AwardTotalIntnAmount>
+<AwardAmount>68331</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern computing systems have moved beyond single-core, single-processor devices to more modern multi-core parallel processors operating in networked systems and available in warehouse-scale clouds popularized by industries and the government. This new parallel, interconnected, big-data world requires fundamental research on multiple levels from algorithms to systems and computer architecture. This project seeks to take initial steps in the study of the expansive set of algorithms and systems issues in this important research challenge by building and developing new general frameworks for massive parallel computation, often involving privacy and security, in real-life scenarios. &lt;br/&gt;&lt;br/&gt;The investigators? long-term goals include two directions.  As the first thrust of this effort, the investigators aim to design fundamental and efficient algorithms for massive parallel computations in the practical MapReduce framework, in particular by reducing the number of rounds in this framework. As the second thrust of this effort, the investigators aim to augment current parallel environments and architectures with better data structures and abstractions to develop simplified and fast implementations of fundamental algorithms such that everyone can use them in practice.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/29/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1822809</AwardID>
+<Investigator>
+<FirstName>Clifford</FirstName>
+<LastName>Stein</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Clifford S Stein</PI_FULL_NAME>
+<EmailAddress>cliff@ieor.columbia.edu</EmailAddress>
+<PI_PHON>2128545238</PI_PHON>
+<NSF_ID>000193678</NSF_ID>
+<StartDate>08/29/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Columbia University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100276902</ZipCode>
+<PhoneNumber>2128546851</PhoneNumber>
+<StreetAddress>2960 Broadway</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049179401</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049179401</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Columbia University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100276902</ZipCode>
+<StreetAddress><![CDATA[2960 Broadway]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>042Y</Code>
+<Text>PPoSS-PP of Scalable Systems</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~68331</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The scale of modern datasets requires that the computation is done in a more structured/restricted settings than on a standard single computer. One major such setting is the massive parallel computing model (MPC), which models cluster computing systems such as the influential MapReduce or many systems that followed, where a computational task is performed collaboratively by a number of machines.&nbsp; &nbsp;</p> <p>&nbsp;</p> <p>We study algorithms for massive graphs in this setting.&nbsp; The key point in designing algorithms for massive graphs is that each machine only "sees" a small fraction of the data.&nbsp; Thus, the communication between machines, an operation that is orders-of-magnitude slower than local computation, becomes the bottleneck.&nbsp; We have to design algorithms that are nothing like their sequential counterparts, and must work to minimize communication and total storage, in addition to time.</p> <p>&nbsp;</p> <p>In this work, we make significant progress on several important graph problems.&nbsp; These include</p> <p>- connectivity : figuring out if a graph is connected, that is can you reach every node from every other node</p> <p>- biconnectivity : finding components in a graph that are biconnected.&nbsp; Each pair of nodes in a biconnected component has two distinct paths between them.</p> <p>- matching:&nbsp; figuring out an optimal way to pair up nodes, or to assign entities from one set of objects to another</p> <p>- shortest paths : figuring out the path of least total distance between two points.</p> <p>&nbsp;</p> <p>For each of these problems, we advance the state of the art in MPC algorithms, and for several answer long-standing open questions about the complexity of such computations.</p> <p>&nbsp;</p> <p>The techniques introduced in the course of this work will have broader impacts thanjust the results described here.&nbsp; The techniques will be used for other related problems and also can be applied to other models.&nbsp; For example, our work on matching also has direct relevance to the streaming model of computing, and we suspect that other results will have similar broader reach.</p><br> <p>            Last Modified: 05/02/2021<br>      Modified by: Clifford&nbsp;S&nbsp;Stein</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The scale of modern datasets requires that the computation is done in a more structured/restricted settings than on a standard single computer. One major such setting is the massive parallel computing model (MPC), which models cluster computing systems such as the influential MapReduce or many systems that followed, where a computational task is performed collaboratively by a number of machines.        We study algorithms for massive graphs in this setting.  The key point in designing algorithms for massive graphs is that each machine only "sees" a small fraction of the data.  Thus, the communication between machines, an operation that is orders-of-magnitude slower than local computation, becomes the bottleneck.  We have to design algorithms that are nothing like their sequential counterparts, and must work to minimize communication and total storage, in addition to time.     In this work, we make significant progress on several important graph problems.  These include  - connectivity : figuring out if a graph is connected, that is can you reach every node from every other node  - biconnectivity : finding components in a graph that are biconnected.  Each pair of nodes in a biconnected component has two distinct paths between them.  - matching:  figuring out an optimal way to pair up nodes, or to assign entities from one set of objects to another  - shortest paths : figuring out the path of least total distance between two points.     For each of these problems, we advance the state of the art in MPC algorithms, and for several answer long-standing open questions about the complexity of such computations.     The techniques introduced in the course of this work will have broader impacts thanjust the results described here.  The techniques will be used for other related problems and also can be applied to other models.  For example, our work on matching also has direct relevance to the streaming model of computing, and we suspect that other results will have similar broader reach.       Last Modified: 05/02/2021       Submitted by: Clifford S Stein]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

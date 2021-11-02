@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TTP: Securing Python Package Management with The Update Framework (TUF)</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>180000.00</AwardTotalIntnAmount>
+<AwardAmount>212000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The insecurity of most software update systems poses a major security risk. As a result, an attacker with a minimal amount of technical knowledge can cause a huge amount of damage to a huge number of computers. This poses a potential crisis for global security, with the scientific community a particularly likely victim.  The scientific community possesses computational resources that are particularly attractive to hackers. The high speed networks and computation available to scientists would make an excellent platform for sending SPAM, flooding major sites with traffic to knock them off the Internet (DDOS), or even launching cyber-warfare attacks against US targets.&lt;br/&gt;&lt;br/&gt;TUF (The Update Framework) is a tool, developed in prior research by the PI, to secure their new or existing software update systems. Software update systems are vulnerable to many known attacks, including those that can result in clients being compromised or crashed. TUF helps solve this problem by providing a flexible security framework that can be added to software updaters. This project will transition our TUF tool into practical use for secure package management.   The added security will be completely  invisible to users unless an attack is underway, silently preventing malicious package manager attacks from being effective.  TUF provides unique capabilities for secure key revocation, private security update retrieval, and  offline/online hybrid role protections.   This work will protect millions of government systems, military servers, scientists, and average internet users from attack.</AbstractNarration>
+<MinAmdLetterDate>08/19/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/08/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1345049</AwardID>
+<Investigator>
+<FirstName>Justin</FirstName>
+<LastName>Cappos</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME>Dr.</PI_SUFX_NAME>
+<PI_FULL_NAME>Justin Cappos</PI_FULL_NAME>
+<EmailAddress>jcappos@nyu.edu</EmailAddress>
+<PI_PHON>7182603550</PI_PHON>
+<NSF_ID>000600621</NSF_ID>
+<StartDate>08/19/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Polytechnic University of New York]]></Name>
+<CityName>Brooklyn</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>112013846</ZipCode>
+<StreetAddress><![CDATA[2 Metrotech Center]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~180000</FUND_OBLG>
+<FUND_OBLG>2014~32000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project focused on improving the security of software update infrastructures at popular open source projects. &nbsp;Our TUF project is the only security framework for software updaters in use today that remains secure even when the software repository is compromised. &nbsp;</p> <p>In this work, we integrated the TUF project with several large open source projects. &nbsp;First, TUF is now included in production with Docker (starting with version 1.8) and secures images downloaded through DockerHub, the main image repository. &nbsp;Docker used by many large companies such as eBay, Spotify, Yep, Paypal, Uber, BBC, Lyft, Orbitz, and others. &nbsp;TUF has also been integrated and used in production by other popular projects like Flynn and LEAP. &nbsp;</p> <p>TUF is in the process of being integrated by many other projects, including several of the most popular programming languages. &nbsp;TUF has been standarized by Python (through PEPs 458 and 480) and is scheduled to be included in Warehouse, the upcoming central Python repository. &nbsp;There are also in progress integrations of TUF for Ruby, Haskell, Go, OCaml, CoreOS, and Rust.</p> <p>The result of these integrations is that these projects are much safer in the face of an attack. &nbsp;Whereas in the past an attacker who compromised a repository could compromise millions of devices, TUF prevents this. &nbsp;This work demonstrates the practicality and usefulness of TUF, which we hope encourages other groups to adopt and benefit from its security protections.</p><br> <p>            Last Modified: 10/26/2015<br>      Modified by: Justin&nbsp;Cappos</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project focused on improving the security of software update infrastructures at popular open source projects.  Our TUF project is the only security framework for software updaters in use today that remains secure even when the software repository is compromised.    In this work, we integrated the TUF project with several large open source projects.  First, TUF is now included in production with Docker (starting with version 1.8) and secures images downloaded through DockerHub, the main image repository.  Docker used by many large companies such as eBay, Spotify, Yep, Paypal, Uber, BBC, Lyft, Orbitz, and others.  TUF has also been integrated and used in production by other popular projects like Flynn and LEAP.    TUF is in the process of being integrated by many other projects, including several of the most popular programming languages.  TUF has been standarized by Python (through PEPs 458 and 480) and is scheduled to be included in Warehouse, the upcoming central Python repository.  There are also in progress integrations of TUF for Ruby, Haskell, Go, OCaml, CoreOS, and Rust.  The result of these integrations is that these projects are much safer in the face of an attack.  Whereas in the past an attacker who compromised a repository could compromise millions of devices, TUF prevents this.  This work demonstrates the practicality and usefulness of TUF, which we hope encourages other groups to adopt and benefit from its security protections.       Last Modified: 10/26/2015       Submitted by: Justin Cappos]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

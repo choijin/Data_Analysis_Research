@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Medium: Collaborative Research:  Chorus: Dynamic Isolation in Shared-Memory Parallelism</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>513492.00</AwardTotalIntnAmount>
+<AwardAmount>653918</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Expressing parallel computations over complex shared-memory data structures has always been a vexing issue in parallel programming. On one hand, popular task-based programming models do not provide first-class abstractions for isolation and locality. On the other, Actor-based programming naturally captures locality but is unsuitable for computations on large shared data structures. The present project partially bridges the gap between these two styles of parallelism through Chorus, a new programming model for parallel computations over unstructured, continually changing shared-memory data structures. &lt;br/&gt;&lt;br/&gt;The key abstraction of Chorus is an object assembly: a local, isolated region in the heap equipped with a thread of control. Assemblies can imperatively modify themselves, merge with other assemblies, and split into smaller assemblies?through these operations over assemblies, Chorus captures unpredictable, dynamic changes to parallelism. This makes Chorus an ideal programming model for many irregular data-parallel applications (e.g., meshing, clustering), which exhibit fine-grained data-parallelism in typical executions but no parallelism in the worst case, and whose parallelization remains an open and difficult challenge. &lt;br/&gt;&lt;br/&gt;The predicted outcomes of the project include new insights into the semantic foundations of Chorus and new language constructs integrating Chorus with existing abstractions for asynchronous task creation, directed synchronization, and locality. On the system-building end, the project will integrate Chorus with the Habanero Java parallel programming language, and implement a compiler and runtime for the resultant language. The performance and programmability of this language will be thoroughly evaluated using benchmarks largely consisting of emerging irregular workloads.</AbstractNarration>
+<MinAmdLetterDate>05/26/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/12/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0964520</AwardID>
+<Investigator>
+<FirstName>Vivek</FirstName>
+<LastName>Sarkar</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vivek Sarkar</PI_FULL_NAME>
+<EmailAddress>vsarkar@rice.edu</EmailAddress>
+<PI_PHON>7133485304</PI_PHON>
+<NSF_ID>000334688</NSF_ID>
+<StartDate>05/26/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>William Marsh Rice University</Name>
+<CityName>Houston</CityName>
+<ZipCode>770051827</ZipCode>
+<PhoneNumber>7133484820</PhoneNumber>
+<StreetAddress>6100 MAIN ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>050299031</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WILLIAM MARSH RICE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>050299031</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[William Marsh Rice University]]></Name>
+<CityName>Houston</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>770051827</ZipCode>
+<StreetAddress><![CDATA[6100 MAIN ST]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7329</Code>
+<Text>COMPILERS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>L514</Code>
+<Text/>
+</ProgramElement>
+<ProgramElement>
+<Code>M532</Code>
+<Text/>
+</ProgramElement>
+<ProgramReference>
+<Code>7329</Code>
+<Text>COMPILERS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~385119</FUND_OBLG>
+<FUND_OBLG>2012~51420</FUND_OBLG>
+<FUND_OBLG>2013~217379</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>On the scientific front, the intellectual merit outcomes of our project include:</p> <p><br />1) The creation of delegated isolation as a productive parallel programming model for irregular applications that supports isolation in the presence of arbitrarily nested task creation. &nbsp;This result, embodied in the Aida [OOPSLA-11] and Otello [OOPSLA-13] systems, advances the state of the art for dynamic task parallelism with mutual exclusion, along both programmability (relative to past work on lock-based synchronization) and concurrency (relative to past work on transactional memory) dimensions.</p> <p><br />2) The introduction of a composable object-based isolation programming construct [EuroPar-2015a], which relies on programmer annotations to guarantee isolation combined with deadlock freedom, without incurring the logging and rollback overheads of transactional memory and delegated isolation systems.</p> <p><br />3) Four fundamental advances to work-stealing runtime schedulers: a) support for delegated isolation so as to guarantee livelock freedom (unlike transactional memory runtimes), b) support for general synchronization constructs including futures and barriers [ECOOP-2014], c) support for speculative parallel tasks that are well suited for parallel search and optimization applications [ECOOP-2015], support for priorities in dynamic task scheduling [EuroPar-2015b], d) and support for simultaneous scheduling of "elastic" tasks with internal SPMD parallelism [EuroPar-2015c].</p> <p><br />4) The development of a novel approach for test-driven repair of data races in structured parallel programs based on a unique coupling between static and dynamic analyses [PLDI-2014]. &nbsp;This capability can help programmers determine where synchronizations shoudl be inserted to guarantee data-race freedom while still minimizing the loss of parallelism. &nbsp;Empirical results on standard benchmarks and student homework submissions from a parallel computing course establish the effectiveness of our approach with respect to compile-time overhead, precision, and performance of the repaired code.</p> <p><br />In addition, the broader impacts of our project include:</p> <p><br />1) Training and professional development of research staff. &nbsp;This project supported the professional development of three doctoral students (Shams Imam, Raghavan Raman, Rishi Surendran) and one postdoctoral researcher Edwin Westbrook. &nbsp;The training that they received in the fundamentals of parallel and concurrent programs, helped Imam, Raman, and Westbrook obtain positions at Two Sigma, Oracle Labs, and Kestrel Institute respectively. &nbsp;Surendran is expected to complete his PhD in 2016. &nbsp;In general, this research has served as a vital training ground in Parallel Software for multiple members of the Habanero group at Rice who were exposed to this research and use Habanero-Java in their research. As a result of this training, one Rice undergraduate student, Yunming Zhang, went on to complete a thesis-based MS degree during 2013-2014, has joined MIT graduate program for a PhD in Fall 2014. Further, four students were able to obtain research internships in 2014 --- Kumud Bhandari at HP Labs, Deepak Majeti at AMD, Drago? Sb&icirc;rlea at Google, Rishi Surendran at Intel, Nick Vrvilo at Intel.&nbsp;</p> <p><br />2) Pedagogy and mentoring of undergraduate students. &nbsp;Development of a sophomore-level undergraduate course at Rice University on &ldquo;Fundamentals of Parallel Programming&rdquo; (COMP 322) taught by Prof. Sarkar. The enrollment in Spring 2015 was 86 students, and six undergraduate students (including two women) who took this course in Spring 2015 completed summer research internships in the summer of 2015 in the Habanero group at Rice University. We also gave summer research internships to three students who completed their freshmen year (rising sophomores), and two of thos...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ On the scientific front, the intellectual merit outcomes of our project include:   1) The creation of delegated isolation as a productive parallel programming model for irregular applications that supports isolation in the presence of arbitrarily nested task creation.  This result, embodied in the Aida [OOPSLA-11] and Otello [OOPSLA-13] systems, advances the state of the art for dynamic task parallelism with mutual exclusion, along both programmability (relative to past work on lock-based synchronization) and concurrency (relative to past work on transactional memory) dimensions.   2) The introduction of a composable object-based isolation programming construct [EuroPar-2015a], which relies on programmer annotations to guarantee isolation combined with deadlock freedom, without incurring the logging and rollback overheads of transactional memory and delegated isolation systems.   3) Four fundamental advances to work-stealing runtime schedulers: a) support for delegated isolation so as to guarantee livelock freedom (unlike transactional memory runtimes), b) support for general synchronization constructs including futures and barriers [ECOOP-2014], c) support for speculative parallel tasks that are well suited for parallel search and optimization applications [ECOOP-2015], support for priorities in dynamic task scheduling [EuroPar-2015b], d) and support for simultaneous scheduling of "elastic" tasks with internal SPMD parallelism [EuroPar-2015c].   4) The development of a novel approach for test-driven repair of data races in structured parallel programs based on a unique coupling between static and dynamic analyses [PLDI-2014].  This capability can help programmers determine where synchronizations shoudl be inserted to guarantee data-race freedom while still minimizing the loss of parallelism.  Empirical results on standard benchmarks and student homework submissions from a parallel computing course establish the effectiveness of our approach with respect to compile-time overhead, precision, and performance of the repaired code.   In addition, the broader impacts of our project include:   1) Training and professional development of research staff.  This project supported the professional development of three doctoral students (Shams Imam, Raghavan Raman, Rishi Surendran) and one postdoctoral researcher Edwin Westbrook.  The training that they received in the fundamentals of parallel and concurrent programs, helped Imam, Raman, and Westbrook obtain positions at Two Sigma, Oracle Labs, and Kestrel Institute respectively.  Surendran is expected to complete his PhD in 2016.  In general, this research has served as a vital training ground in Parallel Software for multiple members of the Habanero group at Rice who were exposed to this research and use Habanero-Java in their research. As a result of this training, one Rice undergraduate student, Yunming Zhang, went on to complete a thesis-based MS degree during 2013-2014, has joined MIT graduate program for a PhD in Fall 2014. Further, four students were able to obtain research internships in 2014 --- Kumud Bhandari at HP Labs, Deepak Majeti at AMD, Drago? Sb&icirc;rlea at Google, Rishi Surendran at Intel, Nick Vrvilo at Intel.    2) Pedagogy and mentoring of undergraduate students.  Development of a sophomore-level undergraduate course at Rice University on "Fundamentals of Parallel Programming" (COMP 322) taught by Prof. Sarkar. The enrollment in Spring 2015 was 86 students, and six undergraduate students (including two women) who took this course in Spring 2015 completed summer research internships in the summer of 2015 in the Habanero group at Rice University. We also gave summer research internships to three students who completed their freshmen year (rising sophomores), and two of those three students were women.   3) Software.  The development of Habanero-Java library [PPPJ-2014], a pure library approach to task parallelism based on Java 8 that is suitable for use in both rese...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

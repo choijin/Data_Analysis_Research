@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AitF: Mechanism Design and Machine Learning for Peer Grading</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>700000.00</AwardTotalIntnAmount>
+<AwardAmount>716000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project explores the design and analysis of peer grading technology.  A peer grading system is an online tool that collects student submissions, assigns review tasks to the students and graders, and aggregates reviews to produce assessments of both the submissions and the peer reviews.  The PIs have developed a prototype system and have collected preliminary evidence that suggests that peer review has important potential benefits:&lt;br/&gt;&lt;br/&gt;1.  Learning by reviewing: Students learn from critical assessment of other students' work.  In the PIs' prototype at Northwestern, 60% of the students reported that peer review helped them learn course material and 55% of the students reported that peer review helped them to prepare better homework solutions themselves.&lt;br/&gt;&lt;br/&gt;2.  Reduced grading staff: Peer grading reduces the grading load on course staff and allows for effective teaching with larger classes.  This is especially important currently, as interest in computer science classes increases at a faster pace than teaching resources.  In the PIs' prototype at Northwestern, the course staff graded 1/5 of the student submissions.&lt;br/&gt;&lt;br/&gt;3.  Promptness of feedback: Reduced teacher grading enables prompt feedback to students.  In the PIs' prototype at Northwestern, peer reviews were available within three days and final assessment of both the submission and peer reviews were available within five days.  Prior to introducing peer review, assessments took one to two weeks.&lt;br/&gt;&lt;br/&gt;A peer grading system is comprised of three main components:&lt;br/&gt;&lt;br/&gt;1.  The review matching algorithm determines which peers should review which submissions and which submissions should be reviewed by the teacher.&lt;br/&gt;&lt;br/&gt;2.  The submission grading algorithm aggregates the reviews of the peers and the submissions and assigns grades to the submissions.&lt;br/&gt;&lt;br/&gt;3.  The review grading algorithm compares the peer reviews with the teacher reviews and assigns grades to the peer reviews.  Without this algorithm, peers may not put effort into providing quality reviews, and the reviews will be neither accurate for grading nor beneficial for the peer.&lt;br/&gt;&lt;br/&gt;The details of these algorithms are crucial for the proper working of the peer review system.  A main research effort of this project is to identify the algorithms to use for each of these components.  The review matching algorithm affects the accuracy of the subsequent grading algorithms and the grading load of the teacher.  The submission grading algorithm determines which peer reviews are accurate and which are inaccurate and uses this understanding to assign grades to the submissions that are representative of the submission quality.  The review grading algorithm incentivizes the peers to put in sufficient effort to determine whether a submission is good or bad and it is calibrated so that good reviews and bad reviews get the appropriate review grades.  &lt;br/&gt;&lt;br/&gt;The PIs have implemented prototypes of these algorithms as part of a peer grading system that has been prototyped in Northwestern computer science classes.  However, the space of possible algorithms is large and the PIs' work on the prototype has yet to determine the algorithms that combine to give the best education outcomes.  A main focus of this project will be improving the understanding of which algorithms lead to the best education outcomes.&lt;br/&gt;&lt;br/&gt;Theoretical work in algorithms and machine learning provides a starting point for the project's study of good algorithms for peer grading systems.  A key endeavor of the project is translating and applying these theoretical algorithms to the peer grading domain.  As one example, proper scoring rules are a natural approach for grading the peer reviews.  However, test runs of the PIs' prototype implementation suggest that these rules might not be so good in practice.  Both new models and algorithms are needed in theory, and these new algorithms need to work in practice.</AbstractNarration>
+<MinAmdLetterDate>09/06/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>04/06/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1733860</AwardID>
+<Investigator>
+<FirstName>Jason</FirstName>
+<LastName>Hartline</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jason D Hartline</PI_FULL_NAME>
+<EmailAddress>hartline@eecs.northwestern.edu</EmailAddress>
+<PI_PHON>8474670280</PI_PHON>
+<NSF_ID>000500650</NSF_ID>
+<StartDate>09/06/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Douglas</FirstName>
+<LastName>Downey</LastName>
+<PI_MID_INIT>C</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Douglas C Downey</PI_FULL_NAME>
+<EmailAddress>dougd@allenai.org</EmailAddress>
+<PI_PHON>8474913710</PI_PHON>
+<NSF_ID>000534948</NSF_ID>
+<StartDate>09/06/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Eleanor</FirstName>
+<LastName>O'Rourke</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Eleanor M O'Rourke</PI_FULL_NAME>
+<EmailAddress>eorourke@northwestern.edu</EmailAddress>
+<PI_PHON>4132597352</PI_PHON>
+<NSF_ID>000741884</NSF_ID>
+<StartDate>09/06/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Northwestern University</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606114579</ZipCode>
+<PhoneNumber>3125037955</PhoneNumber>
+<StreetAddress>750 N. Lake Shore Drive</StreetAddress>
+<StreetAddress2><![CDATA[Rubloff 7th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>160079455</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTHWESTERN UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005436803</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Northwestern University]]></Name>
+<CityName>Evanston</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>602083118</ZipCode>
+<StreetAddress><![CDATA[2133 Sheridan Rd]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7239</Code>
+<Text>Algorithms in the Field</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7932</Code>
+<Text>COMPUT GAME THEORY &amp; ECON</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9102</Code>
+<Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~700000</FUND_OBLG>
+<FUND_OBLG>2018~16000</FUND_OBLG>
+</Award>
+</rootTag>

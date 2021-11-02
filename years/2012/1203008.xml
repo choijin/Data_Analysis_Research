@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Effectful Software Contracts</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>440760.00</AwardTotalIntnAmount>
+<AwardAmount>440760</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The long-term goals of this project are to bring the technology of software contracts to widely-used programming languages and, through&lt;br/&gt;the use of manifest contracts, to provide software developers with a migration path from simply-typed code to fully functional correctness.  Since computational effects are notoriously hard to reason about and&lt;br/&gt;pervade even the simplest realistic programs, the proposed research should have significant impact on programmers' ability to develop&lt;br/&gt;software that is more reliable and more secure. &lt;br/&gt;&lt;br/&gt;Contracts in software establish clear interfaces between program components.  Like contracts in the legal realm, they delineate each&lt;br/&gt;party's expectations and obligations.  Such contracts are becoming increasingly important for the regulation of modern software systems,&lt;br/&gt;providing an expressive framework for verification and error tracking.  To be effective in a software environment, contracts must have formal semantics and must be supported by a monitoring system that precisely&lt;br/&gt;tracks the flow of values as they cross interfaces.  To date, however, the formal study of contracts has mostly been limited to small&lt;br/&gt;idealized languages without computational effects, such as reading data from or writing data to a display or file, managing resources&lt;br/&gt;such as memory, and performing probabilistic or speculative computation.&lt;br/&gt;&lt;br/&gt;This research aims to extend the semantic framework of software contracts to languages with various computational effects: the&lt;br/&gt;extension is qualitative in nature and will enable the use of contracts in new application domains.  Specifically, the PIs propose&lt;br/&gt;to add support for computational effects to the two flavors of contracts studied to date: latent contracts, which are runtime checks&lt;br/&gt;not reflected in the type system, and manifest contracts, where a system of precise types records the most recent runtime check applied&lt;br/&gt;to each value.  The extension of latent contracts will be done in the context of a monadic meta language.  The extension of manifest&lt;br/&gt;contracts will make use of a variant of Hoare Type Theory to precisely record computational effects.  The PIs will also implement prototype systems and use them to present novel applications of software&lt;br/&gt;contracts.</AbstractNarration>
+<MinAmdLetterDate>10/24/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>10/24/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1203008</AwardID>
+<Investigator>
+<FirstName>Amal</FirstName>
+<LastName>Ahmed</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Amal Ahmed</PI_FULL_NAME>
+<EmailAddress>amal@ccs.neu.edu</EmailAddress>
+<PI_PHON>6173732076</PI_PHON>
+<NSF_ID>000573498</NSF_ID>
+<StartDate>10/24/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Northeastern University</Name>
+<CityName>BOSTON</CityName>
+<ZipCode>021155005</ZipCode>
+<PhoneNumber>6173733004</PhoneNumber>
+<StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+<StreetAddress2><![CDATA[177-500]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001423631</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTHEASTERN UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001423631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Northeastern University]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>021155005</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~440760</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Just like its business counterpart, a software contract is a binding agreement between a producer and a consumer. Simple examples of contracts, technically known as "first-order contracts," have long been integral to various programming languages and libraries and routinely used by software developers for debugging and ultimately for quality assurance. Such contracts are characterized by the fact that it is computationally trivial to check and enforce the contract. For example, checking that a submitted billing address matches the official address on record is an operation that can efficiently implemented and enforced. As data has become &ldquo;bigger&rdquo; and as software has become more complex, writing enforceable contracts has become a scientific subject of its own. For example, checking that a submitted tax return is valid requires a tedious calculation involving a significant amount of communication and exchange of additional information. In fact, the computation involved in enforcing the contract becomes so significant that it itself might be subject to further constraints to ensure that its effect on the underlying computation is well-understood and regulated.</p> <p><br />These concerns technically translate to a formal analysis of contracts in the presence of higher-order functions, effectful operations, large data structures, lazy languages, and even software components written in different languages. As has become apparent in the past few years,in these situations, the behavior of contract checking becomes more complex. With higher-order functions, contracts must be delayed; with large data structures, contracts must trade-off the amount of checking with the time needed for traversing the data structures; with lazy languages, contracts must be adapted so as not to force excess evaluation of delayed computations; and with multi-language systems there are few formal results.</p> <p>A first major result of our project is the development of a foundational approach for expressing complex contracts as communication patterns in an ambient system of communicating processes. The approach generalizes and subsumes previous semantic frameworks and is readily amenable to a distributed implementation.This system allows each contract to specify its own evaluation strategy, enforcement policy, and interactions with the underlying computation. The second major technical result is to leverage (statically checked) contracts and multi-language systems to tackle a challenging open problem in compiler verification described next.</p> <p>A compiler translates code written in a high-level programming language to the low-level machine code that actually runs on a processor. Compilers play a critical role in the production of our software infrastructure and as such they should be correct. Though there has been remarkable progress on formally verified compilers in recent years, almost all of these compilers suffer from a serious limitation: they are proved correct under the assumption that they will only be used to compile *whole* programs. This is an unrealistic assumption since most software systems today are comprised of *components* written in different languages compiled by different compilers to a common low-level target language.</p> <p>A key challenge when compiling components is that it is not clear how to even state the compiler correctness theorem. Stating such theorems is easy when compiling whole programs: if the high-level program H compiles to a low-level program L, then running both H and L should result in the same trace of observable events. The same sort of theorem does not make sense when we compile a component: we cannot "run" a component because it is not a complete program.</p> <p>Our project has shown how to leverage contracts and multi-language systems to verify correct compilation of *components* while formally allowing these components to be linked wit...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Just like its business counterpart, a software contract is a binding agreement between a producer and a consumer. Simple examples of contracts, technically known as "first-order contracts," have long been integral to various programming languages and libraries and routinely used by software developers for debugging and ultimately for quality assurance. Such contracts are characterized by the fact that it is computationally trivial to check and enforce the contract. For example, checking that a submitted billing address matches the official address on record is an operation that can efficiently implemented and enforced. As data has become "bigger" and as software has become more complex, writing enforceable contracts has become a scientific subject of its own. For example, checking that a submitted tax return is valid requires a tedious calculation involving a significant amount of communication and exchange of additional information. In fact, the computation involved in enforcing the contract becomes so significant that it itself might be subject to further constraints to ensure that its effect on the underlying computation is well-understood and regulated.   These concerns technically translate to a formal analysis of contracts in the presence of higher-order functions, effectful operations, large data structures, lazy languages, and even software components written in different languages. As has become apparent in the past few years,in these situations, the behavior of contract checking becomes more complex. With higher-order functions, contracts must be delayed; with large data structures, contracts must trade-off the amount of checking with the time needed for traversing the data structures; with lazy languages, contracts must be adapted so as not to force excess evaluation of delayed computations; and with multi-language systems there are few formal results.  A first major result of our project is the development of a foundational approach for expressing complex contracts as communication patterns in an ambient system of communicating processes. The approach generalizes and subsumes previous semantic frameworks and is readily amenable to a distributed implementation.This system allows each contract to specify its own evaluation strategy, enforcement policy, and interactions with the underlying computation. The second major technical result is to leverage (statically checked) contracts and multi-language systems to tackle a challenging open problem in compiler verification described next.  A compiler translates code written in a high-level programming language to the low-level machine code that actually runs on a processor. Compilers play a critical role in the production of our software infrastructure and as such they should be correct. Though there has been remarkable progress on formally verified compilers in recent years, almost all of these compilers suffer from a serious limitation: they are proved correct under the assumption that they will only be used to compile *whole* programs. This is an unrealistic assumption since most software systems today are comprised of *components* written in different languages compiled by different compilers to a common low-level target language.  A key challenge when compiling components is that it is not clear how to even state the compiler correctness theorem. Stating such theorems is easy when compiling whole programs: if the high-level program H compiles to a low-level program L, then running both H and L should result in the same trace of observable events. The same sort of theorem does not make sense when we compile a component: we cannot "run" a component because it is not a complete program.  Our project has shown how to leverage contracts and multi-language systems to verify correct compilation of *components* while formally allowing these components to be linked with low-level code of arbitrary provenance. The essential intuition is that compiler correctness should guarant...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

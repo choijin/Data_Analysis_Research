@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Spectral Entropy and Adaptive, Lossy Source Coding</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>03/15/2001</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2002</AwardExpirationDate>
+<AwardTotalIntnAmount>339033.00</AwardTotalIntnAmount>
+<AwardAmount>228079</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010700</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Julia Abrahams</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration> The efficient digital representation of voice, still images, high quality audio, and video, called lossy source compression, has a host of commercial applications today.  These applications include digital cellular telephones, MP3 players, DVDs, HDTV, videoconferencing, Internet telephony, and the transmission/storage of still images.  The best approaches to source compression in these applications are adaptive in nature and are based upon a technique called nonlinear approximation.  However, these compression methods have been designed primarily based on experiments without any guiding theory.  This research investigates a new approach to adaptive lossy source compression based upon a mathematical quantity called the spectral entropy.  This new approach to source compression, denoted as the SpEnt (spectral entropy) method, offers a fundamentally sound approach to adaptive source compression that has been missing heretofore.  This work develops SpEnt-based lossy compression methods for speech, video, and still images that should find applications in many commercial products.&lt;br/&gt;&lt;br/&gt;The most successful methods for lossy source compression today are sample-function adaptive coders (also called input-by-input adaptive or realization-adaptive).  In sample function adaptive coders, not only might the number of parameters transmitted in each block or frame vary from block-to-block (frame-to-frame), but for a given number of transmitted parameters, which parameters are transmitted in each block may vary.  For such coders with a fixed set of basis functions, it is usually said that the coefficients corresponding to the best n basis functions are sent, rather than the first n, and this is called nonlinear approximation in harmonic analysis.  Campbell derived the quantity that he called the coefficient rate of a random process in 1960, and he showed that the coefficient rate depends on the spectral entropy (the entropy of the power spectral density of the original process).  No coding theorems were proved and no possible implications of coefficient rate for source compression were stated.  Recent work by the PI and his students produced two new derivations of Campbell's coefficient rate.  One derivation allows coefficient rate to be interpreted with respect to a quantity called the effective bandwidth of the process.  The other derivation reveals a new approach to source compression based upon coefficient rate that adapts to each realization of the source.  More specifically, by studying the dominant terms in the series expansion of the product of terms, it was shown that in a sequence of N samples of a particular coefficient, the number of coefficient samples that should be coded is proportional to the coefficient variances.  Thus, whether a particular coefficient is being coded or not is changing from block-to-block, and thus, lossy compression based upon the spectral entropy clearly falls in the class of nonlinear approximation methods.  Motivated by these results, this research formulates a new approach to lossy source compression, called the spectral entropy (SpEnt) method, and develops SpEnt based coders for lossy compression of wideband speech (50 Hz to 7 kHz), video, telephone bandwidth speech, and still images.  Further, this work examines the role of spectral entropy and Campbell's coefficient rate as fundamental quantities in adaptive coding of a sequence of source realizations.  &lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>03/12/2001</MinAmdLetterDate>
+<MaxAmdLetterDate>03/25/2002</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0087568</AwardID>
+<Investigator>
+<FirstName>Jerry</FirstName>
+<LastName>Gibson</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jerry D Gibson</PI_FULL_NAME>
+<EmailAddress>gibson@ece.ucsb.edu</EmailAddress>
+<PI_PHON>8058936187</PI_PHON>
+<NSF_ID>000370409</NSF_ID>
+<StartDate>03/12/2001</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Southern Methodist University</Name>
+<CityName>Dallas</CityName>
+<CountyName>DALLAS</CountyName>
+<ZipCode>752750302</ZipCode>
+<PhoneNumber>2147684708</PhoneNumber>
+<StreetAddress>6425 BOAZ</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX32</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001981133</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>SOUTHERN METHODIST UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001981133</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Southern Methodist University]]></Name>
+<CityName>Dallas</CityName>
+<CountyName>DALLAS</CountyName>
+<StateCode>TX</StateCode>
+<ZipCode>752750302</ZipCode>
+<StreetAddress><![CDATA[6425 BOAZ]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX32</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>4096</Code>
+<Text>COMMUNICATIONS RESEARCH</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>4720</Code>
+<Text>SIGNAL PROCESSING SYS PROGRAM</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0101</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0102</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>490100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2001~106545</FUND_OBLG>
+<FUND_OBLG>2002~0</FUND_OBLG>
+</Award>
+</rootTag>

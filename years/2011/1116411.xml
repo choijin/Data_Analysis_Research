@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Hierarchical Probabilistic Layers for Visual Recognition of Complex Objects</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Yang</SignBlockName>
+<PO_EMAI>jyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924768</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Learning visual representations remains a challenge for systems which interact with the real world and/or analyze visual information available on the web.  Significant progress has been made with simple visual features based on gradient histograms: these models work extremely well on objects that have highly textured and nearly planar patterns or parts. However, these systems suffer when faced with certain classes of real world objects that do not have discriminative locally-planar opaque texture patches, especially objects with complex photometric models. This project develops layered visual models for visual recognition, which can model these classes of phenomena.  The research team grounds the methods in a probabilistic foundation, primarily exploiting a sparse Bayesian approach to factoring observed image features into a set of component layers corresponding to an additive image formation process.  Considering both local descriptor and local feature detector variants of the model, the research team offers a new concept for interest point detection in the case of transparent objects: extrema detection in a latent-factor scale space.  This model has the potential to find invariant local detections despite transparency, and could be useful in a range of vision applications beyond pure recognition for which sparse local feature detectors have proven valuable (e.g., registration, mosaicing, SLAM).  Robotic vision systems can use this representation for enhanced recognition of everyday objects, supporting domestic and industrial applications. These representations also facilitate intelligent media processing and indexing.</AbstractNarration>
+<MinAmdLetterDate>08/05/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>06/30/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1116411</AwardID>
+<Investigator>
+<FirstName>Trevor</FirstName>
+<LastName>Darrell</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Trevor J Darrell</PI_FULL_NAME>
+<EmailAddress>trevor@eecs.berkeley.edu</EmailAddress>
+<PI_PHON>4156900822</PI_PHON>
+<NSF_ID>000175078</NSF_ID>
+<StartDate>08/05/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Berkeley]]></Name>
+<CityName>BERKELEY</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>947101749</ZipCode>
+<StreetAddress><![CDATA[Sponsored Projects Office]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~146441</FUND_OBLG>
+<FUND_OBLG>2012~303559</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Our project investigated visual representations that exploited compositional models. In the first year of this project we worked on two fronts: 1) investigating a novel form of timely object detection, which integrates planning (via reinforcement learning style methods) with visual detectors (DPM, etc.) &nbsp;and 2) developing a novel layered representation for visual learning that combines desirable features of deep learning and max-margin discriminative learning for early vision. &nbsp;In the second year of this project we investigated pooling in visual representations. Feature encoding with an overcomplete dictionary has demonstrated good performance in many applications, especially computer vision. We analyze the classification accuracy with respect to dictionary size by linking the encoding stage to kernel methods and &nbsp;sampling, and obtain useful bounds on accuracy as a function of size. &nbsp;In the third year of the project we developed innovative models for deep learned visual detectors, continuous domain adaptation, and anytime visual recognition. In the fourth year funds were spent to help extend the DeCAF CNN model to the full CAFFE CNN framework, which has had broad impact in the community. &nbsp;Strong visual models have significant application in numerous applications including HCI and biomedical applications. &nbsp;Development of advanced machine learning can provide for more effective robotics, image search engines, and scientific classifiers. &nbsp;Effective visual recognition engines could have practical value in a range of assistive devices including eldercare robots. Our results including the R-CNN method have had major impact advancing the state of the art of visual recognition, including detection, adaptation, and time-optimal execution. &nbsp;&nbsp;The CAFFE open source deep learning framework has had broad impact: it has been adopted by numerous other parties, including major corporations and small start-ups.</p><br> <p>            Last Modified: 11/12/2015<br>      Modified by: Trevor&nbsp;J&nbsp;Darrell</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2015/1116411/1116411_10119688_1447377504816_r-cnn--rgov-214x142.jpg" original="/por/images/Reports/POR/2015/1116411/1116411_10119688_1447377504816_r-cnn--rgov-800width.jpg" title="Detection method"><img src="/por/images/Reports/POR/2015/1116411/1116411_10119688_1447377504816_r-cnn--rgov-66x44.jpg" alt="Detection method"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The R-CNN Detection Method</div> <div class="imageCredit">CVPR</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Trevor&nbsp;J&nbsp;Darrell</div> <div class="imageTitle">Detection method</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Our project investigated visual representations that exploited compositional models. In the first year of this project we worked on two fronts: 1) investigating a novel form of timely object detection, which integrates planning (via reinforcement learning style methods) with visual detectors (DPM, etc.)  and 2) developing a novel layered representation for visual learning that combines desirable features of deep learning and max-margin discriminative learning for early vision.  In the second year of this project we investigated pooling in visual representations. Feature encoding with an overcomplete dictionary has demonstrated good performance in many applications, especially computer vision. We analyze the classification accuracy with respect to dictionary size by linking the encoding stage to kernel methods and  sampling, and obtain useful bounds on accuracy as a function of size.  In the third year of the project we developed innovative models for deep learned visual detectors, continuous domain adaptation, and anytime visual recognition. In the fourth year funds were spent to help extend the DeCAF CNN model to the full CAFFE CNN framework, which has had broad impact in the community.  Strong visual models have significant application in numerous applications including HCI and biomedical applications.  Development of advanced machine learning can provide for more effective robotics, image search engines, and scientific classifiers.  Effective visual recognition engines could have practical value in a range of assistive devices including eldercare robots. Our results including the R-CNN method have had major impact advancing the state of the art of visual recognition, including detection, adaptation, and time-optimal execution.   The CAFFE open source deep learning framework has had broad impact: it has been adopted by numerous other parties, including major corporations and small start-ups.       Last Modified: 11/12/2015       Submitted by: Trevor J Darrell]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

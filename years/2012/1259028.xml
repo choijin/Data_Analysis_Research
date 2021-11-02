@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: EAGER: FIESTA: A Sound Multi-Program Workload Methodology</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>134472.00</AwardTotalIntnAmount>
+<AwardAmount>134472</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Hong Jiang</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Multi-program execution, the concurrent execution of multiple independent applications, will play an important role in efficiently exploiting the potential of future multi-core systems. Researchers use multi-program workloads to evaluate proposed designs and policies for various aspects of multi-program execution. Unfortunately, the fixed workload and variable workload multi-program workload methodologies used today are unsound and lead to incorrect results. Therefore, the proposed research is aimed at investigating a new multi-program workload construction scheme, called FIESTA (Fixed Instruction with Equal STAndalone runtimes), in which application samples are chosen so that individual application have equal runtimes when executing alone. Samples are then mixed and matched to form multi-program workloads, but the same samples are used in every experiment. The research will investigate two issues related to FIESTA: Generation of application samples and Extension to multi-threaded environments. FIESTA workloads should produce results that are internally consistent and plausible.&lt;br/&gt;&lt;br/&gt;Computer architecture research surges when new tools, benchmarks, and methodologies are introduced and distributed. The quality and depth of single-program experimental evaluation improved when efficient sampling and simulation techniques like SimPoints were introduced. FIESTA should provide the same impetus for multi-program execution research and education, while becoming the standard methodology for sampling both single-threaded and multi-threaded programs.</AbstractNarration>
+<MinAmdLetterDate>09/10/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>09/10/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1259028</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Sorin</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel Sorin</PI_FULL_NAME>
+<EmailAddress>sorin@ee.duke.edu</EmailAddress>
+<PI_PHON>9196843030</PI_PHON>
+<NSF_ID>000280417</NSF_ID>
+<StartDate>09/10/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Duke University</Name>
+<CityName>Durham</CityName>
+<ZipCode>277054010</ZipCode>
+<PhoneNumber>9196843030</PhoneNumber>
+<StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+<StreetAddress2><![CDATA[Erwin Square]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>044387793</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>DUKE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>044387793</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Duke University]]></Name>
+<CityName>Durham</CityName>
+<StateCode>NC</StateCode>
+<ZipCode>277054010</ZipCode>
+<StreetAddress><![CDATA[2200 W. Main St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~134472</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project focuses on how to experimentally evaluate computer<br />systems.&nbsp; When a system has multiple processor cores, it often runs<br />what is known as a "multiprogrammed workload", in which each core runs<br />a different software program.&nbsp; Because multiprogrammed workloads are<br />typical use cases for systems, computer system designers seek to<br />develop software benchmarks that are representative of how typical<br />multiprogrammed workloads behave.&nbsp; <br /><br />The challenge is that, unlike with single-program benchmarks where a<br />single benchmark program simply runs on just a single core, many new<br />issues arise when creating multiprogrammed benchmarks.&nbsp; Consider even<br />the simple case of two benchmark programs, A and B, where A runs<br />longer than B.&nbsp; Do we consider the performance of the system once B<br />has finished and A is still running?&nbsp; More complicated issues also<br />arise for multiprogrammed workloads in which a large number of<br />programs are run; for example, if there are more programs than cores,<br />how do we choose which program to assign to a newly idle core?<br />Furthermore, all of these problems are exacerbated when we consider<br />sampling of benchmark programs.&nbsp; There are vastly more variables to<br />consider when constructing a multiprogrammed benchmark, and we must do<br />so in a way that enables fair comparisons between different systems.<br /><br />The original goal of this project was to develop a methodology that<br />overcomes what is known as "load imbalance," i.e., the situation in<br />which benchmark programs run for different lengths of time.&nbsp; In<br />exploring this issue, we discovered that the problem was far broader.<br />Our discoveries led us to eventually deteremine that the more<br />important problem to solve was how to precisely and unambiguously<br />specify multiprogrammed benchmarks that enable fair comparisons across<br />systems.&nbsp; We developed a methodology for specifying multiprogrammed<br />benchmarks, and we further classified multiprogrammed benchmark<br />classes based on what kind of use model they correspond to (e.g.,<br />datacenter or desktop).</p><br> <p>            Last Modified: 01/01/2014<br>      Modified by: Daniel&nbsp;Sorin</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project focuses on how to experimentally evaluate computer systems.  When a system has multiple processor cores, it often runs what is known as a "multiprogrammed workload", in which each core runs a different software program.  Because multiprogrammed workloads are typical use cases for systems, computer system designers seek to develop software benchmarks that are representative of how typical multiprogrammed workloads behave.    The challenge is that, unlike with single-program benchmarks where a single benchmark program simply runs on just a single core, many new issues arise when creating multiprogrammed benchmarks.  Consider even the simple case of two benchmark programs, A and B, where A runs longer than B.  Do we consider the performance of the system once B has finished and A is still running?  More complicated issues also arise for multiprogrammed workloads in which a large number of programs are run; for example, if there are more programs than cores, how do we choose which program to assign to a newly idle core? Furthermore, all of these problems are exacerbated when we consider sampling of benchmark programs.  There are vastly more variables to consider when constructing a multiprogrammed benchmark, and we must do so in a way that enables fair comparisons between different systems.  The original goal of this project was to develop a methodology that overcomes what is known as "load imbalance," i.e., the situation in which benchmark programs run for different lengths of time.  In exploring this issue, we discovered that the problem was far broader. Our discoveries led us to eventually deteremine that the more important problem to solve was how to precisely and unambiguously specify multiprogrammed benchmarks that enable fair comparisons across systems.  We developed a methodology for specifying multiprogrammed benchmarks, and we further classified multiprogrammed benchmark classes based on what kind of use model they correspond to (e.g., datacenter or desktop).       Last Modified: 01/01/2014       Submitted by: Daniel Sorin]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

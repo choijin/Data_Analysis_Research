@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: FMitF: Track I: Game Theoretic Updates for Network and Cloud Functions</AwardTitle>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>355000.00</AwardTotalIntnAmount>
+<AwardAmount>355000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Updates are common in cloud-computing networks, and they occur for many reasons. Some network updates are planned while others are unplanned and automated. Since network updates can take seconds or minutes to complete, and cloud-computing networks must be "always on", updates must be efficient and transparent. Researchers have proposed various abstractions for network updating that leverage advances in formal methods to synthesize update plans and protocols, ensuring that the system remains well-behaved during an ongoing update. However, despite several high-profile cases of network updates gone wrong, operators continue to use relatively naive approaches. We investigate key shortcomings of prior work on update abstractions that limit their utility and widespread use in practice, and develop a new abstraction that addresses the heterogeneity, scale, and dynamic nature of real-world updates. The project's novelties are (1) a new game-theoretic foundation for network updates, (2) algorithms for synthesizing update controllers that are robust to failures and changing conditions during the update, (3) algorithms for explaining update failures, (4) a language design that allows synthesized controllers to be safely modified, and (5) implementations and evaluations of these mechanisms for virtual network functions and serverless-computing platforms. The project provides network operators with tools that make updates to networked systems easier, safer, and more reliable, and develops a framework that makes datacenter computing more reliable and secure.&lt;br/&gt;&lt;br/&gt;Some specific key shortcomings of previous work on network updates are the following. (1) They assume that the network behaves predictably during the update. However, at scale, network demands and concurrent updates can cause unpredictable or even adversarial behavior in response to the update. (2) They have limited explanatory power when an update plan cannot be found or cannot be completed. (3) They make it hard for operators to choose between alternative update plans. This project consists of a comprehensive research plan to address these shortcomings. The key technical innovation is a formulation of updates as the search for a winning strategy in a two-player game, between the operator (or control plane) and the network. This formulation allows a uniform modeling of key elements, including hardware and software failures, variations in demand, and the addition and removal of network elements. To produce updates that are robust to changing conditions and failures, this work uses program-synthesis techniques to automatically generate an update controller that corresponds to a winning strategy in the game. To help operators when fatal errors occur, the project develops algorithms that exploit this game-theoretic formulation to explain the root cause of update failures and present alternatives. Finally, to give operators more control over updates, the investigators develop approaches for synthesizing update controllers that are interpretable and modifiable. The game-theoretic formulation is applicable to several kinds of networked systems, and the project will instantiate and evaluate our tools for platforms that implement virtual network functions and serverless functions.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/18/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>06/18/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>2018910</AwardID>
+<Investigator>
+<FirstName>Jedidiah</FirstName>
+<LastName>McClurg</LastName>
+<EmailAddress>mcclurg@mines.edu</EmailAddress>
+<StartDate>06/18/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Colorado School of Mines</Name>
+<CityName>Golden</CityName>
+<ZipCode>804011887</ZipCode>
+<PhoneNumber>3032733000</PhoneNumber>
+<StreetAddress>1500 Illinois</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+</Institution>
+<ProgramElement>
+<Code>094Y</Code>
+<Text>FMitF: Formal Methods in the F</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>071Z</Code>
+<Text>FMitF-Formal Methods in the Field</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+</Award>
+</rootTag>

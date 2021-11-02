@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SPX: Automatically Parallelizing Approximate Data Analysis with Mergeable Summaries</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>614203.00</AwardTotalIntnAmount>
+<AwardAmount>614203</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>A. Funda Ergun</SignBlockName>
+<PO_EMAI>fergun@nsf.gov</PO_EMAI>
+<PO_PHON>7032922216</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>When analyzing massive data sets, generating exact answers to even very basic queries can require huge amounts of compute resources (memory, compute time, and network communication). Fortunately, in many settings, approximate answers suffice. Nevertheless, designing algorithms that operate efficiently at large scale remains a significant challenge. This project studies highly efficient, highly accurate, and highly scalable algorithms for approximate query processing. The key ingredient enabling such efficiency is streaming algorithms that generate mergeable summaries. Streaming algorithms in general compute a small summary of the data, from which it is possible to derive accurate (though approximate) answers to queries. When these summaries are also mergeable, one can process many data sets independently and combine their summaries to answer queries about their combinations (union, intersection, etc). Mergeable summaries enable massive data sets to be processed in highly scalable ways by distributing the data across machines, summarizing each partition, and seamlessly combining the results.&lt;br/&gt;&lt;br/&gt;This project will develop mergeable summaries for a variety of fundamental problems for which no practical mergeable summary is known (such as entropy approximation and unsupervised-learning tasks including k-means clustering and logistic regression). For other commonly-used problems, such as estimating the number of distinct items in a data stream, the project will substantially improve upon known, already practical, mergeable summaries. This project is tightly entwined with the development of the Data Sketches library, an open-source library of production-quality implementations of mergeable summaries that is widely used in industry and government.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/18/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/18/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1918989</AwardID>
+<Investigator>
+<FirstName>Ophir</FirstName>
+<LastName>Frieder</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ophir Frieder</PI_FULL_NAME>
+<EmailAddress>of22@georgetown.edu</EmailAddress>
+<PI_PHON>2026872165</PI_PHON>
+<NSF_ID>000157666</NSF_ID>
+<StartDate>07/18/2019</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jeremy</FirstName>
+<LastName>Fineman</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jeremy T Fineman</PI_FULL_NAME>
+<EmailAddress>jfineman@cs.georgetown.edu</EmailAddress>
+<PI_PHON>2026875141</PI_PHON>
+<NSF_ID>000610554</NSF_ID>
+<StartDate>07/18/2019</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Justin</FirstName>
+<LastName>Thaler</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Justin Thaler</PI_FULL_NAME>
+<EmailAddress>jt1157@georgetown.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000747316</NSF_ID>
+<StartDate>07/18/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgetown University</Name>
+<CityName>Washington</CityName>
+<ZipCode>200571789</ZipCode>
+<PhoneNumber>2026250100</PhoneNumber>
+<StreetAddress>37th &amp; O St N W</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>District of Columbia</StateName>
+<StateCode>DC</StateCode>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>DC00</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049515844</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGETOWN UNIVERSITY (THE)</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049515844</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgetown University]]></Name>
+<CityName>Washington</CityName>
+<StateCode>DC</StateCode>
+<ZipCode>200571789</ZipCode>
+<StreetAddress><![CDATA[37 & O St NW]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>District of Columbia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>DC00</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>042Y</Code>
+<Text>PPoSS-PP of Scalable Systems</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~614203</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NRI: Collaborative Research: Learning Deep Sensorimotor Policies for Shared Autonomy</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>453379.00</AwardTotalIntnAmount>
+<AwardAmount>453379</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Roger Mailler</SignBlockName>
+<PO_EMAI>rmailler@nsf.gov</PO_EMAI>
+<PO_PHON>7032927982</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Assistive robots have the potential to transform the lives of persons with upper extremity disabilities, by helping them perform basic daily activities, such as manipulating objects and feeding. However, human control of assistive robots presents substantial challenges. The high dimensionality of robotic arms means that joystick-like interfaces are unnatural hard to use intuitively, and motions resulting from direct teleoperation are often slow, imprecise, and severely limited in their dexterity. This research address these challenges by developing learning algorithms for shared autonomy, where the robot anticipates the user's intent and provides a degree of assistive autonomy to ensure fluid and successful motions. This research will also pave the way for future research that can bootstrap from teleoperation and build towards full robot autonomy. &lt;br/&gt;&lt;br/&gt;The research proposes a hierarchical and multi-phased approach to shared autonomy, using techniques from deep learning and reinforcement learning. The system begins by using deep inverse reinforcement learning to quickly ascertain the user's high-level goal, such as whether the user wants to grasp a particular object or operate an appliance, from raw sensory inputs. This goal inference layer supplies objectives to the lower control layer, which consists of deep neural network control policies that can directly process raw sensory input about the environment and the user to make decisions. These policies choose low-level controls to satisfy the high-level objective while minimizing disagreement with the user's commands. The algorithms will be deployed and tested on a wheelchair-mounted robot arm with the potential to assist users with upper extremity disabilities to perform activities of daily living.</AbstractNarration>
+<MinAmdLetterDate>09/15/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>09/15/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1748582</AwardID>
+<Investigator>
+<FirstName>Siddhartha</FirstName>
+<LastName>Srinivasa</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Siddhartha Srinivasa</PI_FULL_NAME>
+<EmailAddress>siddhartha.srinivasa@gmail.com</EmailAddress>
+<PI_PHON>4129739615</PI_PHON>
+<NSF_ID>000557185</NSF_ID>
+<StartDate>09/15/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981950001</ZipCode>
+<StreetAddress><![CDATA[4333 Brooklyn Ave NE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8013</Code>
+<Text>NRI-National Robotics Initiati</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8086</Code>
+<Text>Natl Robotics Initiative (NRI)</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~453379</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-4a76ce2f-7fff-a4c7-94ac-96bc4dca2df0"> <p dir="ltr"><span>Robotic control in unstructured environments is still dominated by teleoperation where a human operator controls a robot remotely, despite the challenges of lack of contextual information. This work addressed these challenges by developing learning algorithms for shared autonomy where the robot actively assists the human operator to perform a variety of tasks.</span></p> <br /> <p dir="ltr"><span>First, we explored how a robot can infer high-level goals from complex sensory inputs. Using multimodal sensory signals such as eye gaze, visual, auditory, and haptic signals etc. our goal was to infer high-level goals for various day-to-day tasks as well as human-robot shared autonomy tasks. Through human-subject studies, we found that eye-gaze is a meaningful signal during human-robot shared manipulation tasks and can inform the design of strategies for task recognition and assistance. We then delved deep into the assistive feeding application and found that humans use visual, auditory, and/or haptic cues to manipulate food items and interact with humans. Using this result, we developed algorithms that use multimodal signals to infer high-level strategies for human-robot interaction during assistive feeding with food items of varying characteristics including previously unseen food items.&nbsp;&nbsp;</span></p> <br /> <p dir="ltr"><span>Second, we explored if we can estimate the confidence of a shared autonomy policy and analyzed how to leverage this confidence to effectively learn shared autonomy from a user&rsquo;s actions. The key idea was that an assistive policy should only intervene when there is cause to believe that this intervention will be helpful. Our goal was to evaluate a variety of design choices for probabilistic models that can estimate the confidence of the policy in a given situation and allow the learned policy to choose actions that maximize human-robot shared team performance over long term. We modeled human trust as a latent variable in a partially observable Markov decision process (POMDP). Our POMDP model contains two key components: (i) a trust dynamics model, which captures the evolution of human trust in the robot, and (ii) a human decision model, which connects trust with human actions. Our POMDP formulation can accommodate a variety of trust dynamics and human decision models. We adopted a data-driven approach and learned these models from data. We found that in a shared human-robot task, a trust-POMDP robot was able to make good decisions on whether to pick up the low risk object to increase human trust, or to go directly to the high risk object when trust is high enough. The experimental results show that the trust-POMDP policy significantly outperforms the myopic policy that ignores trust in robot decision-making.</span></p> <br /> <p dir="ltr"><span>Finally, we explored the role of autonomy during human-robot interaction for robotic assistance with a core activity of daily living, feeding. We developed autonomous control</span></p> <p dir="ltr"><span>policies for the entire feeding process which involves successful bite acquisition, appropriate bite timing, and easy bite transfer in both individual and social dining scenarios. Our human-subject studies show that an intelligent food item dependent skewering strategy improves the bite acquisition success rate and that the choice of skewering location and the fork orientation affects the ease of bite transfer significantly. By leveraging contexts from previous bite acquisition attempts, our robot was also able to learn online how to acquire previously-unseen food items by formulating the problem in the framework of contextual bandits.</span></p> <br /></span></p> <p>&nbsp;</p><br> <p>            Last Modified: 12/14/2020<br>      Modified by: Siddhartha&nbsp;Srinivasa</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  Robotic control in unstructured environments is still dominated by teleoperation where a human operator controls a robot remotely, despite the challenges of lack of contextual information. This work addressed these challenges by developing learning algorithms for shared autonomy where the robot actively assists the human operator to perform a variety of tasks.   First, we explored how a robot can infer high-level goals from complex sensory inputs. Using multimodal sensory signals such as eye gaze, visual, auditory, and haptic signals etc. our goal was to infer high-level goals for various day-to-day tasks as well as human-robot shared autonomy tasks. Through human-subject studies, we found that eye-gaze is a meaningful signal during human-robot shared manipulation tasks and can inform the design of strategies for task recognition and assistance. We then delved deep into the assistive feeding application and found that humans use visual, auditory, and/or haptic cues to manipulate food items and interact with humans. Using this result, we developed algorithms that use multimodal signals to infer high-level strategies for human-robot interaction during assistive feeding with food items of varying characteristics including previously unseen food items.     Second, we explored if we can estimate the confidence of a shared autonomy policy and analyzed how to leverage this confidence to effectively learn shared autonomy from a user’s actions. The key idea was that an assistive policy should only intervene when there is cause to believe that this intervention will be helpful. Our goal was to evaluate a variety of design choices for probabilistic models that can estimate the confidence of the policy in a given situation and allow the learned policy to choose actions that maximize human-robot shared team performance over long term. We modeled human trust as a latent variable in a partially observable Markov decision process (POMDP). Our POMDP model contains two key components: (i) a trust dynamics model, which captures the evolution of human trust in the robot, and (ii) a human decision model, which connects trust with human actions. Our POMDP formulation can accommodate a variety of trust dynamics and human decision models. We adopted a data-driven approach and learned these models from data. We found that in a shared human-robot task, a trust-POMDP robot was able to make good decisions on whether to pick up the low risk object to increase human trust, or to go directly to the high risk object when trust is high enough. The experimental results show that the trust-POMDP policy significantly outperforms the myopic policy that ignores trust in robot decision-making.   Finally, we explored the role of autonomy during human-robot interaction for robotic assistance with a core activity of daily living, feeding. We developed autonomous control policies for the entire feeding process which involves successful bite acquisition, appropriate bite timing, and easy bite transfer in both individual and social dining scenarios. Our human-subject studies show that an intelligent food item dependent skewering strategy improves the bite acquisition success rate and that the choice of skewering location and the fork orientation affects the ease of bite transfer significantly. By leveraging contexts from previous bite acquisition attempts, our robot was also able to learn online how to acquire previously-unseen food items by formulating the problem in the framework of contextual bandits.            Last Modified: 12/14/2020       Submitted by: Siddhartha Srinivasa]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

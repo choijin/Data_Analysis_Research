@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: New Techniques for Graph-TSP</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>99277.00</AwardTotalIntnAmount>
+<AwardAmount>99277</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The traveling salesperson problem (TSP) is a benchmark problem for combinatorial optimization that asks for a shortest tour that visits all the cities in a given network. The graph version where the distances arise from an underlying undirected graph captures a significant portion of the difficulty of designing good algorithms for solving this problem. This proposal will develop a consolidated understanding of the new techniques used in recent developments in the design of improved approximation algorithms for the graph-TSP problem and suggest new ones to move towards optimal performance guarantees. It will also examine carefully which of these will apply to the more general metric version of the problem, as well their relation to the well-known subtour elimination linear programming relaxation for the problem.&lt;br/&gt;&lt;br/&gt;Designing better heuristic methods for solving prototypically hard optimization problems can improve our ability to solve larger real-scale instances arising in a variety of practical applications. This project will develop methods for improving the mathematically provable quality of the heuristic solutions for the fundamental traveling salesperson problem. New methods developed by the proposal will find applications to broader classes of problems in designing fault-tolerant minimum-distance networks, and also lead to new insights in graph theory and combinatorial optimization.</AbstractNarration>
+<MinAmdLetterDate>07/16/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>07/16/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1143998</AwardID>
+<Investigator>
+<FirstName>Ramamoorthi</FirstName>
+<LastName>Ravi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ramamoorthi Ravi</PI_FULL_NAME>
+<EmailAddress>ravi@cmu.edu</EmailAddress>
+<PI_PHON>4122683694</PI_PHON>
+<NSF_ID>000110479</NSF_ID>
+<StartDate>07/16/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133890</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~99277</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project initiated new work on developing effective heuristic<br />methods for the TSP, a very important problem in optimization that<br />is known to be computationally hard to solve exactly. Solving these<br />optimization problems require tacking the combinatorial explosion<br />in the number of candidate solutions so as to pick the best, and<br />results in their computational intractability. The approximation<br />algorithm approach taken in this proposal designs algorithms that<br />run in much faster time than enumerating and scanning all<br />solutions, yet always delivers a solution whose quality has a<br />mathematically provable error ratio with respect to the best<br />possible solution. The algorithm is designed so that this<br />performance guarantee on the ratio of qualities is required to hold<br />no matter what instance is provided as input to the method.<br /><br />The traveling salesperson problem (TSP) is a benchmark problem for<br />combinatorial optimization that asks for a shortest length tour<br />that visits all the cities in a given network. In the graph version<br />that this proposal examined, the distances arise from an underlying<br />undirected graph where every link has the same length. Despite its<br />simplicity, this version captures a significant portion of the<br />difficulty of designing good algorithms for solving this problem.<br />This proposal developed a consolidated understanding of the new<br />techniques used in recent developments in the design of improved<br />approximation algorithms for the graph-TSP problem. It also<br />suggested new methods to move towards performance guarantees<br />approaching the limits of the underlying method.<br /><br />Designing better heuristic methods for solving such prototypically<br />hard optimization problems improves our ability to solve larger<br />real-scale instances arising in a variety of practical<br />manifestations of the TSP.</p><br> <p>            Last Modified: 10/30/2012<br>      Modified by: Ramamoorthi&nbsp;Ravi</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project initiated new work on developing effective heuristic methods for the TSP, a very important problem in optimization that is known to be computationally hard to solve exactly. Solving these optimization problems require tacking the combinatorial explosion in the number of candidate solutions so as to pick the best, and results in their computational intractability. The approximation algorithm approach taken in this proposal designs algorithms that run in much faster time than enumerating and scanning all solutions, yet always delivers a solution whose quality has a mathematically provable error ratio with respect to the best possible solution. The algorithm is designed so that this performance guarantee on the ratio of qualities is required to hold no matter what instance is provided as input to the method.  The traveling salesperson problem (TSP) is a benchmark problem for combinatorial optimization that asks for a shortest length tour that visits all the cities in a given network. In the graph version that this proposal examined, the distances arise from an underlying undirected graph where every link has the same length. Despite its simplicity, this version captures a significant portion of the difficulty of designing good algorithms for solving this problem. This proposal developed a consolidated understanding of the new techniques used in recent developments in the design of improved approximation algorithms for the graph-TSP problem. It also suggested new methods to move towards performance guarantees approaching the limits of the underlying method.  Designing better heuristic methods for solving such prototypically hard optimization problems improves our ability to solve larger real-scale instances arising in a variety of practical manifestations of the TSP.       Last Modified: 10/30/2012       Submitted by: Ramamoorthi Ravi]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

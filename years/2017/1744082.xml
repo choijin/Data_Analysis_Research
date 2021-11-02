@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Cross-Platform Solutions for Pruning and Accelerating Neural Network Models</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>424432.00</AwardTotalIntnAmount>
+<AwardAmount>424432</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sankar Basu</SignBlockName>
+<PO_EMAI>sabasu@nsf.gov</PO_EMAI>
+<PO_PHON>7032927843</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Deep neural networks (DNNs) have achieved remarkable success in many applications because of their powerful capability for data processing. The objective of this project is to investigate a software-hardware co-design methodology for DNN acceleration that can be applied to both traditional von Neumann and emerging neuromorphic architectures. The project fits into the general area of "brain-inspired" energy efficient computing paradigms that has been of much recent interest. The investigators are also active in various outreach and educational activities that include curricular development, engagement of minority/underrepresented students in research. Undergraduate and graduate students involved in this research will also be trained for the next-generation computer engineering and semiconductor industry workforce.&lt;br/&gt;&lt;br/&gt;From a more technical standpoint, a novel neural network sparsification process is to be explored to preserve the state-of-the-art accuracy, while establishing hardware-friendly models of neural network computations.  The result is expected to lead to a holistic methodology composed of neural network model sparsification, hardware acceleration, and an integrated software/hardware co-design.  The project also benefits big data research and industry at large by inspiring an interactive design philosophy between the design of learning algorithms and the corresponding computational platforms for system performance and scalability enhancement.</AbstractNarration>
+<MinAmdLetterDate>05/25/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>05/25/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1744082</AwardID>
+<Investigator>
+<FirstName>Hai</FirstName>
+<LastName>Li</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Hai Li</PI_FULL_NAME>
+<EmailAddress>hai.li@duke.edu</EmailAddress>
+<PI_PHON>6127039853</PI_PHON>
+<NSF_ID>000538107</NSF_ID>
+<StartDate>05/25/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Duke University</Name>
+<CityName>Durham</CityName>
+<ZipCode>277054010</ZipCode>
+<PhoneNumber>9196843030</PhoneNumber>
+<StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+<StreetAddress2><![CDATA[Erwin Square]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>044387793</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>DUKE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>044387793</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Duke University]]></Name>
+<CityName/>
+<StateCode>NC</StateCode>
+<ZipCode>277054010</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7945</Code>
+<Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8089</Code>
+<Text>Understanding the Brain/Cognitive Scienc</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8091</Code>
+<Text>BRAIN Initiative Res Support</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~424432</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp; &nbsp; &nbsp; The major goal of this project is to investigate a software-hardware co-design methodology for deep neural network (DNN) acceleration that can be applied to both traditional von Neumann and emerging neuromorphic architectures. A novel neural network sparsification process that preserves the state-of-the-art accuracy meanwhile establishes hardware-friendly models will be explored. Sparse-aware hardware acceleration techniques will also be developed to transfer the sparse models obtained at the software level to efficient executions on a large variety of platforms.</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Our research on Task-1 started with learning structured sparsity in deep neural networks. Inspired by the facts that (1) there is redundancy across filters and channels; (2) shapes of filters are usually fixed as cuboid but enabling arbitrary shapes can potentially eliminate unnecessary computation imposed by this fixation; and (3) depth of the network is critical for classification but deeper layers cannot always guarantee a lower error because of the exploding gradients and degradation problem, we propose Structured Sparsity Learning (SSL) method to directly learn a compressed structure of deep CNNs by group Lasso regularization during the training. SSL is a generic regularization to adaptively adjust multiple structures in DNN, including structures of filters, channels, and filter shapes within each layer, and structure of depth beyond the layers. Our investigation started with convolutional neural network (CNN) models. The work has been published and presented in the 13th Annual Conference on Neural Information Processing Systems in December 2016. We further extended the structural sparsity learning method to recurrent neural networks (RNNs), particularly long short-term memory (LSTM) structures. There is a vital challenge originated from recurrent units: as the basic structures interweave with each other, independently removing these structures can result in mismatch of their dimensions and then inducing invalid recurrent units. The problem does not exist in CNNs. We propose Intrinsic Sparse Structures (ISS) as groups to achieve the goal. This work has been integrated with Intel speech processing chip design for speech recognition.</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Our research on Task-2 focuses on reducing the memory bandwidth requirement on computing systems. We propose the joint regularization technique which simultaneously regulates the distribution of weights and activations. By distinguishing and leveraging the significance difference among neuron responses and connections during learning, the jointly pruned network, namely JPnet, optimizes the sparsity of activations and weights for improving execution efficiency. The derived deep sparsification of JPnet reveals more optimization space for the existing DNN accelerators dedicated for sparse matrix operations as well as memory access and storage. We thoroughly evaluate the effectiveness of joint regularization through various network models with different activation functions and on different datasets.</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Task-3 study was conducted on embedded networks as well ass distributed learning for large systems. We developed MoDNN -- a local distributed mobile computing system for DNN that can work over a Wireless Local Area Network (WLAN). We investigate the method of building a computing cluster in WLAN with multiple authorized WiFi-enabled mobile devices; and then propose two partition schemes to minimize the data delivery time between mobile devices based on various computing abilities. The work has been published and presented in the Design, Automation &amp; Test in Europe (DATE) in March 2017 and received the best paper award. Aiming at improving the communication efficiency in distributed learning, we propose TernGrad that quantizes gradients to ternary levels {-1; 0; 1}. Furthermore, we propose scaler sharing and parameter localization, which can replace parameter synchronization with a low-precision gradient pulling. The has been published in the 14th Annual Conference on Neural Information Processing Systems (NIPS), December 2017 and selected as one of 40 oral presentations among 3240 submissions.</p> <p>&nbsp;&nbsp;&nbsp;&nbsp; The proposed project makes great efforts to make the students be aware of the challenges in the future intelligent computing systems. The developed research outcomes, including the architectural level optimization methodologies, application specific acceleration, and software/hardware co-design methodologies have been seamlessly integrated into the course in ECE590-04 ? Emerging Memory and Computer Architecture and ECE590-12 ? Neuromorphic Computing. Besides the machine learning and DNN algorithms, the neural network hardware implementation is also an important component for the course. Tutorial talks have been given in other courses for senior undergraduate students and graduate students. The corresponding course materials and project information become available to the students.</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The research has been conducted in close collaboration with our industrial and military partners, such as Intel Corp. Microsoft Research Lab, and Air Force Research Lab. We envision direct transfer of our proposed techniques to industry during our whole research process. The outcomes of this research have direct impacts on future computing and data storage systems by making the research outcomes publicly accessible to those parameters. The internship or other opportunities provided by our collaborators also offer versatile training for undergraduate and graduate students as well as the ideal initial step of technology transferring.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/29/2019<br>      Modified by: Hai&nbsp;Li</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[       The major goal of this project is to investigate a software-hardware co-design methodology for deep neural network (DNN) acceleration that can be applied to both traditional von Neumann and emerging neuromorphic architectures. A novel neural network sparsification process that preserves the state-of-the-art accuracy meanwhile establishes hardware-friendly models will be explored. Sparse-aware hardware acceleration techniques will also be developed to transfer the sparse models obtained at the software level to efficient executions on a large variety of platforms.        Our research on Task-1 started with learning structured sparsity in deep neural networks. Inspired by the facts that (1) there is redundancy across filters and channels; (2) shapes of filters are usually fixed as cuboid but enabling arbitrary shapes can potentially eliminate unnecessary computation imposed by this fixation; and (3) depth of the network is critical for classification but deeper layers cannot always guarantee a lower error because of the exploding gradients and degradation problem, we propose Structured Sparsity Learning (SSL) method to directly learn a compressed structure of deep CNNs by group Lasso regularization during the training. SSL is a generic regularization to adaptively adjust multiple structures in DNN, including structures of filters, channels, and filter shapes within each layer, and structure of depth beyond the layers. Our investigation started with convolutional neural network (CNN) models. The work has been published and presented in the 13th Annual Conference on Neural Information Processing Systems in December 2016. We further extended the structural sparsity learning method to recurrent neural networks (RNNs), particularly long short-term memory (LSTM) structures. There is a vital challenge originated from recurrent units: as the basic structures interweave with each other, independently removing these structures can result in mismatch of their dimensions and then inducing invalid recurrent units. The problem does not exist in CNNs. We propose Intrinsic Sparse Structures (ISS) as groups to achieve the goal. This work has been integrated with Intel speech processing chip design for speech recognition.        Our research on Task-2 focuses on reducing the memory bandwidth requirement on computing systems. We propose the joint regularization technique which simultaneously regulates the distribution of weights and activations. By distinguishing and leveraging the significance difference among neuron responses and connections during learning, the jointly pruned network, namely JPnet, optimizes the sparsity of activations and weights for improving execution efficiency. The derived deep sparsification of JPnet reveals more optimization space for the existing DNN accelerators dedicated for sparse matrix operations as well as memory access and storage. We thoroughly evaluate the effectiveness of joint regularization through various network models with different activation functions and on different datasets.        The Task-3 study was conducted on embedded networks as well ass distributed learning for large systems. We developed MoDNN -- a local distributed mobile computing system for DNN that can work over a Wireless Local Area Network (WLAN). We investigate the method of building a computing cluster in WLAN with multiple authorized WiFi-enabled mobile devices; and then propose two partition schemes to minimize the data delivery time between mobile devices based on various computing abilities. The work has been published and presented in the Design, Automation &amp; Test in Europe (DATE) in March 2017 and received the best paper award. Aiming at improving the communication efficiency in distributed learning, we propose TernGrad that quantizes gradients to ternary levels {-1; 0; 1}. Furthermore, we propose scaler sharing and parameter localization, which can replace parameter synchronization with a low-precision gradient pulling. The has been published in the 14th Annual Conference on Neural Information Processing Systems (NIPS), December 2017 and selected as one of 40 oral presentations among 3240 submissions.       The proposed project makes great efforts to make the students be aware of the challenges in the future intelligent computing systems. The developed research outcomes, including the architectural level optimization methodologies, application specific acceleration, and software/hardware co-design methodologies have been seamlessly integrated into the course in ECE590-04 ? Emerging Memory and Computer Architecture and ECE590-12 ? Neuromorphic Computing. Besides the machine learning and DNN algorithms, the neural network hardware implementation is also an important component for the course. Tutorial talks have been given in other courses for senior undergraduate students and graduate students. The corresponding course materials and project information become available to the students.        The research has been conducted in close collaboration with our industrial and military partners, such as Intel Corp. Microsoft Research Lab, and Air Force Research Lab. We envision direct transfer of our proposed techniques to industry during our whole research process. The outcomes of this research have direct impacts on future computing and data storage systems by making the research outcomes publicly accessible to those parameters. The internship or other opportunities provided by our collaborators also offer versatile training for undergraduate and graduate students as well as the ideal initial step of technology transferring.          Last Modified: 09/29/2019       Submitted by: Hai Li]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

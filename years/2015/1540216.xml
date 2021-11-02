@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Collaborative: Secure and Efficient Data Provenance</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2014</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>110075.00</AwardTotalIntnAmount>
+<AwardAmount>110075</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Deborah Shands</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Data provenance involves determining the conditions under which information was originally generated, as well as all subsequent modifications to that information and the conditions under which those modifications were performed. As systems become increasingly distributed and organizations become reliant on cloud computing for processing their data, the need to securely manage and validate the provenance of that data becomes critical.&lt;br/&gt;&lt;br/&gt;This project develops new frameworks for evaluating secure fine-grained provenance collection and management in hosts.  The research activities examine the architectures and algorithms required to make the collection and management of trustworthy provenance feasible at scale. We provide a general architecture for collecting provenance at the kernel level and consider methods of reducing the amount of provenance generated and managed while maintaining high-fidelity provenance records.  &lt;br/&gt;&lt;br/&gt;The project introduces a number of optimizations to enable scalable and performant provenance collection, including policy-based log reduction and provenance deduplication.  The project's main scientific contributions include (1) the development of Linux Provenance Modules that provide complete provenance mediation within the Linux kernel; (2) the design of policy-reduced provenance through the use of mandatory access control policies to reduce the number of subjects and actions that are provenance-generating events to those of interest in a system; and (3) techniques for deduplication of provenance such that minimal records for commonly occurring events can be stored and later fully reconstructed.  We will demonstrate that our approach makes provenance collection practical at scale, enabling more secure and trustworthy computing environments.</AbstractNarration>
+<MinAmdLetterDate>05/18/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>05/18/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1540216</AwardID>
+<Investigator>
+<FirstName>Kevin</FirstName>
+<LastName>Butler</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kevin Butler</PI_FULL_NAME>
+<EmailAddress>butler@cise.ufl.edu</EmailAddress>
+<PI_PHON>3525620789</PI_PHON>
+<NSF_ID>000573521</NSF_ID>
+<StartDate>05/18/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Florida</Name>
+<CityName>GAINESVILLE</CityName>
+<ZipCode>326112002</ZipCode>
+<PhoneNumber>3523923516</PhoneNumber>
+<StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>FL03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>969663814</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF FLORIDA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>159621697</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Florida]]></Name>
+<CityName>GAINESVILLE</CityName>
+<StateCode>FL</StateCode>
+<ZipCode>326112002</ZipCode>
+<StreetAddress><![CDATA[1 UNIVERSITY OF FLORIDA]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>FL03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~110075</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this work is to design and develop new frameworks for evaluating secure fine-grained provenance collection and management in hosts. The research activities examine the architectures and algorithms required to make the collection and management of trustworthy provenance feasible at scale. We plan to provide a general architecture for collecting provenance at the kernel level and consider methods of reducing the amount of provenance generated and managed while maintaining high-fidelity provenance records. The goal is to demonstrate that our proposed techniques makes provenance collection practical at scale, enabling more secure and trustworthy computing environments.</p> <p>One of the main outcomes of this work was the development of the Linux Provenance Modules (LPM) framework for fine-grained provenance collection within the Linux kernel. We found important operations that we instrumented to be able to better understand the operations inside a computer, as our system allows the tracing of data as well as the lineage of that data. We have designed a complete set of LPM hooks and as a proof of concept, and integrated many other provenance systems to demonstrate its flexibility. &nbsp;Additionally, we developed a data-loss prevention application to show how provenance can improve system security.</p> <p>Collecting fine-grained provenance automatically incurs a substantial amount of storage overhead. We found that a 10-minute long kernel compilation recorded with LPM garnered almost 5 GB of data. This is clearly unsustainable in order for provenance to be manageable. Past approaches to provenance compression and even de-duplication have ignored a root cause of storage overhead, that being that many provenance events are simply&nbsp;<em>uninteresting</em>. Regular output from well-defined processes do not inform insight in the system, and there are other ways to support their security, e.g., through type enforcement. We therefore looked at the idea of using mandatory access control policies to define a&nbsp;<em>provenance wall</em>&nbsp;for the system so that only processes capturing information that we would need to track and reconstitute would be subject to provenance collection. We developed new formal mechanisms for defining the notion of selective and minimal completeness with regards to the collection of provenance, where selectively completeness represents a subgraph of a complete provenance graph defined as all nodes reachable from the nodes of interest, while a minimally complete provenance graph is a subgraph of the complete graph that has full provenance for all nodes of interest and no provenance for all remaining nodes that are not of interest. We provide guarantees about completeness in the presence of mandatory access control policies and notions of tamperproofness based on the use of such policies and a trusted computing base. Our results show that based on the application being instrumented, we can reduce provenance overheads by up to 90%. &nbsp;Additionally, we instrumented web service application workflows with provenance mechanisms allowing us to audit and better determine the root causes of remote exploits. This work can help make cloud computing safer by allowing tracing of activities within that environment.&nbsp;</p> <p>Other efforts have led to developing provenance techniques that can attest to the authenticity of HCI data. We demonstrated how garbled speech could be constructed such that it could be understood by machine speech recognition systems but not by humans. Expanding on these early results, we studied mechanisms to determine the provenance (i.e., originators) of voice commands issued to personal digital assistants (e.g., Siri and Google Now) and other devices (e.g., wearables, Amazon Echo, etc.). We showed that defenses against our "hidden voice commands" are possible; specifically, we introduce techniques based on machine learning for determining the true provenance of interpreted commands.</p> <p>We considered provenance in the context of enforcing policy within cyber-physical environments, specifically the electrical smart grid. Access control policies become more complicated when interaction of different operations cannot be detected until runtime, as is the case in these systems. To address this problem, we built a policy engine to support controlling policy based on the provenance of the request. We leverage the time, location, events, and provenance of the data to check for permissions and enforce these in a Prolog-based logic system. This mechasnim was designed as part of a system for securing the smart grid against attacks.</p> <p>The Linux Provenance Modules work and our other efforts have garnered significant attention within the provenance community, with the Hidden Voice Commands work garnering significant media attention. National laboratories are using LPM and the PIs are working with industry to transition their efforts into other areas such as securing infrastructure and the Internet of Things. This work supported a PhD thesis and other graduate student efforts. It resulted in 13 peer-reviewed publications through workshops, conferences, journal articles, and a book chapter. These effort have substantially moved the bar forward in building systems to better understand and track data through systems as well as understanding limitations of these approaches.</p><br> <p>            Last Modified: 07/12/2017<br>      Modified by: Kevin&nbsp;Butler</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this work is to design and develop new frameworks for evaluating secure fine-grained provenance collection and management in hosts. The research activities examine the architectures and algorithms required to make the collection and management of trustworthy provenance feasible at scale. We plan to provide a general architecture for collecting provenance at the kernel level and consider methods of reducing the amount of provenance generated and managed while maintaining high-fidelity provenance records. The goal is to demonstrate that our proposed techniques makes provenance collection practical at scale, enabling more secure and trustworthy computing environments.  One of the main outcomes of this work was the development of the Linux Provenance Modules (LPM) framework for fine-grained provenance collection within the Linux kernel. We found important operations that we instrumented to be able to better understand the operations inside a computer, as our system allows the tracing of data as well as the lineage of that data. We have designed a complete set of LPM hooks and as a proof of concept, and integrated many other provenance systems to demonstrate its flexibility.  Additionally, we developed a data-loss prevention application to show how provenance can improve system security.  Collecting fine-grained provenance automatically incurs a substantial amount of storage overhead. We found that a 10-minute long kernel compilation recorded with LPM garnered almost 5 GB of data. This is clearly unsustainable in order for provenance to be manageable. Past approaches to provenance compression and even de-duplication have ignored a root cause of storage overhead, that being that many provenance events are simply uninteresting. Regular output from well-defined processes do not inform insight in the system, and there are other ways to support their security, e.g., through type enforcement. We therefore looked at the idea of using mandatory access control policies to define a provenance wall for the system so that only processes capturing information that we would need to track and reconstitute would be subject to provenance collection. We developed new formal mechanisms for defining the notion of selective and minimal completeness with regards to the collection of provenance, where selectively completeness represents a subgraph of a complete provenance graph defined as all nodes reachable from the nodes of interest, while a minimally complete provenance graph is a subgraph of the complete graph that has full provenance for all nodes of interest and no provenance for all remaining nodes that are not of interest. We provide guarantees about completeness in the presence of mandatory access control policies and notions of tamperproofness based on the use of such policies and a trusted computing base. Our results show that based on the application being instrumented, we can reduce provenance overheads by up to 90%.  Additionally, we instrumented web service application workflows with provenance mechanisms allowing us to audit and better determine the root causes of remote exploits. This work can help make cloud computing safer by allowing tracing of activities within that environment.   Other efforts have led to developing provenance techniques that can attest to the authenticity of HCI data. We demonstrated how garbled speech could be constructed such that it could be understood by machine speech recognition systems but not by humans. Expanding on these early results, we studied mechanisms to determine the provenance (i.e., originators) of voice commands issued to personal digital assistants (e.g., Siri and Google Now) and other devices (e.g., wearables, Amazon Echo, etc.). We showed that defenses against our "hidden voice commands" are possible; specifically, we introduce techniques based on machine learning for determining the true provenance of interpreted commands.  We considered provenance in the context of enforcing policy within cyber-physical environments, specifically the electrical smart grid. Access control policies become more complicated when interaction of different operations cannot be detected until runtime, as is the case in these systems. To address this problem, we built a policy engine to support controlling policy based on the provenance of the request. We leverage the time, location, events, and provenance of the data to check for permissions and enforce these in a Prolog-based logic system. This mechasnim was designed as part of a system for securing the smart grid against attacks.  The Linux Provenance Modules work and our other efforts have garnered significant attention within the provenance community, with the Hidden Voice Commands work garnering significant media attention. National laboratories are using LPM and the PIs are working with industry to transition their efforts into other areas such as securing infrastructure and the Internet of Things. This work supported a PhD thesis and other graduate student efforts. It resulted in 13 peer-reviewed publications through workshops, conferences, journal articles, and a book chapter. These effort have substantially moved the bar forward in building systems to better understand and track data through systems as well as understanding limitations of these approaches.       Last Modified: 07/12/2017       Submitted by: Kevin Butler]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

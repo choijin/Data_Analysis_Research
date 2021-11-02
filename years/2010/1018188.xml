@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:  AF:  Small:  Locality with Dynamic Parallelism</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>449055.00</AwardTotalIntnAmount>
+<AwardAmount>449055</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>With the recent dominance of computers with many parallel cores, and the widespread use of large data centers, the need to supply high-level, simple and general approaches to developing parallel codes for these machines has become critical.  There are many challenges to effectively developing such parallel codes, but certainly a principle difficulty is dealing with communication costs - or when looked at from the other side, taking advantage of locality.  Unfortunately this challenge has only become more difficult on modern parallel machines that have many forms of locality - network latency and bandwidth, shared and distributed caches, partitioned memories, and secondary storage in a variety of organizations.&lt;br/&gt;&lt;br/&gt;To address this problem this project is developing an approach for programmers to understand locality in their parallel code without needing to know any details of the particular parallel machine they are using.  In the approach programmers express the full dynamic parallelism of their algorithm without describing how it is mapped onto processors, and are given a simple high-level model for analyzing locality.  The research is based on the conjecture that locality should be viewed by the programmer as a property of the algorithm or code and not the machine.  To ensure that real machines can take proper advantage of the locality analyzed in the model, the research is developing scheduling approaches that map the "algorithm locality" onto various forms of machine locality, including shared caches, distributed caches, trees of caches, and distributed memory machines. The results of the research include both theoretical bounds for such schedulers on specific machine organizations, and experimental validation on a set of benchmark applications.</AbstractNarration>
+<MinAmdLetterDate>07/28/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>06/05/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018188</AwardID>
+<Investigator>
+<FirstName>Guy</FirstName>
+<LastName>Blelloch</LastName>
+<PI_MID_INIT>E</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Guy E Blelloch</PI_FULL_NAME>
+<EmailAddress>guyb@cs.cmu.edu</EmailAddress>
+<PI_PHON>4122686245</PI_PHON>
+<NSF_ID>000196851</NSF_ID>
+<StartDate>07/28/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName>PITTSBURGH</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7934</Code>
+<Text>PARAL/DISTRIBUTED ALGORITHMS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~143425</FUND_OBLG>
+<FUND_OBLG>2011~149591</FUND_OBLG>
+<FUND_OBLG>2012~156039</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Because of the high cost of communication in parallel machines<br />locality has always played a key role in the performance of parallel<br />applications.&nbsp; However, programming for locality has proven to be very<br />difficult---having the programmer control the layout, synchronization<br />and scheduling of the computation and data to deal with locality can<br />be extremely cumbersome, dominating the time required to develop,<br />analyze, verify, maintain, and update codes.</p> <p>The outcome of the research were</p> <ol> <li>We developed cost models for easily understanding the locality in parallel algorithms without having to understand the details of any particular machine.&nbsp;&nbsp; The key model is what we call the Parallel Cache Model.&nbsp; It assigns a cost to computations described in a high-level nested parallel programming model, but captures both "spacial" and "temporal" locality.</li> <li>We developed a variety of algorithms in the model.&nbsp;&nbsp; We showed that some standard algorithms are already efficient in the model (e.g. matrix multiply) but also developed some new algorithms (e.g. a variant of sample sort).</li> <li>We developed theoretically efficient schedulers that map the high level Parallel Cache model onto a variety of parallel machine configurations with hierarchical memory organizations.&nbsp;&nbsp; We were able to show some strong bounds on how the high-level costs map onto the low-level costs.</li> <li>We implemented a scheduler that incorporates many of the theoretical ideas and experimented with a variety of algorithms using the scheduler.&nbsp;&nbsp; Our results show that indeed the cost model does capture locality well, and that the schedulers improve performance over standard schedulers (e.g. work-stealing schedulers).</li> </ol> <p>As part of the work we published several papers on the topic, and developed a scheduler that we have made public.&nbsp;&nbsp; The work has lead to newer ongoing work on incorporating automatic memory management into the model and scheduler.</p> <p>We also developed course material on "cache efficient parallel algorithms" that has been added to a graduate course on applied algorithms.&nbsp;&nbsp; We have presented the work at a variety of venues.</p><br> <p>            Last Modified: 05/05/2014<br>      Modified by: Guy&nbsp;E&nbsp;Blelloch</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Because of the high cost of communication in parallel machines locality has always played a key role in the performance of parallel applications.  However, programming for locality has proven to be very difficult---having the programmer control the layout, synchronization and scheduling of the computation and data to deal with locality can be extremely cumbersome, dominating the time required to develop, analyze, verify, maintain, and update codes.  The outcome of the research were  We developed cost models for easily understanding the locality in parallel algorithms without having to understand the details of any particular machine.   The key model is what we call the Parallel Cache Model.  It assigns a cost to computations described in a high-level nested parallel programming model, but captures both "spacial" and "temporal" locality. We developed a variety of algorithms in the model.   We showed that some standard algorithms are already efficient in the model (e.g. matrix multiply) but also developed some new algorithms (e.g. a variant of sample sort). We developed theoretically efficient schedulers that map the high level Parallel Cache model onto a variety of parallel machine configurations with hierarchical memory organizations.   We were able to show some strong bounds on how the high-level costs map onto the low-level costs. We implemented a scheduler that incorporates many of the theoretical ideas and experimented with a variety of algorithms using the scheduler.   Our results show that indeed the cost model does capture locality well, and that the schedulers improve performance over standard schedulers (e.g. work-stealing schedulers).   As part of the work we published several papers on the topic, and developed a scheduler that we have made public.   The work has lead to newer ongoing work on incorporating automatic memory management into the model and scheduler.  We also developed course material on "cache efficient parallel algorithms" that has been added to a graduate course on applied algorithms.   We have presented the work at a variety of venues.       Last Modified: 05/05/2014       Submitted by: Guy E Blelloch]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

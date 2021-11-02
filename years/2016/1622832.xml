@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Elastic Multi-layer Memcached Tiers</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>257166.00</AwardTotalIntnAmount>
+<AwardAmount>257166</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Matt Mutka</SignBlockName>
+<PO_EMAI>mmutka@nsf.gov</PO_EMAI>
+<PO_PHON>7032927344</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Facebook and YouTube have massive databases containing many objects.&lt;br/&gt;Objects (e.g., pictures, videos) are read from these databases and presented&lt;br/&gt;to users.  These databases use slower and cheaper I/O devices.  Repeated&lt;br/&gt;database queries are also slow, so companies cache popular objects in&lt;br/&gt;volatile memory (RAM).  As RAM is about 1000x faster than I/O, queries to&lt;br/&gt;popular objects are serviced faster.  A single computer cannot efficiently&lt;br/&gt;use too much RAM, so a distributed memory caching system called "Memcached"&lt;br/&gt;is utilized.  Memcached creates a cluster of nodes, forming a key-value&lt;br/&gt;database in faster memory.&lt;br/&gt;&lt;br/&gt;Memcached's simple architecture led to its popularity, but is also its&lt;br/&gt;Achilles' heel.  When loads increase, more caching nodes are needed, but it&lt;br/&gt;is difficult to add new nodes and redistribute the cached data to more&lt;br/&gt;nodes.  Similarly, when loads reduce, it is harder to shut down some nodes&lt;br/&gt;and migrate their cached data to fewer nodes; scaling down the cluster helps&lt;br/&gt;reduce the large energy costs they consume.  Any changes to the number of&lt;br/&gt;Memcached nodes result in throwing out most cached data, leading to lengthy&lt;br/&gt;periods where the distributed caches have to be slowly re-warmed up from the&lt;br/&gt;backend database.&lt;br/&gt;&lt;br/&gt;This EArly-concept Grants for Exploratory Research (EAGER) project investigates techniques to scale Memcached clusters&lt;br/&gt;smoothly, without any transient performance degradations.  The project also&lt;br/&gt;introduces an intermediate Flash-based storage tier between the memory nodes&lt;br/&gt;and the backend database, to help reduce high latencies to the backend&lt;br/&gt;database and help the smooth scaling of the Memcached cluster.</AbstractNarration>
+<MinAmdLetterDate>05/11/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>05/11/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1622832</AwardID>
+<Investigator>
+<FirstName>Erez</FirstName>
+<LastName>Zadok</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Erez Zadok</PI_FULL_NAME>
+<EmailAddress>ezk@cs.stonybrook.edu</EmailAddress>
+<PI_PHON>6316328461</PI_PHON>
+<NSF_ID>000182603</NSF_ID>
+<StartDate>05/11/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Anshul</FirstName>
+<LastName>Gandhi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Anshul Gandhi</PI_FULL_NAME>
+<EmailAddress>anshul@cs.stonybrook.edu</EmailAddress>
+<PI_PHON>6316328475</PI_PHON>
+<NSF_ID>000651407</NSF_ID>
+<StartDate>05/11/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>SUNY at Stony Brook</Name>
+<CityName>Stony Brook</CityName>
+<ZipCode>117940001</ZipCode>
+<PhoneNumber>6316329949</PhoneNumber>
+<StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804878247</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>020657151</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[SUNY at Stony Brook]]></Name>
+<CityName>Stony Brook</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>117943362</ZipCode>
+<StreetAddress><![CDATA[WEST 5510 FRK MEL LIB]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~257166</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-cc7299c3-7fff-d12b-f56b-b1f987f26025"> </span></p> <p dir="ltr"><span>Memory caching tiers are widely employed by many online service providers, including Facebook and YouTube, to reduce latency and alleviate load at the database tier. Unfortunately, memory caching tiers are stateful and thus cannot easily be scaled dynamically in response to changes in demand due to resultant cache misses. As a result, current static Memcached deployments that face dynamic workload demand lead to significant waste in cost and power.</span><span><br /></span></p> <p dir="ltr"><span>This project developed an elastic Memcached system, ElMem. The ElMem system, publicly available on the PI's lab website, is built on top of stock Memcached, and is thus easily deployable in practice. ElMem works by intelligently moving hot cached data between nodes prior to scaling, thus enabling seamless scale-up or scale-down of cache nodes without the associated cache miss penalty. The key enabler of this mechanism is our FuseCache algorithm, that efficiently identified the subset of hot cached data to be migrated between cache nodes. FuseCache leverages the median-of-medians algorithm to achieve running time which is within a logarithmic factor of the theoretical lower bound. Our experimental evaluation results illustrated the significant (up to 30%) savings in cost and energy enabled by ElMem in cloud deployments.</span></p> <p dir="ltr"><span>We have published our system design and results in leading distributed systems and storage systems venues, and have further disseminated our results via invited talks at Universities and research labs. We integrated topics from this project into many of our graduate courses, including the energy-efficient systems graduate course. The systems component of the project provided valuable hands-on experience for the involved Ph.D. and M.S. students. Several of the students, including Masters students, presented components of the ElMem work via talks and poster presentations at conferences.</span></p> <p>&nbsp;</p><br> <p>            Last Modified: 06/08/2019<br>      Modified by: Anshul&nbsp;Gandhi</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   Memory caching tiers are widely employed by many online service providers, including Facebook and YouTube, to reduce latency and alleviate load at the database tier. Unfortunately, memory caching tiers are stateful and thus cannot easily be scaled dynamically in response to changes in demand due to resultant cache misses. As a result, current static Memcached deployments that face dynamic workload demand lead to significant waste in cost and power.  This project developed an elastic Memcached system, ElMem. The ElMem system, publicly available on the PI's lab website, is built on top of stock Memcached, and is thus easily deployable in practice. ElMem works by intelligently moving hot cached data between nodes prior to scaling, thus enabling seamless scale-up or scale-down of cache nodes without the associated cache miss penalty. The key enabler of this mechanism is our FuseCache algorithm, that efficiently identified the subset of hot cached data to be migrated between cache nodes. FuseCache leverages the median-of-medians algorithm to achieve running time which is within a logarithmic factor of the theoretical lower bound. Our experimental evaluation results illustrated the significant (up to 30%) savings in cost and energy enabled by ElMem in cloud deployments. We have published our system design and results in leading distributed systems and storage systems venues, and have further disseminated our results via invited talks at Universities and research labs. We integrated topics from this project into many of our graduate courses, including the energy-efficient systems graduate course. The systems component of the project provided valuable hands-on experience for the involved Ph.D. and M.S. students. Several of the students, including Masters students, presented components of the ElMem work via talks and poster presentations at conferences.          Last Modified: 06/08/2019       Submitted by: Anshul Gandhi]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

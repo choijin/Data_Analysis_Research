@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Locality Aware Scheduling in Multi-GPU Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>431586.00</AwardTotalIntnAmount>
+<AwardAmount>431586</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Heterogeneous multiprocessor architectures consisting of Central Processing Units (CPUs) and Graphical Processing Units (GPUs) are increasingly used to accelerate parallel workloads like High Performance Computing (HPC) and cloud computing. GPUs provide significant improvements in performance compared to traditional multi-core CPUs, and therefore, are heavily used as accelerators. Multiple GPUs are employed to further speed up the execution and improve storage capacity. Current multi-GPU architectures, such as DGX, provide ultra-high bandwidth NVLink communication to transfer the data directly between the GPUs. However, partitioning those computations and data in multi-GPUs based on various memory and communication models poses a tremendous challenge to the programmers. This project develops graph-based partitioning techniques for different applications considering data locality among the computations in the GPUs. Secondly, the current literature on heterogeneous scheduling does not consider processing inside the GPU, leaving it to the manufacturer. This project also develops a locality-based Thread Block (TB) scheduler by extending the same graph-based technique to cache block sharing.&lt;br/&gt;&lt;br/&gt;The project is carried out in several steps. First, it develops micro-benchmarks for measuring the computation and communication cost for execution in a multi-GPU architecture. A profiling tool is developed to measure the data sharing among the TBs for GPU execution. Second, an adjacency graph is designed for the multi-GPU data partition, where the vertices represent the computation, and edges represent the communication cost between the vertices. A similar graph model is also developed for data sharing inside a GPU, where vertices represent the TBs and edges represent the number of shared blocks between the TBs. Third, a recursive bi-partitioning technique is developed for the adjacency graph using known heuristics and software  to achieve load balance among the partitions and minimize the communication cost between the partitions in a multi-GPU system. TB scheduling is also proposed considering the L2 cache size and the resource limit inside a GPU. Fourth, the technique is extended to partition data and computations between CPUs and GPUs in a heterogeneous multiprocessor. Finally, two regular applications, LU decomposition and Wavefront, are analyzed, and multi-GPU scheduling is developed through real implementation using GPU architectures. Some irregular applications from the Rodinia and CUDA-SDK benchmarks are also analyzed to develop graph models and execute them on the GPGPUSim for verification of the TB scheduling inside the GPU.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/29/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/29/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1907401</AwardID>
+<Investigator>
+<FirstName>Laxmi</FirstName>
+<LastName>Bhuyan</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Laxmi N Bhuyan</PI_FULL_NAME>
+<EmailAddress>bhuyan@cs.ucr.edu</EmailAddress>
+<PI_PHON>9518272281</PI_PHON>
+<NSF_ID>000318919</NSF_ID>
+<StartDate>07/29/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA41</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName>Riverside</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress><![CDATA[Department of Computer Science a]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~431586</FUND_OBLG>
+</Award>
+</rootTag>

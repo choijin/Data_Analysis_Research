@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Elements: AMR-H: Adaptive multi-resolution high-order solver for multiphase compressible flows on heterogeneous platforms</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>600000.00</AwardTotalIntnAmount>
+<AwardAmount>600000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tevfik Kosar</SignBlockName>
+<PO_EMAI>tkosar@nsf.gov</PO_EMAI>
+<PO_PHON>7032927992</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In the past decades, computational research has enabled high-fidelity simulations of complex fluid dynamics problems. However, the new generation of high performance computing architectures present significant challenges in portability and, more importantly, parallel performance of complex science application software. This work develops a multi-purpose computational fluid dynamics solver for high-fidelity high-order adaptive resolution simulations. It leverages the state-of-the-art high performance programming models, Legion and Kokkos, which guarantees the performance portability on various existing and upcoming high performance computing platforms. Additionally, it integrates the commonly used numerical and physical modules, with an easy-to-use programming interface for users. As a significant benefit, the researchers can maintain their focus on physical modeling and not require a deep understanding of code design for new high-performance hardware. The educational and community outreach elements of the project will develop a growing community of computational scientists and engineers who are educated to exploit the power of task-level parallelism and enable a new era in high-fidelity computational science.&lt;br/&gt;&lt;br/&gt;This project develops a general computational framework combining high-order, high accuracy, solution-adaptive discretizations of partial differential equations (with emphasis on flows of non-ideal fluids) tailored to the physics they represent. The discretization is optimized for high resolving efficiency, allows optimal use of the computational degrees of freedom and high utilization of the computer resources due to its high arithmetic intensity and data locality. Adaptive mesh refinement in combination with high-order multi-resolution compact scheme allows for easy pre-processing and meshing for complex-geometry problems. Co-designing the numerical framework with new developments in the Legion framework would allow for automated, optimized runtime scheduling of tasks involving computational kernels and data movement across memory hierarchies. This, combined with efficient leveraging of Kokkos, would free the computational scientist/engineer from hardware specific programming models and allow exascale computations on heterogeneous computers. It will enable first of its kind simulations of compressible multiphase flow phenomena in turbulent flow regimes for retrograde fluids on exascale platforms.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>05/06/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>05/06/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2103509</AwardID>
+<Investigator>
+<FirstName>Alexander</FirstName>
+<LastName>Aiken</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alexander Aiken</PI_FULL_NAME>
+<EmailAddress>aiken@cs.stanford.edu</EmailAddress>
+<PI_PHON>6507253359</PI_PHON>
+<NSF_ID>000281933</NSF_ID>
+<StartDate>05/06/2021</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Sanjiva</FirstName>
+<LastName>Lele</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sanjiva K Lele</PI_FULL_NAME>
+<EmailAddress>lele@stanford.edu</EmailAddress>
+<PI_PHON>6507237721</PI_PHON>
+<NSF_ID>000156503</NSF_ID>
+<StartDate>05/06/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stanford University</Name>
+<CityName>Stanford</CityName>
+<CountyName/>
+<ZipCode>943052004</ZipCode>
+<PhoneNumber>6507232300</PhoneNumber>
+<StreetAddress>450 Jane Stanford Way</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009214214</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>LELAND STANFORD JUNIOR UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009214214</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stanford University]]></Name>
+<CityName>Stanford</CityName>
+<CountyName/>
+<StateCode>CA</StateCode>
+<ZipCode>943052004</ZipCode>
+<StreetAddress><![CDATA[450 Jane Stanford Way]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1443</Code>
+<Text>FD-Fluid Dynamics</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>1642</Code>
+<Text>Special Initiatives</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>077Z</Code>
+<Text>CSSI-1: Cyberinfr for Sustained Scientif</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>1443</Code>
+<Text>FLUID DYNAMICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~600000</FUND_OBLG>
+</Award>
+</rootTag>

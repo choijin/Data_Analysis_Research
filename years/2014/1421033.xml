@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: CC: Small: Application-Level Consistency for Cloud-Based Computing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>499753.00</AwardTotalIntnAmount>
+<AwardAmount>499753</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The Wisconsin Crash-Consistency Project (WiCC) attacks the fundamental problem of crash recovery in cloud-based applications. Current web applications are not built in a principled and robust manner, relying on ad hoc implementation techniques and arcane system details to realize correct behavior. Unfortunately, the result of  this approach can be chaotic, and, when an unfortunate event such as a system crash  or power loss arises, can lead to data loss or corruption. As data lies at the heart of  virtually every modern web service, such loss or corruption is a nuisance at best, and catastrophic at worst.&lt;br/&gt;&lt;br/&gt;The WiCC project addresses these issues in a two-pronged manner. First, WiCC provides tools to analyze current applications (and underlying file systems) and thus improves the current state of the art in crash recovery. These tools exercise the systems-under-test through novel state-space exploration techniques, constructing scenarios where a given system will not function correctly. Such feedback is critical for developers, as they can readily determine problems with the systems they are building.  Second, WiCC puts forth a new storage system, StreamFS, that presents new abstractions to ease the construction of correct cloud-based data management applications. Current system interfaces are cumbersome and error-prone; StreamFS reduces the complexity of the file system interface and thus improves the state of the art in robust system construction.</AbstractNarration>
+<MinAmdLetterDate>08/05/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/05/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421033</AwardID>
+<Investigator>
+<FirstName>Remzi</FirstName>
+<LastName>Arpaci-Dusseau</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Remzi H Arpaci-Dusseau</PI_FULL_NAME>
+<EmailAddress>remzi@cs.wisc.edu</EmailAddress>
+<PI_PHON>6082637764</PI_PHON>
+<NSF_ID>000325601</NSF_ID>
+<StartDate>08/05/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Wisconsin-Madison</Name>
+<CityName>MADISON</CityName>
+<ZipCode>537151218</ZipCode>
+<PhoneNumber>6082623822</PhoneNumber>
+<StreetAddress>21 North Park Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 6401]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<StateCode>WI</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WI02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>161202122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WISCONSIN SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041188822</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Wisconsin]]></Name>
+<CityName>Madison</CityName>
+<StateCode>WI</StateCode>
+<ZipCode>537061613</ZipCode>
+<StreetAddress><![CDATA[1210 W. Dayton St.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WI02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~499753</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Data is the engine of the information economy. As such, making sure data is safely and reliably stored within modern computer systems is critical; loss of data can cause large-scale financial harm, causes downtime and unavailability during expensive backup and restore, or, in the worst cases, leads to unrecoverable and permanent loss of valuable information.</p> <p>The research within the Application-level Consistency for Cloud-based Computing project centered around ensuring the correct and reliable construction of applications that store and manipulate data. The project focused on developing techniques to analyze existing systems, and, by applying these techniques, exposed many previously undiscovered issues in important software systems. The project also focused on the creation of new systems to better keep data safe, both on single machines and in scalable, distributed, cloud-based storage systems.&nbsp;</p> <p>The intellectual merits of the project specifically include the following research discoveries. First, the project created two new tools, called ALICE and BOB, respectively, to test local databases, key-value stores, and related systems, for crash vulnerabilities. BOB, the lower-level tool, tested Linux file systems to discover their persistence properties, i.e., the exact expectations applications can have when writing data to said file systems. Through extensive testing, BOB revealed a number of interesting peculiarities about the state of the art. Most importantly, BOB revealed that modern file systems behave quite differently from one another, which has strong implications for applications that use such file systems.</p> <p>ALICE, the higher-level tool, focused on application crash behavior, discovering unique protocols and flaws therein. In virtually every application, ALICE was able to find bugs and design flaws. One of the early contributions of this work, thus, was to feed back to developers this information, leading to many fixes in existing software.&nbsp;</p> <p>The initial ALICE/BOB work led to many relevant follow on pieces of research. One direction was the creation of an improved, easier-to-use crash-consistent file system called CCFS. CCFS provided the abstraction of ordered streams of updates, making it much easier for applications to reason about crash recovery. CCFS also introduced a number of low-level innovations which could influence future file system construction.</p> <p>Another follow on applied ALICE-like thinking in a distributed storage system setting. This work, entitled PACE, focused on crash recovery for scalable key-value engines, distributed file systems, and similar systems. PACE uncovered many problems in the state of the art, and also led to bug fixes and design changes in widely deployed systems.</p> <p>In terms of broader impacts, this project will have partially supported four graduate students throughout its lifetime, all of whom have or will receive their Ph.D. degrees. Two have already done so and have joined the U.S. workforce, as will the others, either in industry or academia. The project also contributed to the continuation of CS 402, a service-learning course in which students help teach local elementary school children about computational thinking. The project also directly contributed to material now covered in graduate classes at Wisconsin and elsewhere. Overall, this impact on human resources (both current and future) has been significant.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/27/2019<br>      Modified by: Remzi&nbsp;H&nbsp;Arpaci-Dusseau</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188975458_pic1--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188975458_pic1--rgov-800width.jpg" title="Journaling Update Protocol"><img src="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188975458_pic1--rgov-66x44.jpg" alt="Journaling Update Protocol"></a> <div class="imageCaptionContainer"> <div class="imageCaption">An example of the difficulty of creating a correct update protocol</div> <div class="imageCredit">Thanu Pillai, Ram Alagappan, Vijay Chidambaram, Lanyue Lu, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Remzi&nbsp;H&nbsp;Arpaci-Dusseau</div> <div class="imageTitle">Journaling Update Protocol</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188625871_pic5--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188625871_pic5--rgov-800width.jpg" title="BOB Persistence Properties"><img src="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188625871_pic5--rgov-66x44.jpg" alt="BOB Persistence Properties"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The persistence properties of different Linux file systems.</div> <div class="imageCredit">Thanu Pillai, Vijay Chidambaram, Ram Alagappan, Samer Al-Kiswany, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Remzi&nbsp;H&nbsp;Arpaci-Dusseau</div> <div class="imageTitle">BOB Persistence Properties</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188732954_pic4--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188732954_pic4--rgov-800width.jpg" title="PACE Analysis"><img src="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188732954_pic4--rgov-66x44.jpg" alt="PACE Analysis"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The analysis of distributed storage with PACE</div> <div class="imageCredit">Ram Alagappan, Aishwarya Ganesan, Thanu Pillai, Yuvraj Patel, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Remzi&nbsp;H&nbsp;Arpaci-Dusseau</div> <div class="imageTitle">PACE Analysis</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188792925_pic3--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188792925_pic3--rgov-800width.jpg" title="ZooKeeper Update Protocol"><img src="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188792925_pic3--rgov-66x44.jpg" alt="ZooKeeper Update Protocol"></a> <div class="imageCaptionContainer"> <div class="imageCaption">An analysis of a specific system (ZooKeeper)</div> <div class="imageCredit">Ram Alagappan, Aishwarya Ganesan, Thanu Pillai, Yuvraj Patel, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Remzi&nbsp;H&nbsp;Arpaci-Dusseau</div> <div class="imageTitle">ZooKeeper Update Protocol</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188910934_pic2--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188910934_pic2--rgov-800width.jpg" title="Crash Consistency with CCFS"><img src="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188910934_pic2--rgov-66x44.jpg" alt="Crash Consistency with CCFS"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Showing how applications can be modified to use CCFS and achieve crash robustness</div> <div class="imageCredit">Thanu Pillai, Ram Alagappan, Vijay Chidambaram, Lanyue Lu, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Remzi&nbsp;H&nbsp;Arpaci-Dusseau</div> <div class="imageTitle">Crash Consistency with CCFS</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188555098_pic6--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188555098_pic6--rgov-800width.jpg" title="ALICE Protocol Diagrams"><img src="/por/images/Reports/POR/2019/1421033/1421033_10328212_1572188555098_pic6--rgov-66x44.jpg" alt="ALICE Protocol Diagrams"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The picture shows an example of ALICE tool output.</div> <div class="imageCredit">Thanu Pillai, Vijay Chidambaram, Ram Alagappan, Samer Al-Kiswany, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Remzi&nbsp;H&nbsp;Arpaci-Dusseau</div> <div class="imageTitle">ALICE Protocol Diagrams</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Data is the engine of the information economy. As such, making sure data is safely and reliably stored within modern computer systems is critical; loss of data can cause large-scale financial harm, causes downtime and unavailability during expensive backup and restore, or, in the worst cases, leads to unrecoverable and permanent loss of valuable information.  The research within the Application-level Consistency for Cloud-based Computing project centered around ensuring the correct and reliable construction of applications that store and manipulate data. The project focused on developing techniques to analyze existing systems, and, by applying these techniques, exposed many previously undiscovered issues in important software systems. The project also focused on the creation of new systems to better keep data safe, both on single machines and in scalable, distributed, cloud-based storage systems.   The intellectual merits of the project specifically include the following research discoveries. First, the project created two new tools, called ALICE and BOB, respectively, to test local databases, key-value stores, and related systems, for crash vulnerabilities. BOB, the lower-level tool, tested Linux file systems to discover their persistence properties, i.e., the exact expectations applications can have when writing data to said file systems. Through extensive testing, BOB revealed a number of interesting peculiarities about the state of the art. Most importantly, BOB revealed that modern file systems behave quite differently from one another, which has strong implications for applications that use such file systems.  ALICE, the higher-level tool, focused on application crash behavior, discovering unique protocols and flaws therein. In virtually every application, ALICE was able to find bugs and design flaws. One of the early contributions of this work, thus, was to feed back to developers this information, leading to many fixes in existing software.   The initial ALICE/BOB work led to many relevant follow on pieces of research. One direction was the creation of an improved, easier-to-use crash-consistent file system called CCFS. CCFS provided the abstraction of ordered streams of updates, making it much easier for applications to reason about crash recovery. CCFS also introduced a number of low-level innovations which could influence future file system construction.  Another follow on applied ALICE-like thinking in a distributed storage system setting. This work, entitled PACE, focused on crash recovery for scalable key-value engines, distributed file systems, and similar systems. PACE uncovered many problems in the state of the art, and also led to bug fixes and design changes in widely deployed systems.  In terms of broader impacts, this project will have partially supported four graduate students throughout its lifetime, all of whom have or will receive their Ph.D. degrees. Two have already done so and have joined the U.S. workforce, as will the others, either in industry or academia. The project also contributed to the continuation of CS 402, a service-learning course in which students help teach local elementary school children about computational thinking. The project also directly contributed to material now covered in graduate classes at Wisconsin and elsewhere. Overall, this impact on human resources (both current and future) has been significant.          Last Modified: 10/27/2019       Submitted by: Remzi H Arpaci-Dusseau]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

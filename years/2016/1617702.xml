@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Collaborative Research: A Fast and Flexible Transport Architecture for High Speed Networks</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>249952.00</AwardTotalIntnAmount>
+<AwardAmount>249952</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern datacenter networks and private wide area networks underpin cloud computing. Today, due to the lack of flexibility, operators end up over provisioning their networks significantly to avoid performance bottlenecks. This project will make these networks more efficient and more tuned to the application's needs.  Specificallyt, this investigation explores a weighted transport abstraction as a flexible and robust substrate for systems that optimize a network's bandwidth allocation. The proposed research revisits a classic theoretical framework in this space, Network Utility Maximization (NUM), and develops a novel and practical distributed algorithm for NUM that is significantly faster than prior approaches, and is thus applicable to modern high speed networks such as datacenter fabrics. This project seeks to design and build a flexible transport architecture. &lt;br/&gt;&lt;br/&gt;The proposed architecture has two main technical components:&lt;br/&gt;&lt;br/&gt;1. Weighted Transport: Instead of using flow rates to control the bandwidth allocation, this research develops a transport based on weights.  To tune the bandwidth allocation, flows adapt a weight field in their packet headers; each link then divides its bandwidth among contending flows in proportion to their weights. &lt;br/&gt;&lt;br/&gt; 2. Fast Utility Maximization: This project leverages the weighted transport to design a network fabric that can be dynamically tuned for different bandwidth allocation objectives such as minimizing flow/coflow completion time, or service-level fairness.&lt;br/&gt;&lt;br/&gt;The PIs plan to interact closely with companies that can influence standards and build commercial systems using the proposed ideas.&lt;br/&gt;The education plan includes the incorporation of this research's findings into the undergraduate and graduate curricula and offers an opportunity to take a "top-down" approach to teaching transport architectures with a focus on key bandwidth allocation objectives and how they affect real applications. The course material will be made widely available through MIT OpenCourseWare and on the MITx MOOC.</AbstractNarration>
+<MinAmdLetterDate>08/29/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617702</AwardID>
+<Investigator>
+<FirstName>Mohammad</FirstName>
+<LastName>Alizadeh</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mohammad Alizadeh</PI_FULL_NAME>
+<EmailAddress>alizadeh@csail.mit.edu</EmailAddress>
+<PI_PHON>6172531000</PI_PHON>
+<NSF_ID>000703497</NSF_ID>
+<StartDate>08/29/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 Massachusetts Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~249952</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this project was to develop a flexible framework for designing transport protocols that control how bandwidth is allocated to traffic flows on a network in a decentralized manner. Decentralized rate control is a long-standing problem in computer networks and has been the subject of extensive research. However, existing approaches, exemplified by the Transport Control Protocol's (TCP) rate control algorithm, are inflexible and support only basic bandwidth allocation policies like fairness between flows. In a growing number of usecases in datacenter and wide area networks, TCP-based bandwidth allocation is not a good fit.&nbsp;</p> <p>This project developed a framework for designing transport protocols that can be tuned for a variety of different bandwidth allocation goals, and demonstrated the utility of this framework in several usecases. The main intellectual contribution of this work is to show how a simple weight-based abstraction for controlling the relative rates of competing flows can be used to support a wide variety of bandwidth allocation objectives. Network operators specify their bandwidth allocation goals via utility functions that express the benefit that an application derives from achieving a certain transmission rate. The transport protocol then uses these utility functions to dynamically adjust a weight parameter associated with each flow, which dictates how that flow competes for bandwidth with other flows sharing the network. Collectively the flow weights drive the system to a utility-maximizing bandwidth allocation in a fully decentralized manner.</p> <p>This idea was demonstrated in two systems: (i) NUMFabric, a transport protocol for datacenter networks that enables flexible bandwidth allocation policies, and (ii) Minerva, a transport protocol for video streaming that optimizes for quality of experience fairness. These systems provide network operators with a robust methodology for optimizing the network's bandwidth allocation policy based on application requirements. For example, Minera allows video content providers to specify how multiple users sharing a network bottleneck (e.g., residents watching video in a household) should split bandwidth to maximize user quality of experience. Beyond these usecases, the ideas developed in this project are general and could be applied to other applications that desire fine-grained control over network bandwidth allocation policies.</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/16/2020<br>      Modified by: Mohammad&nbsp;Alizadeh</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this project was to develop a flexible framework for designing transport protocols that control how bandwidth is allocated to traffic flows on a network in a decentralized manner. Decentralized rate control is a long-standing problem in computer networks and has been the subject of extensive research. However, existing approaches, exemplified by the Transport Control Protocol's (TCP) rate control algorithm, are inflexible and support only basic bandwidth allocation policies like fairness between flows. In a growing number of usecases in datacenter and wide area networks, TCP-based bandwidth allocation is not a good fit.   This project developed a framework for designing transport protocols that can be tuned for a variety of different bandwidth allocation goals, and demonstrated the utility of this framework in several usecases. The main intellectual contribution of this work is to show how a simple weight-based abstraction for controlling the relative rates of competing flows can be used to support a wide variety of bandwidth allocation objectives. Network operators specify their bandwidth allocation goals via utility functions that express the benefit that an application derives from achieving a certain transmission rate. The transport protocol then uses these utility functions to dynamically adjust a weight parameter associated with each flow, which dictates how that flow competes for bandwidth with other flows sharing the network. Collectively the flow weights drive the system to a utility-maximizing bandwidth allocation in a fully decentralized manner.  This idea was demonstrated in two systems: (i) NUMFabric, a transport protocol for datacenter networks that enables flexible bandwidth allocation policies, and (ii) Minerva, a transport protocol for video streaming that optimizes for quality of experience fairness. These systems provide network operators with a robust methodology for optimizing the network's bandwidth allocation policy based on application requirements. For example, Minera allows video content providers to specify how multiple users sharing a network bottleneck (e.g., residents watching video in a household) should split bandwidth to maximize user quality of experience. Beyond these usecases, the ideas developed in this project are general and could be applied to other applications that desire fine-grained control over network bandwidth allocation policies.          Last Modified: 06/16/2020       Submitted by: Mohammad Alizadeh]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

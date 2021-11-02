@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: NeTS: Scaling Distributed Storage with Programmable Switches</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>174346.00</AwardTotalIntnAmount>
+<AwardAmount>174346</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Deepankar Medhi</SignBlockName>
+<PO_EMAI>dmedhi@nsf.gov</PO_EMAI>
+<PO_PHON>7032922935</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern Internet services, such as search, social networking and e-commerce, depend critically on high performance distributed storage. As these services scale to billions of users, system operators are increasingly relying on in-memory storage to meet the necessary throughput and latency demands. A major challenge in scaling distributed storage is coping with skewed, dynamic workloads, which can lead to severe load imbalance and performance degradations. While traditional flash-based and disk-based storage can be balanced using a fast in-memory caching layer, server-based caching does not work for in-memory storage, because there is little difference in performance between the caching and storage layers. This project investigates a new distributed storage architecture that leverages the power and flexibility of new generation programmable switches to cache data in the network. The project goal is to not only improve the performance and reliability of cloud systems in practice, but also provide new architectural and theoretical insights on classical distributed systems topics. This project will foster the collaboration between the networking and systems communities in the new area of co-designing networks and systems with programmable switches.&lt;br/&gt;&lt;br/&gt;The project will develop a new architecture to provide high aggregate throughput and low latency even under highly-skewed and rapidly-changing workloads. There are two major technical thrusts. The first one is to design the switch cache with limited switch functionalities and resources. The approach will be to exploit the match-action tables, register arrays, and multi-pipeline, multi-stage structure of modern switch designs to efficiently index and pack variable-length objects into limited switch table and memory resources. The second research thrust is to design the overall system to achieve scalability, consistency and fault-tolerance. While these are classical distributed systems topics, they will be revisited in a new type of heterogeneous system which consists of fast switch caches and general-purpose storage servers. A prototype system will be constructed using both programmable software and hardware switches, and extensively evaluated with a wide range of realistic and synthetic workloads.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>03/30/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>03/30/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1755646</AwardID>
+<Investigator>
+<FirstName>Xin</FirstName>
+<LastName>Jin</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Xin Jin</PI_FULL_NAME>
+<EmailAddress>xinjin@cs.jhu.edu</EmailAddress>
+<PI_PHON>6098278858</PI_PHON>
+<NSF_ID>000743454</NSF_ID>
+<StartDate>03/30/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Johns Hopkins University</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212182686</ZipCode>
+<PhoneNumber>4439971898</PhoneNumber>
+<StreetAddress>1101 E 33rd St</StreetAddress>
+<StreetAddress2><![CDATA[Suite B001]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001910777</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>JOHNS HOPKINS UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001910777</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Johns Hopkins University]]></Name>
+<CityName/>
+<StateCode>MD</StateCode>
+<ZipCode>212182608</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7363</Code>
+<Text>RES IN NETWORKING TECH &amp; SYS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~174346</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Modern Internet services, such as search, social networking and e-commerce, depend critically on high-performance distributed storage. As these services scale to billions of users, system operators are increasingly relying on in-memory storage to meet the necessary throughput and latency demands. A major challenge in scaling distributed storage is coping with skewed, dynamic workloads, which can lead to severe load imbalance and performance degradations.</p> <p><br />In this project, we proposed a new distributed storage architecture that exploits the power and flexibility of new-generation programmable switches to build scalable storage systems. We designed a new switch packet processing pipeline to detect, index, store, and serve objects and detect conflicts entirely in the switch data plane with minimal switch resources. We designed a suite of new algorithms and protocols that provide cache coherence, strong consistency, fault-tolerance and scalability with low overhead and theoretical guarantees. We implemented and evaluated system prototypes on real switches and servers under a wide range of realistic and synthetic workloads.</p> <p><br />We explored a new paradigm of co-designing networks and systems with the capability of emerging programmable switches for cloud infrastructures. This project fostered the collaboration between the networking and systems communities in the new area of co-designing networks and systems with programmable switches. We trained PhD students and provided research opportunities for master and undergraduate students. We integrated programmable switches into EN.601.414/614 Computer Networks, EN.601.714 Advanced Computer Networks and EN.601.814 Selected Topics in Computer Networks at JHU, providing educational opportunities to undergraduate and graduate students to learn state-of-the-art technologies in networking and distributed systems.</p><br> <p>            Last Modified: 07/08/2020<br>      Modified by: Xin&nbsp;Jin</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Modern Internet services, such as search, social networking and e-commerce, depend critically on high-performance distributed storage. As these services scale to billions of users, system operators are increasingly relying on in-memory storage to meet the necessary throughput and latency demands. A major challenge in scaling distributed storage is coping with skewed, dynamic workloads, which can lead to severe load imbalance and performance degradations.   In this project, we proposed a new distributed storage architecture that exploits the power and flexibility of new-generation programmable switches to build scalable storage systems. We designed a new switch packet processing pipeline to detect, index, store, and serve objects and detect conflicts entirely in the switch data plane with minimal switch resources. We designed a suite of new algorithms and protocols that provide cache coherence, strong consistency, fault-tolerance and scalability with low overhead and theoretical guarantees. We implemented and evaluated system prototypes on real switches and servers under a wide range of realistic and synthetic workloads.   We explored a new paradigm of co-designing networks and systems with the capability of emerging programmable switches for cloud infrastructures. This project fostered the collaboration between the networking and systems communities in the new area of co-designing networks and systems with programmable switches. We trained PhD students and provided research opportunities for master and undergraduate students. We integrated programmable switches into EN.601.414/614 Computer Networks, EN.601.714 Advanced Computer Networks and EN.601.814 Selected Topics in Computer Networks at JHU, providing educational opportunities to undergraduate and graduate students to learn state-of-the-art technologies in networking and distributed systems.       Last Modified: 07/08/2020       Submitted by: Xin Jin]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

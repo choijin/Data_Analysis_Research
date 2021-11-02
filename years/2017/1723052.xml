@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research:  Connecting Submodularity and Restricted Strong Convexity</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>90000.00</AwardTotalIntnAmount>
+<AwardAmount>90000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Christopher Stark</SignBlockName>
+<PO_EMAI>cstark@nsf.gov</PO_EMAI>
+<PO_PHON>7032924869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Structured estimation problems arise in a variety of contexts including astronomy, genomics, and computer vision. This project aims to develop methods that can use the additional structure in order to estimate statistical models effectively, while also using the structure for computational improvements. This work seeks to connect ideas in combinatorial optimization and statistical estimation to develop computationally tractable methods for performing structured statistical estimation.&lt;br/&gt;&lt;br/&gt;This project provides an integrated program to explore and connect combinatorial optimization and statistical estimation. Modern statistical challenges have become increasingly dependent on understanding both the computational and statistical issues. Many modern statistical estimation problems rely on imposing additional structure in order to reduce the statistical complexity and provide interpretability. Unfortunately, these structures often are combinatorial in nature and result in computationally challenging problems. In parallel, the combinatorial optimization community has placed significant effort in developing algorithms that can approximately solve such optimization problems in a computationally efficient manner. The focus of this project is to expand upon ideas that arise in combinatorial optimization and connect those algorithms and ideas to statistical questions. The research directions of this project are split into three main thrusts unified by the concept of weak submodularity: (a) cardinality constrained optimization and its applications to general statistical optimization problems; (b) matrix estimation problems including low-rank matrix estimation and semi-definite programming problems as well as problems in sparse dictionary learning; and (c) a general theoretical understanding of weak submodularity and specifically analyzing how to develop algorithms in this regime that work well for large-scale datasets.</AbstractNarration>
+<MinAmdLetterDate>08/18/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>08/18/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1723052</AwardID>
+<Investigator>
+<FirstName>Georgios-Alex</FirstName>
+<LastName>Dimakis</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Georgios-Alex Dimakis</PI_FULL_NAME>
+<EmailAddress>dimakis@austin.utexas.edu</EmailAddress>
+<PI_PHON>5124713068</PI_PHON>
+<NSF_ID>000515168</NSF_ID>
+<StartDate>08/18/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787121532</ZipCode>
+<StreetAddress><![CDATA[101 East 27th St., Suite 5.300]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8083</Code>
+<Text>Big Data Science &amp;Engineering</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~90000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp;</p> <p>Modern Datasets used to train machine learning models are becoming larger and include increasingly more features. Feature selection methods choose a subset of those features that ideally predicts an outcome variable well, while providing interpretability and robustness. This project studied the fundamentals of feature selection and its mathematical connections to combinatorial optimization and statistics. Two parallel general strategies have emerged in the literature for feature selection: convex relaxations and greedy algorithms. The canonical example is linear regression with sparsity constraints, leading to widely used algorithms like Basis Pursuit and Lasso.&nbsp;&nbsp;</p> <p>This project studied the connections between convex relaxations and greedy algorithms for learning and feature selection. A central finding is a connection between Restricted Strong Convexity (a condition used to certify success of convex relaxations for feature selection) to weak submodularity (a condition used to certify success of greedy algorithms for feature selection). This project established that any objective function that satisfies restricted strong convexity (and a natural smoothness assumption) leads to a weakly submodular set function.&nbsp;This connection allowed us to establish multiplicative approximation bounds on the performance of greedy algorithms, including (generalized) Orthogonal Matching Pursuit and Forward Stepwise Regression, for general likelihood functions.&nbsp; This is the first general result connecting a form of submodularity to the objective function strong concavity and smoothness. Our approach provides sharp approximation bounds for many settings, including generalized linear models and low-rank approximations.</p> <p>Further, this project used submodularity as a technique for constructing adversarial attacks for text classifiers using greedy feature selection for determining which perturbations are the most sensitive for a classifier. This led to the design of more robust text machine learning models and can be directly applied to other classifiers with discrete input spaces.&nbsp;</p><br> <p>            Last Modified: 08/10/2021<br>      Modified by: Georgios-Alex&nbsp;Dimakis</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[    Modern Datasets used to train machine learning models are becoming larger and include increasingly more features. Feature selection methods choose a subset of those features that ideally predicts an outcome variable well, while providing interpretability and robustness. This project studied the fundamentals of feature selection and its mathematical connections to combinatorial optimization and statistics. Two parallel general strategies have emerged in the literature for feature selection: convex relaxations and greedy algorithms. The canonical example is linear regression with sparsity constraints, leading to widely used algorithms like Basis Pursuit and Lasso.    This project studied the connections between convex relaxations and greedy algorithms for learning and feature selection. A central finding is a connection between Restricted Strong Convexity (a condition used to certify success of convex relaxations for feature selection) to weak submodularity (a condition used to certify success of greedy algorithms for feature selection). This project established that any objective function that satisfies restricted strong convexity (and a natural smoothness assumption) leads to a weakly submodular set function. This connection allowed us to establish multiplicative approximation bounds on the performance of greedy algorithms, including (generalized) Orthogonal Matching Pursuit and Forward Stepwise Regression, for general likelihood functions.  This is the first general result connecting a form of submodularity to the objective function strong concavity and smoothness. Our approach provides sharp approximation bounds for many settings, including generalized linear models and low-rank approximations.  Further, this project used submodularity as a technique for constructing adversarial attacks for text classifiers using greedy feature selection for determining which perturbations are the most sensitive for a classifier. This led to the design of more robust text machine learning models and can be directly applied to other classifiers with discrete input spaces.        Last Modified: 08/10/2021       Submitted by: Georgios-Alex Dimakis]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

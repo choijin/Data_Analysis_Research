@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Small: Collaborative Research: Viewpoints: Discovering Client- and Server-side Input Validation Inconsistencies to Improve Web Application Security</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>299964.00</AwardTotalIntnAmount>
+<AwardAmount>299964</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Web applications are an increasingly important part of many aspects of the society, from social interactions to business transactions. Hence, security of web applications is an extremely important and urgent problem.  Since web applications are easily accessible, and often store a large amount of sensitive user information, they are a typical target for attackers. In particular, attacks that target input validation vulnerabilities are extremely common and effective. Some of these attacks exploit well-known vulnerabilities, such as cross-site scripting and SQL injection, whereas some others exploit application-specific vulnerabilities that are hard to identify because they depend on the particular input validation logic of the target application. In general, these attacks exploit erroneous or insufficient input validation and sanitization to inject malicious data that can result in execution of harmful commands and access to sensitive information.&lt;br/&gt;&lt;br/&gt;This research aims to identify and mitigate these vulnerabilities in web applications by performing automatic checking of input validation and sanitization operations. The key insight for this work comes from the observation that developers often introduce redundant checks in both the front-end (client) and the back-end (server) component of a web application.  Client-side checks are fast and can improve performance and responsiveness of the application, but can be easily circumvented; server-side checks are hard to circumvent, but require network round-trips and additional server-side processing.  Our intuition is that the checks performed at the client and server sides should enforce the same set of constraints on the inputs: if client-side checks are more restrictive, the server may accept inputs that legitimate clients can never produce, as malicious users can easily bypass client-side checks. Conversely, if server-side checks are more restrictive, the client may produce requests that are subsequently rejected by the server, which is not ideal from a performance point of view. This research will develop new techniques based on program analysis, string analysis, and code synthesis that can identify, map, model, and compare the set of checks performed on the client and server sides. These techniques will be able to identify and report inconsistencies between the two sets of checks and (semi)automatically extend the checks to eliminate such inconsistencies.  By making web applications more secure and efficient, this research has the potential to benefit the increasingly large part of the society that relies on the use of web applications for its daily activities.</AbstractNarration>
+<MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1116967</AwardID>
+<Investigator>
+<FirstName>Tevfik</FirstName>
+<LastName>Bultan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Tevfik Bultan</PI_FULL_NAME>
+<EmailAddress>bultan@cs.ucsb.edu</EmailAddress>
+<PI_PHON>8058933735</PI_PHON>
+<NSF_ID>000232096</NSF_ID>
+<StartDate>08/08/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Christopher</FirstName>
+<LastName>Kruegel</LastName>
+<PI_MID_INIT>I</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Christopher I Kruegel</PI_FULL_NAME>
+<EmailAddress>chris@cs.ucsb.edu</EmailAddress>
+<PI_PHON>8058934188</PI_PHON>
+<NSF_ID>000502531</NSF_ID>
+<StartDate>08/08/2011</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Santa Barbara</Name>
+<CityName>Santa Barbara</CityName>
+<ZipCode>931062050</ZipCode>
+<PhoneNumber>8058934188</PhoneNumber>
+<StreetAddress>Office of Research</StreetAddress>
+<StreetAddress2><![CDATA[Rm 3227 Cheadle Hall]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>24</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA24</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>094878394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SANTA BARBARA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Santa Barbara]]></Name>
+<CityName>Santa Barbara</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>931062050</ZipCode>
+<StreetAddress><![CDATA[Office of Research]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>24</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA24</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~299964</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Web applications are an increasingly prominent part of many aspects of everybody's life, from social interactions to business transactions. Hence, security and reliability of web applications are of fundamental importance today. Since web applications are easily accessible, and often store a large amount of sensitive user information, they are a typical target for attackers. In particular, attacks that target input validation vulnerabilities are extremely common and effective. Some of these attacks exploit well-known vulnerabilities, such as cross-site scripting and SQLinjection, whereas some others exploit application-specific vulnerabilities that are hard to identify because they depend on the particular input validation logic of the target application. In many cases, these attacks exploit erroneous or insufficient input validation and sanitization to inject malicious data that can result in execution of harmful commands and access to sensitive information.</p> <p>The overall goal of this project was to identify and mitigate these vulnerabilities in web applications by performing automatic checking of input validation and sanitization operations. To accomplish this goal, during the lifetime of the project, we developed new techniques based on program analysis, string analysis, and code synthesis for identifying, understanding, and possibly repairing web application vulnerabilities. In addition, we also developed techniques for addressing another familyof issues that affect web applications, that is, cross-browser and cross-platform incompatibilities, which can cause serious reliability and usability problems for such applications. In the rest of this report, we summarize some of the main results achieved within the project in terms of intellectual merit and broader impact of the research.</p> <p><strong>Differential String Analysis for Discovering Client- and Server-Side Input Validation Inconsistencies:</strong> In web applications, it is not uncommon for developers to perform either faulty or incomplete input checks, which can leave the web application susceptible to input validation vulnerabilities, such as cross-site scripting, which are among the most common and dangerous attacks for web applications. To address these vulnerabilities, we defined ViewPoints, a novel approach for automatically identifying input validation issues in web applications. ViewPoints is based on the key insight that developers often introduce redundant checks both in the front-end (client) and the back-end (server) component of a web application. Based on this insight, ViewPoints compares the checks performed at the client and server sides against each other, identifies inconsistencies that indicate possible input validation vulnerabilities,and reports such inconsistencies to the user.</p> <p><strong>Differential Automated Repair: </strong>In addition to identifying inconsistencies between input validation at the client and server sides, we also developed techniques for automatically generating additional validation code that can be added to the server and/or the client to make their checks consistent. By doing so, such code can increase both the security of the web application, when it strengthens server-side input validation, and also its responsiveness, when it strengthens client-side input validation. When used on a set of real-world web applications, our repair technique was able to automatically generate repairs for real issues in the applications, thus demonstrating the practical viability of the approach.</p> <p><br /><strong>Differential Analysis to Detect Cross-Browser and Cross-Platform Inconsistencies:</strong> In addition to input validation vulnerabilities, another issue with web applications is that they are susceptible to cross-browser and cross-platform incompatibilities. The former are discrepancies between a web application's appearance, behavior, or both, when the...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Web applications are an increasingly prominent part of many aspects of everybody's life, from social interactions to business transactions. Hence, security and reliability of web applications are of fundamental importance today. Since web applications are easily accessible, and often store a large amount of sensitive user information, they are a typical target for attackers. In particular, attacks that target input validation vulnerabilities are extremely common and effective. Some of these attacks exploit well-known vulnerabilities, such as cross-site scripting and SQLinjection, whereas some others exploit application-specific vulnerabilities that are hard to identify because they depend on the particular input validation logic of the target application. In many cases, these attacks exploit erroneous or insufficient input validation and sanitization to inject malicious data that can result in execution of harmful commands and access to sensitive information.  The overall goal of this project was to identify and mitigate these vulnerabilities in web applications by performing automatic checking of input validation and sanitization operations. To accomplish this goal, during the lifetime of the project, we developed new techniques based on program analysis, string analysis, and code synthesis for identifying, understanding, and possibly repairing web application vulnerabilities. In addition, we also developed techniques for addressing another familyof issues that affect web applications, that is, cross-browser and cross-platform incompatibilities, which can cause serious reliability and usability problems for such applications. In the rest of this report, we summarize some of the main results achieved within the project in terms of intellectual merit and broader impact of the research.  Differential String Analysis for Discovering Client- and Server-Side Input Validation Inconsistencies: In web applications, it is not uncommon for developers to perform either faulty or incomplete input checks, which can leave the web application susceptible to input validation vulnerabilities, such as cross-site scripting, which are among the most common and dangerous attacks for web applications. To address these vulnerabilities, we defined ViewPoints, a novel approach for automatically identifying input validation issues in web applications. ViewPoints is based on the key insight that developers often introduce redundant checks both in the front-end (client) and the back-end (server) component of a web application. Based on this insight, ViewPoints compares the checks performed at the client and server sides against each other, identifies inconsistencies that indicate possible input validation vulnerabilities,and reports such inconsistencies to the user.  Differential Automated Repair: In addition to identifying inconsistencies between input validation at the client and server sides, we also developed techniques for automatically generating additional validation code that can be added to the server and/or the client to make their checks consistent. By doing so, such code can increase both the security of the web application, when it strengthens server-side input validation, and also its responsiveness, when it strengthens client-side input validation. When used on a set of real-world web applications, our repair technique was able to automatically generate repairs for real issues in the applications, thus demonstrating the practical viability of the approach.   Differential Analysis to Detect Cross-Browser and Cross-Platform Inconsistencies: In addition to input validation vulnerabilities, another issue with web applications is that they are susceptible to cross-browser and cross-platform incompatibilities. The former are discrepancies between a web application's appearance, behavior, or both, when the application is run on two different environments. The latter affects multi-platform web applications--web applications that are developed in ...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

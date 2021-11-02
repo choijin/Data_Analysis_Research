@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NRI: FND: Robust Learning of Sequential Motion from Human Demonstrations to Enable Robot-Guided Exercise Training</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>749999.00</AwardTotalIntnAmount>
+<AwardAmount>749999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>James Donlon</SignBlockName>
+<PO_EMAI>jdonlon@nsf.gov</PO_EMAI>
+<PO_PHON>7032928074</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Therapeutic exercises are crucial for healthy living and effective recovery from injury, surgery, disease, or frailty. Physical or occupational therapists are typically responsible for directing therapeutic exercises. There is currently a mismatch between supply and demand for these services. There is a predicted shortage of 26,600 physical therapists nationally by year 2025 and 50,000 occupational therapists by year 2030. Technology-based home programs are rapidly emerging as a way to combat this skilled labor shortage. Technology assisted exercise programs that promote highly structured practice and provide real-time feedback are believed to improve well-being but have yet to be conceived. This project bridges that gap through designing intelligent robots that can take the role of a therapist during therapeutic exercise training. The idea is that a clinician will teach a robot any structured exercise through demonstrations and the robot will then take the role of a coach to teach users and provide quantitative evaluation of performance. For a robot to do that, we need an intelligent algorithm that will allow the therapists to teach a robot any new exercise without actually programming the robot and enable the robot to learn from therapists' demonstrations. This project will develop a novel Learning from demonstration (LfD) framework to realize exercise trainer robots.   &lt;br/&gt;&lt;br/&gt;The core technical challenges of designing a LfD framework for a exercise trainer robot are i) robustly learning sequence of human movements from lay users' demonstrations while accommodating inter- and intra-personal variations and ii) offers a quantitative metric to explain the deviation of a user's trajectory from the demonstrated sequence in a contextually meaningful way. Solving these challenges requires major changes in the way we currently learn motion trajectories (low-level policy learning) and model the relations among trajectories for learning sequential tasks (high-level policy learning). Accordingly, this research will design the entire pipeline of LfD based only on the kinematic and kinetic variables of motion. The core of this LfD framework is a phase space model (PSM) for learning task trajectories. The PSM leverages dynamic system theories to analyze motion variables to segment a task trajectory and build a parametric representation that is robust against spatio-temporal variations. The compact parameter set that PSM generates are used by a graphical model to learn the high-level policy underlying the demonstrated task while leveraging the typical anatomical constraints of human limbs. The same parameter set is used to design a quantitative metric to evaluate the learning outcome. The project will evaluate the fidelity of a co-robot exercise trainer powered by this LfD framework to teach upper extremity exercises in a series of user studies. An ABB YuMi robot will be used as the test platform. The demonstration data will be collected from inertial measurement units (IMUs) worn by student-therapists on the hand, forearm, upper arm and torso. The robot will demonstrate learned exercises to older adult participants (OA), who then will perform the exercises by mirroring the robot. During the training phase, the OAs will also be wearing IMUs so that their performance can be assessed with respect to the original demonstration from the therapist. The fidelity of movement transmission will be tested from the therapist, to the robot, to the patient with a high-speed, 3D motion capture video system which is the gold standard for kinematic analysis.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/23/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>08/23/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1830597</AwardID>
+<Investigator>
+<FirstName>Momotaz</FirstName>
+<LastName>Begum</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Momotaz Begum</PI_FULL_NAME>
+<EmailAddress>mbegum@cs.unh.edu</EmailAddress>
+<PI_PHON>5089624159</PI_PHON>
+<NSF_ID>000673054</NSF_ID>
+<StartDate>08/23/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Dain</FirstName>
+<LastName>LaRoche</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dain LaRoche</PI_FULL_NAME>
+<EmailAddress>Dain.LaRoche@unh.edu</EmailAddress>
+<PI_PHON>6038622172</PI_PHON>
+<NSF_ID>000770912</NSF_ID>
+<StartDate>08/23/2018</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Sajay</FirstName>
+<LastName>Arthanat</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sajay Arthanat</PI_FULL_NAME>
+<EmailAddress>sajay.arthanat@unh.edu</EmailAddress>
+<PI_PHON>6038622172</PI_PHON>
+<NSF_ID>000770933</NSF_ID>
+<StartDate>08/23/2018</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of New Hampshire</Name>
+<CityName>Durham</CityName>
+<ZipCode>038243585</ZipCode>
+<PhoneNumber>6038622172</PhoneNumber>
+<StreetAddress>51 COLLEGE RD SERVICE BLDG 107</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New Hampshire</StateName>
+<StateCode>NH</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NH01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>111089470</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY SYSTEM OF NEW HAMPSHIRE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001765866</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of New Hampshire]]></Name>
+<CityName>Durham</CityName>
+<StateCode>NH</StateCode>
+<ZipCode>038243585</ZipCode>
+<StreetAddress><![CDATA[51 COLLEGE RD]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Hampshire</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NH01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8013</Code>
+<Text>NRI-National Robotics Initiati</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>063Z</Code>
+<Text>FW-HTF Futr Wrk Hum-Tech Frntr</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8086</Code>
+<Text>Natl Robotics Initiative (NRI)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~749999</FUND_OBLG>
+</Award>
+</rootTag>

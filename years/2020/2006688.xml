@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:Small:Differential Testing for Machine Learning Software</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Machine-learning systems, including deep-learning (DL) systems, demand reliability. DL systems consist of two key components: (1) models and algorithms that perform complex mathematical calculations, and (2) software that implements the algorithms and models. Here software includes DL infrastructure code (e.g., code that performs core neural-network computations) and the application code (e.g., code that loads model weights). Thus, for the entire DL system to be reliable, both the software implementation and models/algorithms must be reliable. If software fails to faithfully implement a model (e.g., due to a bug in the software), the output from the software can be wrong even if the model is correct, and vice versa. This project raises awareness of testing DL software implementations to find and localize defects in DL software. Specifically, this project develops end-to-end solutions to improve the reliability and robustness of DL systems by differential testing DL software (including both source code and data) to detect and localize bugs, and defend against adversarial input. In addition to advancing the state of the art, the findings, approaches, and tools developed in the project should provide educational and practical tools to test DL software. It could help transform how students, developers, and researchers test DL software. &lt;br/&gt;&lt;br/&gt;Testing DL software is challenging, as it is particularly difficult for developers to know the expected output of the software under test given an input instance, because DL algorithms and models use complex networks and mathematical formula. A second challenge is to identify the faulty functions among many in the DL software upon bug detection.  To address these challenges, this project uses differential testing to detect and localize bugs in DL software, including code and data, without relying on the expected output. To achieve this goal, one must understand the variances of multiple training runs with identical configurations, e.g., identical DL software, identical algorithm, identical training and test data, identical network, etc. Such variance indicates nondeterminism in the DL algorithms and software implementations, which imposes both opportunities and challenges for researchers and practitioners. Building on the variance results, the first thrust creates differential-testing approaches to detect software bugs in both the DL training and inference phases, as well as when multiple implementations are unavailable, e.g., by mutating models. It addresses the fundamental oracle challenge of testing DL software. The second thrust builds approaches to isolate the differences of multiple runs to localize bugs to help developers identify the bug root causes, so that developers can fix them correctly faster. The last thrust tests the data of DL software to identify and defend against adversarial input.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/29/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>07/29/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2006688</AwardID>
+<Investigator>
+<FirstName>Lin</FirstName>
+<LastName>Tan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Lin Tan</PI_FULL_NAME>
+<EmailAddress>lintan@purdue.edu</EmailAddress>
+<PI_PHON>7654946010</PI_PHON>
+<NSF_ID>000787841</NSF_ID>
+<StartDate>07/29/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName>West Lafayette</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>479072107</ZipCode>
+<StreetAddress><![CDATA[305 N University Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>2878</Code>
+<Text>Special Projects - CCF</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>075Z</Code>
+<Text>Artificial Intelligence (AI)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~450000</FUND_OBLG>
+</Award>
+</rootTag>

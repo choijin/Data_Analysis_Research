@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CI-EN: Collaborative: Run Your Research with Redex</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>528200</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project will focus on the development of the REDEX tool, a lightweight domain-specific tool for modeling programming languages useful for software development. Originally developed as an in-house tool for a small group of collaborating researchers, REDEX escaped the laboratory several years ago, acquired a dedicated user community, and now new users wish to use it for larger and more complicated programming languages than originally envisioned.  Using this framework, a programmer articulates a programming language model directly as a software artifact with just a little more effort than paper-and-pencil models. Next, the user invokes diagnostic tools to test a model's consistency, explore its properties, and check general claims about it. &lt;br/&gt;&lt;br/&gt;This award funds several significant improvements to REDEX: (1) a modular system that allows its users to divide up the work, (2) scalable performance so that researchers can deal with large models, and (3) improvements to its testing and error-detection system. The award also includes support for the education of REDEX's quickly growing user community, e.g., support for organizing tutorials and workshops.</AbstractNarration>
+<MinAmdLetterDate>07/25/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>02/02/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1405756</AwardID>
+<Investigator>
+<FirstName>Robert</FirstName>
+<LastName>Findler</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Robert Findler</PI_FULL_NAME>
+<EmailAddress>robby@northwestern.edu</EmailAddress>
+<PI_PHON>7737024029</PI_PHON>
+<NSF_ID>000150535</NSF_ID>
+<StartDate>07/25/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Northwestern University</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606114579</ZipCode>
+<PhoneNumber>3125037955</PhoneNumber>
+<StreetAddress>750 N. Lake Shore Drive</StreetAddress>
+<StreetAddress2><![CDATA[Rubloff 7th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>160079455</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTHWESTERN UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005436803</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Northwestern University]]></Name>
+<CityName>Evanston</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>602083118</ZipCode>
+<StreetAddress><![CDATA[2145 Sheridan Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7359</Code>
+<Text>CCRI-CISE Cmnty Rsrch Infrstrc</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7359</Code>
+<Text>COMPUTING RES INFRASTRUCTURE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~500000</FUND_OBLG>
+<FUND_OBLG>2017~28200</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Programming language researchers continuously work with language models to understand and validate programming language designs. They work with the models to learn how others have designed languages, to find flaws in their own designs, and to establish properties (like type soundness). These models cover the programming language's dynamic semantics, static type system, compilation techniques, and other aspects of the language's design. The models models communicate the essence of a design, stripping out unnecessary or redundant details.</p> <p><br />This project supported work on Redex, an embedded domain-specific language for executable models. Executable models give researchers tools that support all of the use cases described above. For example, one researcher can use an executable model produced by another to experiment with examples and build an intuition. An exectuable model is also amenable to random testing, a push-button technique that can find errors.</p> <p>The funding supplied by this projected supported two significant advances for Redex. The first is an extension of Redex's ability to randomly generate example terms as part of property-based testing. Thanks to the work conducted on this project, Redex can take type system information into account and generate well-typed terms. The work also includes a new benchmark suite, showing how generating well-typed terms has an order of magnitude speed up in counterexample generation. Redex also gained the ability to systematically enumerate terms from the grammar of a language, meaning that the counterexamples that it finds now tend to be much smaller than when it generates them randomly, making them much more useful to the models' authors.</p> <p>The second major advance to Redex was the support for binding-insensitive language definitions. Redex model authors can now describe the binding forms together with the language and, equipped with this description, Redex model authors can write functions and relations without regard to alpha equivalence. In other words, Redex automatically makes non-capture-avoiding definitions be capture avoiding, freeing model authors from having to worry about binding in Redex models.</p> <p>Beyond these feature improvements, the funding also supported many bug fixes, performance improvements, and improvements to the documentation. It also supported Burke Fetscher's PhD dissertation, two week-long summer schools, and significant new tutorial material to help new Redex users get up to speed.<br /><br /></p><br> <p>            Last Modified: 11/29/2017<br>      Modified by: Robert&nbsp;Findler</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Programming language researchers continuously work with language models to understand and validate programming language designs. They work with the models to learn how others have designed languages, to find flaws in their own designs, and to establish properties (like type soundness). These models cover the programming language's dynamic semantics, static type system, compilation techniques, and other aspects of the language's design. The models models communicate the essence of a design, stripping out unnecessary or redundant details.   This project supported work on Redex, an embedded domain-specific language for executable models. Executable models give researchers tools that support all of the use cases described above. For example, one researcher can use an executable model produced by another to experiment with examples and build an intuition. An exectuable model is also amenable to random testing, a push-button technique that can find errors.  The funding supplied by this projected supported two significant advances for Redex. The first is an extension of Redex's ability to randomly generate example terms as part of property-based testing. Thanks to the work conducted on this project, Redex can take type system information into account and generate well-typed terms. The work also includes a new benchmark suite, showing how generating well-typed terms has an order of magnitude speed up in counterexample generation. Redex also gained the ability to systematically enumerate terms from the grammar of a language, meaning that the counterexamples that it finds now tend to be much smaller than when it generates them randomly, making them much more useful to the models' authors.  The second major advance to Redex was the support for binding-insensitive language definitions. Redex model authors can now describe the binding forms together with the language and, equipped with this description, Redex model authors can write functions and relations without regard to alpha equivalence. In other words, Redex automatically makes non-capture-avoiding definitions be capture avoiding, freeing model authors from having to worry about binding in Redex models.  Beyond these feature improvements, the funding also supported many bug fixes, performance improvements, and improvements to the documentation. It also supported Burke Fetscher's PhD dissertation, two week-long summer schools, and significant new tutorial material to help new Redex users get up to speed.         Last Modified: 11/29/2017       Submitted by: Robert Findler]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

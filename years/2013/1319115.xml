@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Detecting Flaws in Virtual Devices by Conformance Checking</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>440725.00</AwardTotalIntnAmount>
+<AwardAmount>440725</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Increasingly, all large-scale computing activities, including critical enterprise, financial, and public services, are being transitioned to cloud computing. Cloud computing is based on the technology of virtual machines, which enforces separation between the clients of a cloud service provider. Trust in cloud computing services depends on the security of the virtual machine implementation, of which virtual devices are building blocks. This project designs software tools that can automatically detect flaws in virtual device implementations, within a virtual machine platform. The inaccessible state of physical devices is represented as symbolic values in symbolic execution over the virtual device code, allowing for comparison of virtual and physical device states after subjecting each to a set of test events, without requiring measurements that interfere with the physical device state.&lt;br/&gt; &lt;br/&gt;By detecting hidden flaws and vulnerabilities in virtual devices, this project reduces the risk of potential attacks that threaten the security of virtual machines and cloud services. The release of software tools as open source allows other researchers and practitioners to build on the results. In addition, the project integrates the research with educational and outreach activities, including a new course on troubleshooting in virtualized environment, recruitment of student participants from underrepresented groups, and participation in community organizations related to information technology and security.</AbstractNarration>
+<MinAmdLetterDate>09/12/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/12/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1319115</AwardID>
+<Investigator>
+<FirstName>Kang</FirstName>
+<LastName>Li</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kang Li</PI_FULL_NAME>
+<EmailAddress>kangli@cs.uga.edu</EmailAddress>
+<PI_PHON>7065425939</PI_PHON>
+<NSF_ID>000436371</NSF_ID>
+<StartDate>09/12/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Georgia Research Foundation Inc</Name>
+<CityName>ATHENS</CityName>
+<ZipCode>306021589</ZipCode>
+<PhoneNumber>7065425939</PhoneNumber>
+<StreetAddress>310 East Campus Rd</StreetAddress>
+<StreetAddress2><![CDATA[Tucker Hall Room 409]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>004315578</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF GEORGIA RESEARCH FOUNDATION, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Georgia]]></Name>
+<CityName>Athens</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>306025016</ZipCode>
+<StreetAddress><![CDATA[200 D.W. Brooks Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~440725</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The overarching goal of this project is to enhance the software quality in virtual machine implementations.&nbsp; Cloud computing environments rely on virtual machines technologies to enforce separations between the clients of a cloud service provider.&nbsp; This project provides methods and tools to detect flaws in virtual machine implementations, and our effort benefits cloud computing environment by reducing the risk of potential attacks that threaten the security of cloud services.&nbsp;</p> <p>Through this project, we designed a VM implementation flaw taxonomy that aims to capture the types of all known virtualization software bugs.&nbsp; In this process, we also discovered new types of vulnerabilities that are unique to virtualizations.&nbsp; They do not crash the systems but affect their basic functionalities. &nbsp;The most significant type is the device-hanging flaw in virtual device implementations, and we designed new methods and implemented a prototype on QEMU to detect such flaws in virtualization implementations.&nbsp;</p> <p>This project also studies the use of virtual execution environments and symbolic checking techniques to detect software flaws and abnormal behaviors in applications. &nbsp;We developed a set of software tools for applying VM instrumentation, generating test cases for individual virtualization components, and capturing test coverage information.&nbsp; These tools are also useful for a broad range of efforts related to testing virtualization related applications, and we have made these tools available to public through the project web site. &nbsp;</p> <p>In addition to the research effort, we have developed and taught advanced courses on cloud and virtual machine security at our home university. &nbsp;Students taken these courses or worked on this project have started to be employed by cloud service providers and other closely related industrial companies.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/06/2017<br>      Modified by: Kang&nbsp;Li</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The overarching goal of this project is to enhance the software quality in virtual machine implementations.  Cloud computing environments rely on virtual machines technologies to enforce separations between the clients of a cloud service provider.  This project provides methods and tools to detect flaws in virtual machine implementations, and our effort benefits cloud computing environment by reducing the risk of potential attacks that threaten the security of cloud services.   Through this project, we designed a VM implementation flaw taxonomy that aims to capture the types of all known virtualization software bugs.  In this process, we also discovered new types of vulnerabilities that are unique to virtualizations.  They do not crash the systems but affect their basic functionalities.  The most significant type is the device-hanging flaw in virtual device implementations, and we designed new methods and implemented a prototype on QEMU to detect such flaws in virtualization implementations.   This project also studies the use of virtual execution environments and symbolic checking techniques to detect software flaws and abnormal behaviors in applications.  We developed a set of software tools for applying VM instrumentation, generating test cases for individual virtualization components, and capturing test coverage information.  These tools are also useful for a broad range of efforts related to testing virtualization related applications, and we have made these tools available to public through the project web site.    In addition to the research effort, we have developed and taught advanced courses on cloud and virtual machine security at our home university.  Students taken these courses or worked on this project have started to be employed by cloud service providers and other closely related industrial companies.           Last Modified: 10/06/2017       Submitted by: Kang Li]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: EAGER: Approximation algorithms for the traveling salesman problem</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>100000.00</AwardTotalIntnAmount>
+<AwardAmount>100000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The traveling salesman problem is a famous, well-studied problem within computer science and optimization.  Given n cities, and a set of distances between each pair of cities, the goal is to find the shortest tour that visits each city once and returns to its starting point.  There is an outstanding question of whether there is any efficient algorithm that given any set of n cities and the distances can find the shortest tour, or whether any such algorithm will always need time exponential in n to find the shortest tour.  In the absence of the resolution of this question, researchers in computer science have instead looked for efficient algorithms that always find provably near-optimal solutions to the problem.  The best such algorithm for the traveling salesman problem, known for almost 40 years now, is one that finds a tour that is always no more than 50% longer than the shortest possible tour.&lt;br/&gt; &lt;br/&gt;The goal of this project is to find efficient algorithms that always find tours significantly closer to the optimal than 50% longer.  Recently some candidate algorithms have been proposed which might be provably better than the 40-year-old algorithm; they give provably better bounds in special cases of the traveling salesman problem, and the PI has shown through computational experiments that in practice they perform better.  The goal of this project is to attempt to prove that these candidate algorithms do in fact perform better (or to show that they do not).  The project will use computational experiments in significant ways to help direct the mathematical proofs of the behavior of these algorithms.&lt;br/&gt; &lt;br/&gt;Because the traveling salesman problem is well-known to undergraduates and even high school students interested in computer science, the PI hopes to involve undergraduates in parts of the research and expose high school students to the work in order to interest them in further study in computer science.</AbstractNarration>
+<MinAmdLetterDate>08/13/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/13/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1552831</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Williamson</LastName>
+<PI_MID_INIT>P</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David P Williamson</PI_FULL_NAME>
+<EmailAddress>davidpwilliamson@cornell.edu</EmailAddress>
+<PI_PHON>6072554883</PI_PHON>
+<NSF_ID>000474139</NSF_ID>
+<StartDate>08/13/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Cornell University</Name>
+<CityName>Ithaca</CityName>
+<ZipCode>148502820</ZipCode>
+<PhoneNumber>6072555014</PhoneNumber>
+<StreetAddress>373 Pine Tree Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY23</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>872612445</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CORNELL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002254837</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Cornell University]]></Name>
+<CityName>Ithaca</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>148533801</ZipCode>
+<StreetAddress><![CDATA[136 Hoy Rd]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY23</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~100000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The traveling salesman problem (TSP) is one of the most famous problems in discrete optimization. &nbsp;In it, a salesman wishes to visit n cities at minimum total cost and return to his/her starting point; the path he/she takes is called a 'tour'. &nbsp;A typical approach for solving this problem is to first solve some easily computable 'relaxation' of the problem that gives a lower bound on the cost of the best possible tour. &nbsp;Such a relaxation can be used in computation for finding the best possible tour, or sometimes can be used to find a solution that is provably close in value to the best possible. &nbsp;In recent years, de Klerk, Pasechnik, and Sotirov proposed quite a complicated relaxation based on a tool in optimization called semidefinite programming. &nbsp;They did some preliminary computational experiments that gave evidence that their relaxation was quite promising; in some cases it found solutions closer in value to the best possible tour than other tools in standard use. &nbsp;In our research we show that in fact the de Klerk et al. relaxation is not a good direction to pursue. &nbsp;For a very simple example, the value of the de Klerk et al relaxation can be very far from the cost of the best possible tour. &nbsp;Because the de Klerk et al. relaxation is complicated it takes substantial effort to show that this simple example yields a bad bound.</p> <p>Some recent work on relaxations for the traveling salesman problem has been quite exciting. &nbsp;We also have taught several short courses to graduate students and high school students about these recent results.</p><br> <p>            Last Modified: 09/18/2017<br>      Modified by: David&nbsp;P&nbsp;Williamson</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The traveling salesman problem (TSP) is one of the most famous problems in discrete optimization.  In it, a salesman wishes to visit n cities at minimum total cost and return to his/her starting point; the path he/she takes is called a 'tour'.  A typical approach for solving this problem is to first solve some easily computable 'relaxation' of the problem that gives a lower bound on the cost of the best possible tour.  Such a relaxation can be used in computation for finding the best possible tour, or sometimes can be used to find a solution that is provably close in value to the best possible.  In recent years, de Klerk, Pasechnik, and Sotirov proposed quite a complicated relaxation based on a tool in optimization called semidefinite programming.  They did some preliminary computational experiments that gave evidence that their relaxation was quite promising; in some cases it found solutions closer in value to the best possible tour than other tools in standard use.  In our research we show that in fact the de Klerk et al. relaxation is not a good direction to pursue.  For a very simple example, the value of the de Klerk et al relaxation can be very far from the cost of the best possible tour.  Because the de Klerk et al. relaxation is complicated it takes substantial effort to show that this simple example yields a bad bound.  Some recent work on relaxations for the traveling salesman problem has been quite exciting.  We also have taught several short courses to graduate students and high school students about these recent results.       Last Modified: 09/18/2017       Submitted by: David P Williamson]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

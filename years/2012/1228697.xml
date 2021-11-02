@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Medium: Collaborative: Foundations of Application-Sensitive Access Control Evaluation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>254524.00</AwardTotalIntnAmount>
+<AwardAmount>254524</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>nan zhang</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Access control schemes are traditionally compared in terms of raw expressive power (i.e., the policies they can encode and how those policies can be changed); however, such comparisons ignore the needs of the application within which a scheme will be deployed.  For some applications, the most expressive scheme may be overly complex and not necessarily the best fit. To this end, this project investigates the suitability analysis problem: Given a system's access control workload, a set of candidate access control schemes, and a set of application-specific cost metrics, which scheme best meets the needs of the system?&lt;br/&gt;&lt;br/&gt;The goal is to create a suitability-analysis framework that is sufficiently rigorous to be useful to researchers and theoreticians, while remaining accessible to security practitioners. Such a framework will help formalize an access control scheme's application-specific strengths and limitations, enable researchers to precisely describe the scenarios for which a scheme is best suited, allow assessment of the novelty and utility of proposed schemes, and help analysts diagnose shortcomings in existing systems.  In particular, the project will develop (1) an application-specific, workload-based framework for analyzing the suitability of access control schemes that is sufficiently rich to compare logical, extensional, and hybrid schemes in both sequential and concurrent systems; (2) a cost analysis component that quantifies a scheme's suitability using custom metrics; and (3) tools that automate a range of suitability analysis tasks.  A real-world security workload, PKI-based authentication and authorization on the web, will be used to evaluate the results.</AbstractNarration>
+<MinAmdLetterDate>08/17/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/17/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1228697</AwardID>
+<Investigator>
+<FirstName>Adam</FirstName>
+<LastName>Lee</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Adam J Lee</PI_FULL_NAME>
+<EmailAddress>adamlee@cs.pitt.edu</EmailAddress>
+<PI_PHON>4126247400</PI_PHON>
+<NSF_ID>000514312</NSF_ID>
+<StartDate>08/17/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Pittsburgh</Name>
+<CityName>Pittsburgh</CityName>
+<ZipCode>152133203</ZipCode>
+<PhoneNumber>4126247400</PhoneNumber>
+<StreetAddress>300 Murdoch Building</StreetAddress>
+<StreetAddress2><![CDATA[3420 Forbes Avenue]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>004514360</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF PITTSBURGH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>004514360</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Pittsburgh]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152132303</ZipCode>
+<StreetAddress><![CDATA[210 S. Bouquet St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~254524</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-8306103f-f9af-47ce-47d8-6c8bbb5ed480"> <p dir="ltr"><span>Access control is fundamental to computer security, and has thus been the subject of extensive formal study. Research on access control has focused on whether one access control system is capable of emulating another, thereby comparing the expressive power of these systems.</span></p> <p dir="ltr"><span>Unfortunately, the notions of expressiveness simulation that have been explored vary widely, which makes it difficult to compare results in the literature, and even leads to apparent contradictions between results. Some notions of expressiveness simulation make use of non-determinism, and thus cannot be used to define mappings between access control systems that are useful in practical scenarios. Furthermore, existing access control analysis techniques, while useful for theoretical analysis, are not designed for answering practical questions regarding the deployment and maintenance of the access control schemes best suited for a particular real-world application.</span></p> <p dir="ltr"><span>In this project, we helped make sense of this space in both theoretical and practical terms. &nbsp;We began by defining the access control suitability analysis problem, which seeks to determine the access control scheme that is the best fit for a particular application. &nbsp;These types of analyses proceed in two phases. &nbsp;In the first phase, expressiveness analyses are carried out to determine which access control schemes are expressive enough to meet the needs of the target application. &nbsp;In the second phase, analytical cost analyses are carried out to determine the overheads associated with the use of each candidate access control scheme within the context of the application. &nbsp;Facilitating these analyses has required our team to make a variety of contributions of both a theoretical and practical nature. &nbsp;In addition to formalizing the suitability analysis problem, we have (i) developed new notions of reduction that are useful for assessing application-specific properties of an access control scheme; (ii) developed simulation decomposition techniques that have enabled the comparison of previously incomparable results from the literature, and allow analysts to develop application-centric notions of simulation to meet the needs of their application; (iii) designed and developed a simulation framework for carrying out a variety of cost analyses within the access control space; (iv) used our analysis techniques to answer several open questions regarding the relationship of group-centric access control paradigms with more traditional dissemination-centric access control paradigms; and (v) carried out two in-depth case studies generalizing our techniques beyond the analysis pure access controls systems. &nbsp;These applications beyond traditional access controls merit more detailed attention. &nbsp;</span></p> <p dir="ltr"><span>We first applied our analysis framework in the context of the world wide web, whose impact extends to nearly all facets of society. The security of the web is dependent on the secure Hypertext Transfer Protocol (https) which relies on public key infrastructures (PKIs). PKIs have demonstrated shortcomings in recent years which have in turn and fostered a number of innovations to improve their security (e.g., certificate pinning, certificate transparency). &nbsp;We extended our techniques to provide a quantitative framework for evaluating those innovations. This extended framework allows innovators of PKI improvement to evaluate the computational overhead of their security extensions to judge the real-work impact. Our software is freely available on GitHub as open source and technical reports document the design of our work and provide a summary of the PKI models implemented and evaluated.</span></p> <p dir="ltr"><span>We further applied our analysis framework to better understand the feasibility of enforcing access controls cryptographically, which is often touted as a solution to outsourced data management over untrusted infrastructure. &nbsp;Unfortunately, the literature tends to gloss over many low-level details (e.g., key and metadata management, policy changes) that can have enormous impacts on the efficiency of a construction. &nbsp;To explore this space, we developed lightweight constructions for enforcing role-based access controls (i.e., RBAC_0) over cloud-hosted files using identity-based and traditional public-key cryptography. This was done under a threat model as close as possible to the one assumed in the cryptographic literature. We proved the correctness of these constructions, and leveraged real-world RBAC datasets and our suitability analysis techniques to experimentally analyze, via simulation, their associated computational costs. This analysis showed that supporting revocation, file updates, and other state change functionality is likely to incur prohibitive overheads in even minimally-dynamic, realistic scenarios. We identified a number of bottlenecks in such systems, and fruitful areas for future work that will lead to more natural and efficient constructions for the cryptographic enforcement of dynamic access controls. Our findings naturally extend to the use of more expressive cryptographic primitives (e.g., HIBE or ABE) and richer access control models (e.g., RBAC_1 or ABAC). </span></p> <span>In summary, this project has made contributions to the foundations of access control analysis, answered open questions in the literature, and has given insights to practical problems emerging within the context of the world wide web and cloud computing.</span></span></p> <p>&nbsp;</p><br> <p>            Last Modified: 12/13/2016<br>      Modified by: Adam&nbsp;J&nbsp;Lee</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  Access control is fundamental to computer security, and has thus been the subject of extensive formal study. Research on access control has focused on whether one access control system is capable of emulating another, thereby comparing the expressive power of these systems. Unfortunately, the notions of expressiveness simulation that have been explored vary widely, which makes it difficult to compare results in the literature, and even leads to apparent contradictions between results. Some notions of expressiveness simulation make use of non-determinism, and thus cannot be used to define mappings between access control systems that are useful in practical scenarios. Furthermore, existing access control analysis techniques, while useful for theoretical analysis, are not designed for answering practical questions regarding the deployment and maintenance of the access control schemes best suited for a particular real-world application. In this project, we helped make sense of this space in both theoretical and practical terms.  We began by defining the access control suitability analysis problem, which seeks to determine the access control scheme that is the best fit for a particular application.  These types of analyses proceed in two phases.  In the first phase, expressiveness analyses are carried out to determine which access control schemes are expressive enough to meet the needs of the target application.  In the second phase, analytical cost analyses are carried out to determine the overheads associated with the use of each candidate access control scheme within the context of the application.  Facilitating these analyses has required our team to make a variety of contributions of both a theoretical and practical nature.  In addition to formalizing the suitability analysis problem, we have (i) developed new notions of reduction that are useful for assessing application-specific properties of an access control scheme; (ii) developed simulation decomposition techniques that have enabled the comparison of previously incomparable results from the literature, and allow analysts to develop application-centric notions of simulation to meet the needs of their application; (iii) designed and developed a simulation framework for carrying out a variety of cost analyses within the access control space; (iv) used our analysis techniques to answer several open questions regarding the relationship of group-centric access control paradigms with more traditional dissemination-centric access control paradigms; and (v) carried out two in-depth case studies generalizing our techniques beyond the analysis pure access controls systems.  These applications beyond traditional access controls merit more detailed attention.   We first applied our analysis framework in the context of the world wide web, whose impact extends to nearly all facets of society. The security of the web is dependent on the secure Hypertext Transfer Protocol (https) which relies on public key infrastructures (PKIs). PKIs have demonstrated shortcomings in recent years which have in turn and fostered a number of innovations to improve their security (e.g., certificate pinning, certificate transparency).  We extended our techniques to provide a quantitative framework for evaluating those innovations. This extended framework allows innovators of PKI improvement to evaluate the computational overhead of their security extensions to judge the real-work impact. Our software is freely available on GitHub as open source and technical reports document the design of our work and provide a summary of the PKI models implemented and evaluated. We further applied our analysis framework to better understand the feasibility of enforcing access controls cryptographically, which is often touted as a solution to outsourced data management over untrusted infrastructure.  Unfortunately, the literature tends to gloss over many low-level details (e.g., key and metadata management, policy changes) that can have enormous impacts on the efficiency of a construction.  To explore this space, we developed lightweight constructions for enforcing role-based access controls (i.e., RBAC_0) over cloud-hosted files using identity-based and traditional public-key cryptography. This was done under a threat model as close as possible to the one assumed in the cryptographic literature. We proved the correctness of these constructions, and leveraged real-world RBAC datasets and our suitability analysis techniques to experimentally analyze, via simulation, their associated computational costs. This analysis showed that supporting revocation, file updates, and other state change functionality is likely to incur prohibitive overheads in even minimally-dynamic, realistic scenarios. We identified a number of bottlenecks in such systems, and fruitful areas for future work that will lead to more natural and efficient constructions for the cryptographic enforcement of dynamic access controls. Our findings naturally extend to the use of more expressive cryptographic primitives (e.g., HIBE or ABE) and richer access control models (e.g., RBAC_1 or ABAC).  In summary, this project has made contributions to the foundations of access control analysis, answered open questions in the literature, and has given insights to practical problems emerging within the context of the world wide web and cloud computing.          Last Modified: 12/13/2016       Submitted by: Adam J Lee]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

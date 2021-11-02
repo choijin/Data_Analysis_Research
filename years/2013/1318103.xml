@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Memory Consistency -- Hardware, Compiler, and Programming Support</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>539999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The advent of multicore machines has enabled delivery of high performance via parallelism for a wide range of applications. While such machines have become ubiquitous, they pose significant challenges for software developers. One challenge is dealing with the relaxed memory consistency models supported by commercial multicore machines. Simultaneously delivering high performance and ensuring program correctness requires careful introduction of fence instructions in the code. Excessive use of fence instructions leads to poor performance while their omission of can lead to incorrect program behavior.&lt;br/&gt;&lt;br/&gt;This research will investigate means for constraining the scope of a fence instruction to minimize its impact on performance while preserving desired program behavior. In existing systems the hardware is unaware of the scope and hence fence implementations enforce a strict ordering of memory accesses across a fence that leads to unnecessary stalls. Alternative means for inferring the scope information will be developed for constraining the memory orderings enforced by the hardware. In particular, development of hardware, compiler, and programming support will be carried out. The software and hardware techniques developed in this research will be made available so other researchers are able to experiment with them. The subject of research is relevant to commercial processor manufacturers. The students involved in this research will receive valuable training in the design and programming of multicore systems.</AbstractNarration>
+<MinAmdLetterDate>08/26/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>07/23/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1318103</AwardID>
+<Investigator>
+<FirstName>Rajiv</FirstName>
+<LastName>Gupta</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Rajiv Gupta</PI_FULL_NAME>
+<EmailAddress>gupta@cs.ucr.edu</EmailAddress>
+<PI_PHON>9518272558</PI_PHON>
+<NSF_ID>000077772</NSF_ID>
+<StartDate>08/26/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Riverside</Name>
+<CityName>RIVERSIDE</CityName>
+<ZipCode>925210217</ZipCode>
+<PhoneNumber>9518275535</PhoneNumber>
+<StreetAddress>Research &amp; Economic Development</StreetAddress>
+<StreetAddress2><![CDATA[245 University Office Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>44</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA44</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>627797426</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Riverside]]></Name>
+<CityName>Riverside</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>925210001</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>41</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA41</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~450000</FUND_OBLG>
+<FUND_OBLG>2015~89999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>Intellectual Merit:</strong></p> <p>The implementation of memory consistency models used by modern parallel systems (multicores, clusters, and GPGPUs) has an enormous impact on programmer productivity and application performance. The choice of model and its implementation have traditionally been viewed as a trade-off between productivity and performance. This project made several important contributions that simultaneously deliver both productivity and performance. The key outcomes of this project are as follows:<br /><br />1. <em>Efficiently supporting sequential and relaxed consistency on multicores</em>: In context of multicores we developed new hardware implementations of sequential consistency whose performance is close to that achieved by relaxed consistency models. We also developed new forms of fence semantics that can enable the ordering of memory operations to be relaxed without violating sequential consistency including address-aware fences and fence scoping.<br /><br />2. <em>Relaxed consistency based asynchronous algorithms on clusters</em>: In context of clusters we developed new asynchronous algorithms for graph analytics tasks that exploit semantics of computations to safely relax consistency. The benefits derived include achieving better tolerance to communication latency for performance (ASPIRE), rapid and low cost recovery to machine failures (CoRAL), and rapid computation updates in reponse to changes to the graph structure in context of streaming graphs (KickStarter).<br /><br />3. <em>Asynchronous algorithms for GPGPUs</em>: Finally this project also developed parallel asynchronous algorothms for graph analytics and key-value stores that are suitable for single and multiple GPGPU configurations (CuSha, Vertex Refinement). These algorithms not only improve the SIMD efficiency on a single GPGPU, they also highly balance load across multiple GPGPUs and optimize communication between multiple GPGPUs.</p> <p><strong>Broader Impacts:</strong></p> <p>The results of this research have been widely disseminated by publication in high quality venues including ASPLOS (3 papers), HPDC (3 papers), USENIX ATC, OOPSLA, ICS (2 papers), SC (2 papers), LCPC, IJPP, ACM TACO and others. A number of PhD students participated in this project and have successfully completed their dissertations and are employed in academia as well as industry. Keval Vora (Simon Fraser Univ.) and Sai Charan Koduru (Microsoft) performed work related to clusters, Farzad Khorasani's (Georgia Tech) research dealt with GPGPUs, and work related to multicores was performed by Changhui Lin (Samsung), Amlan Kusum (Oracle), and Vineet Singh (Intel).</p><br> <p>            Last Modified: 09/02/2017<br>      Modified by: Rajiv&nbsp;Gupta</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual Merit:  The implementation of memory consistency models used by modern parallel systems (multicores, clusters, and GPGPUs) has an enormous impact on programmer productivity and application performance. The choice of model and its implementation have traditionally been viewed as a trade-off between productivity and performance. This project made several important contributions that simultaneously deliver both productivity and performance. The key outcomes of this project are as follows:  1. Efficiently supporting sequential and relaxed consistency on multicores: In context of multicores we developed new hardware implementations of sequential consistency whose performance is close to that achieved by relaxed consistency models. We also developed new forms of fence semantics that can enable the ordering of memory operations to be relaxed without violating sequential consistency including address-aware fences and fence scoping.  2. Relaxed consistency based asynchronous algorithms on clusters: In context of clusters we developed new asynchronous algorithms for graph analytics tasks that exploit semantics of computations to safely relax consistency. The benefits derived include achieving better tolerance to communication latency for performance (ASPIRE), rapid and low cost recovery to machine failures (CoRAL), and rapid computation updates in reponse to changes to the graph structure in context of streaming graphs (KickStarter).  3. Asynchronous algorithms for GPGPUs: Finally this project also developed parallel asynchronous algorothms for graph analytics and key-value stores that are suitable for single and multiple GPGPU configurations (CuSha, Vertex Refinement). These algorithms not only improve the SIMD efficiency on a single GPGPU, they also highly balance load across multiple GPGPUs and optimize communication between multiple GPGPUs.  Broader Impacts:  The results of this research have been widely disseminated by publication in high quality venues including ASPLOS (3 papers), HPDC (3 papers), USENIX ATC, OOPSLA, ICS (2 papers), SC (2 papers), LCPC, IJPP, ACM TACO and others. A number of PhD students participated in this project and have successfully completed their dissertations and are employed in academia as well as industry. Keval Vora (Simon Fraser Univ.) and Sai Charan Koduru (Microsoft) performed work related to clusters, Farzad Khorasani's (Georgia Tech) research dealt with GPGPUs, and work related to multicores was performed by Changhui Lin (Samsung), Amlan Kusum (Oracle), and Vineet Singh (Intel).       Last Modified: 09/02/2017       Submitted by: Rajiv Gupta]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

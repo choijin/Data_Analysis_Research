@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: How does deep learning improve speech recognition accuracy?</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tatiana Korelsky</SignBlockName>
+<PO_EMAI>tkorelsk@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Pervasive and accurate automatic speech recognition has the potential to transform society in many positive ways, not the least of which is providing better access to information for those who find it difficult or even impossible to interact with computers using a keyboard: e.g. the elderly, the physically disabled, or the vision impaired.  Every day millions of people use applications based on this technology to solve problems that are most naturally accomplished by interacting with machines via voice.  However, the most successful of these applications have always been rather limited in scope, because, although useful, speech recognition can be frustratingly unreliable. For example, human beings are easily able to understand one another despite loud background noise in a crowded room, severe distortion over a telephone channel, or wide variation in accents within their common language, but even much milder examples of these problems will completely derail a speech recognition system.  This EArly Grant for Exploratory Research (EAGER) supports a project whose short term goal is to understand in a deep, quantitative way why methodology used in nearly all speech recognizers is so brittle.  The long term goal is to leverage this understanding by developing less brittle methodology that will enable more accurate speech recognition with a wider scope of applicability. &lt;br/&gt;&lt;br/&gt;This exploratory study will, first, discover why multilayer perceptrons (MLPs) can sometimes improve speech recognition accuracy, second, use these diagnostic insights to select better MLP architectures, and, third, release software so that others can leverage the developed methods. The use of MLPs has staged a remarkable resurgence in the last decade, in particular the "deep" architectures developed recently.  In the field of speech recognition, there are two applications of MLPs that have significantly improved large vocabulary speech recognition accuracy.  Each of these applications work within the standard speech recognition machinery, which uses hidden Markov models (HMMs) to model the acoustics, mel-frequency cepstral coefficients (MFCCs) for the models' inputs (features), and multivariate normals for the hidden states' marginal distributions.  The first application makes a relatively minor adjustment to the standard machinery by augmenting the standard model inputs with new features learned from data using a MLP.  The second application makes a more substantial change to the standard machinery by replacing the collection of hidden states' marginal distributions with a single MLP that models the marginal state posteriors.  The research in the exploratory study will discover the basic mechanisms that the MLP-based features use to substantially improve HMM-based speech recognition accuracy.  This research builds upon the previous work in the ICSI lab that used simulation and a novel sampling process to quantify the impacts that the major HMM assumptions have on speech recognition accuracy.&lt;br/&gt;&lt;br/&gt;Other recent research on MLPs for speech recognition has either concentrated on implementation, i.e., how to actually improve speech recognition accuracy, or on theoretical asymptotic results.  While this research is obviously important, it has proceeded largely by trial and error and, in particular, it has not addressed the interesting scientific questions surrounding how these applications of MLPs actually improve speech recognition accuracy.  A deeper understanding of this latter question should, in the short term, lead to further improvements in speech recognition accuracy and, in the long term, enable the development of more suitable and successful models for speech recognition than the HMM, which would be a transformative advance in the field.</AbstractNarration>
+<MinAmdLetterDate>08/25/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/25/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1450916</AwardID>
+<Investigator>
+<FirstName>Steven</FirstName>
+<LastName>Wegmann</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Steven Wegmann</PI_FULL_NAME>
+<EmailAddress>swegmann@icsi.berkeley.edu</EmailAddress>
+<PI_PHON>5106662900</PI_PHON>
+<NSF_ID>000552675</NSF_ID>
+<StartDate>08/25/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>International Computer Science Institute</Name>
+<CityName>Berkeley</CityName>
+<ZipCode>947041345</ZipCode>
+<PhoneNumber>5106662900</PhoneNumber>
+<StreetAddress>2150 Shattuck Ave, Suite 1100</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>187909478</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>INTERNATIONAL COMPUTER SCIENCE INSTITUTE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[International Computer Science Institute]]></Name>
+<CityName>BERKELEY</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>947044115</ZipCode>
+<StreetAddress><![CDATA[1947 Center St STE 600]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7945</Code>
+<Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Automatic speech recognition is an enormously successful application of machine learning.&nbsp; Every day millions of people use applications based on this technology to solve problems that are most naturally accomplished by interacting with machines via voice.&nbsp; However, the most successful of these applications have always been rather limited in scope, because, although useful, speech recognition can be maddeningly unreliable. For example, human beings are easily able to understand one another despite loud background noise in a crowded room, severe distortion over a telephone channel, or wide variation in accents within their common language, but even much milder examples of these problems will completely derail a speech recognition system.&nbsp; The vision of Captain Kirk calmly interacting with his space ship's computer during a battle with the Klingon Empire must seem light years away to the poor soul trying to use a interactive voice menu to re-book a canceled flight over the phone in a busy airport.&nbsp; However, over the last several years researchers have made remarkable improvements to speech recognition accuracy that have resulted in similarly impressive improvements in the usability of speech-recognition-based commercial applications, e.g., Apple's Siri.&nbsp; Interestingly this progress is part of a broader trend, namely the rapid acceleration of the accuracy of machine learning technologies in areas as diverse as machine vision and machine translation in addition to speech recognition. The technology underlying this rapid acceleration, usually called deep learning, is a recasting of artificial neural nets coupled with large amounts of training data and computing power. <br /><br />The main goal of this project was to gain a deeper understanding into how deep learning enables these remarkable improvements in speech recognition accuracy, in particular to identify specific error inducing failure modes that deep learning is addressing - intentionally or not.&nbsp; This project focused on two obvious potential failures (there are many others) that the current speech recognition formalism, which is where the deep learning framework fits in, has.&nbsp; The first problem with the current formalism that was investigated is the transformation of the speech signal into an internal feature representation (technically, by default these are based on mel-frequency cepstral coefficients).&nbsp; An obvious hypothesis as to how deep learning is improving accuracy is that it is transforming the default feature representation into a sharper, more discriminative representation that results in fewer speech recognition errors.&nbsp; This hypothesis is consistent with analysis in other deep learning successes.&nbsp; The second problem that was investigated is the overly strong assumption that the temporal model at the heart of the speech recognition formalism makes (technically, this is a hidden Markov model).&nbsp; It has long been known that speech data violates this assumption, the conditional independence of features. The second hypothesis is that deep learning improves accuracy by transforming the default feature representation into a representation that somehow compensates for the erroneous conditional independence assumption.&nbsp; The project's results show that both hypothesis are in fact true, but surprisingly the majority of the improvement that deep learning makes comes from transforming the features into a representation that somehow compensates for the erroneous conditional independence assumption.&nbsp; The project also demonstrated that if the current formalism could be modified to make weaker independence assumptions, then simpler deep learning architectures and learning criteria might give the same remarkable improvements in speech recognition accuracy.</p><br> <p>            Last Modified: 02/08/2017<br>      Modified by: Steven&nbsp;Wegmann</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Automatic speech recognition is an enormously successful application of machine learning.  Every day millions of people use applications based on this technology to solve problems that are most naturally accomplished by interacting with machines via voice.  However, the most successful of these applications have always been rather limited in scope, because, although useful, speech recognition can be maddeningly unreliable. For example, human beings are easily able to understand one another despite loud background noise in a crowded room, severe distortion over a telephone channel, or wide variation in accents within their common language, but even much milder examples of these problems will completely derail a speech recognition system.  The vision of Captain Kirk calmly interacting with his space ship's computer during a battle with the Klingon Empire must seem light years away to the poor soul trying to use a interactive voice menu to re-book a canceled flight over the phone in a busy airport.  However, over the last several years researchers have made remarkable improvements to speech recognition accuracy that have resulted in similarly impressive improvements in the usability of speech-recognition-based commercial applications, e.g., Apple's Siri.  Interestingly this progress is part of a broader trend, namely the rapid acceleration of the accuracy of machine learning technologies in areas as diverse as machine vision and machine translation in addition to speech recognition. The technology underlying this rapid acceleration, usually called deep learning, is a recasting of artificial neural nets coupled with large amounts of training data and computing power.   The main goal of this project was to gain a deeper understanding into how deep learning enables these remarkable improvements in speech recognition accuracy, in particular to identify specific error inducing failure modes that deep learning is addressing - intentionally or not.  This project focused on two obvious potential failures (there are many others) that the current speech recognition formalism, which is where the deep learning framework fits in, has.  The first problem with the current formalism that was investigated is the transformation of the speech signal into an internal feature representation (technically, by default these are based on mel-frequency cepstral coefficients).  An obvious hypothesis as to how deep learning is improving accuracy is that it is transforming the default feature representation into a sharper, more discriminative representation that results in fewer speech recognition errors.  This hypothesis is consistent with analysis in other deep learning successes.  The second problem that was investigated is the overly strong assumption that the temporal model at the heart of the speech recognition formalism makes (technically, this is a hidden Markov model).  It has long been known that speech data violates this assumption, the conditional independence of features. The second hypothesis is that deep learning improves accuracy by transforming the default feature representation into a representation that somehow compensates for the erroneous conditional independence assumption.  The project's results show that both hypothesis are in fact true, but surprisingly the majority of the improvement that deep learning makes comes from transforming the features into a representation that somehow compensates for the erroneous conditional independence assumption.  The project also demonstrated that if the current formalism could be modified to make weaker independence assumptions, then simpler deep learning architectures and learning criteria might give the same remarkable improvements in speech recognition accuracy.       Last Modified: 02/08/2017       Submitted by: Steven Wegmann]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

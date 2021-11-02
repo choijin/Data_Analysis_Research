@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Formal and Empirical Foundations of Semantics-Preserving Machine Translation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>149896.00</AwardTotalIntnAmount>
+<AwardAmount>149896</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tatiana Korelsky</SignBlockName>
+<PO_EMAI>tkorelsk@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Statistical machine translation has been enormously successful over the last two decades, resulting in what is today a thriving industry highlighted by offerings such as Google Translate. Yet translation systems still often fail to preserve the semantics of sentences -- the "who did what to whom" relationships that they express. This is because they model translation as simple substitution and permutation of words, or at best as the reordering of syntactic units, such as nouns and adjectives. To preserve semantics, they must model semantics. At the same time, computational linguists have developed rigorous, expressive mathematical models of language that exhibit high empirical coverage of semantically annotated linguistic data, correctly predict a variety of important linguistic phenomena in many languages, and can be processed with highly efficient algorithms. However, these models are untested as the basis of statistical translation models.  &lt;br/&gt;&lt;br/&gt;This EArly Grant for Exploratory Research aims to close the gap, building the foundations of empirical semantics-preserving transduction models based on modern, linguistically-informed mathematical models of language. The project derives new mathematical functions that map linguistically expressive representations from one language to another, and implement them to align translated documents and translate new documents. Though high-risk, this exploratory project has the potential to unify and transform the disparate fields of empirical machine translation and theoretical computational linguistics.</AbstractNarration>
+<MinAmdLetterDate>08/15/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/15/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1349902</AwardID>
+<Investigator>
+<FirstName>Adam</FirstName>
+<LastName>Lopez</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Adam D Lopez</PI_FULL_NAME>
+<EmailAddress>alopez@cs.jhu.edu</EmailAddress>
+<PI_PHON>4105168668</PI_PHON>
+<NSF_ID>000637688</NSF_ID>
+<StartDate>08/15/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Johns Hopkins University</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212182686</ZipCode>
+<PhoneNumber>4439971898</PhoneNumber>
+<StreetAddress>1101 E 33rd St</StreetAddress>
+<StreetAddress2><![CDATA[Suite B001]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001910777</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>JOHNS HOPKINS UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001910777</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Johns Hopkins University]]></Name>
+<CityName/>
+<StateCode>MD</StateCode>
+<ZipCode>212182608</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~149896</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>The next generation of machine translation systems must explicitly model semantics, and efforts are underway to develop semantically-annotated corpora in multiple languages in support of this goal. Since the semantic annotations are directed acyclic graphs, it is natural to ask: what kind of probabilistic models can be used to predict a graph from a sentence, or a sentence from a graph? And how could a pair of such models be efficiently combined into a single model, that predicts a sentence in one language from a sentence in another language, using an explicit, graph-based representation of their shared semantics? To answer these questions, we turned to tools from formal language theory (also known as mathematical linguistics), which provides mathematical tools for compactly describing sets of strings, trees, and graphs. In many cases, it is possible to augment these mathematical models with real valued numbers, enabling them to represents probabilities over such sets. We investigated four formalisms that have been proposed over the past several decades, whose relationship is not yet fully understood: combinatory categorial grammar (CCG), directed acyclic graph automata (DAGA), hyperedge replacement grammar (HRG), and monadic second order logic (MSOL). Our main results pertain to CCG, which can define models that predict graphs from strings and vice versa. We have shown that it is possible to combine a pair of CCGs into a synchronous CCG (SCCG) a mathematical model that meets the theoretical objectives of the project. In the process of defining SCCG, we obtained a related result: we discovered that if we did not define the synchronous mechanism in a strict way, it is provably impossible to compute whether the model defines any semantically identical sentences. To see if we could relax this restriction, we tried to understand the relationship of CCG to DAGA, HRG, and MSOL. No one has looked at these formalisms together before, and although we do not yet have a complete theory of their relationship, we learned enough to make several conjectures: DAGA and MSOL cannot be made probabilistic in the usual way; while HRG has the same difficulty as CCG without a strict definition of synchronization. We also conjecture that CCG produces semantic graphs that are a subset of those produced by HRG. Since all of these formalisms have weaknesses, we have decided to see whether we can define a new formalism that combines their strengths without their weaknesses. This new line of research has received funding from Google.</span><br /> <br /> <span>We also investigated the semantic annotations empirically. Because we had English and Chinese translations with independently produced semantic graphs, we developed an alignment algorithm and visualization tool to compare them. We discovered that the annotations tended to be quite similar, but also discovered some discrepancies in their annotation style. Although the dataset we examined was too small to draw strong conclusions, we believe the methods and tools will be valuable as more data becomes available.</span></p><br> <p>            Last Modified: 10/30/2015<br>      Modified by: Adam&nbsp;D&nbsp;Lopez</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The next generation of machine translation systems must explicitly model semantics, and efforts are underway to develop semantically-annotated corpora in multiple languages in support of this goal. Since the semantic annotations are directed acyclic graphs, it is natural to ask: what kind of probabilistic models can be used to predict a graph from a sentence, or a sentence from a graph? And how could a pair of such models be efficiently combined into a single model, that predicts a sentence in one language from a sentence in another language, using an explicit, graph-based representation of their shared semantics? To answer these questions, we turned to tools from formal language theory (also known as mathematical linguistics), which provides mathematical tools for compactly describing sets of strings, trees, and graphs. In many cases, it is possible to augment these mathematical models with real valued numbers, enabling them to represents probabilities over such sets. We investigated four formalisms that have been proposed over the past several decades, whose relationship is not yet fully understood: combinatory categorial grammar (CCG), directed acyclic graph automata (DAGA), hyperedge replacement grammar (HRG), and monadic second order logic (MSOL). Our main results pertain to CCG, which can define models that predict graphs from strings and vice versa. We have shown that it is possible to combine a pair of CCGs into a synchronous CCG (SCCG) a mathematical model that meets the theoretical objectives of the project. In the process of defining SCCG, we obtained a related result: we discovered that if we did not define the synchronous mechanism in a strict way, it is provably impossible to compute whether the model defines any semantically identical sentences. To see if we could relax this restriction, we tried to understand the relationship of CCG to DAGA, HRG, and MSOL. No one has looked at these formalisms together before, and although we do not yet have a complete theory of their relationship, we learned enough to make several conjectures: DAGA and MSOL cannot be made probabilistic in the usual way; while HRG has the same difficulty as CCG without a strict definition of synchronization. We also conjecture that CCG produces semantic graphs that are a subset of those produced by HRG. Since all of these formalisms have weaknesses, we have decided to see whether we can define a new formalism that combines their strengths without their weaknesses. This new line of research has received funding from Google.    We also investigated the semantic annotations empirically. Because we had English and Chinese translations with independently produced semantic graphs, we developed an alignment algorithm and visualization tool to compare them. We discovered that the annotations tended to be quite similar, but also discovered some discrepancies in their annotation style. Although the dataset we examined was too small to draw strong conclusions, we believe the methods and tools will be valuable as more data becomes available.       Last Modified: 10/30/2015       Submitted by: Adam D Lopez]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

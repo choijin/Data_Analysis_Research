@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Implicit Multi-Scale Plasma Simulations Using Low Cost Matrix-Free Methods for Partial Differential Equations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>250000.00</AwardTotalIntnAmount>
+<AwardAmount>250000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The Carrington event of 1859 was a massive solar flair that hit the earth and left large amounts of charged particles trapped in the earth's magnetic field.  These charged particles created large currents that coupled to the telegraph wires via an inductive coupling, as what happens in transformers.   The currents that were pushed through the telegraph wires were so large they caused the telegraph machines to explode.  If this were to happen today, unless we know to turn off and disconnect the power grid, such an event would destroy modern power infrastructure. Yet solar flairs happen all the time, we can't simply turn off the power grid every time one happens.   From the time of detection, it takes 3 days for a solar flair to travel the distance to the earth.  Predicting if a solar flair will hit the earth is currently done with low resolution models, which are not particular good at predicting these events.  Increasing the accuracy to include more physics in the calculation leads to bigger calculations that simply can't be done in three days, even on modern super computers with state of the art methods.  This project centers on creating a new class of methods that could make these calculations possible.      &lt;br/&gt;&lt;br/&gt;One way to begin to address the issues of simulating problems with a significant number of time scales is to use implicit solvers.   These typically lead to large systems of implicitly coupled equations.  The main bottleneck in scalable solvers for such systems is in the communication and large number of interactions that are needed to solve these systems.  In this project we are pursuing a new paradigm that solves coupled systems of non-linear PDEs, it is important to note that the pieces of the operators are typically linear.  We have developed a strategy of expanding these pieces of the operators as global convolutions that give unconditional stability when combined with explicit time stepping methods, but can be cheaply evaluated with three term recurrence relations and avoids iteration.  This approach has led to unconditionally stable solvers for problems such as degenerate advection diffusion or the Hamilton Jacobi equations.  Here we are working to extend these methods to systems of PDEs.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/30/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/30/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1912183</AwardID>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>Christlieb</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew Christlieb</PI_FULL_NAME>
+<EmailAddress>christli@msu.edu</EmailAddress>
+<PI_PHON>5178848947</PI_PHON>
+<NSF_ID>000322671</NSF_ID>
+<StartDate>07/30/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Michigan State University</Name>
+<CityName>East Lansing</CityName>
+<ZipCode>488242600</ZipCode>
+<PhoneNumber>5173555040</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[426 Administration Bldg, Rm2]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>193247145</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MICHIGAN STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>053343976</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Michigan State University]]></Name>
+<CityName>East Lansing</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>488242600</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~250000</FUND_OBLG>
+</Award>
+</rootTag>

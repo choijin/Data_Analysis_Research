@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Statistical Learning for High-Dimensional Stochastic Dynamical Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>High-dimensional stochastic dynamical systems arise in a wide variety of scientific fields and applications, including models for the dynamics of molecules, of multi-agent systems (such as cars or animals), of activity of neurons, etc. The high-dimensionality of these systems corresponds to the large number of variables (atoms, agents, neurons, respectively, in the preceding examples) and typically makes these systems very expensive to simulate and hard to understand even when simulations are possible. This research project aims to develop novel ideas and algorithms for the model reduction of such systems. The investigator will develop automatic learning algorithms that, by collecting a number of short simulations in parallel, output a much lower-dimensional model of the original system that yields faster simulations, with provable accuracy, in a much reduced number of variables. This will make the simulations less expensive, allowing one to perform more and longer simulations, and make the extraction of useful information from simulated data easier. He will apply these constructions to molecular dynamics simulations, expecting to significantly reduce the computational time needed to simulate small biomolecules.&lt;br/&gt;&lt;br/&gt;Large data sets in high dimensional spaces appear in a wide variety of scientific fields and applications. The PI focuses here on data sets that originate from the simulation of high-dimensional stochastic systems that arise in a wide variety of applications (e.g. molecular dynamics), with the goal of producing a much lower dimensional stochastic system with similar statistical properties as the full system, at least at a certain time scale. This is possible for a wide variety of dynamical systems with separation of time scales when the structure of the forces acting on the system and the stochastic perturbations are such that the trajectories of the system accumulate, in state or phase space, around low-dimensional sets (at the appropriate time scale and accuracy). The approach only requires access to a simulator S for the original system that, given initial conditions and the shortest time scale of interest as inputs, produces as output a (stochastic) path of the system starting at that initial condition and stops at the specified time. A call to S is typically expensive, but after a small number of carefully designed calls that yield a relatively small number of short paths, the algorithm learns and outputs a low-dimensional representation of the system, that is, a low-dimensional stochastic system whose trajectories are (in a suitable statistical sense), at the requested time scale, close to those of the original system. This construction may be performed in an online setting, as new regions of state space are explored, and in a multiscale fashion, where the time scale at which the system is reduced varies. These techniques will be adaptive to the assumed low intrinsic dimension of the simulated data, the timescale of interest, and the accuracy, leading to a new generation of results and algorithms for learning and approximating high-dimensional stochastic systems. While the techniques to be developed are applicable to a large family of stochastic systems, the main application considered in this project is Molecular Dynamics (MD). These techniques are expected to dramatically speed up the exploration of the state space of these molecules and of MD simulations as a whole. At the same time, they are general enough that they are applicable to a wide variety of stochastic systems, and the framework sets the stage for a novel approach to automatic learning of dynamical systems that is amenable to further generalizations.</AbstractNarration>
+<MinAmdLetterDate>04/28/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>08/22/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1708602</AwardID>
+<Investigator>
+<FirstName>Mauro</FirstName>
+<LastName>Maggioni</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mauro Maggioni</PI_FULL_NAME>
+<EmailAddress>mauro.maggioni@jhu.edu</EmailAddress>
+<PI_PHON>4105166524</PI_PHON>
+<NSF_ID>000398937</NSF_ID>
+<StartDate>04/28/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Johns Hopkins University</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212182686</ZipCode>
+<PhoneNumber>4439971898</PhoneNumber>
+<StreetAddress>1101 E 33rd St</StreetAddress>
+<StreetAddress2><![CDATA[Suite B001]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001910777</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>JOHNS HOPKINS UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001910777</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Johns Hopkins University]]></Name>
+<CityName/>
+<StateCode>MD</StateCode>
+<ZipCode>212182608</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1266</Code>
+<Text>APPLIED MATHEMATICS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~196236</FUND_OBLG>
+<FUND_OBLG>2017~103764</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>The need to model phenomena at the micro- and macro-scale, from interacting atoms to interacting people, arises in a wide variety of fields. Accurate models are needed to both understand and predict such phenomena. Sometimes accurate models exist but are too complex to yield insight, in other cases no known models exist, and one seeks to infer them from observational data.</span></p> <p><span>In this project we addressed some of the fundamental mathematical and computational challenges underlying some of the problems above. On the one hand, we introduced new techniques to produce relatively simple, low-dimensional models for certain types of dynamical processes that are very high-dimensional, such as the movement of the atoms in a molecule of interest. The techniques lead to automatic algorithms that &nbsp;ask for carefully chosen observations or simulations of the system, and output a simplified, yet accurate, simulator of the system itself.&nbsp;</span>We expect these techniques to be useful in the study of molecular dynamics simulations of biomolecules, and lead to faster simulation techniques.</p> <p><span>We also considered the problem of inferring how agents (or particles) interact in a system with many interacting agents (or particles), given only observations of trajectories of the system. The agents may be cells, or animals, or people, and we assumed that agent interacted with all others by summing the interactions with each other agent (i.e. the interactions are pairwise), and that the strength of the interaction with each other agent, and its sign (attractive vs. repulsive) depended only on the distance between the agents. We constructed computationally and statistically efficient ways of constructing estimates for such interactions, given observations, and we tested out construction on a variety of models, ranging from dynamics of opinions to interacting atoms, from prey-predator models in ecology to phototactic bacteria, with very satisfactory results. We believe this will be a useful tool for researchers interested in modeling a wide variety of systems, across sciences.</span></p> <p>&nbsp;</p><br> <p>            Last Modified: 12/21/2018<br>      Modified by: Mauro&nbsp;Maggioni</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The need to model phenomena at the micro- and macro-scale, from interacting atoms to interacting people, arises in a wide variety of fields. Accurate models are needed to both understand and predict such phenomena. Sometimes accurate models exist but are too complex to yield insight, in other cases no known models exist, and one seeks to infer them from observational data.  In this project we addressed some of the fundamental mathematical and computational challenges underlying some of the problems above. On the one hand, we introduced new techniques to produce relatively simple, low-dimensional models for certain types of dynamical processes that are very high-dimensional, such as the movement of the atoms in a molecule of interest. The techniques lead to automatic algorithms that  ask for carefully chosen observations or simulations of the system, and output a simplified, yet accurate, simulator of the system itself. We expect these techniques to be useful in the study of molecular dynamics simulations of biomolecules, and lead to faster simulation techniques.  We also considered the problem of inferring how agents (or particles) interact in a system with many interacting agents (or particles), given only observations of trajectories of the system. The agents may be cells, or animals, or people, and we assumed that agent interacted with all others by summing the interactions with each other agent (i.e. the interactions are pairwise), and that the strength of the interaction with each other agent, and its sign (attractive vs. repulsive) depended only on the distance between the agents. We constructed computationally and statistically efficient ways of constructing estimates for such interactions, given observations, and we tested out construction on a variety of models, ranging from dynamics of opinions to interacting atoms, from prey-predator models in ecology to phototactic bacteria, with very satisfactory results. We believe this will be a useful tool for researchers interested in modeling a wide variety of systems, across sciences.          Last Modified: 12/21/2018       Submitted by: Mauro Maggioni]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

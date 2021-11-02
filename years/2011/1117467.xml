@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Complementary Branch Predictors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>239976.00</AwardTotalIntnAmount>
+<AwardAmount>239976</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>To maximize performance, modern processors attempt to execute as many instructions as possible in parallel. This requires the use of branch predictors to guess which instructions will be executed next in an effort to keep the processor busy. However, the penalty associated with incorrectly guessed branch outcomes has a great impact on performance. Despite being studied extensively and improved steadily over the past two decades, branch prediction remains to be critical for achieving high performance and low power. &lt;br/&gt;&lt;br/&gt;This project introduces a new direction in the design of branch predictors by providing insights into why branch predictors fail in predicting specific instances of dynamic branches. The research focuses on developing Complementary Branch Predictors (CBP), which can be added to any conventional branch predictor (BP). CBPs intelligently track the branches that are incorrectly predicted by a BP. A CBP complements the BP by providing corrective predictions for when and where a BP fails to predict the correct path. Given that modern BPs are already highly accurate, CBPs end up providing corrective predictions for the hardest-to-predict branches. Consequently, tightly-coupled BPs and CBPs form a new class of branch predictors that are fast, highly-accurate and power-efficient. This research explores the design space of this new class of branch predictors to achieve higher performance, lower power, and lower hardware budget.&lt;br/&gt;&lt;br/&gt;The findings from this project have the potential to significantly change the design of future branch predictors. The PI will collaborate with industry partners to further increase the broader impact. The research will engage graduate and undergraduate students and promote the participation of underrepresented groups.</AbstractNarration>
+<MinAmdLetterDate>06/22/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>06/22/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1117467</AwardID>
+<Investigator>
+<FirstName>Resit</FirstName>
+<LastName>Sendag</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Resit Sendag</PI_FULL_NAME>
+<EmailAddress>sendag@ele.uri.edu</EmailAddress>
+<PI_PHON>4018745138</PI_PHON>
+<NSF_ID>000383537</NSF_ID>
+<StartDate>06/22/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Rhode Island</Name>
+<CityName>KINGSTON</CityName>
+<ZipCode>028811967</ZipCode>
+<PhoneNumber>4018742635</PhoneNumber>
+<StreetAddress>RESEARCH OFFICE</StreetAddress>
+<StreetAddress2><![CDATA[70 LOWER COLLEGE ROAD]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<StateCode>RI</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>RI02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>144017188</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF RHODE ISLAND</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>075705780</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Rhode Island]]></Name>
+<CityName>KINGSTON</CityName>
+<StateCode>RI</StateCode>
+<ZipCode>028811967</ZipCode>
+<StreetAddress><![CDATA[RESEARCH OFFICE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>RI02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~239976</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Branch Prediction accuracy remains to be critical for high performance and low power in current microprocessors. This project investigated the sources of branch mispredictions and&nbsp;branch outcome and misprediction patterns, and developed complementary mechanisms to improve branch prediction accuracy.</p> <p>We have developed two new tools to analyze branch outcome and misprediction patterns. The first tool is a compherensive automatic branch misprediction classification and analysis tool, which guided us in developing efficient branch predictors by providing insights into why mispredictions occur (and pointing to the data-structures responsible for them). The second tool is a pattern analysis tool targeted for branch outcomes. The tool is capable of summarizing both overlapping and non-overlapping branch outcome patterns. The overlapping branch outcome patterns provide insights into predictability and thereby guide the design of efficient branch prediction mechanisms. The non-overlapping patterns give insights into spatial and temporal patterns and regularities in dynamic program behavior and thereby guide the design of streaming hardware prediction mechanisms.</p> <p>The project has further investigated the use of statistical methods in branch prediction. We showed that bootstrap aggregating, or bagging, - a statistical method that is used to improve accuracy of ensemble of predictors - can also be used to improve the branch predictor's accuracy.</p> <p>The results of this project have been mainly disseminated through publications. The project has resulted in two MS and one PhD theses in Electrical and Computer Engineering. Furthermore, through close collaboration with industry, the project has helped to quickly transfer some of the new prediction mechanisms and related tools to the industry and have significantly increased PI's collaboration with industry.</p><br> <p>            Last Modified: 09/29/2015<br>      Modified by: Resit&nbsp;Sendag</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Branch Prediction accuracy remains to be critical for high performance and low power in current microprocessors. This project investigated the sources of branch mispredictions and branch outcome and misprediction patterns, and developed complementary mechanisms to improve branch prediction accuracy.  We have developed two new tools to analyze branch outcome and misprediction patterns. The first tool is a compherensive automatic branch misprediction classification and analysis tool, which guided us in developing efficient branch predictors by providing insights into why mispredictions occur (and pointing to the data-structures responsible for them). The second tool is a pattern analysis tool targeted for branch outcomes. The tool is capable of summarizing both overlapping and non-overlapping branch outcome patterns. The overlapping branch outcome patterns provide insights into predictability and thereby guide the design of efficient branch prediction mechanisms. The non-overlapping patterns give insights into spatial and temporal patterns and regularities in dynamic program behavior and thereby guide the design of streaming hardware prediction mechanisms.  The project has further investigated the use of statistical methods in branch prediction. We showed that bootstrap aggregating, or bagging, - a statistical method that is used to improve accuracy of ensemble of predictors - can also be used to improve the branch predictor's accuracy.  The results of this project have been mainly disseminated through publications. The project has resulted in two MS and one PhD theses in Electrical and Computer Engineering. Furthermore, through close collaboration with industry, the project has helped to quickly transfer some of the new prediction mechanisms and related tools to the industry and have significantly increased PI's collaboration with industry.       Last Modified: 09/29/2015       Submitted by: Resit Sendag]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

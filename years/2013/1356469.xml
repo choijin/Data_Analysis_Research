@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: ABI Development: A New Platform for highly-optimized, low-latency pipelines for genomic data analysis</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2014</AwardEffectiveDate>
+<AwardExpirationDate>02/28/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>345581.00</AwardTotalIntnAmount>
+<AwardAmount>345581</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>08080000</Code>
+<Directorate>
+<Abbreviation>BIO</Abbreviation>
+<LongName>Direct For Biological Sciences</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DBI</Abbreviation>
+<LongName>Div Of Biological Infrastructure</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jennifer Weller</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Next-generation sequencing has transformed genomics into a new paradigm of data-intensive computing, raising several salient challenges. First, the deluge of genomic data needs to undergo deep analysis to mine biological information, which requires a full pipeline that integrates many data processing and analysis tools. Second, deep analysis pipelines often take long to run, which entails a long cycle for algorithm and method development. This project aims to bring the latest big data technology and database technology to the genomics domain to revolutionize its data crunching power. This project is anticipated to produce significant scientific and educational benefits. By providing a highly-optimized parallel processing platform for genomic data analysis and making it accessible in private and public clouds, it will enable many new models and algorithms to be developed for genomics and help advance this field at unprecedented speed as big data technology did for Internet companies. This project also integrates research and education with curriculum development, tutorials for K-12 teachers and community college faculty, and engaging women in research through college outreach and NSF-funded outreach programs.&lt;br/&gt;&lt;br/&gt;The proposed research includes the development of (1) a deep pipeline for genomic data analysis by assembling state-of-the-art methods, (2) automatic parallelization of the workflow using the big data technology, (3) a principled approach to optimizing the genomic pipeline, and (4) integration of streaming technology to reduce latency of important results. The prototype system will be deployed in both private and public cloud environments, and fully evaluated using existing long-running pipelines at the New York Genome Center and in a variety of real use cases. By way of doing so, this project will provide new knowledge regarding how to adapt and advance big data technology, including new optimization, partitioning, and scheduling techniques, for the genomics domain. The results of the project are disseminated at the web site: http://gesall.cs.umass.edu.</AbstractNarration>
+<MinAmdLetterDate>09/15/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>09/15/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.074</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1356469</AwardID>
+<Investigator>
+<FirstName>Toby</FirstName>
+<LastName>Bloom</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Toby Bloom</PI_FULL_NAME>
+<EmailAddress>tbloom@nygenome.org</EmailAddress>
+<PI_PHON>6469777000</PI_PHON>
+<NSF_ID>000650920</NSF_ID>
+<StartDate>09/15/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York Genome Center</Name>
+<CityName>New York</CityName>
+<ZipCode>100131941</ZipCode>
+<PhoneNumber>6469777000</PhoneNumber>
+<StreetAddress>101 Avenue of the Americas</StreetAddress>
+<StreetAddress2><![CDATA[7th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>078473711</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK GENOME CENTER, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York Genome Center]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100131942</ZipCode>
+<StreetAddress><![CDATA[101 Ave of the Americas]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1165</Code>
+<Text>ADVANCES IN BIO INFORMATICS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~345581</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project, we developed tools to optimize and parallelize sequence analysis methods used in standard genomics pipelines.&nbsp; These methods are often not embarrassingly parallel - meaning that simply partitioning the data in fixed-size chunks will produce different results.&nbsp; In a collaboration between the New York Genome Center and the Computer Science department at University of Massachusetts, Amherst, we first parallelized individual steps, testing that hte results metched exactly a serialized run of the same alogirthm on the same data, and we then compared performance metrics. Comparisons to GATK best practices pipelines were performed.&nbsp; The NYGC team provided the biological insights to understand the data relationships that blocked simple parallelization. Using the understanding gathered from this initial work, the UMass team proceeded to build a platform that supports parallelization of a range of these computational methods.&nbsp; Among the methods supported are two variant callers: Haplotype Caller and FreeBayes. In particular, FreeBayes has only been run sequentially thus far, and the slow turn-around time impedes its use, even among users who consider it to produce superior outcomes.&nbsp; This work will now allow FreeBayes to become available to a much wider audience.&nbsp; The parallelization platform itself will also enable new algorithms to be more easily, and accurarely, parallelized in the future.</p> <p>Preliminary work has been done to assess which other computationally and I/O-intensive genomic algorithms would benefit from database support, rather than just file support.&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 05/25/2018<br>      Modified by: Toby&nbsp;Bloom</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project, we developed tools to optimize and parallelize sequence analysis methods used in standard genomics pipelines.  These methods are often not embarrassingly parallel - meaning that simply partitioning the data in fixed-size chunks will produce different results.  In a collaboration between the New York Genome Center and the Computer Science department at University of Massachusetts, Amherst, we first parallelized individual steps, testing that hte results metched exactly a serialized run of the same alogirthm on the same data, and we then compared performance metrics. Comparisons to GATK best practices pipelines were performed.  The NYGC team provided the biological insights to understand the data relationships that blocked simple parallelization. Using the understanding gathered from this initial work, the UMass team proceeded to build a platform that supports parallelization of a range of these computational methods.  Among the methods supported are two variant callers: Haplotype Caller and FreeBayes. In particular, FreeBayes has only been run sequentially thus far, and the slow turn-around time impedes its use, even among users who consider it to produce superior outcomes.  This work will now allow FreeBayes to become available to a much wider audience.  The parallelization platform itself will also enable new algorithms to be more easily, and accurarely, parallelized in the future.  Preliminary work has been done to assess which other computationally and I/O-intensive genomic algorithms would benefit from database support, rather than just file support.           Last Modified: 05/25/2018       Submitted by: Toby Bloom]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

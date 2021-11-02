@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: New Directions in Network Dimensionality Reduction for Routing and Beyond</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Joseph Lyles</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Many important problems in computer networking depend on the observed properties of network graphs --- graphs obtained by measuring real network.  These include networks of routers, autonomous systems, wireless nodes, and social relationships.  Unfortunately, despite the explosion of detailed data now available, such graphs are still poorly understood, in part because of the high dimensionality of graph data.  The project is developing new methods for, and applications of, dimensionality reduction of network graphs. The starting point is recent work by illustrating the power of hyperbolic geometry for the problem.  Accordingly, the project has three goals: developing new methods for dimensionality reduction by embedding network graphs in hyperbolic spaces; discovering the applicability of hyperbolic embedding for a wide range of network graphs; and applying hyperbolic embedding to address practical networking questions.  Among the problems being investigated is finding new methods for routing that combine the simplicity of greedy routing with the desirable properties of high success rate and efficiency of paths. The project's results will create unique software tools for the community, facilitating research in this area by others; it will shed new light on the properties of graphs that are important to networking; and it will develop new methods for routing that may be used in future networks.  This project will provide training for two graduate students and its results will be disseminated in the form of both publications and freely distributed software.</AbstractNarration>
+<MinAmdLetterDate>07/07/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>09/07/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1018266</AwardID>
+<Investigator>
+<FirstName>Mark</FirstName>
+<LastName>Crovella</LastName>
+<PI_MID_INIT>E</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mark E Crovella</PI_FULL_NAME>
+<EmailAddress>crovella@bu.edu</EmailAddress>
+<PI_PHON>6173538923</PI_PHON>
+<NSF_ID>000155113</NSF_ID>
+<StartDate>07/07/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Trustees of Boston University</Name>
+<CityName>BOSTON</CityName>
+<ZipCode>022151300</ZipCode>
+<PhoneNumber>6173534365</PhoneNumber>
+<StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049435266</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF BOSTON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049435266</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Trustees of Boston University]]></Name>
+<CityName>BOSTON</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>022151300</ZipCode>
+<StreetAddress><![CDATA[881 COMMONWEALTH AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~150000</FUND_OBLG>
+<FUND_OBLG>2011~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>One of the most basic challenges in building communication networks like the Internet is in designing algorithms for routing -- that is, algorithms for computing the path a packet should travel from its source node to its destination node. &nbsp;This project has developed new routing methods that are particularly simple, scalable, and effective. &nbsp;The core idea is to assign nodes to points in space and to forward packets from point to point in the "direction" of the destination -- an approach called "greedy routing." &nbsp;Greedy routing is very appealing because nodes only need to keep track of the positions of their neighbors (rather than tracking information about every other node in the network). &nbsp;Unfortunately, greedy routing cannot work in general when nodes are placed in Euclidean space (the everyday kind of space that we live in). &nbsp;This project has shown how to use a different kind of space (discovered in the 19th century) called hyperbolic space to solve problems in greedy routing. &nbsp;Hyperbolic space has the property that it expands with distance much faster than Euclidean space, and this makes it possible to place network nodes in such a way that greedy routing always succeeds.</p> <p><br />The project has delivered a number of research products that are of benefit to engineering and to society generally. &nbsp; &nbsp;The project produced the first software package capable of placing networks into hyperbolic space in an optimal fashion; &nbsp;this package is freely distributed in open source form by the project investigators. &nbsp; This package enables other researchers to experiment with and study networks in hyperbolic space. &nbsp; The project also produced the first algorithms that allowed growing networks &nbsp;(networks that are adding nodes) to be embedded in hyperbolic space in a fashion that ensures greedy routing will always succeed. &nbsp; This result has been widely cited in the literature and has led to considerable follow-on work by other researchers. &nbsp; Finally, the project also produced the first algorithms that allowed networks to be embedded in hyperbolic space in a way that attempts to minimize the lengths of the paths taken by packets. &nbsp; All of these results have been published in the open, peer-reviewed literature (conferences and journals). &nbsp;</p> <p><br />The project has been the training ground for multiple graduate students, who have developed expertise in network measurement, network analysis, routing algorithms, and non-Euclidean geometry. &nbsp; The researchers supported by this project include one student whose PhD thesis was entirely based on the research funded by this grant.</p><br> <p>            Last Modified: 07/07/2014<br>      Modified by: Mark&nbsp;E&nbsp;Crovella</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2014/1018266/1018266_10018087_1404755290926_fig-example-embed--rgov-214x142.jpg" original="/por/images/Reports/POR/2014/1018266/1018266_10018087_1404755290926_fig-example-embed--rgov-800width.jpg" title="Greedy Embedding in Hyperbolic Space"><img src="/por/images/Reports/POR/2014/1018266/1018266_10018087_1404755290926_fig-example-embed--rgov-66x44.jpg" alt="Greedy Embedding in Hyperbolic Space"></a> <div class="imageCaptionContainer"> <div class="imageCaption">This shows an example of how we embed a network in hyperbolic space while ensuring that greedy routing always succeeds. The arcs are act...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ One of the most basic challenges in building communication networks like the Internet is in designing algorithms for routing -- that is, algorithms for computing the path a packet should travel from its source node to its destination node.  This project has developed new routing methods that are particularly simple, scalable, and effective.  The core idea is to assign nodes to points in space and to forward packets from point to point in the "direction" of the destination -- an approach called "greedy routing."  Greedy routing is very appealing because nodes only need to keep track of the positions of their neighbors (rather than tracking information about every other node in the network).  Unfortunately, greedy routing cannot work in general when nodes are placed in Euclidean space (the everyday kind of space that we live in).  This project has shown how to use a different kind of space (discovered in the 19th century) called hyperbolic space to solve problems in greedy routing.  Hyperbolic space has the property that it expands with distance much faster than Euclidean space, and this makes it possible to place network nodes in such a way that greedy routing always succeeds.   The project has delivered a number of research products that are of benefit to engineering and to society generally.    The project produced the first software package capable of placing networks into hyperbolic space in an optimal fashion;  this package is freely distributed in open source form by the project investigators.   This package enables other researchers to experiment with and study networks in hyperbolic space.   The project also produced the first algorithms that allowed growing networks  (networks that are adding nodes) to be embedded in hyperbolic space in a fashion that ensures greedy routing will always succeed.   This result has been widely cited in the literature and has led to considerable follow-on work by other researchers.   Finally, the project also produced the first algorithms that allowed networks to be embedded in hyperbolic space in a way that attempts to minimize the lengths of the paths taken by packets.   All of these results have been published in the open, peer-reviewed literature (conferences and journals).     The project has been the training ground for multiple graduate students, who have developed expertise in network measurement, network analysis, routing algorithms, and non-Euclidean geometry.   The researchers supported by this project include one student whose PhD thesis was entirely based on the research funded by this grant.       Last Modified: 07/07/2014       Submitted by: Mark E Crovella]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

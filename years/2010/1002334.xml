@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Digital PLL with Observer-Controller Loop Filter</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>350000.00</AwardTotalIntnAmount>
+<AwardAmount>350000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07010000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>ECCS</Abbreviation>
+<LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>GEORGE HADDAD</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The objective of this research is to develop a digital phase-locked loop (DPLL) that achieves low phase noise while being fundamentally robust to interferers and the effects of transport delays. The approach is to employ sophisticated digital control schemes so that the effects of circuit noise, external interferers, and loop latency can be explicitly modeled and accounted for in the digital feedback loop. This approach contrasts with existing loop filters, whose bandwidth is generally the only design parameter that can be modified to mitigate the effects of interferers or other undesirable non-idealities.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: In the approach pursued in this project, the analog components of the DPLL are modeled as a noisy plant in state-space form. When viewed from this perspective, controlling the noisy plant to generate the desired frequency can be posed as a linear regulator problem, which is a classical problem of optimal linear control theory. The observer-controller loop filter developed in this project is broadly applicable to a wide range of existing systems that employ PLLs. Furthermore, the inherent robustness to interference of the proposed DPLL enables its use in many emerging systems such as in direct-conversion and out-phasing transmitter architectures.&lt;br/&gt;&lt;br/&gt;Broader Impacts: The research is integrated with an education program to help train both graduate and undergraduate students. The multi-disciplinary nature of the research will broaden the students' technical understanding, which will be indispensable for the next generation of engineers. The educational program also includes plans to improve the participation of undergraduate students and members of underrepresented groups.</AbstractNarration>
+<MinAmdLetterDate>08/30/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/30/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1002334</AwardID>
+<Investigator>
+<FirstName>Won</FirstName>
+<LastName>Namgoong</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Won Namgoong</PI_FULL_NAME>
+<EmailAddress>wnamgoong@albany.edu</EmailAddress>
+<PI_PHON>5189568247</PI_PHON>
+<NSF_ID>000486054</NSF_ID>
+<StartDate>08/30/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Dallas</Name>
+<CityName>Richardson</CityName>
+<ZipCode>750803021</ZipCode>
+<PhoneNumber>9728832313</PhoneNumber>
+<StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX32</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>800188161</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT DALLAS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Dallas]]></Name>
+<CityName>Richardson</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>750803021</ZipCode>
+<StreetAddress><![CDATA[800 W. Campbell Rd., AD15]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX32</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7564</Code>
+<Text>CCSS-Comms Circuits &amp; Sens Sys</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~350000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Phase-locked-loop (PLL) is widely used in many electronic systems. In RF communication transceivers, for example, PLL is used to generate the desired RF frequency based on a reference crystal frequency, which typically operates at a much lower frequency (e.g., 26 MHz). A PLL is also used to distribute clock timing pulses in digital logic designs such as in microprocessors and for clock recovery in chip-to-chip interconnects. Although used in many different applications, the basic operation of the PLL is the same. The frequency of a locally controlled oscillator is adjusted to phase lock to a reference signal.</p> <p>&nbsp;</p> <p>Digital phase-locked-loop (DPLL) has been recently developed to exploit the increasing transistor speed of modern process technology. The salient features of the DPLL are that the phase detector is performed digitally using a time-to-digital converter (TDC), and the voltage-controlled oscillator (VCO) is digitally controlled and referred to as digitally-controlled oscillator (DCO). The use of TDC and DCO enable the loop filter to be fully digital. The all-digital nature of the loop filter provides the DPLL with many implementation advantages, among which are improved noise immunity from circuit non-idealities (e.g., charge pump feed-through, mismatches, etc.), compatibility with digital deep-submicron CMOS process, simplified testing and calibration, and ease of integration with digital baseband circuitries.</p> <p><br />The loop filter in existing DPLL is obtained by converting the continuous-time response of an analog PLL to a discrete-time approximation. As the loop filter is all-digital, more sophisticated control schemes can be used instead. In the proposed loop filter, the DCO and TDC are modeled as a noisy plant in state-space form. When viewed from this perspective, controlling the noisy plant to generate the desired frequency can be posed as a linear regulator problem, which is a classical problem of optimal linear control theory. As the optimal control is a linear feedback of the state vectors, which cannot be observed directly, a Kalman filter is used to estimate the state variables.</p> <p>&nbsp;</p> <p>The primary advantage of the proposed observer-controller DPLL is that it provides additional degrees of freedom necessary to mitigate the effects of circuit noise, external interferers, and implementation constraints such as digital transport delay. Such degrees of freedom are not available in existing loop filters, whose loop bandwidth is basically the only design parameter. The proposed observer-controller loop filter explicitly incorporates these constraints in a state-space formulation to provide the requisite degrees of freedom. Much of our work has focused on developing a clear fundamental understanding and addressing the many practical issues of an observer-controller DPLL.</p><br> <p>            Last Modified: 11/30/2014<br>      Modified by: Won&nbsp;Namgoong</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Phase-locked-loop (PLL) is widely used in many electronic systems. In RF communication transceivers, for example, PLL is used to generate the desired RF frequency based on a reference crystal frequency, which typically operates at a much lower frequency (e.g., 26 MHz). A PLL is also used to distribute clock timing pulses in digital logic designs such as in microprocessors and for clock recovery in chip-to-chip interconnects. Although used in many different applications, the basic operation of the PLL is the same. The frequency of a locally controlled oscillator is adjusted to phase lock to a reference signal.     Digital phase-locked-loop (DPLL) has been recently developed to exploit the increasing transistor speed of modern process technology. The salient features of the DPLL are that the phase detector is performed digitally using a time-to-digital converter (TDC), and the voltage-controlled oscillator (VCO) is digitally controlled and referred to as digitally-controlled oscillator (DCO). The use of TDC and DCO enable the loop filter to be fully digital. The all-digital nature of the loop filter provides the DPLL with many implementation advantages, among which are improved noise immunity from circuit non-idealities (e.g., charge pump feed-through, mismatches, etc.), compatibility with digital deep-submicron CMOS process, simplified testing and calibration, and ease of integration with digital baseband circuitries.   The loop filter in existing DPLL is obtained by converting the continuous-time response of an analog PLL to a discrete-time approximation. As the loop filter is all-digital, more sophisticated control schemes can be used instead. In the proposed loop filter, the DCO and TDC are modeled as a noisy plant in state-space form. When viewed from this perspective, controlling the noisy plant to generate the desired frequency can be posed as a linear regulator problem, which is a classical problem of optimal linear control theory. As the optimal control is a linear feedback of the state vectors, which cannot be observed directly, a Kalman filter is used to estimate the state variables.     The primary advantage of the proposed observer-controller DPLL is that it provides additional degrees of freedom necessary to mitigate the effects of circuit noise, external interferers, and implementation constraints such as digital transport delay. Such degrees of freedom are not available in existing loop filters, whose loop bandwidth is basically the only design parameter. The proposed observer-controller loop filter explicitly incorporates these constraints in a state-space formulation to provide the requisite degrees of freedom. Much of our work has focused on developing a clear fundamental understanding and addressing the many practical issues of an observer-controller DPLL.       Last Modified: 11/30/2014       Submitted by: Won Namgoong]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

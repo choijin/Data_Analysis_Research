@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SI2-SSE: STAMLA: Scalable Tree Algorithms for Machine Learning Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>499992.00</AwardTotalIntnAmount>
+<AwardAmount>499992</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Stefan Robila</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The voluminous growth in data together with the burgeoning field of data science have greatly increased the demand for machine learning, a field of computer science that focuses on the development of programs that can learn and change in response to new data. With increasing access to large volumes of data, practitioners often resort to machine learning to construct more precise models of nature, or to learn fundamentally new concepts. For example, machine learning can help improve the accuracy of weather and climate predictions, model the efficacy of drugs and their interactions, and identify specific features, such as a face, from a large set of images or videos. But with the growth of data volumes, the speed with which machine can learn from data is decreasing. As a result, new techniques are required to accelerate learning algorithms so that they can be applied to larger and more complex data sets. This work will develop new approaches to improve the performance of a wide class of machine learning algorithms. Specifically, this work will leverage the C++ programming language and recent research into fundamental bit operations to make fast tree-like data structures that underlie many of the most commonly used implementations of machine learning algorithms. In particular, algorithms in the scikit-learn library, the most widely used machine learning library written in the Python programming language, will be accelerated by using our these new tree data structures. Given the widespread adoption of the scikit learn library, this work will impact diverse fields from Astronomy to Biology to Geoscience to Physics. The scikit learn library is also one of the more popular libraries for teaching (and understanding) machine learning. With an explosion of books, blogs, and tutorials that use scikit learn algorithms and pipelines to demonstrate specific types of machine learning such as classification, regression, clustering, and feature extraction, this project will immediately impact a wide range of people from seasoned practitioners, engineers gaining additional training, and students at universities and colleges across the nation. In addition, these tree data structures will be submitted for inclusion in the C++ standard, which would impact millions of developers world-wide. Finally, the algorithms will be implemented under an open source license in a public forum.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The STAMLA project aims at developing efficient and scalable tree algorithms inspired from high performance simulation codes for machine learning. Over the last few years, machine learning has become a popular technique in data mining to extract information from data sets, build models and make predictions across a wide range of application areas. However, current tools have been built in high-level languages with more focus on functionalities than on pure performance. But as scientific experiments are accumulating more and more data, and as complex models are requiring larger and larger training sets, scalability issues are emerging. At the same time, in high performance computing, petascale simulations have shown that fundamental data structure optimizations can have a significant impact on overall code performance. In particular, by replacing straightforward tree implementations with implicit trees based on hash tables, simulation codes are able to make the most of modern architecture, leveraging cache and vectorization. This research project will apply this knowledge to machine learning algorithms in order to overcome the limitations of existing libraries and make analyses of extremely large data sets possible. The proposed research includes the development of three library layers, built on top of each other. The first layer is a library of fast bit manipulation tools for tree indexing. It extends existing research that has already demonstrated two to three orders of magnitude improvements compared to standard solutions provided by compilers. The second layer is a tree building blocks library developed using generative programming techniques. This layer will provide developers with generic tools to build efficient implicit trees for specific domains and optimized at compile time to make the most of the targeted architecture. Finally, the third layer consists in a contribution package to the scikit-learn library to leverage the data structures introduced in the second layer. Together, these three layers form a consistent set that propagates low level optimizations based on high performance computing practices to one of the most widely used high level machine learning library. As machine learning is domain independent, the results of this project have the potential to impact all data intensive applications relying on machine learning algorithms based on tree data structures. Moreover, in addition to being developed in an open source framework via a public repository, the three library layers will be released through different channels: 1) the bit manipulation tools will aim at standardization in the C++ language through a collaboration with the ISO C++ Standards Committee 2) the tree building blocks will be proposed for inclusion in the Boost C++ libraries and 3) the machine learning algorithms will be published as a contribution package of the scikit-learn library. These channels will ensure a large adoption of the tools developed throughout this project, and their long-term support by well established communities.</AbstractNarration>
+<MinAmdLetterDate>09/08/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>09/08/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1642411</AwardID>
+<Investigator>
+<FirstName>Robert</FirstName>
+<LastName>Brunner</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Robert J Brunner</PI_FULL_NAME>
+<EmailAddress>bigdog@illinois.edu</EmailAddress>
+<PI_PHON>2172446099</PI_PHON>
+<NSF_ID>000290047</NSF_ID>
+<StartDate>09/08/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Vincent</FirstName>
+<LastName>Reverdy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vincent Reverdy</PI_FULL_NAME>
+<EmailAddress>vreverdy@illinois.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000696018</NSF_ID>
+<StartDate>09/08/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName/>
+<StateCode>IL</StateCode>
+<ZipCode>618013074</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8005</Code>
+<Text>Scientific Software Elements</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~499992</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In a context where most programming languages are still lacking standardized tree data structures and algorithms, the goal of the STAMLA project was to fill that void, with a particular focus on what is the most needed by machine learning applications.<br /><br />Throughout the project, the most outstanding challenge, far beyond algorithmic development, was the design of tree abstractions. Hundreds of types of tree data structures exist and are in use, leading to thousands of implementations. Standardizing trees requires a different approach focused on composable building blocks rather than specific instances. It appeared that what was much needed was a library of concepts rather than a library of algorithms. Also, the STAMLA project was developed alongside of C++ concepts, a programming language technology that will be officially released as part of C++2020. In the end, a significant effort was invested into leveraging this technology.<br /><br />At a theoretical level, which ended up constituting most of the effort, the project led to three main developments. The first one has been to use a type theoretic approach to software architecture in conjunction with the C++ conceptualization. The methodology is still in its infancy and need to be formalized but its application to several ongoing C++ standardization projects has been very promising. This led to the second main development: a solution to the proxy problem. In order to make the most of high performance architectures, tree data structures require specific low-level developments. However, from a software architecture standpoint, providing low-level customization points at high level of abstractions while ensuring genericity and composability has always been very complicated. While working on bit manipulation for implicit trees, it appeared that a generalized version of generic proxy types could provide an elegant solution to this problem. In that context, the use of category and type theory was especially useful. A complete framework to handle proxy types will be proposed for standardization to the C++ committee, with direct applications in bit manipulation and vectorization. International collaborations, including with Paris-Sud's Computer Science Laboratory, in France, largely contributed to these reflections. And third, after years of attempts to solve the problem of tree building blocks abstractions, a solution is finally in sight. The STAMLA project led to early developments in the conceptification of hyperiterators, as a multi-dimensional generalization to iterators. This promising research direction may provide a unique abstraction for linear algebra building blocks, graphs, and trees. Many years of work will still be necessary, but if successful, this approach would be significant achievement and would finally unify many problems seen as unrelated in software architecture.<br /><br />In parallel with the theoretical investigations, the STAMLA project also focused on more concrete developments, including ones on bit manipulation, Monte-Carlo Tree Search (MCTS), and Abstract Syntax Trees (ASTs). As mentioned before, bit manipulation is probably one of the most critical component in high performance implicit trees. But applications of bit manipulation goes far beyond trees and includes, for example, multiprecision arithmetic. STAMLA contributed to the development of The Bit Library, today available through a public repository, but also currently in the process of standardization and likely to be released as part of C++23. The first component of it, basic low-level bit twiddling functions will be released through the &lt;bit&gt; header as part of C++20. It is already available today, worldwide, in most compilers as an experimental feature. Part of the bit library have also been included in GCC's internals. STAMLA also led to new developments in MCTS, which then led to developments in genetic algorithms and in general game-playing, especially through a collaboration with Paris-Diderot University. These constituted perfect use cases in the process of designing tree abstractions. Finally, STAMLA also contributed to research on compile-time ASTs through another collaboration with Paris-Sud's Computer Science Laboratory. This project evolved into the development of a Domain Specific Language to process symbolic mathematical formulas at compile-time. Results have been presented at CppCon 2019, and the approach is being considered to implement auto-differentiation in C++.<br /><br />Finally, at an organizational level, the project contributed to the creation of the ISO WG21 Study Group 19 on Machine Learning, an international initiative to standardize low-level machine learning C++ building blocks. The idea behind this group is to gather world-leading experts from academia and industry to build a common basis for machine learning frameworks. Current projects include linear algebra, basic statistics, automatic differentiation, and graphs and trees. The study group constituted a perfect platform to gather feedback from teams who developed the most advanced graphs and trees libraries worldwide, such as the Boost Graph Library. The standardization group is alive and well, and will outlive the STAMLA project.</p><br> <p>            Last Modified: 05/01/2020<br>      Modified by: Vincent&nbsp;Reverdy</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In a context where most programming languages are still lacking standardized tree data structures and algorithms, the goal of the STAMLA project was to fill that void, with a particular focus on what is the most needed by machine learning applications.  Throughout the project, the most outstanding challenge, far beyond algorithmic development, was the design of tree abstractions. Hundreds of types of tree data structures exist and are in use, leading to thousands of implementations. Standardizing trees requires a different approach focused on composable building blocks rather than specific instances. It appeared that what was much needed was a library of concepts rather than a library of algorithms. Also, the STAMLA project was developed alongside of C++ concepts, a programming language technology that will be officially released as part of C++2020. In the end, a significant effort was invested into leveraging this technology.  At a theoretical level, which ended up constituting most of the effort, the project led to three main developments. The first one has been to use a type theoretic approach to software architecture in conjunction with the C++ conceptualization. The methodology is still in its infancy and need to be formalized but its application to several ongoing C++ standardization projects has been very promising. This led to the second main development: a solution to the proxy problem. In order to make the most of high performance architectures, tree data structures require specific low-level developments. However, from a software architecture standpoint, providing low-level customization points at high level of abstractions while ensuring genericity and composability has always been very complicated. While working on bit manipulation for implicit trees, it appeared that a generalized version of generic proxy types could provide an elegant solution to this problem. In that context, the use of category and type theory was especially useful. A complete framework to handle proxy types will be proposed for standardization to the C++ committee, with direct applications in bit manipulation and vectorization. International collaborations, including with Paris-Sud's Computer Science Laboratory, in France, largely contributed to these reflections. And third, after years of attempts to solve the problem of tree building blocks abstractions, a solution is finally in sight. The STAMLA project led to early developments in the conceptification of hyperiterators, as a multi-dimensional generalization to iterators. This promising research direction may provide a unique abstraction for linear algebra building blocks, graphs, and trees. Many years of work will still be necessary, but if successful, this approach would be significant achievement and would finally unify many problems seen as unrelated in software architecture.  In parallel with the theoretical investigations, the STAMLA project also focused on more concrete developments, including ones on bit manipulation, Monte-Carlo Tree Search (MCTS), and Abstract Syntax Trees (ASTs). As mentioned before, bit manipulation is probably one of the most critical component in high performance implicit trees. But applications of bit manipulation goes far beyond trees and includes, for example, multiprecision arithmetic. STAMLA contributed to the development of The Bit Library, today available through a public repository, but also currently in the process of standardization and likely to be released as part of C++23. The first component of it, basic low-level bit twiddling functions will be released through the &lt;bit&gt; header as part of C++20. It is already available today, worldwide, in most compilers as an experimental feature. Part of the bit library have also been included in GCC's internals. STAMLA also led to new developments in MCTS, which then led to developments in genetic algorithms and in general game-playing, especially through a collaboration with Paris-Diderot University. These constituted perfect use cases in the process of designing tree abstractions. Finally, STAMLA also contributed to research on compile-time ASTs through another collaboration with Paris-Sud's Computer Science Laboratory. This project evolved into the development of a Domain Specific Language to process symbolic mathematical formulas at compile-time. Results have been presented at CppCon 2019, and the approach is being considered to implement auto-differentiation in C++.  Finally, at an organizational level, the project contributed to the creation of the ISO WG21 Study Group 19 on Machine Learning, an international initiative to standardize low-level machine learning C++ building blocks. The idea behind this group is to gather world-leading experts from academia and industry to build a common basis for machine learning frameworks. Current projects include linear algebra, basic statistics, automatic differentiation, and graphs and trees. The study group constituted a perfect platform to gather feedback from teams who developed the most advanced graphs and trees libraries worldwide, such as the Boost Graph Library. The standardization group is alive and well, and will outlive the STAMLA project.       Last Modified: 05/01/2020       Submitted by: Vincent Reverdy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

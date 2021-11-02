@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Predicting protein structures with physical petascale molecular simulations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>30000.00</AwardTotalIntnAmount>
+<AwardAmount>30000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Edward Walker</SignBlockName>
+<PO_EMAI>edwalker@nsf.gov</PO_EMAI>
+<PO_PHON>7032924863</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>We have a new computational method (MELD) for predicting protein structures.  Unlike others, it is based on physics of atomic interactions.  The power of physical methods is that they help us understand how proteins perform their biological actions as catalysts, motors, pumps, transporters and transducers of energy and light.  With such algorithms, computers can work hand-in-hand with experiments to provide narratives of the microscopic mechanisms of biology.  In the past, physics-based structure prediction was much too computationally costly.  The power of MELD is in harnessing weak external knowledge in a way that preserves the power of physical methods (satisfies Boltzmann's Law), and scales up to tackle larger problems of biology than before. &lt;br/&gt;&lt;br/&gt;Our work with MELD so far has shown that we can use atomistic molecular dynamics to fold 15 out of 20 small proteins to their correct native structures, and to fold 3 small proteins with very high accuracy in the blind test called CASP11 (last summer).  No MD simulation can yet fold a protein larger than around 120 amino acids.  But, most biologically important proteins are bigger.  We have shown that MELD should scale well to larger systems.  With this Blue Water allocation we hope to achieve the computational folding of larger proteins. The code we use and the way to implement it is already available in the public GitHub repositories as a plugin to the popular OpenMM molecular dynamics package. With Blue Waters' GPU resources, we hope to bring the power of atomistic MD to folding and mechanisms that can tell some of biology's most interesting stories.</AbstractNarration>
+<MinAmdLetterDate>08/05/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/05/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1514873</AwardID>
+<Investigator>
+<FirstName>Ken</FirstName>
+<LastName>Dill</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ken A Dill</PI_FULL_NAME>
+<EmailAddress>dill@laufercenter.org</EmailAddress>
+<PI_PHON>6316325401</PI_PHON>
+<NSF_ID>000586819</NSF_ID>
+<StartDate>08/05/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Alberto</FirstName>
+<LastName>Perez</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alberto Perez</PI_FULL_NAME>
+<EmailAddress>perez@chem.ufl.edu</EmailAddress>
+<PI_PHON>6176804935</PI_PHON>
+<NSF_ID>000682989</NSF_ID>
+<StartDate>08/05/2015</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>SUNY at Stony Brook</Name>
+<CityName>Stony Brook</CityName>
+<ZipCode>117940001</ZipCode>
+<PhoneNumber>6316329949</PhoneNumber>
+<StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804878247</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>020657151</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[SUNY at Stony Brook]]></Name>
+<CityName/>
+<StateCode>NY</StateCode>
+<ZipCode>117943362</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7781</Code>
+<Text>Leadership-Class Computing</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~30000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We used this allocation to study how to predict protein structures and protein-peptide interactions. To achieve that we used MELD accelerated molecular dynamics (MELD x MD) simulations on the Blue Waters GPU supercomputer cluster. &nbsp;The important proof of principle we are chasing here is whether purely physical forcefield-based modeling, without database-inference assistance, is sufficient to accurately predict protein structures and energies.</p> <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We tested MELD x MD on the protein folding problem in the CASP12 blind protein folding prediction competition. We produced several predictions that were subsequently evaluated to be the best in all of CASP. Combining external information from servers and evolutionary sequence-conservation knowledge, we were the first group to successfully use physics-based simulation to predict the structure of proteins longer than 100 residues. &nbsp;The numbers and sizes of the target proteins in this time-sensitive competition would not have been possible without the Blue Waters supercomputer. &nbsp;We have also used our allocation to tackle computational folding of so-called <em>glass-ceiling</em> proteins. These are proteins for which there is no good homology model from databases, so conventional bioinformatics tools don't work.&nbsp; In a set of 40 such proteins, we found that MELD x MD folded 22 of them.</p> <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We used our allocation for one other test of physics-based computer simulations, namely the binding of flexible peptides to flexible proteins.&nbsp; Flexibility is essential for getting right anwers, and cannot be done by database methods, but because of the numbers of degrees of freedom of peptides and proteins, this is a challenge beyond normal MD.&nbsp; We applied MELD x MD to docking the p53 peptide to the MDM2/MDMX protein, an important target for cancer therapy. We showed how MELD is able to identify the correct binding site for the peptides and rank order different peptides by their binding affinities. This showcases the role that physics based simulations have in drug design, where they can be used to predict how much a drug is selective toward a specific disease target. We expanded this project in collaboration with MERCK, leading to a joint publication. We studied peptide alternatives that would bind better to the p53 cancer target. We showed that our predictions are in agreement with experimental results, opening the way to use MELD x MD in drug discovery.&nbsp;&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/18/2018<br>      Modified by: Ken&nbsp;A&nbsp;Dill</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[             We used this allocation to study how to predict protein structures and protein-peptide interactions. To achieve that we used MELD accelerated molecular dynamics (MELD x MD) simulations on the Blue Waters GPU supercomputer cluster.  The important proof of principle we are chasing here is whether purely physical forcefield-based modeling, without database-inference assistance, is sufficient to accurately predict protein structures and energies.              We tested MELD x MD on the protein folding problem in the CASP12 blind protein folding prediction competition. We produced several predictions that were subsequently evaluated to be the best in all of CASP. Combining external information from servers and evolutionary sequence-conservation knowledge, we were the first group to successfully use physics-based simulation to predict the structure of proteins longer than 100 residues.  The numbers and sizes of the target proteins in this time-sensitive competition would not have been possible without the Blue Waters supercomputer.  We have also used our allocation to tackle computational folding of so-called glass-ceiling proteins. These are proteins for which there is no good homology model from databases, so conventional bioinformatics tools don't work.  In a set of 40 such proteins, we found that MELD x MD folded 22 of them.              We used our allocation for one other test of physics-based computer simulations, namely the binding of flexible peptides to flexible proteins.  Flexibility is essential for getting right anwers, and cannot be done by database methods, but because of the numbers of degrees of freedom of peptides and proteins, this is a challenge beyond normal MD.  We applied MELD x MD to docking the p53 peptide to the MDM2/MDMX protein, an important target for cancer therapy. We showed how MELD is able to identify the correct binding site for the peptides and rank order different peptides by their binding affinities. This showcases the role that physics based simulations have in drug design, where they can be used to predict how much a drug is selective toward a specific disease target. We expanded this project in collaboration with MERCK, leading to a joint publication. We studied peptide alternatives that would bind better to the p53 cancer target. We showed that our predictions are in agreement with experimental results, opening the way to use MELD x MD in drug discovery.            Last Modified: 10/18/2018       Submitted by: Ken A Dill]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:Small: Enriching Session Types for Practical Concurrent Programming</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Concurrent programming is becoming increasingly prevalent because of the distributed nature of many applications and the prospect of performance gains.  However, concurrent programming is also notoriously error-prone because of the presence of data races and deadlocks.  A promising approach to concurrent programing is message-passing concurrency, due to its higher-level of abstraction.  Message-passing concurrency has been adopted by various practical programming languages, such as Erlang, Go, and Rust.  Servo, for example, is an experimental browser engine developed in Rust that exploits message-passing concurrency for tasks, such as DOM traversal, layout painting, and JavaScript execution.  This research project studies the application of session types to practical message-passing concurrency, while addressing the pitfalls of data races and deadlocks.  Session types allow the expression and compile-time checking of the protocols of message exchange.  The project's intellectual merits are to lift the expressiveness of session types to accommodate today's concurrent communication patterns, while remaining truthful to their logical foundation.  The project's broader significance and importance are its provision of both a foundational and practical view on concurrent programming, the development of curricular material at the sophomore-level, and a session type extension for Rust.&lt;br/&gt;&lt;br/&gt;The logical foundation of this research project is the recently discovered Curry-Howard isomorphism between intuitionistic linear logic and session types, which relates linear propositions to session types, sequent calculus proofs to concurrent processes, and cut reduction to message-passing communication.  Existing work building on this foundation provides strong guarantees, but also narrows the applicability of session types.  The aim of this research is two-fold: (i) to increase the applicability of session types, while keeping their logical foundation intact, and (ii) to demonstrate practicality of the resulting techniques to real-world software development.  For (ii), the project explores the application of the techniques resulting from (i) to the Servo code base.  For (i), the project first explores the introduction of shared channels to support programs that demand sharing by the nature of circumstances or for performance considerations.  Key concerns in this exploration are the prevention of data races along shared channels to guarantee session fidelity and the assurance of a form of global progress.  In its simplest form, global progress will lack deadlock freedom, a property holding in the purely linear setting.  In a second phase, a logical interpretation of deadlock prevention is derived.  In a third phase, the project explores the enrichment of session types with dependent typing for the expression and verification of properties that are not primarily protocol-related.  In all cases, proofs of soundness as well as a prototype of a session-typed concurrent programming language accommodating the developed techniques are given.</AbstractNarration>
+<MinAmdLetterDate>07/07/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1718267</AwardID>
+<Investigator>
+<FirstName>Frank</FirstName>
+<LastName>Pfenning</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Frank Pfenning</PI_FULL_NAME>
+<EmailAddress>fp@cs.cmu.edu</EmailAddress>
+<PI_PHON>4122686343</PI_PHON>
+<NSF_ID>000205092</NSF_ID>
+<StartDate>07/07/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Stephanie</FirstName>
+<LastName>Balzer</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Stephanie Balzer</PI_FULL_NAME>
+<EmailAddress>balzers@cs.cmu.edu</EmailAddress>
+<PI_PHON>4129969622</PI_PHON>
+<NSF_ID>000692017</NSF_ID>
+<StartDate>07/07/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie Mellon University]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133890</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Modern computer hardware as present on laptops, tablets, or phones, can run many instructions in parallel, but writing correct programs that exploit parallelism is still a difficult and error-prone task.&nbsp; One approach towards reducing errors and produce more reliable software is to verify that programs communicating with each other adhere to a common protocol before they are ever executed.&nbsp; A particularly expressive technique for this purpose is the use of <strong>session types</strong> for channels of communication that specify and enforce such protocols.&nbsp; However, session types so far had a significant practical limitation, namely that they do not account for shared resources, such as the camera on a phone.<br /><br />The work under this proposal brought session types much closer to practical applications by allowing communication to and from shared resources without giving up the guarantees that session types provide (namely: the adherence to the specified protocols).&nbsp; The new <strong>shared session types</strong> thereby rule out whole classes of common errors in programs before the programs are ever executed.<br /><br />To practically evaluate the theoretical results originating from this proposal, we have implemented shared session types in <strong>Concurrent C0</strong>, an extension of C0, a language used for teaching imperative programming at Carnegie Mellon University, and <strong>Ferrite</strong> (https://github.com/maybevoid/ferrite), a session type DSL in Rust.&nbsp; In terms of <strong>intellectual merit</strong>, the project lifts the expressiveness of session types to accommodate today's concurrent communication patterns, while remaining truthful to their logical foundation, a Curry-Howard correspondence between linear logic and the session-typed pi-calculus.&nbsp; In terms of <strong>broader impacts</strong>, the project allows a wide dissemination of the research results both in teaching and practice thanks to the development of Concurrent C0 and Ferrite.</p><br> <p>            Last Modified: 10/30/2020<br>      Modified by: Frank&nbsp;Pfenning</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Modern computer hardware as present on laptops, tablets, or phones, can run many instructions in parallel, but writing correct programs that exploit parallelism is still a difficult and error-prone task.  One approach towards reducing errors and produce more reliable software is to verify that programs communicating with each other adhere to a common protocol before they are ever executed.  A particularly expressive technique for this purpose is the use of session types for channels of communication that specify and enforce such protocols.  However, session types so far had a significant practical limitation, namely that they do not account for shared resources, such as the camera on a phone.  The work under this proposal brought session types much closer to practical applications by allowing communication to and from shared resources without giving up the guarantees that session types provide (namely: the adherence to the specified protocols).  The new shared session types thereby rule out whole classes of common errors in programs before the programs are ever executed.  To practically evaluate the theoretical results originating from this proposal, we have implemented shared session types in Concurrent C0, an extension of C0, a language used for teaching imperative programming at Carnegie Mellon University, and Ferrite (https://github.com/maybevoid/ferrite), a session type DSL in Rust.  In terms of intellectual merit, the project lifts the expressiveness of session types to accommodate today's concurrent communication patterns, while remaining truthful to their logical foundation, a Curry-Howard correspondence between linear logic and the session-typed pi-calculus.  In terms of broader impacts, the project allows a wide dissemination of the research results both in teaching and practice thanks to the development of Concurrent C0 and Ferrite.       Last Modified: 10/30/2020       Submitted by: Frank Pfenning]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

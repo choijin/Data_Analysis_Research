@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: III: RUI: Effective Protein Characterization via Fast Exact Open Modification Searching</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/17/2019</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>141988.00</AwardTotalIntnAmount>
+<AwardAmount>141988</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sylvia Spengler</SignBlockName>
+<PO_EMAI>sspengle@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Proteins form the major building blocks of cells, and protein-protein interactions provide information about cell functions. Characterizing these interactions is made possible through mass spectrometry (MS), a technique that breaks down complex biological samples into much simpler ions and measures their individual masses. Computer algorithms can then be used to interpret the output of MS experiments. The advent of tandem mass spectrometry (MS/MS), also known as shotgun proteomics, led to a huge increase in the speed with which researchers can execute proteomics experiments, which in turn has enabled the creation of massive databases containing millions of known spectra. This research will create novel algorithms that will be able to quickly identify which proteins exist in a biological sample by comparing unknown spectra from the sample against entire libraries of known spectra. Ultimately, this project will make it easier for humans to understand the molecular basis of disease and will enable personalized medicine and identifying new drugs to tackle currently incurable diseases. &lt;br/&gt;&lt;br/&gt;The goal of this project is to develop novel methods for protein characterization in MS/MS experiment results that will provide increased spectral match effectiveness while scaling to search the largest existing protein databases and beyond. The key computational component in shotgun proteomics is matching MS/MS spectra against theoretical spectra or actual spectra in spectral databases to identify possible peptides (protein sections). In essence, given a translation of the spectra to points in the Euclidean space and a chosen proximity function, the algorithmic component in the search is a nearest neighbor search algorithm. Due to the large size of spectral databases, the problem has been traditionally solved through a variety of approximate nearest neighbor search methods and a combination of vector space and probabilistic proximity measures which are often not scalable and lead to missed spectral matches. This project aims to address these limitations in two ways. First, it will develop novel filtering-based exact nearest neighbor search methods for the shifted dot-product proximity measure, which has been recently shown to outperform alternatives by accounting for spectral post translational modifications while searching for matches. The proposed filtering-based methods prune much of the search space by eliminating potential candidates without computing their proximity to the query, based on their composition and on theoretic properties of the proximity measure. Second, the project will develop effective decomposition techniques for the inherently irregular computation requirements of the proposed pruning-based search that will enable distributed methods to search the largest proteomics databases of today, and beyond. The project will result in the dissemination of the developed methods to the large computational genomics community and will involve research education of underrepresented undergraduate students.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>12/10/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>01/31/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2002321</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Anastasiu</LastName>
+<PI_MID_INIT>C</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David C Anastasiu</PI_FULL_NAME>
+<EmailAddress>danastasiu@scu.edu</EmailAddress>
+<PI_PHON>4085511941</PI_PHON>
+<NSF_ID>000737815</NSF_ID>
+<StartDate>12/10/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Santa Clara University</Name>
+<CityName>Santa Clara</CityName>
+<CountyName>SANTA CLARA</CountyName>
+<ZipCode>950504345</ZipCode>
+<PhoneNumber>4085544764</PhoneNumber>
+<StreetAddress>500 El Camino Real</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>054800214</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PRESIDENT AND BOARD OF TRUSTEES OF SANTA CLARA COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>054800214</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Santa Clara University]]></Name>
+<CityName>Santa Clara</CityName>
+<CountyName>SANTA CLARA</CountyName>
+<StateCode>CA</StateCode>
+<ZipCode>950504345</ZipCode>
+<StreetAddress><![CDATA[500 El Camino Real]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9229</Code>
+<Text>RES IN UNDERGRAD INST-RESEARCH</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~52831</FUND_OBLG>
+<FUND_OBLG>2020~89157</FUND_OBLG>
+</Award>
+</rootTag>

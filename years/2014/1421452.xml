@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Joint Power Optimization of Data Center Network and Servers with Correlation Analysis and Scalability</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Power optimization has become a key challenge in the design of today's data centers. Many recent studies have shown that there are typically three major power consumers in a data center: servers, cooling systems, and the data center network (DCN). While the power efficiency of data center cooling has been significantly improved in the recent years, it is foreseeable that servers and DCN are becoming the two most significant power consumers in the future. Unfortunately, while existing research efforts focus mainly on computer servers to lower their power consumption, only few studies have tried to address the power consumption of DCN, which can account for about 20% of the total power consumption of a data center. This project aims to design a correlation-aware power optimization framework that jointly minimizes the total power consumption of the DCN and servers in a data center. The success of this timely project can greatly impact the data center design by significantly reducing DCN power consumption.&lt;br/&gt;&lt;br/&gt;The main technical approach of the power optimization framework is correlation-aware server and traffic consolidations. Similar to servers, a DCN is also often underutilized. As a result, traffic flows can be consolidated onto a small set of links and switches, such that unused network devices can be shut down for power savings. Server and traffic consolidations should be conducted jointly because server consolidation without considering the DCN may cause traffic congestion and thus degraded network performance. On the other hand, server consolidation may change the DCN topology, allowing new opportunities for power savings. This framework is designed based on a key observation that the utilizations of different servers or the bandwidth demands of different flows usually do not peak at exactly the same time. Therefore, if the correlations among servers and traffic flows are considered, more power savings can be achieved during server and traffic consolidations. The power optimization framework also includes multi-dimensional DCN power optimization with flow completion time guarantees and highly scalable optimization algorithms for large-scale data centers.</AbstractNarration>
+<MinAmdLetterDate>08/04/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/04/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421452</AwardID>
+<Investigator>
+<FirstName>Xiaorui</FirstName>
+<LastName>Wang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Xiaorui Wang</PI_FULL_NAME>
+<EmailAddress>xwang@ece.osu.edu</EmailAddress>
+<PI_PHON>6142471977</PI_PHON>
+<NSF_ID>000344273</NSF_ID>
+<StartDate>08/04/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University</Name>
+<CityName>Columbus</CityName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888735</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1960 Kenny Road]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832127323</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001964634</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName>Dublin</CityName>
+<StateCode>OH</StateCode>
+<ZipCode>432101016</ZipCode>
+<StreetAddress><![CDATA[1960 Kenny Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The objective of our research project is to design a correlation-aware power optimization framework that jointly minimizes the total power consumption of the data center network (DCN) and servers in a data center. Our analysis of real data center traces from Wikipedia, Yahoo!, and IBM shows that the utilizations of different servers or the bandwidth demands of different flows usually do not peak at exactly the same time. Therefore, if we avoid consolidating servers or traffic flows that are positively correlated (i.e., peak at the same time), we can save more power during server and traffic consolidations. This is in sharp contrast to existing research that assumes the server utilization or flow bandwidth demand can be approximated as a constant during a consolidation. Our framework includes the following four major components: 1) Correlation-aware power optimization algorithm for DCNs. 2) Joint power optimization of DCN and servers with correlation analysis. 3) Multi-dimensional DCN power optimization with flow completion time (FCT) guarantees. 4) Highly scalable optimization algorithms for large data centers.</p> <p>&nbsp;</p> <p>We now introduce our technical outcomes in detail. For 1) correlation-aware power optimization algorithm for DCNs, we have designed CARPO, a correlation-aware power optimization algorithm that dynamically consolidates traffic flows onto a small set of links and switches in a DCN and then shuts down unused network devices for energy savings. In sharp contrast to existing work, CARPO is designed based on a key observation from the analysis of real DCN traces that the bandwidth demands of different flows do not peak at exactly the same time. As a result, if the correlations among flows are considered in consolidation, more energy savings can be achieved. This work was published in the IEEE Transactions on Parallel and Distributed Systems (TPDS) in April 2016. For 2) joint power optimization of DCN and servers with correlation analysis, we have designed PowerNetS, a power optimization strategy that leverages workload correlation analysis to jointly minimize the total power consumption of servers and the DCN. PowerNetS considers the DCN topology during server consolidation, which leads to less inter-server traffic and thus more energy savings and shorter network delays. This work was published in INFOCOM 2014 and the extended version was published in the IEEE Transactions on Network and Service Management (TNSM) in September 2017. For 3) multi-dimensional DCN power optimization with flow completion time (FCT) guarantees, we have designed PowerFCT to jointly conduct traffic consolidation and leverage the different power states of multiple components inside the DCN switches, including CPU, network processor, switch fabric, packet buffer and cooling fans, for DCN power savings. This work was published in IPDPS 2015. More importantly, we have designed FCTcon, a dynamic FCT control strategy for DCN power optimization. FCTcon is designed rigorously based on control theory to dynamically control the FCT of delay-sensitive traffic flows exactly to requirements, such that the desired FCT performance is guaranteed while the maximum amount of DCN power savings can be achieved. This work was published in ICDCS 2017 and the extended version is currently under review at the IEEE Transactions on Cloud Computing (TCC). For 4) highly scalable optimization algorithms for large data centers, we have designed DISCO, a distributed traffic flow consolidation mechanism with delay constraints. DISCO features two distributed traffic consolidation algorithms that provide different trade-offs (as desired by different DCN architectures) between scalability, power savings, and network performance. This work was published in Networking 2017 and the extended version is currently under review at IEEE TPDS.</p> <p>&nbsp;</p> <p>The broader impacts of this project are as follows. First, our correlation-aware DCN power optimization framework has significantly improved the energy efficiency of today&rsquo;s data center networks. For example, the results in our INFOCOM 2014 paper demonstrate that our framework can save up to 51.6% of energy for a data center. In addition, our work also outperforms two state-of-the-art baselines by 44.3% and 15.8% on energy savings, respectively. Those timely solutions can significantly help data centers to lower their electricity costs and reduce their greenhouse gas emissions to benefit the whole society. Second, on the education side, we have successfully integrated our research results into several undergraduate and graduate courses taught by the PI, such as ECE 8862, Special Topics in Advanced Computer Design Methodologies. The research of this project has provided a rich set of examples, design tools, and project opportunities for these courses. In addition, we have supported two Ph.D. students to do dissertations on this topic. Both the two students have successfully graduated with their Ph.D. degrees and one student has joined Wayne State University in Michigan as a tenure-track assistant professor. On the result dissemination, we have presented our results in major conferences and workshops. We have also released all the software artifacts developed in this project (including optimization algorithms, simulators, and related tools) in the open-source model.</p><br> <p>            Last Modified: 08/09/2018<br>      Modified by: Xiaorui&nbsp;Wang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The objective of our research project is to design a correlation-aware power optimization framework that jointly minimizes the total power consumption of the data center network (DCN) and servers in a data center. Our analysis of real data center traces from Wikipedia, Yahoo!, and IBM shows that the utilizations of different servers or the bandwidth demands of different flows usually do not peak at exactly the same time. Therefore, if we avoid consolidating servers or traffic flows that are positively correlated (i.e., peak at the same time), we can save more power during server and traffic consolidations. This is in sharp contrast to existing research that assumes the server utilization or flow bandwidth demand can be approximated as a constant during a consolidation. Our framework includes the following four major components: 1) Correlation-aware power optimization algorithm for DCNs. 2) Joint power optimization of DCN and servers with correlation analysis. 3) Multi-dimensional DCN power optimization with flow completion time (FCT) guarantees. 4) Highly scalable optimization algorithms for large data centers.     We now introduce our technical outcomes in detail. For 1) correlation-aware power optimization algorithm for DCNs, we have designed CARPO, a correlation-aware power optimization algorithm that dynamically consolidates traffic flows onto a small set of links and switches in a DCN and then shuts down unused network devices for energy savings. In sharp contrast to existing work, CARPO is designed based on a key observation from the analysis of real DCN traces that the bandwidth demands of different flows do not peak at exactly the same time. As a result, if the correlations among flows are considered in consolidation, more energy savings can be achieved. This work was published in the IEEE Transactions on Parallel and Distributed Systems (TPDS) in April 2016. For 2) joint power optimization of DCN and servers with correlation analysis, we have designed PowerNetS, a power optimization strategy that leverages workload correlation analysis to jointly minimize the total power consumption of servers and the DCN. PowerNetS considers the DCN topology during server consolidation, which leads to less inter-server traffic and thus more energy savings and shorter network delays. This work was published in INFOCOM 2014 and the extended version was published in the IEEE Transactions on Network and Service Management (TNSM) in September 2017. For 3) multi-dimensional DCN power optimization with flow completion time (FCT) guarantees, we have designed PowerFCT to jointly conduct traffic consolidation and leverage the different power states of multiple components inside the DCN switches, including CPU, network processor, switch fabric, packet buffer and cooling fans, for DCN power savings. This work was published in IPDPS 2015. More importantly, we have designed FCTcon, a dynamic FCT control strategy for DCN power optimization. FCTcon is designed rigorously based on control theory to dynamically control the FCT of delay-sensitive traffic flows exactly to requirements, such that the desired FCT performance is guaranteed while the maximum amount of DCN power savings can be achieved. This work was published in ICDCS 2017 and the extended version is currently under review at the IEEE Transactions on Cloud Computing (TCC). For 4) highly scalable optimization algorithms for large data centers, we have designed DISCO, a distributed traffic flow consolidation mechanism with delay constraints. DISCO features two distributed traffic consolidation algorithms that provide different trade-offs (as desired by different DCN architectures) between scalability, power savings, and network performance. This work was published in Networking 2017 and the extended version is currently under review at IEEE TPDS.     The broader impacts of this project are as follows. First, our correlation-aware DCN power optimization framework has significantly improved the energy efficiency of today?s data center networks. For example, the results in our INFOCOM 2014 paper demonstrate that our framework can save up to 51.6% of energy for a data center. In addition, our work also outperforms two state-of-the-art baselines by 44.3% and 15.8% on energy savings, respectively. Those timely solutions can significantly help data centers to lower their electricity costs and reduce their greenhouse gas emissions to benefit the whole society. Second, on the education side, we have successfully integrated our research results into several undergraduate and graduate courses taught by the PI, such as ECE 8862, Special Topics in Advanced Computer Design Methodologies. The research of this project has provided a rich set of examples, design tools, and project opportunities for these courses. In addition, we have supported two Ph.D. students to do dissertations on this topic. Both the two students have successfully graduated with their Ph.D. degrees and one student has joined Wayne State University in Michigan as a tenure-track assistant professor. On the result dissemination, we have presented our results in major conferences and workshops. We have also released all the software artifacts developed in this project (including optimization algorithms, simulators, and related tools) in the open-source model.       Last Modified: 08/09/2018       Submitted by: Xiaorui Wang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

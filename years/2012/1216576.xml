@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Efficient Unstructured Discontinuous Galerkin Methods for Global Nonhydrostatic Atmospheric Modeling</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>357568.00</AwardTotalIntnAmount>
+<AwardAmount>357568</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This is a proposal to develop efficient unstructured discontinuous Galerkin (DG) methods for global non-hydrostatic atmospheric modeling. As the horizontal resolution of numerical weather prediction models increases, it becomes advantageous to model non-hydrostatic motions. The dynamics of deep convective clouds are non-hydrostatic and these clouds produce important feedbacks on the larger-scale flow that are difficult to parameterize. To represent such clouds and similar small-scale processes, the equations solved by global atmospheric models must transition from hydrostatic to non-hydrostatic formulations. A host of challenging, non-trivial numerical problems arise when one enters the non-hydrostatic regime, including: I) developing efficient time-integrators and/or "soundproof" equation sets to confront the fast acoustic waves supported by the governing equations; II) effectively resolving multi-scale flow features, that may require adaptive mesh refinement (AMR); and III) constructing spatial discretization methods that conserve all important quantities and can be exploited to satisfy the above two conditions. Item (I) will be addressed by designing a suite of implicit-explicit (IMEX) time-integrators for our governing equations and discrete spatial operators to allow larger explicit time-steps with better conditioned implicit parts. In addition, the fully compressible (Euler) equations will be compared to sound-proof systems (anelastic, pseudo-incompressible) in meteorologically relevant test cases. Item (II) will be addressed by testing two forms of AMR: conforming and nonconforming methods. Conforming methods are traditionally used with continuous discretization methods and require no modifications to the partial differential equation (PDE) solver since the AMR is essentially a separate method. Nonconforming methods are traditionally used with discontinuous methods but can also be used with continuous methods. Nonconforming methods couple the PDE solver with the AMR approach in a seamless fashion thereby requiring modification of the PDE solver. Item (III) will be addressed by virtue of the DG method that is capable of delivering both local and global conservation of all prognostic variables and is also well suited for handling strong gradients (e.g., discontinuities) that may be introduced by the moist variables. &lt;br/&gt;&lt;br/&gt;Long-range weather forecasting and studies of the Earth's climate use computers to simulate the weather over the entire globe. Individual thunderstorms and clusters of similar deep clouds produce rain and transport moisture, heat, and momentum vertically throughout the atmosphere. Limitations in computer power have prevented global simulations from using the fundamental equations describing fluid motion to calculate the behavior of these localized clouds. Instead, the net effects of such clouds on the global atmosphere are "parameterized" using necessarily crude approximations. The latest advancements in computer architecture have finally made it possible to simulate large clouds in global models, but there are major challenges that must be overcome. The mathematical equations on which global models are based must become better approximations to the fundamental equations of fluid motion, and an efficient flexible structure must be determined to hold the data describing the state of the global atmosphere. This research addresses both of these challenges.</AbstractNarration>
+<MinAmdLetterDate>07/29/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/29/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1216576</AwardID>
+<Investigator>
+<FirstName>Dale</FirstName>
+<LastName>Durran</LastName>
+<PI_MID_INIT>R</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dale R Durran</PI_FULL_NAME>
+<EmailAddress>drdee@uw.edu</EmailAddress>
+<PI_PHON>2065437444</PI_PHON>
+<NSF_ID>000464029</NSF_ID>
+<StartDate>07/29/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981051016</ZipCode>
+<StreetAddress><![CDATA[4333 Brookyn Ave N]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1525</Code>
+<Text>Physical &amp; Dynamic Meteorology</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>5740</Code>
+<Text>Climate &amp; Large-Scale Dynamics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>4444</Code>
+<Text>INTERDISCIPLINARY PROPOSALS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7215</Code>
+<Text>OPPORTUNITIES FOR RESEARCH CMG</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>OTHR</Code>
+<Text>OTHER RESEARCH OR EDUCATION</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~357568</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Long-range weather forecasting and studies of the Earth's climate use computers to simulate the weather over the entire globe.&nbsp; Individual thunderstorms and clusters of similar deep cumulus clouds produce rain and transport moisture, heat, and momentum vertically throughout the atmosphere.&nbsp; Limitations in computer power have prevented global simulations from using the fundamental equations describing fluid motion to calculate the behavior of these localized clouds. Instead, the net effects of these clouds on the surrounding atmosphere are estimated using necessarily crude approximations.&nbsp; The latest advancements in computer architecture have finally made it possible to simulate deep cumulus clouds in global models, but there are major challenges that must be overcome.&nbsp; <br />&nbsp;<br />The key findings of this research address one of these challenges by improving the methods by which mathematical solution techniques that run very efficiently on &ldquo;massively parallel&rdquo; computers with hundreds of thousands of processors simulate the movement of water vapor and other chemical constituents through the air.&nbsp; In particular we have developed an improved technique to ensure that the simulated concentrations of these constituents remain non-negative even in regions where the concentration levels change very abruptly. Our approach is efficient and preserves the underlying accuracy of the mathematical solution, which would be lost if, for example, one simply set negative values to zero.<br /><br />This project contributed to the development of graduate student Devin Light as a scientific researcher and a conference presenter.</p><br> <p>            Last Modified: 10/17/2017<br>      Modified by: Dale&nbsp;R&nbsp;Durran</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Long-range weather forecasting and studies of the Earth's climate use computers to simulate the weather over the entire globe.  Individual thunderstorms and clusters of similar deep cumulus clouds produce rain and transport moisture, heat, and momentum vertically throughout the atmosphere.  Limitations in computer power have prevented global simulations from using the fundamental equations describing fluid motion to calculate the behavior of these localized clouds. Instead, the net effects of these clouds on the surrounding atmosphere are estimated using necessarily crude approximations.  The latest advancements in computer architecture have finally made it possible to simulate deep cumulus clouds in global models, but there are major challenges that must be overcome.     The key findings of this research address one of these challenges by improving the methods by which mathematical solution techniques that run very efficiently on "massively parallel" computers with hundreds of thousands of processors simulate the movement of water vapor and other chemical constituents through the air.  In particular we have developed an improved technique to ensure that the simulated concentrations of these constituents remain non-negative even in regions where the concentration levels change very abruptly. Our approach is efficient and preserves the underlying accuracy of the mathematical solution, which would be lost if, for example, one simply set negative values to zero.  This project contributed to the development of graduate student Devin Light as a scientific researcher and a conference presenter.       Last Modified: 10/17/2017       Submitted by: Dale R Durran]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

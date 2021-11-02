@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Vertically Integrated Persistence</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>458000.00</AwardTotalIntnAmount>
+<AwardAmount>458000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>A new generation of data storage devices based on persistent memory technology are becoming available. Persistent memory devices address many shortcomings of previous generation technology including performance, power consumption, and device size. They have the potential to empower businesses and consumers with new and better capabilities. When these devices made available, either as part of a packaged digital service or within self-contained devices, they have the potential to vastly benefit the consumers of technology. This project builds the core software capabilities necessary for ensuring that the full potential of this new technology is realized and delivered to the end consumer. In particular, this project creates enabling technologies for operating data center servers, personal desktop and laptop computers, as well as mobile tablet computers and smart-phones more efficiently and at lower cost.&lt;br/&gt; &lt;br/&gt;Existing software support for storage are built around a set of core assumptions and goals that are rendered obsolete by persistent memory based storage devices. In this project, the PI will develop a new set of guiding principles for software that supports such devices from the ground up. In particular, this purpose-built software takes a vertically integrated approach using a minimalistic cross-layer design across components of the software stack. The new stack addresses the cornerstones of systems infrastructure including all levels of software and hardware, including application, compiler, the operating system, and the device access hardware infrastructure including the device itself. Educational activities include involvement of undergraduate students and incorporation of project research into courses taught by the PI. Outreach includes recruitment of under-represented minority students for participation in the project.</AbstractNarration>
+<MinAmdLetterDate>08/30/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>08/30/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1718335</AwardID>
+<Investigator>
+<FirstName>Raju</FirstName>
+<LastName>Rangaswami</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Raju Rangaswami</PI_FULL_NAME>
+<EmailAddress>raju@cs.fiu.edu</EmailAddress>
+<PI_PHON>3053486230</PI_PHON>
+<NSF_ID>000488807</NSF_ID>
+<StartDate>08/30/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Florida International University</Name>
+<CityName>Miami</CityName>
+<ZipCode>331990001</ZipCode>
+<PhoneNumber>3053482494</PhoneNumber>
+<StreetAddress>11200 SW 8TH ST</StreetAddress>
+<StreetAddress2><![CDATA[MARC 430]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>FL26</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>071298814</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>FLORIDA INTERNATIONAL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>159621697</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Florida International University]]></Name>
+<CityName/>
+<StateCode>FL</StateCode>
+<ZipCode>331990001</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>26</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>FL26</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~458000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>Intellectual merit:</strong></p> <p>We developed and evaluated a new OS abstraction for persistent memory (PM) called "regions". The Region System that implemented this abstraction was integrated into the Linux operating system. It substantially simplifies the development of PM-based applications and PM libraries with additional performance benefits for most persistent operations. As persistent memory becomes more widely available and deployed in production systems, foundational systems software such as the Region System becomes increasingly important. Our evaluation of the Region System indicates that it performs at par or better than the incumbent file system (ext4-DAX) for persistent operations while additionally providing strong consistency guarantees. We also developed and evaluated LibPM,a persistent memory library that implements easy-to-use abstractions for consuming PM. Using LibPM, applications can store and manipulate arbitrarily structured data at the speed of memory and with strong durability and consistency properties, without having to program PM directly.From a performance perspective, LibPM closely matches and often exceeds the performance of state-of-the-art application libraries for PM. Finally, we developed two hybrid memory systems, Multi-clock and Ruminant, that enable the use of persistent memory to enhance the volatile memory resources in a system. This use of persistent memory is designed to leverage its capacity and power efficiencies. We developed new algorithms based on online optimization and machine learning for optimal page migration across DRAM and PM tiers. These systems offer significant application performance improvements when comparing against simpler as well as state-of-the-art approaches.</p> <p><br /><strong>Broader impact:</strong></p> <p>The performance and reliability of data management application and systems software is critical to enterprise and cloud data centers that drive the Internet. The contributions of this project thus impact state-of-the-art computing technology and computing infrastructure.</p> <p>This project supported four PhD students including a female, Hispanic PhD student, as well as three Hispanic undergraduate students, and one female undergraduate students over the duration of the project via REU supplements.</p> <p>&nbsp;</p> <p><strong>Outcomes summary:</strong></p> <p>The findings from this project significantly advance next generation enterprise and cloud applications and systems by providing critical library and systems software for utilizing persistent memory technology.<br /><br /><br /></p><br> <p>            Last Modified: 11/25/2020<br>      Modified by: Raju&nbsp;Rangaswami</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual merit:  We developed and evaluated a new OS abstraction for persistent memory (PM) called "regions". The Region System that implemented this abstraction was integrated into the Linux operating system. It substantially simplifies the development of PM-based applications and PM libraries with additional performance benefits for most persistent operations. As persistent memory becomes more widely available and deployed in production systems, foundational systems software such as the Region System becomes increasingly important. Our evaluation of the Region System indicates that it performs at par or better than the incumbent file system (ext4-DAX) for persistent operations while additionally providing strong consistency guarantees. We also developed and evaluated LibPM,a persistent memory library that implements easy-to-use abstractions for consuming PM. Using LibPM, applications can store and manipulate arbitrarily structured data at the speed of memory and with strong durability and consistency properties, without having to program PM directly.From a performance perspective, LibPM closely matches and often exceeds the performance of state-of-the-art application libraries for PM. Finally, we developed two hybrid memory systems, Multi-clock and Ruminant, that enable the use of persistent memory to enhance the volatile memory resources in a system. This use of persistent memory is designed to leverage its capacity and power efficiencies. We developed new algorithms based on online optimization and machine learning for optimal page migration across DRAM and PM tiers. These systems offer significant application performance improvements when comparing against simpler as well as state-of-the-art approaches.   Broader impact:  The performance and reliability of data management application and systems software is critical to enterprise and cloud data centers that drive the Internet. The contributions of this project thus impact state-of-the-art computing technology and computing infrastructure.  This project supported four PhD students including a female, Hispanic PhD student, as well as three Hispanic undergraduate students, and one female undergraduate students over the duration of the project via REU supplements.     Outcomes summary:  The findings from this project significantly advance next generation enterprise and cloud applications and systems by providing critical library and systems software for utilizing persistent memory technology.          Last Modified: 11/25/2020       Submitted by: Raju Rangaswami]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

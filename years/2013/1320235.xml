@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Multi-Version Concurrency Control (MVCC) for Main Memory and its Implications for Deterministic Concurrency</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>453734.00</AwardTotalIntnAmount>
+<AwardAmount>469734</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The objective of this project is to investigate version consistency, a new concurrent programming consistency model, as a means of enhancing the performance and scalability of concurrent systems. Under version consistency, which can be seen as a relaxation of release consistency, processes are guaranteed to see the same memory contents (only) if they are accessing the same version of the memory. Such versions are created, retrieved and/or merged through calls analogous with version control systems for source code.&lt;br/&gt;&lt;br/&gt;An important class of applications that benefits substantially from version consistency is deterministic concurrency runtimes, where the goal is to ensure that a program produces the same output given the same input, independent of any non-deterministic timing effects. In prior work, the PI achieved up to 50% performance gain for the deterministic runtime DThreads, using version consistency. In this project, one of the goals is to achieve ``pthreads parity" for a deterministic runtime, where enforcing determinism incurs only negligible performance impact. When and if this is achieved, ``determinism by default'' becomes a feasible option for mainstream computer systems.&lt;br/&gt;&lt;br/&gt;As computer processors continue to evolve from a centralized single ``core'' architecture to highly distributed and parallel ``multi-core  systems'', writing correct programs that make efficient use of this extremely powerful hardware is becoming increasingly difficult. This results in a number of detrimental effects ranging from poor resource utilization, to seriously flawed programs where loss of data, or even loss of life may result. This project investigates (a) a means of reducing the complexity of programming highly parallel systems to combat these problems, and (b) a means of guaranteeing that even an incorrect parallel program produces the same result every time. This latter part will help programmers write correct programs, and to fix software flaws that may otherwise be intermittent and difficult to identify.</AbstractNarration>
+<MinAmdLetterDate>09/09/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/20/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320235</AwardID>
+<Investigator>
+<FirstName>Jakob</FirstName>
+<LastName>Eriksson</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jakob Eriksson</PI_FULL_NAME>
+<EmailAddress>jakob@uic.edu</EmailAddress>
+<PI_PHON>3124132103</PI_PHON>
+<NSF_ID>000537836</NSF_ID>
+<StartDate>09/09/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606124305</ZipCode>
+<PhoneNumber>3129962862</PhoneNumber>
+<StreetAddress>809 S. Marshfield Avenue</StreetAddress>
+<StreetAddress2><![CDATA[MB 502, M/C 551]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>098987217</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606077042</ZipCode>
+<StreetAddress><![CDATA[851 S Morgan Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~453734</FUND_OBLG>
+<FUND_OBLG>2014~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>If you have ever thought "it didn't do that last time" when using a computer, you may have experienced a case of non-deterministic execution. Today, computers typically execute non-deterministically: due to timing effects in modern multi-core processors, programs may produce different outputs given exact same inputs.</p> <p>The objective of this project was to investigate means of making execution deterministic: to guarantee that programs produce the same output given the same input, every time. This has been done in the past, but only at very high performance cost. In this project, we were able to dramatically speed up deterministic execution, sometimes by a factor 100x, by leveraging a number of new techniques invented through the course of the project. One example of these technques is called version consistency, a new way to think about and access the main memory of a computer, that enables individual threads of execution to run more independently, with less interference if you will, than they have in the past. Another is high-performance delegation, which eschew's the current model of threads essentially fighting to use a shared resource, say a pen and a piece of paper used to put together a shopping list, and replaces it with a very efficient means for each thread slipping notes to a single "server thread", which does all the writing. While delegation has been proposed in the past, we were abel to demonstrate very large (10x or more) speedups using a careful, performance conscious design.</p> <p>Our work has been published in the world's most prestigious conferences in this line of work, and we are making the software available to the public, under an open source license. While we did not yet achieve our long term aspiration of deploying "determinism by default" in commodity operating systems, this project brought us much closer to that goal.</p><br> <p>            Last Modified: 02/09/2018<br>      Modified by: Jakob&nbsp;Eriksson</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ If you have ever thought "it didn't do that last time" when using a computer, you may have experienced a case of non-deterministic execution. Today, computers typically execute non-deterministically: due to timing effects in modern multi-core processors, programs may produce different outputs given exact same inputs.  The objective of this project was to investigate means of making execution deterministic: to guarantee that programs produce the same output given the same input, every time. This has been done in the past, but only at very high performance cost. In this project, we were able to dramatically speed up deterministic execution, sometimes by a factor 100x, by leveraging a number of new techniques invented through the course of the project. One example of these technques is called version consistency, a new way to think about and access the main memory of a computer, that enables individual threads of execution to run more independently, with less interference if you will, than they have in the past. Another is high-performance delegation, which eschew's the current model of threads essentially fighting to use a shared resource, say a pen and a piece of paper used to put together a shopping list, and replaces it with a very efficient means for each thread slipping notes to a single "server thread", which does all the writing. While delegation has been proposed in the past, we were abel to demonstrate very large (10x or more) speedups using a careful, performance conscious design.  Our work has been published in the world's most prestigious conferences in this line of work, and we are making the software available to the public, under an open source license. While we did not yet achieve our long term aspiration of deploying "determinism by default" in commodity operating systems, this project brought us much closer to that goal.       Last Modified: 02/09/2018       Submitted by: Jakob Eriksson]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

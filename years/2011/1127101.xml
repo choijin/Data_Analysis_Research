@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: SDCI Net: Policy-driven Large Scale Data Access Framework with Light-weight Performance Monitoring and Estimation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>600000.00</AwardTotalIntnAmount>
+<AwardAmount>600000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Kevin Thompson</SignBlockName>
+<PO_EMAI>kthompso@nsf.gov</PO_EMAI>
+<PO_PHON>7032924220</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Large-scale science applications are expected to generate exabytes of data over the next 5 to 10 years. With scientific data collected at unprecedented volumes and rates, the success of large scientific collaborations will require that they provide distributed data access with improved data access latencies and increased reliability to a large user community. To meet these requirements, scientific collaborations are increasingly replicating large datasets over high-speed networks to multiple sites. The main objective of this work is to develop and deploy a general-purpose data access framework for scientific collaborations that provides lightweight performance monitoring and estimation, fine-grained and adaptive data transfer management, and enforcement of site and Virtual Organization policies for resource sharing. Lightweight mechanisms will collect monitoring information from data movement tools without putting extra loads on the shared resources. Data transfer management mechanisms will select transfer properties based on each transfer's performance estimation and will adapt those properties when observed performance changes due to the dynamic load on storage, network and other resources. Finally, policy-driven resource management using Virtual Organization policies regarding replication and resource allocation will balance user requirements for data freshness with the load on resources.&lt;br/&gt;&lt;br/&gt;Intellectual merit: The team will produce a software framework that will improve the ability of distributed scientific collaborations to provide efficient access to replicated datasets by a large community of users; this framework will combine fine-grained transfer management, transfer advice from policy-driven resource management, and light-weight monitoring. Broader impact: The proposed development will facilitate scientific advances in many domains that increasingly depend on replication and sharing of ever-growing datasets.</AbstractNarration>
+<MinAmdLetterDate>09/15/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>09/15/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1127101</AwardID>
+<Investigator>
+<FirstName>Ann</FirstName>
+<LastName>Chervenak</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ann Chervenak</PI_FULL_NAME>
+<EmailAddress>annc@isi.edu</EmailAddress>
+<PI_PHON>3104488225</PI_PHON>
+<NSF_ID>000448211</NSF_ID>
+<StartDate>09/15/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Southern California</Name>
+<CityName>Los Angeles</CityName>
+<ZipCode>900890001</ZipCode>
+<PhoneNumber>2137407762</PhoneNumber>
+<StreetAddress>University Park</StreetAddress>
+<StreetAddress2><![CDATA[3720 S. Flower St.]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA37</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072933393</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF SOUTHERN CALIFORNIA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072933393</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Southern California]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>902926611</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA33</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7683</Code>
+<Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9102</Code>
+<Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~600000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The overall goal of the Adaptive Data Access and Policy-driven Transfer (ADAPT) project is to improve the performance of large data transfers between two sites connected by the Internet. Such large data transfers are often performed by distributed scientific collaborations. For example, a scientist may want to analyze a data set that is stored at one site, but the analysis itself needs to take place at a second site that has the required computational resources, such as a supercomputer or a large computing cluster. In such cases, the data set must first be copied to the computational site before the analysis can begin.</p> <p>&nbsp;</p> <p>These large data transfers are often inefficient using current data transfer technologies. Often the data set is stored in many (hundreds or thousands of) files that must all be sent to the target site. If the resources are not carefully managed at the source and destination sites and on the network between them, it is easy to overwhelm those resources. For example, the source site may try to send the data faster than the network or the destination site can transfer or store the data. This results in poor transfer performance, in terms of <em>latency</em> (how long it takes for data to arrive) or <em>throughput</em> (the rate of transferring data).</p> <p>&nbsp;</p> <p>The ADAPT project studied two techniques to improve the performance of these large data transfers. First, the project studied how to manage the resources available for transferring data more effectively. This <em>resource management</em> is based on the knowledge of the distributed scientific collaboration regarding how it wants to manage its data transfers (for example, that transfers between certain sites should get priority over other transfers) as well as any limitations known by individual sites (for example, that the site&rsquo;s storage systems can only transmit or receive data at a certain rate). Such preferences and limitations can be considered the <em>policies</em> of the underlying systems. The ADAPT project implemented a Policy Service that is responsible for allocating system resources based on these preferences.&nbsp;</p> <p>&nbsp;</p> <p>Second, the ADAPT project improved the performance of individual data transfers over time by adapting their transfer characteristics based on how well the transfers are currently performing. Characteristics of a transfer might include how many parallel streams are used to transfer one file. The ADAPT team enhanced existing data transfer software with additional capabilities to check recent performance and adapt transfer characteristics accordingly. If recent performance was good, then the software will increase its use of streams to achieve even greater bandwidth for the transfer. If recent performance was poor, then the software will decrease its use of streams to avoid overwhelming the available resources.</p> <p>&nbsp;</p> <p>The project developed open source software that is freely available, including (1) the Policy Service that is responsible for allocating resources based on preferences of the sites and the distributed collaboration, and (2) the enhanced data transfer software that is responsible for adapting transfer characteristics based on recent performance. Figure 1 shows how these software components interact during data transfers, with each transfer client contacting the Policy Service to get an allocation of resources and then adapting the characteristics of the transfers that it performs within that allocation.</p> <p>&nbsp;</p> <p>The ADAPT team ran experiments with these two techniques and demonstrated that these techniques are very effective in improving the overall performance for large data transfer operations between two sites. The techniques work particularly well in environments where the available resources, either at the source and destination sites or on the networks between them, are limi...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The overall goal of the Adaptive Data Access and Policy-driven Transfer (ADAPT) project is to improve the performance of large data transfers between two sites connected by the Internet. Such large data transfers are often performed by distributed scientific collaborations. For example, a scientist may want to analyze a data set that is stored at one site, but the analysis itself needs to take place at a second site that has the required computational resources, such as a supercomputer or a large computing cluster. In such cases, the data set must first be copied to the computational site before the analysis can begin.     These large data transfers are often inefficient using current data transfer technologies. Often the data set is stored in many (hundreds or thousands of) files that must all be sent to the target site. If the resources are not carefully managed at the source and destination sites and on the network between them, it is easy to overwhelm those resources. For example, the source site may try to send the data faster than the network or the destination site can transfer or store the data. This results in poor transfer performance, in terms of latency (how long it takes for data to arrive) or throughput (the rate of transferring data).     The ADAPT project studied two techniques to improve the performance of these large data transfers. First, the project studied how to manage the resources available for transferring data more effectively. This resource management is based on the knowledge of the distributed scientific collaboration regarding how it wants to manage its data transfers (for example, that transfers between certain sites should get priority over other transfers) as well as any limitations known by individual sites (for example, that the siteÆs storage systems can only transmit or receive data at a certain rate). Such preferences and limitations can be considered the policies of the underlying systems. The ADAPT project implemented a Policy Service that is responsible for allocating system resources based on these preferences.      Second, the ADAPT project improved the performance of individual data transfers over time by adapting their transfer characteristics based on how well the transfers are currently performing. Characteristics of a transfer might include how many parallel streams are used to transfer one file. The ADAPT team enhanced existing data transfer software with additional capabilities to check recent performance and adapt transfer characteristics accordingly. If recent performance was good, then the software will increase its use of streams to achieve even greater bandwidth for the transfer. If recent performance was poor, then the software will decrease its use of streams to avoid overwhelming the available resources.     The project developed open source software that is freely available, including (1) the Policy Service that is responsible for allocating resources based on preferences of the sites and the distributed collaboration, and (2) the enhanced data transfer software that is responsible for adapting transfer characteristics based on recent performance. Figure 1 shows how these software components interact during data transfers, with each transfer client contacting the Policy Service to get an allocation of resources and then adapting the characteristics of the transfers that it performs within that allocation.     The ADAPT team ran experiments with these two techniques and demonstrated that these techniques are very effective in improving the overall performance for large data transfer operations between two sites. The techniques work particularly well in environments where the available resources, either at the source and destination sites or on the networks between them, are limited. Such limitations frequently occur on real systems, for example, when site resources are shared by multiple users who may all be performing competing data transfers and computations. Likewis...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

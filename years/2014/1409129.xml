@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: III: CGV: Medium: Architectures for Energy Efficient Ray Tracing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>599994.00</AwardTotalIntnAmount>
+<AwardAmount>899991</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Computer graphics have become an integral part of nearly all modern computing devices. These machines range from high-performance systems, scientific workstations, and desktop computers, to dedicated gaming consoles, and to mobile electronics such as laptops, tablets, and phones. All of these devices have dedicated accelerators that enable high-performance 3D graphics. However, these accelerators, known as graphics processing units - GPUs, are becoming limited by power consumption and associated thermal issues. Improvements in process technology can help reduce energy requirements as chips migrate to the new processes, but in computer graphics, scene complexity and new demands for image quality are ever increasing. This places new demands on the GPU, and conspires to keep the power/thermal envelope high regardless of whether the GPUs are deployed in desktop workstations or energy constrained mobile platforms. This project aims to address this problem by developing new algorithms and new architectures for highly realistic 3D computer graphic image synthesis that consume significantly less power than current GPU growth trends.&lt;br/&gt;&lt;br/&gt;This work is to target ray tracing as a rendering algorithm. Ray tracing has well-understood advantages in supporting realistic rendering with high quality composite global lighting effects. It is also highly amenable to parallel processing, albeit utilizing a different type of parallelism than offered by current commercial GPUs. Ray tracing can also be naturally throttled to adjust the image quality given real-time temporal or energy constraints. This is much more difficult with the Z-buffer based rendering techniques used by current commercial GPUs. Starting from a proven framework with lightweight multiple-instruction, multiple-data (MIMD) thread processors that perform well with computations that are not efficiently executed in single-instruction, multiple-data (SIMD) bundles, the plan is to simultaneously develop new architectures and new algorithms that will work together to produce images with a lower energy cost.&lt;br/&gt;&lt;br/&gt;Expected primary contributions of the overall project include: a detailed examination of the energy required to render images with various lighting effects; techniques for trading off image quality, energy, and rendering speed through ray throttling and hardware-assisted frameless rending techniques; memory system enhancements to reduce data movement and the associated energy cost; novel extensions of our recent work in data streaming and runtime pipeline reconfiguration in many parts of the ray tracing algorithm; algorithmic improvements that take advantage of our custom architecture. If successful, this work has the potential to change fundamentally the way that computer graphics is delivered to a huge variety of end users. The promise of improved image quality and lower energy costs could change the way we experience graphics on future computing devices.</AbstractNarration>
+<MinAmdLetterDate>09/03/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>05/02/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1409129</AwardID>
+<Investigator>
+<FirstName>Alan</FirstName>
+<LastName>Davis</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alan L Davis</PI_FULL_NAME>
+<EmailAddress>ald@cs.utah.edu</EmailAddress>
+<PI_PHON>8015813991</PI_PHON>
+<NSF_ID>000424298</NSF_ID>
+<StartDate>09/03/2014</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Erik</FirstName>
+<LastName>Brunvand</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Erik L Brunvand</PI_FULL_NAME>
+<EmailAddress>elb@cs.utah.edu</EmailAddress>
+<PI_PHON>8015814345</PI_PHON>
+<NSF_ID>000423397</NSF_ID>
+<StartDate>09/03/2014</StartDate>
+<EndDate>05/02/2019</EndDate>
+<RoleCode>Former Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Cem</FirstName>
+<LastName>Yuksel</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Cem Yuksel</PI_FULL_NAME>
+<EmailAddress>cem@cs.utah.edu</EmailAddress>
+<PI_PHON>8015818224</PI_PHON>
+<NSF_ID>000636940</NSF_ID>
+<StartDate>05/02/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Cem</FirstName>
+<LastName>Yuksel</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Cem Yuksel</PI_FULL_NAME>
+<EmailAddress>cem@cs.utah.edu</EmailAddress>
+<PI_PHON>8015818224</PI_PHON>
+<NSF_ID>000636940</NSF_ID>
+<StartDate>09/03/2014</StartDate>
+<EndDate>05/02/2019</EndDate>
+<RoleCode>Former Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName/>
+<StateCode>UT</StateCode>
+<ZipCode>841128930</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~599994</FUND_OBLG>
+<FUND_OBLG>2016~299997</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Computer graphics is an application area that has seen dramatic performance improvement due to special&shy;-purpose hardware architectures in the form of highly successful commercial Graphics Processing Units (GPUs). In large part, this is due to the ability of traditional GPUs to stream data from memory, exploiting the predictable nature of the z&shy;-buffer rasterization algorithm used for rendering images. However, realistic image synthesis requires a different rendering algorithm: ray tracing. Unfortunately, ray tracing has not been able to benefit fully from special&shy;-purpose architectures because of its fundamentally irregular memory&shy; access patterns. While some recent GPUs provide hardware support for accelerating ray tracing with limited capabilities, all existing GPUs are designed and optimized for z-buffer rasterization. These new GPUs, which were released during the course of this project, allow using some limited amount of ray tracing together with rasterization, but rendering purely using ray tracing can only be done for relatively primitive tasks. Therefore, real-time/interactive rendering still must rely on rasterization and, therefore, suffer the limitations of this rendering algorithm.</p> <p>Our major goals in this project have been exploring new algorithms and new hardware architectures for highly realistic computer graphics image synthesis that consume significantly less power than current GPU growth trends. Specifically, we focus on ray tracing as a rendering algorithm.&nbsp;Ray tracing has well-understood advantages in supporting realistic rendering with high-quality composite global lighting effects. It is also highly amenable to parallel processing, albeit utilizing a different type of parallelism than offered by current commercial GPUs. Ray tracing can also be naturally throttled to adjust the image quality given real-time temporal or energy constraints. This is much more difficult with the z-buffer based rendering techniques used by current commercial GPUs.&nbsp;</p> <p>For various computing problems, optimizing energy use and minimizing computation time can be two different and conflicting goals. We have found that this is not the case for hardware-accelerated ray tracing. Indeed, many optimizations that reduce energy use also reduce computation time.</p> <p>We have identified that, given enough computation power, the data movement has been the main source of energy consumption and the limiting factor for accelerating ray tracing. To address this we have developed a new software-hardware model that restructures the ray tracing computations.</p> <p>Our dual streaming method splits that data required for ray tracing computations into two perfectly predictable data streams: a scene stream and a ray stream. The perfectly predictable nature of these streams allows transferring data from the main memory prior to computation, thereby minimizing computation delays associated with accessing data on the main memory. Furthermore, the structure of these streams also allows the main memory system to operate more efficiently and achieve higher performance with lower energy use.</p> <p>The dual streaming method we have developed as a part of this project resolves many long-standing problems of hardware-accelerated ray tracing. It also opens up fertile ground for future research in this area, with new and different behavior in computation and data movement patterns.</p> <p>We have identified that a significant portion of the energy use and computation delays with dual streaming were related to the ray stream. To address this we have developed a new hardware architecture, Mach-RT (many chip architecture for ray tracing), which minimizes the data movement for the ray stream by keeping its data on-chip. Since this would require a significant amount of on-chip area, we split the processor into multiple relatively small chips connected to the same main memory system. We have verified with our cycle-accurate hardware simulator that the reduction in data movement with Mach-RT more than offsets the additional energy use of multiple chips. Therefore, using multiple chips, we can reduce the data movement, improve the computation time, and preserve the energy needed for rendering operations.</p> <p>Our experiments show that Mach-RT can achieve multiple times faster rendering times with ray tracing, as compared to modern GPUs with hardware ray tracing support, using the same number of cores. We have also shown that our architecture scales well with more core, providing better performance without a noticeable increasing the total energy use.</p> <p>Future research in this direction can finally end our dependence on rasterization for real-time/interactive rendering.</p> <p>This project funded multiple graduate students. The graduated students were employed in leading companies designing computer hardware. The PIs and the funded students have given multiple talks, both to the research community and to the general public, disseminating information. The core results of this project were publihsed in six journal and conference papers in top-tier venues. This project also stimulated other related research projects that led to twelve other paper publications.</p><br> <p>            Last Modified: 01/29/2020<br>      Modified by: Cem&nbsp;Yuksel</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Computer graphics is an application area that has seen dramatic performance improvement due to special&shy;-purpose hardware architectures in the form of highly successful commercial Graphics Processing Units (GPUs). In large part, this is due to the ability of traditional GPUs to stream data from memory, exploiting the predictable nature of the z&shy;-buffer rasterization algorithm used for rendering images. However, realistic image synthesis requires a different rendering algorithm: ray tracing. Unfortunately, ray tracing has not been able to benefit fully from special&shy;-purpose architectures because of its fundamentally irregular memory&shy; access patterns. While some recent GPUs provide hardware support for accelerating ray tracing with limited capabilities, all existing GPUs are designed and optimized for z-buffer rasterization. These new GPUs, which were released during the course of this project, allow using some limited amount of ray tracing together with rasterization, but rendering purely using ray tracing can only be done for relatively primitive tasks. Therefore, real-time/interactive rendering still must rely on rasterization and, therefore, suffer the limitations of this rendering algorithm.  Our major goals in this project have been exploring new algorithms and new hardware architectures for highly realistic computer graphics image synthesis that consume significantly less power than current GPU growth trends. Specifically, we focus on ray tracing as a rendering algorithm. Ray tracing has well-understood advantages in supporting realistic rendering with high-quality composite global lighting effects. It is also highly amenable to parallel processing, albeit utilizing a different type of parallelism than offered by current commercial GPUs. Ray tracing can also be naturally throttled to adjust the image quality given real-time temporal or energy constraints. This is much more difficult with the z-buffer based rendering techniques used by current commercial GPUs.   For various computing problems, optimizing energy use and minimizing computation time can be two different and conflicting goals. We have found that this is not the case for hardware-accelerated ray tracing. Indeed, many optimizations that reduce energy use also reduce computation time.  We have identified that, given enough computation power, the data movement has been the main source of energy consumption and the limiting factor for accelerating ray tracing. To address this we have developed a new software-hardware model that restructures the ray tracing computations.  Our dual streaming method splits that data required for ray tracing computations into two perfectly predictable data streams: a scene stream and a ray stream. The perfectly predictable nature of these streams allows transferring data from the main memory prior to computation, thereby minimizing computation delays associated with accessing data on the main memory. Furthermore, the structure of these streams also allows the main memory system to operate more efficiently and achieve higher performance with lower energy use.  The dual streaming method we have developed as a part of this project resolves many long-standing problems of hardware-accelerated ray tracing. It also opens up fertile ground for future research in this area, with new and different behavior in computation and data movement patterns.  We have identified that a significant portion of the energy use and computation delays with dual streaming were related to the ray stream. To address this we have developed a new hardware architecture, Mach-RT (many chip architecture for ray tracing), which minimizes the data movement for the ray stream by keeping its data on-chip. Since this would require a significant amount of on-chip area, we split the processor into multiple relatively small chips connected to the same main memory system. We have verified with our cycle-accurate hardware simulator that the reduction in data movement with Mach-RT more than offsets the additional energy use of multiple chips. Therefore, using multiple chips, we can reduce the data movement, improve the computation time, and preserve the energy needed for rendering operations.  Our experiments show that Mach-RT can achieve multiple times faster rendering times with ray tracing, as compared to modern GPUs with hardware ray tracing support, using the same number of cores. We have also shown that our architecture scales well with more core, providing better performance without a noticeable increasing the total energy use.  Future research in this direction can finally end our dependence on rasterization for real-time/interactive rendering.  This project funded multiple graduate students. The graduated students were employed in leading companies designing computer hardware. The PIs and the funded students have given multiple talks, both to the research community and to the general public, disseminating information. The core results of this project were publihsed in six journal and conference papers in top-tier venues. This project also stimulated other related research projects that led to twelve other paper publications.       Last Modified: 01/29/2020       Submitted by: Cem Yuksel]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

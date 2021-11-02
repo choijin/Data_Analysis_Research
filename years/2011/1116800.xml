@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TC: Small: A Cryptographic Treatment of the Wiretap Channel</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>493995.00</AwardTotalIntnAmount>
+<AwardAmount>493995</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ralph Wachter</SignBlockName>
+<PO_EMAI>rwachter@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project provides communication security in a new way, based on channel noise rather than standard cryptographic constructs and algorithms.  The idea is old, from work in the 1970s in the information-theory and coding field, but this classical work used weak security metrics and even then was not able to provide any explicit and practical designs.  This research bridges the gap between this classical work and modern cryptography. First, it provides a sound theoretical basis in the form of security metrics that are adapted from modern cryptography and demand much stronger security than the classical metrics. Second, it provides explicit, efficient and optimal methods to achieve security under these metrics based only on the assumption that the channel from sender to adversary is noisier than the channel from sender to receiver.  Unlike standard cryptography, this approach is not vulnerable to advances in algorithms and adversary computing power and thus provides a new option to secure highly sensitive information.</AbstractNarration>
+<MinAmdLetterDate>08/05/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/05/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1116800</AwardID>
+<Investigator>
+<FirstName>Mihir</FirstName>
+<LastName>Bellare</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mihir Bellare</PI_FULL_NAME>
+<EmailAddress>mihir@cs.ucsd.edu</EmailAddress>
+<PI_PHON>8585344544</PI_PHON>
+<NSF_ID>000097594</NSF_ID>
+<StartDate>08/05/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-San Diego</Name>
+<CityName>La Jolla</CityName>
+<ZipCode>920930934</ZipCode>
+<PhoneNumber>8585344896</PhoneNumber>
+<StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+<StreetAddress2><![CDATA[9500 Gilman Drive, 0934]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804355790</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SAN DIEGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-San Diego]]></Name>
+<CityName>La Jolla</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>920930934</ZipCode>
+<StreetAddress><![CDATA[Office of Contract &amp; Grant A]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7795</Code>
+<Text>TRUSTWORTHY COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~493995</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p class="p1"><span class="s1">Your life is out there. Computers on the Internet are storing vast amounts of personal information about you, your movements are tracked and recorded via your cellphone, and your calls and texts are stored. This information is mined to create profiles. It is convenient, because computers can use it to magically serve up information of particular interest to you, but you should also worry. Many people have suffered identity theft. Every week we hear of hackers breaking into computers and stealing credit card and social security numbers. And US and foreign government agencies are conducting mass surveillance of US citizens, opposed by advocates who argue that privacy is a cornerstone of democracy itself.</span></p> <p class="p1"><span class="s1">Encryption is the best antidote we know. Encryption scrambles information, whether in transmission from your computer to another, or in storage on a computer, so that unscrambling (called decryption) is hard except for an authorized entity.&nbsp;Cryptography provides many ways to encrypt. You may have heard of AES and RSA. So why are we not safe? Conventional encryption is hard to deploy because decryption requires possession of a special&nbsp; key. The difficulty is to convey that key to legitimate parties without revealing it to the adversary. We&rsquo;d like to encrypt the key, but then we have a chicken and egg problem. Right now we use something called the public key infrastructure, but it is complex and error prone.</span></p> <p class="p1"><span class="s1">This project develops ways to encrypt without keys. That sounds impossible; where does security come from? It exploits the physics of our environment, so that security comes from noise. When we communicate, the atmosphere adds noise, meaning small errors, to the signals. The amount of noise depends on the relative positions of the communicants. The adversary and legitimate receiver are at different locations, and the same signal sent by the sender results in their receiving different signals because different amounts of noise are added by the atmosphere. The trick is that we can encode the signals in such a way that the legitimate receiver can just barely eliminate her noise to get the original signal, but the adversary cannot and is left having no idea what is the signal.</span></p> <p class="p1"><span class="s1">The project develops both the theory and design of such systems. The theory bridges the fields of error-correcting codes and cryptography to arrive at models in which one can mathematically characterize the security a particular encoding method would achieve. The design delivers a particular encoding scheme proven to provide the best possible security with the best possible efficiency. This resolves a 40-year old open question in the area of information and coding.</span></p> <p class="p2">&nbsp;</p><br> <p>            Last Modified: 12/31/2015<br>      Modified by: Mihir&nbsp;Bellare</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[Your life is out there. Computers on the Internet are storing vast amounts of personal information about you, your movements are tracked and recorded via your cellphone, and your calls and texts are stored. This information is mined to create profiles. It is convenient, because computers can use it to magically serve up information of particular interest to you, but you should also worry. Many people have suffered identity theft. Every week we hear of hackers breaking into computers and stealing credit card and social security numbers. And US and foreign government agencies are conducting mass surveillance of US citizens, opposed by advocates who argue that privacy is a cornerstone of democracy itself. Encryption is the best antidote we know. Encryption scrambles information, whether in transmission from your computer to another, or in storage on a computer, so that unscrambling (called decryption) is hard except for an authorized entity. Cryptography provides many ways to encrypt. You may have heard of AES and RSA. So why are we not safe? Conventional encryption is hard to deploy because decryption requires possession of a special  key. The difficulty is to convey that key to legitimate parties without revealing it to the adversary. WeÆd like to encrypt the key, but then we have a chicken and egg problem. Right now we use something called the public key infrastructure, but it is complex and error prone. This project develops ways to encrypt without keys. That sounds impossible; where does security come from? It exploits the physics of our environment, so that security comes from noise. When we communicate, the atmosphere adds noise, meaning small errors, to the signals. The amount of noise depends on the relative positions of the communicants. The adversary and legitimate receiver are at different locations, and the same signal sent by the sender results in their receiving different signals because different amounts of noise are added by the atmosphere. The trick is that we can encode the signals in such a way that the legitimate receiver can just barely eliminate her noise to get the original signal, but the adversary cannot and is left having no idea what is the signal. The project develops both the theory and design of such systems. The theory bridges the fields of error-correcting codes and cryptography to arrive at models in which one can mathematically characterize the security a particular encoding method would achieve. The design delivers a particular encoding scheme proven to provide the best possible security with the best possible efficiency. This resolves a 40-year old open question in the area of information and coding.         Last Modified: 12/31/2015       Submitted by: Mihir Bellare]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: System Support for Causality-Driven Automated Troubleshooting</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>499500.00</AwardTotalIntnAmount>
+<AwardAmount>499500</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project is building tools and developing methods that identify the root cause of software configuration problems and suggest potential corrective actions.  Our work is motivated by the increasing complexity of modern software, which makes computer systems difficult to configure and manage correctly.  Users and administrators currently spend considerable time and effort troubleshooting software configuration problems.  For instance, technical support is estimated to contribute 17% of the total cost of ownership for desktop computers and 60-80% for information systems.&lt;br/&gt;&lt;br/&gt;We are demonstrating how system support for causality tracking can substantially reduce the time and human effort needed to troubleshoot software.  We are focusing on configuration problems, in which the application code is correct, but the software has been installed, configured, or updated incorrectly so that it does not behave as desired.  We are developing methods and tools that automate troubleshooting, thereby reducing the time to recover from errors and requiring less manual effort.  Our tools track causality within software binaries by using dynamic instrumentation to monitor information flow at byte granularity.  They propagate this information among files, processes, and multiple computers to troubleshoot complex distributed systems. Multi-level causality tracking helps determine the set of configuration values and other inputs that are most likely to have influenced the control flow of misconfigured software programs.  We expect that the tools developed during this project will make complex computer systems easier to manage; this has the potential to dramatically reduce administrative support costs for our nation's computer infrastructure.</AbstractNarration>
+<MinAmdLetterDate>07/15/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/15/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017148</AwardID>
+<Investigator>
+<FirstName>Jason</FirstName>
+<LastName>Flinn</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jason N Flinn</PI_FULL_NAME>
+<EmailAddress>jflinn@umich.edu</EmailAddress>
+<PI_PHON>7349365983</PI_PHON>
+<NSF_ID>000096770</NSF_ID>
+<StartDate>07/15/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073133571</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MICHIGAN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073133571</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Regents of the University of Michigan - Ann Arbor]]></Name>
+<CityName>Ann Arbor</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>481091274</ZipCode>
+<StreetAddress><![CDATA[3003 South State St. Room 1062]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~499500</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In the Internet era, the complexity and scale of software systems has continually increased.&nbsp; Unfortunately, the tools that users and administrators employ to troubleshoot software have not improved at the same rate.&nbsp;&nbsp; To remedy this problem, this project developed new tools and methods based on the concept of causality tracking that help automate the process of improving software reliability and performance.</p> <p>Our main approach has been to incorporate dynamic information flow tracking into troubleshooting tools.&nbsp; Our initial work automatically inserted analysis code into applications through binary instrumentation to pinpoint the root cause of configuration errors.&nbsp; This method monitors the causal dependencies introduced through control and data flow as a program executes, dynamically tracking the belief that a particular data value or program statement is influenced by one or more configuration tokens.&nbsp; At the point an error is observed, this method allows the tool to present the user with a list of possible root causes, ordered by the likelihood they led to the observed error.</p> <p>Our subsequent work broadened this approach by applying it to performance analysis.&nbsp; We developed a technique called performance summarization that first attributes performance costs to each basic block executed by the application and then uses dynamic information flow tracking to estimate the likelihood that each block was executed due to each potential root cause.&nbsp;&nbsp; After aggregation, this technique estimates the cost of each potential root cause.&nbsp; We also developed a differential form of performance summarization that can explain why timing differences are observed between the execution of two similar activities.</p> <p>The final part of this project applied these concepts at scale to a cloud-computing pipeline.&nbsp; In partnership with Facebook, we deployed tracing tools that tracked causality throughout the Facebook request pipeline at the granularity of individual requests and software components.&nbsp; Understanding the causal relationships between components enabled us to generate a causal model of a large-scale Internet pipeline consisting of tens to hundreds of parallel component executions and hundreds to thousands of software components.&nbsp; This in turn enabled sophisticated analyses such as critical path identification, slack analysis, and anomaly detection.</p> <p>Collectively, the tools and methods developed as part of this project have substantially improved the state-of-the-art in debugging complex software systems.&nbsp; We have demonstrated these results at unprecedented scale by applying them to Facebook production software.&nbsp; Software developed as part of this project has been made available to the research community via open-source release, and Facebook engineers have incorporated results into their production systems.&nbsp; Thus, this work is already improving the reliability and efficiency of cloud software systems.</p> <p>Additionally, this project has trained 4 computer science graduate students in important research skills.&nbsp; These students have participated in all phases of research, from ideation to design, implementation, and dissemination of research results.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/28/2015<br>      Modified by: Jason&nbsp;N&nbsp;Flinn</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In the Internet era, the complexity and scale of software systems has continually increased.  Unfortunately, the tools that users and administrators employ to troubleshoot software have not improved at the same rate.   To remedy this problem, this project developed new tools and methods based on the concept of causality tracking that help automate the process of improving software reliability and performance.  Our main approach has been to incorporate dynamic information flow tracking into troubleshooting tools.  Our initial work automatically inserted analysis code into applications through binary instrumentation to pinpoint the root cause of configuration errors.  This method monitors the causal dependencies introduced through control and data flow as a program executes, dynamically tracking the belief that a particular data value or program statement is influenced by one or more configuration tokens.  At the point an error is observed, this method allows the tool to present the user with a list of possible root causes, ordered by the likelihood they led to the observed error.  Our subsequent work broadened this approach by applying it to performance analysis.  We developed a technique called performance summarization that first attributes performance costs to each basic block executed by the application and then uses dynamic information flow tracking to estimate the likelihood that each block was executed due to each potential root cause.   After aggregation, this technique estimates the cost of each potential root cause.  We also developed a differential form of performance summarization that can explain why timing differences are observed between the execution of two similar activities.  The final part of this project applied these concepts at scale to a cloud-computing pipeline.  In partnership with Facebook, we deployed tracing tools that tracked causality throughout the Facebook request pipeline at the granularity of individual requests and software components.  Understanding the causal relationships between components enabled us to generate a causal model of a large-scale Internet pipeline consisting of tens to hundreds of parallel component executions and hundreds to thousands of software components.  This in turn enabled sophisticated analyses such as critical path identification, slack analysis, and anomaly detection.  Collectively, the tools and methods developed as part of this project have substantially improved the state-of-the-art in debugging complex software systems.  We have demonstrated these results at unprecedented scale by applying them to Facebook production software.  Software developed as part of this project has been made available to the research community via open-source release, and Facebook engineers have incorporated results into their production systems.  Thus, this work is already improving the reliability and efficiency of cloud software systems.  Additionally, this project has trained 4 computer science graduate students in important research skills.  These students have participated in all phases of research, from ideation to design, implementation, and dissemination of research results.          Last Modified: 09/28/2015       Submitted by: Jason N Flinn]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

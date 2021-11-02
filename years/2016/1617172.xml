@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CHS: Small: Real-Time Simulation of Elastic Solids</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>465062.00</AwardTotalIntnAmount>
+<AwardAmount>465062</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ephraim Glinert</SignBlockName>
+<PO_EMAI>eglinert@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Visual effects in modern films demonstrate that offline physics-based simulations achieve quality which often cannot be distinguished from real video footage.  However, the opposite is true in real-time applications such as surgery simulators, where even non-expert users can quickly notice deficiencies in the simulation when compared to reference video recordings.  The PI's goal in this project is to lay the algorithmic foundations for the next generation of surgery simulators, which would reduce the need for surgeons to practice on real patients or animals.  In biomechanics applications, finite element software packages are often criticized for slow running times.  The PI's new numerical methods will lead to more rapid iterations, allowing biomechanics researchers to test more hypotheses in less time.  Fast physics would also be highly appreciated in the computer animation industry, because current methods are too slow for interactive character posing with physically accurate elasticity of skin and flesh.  Virtual reality is a new but increasingly important application area.  Real-time physics will be necessary to power virtual reality applications ranging from training simulators to creative applications (e.g., clothing design) and games, the latter being particularly useful for popularizing mathematics, physics, and computer science, thereby opening up new opportunities for education and outreach.&lt;br/&gt;&lt;br/&gt;Modern general-purpose methods for the numerical time integration of the equations of motion, typically used for offline simulation, feature advanced mechanisms for error control while striving to maximize computational efficiency.  However, real-time physics-based simulation techniques must conform to a different set of requirements.  In particular, the numerical integration algorithm must be able to advance the simulation while using only a small amount of computing resources.  Interactive applications such as surgery simulators typically require at least 30 frames per second to create the illusion of smooth motion.  This makes real-time physics computationally challenging, even with modern CPUs and GPUs.  To cope with this challenge, specialized algorithms have been developed for entertainment applications (games), where accuracy is less critical.  In this research the PI will study new numerical time integration algorithms which meet the difficult computational constraints of real-time physics but maximize accuracy, with a specific focus on the simulation of elastic solids such as biological soft tissues.  Despite their complex nonlinear material properties, the PI's recent work suggests that accurate real-time simulations of detailed models are within reach.  In particular, whereas implicit integration schemes, numerically solved using Newton's method, are the traditional computational workhorses of physics-based simulations, the PI's results demonstrate that Newton's method is not always the most effective approach, especially in the real-time setting.  Implicit time stepping can be formulated as an optimization problem, which connects physics-based simulation with mathematical optimization, opening up many interesting research opportunities.  The situation is complicated by the fact that even simple mechanical systems require non-convex objective functions.  Real-time applications do not offer a second chance to fix incorrect results and, therefore, it is imperative to avoid simulation instability - without increasing computational complexity.  All numerical integration schemes inevitably incur error due to time discretization and in difficult scenarios such error may be further exacerbated due to the real-time computing constraints.  This project will seek to discover new numerical methods which simultaneously satisfy requirements of 1) real-time computing, 2) stability, and 3) accuracy, while supporting realistic material models.</AbstractNarration>
+<MinAmdLetterDate>07/11/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/11/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617172</AwardID>
+<Investigator>
+<FirstName>Ladislav</FirstName>
+<LastName>Kavan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ladislav Kavan</PI_FULL_NAME>
+<EmailAddress>ladislav.kavan@gmail.com</EmailAddress>
+<PI_PHON>8018973149</PI_PHON>
+<NSF_ID>000645156</NSF_ID>
+<StartDate>07/11/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName/>
+<StateCode>UT</StateCode>
+<ZipCode>841128930</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7367</Code>
+<Text>HCC-Human-Centered Computing</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7367</Code>
+<Text>Cyber-Human Systems</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~465062</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-69aecf97-7fff-68eb-10db-fb960a474c7b"> </span></p> <p dir="ltr"><span>Numerical methods for simulating physics according to Newton's laws of motion date back to the seminal work of Euler in the 18th century. More recently, computers enabled us to run large-scale simulations of complex mechanical systems, but the typical mode of operation is off-line: the user executes a simulation and waits until the results are computed, which can take hours or even days. This focus of this project was a more challenging scenario, real-time physics simulation, where the equations of motion are solved within fractions of a second and the results are displayed immediately, enabling the user to interact with the simulated environment. One obvious challenge is that real-time simulations must use efficient algorithms, but this is not the only issue. The numerical methods must be stable and robust, because rewinding the time backwards and recomputing the simulation - a technique often used in off-line methods - is not possible, since the results of real-time simulations are immediately presented to the user. Due to these challenges, real-time simulation has been so far successful mainly in applications where the demands for physical accuracy are not too high, such as in computer games. However, applications such as surgery simulators, biomechanics, or virtual reality require algorithms which can guarantee both high accuracy as well as stable real-time execution.</span></p> <p dir="ltr"><span>The first thrust of this project focused at the core numerical methods suitable for real-time simulation, especially the challenging case of simulating deformable objects. We have proposed a new class of numerical methods, collectively known as Projective Dynamics, belonging to the broader family of Quasi-Newton methods. The key advantage of these methods is high robustness, i.e., the simulations do not fail (or "explode") as is often the case with traditional numerical methods, combined with low computational requirements. We have proposed several extensions of the basic Projective Dynamics methods, such as adding a special type of damping which is compatible with our fast numerical methods, or combining deformable simulation with rigid bodies with proper two-way coupling, i.e., both deformable and rigid degrees of freedom interact together according to Newton's laws.&nbsp;</span></p> <p dir="ltr"><span>A second thrust of this project, executed in parallel with the first one, focused on guaranteeing physical correctness of our simulations. In particular, it is possible to mathematically prove that Newtonian dynamics guarantees that if certain conditions are satisfied, mechanical systems conserve quantities such as the total energy or linear and angular momenta. Unfortunately, these quantities are often not conserved by numerical methods due to the approximations that are necessary to convert mathematical formulas into algorithms executable by computers. Is there a way to carefully craft these approximations such that the inevitable numerical errors in conserved quantities cancel out? This is a long-standing question and we obviously do not have a definitive answer yet, however, we have devised novel numerical methods which can guarantee approximate or even exact energy conservation. Energy conservation is especially important in real-time simulations, because simulation failures are often characterized by incorrect energy growth (numerical "explosions"). Our first contribution proposed to blend different types of numerical integrators to achieve superior energy conservation properties. For the specific case of St. Venant-Kirchoff materials, we developed a Projective-Dynamics-type method that conserves the total energy exactly. Later on, we created a new method that conserves the total energy exactly for arbitrary materials. During this work we also obtained novel theoretical results, in particular a proof that backward Euler is unconditionally stable even for a certain class of non-convex potentials.</span></p> <p dir="ltr"><span>In parallel with the thrusts above, we have also explored applications of real-time physics in simulating the human body. In one such project, me proposed a method to create personalized anatomical models ready for physics-based animation, using only a set of publicly available 3D surface scans of the human body. In another project, we improved the quality of facial animation by advancing the deformation of the lips -- a part of the face which is especially important in communication. These application-oriented challenges lead us to new physics-based models for active tissues (muscles); we have determined this was a large topic opening many important research questions, justifying future research projects.</span></p><br> <p>            Last Modified: 08/29/2020<br>      Modified by: Ladislav&nbsp;Kavan</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   Numerical methods for simulating physics according to Newton's laws of motion date back to the seminal work of Euler in the 18th century. More recently, computers enabled us to run large-scale simulations of complex mechanical systems, but the typical mode of operation is off-line: the user executes a simulation and waits until the results are computed, which can take hours or even days. This focus of this project was a more challenging scenario, real-time physics simulation, where the equations of motion are solved within fractions of a second and the results are displayed immediately, enabling the user to interact with the simulated environment. One obvious challenge is that real-time simulations must use efficient algorithms, but this is not the only issue. The numerical methods must be stable and robust, because rewinding the time backwards and recomputing the simulation - a technique often used in off-line methods - is not possible, since the results of real-time simulations are immediately presented to the user. Due to these challenges, real-time simulation has been so far successful mainly in applications where the demands for physical accuracy are not too high, such as in computer games. However, applications such as surgery simulators, biomechanics, or virtual reality require algorithms which can guarantee both high accuracy as well as stable real-time execution. The first thrust of this project focused at the core numerical methods suitable for real-time simulation, especially the challenging case of simulating deformable objects. We have proposed a new class of numerical methods, collectively known as Projective Dynamics, belonging to the broader family of Quasi-Newton methods. The key advantage of these methods is high robustness, i.e., the simulations do not fail (or "explode") as is often the case with traditional numerical methods, combined with low computational requirements. We have proposed several extensions of the basic Projective Dynamics methods, such as adding a special type of damping which is compatible with our fast numerical methods, or combining deformable simulation with rigid bodies with proper two-way coupling, i.e., both deformable and rigid degrees of freedom interact together according to Newton's laws.  A second thrust of this project, executed in parallel with the first one, focused on guaranteeing physical correctness of our simulations. In particular, it is possible to mathematically prove that Newtonian dynamics guarantees that if certain conditions are satisfied, mechanical systems conserve quantities such as the total energy or linear and angular momenta. Unfortunately, these quantities are often not conserved by numerical methods due to the approximations that are necessary to convert mathematical formulas into algorithms executable by computers. Is there a way to carefully craft these approximations such that the inevitable numerical errors in conserved quantities cancel out? This is a long-standing question and we obviously do not have a definitive answer yet, however, we have devised novel numerical methods which can guarantee approximate or even exact energy conservation. Energy conservation is especially important in real-time simulations, because simulation failures are often characterized by incorrect energy growth (numerical "explosions"). Our first contribution proposed to blend different types of numerical integrators to achieve superior energy conservation properties. For the specific case of St. Venant-Kirchoff materials, we developed a Projective-Dynamics-type method that conserves the total energy exactly. Later on, we created a new method that conserves the total energy exactly for arbitrary materials. During this work we also obtained novel theoretical results, in particular a proof that backward Euler is unconditionally stable even for a certain class of non-convex potentials. In parallel with the thrusts above, we have also explored applications of real-time physics in simulating the human body. In one such project, me proposed a method to create personalized anatomical models ready for physics-based animation, using only a set of publicly available 3D surface scans of the human body. In another project, we improved the quality of facial animation by advancing the deformation of the lips -- a part of the face which is especially important in communication. These application-oriented challenges lead us to new physics-based models for active tissues (muscles); we have determined this was a large topic opening many important research questions, justifying future research projects.       Last Modified: 08/29/2020       Submitted by: Ladislav Kavan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

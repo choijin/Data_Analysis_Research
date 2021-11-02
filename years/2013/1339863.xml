@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: SI2-SSI: A Comprehensive Ray Tracing Framework for Visualization in Distributed-Memory Parallel Environments</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>1198122.00</AwardTotalIntnAmount>
+<AwardAmount>1398111</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Robert Beverly</SignBlockName>
+<PO_EMAI>rbeverly@nsf.gov</PO_EMAI>
+<PO_PHON>7032927068</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Scientific visualization plays a large role in exploring the scientific simulations that run on supercomputers; new discoveries are often made by studying renderings generated through visualization of simulation results. The standard technique for rendering geometry is rasterization and the most commonly used library for performing this is OpenGL. Many visualization programs (VisIt, Ensight, VAPOR, ParaView, VTK) use OpenGL for rendering. However, recent architectural changes on supercomputers create significant opportunities for alternate rendering techniques. The computational power available on emerging many-core architectures, such as the Intel Xeon Phi processors on TACC?s Stampede system, enable ray-tracing, a higher quality technique. Further, as the amount of geometry per node rises, ray-tracing becomes increasingly cost effective, since its computational costs are proportional to the screen size, not the geometry size. Finally, the software implementation for OpenGL can not be easily mapped to non-GPU multi-core and many-core systems, creating a significant gap; if not closed, visualization will not be possible directly on large supercomputers. This confluence of new, more capable architectures, the increase in geometry per node, and concerns about the durability of the established rendering path all motivate this   work. &lt;br/&gt;&lt;br/&gt;To address these trends, this research uses a two-pronged approach. First, the research will replace the OpenGL pathways that are commonly used for visualization with a high-performance, open-source ray tracing engine that can interactively render on both a CPU and on accelerator architectures. This new library will support the OpenGL API and will be usable immediately by any OpenGL-based visualization package without additional code modi&amp;#64257;cation. Second, this research will provide a direct interface to a high-performance distributed ray tracing engine so that applications can take advantage of ray tracing capabilities not easily exposed through the standard OpenGL interface, such as participating media and global illumination simulation. These features will enable the open science community to easily create photo-realistic imagery with natural lighting cues to aid in analysis and discovery. It will further expand the capacity of existing cyberinfrastructure to provide interactive visualization on standard HPC resources. &lt;br/&gt;&lt;br/&gt;This work has the potential to revolutionize in situ visualization capabilities by unifying the (potentially hybrid) architecture that efficiently run both simulation and visualization. Communicating with underrepresented groups will be a major component of outreach efforts through the PCARP, MITE and Women in Engineering programs. In addition, the project team will disseminate this work to the general public through NSF XD program, the VisIt visualization toolkit and by exhibiting at forums such as IEEE Visualization, IEEE High Performance Graphics and ACM Supercomputing.</AbstractNarration>
+<MinAmdLetterDate>09/13/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>04/17/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1339863</AwardID>
+<Investigator>
+<FirstName>Paul</FirstName>
+<LastName>Navratil</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Paul A Navratil</PI_FULL_NAME>
+<EmailAddress>pnav@tacc.utexas.edu</EmailAddress>
+<PI_PHON>5124716245</PI_PHON>
+<NSF_ID>000559916</NSF_ID>
+<StartDate>09/13/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787121521</ZipCode>
+<StreetAddress><![CDATA[101 E. 27th Street, Suite 5.300]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8009</Code>
+<Text>Scientifc Software Integration</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~1198122</FUND_OBLG>
+<FUND_OBLG>2017~199989</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Ray tracing, a popular technique for generating photo-realistic images for entertainment media, has become a critical mode for interpreting and communicating the results of scientific visualizations, as evidenced by its adoption in common visualization toolkits and its use in award-winning visualization contests. Since ray tracing models the movement of light through data, it enables scientists to include realistic shadows, for better interpretation of spatial relationships, and realistic material behavior, for better representation of complex data interactions.<br /><br />The GraviT project has played an important role in spearheading the adoption of ray tracing technologies for exploratory and interactive visualization by providing: (1) critical bridge technologies (GLuRay, pvOSPRay) that enabled researchers to use ray tracing in existing software without source code modification; (2) a ray scheduling framework for tracing distributed data (GraviT) with adapters to support hardware-optimized ray tracing engines, such as Intel Embree and NVIDIA OptiX Prime; and (3) demonstration of the viability of ray tracing for interactive visual analysis through engagement with the research and industrial communities. These successes attracted significant industrial funding to expand and continue ray tracing efforts. The project also received supplemental funding in collaboration with the yt project (http://yt-project.org/) to provide a python-based interface to GraviT as well as support for hierarchical AMR data and instant tessellation of point data as part of the ray tracing process.<br /><br />The GraviT project supported the education of and provided training for twenty-nine undergraduate and graduate students. The project team disseminated project-sponsored discoveries in twenty-three peer-reviewed papers and forty-seven presentations at international conferences and colloquia. GraviT has informed a number of follow-on projects in ray tracing and visualization, including Galaxy (https://github.com/TACC/Galaxy) and SpRay (https://github.com/TACC/SpRay).<br /><br />The GraviT project source code is available at: <br />* https://github.com/TACC/GraviT <br />* https://github.com/TACC/GLuRay<br />* https://github.com/TACC/pvOSPRay</p> <p>&nbsp;</p><br> <p>            Last Modified: 05/16/2019<br>      Modified by: Paul&nbsp;A&nbsp;Navratil</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044596736_GraviTlogo--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044596736_GraviTlogo--rgov-800width.jpg" title="GraviT logo"><img src="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044596736_GraviTlogo--rgov-66x44.jpg" alt="GraviT logo"></a> <div class="imageCaptionContainer"> <div class="imageCaption">GraviT project logo</div> <div class="imageCredit">Matt Stelmaszek (Texas Advanced Computing Center)</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Paul&nbsp;A&nbsp;Navratil</div> <div class="imageTitle">GraviT logo</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044716843_TScheduler--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044716843_TScheduler--rgov-800width.jpg" title="Enzo cosmological halos"><img src="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044716843_TScheduler--rgov-66x44.jpg" alt="Enzo cosmological halos"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Halos extracted from Universal dark matter data generated by an Enzo cosmological simulation (https://enzo.readthedocs.io/en/latest/).</div> <div class="imageCredit">Dave Semeraro (Texas Advanced Computing Center)</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Paul&nbsp;A&nbsp;Navratil</div> <div class="imageTitle">Enzo cosmological halos</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044941969_EnzoCosmologyTest--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044941969_EnzoCosmologyTest--rgov-800width.jpg" title="Enzo cosmological dark matter structures"><img src="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558044941969_EnzoCosmologyTest--rgov-66x44.jpg" alt="Enzo cosmological dark matter structures"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Dark matter structures extracted from volumetric AMR data generated by Enzo cosmological simulation (https://enzo.readthedocs.io/).</div> <div class="imageCredit">Dave Semeraro (Texas Advanced Computing Center)</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Paul&nbsp;A&nbsp;Navratil</div> <div class="imageTitle">Enzo cosmological dark matter structures</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045226534_poster_enzo_ao_zoom--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045226534_poster_enzo_ao_zoom--rgov-800width.jpg" title="Enzo cosmological dark matter structures"><img src="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045226534_poster_enzo_ao_zoom--rgov-66x44.jpg" alt="Enzo cosmological dark matter structures"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Tessellated dark matter surfaces extracted from an Enzo cosmological simulation (https://enzo.readthedocs.io/).</div> <div class="imageCredit">Hyungman Park (Texas Advanced Computing Center)</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Paul&nbsp;A&nbsp;Navratil</div> <div class="imageTitle">Enzo cosmological dark matter structures</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045368201_poster_dnsside_pt--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045368201_poster_dnsside_pt--rgov-800width.jpg" title="turbulent channel flow"><img src="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045368201_poster_dnsside_pt--rgov-66x44.jpg" alt="turbulent channel flow"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Turbulent channel flow isosurfaces rendered with path tracing.</div> <div class="imageCredit">Hyungman Park (Texas Advanced Computing Center)</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Paul&nbsp;A&nbsp;Navratil</div> <div class="imageTitle">turbulent channel flow</div> </div> </li> <li> <a href="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045424760_poster_dnsback_ao--rgov-214x142.jpg" original="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045424760_poster_dnsback_ao--rgov-800width.jpg" title="turbulent channel flow detail"><img src="/por/images/Reports/POR/2019/1339863/1339863_10280103_1558045424760_poster_dnsback_ao--rgov-66x44.jpg" alt="turbulent channel flow detail"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Turbulent channel flow detail rendered with ambient occlusion.</div> <div class="imageCredit">Hyungman Park (Texas Advanced Computing Center)</div> <div class="imagePermisssions">Creative Commons</div> <div class="imageSubmitted">Paul&nbsp;A&nbsp;Navratil</div> <div class="imageTitle">turbulent channel flow detail</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Ray tracing, a popular technique for generating photo-realistic images for entertainment media, has become a critical mode for interpreting and communicating the results of scientific visualizations, as evidenced by its adoption in common visualization toolkits and its use in award-winning visualization contests. Since ray tracing models the movement of light through data, it enables scientists to include realistic shadows, for better interpretation of spatial relationships, and realistic material behavior, for better representation of complex data interactions.  The GraviT project has played an important role in spearheading the adoption of ray tracing technologies for exploratory and interactive visualization by providing: (1) critical bridge technologies (GLuRay, pvOSPRay) that enabled researchers to use ray tracing in existing software without source code modification; (2) a ray scheduling framework for tracing distributed data (GraviT) with adapters to support hardware-optimized ray tracing engines, such as Intel Embree and NVIDIA OptiX Prime; and (3) demonstration of the viability of ray tracing for interactive visual analysis through engagement with the research and industrial communities. These successes attracted significant industrial funding to expand and continue ray tracing efforts. The project also received supplemental funding in collaboration with the yt project (http://yt-project.org/) to provide a python-based interface to GraviT as well as support for hierarchical AMR data and instant tessellation of point data as part of the ray tracing process.  The GraviT project supported the education of and provided training for twenty-nine undergraduate and graduate students. The project team disseminated project-sponsored discoveries in twenty-three peer-reviewed papers and forty-seven presentations at international conferences and colloquia. GraviT has informed a number of follow-on projects in ray tracing and visualization, including Galaxy (https://github.com/TACC/Galaxy) and SpRay (https://github.com/TACC/SpRay).  The GraviT project source code is available at:  * https://github.com/TACC/GraviT  * https://github.com/TACC/GLuRay * https://github.com/TACC/pvOSPRay          Last Modified: 05/16/2019       Submitted by: Paul A Navratil]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

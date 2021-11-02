@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: CNS Core: Small: Server architecture optimizations for microsecond-scale RPCs</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern datacenters host online services that are decomposed into multiple software tiers spanning thousands of servers. Servers coordinate and communicate with each other using Remote Procedure Calls (RPCs) over the internal datacenter network. The ongoing productivity-boosting software architecture trend of microservices is pushing software decomposition of deployed services to the extreme, resulting in more frequent inter-server communication and finer-grained RPCs, often with runtimes of only a few microseconds. With shrinking per-RPC runtime, networking efficiency directly impacts the performance of an online service as a whole: networking-related overheads that would otherwise be negligible are amplified by the fine-grained nature of the application-level logic triggered per RPC. A promising approach to address this challenge is to promote the role of each server’s NIC—the gateway between a server’s compute resources and the network—from simple RPC delivery to active RPC manipulation. Historically, the NIC agnostically delivers incoming packets, by writing them into memory; the packets are later picked up by a CPU core for processing, resulting in excess data movement, inter-core synchronization overheads, or inter-core load imbalance. ROAr is a new server architecture optimized for efficient handling of microsecond-scale RPCs, featuring a NIC that dynamically monitors system-wide behavior and intelligently steers incoming RPCs within the server’s memory hierarchy, including direct placement in CPU cores’ private caches. An RPC-oriented protocol allows the NIC to raise the level of abstraction it operates on from network packets to RPCs—i.e., from data chunks to messages that trigger some computation. The more information exposed to the NIC about the computation an RPC will trigger, the better the RPC steering decision the NIC can make. In the ROAr architecture, the NIC monitors incoming RPCs and makes a number of novel decisions to judiciously distribute them within a modern server’s memory hierarchy and across CPU cores. Overall, ROAr’s techniques can drastically improve the efficiency and performance of handling microsecond-scale RPCs. A direct consequence is improved quality for a plethora of large-scale online services deployed on modern datacenters, which make heavy use of such RPCs. Therefore, ROAr has the potential to influence the design of future server architectures.&lt;br/&gt;&lt;br/&gt;ROAr involves extensive hardware-software co-design, breaking the conventionally rigid boundaries between network and compute. The NIC’s role is promoted from oblivious placement of incoming RPCs into a server’s memory hierarchy to active RPC acceleration. The NIC’s natural position in an RPC’s processing lifetime establishes it as an excellent agent to stage the cache hierarchy for optimized data movement and reduced latency. ROAr features three main mechanisms. First, it alleviates detrimental memory-bandwidth interference by keeping all incoming RPCs within the cache hierarchy, early-rejecting requests that are predicted to miss their deadline because of excessive ongoing queuing. Second, ROAr makes dynamic inter-core balancing decisions for incoming RPCs, by taking into account real-time system load information, and steers RPCs all the way to the private cache of the selected CPU core. Third, while an RPC is queued, waiting to be executed, the NIC prefetches the RPC’s corresponding instructions and critical data, thus accelerating the RPC’s startup time when it is eventually picked up by the core for processing. The nature of such prefetching is novel, as decisions are not based on predictions, but on prescience: the NIC’s early knowledge of an RPC’s arrival from the network. The proposed research involves theoretical modeling, simulation, and prototyping. Queuing analysis on a variety of RPC service-time distributions will be conducted to develop NIC-driven inter-core load distribution policies. A cycle-accurate simulation model of ROAr will be developed to evaluate in-cache network buffer management, RPC-to-core steering, and prefetching mechanisms. Finally, the applicability of NIC-driven load-balancing policies on existing architectures featuring discrete NICs will be evaluated, with the use of a programmable FPGA-based NIC.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/30/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>06/30/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2006602</AwardID>
+<Investigator>
+<FirstName>Alexandros</FirstName>
+<LastName>Daglis</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alexandros Daglis</PI_FULL_NAME>
+<EmailAddress>alexandros.daglis@cc.gatech.edu</EmailAddress>
+<PI_PHON>4043852938</PI_PHON>
+<NSF_ID>000810791</NSF_ID>
+<StartDate>06/30/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 North Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~400000</FUND_OBLG>
+</Award>
+</rootTag>

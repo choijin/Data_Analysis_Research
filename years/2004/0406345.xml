@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NGS:  A System for Semi-Automatic Application-Level Checkpointing of Parallel Programs</AwardTitle>
+<AwardEffectiveDate>08/15/2004</AwardEffectiveDate>
+<AwardExpirationDate>10/31/2007</AwardExpirationDate>
+<AwardTotalIntnAmount>850000.00</AwardTotalIntnAmount>
+<AwardAmount>600000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Frederica Darema</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Abstract: CNS-0406345&lt;br/&gt;&lt;br/&gt;Executive Summary:&lt;br/&gt;&lt;br/&gt;The project will design and implement a pre-compiler and runtime system that will enable an existing parallel C or Fortran program, which uses MPI or OpenMp library calls for parallelism, to checkpoint and restore its computational state.  Unlike the checkpoints taken by a system like Condor, the checkpoints produced by these system will be portable in the sense that they can be used to restart the application on another machine of a direrent processor type and conguration.  The projects goal is to accomplish this with minimal impact on the performance and scalability of the application.  The project will develop, whereas a complete system-level checkpoint for the same application on a large machine will need to save terabytes of data to disk.  In a grid environment, the checkpoints taken by system-level checkpointing are not portable, so computations cannot migrate to take advantage of changing resource availability.&lt;br/&gt;&lt;br/&gt;At present, programmers who wish to use application-level checkpointing must analyze and instrument their code manually.  Our proposal system will automate this, requiring only minimal input from the programmer.  Accomplishing this requires new checkpoint protocols for process coordination, some of which we have already developed and implemented.  It also requires inter-procedural program analysis techniques and a sophisticated runtime system, which we will implement in this project.  The approach we are taking requires expertise in high-performance computing, program analysis runtime system design, and distributed computing.  We believe our project team can rise to the challenge.&lt;br/&gt;&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>08/04/2004</MinAmdLetterDate>
+<MaxAmdLetterDate>05/21/2006</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0406345</AwardID>
+<Investigator>
+<FirstName>Radu</FirstName>
+<LastName>Rugina</LastName>
+<EmailAddress>rugina@cs.cornell.edu</EmailAddress>
+<StartDate>08/04/2004</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Keshav</FirstName>
+<LastName>Pingali</LastName>
+<EmailAddress>pingali@cs.utexas.edu</EmailAddress>
+<StartDate>08/04/2004</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Cornell University</Name>
+<CityName>Ithaca</CityName>
+<ZipCode>148502820</ZipCode>
+<PhoneNumber>6072555014</PhoneNumber>
+<StreetAddress>373 Pine Tree Road</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>2884</Code>
+<Text>NEXT GENERATION SOFTWARE PROGR</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9215</Code>
+<Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

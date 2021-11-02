@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CDS&amp;E: Two- and Three-point Correlations for Large Data Sets with TreeCorr</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>269085.00</AwardTotalIntnAmount>
+<AwardAmount>269085</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03020000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>AST</Abbreviation>
+<LongName>Division Of Astronomical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nigel Sharp</SignBlockName>
+<PO_EMAI>nsharp@nsf.gov</PO_EMAI>
+<PO_PHON>7032924905</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This researcher has developed the leading software for measuring two-point correlation functions on large data sets in astronomy and elsewhere.  However, for very large datasets the current version must be split across multiple computer nodes, which can be complicated to do correctly and efficiently.  This project will enhance the software to use the Message Passing Interface (MPI) to split a job efficiently over a given number of nodes.  Other software changes will further increase efficiency, add capabilities for three-point cross correlations, and include a more accurate shear estimation method.  All of these modifications have been explicitly requested by current users of the software, and will make it especially useful for future experiments with much larger data volumes and tighter accuracy requirements.  These improvements will help many scientists to carry out their research more efficiently and effectively.  Throughout the project, the principal investigator will continue his campaign to improve the coding skills of other astronomers, helping them with code design, algorithm choices, good development workflow, and other software development issues.  Some of his lessons are already freely available through YouTube.&lt;br/&gt;&lt;br/&gt;The software, TreeCorr, uses a very efficient ball-tree algorithm to compute correlations in O(N log N) time, making it significantly faster than other available options.   TreeCorr uses OpenMP within a single computer node, and adding MPI will provide optimum overall efficiency.  Other improvements include changing internal code for how TreeCorr decides when to stop traversing its tree, allowing arbitrary binning and arbitrarily small bin slop.  Three-point auto-correlations are already supported at O(N log N) complexity, but the three-point cross-correlations that enable studies such as count-count-shear have been unavailable due to the complex bookkeeping required: this limitation will be removed.  The new shear method, MetaCalibration, requires additional calculations that again can be somewhat complicated to do correctly.  Correct and efficient code for MetaCalibration will be built into TreeCorr.  This software has been downloaded via pip over 40,000 times and is used by many research teams working on current and forthcoming surveys: they will all benefit greatly from the algorithmic advances to be made by this study.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/15/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>08/15/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1907610</AwardID>
+<Investigator>
+<FirstName>Robert</FirstName>
+<LastName>Jarvis</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Robert M Jarvis</PI_FULL_NAME>
+<EmailAddress>michael@jarvis.net</EmailAddress>
+<PI_PHON>2158984419</PI_PHON>
+<NSF_ID>000201079</NSF_ID>
+<StartDate>08/15/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Pennsylvania</Name>
+<CityName>Philadelphia</CityName>
+<ZipCode>191046205</ZipCode>
+<PhoneNumber>2158987293</PhoneNumber>
+<StreetAddress>Research Services</StreetAddress>
+<StreetAddress2><![CDATA[3451 Walnut St, 5th Flr Franklin]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042250712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042250712</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Pennsylvania]]></Name>
+<CityName>Philadelphia</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>191046396</ZipCode>
+<StreetAddress><![CDATA[209 South 33rd Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1217</Code>
+<Text>EXTRAGALACTIC ASTRON &amp; COSMOLO</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1206</Code>
+<Text>THEORETICAL &amp; COMPUTATIONAL ASTROPHYSICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~269085</FUND_OBLG>
+</Award>
+</rootTag>

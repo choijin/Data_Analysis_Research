@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Gradient Methods for Solving Big Data (Tensor) Optimization Problems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>299999.00</AwardTotalIntnAmount>
+<AwardAmount>299999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07030000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CMMI</Abbreviation>
+<LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Georgia-Ann Klutke</SignBlockName>
+<PO_EMAI>gaklutke@nsf.gov</PO_EMAI>
+<PO_PHON>7032922443</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Rapid developments in modern technologies have made large-scale statistical data sets readily available in many industrial settings, but the task of effectively turning data into useful information still remains a major challenge in a wide range of applications. One important source of the 'big data' complication stems from the way in which the data points are collected and stored. In particular, the data format in question is known as the tensor, which is a useful format, because it reflects the interconnections between various factors. Tensor data sets can be found in statistical learning, bioinformatics, consumer behavior in marketing, climate change studies, and signal and image processing. However, computationally the tensor data formats are notoriously difficult.  This award supports fundamental research on the computational aspects of the above-mentioned information retrieval process. The project has a multidisciplinary research element and will positively impact engineering education.&lt;br/&gt;&lt;br/&gt;In the context of tensor data processing, a desirable operation is to compute the projection of a given data tensor onto a simpler set with a certain low complexity structure, where the 'low complexity' tensors may refer to low-rank tensors, or sparse tensors, or it may also refer to the tensors with low co-cluster numbers. Formulating tensor projection and completion problems leads to large scale non-convex -- yet algebraic -- optimization models. This research will develop a framework for the iteration complexity analysis which will enable effective first-order computational methods for tensor projection, completion and optimization models.</AbstractNarration>
+<MinAmdLetterDate>07/26/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/26/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1462408</AwardID>
+<Investigator>
+<FirstName>Shuzhong</FirstName>
+<LastName>Zhang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Shuzhong Zhang</PI_FULL_NAME>
+<EmailAddress>zhangs@umn.edu</EmailAddress>
+<PI_PHON>6126248406</PI_PHON>
+<NSF_ID>000601028</NSF_ID>
+<StartDate>07/26/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Minnesota-Twin Cities</Name>
+<CityName>Minneapolis</CityName>
+<ZipCode>554552070</ZipCode>
+<PhoneNumber>6126245599</PhoneNumber>
+<StreetAddress>200 OAK ST SE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<StateCode>MN</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MN05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>555917996</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MINNESOTA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>117178941</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Minnesota]]></Name>
+<CityName>Minneapolis</CityName>
+<StateCode>MN</StateCode>
+<ZipCode>554550150</ZipCode>
+<StreetAddress><![CDATA[111 Church Street SE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Minnesota</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MN05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>006Y</Code>
+<Text>OE Operations Engineering</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>072E</Code>
+<Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>073E</Code>
+<Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>077E</Code>
+<Text>SIMULATION MODELS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~299999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In machine learning and statistics, the success of the practice often depends on our capability to effectively handle large scale optimization models, which may have some potentially useful structures that one may wish to exploit. Developing solution methods for solving structured optimization models has been the general goal of this project. Specifically, we set out to study optimization models using block variables which are often related to each other. Moreover, the objective function in question may be non-convex, though some nice algebraic structures are in place. For example, the objective may take the form of a tensor. The applications of such models are pervasive in practice. One specific application of interest is image processing using the bioinformatics data. In this project, we developed a machine learning approach to read the CT-scan images, in the hope that it will lead to potentially successful early-stage lung cancer diagnosis with high accuracy. The challenges of those problems are typically twofold. First, these problems are typically &lsquo;big-data&rsquo; in nature, and so the scale of the optimization problems are exceedingly large and so any &lsquo;off-the-shelf&rsquo; optimization software will not be an option. Secondly, the problems are usually non-convex, and indeed they are often highly nonlinear. This introduces additional challenges. In this project, we proposed to study the low-order methods (e.g. the first-order methods, aka. the gradient methods) to meet these challenges.&nbsp;</p> <p>&nbsp;</p> <p>This project has succeeded in all its scope and aspects that were stipulated in the proposal. We completed our investigations on the block-variable optimization, the first-order methods, the tensor optimization problems, and the bioinformatics applications. In a period of four years, 20 journal papers and 1 book chapter (invited review on big data analytics published by the Cambridge University Press) have appeared (or accepted for publication) as direct outcomes of this NSF project; all these papers acknowledged the support of the NSF. There are still 2-3 manuscripts that were submitted and are still in the refereeing process. The venues of the publications are prestigious journals in our field, such as the SIAM journals, the IEEE journals, the MOS (Mathematical Optimization Society) flagship journal Mathematical Programming. Moreover, 3 Ph.D. students have been trained through this project; 2 of them have graduated already and the last student will graduate next year. In the course of the project, the PI disseminated the findings generated from the project to a wide public through conference presentations and invited talks for people in practice (industry). As educators, it is our duty to raise the level of awareness of this important research direction and to pass the knowledge on to the next generation. With this educational goal in mind, the PI developed a new course in his home department (University of Minnesota) on optimization methods using some of the materials generated in this project. Moreover, two short summer courses were designed and offered to the interested students, one in Minneapolis and one in Shanghai.&nbsp;</p><br> <p>            Last Modified: 11/29/2019<br>      Modified by: Shuzhong&nbsp;Zhang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In machine learning and statistics, the success of the practice often depends on our capability to effectively handle large scale optimization models, which may have some potentially useful structures that one may wish to exploit. Developing solution methods for solving structured optimization models has been the general goal of this project. Specifically, we set out to study optimization models using block variables which are often related to each other. Moreover, the objective function in question may be non-convex, though some nice algebraic structures are in place. For example, the objective may take the form of a tensor. The applications of such models are pervasive in practice. One specific application of interest is image processing using the bioinformatics data. In this project, we developed a machine learning approach to read the CT-scan images, in the hope that it will lead to potentially successful early-stage lung cancer diagnosis with high accuracy. The challenges of those problems are typically twofold. First, these problems are typically ‘big-data’ in nature, and so the scale of the optimization problems are exceedingly large and so any ‘off-the-shelf’ optimization software will not be an option. Secondly, the problems are usually non-convex, and indeed they are often highly nonlinear. This introduces additional challenges. In this project, we proposed to study the low-order methods (e.g. the first-order methods, aka. the gradient methods) to meet these challenges.      This project has succeeded in all its scope and aspects that were stipulated in the proposal. We completed our investigations on the block-variable optimization, the first-order methods, the tensor optimization problems, and the bioinformatics applications. In a period of four years, 20 journal papers and 1 book chapter (invited review on big data analytics published by the Cambridge University Press) have appeared (or accepted for publication) as direct outcomes of this NSF project; all these papers acknowledged the support of the NSF. There are still 2-3 manuscripts that were submitted and are still in the refereeing process. The venues of the publications are prestigious journals in our field, such as the SIAM journals, the IEEE journals, the MOS (Mathematical Optimization Society) flagship journal Mathematical Programming. Moreover, 3 Ph.D. students have been trained through this project; 2 of them have graduated already and the last student will graduate next year. In the course of the project, the PI disseminated the findings generated from the project to a wide public through conference presentations and invited talks for people in practice (industry). As educators, it is our duty to raise the level of awareness of this important research direction and to pass the knowledge on to the next generation. With this educational goal in mind, the PI developed a new course in his home department (University of Minnesota) on optimization methods using some of the materials generated in this project. Moreover, two short summer courses were designed and offered to the interested students, one in Minneapolis and one in Shanghai.        Last Modified: 11/29/2019       Submitted by: Shuzhong Zhang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: A Paradigm for Motion Planning Based on Parameterization of Free Space</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>433866.00</AwardTotalIntnAmount>
+<AwardAmount>433866</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Miller</SignBlockName>
+<PO_EMAI>damiller@nsf.gov</PO_EMAI>
+<PO_PHON>7032924914</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Motion planning is an important part of robotics research that enables robots to move without colliding into obstacles. This project focuses on a new paradigm for motion planning in cluttered environments in which robots and obstacles are represented as unions of ellipsoids, rather than the traditional approach of using polyhedral, which makes it more efficient to calculate potential collisions during planning. In addition to the scientific goals of the project, a longstanding outreach activity with Baltimore Polytechnic High School is part of the project. Two students from this high school per year will spend their "research practicum" in the PI's laboratory during their senior years.&lt;br/&gt;&lt;br/&gt;In terms of detailed scientific questions, this project builds on the fact that the set of rigid-body motions that cause two ellipsoids to be in collision can be parameterized in closed form, thereby facilitating the sampling of collision-free configurations outside of these sets rather than wasting computational resources on sampling, evaluating whether collisions occur, and throwing away large numbers of&lt;br/&gt;samples. This is particularly important in so-called "narrow-passage" problems. This approach therefore has the potential to dramatically improve the performance of motion planning algorithms.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>07/11/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>07/11/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1619050</AwardID>
+<Investigator>
+<FirstName>Gregory</FirstName>
+<LastName>Chirikjian</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gregory S Chirikjian</PI_FULL_NAME>
+<EmailAddress>gregc@jhu.edu</EmailAddress>
+<PI_PHON>4105167127</PI_PHON>
+<NSF_ID>000233729</NSF_ID>
+<StartDate>07/11/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Johns Hopkins University</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212182686</ZipCode>
+<PhoneNumber>4439971898</PhoneNumber>
+<StreetAddress>1101 E 33rd St</StreetAddress>
+<StreetAddress2><![CDATA[Suite B001]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001910777</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>JOHNS HOPKINS UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001910777</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Johns Hopkins University]]></Name>
+<CityName>Baltimore</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>212182682</ZipCode>
+<StreetAddress><![CDATA[3400 N. Charles St.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~433866</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Humans can effortlessly navigate through a cluttered environment. For example, a mechanic can reach under the hood of a car and tighten a bolt. Or people moving in a crowd can do so without bumping into each other. But robots are relatively clumsy and have a difficult time operating in such cluttered environments.</p> <p>The purpose of this research is to develop computer algorithms for robots to rapidly compute the different ways that they can navigate through a cluttered environment wihout colliding with obstacles. The method developed involves a mathematical construct called the Minkowski sum. Usually Minkoswki sums are computed with approximate algorithms because the computational complexity of computing them exactly is considereed to be too difficult. But in this project it was shown that for certain classes of objects, Minkowski sums can be computed exactly in closed form. This fact is then used to construct motion planning algorithms that will allow robots to move more adroitly. This is because Minkowski sums describe where the robot cannot move, and knowing this reduces the number of wrong guesses that the robot needs to make before it can find a right way to move.</p> <p>While engaging in this research, it was also found that other areas of robotics such as human activity recognition and finding the best way for a robot to interact with objects can also benefit from the new paradigm described in this project.</p> <p>Future directions that follows on to this will involve the integration of perception, planning, and action.</p><br> <p>            Last Modified: 12/20/2020<br>      Modified by: Gregory&nbsp;S&nbsp;Chirikjian</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Humans can effortlessly navigate through a cluttered environment. For example, a mechanic can reach under the hood of a car and tighten a bolt. Or people moving in a crowd can do so without bumping into each other. But robots are relatively clumsy and have a difficult time operating in such cluttered environments.  The purpose of this research is to develop computer algorithms for robots to rapidly compute the different ways that they can navigate through a cluttered environment wihout colliding with obstacles. The method developed involves a mathematical construct called the Minkowski sum. Usually Minkoswki sums are computed with approximate algorithms because the computational complexity of computing them exactly is considereed to be too difficult. But in this project it was shown that for certain classes of objects, Minkowski sums can be computed exactly in closed form. This fact is then used to construct motion planning algorithms that will allow robots to move more adroitly. This is because Minkowski sums describe where the robot cannot move, and knowing this reduces the number of wrong guesses that the robot needs to make before it can find a right way to move.  While engaging in this research, it was also found that other areas of robotics such as human activity recognition and finding the best way for a robot to interact with objects can also benefit from the new paradigm described in this project.  Future directions that follows on to this will involve the integration of perception, planning, and action.       Last Modified: 12/20/2020       Submitted by: Gregory S Chirikjian]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

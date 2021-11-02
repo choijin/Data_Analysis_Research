@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CI-New:  Collaborative Research:  Modeling the Next-Generation Hybrid Cooling Systems for High-Performance Processors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>230000.00</AwardTotalIntnAmount>
+<AwardAmount>230000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Design of future high-performance chips is hindered by severe temperature challenges. For example, existing cooling mechanisms cannot efficiently cool the extremely high power densities that are expected in exascale systems. Emerging cooling technologies, which may address these temperature challenges, are not easily accessible for experimentation to computer engineers. In fact, there is a substantial lag before a cooling technology becomes available for system design and optimization. Such lags cause design quality to be left on the table. To this end, this project proposes a software infrastructure that enables accurate modeling of cutting-edge cooling methods and that facilitates mutually customizing the computing and cooling systems to dramatically push system energy efficiency. &lt;br/&gt;&lt;br/&gt;The proposed infrastructure is a system-level design automation tool that includes compact thermal models of emerging cooling methods (thermoelectric coolers, two-phase cooling with microchannels or nanopores, phase-change materials, and single-phase liquid cooling). The project plan includes (1) synthesizing novel device-level models into compact representations; (2) using measurements on prototypes for validation of the proposed models; and (3) developing automation tooling to co-design hybrid customized cooling subsystems together with a given computing system. The broader impact of the project will be to help advance computing beyond the limitations of Moore's Law by making efficient design of high-power-density systems possible. The proposed infrastructure will enable transformative research in design automation, computer architecture, and system design with emerging cooling technologies, particularly in the dimensions of performance, variability, energy, heterogeneity, and cross-layer design. The infrastructure will be released to the community as open source software. The interdisciplinary nature of the project creates ample opportunities for undergraduate projects and outreach programs for underrepresented groups and K-12 students.</AbstractNarration>
+<MinAmdLetterDate>05/09/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>05/09/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1730389</AwardID>
+<Investigator>
+<FirstName>Evelyn</FirstName>
+<LastName>Wang</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Evelyn N Wang</PI_FULL_NAME>
+<EmailAddress>enwang@mit.edu</EmailAddress>
+<PI_PHON>6173243311</PI_PHON>
+<NSF_ID>000468620</NSF_ID>
+<StartDate>05/09/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>021394307</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7359</Code>
+<Text>CCRI-CISE Cmnty Rsrch Infrstrc</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7359</Code>
+<Text>COMPUTING RES INFRASTRUCTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~230000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Over the last few decades, processor performance has grown tremendously following the down-scaling of transistors. High power densities that reach and surpass 1-2 KW/cm2 caused by the performance boost can occur in future high-performance chips and result in amplified localized hot spots. Existing cooling solutions such as forced air cooling via fans or traditional pin-fin heat sinks are often not sufficient to mitigate these high power densities efficiently and can lead to over/under-cooling, affecting system design cost and power. Therefore, designing new cooling solutions for high-performance processors has started to gain traction.&nbsp;</p> <p dir="ltr"><span>This project's aim was to develop fast and accurate thermal models for several promising emerging cooling technologies and utilize these models to evaluate the cooling efficiency of the specific cooling technologies on realistic high-power-density chips. The target emerging cooling technologies were as follows: (i) liquid cooling via microchannels, (ii) thermoelectric coolers (TEC), (iii) hybrid cooling of liquid cooling via microchannels and TEC, (iv) microchannel-based two-phase cooling, (v) two-phase vapor chambers (VCs) with micropillar wick evaporators, and (vi) two-phase VCs with hybrid wick evaporators. Commercial multi-physics simulators, such as COMSOL Multiphysics and ANSYS, are typically used to design and simulate the thermal models. However, these tools require significant effort to construct system-specific models. Such tools also incur long simulation times as well as large memory requirements. To build fast and accurate thermal models for the above emerging cooling technologies, we created compact thermal models (CTMs). For each cooling technology, we either derived the CTMs from corresponding finite element models or improved upon the modeling methodologies in recent work. All the cooling models have been validated against finite element models, prototypes, or CTMs that have been already validated. The modeling methodologies for building these CTMs can also be used to model other emerging cooling technologies in the future. We believe these CTMs can help the researchers to do early-stage design explorations and can enable co-designs of the computing systems and cooling systems.&nbsp;</span></p> <p>&nbsp;</p> <p dir="ltr"><span>A key component of the project was to develop a fast and accurate thermal simulation tool that can be easily extended to support different emerging cooling technologies. Existing popular CTM simulators are either dedicated to a specific cooling technology or it is difficult and time-consuming to extend them to support other cooling technologies. To address the above issues, we designed an open-source PArallel Compact Thermal simulator, PACT. PACT is now open sourced at </span><a href="https://github.com/peaclab/PACT"><span>https://github.com/peaclab/PACT</span></a><span>. PACT can support parallel thermal simulations with multiple cores and nodes with various steady-state and transient solvers. It also has high compatibility and can be used along with popular architectural level performance and power simulators. Most importantly, PACT is designed to support a wide range of cooling technologies. To model new cooling methods that are currently not included in PACT, users simply need to add the cooling compact libraries to model their target cooling technology in PACT.&nbsp; PACT shows up to 232X speedup when compared to the popular compact modeling tool HotSpot. We also integrated optimization modules in PACT to select the optimal cooling method and cooling parameters to achieve the best cooling efficiency for a given chip design. We built PACT with the objective of conducting efficient thermal evaluation at different granularities, from standard-cell level to microarchitectural level, for a variety of chip integration and cooling technologies, in a single tool.&nbsp;</span></p> <p dir="ltr"><span>The major outcomes of this project are as follows:&nbsp;</span></p> <ol> <li dir="ltr"> <p dir="ltr"><span>We built finite element models for two-phase VCs with micropillar wick evaporators and two-phase VCs with hybrid wick evaporators of nanoporous membrane and microchannels. We also developed CTMs for liquid cooling via microchannels, TECs, hybrid cooling of liquid cooling via microchannels and TECs, microchannel-based two-phase cooling, two-phase VCs with micropillar wick evaporators, two-phase VCs with hybrid wick evaporators.&nbsp;</span></p> </li> <li dir="ltr"> <p dir="ltr"><span>The above CTMs have been validated either against their finite element models, prototypes, or against the CTMs validated in prior work. We designed optimization modules to determine the optimal cooling solutions and cooling parameters for a given chip design. All the modeling methodologies, optimization modules, experimental results, and case studies with various realistic chips are accessible in our recent publications in major conferences, journals, and workshops.&nbsp;</span></p> </li> <li dir="ltr"> <p dir="ltr"><span>We designed and open-sourced a parallel compact thermal simulator, PACT, that enables fast and accurate standard-cell level to architecture-level steady-state and transient thermal simulation.&nbsp;</span></p> </li> <li dir="ltr"> <p dir="ltr"><span>The project created opportunities for undergraduate students to get involved in interdisciplinary research to improve their scientific research and software engineering skills. We also included major research updates from this project in university courses to broaden the impact of this project. We presented our works as oral presentations or posters at major conferences and workshops.</span></p> </li> </ol> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/29/2020<br>      Modified by: Evelyn&nbsp;N&nbsp;Wang</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/1730389/1730389_10486617_1603978554273_PACTimage--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1730389/1730389_10486617_1603978554273_PACTimage--rgov-800width.jpg" title="High-Level Simulation Flow of PACT"><img src="/por/images/Reports/POR/2020/1730389/1730389_10486617_1603978554273_PACTimage--rgov-66x44.jpg" alt="High-Level Simulation Flow of PACT"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Image of high-level simulation flow of PACT.</div> <div class="imageCredit">Coskun</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Evelyn&nbsp;N&nbsp;Wang</div> <div class="imageTitle">High-Level Simulation Flow of PACT</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Over the last few decades, processor performance has grown tremendously following the down-scaling of transistors. High power densities that reach and surpass 1-2 KW/cm2 caused by the performance boost can occur in future high-performance chips and result in amplified localized hot spots. Existing cooling solutions such as forced air cooling via fans or traditional pin-fin heat sinks are often not sufficient to mitigate these high power densities efficiently and can lead to over/under-cooling, affecting system design cost and power. Therefore, designing new cooling solutions for high-performance processors has started to gain traction.  This project's aim was to develop fast and accurate thermal models for several promising emerging cooling technologies and utilize these models to evaluate the cooling efficiency of the specific cooling technologies on realistic high-power-density chips. The target emerging cooling technologies were as follows: (i) liquid cooling via microchannels, (ii) thermoelectric coolers (TEC), (iii) hybrid cooling of liquid cooling via microchannels and TEC, (iv) microchannel-based two-phase cooling, (v) two-phase vapor chambers (VCs) with micropillar wick evaporators, and (vi) two-phase VCs with hybrid wick evaporators. Commercial multi-physics simulators, such as COMSOL Multiphysics and ANSYS, are typically used to design and simulate the thermal models. However, these tools require significant effort to construct system-specific models. Such tools also incur long simulation times as well as large memory requirements. To build fast and accurate thermal models for the above emerging cooling technologies, we created compact thermal models (CTMs). For each cooling technology, we either derived the CTMs from corresponding finite element models or improved upon the modeling methodologies in recent work. All the cooling models have been validated against finite element models, prototypes, or CTMs that have been already validated. The modeling methodologies for building these CTMs can also be used to model other emerging cooling technologies in the future. We believe these CTMs can help the researchers to do early-stage design explorations and can enable co-designs of the computing systems and cooling systems.     A key component of the project was to develop a fast and accurate thermal simulation tool that can be easily extended to support different emerging cooling technologies. Existing popular CTM simulators are either dedicated to a specific cooling technology or it is difficult and time-consuming to extend them to support other cooling technologies. To address the above issues, we designed an open-source PArallel Compact Thermal simulator, PACT. PACT is now open sourced at https://github.com/peaclab/PACT. PACT can support parallel thermal simulations with multiple cores and nodes with various steady-state and transient solvers. It also has high compatibility and can be used along with popular architectural level performance and power simulators. Most importantly, PACT is designed to support a wide range of cooling technologies. To model new cooling methods that are currently not included in PACT, users simply need to add the cooling compact libraries to model their target cooling technology in PACT.  PACT shows up to 232X speedup when compared to the popular compact modeling tool HotSpot. We also integrated optimization modules in PACT to select the optimal cooling method and cooling parameters to achieve the best cooling efficiency for a given chip design. We built PACT with the objective of conducting efficient thermal evaluation at different granularities, from standard-cell level to microarchitectural level, for a variety of chip integration and cooling technologies, in a single tool.  The major outcomes of this project are as follows:    We built finite element models for two-phase VCs with micropillar wick evaporators and two-phase VCs with hybrid wick evaporators of nanoporous membrane and microchannels. We also developed CTMs for liquid cooling via microchannels, TECs, hybrid cooling of liquid cooling via microchannels and TECs, microchannel-based two-phase cooling, two-phase VCs with micropillar wick evaporators, two-phase VCs with hybrid wick evaporators.    The above CTMs have been validated either against their finite element models, prototypes, or against the CTMs validated in prior work. We designed optimization modules to determine the optimal cooling solutions and cooling parameters for a given chip design. All the modeling methodologies, optimization modules, experimental results, and case studies with various realistic chips are accessible in our recent publications in major conferences, journals, and workshops.    We designed and open-sourced a parallel compact thermal simulator, PACT, that enables fast and accurate standard-cell level to architecture-level steady-state and transient thermal simulation.    The project created opportunities for undergraduate students to get involved in interdisciplinary research to improve their scientific research and software engineering skills. We also included major research updates from this project in university courses to broaden the impact of this project. We presented our works as oral presentations or posters at major conferences and workshops.               Last Modified: 10/29/2020       Submitted by: Evelyn N Wang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

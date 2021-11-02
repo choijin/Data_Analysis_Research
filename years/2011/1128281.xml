@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Adaptive Dynamic Programming-based Control of Unknown Networked Control Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>346149.00</AwardTotalIntnAmount>
+<AwardAmount>346149</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07010000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>ECCS</Abbreviation>
+<LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Radhakisan Baheti</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Abstract&lt;br/&gt;The overall objective of this study is to provide online robust adaptive dynamic programming (ADP) based optimal controllers with guaranteed performance, supported by a rigorous design and mathematical framework, and without utilizing policy and value iterations, for unknown linear and nonlinear networked control systems (NCS). The approach taken here employs adaptive network learning as a fundamental block and utilizes past history of cost-to-go information, and updates the control input once a sampling interval in a forward-in-time manner without using a system model and offline learning phase for the NNs.&lt;br/&gt;&lt;br/&gt;Intellectual Merit&lt;br/&gt;The proposed research presents an opportunity to deal with a more powerful and unified paradigm of complex learning problems and envisions a brain-like controller. The proposed effort will advance the state of the art in ADP for control and guarantees stability and performance in the presence of not only uncertain system dynamics and disturbances, but also network imperfections such as random delays, packet losses and quantization errors without using iterative approach.  &lt;br/&gt;&lt;br/&gt;Broader Impact&lt;br/&gt;This effort would directly impact all real-time practical systems such as the efficient operation and energy security of the smart grid, near zero-emission automotive control systems, and next generation manufacturing system. Such control schemes are required for global competitiveness of the US industry. Technology transfer will occur through the NSF Industry/University Cooperative Research Center on Intelligent Maintenance Systems. Within the research community, this work will inspire more theoretical results while providing training opportunities to next generation students, future scientists and engineers including from underrepresented groups.</AbstractNarration>
+<MinAmdLetterDate>07/27/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>07/27/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1128281</AwardID>
+<Investigator>
+<FirstName>Jagannathan</FirstName>
+<LastName>Sarangapani</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jagannathan Sarangapani</PI_FULL_NAME>
+<EmailAddress>sarangap@mst.edu</EmailAddress>
+<PI_PHON>5733416775</PI_PHON>
+<NSF_ID>000491580</NSF_ID>
+<StartDate>07/27/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Missouri University of Science and Technology</Name>
+<CityName>Rolla</CityName>
+<ZipCode>654096506</ZipCode>
+<PhoneNumber>5733414134</PhoneNumber>
+<StreetAddress>300 W 12th Street</StreetAddress>
+<StreetAddress2><![CDATA[202 Centennial Hall]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Missouri</StateName>
+<StateCode>MO</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MO08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804883767</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MISSOURI SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>006326904</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Missouri University of Science and Technology]]></Name>
+<CityName>Rolla</CityName>
+<StateCode>MO</StateCode>
+<ZipCode>654096524</ZipCode>
+<StreetAddress><![CDATA[301 W 16th Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Missouri</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MO08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7607</Code>
+<Text>EPCN-Energy-Power-Ctrl-Netwrks</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>155E</Code>
+<Text>Electric power networks</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>1653</Code>
+<Text>Adaptive &amp; intelligent systems</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~346149</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p class="columnstext">Many real-time systems such as smart grid, network manufacturing systems, automotive control systems are implemented as distributed control systems wherein the control loops are closed through a real-time communication network. Therefore they are referred to as <em>Network Control Systems</em> (NCS).&nbsp; The interest for NCS is motivated by many benefits they offer as the ease of maintenance and installation, the large flexibility and the low cost. However, many theoretical issues such as the optimal controller design for NCS have to be investigated before the benefits can be harvested. On the other hand, in recent years, neural network (NN)-based dynamic programming (NDP) is being investigated for the design of optimal/suboptimal controllers. The delays and packet losses in NCS can degrade the performance of control systems designed without taking into account the effects of these network imperfections and can even destabilize the NCS. Unfortunately, no work is currently being attempted to develop <em>online</em> robust controllers where network imperfections such as delays, packet losses and quantization errors are present. <em>Existing adaptive dynamic programming (ADP)/NDP schemes render unsatisfactory performance in the presence of delays alone as shown in the preliminary effort</em>.</p> <p class="columnstext">For the past few years, the investigators and their students have developed a new framework for optimal controller design for such NCS without using iterative methodology that is quite common with existing mathods.&nbsp; This novel fremwork allows the NCS to operate in a forward in time even under uncertainties resulting from network imperfections.&nbsp; This framework is mathematically rigorous and offers a breakthorugh in the design of optimal control since the optimizarion is carried out in finite and infinite time. The control methodology can be implemented using outputs alone relaxing state measurements..</p> <p>As part of intellectual merit<strong>, </strong>the proposed research presented  an opportunity to deal with a more powerful and unified paradigm of  complex learning problems and envisions a <em>brain-like</em> controller. The approach taken here employs an adaptive estimator &ndash;based  or a NN learning as a fundamental block within the proposed framework, to  provide forward-in-time solutions to complex dynamic optimization  problems for complex real-time application environments such as <em>cyber-physical systems</em> where network imperfections become part of the control loop.&nbsp; Optimal  control of NCS is the first step towards attaining such cyber-physical  systems. &nbsp;This research will advance the state of the art<em> for optimal control</em> by providing rigorous mathematical analysis, stability and performance  guarantees in the presence of unknown system dynamics, disturbances, delays and  packet losses for a class of nonlinear systems <em>without using iterative approach</em>.&nbsp;  Moreover, by applying the theoretical results to an emerging vehicle  systems, smart grid etc, NDP will gain wider acceptance.&nbsp;</p> <p>As part of&nbsp; broader impact<strong>,</strong> this research leads to significant advances in the development of advanced optimal control schemes for <em>unknown linear and nonlinear NCS </em>with applications to smart grid, which has a direct impact on delivering the energy  security for the clean environment and network enabled manufacturing.&nbsp; Within the controls research community, this work  will push the advances of learning systems to the next level and will  inspire more theoretical results coupled with practical implementations.  The proposed work utilized several important dissemination  channels, including software, material for courses, special  sessions, and journals and conference publications.&nbsp;&nbsp; International collaboration pursued resulted in an exch...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[Many real-time systems such as smart grid, network manufacturing systems, automotive control systems are implemented as distributed control systems wherein the control loops are closed through a real-time communication network. Therefore they are referred to as Network Control Systems (NCS).  The interest for NCS is motivated by many benefits they offer as the ease of maintenance and installation, the large flexibility and the low cost. However, many theoretical issues such as the optimal controller design for NCS have to be investigated before the benefits can be harvested. On the other hand, in recent years, neural network (NN)-based dynamic programming (NDP) is being investigated for the design of optimal/suboptimal controllers. The delays and packet losses in NCS can degrade the performance of control systems designed without taking into account the effects of these network imperfections and can even destabilize the NCS. Unfortunately, no work is currently being attempted to develop online robust controllers where network imperfections such as delays, packet losses and quantization errors are present. Existing adaptive dynamic programming (ADP)/NDP schemes render unsatisfactory performance in the presence of delays alone as shown in the preliminary effort. For the past few years, the investigators and their students have developed a new framework for optimal controller design for such NCS without using iterative methodology that is quite common with existing mathods.  This novel fremwork allows the NCS to operate in a forward in time even under uncertainties resulting from network imperfections.  This framework is mathematically rigorous and offers a breakthorugh in the design of optimal control since the optimizarion is carried out in finite and infinite time. The control methodology can be implemented using outputs alone relaxing state measurements..  As part of intellectual merit, the proposed research presented  an opportunity to deal with a more powerful and unified paradigm of  complex learning problems and envisions a brain-like controller. The approach taken here employs an adaptive estimator &ndash;based  or a NN learning as a fundamental block within the proposed framework, to  provide forward-in-time solutions to complex dynamic optimization  problems for complex real-time application environments such as cyber-physical systems where network imperfections become part of the control loop.  Optimal  control of NCS is the first step towards attaining such cyber-physical  systems.  This research will advance the state of the art for optimal control by providing rigorous mathematical analysis, stability and performance  guarantees in the presence of unknown system dynamics, disturbances, delays and  packet losses for a class of nonlinear systems without using iterative approach.   Moreover, by applying the theoretical results to an emerging vehicle  systems, smart grid etc, NDP will gain wider acceptance.   As part of  broader impact, this research leads to significant advances in the development of advanced optimal control schemes for unknown linear and nonlinear NCS with applications to smart grid, which has a direct impact on delivering the energy  security for the clean environment and network enabled manufacturing.  Within the controls research community, this work  will push the advances of learning systems to the next level and will  inspire more theoretical results coupled with practical implementations.  The proposed work utilized several important dissemination  channels, including software, material for courses, special  sessions, and journals and conference publications.   International collaboration pursued resulted in an exchange student.   Technology transfer to industrial members is being accomplished through  the NSF I/UCRC Site on Intelligent Maintenance Systems where PI is the  Site Director..          Last Modified: 06/17/2016       Submitted by: Jagannathan Sarangapani]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

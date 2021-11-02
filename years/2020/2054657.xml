@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: SaTC: Securing Containers in Multi-Tenant Environment via Augmenting Linux Control Groups</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/16/2020</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>152097.00</AwardTotalIntnAmount>
+<AwardAmount>152097</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jeremy Epstein</SignBlockName>
+<PO_EMAI>jepstein@nsf.gov</PO_EMAI>
+<PO_PHON>7032928338</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Container technology provides a lightweight operating system level virtual hosting environment. It has been broadly adopted in various computation scenarios, including edge computing, serverless computing, and commercial clouds. Containers depend on multiple building blocks in the Linux kernel for resource isolation and control. Particularly, Linux Control Groups (i.e., cgroups) are leveraged to apply resource limits and account for resource usage for containers. However, those features in the Linux kernel may not provide the same level of security guarantees as conventional virtual machines. For example, breaking the resource control of cgroups would not only cause unfair resource sharing among multiple container instances, but also significantly reduce containers’ performance. This project intends to secure containers by systematically investigating security implications in cgroups and developing new defending systems to mitigate potential security threats in multi-tenant container environments. The research is expected to identify and address new security challenges in containers, and thus benefit both container service providers and customers. Educational and outreach activities include curriculum development in systems programming and cloud security, and research experience opportunities for women and minority students as well as for high school students.   &lt;br/&gt;&lt;br/&gt;The project would systematically explore methods to break the resource rein of the existing cgroups mechanism, and comprehensively understand the security impacts on Linux containers. It develops a set of exploiting strategies to generate out-of-band workloads to escape cgroups. Novel kernel code analysis techniques are developed that use a combination of data flow, control flow and program dependency graphs to automatically uncover feasible exploitation cases available inside unprivileged containers with a set of cgroup resource controllers enabled. All potential exploits are quantitatively evaluated on multiple testbeds in realistic container environments under various attack scenarios. Specifically, a variety of real-world workloads are evaluated to understand the impact and severity of vulnerabilities. With better knowledge of the inadequacies in existing cgroup mechanism and related exploitations, the project develops lightweight defense mechanisms to secure containers and mitigate potential security threats. The proposed system is evaluated in terms of multiple aspects including performance and security.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>10/27/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>10/27/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2054657</AwardID>
+<Investigator>
+<FirstName>Xing</FirstName>
+<LastName>Gao</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Xing Gao</PI_FULL_NAME>
+<EmailAddress>xgao@udel.edu</EmailAddress>
+<PI_PHON>3028312711</PI_PHON>
+<NSF_ID>000784502</NSF_ID>
+<StartDate>10/27/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Delaware</Name>
+<CityName>Newark</CityName>
+<ZipCode>197160099</ZipCode>
+<PhoneNumber>3028312136</PhoneNumber>
+<StreetAddress>210 Hullihen Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<StateCode>DE</StateCode>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>DE00</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>059007500</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF DELAWARE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>059007500</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Delaware]]></Name>
+<CityName/>
+<StateCode>DE</StateCode>
+<ZipCode>197160099</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>DE00</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~152097</FUND_OBLG>
+</Award>
+</rootTag>

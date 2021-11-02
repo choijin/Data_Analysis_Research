@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Small: Leveraging Coding Techniques for Distributed Computing</AwardTitle>
+<AwardEffectiveDate>10/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>492271.00</AwardTotalIntnAmount>
+<AwardAmount>492271</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Phillip Regalia</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Clusters of computer processors that process huge amounts of data at specialized locations called data centers are ubiquitous in both industry and academia. The usage of distributed clusters is a necessity rather than a luxury since many modern datasets are too large to be stored in the memory or disk of a single computer.  However, using such clusters to obtain answers quickly and efficiently presents many new challenges. These include dealing with issues such as slow or failed processors (ie., worker nodes) and taking into account the time for these worker nodes to communicate among themselves for collaboratively executing a job. Such issues are critical, as it is well-recognized that for such large scale systems, worker node failures are the norm rather than the exception. The project will investigate classes of methods for the robust and efficient operation of large-scale distributed computing clusters. Furthermore, the project will train graduate and undergraduate students in data analytics and in using industry standard techniques for working with these clusters.&lt;br/&gt;&lt;br/&gt;The overarching goal of this project is to leverage coding-theoretic ideas to make distributed computation robust to stragglers (slow or failed worker nodes) and reduce the communication overhead of distributed computing paradigms such as MapReduce and Spark. While there has been some recent work on the topic of straggler mitigation for distributed matrix computations, the majority of prior work proceeds by treating stragglers exclusively as node failures. This project will investigate rigorous techniques for leveraging slow (but not failed) stragglers. In particular, the sequential nature of computation within a worker node will be taken into account when designing codes for our systems. The second part of the project will deal with issues around the numerical stability of recovery within distributed matrix computation. Several well-known erasure codes that have been proposed for this problem perform rather poorly on this metric. The project will design classes of codes that are useful in straggler mitigation and analyze them through the lens of numerical stability. The last part of the project will address the reduction of shuffle phase traffic in MapReduce-like systems that are used for executing jobs over distributed clusters. Prior work in this area proposes techniques that are information-theoretically optimal (under an appropriate model). A major assumption of prior work is that jobs can be split into arbitrarily small parts. However, in practical systems, this assumption severely limits the actual gain in the overall job execution time. This project will study a large class of techniques that reduce shuffle phase traffic and the overall job execution time by leveraging the properties of suitably defined linear block codes.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/13/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>06/13/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>1910840</AwardID>
+<Investigator>
+<FirstName>Aditya</FirstName>
+<LastName>Ramamoorthy</LastName>
+<EmailAddress>adityar@iastate.edu</EmailAddress>
+<StartDate>06/13/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Iowa State University</Name>
+<CityName>AMES</CityName>
+<ZipCode>500112207</ZipCode>
+<PhoneNumber>5152945225</PhoneNumber>
+<StreetAddress>1138 Pearson</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<StateCode>IA</StateCode>
+</Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+</Appropriation>
+</Award>
+</rootTag>

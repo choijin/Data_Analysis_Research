@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Empirical Autotuning of Parallel Computation for Scalable Hybrid Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2015</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today, scientific and engineering computing is synonymous with parallel computing, and applications such as climate modeling, drug design, aircraft design, etc. utilize very large supercomputer installations, with power consumption measured in MegaWatts, and the cost of electricity measured in millions of dollars. At the same time, every parallel application requires some level of tuning to ensure that the software is mapped appropriately to the hardware. Otherwise, suboptimal performance can lead to lost cycles, kilowatt-hours, and, ultimately, dollars. Tuning the application by making repeated runs is also a wasteful option at very large scale. The DARE project addresses this problem by tuning the application through modeling and simulation of its behavior at very large scale, rather than actually running it. Therefore, resources required for tuning are marginal compared to those consumed in production runs. DARE is based on the observation that the same approach that replaces a wind tunnel with a computer simulation of the airfoil can be applied to the software itself. Two aspects of today's high-end computing landscape make the DARE work unique: 1) the prevalence of hardware accelerators, such as Graphics Processing Units and Xeon Phi co-processors, and 2) adoption of task-based, dynamic, work scheduling systems as an alternative to traditional, lock-step parallel programming models. In particular, DARE combines three components into a refinement loop: a hardware analysis component, a kernel modeling component, and a workload simulation component. The role of the hardware analysis component is to extract the basic hardware information, such as processing power and data link speed. The role of the kernel modeling component is to provide performance models of the serial kernels that constitute the building blocks of the parallel program. Finally, the role of the simulation component is to simulate large-scale parallel workloads.&lt;br/&gt;&lt;br/&gt;The hardware analysis component gathers the basic knowledge about the system, such as: the number of CPU sockets per shared memory node, the number of CPU cores in each socket, the cache hierarchy, existence of hyper-threading, number of NUMA nodes and proximity of CPUs to NUMA nodes, number of GPU accelerators or Xeon Phi co-processors and capacities of their device memories, and the topology and bandwidth of data links, both within each node (busses), and between nodes (network switches). Part of this knowledge can be gathered by using appropriate query APIs, such as hwloc, netloc, PAPI, and those provided in the CUDA SDK, OpenCL SDK, and Xeon Phi SDK. Synthetic tests can be used for parameters that cannot be established in this manner.&lt;br/&gt;Kernels are essentially the serial building blocks of parallel problems. Although kernels are usually characterized by serial control flow, most of the time they already rely on a high degree of data parallelism. Today's CPUs get most of their performance from SIMD parallelism, and GPUs get their performance from massive SIMT parallelism. The role of the kernel modeling component is two-fold: 1) to tune kernels for maximum performance at a given granularity, 2) to provide the kernel performance model as a function of granularity, which is changing to accommodate parallel execution.&lt;br/&gt;DARE turns to a stochastic time-stepping simulation in order to predict the performance of a dynamic runtime scheduler for two fundamental reasons: 1) Building good performance models on the basis of benchmarking actual parallel runs requires a significant number of runs with significant problem sizes, which is simply too time consuming. And 2), the impact of many tuning parameters is too complex to be modeled by sparsely sampling the tuning space and fitting simple curves / surfaces to the sample points. The answer to the problem is to replace the run with a time stepping simulation, where a given task-based scheduler is used for assigning tasks to cores, but instead of invoking actual kernel tasks, control is passed to a progress tracking simulation system, which relies on kernel performance models to simulate the execution of the tasks and produce a virtual trace of the simulated execution. The performance advantage is twofold: 1) Simulating a single run is much faster than actually making that run, and 2) Many simulations can be run in parallel allowing for fast sweeps through a large parameter search space.&lt;br/&gt;DARE replaces the standard waterfall autotuning process with a process that is incremental and iterative in nature. The power of the DARE approach lies in the mutual refinement loop, where each of the three phases is capable of massively pruning the search space for the other two. As a result, very high quality models can be built for a particular workload, since time is being spent refining the model for the conditions that actually apply, rather than sampling the search space in areas never touched at runtime.</AbstractNarration>
+<MinAmdLetterDate>07/06/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/06/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1527706</AwardID>
+<Investigator>
+<FirstName>Jack</FirstName>
+<LastName>Dongarra</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jack J Dongarra</PI_FULL_NAME>
+<EmailAddress>dongarra@icl.utk.edu</EmailAddress>
+<PI_PHON>8659748295</PI_PHON>
+<NSF_ID>000299281</NSF_ID>
+<StartDate>07/06/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jakub</FirstName>
+<LastName>Kurzak</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jakub Kurzak</PI_FULL_NAME>
+<EmailAddress>kurzak@icl.utk.edu</EmailAddress>
+<PI_PHON>8659743466</PI_PHON>
+<NSF_ID>000595685</NSF_ID>
+<StartDate>07/06/2015</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Tennessee Knoxville</Name>
+<CityName>Knoxville</CityName>
+<ZipCode>379163801</ZipCode>
+<PhoneNumber>8659743466</PhoneNumber>
+<StreetAddress>1331 CIR PARK DR</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<StateCode>TN</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TN02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>003387891</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TENNESSEE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003387891</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Tennessee Knoxville]]></Name>
+<CityName/>
+<StateCode>TN</StateCode>
+<ZipCode>379960003</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Tennessee</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TN02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The objective of the Data-driven Autotuning for Runtime Execution (DARE) project was to provide application-level performance tuning capabilities to the end user. DARE&rsquo;s development motivation stemmed from the never-ending hurdles of performance tuning for the PLASMA and MAGMA linear algebra libraries. These hurdles motivated the development of a software architecture that combined three components: hardware analysis, kernel modeling, and workload simulation.</p> <p>With DARE, the hardware analysis block built a detailed model of the hardware, its computational resources, and its memory system. The kernel modeling block built accurate performance models for the computational kernels involved in the workload, and the workload simulation block rapidly simulated a large number of runs to find the best execution conditions while relying on the information provided by the other two blocks.&nbsp;</p> <p><span id="docs-internal-guid-5a92303f-7fff-85ec-6f0e-98bad3fd7c2c"><span>For our modeling, DARE used distributed-memory, multi-threaded, accelerator-enabled routines from the linear algebra library being developed as part of the Software for Linear Algebra Targeting Exascale (SLATE) project (</span><a href="https://icl.utk.edu/slate/"><span>https://icl.utk.edu/slate/</span></a><span>). The SLATE project is developing fundamental dense linear algebra capabilities for current and upcoming distributed-memory systems, including GPU-accelerated systems as well as more traditional multi core&ndash;only systems.</span><span>&nbsp;See the SLATE Working Notes (SWANs) for details (</span><a href="http://www.icl.utk.edu/publications/series/swans"><span>http://www.icl.utk.edu/publications/series/swans</span></a><span>).</span></span></p> <p>The ultimate objective of DARE was to arrange the analysis and simulation blocks in a continuous refinement loop that could serve as a framework for optimizing applications beyond the field of dense linear algebra.</p><br> <p>            Last Modified: 09/30/2019<br>      Modified by: Jack&nbsp;J&nbsp;Dongarra</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The objective of the Data-driven Autotuning for Runtime Execution (DARE) project was to provide application-level performance tuning capabilities to the end user. DARE?s development motivation stemmed from the never-ending hurdles of performance tuning for the PLASMA and MAGMA linear algebra libraries. These hurdles motivated the development of a software architecture that combined three components: hardware analysis, kernel modeling, and workload simulation.  With DARE, the hardware analysis block built a detailed model of the hardware, its computational resources, and its memory system. The kernel modeling block built accurate performance models for the computational kernels involved in the workload, and the workload simulation block rapidly simulated a large number of runs to find the best execution conditions while relying on the information provided by the other two blocks.   For our modeling, DARE used distributed-memory, multi-threaded, accelerator-enabled routines from the linear algebra library being developed as part of the Software for Linear Algebra Targeting Exascale (SLATE) project (https://icl.utk.edu/slate/). The SLATE project is developing fundamental dense linear algebra capabilities for current and upcoming distributed-memory systems, including GPU-accelerated systems as well as more traditional multi core&ndash;only systems. See the SLATE Working Notes (SWANs) for details (http://www.icl.utk.edu/publications/series/swans).  The ultimate objective of DARE was to arrange the analysis and simulation blocks in a continuous refinement loop that could serve as a framework for optimizing applications beyond the field of dense linear algebra.       Last Modified: 09/30/2019       Submitted by: Jack J Dongarra]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

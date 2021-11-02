@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Detecting and Mitigating Smartphone Energy Bugs using Compiler and Runtime Analysis</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>499978.00</AwardTotalIntnAmount>
+<AwardAmount>499978</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Smartphones are becoming the predominant computing device throughout the world.  Because of their lower cost relative to laptops and desktops, they have become an important device for bringing computing to disadvantaged people in both the developed and undeveloped worlds.  Smartphones differ from traditional computing devices in that their primary power source is a battery, and they are expected to operate for a day or more on a single charge.  This has forced the abandonment of traditional, automatic power management techniques and adoption of manual programmer management of power and power-consuming hardware, i.e., "power-encumbered programming."  This in turn has led to "energy bugs," which cause apps to fail and to reduce battery life.  The proposed work will develop tools to automatically detect energy bugs resulting from power-encumbered programming, increasing reliability and battery life, and bringing a better user experience to hundreds of millions of users.&lt;br/&gt;&lt;br/&gt;To increase battery life, a smartphone OS constantly attempts to turn off a phone.  Apps contain time-critical sections, i.e., program regions where the phone must stay on to function correctly.  Power-encumbered programming requires the programmer use wakelocks to keep the phone hardware on during a time-critical section (to ensure an app functions correctly), but no longer (to minimize battery drain.)  A correct app has a perfect correspondence between regions where wakelocks keep the phone awake and time-critical sections.  The proposed research focuses on runtime and compile-time techniques to automatically identify time-critical sections and regions protected by wakelocks, and to use that information to automatically identify and prevent energy bugs in apps.  Because smartphone apps are event-driven programs, techniques to analyze event-driven code will be developed, and these techniques should be broadly applicable to the compile-time analysis of general event-driven programs.  Successful completion of this work will lead to automatic techniques for detecting an ameliorating energy bugs, which in turn will maximize the available battery life, increase the reliability of smartphones, and lead to significant advances in the compiler analysis of event-driven programs.</AbstractNarration>
+<MinAmdLetterDate>06/28/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/28/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320764</AwardID>
+<Investigator>
+<FirstName>Samuel</FirstName>
+<LastName>Midkiff</LastName>
+<PI_MID_INIT>P</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Samuel P Midkiff</PI_FULL_NAME>
+<EmailAddress>smidkiff@purdue.edu</EmailAddress>
+<PI_PHON>7654943440</PI_PHON>
+<NSF_ID>000344348</NSF_ID>
+<StartDate>06/28/2013</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Y. Charlie</FirstName>
+<LastName>Hu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Y. Charlie Hu</PI_FULL_NAME>
+<EmailAddress>ychu@purdue.edu</EmailAddress>
+<PI_PHON>7654949143</PI_PHON>
+<NSF_ID>000118830</NSF_ID>
+<StartDate>06/28/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName>West Lafayette</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>479072035</ZipCode>
+<StreetAddress><![CDATA[465 Northwestern Ave.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~499978</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The rise of modern smartphones and apps has propelled us into the mobile era. Over 1 billion smartphones have been sold since 2007. Over 1.2 million apps have been released for iPhone and Android devices, with 25 and 20 billion downloads, respectively. The app market is predicted to grow into a $38 billion industry by 2015 [14]. In the last fifteen years, battery capacity has only doubled, despite increasing energy demands from a larger number of &ldquo;exotic&rdquo; devices (e.g., GPS units, large cameras, wireless access) and increasing computational and graphics intensity of apps. Smartphone&rsquo;s utility derives from their ability to be used for at least a day using only their battery&rsquo;s power. This requires smartphones to go to heroic lengths to conserve energy. Thus, to maximally conserve energy, modern smartphones aggressively put phone components to sleep after a short period of user inactivity. This policy allows phone batteries to last a day or so, but encumbers app developers with inserting explicit calls to the smartphone OS&rsquo; power management application programming interface (API) to keep components active when needed. This complexity is increased by apps adopting an event-driven driven programming model. The resulting power encumbered programming unavoidably gives rise to a new class of software bugs caused by misusing the power control APIs that we call energy bugs. These bugs result in unexpected, significant adverse effects on battery life.</p> <p>&nbsp;</p> <p>Intellectual Merit.</p> <p>&nbsp;</p> <p>This project has advanced state-of-the-art on understanding and detecting a new class of software bugs (sleep-induced energy bugs and sleep-induced time bugs) in mobile software, open-sourced the first runtime system that optimizes app background energy drain that rivals Google's Android M app standby feature, and advanced the state of the art in compiler analyses of event-based mobile programs with new pointer analysis.</p> <p>&nbsp;</p> <p>More specifically, this project has (1) developed a comprehensive taxonomy of energy bugs that can arise in the smartphone software eco system, including apps, the framework, and the operating systems; (2) characterized the origin of time critical sections in smartphone software; (3) developed automatic detection of sleep-induced time bugs based on compiler-analysis which found 63 bugs in Linux kernels; (4) conducted the first large-scale measurement study of smartphone energy drain on about two thousands of Samsung Galaxy S3 and S4 devices running in-the-wild, geographically distributed over 56 countries, covering a total of 49326 days and 199 mobile operators.&nbsp; This in turn has developed great insights into smartphone battery drain in-the-wild, which was disseminated to the mobile industry; (5) developed the first runtime system (concurrently with Android M's &ldquo;standby&rdquo; feature) that optimizes app background battery drain (in screen-off), shown to reduce daily battery drain of smartphones in-the-wild by 16%; (6) developed a unified sleep disorder bug detection framework that can detect all forms of sleep disorder energy bugs by performing three generic tasks: (i) find program statements protected by power control APIs, (ii) determine the extent of time-critical sections, (iii) detect any mismatch and look up, in a taxonomy, to determine the type of sleep disorder bug; and (7) developed an accurate and fast pointer analysis that will serve as the basis of the control flow graph construction algorithm for analyzing event-drain Android programs.</p> <p>&nbsp;</p> <p>Broader Impact.</p> <p>&nbsp;</p> <p>The importance of this work is heightened by smartphones being an important enabler of Internet access for disadvantaged people in both developed and developing countries, and hence being an important tool in overcoming the &ldquo;digital divide&rdquo;. <strong>&nbsp;</strong>The compiler analysis and runtime systems we developed for automatically detecting and mitigating smartphone energy bugs will help app developers and device vendors to extend the battery life of the billions of smartphones, especially of low-end devices widely used in developing countries, enhancing their access to the Internet.</p> <p>&nbsp;</p> <p>Technically, this work will have a far-reaching impact outside of the area of mobile device energy bugs by increasing compiler capabilities for general event-driven programs. The project has developed a pointer analysis that is as fast as a simple context-free analysis, and as accurate as state of the context-sensitive analyses.&nbsp;The pointer analysis forms a key building block of our unified sleep disorder bug detection framework for building a control flow graph for event-driven Android programs, but also can be used to perform method devirtualization in event driven programs, perform access disambiguation of pointer-based accesses, and other pointer-based analyses and optimizations.</p> <p>&nbsp;</p> <p>We have also publicly released several software artifacts we have developed, for detecting sleep-induced energy bugs in mobile apps, for detecting sleep-induced time bugs in Linux kernels, and for optimizing app background battery drain (in screen-off), to the research and developer community to foster research by others in this important research area.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 02/21/2018<br>      Modified by: Y. Charlie&nbsp;Hu</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The rise of modern smartphones and apps has propelled us into the mobile era. Over 1 billion smartphones have been sold since 2007. Over 1.2 million apps have been released for iPhone and Android devices, with 25 and 20 billion downloads, respectively. The app market is predicted to grow into a $38 billion industry by 2015 [14]. In the last fifteen years, battery capacity has only doubled, despite increasing energy demands from a larger number of "exotic" devices (e.g., GPS units, large cameras, wireless access) and increasing computational and graphics intensity of apps. Smartphone?s utility derives from their ability to be used for at least a day using only their battery?s power. This requires smartphones to go to heroic lengths to conserve energy. Thus, to maximally conserve energy, modern smartphones aggressively put phone components to sleep after a short period of user inactivity. This policy allows phone batteries to last a day or so, but encumbers app developers with inserting explicit calls to the smartphone OS? power management application programming interface (API) to keep components active when needed. This complexity is increased by apps adopting an event-driven driven programming model. The resulting power encumbered programming unavoidably gives rise to a new class of software bugs caused by misusing the power control APIs that we call energy bugs. These bugs result in unexpected, significant adverse effects on battery life.     Intellectual Merit.     This project has advanced state-of-the-art on understanding and detecting a new class of software bugs (sleep-induced energy bugs and sleep-induced time bugs) in mobile software, open-sourced the first runtime system that optimizes app background energy drain that rivals Google's Android M app standby feature, and advanced the state of the art in compiler analyses of event-based mobile programs with new pointer analysis.     More specifically, this project has (1) developed a comprehensive taxonomy of energy bugs that can arise in the smartphone software eco system, including apps, the framework, and the operating systems; (2) characterized the origin of time critical sections in smartphone software; (3) developed automatic detection of sleep-induced time bugs based on compiler-analysis which found 63 bugs in Linux kernels; (4) conducted the first large-scale measurement study of smartphone energy drain on about two thousands of Samsung Galaxy S3 and S4 devices running in-the-wild, geographically distributed over 56 countries, covering a total of 49326 days and 199 mobile operators.  This in turn has developed great insights into smartphone battery drain in-the-wild, which was disseminated to the mobile industry; (5) developed the first runtime system (concurrently with Android M's "standby" feature) that optimizes app background battery drain (in screen-off), shown to reduce daily battery drain of smartphones in-the-wild by 16%; (6) developed a unified sleep disorder bug detection framework that can detect all forms of sleep disorder energy bugs by performing three generic tasks: (i) find program statements protected by power control APIs, (ii) determine the extent of time-critical sections, (iii) detect any mismatch and look up, in a taxonomy, to determine the type of sleep disorder bug; and (7) developed an accurate and fast pointer analysis that will serve as the basis of the control flow graph construction algorithm for analyzing event-drain Android programs.     Broader Impact.     The importance of this work is heightened by smartphones being an important enabler of Internet access for disadvantaged people in both developed and developing countries, and hence being an important tool in overcoming the "digital divide".  The compiler analysis and runtime systems we developed for automatically detecting and mitigating smartphone energy bugs will help app developers and device vendors to extend the battery life of the billions of smartphones, especially of low-end devices widely used in developing countries, enhancing their access to the Internet.     Technically, this work will have a far-reaching impact outside of the area of mobile device energy bugs by increasing compiler capabilities for general event-driven programs. The project has developed a pointer analysis that is as fast as a simple context-free analysis, and as accurate as state of the context-sensitive analyses. The pointer analysis forms a key building block of our unified sleep disorder bug detection framework for building a control flow graph for event-driven Android programs, but also can be used to perform method devirtualization in event driven programs, perform access disambiguation of pointer-based accesses, and other pointer-based analyses and optimizations.     We have also publicly released several software artifacts we have developed, for detecting sleep-induced energy bugs in mobile apps, for detecting sleep-induced time bugs in Linux kernels, and for optimizing app background battery drain (in screen-off), to the research and developer community to foster research by others in this important research area.             Last Modified: 02/21/2018       Submitted by: Y. Charlie Hu]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

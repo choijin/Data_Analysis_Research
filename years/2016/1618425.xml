@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Efficient Parallel Execution of Irregular, Ordered Algorithms</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>449570.00</AwardTotalIntnAmount>
+<AwardAmount>449570</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Most computers today consist of a collection of individual processing units called cores that can execute an application co-operatively, reducing the time required to produce the output of that application. However, current programming languages were developed for sequential computers that have a single processing unit, and they are not ideal for programming multicore parallel processors, while existing languages and tools for parallel programming are very difficult to use, requiring expert understanding of the computer hardware and system software. This project's broader significance and importance is that it aims to simplify the parallel programming of an important class of applications that includes physical simulations, such as battle-field simulations, and analysis of graphs, such as social networks. The intellectual merit is that the abstractions and systems software needed to parallelize these applications efficiently on multicore processors goes well beyond the state of the art, and if successful, will lead to a significant improvement in our understanding of how multicore parallel computers can be exploited effectively.  &lt;br/&gt;&lt;br/&gt;Traditionally programmers have relied upon an abstraction called Task Dependence Graph for exposing parallelism in applications. However, dependence graphs cannot be used for emerging applications such as discrete-event simulation of physical systems, e.g., colliding particles and modeling of deforming materials using asynchronous variational integrators. Parallelization of such applications is very challenging because of the complex behaviors exhibited by tasks in such applications: for example, tasks may &lt;br/&gt;create new tasks which must be executed before existing tasks due to ordering constraints based on simulation-time causality, and the execution of one task may change the dependences between existing tasks. The key insight behind the project is that a data structure called the Kinetic Dependence Graph (KDG) can be used to track dependencies in such applications, permitting safe parallel execution at the cost of some book-keeping expense to maintain the KDG. The programming constructs and systems implementations developed by the project will be released publicly as part of the Galois system from the University of Texas at Austin.</AbstractNarration>
+<MinAmdLetterDate>05/13/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>05/13/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1618425</AwardID>
+<Investigator>
+<FirstName>Jayadev</FirstName>
+<LastName>Misra</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jayadev Misra</PI_FULL_NAME>
+<EmailAddress>misra@cs.utexas.edu</EmailAddress>
+<PI_PHON>5124719550</PI_PHON>
+<NSF_ID>000232497</NSF_ID>
+<StartDate>05/13/2016</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Keshav</FirstName>
+<LastName>Pingali</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Keshav Pingali</PI_FULL_NAME>
+<EmailAddress>pingali@cs.utexas.edu</EmailAddress>
+<PI_PHON>5122326567</PI_PHON>
+<NSF_ID>000101776</NSF_ID>
+<StartDate>05/13/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Austin</Name>
+<CityName>Austin</CityName>
+<ZipCode>787595316</ZipCode>
+<PhoneNumber>5124716424</PhoneNumber>
+<StreetAddress>3925 W Braker Lane, Ste 3.340</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>170230239</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT AUSTIN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Austin]]></Name>
+<CityName>Austin</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>787121229</ZipCode>
+<StreetAddress><![CDATA[201 E. 24th Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>25</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX25</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~449570</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Computer chips today have hardware that can work on many tasks simultaneously but it is the responsibility of the person writing the program to identify these tasks and ensure that they can execute correctly in parallel. This way of writing programs, called parallel programming, is particularly difficult for problems that arise in domains such as Electronic Design Automation (EDA) and certain kinds of simulations of physical phenomena, since the data sets are large and do not have a regular structure.</p> <p>This project proposed programming constructs that make it easier to write parallel programs for these kinds of algorithms, and implemented these constructs in the C++ programming language. The implementation permits these programs to run on single machines as well as clusters of machine.</p> <p>To demonstrate the capabilities of the system, solutions for complex chip design problems, known as timing analysis, placement and routing, were implemented using the system and it was shown that these problems can be solved substantially faster than by using previously known methods. The code was made publicly available on github, and it has been downloaded by researchers all over the world.</p> <p>To publicize these results, the project team also published refereed scientific articles in key conferences, and gave invited talks and seminars on the results.</p><br> <p>            Last Modified: 12/15/2020<br>      Modified by: Keshav&nbsp;Pingali</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Computer chips today have hardware that can work on many tasks simultaneously but it is the responsibility of the person writing the program to identify these tasks and ensure that they can execute correctly in parallel. This way of writing programs, called parallel programming, is particularly difficult for problems that arise in domains such as Electronic Design Automation (EDA) and certain kinds of simulations of physical phenomena, since the data sets are large and do not have a regular structure.  This project proposed programming constructs that make it easier to write parallel programs for these kinds of algorithms, and implemented these constructs in the C++ programming language. The implementation permits these programs to run on single machines as well as clusters of machine.  To demonstrate the capabilities of the system, solutions for complex chip design problems, known as timing analysis, placement and routing, were implemented using the system and it was shown that these problems can be solved substantially faster than by using previously known methods. The code was made publicly available on github, and it has been downloaded by researchers all over the world.  To publicize these results, the project team also published refereed scientific articles in key conferences, and gave invited talks and seminars on the results.       Last Modified: 12/15/2020       Submitted by: Keshav Pingali]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

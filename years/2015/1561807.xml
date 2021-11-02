@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Medium: Collaborative Research: Run-Time Support for Scalable Concurrent Programming</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>540000.00</AwardTotalIntnAmount>
+<AwardAmount>540000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Highly-concurrent data structures lie at the heart of modern multicore software. This project will provide systematic run-time system support for several techniques that that have proved essential for constructing highly-concurrent data structures. The intellectual merits are to provide a new basis for thinking about how to scale future generations of both hardware and software, and in particular to develop novel uses of operating system kernel functionality, as well as transactional hardware and software techniques. The project's broader significance and importance is the benefit to society provided by higher performing, less expensive, and more reliable software.&lt;br/&gt;&lt;br/&gt;The specific techniques addressed are unsynchronized traversals, in which a thread navigates through a linked data structure without writing to memory, and atomic sequences of memory operations, where race conditions are eliminated by making a sequence of individual memory operations appear to take place instantaneously. Although these techniques have been successfully deployed in many ad-hoc instances, they have never been packaged as general-purpose mechanisms because they can have complex and dangerous interactions with standard memory management schemes. This project will exploit recent developments in hardware architectures and operating system structures to develop automated, systematic run-time support, making these techniques accessible to non-specialists.</AbstractNarration>
+<MinAmdLetterDate>04/27/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>04/27/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1561807</AwardID>
+<Investigator>
+<FirstName>Maurice</FirstName>
+<LastName>Herlihy</LastName>
+<PI_MID_INIT>P</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Maurice P Herlihy</PI_FULL_NAME>
+<EmailAddress>herlihy@cs.brown.edu</EmailAddress>
+<PI_PHON>4018637646</PI_PHON>
+<NSF_ID>000333742</NSF_ID>
+<StartDate>04/27/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Brown University</Name>
+<CityName>Providence</CityName>
+<ZipCode>029129002</ZipCode>
+<PhoneNumber>4018632777</PhoneNumber>
+<StreetAddress>BOX 1929</StreetAddress>
+<StreetAddress2><![CDATA[350 Eddy Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<StateCode>RI</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>RI01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001785542</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>BROWN UNIVERSITY IN PROVIDENCE IN THE STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001785542</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Brown University]]></Name>
+<CityName>Providence</CityName>
+<StateCode>RI</StateCode>
+<ZipCode>029129016</ZipCode>
+<StreetAddress><![CDATA[115 Waterman St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Rhode Island</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>RI01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~540000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project investigated techniques for increasing concurrency in programming language runtime systems.</p> <p><br />One major thrust of this project is the DEF language, primarily developed by the MIT team.&nbsp; DEF is a language close to the machine for the sake of performance engineering, ut which also has features that provide support for concurrency.&nbsp; These features are designed with costs that do not impede code that do not use them, and preserve the flexibility enjoyed by C programmers in organizing memory layout and operations. DEF occupies the excluded middle between the two categories of languages and is suitable for high performance, scalable applications.</p> <p><br />The other major thrust of this project is to apply experience with concurrency to "smart contracts", scripts that control asset transfers on blockchains. The project was able to show how speculative techniques from software transactional memory can be adapted to run Ethereum smart contacts in parallel, alleviating one the major bottlenecks of smart contract execution. This project developed new techniques for speculative synchronization, and evaluated them by replaying smart contract calls recorded Ethereum blockchain to establish whether conflict rates were low enough for this approach to be effective. The results were promising, and we expect future blockchain smart contract designs will take these results into account.</p><br> <p>            Last Modified: 12/28/2019<br>      Modified by: Maurice&nbsp;P&nbsp;Herlihy</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project investigated techniques for increasing concurrency in programming language runtime systems.   One major thrust of this project is the DEF language, primarily developed by the MIT team.  DEF is a language close to the machine for the sake of performance engineering, ut which also has features that provide support for concurrency.  These features are designed with costs that do not impede code that do not use them, and preserve the flexibility enjoyed by C programmers in organizing memory layout and operations. DEF occupies the excluded middle between the two categories of languages and is suitable for high performance, scalable applications.   The other major thrust of this project is to apply experience with concurrency to "smart contracts", scripts that control asset transfers on blockchains. The project was able to show how speculative techniques from software transactional memory can be adapted to run Ethereum smart contacts in parallel, alleviating one the major bottlenecks of smart contract execution. This project developed new techniques for speculative synchronization, and evaluated them by replaying smart contract calls recorded Ethereum blockchain to establish whether conflict rates were low enough for this approach to be effective. The results were promising, and we expect future blockchain smart contract designs will take these results into account.       Last Modified: 12/28/2019       Submitted by: Maurice P Herlihy]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:  Small:  Confidence in Manycore/Multi-Core Modeling and Simulation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2013</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Computer designers use techniques to accelerate the simulation of their new computer designs while ignoring the errors of the acceleration methods. This is common because the entire simulation of modern computer programs is intractable. Basing the performance of a design only on fragments of program execution can yield results that are misleading, and result in far from optimal computer hardware designs. Without bounds on confidence, the relative performance of two architectures is impossible to compare with any statistical validity. For computer design to advance to an engineering science with reproducible results, the status quo must change. This research remedies the situation by introducing confidence bounding to fast manycore simulation.&lt;br/&gt;&lt;br/&gt;The Georgia Tech research team has made significant and lasting contributions to adding confidence to single-threaded processor simulation, and is adapting and discovering new techniques for the manycore simulation. The team is investigating several approaches to thread slip problem (where the relative execution order of threads is unknown at the start of the simulation of a cluster of events) and are developing models that can be used by designers.  Another class of problems is state reconstruction problems unique to manycore simulation.  For example, global ordering of thread executions and their sharing patterns greatly impact the coherence state of cache blocks.  Coherence information, in addition to directory contents, indicate the current owner of a line, which must be reconstructed for measured cache latencies and interconnect network flow to be representative of unsampled execution.  Other specific problems involve recovering the directory state, the state of the interconnection network (e.g., flit buffers, conflicts for routes, etc), and cache state.</AbstractNarration>
+<MinAmdLetterDate>07/19/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/19/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1016285</AwardID>
+<Investigator>
+<FirstName>Thomas</FirstName>
+<LastName>Conte</LastName>
+<PI_MID_INIT>M</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Thomas M Conte</PI_FULL_NAME>
+<EmailAddress>conte@cc.gatech.edu</EmailAddress>
+<PI_PHON>4043762267</PI_PHON>
+<NSF_ID>000238429</NSF_ID>
+<StartDate>07/19/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320002</ZipCode>
+<StreetAddress><![CDATA[225 NORTH AVE NW]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>Computers are slow and consume a lot of power. &nbsp;Engineers usually optimize designs by simulating future designs. &nbsp;But simulating computers is difficult. &nbsp;This is because each "instruction" that a computer executes in the simulation requires many, many actual instructions in the simulator software. &nbsp;One solution to this problem is to not simulate the whole workload (i.e., the whole benchmark program) for a future computer but instead to only simulate pieces of it. &nbsp;We developed techniques to choose these "pieces" using sound statistical techniques developed for the life sciences a century ago. &nbsp;Applying these techniques to computing is not straight-forward. &nbsp;The reason is that when you skip some work a (simulated) computer should have been executing, you do not know the status (i.e., the "brain contents") of the computer when you turn back on the simulation. &nbsp;We have previously developed technologies to fix these problems. &nbsp;But in doing so, we found that <span>multicore</span> computers-- computers with more than one "CPU" core-- provided new challenges to simulation. &nbsp;In these computers, a program is comprised of multiple "threads" of work that run in parallel. &nbsp;If you skip some of this work, then when you turn back on the simulation, you do not know how the parallel threads line up relative to each other. &nbsp;Our solution to this problem was to stand the problem on its head: instead of interrupting when a <span>multicore</span> is running in parallel, wait until it gets all of the threads in <span>synch</span>. &nbsp;This occurs because programmers need to <span>synch</span> threads from time to time to make sure the threads are "on the same page." &nbsp;Each of the work between these simulation points is a "block" of parallel work, or what we call a barrier interval. &nbsp;The innovation here is to simulate all of the blocks in parallel using a <span>multicore</span> to simulate a <span>multicore</span>! &nbsp;The result is a speedup of hundreds of times for a computer simulation. &nbsp;That means we can evaluate new computer designs that heretofore we didn't have the ability to evaluate. &nbsp;And that, in turn means that new computers will be faster and more power efficient.</span>&nbsp;</p><br> <p>            Last Modified: 01/08/2014<br>      Modified by: Thomas&nbsp;M&nbsp;Conte</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Computers are slow and consume a lot of power.  Engineers usually optimize designs by simulating future designs.  But simulating computers is difficult.  This is because each "instruction" that a computer executes in the simulation requires many, many actual instructions in the simulator software.  One solution to this problem is to not simulate the whole workload (i.e., the whole benchmark program) for a future computer but instead to only simulate pieces of it.  We developed techniques to choose these "pieces" using sound statistical techniques developed for the life sciences a century ago.  Applying these techniques to computing is not straight-forward.  The reason is that when you skip some work a (simulated) computer should have been executing, you do not know the status (i.e., the "brain contents") of the computer when you turn back on the simulation.  We have previously developed technologies to fix these problems.  But in doing so, we found that multicore computers-- computers with more than one "CPU" core-- provided new challenges to simulation.  In these computers, a program is comprised of multiple "threads" of work that run in parallel.  If you skip some of this work, then when you turn back on the simulation, you do not know how the parallel threads line up relative to each other.  Our solution to this problem was to stand the problem on its head: instead of interrupting when a multicore is running in parallel, wait until it gets all of the threads in synch.  This occurs because programmers need to synch threads from time to time to make sure the threads are "on the same page."  Each of the work between these simulation points is a "block" of parallel work, or what we call a barrier interval.  The innovation here is to simulate all of the blocks in parallel using a multicore to simulate a multicore!  The result is a speedup of hundreds of times for a computer simulation.  That means we can evaluate new computer designs that heretofore we didn't have the ability to evaluate.  And that, in turn means that new computers will be faster and more power efficient.        Last Modified: 01/08/2014       Submitted by: Thomas M Conte]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

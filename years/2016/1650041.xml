@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Universal Sketches for Network Monitoring</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>99999.00</AwardTotalIntnAmount>
+<AwardAmount>99999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Network management is multi-faceted and encompasses a range of tasks including traffic engineering, attack and anomaly detection, and forensic analysis.  Each such management task requires accurate and timely statistics on different application-level metrics of interest, such as the flow size distribution, "heavy hitters" (frequently occurring data values), and entropy measures, as well as the detection of changes or unusual patterns.  Streaming algorithms have generated many important practical advances since the creation of the field in the mid 1990s.  For a given data set, these techniques typically use one pass over the data, and use a small amount of memory to compute a desired statistic.  A class of randomized algorithms known as "sketches" has contributed to many practical solutions for databases, networks, and other domains which entail processing large amounts of data, such as astronomy.  In preliminary work, the PI with collaborators introduced a flexible technique, UnivMon (short for Universal Monitoring), for a wide range of monitoring tasks by leveraging recent theoretical advances in streaming algorithms.  The main task of this project is to significantly improve the theoretical foundations of UnivMon.  The UnivMon tool should be a particularly useful artifact for exposing undergraduate students to streaming and network monitoring concepts.  The PI also believes that the topic of this project presents a compelling opportunity for developing graduate students with expertise in the theory of network monitoring.  In particular, the PI plans to leverage his existing graduate-level course offerings as vehicles to integrate findings from this research project.&lt;br/&gt;&lt;br/&gt;While the body of work in data streaming and sketching has made significant contributions to network monitoring, each network metric of interest requires special purpose algorithms.  An ideal monitoring framework would offer generality by delaying the binding to specific applications of interest but at the same time providing the required fidelity for estimating these metrics.  Achieving generality and high fidelity simultaneously has been an elusive goal both in theory and in practice.  Universal streaming develops a single universal sketch which is provably accurate for estimating a large class of functions.  In essence, the generality of universal streaming enables one to delay binding the data plane to specific monitoring tasks, while still providing accuracy that is comparable to (if not better than) running custom sketches using similar compute resources.  To accomplish the system improvements needed for practical deployment, the project will attempt to advance the state of the theory by solving the following open problems: (1) extending the PI's preliminary techniques to handle data expiration, thus allowing the maintenance of statistics over a window of recent data; and (2) constructing algorithms for computing universal sketches with memory usage within a constant factor of optimal, refining previous results that are within a polylogarithmic factor of optimal.</AbstractNarration>
+<MinAmdLetterDate>08/24/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/24/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1650041</AwardID>
+<Investigator>
+<FirstName>Vladimir</FirstName>
+<LastName>Braverman</LastName>
+<PI_MID_INIT>m</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vladimir m Braverman</PI_FULL_NAME>
+<EmailAddress>vova@cs.jhu.edu</EmailAddress>
+<PI_PHON>4105168668</PI_PHON>
+<NSF_ID>000601414</NSF_ID>
+<StartDate>08/24/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Johns Hopkins University</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212182686</ZipCode>
+<PhoneNumber>4439971898</PhoneNumber>
+<StreetAddress>1101 E 33rd St</StreetAddress>
+<StreetAddress2><![CDATA[Suite B001]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001910777</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>JOHNS HOPKINS UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001910777</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Johns Hopkins University]]></Name>
+<CityName>Baltimore</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>212182608</ZipCode>
+<StreetAddress><![CDATA[3400 N Charles ST]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~99999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Network management is multi-faceted and encompasses a range of tasks including traffic engineering, attack and anomaly detection, and forensic analysis.While the body of work in data streaming and sketching has made significant contributions to networkmonitoring, each network metric of interest requires special purpose algorithms.In our preliminary work, we introduced a flexible technique, UnivMon, for a wide range of monitoringtasks by leveraging recent theoretical advances in universal streaming. Universal streaming developsa single universal sketch which is provably accurate for estimating a large class of functions.<br />This research improves the theoretical foundations of UnivMon. Specifically, we proposed two important imporvements.NitroSketch that is a significant improvement to UnivMon. The Nitro sketch is a general and efficient software sketching framework that enables line-rate packetprocessing for a broad spectrum of sketching algorithms. NitroSketch has provable worst-case guarantees, without needing any distributional assumptions about the traffic. We do this by systematically identifying the fundamental performanceWe also introduce a UnivMon on Interval queries that is&nbsp;&nbsp;a first integral solution that is (i) sketch based and thus spaceefficient, (ii) supports specifying the time frame of interest aspart of its queries, and (iii) enables multiple measurement tasksinside the same data structure. Also, this award partially supported research that&nbsp;brings significant theoretical and practical improvements in important problems in the streaming and sketching setting such as clustering, randomized numerical linear algebra and beyond.This research resulted&nbsp;in publications&nbsp;in top computer science conferences such as STOC, ICALP and OSDI.</p><br> <p>            Last Modified: 11/03/2018<br>      Modified by: Vladimir&nbsp;M&nbsp;Braverman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Network management is multi-faceted and encompasses a range of tasks including traffic engineering, attack and anomaly detection, and forensic analysis.While the body of work in data streaming and sketching has made significant contributions to networkmonitoring, each network metric of interest requires special purpose algorithms.In our preliminary work, we introduced a flexible technique, UnivMon, for a wide range of monitoringtasks by leveraging recent theoretical advances in universal streaming. Universal streaming developsa single universal sketch which is provably accurate for estimating a large class of functions. This research improves the theoretical foundations of UnivMon. Specifically, we proposed two important imporvements.NitroSketch that is a significant improvement to UnivMon. The Nitro sketch is a general and efficient software sketching framework that enables line-rate packetprocessing for a broad spectrum of sketching algorithms. NitroSketch has provable worst-case guarantees, without needing any distributional assumptions about the traffic. We do this by systematically identifying the fundamental performanceWe also introduce a UnivMon on Interval queries that is  a first integral solution that is (i) sketch based and thus spaceefficient, (ii) supports specifying the time frame of interest aspart of its queries, and (iii) enables multiple measurement tasksinside the same data structure. Also, this award partially supported research that brings significant theoretical and practical improvements in important problems in the streaming and sketching setting such as clustering, randomized numerical linear algebra and beyond.This research resulted in publications in top computer science conferences such as STOC, ICALP and OSDI.       Last Modified: 11/03/2018       Submitted by: Vladimir M Braverman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

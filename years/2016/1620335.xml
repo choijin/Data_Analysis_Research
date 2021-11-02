@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Positivity preserving limiter and new development on elliptic interface problems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>150000.00</AwardTotalIntnAmount>
+<AwardAmount>150000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This research will contribute to the fundamental understanding of algorithm development that are widely applied in vehicles designs and aerospace engineering. The PI and her collaborators will perform mathematical studies on the performance and properties of the algorithms. Specifically the proposed method assists to stabilize the algorithm implementation such that numerical studies of physical properties, for example the pressure distributions around fast flying airplanes, can be carried out. Comparing with lab experiments, computer simulations are way less expensive and more efficient. In this project, the PI also develops a new idea and new algorithms for interface problems. One application is the compound materials studies in which highly accurate and efficient solvers are demanded. The investigator will integrate research with education activities and communicate the research in a broader context.&lt;br/&gt;  &lt;br/&gt;The PI will develop third order maximum principle satisfying limiter for general convection diffusion equations. The objective is to prove the high order polynomial solutions staying in the given bounds without losing accuracy. The PI further extends the studies to obtain positivity preserving limiter for compressible Navier-Stokes equations. In this project, the PI also develops new methods to solve elliptic interface problems with mesh either aligned to or cut through the interface. The research is based on the direct discontinuous Galerkin methods previously designed by the PI. With the extra flexibility on the numerical flux formula, the PI manages to prove the quadratic polynomial numerical solutions satisfying strict maximum principle on unstructured triangular meshes with at least third order of accuracy. There is no geometric restriction on the meshes and obtuse triangles are allowed. The PI will prove the density and pressure approximations to compressible Navier-Stokes equations being maintained positive at all time levels. As a by-product, bounding the polynomial solutions or preserving the solution's positivity can be considered as a strong stability result. The findings of this research will improve the capability of a numerical method to those challenging problems from computational fluid dynamics. For elliptic interface problems, the PI will modify the numerical fluxes defined at element edges to implicitly enforce the interface solution jump and flux jump conditions.</AbstractNarration>
+<MinAmdLetterDate>06/15/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/15/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1620335</AwardID>
+<Investigator>
+<FirstName>Jue</FirstName>
+<LastName>Yan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jue Yan</PI_FULL_NAME>
+<EmailAddress>jyan@iastate.edu</EmailAddress>
+<PI_PHON>5152948166</PI_PHON>
+<NSF_ID>000110021</NSF_ID>
+<StartDate>06/15/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Iowa State University</Name>
+<CityName>AMES</CityName>
+<ZipCode>500112207</ZipCode>
+<PhoneNumber>5152945225</PhoneNumber>
+<StreetAddress>1138 Pearson</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<StateCode>IA</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IA04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005309844</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005309844</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Iowa State University]]></Name>
+<CityName>Ames</CityName>
+<StateCode>IA</StateCode>
+<ZipCode>500112064</ZipCode>
+<StreetAddress><![CDATA[484 Carver Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IA04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~150000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project we target two challenging problems in scientific computing. One is to maintain none negative high order simulation to pressure distribution around fast flying air plane wings.When solving the model Navier-Stokes equations for compressible flow, positivity-preserving approximation not only guarantees the consistency to its physical meanings, but serves as a strong stability result which practically maintains the simulated code not to blow up or crash. Our method extends the available second order methods to third or higher order positivity-preserving methods, which is quite a break through and a big improvement of the field. We refer to the figure titled "mesh with obtuse triangles" to show a typical computational domain partition with obtuse triangles allowed, for which we prove the piecewise polynomial approximations can be maintained bounded strictly. We further refer to the figures titled "unstructured mesh around cylinder" and "vorticity contour plot" on our simulation of the compressible flow vorticity distribution passing a cylinder geometry.&nbsp;</p> <p>&nbsp;</p> <p>The second goal of the project is to develop high order numerical methods solving elliptic interface problems. We finished the discussion on body-fitted mesh, which is a very good result. Comparing to available numerical methods, our method can simultaneously incorporate the two none zero solution jump and flux jump interface conditions. Corresponding to most second order results in literature, we obtain uniform high order approximations of 3rd, 4th and 5th orders of accuracy for a large group of problems with complicated interfaces. We refer to the "body-fitted mesh" figure on the mesh applied in simulation and one high order approximation of the solution with none convex interface in figure titled "petal shape interface problem".&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/01/2021<br>      Modified by: Jue&nbsp;Yan</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622516759897_ogrd2--rgov-214x142.jpg" original="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622516759897_ogrd2--rgov-800width.jpg" title="mesh with obtuse triangles"><img src="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622516759897_ogrd2--rgov-66x44.jpg" alt="mesh with obtuse triangles"></a> <div class="imageCaptionContainer"> <div class="imageCaption">computational domain unstructured triangular partition with obtuse elements</div> <div class="imageCredit">Z. Chen, H. Huang and J. Yan,  Third order Maximum-principle-satisfying direct discontinuous Galerkin methods for time dependent convection diffusion equations on unstructured triangular meshes, Journal of Computational Physics, Volume 308, (2016), 198 � 217.</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Jue&nbsp;Yan</div> <div class="imageTitle">mesh with obtuse triangles</div> </div> </li> <li> <a href="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622517501744_Cylinder_mesh--rgov-214x142.jpg" original="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622517501744_Cylinder_mesh--rgov-800width.jpg" title="unstructured mesh around cylinder"><img src="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622517501744_Cylinder_mesh--rgov-66x44.jpg" alt="unstructured mesh around cylinder"></a> <div class="imageCaptionContainer"> <div class="imageCaption">mesh used for simulating unsteady flow over a cylinder</div> <div class="imageCredit">M. Danis and J. Yan, A new direct discontinuous Galerkin method with interface correction for tow-dimensional compressible Navier-Stokes equations. arXiv:2104.09767</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Jue&nbsp;Yan</div> <div class="imageTitle">unstructured mesh around cylinder</div> </div> </li> <li> <a href="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622520608115_cylinder_k4_vortex-1--rgov-214x142.jpg" original="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622520608115_cylinder_k4_vortex-1--rgov-800width.jpg" title="vorticity contour plot"><img src="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622520608115_cylinder_k4_vortex-1--rgov-66x44.jpg" alt="vorticity contour plot"></a> <div class="imageCaptionContainer"> <div class="imageCaption">21 contour levels for the simulated vorticity</div> <div class="imageCredit">M. Danis and J. Yan, A new direct discontinuous Galerkin method with interface correction for tow-dimensional compressible Navier-Stokes equations. arXiv:2104.09767</div> <div class="imageSubmitted">Jue&nbsp;Yan</div> <div class="imageTitle">vorticity contour plot</div> </div> </li> <li> <a href="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622566735419_Example9_Mesh_Level3--rgov-214x142.jpg" original="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622566735419_Example9_Mesh_Level3--rgov-800width.jpg" title="body-fitted mesh"><img src="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622566735419_Example9_Mesh_Level3--rgov-66x44.jpg" alt="body-fitted mesh"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Curved triangular elements are adapted to incorporate the two jump conditions around the flower petal shape interface</div> <div class="imageCredit">H. Huang, Jin Li and J. Yan, High order symmetric direct discontinuous Galerkin method for elliptic interface problems with fitted mesh, Journal of Computational Physics, 2019, doi:10.1016/j.jcp.2020.109301</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Jue&nbsp;Yan</div> <div class="imageTitle">body-fitted mesh</div> </div> </li> <li> <a href="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622566963169_Example9_approx_solution_Level3--rgov-214x142.jpg" original="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622566963169_Example9_approx_solution_Level3--rgov-800width.jpg" title="petal shape interface problem"><img src="/por/images/Reports/POR/2021/1620335/1620335_10433224_1622566963169_Example9_approx_solution_Level3--rgov-66x44.jpg" alt="petal shape interface problem"></a> <div class="imageCaptionContainer"> <div class="imageCaption">High order accuracy is obtained for the none convex and complicated petal shape elliptic interface problem</div> <div class="imageCredit">H. Huang, Jin Li and J. Yan, High order symmetric direct discontinuous Galerkin method for elliptic interface problems with fitted mesh, Journal of Computational Physics, 2019, doi:10.1016/j.jcp.2020.109301</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Jue&nbsp;Yan</div> <div class="imageTitle">petal shape interface problem</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project we target two challenging problems in scientific computing. One is to maintain none negative high order simulation to pressure distribution around fast flying air plane wings.When solving the model Navier-Stokes equations for compressible flow, positivity-preserving approximation not only guarantees the consistency to its physical meanings, but serves as a strong stability result which practically maintains the simulated code not to blow up or crash. Our method extends the available second order methods to third or higher order positivity-preserving methods, which is quite a break through and a big improvement of the field. We refer to the figure titled "mesh with obtuse triangles" to show a typical computational domain partition with obtuse triangles allowed, for which we prove the piecewise polynomial approximations can be maintained bounded strictly. We further refer to the figures titled "unstructured mesh around cylinder" and "vorticity contour plot" on our simulation of the compressible flow vorticity distribution passing a cylinder geometry.      The second goal of the project is to develop high order numerical methods solving elliptic interface problems. We finished the discussion on body-fitted mesh, which is a very good result. Comparing to available numerical methods, our method can simultaneously incorporate the two none zero solution jump and flux jump interface conditions. Corresponding to most second order results in literature, we obtain uniform high order approximations of 3rd, 4th and 5th orders of accuracy for a large group of problems with complicated interfaces. We refer to the "body-fitted mesh" figure on the mesh applied in simulation and one high order approximation of the solution with none convex interface in figure titled "petal shape interface problem".              Last Modified: 06/01/2021       Submitted by: Jue Yan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

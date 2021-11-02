@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NetSE: Small: Load Balancing by Network Curvature Control</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>499996.00</AwardTotalIntnAmount>
+<AwardAmount>499996</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project explores the interplay between the topology/geometry of networks and their traffic load pattern with the ultimate objective of deriving new load-balancing algorithms based on curvature control. The phenomenon that is observed in reality is the strong concentration of the traffic on some small subsets of links/nodes. This can be seen in the Internet (?backbone?), in the power grid (?line overload?), in vehicular traffic, in metabolic exchange in living organisms, etc. This phenomenon?the emergence of the centroid?cannot be completely accounted for by the local heavy-tailed paradigm, but strong evidence is provided here that this is a general feature dictated by the large-scale hyperbolic structure of the underlying network. Here, hyperbolic is a metaphor to refer to the fact that such networks as the Internet Service Provider (ISP) behave like negatively curved Riemannian manifolds, of which the saddle is the most intuitive visualization. Behavior refers to the geodesic flow, which carries the traffic and controls its stability or instability (e.g., fluttering) under such perturbation as outage or power depletion. &lt;br/&gt;&lt;br/&gt;The first part of the proposed research will be devoted to refining criteria for real networks to be identifiable with negatively curved Riemannian manifolds. After developing intuitive criteria based on angle deficit/excess and clustering coefficient, the Gromov Thin Triangle Condition (TTC) and Four-Point Condition (FPC) will be scaled by the size of the graph to become relevant to real networks, which, no matter how awesome their sizes, are nevertheless finite. This leads to the new concept of scale-specific Gromov hyperbolic graphs, of which the Rocketfuel data base already provides an example. Such real-life networks as those provided by Bell Labs, sensor networks, air traffic control, even metabolic and nervous system networks will be used as testbeds. Next, the first step towards congestion analysis is the development of a network-specific concept of centroid or center of mass, already known in the mathematical community in its Riemannian manifold version. While in simulation the centroid has appeared to coincide with the point of maximum traffic, an important research milestone will be the theoretical justification of this fact. At the other end of the curvature spectrum, there is strong evidence that traffic on uniformly positively curved networks is balanced, provided the Dijkstra routing algorithm incorporates a randomization of the equal cost paths. &lt;br/&gt;&lt;br/&gt;The preceding leads to the culmination of the research: by reassigning link weights so that the resulting network is positively curved, the routing based on the modified network would balance the load. Provided that the Euler characteristic of the network reveals no obstructions, the reassignment is carried over by the so-called Yamabe flow algorithm, which has a decentralized structure and hence would mesh with such network algorithms as flooding. Finally, the algorithm will be given an adaptive control structure, meaning that once it reaches positive curvature, it will continuously update the link weights as necessitated by network outages, flash points, etc.&lt;br/&gt;&lt;br/&gt;The intellectual merit of the proposed research is that it will take coarse geometry?which has over the past few years silently pervaded such diverse fields as wired and wireless networks, autonomous agents, cooperative control, even biochemistry?along its scale-specific reformulation relevant to complex real-life networks, which do not quite fit the mathematical idealization of Gromov hyperbolic graphs. Certainly, the most transformative part of the research is the load-balancing based on routing on a modified positively curved network. The latter will bring to the real world such curvature smoothing algorithms as the Yamabe flow, which was instrumental in the proof of one of the most celebrated mathematical puzzles of all times?the Poincar´e conjecture.&lt;br/&gt;&lt;br/&gt;The broader impact of the proposed activity is that it will foster a well-focused, application-driven multidisciplinary collaboration between the Department of Electrical Engineering, the Computer Engineering group, and the most theoretical geometry/topology group of the Department of Mathematics. Joint seminars, group meetings, new course development, etc. will create a new breed of engineering students, knowledgeable in coarse geometry, which has so far not been part of the traditional engineering curriculum. Extensive collaboration with Bell Labs will be maintained throughout the project</AbstractNarration>
+<MinAmdLetterDate>07/15/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>07/15/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017881</AwardID>
+<Investigator>
+<FirstName>Francis</FirstName>
+<LastName>Bonahon</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Francis Bonahon</PI_FULL_NAME>
+<EmailAddress>fbonahon@usc.edu</EmailAddress>
+<PI_PHON>2137402390</PI_PHON>
+<NSF_ID>000203682</NSF_ID>
+<StartDate>07/15/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Edmond</FirstName>
+<LastName>Jonckheere</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Edmond A Jonckheere</PI_FULL_NAME>
+<EmailAddress>jonckhee@usc.edu</EmailAddress>
+<PI_PHON>2137404457</PI_PHON>
+<NSF_ID>000455799</NSF_ID>
+<StartDate>07/15/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Bhaskar</FirstName>
+<LastName>Krishnamachari</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Bhaskar Krishnamachari</PI_FULL_NAME>
+<EmailAddress>bkrishna@usc.edu</EmailAddress>
+<PI_PHON>2138212528</PI_PHON>
+<NSF_ID>000157788</NSF_ID>
+<StartDate>07/15/2010</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Southern California</Name>
+<CityName>Los Angeles</CityName>
+<ZipCode>900890001</ZipCode>
+<PhoneNumber>2137407762</PhoneNumber>
+<StreetAddress>University Park</StreetAddress>
+<StreetAddress2><![CDATA[3720 S. Flower St.]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA37</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072933393</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF SOUTHERN CALIFORNIA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072933393</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Southern California]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900890001</ZipCode>
+<StreetAddress><![CDATA[University Park]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA37</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7794</Code>
+<Text>NETWORK SCIENCE &amp; ENGINEERING</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~499996</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In a communications network, when a message has to be sent from point S (Source) to point D (Destination) via several intermediate points, proper utilization of the resources requires the path that the message takes to be "economical." For example, it does not make sense for the message to wander across the network, visit a variety of intermdediate points consuming precious servicing time, when there is a "direct" path from S to D. To quantifatively compare the "costly" paths and the "economical" paths, we define the cost of a path to be, for example, the number of intermediate stations visited by the message, or the geographical length of the path, or the delay incurred by the message as it travels from the Source to the Destination, etc. The problem is geometrized by envisioning the network to be a surface (coud be a sphere or a saddle), by viewing the path of the message as a line drawn on the surface, and by formalizing the cost of a line drawn on the surface to be its geometrical length. Economical routing of the message from S to D can hence be viewed as drawing a line of least length on the surface. To be even more intuitive, consider a saddle, stick two pins, one at S, one at D, and stretch a rubber band between the two pins. The rubber band will follow the path of least length between S and D.</p> <p>Now, assume that a great many Sources have to transmit a great many messages to a great many Destinations. In the pin and rubber band model, every source Si is connected to its destination Si by a rubber band. The issue addressed in this research is whether we could have areas where many rubber bands (economical communication paths) intersect, straining the resources at the intersection point, and causing the same sort of delays as you sometimes experience with your Internet connection or, as worst case scenario, causing the network to crash.</p> <p>If we do the above experience on a saddle, we will have a point where many rubber bands overlap. If we repeat the same experiment on a sphere, such a critical point of overlap of many rubber bands won't develop. The difficulty is to translate this simple experiment in the context of real communication networks. It turns out that congestion (overlap of rubber bands) occurs on the saddle because it has negative curvature. Congestion is unlikely to happen on the sphere because it is positively curved. Positive curvature refers to consistency of the landscape as we walk on the sphere: everywhere we are the horizon disappears below us. If we were able to walk on a saddle, the landscape would be inconsistent: up in certain directions, down in other directions.</p> <p>The bulk of the research has been to define the concept of curvature for a network, in such a way that the real network versus the "rubber band on sphere" analogy holds.Inspired from that imagery, we were able to define those networks prone to congestion, delay, bad utilization of the resources.</p> <p>Next, assume that a network is prone to congestion. Can we fix it? Yes, up to a certain extend! In the rubber bands on a surface analogy, it would suffice to deform the surface in such a way as to remove the points where the rubber bands are overlapping. Translated to the real network, this means artificially changing the cost in such a way that the routing protocol "thinks" that the network is positively curved, or at least less negatively curved than the original one. This would alleviate congestion, but since the cost of the various transmission channels has been altered from their physical values, it translates into slightly higher delays. As usual in engineering, only a trade-off among conflicting objectives can be attained.</p> <p>This paradigm has been successfully applied to the wired Internet and to wireless networks.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/13/2014<br>      Modified by: Edmond&nbsp;A&nbsp;Jonckheere</p> </div> <div clas...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In a communications network, when a message has to be sent from point S (Source) to point D (Destination) via several intermediate points, proper utilization of the resources requires the path that the message takes to be "economical." For example, it does not make sense for the message to wander across the network, visit a variety of intermdediate points consuming precious servicing time, when there is a "direct" path from S to D. To quantifatively compare the "costly" paths and the "economical" paths, we define the cost of a path to be, for example, the number of intermediate stations visited by the message, or the geographical length of the path, or the delay incurred by the message as it travels from the Source to the Destination, etc. The problem is geometrized by envisioning the network to be a surface (coud be a sphere or a saddle), by viewing the path of the message as a line drawn on the surface, and by formalizing the cost of a line drawn on the surface to be its geometrical length. Economical routing of the message from S to D can hence be viewed as drawing a line of least length on the surface. To be even more intuitive, consider a saddle, stick two pins, one at S, one at D, and stretch a rubber band between the two pins. The rubber band will follow the path of least length between S and D.  Now, assume that a great many Sources have to transmit a great many messages to a great many Destinations. In the pin and rubber band model, every source Si is connected to its destination Si by a rubber band. The issue addressed in this research is whether we could have areas where many rubber bands (economical communication paths) intersect, straining the resources at the intersection point, and causing the same sort of delays as you sometimes experience with your Internet connection or, as worst case scenario, causing the network to crash.  If we do the above experience on a saddle, we will have a point where many rubber bands overlap. If we repeat the same experiment on a sphere, such a critical point of overlap of many rubber bands won't develop. The difficulty is to translate this simple experiment in the context of real communication networks. It turns out that congestion (overlap of rubber bands) occurs on the saddle because it has negative curvature. Congestion is unlikely to happen on the sphere because it is positively curved. Positive curvature refers to consistency of the landscape as we walk on the sphere: everywhere we are the horizon disappears below us. If we were able to walk on a saddle, the landscape would be inconsistent: up in certain directions, down in other directions.  The bulk of the research has been to define the concept of curvature for a network, in such a way that the real network versus the "rubber band on sphere" analogy holds.Inspired from that imagery, we were able to define those networks prone to congestion, delay, bad utilization of the resources.  Next, assume that a network is prone to congestion. Can we fix it? Yes, up to a certain extend! In the rubber bands on a surface analogy, it would suffice to deform the surface in such a way as to remove the points where the rubber bands are overlapping. Translated to the real network, this means artificially changing the cost in such a way that the routing protocol "thinks" that the network is positively curved, or at least less negatively curved than the original one. This would alleviate congestion, but since the cost of the various transmission channels has been altered from their physical values, it translates into slightly higher delays. As usual in engineering, only a trade-off among conflicting objectives can be attained.  This paradigm has been successfully applied to the wired Internet and to wireless networks.          Last Modified: 10/13/2014       Submitted by: Edmond A Jonckheere]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAPSI: Object Recognition for the Purpose of Traffic Compliance of Autonomous Vehicles</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>5070.00</AwardTotalIntnAmount>
+<AwardAmount>5070</AwardAmount>
+<AwardInstrument>
+<Value>Fellowship Award</Value>
+</AwardInstrument>
+<Organization>
+<Code>01090000</Code>
+<Directorate>
+<Abbreviation>O/D</Abbreviation>
+<LongName>Office Of The Director</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OISE</Abbreviation>
+<LongName>Office Of Internatl Science &amp;Engineering</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anne Emig</SignBlockName>
+<PO_EMAI>aemig@nsf.gov</PO_EMAI>
+<PO_PHON>7032927241</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In order for an autonomous vehicle to effectively navigate a road network, it needs to have accurate information about road elements such as traffic signs, traffic lights, and road markings so that it can comply with local traffic laws. Traditionally this information is gathered through detailed maps or visual recognition, however, these approaches can fail if there is insufficient map data available or on-board sensors are unsuccessful at locating road elements. This project proposes to build a system which can detect these road elements by analyzing the behavior of nearby road vehicles. This research will be performed under the guidance of Dr. Marcelo H. Ang Jr. at the National University of Singapore. Dr. Ang previously co-authored related research and as such will be a source of invaluable expertise, in addition to being a member of a lab with access to a cutting-edge autonomous vehicle platform.&lt;br/&gt;&lt;br/&gt;Nearby vehicles will be detected by using a combination of LIDAR sensors and cameras which are mounted to an autonomous vehicle platform. Vehicle positions will be extrapolated from the sensor data in conjunction with localization data provided by the vehicle platform, from which features will be extracted and fed into a machine learning classifier. Recent research has shown great success at identifying pedestrian paths by filtering out noise in pedestrian positions via clustering then modelling with a Naive Bayes Classifier, so these techniques will be used in order to identify road elements that lie on a vehicle?s path. The results from the classifier will be used in conjunction with other traditional identification methods in order to improve the overall identification rate of road elements. This NSF EAPSI award is funded in collaboration with the National Research Foundation of Singapore.</AbstractNarration>
+<MinAmdLetterDate>05/26/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>05/26/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.079</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1515589</AwardID>
+<Investigator>
+<FirstName>Joseph</FirstName>
+<LastName>Campbell</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Joseph Campbell</PI_FULL_NAME>
+<EmailAddress/>
+<PI_PHON>4802969922</PI_PHON>
+<NSF_ID>000685877</NSF_ID>
+<StartDate>05/26/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Campbell                Joseph</Name>
+<CityName>Chandler</CityName>
+<ZipCode>852266097</ZipCode>
+<PhoneNumber/>
+<StreetAddress/>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Arizona</StateName>
+<StateCode>AZ</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>AZ09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM/>
+<ORG_LGL_BUS_NAME/>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Campbell                Joseph]]></Name>
+<CityName>Chandler</CityName>
+<StateCode>AZ</StateCode>
+<ZipCode>852266097</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Arizona</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>AZ09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7316</Code>
+<Text>EAPSI</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5927</Code>
+<Text>EAST ASIA, OTHER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>5978</Code>
+<Text>EAST ASIA AND PACIFIC PROGRAM</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7316</Code>
+<Text>EAPSI</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~5070</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Autonomous vehicles have the potential to usher in significant societal benefits such as fewer traffic fatalities, reduced pollution and energy consumption, and greater mobility to those unable to operate a standard automobile. However, as is the case with many disruptive technologies, there are significant challenges that must be resolved before they are ready for widespread adoption. Chief among these is the ability to safely navigate complex environments such as intersections while maintaining compliance with local traffic regulations. Existing infrastructure like traffic lights are optimized for visual identification by humans, a task that computers still struggle with. An alternative, possibly supplemental approach is to examine other contextual information which could be used to infer the status of a traffic light.</p> <p>This project&rsquo;s primary goal was to develop such a system which infers the state of traffic lights by analyzing the position, velocity, and acceleration data of other nearby vehicles. As an additional constraint, the system must run in real-time on the limited computing resources afforded to an autonomous vehicle. This research was performed under the guidance of Dr. Marcelo H. Ang Jr. at the National University of Singapore.</p> <p>The initial project design collected position and velocity data over a finite time interval for all nearby vehicles from LIDAR sensor data. In order to perform pattern recognition on this data, the data was transformed into an input for a Support Vector Machine classifier which would then generate a label &ndash; &ldquo;green&rdquo;, &ldquo;yellow&rdquo;, or &ldquo;red&rdquo; &ndash; for the given data. As an illustrative example, suppose the LIDAR sensors detect other vehicles ahead travelling perpendicular to the autonomous vehicle through an intersection. The SVM classifier would then generate a label of &ldquo;red&rdquo;, indicating the traffic light was predicted to be red with respect to the autonomous vehicle.</p> <p>This system was designed to interface with the software framework of the autonomous vehicle used by Dr. Ang&rsquo;s lab and make predictions with actual data in real-time. The autonomous vehicle was (manually) driven through intersections near the National University of Singapore&rsquo;s campus in order to collect data and perform traffic light predictions. These results were promising, exhibiting a high real-time classification accuracy under specific scenarios. However, it was determined that additional data was required to generalize the system to more varied intersection scenarios. Since manually collecting data is a time consuming task, a simulator was designed which produces synthetic sensor data for realistic traffic scenarios based off of the real data collected by the autonomous vehicle. This has enabled continued improvement in the classification accuracy.</p> <p>This work shows great promise in an area that has been largely unexplored in autonomous vehicle research. Rather than relying on conventional methods of traffic light detection such as error-prone visual identification via a camera, contextual information is utilized to make accurate alternative predictions. If these alternative predictions can be used to supplement traditional methods for an increased prediction accuracy, then this could lead to safer and more effective autonomous vehicles.</p> <p>&nbsp;</p><br> <p>            Last Modified: 03/16/2016<br>      Modified by: Joseph&nbsp;Campbell</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Autonomous vehicles have the potential to usher in significant societal benefits such as fewer traffic fatalities, reduced pollution and energy consumption, and greater mobility to those unable to operate a standard automobile. However, as is the case with many disruptive technologies, there are significant challenges that must be resolved before they are ready for widespread adoption. Chief among these is the ability to safely navigate complex environments such as intersections while maintaining compliance with local traffic regulations. Existing infrastructure like traffic lights are optimized for visual identification by humans, a task that computers still struggle with. An alternative, possibly supplemental approach is to examine other contextual information which could be used to infer the status of a traffic light.  This projectÆs primary goal was to develop such a system which infers the state of traffic lights by analyzing the position, velocity, and acceleration data of other nearby vehicles. As an additional constraint, the system must run in real-time on the limited computing resources afforded to an autonomous vehicle. This research was performed under the guidance of Dr. Marcelo H. Ang Jr. at the National University of Singapore.  The initial project design collected position and velocity data over a finite time interval for all nearby vehicles from LIDAR sensor data. In order to perform pattern recognition on this data, the data was transformed into an input for a Support Vector Machine classifier which would then generate a label &ndash; "green", "yellow", or "red" &ndash; for the given data. As an illustrative example, suppose the LIDAR sensors detect other vehicles ahead travelling perpendicular to the autonomous vehicle through an intersection. The SVM classifier would then generate a label of "red", indicating the traffic light was predicted to be red with respect to the autonomous vehicle.  This system was designed to interface with the software framework of the autonomous vehicle used by Dr. AngÆs lab and make predictions with actual data in real-time. The autonomous vehicle was (manually) driven through intersections near the National University of SingaporeÆs campus in order to collect data and perform traffic light predictions. These results were promising, exhibiting a high real-time classification accuracy under specific scenarios. However, it was determined that additional data was required to generalize the system to more varied intersection scenarios. Since manually collecting data is a time consuming task, a simulator was designed which produces synthetic sensor data for realistic traffic scenarios based off of the real data collected by the autonomous vehicle. This has enabled continued improvement in the classification accuracy.  This work shows great promise in an area that has been largely unexplored in autonomous vehicle research. Rather than relying on conventional methods of traffic light detection such as error-prone visual identification via a camera, contextual information is utilized to make accurate alternative predictions. If these alternative predictions can be used to supplement traditional methods for an increased prediction accuracy, then this could lead to safer and more effective autonomous vehicles.          Last Modified: 03/16/2016       Submitted by: Joseph Campbell]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

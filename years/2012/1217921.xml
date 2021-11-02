@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Multicore Data-Structures: Relaxed, Flat, and Randomized</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Most multicore data structures being designed and used in parallel software today are concurrent versions of the sequential data structures of years past.  They continue to work reasonably well because the level of parallelism offered by mainstream multicore machines is still low.  As machines grow in size, however, the limitations of these traditional structures will become clear: they have inherent sequential bottlenecks, require tight synchronization, and are not easily distributed.  This project will develop new classes of parallel data structures that combine relaxed specifications with highly decentralized randomized implementations, overcoming the drawbacks of existing structures and providing a better fit with tomorrow's massively parallel many-core machine designs. &lt;br/&gt;&lt;br/&gt;This research will combine theoretical algorithmic work with empirical evaluation on real machines and applications, and will result in a library of concurrent data structures and a collection of design approaches and specification methodologies. Commercial software developers are in desperate need of data structures that scale while still remaining easy to understand and modify. Making this project's developed structures widely available will greatly help in making tomorrow's applications, whether they run on a cell phone or on a server in the cloud, make full use of the parallelism offered by multicore technology.</AbstractNarration>
+<MinAmdLetterDate>07/03/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>07/03/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217921</AwardID>
+<Investigator>
+<FirstName>Nir</FirstName>
+<LastName>Shavit</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nir Shavit</PI_FULL_NAME>
+<EmailAddress>shanir@csail.mit.edu</EmailAddress>
+<PI_PHON>6173248440</PI_PHON>
+<NSF_ID>000457678</NSF_ID>
+<StartDate>07/03/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><dd> <div class="tinyMCEContent"><!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.5px Helvetica} p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Helvetica} --> <p class="p1">The move to multicore processors as our standard computing platform will force major changes in the way we design parallel software, and in particular in the way we design and use concurrent data structures. The goal of our research was to develop new concurrent data structures, not as lock-based or lock-free versions of sequential data structures, but rather from scratch as high throughput concurrent structures. We reevaluated the way in which concurrent data struc-tures are specied, implemented, and used in parallel programs. We then developed new types of relaxed shared concurrent objects: objects that have relaxed specications for which we then developed decentralized randomized implementations that are scalable since they have low overall communication and memory access rates.</p> <p>We developed a collection of data structures solving a variety of tasks. The SkipTrie, a low-depth concurrent search structure that allows fast randomized predecessor queries access without rebalancing.&nbsp;The Leaplist: a skiplist stype randomized concurrent data structrue using hardware transactions that allows efficient range queries. &nbsp;We also developed a new randomized Loose Renaming algorithm that takes only O(log log n) time to rename n items. We developed a new types of&nbsp;NUMA-aware reader-writer locks that allow for better scalaibility in concurrent data structure design. We develoepd the LevelArray: a fast, long-lived renaming algorithm. We proved mathematically that many lock-free concurrent algorithms are wait-free in practice without the need to restucture them. This introduces major potential saving in the cost of designing concurrent data structures, as programmers can avoid the overhead of wait-free algorithm design and still get all its benefits from lock-free ones. Finally, we developed the SprayList: a scalable relaxed priority queue based on randomization. For most of these data structures we provided code, available on the internet for public use.&nbsp;</p> </div> </dd><dd> <div class="tinyMCEContent"> <p>We belive that we have clearly shown that one can develop competitive concurrent algorithms, ones that greatly improve over traditional data structures parallelized using locks. The key techniques we developed exposed the crucial role of randomization and the use of relaxed specifications.&nbsp;</p> <p class="p2">Commercial software developers are in desperate need of data structures that scale, and teh availability of structures and techniques developed in the project available to them will greatly help in making applications make full use of the parallelism offered by multicore machines.&nbsp;</p> </div> </dd> <p>&nbsp;</p><br> <p>            Last Modified: 11/15/2016<br>      Modified by: Nir&nbsp;Shavit</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  The move to multicore processors as our standard computing platform will force major changes in the way we design parallel software, and in particular in the way we design and use concurrent data structures. The goal of our research was to develop new concurrent data structures, not as lock-based or lock-free versions of sequential data structures, but rather from scratch as high throughput concurrent structures. We reevaluated the way in which concurrent data struc-tures are specied, implemented, and used in parallel programs. We then developed new types of relaxed shared concurrent objects: objects that have relaxed specications for which we then developed decentralized randomized implementations that are scalable since they have low overall communication and memory access rates.  We developed a collection of data structures solving a variety of tasks. The SkipTrie, a low-depth concurrent search structure that allows fast randomized predecessor queries access without rebalancing. The Leaplist: a skiplist stype randomized concurrent data structrue using hardware transactions that allows efficient range queries.  We also developed a new randomized Loose Renaming algorithm that takes only O(log log n) time to rename n items. We developed a new types of NUMA-aware reader-writer locks that allow for better scalaibility in concurrent data structure design. We develoepd the LevelArray: a fast, long-lived renaming algorithm. We proved mathematically that many lock-free concurrent algorithms are wait-free in practice without the need to restucture them. This introduces major potential saving in the cost of designing concurrent data structures, as programmers can avoid the overhead of wait-free algorithm design and still get all its benefits from lock-free ones. Finally, we developed the SprayList: a scalable relaxed priority queue based on randomization. For most of these data structures we provided code, available on the internet for public use.      We belive that we have clearly shown that one can develop competitive concurrent algorithms, ones that greatly improve over traditional data structures parallelized using locks. The key techniques we developed exposed the crucial role of randomization and the use of relaxed specifications.  Commercial software developers are in desperate need of data structures that scale, and teh availability of structures and techniques developed in the project available to them will greatly help in making applications make full use of the parallelism offered by multicore machines.             Last Modified: 11/15/2016       Submitted by: Nir Shavit]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Achieving Real-Time Machine Learning with Sparsification-Compilation Co-design</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2026</AwardExpirationDate>
+<AwardTotalIntnAmount>493685.00</AwardTotalIntnAmount>
+<AwardAmount>192852</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Machine Learning (ML), particularly Deep Learning (DL), has gained great success in recent years, especially with the use of Deep Neural Networks (DNNs) of different types. Varied DNNs serve as the state-of-the-art foundation and core enabler of many key applications, such as robotics, high-quality video stream processing, augmented reality, wearable devices, smart health devices, etc. Achieving high accuracy typically requires DNNs with large and complex model structures, which also translates into high computing requirements for both training and inference steps. Accelerating the training process on a modern High-Performance Computing (HPC) node or cluster and inference process on a lower-end power-efficient device have both emerged as major challenges. This project focuses on this problem, viewing DNN training and inference as HPC workloads that need to exploit available multi-level parallelism, complex memory hierarchy, and device heterogeneity; while automating the optimizations through a compiler. If this project succeeds, it will, for the first time, enable real-time machine learning for many edge devices, enabling the greater success of ML-based end applications that are important for the society, economy, and other science and engineering areas. This project will also make several contributions towards both education and improving diversity, including: (1) introducing HPC in an ML course, and ML workloads optimization experience in both undergraduate systems and graduate research courses, particularly with interesting demonstration videos; (2) outreaching to undergraduates with the goal of creating interest in (systems) research, and to K-12 with the goal of attracting underrepresented groups to computer science.&lt;br/&gt;&lt;br/&gt;The key idea of this project to address the above challenge is sparsification-compilation co-design. It first introduces a general sparsification idea called fine-grained structured pruning, which prunes the weights according to certain fine-grained structures and preserves non-zero weights in a more regular way. Based on this idea, this project designs a high-level abstraction called layer-wise intermediate representation (IR) to capture the sparsity information with the goal of enabling aggressive compiler optimizations. Building on a successful application of this idea on two-dimensional DNNs, this project undertakes a comprehensive agenda to fully apply the benefits of this approach. First, it unifies Convolutional Neural Networks and Recurrent Neural Networks acceleration with a more general fine-grained structured pruning instance and a set of enhanced compiler-based automatic optimizations. Second, it improves the pruning or retraining process itself by extending the compiler optimizations from inference to pruning and exploiting domain properties to carry-out optimized application-level checkpointing. Third, it extends the (compiler automated) optimization framework to support high-dimensional and extremely deep DNNs. Finally, it explores data reuse across DNNs for situations where multiple DNNs are co-executed on the same device.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>02/16/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>05/20/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2047516</AwardID>
+<Investigator>
+<FirstName>Bin</FirstName>
+<LastName>Ren</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Bin Ren</PI_FULL_NAME>
+<EmailAddress>bren@wm.edu</EmailAddress>
+<PI_PHON>7572213457</PI_PHON>
+<NSF_ID>000753899</NSF_ID>
+<StartDate>02/16/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>College of William and Mary</Name>
+<CityName>Williamsburg</CityName>
+<ZipCode>231878795</ZipCode>
+<PhoneNumber>7572213966</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 8795]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<StateCode>VA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>VA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>074762238</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>COLLEGE OF WILLIAM &amp; MARY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>074762238</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[College of William and Mary]]></Name>
+<CityName>Williamsburg</CityName>
+<StateCode>VA</StateCode>
+<ZipCode>231878795</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Virginia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>VA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~192852</FUND_OBLG>
+</Award>
+</rootTag>

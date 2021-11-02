@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Numerical Accuracy of Randomized Algorithms for Matrix Multiplication and Least Squares</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>11/30/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>85000.00</AwardTotalIntnAmount>
+<AwardAmount>85000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The PI proposes to investigate the numerical accuracy and robustness of randomized algorithms for matrix multiplication and overdetermined least squares problems. Existing analyses of randomized algorithms are mostly concerned with asymptotic time and space complexity in exact arithmetic, and very little is known about their numerical behavior in floating point arithmetic.  The PI proposes to develop a numerical perturbation and stability theory for randomized algorithms for matrix multiplication and least squares problems.  This entails the invention of new approaches and concepts to capture the numerical behavior of randomized algorithms.  It is not at all clear what ``numerical stability'' means in this context, let alone how it should be defined. How does one distinguish variability caused by randomization from variability caused by finite precision?  Where should parameters like failure probability, choice of probabilities, and amount of sampling be accounted for?  Proposed approaches for answering these questions will include matrix perturbation analysis, probability theory, and methods on matrix manifolds.  Extensive numerical experiments will be performed to corroborate the analyses.&lt;br/&gt;&lt;br/&gt;The motivation for randomized algorithms is the need for streaming massive data sets that are too large for traditional deterministic algorithms.  Randomized algorithms have been implemented successfully for applications such as pattern recognition, social network analysis, population genetics, circuit testing, and text classification.  The proposed research will help to determine for which application domains a randomized algorithm is suitable, and it will also result in practical bounds and recommendations for parameter choices to achieve a user-specified accuracy.  The proposed research is highly relevant because randomized algorithms will be indispensable for exascale computing, in applications like high energy physics and astronomy, where peta bytes of data are expected to stream in daily and tasks like rare event detection make it imperative to have a good understanding of numerical accuracy and robustness.</AbstractNarration>
+<MinAmdLetterDate>07/23/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>09/22/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1145383</AwardID>
+<Investigator>
+<FirstName>Ilse C.F.</FirstName>
+<LastName>Ipsen</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ilse C.F. Ipsen</PI_FULL_NAME>
+<EmailAddress>ipsen@ncsu.edu</EmailAddress>
+<PI_PHON>9195153399</PI_PHON>
+<NSF_ID>000220534</NSF_ID>
+<StartDate>07/23/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName>Raleigh</CityName>
+<StateCode>NC</StateCode>
+<ZipCode>276958205</ZipCode>
+<StreetAddress><![CDATA[2701 Sullivan Drive; Suite 240]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7933</Code>
+<Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~85000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>"Big data", the buzz word these days, means solving problems where the amount of incoming data is massive,&nbsp; often arriving in relentless uninterrupted&nbsp; streams. Examples include images beamed down from satellites circling the earth,&nbsp; and electromagnetic frequencies collected by telescopes scanning the night sky. A radical way to cope with too much stuff is to throw away most of it.</p> <p>Randomized algorithms -- in a very over-simplified nutshell -- do so by playing dice on what to throw away and what to keep. The question is under which circumstances&nbsp; radical dice playing can be relied upon to produce useful information.<br /><br />This question was investigated for tasks that, though basic,&nbsp; form fundamental building blocks for computational methods in statistics, science, engineering, and the data sciences. The tasks at hand are matrix computations, and in particular matrix multiplication, and least squares/regression.<br />&nbsp;<br /><strong>Intellectual Merit:</strong></p> <p>1. The PI assessed the accuracy of&nbsp; a&nbsp; Monte-Carlo algorithm for performing Gram matrix multiplication. Combining both, the traditional (deterministic) and a probabilistic perspective shows that the Monte-Carlo algorithm can produce useful if limited information -- but only if the data are&nbsp; highly redundant. <br /><br />(In technical terms:&nbsp; The structure of the right singular vector matrix determines whether the Monte Carlo algorithm has any chance at all to reproduce the exact product. The computed results in general can be accurate to 1-2 significant digits,&nbsp; provided the matrix has low rank and low stable rank.)&nbsp;&nbsp; <br /><br />2. One way to calibrate the "dice playing" part of a randomized algorithm is to design a testbed, where the data can be easily tuned to be: highly redundant, extremely discriminating, or anything in between. The algorithm's reaction to the testbed is evaluated by analyzing the data pieces that it decides to keep, and how well&nbsp; they represent the pieces that were thrown away and the data set as a whole. <br /><br />This investigation comes in especially handy for the solution of large-scale least squares/regression problems. Employing a randomized algorithm to construct a pre-processor for the solution process can result in significant time savings.<br /><br />(In technical terms: For uniform sampling of rows from matrices with orthonormal columns, the PI derives probabilistic bounds on the condition number of the sampled matrices, in terms of&nbsp; coherence and leverage scores. To validate the bounds and develop the test bed, the PI designs several algorithms&nbsp; for generating orthonormal matrices with specified coherence and leverage scores. One application is the solution of large-scale least squares/regression problems.&nbsp; When a Krylov space solver is accelerated by a randomized preconditioner, the condition number bound is required for establishing the convergence rate.)<br /><br />3. The research has provided a proof of principle for analyzing the accuracy and reliability of randomized algorithms in practical situations, for data sets of all sizes.&nbsp; <br /><br />(In technical terms: It is possible to derive explicit probabilistic error bounds that hold in a non-asymptotic context;&nbsp; and that are informative even when applied to matrices of small dimension, under stringent success probabilities.)<br /><br /><strong>Broader Impacts:</strong><br /><br />1.&nbsp; This research has produced analytical end empirical results&nbsp; to assess the accuracy and reliability of randomized matrix algorithms.&nbsp; The results establish the viability of randomized algorithms for practical applications with small and large datasets; and they assist users in deciding whether&nbsp; a randomized algorithm should be considered for their specific application.<br /><br />&nbsp;2. The research has p...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ "Big data", the buzz word these days, means solving problems where the amount of incoming data is massive,  often arriving in relentless uninterrupted  streams. Examples include images beamed down from satellites circling the earth,  and electromagnetic frequencies collected by telescopes scanning the night sky. A radical way to cope with too much stuff is to throw away most of it.  Randomized algorithms -- in a very over-simplified nutshell -- do so by playing dice on what to throw away and what to keep. The question is under which circumstances  radical dice playing can be relied upon to produce useful information.  This question was investigated for tasks that, though basic,  form fundamental building blocks for computational methods in statistics, science, engineering, and the data sciences. The tasks at hand are matrix computations, and in particular matrix multiplication, and least squares/regression.   Intellectual Merit:  1. The PI assessed the accuracy of  a  Monte-Carlo algorithm for performing Gram matrix multiplication. Combining both, the traditional (deterministic) and a probabilistic perspective shows that the Monte-Carlo algorithm can produce useful if limited information -- but only if the data are  highly redundant.   (In technical terms:  The structure of the right singular vector matrix determines whether the Monte Carlo algorithm has any chance at all to reproduce the exact product. The computed results in general can be accurate to 1-2 significant digits,  provided the matrix has low rank and low stable rank.)     2. One way to calibrate the "dice playing" part of a randomized algorithm is to design a testbed, where the data can be easily tuned to be: highly redundant, extremely discriminating, or anything in between. The algorithm's reaction to the testbed is evaluated by analyzing the data pieces that it decides to keep, and how well  they represent the pieces that were thrown away and the data set as a whole.   This investigation comes in especially handy for the solution of large-scale least squares/regression problems. Employing a randomized algorithm to construct a pre-processor for the solution process can result in significant time savings.  (In technical terms: For uniform sampling of rows from matrices with orthonormal columns, the PI derives probabilistic bounds on the condition number of the sampled matrices, in terms of  coherence and leverage scores. To validate the bounds and develop the test bed, the PI designs several algorithms  for generating orthonormal matrices with specified coherence and leverage scores. One application is the solution of large-scale least squares/regression problems.  When a Krylov space solver is accelerated by a randomized preconditioner, the condition number bound is required for establishing the convergence rate.)  3. The research has provided a proof of principle for analyzing the accuracy and reliability of randomized algorithms in practical situations, for data sets of all sizes.    (In technical terms: It is possible to derive explicit probabilistic error bounds that hold in a non-asymptotic context;  and that are informative even when applied to matrices of small dimension, under stringent success probabilities.)  Broader Impacts:  1.  This research has produced analytical end empirical results  to assess the accuracy and reliability of randomized matrix algorithms.  The results establish the viability of randomized algorithms for practical applications with small and large datasets; and they assist users in deciding whether  a randomized algorithm should be considered for their specific application.   2. The research has produced a testbed for the "dice playing" part of a randomized algorithm, which is user-friendly software package in the form of a Matlab Toolbox called kappa_SQ. Code and documentation for kappa_SQ are available on arXiv.  kappa_SQ is designed with both, experts and students in mind. A variety of parameter choices makes it easy for expe...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

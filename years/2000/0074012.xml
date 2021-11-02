@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Flow Control for Multimedia Streaming Over the Internet</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2000</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2004</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050202</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>     Transmitting multimedia over shared network paths calls for end-to-end flow control because of expected&lt;br/&gt;growth of multimedia data transmitted over the Internet.  However, Internet and its access technologies are&lt;br/&gt;diverse ranging over high-speed optical networks, satellite networks, cable, low-speed modem, and wireless&lt;br/&gt;networks.  Flow control over diverse network environments is difficult because assumptions commonly made&lt;br/&gt;for traditional networks, such as symmetry, do not hold.  Asymmetry in the bandwidth and delays of forward&lt;br/&gt;and return paths over the range of 1600:1 to 3000:1 can be observed in most home access networks such&lt;br/&gt;as cable or ADSL lines, and satellites.  Multicast also do not guarantee symmetry in forward multicast and&lt;br/&gt;return unicast routes.  In these asymmetric networks, packet losses and delays occurring in return paths&lt;br/&gt;severely degrade the performance of existing round trip based protocols, such as TCP, resulting in loss in&lt;br/&gt;bandwidth utilization, fairness, and scalability.&lt;br/&gt;     The objective of the proposed work is to develop, verify analytically and experimentally, and implement&lt;br/&gt;a suite of end-to-end flow control protocols for real-time streaming applications.  The researchers will study both unicast and multicast flow control.  The developed protocols are evaluated based on fairness, TCP-friendliness, stability and scalability.  These properties must hold regardless of the types of networks, or specifically, whether networks are symmetric or asymmetric in bandwidth and delays.  The researchers consider only end-to-end transport-level flow control in which flow control decisions are made based on the traffic characteristics observed only at the end points.&lt;br/&gt;     The researchers view that the performance problem of round-trip based flow control mainly originates from the tight coupling of forward and reverse path conditions into flow control of both forward (i.e., data) and reverse (i.e., feedback) path traffic.  This notion does not hold when the two paths exhibit severe asymmetry.  The researchers propose a complementary approach to the problem.   Their approach is to completely decouple the conditions of both paths (e.g., congestion and delays) from the end-to-end considerations of flow control, and to apply separate flow control for each path.  They rationalize this approach by noting that most multimedia transmissions are strictly one directional, and open-loop due to their real-time and loss-tolerant natures.  Thus, conditions on return paths should not affect the performance of multimedia transmission.&lt;br/&gt;  To achieve TCP-friendliness with little use of return paths, the researchers propose a technique called TCP emulation at receivers (TEAR).  TEAR allows receivers to detect every TCP congestion signal, such as packet losses and timeouts, as if it happens in a TCP sender with the perfect reverse path (no delay and congestion on the return path).  Using the signal, receivers emulate TCP's flow control to estimate the throughput of TCP under the same operating conditions present in forward paths.  The advantages of TEAR are that it can estimate&lt;br/&gt;TCP throughput at any environment (of forward paths) where TCP can run, and that it inherits the fairness&lt;br/&gt;and stability of TCP while filtering out its undesirable traits.&lt;br/&gt;     Estimated TCP throughput values at receivers are used to control the receiving rates of receivers in&lt;br/&gt;unicast and multicast.  The following three major research agendas are proposed.&lt;br/&gt;     1.  The researchers plan to develop unicast flow control techniques using TEAR.  A notion of bounded fairness to "uni-directional" TCP is proposed.  The goal is to develop a rate adjustment scheme that is provably stable and TCP-friendly under various network environments.&lt;br/&gt;     2.  The researchers plan to develop flow control for receiver-driven layered multicast (RLM). RLMensures scalability and inter-receiver fairness by allowing receivers to determine their own receiving rates independently.  However, its stability and TCP friendliness have not been proven.  Using TEAR, the researchers will investigate ways to improve these properties under heterogeneous network environments.&lt;br/&gt;     3.  For multimedia data transmission that is not amenable to layering, the researchers plan to develop flow control techniques for sender-driven single rate multicast.  They will  study the stable and fair flow control mechanisms for this type of flow control, and investigate tradeoffs among scalability, bandwidth utilization,&lt;br/&gt;and responsiveness to emerging congestion.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>06/05/2000</MinAmdLetterDate>
+<MaxAmdLetterDate>04/23/2003</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0074012</AwardID>
+<Investigator>
+<FirstName>Injong</FirstName>
+<LastName>Rhee</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Injong Rhee</PI_FULL_NAME>
+<EmailAddress>rhee@csc.ncsu.edu</EmailAddress>
+<PI_PHON>9195153305</PI_PHON>
+<NSF_ID>000249275</NSF_ID>
+<StartDate>06/05/2000</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<CountyName/>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2>Admin. III, STE 240</StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<CountyName/>
+<StateCode>NC</StateCode>
+<ZipCode>276957514</ZipCode>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0206000</Code>
+<Name>Telecommunications</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>4097</Code>
+<Text>NETWORKING RESEARCH</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0100</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>490100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2000~300000</FUND_OBLG>
+</Award>
+</rootTag>

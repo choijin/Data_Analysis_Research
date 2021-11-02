@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: Small: New Barriers in Cryptography</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The security of cryptographic tasks is formally defined by precisely specifying the physical assumptions regarding the attack model, and cryptographic protocols are proven secure based on well-defined computational intractability assumptions. Understanding what the minimal computational and physical assumptions are for secure cryptographic protocols is of central importance to this study which will address the following problems:&lt;br/&gt;1. New Barriers for Computational Assumptions: There exists a large body of work on, so-called, black-box separations aiming at elucidating when a cryptographic task cannot be based on a particular computational assumption using certain black-box proof techniques. However, many known constructions and proofs of security do not fall into the framework of such techniques, and as such it is not clear to what extent such separations represent a real barrier. One of the principal goals of this proposal is to develop a framework for providing non-black-box separations between cryptographic tasks and assumptions. &lt;br/&gt;2. New Barriers for Physical Assumptions: Formal definitions of  security make explicit assumptions about how  the adversary can access or modify information exchanged during a cryptographic process. Traditionally, it is assumed that the attacker participates in a single execution of a protocol, does not get to see the internal state of honest parties, and does not get to tamper with the internal state of honest parties. Recent work has focused on relaxing the first two assumptions. Another principal goal of this proposal is to investigate to what extent the third physical assumption regarding tampering may be weakened.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Progress in this area could have broad impacts on barriers not only in cryptography but also computational complexity and secure systems. The research focusing on physical assumptions bears a promise to have broader impacts on hardware design. The results of this work will be widely disseminated via conferences, journals, workshops, and invited talks, and incorporated into the PI graduate courses.</AbstractNarration>
+<MinAmdLetterDate>08/16/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/16/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1217821</AwardID>
+<Investigator>
+<FirstName>Rafael</FirstName>
+<LastName>Pass</LastName>
+<PI_MID_INIT>N</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Rafael N Pass</PI_FULL_NAME>
+<EmailAddress>rafael@cs.cornell.edu</EmailAddress>
+<PI_PHON>6072555014</PI_PHON>
+<NSF_ID>000101933</NSF_ID>
+<StartDate>08/16/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Cornell University</Name>
+<CityName>Ithaca</CityName>
+<ZipCode>148502820</ZipCode>
+<PhoneNumber>6072555014</PhoneNumber>
+<StreetAddress>373 Pine Tree Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY23</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>872612445</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CORNELL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002254837</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Cornell University]]></Name>
+<CityName>Ithaca</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>148537501</ZipCode>
+<StreetAddress><![CDATA[5139 Upson Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>23</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY23</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The major goals of our proposal was the development of methods for understanding the limits of proof techniques in Cryptography. In particular,</p> <p>&nbsp;* developing new lower-bounds for provably secure primitives;</p> <p>&nbsp;* understanding the minimal assumptions for cryptographic primitives;</p> <p>&nbsp;* understanding what physical assumptions are needed for cryptography.</p> <p>&nbsp;</p> <p>We briefly summarize some of our major research findings below.</p> <p>&nbsp;</p> <p>Lower bounds</p> <p>In a sequence of works, we develop new tools for demonstrating limitations of <strong>provably secure</strong> constructions of several well-studied cryptographic primitives. These primitives includes Statistically Secure Non-Interactive Zero-knowledge Arguments, Non-interactive Non-malleable Commitments. What is intriguing about these primitives is that we do have candidate constructions of them (that are not broken, and some are even used in practice). In contrast, our result demonstrate that developing proofs of security based on &ldquo;standard&rdquo; hardness assumptions is impossible, at least if we restrict to black-box reductions.</p> <p>&nbsp;</p> <p>Physical Tampering</p> <p>A natural question, motivated by real-world attacks, is whether cryptographic primitives such as zero-knowledge protocols can be made robust against attackers that may ``reset'' and ``restart'' his honest players, forcing them to return to an earlier state of the computation, and reusing the same random tape. (This model is particularly relevant for cryptographic protocols being executed on embedded devices, such as smart cards. Since these devices have neither a built-in power supply, nor a non-volatile re-writable memory, they can be ``reset'' by simply disconnecting and reconnecting the power supply.) This notion of security is referred to as &ldquo;resettable security&rdquo; and its study was initiated by Barak et al in 2000.</p> <p>While constructions of resettable-secure protocols have been extensively studied since their conception, all these constructions relied on stronger than typical cryptographic hardness assumptions. In a sequence of works, we resolved some of central outstanding open questions in this field---namely, we showed constructions based on the minimal hardness assumptions (namely one-way functions), and using a minimal number of communication rounds.</p> <p>In a related vein, we initiate a study of the security of cryptographic primitives in the presence of tampering attacks to the randomness of honest parties (as outlined in our proposal). We manage to provide almost tight attacks on most cryptographic primitives under very weak models of tampering.</p> <p>&nbsp;</p> <p>Assumptions underlying Obfuscation:</p> <p>Roughly speaking, a program obfuscation is a method of &ldquo;scrambling&rdquo; a program, making it unintelligible, while still preserving functionality. In recent years there have been an exlopsion of works studying notions of obfuscations, with a particular focus on the notion of *indistinguishability obfuscation (iO)*. A major thurst of our research has focused on getting a better understanding of the assumptions underlying indistinguishability obfuscation (iO), and more generally the consequences of it.</p> <p>Our research have shown new approaches for constructing indistinguishability obfuscations (based either on a new assumptions on multilinear maps, or based on the seemingly unrelated primitive of randomized encoding with certain efficiency properties), and new applications of it (e.g., we obtain the first constant-round concurrent zero-knowledge &nbsp;argument from iO ,show that (roughly) if NP is not inside BPP, then iO implies one-way functions, and show that iO for circuits implies iO for Turing machines) We also began the investigation of the stronger notion of "differing-inputs obfuscation". The methods developed in this paper have bec...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The major goals of our proposal was the development of methods for understanding the limits of proof techniques in Cryptography. In particular,   * developing new lower-bounds for provably secure primitives;   * understanding the minimal assumptions for cryptographic primitives;   * understanding what physical assumptions are needed for cryptography.     We briefly summarize some of our major research findings below.     Lower bounds  In a sequence of works, we develop new tools for demonstrating limitations of provably secure constructions of several well-studied cryptographic primitives. These primitives includes Statistically Secure Non-Interactive Zero-knowledge Arguments, Non-interactive Non-malleable Commitments. What is intriguing about these primitives is that we do have candidate constructions of them (that are not broken, and some are even used in practice). In contrast, our result demonstrate that developing proofs of security based on "standard" hardness assumptions is impossible, at least if we restrict to black-box reductions.     Physical Tampering  A natural question, motivated by real-world attacks, is whether cryptographic primitives such as zero-knowledge protocols can be made robust against attackers that may ``reset'' and ``restart'' his honest players, forcing them to return to an earlier state of the computation, and reusing the same random tape. (This model is particularly relevant for cryptographic protocols being executed on embedded devices, such as smart cards. Since these devices have neither a built-in power supply, nor a non-volatile re-writable memory, they can be ``reset'' by simply disconnecting and reconnecting the power supply.) This notion of security is referred to as "resettable security" and its study was initiated by Barak et al in 2000.  While constructions of resettable-secure protocols have been extensively studied since their conception, all these constructions relied on stronger than typical cryptographic hardness assumptions. In a sequence of works, we resolved some of central outstanding open questions in this field---namely, we showed constructions based on the minimal hardness assumptions (namely one-way functions), and using a minimal number of communication rounds.  In a related vein, we initiate a study of the security of cryptographic primitives in the presence of tampering attacks to the randomness of honest parties (as outlined in our proposal). We manage to provide almost tight attacks on most cryptographic primitives under very weak models of tampering.     Assumptions underlying Obfuscation:  Roughly speaking, a program obfuscation is a method of "scrambling" a program, making it unintelligible, while still preserving functionality. In recent years there have been an exlopsion of works studying notions of obfuscations, with a particular focus on the notion of *indistinguishability obfuscation (iO)*. A major thurst of our research has focused on getting a better understanding of the assumptions underlying indistinguishability obfuscation (iO), and more generally the consequences of it.  Our research have shown new approaches for constructing indistinguishability obfuscations (based either on a new assumptions on multilinear maps, or based on the seemingly unrelated primitive of randomized encoding with certain efficiency properties), and new applications of it (e.g., we obtain the first constant-round concurrent zero-knowledge  argument from iO ,show that (roughly) if NP is not inside BPP, then iO implies one-way functions, and show that iO for circuits implies iO for Turing machines) We also began the investigation of the stronger notion of "differing-inputs obfuscation". The methods developed in this paper have become some of the most useful proof techniques when using iO. Finally, we develop new impossibility results for even stronger notions of obfuscation (so-called virtual black-box obfuscation), even in idealized models (such as generic groups or idealized const...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

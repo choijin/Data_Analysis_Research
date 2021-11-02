@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: SMALL: Quorums Quicken Queries - Towards Practical Secure Multiparty Computation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>399999.00</AwardTotalIntnAmount>
+<AwardAmount>399999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rahul Shah</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Secure systems demand theoretical guarantees.  The problem of secure multiparty computation (MPC) abstracts many important problems in distributed security, and thus offers the promise of a general framework for designing distributed algorithms with provable security guarantees.   Unfortunately, current algorithms for solving MPC are far from efficient.  Thus, system builders, when faced with a problem that falls under the rubric of MPC, are unable to make use of established algorithms with well-known theoretical guarantees. Instead, they are frequently required to design new ad hoc heuristics. The goal of this project is to address this vacuity by designing resource efficient algorithms for MPC.&lt;br/&gt;&lt;br/&gt;In the MPC problem, there are n players, each with a private input. The goal is to securely compute an n-ary function, f, over all inputs, without revealing anything more about the inputs than can be learned from the output of the function.  We assume that f can be computed by a circuit with m logic gates. In this project, the PI will design algorithms for MPC that are robust in that 1) they can tolerate up to a 1/3 fraction of the players being controlled by an adversary; and 2) they work even in the case where all non-faulty players are selfish but rational.  Importantly, the algorithms will have the following resource costs: each player sends O(n+m/n + sqrt(n)) bits, and performs O(n+m/n+ sqrt(n)) computations. These resource costs are significant improvements over state of the art MPC algorithms, which require each player to send O(nm) bits and perform O(nm) computations.&lt;br/&gt;&lt;br/&gt;MPC generalizes many important problems in distributed computing including classic problems such as: auctions, threshold cryptography, voting and privacy-preserving data mining; and contemporary problems such as: cloud computing, and computing over peer-to-peer networks. Thus, a solution to the secure MPC problem will likely enable progress in many fundamental problems.  A major goal of this project is to apply efficient MPC algorithms to the problem of provably secure and scalable anonymous broadcast.</AbstractNarration>
+<MinAmdLetterDate>08/07/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/07/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1320994</AwardID>
+<Investigator>
+<FirstName>Jared</FirstName>
+<LastName>Saia</LastName>
+<PI_MID_INIT>C</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jared C Saia</PI_FULL_NAME>
+<EmailAddress>saia@cs.unm.edu</EmailAddress>
+<PI_PHON>5052772256</PI_PHON>
+<NSF_ID>000260597</NSF_ID>
+<StartDate>08/07/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of New Mexico</Name>
+<CityName>Albuquerque</CityName>
+<ZipCode>871310001</ZipCode>
+<PhoneNumber>5052774186</PhoneNumber>
+<StreetAddress>1700 Lomas Blvd. NE, Suite 2200</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New Mexico</StateName>
+<StateCode>NM</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NM01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>868853094</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF NEW MEXICO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>784121725</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of New Mexico]]></Name>
+<CityName>Albuquerque</CityName>
+<StateCode>NM</StateCode>
+<ZipCode>871310001</ZipCode>
+<StreetAddress><![CDATA[MSC01 1247]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Mexico</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NM01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~399999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This grant has had several significant outcomes.<br />First, we designed efficient algorithms for the secure multiparty computation problem (MPC).&nbsp; In the MPC problem, n parties each have a private input.&nbsp; They want to jointly compute a function f of n variables over their inputs, without revealing any information about the private inputs (beyond what can be learned from the output of f).&nbsp;&nbsp;<br />Our main research result was an algorithm that solves the MPC problem while requiring each player to send and receive a number of bits that is about square root of n, and requires latency that is polylogarithmic in n.&nbsp; This contrasts with previous results for this problem where the number of messages sent is linear in n.&nbsp; We obtained this result by making significant use of a new tool: quorums, which are small groups of mostly good processors that work together as a single functional unit.&nbsp; Our paper describing this result won a best paper award at the International Conference on Distributed Computing and Networking (ICDCN), 2014.&nbsp; &nbsp;Our result in this area used mathematical and algorithmic tools that we previously developed in solving the Byzantine agreement problem.&nbsp; Applications of this result include designing anonymous broadcast systems such as TOR, and smart contracts systems such as those used in Bitcoin.&nbsp; In this grant, we had several followup papers on these applications.<br />A key secondary research result is in the Interactive Communication problem.&nbsp; This problem asks: how can two parties compute over a noisy channel? We describe the first algorithm that enables two party interactive computation, where the resource costs of both parties scale well with the number of bits that are (adversarially) corrupted on the channel. This research resulted in several conference and journal publication.&nbsp; We are currently extending the result to multiple parties.&nbsp; Applications include secure computation in wireless networks.&nbsp;<br />Finally, this grant has supported one female post doc, Varsha Dani,&nbsp; and one female PhD student, Diksha Gupta.&nbsp; Varsha Dani is currently applying to become a research faculty at the University of New Mexico.&nbsp; Diksha Gupta has published one paper, and is submitting a seco</p><br> <p>            Last Modified: 10/01/2018<br>      Modified by: Jared&nbsp;C&nbsp;Saia</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This grant has had several significant outcomes. First, we designed efficient algorithms for the secure multiparty computation problem (MPC).  In the MPC problem, n parties each have a private input.  They want to jointly compute a function f of n variables over their inputs, without revealing any information about the private inputs (beyond what can be learned from the output of f).   Our main research result was an algorithm that solves the MPC problem while requiring each player to send and receive a number of bits that is about square root of n, and requires latency that is polylogarithmic in n.  This contrasts with previous results for this problem where the number of messages sent is linear in n.  We obtained this result by making significant use of a new tool: quorums, which are small groups of mostly good processors that work together as a single functional unit.  Our paper describing this result won a best paper award at the International Conference on Distributed Computing and Networking (ICDCN), 2014.   Our result in this area used mathematical and algorithmic tools that we previously developed in solving the Byzantine agreement problem.  Applications of this result include designing anonymous broadcast systems such as TOR, and smart contracts systems such as those used in Bitcoin.  In this grant, we had several followup papers on these applications. A key secondary research result is in the Interactive Communication problem.  This problem asks: how can two parties compute over a noisy channel? We describe the first algorithm that enables two party interactive computation, where the resource costs of both parties scale well with the number of bits that are (adversarially) corrupted on the channel. This research resulted in several conference and journal publication.  We are currently extending the result to multiple parties.  Applications include secure computation in wireless networks.  Finally, this grant has supported one female post doc, Varsha Dani,  and one female PhD student, Diksha Gupta.  Varsha Dani is currently applying to become a research faculty at the University of New Mexico.  Diksha Gupta has published one paper, and is submitting a seco       Last Modified: 10/01/2018       Submitted by: Jared C Saia]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

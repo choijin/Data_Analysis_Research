@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SBIR Phase I:  Automated Security for the DevOps World</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>225000.00</AwardTotalIntnAmount>
+<AwardAmount>225000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Peter Atherton</SignBlockName>
+<PO_EMAI>patherto@nsf.gov</PO_EMAI>
+<PO_PHON>7032928772</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The broader impact/commercial potential of this Small Business Innovation Research (SBIR) Phase I project is to provide robust, automated security protections to enterprise web applications. With the growing threat of attacks at the web application layer, security is a top of mind concern for both the developers and users of web applications. At the same time, defending against these attacks is a resource-intensive, error-prone process that typically is performed manually by specialized web security experts. The project will use application-aware analysis and an innovative information model to automatically build and deploy web security policies on enterprise servers, freeing the enterprise to focus on their core business and reduce the overhead of internal security teams. The project will also use a hybrid static/dynamic analysis to automatically craft server-side and client-side policies using modern web protection mechanisms to give users of web applications confidence that their interactions with a web application will be secure. This approach leverages cutting-edge techniques from program analysis and machine learning, and will advance the state of the art in automated security policy generation.&lt;br/&gt;&lt;br/&gt;This Small Business Innovation Research (SBIR) Phase I project will explore ways in which automated security policies enact meaningful protection of sensitive resources. Protecting web applications is a challenging research problem in that automated approaches are either biased towards significant false positive rates, in which benign behavior is flagged as malicious, or significant false negative rates, in which malicious activity is not detected. This project aims to resolve this bias using application aware whitelists: the project automatically explores an application's behavior dynamically, and will also statically build a model of that application's purpose. The project is expected to yield two major components: a server-side protection module to isolate and harden sensitive resources on an enterprise deployment, and a client-side protection module to enforce fine-grained policies for users of the enterprise's web applications. The project will involve developing, analyzing, and improving both of these components using large-scale web applications and will integrate the experience and challenges of enterprises with leading web applications.</AbstractNarration>
+<MinAmdLetterDate>06/28/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>06/28/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1722068</AwardID>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>Davidson</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew Davidson</PI_FULL_NAME>
+<EmailAddress>drew@talasecurity.io</EmailAddress>
+<PI_PHON>9286075632</PI_PHON>
+<NSF_ID>000740574</NSF_ID>
+<StartDate>06/28/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Tala Security Inc</Name>
+<CityName>Fremont</CityName>
+<ZipCode>945364027</ZipCode>
+<PhoneNumber>4086558382</PhoneNumber>
+<StreetAddress>1185 Adler Ct</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>15</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA15</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>080467342</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TALA SECURITY, INC.</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Tala Security Inc]]></Name>
+<CityName>Fremont</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>945364027</ZipCode>
+<StreetAddress><![CDATA[1185 Adler Ct]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>15</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA15</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>5371</Code>
+<Text>SBIR Phase I</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>5371</Code>
+<Text>SMALL BUSINESS PHASE I</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8032</Code>
+<Text>Software Services and Applications</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~225000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The primary outcome of this SBIR is the creation of the Tala System Hardening engine. This software archtecture brings a modular, compiler-inspired automation system to bear on the timely problem of hardening web infrastructure (such as web servers and web sites). The system operates in three phases: in the first phase, data feeds are collected and aggregated, integrating code, events, and user guidance to explore the user's web infrastructure. In the second phase, the feeds are compiled into an intermediate representation called the Application Information Model (AIM). In the final phase, the AIM is compiled into a number of output targets that can be used to harden web infrastructure. A key design element of the system architecture is that output targets can be configured to support the user's needs. Additionally, the AIM itself can be useful in its own right in allowing users to examine security-relevant details of their own architecture through the inferences detected by the analysis. As a consequence of this design, some of the output targets can include configuration for existing policy engines. As such, users can rely on existing policy enforcement mechanisms that they already trust and are already widely deployed. The Tala System Hardening engine is at the core of two distinct offerings: ClientPod and ServerPod.</p> <p>ServerPod gathers data feeds from an internal view of the user's web server, capturing the behavior of the system as seen by a system administrator in benign circumstances. In the output phase, the policy engine crafts server-side policies that prevent malicious behavior as it exists on the server. For example, if an attacker managed to exploit a vulnerability on a web site to attack the server resources directly, ServerPod-generated policies can mitigate the impact of the breach and protect critical resources within the server.</p> <p>ClientPod gathers data feeds from an external view of the user's web server, capturing the behavior of the system as seen by a visitor to a website in benign circumstances. ClientPod-generated policies protect visitors from common web attacks that may be carried out against a website, mitigating the effect of a breach that is designed to attack end-users. The primary output of ClientPod allows the creation of Content Security Policies (CSP) which can be integrated into the user's web site and delivered to visitors as they visit the page. Because all major browsers already support the enforcement of CSP, no additional action is required for end-users to take advantage of these additional protections.&nbsp;</p> <p>We believe that both ClientPod and ServerPod are valuable security tools developed under the SBIR. We have created a publication on ServerPod which has been accepted in a peer-reviewed journal. ClientPod has been integrated into Tala's first commercial product, offered as a web service to scan and generate security policies, and a dynamic web module, offered for installation within a user's web infrastructure to automatically harden web pages as they are served.</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/21/2018<br>      Modified by: Andrew&nbsp;Davidson</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The primary outcome of this SBIR is the creation of the Tala System Hardening engine. This software archtecture brings a modular, compiler-inspired automation system to bear on the timely problem of hardening web infrastructure (such as web servers and web sites). The system operates in three phases: in the first phase, data feeds are collected and aggregated, integrating code, events, and user guidance to explore the user's web infrastructure. In the second phase, the feeds are compiled into an intermediate representation called the Application Information Model (AIM). In the final phase, the AIM is compiled into a number of output targets that can be used to harden web infrastructure. A key design element of the system architecture is that output targets can be configured to support the user's needs. Additionally, the AIM itself can be useful in its own right in allowing users to examine security-relevant details of their own architecture through the inferences detected by the analysis. As a consequence of this design, some of the output targets can include configuration for existing policy engines. As such, users can rely on existing policy enforcement mechanisms that they already trust and are already widely deployed. The Tala System Hardening engine is at the core of two distinct offerings: ClientPod and ServerPod.  ServerPod gathers data feeds from an internal view of the user's web server, capturing the behavior of the system as seen by a system administrator in benign circumstances. In the output phase, the policy engine crafts server-side policies that prevent malicious behavior as it exists on the server. For example, if an attacker managed to exploit a vulnerability on a web site to attack the server resources directly, ServerPod-generated policies can mitigate the impact of the breach and protect critical resources within the server.  ClientPod gathers data feeds from an external view of the user's web server, capturing the behavior of the system as seen by a visitor to a website in benign circumstances. ClientPod-generated policies protect visitors from common web attacks that may be carried out against a website, mitigating the effect of a breach that is designed to attack end-users. The primary output of ClientPod allows the creation of Content Security Policies (CSP) which can be integrated into the user's web site and delivered to visitors as they visit the page. Because all major browsers already support the enforcement of CSP, no additional action is required for end-users to take advantage of these additional protections.   We believe that both ClientPod and ServerPod are valuable security tools developed under the SBIR. We have created a publication on ServerPod which has been accepted in a peer-reviewed journal. ClientPod has been integrated into Tala's first commercial product, offered as a web service to scan and generate security policies, and a dynamic web module, offered for installation within a user's web infrastructure to automatically harden web pages as they are served.          Last Modified: 06/21/2018       Submitted by: Andrew Davidson]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

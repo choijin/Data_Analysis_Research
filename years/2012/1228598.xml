@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Medium: Collaborative: Privacy-Preserving Distributed Storage and Computation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>400000.00</AwardTotalIntnAmount>
+<AwardAmount>400000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Dan Cosley</SignBlockName>
+<PO_EMAI>dcosley@nsf.gov</PO_EMAI>
+<PO_PHON>7032928832</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project aims at developing efficient methods for protecting the privacy of computations on outsourced data in distributed settings. The project addresses the design of an outsourced storage framework where the access pattern observed by the storage server gives no information about the actual data accessed by the client and cannot be correlated with external events. For example, the server cannot determine whether a certain item was previously accessed by the client or whether a certain algorithm is being executed.  This property provides a high level of privacy protection that goes far beyond standard data encryption. The project also deals with advanced methods for verifying the correctness of outsourced computations, focusing on keyword searches and graph algorithms. The educational component of the project includes a curricular development effort for introductory computer security courses.&lt;br/&gt;&lt;br/&gt;The project has applications to a broad range of web services widely used by business and consumers. Privacy-preserving access for outsourced data is relevant to web-based email and office applications. Also, it is especially important for the management of proprietary business data, medical data, and other sensitive personal data.</AbstractNarration>
+<MinAmdLetterDate>08/21/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/21/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1228598</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Mitzenmacher</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME>Dr.</PI_SUFX_NAME>
+<PI_FULL_NAME>Michael Mitzenmacher</PI_FULL_NAME>
+<EmailAddress>michaelm@eecs.harvard.edu</EmailAddress>
+<PI_PHON>6174967172</PI_PHON>
+<NSF_ID>000439480</NSF_ID>
+<StartDate>08/21/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Harvard University</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021385369</ZipCode>
+<PhoneNumber>6174955501</PhoneNumber>
+<StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[5th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>082359691</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PRESIDENT AND FELLOWS OF HARVARD COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001963263</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Harvard University]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>021383846</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~400000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The project focused on issues related to privacy for large data, including related data structures and theoretical work.&nbsp; Specific examples of subprojects include developing more efficient history independent versions of a hash table;&nbsp; the idea of such a data structure is to avoid leaking information about the order in which elements were inserted into the system.&nbsp; Motivations for such schemes include voting mechanisms, where knowing the history of the order of voters may remove the anonymity of their votes.&nbsp; A related subproject introduced the idea of auditable data structures, which weakens the notion of history independence so that instead of needing to consider the leakage of information at arbitrary times, we need only consider the issue at times when auditor asks to see the data structure.&nbsp; Our works shows that such auditable data structures can be much more efficient than data structures that require full history independence, while still providing suitable security for common situations.&nbsp; Another subproject focused on introducing models and algorithmic foundations for watermarking of large-scale graph data.&nbsp; Watermarking schemes may allow for better sharing of private large-scale graph data sets by providing traceability of their contents after release.</p> <p>The project also funded additional foundational work, such as on novel hashing-based data structures.&nbsp; As an example, new approaches to designing space-efficient hash tables that allow items to be found in a single memory access were developed.&nbsp;&nbsp;</p> <p>Additionally, the project included the training and development of multiple graduate and undergraduate students, as well as a postdoctoral researcher, through research projects.&nbsp; &nbsp;</p><br> <p>            Last Modified: 10/06/2018<br>      Modified by: Michael&nbsp;Mitzenmacher</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project focused on issues related to privacy for large data, including related data structures and theoretical work.  Specific examples of subprojects include developing more efficient history independent versions of a hash table;  the idea of such a data structure is to avoid leaking information about the order in which elements were inserted into the system.  Motivations for such schemes include voting mechanisms, where knowing the history of the order of voters may remove the anonymity of their votes.  A related subproject introduced the idea of auditable data structures, which weakens the notion of history independence so that instead of needing to consider the leakage of information at arbitrary times, we need only consider the issue at times when auditor asks to see the data structure.  Our works shows that such auditable data structures can be much more efficient than data structures that require full history independence, while still providing suitable security for common situations.  Another subproject focused on introducing models and algorithmic foundations for watermarking of large-scale graph data.  Watermarking schemes may allow for better sharing of private large-scale graph data sets by providing traceability of their contents after release.  The project also funded additional foundational work, such as on novel hashing-based data structures.  As an example, new approaches to designing space-efficient hash tables that allow items to be found in a single memory access were developed.    Additionally, the project included the training and development of multiple graduate and undergraduate students, as well as a postdoctoral researcher, through research projects.          Last Modified: 10/06/2018       Submitted by: Michael Mitzenmacher]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

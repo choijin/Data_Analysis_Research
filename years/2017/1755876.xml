@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: SHF: Enabling Neuroevolution in Hardware</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/15/2018</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>175000.00</AwardTotalIntnAmount>
+<AwardAmount>175000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sankar Basu</SignBlockName>
+<PO_EMAI>sabasu@nsf.gov</PO_EMAI>
+<PO_PHON>7032927843</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Over the past few years, machine learning algorithms, especially neural networks (NN) have seen a surge of popularity owing to their potential in solving a wide variety of complex problems across image classification and speech recognition. Unfortunately, in order to be effective, NNs need to have the appropriate topology (connections between neurons) for the task at hand and have the right weights on the connections. This is known as supervised learning and requires training the NN by running it through terabytes to petabytes of data. This form of machine learning is infeasible for the emerging domain of autonomous systems (robots/drones/cars) which will often operate in environments where the right topology for the task may be unknown or keep changing, and robust training data is not available. Autonomous systems need the ability to mirror human-like learning, where we are continuously learning, and often from experiences rather than being explicitly trained. This is known as reinforcement learning (RL). The goal of this project will be on enabling RL in energy-constrained autonomous devices. If successful, this research will enable mass proliferation of automated robots or drones to assist human society. The learnings will also be used to develop new courses on cross-layer support for machine learning. &lt;br/&gt;&lt;br/&gt;The focus of the research will be on neuroevolution (NE), a class of RL algorithms that evolve NN topologies and weights using evolutionary algorithms.  The idea is to run multiple "parent" NNs in parallel, have the environment provide a reward (score) to the actions of all NNs, and create a population of new "child" NNs that preserve those nodes and connections from the parents that lead to actions producing the maximum reward. Running NE algorithms over multiple iterations has been shown to evolve complex behaviors in NNs. Unfortunately, NEs are computationally very expensive and have required large scale compute clusters running for hours before converging. A characterization of the computation and memory behavior of NE algorithms will be performed, and opportunities to massively parallelize these algorithms across genes (i.e., nodes and connections in the NN) will be explored. The evolutionary learning steps of crossover and mutation will be performed over specialized hardware engines, and a low-power architectural platform running NE algorithms at the edge will be demonstrated. Furthermore, the proposed research will serve as the foundation for further research in fast and energy-efficient RL algorithms to help realize general-purpose artificial intelligence.</AbstractNarration>
+<MinAmdLetterDate>01/11/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>01/11/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1755876</AwardID>
+<Investigator>
+<FirstName>Tushar</FirstName>
+<LastName>Krishna</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Tushar Krishna</PI_FULL_NAME>
+<EmailAddress>tushar@ece.gatech.edu</EmailAddress>
+<PI_PHON>4048944819</PI_PHON>
+<NSF_ID>000711282</NSF_ID>
+<StartDate>01/11/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Georgia Tech Research Corporation</Name>
+<CityName>Atlanta</CityName>
+<ZipCode>303320420</ZipCode>
+<PhoneNumber>4048944819</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<StateCode>GA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>GA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>097394084</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGIA TECH RESEARCH CORPORATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>097394084</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Georgia Institute of Technology]]></Name>
+<CityName>Atlanta</CityName>
+<StateCode>GA</StateCode>
+<ZipCode>303320001</ZipCode>
+<StreetAddress><![CDATA[225 North Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Georgia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>GA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7945</Code>
+<Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~175000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p class="p2"><span class="s1"><strong>Overview:</strong></span></p> <p class="p2"><span class="s1">Recent advancements in machine learning algorithms, especially the development of Deep Neural Networks (DNNs) have transformed the landscape of Artificial Intelligence (AI). With every passing day, deep learning based methods are applied to solve new problems with exceptional results.</span></p> <p class="p2"><span class="s1">The portal to the real world is the edge. The true impact of AI can be fully realized if we can have AI agents such as robots/drones continuously interacting with the real world and solving everyday problems across efficient logistics,&nbsp;healthcare, disaster management, and so on. Unfortunately, high compute and memory requirements of&nbsp;DNNs&nbsp;acts a huge barrier towards this vision. Today we circumvent this problem by deploying special purpose inference hardware on the edge while procuring trained models from the cloud. This approach, however, relies on constant interaction the cloud for transmitting all the data, training on massive&nbsp;GPU&nbsp;clusters, and downloading updated models. This is challenging for bandwidth, privacy, and constant connectivity concerns that autonomous agents may exhibit.</span></p> <p class="p2"><span class="s1">Through this grant, we evaluate techniques for enabling adaptive intelligence on edge devices with zero interaction with any high-end cloud/server.</span></p> <p class="p1"><span class="s1">&nbsp;</span></p> <p class="p2"><span class="s1"><strong>Intellectual Merit:</strong></span></p> <p class="p2"><span class="s1">Specifically, over the course of the last&nbsp; two years, we have been exploring the opportunities provided by "Neuro-evolutionary" algorithms to enable continuous learning on edge devices.&nbsp;Neuro-evolutionary use genetic algorithms to update the topology and weights of the DNN stochastically and pick the best DNNs for the task at hand. We&nbsp;have published two papers so far on this topic, and a third one is under submission.</span></p> <p class="p2"><span class="s1"><strong>Paper 1:&nbsp;</strong></span></p> <p class="p3">Ananda Samajdar, Parth Mannan, Kartikay Garg, and Tushar Krishna, "GeneSys: Enabling Continuous Learning through Neural Network Evolution in Hardware", In Proc of 51st Annual IEEE/ACM International Symposium on Microarchitecture, Oct 2018.</p> <p class="p5">&nbsp;</p> <p class="p4">In this work, we characterized the compute and memory requirements of&nbsp;Neuro-evolutionary (NE) algorithms, and identified opportunities for getting performance speedups via parallelism. We&nbsp;<span class="s1">developed GeneSys, a HW-SW prototype of a</span><span class="s1">&nbsp;learning system, that comprises of a closed loop learning engine called EvE and an inference engine called ADAM. EvE can evolve the topology and weights of neural networks completely in hardware for the task at hand, without requiring hand-optimization or backpropogation training. ADAM continuously interacts with the environment and is optimized for efficiently running the irregular neural networks generated by EvE.&nbsp;GeneSys&nbsp;identifies and leverages multiple unique avenues of parallelism unique to EAs that we term &ldquo;gene&rdquo;- level parallelism, and &ldquo;population&rdquo;-level parallelism. We ran&nbsp;GeneSys&nbsp;with a suite of environments from OpenAI gym and observed 2-5 orders of magnitude higher energy-efficiency over state-of-the-art embedded and desktop CPU and GPU systems&nbsp;</span></p> <p class="p5">&nbsp;</p> <p class="p5">&nbsp;</p> <p class="p2"><span class="s1"><strong>Paper 2:&nbsp;</strong></span></p> <p class="p4">Parth Mannan, Ananda Samajdar, and Tushar Krishna, "CLAN: Exploring Continuous Learning on Commodity Edge Devices using Asynchronous Distributed Neuroevolution", In Proc of the IEEE International Symposium on Performance Analysis of Systems and Software, April 2020.</p> <p class="p6"><span class="s1">&nbsp;</span></p> <p class="p6"><span class="s1">&nbsp;</span><span class="s2">In this work, we built&nbsp;</span><span class="s1">a prototype distributed system of Raspberry Pis called CLAN, communicating via WiFi running NeuroEvolutionary (NE) learning and inference. We evaluated the performance of such a collaborative system and detailed the compute/communication characteristics of different arrangements of the system that trade-off parallelism versus communication. Using insights from our analysis, we also proposed algorithmic modifications to reduce communication by up to 3.6x during the learning phase to enhance scalability even further and match performance of higher end computing devices at scale. We believe that these insights will enable algorithm-hardware co-design efforts for enabling continuous learning on the edge.&nbsp;</span></p> <p class="p5">&nbsp;</p> <p class="p2"><span class="s1"><strong>Broader Impacts</strong></span></p> <p class="p3"><span class="s2">This grant funded the dissertation work of graduate students. The PI also hosted two undergraduate students and one High-School student in his lab to understand and deploy DNNs on&nbsp;</span><span class="s1">Raspberry Pis and understand the performance limits. The PI also presented this research at the ARM Research Summit in Austin in September 2019 (attended by multiple industry researchers, faculty and students) and this work won the Best Presentation Award.</span></p> <p>&nbsp;</p><br> <p>            Last Modified: 02/08/2020<br>      Modified by: Tushar&nbsp;Krishna</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[Overview: Recent advancements in machine learning algorithms, especially the development of Deep Neural Networks (DNNs) have transformed the landscape of Artificial Intelligence (AI). With every passing day, deep learning based methods are applied to solve new problems with exceptional results. The portal to the real world is the edge. The true impact of AI can be fully realized if we can have AI agents such as robots/drones continuously interacting with the real world and solving everyday problems across efficient logistics, healthcare, disaster management, and so on. Unfortunately, high compute and memory requirements of DNNs acts a huge barrier towards this vision. Today we circumvent this problem by deploying special purpose inference hardware on the edge while procuring trained models from the cloud. This approach, however, relies on constant interaction the cloud for transmitting all the data, training on massive GPU clusters, and downloading updated models. This is challenging for bandwidth, privacy, and constant connectivity concerns that autonomous agents may exhibit. Through this grant, we evaluate techniques for enabling adaptive intelligence on edge devices with zero interaction with any high-end cloud/server.   Intellectual Merit: Specifically, over the course of the last  two years, we have been exploring the opportunities provided by "Neuro-evolutionary" algorithms to enable continuous learning on edge devices. Neuro-evolutionary use genetic algorithms to update the topology and weights of the DNN stochastically and pick the best DNNs for the task at hand. We have published two papers so far on this topic, and a third one is under submission. Paper 1:  Ananda Samajdar, Parth Mannan, Kartikay Garg, and Tushar Krishna, "GeneSys: Enabling Continuous Learning through Neural Network Evolution in Hardware", In Proc of 51st Annual IEEE/ACM International Symposium on Microarchitecture, Oct 2018.   In this work, we characterized the compute and memory requirements of Neuro-evolutionary (NE) algorithms, and identified opportunities for getting performance speedups via parallelism. We developed GeneSys, a HW-SW prototype of a learning system, that comprises of a closed loop learning engine called EvE and an inference engine called ADAM. EvE can evolve the topology and weights of neural networks completely in hardware for the task at hand, without requiring hand-optimization or backpropogation training. ADAM continuously interacts with the environment and is optimized for efficiently running the irregular neural networks generated by EvE. GeneSys identifies and leverages multiple unique avenues of parallelism unique to EAs that we term "gene"- level parallelism, and "population"-level parallelism. We ran GeneSys with a suite of environments from OpenAI gym and observed 2-5 orders of magnitude higher energy-efficiency over state-of-the-art embedded and desktop CPU and GPU systems      Paper 2:  Parth Mannan, Ananda Samajdar, and Tushar Krishna, "CLAN: Exploring Continuous Learning on Commodity Edge Devices using Asynchronous Distributed Neuroevolution", In Proc of the IEEE International Symposium on Performance Analysis of Systems and Software, April 2020.    In this work, we built a prototype distributed system of Raspberry Pis called CLAN, communicating via WiFi running NeuroEvolutionary (NE) learning and inference. We evaluated the performance of such a collaborative system and detailed the compute/communication characteristics of different arrangements of the system that trade-off parallelism versus communication. Using insights from our analysis, we also proposed algorithmic modifications to reduce communication by up to 3.6x during the learning phase to enhance scalability even further and match performance of higher end computing devices at scale. We believe that these insights will enable algorithm-hardware co-design efforts for enabling continuous learning on the edge.    Broader Impacts This grant funded the dissertation work of graduate students. The PI also hosted two undergraduate students and one High-School student in his lab to understand and deploy DNNs on Raspberry Pis and understand the performance limits. The PI also presented this research at the ARM Research Summit in Austin in September 2019 (attended by multiple industry researchers, faculty and students) and this work won the Best Presentation Award.          Last Modified: 02/08/2020       Submitted by: Tushar Krishna]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

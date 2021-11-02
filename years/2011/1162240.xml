@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Medium: Collaborative Research: Systematic Analysis of Protocol Implementations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>487305.00</AwardTotalIntnAmount>
+<AwardAmount>487305</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Brassil</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Systematic Analysis of Protocol Implementations&lt;br/&gt;&lt;br/&gt;Internet protocol development and standardization has long been driven by the philosophy of 'rough consensus and running code.' The downside to this approach is that protocol specifications are rarely rigorously verified, even for properties that fall within the capabilities of protocol verification techniques. Further, the 'rough' nature of the approach means that some important design decisions are inevitably omitted from the specification or are defined ambiguously. Therefore, in practice the correctness, performance, and resilience of network protocols are implicitly defined by vendor and open-source implementations of the protocol specification, and these implementations are based upon the developers' varying interpretations of the standards document. This leaves developers in a bind: they are unsure of the properties of the protocol specification, and do not have tools to reason about the properties of complex protocol implementations.&lt;br/&gt;&lt;br/&gt;Intellectual Merit. This project will develop a general approach and an associated tool that will enable developers and expert users to systematically analyze a variety of properties on a range of protocol implementations. The approach builds upon recent advances in program analysis techniques in novel ways that are tailored towards the special properties and requirements of protocol implementations. Moreover, the project will instantiate the general approach with new analyses for important tasks that are largely manual and highly error-prone today, including interoperability testing and precise tracking of state changes over time (e.g., to identify anomalous state sequences or characterize protocol complexity).&lt;br/&gt;&lt;br/&gt;The project is based on the observation that protocol implementations have an implicit internal structure, in the form of a state machine that embodies the key behavioral properties of the implementation. Due to the complexity of protocol implementations, this state machine will typically not be completely inferable by program analysis. To address this problem, the project will develop operators on a protocol implementation that allow developers to specify scalable and precise views of the underlying state machine. Developers can additionally use these views to perform a targeted concrete execution of the protocol on a real topology in order to investigate the particular property under consideration.&lt;br/&gt;&lt;br/&gt;The outcome of the project will be a software system called Spa. Developers will provide protocol implementations and use their expertise about the protocol and its properties of interest to specify appropriate operators and guide targeted concrete execution. The project will evolve Spa operators using experiences gained from applying Spa to several protocol analyses that have not been previously considered, and will start with a set of operators that have been informed by the PIs' preliminary research.&lt;br/&gt;&lt;br/&gt;Broader Impact. The protocols that underlie access to our networked world must be reliable, robust to attacks, and must perform well over a range of conditions and in dynamic environments. This project will equip developers and experts to systematically analyze the behavior of their protocols, and will result in an overall improvement in the reliability, robustness, and performance of deployed protocols. The project will accelerate the adoption of the research by making Spa available to researchers and developers, publishing its research results in top networking and programming language conferences, and educating students on the developed research methods by incorporating them in curricula. It will also engage underrepresented groups and undergraduates in research.</AbstractNarration>
+<MinAmdLetterDate>04/18/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>09/05/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1162240</AwardID>
+<Investigator>
+<FirstName>Ramesh</FirstName>
+<LastName>Govindan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ramesh Govindan</PI_FULL_NAME>
+<EmailAddress>ramesh@usc.edu</EmailAddress>
+<PI_PHON>2137404509</PI_PHON>
+<NSF_ID>000459031</NSF_ID>
+<StartDate>04/18/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Southern California</Name>
+<CityName>Los Angeles</CityName>
+<ZipCode>900890001</ZipCode>
+<PhoneNumber>2137407762</PhoneNumber>
+<StreetAddress>University Park</StreetAddress>
+<StreetAddress2><![CDATA[3720 S. Flower St.]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA37</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072933393</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF SOUTHERN CALIFORNIA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072933393</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Southern California]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900890001</ZipCode>
+<StreetAddress><![CDATA[University Park]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA37</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7363</Code>
+<Text>RES IN NETWORKING TECH &amp; SYS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~224739</FUND_OBLG>
+<FUND_OBLG>2013~128944</FUND_OBLG>
+<FUND_OBLG>2014~133622</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-bde21d85-62d1-7fd4-09c5-aa588f1842ed"> <p dir="ltr"><span>All aspects of society &mdash;- communication, entertainment, finance, business, science, government &mdash;- depend on properly functioning computer networks and demand increasingly rich services that live in the cloud. As a result, both the complexity and reliability requirements of cloud networks have rapidly escalated. &nbsp;Yet by and large network engineers, operators, and protocol implementers employ the same rudimentary tools for expressing and validating network behavior that have been used for decades. &nbsp;This project has developed several approaches to enable networks to be better understood, evolved, and validated.</span></p> <br /> <p dir="ltr"><span>A major focus of the project has been to improve the state of the art in network configuration. &nbsp;Today each router in a network is separately configured using a vendor-specific configuration language (e.g., Cisco&rsquo;s IOS language). &nbsp;It is very easy to make subtle errors in these configurations, and it is difficult to understand the ramifications of one router's configuration on the network as a whole. Currently network operators gain confidence in their configurations through simple techniques like sending test packets through the network, but these approaches are error prone and can easily miss important behaviors.</span></p> <br /> <p dir="ltr"><span>We have developed two techniques to address this problem. &nbsp;First, we have created tools for automatic network configuration analysis. &nbsp;These tools accept as input the actual configuration files for each router in the network, build a model of the network behavior based on the configurations, and can then check desired correctness and security properties. &nbsp;Because the tools do not require access to the running network, they can also be used to ask "what-if" questions, for example to determine the impact of a proposed configuration change or a router failure. &nbsp;Our Batfish configuration analysis tool has been applied to network configurations from two university campus networks as well as several corporate networks, including the data-center networks of a major cloud provider. It has identified several configuration inconsistencies that the network engineers have subsequently fixed.</span></p> <br /> <p dir="ltr"><span>Second, we have developed a correct-by-construction approach to network configuration. &nbsp;We have designed a network programming language called Propane that allows network engineers to directly express network-wide policies through a set of high-level constraints and preferences on the paths that traffic should take through the network. Our Propane compiler then automatically translates these specifications to a collection of individual router configurations. The compiler guarantees that the compiled configurations correctly implement the specified policy under all possible combinations of network failures. We have demonstrated that Propane can effectively express the policies of data-center and backbone networks of a large cloud provider; and despite its strong guarantees, our compiler scales to networks with hundreds or thousands of routers.</span></p> <br /> <p dir="ltr"><span>The other major focus of the project has been to enable real-world protocol implementations to be automatically analyzed for errors. &nbsp;Nodes in distributed systems communicate using one or more network protocols such as HTTP and TCP. For robust operation of these system, it is critical that the implementations of these protocols be able to communicate effectively. As modern systems move towards distributed computing for scaling and reliability, our ability to provide adequate quality assurance has lagged behind.</span></p> <br /> <p dir="ltr"><span>First, we developed an approach to interoperability testing of network protocols. Today, protocol developers spend significant manual effort in testing interoperability. They identify test inputs that can test specific features of the protocol. But, because the space of test inputs is large, such manual testing is often incomplete. As a result, interoperability issues continue to frustrate developers, as well as users, even years after protocols have been fully deployed. &nbsp;Our PIC (Protocol Interoperability Checker) tool helps developers search for non-interoperabilities in protocol implementations. &nbsp;PIC leverages and extends the notion of symbolic execution in order to characterize the sets of messages that one protocol participant can send but another will reject as non-compliant. &nbsp;We have demonstrated that PIC is able to find multiple previously unknown non-interoperabilities in large and mature implementations of the widely used SIP and SPDY protocols, some of which have since been fixed by the respective developers.</span></p> <br /> <p dir="ltr"><span>Second, we have recently generalized PIC into a framework for protocol analysis called Cat (Conversational Analysis Tool). &nbsp;Cat extends traditional symbolic execution to enable the analysis of multiple concurrent programs as a part of a distributed system. &nbsp;Through Cat we have the ability to more thoroughly explore the space of feasible outcomes of the distributed systems as a whole, considering both varying inputs from a constrained input space and network dynamics. &nbsp;We have demonstrated that Cat can analyze the widely-used Redis key-value store in order to identify complex and subtle errors.</span></p> <div><span><br /></span></div> </span></p> <p>&nbsp;</p><br> <p>            Last Modified: 09/08/2017<br>      Modified by: Ramesh&nbsp;Govindan</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  All aspects of society &mdash;- communication, entertainment, finance, business, science, government &mdash;- depend on properly functioning computer networks and demand increasingly rich services that live in the cloud. As a result, both the complexity and reliability requirements of cloud networks have rapidly escalated.  Yet by and large network engineers, operators, and protocol implementers employ the same rudimentary tools for expressing and validating network behavior that have been used for decades.  This project has developed several approaches to enable networks to be better understood, evolved, and validated.   A major focus of the project has been to improve the state of the art in network configuration.  Today each router in a network is separately configured using a vendor-specific configuration language (e.g., Cisco?s IOS language).  It is very easy to make subtle errors in these configurations, and it is difficult to understand the ramifications of one router's configuration on the network as a whole. Currently network operators gain confidence in their configurations through simple techniques like sending test packets through the network, but these approaches are error prone and can easily miss important behaviors.   We have developed two techniques to address this problem.  First, we have created tools for automatic network configuration analysis.  These tools accept as input the actual configuration files for each router in the network, build a model of the network behavior based on the configurations, and can then check desired correctness and security properties.  Because the tools do not require access to the running network, they can also be used to ask "what-if" questions, for example to determine the impact of a proposed configuration change or a router failure.  Our Batfish configuration analysis tool has been applied to network configurations from two university campus networks as well as several corporate networks, including the data-center networks of a major cloud provider. It has identified several configuration inconsistencies that the network engineers have subsequently fixed.   Second, we have developed a correct-by-construction approach to network configuration.  We have designed a network programming language called Propane that allows network engineers to directly express network-wide policies through a set of high-level constraints and preferences on the paths that traffic should take through the network. Our Propane compiler then automatically translates these specifications to a collection of individual router configurations. The compiler guarantees that the compiled configurations correctly implement the specified policy under all possible combinations of network failures. We have demonstrated that Propane can effectively express the policies of data-center and backbone networks of a large cloud provider; and despite its strong guarantees, our compiler scales to networks with hundreds or thousands of routers.   The other major focus of the project has been to enable real-world protocol implementations to be automatically analyzed for errors.  Nodes in distributed systems communicate using one or more network protocols such as HTTP and TCP. For robust operation of these system, it is critical that the implementations of these protocols be able to communicate effectively. As modern systems move towards distributed computing for scaling and reliability, our ability to provide adequate quality assurance has lagged behind.   First, we developed an approach to interoperability testing of network protocols. Today, protocol developers spend significant manual effort in testing interoperability. They identify test inputs that can test specific features of the protocol. But, because the space of test inputs is large, such manual testing is often incomplete. As a result, interoperability issues continue to frustrate developers, as well as users, even years after protocols have been fully deployed.  Our PIC (Protocol Interoperability Checker) tool helps developers search for non-interoperabilities in protocol implementations.  PIC leverages and extends the notion of symbolic execution in order to characterize the sets of messages that one protocol participant can send but another will reject as non-compliant.  We have demonstrated that PIC is able to find multiple previously unknown non-interoperabilities in large and mature implementations of the widely used SIP and SPDY protocols, some of which have since been fixed by the respective developers.   Second, we have recently generalized PIC into a framework for protocol analysis called Cat (Conversational Analysis Tool).  Cat extends traditional symbolic execution to enable the analysis of multiple concurrent programs as a part of a distributed system.  Through Cat we have the ability to more thoroughly explore the space of feasible outcomes of the distributed systems as a whole, considering both varying inputs from a constrained input space and network dynamics.  We have demonstrated that Cat can analyze the widely-used Redis key-value store in order to identify complex and subtle errors.             Last Modified: 09/08/2017       Submitted by: Ramesh Govindan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

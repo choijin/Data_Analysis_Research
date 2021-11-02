@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: A Programmable Measurement Architecture for Network Operations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>464057.00</AwardTotalIntnAmount>
+<AwardAmount>479457</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Many companies (e.g., Google, Microsoft, Facebook, Amazon) put huge capital investments into building larger data center networks with higher link speeds. It becomes increasingly important to carefully manage such large data center networks to support multiple tenants, meet service level agreements of applications, and reduce operation cost. Most network management tasks, such as traffic accounting, traffic engineering, load balancing, and performance diagnosis, rely on accurate and timely measurement of time-varying traffic across the entire network. &lt;br/&gt;&lt;br/&gt;Unfortunately, there are three key problems in today's measurement support: (1) Network device vendors often treat measurement as a second-class citizen, devoting most of the resources to meet the networking control functions (forwarding, firewalls, load balancing, etc.), leaving limited resources for supporting measurement. (2) Operators have limited control over what (not) to measure and when to measure. As a result, the already limited measurement resources are sometimes wasted to measure flows that operators do not care, leaving even fewer resources for measuring important flows. (3) These solutions are device oriented instead of network wide. Operators have to dive into the limited measurement support at multiple devices, taking great efforts to understand these measurement results offline, and find it challenging to answer their network-wide queries.&lt;br/&gt;&lt;br/&gt;This project aims to design and build a programmable measurement architecture MAP, which transforms today's network measurement practice in enterprise and data center networks. Inspired by software-defined networking, MAP allows operators to flexibly program their network-wide measurement queries in a controller. To answer these queries, MAP automatically configures and coordinates new measurement primitives at different places across the network stack. MAP also allows operators to dynamically change their queries and automatically reconfigure the primitives accordingly to handle network dynamics.&lt;br/&gt;&lt;br/&gt;There are three key research directions: First, the project will bring novel measurement algorithms and designs throughout the network stack (VMs, hypervisors, switches, and packet sniffers). The researcher will redesign the measurement primitives at these devices to make them both generic in supporting diverse measurement requirements, and efficient in packet processing performance with limited resources and capabilities. Second, the researcher will design new declarative measurement abstractions for operators to clearly express what to measure at the network level and their accuracy/timeliness requirements. The researcher will also design and implement a runtime system that automatically matches the measurement abstractions with primitives at devices, dynamically allocates resources across tasks and handles network dynamics such as mobile hosts and routing changes. Finally, the researcher will study how to support several important and novel measurement tasks with MAP?s primitives, abstractions, and runtime, and evaluate them on MAP. &lt;br/&gt;&lt;br/&gt;The proposed research, if successful, will fundamentally change network measurement and management practice in enterprise and data centers, and lead to new designs of network devices. The research will facilitate inter-discipline research between theory, programming languages, and networking. The project also has a significant education component, including the design and innovations of graduate courses and course material on software-defined networking and computer networking, as well as research experiences for undergraduate students and members of under-represented groups.</AbstractNarration>
+<MinAmdLetterDate>04/27/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>05/19/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1834263</AwardID>
+<Investigator>
+<FirstName>Minlan</FirstName>
+<LastName>Yu</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Minlan Yu</PI_FULL_NAME>
+<EmailAddress>minlanyu@seas.harvard.edu</EmailAddress>
+<PI_PHON>8572725123</PI_PHON>
+<NSF_ID>000607447</NSF_ID>
+<StartDate>04/27/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Harvard University</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021385369</ZipCode>
+<PhoneNumber>6174955501</PhoneNumber>
+<StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[5th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>082359691</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PRESIDENT AND FELLOWS OF HARVARD COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001963263</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Harvard University]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021385369</ZipCode>
+<StreetAddress><![CDATA[1033 Massachusetts Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9102</Code>
+<Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~48834</FUND_OBLG>
+<FUND_OBLG>2016~88132</FUND_OBLG>
+<FUND_OBLG>2017~91294</FUND_OBLG>
+<FUND_OBLG>2018~116107</FUND_OBLG>
+<FUND_OBLG>2019~119690</FUND_OBLG>
+<FUND_OBLG>2021~15400</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CNS Core: Small: Optimizing Distributed Machine Learning for Transient Resources using Loose Synchronization</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The availability of large-scale data sets in many domains has driven the growth of large-scale distributed machine learning (ML) workloads on cloud platforms to derive insights from this data.  To reduce the cost of executing these workloads, cloud platforms have begun to offer transient servers for a highly discounted price.   Unfortunately, cloud platforms may revoke transient servers at any time, which can decrease distributed ML performance and eliminate any cost benefit.  High revocation rates are especially problematic for distributed ML workloads that support synchronous processing, since revoked servers block others from continuing past predefined synchronization barriers until a replacement server can reach the barrier.  While asynchronous processing eliminates this blocking and improves performance, it does not maintain the algorithmic properties of synchronous algorithms, resulting in slower algorithmic convergence or possibly preventing convergence. To maintain performance on low-cost transient servers, this project proposes re-designing traditional distributed ML algorithms to use looser forms of synchrony.  Such loose synchronization minds the gap between synchronous and asynchronous processing by maintaining the algorithmic convergence properties of synchronous processing, while enabling some asynchronous processing to avoid blocking. The project combines this loose synchronization approach with adaptive policies for selecting transient servers based on their performance, cost, and volatility to significantly reduce the cost of executing large-scale distributed ML workloads on cloud platforms.&lt;br/&gt;&lt;br/&gt;Distributed machine learning (ML) workloads that derive insights from large-scale data sets have become the foundation for numerous advances across multiple industry sectors. This project has the potential to accelerate these advances by significantly decreasing the cost and improving the efficiency of executing distributed ML workloads on cloud platforms using transient servers. To benefit the broader community, the project will publicly release its software artifacts as open source. The project will incorporate topics on transient servers and distributed ML into graduate and undergraduate courses on distributed and operation systems.  The project will also involve undergraduates in research through related summer research experience projects and undergraduate theses.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/23/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/23/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1908536</AwardID>
+<Investigator>
+<FirstName>Lixin</FirstName>
+<LastName>Gao</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Lixin Gao</PI_FULL_NAME>
+<EmailAddress>lgao@ecs.umass.edu</EmailAddress>
+<PI_PHON>4135454548</PI_PHON>
+<NSF_ID>000483181</NSF_ID>
+<StartDate>07/23/2019</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Prashant</FirstName>
+<LastName>Shenoy</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Prashant Shenoy</PI_FULL_NAME>
+<EmailAddress>shenoy@cs.umass.edu</EmailAddress>
+<PI_PHON>4135770850</PI_PHON>
+<NSF_ID>000492611</NSF_ID>
+<StartDate>07/23/2019</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Irwin</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David Irwin</PI_FULL_NAME>
+<EmailAddress>irwin@ecs.umass.edu</EmailAddress>
+<PI_PHON>4135450698</PI_PHON>
+<NSF_ID>000619679</NSF_ID>
+<StartDate>07/23/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts Amherst</Name>
+<CityName>Hadley</CityName>
+<ZipCode>010359450</ZipCode>
+<PhoneNumber>4135450698</PhoneNumber>
+<StreetAddress>Research Administration Building</StreetAddress>
+<StreetAddress2><![CDATA[100 Venture Way, Suite 201]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>153926712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts Amherst]]></Name>
+<CityName>Amherst</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>010039292</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~500000</FUND_OBLG>
+</Award>
+</rootTag>

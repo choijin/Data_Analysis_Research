@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Ultra-Coarse-Grained Simulations of Biomolecular Processes at the Petascale</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>02/28/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>15936.00</AwardTotalIntnAmount>
+<AwardAmount>15936</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Edward Walker</SignBlockName>
+<PO_EMAI>edwalker@nsf.gov</PO_EMAI>
+<PO_PHON>7032924863</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The rapid growth of supercomputing power has enabled computer simulations to provide an increasingly useful complement to conventional experimental techniques. One important application of computer simulations is the study of biological systems at a molecular level of detail. Even modern supercomputers, however, struggle to simulate cell-scale processes at the molecular level.The Voth group have recently developed software for very large-scale "coarse-grained" (CG) simulations of biological processes, addressing several key technical barriers that can otherwise seriously hinder the efficient use of CG models. This software will be used to study a number of large-scale biomolecular systems of current interest in close collaboration with experimental colleagues.&lt;br/&gt;&lt;br/&gt;The software consists of a highly scalable parallel molecular dynamics engine, using sparse data structures and space filling curves to provide highly efficient CG simulations of extremely large-scale molecular systems. In particular, the MD engine efficiently "load-balances" all required calculations across large supercomputing resources - even for extremely heterogeneous particle distributions, such as "implicit solvent" CG models. These characteristics will be of great value in the study of key aspects of the HIV-1 viral lifecycle, and the behavior of the large-scale branched actin assemblies which are important for cellular function. The continued development of the CG software, and the results of the large-scale CG simulations themselves, will provide valuable leads into both advancing the state-of-the-art in computer simulations and also helping to direct experiments to further elucidate processes of great biological importance.</AbstractNarration>
+<MinAmdLetterDate>08/21/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/21/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1440027</AwardID>
+<Investigator>
+<FirstName>Gregory</FirstName>
+<LastName>Voth</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gregory A Voth</PI_FULL_NAME>
+<EmailAddress>gavoth@uchicago.edu</EmailAddress>
+<PI_PHON>7737029092</PI_PHON>
+<NSF_ID>000407271</NSF_ID>
+<StartDate>08/21/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606372612</ZipCode>
+<PhoneNumber>7737028669</PhoneNumber>
+<StreetAddress>6054 South Drexel Avenue</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005421136</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CHICAGO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005421136</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[The University of Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606375418</ZipCode>
+<StreetAddress><![CDATA[5735 S. Ellis Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7781</Code>
+<Text>Leadership-Class Computing</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~15936</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Computational molecular simulations have become an important scientific tool, providing detailed information that is otherwise difficult or impossible to examine with conventional experiments. However, even with modern supercomputers, conventional simulations of large and complicated molecular systems, which are of scientific interest in many areas of physical, medical, and materials science, remain a significant challenge. One promising approach to examine very large molecular systems is "coarse graining" (CG), a process which generates simplified, computationally efficient representations that nonetheless capture fundamental molecular physics. Yet the use of CG models is not yet a universal panacea, as the nature of the CG models themselves can introduce further challenges for the efficient use of supercomputers.</p> <p>The Voth research group, long at the forefront of CG molecular simulations, recently developed the theory of "ultra-coarse-grained" models and implemented a highly-parallel molecular simulation engine that addresses key weaknesses in existing software for CG simulations on modern supercomputers. With these tools in hand, and in collaboration with leading experimentalists around the world, the Voth group has studied a variety of complex biological systems. Human immunodeficiency virus type-1 (HIV-1) is one paradigmatic system, in which the molecular mechanisms that enable its proliferation remain largely unknown. Through the use of CG simulations, the Voth group has elucidated fundamental biophysical insights concerning the viral lifecycle, which will further facilitate new therapeutic development.&nbsp;&nbsp;&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 05/04/2018<br>      Modified by: Gregory&nbsp;A&nbsp;Voth</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Computational molecular simulations have become an important scientific tool, providing detailed information that is otherwise difficult or impossible to examine with conventional experiments. However, even with modern supercomputers, conventional simulations of large and complicated molecular systems, which are of scientific interest in many areas of physical, medical, and materials science, remain a significant challenge. One promising approach to examine very large molecular systems is "coarse graining" (CG), a process which generates simplified, computationally efficient representations that nonetheless capture fundamental molecular physics. Yet the use of CG models is not yet a universal panacea, as the nature of the CG models themselves can introduce further challenges for the efficient use of supercomputers.  The Voth research group, long at the forefront of CG molecular simulations, recently developed the theory of "ultra-coarse-grained" models and implemented a highly-parallel molecular simulation engine that addresses key weaknesses in existing software for CG simulations on modern supercomputers. With these tools in hand, and in collaboration with leading experimentalists around the world, the Voth group has studied a variety of complex biological systems. Human immunodeficiency virus type-1 (HIV-1) is one paradigmatic system, in which the molecular mechanisms that enable its proliferation remain largely unknown. Through the use of CG simulations, the Voth group has elucidated fundamental biophysical insights concerning the viral lifecycle, which will further facilitate new therapeutic development.                   Last Modified: 05/04/2018       Submitted by: Gregory A Voth]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

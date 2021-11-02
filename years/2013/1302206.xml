@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Medium: Selective Search of Large-Scale Text Collections</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>1083395.00</AwardTotalIntnAmount>
+<AwardAmount>1083395</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Maria Zemankova</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This project develops an alternative architecture for large-scale text search in which the document corpus is decomposed into index shards that are expected to have skewed utility distributions, thus enabling most index partitions to be ignored for most queries.  This selective search architecture is as effective as conventional search engine architectures, but has far lower computational costs and reveals new challenges and opportunities in large-scale search.  The decomposition process creates text collections, thus inviting research on what characteristics are desired or to be avoided in a text collection to enable accurate search.  New resource selection algorithms are developed to address efficiency problems in existing algorithms and dynamically adjust search costs based on query difficulty.  The project includes collaboration with three research groups at other universities, to help their research, leverage their expertise in designing new approaches to problems, and investigate the effectiveness of our research in more varied situations.  The result is an "off-the-shelf" method that provides an order of magnitude reduction in search costs over the current state-of-the-art, especially on corpora of more than a billion documents, and that can be easily customized or extended to support varied needs.&lt;br/&gt;&lt;br/&gt;Selective search is significant in part because it provides a new perspective on how to organize a very large collection of documents so that it can be searched accurately and efficiently.  This new understanding reveals new research problems and undiscovered weaknesses in existing algorithms that will have impact within the scientific community. Text search is one of the most widely used computer science technologies; hence selective search is of practical significance. The state-of-the-art in many areas of industry and science is increasingly associated with large-scale datasets, which makes it difficult for organizations with modest computational resources to compete.  This project reduces the computational costs of searching large-scale text collections by an order of magnitude or more.  It has the potential to reduce the energy and other costs associated with the data centers of large search providers, which has important economic and societal benefits.  Research results from this project are disseminated via project web site (http://www.cs.cmu.edu/~callan/Projects/IIS-1302206/); in research publications; in the Lemur Project's open-source search engines, which are used by a broad international scientific community; and in the Lemur Project's ClueWeb public search services, which integrate research and education by enabling scientists and classroom students to do experiments on large, state-of-the-art text corpora.</AbstractNarration>
+<MinAmdLetterDate>09/07/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/07/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1302206</AwardID>
+<Investigator>
+<FirstName>Jamie</FirstName>
+<LastName>Callan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jamie Callan</PI_FULL_NAME>
+<EmailAddress>callan@cs.cmu.edu</EmailAddress>
+<PI_PHON>4122684525</PI_PHON>
+<NSF_ID>000173762</NSF_ID>
+<StartDate>09/07/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName/>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~1083395</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>A <em>selective</em> search engine divides a large-scale document corpus into topic-based subsets ("shards") so that most of the corpus can be safely ignored for any particular query.&nbsp; Research shows that the <em>selective search</em> architecture is as effective as other architectures, but has much lower computational costs.&nbsp; The selective search architecture was developed originally for resource-constrained settings, such as small companies and university research labs.&nbsp; This project improved the accuracy of critical parts of a selective search system; and addressed issues and questions that arise when applying selective search to large-scale settings.&nbsp; Its purpose was to move selective search from a promising idea to a general technique - one that any organization would consider seriously for large-scale search tasks - and lower the barrier-to-adoption by providing off-the-shelf techniques for common situations.</p> <p>Among the many specific improvements delivered by this research were new tools for studying and measuring the behavior and reliability of a selective search system and its individual components.&nbsp; Several popular optimization techniques that improve the speed of conventional search architectures were shown to be equally effective with the selective search architecture.&nbsp; The project developed improved components for key parts of a selective search architecture, including dividing a large corpus into topical shards; deciding which shards to search for a given query; and deciding how many shards must be searched to provide reliably accurate document rankings of different lengths.&nbsp; It showed that the selective search architecture can improve the speed of a common approach to identifying additional terms related to a query ("query expansion").&nbsp; The project also included collaboration with four research groups at other universities, to leverage their expertise and investigate the effectiveness of new techniques in varied situations.&nbsp; As a whole, the project improved the accuracy and reliability of the selective search architecture and showed that it is practical for production environments with large-scale document collections and query traffic.&nbsp; These results have the potential to reduce the energy and other costs associated with the data centers of large search providers, which has important economic and societal benefits.&nbsp;</p> <p>Research results were disseminated in twelve published papers; a Ph.D. dissertation; online "virtual appendices" that contain experimental results and datasets; and open-source software.&nbsp; These resources enable other researchers and practitioners in industry to reproduce and extend our work.&nbsp;</p> <p>The NSF grant provided financial support for one Ph.D. and one M.S. student that graduated and joined American companies; two M.S. students that are now pursuing Ph.D. degrees in the U.S.; a student currently pursuing an M.S. in the U.S.; and a Ph.D. student that became a professor in Turkey.&nbsp; Five of these six students did project-related research that was published in a peer-reviewed conference. &nbsp;Four of the six were women.</p> <p>The project had four forms of impact.&nbsp; First, it contributed new techniques for building different parts of a selective search engine, for example, partitioning a document corpus into shards, selecting which shards to search for each query, deciding how many shards to search to meet precision-oriented and recall-oriented requirements, and query expansion to improve search accuracy.&nbsp; Second, it produced tools and techniques for measuring and analyzing the behavior of selective search systems, which allowed specific questions to be answered during the project and will enable future system developers to answer questions of their own.&nbsp; Third, it demonstrated the viability of the selective search architecture in large-scale search environments.&nbsp; Finally, it contributed to the professional development of the U.S. workforce by providing advanced education and research experience to six Computer Science graduate students.</p><br> <p>            Last Modified: 11/19/2018<br>      Modified by: Jamie&nbsp;Callan</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ A selective search engine divides a large-scale document corpus into topic-based subsets ("shards") so that most of the corpus can be safely ignored for any particular query.  Research shows that the selective search architecture is as effective as other architectures, but has much lower computational costs.  The selective search architecture was developed originally for resource-constrained settings, such as small companies and university research labs.  This project improved the accuracy of critical parts of a selective search system; and addressed issues and questions that arise when applying selective search to large-scale settings.  Its purpose was to move selective search from a promising idea to a general technique - one that any organization would consider seriously for large-scale search tasks - and lower the barrier-to-adoption by providing off-the-shelf techniques for common situations.  Among the many specific improvements delivered by this research were new tools for studying and measuring the behavior and reliability of a selective search system and its individual components.  Several popular optimization techniques that improve the speed of conventional search architectures were shown to be equally effective with the selective search architecture.  The project developed improved components for key parts of a selective search architecture, including dividing a large corpus into topical shards; deciding which shards to search for a given query; and deciding how many shards must be searched to provide reliably accurate document rankings of different lengths.  It showed that the selective search architecture can improve the speed of a common approach to identifying additional terms related to a query ("query expansion").  The project also included collaboration with four research groups at other universities, to leverage their expertise and investigate the effectiveness of new techniques in varied situations.  As a whole, the project improved the accuracy and reliability of the selective search architecture and showed that it is practical for production environments with large-scale document collections and query traffic.  These results have the potential to reduce the energy and other costs associated with the data centers of large search providers, which has important economic and societal benefits.   Research results were disseminated in twelve published papers; a Ph.D. dissertation; online "virtual appendices" that contain experimental results and datasets; and open-source software.  These resources enable other researchers and practitioners in industry to reproduce and extend our work.   The NSF grant provided financial support for one Ph.D. and one M.S. student that graduated and joined American companies; two M.S. students that are now pursuing Ph.D. degrees in the U.S.; a student currently pursuing an M.S. in the U.S.; and a Ph.D. student that became a professor in Turkey.  Five of these six students did project-related research that was published in a peer-reviewed conference.  Four of the six were women.  The project had four forms of impact.  First, it contributed new techniques for building different parts of a selective search engine, for example, partitioning a document corpus into shards, selecting which shards to search for each query, deciding how many shards to search to meet precision-oriented and recall-oriented requirements, and query expansion to improve search accuracy.  Second, it produced tools and techniques for measuring and analyzing the behavior of selective search systems, which allowed specific questions to be answered during the project and will enable future system developers to answer questions of their own.  Third, it demonstrated the viability of the selective search architecture in large-scale search environments.  Finally, it contributed to the professional development of the U.S. workforce by providing advanced education and research experience to six Computer Science graduate students.       Last Modified: 11/19/2018       Submitted by: Jamie Callan]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

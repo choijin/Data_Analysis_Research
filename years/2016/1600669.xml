@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CNS: CSR: Small: Runtime System, Architecture, and Technology Codesign Approach for Heterogeneous Many-Core Processors and Clusters</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/21/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>222526.00</AwardTotalIntnAmount>
+<AwardAmount>222526</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The performance of computers has improved tremendously in the past four decades, which has enabled innumerable applications that have major roles in our daily lives. However, without dramatic innovations in improving performance and power efficiency of computing, the continued semiconductor device scaling alone will fail to provide computing capabilities needed for future applications. One of the main performance bottlenecks of traditional computing systems has been the high cost of communications between central processing unit (CPU) and graphics processing unit (GPU). The on-chip integration of CPU and GPU dramatically reduces the cost of communications, but it also worsens power, thermal, and bandwidth issues for chip design.  Nonetheless, it also allows new approaches to be explored that previously were not practical.  Given the potential and challenges of on-chip integrated CPU+GPU processors, this project undertakes a multidisciplinary effort to improve performance and power efficiency of computers. Specifically, the project aims to (i) develop runtime algorithms for scheduling workload and memory accesses under power, thermal, bandwidth constraints; (ii) explore micoarchitectures for improving memory system performance under bandwidth constraints; and (iii) optimize heterogeneous technology choices for integrated CPU+GPU processors. &lt;br/&gt;&lt;br/&gt;This project is expected to have significant impact on the technology, circuit, architecture, and runtime system communities, and it is leading to state-of-the-art research infrastructure. The project also contributes state-of-the art workforce training. The outcomes of this project benefit economic growth through technology advances that will provide increased computing capability at a lower cost.</AbstractNarration>
+<MinAmdLetterDate>10/14/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>10/14/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1600669</AwardID>
+<Investigator>
+<FirstName>Nam Sung</FirstName>
+<LastName>Kim</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nam Sung Kim</PI_FULL_NAME>
+<EmailAddress>nskim@illinois.edu</EmailAddress>
+<PI_PHON>2173336531</PI_PHON>
+<NSF_ID>000512015</NSF_ID>
+<StartDate>10/14/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Urbana-Champaign</Name>
+<CityName>Champaign</CityName>
+<ZipCode>618207406</ZipCode>
+<PhoneNumber>2173332187</PhoneNumber>
+<StreetAddress>1901 South First Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite A]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041544081</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Urbana-Champaign]]></Name>
+<CityName>Champaign</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>618207473</ZipCode>
+<StreetAddress><![CDATA[1901 S. First St. Suite A]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~222526</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The computing industry is at a cross-roads today because scaling of silicon technology, which has been a major driving force for enabling high-performance computing, is rapidly approaching the fundamental limits. As Gordon Moore recently noted, &ldquo;No exponential is forever, but can be only delayed.&rdquo; On the other hand, the potentials of new emerging technologies are yet to be explored and these technologies are not mature enough to be economically used for mass production of computing devices. From an architecture point of view, a heterogeneous computing system comprised of heterogeneous processors such as CPU, GPU, and accelerators has emerged as a plausible practical solution to meet increasing performance demand under power, thermal, and bandwidth constraints.</p> <p>Faced with such challenges and opportunities, in this project we aim to dramatically improve performance and energy-efficiency of heterogeneous computing systems with various techniques cutting across multiple levels of computing stacks (i.e., device, circuit, architecture, and runtime algorithm). Toward this goal, we first developed an architectural simulator to evaluate the performance of heterogeneous computing systems and released the simulator to the public (http://cpu-gpu-sim.ece.wisc.edu). Second, we developed a model that can evaluate the energy consumption of GPUs, which is an integral component of heterogeneous computing systems with two other collaborators from the University of Texas and University of British Columbia, and released it to the public (http://www.gpgpu-sim.org/gpuwattch). This energy model is currently the de facto model to evaluate the energy consumption of GPUs and the widely used model in the world, benefiting many researchers around the world. According to Google Scholar, more than 200 research papers have used this model. Third, based on these simulator and model we have developed many architecture and runtime algorithms to improve performance and energy efficiency of heterogeneous computing systems. For example, we developed a runtime algorithm that jointly adapts the operating voltage/frequency, the number of cores, and the workload allocated to the CPU and the GPU in a heterogeneous computing system. This algorithm allows us to maximize the performance under a given power constraint. We also developed various architectures that exploit the similarity of values&nbsp;that are processed by GPUs to further improve performance and energy efficiency while exploiting some unique characteristics of emerging applications running on heterogeneous computing systems. Moreover, we explored a practical but innovative heterogeneous computing architecture that moves computations near the memory considering the bandwidth constraint and energy efficiency, as it becomes more expensive to move data from memory to processors than processing data. This recent work, which significantly improves performance and energy consumption compared to traditional heterogeneous computing systems, has been widely cited by many recently published research papers in very a short time period.</p> <p>Lastly, this project allowed us to support and train graduate students including under-represented ones. They are now working for large companies in the U.S.A. and contributing to developing the next-generation, state-of-the-art computers that will ensure the U.S.A. to maintain the leading position in computing and economy. Besides, the products of this project allowed us to enhance the contents of undergraduate and graduate-level computer architecture courses such that the students can learn state-of-the-art computing technologies and be better prepared for their jobs in industry and academia.</p> <p>&nbsp;</p><br> <p>            Last Modified: 11/29/2016<br>      Modified by: Nam Sung&nbsp;Kim</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The computing industry is at a cross-roads today because scaling of silicon technology, which has been a major driving force for enabling high-performance computing, is rapidly approaching the fundamental limits. As Gordon Moore recently noted, "No exponential is forever, but can be only delayed." On the other hand, the potentials of new emerging technologies are yet to be explored and these technologies are not mature enough to be economically used for mass production of computing devices. From an architecture point of view, a heterogeneous computing system comprised of heterogeneous processors such as CPU, GPU, and accelerators has emerged as a plausible practical solution to meet increasing performance demand under power, thermal, and bandwidth constraints.  Faced with such challenges and opportunities, in this project we aim to dramatically improve performance and energy-efficiency of heterogeneous computing systems with various techniques cutting across multiple levels of computing stacks (i.e., device, circuit, architecture, and runtime algorithm). Toward this goal, we first developed an architectural simulator to evaluate the performance of heterogeneous computing systems and released the simulator to the public (http://cpu-gpu-sim.ece.wisc.edu). Second, we developed a model that can evaluate the energy consumption of GPUs, which is an integral component of heterogeneous computing systems with two other collaborators from the University of Texas and University of British Columbia, and released it to the public (http://www.gpgpu-sim.org/gpuwattch). This energy model is currently the de facto model to evaluate the energy consumption of GPUs and the widely used model in the world, benefiting many researchers around the world. According to Google Scholar, more than 200 research papers have used this model. Third, based on these simulator and model we have developed many architecture and runtime algorithms to improve performance and energy efficiency of heterogeneous computing systems. For example, we developed a runtime algorithm that jointly adapts the operating voltage/frequency, the number of cores, and the workload allocated to the CPU and the GPU in a heterogeneous computing system. This algorithm allows us to maximize the performance under a given power constraint. We also developed various architectures that exploit the similarity of values that are processed by GPUs to further improve performance and energy efficiency while exploiting some unique characteristics of emerging applications running on heterogeneous computing systems. Moreover, we explored a practical but innovative heterogeneous computing architecture that moves computations near the memory considering the bandwidth constraint and energy efficiency, as it becomes more expensive to move data from memory to processors than processing data. This recent work, which significantly improves performance and energy consumption compared to traditional heterogeneous computing systems, has been widely cited by many recently published research papers in very a short time period.  Lastly, this project allowed us to support and train graduate students including under-represented ones. They are now working for large companies in the U.S.A. and contributing to developing the next-generation, state-of-the-art computers that will ensure the U.S.A. to maintain the leading position in computing and economy. Besides, the products of this project allowed us to enhance the contents of undergraduate and graduate-level computer architecture courses such that the students can learn state-of-the-art computing technologies and be better prepared for their jobs in industry and academia.          Last Modified: 11/29/2016       Submitted by: Nam Sung Kim]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

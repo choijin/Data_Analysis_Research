@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CIF: Medium: Collaborative Research: Information Theory and Statistical Inference from Large-Alphabet Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>418565.00</AwardTotalIntnAmount>
+<AwardAmount>418565</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>John Cozzens</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Statistical analysis is key to many challenging applications such as text classification, speech recognition, and DNA analysis. However, often the amount of data available is comparable or even smaller than the set of symbols (alphabet) constituting the data. Unfortunately, not much is known about optimal inference in this so-called large-alphabet domain. Recently, several promising approaches have been developed by different scientific communities, including Bayesian nonparametrics in statistics and machine learning, universal compression in information theory, and the theory of graph limits in mathematics and computer science.&lt;br/&gt;&lt;br/&gt;The investigators study the problem drawing from these multiple perspectives, but with a particular focus on developing the information theoretic approach. The research studies analytical properties of the "pattern maximum likelihood'' estimator, which performs well in practice but is not understood theoretically, and also explores computational speedups. Moreover, it attempts to delineate which problem classes are better handled by Bayesian nonparametric techniques and which by the pattern approach, and explores links between these approaches. The investigators use the resulting theory for automatic document classification, allowing for more automation in storing, retrieving, and analyzing data. Furthermore, the investigators use the theory to study genetic variations, whose link with disease diagnosis is a crucial step in the systematic quantification of biology that is playing an increasingly important role in medical advancement. The research also brings new courses to the classroom, with a special outreach effort to involve women and under-represented minorities, including through the Native Hawaiian Science and Engineering Mentorship Program.</AbstractNarration>
+<MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1065622</AwardID>
+<Investigator>
+<FirstName>Alon</FirstName>
+<LastName>Orlitsky</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Alon Orlitsky</PI_FULL_NAME>
+<EmailAddress>alon@ucsd.edu</EmailAddress>
+<PI_PHON>8588220228</PI_PHON>
+<NSF_ID>000445517</NSF_ID>
+<StartDate>08/08/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-San Diego</Name>
+<CityName>La Jolla</CityName>
+<ZipCode>920930934</ZipCode>
+<PhoneNumber>8585344896</PhoneNumber>
+<StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+<StreetAddress2><![CDATA[9500 Gilman Drive, 0934]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804355790</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SAN DIEGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-San Diego]]></Name>
+<CityName>La Jolla</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>920930934</ZipCode>
+<StreetAddress><![CDATA[Office of Contract &amp; Grant A]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7797</Code>
+<Text>Comm &amp; Information Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7935</Code>
+<Text>COMM &amp; INFORMATION THEORY</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~418565</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Distribution estimation is an fundamental problem underlying most statistical and machine learning problems. Traditionally, it was studied in the regime where the support size is far smaller number of samples available. For example estimating the bias of a two-sided coin based on hundreds of flips.&nbsp;</p> <p><br />Yet many modern applications fall in a vastly different regime, where the support size is comparable or even larger than the number of samples available. For example, natural-language processing often requires estimating the distribution of words following a given context, such as the two previous words. The number of English words is roughly a million, much larger than the number of times a given two-word context appears, even in a large corpus. Similarly, genomic applications typically involve distributions over thousands or millions of nucleotides or bacteria, again often larger than the number of samples, such as patients, available.</p> <p><br />Under this grant, we set out to explore new learning methodologies and algorithms for this "large alphabet" regime. We considered several basic problems that form the foundation of many applications. They include the estimating: the underlying distribution, properties of the underlying distribution such as entropy or support size, the likelihood that a sample was generated by one of two distributions, and the likelihood that two samples were generated by the same distribution or two different ones. For each of these problems we derived new results that are often nearly optimal, and in some cases we formulated new problems that facilitated a practical solution.&nbsp;</p> <p><br />For distribution estimation we considered the L1 distance, an important measure that determines the accuracy of classification and hypothesis testing algorithms. &nbsp;We determined to the first order the rate at which distributions can be estimated in L1 distance. Specifically, we showed that as the number n of samples grows, distributions over k elements can be estimated to L1 distance of roughly square root of (2k over pi n).&nbsp;</p> <p><br />Perhaps not surprisingly, the estimation error increases with the alphabet size k. We therefore formulated a new, competitive, definition for evaluating an estimator's accuracy. Intuitively, it is the difference between the accuracy of the estimator and that of an optimal "genie" estimator that has some prior knowledge of the underlying distribution. If the difference is small, then the estimator performs nearly as well as a genie-designed estimator, and hence nearly as well as any human-designed estimator. We derived an estimator who accuracy differs from the genie estimator by at most the inverse of the square root of the number of samples, regardless of the alphabet size. Therefore our estimator is near-optimal for any support size. Experimental results validated the superior performance of this estimator over existing methods. &nbsp;One curious fact about the estimator is that it is similar to one used by practitioners yet fundamentally different from an estimator used by theorists.&nbsp;</p> <p><br />Following are some of our additional contributions, focusing on a single result per problem. For classification we derived the first discreet-distribution classifier whose error probability relative to that of an optimal natural classifier decreases with the number of samples at a rate independent of the alphabet size. For closeness testing we derived algorithms whose sample complexity closely track the performance of optimal natural testers. For outlier detection, we designed a test that requires a number of samples sublinear in the alphabet size.&nbsp;</p> <p><br />Our results were published in several information theory and machine learning venues, including the Information Theory Transactions and the ISIT, NIPS, and COLT conferences. In particular, the distribution-estimation paper received the NIPS 2016 outstanding paper award. We also presented several invited plenary talks, short courses, and tutorials, including one at the 2016 Information Theory Symposium.&nbsp;</p><br> <p>            Last Modified: 03/26/2017<br>      Modified by: Alon&nbsp;Orlitsky</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Distribution estimation is an fundamental problem underlying most statistical and machine learning problems. Traditionally, it was studied in the regime where the support size is far smaller number of samples available. For example estimating the bias of a two-sided coin based on hundreds of flips.    Yet many modern applications fall in a vastly different regime, where the support size is comparable or even larger than the number of samples available. For example, natural-language processing often requires estimating the distribution of words following a given context, such as the two previous words. The number of English words is roughly a million, much larger than the number of times a given two-word context appears, even in a large corpus. Similarly, genomic applications typically involve distributions over thousands or millions of nucleotides or bacteria, again often larger than the number of samples, such as patients, available.   Under this grant, we set out to explore new learning methodologies and algorithms for this "large alphabet" regime. We considered several basic problems that form the foundation of many applications. They include the estimating: the underlying distribution, properties of the underlying distribution such as entropy or support size, the likelihood that a sample was generated by one of two distributions, and the likelihood that two samples were generated by the same distribution or two different ones. For each of these problems we derived new results that are often nearly optimal, and in some cases we formulated new problems that facilitated a practical solution.    For distribution estimation we considered the L1 distance, an important measure that determines the accuracy of classification and hypothesis testing algorithms.  We determined to the first order the rate at which distributions can be estimated in L1 distance. Specifically, we showed that as the number n of samples grows, distributions over k elements can be estimated to L1 distance of roughly square root of (2k over pi n).    Perhaps not surprisingly, the estimation error increases with the alphabet size k. We therefore formulated a new, competitive, definition for evaluating an estimator's accuracy. Intuitively, it is the difference between the accuracy of the estimator and that of an optimal "genie" estimator that has some prior knowledge of the underlying distribution. If the difference is small, then the estimator performs nearly as well as a genie-designed estimator, and hence nearly as well as any human-designed estimator. We derived an estimator who accuracy differs from the genie estimator by at most the inverse of the square root of the number of samples, regardless of the alphabet size. Therefore our estimator is near-optimal for any support size. Experimental results validated the superior performance of this estimator over existing methods.  One curious fact about the estimator is that it is similar to one used by practitioners yet fundamentally different from an estimator used by theorists.    Following are some of our additional contributions, focusing on a single result per problem. For classification we derived the first discreet-distribution classifier whose error probability relative to that of an optimal natural classifier decreases with the number of samples at a rate independent of the alphabet size. For closeness testing we derived algorithms whose sample complexity closely track the performance of optimal natural testers. For outlier detection, we designed a test that requires a number of samples sublinear in the alphabet size.    Our results were published in several information theory and machine learning venues, including the Information Theory Transactions and the ISIT, NIPS, and COLT conferences. In particular, the distribution-estimation paper received the NIPS 2016 outstanding paper award. We also presented several invited plenary talks, short courses, and tutorials, including one at the 2016 Information Theory Symposium.        Last Modified: 03/26/2017       Submitted by: Alon Orlitsky]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

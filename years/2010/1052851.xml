@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Large Scale Partial-duplicate Image Search by Post Verification of Local Feature Matching</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>81666.00</AwardTotalIntnAmount>
+<AwardAmount>81666</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Yang</SignBlockName>
+<PO_EMAI>jyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924768</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project develops techniques to eliminate partial-duplicates in image search from a large scale database. The research team explores spatial representation schemes for partial-duplicate image retrieval in efficient ways. Images are represented by the Bag-of-Visual-Features model, in the similar way to text document represented by a set of text words. A novel scheme, spatial coding, is designed to encode the spatial relationships among local features in an image. Based on the spatial codes of images, verification of the initial matching of local features between images is performed. And those false matches are identified and removed effectively and efficiently. As a result, the similarity between images based on local feature matching is determined more accurately. Consequently, the retrieval performance is greatly improved. The approach enjoys the merit of scalability. It is an initial step towards billion-scale partial-duplicate image retrieval.  The project is developing a real time partial-duplicate image search system with sound recall on 10 million web image database. &lt;br/&gt;&lt;br/&gt;The research of spatial coding addresses critical problems in multimedia visual information retrieval. The proposed spatial coding approaches have broad impact in various research fields and applications, such as image retrieval, image categorization and object recognition. Finally, research and education are integrated by providing research opportunity for graduate and undergraduate students to selecttheir research topics and senior projects.</AbstractNarration>
+<MinAmdLetterDate>08/31/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>08/31/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1052851</AwardID>
+<Investigator>
+<FirstName>Qi</FirstName>
+<LastName>Tian</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Qi Tian</PI_FULL_NAME>
+<EmailAddress>qitian@cs.utsa.edu</EmailAddress>
+<PI_PHON>2104585165</PI_PHON>
+<NSF_ID>000224642</NSF_ID>
+<StartDate>08/31/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at San Antonio</Name>
+<CityName>San Antonio</CityName>
+<ZipCode>782491644</ZipCode>
+<PhoneNumber>2104584340</PhoneNumber>
+<StreetAddress>One UTSA Circle</StreetAddress>
+<StreetAddress2><![CDATA[Grants, Contracts & Ind. Agr.]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX20</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>800189185</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT SAN ANTONIO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at San Antonio]]></Name>
+<CityName>San Antonio</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>782491644</ZipCode>
+<StreetAddress><![CDATA[One UTSA Circle]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX20</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7367</Code>
+<Text>HCC-Human-Centered Computing</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7367</Code>
+<Text>Cyber-Human Systems</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~81666</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this project, we propose a novel spatial coding scheme for large-scale partial duplicate image search. Spatial context plays a key role in visual identification. How to represent spatial context of local features in images to facilitate image comparison is significant to advance large-scale image search. Our proposed&nbsp; spatial coding scheme encodes the relative spatial relationships of local features into binary maps. Consequently, the problem of geometric verification is converted to comparison of binary spatial coding maps, which is very efficient in implementation. Our verification is performed in a global manner, and can achieve better retrieval accuracy compared with state-of-the-art&nbsp; approaches. On the other hand, since the main computation of the spatial coding scheme is addition and exclusive-OR operation, our computational complexity is low. We have evaluated our approach with promising performance on a 10-million full-size image dataset, which is the largest in the academic community. Further, beyond our spatial coding work, we find that by subtly exploiting the geometric clues of local features, we can adjust the feature coordinates and achieve rotation-invariance adaptively.</p> <p>Our spatial coding scheme can be regarded as an efficient post geometric verification algorithm. Beyond that, it can also be applied to discover repeatable visual patterns with semantics by exploring extensive images. Moreover, since our spatial coding scheme achieves high image search precision, the retrieval results can be naturally mined for image annotation. Further, its extension to video search is straightforward.</p><br> <p>            Last Modified: 08/11/2013<br>      Modified by: Qi&nbsp;Tian</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this project, we propose a novel spatial coding scheme for large-scale partial duplicate image search. Spatial context plays a key role in visual identification. How to represent spatial context of local features in images to facilitate image comparison is significant to advance large-scale image search. Our proposed  spatial coding scheme encodes the relative spatial relationships of local features into binary maps. Consequently, the problem of geometric verification is converted to comparison of binary spatial coding maps, which is very efficient in implementation. Our verification is performed in a global manner, and can achieve better retrieval accuracy compared with state-of-the-art  approaches. On the other hand, since the main computation of the spatial coding scheme is addition and exclusive-OR operation, our computational complexity is low. We have evaluated our approach with promising performance on a 10-million full-size image dataset, which is the largest in the academic community. Further, beyond our spatial coding work, we find that by subtly exploiting the geometric clues of local features, we can adjust the feature coordinates and achieve rotation-invariance adaptively.  Our spatial coding scheme can be regarded as an efficient post geometric verification algorithm. Beyond that, it can also be applied to discover repeatable visual patterns with semantics by exploring extensive images. Moreover, since our spatial coding scheme achieves high image search precision, the retrieval results can be naturally mined for image annotation. Further, its extension to video search is straightforward.       Last Modified: 08/11/2013       Submitted by: Qi Tian]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

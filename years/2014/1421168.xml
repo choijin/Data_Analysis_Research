@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Robot Developmental Learning of Skilled Actions</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>446823.00</AwardTotalIntnAmount>
+<AwardAmount>446823</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Erion Plaku</SignBlockName>
+<PO_EMAI>eplaku@nsf.gov</PO_EMAI>
+<PO_PHON>7032928695</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to show how a robot --- using a continuous stream of visual and tactile data --- can learn to work at a human level of skill in tasks normally done by humans.  To function at a human level, it must be able to plan with "object-level" abstractions such as putting a red block into the box, and it must also be able to grasp objects and move them while avoiding bumping into things and causing damage to its surroundings.  This project is inspired by human cognitive development.  A baby learns about objects and actions by bootstrapping from early regularities and unreliable actions to hierarchies of more complex and reliable actions.  The hypothesis to be tested is that this bootstrap learning approach allows a robot to achieve human levels of skillful and robust action in a wide range of human-dominated environments.&lt;br/&gt;&lt;br/&gt;This project draws on extensive prior work on foundational knowledge representations and machine learning.  Learning begins by detecting low-level contingencies --- regularities among observed events --- and refining them into increasingly accurate predictive rules, that can be used to define reliable actions.  For a given rule, a simple MDP model is formulated, and reinforcement learning methods learn a policy for accomplishing an action at the next level of the action hierarchy.  Learned actions are initially unreliable, but policies and actions improve with experience.  Attention is focused where learning is likely to be most productive by intrinsic motivation methods that reward actions that result in successful learning, including the important special case of rewarding attempts to imitate the successful actions of other agents.</AbstractNarration>
+<MinAmdLetterDate>08/22/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/24/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421168</AwardID>
+<Investigator>
+<FirstName>Benjamin</FirstName>
+<LastName>Kuipers</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Benjamin J Kuipers</PI_FULL_NAME>
+<EmailAddress>kuipers@umich.edu</EmailAddress>
+<PI_PHON>7346476887</PI_PHON>
+<NSF_ID>000324244</NSF_ID>
+<StartDate>08/22/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073133571</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MICHIGAN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073133571</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Michigan Ann Arbor]]></Name>
+<CityName>Ann Arbor</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>481092121</ZipCode>
+<StreetAddress><![CDATA[2260 Hayward, 3741 Beyster Bldg.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8013</Code>
+<Text>NRI-National Robotics Initiati</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8086</Code>
+<Text>Natl Robotics Initiative (NRI)</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~446823</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of our project is to build a robot model to illuminate the kind of learning done by human infants before explicit teaching is possible.&nbsp; We focus on the process of reaching, grasping, and placing objects in the nearby environment (?peri-personal space?).&nbsp; The newborn infant waves her arms around, apparently at random.&nbsp; Over the space of a few months, she learns to reach for objects, to grasp them and release them, and finally to purposefully place them in new locations, all through her own self-directed exploration of her own capabilities.&nbsp; She learns a number of skilled actions that are at the foundation of her interaction with her world.</p> <p>&nbsp;</p> <p>An implemented computational model of this learning process, running on a physical robot, is a valuable tool for a developmental psychologist.&nbsp; It shows whether the theory is well enough specified to do the intended task.&nbsp; It allows the psychologist to experiment with different versions of the process, to see which best match data about human behavior.&nbsp; Variations of the model can help explore possible underlying causes of disabilities.&nbsp; A model like this is also valuable for a roboticist, showing how new skilled actions can be learned and improved through the robot?s own experience, without explicit teaching.</p> <p>&nbsp;</p> <p>We develop and test our model on a Baxter Research Robot, a large humanoid robot with a torso, two arms, and a head (See Figure).&nbsp; The learning model has no knowledge of the geometry of the robot?s body or of the space around it.&nbsp; The head is in a fixed position and has a camera that can perceive nearby space, including a tabletop with blocks and its moving hand.&nbsp; The camera provides a stream of 2D images with pixels labeled with color (RGB) and depth (D), but the model has no knowledge of 3D space.&nbsp; Our experiments use only one arm, which has seven joints.&nbsp; The robot can control each of those seven joints, but it starts with no knowledge of how the joint angles affect the position of the arm.</p> <p>&nbsp;</p> <p>By randomly changing the joint angles, the learning model waves its arm around, exploring its possible configurations.&nbsp; It builds the Peri-Personal Space (PPS) Graph, with a node for the position of the arm after each action, labeled with the camera image at that moment.&nbsp; Two nodes are linked by an edge if a single action moved safely from one to the other, or if the two nodes happen to be close.&nbsp; ?Close? according to the joint angles, because the model has no knowledge of 3D space.&nbsp; The paths through the PPS Graph are ways the robot can safely move its arm.</p> <p>&nbsp;</p> <p>Now we put some colored blocks on the table.&nbsp; From its visual perception, the model learns that almost always, moving the arm leaves all the blocks unchanged.&nbsp; But sometimes, rarely, the arm bumps a block and changes its position.&nbsp; The learning model focuses on this unusual event, and gathers experiential data to discover how it can make this unusual, accidental event into a reliable action.&nbsp; By selecting a block, and using position-change of that block as a label for success, the model learns how to select a node in the PPS Graph so that moving to that node will bump that block.&nbsp; The model has learned a Reach action, which reliably bumps a block from one position to another.</p> <p>&nbsp;</p> <p>Human infants are born with the Palmar Reflex:&nbsp; touching the palm makes the fingers close, producing a surprisingly strong grasp.&nbsp; We added a sensor to give Baxter a Palmar Reflex.&nbsp; As the robot practices moving and reaching, the blocks typically move from one fixed position to another.&nbsp; But sometimes, by accident, the arm approaches the block in just the right way, the Palmar Reflex triggers, the grippers close, and robot grasps the block, so when the arm moves, the block moves along with it, rather than just being bumped into a new position.&nbsp; The model focuses on this new unusual event.&nbsp; The conditions for a reliable grasp are more complex than for a reach and bump, but the model learns to achieve a successful Grasp action on about 50% of its attempts.</p> <p>&nbsp;</p> <p>Once having learned Reach, Grasp, and then Release actions, the model can create an extended MoveObject action that gives our ?baby robot? increasing mastery over its nearby environment.&nbsp; These early actions are awkward, but they are usually successful, and they provide a source of experiential training data that can make later reinforcement learning methods efficient enough to be useful.&nbsp; This model also matches surprising findings about human infant learning.</p> <p>&nbsp;</p> <p>Without prior knowledge of its body or its environment, how can useful knowledge of space and actions be learned from self-guided experience?&nbsp; This model provides a hypothesis.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/28/2020<br>      Modified by: Benjamin&nbsp;J&nbsp;Kuipers</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/1421168/1421168_10336769_1603906562196_Baxter-small2--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1421168/1421168_10336769_1603906562196_Baxter-small2--rgov-800width.jpg" title="Baxter Research Robot"><img src="/por/images/Reports/POR/2020/1421168/1421168_10336769_1603906562196_Baxter-small2--rgov-66x44.jpg" alt="Baxter Research Robot"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Baxter Research Robot</div> <div class="imageCredit">B. Kuipers</div> <div class="imagePermisssions">Public Domain</div> <div class="imageSubmitted">Benjamin&nbsp;J&nbsp;Kuipers</div> <div class="imageTitle">Baxter Research Robot</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of our project is to build a robot model to illuminate the kind of learning done by human infants before explicit teaching is possible.  We focus on the process of reaching, grasping, and placing objects in the nearby environment (?peri-personal space?).  The newborn infant waves her arms around, apparently at random.  Over the space of a few months, she learns to reach for objects, to grasp them and release them, and finally to purposefully place them in new locations, all through her own self-directed exploration of her own capabilities.  She learns a number of skilled actions that are at the foundation of her interaction with her world.     An implemented computational model of this learning process, running on a physical robot, is a valuable tool for a developmental psychologist.  It shows whether the theory is well enough specified to do the intended task.  It allows the psychologist to experiment with different versions of the process, to see which best match data about human behavior.  Variations of the model can help explore possible underlying causes of disabilities.  A model like this is also valuable for a roboticist, showing how new skilled actions can be learned and improved through the robot?s own experience, without explicit teaching.     We develop and test our model on a Baxter Research Robot, a large humanoid robot with a torso, two arms, and a head (See Figure).  The learning model has no knowledge of the geometry of the robot?s body or of the space around it.  The head is in a fixed position and has a camera that can perceive nearby space, including a tabletop with blocks and its moving hand.  The camera provides a stream of 2D images with pixels labeled with color (RGB) and depth (D), but the model has no knowledge of 3D space.  Our experiments use only one arm, which has seven joints.  The robot can control each of those seven joints, but it starts with no knowledge of how the joint angles affect the position of the arm.     By randomly changing the joint angles, the learning model waves its arm around, exploring its possible configurations.  It builds the Peri-Personal Space (PPS) Graph, with a node for the position of the arm after each action, labeled with the camera image at that moment.  Two nodes are linked by an edge if a single action moved safely from one to the other, or if the two nodes happen to be close.  ?Close? according to the joint angles, because the model has no knowledge of 3D space.  The paths through the PPS Graph are ways the robot can safely move its arm.     Now we put some colored blocks on the table.  From its visual perception, the model learns that almost always, moving the arm leaves all the blocks unchanged.  But sometimes, rarely, the arm bumps a block and changes its position.  The learning model focuses on this unusual event, and gathers experiential data to discover how it can make this unusual, accidental event into a reliable action.  By selecting a block, and using position-change of that block as a label for success, the model learns how to select a node in the PPS Graph so that moving to that node will bump that block.  The model has learned a Reach action, which reliably bumps a block from one position to another.     Human infants are born with the Palmar Reflex:  touching the palm makes the fingers close, producing a surprisingly strong grasp.  We added a sensor to give Baxter a Palmar Reflex.  As the robot practices moving and reaching, the blocks typically move from one fixed position to another.  But sometimes, by accident, the arm approaches the block in just the right way, the Palmar Reflex triggers, the grippers close, and robot grasps the block, so when the arm moves, the block moves along with it, rather than just being bumped into a new position.  The model focuses on this new unusual event.  The conditions for a reliable grasp are more complex than for a reach and bump, but the model learns to achieve a successful Grasp action on about 50% of its attempts.     Once having learned Reach, Grasp, and then Release actions, the model can create an extended MoveObject action that gives our ?baby robot? increasing mastery over its nearby environment.  These early actions are awkward, but they are usually successful, and they provide a source of experiential training data that can make later reinforcement learning methods efficient enough to be useful.  This model also matches surprising findings about human infant learning.     Without prior knowledge of its body or its environment, how can useful knowledge of space and actions be learned from self-guided experience?  This model provides a hypothesis.          Last Modified: 10/28/2020       Submitted by: Benjamin J Kuipers]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

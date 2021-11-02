@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CNS Core: Small: Semeru: A memory-disaggregated managed runtime</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Matt Mutka</SignBlockName>
+<PO_EMAI>mmutka@nsf.gov</PO_EMAI>
+<PO_PHON>7032927344</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Modern computing relies heavily on cloud computing systems. The cloud computing systems are powered by large datacenters.  Each datacenter contains thousands of machines deployed across the globe. These datacenters are often equipped with heterogeneous hardware devices designed for different kinds of workloads.  The ability to use these many machines and devices efficiently and reliably is key to the quality of the services they may provide, and therefore paramount to cloud computing system providers. Recently, resource disaggregation has been proposed as an effective means to improve datacenter reliability and resource utilization.  Resource disaggregation builds each resource type as a standalone resource, called a “blade", and connects different resource blades with a network. The Semeru project develops runtime and operating system (OS) support that allows users to run managed cloud applications efficiently in resource-disaggregated datacenters. &lt;br/&gt;&lt;br/&gt;Semeru focuses on three major thrusts for improving locality for applications and garbage collection (GC) that manages memory for these applications. First, it develops a unified memory abstraction between the Central Processing Unity (CPU) and memory servers, referred to as the Unified Java Heap.  This allows CPU and memory servers to see the same virtual address space for the Java heap. Second, it develops a distributed garbage collector (GC) that offloads part of the GC to memory servers, utilizing their idle and weak compute capability to perform continuous, close-to-data object tracing.  Object tracing can significantly improve the GC performance. Third, it co-optimizes the runtime and OS kernel so that the OS can provide efficient swapping support as well as new system calls for the runtime. &lt;br/&gt;&lt;br/&gt;The Semeru project builds a memory-disaggregated runtime for managed cloud workloads, making it possible to translate low-level hardware advances to visible performance benefits that managed cloud applications can enjoy. The development of the project includes a postdoctoral scholar as well as several graduate and undergraduate students, including students from minority groups. It not only advances the state of the art of resource disaggregation, but also trains current and future computing system developers.&lt;br/&gt;&lt;br/&gt;The project produces a set of artifacts including technical reports, published papers, as well as code repositories. These artifacts are all made available online at http://www.cs.ucla.edu/~harryxu.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/10/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>07/10/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2007737</AwardID>
+<Investigator>
+<FirstName>Harry</FirstName>
+<LastName>Xu</LastName>
+<PI_MID_INIT>G</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Harry G Xu</PI_FULL_NAME>
+<EmailAddress>harryxu@cs.ucla.edu</EmailAddress>
+<PI_PHON>3107947145</PI_PHON>
+<NSF_ID>000599637</NSF_ID>
+<StartDate>07/10/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Los Angeles</Name>
+<CityName>LOS ANGELES</CityName>
+<ZipCode>900951406</ZipCode>
+<PhoneNumber>3107940102</PhoneNumber>
+<StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+<StreetAddress2><![CDATA[Suite 700]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA33</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>092530369</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, LOS ANGELES</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California, Los Angeles]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900951596</ZipCode>
+<StreetAddress><![CDATA[Engineering VI, Rm 496A, CS Dept]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>33</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA33</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~500000</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Sparse Graphical Models for Multivariate Time series</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>120000.00</AwardTotalIntnAmount>
+<AwardAmount>120000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Gabor Szekely</SignBlockName>
+<PO_EMAI>gszekely@nsf.gov</PO_EMAI>
+<PO_PHON>7032928869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The objective of this research is to develop sparse graphical models in the spectral domain to help visualize connectivity (correlation) among neurophysiological signals recorded as a multivariate time series. Partial coherence, the spectral-domain analogue of the partial correlation, will be used as a measure of functional connectivity which identifies the frequency region that drives the correlation between any two component series adjusted for the linear effects of the others. In the neuroscience applications, the vertices of a graph may represent different voxels while an edge between two vertices reflect a direct connection between the signals at the two voxels. The absence of an edge is indicated by a null partial coherence for the two signals, and the ability to detect it is the key in the construction of a meaningful graph. At present, partial coherence is computed by estimating the spectral density matrix first and then inverting it. This classical approach works well so long as the dimension of the series or the number of voxels is small relative to the length of the series. Serious computational complexity and statistical stability problems arise when estimating the partial coherences for high-dimensional fMRI time series. The stability and complexity are invariably influenced by factors such as the degree of spectral smoothing and size of the matrix to be inverted. The goal of this research is to completely avoid these issues by estimating the inverse spectral density matrix directly using the penalized normal likelihood in analogy with the recent developments in sparse estimation of Gaussian graphical models leading to the fast graphical lasso methodology. It will exploit an under-utilized fact that the spectral density matrix of a multivariate stationary process at each frequency is actually the covariance matrix of a random vector of the same dimension with complex entries.&lt;br/&gt;&lt;br/&gt;Spectral-domain methodologies are commonly used in the analysis of multivariate time series data arising from biological, physical and engineering sciences. This research elevates the general concepts and techniques of Gaussian graphical models from the standard multivariate data to the multivariate time series setup in the spectral domain, and develops graphical lasso methodology for structured covariance (precision) matrices. The proposed work is interdisciplinary in nature with immediate applications to the analysis of neuroscience data. Its focus on high-dimensional data analysis has immediate impacts on settings where multivariate time series data are collected such as in financial markets, epidemiology, environmental monitoring and global change. A graduate student will be involved in the research project, the results will be incorporated in graduate courses and presented in seminars and workshops accessible to researchers outside the field of statistics.</AbstractNarration>
+<MinAmdLetterDate>08/01/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>08/01/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1309586</AwardID>
+<Investigator>
+<FirstName>Mohsen</FirstName>
+<LastName>Pourahmadi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mohsen Pourahmadi</PI_FULL_NAME>
+<EmailAddress>pourahm@stat.tamu.edu</EmailAddress>
+<PI_PHON>9798453141</PI_PHON>
+<NSF_ID>000516077</NSF_ID>
+<StartDate>08/01/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Texas A&amp;M University</Name>
+<CityName>College Station</CityName>
+<ZipCode>778454375</ZipCode>
+<PhoneNumber>9798626777</PhoneNumber>
+<StreetAddress>400 Harvey Mitchell Pkwy South</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>020271826</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TEXAS A &amp; M UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042915991</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Texas A&M University Main Campus]]></Name>
+<CityName>College Station</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>778433143</ZipCode>
+<StreetAddress><![CDATA[3143 TAMU]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1269</Code>
+<Text>STATISTICS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~120000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><br />The simplest quantative &nbsp;measure of &nbsp;dependence between two attributes or variables is their covariance or the correlation coefficient. For a large number of &nbsp;attributes or variables, the number of such pairwise correlations grows quadratically with the number of variables, and can get quickly out of hand for ten or more variables. In this situation, covariance/correlation &nbsp;matrices are commonly used as a sort of table to arrange or organize the growing number of pairwise dependency measures.They play fundamental roles &nbsp;in the analysis of multivariate data collected over time in areas such as biological, physical, engineering and social sciences. In the age of big data, it is expected that the size and complexity of &nbsp;such covariance matrices to grow, and &nbsp;hence there is an urgent need to develop methods which can reduce their complexity or model them parsimoniously using a few statistically meaningful parameters. A major outcome of this research is the development of a number of novel methodologies for formulating and estimating parsimonious models for structured covariance matrices which is known to arise in many application areas.</p> <p>&nbsp; The &nbsp;work is interdisciplinary in nature and has immediate applications to the analysis of multivariate data. The focus on high-dimensional data analysis has immediate impacts on settings where &nbsp;multivariate time series data are collected such as in financial markets, epidemiology,environmental monitoring and global change. Graduate students were involved in the research, and the results have been incorporated in graduate courses and presented in seminars, national &nbsp;and international workshops&nbsp;accessible to researchers outside the field of statistics.</p><br> <p>            Last Modified: 09/11/2015<br>      Modified by: Mohsen&nbsp;Pourahmadi</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[  The simplest quantative  measure of  dependence between two attributes or variables is their covariance or the correlation coefficient. For a large number of  attributes or variables, the number of such pairwise correlations grows quadratically with the number of variables, and can get quickly out of hand for ten or more variables. In this situation, covariance/correlation  matrices are commonly used as a sort of table to arrange or organize the growing number of pairwise dependency measures.They play fundamental roles  in the analysis of multivariate data collected over time in areas such as biological, physical, engineering and social sciences. In the age of big data, it is expected that the size and complexity of  such covariance matrices to grow, and  hence there is an urgent need to develop methods which can reduce their complexity or model them parsimoniously using a few statistically meaningful parameters. A major outcome of this research is the development of a number of novel methodologies for formulating and estimating parsimonious models for structured covariance matrices which is known to arise in many application areas.    The  work is interdisciplinary in nature and has immediate applications to the analysis of multivariate data. The focus on high-dimensional data analysis has immediate impacts on settings where  multivariate time series data are collected such as in financial markets, epidemiology,environmental monitoring and global change. Graduate students were involved in the research, and the results have been incorporated in graduate courses and presented in seminars, national  and international workshops accessible to researchers outside the field of statistics.       Last Modified: 09/11/2015       Submitted by: Mohsen Pourahmadi]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

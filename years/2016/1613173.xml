@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Understanding Regression Heterogeneity Through Joint Estimation of Conditional Quantiles</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>149979.00</AwardTotalIntnAmount>
+<AwardAmount>149979</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Gabor Szekely</SignBlockName>
+<PO_EMAI>gszekely@nsf.gov</PO_EMAI>
+<PO_PHON>7032928869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In many data-driven scientific investigations, the primary goal is to understand the relationship between a response variable and a set of predictors.  Standard statistical techniques attempt to detect and quantify the nature of such relationships through changes in the average response.  However, in the real world, predictor-response relationships are often more complex and nuanced.  In disciplines like climate science, ecology, economics, public health and sociology, investigators are often interested in understanding changes to the extreme response percentiles.  Additional insights are gained by quantifying how the rate of change varies as one moves from the average to the extremes.  This project aims to develop sophisticated and theoretically sound statistical tools that can answer these questions from large and complex data sets. &lt;br/&gt;&lt;br/&gt;Statistical tools are sought within the recently popularized modeling framework of linear quantile regression.  The proposed framework expands the scope of linear quantile regression to scenarios where the response variables exhibit additional dependency.  Such dependency manifests in many common situations, e.g., when one simultaneously measures multiple response variables per observation unit, when a response is measured repeatedly over time, or, when data is drawn from a network of individuals.  Standing between the promise of quantile regression and its wider applicability is the lack of a proper model-based estimation framework. The PI has recently introduced a modeling framework that leads to Bayesian or penalized likelihood based joint estimation of linear quantile planes over arbitrary predictor spaces. Proposed model extensions augment this framework with autoregressive and copula formulations to address various kinds of structural dependency between the observation units. The project will develop efficient inference algorithms using advanced Bayesian techniques based on stochastic computation, and public, open source software in the form of R packages.  Software development will incorporate possible leveraging of distributed computing architectures to render scalability to big data. For all model extensions, the PI will also carry out sharp analyses of theoretical guarantees on model performance by working out the large sample distribution theory of Bayesian parameter estimates.</AbstractNarration>
+<MinAmdLetterDate>08/01/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/01/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1613173</AwardID>
+<Investigator>
+<FirstName>Surya</FirstName>
+<LastName>Tokdar</LastName>
+<PI_MID_INIT>T</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Surya T Tokdar</PI_FULL_NAME>
+<EmailAddress>st118@stat.duke.edu</EmailAddress>
+<PI_PHON>9196843030</PI_PHON>
+<NSF_ID>000548769</NSF_ID>
+<StartDate>08/01/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Duke University</Name>
+<CityName>Durham</CityName>
+<ZipCode>277054010</ZipCode>
+<PhoneNumber>9196843030</PhoneNumber>
+<StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+<StreetAddress2><![CDATA[Erwin Square]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>044387793</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>DUKE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>044387793</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Duke University]]></Name>
+<CityName>Durham</CityName>
+<StateCode>NC</StateCode>
+<ZipCode>277054010</ZipCode>
+<StreetAddress><![CDATA[2200 W. Main St, Suite 710]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1269</Code>
+<Text>STATISTICS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~149979</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Statistical relationship between variables is commonly measured by the change in the average value of one variable affected by one unit change in another. Such average-based quantifications fall short of capturing relationships that exist in the "tails". For example, the effect of smoking during pregnancy on birthweight could be much more pronounced at the extremely low tails than the average. Standard regression analysis fails to capture such heterogeneous predictor-response relationships. This could be remedied via quantile regression which seeks to quantify relationship via changes to the percentiles. While quantile regression methodology has been around for more than four decades, their wide spread deployment to scientific investigation has suffered due to the lack of a coherent mathematical foundation needed for a holistic data analysis complete with prediction, assessment of model fit, and adjustments of additional measurement complexities.<br />This award has supported research that has substantially broadened the scope of application of quantile regression by expanding and investigating a novel mathematical formulation. A major finding of this research is that it is both necessary and feasible to carry out quantile regression while adjusting for extrinsic measurement correlation between observation units. The new data analysis tools developed under this project allows one to adjust for spatial correlation while performing quantile regression on geolocated data. It is demonstrated that adjusting for spatial correlation dramatically improves both parameter estimation accuracy and uncertainty quantification. It also leads to much improved spatial quantile smoothing, generalizing the ideas of spatial kriging to spatial quantile regression analysis.&nbsp;<br />A second major result of this research is the creation of a set of visualization and quantitative tools that can aid a practitioner to assess model assumptions and perform model refinement in applying quantile regression for data analysis. Such assessment tools have been sorely missing from the literature, making quantile regression more of an exploratory data analysis tool rather than a full fledged modeling and estimation framework. The development of these tools critically depended upon the new mathematical formulation and its expansion to handling extrinsic measurement correlation.&nbsp;<br />Additionally, the award has provided support toward creating and enhancing robust, public use software for practicable data analysis implementing all new research findings. It has also supported writing of a detailed tutorial type vignette which gives a thorough exposition of how to use the resulting software to fit a joint quantile regression and carry out assessment of fit, model refinement and selection. New applications are sought in environmental science and ecology, underlining the more nuanced scientific insights one could glean by adopting a holistic data analysis based on quantile regression. For example, in an analysis of fine particulate matter concentration, it is demonstrated that while higher urban land use results in an increased baseline PM2.5 concentration, it is the amount of local fine particulate matter emission that largely determines the extreme levels of atmospheric PM2.5 concentration.&nbsp;<br />The award has supported two doctoral students in their dissertation research and professional preparation. The research supported by the award played a key role in fostering synergistic ideas at the SAMSI program on Climate Science (2018-19) which resulted in a new line of work on extreme value analysis and heavy tailed density estimation. The award led to two new and separate collaborative interdisciplinary research in species abundance study and groundwater chemistry.</p><br> <p>            Last Modified: 12/16/2019<br>      Modified by: Surya&nbsp;T&nbsp;Tokdar</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Statistical relationship between variables is commonly measured by the change in the average value of one variable affected by one unit change in another. Such average-based quantifications fall short of capturing relationships that exist in the "tails". For example, the effect of smoking during pregnancy on birthweight could be much more pronounced at the extremely low tails than the average. Standard regression analysis fails to capture such heterogeneous predictor-response relationships. This could be remedied via quantile regression which seeks to quantify relationship via changes to the percentiles. While quantile regression methodology has been around for more than four decades, their wide spread deployment to scientific investigation has suffered due to the lack of a coherent mathematical foundation needed for a holistic data analysis complete with prediction, assessment of model fit, and adjustments of additional measurement complexities. This award has supported research that has substantially broadened the scope of application of quantile regression by expanding and investigating a novel mathematical formulation. A major finding of this research is that it is both necessary and feasible to carry out quantile regression while adjusting for extrinsic measurement correlation between observation units. The new data analysis tools developed under this project allows one to adjust for spatial correlation while performing quantile regression on geolocated data. It is demonstrated that adjusting for spatial correlation dramatically improves both parameter estimation accuracy and uncertainty quantification. It also leads to much improved spatial quantile smoothing, generalizing the ideas of spatial kriging to spatial quantile regression analysis.  A second major result of this research is the creation of a set of visualization and quantitative tools that can aid a practitioner to assess model assumptions and perform model refinement in applying quantile regression for data analysis. Such assessment tools have been sorely missing from the literature, making quantile regression more of an exploratory data analysis tool rather than a full fledged modeling and estimation framework. The development of these tools critically depended upon the new mathematical formulation and its expansion to handling extrinsic measurement correlation.  Additionally, the award has provided support toward creating and enhancing robust, public use software for practicable data analysis implementing all new research findings. It has also supported writing of a detailed tutorial type vignette which gives a thorough exposition of how to use the resulting software to fit a joint quantile regression and carry out assessment of fit, model refinement and selection. New applications are sought in environmental science and ecology, underlining the more nuanced scientific insights one could glean by adopting a holistic data analysis based on quantile regression. For example, in an analysis of fine particulate matter concentration, it is demonstrated that while higher urban land use results in an increased baseline PM2.5 concentration, it is the amount of local fine particulate matter emission that largely determines the extreme levels of atmospheric PM2.5 concentration.  The award has supported two doctoral students in their dissertation research and professional preparation. The research supported by the award played a key role in fostering synergistic ideas at the SAMSI program on Climate Science (2018-19) which resulted in a new line of work on extreme value analysis and heavy tailed density estimation. The award led to two new and separate collaborative interdisciplinary research in species abundance study and groundwater chemistry.       Last Modified: 12/16/2019       Submitted by: Surya T Tokdar]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

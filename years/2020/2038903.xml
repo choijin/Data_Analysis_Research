@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CPS: Medium: Resource-Aware Hierarchical Runtime Verification for Mixed-Abstraction-Level Systems of Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>1200000.00</AwardTotalIntnAmount>
+<AwardAmount>1200000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Corman</SignBlockName>
+<PO_EMAI>dcorman@nsf.gov</PO_EMAI>
+<PO_PHON>7032928754</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Piloting an aircraft is popularly described as hours of abject boredom punctuated by periods of abject terror. Similarly, a spacecraft in transit to a distant target remains largely dormant but for periodic heightened activity required for maintenance and staying on course. Aircraft and spacecraft are complex systems of systems that must seamlessly work together, switching control through a carefully orchestrated hierarchy representing different levels of abstraction, e.g., exemplified by different timescales for events. Each on-board system presents its own verification challenge; verifying that the symphony of all of them playing together at the same time, in the face of potentially unexpected environmental inputs, is particularly daunting. We can supplement design-time verification with efficient runtime verification engines, but they need to grow to be able to reason about the hierarchical nature of complex systems-of-systems, where single requirements may need to encapsulate multiple levels of abstraction. The final result must be able to execute in real time, within system resource constraints. Existing tools for runtime verification aren't capable of obeying constraints imposed by running them on real systems (or in real missions), and don't have parameters to focus their computational demands on the tasks most impactful on system safety. Achieving safe CPS depends on growing the tools and algorithms of real-time verification to integrate realistic safety checks into their control architectures and dynamic environments.&lt;br/&gt;&lt;br/&gt;This project adapts techniques from formal methods, control theory, hardware-software integration, and software engineering to design runtime monitors that inspect cyber-physical systems of systems without interfering with their normal operation. The project designs, analyzes, and implements fundamental runtime verification techniques by dealing with three general and orthogonal problems: mixed-abstraction-level granularity in specifications, resource-awareness to ensure non-intrusiveness of runtime monitors, and augmenting monitors with model-prediction to enable on-deadline mitigation triggering. Key innovations stem from this rigorous foundation in establishing a new formal semantics for hierarchical, mixed-abstraction-level specification, and evaluating formal specifications without interfering with the system's normal operation, while maximizing utilization of resources within realistic constraints of embedded CPS. The project generalizes the new theory into specification patterns for hierarchical functional requirements and synthesize  predictive models to enable better, more automated creation of runtime verification configurations to meet scalability demands of modern CPS. Flight tests of small aircraft swarms are used to validate this approach.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>09/04/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>11/16/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2038903</AwardID>
+<Investigator>
+<FirstName>Phillip</FirstName>
+<LastName>Jones</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Phillip Jones</PI_FULL_NAME>
+<EmailAddress>phjones@iastate.edu</EmailAddress>
+<PI_PHON>5152945225</PI_PHON>
+<NSF_ID>000525639</NSF_ID>
+<StartDate>09/04/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Kristin</FirstName>
+<LastName>Rozier</LastName>
+<PI_MID_INIT>Y</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Kristin Y Rozier</PI_FULL_NAME>
+<EmailAddress>kyrozier@iastate.edu</EmailAddress>
+<PI_PHON>5152945666</PI_PHON>
+<NSF_ID>000700287</NSF_ID>
+<StartDate>09/04/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Borzoo</FirstName>
+<LastName>Bonakdarpour</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Borzoo Bonakdarpour</PI_FULL_NAME>
+<EmailAddress>borzoo@msu.edu</EmailAddress>
+<PI_PHON>5152302125</PI_PHON>
+<NSF_ID>000756129</NSF_ID>
+<StartDate>09/04/2020</StartDate>
+<EndDate>11/16/2020</EndDate>
+<RoleCode>Former Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Tichakorn</FirstName>
+<LastName>Wongpiromsarn</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Tichakorn Wongpiromsarn</PI_FULL_NAME>
+<EmailAddress>nok@iastate.edu</EmailAddress>
+<PI_PHON>5124288826</PI_PHON>
+<NSF_ID>000821621</NSF_ID>
+<StartDate>11/16/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Iowa State University</Name>
+<CityName>AMES</CityName>
+<ZipCode>500112207</ZipCode>
+<PhoneNumber>5152945225</PhoneNumber>
+<StreetAddress>1138 Pearson</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<StateCode>IA</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IA04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005309844</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005309844</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Iowa State University]]></Name>
+<CityName>Ames</CityName>
+<StateCode>IA</StateCode>
+<ZipCode>500112207</ZipCode>
+<StreetAddress><![CDATA[1138 Pearson Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IA04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7918</Code>
+<Text>CPS-Cyber-Physical Systems</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~1200000</FUND_OBLG>
+</Award>
+</rootTag>

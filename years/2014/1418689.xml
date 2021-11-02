@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Highly efficient and accurate numerical schemes  for nonlinear gradient flows with energy stability</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>189998.00</AwardTotalIntnAmount>
+<AwardAmount>189998</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The goal of this project is to study efficient and robust tools to numerically simulate certain nonlinear gradient flows. These numerical schemes will yield highly efficient solvers to study the complicated long-time dynamics of different models in physics, materials engineering, and biological sciences. This work is expected to have a direct and immediate impact on many scientific disciplines. The large time scale simulation of these nonlinear gradient flows is vital for understanding phase transformations of materials at the atomic and nanometer scales, the complex processes in biological growth and development, and the complicated topological change involved in two-phase flows, etc. Some numerical schemes developed by the PI have been efficiently applied in large scale, multi-discipline scientific projects; a collaborative part of the project will leverage expertise in angiogenesis analysis of tumor growth simulation and is expected to lead to significant impact in the medical sciences community. The PI will make the computational tools available in the public domain so that researchers will have direct access to some of the developed algorithms.  Through work in the project, a graduate student will receive extensive training in high-performance scientific computing, numerical mathematics, and modeling. &lt;br/&gt;&lt;br/&gt;In the proposed gradient flow models, the physical energy can be decomposed into purely convex and concave parts.  The PI considers convex splitting (CS) numerical schemes, including both the 1st and 2nd order accurate splittings in time, and finite difference, finite element and pseudospectral approximations in space. A major challenge is designing truly efficient solvers for these highly nonlinear CS schemes. For example, a direct nonlinear multigrid solver can be applied. As an alternate approach, linear iterative algorithms are proposed in this work, and a contraction mapping property is expected for these linear iteration based solvers. In other words, although the formulated CS scheme is nonlinear, a linear iteration based algorithm can be used to approximate solutions of this highly nonlinear system with a geometric convergence rate. A detailed comparison between a nonlinear solver and linear iteration algorithm will also be conducted.</AbstractNarration>
+<MinAmdLetterDate>07/22/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>07/22/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1418689</AwardID>
+<Investigator>
+<FirstName>Cheng</FirstName>
+<LastName>Wang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Cheng Wang</PI_FULL_NAME>
+<EmailAddress>cwang1@umassd.edu</EmailAddress>
+<PI_PHON>5089998342</PI_PHON>
+<NSF_ID>000126422</NSF_ID>
+<StartDate>07/22/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts, Dartmouth</Name>
+<CityName>North Dartmouth</CityName>
+<ZipCode>027472300</ZipCode>
+<PhoneNumber>5089998953</PhoneNumber>
+<StreetAddress>285 Old Westport Road</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>799477427</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>079520631</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts, Dartmouth]]></Name>
+<CityName>North Dartmouth</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>027472300</ZipCode>
+<StreetAddress><![CDATA[285 Old Westport Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>8396</Code>
+<Text>Clean Energy Technology</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8609</Code>
+<Text>Other Energy Research</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~189998</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The PI has designed a class of energy stable numerical schemes for certain gradient flow equations, which correspond to highly nonlinear partial differential equations that describe important phenomena in materials, fluids, and biology problems. The PI has focused on the study of phase field crystal (PFC) and its modified version, epitaxial thin film growth model with or without slope selection, Cahn-Hilliard equation, and the gradient flow coupled with fluid flow, such as Cahn-Hilliard-Hele-Shaw equation and Cahn-Hilliard-Navier-Stokes equations, Functionalized Cahn-Hilliard (FCH) and Cahn-Hilliard-Willmore (CHW) equations. Detailed theoretical analyses were performed. These proposed numerical methods turn out to be uniquely solvable and unconditionally energy stable, which are expected to greatly improve the numerical performance in terms of efficiency and accuracy. The stability and convergence analyses provided in this research project validates the advantages of the proposed numerical algorithms. In addition, both the nonlinear multi-grid solver, the linear iteration solver and the preconditioned steepest descent (PSD) solvers have been tested in details, and their efficiency has been verified by various numerical experiments.&nbsp;</p> <p><br />Both the first and second order energy stable schemes were applied to studied gradient equations, with many novel properties reported. It was the first time to establish an unconditional energy stability and unique solvability of a second order accurate scheme for Cahn-Hilliard-Navier-Stokes equation; it was the first time to obtained the energy stability for a second order linear scheme applied to thin film growth equation without slope selection. It was the first attempt to give a geometric convergence rate analysis for a nonlinear iteration solver applied to regularized p-Laplacian equation.&nbsp;</p> <p><br />As an outcome, 32 peer-reviewed journal articles have been produced under the support of this NSF fund, including 21 published ones, 5 accepted one waiting for publication, and 6 more submitted ones under review.&nbsp;<br />During this NSF award, the PI has delivered 8 presentations at different scientific conferences and workshops, including 3 domestic ones and 5 international ones. Many other university seminar talks were presented during this award period.&nbsp;<br />This NSF fund has also supported graduate students. Two female Ph.D students, Tiffany Ferreira and Leah Isherwood, have been working on a few research projects under the PI's supervision. &nbsp;<br /><br /></p><br> <p>            Last Modified: 08/02/2018<br>      Modified by: Cheng&nbsp;Wang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The PI has designed a class of energy stable numerical schemes for certain gradient flow equations, which correspond to highly nonlinear partial differential equations that describe important phenomena in materials, fluids, and biology problems. The PI has focused on the study of phase field crystal (PFC) and its modified version, epitaxial thin film growth model with or without slope selection, Cahn-Hilliard equation, and the gradient flow coupled with fluid flow, such as Cahn-Hilliard-Hele-Shaw equation and Cahn-Hilliard-Navier-Stokes equations, Functionalized Cahn-Hilliard (FCH) and Cahn-Hilliard-Willmore (CHW) equations. Detailed theoretical analyses were performed. These proposed numerical methods turn out to be uniquely solvable and unconditionally energy stable, which are expected to greatly improve the numerical performance in terms of efficiency and accuracy. The stability and convergence analyses provided in this research project validates the advantages of the proposed numerical algorithms. In addition, both the nonlinear multi-grid solver, the linear iteration solver and the preconditioned steepest descent (PSD) solvers have been tested in details, and their efficiency has been verified by various numerical experiments.    Both the first and second order energy stable schemes were applied to studied gradient equations, with many novel properties reported. It was the first time to establish an unconditional energy stability and unique solvability of a second order accurate scheme for Cahn-Hilliard-Navier-Stokes equation; it was the first time to obtained the energy stability for a second order linear scheme applied to thin film growth equation without slope selection. It was the first attempt to give a geometric convergence rate analysis for a nonlinear iteration solver applied to regularized p-Laplacian equation.    As an outcome, 32 peer-reviewed journal articles have been produced under the support of this NSF fund, including 21 published ones, 5 accepted one waiting for publication, and 6 more submitted ones under review.  During this NSF award, the PI has delivered 8 presentations at different scientific conferences and workshops, including 3 domestic ones and 5 international ones. Many other university seminar talks were presented during this award period.  This NSF fund has also supported graduate students. Two female Ph.D students, Tiffany Ferreira and Leah Isherwood, have been working on a few research projects under the PI's supervision.           Last Modified: 08/02/2018       Submitted by: Cheng Wang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

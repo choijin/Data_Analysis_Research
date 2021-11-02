@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Hyperproperty Abstraction for Information Flow Control</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>104790.00</AwardTotalIntnAmount>
+<AwardAmount>104790</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Due to increasing cyber-attacks, software developers and analysts need better tools.  Among the most important tools are programs that analyse other programs to evaluate security and privacy requirements, to detect vulnerabilities, and in general to predict a program's potential behavior.   The theory of computation says these analysis problems are impossible to solve in their general form.  Effective analyses rely on approximations, that is, simplified models of program behavior, the theory of which is known as abstract interpretation.  This theory is widely used as basis for the design of analysis algorithms. Most existing analyses are for so-called trace properties, which pertain to individual program executions.  Security and privacy requirements like confidentiality are about the flow of information in programs, which pertains to correlations between multiple executions.  &lt;br/&gt;&lt;br/&gt;This project uses methods of mathematical semantics and formal logic to develop theory and algorithms for information flow analysis.  The theory of abstract interpretation is being extended beyond trace properties, to encompass so-called hyperproperties which involve correlations among multiple behaviors of a program.  On this basis, new algorithms are being created and evaluated. The main impact of this project will be to enable researchers and commercial tool developers to implement more sophisticated, comprehensive, and effective analyses for information flow in software.  This will lead to improved software quality and protection against attacks, and ultimately increased trustworthiness of cyberspace.  The theory developed in this project will contribute to growing science of security which will improve cybersecurity education and workforce training.</AbstractNarration>
+<MinAmdLetterDate>08/10/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>08/10/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1649894</AwardID>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Naumann</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David A Naumann</PI_FULL_NAME>
+<EmailAddress>naumann@cs.stevens.edu</EmailAddress>
+<PI_PHON>2012165608</PI_PHON>
+<NSF_ID>000331140</NSF_ID>
+<StartDate>08/10/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stevens Institute of Technology</Name>
+<CityName>HOBOKEN</CityName>
+<ZipCode>070305991</ZipCode>
+<PhoneNumber>2012168762</PhoneNumber>
+<StreetAddress>CASTLE POINT ON HUDSON</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>064271570</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>STEVENS INSTITUTE OF TECHNOLOGY (INC)</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>064271570</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stevens Institute of Technology]]></Name>
+<CityName>Hoboken</CityName>
+<StateCode>NJ</StateCode>
+<ZipCode>070305991</ZipCode>
+<StreetAddress><![CDATA[Castle Point on Hudson]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~104790</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project investigated a new extension of the theory of abstract interpretation.&nbsp; Abstract interpretation is an established mathematical framework that serves as basis for algorithms that analyse programs for various purposes such as detecting security vulnerabilities or detecting opportunities to optimize the program's performance.&nbsp; Such analyses are typically static analyses, meaning that they are performed by the language compiler or other tools used by software developers prior to deployment of the software.&nbsp; Previously, the framework was only applicable to the analysis of so-called trace properties, which pertain to each individual execution separately.&nbsp; The new extension encompasses so-called hyperproperties, which pertain to correlations among multiple potential executions.&nbsp; An important example is information flow: its mathematical definition involves multiple executions because what an observer learns from an actual execution depends on their reasoning about what alternate executions might or might not be possible.&nbsp; <br /><br />Preliminary investigations were carried out for a number of potential applications of the new theory.&nbsp; Because the original framework has previously been used as basis for analysis tools for many programming languages, one area of interest is security analysis for mobile hybrid apps, which is challenging because sensitive information may flow through software components implemented in multiple programming languages.&nbsp; Another direction that was investigated aims to provide a systematic basis for securing language compilers, including compilers that instrument programs with runtime monitors in order to enforce security requirements.&nbsp; A systematic basis is needed to support sophisticated cost/precision tradeoffs that can be tuned by analysts in accord with different scenarios and risk models.&nbsp; <br /><br />One finding of the project is a characterization of the class of hyperproperties to which abstract interpretation can be applied without inherent loss of precision: it is the class of subset-closed hyperproperties, which encompasses many security requirements but excludes some notions of secure information flow for nondeterministic systems.&nbsp; <br /><br />Preliminary results were obtained concerning combined over- and under-approximation of hyperproperties, which has potential application in the optimization of runtime monitoring (by instrumenting only the subprograms that have secure executions but are not probably secure in general).&nbsp;&nbsp; <br /><br />One approach to using abstract interpretation for practical information flow policies encodes policies as annotations at intermediate points of control in the program under consideration.&nbsp; One finding of this project was an interpretation of such annotations in terms of epistemic logic, which enables a provable connection between the user's or analyst's interpretation of a policy (from the observer's point of view) and its enforcement by static or dynamic analysis (the program's point of view).&nbsp; Through case studies we found that this approach to policy specification subsumes several more specialized formalisms in the recent literature on language based security.&nbsp; <br /><br />Although project funds were mainly for support of a postdoctoral researcher, project activities included research by two undergraduate students, one on hybrid mobile apps and the other on over- and under-approximation theory.&nbsp; Another research collaboration resulted in a technique for enforcing secure information flow by means of abstract data types as found in some functional programming languages.<br /><br /></p><br> <p>            Last Modified: 12/08/2018<br>      Modified by: David&nbsp;A&nbsp;Naumann</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project investigated a new extension of the theory of abstract interpretation.  Abstract interpretation is an established mathematical framework that serves as basis for algorithms that analyse programs for various purposes such as detecting security vulnerabilities or detecting opportunities to optimize the program's performance.  Such analyses are typically static analyses, meaning that they are performed by the language compiler or other tools used by software developers prior to deployment of the software.  Previously, the framework was only applicable to the analysis of so-called trace properties, which pertain to each individual execution separately.  The new extension encompasses so-called hyperproperties, which pertain to correlations among multiple potential executions.  An important example is information flow: its mathematical definition involves multiple executions because what an observer learns from an actual execution depends on their reasoning about what alternate executions might or might not be possible.    Preliminary investigations were carried out for a number of potential applications of the new theory.  Because the original framework has previously been used as basis for analysis tools for many programming languages, one area of interest is security analysis for mobile hybrid apps, which is challenging because sensitive information may flow through software components implemented in multiple programming languages.  Another direction that was investigated aims to provide a systematic basis for securing language compilers, including compilers that instrument programs with runtime monitors in order to enforce security requirements.  A systematic basis is needed to support sophisticated cost/precision tradeoffs that can be tuned by analysts in accord with different scenarios and risk models.    One finding of the project is a characterization of the class of hyperproperties to which abstract interpretation can be applied without inherent loss of precision: it is the class of subset-closed hyperproperties, which encompasses many security requirements but excludes some notions of secure information flow for nondeterministic systems.    Preliminary results were obtained concerning combined over- and under-approximation of hyperproperties, which has potential application in the optimization of runtime monitoring (by instrumenting only the subprograms that have secure executions but are not probably secure in general).     One approach to using abstract interpretation for practical information flow policies encodes policies as annotations at intermediate points of control in the program under consideration.  One finding of this project was an interpretation of such annotations in terms of epistemic logic, which enables a provable connection between the user's or analyst's interpretation of a policy (from the observer's point of view) and its enforcement by static or dynamic analysis (the program's point of view).  Through case studies we found that this approach to policy specification subsumes several more specialized formalisms in the recent literature on language based security.    Although project funds were mainly for support of a postdoctoral researcher, project activities included research by two undergraduate students, one on hybrid mobile apps and the other on over- and under-approximation theory.  Another research collaboration resulted in a technique for enforcing secure information flow by means of abstract data types as found in some functional programming languages.         Last Modified: 12/08/2018       Submitted by: David A Naumann]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

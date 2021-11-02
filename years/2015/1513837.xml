@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: TTP Option: Medium: Collaborative: ENCORE - ENhanced program protection through COmpiler-REwriter cooperation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>619267.00</AwardTotalIntnAmount>
+<AwardAmount>619267</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Critical errors in widely used software are discovered almost every day. They currently leave users of that software vulnerable to cyber attacks until the manufacturer eventually supplies a fix - sometimes this takes unacceptably long. There currently is no way that users of commercial off-the-shelf software that is distributed as binary code can go and fix such vulnerabilities themselves, ex post facto, because software is not easily changeable once it has been compiled to binary form. This research project investigates techniques for enabling consumer-side rewriting of binary software. The approach is appealing because it can be deployed quickly in response to new threats, without waiting for code-producers, and can enforce consumer-specific security policies unsupported or unforeseen by the software?s developers. If successful, this research will lead to significant improvements in software security.&lt;br/&gt;&lt;br/&gt;Consumer-side binary rewriting is currently not feasible because binary files don't contain enough information to do it safely. On the other hand, code producers don't want to reveal too many implementation details of their code due to intellectual property and software piracy concerns. The key goal of this project is to enable code producers to supplement their binary code with a small amount of metadata that can be used, consumer-side, to perform sophisticated binary rewriting, but without disclosing much extra information about the internal working of the code and without making reverse-engineering much easier than before. The project will produce a prototype implementation consisting of a producer-side metadata derivation engine, and a consumer-side binary rewriting engine using this metadata to safely perform binary code manipulation.</AbstractNarration>
+<MinAmdLetterDate>06/09/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>06/09/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1513837</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Franz</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael Franz</PI_FULL_NAME>
+<EmailAddress>franz@uci.edu</EmailAddress>
+<PI_PHON>9498386816</PI_PHON>
+<NSF_ID>000162759</NSF_ID>
+<StartDate>06/09/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Irvine</Name>
+<CityName>Irvine</CityName>
+<ZipCode>926977600</ZipCode>
+<PhoneNumber>9498247295</PhoneNumber>
+<StreetAddress>160 Aldrich Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>45</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA45</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>046705849</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, IRVINE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Irvine]]></Name>
+<CityName>Irvine</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>926973425</ZipCode>
+<StreetAddress><![CDATA[Computer Science I rm 444]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>45</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA45</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~619267</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>This project created automated techniques and tools to make software more robust against cyber-attacks. In particular, we focused on specific features in programming languages that provide a lot of programmer flexibility, but that can also be abused by attackers. Our solution is not entirely without cost, in that it involves a small amount of additional checking at run-time, but we were able to reduce the resulting overhead to a small percentage amount in practice.</span>&nbsp;</p> <p><span>Specifically, we focused on the longstanding problem of variadic functions in the C and C++ programming languages, and on problems associated with object-oriented dispatch in the commercially important Objective-C programming language, where we first discovered an entirely new vulnerability and subsequently found a technical solution that prevents it from being exploited in the future.</span></p> <p>In both of the approaches of making variadic functions safe and securing Objective-C, our solution is based on generating a small amount of metadata during compilation and then using that additional information during runtime to properly enforce language semantics that previously left loopholes for an attacker.&nbsp;</p> <p><span>Variadic functions accept a variable number of arguments (e.g.,&nbsp;</span><span>printf</span><span>). While variadic functions are flexible, they are inherently not type-safe. In fact, the semantics and parameters of variadic functions are defined implicitly by their implementation. It is left to the programmer to ensure that the caller and callee follow this implicit specification. An adversary can take advantage of a mismatch between the argument types used by the caller of a variadic function and the types expected by the callee to violate the language semantics and to tamper with memory. Format string attacks are the most popular example of such a mismatch.</span></p> <p><span>Objective-C is widely used in real-world commercial software. We discovered a new </span><span>offensive technique that reuses entire Objective-C methods by carefully arranging the metadata used to dispatch messages in the Objective-C runtime. The dynamic nature of Objective-C coupled with whole-function reuse renders existing integrity and randomization-based defenses ineffective against such exploits. We then developed a new defensive technique that prevents adversaries from manipulating and corrupting metadata used by the Objective-C runtime. Specifically, we were able to retrofit the Objective-C runtime with integrity checks in the lookup processes that handle Objective-C message dispatch. Our hardened runtime is fully compatible with the runtime shipped with OS X and can protect complex, real-world applications such as iTunes.&nbsp;</span></p> <p>In both of these cases, our solution is fully automatic and doesn't require any additional work by the programmer. We are making the source code freely available. If software manufacturers were to adopt our techniques, this would permanently eradicate two whole classes of cyber attacks. Hence, the impact of our work points to a safer cyberspace for everyone.</p> <p>Our project also provided substantial research training to several Ph.D. students, one of which completed his degree, and to a Post Doctoral Researcher who went on to an Assistant Professor position.</p><br> <p>            Last Modified: 10/01/2018<br>      Modified by: Michael&nbsp;Franz</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project created automated techniques and tools to make software more robust against cyber-attacks. In particular, we focused on specific features in programming languages that provide a lot of programmer flexibility, but that can also be abused by attackers. Our solution is not entirely without cost, in that it involves a small amount of additional checking at run-time, but we were able to reduce the resulting overhead to a small percentage amount in practice.   Specifically, we focused on the longstanding problem of variadic functions in the C and C++ programming languages, and on problems associated with object-oriented dispatch in the commercially important Objective-C programming language, where we first discovered an entirely new vulnerability and subsequently found a technical solution that prevents it from being exploited in the future.  In both of the approaches of making variadic functions safe and securing Objective-C, our solution is based on generating a small amount of metadata during compilation and then using that additional information during runtime to properly enforce language semantics that previously left loopholes for an attacker.   Variadic functions accept a variable number of arguments (e.g., printf). While variadic functions are flexible, they are inherently not type-safe. In fact, the semantics and parameters of variadic functions are defined implicitly by their implementation. It is left to the programmer to ensure that the caller and callee follow this implicit specification. An adversary can take advantage of a mismatch between the argument types used by the caller of a variadic function and the types expected by the callee to violate the language semantics and to tamper with memory. Format string attacks are the most popular example of such a mismatch.  Objective-C is widely used in real-world commercial software. We discovered a new offensive technique that reuses entire Objective-C methods by carefully arranging the metadata used to dispatch messages in the Objective-C runtime. The dynamic nature of Objective-C coupled with whole-function reuse renders existing integrity and randomization-based defenses ineffective against such exploits. We then developed a new defensive technique that prevents adversaries from manipulating and corrupting metadata used by the Objective-C runtime. Specifically, we were able to retrofit the Objective-C runtime with integrity checks in the lookup processes that handle Objective-C message dispatch. Our hardened runtime is fully compatible with the runtime shipped with OS X and can protect complex, real-world applications such as iTunes.   In both of these cases, our solution is fully automatic and doesn't require any additional work by the programmer. We are making the source code freely available. If software manufacturers were to adopt our techniques, this would permanently eradicate two whole classes of cyber attacks. Hence, the impact of our work points to a safer cyberspace for everyone.  Our project also provided substantial research training to several Ph.D. students, one of which completed his degree, and to a Post Doctoral Researcher who went on to an Assistant Professor position.       Last Modified: 10/01/2018       Submitted by: Michael Franz]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

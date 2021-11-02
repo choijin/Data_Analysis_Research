@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Towards Practical Deterministic Parallel Languages</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/15/2015</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>535043.00</AwardTotalIntnAmount>
+<AwardAmount>535043</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Title: CAREER: Towards Practical Deterministic Parallel Languages&lt;br/&gt;&lt;br/&gt;Parallel, multicore processors have become ubiquitous, but parallel programming has not. This gap implies that many everyday programs do not fully use the hardware on which they run. The problem persists because traditional parallel programming approaches are high-risk: a parallel program can yield inconsistent answers, or even crash, due to unpredictable interactions between simultaneous tasks.  Certain classes of programs, however, admit strong mathematical guarantees that they will behave the same in spite of parallel execution. That is, they enable deterministic parallel programming. Functional programming, extended with "LVars" --shared-state data structures that support commutating operations-- is one such model. While this theoretical model has been proven deterministic, significant questions remain regarding practical aspects such as efficiency and scalability. This research addresses those questions by developing new LVar data structures and scaling them to larger distributed memory machines. The intellectual merits are in the development of novel algorithms that support parallel programming. Further, the LVar model provides a new lens through which to view problems in parallel programming, which can lead to downstream discoveries. The project's broader significance and importance are (1) its potential to lower the cost and risk of parallel programming and (2) its educational goal: to employ deterministic parallel programming in the introductory programming course at both a university level, and in K-12 education. Changing how programming is taught may be necessary for leveraging hardware parallelism to become a normal and unexceptional part of writing software.&lt;br/&gt;&lt;br/&gt;Three specific technical challenges are addressed in this research. First, LVars traditionally require more storage space over time, because "delete" operations do not commute with others. Semantically, the state-space of each LVar forms a join semi-lattice and all modifications must move the state "upwards" monotonically. Nevertheless, this project investigates new ways that LVars can free memory, using a concept of Saturating LVars. Second, this research seeks to formalize the relationship of LVar-based parallel programs to their purely functional counterparts, characterizing asymptotic performance advantages. Finally, this project explores the scalability of LVar-based programming abstractions in a distributed memory setting, where they share similarities with recent distributed programming constructs such as concurrent replicated data structures.</AbstractNarration>
+<MinAmdLetterDate>02/02/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>05/10/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1453508</AwardID>
+<Investigator>
+<FirstName>Ryan</FirstName>
+<LastName>Newton</LastName>
+<PI_MID_INIT>R</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ryan R Newton</PI_FULL_NAME>
+<EmailAddress>rrnewton@purdue.edu</EmailAddress>
+<PI_PHON>8122696190</PI_PHON>
+<NSF_ID>000596232</NSF_ID>
+<StartDate>02/02/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Indiana University</Name>
+<CityName>Bloomington</CityName>
+<ZipCode>474013654</ZipCode>
+<PhoneNumber>3172783473</PhoneNumber>
+<StreetAddress>509 E 3RD ST</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN09</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>006046700</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF INDIANA UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>006046700</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Indiana University, School of Computing and Informatics]]></Name>
+<CityName>Bloomington</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>474057104</ZipCode>
+<StreetAddress><![CDATA[150 S Woodlawn]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>09</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN09</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~199057</FUND_OBLG>
+<FUND_OBLG>2017~243624</FUND_OBLG>
+<FUND_OBLG>2019~92362</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Parallelism allows software to run faster, especially on future hardware. This project sought to make parallel programming more widespread by making it safer.&nbsp; If parallelism is time consuming and risks introducing bugs, then we will continue to see it only applied in select circumstances, rather than all software. This project refined and explored a particular form of safe parallel programming, based on lattice-variables (LVars).&nbsp; These store information, shared between different threads of control in the program, but in a manner that is nondestructive.&nbsp; Different parts of the program collaboratively <em>add information</em>, but do not destroy it.&nbsp; LVars are specially constrained so that all the interactions through them, while unpredictably ordered, come out the same in the end, yielding reproducible, deterministic program results.<br /><br />In a series of publications, we explored the limits of the LVars model, for example extending them to release memory in an unintuitive contrast to the "adding information" description above (PPoPP'16).&nbsp; We improved the implementation of LVars and tested their scalability limits.&nbsp; For example, we explored <em>adaptive</em> versions of LVar implementations (ICFP'15), which conform their implementation to the workload they observe at runtime.&nbsp; We performed research further enhancing the safety of LVar implementations by formally verifying mathematical properties of these datatypes (POPL'18, Haskell'19).<br /><br />This research then forked off in three directions, leading to follow-on work.&nbsp; First, the verification effort became a broader approach for combining formal methods and parallelism (NSF award #1909862). Second, the effort to derive a practical, system-level implementation of LVars turned into a broader effort to build an efficient compiler and runtime for functional programs (i.e. the Gibbon compiler, and NSF award #1725679).&nbsp; Third, the effort to accomplish deterministic parallelism with LVars turned into a broader effort to dynamically enforce deterministic parallelism (OOPSLA'17, ASPLOS'20, and a successful startup company).</p><br> <p>            Last Modified: 11/22/2020<br>      Modified by: Ryan&nbsp;R&nbsp;Newton</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Parallelism allows software to run faster, especially on future hardware. This project sought to make parallel programming more widespread by making it safer.  If parallelism is time consuming and risks introducing bugs, then we will continue to see it only applied in select circumstances, rather than all software. This project refined and explored a particular form of safe parallel programming, based on lattice-variables (LVars).  These store information, shared between different threads of control in the program, but in a manner that is nondestructive.  Different parts of the program collaboratively add information, but do not destroy it.  LVars are specially constrained so that all the interactions through them, while unpredictably ordered, come out the same in the end, yielding reproducible, deterministic program results.  In a series of publications, we explored the limits of the LVars model, for example extending them to release memory in an unintuitive contrast to the "adding information" description above (PPoPP'16).  We improved the implementation of LVars and tested their scalability limits.  For example, we explored adaptive versions of LVar implementations (ICFP'15), which conform their implementation to the workload they observe at runtime.  We performed research further enhancing the safety of LVar implementations by formally verifying mathematical properties of these datatypes (POPL'18, Haskell'19).  This research then forked off in three directions, leading to follow-on work.  First, the verification effort became a broader approach for combining formal methods and parallelism (NSF award #1909862). Second, the effort to derive a practical, system-level implementation of LVars turned into a broader effort to build an efficient compiler and runtime for functional programs (i.e. the Gibbon compiler, and NSF award #1725679).  Third, the effort to accomplish deterministic parallelism with LVars turned into a broader effort to dynamically enforce deterministic parallelism (OOPSLA'17, ASPLOS'20, and a successful startup company).       Last Modified: 11/22/2020       Submitted by: Ryan R Newton]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

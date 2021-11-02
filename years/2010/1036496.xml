@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Design of Multiprocess Routing under the Hierarchical Automatic Addressing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>04/30/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>65470.00</AwardTotalIntnAmount>
+<AwardAmount>65470</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Joseph Lyles</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This research project is designing, evaluating, and implementing a interdomain routing system to ensure its scalability while at the same time easing the management load and enhancing the robustness of multi-homed networks. The project develops "multiprocess routing", an approach that runs multiple parallel routing processes that select primary or backup routes to deliver packets with high probability under multiple link and node failures, or misconfigurations. Multiprocess routing is particularly appropriate for multihomed networks where each network has multiple providers and potentially can be reached with node/edge disjoint paths. A hierarchical automatic addressing scheme is being incorporated in the context of multiprocess routing. The hierarchical automatic addressing scheme provides multihomed networks with multiple addresses, each of which are allocated within the address block of its provider. This address allocation scheme can effectively reduce routing table size and routing update messages since providers can aggregate their customers? addresses and announce the whole address block rather than the specific address block for each customer. Furthermore, the automatic addressing protocol used here for host addressing can ease the management of multiple addresses for each network host. This project also establishes a collaboration with networking researchers in Japan.</AbstractNarration>
+<MinAmdLetterDate>04/27/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>04/27/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1036496</AwardID>
+<Investigator>
+<FirstName>Lixin</FirstName>
+<LastName>Gao</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Lixin Gao</PI_FULL_NAME>
+<EmailAddress>lgao@ecs.umass.edu</EmailAddress>
+<PI_PHON>4135454548</PI_PHON>
+<NSF_ID>000483181</NSF_ID>
+<StartDate>04/27/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Massachusetts Amherst</Name>
+<CityName>Hadley</CityName>
+<ZipCode>010359450</ZipCode>
+<PhoneNumber>4135450698</PhoneNumber>
+<StreetAddress>Research Administration Building</StreetAddress>
+<StreetAddress2><![CDATA[100 Venture Way, Suite 201]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>153926712</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MASSACHUSETTS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Massachusetts Amherst]]></Name>
+<CityName>Hadley</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>010359450</ZipCode>
+<StreetAddress><![CDATA[Research Administration Building]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~65470</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>As the Internet grows, there is a major concern about the dramatic increases of both BGP table size and BGP update rate.Border Gateway Protocol (BGP) is used to exchange reachabilityinformation among routers in the global Internet.BGP table size has grown rapidly in the last decade, and has approachedover 400 thousand recently. In addition, BGP update rate increases at an even faster pace than BGP table size.</p> <p>Routers&rsquo; memory size and CPU speed might not be able to meet the demand of the fast growth. The global routing system, especially the core routers, faces significant scalability problems that the growth has brought. Prefix aggregation can address some of the scalabilityissues. Contiguous IP address blocks or prefixes can be aggregated into one prefix, so that fewer prefixes need be announced to the Internet, and thus less entries need to be installed in BGP tables. The aggregation also reduces the amount of route update messages propagated to the Internet.</p> <p>However, address aggregation is quite limited in its ability to&nbsp; limit the BGP table size. First, address allocation has to be carefully coordinated in order to assign consecutive address blocks to the same organization or neighboring networks. Second, address aggregation can not be performed when ASes are multihomed. Hierarchical Addressing</p> <p>Allocation (HAA) provides an approach to reduce BGP table size and update rate by assigning IP addresses so that each customer AS's prefix can be aggregated to its provider AS's, and thus, less routing entries are installed and updated in BGP tables. HAA, however, introduces routing problems. BGP is designed to maintain routing information of each destination prefix. With HAA, BGP only keeps the information of aggregated prefixes. Thus, it fails to react to the network events that happen to individual destination prefixes.</p> <p>&nbsp;</p> <p>In this project, to address these challenges under HAA, we propose a routing protocol called Routing with Detour (RD). Without changing BGP, we run a light-weighted routing process to work together with BGP. It can reroute traffic when BGP fails to react to failures because of aggregation.We prove that, by implementing RD with HAA, Internet routing is robust under one or multiple network events. Further, our experiments with the realistic AS topology show that RD can significantly reduce BGP table size and update rate.</p> <p>&nbsp;</p><br> <p>            Last Modified: 05/31/2012<br>      Modified by: Lixin&nbsp;Gao</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ As the Internet grows, there is a major concern about the dramatic increases of both BGP table size and BGP update rate.Border Gateway Protocol (BGP) is used to exchange reachabilityinformation among routers in the global Internet.BGP table size has grown rapidly in the last decade, and has approachedover 400 thousand recently. In addition, BGP update rate increases at an even faster pace than BGP table size.  RoutersÆ memory size and CPU speed might not be able to meet the demand of the fast growth. The global routing system, especially the core routers, faces significant scalability problems that the growth has brought. Prefix aggregation can address some of the scalabilityissues. Contiguous IP address blocks or prefixes can be aggregated into one prefix, so that fewer prefixes need be announced to the Internet, and thus less entries need to be installed in BGP tables. The aggregation also reduces the amount of route update messages propagated to the Internet.  However, address aggregation is quite limited in its ability to  limit the BGP table size. First, address allocation has to be carefully coordinated in order to assign consecutive address blocks to the same organization or neighboring networks. Second, address aggregation can not be performed when ASes are multihomed. Hierarchical Addressing  Allocation (HAA) provides an approach to reduce BGP table size and update rate by assigning IP addresses so that each customer AS's prefix can be aggregated to its provider AS's, and thus, less routing entries are installed and updated in BGP tables. HAA, however, introduces routing problems. BGP is designed to maintain routing information of each destination prefix. With HAA, BGP only keeps the information of aggregated prefixes. Thus, it fails to react to the network events that happen to individual destination prefixes.     In this project, to address these challenges under HAA, we propose a routing protocol called Routing with Detour (RD). Without changing BGP, we run a light-weighted routing process to work together with BGP. It can reroute traffic when BGP fails to react to failures because of aggregation.We prove that, by implementing RD with HAA, Internet routing is robust under one or multiple network events. Further, our experiments with the realistic AS topology show that RD can significantly reduce BGP table size and update rate.          Last Modified: 05/31/2012       Submitted by: Lixin Gao]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

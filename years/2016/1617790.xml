@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CCF-BSF: AF: Small: Metric Embeddings and Partitioning for Minor-Closed Graph Families</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>450000.00</AwardTotalIntnAmount>
+<AwardAmount>450000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The interaction between algorithm design and metric embeddings has been a very fruitful one. Over the past two decades, the toolbox of metric embeddings has become an indispensable one for the algorithm designer. The reason is simple: embeddings give a set of techniques to simplify graphs and metric spaces. This has led to approximation algorithms for many graph partitioning and network design problems. In turn, better graph decompositions have led to better embeddings.  Nevertheless, the interplay between graph topology and the metric geometry is not fully understood. This proposal focuses on developing new techniques for interesting families of graphs.  Broader impacts include the engagement of undergraduate students and women in research, and the training of graduate students and postdoctoral associates. Moreover, the proposed research should help develop deeper connections between computer science and mathematics. Being part of a joint initiative between NSF and the US-Israel Binational Science Foundation, this project will increase collaboration between researchers working on similar topics in the United States and Israel.&lt;br/&gt;&lt;br/&gt;The technical aspects of the research focus on questions in metric embeddings and graph partitioning for planar, bounded tree-width and path-width graphs, and general minor-closed families of graphs.  These include getting better low-diameter partitions for these families via the bounded-threatener program, getting better L1 and tree embeddings, and improved metric and graph compression techniques, such as improved vertex-sparsifiers and spanners.</AbstractNarration>
+<MinAmdLetterDate>05/31/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>05/31/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1617790</AwardID>
+<Investigator>
+<FirstName>Anupam</FirstName>
+<LastName>Gupta</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Anupam Gupta</PI_FULL_NAME>
+<EmailAddress>anupamg@cs.cmu.edu</EmailAddress>
+<PI_PHON>4122687127</PI_PHON>
+<NSF_ID>000486839</NSF_ID>
+<StartDate>05/31/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie-Mellon University]]></Name>
+<CityName/>
+<StateCode>PA</StateCode>
+<ZipCode>152133890</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>022Z</Code>
+<Text>International Partnerships</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~450000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Metric embeddings has been a powerful tool in algorithm design. A lot of data that we encounter has a natural notion of distance defined on it, and often this notion of distance is difficult to understand, and also difficult to compute with. For example, given a network with nodes (say cities with driving times, or computers with communication times), how can we solve quickly problems like graph partitioning, or even finding the two furthest nodes? Here metric embeddings comes to the rescue: it formalizes the idea of taking a "complicated" metric and replacing it by a metric that is simple, while having high "fidelity" (that is, without distorting the distances very much). The focus of this project was the interplay between the topology (or shape) of the network, and the properties of the distances obtained from them. In particular, what if the network is planar (it can be drawn on a flat surface without any links crossing), or it has some other structure? This knowledge should give us "simpler" metrics, for which we can give better algorithms.<br /><br />The main results of this project show the power of the idea of shortest-path separators. Given a planar network, it is known that there are two shortest-paths in it, whose deletion causes the graph to fall into more-or-less balanced pieces. Such results can also be given for other classes of networks, most prominently those which "minor-closed", such as those with bounded tree-width, or path-width. The research in this project gave rise to new embedding algorithms for such families of network; these algorithms have fidelity that matches the strongest results currently known. Moreover, these shortest-path separators are then used in new, fast algorithms for computing the diameter of the graph. These algorithms can be implemented in distributed settings (without central coordination) faster than previous approaches. <br /><br />The project outcomes include the training of graduate and undergraduate students in this area. Moreover these results form a bridge between researchers in computer science (specifically, algorithms) and mathematics (specifically, metric geometry and Banach space theory), since these results are of mutual interest. This project was funded by a joint initiative between NSF and the US-Israel Binational Science Foundation, and hence much of the research on this project was jointly done by researchers working on similar topics in the United States and Israel.<br /><br /></p><br> <p>            Last Modified: 09/15/2019<br>      Modified by: Anupam&nbsp;Gupta</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Metric embeddings has been a powerful tool in algorithm design. A lot of data that we encounter has a natural notion of distance defined on it, and often this notion of distance is difficult to understand, and also difficult to compute with. For example, given a network with nodes (say cities with driving times, or computers with communication times), how can we solve quickly problems like graph partitioning, or even finding the two furthest nodes? Here metric embeddings comes to the rescue: it formalizes the idea of taking a "complicated" metric and replacing it by a metric that is simple, while having high "fidelity" (that is, without distorting the distances very much). The focus of this project was the interplay between the topology (or shape) of the network, and the properties of the distances obtained from them. In particular, what if the network is planar (it can be drawn on a flat surface without any links crossing), or it has some other structure? This knowledge should give us "simpler" metrics, for which we can give better algorithms.  The main results of this project show the power of the idea of shortest-path separators. Given a planar network, it is known that there are two shortest-paths in it, whose deletion causes the graph to fall into more-or-less balanced pieces. Such results can also be given for other classes of networks, most prominently those which "minor-closed", such as those with bounded tree-width, or path-width. The research in this project gave rise to new embedding algorithms for such families of network; these algorithms have fidelity that matches the strongest results currently known. Moreover, these shortest-path separators are then used in new, fast algorithms for computing the diameter of the graph. These algorithms can be implemented in distributed settings (without central coordination) faster than previous approaches.   The project outcomes include the training of graduate and undergraduate students in this area. Moreover these results form a bridge between researchers in computer science (specifically, algorithms) and mathematics (specifically, metric geometry and Banach space theory), since these results are of mutual interest. This project was funded by a joint initiative between NSF and the US-Israel Binational Science Foundation, and hence much of the research on this project was jointly done by researchers working on similar topics in the United States and Israel.         Last Modified: 09/15/2019       Submitted by: Anupam Gupta]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

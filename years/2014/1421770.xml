@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Higher-order Contracts for Distributed Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>456365.00</AwardTotalIntnAmount>
+<AwardAmount>456365</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Distributed applications (such as web applications and cloud-based applications, where multiple computers cooperate to run the application) are becoming increasingly common. Given the amount of commercial activity and information handled by these distributed applications, it is important that these applications are correct, reliable, and efficient. However, many traditional tools and techniques for programmers cannot be used for distributed applications, making it difficult for programmers to write and debug distributed applications. This research explores the use of software contracts for distributed applications. Software contracts are specifications for software components that can be checked at run time (i.e., when the software executes). By developing techniques and tools to incorporate software contracts into distributed applications, this research has the potential to make it easier for programmers to write distributed applications that are correct, reliable, and efficient.&lt;br/&gt;&lt;br/&gt;Specifically, this research explores the use of higher-order contracts for distributed applications. Higher-order contracts are contracts for higher-order values such as first-class functions or objects. Higher-order contracts are a good fit for distributed applications as components in distributed applications are often higher-order, and higher-order contracts facilitate reasoning about dynamic composition of components (which is common in distributed settings such as web applications). Potential benefits of higher-order contracts include: (a) declarative specification of the functional behavior of components; (b) run-time enforcement of specifications; and (c) correct identification of faulty components. This research focuses on the efficient enforcement of behavioral contracts, the correct enforcement of contracts in the presence of untrustworthy distributed components, and the specification and enforcement of non-functional behaviors.</AbstractNarration>
+<MinAmdLetterDate>07/28/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>07/28/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1421770</AwardID>
+<Investigator>
+<FirstName>Stephen</FirstName>
+<LastName>Chong</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Stephen Chong</PI_FULL_NAME>
+<EmailAddress>chong@seas.harvard.edu</EmailAddress>
+<PI_PHON>6174955501</PI_PHON>
+<NSF_ID>000535045</NSF_ID>
+<StartDate>07/28/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Harvard University</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021385369</ZipCode>
+<PhoneNumber>6174955501</PhoneNumber>
+<StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[5th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>082359691</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PRESIDENT AND FELLOWS OF HARVARD COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001963263</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Harvard SEAS]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021382933</ZipCode>
+<StreetAddress><![CDATA[33 Oxford St,  45 MD]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~456365</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p class="Body">The days in which applications consisted of code that is local to one machine are gone; modern applications mix pieces of code that run on different machines and communicate over the internet. This shift in software development facilitates the sharing of resources (such as databases) and enables the reuse of packaged off-the-shelf pieces of code, known as components.</p> <p class="Body">The distribution of components over the internet has significant consequences. On one hand, distributed components allow developer teams to be independent and use software development and deployment technology as they see fit. On the other hand, distributed components require developers to select the components they need from a vast pool of off-the-shelf third-party (and possibly untrustworthy) components.</p> <p class="Body">In general, software correctness is a complex issue. It rests on at least (i) the functional correctness of components, i.e., that they adhere to some specification of their behavior, and (ii) the correct synchronization of components so that together they complete a task successfully. In fact, synchronization is only one of the so-called non-functional correctness parameters of a component that include security, availability, reliability and general quality of service.</p> <p class="Body">Distributed components make even more difficult the notoriously hard problem of establishing that software is correct. As a concrete example, consider microservices, a popular kind of distributed components. In the world of microservices, an application consists of hundreds of components each responsible for a small aspect of the application&rsquo;s overall functionality. Each component is designed and maintained by a different team of developers that has autonomy over the choice of programming languages and other technology they use to produce and keep their component up and running. The application emerges as a decentralized effort where teams use components from other teams to deliver new components and where components communicate using simple protocols. These communication protocols restrict the shape of messages that components exchange, but do not attach any meaning to messages. For instance, a simple protocol can capture that a message is a sequence of bits that encode an alphanumeric string, but not that it is the address of another component that provides some service. The simple protocols, the multiple languages, and the independence of deployment affect the validation of the correctness of applications made out of microservices. Techniques that rely on programming languages, deployment platforms, or communication protocols are bound to fail because the world of micro services is inherently open and diverse. In contrast, the world of microservices requires techniques that (i) treat components as black boxes and (ii) work even when most components are oblivious of them.</p> <p class="Body">This project aimed to develop a principled framework for the validation of the correctness of distributed components. The three goals of this project were (i) to design an efficient system to monitoring functional requirements of distributed components; (ii) to investigate how trust affects the process of validating correctness of distributed components and how information about trust can improve this process; (iii) to explore techniques to ensure distributed components adhere to their non-functional requirements.</p> <p class="Body">The project has two significant outcomes:</p> <p class="Body"><strong>1. Whip</strong> is a contract system for microservices. Whip contracts describe the functional specification of a microservice. Developers write Whip contracts in a domain-specific language with constructs that succinctly describe patterns of usage of microservices. Whip checks the contracts for a microservice by intercepting the microservice&rsquo;s messages. This way, Whip treats microservices as black boxes and checks contracts even if Whip is not deployed on all microservices in a system. Thus Whip offers a pragmatic solution to validating the functional correctness of microservices. The implementation of Whip is publicly available (at http://whip.services/), together with a formal description of its behavior and a proof of the accuracy of the detection of the microservice at fault when Whip discovers a contract violation.</p> <p class="Body"><strong>2. CLIO</strong> is an information flow control system that helps developers construct components that interact securely with untrustworthy databases and other types of storage. CLIO uses cryptography to protect any data that the developer marks as sensitive together with any information derived from that data while the component runs. This protection extends even to the sensitive information that ends up in untrustworthy storage, and the use of cryptography is transparent to the developer. CLIO relieves the developer from the error prone task of implementing cryptographic protocols to achieve security. The implementation of CLIO will be publicly available in November 2017, together with a formal description of its behavior and a proof of its correct use of cryptography to provide security.</p> <p>Whip and CLIO address the project goals: Whip directly validates functional correctness of distributed components. CLIO is a step in the investigation of (i) the relation between trust and software correctness, and (ii) the validation of security for distributed components, a non-functional correctness parameter.</p> <p>&nbsp;</p><br> <p>            Last Modified: 10/19/2017<br>      Modified by: Stephen&nbsp;Chong</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[The days in which applications consisted of code that is local to one machine are gone; modern applications mix pieces of code that run on different machines and communicate over the internet. This shift in software development facilitates the sharing of resources (such as databases) and enables the reuse of packaged off-the-shelf pieces of code, known as components. The distribution of components over the internet has significant consequences. On one hand, distributed components allow developer teams to be independent and use software development and deployment technology as they see fit. On the other hand, distributed components require developers to select the components they need from a vast pool of off-the-shelf third-party (and possibly untrustworthy) components. In general, software correctness is a complex issue. It rests on at least (i) the functional correctness of components, i.e., that they adhere to some specification of their behavior, and (ii) the correct synchronization of components so that together they complete a task successfully. In fact, synchronization is only one of the so-called non-functional correctness parameters of a component that include security, availability, reliability and general quality of service. Distributed components make even more difficult the notoriously hard problem of establishing that software is correct. As a concrete example, consider microservices, a popular kind of distributed components. In the world of microservices, an application consists of hundreds of components each responsible for a small aspect of the application?s overall functionality. Each component is designed and maintained by a different team of developers that has autonomy over the choice of programming languages and other technology they use to produce and keep their component up and running. The application emerges as a decentralized effort where teams use components from other teams to deliver new components and where components communicate using simple protocols. These communication protocols restrict the shape of messages that components exchange, but do not attach any meaning to messages. For instance, a simple protocol can capture that a message is a sequence of bits that encode an alphanumeric string, but not that it is the address of another component that provides some service. The simple protocols, the multiple languages, and the independence of deployment affect the validation of the correctness of applications made out of microservices. Techniques that rely on programming languages, deployment platforms, or communication protocols are bound to fail because the world of micro services is inherently open and diverse. In contrast, the world of microservices requires techniques that (i) treat components as black boxes and (ii) work even when most components are oblivious of them. This project aimed to develop a principled framework for the validation of the correctness of distributed components. The three goals of this project were (i) to design an efficient system to monitoring functional requirements of distributed components; (ii) to investigate how trust affects the process of validating correctness of distributed components and how information about trust can improve this process; (iii) to explore techniques to ensure distributed components adhere to their non-functional requirements. The project has two significant outcomes: 1. Whip is a contract system for microservices. Whip contracts describe the functional specification of a microservice. Developers write Whip contracts in a domain-specific language with constructs that succinctly describe patterns of usage of microservices. Whip checks the contracts for a microservice by intercepting the microservice?s messages. This way, Whip treats microservices as black boxes and checks contracts even if Whip is not deployed on all microservices in a system. Thus Whip offers a pragmatic solution to validating the functional correctness of microservices. The implementation of Whip is publicly available (at http://whip.services/), together with a formal description of its behavior and a proof of the accuracy of the detection of the microservice at fault when Whip discovers a contract violation. 2. CLIO is an information flow control system that helps developers construct components that interact securely with untrustworthy databases and other types of storage. CLIO uses cryptography to protect any data that the developer marks as sensitive together with any information derived from that data while the component runs. This protection extends even to the sensitive information that ends up in untrustworthy storage, and the use of cryptography is transparent to the developer. CLIO relieves the developer from the error prone task of implementing cryptographic protocols to achieve security. The implementation of CLIO will be publicly available in November 2017, together with a formal description of its behavior and a proof of its correct use of cryptography to provide security.  Whip and CLIO address the project goals: Whip directly validates functional correctness of distributed components. CLIO is a step in the investigation of (i) the relation between trust and software correctness, and (ii) the validation of security for distributed components, a non-functional correctness parameter.          Last Modified: 10/19/2017       Submitted by: Stephen Chong]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

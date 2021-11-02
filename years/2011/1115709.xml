@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Temporal Multi-Scale Simulation Tools Kinetic Plasma Equations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>200000.00</AwardTotalIntnAmount>
+<AwardAmount>200000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In this work the PI and his student consider the development of novel methods for problems in kinetic transport.  The goal is to develop methods that are capable of bridging multiple time scales.    For instance, many problems in plasma physics, such as modeling edge plasma problems in fusion systems,  can exhibit behavior which is consistent with both diffusion dominated transport as well as collisionless flow in the same problem at the same  time.  Generally speaking, this class of problems can be summarized as hyperbolic systems with stiff relaxation terms.  Typically the stiff relaxation term can be nondimensionalized, leading to a scaling constant out in front of the relaxation term of the form 1/d.  In the problems of interest, as d approaches zero,  the system transitions from hyperbolic to parabolic. One approach to such problems is to use domain decomposition methods coupled with appropriate models for the various physical behaviors.   However, a major difficulty with this approach is defining the boundary conditions for  the two way coupling between the domains.   The approach taken in this work is to develop numerical methods for the kinetic systems which can recover the correct limiting behavior in the limit of the system becoming collision dominated.   The particular class of methods we focus on here are referred to as Asymptotic Preserving (AP)  methods.  The goal in designing an AP method is to develop time stepping strategies that maintain their order of accuracy for any d.  In particular, as d approaches zero, the AP method should recover a consistent discretization for the limiting behavior.  However, developing AP methods which are high order have proven difficult to construct.  Further, for a range of important test problems, the CFL for the AP method is restricted to time steps less than the square of the spatial discretization.   In this work, the PI and his student investigate a new method based on a pseudo upwinding method inside of the  AP framework, which gives rise to a method which has a convergence rate independent of d with an apparent CFL of the time step proportional to the spatial discretization.  Further, the PI proposes a novel method for lifting low order AP methods to high order based on integral deferred correction, a defect correction methodology developed by the PI and his collaborators.  The approach is generalizable  to a wide class of kinetic equations with stiff relaxation terms. &lt;br/&gt;&lt;br/&gt;A large number of important problems in science are characterized by multiple length scales.  This includes studying the aerodynamics of spacecraft launch and reentry, the characterization of micro/nano mechanical systems and the study of charge particle transport, such as disassociated electrons and ions, in plasma lighting, micro chip design, and clean energy systems of the future, such as fusion, to name a few.      In these examples,  on the smallest scales, the individual atoms which make up the gas can be thought of as billiard balls bouncing around, each billiard ball  having its own speed and direction.  The gas molecules collide with each other, as well as the boundaries of obstacles in the flow,  exchanging  energy and momentum with each other as well as the environment.   On this scale the system is well characterized by models know as kinetic equations, which describe the behavior of the gas from a  probabilistic perspective.   Kinetic equations account for time scales of individual atoms colliding with each other.    On the largest length scales, the gas exhibits collective behavior such as wind, which we think of as having a single speed.   As the density of a gas changes from low density to high density, the system behavior changes from individual particles to a collective average behavior.  This transition happens in many systems, one interesting  example is  the reentry of a spacecraft, where at high altitude the atmosphere is a very low density gas and at ground level the atmosphere is 20 orders of magnitude higher in density.  At low densities, these systems exhibit effects only described by kinetic models.   At high densities, the systems exhibit collective behavior described my much simpler models.  The critical  kinetic time scale, described  by inter-particle collisions, scales as one over the density.     The importance of this work is to develop a new class of simulation tools that can handle the very stiff time scales associated with systems that undergo this very sharp transition in densities that can efficiently simulate both the rarified and dense gas regimes, as well as the transition in density.  This framework will allow for the  simulation of problems previously outside the scope of standard kinetic solvers, allowing the solvers to recover the correct limiting behavior with orders of magnitude increase in efficiency over existing methods.</AbstractNarration>
+<MinAmdLetterDate>09/19/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>09/19/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1115709</AwardID>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>Christlieb</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew Christlieb</PI_FULL_NAME>
+<EmailAddress>christli@msu.edu</EmailAddress>
+<PI_PHON>5178848947</PI_PHON>
+<NSF_ID>000322671</NSF_ID>
+<StartDate>09/19/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Michigan State University</Name>
+<CityName>East Lansing</CityName>
+<ZipCode>488242600</ZipCode>
+<PhoneNumber>5173555040</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[426 Administration Bldg, Rm2]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>193247145</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MICHIGAN STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>053343976</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Michigan State University]]></Name>
+<CityName>East Lansing</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>488242600</ZipCode>
+<StreetAddress><![CDATA[Office of Sponsored Programs]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~200000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>In this work we devloped a new class of methods for modleing wave propogation, such as acoustic or electromagnetic waves. &nbsp;The major advantage of this new class of methods is that it facilitates modeling problems where there is a separation of scales in time. The primary application that we had in mind when we were developing the method is &nbsp;in the modeling of plasma, the fourth state of matter. &nbsp;</p> <p>So what is a plasma? &nbsp;If you start with a solid and add energy to it, the solid melts and becomes a liquid. &nbsp;If you add even more energy to this system, eventually the liquid evaporates into a gas. &nbsp;Finally, if you add even more energy into this system, the atoms will eventually breakdown into their constituent elements, of electrons and ions. &nbsp;It is this fourth state of matter that is known as a plasma. &nbsp;</p> <p>Plasmas have a huge range of applications in engineering and science. Plasmas are essential in the modern manufacturing of microchips. &nbsp;Plasmas are key in lighting, they are &nbsp;the basis of Arclight that are used as street post lights as well as &nbsp;in overhead fluorescent tubes used in letting most office buildings. &nbsp;Plasmas are finding their way into the medical industry from sterilization throuch exciting breakthroughs in wound healing. Further our sun is a plasma and 99% of the visible matter in the universe is in the plasma state. &nbsp;</p> <p>Plasmas have a huge range of dynamic scales that are coupled in both time and space. &nbsp;Bridging the scales includes modeling waves that propagate at the speed of light through waves that propagate at the speed of sound. &nbsp;It is precisely this dynamic range and scales that makes modeling plasmas difficult. &nbsp;This work is really focused on new techniques that help us bridge the scales offering highly accurate solvers that can advance the evolution of the models of these complex systems with greater efficiency than was previously possible. &nbsp;The eventual goal is to move these multiscale tools into large-scale simulation frameworks that engineers and scientists use to Study, model and design Systems that involve plasma. &nbsp;This will give the engineer and scientist a better set of tools, allowing them to study much larger dynamic ranges in this class of problems than was previously possible.</p> <p>&nbsp;</p><br> <p>            Last Modified: 05/25/2016<br>      Modified by: Andrew&nbsp;Christlieb</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ In this work we devloped a new class of methods for modleing wave propogation, such as acoustic or electromagnetic waves.  The major advantage of this new class of methods is that it facilitates modeling problems where there is a separation of scales in time. The primary application that we had in mind when we were developing the method is  in the modeling of plasma, the fourth state of matter.    So what is a plasma?  If you start with a solid and add energy to it, the solid melts and becomes a liquid.  If you add even more energy to this system, eventually the liquid evaporates into a gas.  Finally, if you add even more energy into this system, the atoms will eventually breakdown into their constituent elements, of electrons and ions.  It is this fourth state of matter that is known as a plasma.    Plasmas have a huge range of applications in engineering and science. Plasmas are essential in the modern manufacturing of microchips.  Plasmas are key in lighting, they are  the basis of Arclight that are used as street post lights as well as  in overhead fluorescent tubes used in letting most office buildings.  Plasmas are finding their way into the medical industry from sterilization throuch exciting breakthroughs in wound healing. Further our sun is a plasma and 99% of the visible matter in the universe is in the plasma state.    Plasmas have a huge range of dynamic scales that are coupled in both time and space.  Bridging the scales includes modeling waves that propagate at the speed of light through waves that propagate at the speed of sound.  It is precisely this dynamic range and scales that makes modeling plasmas difficult.  This work is really focused on new techniques that help us bridge the scales offering highly accurate solvers that can advance the evolution of the models of these complex systems with greater efficiency than was previously possible.  The eventual goal is to move these multiscale tools into large-scale simulation frameworks that engineers and scientists use to Study, model and design Systems that involve plasma.  This will give the engineer and scientist a better set of tools, allowing them to study much larger dynamic ranges in this class of problems than was previously possible.          Last Modified: 05/25/2016       Submitted by: Andrew Christlieb]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

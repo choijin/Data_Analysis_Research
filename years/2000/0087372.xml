@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>'QOS Enhancement with Partial State'</AwardTitle>
+<AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2006</AwardExpirationDate>
+<AwardTotalIntnAmount>270152.00</AwardTotalIntnAmount>
+<AwardAmount>270152</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050202</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>     Considerable work has been done in devising mechanisms for providing service guarantees within a network.  These schemes can be broadly classified into two categories, schemes that require maintaining state for each flow and schemes that do not require maintaining state for each flow withing the network.  Integrated services architecture and differentiated services architecture and differentiated services architecture are prime examples of such approaches.  Both the approaches have their advantages and proponents.  This proposal aims to investigate approaches that fall in between two extremes, where a network switch may be able to maintain state for a fixed number of flows (possibly less than the number of flows it serves).  This proposal looks at the services that can be provided by a limited amount of state.&lt;br/&gt;     The proposal plans to pursue the general direction of investigating new approaches for providing QOS with a limited amount of state.  Our initial work has identified the following guiding principles:&lt;br/&gt;*The provided service needs to be flexible i.e., should be able to work with any amount of state (relative to the number of flows).  &lt;br/&gt;*The provided service needs to be scalable i.e., increased amount of state should improve QOS.&lt;br/&gt;*The provided service needs to be additive i.e., as more network components employ it, QOS should be improved.&lt;br/&gt;The proposal plans to investigate mechanisms that can provide the following QOS:&lt;br/&gt;*Identify and limit the resource consumptions of non-responsive flows.&lt;br/&gt;*Provide fair sharing of bandwidth.&lt;br/&gt;*Provide bandwidth allocations to different flows.&lt;br/&gt;     As a first step, we propose to employ Sampling and Caching in addition to queue and buffer management techniques at a router to enhance the QoS.  The proposed mechanism uses caching to deal with the limited amount of state and uses sampling to select flows for which individual state is maintained.  Our preliminary results show that sampling and caching can be effectively used for containing non-responsive flows and fair sharing of bandwidth.&lt;br/&gt;     The proposal plancs to study the effectiveness and feasibility of employing partial state in currently defined architectures such as IntServ and DiffServ.  The proposal also plans to study if partial state  can be used to provide delay and jitter service.&lt;br/&gt;     Besides studying mechanisms, the proposal also plans to do both trace-driven and statistical analysis of usefulness of partial state.  Available network traces will be used to study the impact of state on the amount of work to be done at a network element and the QOS impact of such mechanisms.  We also plan to analyze partial state with well understood models of network traffic to see if we can make qualitative conclusions about the impact of partial state.&lt;br/&gt;  &lt;br/&gt;&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>08/20/2001</MinAmdLetterDate>
+<MaxAmdLetterDate>08/20/2001</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0087372</AwardID>
+<Investigator>
+<FirstName>A.L. Narasimha</FirstName>
+<LastName>Reddy</LastName>
+<EmailAddress>reddy@ece.tamu.edu</EmailAddress>
+<StartDate>08/20/2001</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Texas A&amp;M Engineering Experiment Station</Name>
+<CityName>College Station</CityName>
+<ZipCode>778454645</ZipCode>
+<PhoneNumber>9798626777</PhoneNumber>
+<StreetAddress>400 Harvey Mitchell Pkwy S</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0206000</Code>
+<Name>Telecommunications</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>4097</Code>
+<Text>NETWORKING RESEARCH</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

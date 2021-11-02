@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Medium: Scalable and Secure Database as a Service</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>04/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>03/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>1200000.00</AwardTotalIntnAmount>
+<AwardAmount>1200000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>nan zhang</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>The CirrusDB project seeks to address several key challenges that arise when building a "database as a service". The goal of such a service is to provide a SQL interface to many applications, storing data that today might be spread across hundreds or thousands of separate database management systems.  This is attractive because the costs incurred by individual users in the form of software licensing, hardware, management, and energy can be substantially lowered because it will be possible to multiplex many different databases onto a smaller footprint. Moreover, the costs can be made proportional to actual usage, saving significant up-front investments by application developers.  &lt;br/&gt;&lt;br/&gt;The intellectual merit of CirrusDB relates to three key challenges in this area:&lt;br/&gt;&lt;br/&gt;1) Multi-tenancy, in which the resource use of a complex set of database workloads are monitored and the databases are consolidated on to a minimum number of physical machines while ensuring performance isolation and live migration with no downtime.  Unlike existing work on large-scale multi-tenancy, which has focused on co-locating tenants with similar schemas, CirrusDB attempts to co-locate tenants which have resource utilization profiles that will not exceed the capacity of the machine on which they are hosted.&lt;br/&gt;&lt;br/&gt;2) Scalability in which the responsibility for query processing (and the corresponding data) is  partitioned amongst multiple nodes in the service to achieve high throughput, using a novel graph partitioning strategy.&lt;br/&gt;&lt;br/&gt;3) In which the DBaaS infrastructure executes SQL queries issued by applications over encrypted data, enabling complete SQL processing over fully private data.  The key idea is to use the notion of "adjustable security" by encrypting the data in layers in a way that allows not just equality checks but also range queries, sorting operations, and joins to be executed efficiently.&lt;br/&gt;&lt;br/&gt;CirrusDB will have broad impact in that it will result in database solutions that will a enable large, multi-node database service to be deployed both on a public cloud as well as in private data centers, providing multi-tenancy, scale-out using automatic partitioning, and privacy for SQL query execution.  This will result in significantly lower administrative and capital costs required to run large-scale databases.  CirrusDB will also reduce the barrier to entry for applications that use databases, because it will not be necessary to have in-house database expertise even when one needs high transactional performance.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at the URL: http://db.csail.mit.edu/cirrusdb/</AbstractNarration>
+<MinAmdLetterDate>03/16/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>07/22/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1065219</AwardID>
+<Investigator>
+<FirstName>Hari</FirstName>
+<LastName>Balakrishnan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Hari Balakrishnan</PI_FULL_NAME>
+<EmailAddress>hari@csail.mit.edu</EmailAddress>
+<PI_PHON>6172538713</PI_PHON>
+<NSF_ID>000489957</NSF_ID>
+<StartDate>03/16/2011</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Samuel</FirstName>
+<LastName>Madden</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Samuel Madden</PI_FULL_NAME>
+<EmailAddress>madden@csail.mit.edu</EmailAddress>
+<PI_PHON>6172586643</PI_PHON>
+<NSF_ID>000486467</NSF_ID>
+<StartDate>03/16/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Nickolai</FirstName>
+<LastName>Zeldovich</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Nickolai Zeldovich</PI_FULL_NAME>
+<EmailAddress>nickolai@csail.mit.edu</EmailAddress>
+<PI_PHON>6172536005</PI_PHON>
+<NSF_ID>000520788</NSF_ID>
+<StartDate>03/16/2011</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 MASSACHUSETTS AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~300000</FUND_OBLG>
+<FUND_OBLG>2012~300000</FUND_OBLG>
+<FUND_OBLG>2013~600000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The primary goal of this project is to build software for storing data sets in a secure manner on "clouds" of computers connected to the public Internet. Our so-called "database as a service" &nbsp;hosts the data of many applications in a single, storage infrastructure, which enables several advantages over conventional data storage system, most notably:&nbsp;</p> <ul> <li> <p>Economies of scale: By hosting many datasets together, the overall power and (human) administrative costs can be lower than running many separate databases on many separate machines in many separate data centers.&nbsp;</p> </li> <li> <p>Pay-per-use: Users of databases can pay for the amount of data they store or the number of queries they run, rather than large up front costs for database licenses and machines they may or may not use. The operator of the service can offer this because they can shift capacity between users (&ldquo;tenants&rdquo;) on an as-needed basis.&nbsp;</p> </li> </ul> <p>The grant has resulted in the development a number of key software technologies: &nbsp;the Relational Cloud, a set of tools for managing a hosted database; &nbsp;CryptDB, a platform for running queries on encrypted cloud data; &nbsp;Mylar, a framework for running web applications on encrypted data; Choreo, a system for managing cloud network resources; Sieve,&nbsp;a new platform which selectively (and securely)&nbsp;exposes user data to web services; DataHub, a hosted platform for ingesting, storging, linking, and versioning datasets, and several new techniques designed to improve the performance of data-intensive applications on cloud services.</p> <p>The award has resulted in 16 publications in top conferences, with thousands of citations. &nbsp;Most of the tools described above are released as open-source software that others can build on and extend, and several of the tools are in use in outside organizations. &nbsp;In particular the Mylar framework is being used to secure data inside of a local hospital, and the DataHub platform is being used by journalists to store their data. &nbsp;Furthermore, ideas from DataHub and CryptDB are both being incorporated into startup companies, and ideas from CryptDB have found their way in to several commercial database products.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/30/2016<br>      Modified by: Samuel&nbsp;Madden</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The primary goal of this project is to build software for storing data sets in a secure manner on "clouds" of computers connected to the public Internet. Our so-called "database as a service"  hosts the data of many applications in a single, storage infrastructure, which enables several advantages over conventional data storage system, most notably:     Economies of scale: By hosting many datasets together, the overall power and (human) administrative costs can be lower than running many separate databases on many separate machines in many separate data centers.     Pay-per-use: Users of databases can pay for the amount of data they store or the number of queries they run, rather than large up front costs for database licenses and machines they may or may not use. The operator of the service can offer this because they can shift capacity between users ("tenants") on an as-needed basis.     The grant has resulted in the development a number of key software technologies:  the Relational Cloud, a set of tools for managing a hosted database;  CryptDB, a platform for running queries on encrypted cloud data;  Mylar, a framework for running web applications on encrypted data; Choreo, a system for managing cloud network resources; Sieve, a new platform which selectively (and securely) exposes user data to web services; DataHub, a hosted platform for ingesting, storging, linking, and versioning datasets, and several new techniques designed to improve the performance of data-intensive applications on cloud services.  The award has resulted in 16 publications in top conferences, with thousands of citations.  Most of the tools described above are released as open-source software that others can build on and extend, and several of the tools are in use in outside organizations.  In particular the Mylar framework is being used to secure data inside of a local hospital, and the DataHub platform is being used by journalists to store their data.  Furthermore, ideas from DataHub and CryptDB are both being incorporated into startup companies, and ideas from CryptDB have found their way in to several commercial database products.                Last Modified: 06/30/2016       Submitted by: Samuel Madden]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

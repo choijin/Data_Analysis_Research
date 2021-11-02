@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER:  Multi-Domain, Workflow Driven Computation System for Microbial Ecology Research and Analysis</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>299999.00</AwardTotalIntnAmount>
+<AwardAmount>299999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Irene Qualters</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>This EAGER award to the University of California - San Diego, explores innovations to The Community Cyberinfrastructure for Advanced Microbial Ecology Research and Analysis, (CAMERA, http://camera.calit2.net/).  CAMERA is a widely used infrastructure that provides a single software system for depositing, locating, analyzing, visualization and sharing data about microbial biology.  A heavily utilized and core component of CAMERA is the workflow driven computational system for data analysis.  The award anticipates analysis needed for next generation sequence (NGS) data.  BLASTx Work flows using CAMERA's Refseq Protein database) will require nearly 2.5 Million core hours to complete analysis of a typical NGS data set, making it impractical and costly to rely on a single computational resource for an entire workflow.   The PI will prototype novel heuristic-based dynamic resource scheduling approaches to allowing distribution of workflow tasks among heterogeneous computing domains such as local systems, a variety of commercial clouds, and multiple national resources.&lt;br/&gt;&lt;br/&gt;This research explores development of a multi-domain scheduling system where the individual component tasks of a workflow are not bound to a single computational resource or domain, but rather can be scheduled across multiple resources as well as across institutional domains.  It benefits a rapidly growing segment of the scientific community in both large and modest laboratories whose instruments now generate massive amounts of genomic data at modest expense but who have insufficient access to resources needed for processing or analyzing these data.  The cyberinfrastructure to be established will potentially be usable by other science communities facing similar computational challenges.</AbstractNarration>
+<MinAmdLetterDate>08/10/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/10/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1250265</AwardID>
+<Investigator>
+<FirstName>Mark</FirstName>
+<LastName>Ellisman</LastName>
+<PI_MID_INIT>H</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mark H Ellisman</PI_FULL_NAME>
+<EmailAddress>mark@alex.ucsd.edu</EmailAddress>
+<PI_PHON>8585342251</PI_PHON>
+<NSF_ID>000457536</NSF_ID>
+<StartDate>08/10/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-San Diego</Name>
+<CityName>La Jolla</CityName>
+<ZipCode>920930934</ZipCode>
+<PhoneNumber>8585344896</PhoneNumber>
+<StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+<StreetAddress2><![CDATA[9500 Gilman Drive, 0934]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA49</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>804355790</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SAN DIEGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-San Diego]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>920930934</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>49</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA49</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7231</Code>
+<Text>CYBERINFRASTRUCTURE</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9145</Code>
+<Text>SPECIAL PROGRAMS-RESERVE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~299999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Scientific data is growing at an explosive rate.&nbsp; The volume of information, in both public domain databases and private research projects, is stressing the current capacity of high-performance computational systems.&nbsp; In the field of metagenomics, this growth of data is best represented by data generated from next generation sequencing (NGS) platforms.&nbsp; Already, CRBS&rsquo;s current remote cluster execution (RCE) system enables access to several Extreme Science and Engineering Discovery Environment (XSEDE) clusters.&nbsp; Following current cluster computing usage norms, a workflow (and its component jobs) is limited to a single cluster resource for computation.&nbsp; With continually growing data sizes and resultant computational requirements, however, it has become necessary to coordinate multiple clusters for a single workflow.&nbsp; We created a software tool, Panfish, to address this need.</p> <p>&nbsp;</p> <p>Using XSEDE compute resources (or any external compute resource) typically requires the following three operations to be performed: upload data, run workflow, and copy back results.&nbsp; Panfish (semi-)automatically coordinates these operations across multiple cluster resources. Furthermore, Panfish has been expressly designed to enable job submission in a process similar to invocation of jobs on a single local cluster running Sun Grid Engine (SGE) - with the added advantage that those jobs can optionally be sent to multiple XSEDE resources.&nbsp;</p> <p>&nbsp;</p> <p>Using Panfish, we are able to submit jobs from a single workflow across multiple and heterogeneous cluster computing systems, including local cluster, XSEDE, and commercial cloud resources.&nbsp;&nbsp; To date, Panfish has coordinated the <em><span style="text-decoration: underline;">simultaneous</span></em> use of up to nine heterogeneous and geographically distributed cluster resources.</p> <p>&nbsp;</p> <p>In completing this project, we have endeavored to fulfill the following merit review criteria.&nbsp; By increasing the throughput of computationally intensive algorithms, Panfish fulfills the &ldquo;Intellectual Merit&rdquo; criteria by providing a means to accelerate the rate of scientific discovery and therefore the rate at which knowledge is advanced. &nbsp;The &ldquo;Broader Impact&rdquo; of Panfish is that it allows XSEDE, as well as local and commercial cloud resources, to be used with greater coordination and efficiency than could be run individually.&nbsp; Specifically, Panfish provides a mechanism whereby all disparate XSEDE resources, which span physical and administrative domains, can be simultaneously employed towards a common scientific question.&nbsp;</p><br> <p>            Last Modified: 08/05/2014<br>      Modified by: Mark&nbsp;H&nbsp;Ellisman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Scientific data is growing at an explosive rate.  The volume of information, in both public domain databases and private research projects, is stressing the current capacity of high-performance computational systems.  In the field of metagenomics, this growth of data is best represented by data generated from next generation sequencing (NGS) platforms.  Already, CRBSÆs current remote cluster execution (RCE) system enables access to several Extreme Science and Engineering Discovery Environment (XSEDE) clusters.  Following current cluster computing usage norms, a workflow (and its component jobs) is limited to a single cluster resource for computation.  With continually growing data sizes and resultant computational requirements, however, it has become necessary to coordinate multiple clusters for a single workflow.  We created a software tool, Panfish, to address this need.     Using XSEDE compute resources (or any external compute resource) typically requires the following three operations to be performed: upload data, run workflow, and copy back results.  Panfish (semi-)automatically coordinates these operations across multiple cluster resources. Furthermore, Panfish has been expressly designed to enable job submission in a process similar to invocation of jobs on a single local cluster running Sun Grid Engine (SGE) - with the added advantage that those jobs can optionally be sent to multiple XSEDE resources.      Using Panfish, we are able to submit jobs from a single workflow across multiple and heterogeneous cluster computing systems, including local cluster, XSEDE, and commercial cloud resources.   To date, Panfish has coordinated the simultaneous use of up to nine heterogeneous and geographically distributed cluster resources.     In completing this project, we have endeavored to fulfill the following merit review criteria.  By increasing the throughput of computationally intensive algorithms, Panfish fulfills the "Intellectual Merit" criteria by providing a means to accelerate the rate of scientific discovery and therefore the rate at which knowledge is advanced.  The "Broader Impact" of Panfish is that it allows XSEDE, as well as local and commercial cloud resources, to be used with greater coordination and efficiency than could be run individually.  Specifically, Panfish provides a mechanism whereby all disparate XSEDE resources, which span physical and administrative domains, can be simultaneously employed towards a common scientific question.        Last Modified: 08/05/2014       Submitted by: Mark H Ellisman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

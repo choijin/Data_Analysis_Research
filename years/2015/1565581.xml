@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF:  Small:  Approximation Techniques for Combinatorial Optimization</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>130617.00</AwardTotalIntnAmount>
+<AwardAmount>130617</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rahul Shah</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Approximation techniques are valuable in the design of algorithms for combinatorial optimization problems. Mathematical programming relaxations provide tractable versions of hard optimization problems that are useful in the design of good algorithms -- in some cases, these relaxations and their duals serve as a guide for the design of algorithms and lower bound proofs. Such approximation techniques are useful not just in traditional optimization problems, but also for problems in online algorithms and other areas. This project proposes to study a variety of problems where approximation techniques play a crucial role -- many of these questions are about basic problems in approximation algorithms, but many are about questions where insights from mathematical relaxations and other approximation techniques play an important role. The broad goals of this project include (a) Obtaining a better understanding of the use of lift-and-project relaxations for optimization problems like coloring and the closely related question of developing algorithmic techniques for graphs of low threshold rank, (b) Attempting to close gaps in our understanding of classical optimization problems like the traveling salesman problem and bin packing, and (c) Shedding light on newer problems like online versions of weighted matching and new flow formulations.&lt;br/&gt;&lt;br/&gt;Optimization problems are ubiquitous and for many such problems of interest, we have strong evidence that it is impossible to obtain exact efficient solutions. To circumvent this intractability, we design efficient heuristics that may not find the best solution necessarily, but have guarantees that the solution they produce is not far from the optimal (i.e. is approximately optimal). Mathematical programming is a very important tool in designing such approximation algorithms. Successfully achieving the project goals will require advances in our knowledge of this area, and especially new insights into the powerful and versatile mathematical programming toolkit. As part of this project, graduate and undergraduate students will be trained by involving them in these research activities. Course materials for graduate and undergraduate courses will be developed distilling research results of this project, as well as new developments in the field.</AbstractNarration>
+<MinAmdLetterDate>10/05/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>10/05/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1565581</AwardID>
+<Investigator>
+<FirstName>Moses</FirstName>
+<LastName>Charikar</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Moses Charikar</PI_FULL_NAME>
+<EmailAddress>moses@cs.stanford.edu</EmailAddress>
+<PI_PHON>6507254404</PI_PHON>
+<NSF_ID>000488746</NSF_ID>
+<StartDate>10/05/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stanford University</Name>
+<CityName>Stanford</CityName>
+<ZipCode>943052004</ZipCode>
+<PhoneNumber>6507232300</PhoneNumber>
+<StreetAddress>450 Jane Stanford Way</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009214214</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>LELAND STANFORD JUNIOR UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009214214</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stanford University]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>943041212</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~130617</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project started in July 2012, funded by NSF grant #1218687. PI Charikar moved to Stanford University in 2015. The project and remaining funding was transferred to Stanford, as NSF grant #1565581. This report refers to the outcomes of the entire project covered by these two grant numbers.</p> <p><strong>Intellectual merit:</strong></p> <p>Progress was made in several different directions, including:</p> <p>&nbsp;1. Tensor decomposition: This is a generalization of matrix decomposition for d-dimensional arrays. Although potentially very useful, algorithms are hard to obtain in the traditional worst-case analysis framework. A smoothed analysis model was suggested and analyzed, and new results on uniqueness of tensor decompositions with noise were established.</p> <p>&nbsp;2. Online matching: In the online model, vertices of a bipartite graph arrive as a sequence of updates and the goal is to match vertices. Two problems were studied: weighted matching where the edge weights are the sum of vertex weights (here we beat the best known &frac12; competitive ratio). The other setting studied was motivated by matching in ride sharing services. Here, edge weights are distances, vertices can be made to wait, but the algorithm pays a cost proportional to the waiting time. A logarithmic competitive ratio was obtained and lower bounds on the competitive ratio were established.</p> <p>&nbsp;3. k-means: Several aspects of the popular k-means objective function were studied. The first hardness of approximation result was established for Euclidean k-means. Convex relaxations for k-means were investigated for their ability to recover planted cluster structure. Finally, motivated by a semidefinite relaxation for k-means, a new objective function for graph partitioning was proposed which sheds light on popular methods for spectral clustering.</p> <p>&nbsp;4. Target set selection: Here one is given a network and a process that models the propagation of influence. The goal is to activate a small set of vertices (the target set) initially so that activation eventually spreads to all vertices. The first sublinear factor approximation algorithm for the bounded round version was given and a polynomial hardness result was obtained using the conjectured hardness of planted dense subgraph.</p> <p>&nbsp;5. Crowdsourcing with unreliable raters: A model was introduced and studied in which n workers are asked to rate the quality of n items. An unknown fraction of workers give reliable ratings where the remaining behave arbitrarily and possibly adversarially. A small number of items can be manually evaluated and the goal is to obtain a list of the high-quality items with at most eps contamination by low-quality items. It was shown (somewhat surprisingly) that the number of ratings per person required to achieve this does not scale with n.</p> <p>&nbsp;6. Broadcast scheduling: Here a single server holds n pages and the goal is to schedule broadcasts of these pages so as to satisfy a sequence of requests and minimize the average response time. &nbsp;A connection was established between this problem and the discrepancy of set systems. This connection was exploited to improve both the upper bound (algorithm) as well as the lower bounds (hardness results and integrality gaps).</p> <p>&nbsp;</p> <p><strong>Broader impact:</strong></p> <p>Several of these results are of interest more broadly outside of theoretical computer science. The results on tensor decomposition and the new spectral clustering objective are interesting for machine learning and statistics. The results (and the analysis model) for crowdsourcing are potentially interesting to researchers who are engaged in the design of practical crowdsourcing systems.</p> <p>Three PhD students were trained over the duration of this project. One is currently a faculty member at Northeastern University, one a faculty at the University of Buffalo and the other is a researcher at Amazon.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/22/2017<br>      Modified by: Moses&nbsp;Charikar</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project started in July 2012, funded by NSF grant #1218687. PI Charikar moved to Stanford University in 2015. The project and remaining funding was transferred to Stanford, as NSF grant #1565581. This report refers to the outcomes of the entire project covered by these two grant numbers.  Intellectual merit:  Progress was made in several different directions, including:   1. Tensor decomposition: This is a generalization of matrix decomposition for d-dimensional arrays. Although potentially very useful, algorithms are hard to obtain in the traditional worst-case analysis framework. A smoothed analysis model was suggested and analyzed, and new results on uniqueness of tensor decompositions with noise were established.   2. Online matching: In the online model, vertices of a bipartite graph arrive as a sequence of updates and the goal is to match vertices. Two problems were studied: weighted matching where the edge weights are the sum of vertex weights (here we beat the best known &frac12; competitive ratio). The other setting studied was motivated by matching in ride sharing services. Here, edge weights are distances, vertices can be made to wait, but the algorithm pays a cost proportional to the waiting time. A logarithmic competitive ratio was obtained and lower bounds on the competitive ratio were established.   3. k-means: Several aspects of the popular k-means objective function were studied. The first hardness of approximation result was established for Euclidean k-means. Convex relaxations for k-means were investigated for their ability to recover planted cluster structure. Finally, motivated by a semidefinite relaxation for k-means, a new objective function for graph partitioning was proposed which sheds light on popular methods for spectral clustering.   4. Target set selection: Here one is given a network and a process that models the propagation of influence. The goal is to activate a small set of vertices (the target set) initially so that activation eventually spreads to all vertices. The first sublinear factor approximation algorithm for the bounded round version was given and a polynomial hardness result was obtained using the conjectured hardness of planted dense subgraph.   5. Crowdsourcing with unreliable raters: A model was introduced and studied in which n workers are asked to rate the quality of n items. An unknown fraction of workers give reliable ratings where the remaining behave arbitrarily and possibly adversarially. A small number of items can be manually evaluated and the goal is to obtain a list of the high-quality items with at most eps contamination by low-quality items. It was shown (somewhat surprisingly) that the number of ratings per person required to achieve this does not scale with n.   6. Broadcast scheduling: Here a single server holds n pages and the goal is to schedule broadcasts of these pages so as to satisfy a sequence of requests and minimize the average response time.  A connection was established between this problem and the discrepancy of set systems. This connection was exploited to improve both the upper bound (algorithm) as well as the lower bounds (hardness results and integrality gaps).     Broader impact:  Several of these results are of interest more broadly outside of theoretical computer science. The results on tensor decomposition and the new spectral clustering objective are interesting for machine learning and statistics. The results (and the analysis model) for crowdsourcing are potentially interesting to researchers who are engaged in the design of practical crowdsourcing systems.  Three PhD students were trained over the duration of this project. One is currently a faculty member at Northeastern University, one a faculty at the University of Buffalo and the other is a researcher at Amazon.          Last Modified: 09/22/2017       Submitted by: Moses Charikar]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

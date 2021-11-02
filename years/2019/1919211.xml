@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SPX: Collaborative Research: Parallel Algorithm by Blocks - A Data-centric Compiler/runtime System for Productive Programming of Scalable Parallel Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>10/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>440033.00</AwardTotalIntnAmount>
+<AwardAmount>440033</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Achieving both high productivity and high performance on scalable parallel and heterogeneous computer systems is a challenging goal for application developers. Parallel programming with Message Passing Interface (MPI) is currently the most widely used and effective means of developing scalable parallel applications; however the productivity of application developers is lower than with programming models that offer a global shared view of data structures. In comparison, achieving high performance and scalability with global-address-space programming models is challenging. This project focuses on the development of a data-centric compiler/runtime framework, "Parallel Algorithms by Blocks" (PAbB), aimed at offering users the combined positive attributes of multiple parallel programming models without the disadvantages. The main novelty of this project is that it uses a combination of user insights, new compiler optimizations, and advanced runtime support to achieve both productivity and performance for an important class of computations that operate on matrices, tensors, and graphs. The main broader impact of the work is that it can significantly lower the barrier to entry for scientists from various domains who wish to develop new high-performance applications on large scale parallel systems, but presently find it too difficult with currently available parallel programming models. &lt;br/&gt;&lt;br/&gt;This project brings together a team of investigators, with expertise across the software stack, to develop compiler tools and runtime systems for PAbB and demonstrate its use across a number of applications from computational science and data science. The PAbB model is intended to work in concert with MPI; that is, PAbB programs can execute in any standard MPI environment, interoperating with other native MPI code. The key idea behind the proposed approach is to offer the user a global-address view of the targeted data structures, requiring only (optionally in some cases) that they specify how data should be partitioned, but have the compiler/runtime handle the tedious aspects of the global-to-local re-indexing and inter-node data movement. In addition to the productivity benefit, a second significant benefit is in enabling system support for dynamic load balancing. The approach is being designed and demonstrated in the context of applications operating on dense and sparse matrices and tensors, and graphs.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/29/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/29/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1919211</AwardID>
+<Investigator>
+<FirstName>Ponnuswamy</FirstName>
+<LastName>Sadayappan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ponnuswamy Sadayappan</PI_FULL_NAME>
+<EmailAddress>saday@cs.utah.edu</EmailAddress>
+<PI_PHON>6142164213</PI_PHON>
+<NSF_ID>000182536</NSF_ID>
+<StartDate>07/29/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Aravind</FirstName>
+<LastName>Sukumaran Rajam</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Aravind Sukumaran Rajam</PI_FULL_NAME>
+<EmailAddress>a.sukumaranrajam@wsu.edu</EmailAddress>
+<PI_PHON>6145961957</PI_PHON>
+<NSF_ID>000784610</NSF_ID>
+<StartDate>07/29/2019</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Ohio State University</Name>
+<CityName>Columbus</CityName>
+<CountyName>FRANKLIN</CountyName>
+<ZipCode>432101016</ZipCode>
+<PhoneNumber>6146888735</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[1960 Kenny Road]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<StateCode>OH</StateCode>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OH03</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>832127323</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>OHIO STATE UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001964634</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Ohio State University]]></Name>
+<CityName>Columbus</CityName>
+<CountyName>FRANKLIN</CountyName>
+<StateCode>OH</StateCode>
+<ZipCode>432101016</ZipCode>
+<StreetAddress><![CDATA[1960 Kenny Road]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Ohio</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>03</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OH03</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>042Y</Code>
+<Text>PPoSS-PP of Scalable Systems</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~0</FUND_OBLG>
+</Award>
+</rootTag>

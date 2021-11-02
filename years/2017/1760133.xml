@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: Multilevel Regression and Poststratification: A Unified Framework for Survey Weighted Inference</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>197948.00</AwardTotalIntnAmount>
+<AwardAmount>197949</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>04050000</Code>
+<Directorate>
+<Abbreviation>SBE</Abbreviation>
+<LongName>Direct For Social, Behav &amp; Economic Scie</LongName>
+</Directorate>
+<Division>
+<Abbreviation>SES</Abbreviation>
+<LongName>Divn Of Social and Economic Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Cheryl Eavey</SignBlockName>
+<PO_EMAI>ceavey@nsf.gov</PO_EMAI>
+<PO_PHON>7032927269</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This research project will develop a unified framework for survey weighting through novel modifications of multilevel regression and poststratification (MRP) to incorporate design-based information into modeling.  Real-life survey data often are unrepresentative due to selection bias and nonresponse.  Existing methods for adjusting for known differences between the sample and population from which the sample is drawn have some advantages but also practical limitations.  Classical weights are subject to large variability and can result in unstable estimators, while regression approaches present computational and modeling challenges.  The new framework developed by these investigators will allow adjustment for selection bias and nonresponse as well as improvements in design-respecting inference.  Using this approach, survey analysts will be able to properly account for non-ignorable design issues in the regression framework, and practitioners who conduct surveys in government, academic, commercial, and non-profit sectors will be able to construct statistically efficient survey weights in a routine manner.  This new framework may be applicable to problems resulting from the newly emerging explosion of "big data," such as integration of surveys from multiple sources, analysis of streaming data, and respondent-driven sampling.  The project will develop software that can be accessed by the general research community. &lt;br/&gt;&lt;br/&gt;This research project will connect survey weighting with poststratification under the framework of MRP.  In MRP, data are partially pooled during the modeling process and then local estimates are combined via poststratification to obtain the population inference.  This smoothed estimation borrows information from neighboring poststratification cells and allows flexible multilevel modeling strategies that have the potential to be robust to model misspecification.  The project generalizes MRP to handle weighting adjustments for regression, deep interactions, calibration for non-census variables, complex survey design, multistage sampling, multiple survey frames, and other complications that arise in real-world survey analysis.  The new methods will be applied to two ongoing surveys, the New York Longitudinal Poverty Measure study and the Fragile Families and Child Wellbeing study.  Computations will be performed using the open source Bayesian program Stan and will be freely disseminated.  The project is supported by the Methodology, Measurement, and Statistics Program and a consortium of federal statistical agencies as part of a joint activity to support research on survey and statistical methodology.</AbstractNarration>
+<MinAmdLetterDate>02/08/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>02/08/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.075</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1760133</AwardID>
+<Investigator>
+<FirstName>Yajuan</FirstName>
+<LastName>Si</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yajuan Si</PI_FULL_NAME>
+<EmailAddress>yajuan@umich.edu</EmailAddress>
+<PI_PHON>7347646935</PI_PHON>
+<NSF_ID>000691703</NSF_ID>
+<StartDate>02/08/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Regents of the University of Michigan - Ann Arbor</Name>
+<CityName>Ann Arbor</CityName>
+<ZipCode>481091274</ZipCode>
+<PhoneNumber>7347636438</PhoneNumber>
+<StreetAddress>3003 South State St. Room 1062</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>073133571</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF MICHIGAN</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>073133571</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Michigan Ann Arbor]]></Name>
+<CityName/>
+<StateCode>MI</StateCode>
+<ZipCode>481091274</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1333</Code>
+<Text>Methodology, Measuremt &amp; Stats</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~197949</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Real-life survey data are often unrepresentative due to selection bias and nonresponse. We have developed multilevel regression and poststratification (MRP) that combines weighting and prediction as a unified framework for survey inference. Classical weighting techniques can result in unstable estimators, especially when the weights are weakly correlated with the survey outcomes. Model-based approaches fit regression models conditional on all the variables that affect the probability of inclusion, but computational and modeling challenges arise in practical applications. MRP incorporates design-based information in a Bayesian modeling framework as an adjustment of selection bias in small area estimation.&nbsp;</p> <p>&nbsp;</p> <p>Leveraging the flexible Bayesian paradigm, MRP&nbsp;borrows information from neighboring poststratification cells and&nbsp;propagates all sources of uncertainty while accounting for sample selection and response mechanisms into modeling. MRP offers a systematic framework for data integration and inferences with nonprobability samples. We have conducted extensive simulation studies to evaluate the frequentist properties and compare with alternative methods. We have demonstrated that MRP can achieve a tradeoff between bias and variance and yield robust inferences with statistical validity and generalizability to the target population.</p> <p>&nbsp;</p> <p>The intellectual merit of the project focuses on statistical methodology developments under the MRP framework. We developed&nbsp;methods in incorporating weights into Bayesian modeling, Bayesian inference with cluster sampling when the selection probabilities of unsampled clusters are unknown, model-based weighting adjustment, robust inferences with high-order interaction terms, Bayesian raking estimation, estimation of unknown population control information, and the selection of auxiliary variables in MRP combining probability and nonprobability samples. We have made the computational codes available to the public and will ensemble into R packages.</p> <p>&nbsp;</p> <p>Our development has made MRP a popular approach with many successful applications across a broad range of social sciences and public health areas, such as election forecasting, poverty tracking, cognitive assessments, and wellbeing studies. We have applied MRP to estimate community-level SARS-CoV-2 prevalence as a response to challenges of the pandemic.&nbsp;</p> <p>&nbsp;</p> <p>The broader impact of the project has linked state-of-the-art statistics and computation with active substantive science research in five directions: (1) The new framework adjusts for selection bias and nonresponse issues and allows researchers to make design-respecting inference. (2) The project provides a path toward the newly emerging big data explosion, such as data integration. (3) Computational software is accessible by the general research community, so that a broader user group beyond statistical researchers will be reached to explore population characteristics. (4) Survey analysts benefit from this research to properly account for design issues in the modeling framework. (5) Practitioners who conduct surveys in government agencies, academic, commercial and non-profit sectors are able to construct statistically efficient survey weights in a routine manner.</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/28/2020<br>      Modified by: Yajuan&nbsp;Si</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Real-life survey data are often unrepresentative due to selection bias and nonresponse. We have developed multilevel regression and poststratification (MRP) that combines weighting and prediction as a unified framework for survey inference. Classical weighting techniques can result in unstable estimators, especially when the weights are weakly correlated with the survey outcomes. Model-based approaches fit regression models conditional on all the variables that affect the probability of inclusion, but computational and modeling challenges arise in practical applications. MRP incorporates design-based information in a Bayesian modeling framework as an adjustment of selection bias in small area estimation.      Leveraging the flexible Bayesian paradigm, MRP borrows information from neighboring poststratification cells and propagates all sources of uncertainty while accounting for sample selection and response mechanisms into modeling. MRP offers a systematic framework for data integration and inferences with nonprobability samples. We have conducted extensive simulation studies to evaluate the frequentist properties and compare with alternative methods. We have demonstrated that MRP can achieve a tradeoff between bias and variance and yield robust inferences with statistical validity and generalizability to the target population.     The intellectual merit of the project focuses on statistical methodology developments under the MRP framework. We developed methods in incorporating weights into Bayesian modeling, Bayesian inference with cluster sampling when the selection probabilities of unsampled clusters are unknown, model-based weighting adjustment, robust inferences with high-order interaction terms, Bayesian raking estimation, estimation of unknown population control information, and the selection of auxiliary variables in MRP combining probability and nonprobability samples. We have made the computational codes available to the public and will ensemble into R packages.     Our development has made MRP a popular approach with many successful applications across a broad range of social sciences and public health areas, such as election forecasting, poverty tracking, cognitive assessments, and wellbeing studies. We have applied MRP to estimate community-level SARS-CoV-2 prevalence as a response to challenges of the pandemic.      The broader impact of the project has linked state-of-the-art statistics and computation with active substantive science research in five directions: (1) The new framework adjusts for selection bias and nonresponse issues and allows researchers to make design-respecting inference. (2) The project provides a path toward the newly emerging big data explosion, such as data integration. (3) Computational software is accessible by the general research community, so that a broader user group beyond statistical researchers will be reached to explore population characteristics. (4) Survey analysts benefit from this research to properly account for design issues in the modeling framework. (5) Practitioners who conduct surveys in government agencies, academic, commercial and non-profit sectors are able to construct statistically efficient survey weights in a routine manner.          Last Modified: 12/28/2020       Submitted by: Yajuan Si]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

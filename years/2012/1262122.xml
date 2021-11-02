@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Large Scale Document Image Triage, Indexing and Retrieval</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sylvia Spengler</SignBlockName>
+<PO_EMAI>sspengle@nsf.gov</PO_EMAI>
+<PO_PHON>7032928930</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Structural similarity search and retrieval in images that include both printed text and handwritten text remains a challenging problem, especially with collections that are noisy, and heterogeneous.  Approaches currently in use generally convert documents before filtering.  This work provides triage as a way to filter very large collections through structural similarity with known attributes, then new clustering with broader terms and hashing to extend the scale of collections considered. The work will provide new directions for document image retrieval, especially in conditions where there is a wide variation in structure and layout and will be made scalable in cloud environments.   Another approach to scaling, especially in the area of duplicate detection, will extend multi-level locality sensitive hashing and generalize it to other analysis indexing and retrieval issues.  In addition to including graduate students, results and software will be made available through Creative Commons licensing to provide for replication and extension of the results.</AbstractNarration>
+<MinAmdLetterDate>09/13/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>09/13/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1262122</AwardID>
+<Investigator>
+<FirstName>Larry</FirstName>
+<LastName>Davis</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Larry S Davis</PI_FULL_NAME>
+<EmailAddress>lsd@umiacs.umd.edu</EmailAddress>
+<PI_PHON>3014056718</PI_PHON>
+<NSF_ID>000194186</NSF_ID>
+<StartDate>09/13/2012</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>David</FirstName>
+<LastName>Doermann</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>David S Doermann</PI_FULL_NAME>
+<EmailAddress>doermann@buffalo.edu</EmailAddress>
+<PI_PHON>7166451557</PI_PHON>
+<NSF_ID>000230523</NSF_ID>
+<StartDate>09/13/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Maryland, College Park</Name>
+<CityName>College Park</CityName>
+<ZipCode>207425141</ZipCode>
+<PhoneNumber>3014056269</PhoneNumber>
+<StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>790934285</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF MARYLAND, COLLEGE PARK</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>003256088</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Maryland University College]]></Name>
+<CityName>ADELPHI</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>207838040</ZipCode>
+<StreetAddress><![CDATA[3501 UNIVERSITY BLVD EAST]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>L583</Code>
+<Text/>
+</ProgramElement>
+<ProgramElement>
+<Code>L611</Code>
+<Text/>
+</ProgramElement>
+<ProgramReference>
+<Code>170E</Code>
+<Text>Interagency Agreements</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Our research is motivated by the need to deal with very large collections of image data. The traditional goal of converting all documents on an electronic form and using traditional text analysis methods fails when dealing with heterogeneous collections and very noisy (possibly multilingual) content.</p> <p>First, we present a general approach for document image classification using Convolutional Neural Networks (CNN). CNN is one kind of neural networks that shares weights among neurons in the same layer. CNNs are good at discovering spatially local correlation by enforcing a local connectivity pattern between neurons of adjacent layers. With multiple layers and pooling between layers, CNNs automatically learn the hierarchical layout features with tolerance to spatial translation, and by sharing weights it captures repeating patterns efficiently. We employ rectified linear units and dropout to prevent overfitting. Experiments on real-world unconstrained datasets show that our approach is more effective than previous approaches.</p> <p>Second, we addressed the problem of signature matching.&nbsp; The goal of signature matching is to identify signatures in large collections that look similar. Authentication (and/or) verification can be performed once the number of candidate signatures is more manageable. We model the signature matching problem using supervised latent Dirichlet allocation (sLDA). SLDA is a statistical model developed from latent Dirichlet allocation (LDA) and was originally used for labeling documents. Co-occurring observations are combined in latent distributions called topics, which have an unknown distribution over the vocabulary. The collection of documents share a set of topics and a specific mixture of topics are represented by each document. The work is tested on the DS-I Tobacco dataset and the DS-II UMD dataset. We achieved high accuracy with fast speed compared to previous work.</p> <p>Finally, we addressed the problem of scene text detection. Text in natural scenes carries important semantic information. Localizing text aids scene understanding and it is also relevant to a number of computer vision applications such as internet image indexing, mobile vision and low vision aids. We approach the text detection problem from an image partitioning perspective, and proposed a novel framework to detect multi-oriented scene text lines with less dependency on font or language. Similar elements in the image first form weak hypotheses of groups, and a fine clustering is performed considering long range interactions as typically seen in text lines. Finally, a text/non-text classification is performed on each region of the clustering result. We compare with the methods that aim at detecting multi-oriented and multi-language text. On a recently published dataset, our method generates promising results compared to the state of the art methods.</p> <pre>&nbsp;</pre><br> <p>            Last Modified: 02/11/2015<br>      Modified by: David&nbsp;S&nbsp;Doermann</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Our research is motivated by the need to deal with very large collections of image data. The traditional goal of converting all documents on an electronic form and using traditional text analysis methods fails when dealing with heterogeneous collections and very noisy (possibly multilingual) content.  First, we present a general approach for document image classification using Convolutional Neural Networks (CNN). CNN is one kind of neural networks that shares weights among neurons in the same layer. CNNs are good at discovering spatially local correlation by enforcing a local connectivity pattern between neurons of adjacent layers. With multiple layers and pooling between layers, CNNs automatically learn the hierarchical layout features with tolerance to spatial translation, and by sharing weights it captures repeating patterns efficiently. We employ rectified linear units and dropout to prevent overfitting. Experiments on real-world unconstrained datasets show that our approach is more effective than previous approaches.  Second, we addressed the problem of signature matching.  The goal of signature matching is to identify signatures in large collections that look similar. Authentication (and/or) verification can be performed once the number of candidate signatures is more manageable. We model the signature matching problem using supervised latent Dirichlet allocation (sLDA). SLDA is a statistical model developed from latent Dirichlet allocation (LDA) and was originally used for labeling documents. Co-occurring observations are combined in latent distributions called topics, which have an unknown distribution over the vocabulary. The collection of documents share a set of topics and a specific mixture of topics are represented by each document. The work is tested on the DS-I Tobacco dataset and the DS-II UMD dataset. We achieved high accuracy with fast speed compared to previous work.  Finally, we addressed the problem of scene text detection. Text in natural scenes carries important semantic information. Localizing text aids scene understanding and it is also relevant to a number of computer vision applications such as internet image indexing, mobile vision and low vision aids. We approach the text detection problem from an image partitioning perspective, and proposed a novel framework to detect multi-oriented scene text lines with less dependency on font or language. Similar elements in the image first form weak hypotheses of groups, and a fine clustering is performed considering long range interactions as typically seen in text lines. Finally, a text/non-text classification is performed on each region of the clustering result. We compare with the methods that aim at detecting multi-oriented and multi-language text. On a recently published dataset, our method generates promising results compared to the state of the art methods.         Last Modified: 02/11/2015       Submitted by: David S Doermann]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

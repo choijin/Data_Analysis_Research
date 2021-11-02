@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SI2-SSE Collaborative Research: SPIKE-An Implementation of a Recursive Divide-and-Conquer Parallel Strategy for Solving Large Systems of Linear Equations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>251119.00</AwardTotalIntnAmount>
+<AwardAmount>251119</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rajiv Ramnath</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Drs. Negrut, Sameh, and Knepley will investigate, produce, and maintain a methodology and its software implementation that leverage emerging heterogeneous hardware architectures to solve billion-unknowns linear systems in a robust, scalable, and efficient fashion. The two classes of problems targeted under this project are banded dense and sparse general linear systems.&lt;br/&gt;&lt;br/&gt;This project is motivated by the observation that the task of solving a linear system is one of the most ubiquitous ingredients in the numerical solution of Applied Mathematics problems. It is relied upon for the implicit integration of Ordinary Differential Equation (ODE) and Differential Algebraic Equation (DAE) problems, in the numerical solution of Partial Differential Equation (PDE) problems, in interior point optimization methods, in least squares approximations, in solving eigenvalue problems, and in data analysis. In fact, the vast majority of nonlinear problems in Scientific Computing are solved iteratively by drawing on local linearizations of nonlinear operators and the solution of linear systems. Recent advances in (a) hardware architecture; i.e., the emergence of General Purpose Graphics Processing Unit (GP-GPU) cards, and (b) scalable solution algorithms, provide an opportunity to develop a new class of parallel algorithms, called SPIKE, which can robustly and efficiently solve very large linear systems of equations.&lt;br/&gt;&lt;br/&gt;Drawing on its divide-and-conquer paradigm, SPIKE builds on several algorithmic primitives: matrix reordering strategies, dense linear algebra operations, sparse direct solvers, and Krylov subspace methods. It provides a scalable solution that can be deployed in a heterogeneous hardware ecosystem and has the potential to solve billion-unknown linear systems in the cloud or on tomorrow?s exascale supercomputers. Its high degree of scalability and improved efficiency stem from (i) optimized memory access pattern owing to an aggressive pre-processing stage that reduces a generic sparse matrix to a banded one through a novel reordering strategy; (ii) good exposure of coarse and fine grain parallelism owing to a recursive, divide-and-conquer solution strategy; (iii) efficient vectorization in evaluating the coupling terms in the divide-and-conquer stage owing to a CPU+GPU heterogeneous computing approach; and (iv) algorithmic polymorphism, given that SPIKE can serve both as a direct solver or an effective preconditioner in an iterative Krylov-type method.&lt;br/&gt;&lt;br/&gt;In Engineering, SPIKE will provide the Computer Aided Engineering (CAE) community with a key component; i.e., fast solution of linear systems, required by the analysis of complex problems through computer simulation. Examples of applications that would benefit from this technology are Structural Mechanics problems (Finite Element Analysis in car crash simulation), Computational Fluid Dynamics problems (solving Navier-Stokes equations in the simulation of turbulent flow around a wing profile), and Computational Multibody Dynamics problems (solving Newton-Euler equations in large granular dynamics problems).&lt;br/&gt;&lt;br/&gt;SPIKE will also be interfaced to the Portable, Extensible Toolkit for Scientific Computation (PETSc), a two decades old flexible and scalable framework for solving Science and Engineering problems on supercomputers. Through PETSc, SPIKE will be made available to a High Performance Computing user community with more than 20,000 members worldwide. PETSc users will be able to run SPIKE without any modifications on vastly different supercomputer architectures such as the IBM BlueGene/P and BlueGene/Q, or the Cray XT5. SPIKE will thus run scalably on the largest machines in the world and will be tuned for very different network and hardware topologies while maintaining a simple code base.&lt;br/&gt;&lt;br/&gt;The experience collected and lessons learned in this project will augment a graduate level class, ?High Performance Computing for Engineering Applications? taught at the University of Wisconsin-Madison. A SPIKE tutorial and research outcomes will be presented each year at the International Conference for High Performance Computing, Networking, Storage and Analysis. A one day High Performance Computing Boot Camp will be organized each year in conjunction with the American Society of Mechanical Engineers (ASME) conference and used to disseminate the software outcomes of this effort. Finally, this project will shape the research agendas of two graduate students working on advanced degrees in Computational Science.</AbstractNarration>
+<MinAmdLetterDate>06/20/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>06/20/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1147337</AwardID>
+<Investigator>
+<FirstName>Dan</FirstName>
+<LastName>Negrut</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dan Negrut</PI_FULL_NAME>
+<EmailAddress>negrut@wisc.edu</EmailAddress>
+<PI_PHON>6088900914</PI_PHON>
+<NSF_ID>000390470</NSF_ID>
+<StartDate>06/20/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Wisconsin-Madison</Name>
+<CityName>MADISON</CityName>
+<ZipCode>537151218</ZipCode>
+<PhoneNumber>6082623822</PhoneNumber>
+<StreetAddress>21 North Park Street</StreetAddress>
+<StreetAddress2><![CDATA[Suite 6401]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<StateCode>WI</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WI02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>161202122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WISCONSIN SYSTEM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041188822</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Wisconsin-Madison]]></Name>
+<CityName>Madison</CityName>
+<StateCode>WI</StateCode>
+<ZipCode>537061539</ZipCode>
+<StreetAddress><![CDATA[1513 University Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Wisconsin</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WI02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1253</Code>
+<Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7478</Code>
+<Text>DYNAMICAL SYSTEMS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8005</Code>
+<Text>Scientific Software Elements</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~251119</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Under this project, we accomplished the following:</p> <p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We identified a methodology for the solution of dense banded linear systems that was suitable for parallel implementation on Graphics Processing Unit (GPU) cards. This methodology was implemented in software and shown to be on average two times faster than the solution provided by the Intel Math Kernel Library (MKL). The latter is considered to be the premiere solution for this type of problem. The parallel solver developed can handle large matrices with up to millions of equations. Its only limitation in terms of problem size stems from the somewhat limited amount of memory available on the GPU card.</p> <p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We identified a methodology for the solution of sparse linear systems that has proved suitable for parallel implementation on the GPU. We GPU implemented this solution and compared it to the state of the art in sparse linear solvers, all of them CPU-based: Pardiso of University of Lugano, Switzerland, MUMP of France, and SuperLU of University of California-Berkeley. A statistical analysis of the performance of the new solver was carried out against the three reference sparse solvers using a collection of 114 matrices from the University of Florida Sparse Matrix Collection. The following results have been obtained (the new software implementation is referred to as SaP::GPU):</p> <p><span style="white-space: pre;"> </span>a) Robustness results: SuperLU failed to solve 22 linear systems; SaP::GPU failed to solve 28 linear systems (23 times ran out of memory owing to small memory available on the K20X GPU card); MUMPS failed to solve 35 linear systems; Pardiso failed to solve 40 linear systems.</p> <p><span style="white-space: pre;"> </span>b) Speed results:</p> <p><span style="white-space: pre;"> </span>i)&nbsp;Out of 114 sparse linear systems considered, 57 were solved both by SaP and Pardiso. SaP was faster than Pardiso for 20 of these 57 linear systems</p> <p><span style="white-space: pre;"> </span>ii)&nbsp;Out of 114 sparse linear systems considered, 60 were solved both by SaP and MUMPS. SaP was faster than MUMPS for 27 of these 60 linear systems</p> <p><span style="white-space: pre;"> </span>iii)&nbsp;Out of 114 sparse linear systems considered, 71 were solved both by SaP and SuperLU. SaP was faster than SuperLU for 38 of these 71 linear systems</p> <p><span style="white-space: pre;"> </span>iv)&nbsp;NOTE: MUMPS was never faster than Pardiso and SuperLU was never faster than Pardiso.</p> <p>When compared to a GPU solution developed by NVIDIA; i.e., the manufacturer of the GPUs used in the project, with very few exceptions the new solver was faster than the NVIDIA solver.</p> <p>3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We implemented a GPU-parallel matrix row/column reodering strategy that moves the large matrix entries onto the diagonal of the sparse matrix in order to allow for subsequent fast, no-reordering, factorization. Upon carrying a statistical analysis, the implementation developed proved two times faster than the algorithm provided by the Harwell Sparse Library while producing the same quality matrix reorderings.</p> <p>4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A second reordering technique was implemented to reduce the bandwidth of large sparse matrices. This method was compared to the Harwell Sparse Library's Reverse Cuthill-McKee implementation. The new implementation is comparable to the Harwell solution in terms of speed-to-solution yet for large matrices it is 1.6 times faster than Harwell. These results were obtained using a statistical analysis on a set of 113 matrices from the University of Florida Sparse Matrix Collection.</p> <p>5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We developed a sparse solver called SaP::GPU using the programming language C++ and relying on the CUDA run-time environment. SaP::GPU implements all of the software component...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Under this project, we accomplished the following:  1)      We identified a methodology for the solution of dense banded linear systems that was suitable for parallel implementation on Graphics Processing Unit (GPU) cards. This methodology was implemented in software and shown to be on average two times faster than the solution provided by the Intel Math Kernel Library (MKL). The latter is considered to be the premiere solution for this type of problem. The parallel solver developed can handle large matrices with up to millions of equations. Its only limitation in terms of problem size stems from the somewhat limited amount of memory available on the GPU card.  2)      We identified a methodology for the solution of sparse linear systems that has proved suitable for parallel implementation on the GPU. We GPU implemented this solution and compared it to the state of the art in sparse linear solvers, all of them CPU-based: Pardiso of University of Lugano, Switzerland, MUMP of France, and SuperLU of University of California-Berkeley. A statistical analysis of the performance of the new solver was carried out against the three reference sparse solvers using a collection of 114 matrices from the University of Florida Sparse Matrix Collection. The following results have been obtained (the new software implementation is referred to as SaP::GPU):   a) Robustness results: SuperLU failed to solve 22 linear systems; SaP::GPU failed to solve 28 linear systems (23 times ran out of memory owing to small memory available on the K20X GPU card); MUMPS failed to solve 35 linear systems; Pardiso failed to solve 40 linear systems.   b) Speed results:   i) Out of 114 sparse linear systems considered, 57 were solved both by SaP and Pardiso. SaP was faster than Pardiso for 20 of these 57 linear systems   ii) Out of 114 sparse linear systems considered, 60 were solved both by SaP and MUMPS. SaP was faster than MUMPS for 27 of these 60 linear systems   iii) Out of 114 sparse linear systems considered, 71 were solved both by SaP and SuperLU. SaP was faster than SuperLU for 38 of these 71 linear systems   iv) NOTE: MUMPS was never faster than Pardiso and SuperLU was never faster than Pardiso.  When compared to a GPU solution developed by NVIDIA; i.e., the manufacturer of the GPUs used in the project, with very few exceptions the new solver was faster than the NVIDIA solver.  3)      We implemented a GPU-parallel matrix row/column reodering strategy that moves the large matrix entries onto the diagonal of the sparse matrix in order to allow for subsequent fast, no-reordering, factorization. Upon carrying a statistical analysis, the implementation developed proved two times faster than the algorithm provided by the Harwell Sparse Library while producing the same quality matrix reorderings.  4)      A second reordering technique was implemented to reduce the bandwidth of large sparse matrices. This method was compared to the Harwell Sparse Library's Reverse Cuthill-McKee implementation. The new implementation is comparable to the Harwell solution in terms of speed-to-solution yet for large matrices it is 1.6 times faster than Harwell. These results were obtained using a statistical analysis on a set of 113 matrices from the University of Florida Sparse Matrix Collection.  5)      We developed a sparse solver called SaP::GPU using the programming language C++ and relying on the CUDA run-time environment. SaP::GPU implements all of the software components discussed at 1) through 4) above. It is open source and available under a very permissive license (BSD3). Essentially, any party can download SaP::GPU and use it in any way desired. This includes the possibility of selling it for profit.  6)      In each summer of this project we organized an outreach program in which we hosted on-campus 10 high-school students for one week. The program is called ProCSI (Promoting Computational Science Initiative). The students learned about scientific computing through mo...]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

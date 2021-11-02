@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CNS Core: Small: Caching with Delayed Hits</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>499998.00</AwardTotalIntnAmount>
+<AwardAmount>515998</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Erik Brunvand</SignBlockName>
+<PO_EMAI>ebrunvan@nsf.gov</PO_EMAI>
+<PO_PHON>7032922767</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Caches are responsible for storing data close to where computer systems access them in order to make things faster.  For example, when a user accesses a website, the web browser first checks the cache to see if the webpage files are already there; if not, the cache goes to the website servers, which takes longer.  Unfortunately, caches are small and don’t have room to store everything.  In order to make systems faster, this project’s goal is to decide what to store in the cache while accounting for "delayed hits", which occur when multiple requests happen for the same data back-to-back.&lt;br/&gt;&lt;br/&gt;This project will explore the impact of delayed hits on cache performance. Delayed hits occur when a request "misses" in the cache, and a second request occurs for the same object before the first request has returned from the backing store. The second hit does not have equal latency to a true "hit" nor a true "miss". Because caches assume that requests result in either a hit or a miss, caches do not achieve the best possible latency. This project will explore new caching algorithms to achieve better latency by taking delayed hits into account.&lt;br/&gt;&lt;br/&gt;The technical impact of this project will be to improve latencies for a broad range of computer systems that rely on caches, from key-value stores in data centers to web caches.  Systems with very long latencies will benefit the most, leading to the hypothesis that one will see strong benefits for web caches in Internet-underserved regions which may be hundreds of miles from their nearest data center.  This project will also impact education and broaden participation in computing by including undergraduate researchers in the research process.&lt;br/&gt;&lt;br/&gt;All simulators, scripts, and analysis resulting from this work will be uploaded to public repositories (http://www.github.com/cmu-snap) where they may be accessed by the public indefinitely.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/08/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>05/19/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2007733</AwardID>
+<Investigator>
+<FirstName>Justine</FirstName>
+<LastName>Sherry</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Justine Sherry</PI_FULL_NAME>
+<EmailAddress>justines@andrew.cmu.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000728919</NSF_ID>
+<StartDate>07/08/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Weina</FirstName>
+<LastName>Wang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Weina Wang</PI_FULL_NAME>
+<EmailAddress>weinaw@cs.cmu.edu</EmailAddress>
+<PI_PHON>5155095697</PI_PHON>
+<NSF_ID>000800768</NSF_ID>
+<StartDate>07/08/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Carnegie-Mellon University</Name>
+<CityName>PITTSBURGH</CityName>
+<ZipCode>152133815</ZipCode>
+<PhoneNumber>4122688746</PhoneNumber>
+<StreetAddress>5000 Forbes Avenue</StreetAddress>
+<StreetAddress2><![CDATA[WQED Building]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<StateCode>PA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>PA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>052184116</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>CARNEGIE MELLON UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>052184116</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Carnegie Mellon University]]></Name>
+<CityName>Pittsburgh</CityName>
+<StateCode>PA</StateCode>
+<ZipCode>152133815</ZipCode>
+<StreetAddress><![CDATA[5000 Forbes Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Pennsylvania</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>PA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1714</Code>
+<Text>Special Projects - CNS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9178</Code>
+<Text>UNDERGRADUATE EDUCATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~499998</FUND_OBLG>
+<FUND_OBLG>2021~16000</FUND_OBLG>
+</Award>
+</rootTag>

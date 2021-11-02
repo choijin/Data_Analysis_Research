@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Quantifying Numerical Dissipation in CFD Codes</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>300264.00</AwardTotalIntnAmount>
+<AwardAmount>300264</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07020000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CBET</Abbreviation>
+<LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Ron Joslin</SignBlockName>
+<PO_EMAI>rjoslin@nsf.gov</PO_EMAI>
+<PO_PHON>7032927030</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>PI:  Domaradzki, Julian&lt;br/&gt;Proposal Number: 1604224&lt;br/&gt;&lt;br/&gt;Results of numerical simulations for fluid flows obtained using Computational Fluid Dynamics (CFD) are always contaminated by errors caused by the representation of the governing equations through a set of equations that can be solved numerically by computers. This project is about predicting these errors and developing simulation procedures to account for them in CFD software.&lt;br/&gt;&lt;br/&gt;Truncation errors in CFD can only be neglected if all scales are well resolved by a given mesh and time-step size. However, for most turbulent flows at high Reynolds numbers resolving all physically relevant scales is not feasible computationally. Simulating such flows often requires to model the contributions of unresolved scales by turbulence modeling procedures, leading to Reynolds-averaged Navier-Stokes (RANS) simulations or large-eddy simulations (LES), known as explicit turbulence modeling. In recent years, it has been observed that the truncation errors at spatial resolutions used in such methods may be of the same order as explicit turbulence modeling terms, i.e., the truncation errors can be of a similar magnitude as physical effects one attempts to model. Yet despite the observed importance of the truncation errors in CFD quantifying their effects remains a challenging, and largely unresolved task. The truncation errors can be analyzed analytically, but the analysis is often limited to one dimensional model problems because of the complications of three dimensionality, iterative procedures, and nonlocal pressure effects make it impossible otherwise. Because of that CFD normally employs a number of other, indirect verification/validation procedures, e.g., comparison with experimental data or running simulations on progressively refined meshes to establish mesh independent results. This significantly increases required computational effort. It is thus clear that if information about truncation errors were more easily accessible it would provide an important means of improving all CFD analyzes. The primary goal of the proposed work is to develop, validate, and implement in a software package a general computational procedure that allows a CFD user to estimate dissipative properties of the truncation error for an arbitrary CFD code in an arbitrary simulation case, either as a concurrent part of a given simulation or as a post-processing step. This research could impact the use of CFD for  modeling flows in many applications, e.g., around airplanes and ground vehicles; flows in internal combustion engines, turbomachinery, and in rockets; blood flow in a human body; heating, air conditioning, and ventilation flows in buildings; atmospheric and oceanic flows responsible for weather, climate, and spreading of pollutants. In addition to college student training, K-12 educational activities are planned that take advantage of existing initiatives within the School of Engineering at the University of South California.</AbstractNarration>
+<MinAmdLetterDate>06/22/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/22/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1604224</AwardID>
+<Investigator>
+<FirstName>Julian</FirstName>
+<LastName>Domaradzki</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Julian A Domaradzki</PI_FULL_NAME>
+<EmailAddress>jad@usc.edu</EmailAddress>
+<PI_PHON>2137405357</PI_PHON>
+<NSF_ID>000102565</NSF_ID>
+<StartDate>06/22/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Southern California</Name>
+<CityName>Los Angeles</CityName>
+<ZipCode>900890001</ZipCode>
+<PhoneNumber>2137407762</PhoneNumber>
+<StreetAddress>University Park</StreetAddress>
+<StreetAddress2><![CDATA[3720 S. Flower St.]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA37</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072933393</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF SOUTHERN CALIFORNIA</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072933393</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Southern California]]></Name>
+<CityName>Los Angeles</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>900890001</ZipCode>
+<StreetAddress><![CDATA[3720 S. Flower St.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>37</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA37</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1443</Code>
+<Text>FD-Fluid Dynamics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~300264</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Computational Fluid Dynamics (CFD) is a powerful tool used to describe, explain, and predict fluid flow phenomena in a variety of physical situations. To mention only a few: external flows around airplanes and ground vehicles; flows in the internal combustion engines, turbomachinery, and in rockets; blood flow in a human body; heating, air conditioning, and ventilation flows in buildings; atmospheric and oceanic flows responsible for weather, climate, and spreading of pollutants. The field is so important that there is a multitude of CFD codes used currently in practice, developed using different numerical techniques by many individuals, groups, and institutions, including open source codes as well as commercial CFD packages available from many vendors. Unfortunately, predictions produced by such computer codes can be highly uncertain due to the presence of numerical errors inherent in CFD. Because of that elaborate and time-consuming validation procedures are needed for each problem and each specific case to assess uncertainty of results obtained using CFD. The primary goal of this project was to develop, validate, and implement in a software package a general computational procedure that allows a CFD user to quantify errors for an arbitrary CFD code in an arbitrary simulation case, either as a concurrent part of a given simulation or as a post-processing step. The major outcomes involve: (1) the application of the developed procedure to improve significantly computational efficiency and accuracy of simulation results for a canonical flow around a sphere; and (2) the development and testing of a new implicit large eddy simulation (ILES) technique that produces significant savings in CFD simulation times compared with traditional techniques. The developed methodology that simplifies and facilitates the quantification of numerical errors for arbitrary CFD codes should make such a quantification a standard step in the design and the application of CFD codes. Because of the growing importance of CFD in many scientific and engineering applications this should lead to broad improvements in the accuracy of CFD predictions in all areas of science and engineering that rely on CFD.</p><br> <p>            Last Modified: 07/02/2020<br>      Modified by: Julian&nbsp;A&nbsp;Domaradzki</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Computational Fluid Dynamics (CFD) is a powerful tool used to describe, explain, and predict fluid flow phenomena in a variety of physical situations. To mention only a few: external flows around airplanes and ground vehicles; flows in the internal combustion engines, turbomachinery, and in rockets; blood flow in a human body; heating, air conditioning, and ventilation flows in buildings; atmospheric and oceanic flows responsible for weather, climate, and spreading of pollutants. The field is so important that there is a multitude of CFD codes used currently in practice, developed using different numerical techniques by many individuals, groups, and institutions, including open source codes as well as commercial CFD packages available from many vendors. Unfortunately, predictions produced by such computer codes can be highly uncertain due to the presence of numerical errors inherent in CFD. Because of that elaborate and time-consuming validation procedures are needed for each problem and each specific case to assess uncertainty of results obtained using CFD. The primary goal of this project was to develop, validate, and implement in a software package a general computational procedure that allows a CFD user to quantify errors for an arbitrary CFD code in an arbitrary simulation case, either as a concurrent part of a given simulation or as a post-processing step. The major outcomes involve: (1) the application of the developed procedure to improve significantly computational efficiency and accuracy of simulation results for a canonical flow around a sphere; and (2) the development and testing of a new implicit large eddy simulation (ILES) technique that produces significant savings in CFD simulation times compared with traditional techniques. The developed methodology that simplifies and facilitates the quantification of numerical errors for arbitrary CFD codes should make such a quantification a standard step in the design and the application of CFD codes. Because of the growing importance of CFD in many scientific and engineering applications this should lead to broad improvements in the accuracy of CFD predictions in all areas of science and engineering that rely on CFD.       Last Modified: 07/02/2020       Submitted by: Julian A Domaradzki]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

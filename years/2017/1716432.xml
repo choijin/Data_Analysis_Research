@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>III: Small: Collaborative Research: Comprehensive Heterogeneous Response Regression from Complex Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>249040.00</AwardTotalIntnAmount>
+<AwardAmount>249040</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Amarda Shehu</SignBlockName>
+<PO_EMAI>ashehu@nsf.gov</PO_EMAI>
+<PO_PHON>7032928191</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Predictive modeling is one fundamental problem in supervised machine learning. Traditional predictive modeling approaches typically built one predictor for each prediction task. However, in many real world problems, one needs to build predictors for multiple inter-correlated tasks simultaneously. For example, in real-time anesthesia decision making, the anesthesia drugs will have impact on multiple indicators of an anesthesia patient, such as anesthesia depth, blood pressures, heart rates, etc. The anesthesiologist needs to consider all those different aspects as well as their intrinsic dependence before s/he can make the decision. The goal of this project is to conduct systematic research on heterogeneous response regression, which builds multiple regression models for heterogeneous responses as well as exploring the relationship among them.&lt;br/&gt;&lt;br/&gt;Specifically, the project's heterogeneous response regression framework is based on a tailored latent factor model that captures the relationship among different responses in a low-dimensional space. The response heterogeneity will be captured by utilizing the exponential family distributions and beyond. The model parameters can be learned through regularized maximum likelihood estimation via a majorization-minimization procedure. Moreover, a distributed solution based on the alternating direction method of multipliers can be derived to enhance the scalability. The project will also make the framework more flexible by (1) adding individualized effect terms to capture sample/feature heterogeneity and induce task dependency; and (2) leveraging a functional model to account for time-varying predictors and to make the prediction time-sensitive. The project will demonstrate the effectiveness of its method in disease risk prediction and financial stability modeling.</AbstractNarration>
+<MinAmdLetterDate>07/27/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>07/27/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1716432</AwardID>
+<Investigator>
+<FirstName>Fei</FirstName>
+<LastName>Wang</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Fei Wang</PI_FULL_NAME>
+<EmailAddress>few2001@med.cornell.edu</EmailAddress>
+<PI_PHON>9143563268</PI_PHON>
+<NSF_ID>000681015</NSF_ID>
+<StartDate>07/27/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Joan and Sanford I. Weill Medical College of Cornell University</Name>
+<CityName>New York</CityName>
+<ZipCode>100654805</ZipCode>
+<PhoneNumber>6469628290</PhoneNumber>
+<StreetAddress>1300 York Avenue</StreetAddress>
+<StreetAddress2><![CDATA[Box 89]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>060217502</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>WEILL MEDICAL COLLEGE OF CORNELL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Joan and Sanford I. Weill Medical College of Cornell University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100654805</ZipCode>
+<StreetAddress><![CDATA[1300 York Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7364</Code>
+<Text>Info Integration &amp; Informatics</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7364</Code>
+<Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~249040</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>With the arrival of big data era, more and more heterogeneous and large-scale data sets are collected, which provides an unprecedented opportunity of revealing deeper insights regarding complicated real-world problems. Supervised learning, such as classification and regression, is a typical machine learning setting to analyze the data sets. It aims to learn a mapping function from the input feature space to a target output. Many problems, such as object recognition in computer vision, speech recognition from voice signals, sentiment classification from natural languages, are all examples of supervised learning.</p> <p>For conventional supervised learning, only one target is associated with each data sample. However, in reality, we usually have multiple inter-correlated targets associated with each data sample, and this setting is usually referred to as multi-task learning. Conventionally these different targets are usually assumed to be with the same type, which may not be the case practically. For example, the severity of a specific patients can be reflected by clinical lab tests with continuous values, as well as outcomes such as mortality and exacerbation with discrete values. In this project, we have developed a series of algorithms for such multi-task regression settings with heterogeneous targets, and we have also investigated the scenario when these regression targets are evolving over time.</p> <p>The developed algorithms are primarily evaluated in healthcare settings with various problems that involving heterogeneous targets, such as geriatric care, computational drug design and development, and clinical risk prediction. Empirical study results on real world patient and healthcare data sets have demonstrated the effectiveness of the proposed approaches. The PI won the inaugural research leadership award at IEEE International Conference on Health Informatics (ICHI) 2019. Some of the developed methods have also been leveraged in the battle with COVID-19.</p> <p>The research in this project has produced 25 papers on top conferences and journals. The content of the research has been incorporated into the tutorials the PI presented in various conferences, as well as the course the PI has been teaching. Moreover, the project has supported the research for postdoctoral research associates and graduate research assistants.</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/19/2020<br>      Modified by: Fei&nbsp;Wang</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ With the arrival of big data era, more and more heterogeneous and large-scale data sets are collected, which provides an unprecedented opportunity of revealing deeper insights regarding complicated real-world problems. Supervised learning, such as classification and regression, is a typical machine learning setting to analyze the data sets. It aims to learn a mapping function from the input feature space to a target output. Many problems, such as object recognition in computer vision, speech recognition from voice signals, sentiment classification from natural languages, are all examples of supervised learning.  For conventional supervised learning, only one target is associated with each data sample. However, in reality, we usually have multiple inter-correlated targets associated with each data sample, and this setting is usually referred to as multi-task learning. Conventionally these different targets are usually assumed to be with the same type, which may not be the case practically. For example, the severity of a specific patients can be reflected by clinical lab tests with continuous values, as well as outcomes such as mortality and exacerbation with discrete values. In this project, we have developed a series of algorithms for such multi-task regression settings with heterogeneous targets, and we have also investigated the scenario when these regression targets are evolving over time.  The developed algorithms are primarily evaluated in healthcare settings with various problems that involving heterogeneous targets, such as geriatric care, computational drug design and development, and clinical risk prediction. Empirical study results on real world patient and healthcare data sets have demonstrated the effectiveness of the proposed approaches. The PI won the inaugural research leadership award at IEEE International Conference on Health Informatics (ICHI) 2019. Some of the developed methods have also been leveraged in the battle with COVID-19.  The research in this project has produced 25 papers on top conferences and journals. The content of the research has been incorporated into the tutorials the PI presented in various conferences, as well as the course the PI has been teaching. Moreover, the project has supported the research for postdoctoral research associates and graduate research assistants.                Last Modified: 12/19/2020       Submitted by: Fei Wang]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

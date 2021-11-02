@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RUI: CDS&amp;E: Fast Treecode Methods for Particle-Particle Multipolar Electrostatic Interactions in Molecular Simulations</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/24/2019</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>78118.00</AwardTotalIntnAmount>
+<AwardAmount>78118</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03090000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CHE</Abbreviation>
+<LongName>Division Of Chemistry</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Michel Dupuis</SignBlockName>
+<PO_EMAI>mdupuis@nsf.gov</PO_EMAI>
+<PO_PHON>7032922919</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Henry Boateng from Bates College is supported by an award from the Chemical Theory, Models and Computational Methods program in the Division of Chemistry to develop algorithms for speeding up atomic and molecular simulations. The award is also supported by the Division of Mathematical Sciences and the NSF Established Program to Stimulate Competitive Research (EPSCoR).  Scientists simulate physical systems and validate their models by comparing the simulation results to experimental results. Once the models have been validated, they are then used to make predictions for regimes inaccessible by experiments or to focus the direction of experiments. These models can range from the subatomic scale of atoms and molecules to global scale, for example weather prediction.   The focus of this proposal is at the atomic and molecular scale.  A typical use for molecular simulation is in the determination of the structure of proteins. The ideal for practitioners of molecular simulation will be to simulate systems at experimental spatial scale, about a trillion trillion atoms, and at experimental times, for seconds.  The most powerful computers today (upwards of 100000 processors) only allow for simulations on the order of a billion atoms and one-ten thousandth of a second. The overarching goal of this work is to develop methods that help shrink and ultimately eliminate this bottleneck.&lt;br/&gt;&lt;br/&gt;Accurate molecular simulations of biochemical systems require accurate computations of the electrostatic interactions. The predominant approach of modeling an atom as a sphere and thus the electron density as a point charge fails to capture the anisotropy inherent in electrostatic interaction. Multipolar electrostatics provides a much more refined description of the electronic environment and hence the promise of more accurate simulations of biochemical systems. In multipolar electrostatic interactions the charge densities of chemical species are described by higher order multipoles instead of only fixed-point charges. The fixed-point charge is the zero order or monopole term of a multipolar electrostatic model. The accuracy attained by the model increases with increasing multipole order with a related increase in computational cost. The prohibitive cost of multipolar interactions has been a barrier to the model being widely adopted. Interactions with multipoles up to second order are typically an order of magnitude more expensive than corresponding fixed-point charges. Boateng and coworkers develop three related but different parallel treecode methods to accelerate multipolar electrostatics for molecular simulations. The methods are based on similar methods developed and studied by  Professor Boateng for fixed point charge models. The methods split particle-particle interactions into near and far field interactions. The near-field interactions are evaluated exactly and the far-field interactions are approximated using a Cartesian Taylor expansion. The algorithms are developed for both free space and periodic boundary conditions to ensure they are useful for a broad range of molecular simulation applications. The advantages of the treecode, aside from the speedup it offers, includes good parallel scalability, low memory requirement, suitability for complex geometries and relative ease of implementation. The methods developed will be tested on several practical examples in chemistry, biochemistry and biophysics.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>06/01/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>06/01/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2016048</AwardID>
+<Investigator>
+<FirstName>Henry</FirstName>
+<LastName>Boateng</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Henry A Boateng</PI_FULL_NAME>
+<EmailAddress>boateng@sfsu.edu</EmailAddress>
+<PI_PHON>4153387725</PI_PHON>
+<NSF_ID>000711933</NSF_ID>
+<StartDate>06/01/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>San Francisco State University</Name>
+<CityName>San Francisco</CityName>
+<ZipCode>941321722</ZipCode>
+<PhoneNumber>4153387090</PhoneNumber>
+<StreetAddress>1600 Holloway Ave</StreetAddress>
+<StreetAddress2><![CDATA[ADM 471]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>14</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA14</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>942514985</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>SAN FRANCISCO STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>947381554</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[San Francisco State University]]></Name>
+<CityName>San Francisco</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>941321722</ZipCode>
+<StreetAddress><![CDATA[1600 Holloway Ave ADM 471]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>14</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA14</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>6881</Code>
+<Text>Chem Thry, Mdls &amp; Cmptnl Mthds</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9216</Code>
+<Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9229</Code>
+<Text>RES IN UNDERGRAD INST-RESEARCH</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~78118</FUND_OBLG>
+</Award>
+</rootTag>

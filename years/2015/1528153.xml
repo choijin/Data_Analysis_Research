@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Model-Based Bit-Precise Reasoning</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>499136.00</AwardTotalIntnAmount>
+<AwardAmount>499136</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Formal methods are becoming more widely used to ensure correctness, safety, and security of the hardware and software systems we rely on in our daily lives. Many modern verification tools depend on reasoning engines that can automatically and effectively reason about system properties at the level of machine arithmetic. These reasoning engines, called satisfiability modulo theories (SMT) solvers, can prove that the property is always true, or provide a counter-example if this is not the case. Most SMT solvers do not reason directly at the word-level but, instead, compile the problem into its bit-level Boolean representation (bit-blasting) and then delegate it to a satisfiability (SAT) solver. The scalability of this approach is limited and, moreover, the compilation to SAT eliminates the high-level structure of the initial problem, which makes obtaining concise and useful reasoning artifacts very difficult. These artifacts are crucial for scalability of modern verification methods, and the lack of support for obtaining them hinders progress in bit-precise verification. &lt;br/&gt;&lt;br/&gt;Based on recent advances in model-based reasoning this project develops novel decision procedures for the theory of bit-vectors that are effective in practice, take advantage of word-level reasoning, and provide native word-level support for interpolation and generalization. The new procedures are orthogonal to existing techniques, and explores these key novel ideas: (1) model-based reasoning that does not rely on bit-blasting; (2) support for interpolation that does not rely on proof generation; and (3) support for generalization that does not rely on quantifier elimination.</AbstractNarration>
+<MinAmdLetterDate>06/29/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>06/29/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1528153</AwardID>
+<Investigator>
+<FirstName>Dejan</FirstName>
+<LastName>Jovanovic</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dejan Jovanovic</PI_FULL_NAME>
+<EmailAddress>dejan@csl.sri.com</EmailAddress>
+<PI_PHON>6508592651</PI_PHON>
+<NSF_ID>000657966</NSF_ID>
+<StartDate>06/29/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>SRI International</Name>
+<CityName>Menlo Park</CityName>
+<ZipCode>940253493</ZipCode>
+<PhoneNumber>7032478529</PhoneNumber>
+<StreetAddress>333 RAVENSWOOD AVE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009232752</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>SRI INTERNATIONAL</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009232752</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[SRI International]]></Name>
+<CityName>Menlo Park</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>940253493</ZipCode>
+<StreetAddress><![CDATA[333 Ravenswood Ave.]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~499136</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Formal verification is an approach for ensuring correctness, safety, and security of the hardware and software systems we rely on in our daily lives. In practice, verification tools can automatically analyze a software or hardware system, and automatically prove that is behaves according to its specification. &nbsp;In order to achieve automation, while maintaining full precision, verification tools rely specialized reasoning engines to reason about system properties at the level of machine instructions and bit-level arithmetic. These reasoning engines, called satisfiability modulo theories (SMT) solvers, can prove that a particular system property is always true, or provide a counter-example if this is not the case. This project has developed theoretical and practical advancements in bit-precise reasoning by developing novel reasoning techniques that are used within SMT solvers and the corresponding verification tools.</p> <p>A typical verification tool, such as a model checker, uses a system-level verification procedure to decompose a statement about the overall system into a sequence of smaller statements that can be discharged by an SMT solver. The SMT solver answers the query by providing either a counter-example refuting the statement, or a by providing a certificate of correctness in the form of an interpolant. In this project we developed novel techniques in all parts of the verification process by (1) developing a new model-checking procedure, (2) developing model-based decision procedures for solving bit-precise problems in SMT solvers, and (3) developing a new technique for producing interpolants.</p> <p>The main contributions of the project in these areas is as follows.</p> <ol> <li>Model Checking</li> </ol> <p>We developed support for bit-precise reasoning and modelling into SRI&rsquo;s Sally model checker. Sally was initially developed for infinite-state systems and can now process finite-state systems represented in common input formats for finite-state systems.</p> <p>We developed an extension of the IC3 model-checking algorithm in Sally that integrates k-induction (PDKIND). The new algorithm was designed to be modular and with clear interfaces for interpolation and generalization, and has shown to be superior to the standard inductive IC3 algorithm.</p> <ol> <li>Bit-vector decision procedures</li> </ol> <p>We developed and implemented a novel MCSAT framework within the Yices2 SMT solver to support model-based decision procedures for solving bit-vector problems. The newly developed decision procedures for bit-vectors use BDDs as the core for reasoning about unit constraints and can have separate MCSAT modules for high level reasoning and conflict explanation in different sub-theories. In addition, we extended the MCSAT calculus to a more powerful proof system based on model-driven superposition with many benefits: more powerful propagation capabilities, full support for combination of many theories, and easier cross-integration with techniques developed for the standard DPPL(T) approach. These new developments have proven very effective with the new method significantly outperforming existing bit-blasting SMT solvers on non-linear problems. The developed solver has been extended to support incremental solving and has been integrated into the Sally model checker.</p> <ol> <li>Interpolation</li> </ol> <p>We developed a new interpolation technique that takes advantage of the model-based SMT reasoning to provide interpolants. The new technique is effective in practice and is the first interpolation method that has bi-directional integration with the model-checking process and provides convergence guarantees in the setting of the model-checking algorithm.</p> <p>&nbsp;</p> <p>The techniques developed in the project have been implemented in the Yices2 SMT solver, and integrated into the Sally model checker, with both tools open source (GPL) and and freely available.&nbsp;</p> <p>&nbsp;</p> <p>Besides the above-mentioned results, the project has supported the training of several graduate students though summer internships, and the PI has given lectures on SMT solving at the international summer schools devoted to SMT solving.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/28/2018<br>      Modified by: Dejan&nbsp;Jovanovic</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Formal verification is an approach for ensuring correctness, safety, and security of the hardware and software systems we rely on in our daily lives. In practice, verification tools can automatically analyze a software or hardware system, and automatically prove that is behaves according to its specification.  In order to achieve automation, while maintaining full precision, verification tools rely specialized reasoning engines to reason about system properties at the level of machine instructions and bit-level arithmetic. These reasoning engines, called satisfiability modulo theories (SMT) solvers, can prove that a particular system property is always true, or provide a counter-example if this is not the case. This project has developed theoretical and practical advancements in bit-precise reasoning by developing novel reasoning techniques that are used within SMT solvers and the corresponding verification tools.  A typical verification tool, such as a model checker, uses a system-level verification procedure to decompose a statement about the overall system into a sequence of smaller statements that can be discharged by an SMT solver. The SMT solver answers the query by providing either a counter-example refuting the statement, or a by providing a certificate of correctness in the form of an interpolant. In this project we developed novel techniques in all parts of the verification process by (1) developing a new model-checking procedure, (2) developing model-based decision procedures for solving bit-precise problems in SMT solvers, and (3) developing a new technique for producing interpolants.  The main contributions of the project in these areas is as follows.  Model Checking   We developed support for bit-precise reasoning and modelling into SRI?s Sally model checker. Sally was initially developed for infinite-state systems and can now process finite-state systems represented in common input formats for finite-state systems.  We developed an extension of the IC3 model-checking algorithm in Sally that integrates k-induction (PDKIND). The new algorithm was designed to be modular and with clear interfaces for interpolation and generalization, and has shown to be superior to the standard inductive IC3 algorithm.  Bit-vector decision procedures   We developed and implemented a novel MCSAT framework within the Yices2 SMT solver to support model-based decision procedures for solving bit-vector problems. The newly developed decision procedures for bit-vectors use BDDs as the core for reasoning about unit constraints and can have separate MCSAT modules for high level reasoning and conflict explanation in different sub-theories. In addition, we extended the MCSAT calculus to a more powerful proof system based on model-driven superposition with many benefits: more powerful propagation capabilities, full support for combination of many theories, and easier cross-integration with techniques developed for the standard DPPL(T) approach. These new developments have proven very effective with the new method significantly outperforming existing bit-blasting SMT solvers on non-linear problems. The developed solver has been extended to support incremental solving and has been integrated into the Sally model checker.  Interpolation   We developed a new interpolation technique that takes advantage of the model-based SMT reasoning to provide interpolants. The new technique is effective in practice and is the first interpolation method that has bi-directional integration with the model-checking process and provides convergence guarantees in the setting of the model-checking algorithm.     The techniques developed in the project have been implemented in the Yices2 SMT solver, and integrated into the Sally model checker, with both tools open source (GPL) and and freely available.      Besides the above-mentioned results, the project has supported the training of several graduate students though summer internships, and the PI has given lectures on SMT solving at the international summer schools devoted to SMT solving.             Last Modified: 09/28/2018       Submitted by: Dejan Jovanovic]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

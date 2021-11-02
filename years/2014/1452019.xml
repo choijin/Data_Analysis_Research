@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Compact Roadmaps for Planning Under Uncertainty</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>175000.00</AwardTotalIntnAmount>
+<AwardAmount>175000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Reid Simmons</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Some form of uncertainty is embedded in almost all robotics applications. For example, the dynamics governing the robot or its environment cannot be modeled perfectly, or the sensors on board the robot provide noisy measurements. Hence, in many realistic scenarios, planning algorithms are faced with substantial uncertainty. Unfortunately, planning under uncertainty problems are known to be computationally challenging. &lt;br/&gt;&lt;br/&gt;This project aims to solve planning under uncertainty problems with a new algorithmic approach utilizing compact roadmaps, which aim to strike the best balance between computational effort and performance objectives. The approach is based on new techniques and advances in understanding probability measures in high-dimensional spaces.  Expected results include: (i) a thorough theoretical analysis of compact data structures in the context of planning under uncertainty problems, which may lead to tight bounds on computational effort and performance; (ii) the development of algorithms with provable performance guarantees, and desirable computational properties. These results will advance our understanding of the computational impact of uncertainty in planning problems. Furthermore, they will lead to practical algorithms with potential for immediate impact in robotics and beyond. The experimental evaluation includes demonstration on self-driving cars. The results will be disseminated through publications in archival international robotics journals and international robotics conferences. The broader impacts also include the involvement of graduate- and undergraduate-level students in research activities and their training.</AbstractNarration>
+<MinAmdLetterDate>08/22/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/22/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1452019</AwardID>
+<Investigator>
+<FirstName>Sertac</FirstName>
+<LastName>Karaman</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Sertac Karaman</PI_FULL_NAME>
+<EmailAddress>sertac@MIT.EDU</EmailAddress>
+<PI_PHON>6173244254</PI_PHON>
+<NSF_ID>000635500</NSF_ID>
+<StartDate>08/22/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394307</ZipCode>
+<StreetAddress><![CDATA[77 Massachusetts Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~175000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span>The project studied methods for computing controls with improved formal guarantees that properly balance critical computational tradeoffs. The applications involve planning domains with complex motion, task and real-time constraints, as well as uncertainty. To deal with these challenges, the project will build on top of the foundational progress in traditional motion planning, as well as related fields, such as graph theory, concentration of measure phenomena, and stochastic optimal control. The focus will be on allowing autonomous systems to solve complex tasks in a verifiably effective and computationally efficient manner.</span></p> <p><span>&nbsp;</span></p> <p><span>The project developed a new class of computational methods, which we call the compressed continuous computation, whereby computation is executed on compressed data structures in continuous (functional) form. The new algorithms will never explicitly discretize the state space. This will allow us to describe the complexity of a problem instance with the help of intrinsic complexity measures that are independent of the discretization, e.g., using the notion of &ldquo;function rank,&rdquo; rather than dimensionality. As a result, the new methods will break the curse of dimensionality for low-rank problems. We believe a myriad of control, estimation, inference and learning problems have, in fact, solutions with manageable rank, despite the high-dimensional nature of the underlying decision spaces. However, most existing algorithmic methods use naive data structures, such as regular grids, which become intractable rapidly with increasing dimension, even when the problem instance itself is rather tractable. <br /> </span></p> <p><span>We have shown that the compressed continuous computation paradigm is powerful. Applying the compressed continuous computation paradigm to dynamic programming algorithms, we were able to solve control problems in up to 7 dimensions with nonlinear dynamics and process noise. Solutions to problems at this scale were never obtained before. We estimated that the computational gains, e.g., in terms of memory and computation time reached to ten orders of magnitude, when compared to naive dynamic programming methods, such as value iteration using a grid-like discretization of the state space. In particular, in a control synthesis problem involving perching, we have shown that the naive algorithms would have require close to 10 petabytes of memory, while the proposed algorithms compute solutions in less than ten hours using a few megabytes of memory only.&nbsp;</span></p> <p>&nbsp;</p><br> <p>            Last Modified: 08/26/2017<br>      Modified by: Sertac&nbsp;Karaman</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The project studied methods for computing controls with improved formal guarantees that properly balance critical computational tradeoffs. The applications involve planning domains with complex motion, task and real-time constraints, as well as uncertainty. To deal with these challenges, the project will build on top of the foundational progress in traditional motion planning, as well as related fields, such as graph theory, concentration of measure phenomena, and stochastic optimal control. The focus will be on allowing autonomous systems to solve complex tasks in a verifiably effective and computationally efficient manner.     The project developed a new class of computational methods, which we call the compressed continuous computation, whereby computation is executed on compressed data structures in continuous (functional) form. The new algorithms will never explicitly discretize the state space. This will allow us to describe the complexity of a problem instance with the help of intrinsic complexity measures that are independent of the discretization, e.g., using the notion of "function rank," rather than dimensionality. As a result, the new methods will break the curse of dimensionality for low-rank problems. We believe a myriad of control, estimation, inference and learning problems have, in fact, solutions with manageable rank, despite the high-dimensional nature of the underlying decision spaces. However, most existing algorithmic methods use naive data structures, such as regular grids, which become intractable rapidly with increasing dimension, even when the problem instance itself is rather tractable.     We have shown that the compressed continuous computation paradigm is powerful. Applying the compressed continuous computation paradigm to dynamic programming algorithms, we were able to solve control problems in up to 7 dimensions with nonlinear dynamics and process noise. Solutions to problems at this scale were never obtained before. We estimated that the computational gains, e.g., in terms of memory and computation time reached to ten orders of magnitude, when compared to naive dynamic programming methods, such as value iteration using a grid-like discretization of the state space. In particular, in a control synthesis problem involving perching, we have shown that the naive algorithms would have require close to 10 petabytes of memory, while the proposed algorithms compute solutions in less than ten hours using a few megabytes of memory only.           Last Modified: 08/26/2017       Submitted by: Sertac Karaman]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

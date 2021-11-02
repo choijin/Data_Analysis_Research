@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF - Limitations of convex relaxations in combinatorial optimization</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2014</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>331073.00</AwardTotalIntnAmount>
+<AwardAmount>331073</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tracy Kimbrel</SignBlockName>
+<PO_EMAI>tkimbrel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927924</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In our modern society, planning and scheduling decisions such as those made to optimize airplane scheduling, route planning, and production planning increasingly rely on computer algorithms.    Many popular methods to solve these often computationally hard problems are based on so-called linear programming relaxations or, more generally, on convex programming relaxations.  In this project, the PI and the supported graduate student will study the theoretical power and limitations of such convex relaxations for various optimization problems.  One goal is to discover new techniques to algorithmically extract near-optimal solutions from those relaxations and hence certify the quality of those relaxations.    Another goal is to show lower bounds which prove that, for some problems, no relaxation of a certain type and quality exists.  This will yield a better understanding of techniques that are widely used in industry to solve real-world optimization problems.   In addition, finding lower bounds and fundamental limitations will help researchers and practitioners avoid wasting precious effort trying to improve techniques that have reached their limits and, instead, will focus their attention on finding alternative approaches for improved algorithms. The PI is also committed to making results available to a broad audience of students and researchers via lecture notes, survey papers, and tutorials.</AbstractNarration>
+<MinAmdLetterDate>07/16/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>07/16/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1420180</AwardID>
+<Investigator>
+<FirstName>Thomas</FirstName>
+<LastName>Rothvoss</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Thomas Rothvoss</PI_FULL_NAME>
+<EmailAddress>rothvoss@uw.edu</EmailAddress>
+<PI_PHON>2065434043</PI_PHON>
+<NSF_ID>000661599</NSF_ID>
+<StartDate>07/16/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington, Math Dept]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981954350</ZipCode>
+<StreetAddress><![CDATA[Box 354350 - Padelford C442]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~331073</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Many optimization problems that appear in an academic context within theoretical computer science as well as in real world applications are <em>NP-hard</em>, implying that likely no efficient (=polynomial time) algorithm exists to find exact optimum solutions. The goal of the project was to make progress<br />towards more effective <em>approximation algorithms</em>, which are algorithms that find provably near-optimal solutions. In particular, the focus of the project was on developing methods based on strong convex relaxations such as <em>linear programs</em> and <em>semidefinite programs</em>. <br /><br />A selection of the outcomes of the project are:</p> <ul> <li>The PI and his graduate student designed a (1 + epsilon)-approximation for <em>minimizing the makespan of unit-length jobs with precedence constraints</em>. This was on the Top 10 list of open problems in scheduling. Moreover, this work is one of the rare, striking examples making use of so called <em>linear programming hierarchies</em>.</li> <li>The PI and his graduate student found an approximation algorithm for the famous <em>Bin Packing</em> problem that only needs O(log OPT) bins more than the optimum. This makes progress towards one the 10 open problems listed in the textbook of Williamson and Shmoys and there are good arguments that this approximation ratio might be best-possible. </li> <li>The PI and graduate students developed efficient, deterministic algorithms for discrepancy minimization based on the <em>multiplicative weight update method</em>. This procedure can serve as a building block for faster approximation algorithms relying on such methods. </li> <li>The PI and graduate students developed more effective approximation algorithms for the <em>Max Min Fair Allocation</em> problem where the goal is to distribute items among agents so as to maximize the minimum utility. The paper reveals a strong connection to <em>matroids</em> which are very general and well understood structures in discrete optimization.</li> </ul><br> <p>            Last Modified: 12/27/2018<br>      Modified by: Thomas&nbsp;Rothvoss</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Many optimization problems that appear in an academic context within theoretical computer science as well as in real world applications are NP-hard, implying that likely no efficient (=polynomial time) algorithm exists to find exact optimum solutions. The goal of the project was to make progress towards more effective approximation algorithms, which are algorithms that find provably near-optimal solutions. In particular, the focus of the project was on developing methods based on strong convex relaxations such as linear programs and semidefinite programs.   A selection of the outcomes of the project are:  The PI and his graduate student designed a (1 + epsilon)-approximation for minimizing the makespan of unit-length jobs with precedence constraints. This was on the Top 10 list of open problems in scheduling. Moreover, this work is one of the rare, striking examples making use of so called linear programming hierarchies. The PI and his graduate student found an approximation algorithm for the famous Bin Packing problem that only needs O(log OPT) bins more than the optimum. This makes progress towards one the 10 open problems listed in the textbook of Williamson and Shmoys and there are good arguments that this approximation ratio might be best-possible.  The PI and graduate students developed efficient, deterministic algorithms for discrepancy minimization based on the multiplicative weight update method. This procedure can serve as a building block for faster approximation algorithms relying on such methods.  The PI and graduate students developed more effective approximation algorithms for the Max Min Fair Allocation problem where the goal is to distribute items among agents so as to maximize the minimum utility. The paper reveals a strong connection to matroids which are very general and well understood structures in discrete optimization.        Last Modified: 12/27/2018       Submitted by: Thomas Rothvoss]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

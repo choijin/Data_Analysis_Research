@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Proposal: EarthCube Integration: Pangeo: An Open Source Big Data Climate Science Platform</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>736713.00</AwardTotalIntnAmount>
+<AwardAmount>794830</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>06040000</Code>
+<Directorate>
+<Abbreviation>GEO</Abbreviation>
+<LongName>Directorate For Geosciences</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OCE</Abbreviation>
+<LongName>Division Of Ocean Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sean Kennan</SignBlockName>
+<PO_EMAI>skennan@nsf.gov</PO_EMAI>
+<PO_PHON>7032927575</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Climate, weather, and ocean simulations (Earth System Models; ESMs) are crucial tools for the study of the Earth system, providing both scientific insight into fundamental dynamics as well as valuable practical predictions about Earth's future. Continuous increases in ESM spatial resolution have led to more realistic, more detailed physical representations of Earth system processes, while the proliferation of statistical ensembles of simulations has greatly enhanced understanding of uncertainty and internal variability. Hand in hand with this progress has come the generation of Petabytes of simulation data, resulting in huge downstream challenges for geoscience researchers. The task of mining ESM output for scientific insights  has now itself become a serious Big Data problem. Existing Big Data tools cannot easily be applied to the analysis of ESM data, leading to a building crisis across a wide range of geoscience fields. This is exactly the sort of problem EarthCube was conceived to address. The project will integrate a suite of open-source software tools (the "Pangeo Platform") which together can tackle petabyte-scale ESM datasets. Additionally, training and educational materials for these tools will be developed, distributed widely online, and integrated into existing educational curricula at Columbia. A workshop at NCAR in the final year will help inform the broader community about Pangeo. Collaborators at other US climate modeling centers will encourage adoption and participation in the Pangeo project by their scientists. Beyond climate and related fields, multidimensional numeric arrays are common in many fields of science (e.g. astronomy, materials science, microscopy). However, the dominant Big Data software stack (Hadoop) is oriented towards tabular text-based data structures and cannot easily ingest petabyte scale multidimensional numeric arrays. The proposed work thus has potential to transform Data Science itself, enabling analysis of such datasets via a novel, highly scalable, highly flexible tool with a syntax familiar to disciplinary researchers.&lt;br/&gt;&lt;br/&gt;The core technologies are the python packages Dask, a flexible parallel computing library which provides dynamic task scheduling, and XArray, a wrapper layer over Dask data structures which provides user-friendly metadata tracking, indexing, and visualization. These tools interface with netCDF datasets and understand CF conventions. They will be brought to bear on four high impact Geoscience Use Cases in atmospheric science, land-surface hydrology, and physical oceanography. Disciplinary scientists will define workflows for each use case and interact with computational scientists to demonstrate, benchmark, and optimize the software. The resulting software improvements will be contributed back to the upstream open source projects, ensuring long-term sustainability of the platform. The end result will be a robust new software toolkit for climate science and beyond. This toolkit will enhance the Data Science aspect of EarthCube. Implementation of these tools on the cloud will also be tested, taking advantage of agreement between commercial cloud service providers and NSF for the BIGDATA solicitation.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>08/21/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>08/29/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.050</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1740648</AwardID>
+<Investigator>
+<FirstName>Naomi</FirstName>
+<LastName>Henderson</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Naomi L Henderson</PI_FULL_NAME>
+<EmailAddress>naomi@ldeo.columbia.edu</EmailAddress>
+<PI_PHON>8453658320</PI_PHON>
+<NSF_ID>000237049</NSF_ID>
+<StartDate>08/21/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Richard</FirstName>
+<LastName>Seager</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Richard Seager</PI_FULL_NAME>
+<EmailAddress>seager@ldeo.columbia.edu</EmailAddress>
+<PI_PHON>8453658743</PI_PHON>
+<NSF_ID>000124867</NSF_ID>
+<StartDate>08/21/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Tippett</LastName>
+<PI_MID_INIT>K</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael K Tippett</PI_FULL_NAME>
+<EmailAddress>mkt14@columbia.edu</EmailAddress>
+<PI_PHON>8456804420</PI_PHON>
+<NSF_ID>000249714</NSF_ID>
+<StartDate>08/21/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Ryan</FirstName>
+<LastName>Abernathey</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ryan Abernathey</PI_FULL_NAME>
+<EmailAddress>ra2697@columbia.edu</EmailAddress>
+<PI_PHON>8543658185</PI_PHON>
+<NSF_ID>000650948</NSF_ID>
+<StartDate>08/21/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Chiara</FirstName>
+<LastName>Lepore</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Chiara Lepore</PI_FULL_NAME>
+<EmailAddress>clepore@ldeo.columbia.edu</EmailAddress>
+<PI_PHON>8453658518</PI_PHON>
+<NSF_ID>000676713</NSF_ID>
+<StartDate>08/21/2017</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Columbia University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100276902</ZipCode>
+<PhoneNumber>2128546851</PhoneNumber>
+<StreetAddress>2960 Broadway</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049179401</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049179401</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Lamont Doherty Earth Observatory]]></Name>
+<CityName>Palisades</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>109648000</ZipCode>
+<StreetAddress><![CDATA[61 Route 9W]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>6899</Code>
+<Text>OCE-Ocean Sciences Research</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8074</Code>
+<Text>EarthCube</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~736713</FUND_OBLG>
+<FUND_OBLG>2019~58117</FUND_OBLG>
+</Award>
+</rootTag>

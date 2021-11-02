@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>DCS: Delayed Finalization of MPI Collective Communication Routines</AwardTitle>
+<AwardEffectiveDate>02/01/2006</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2010</AwardExpirationDate>
+<AwardTotalIntnAmount>0.00</AwardTotalIntnAmount>
+<AwardAmount>312041</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>Background&lt;br/&gt;&lt;br/&gt;The standardization of Message Passing Interface (MPI) has resulted in the development of a large number of MPI based parallel applications. For these applications to achieve high performance, it is crucial that the MPI library realizes communication efficiently. While progress has been made in optimizing MPI performance, the current implementations of MPI collective communication routines are far from ideal.&lt;br/&gt;&lt;br/&gt;For MPI collective communication routines to achieve high performance on different platforms, they must be able to adapt to the system architecture and use different algorithms in different situations&lt;br/&gt;&lt;br/&gt;The main challenge therefore, lies in the mechanism to facilitate a library routine to adapt to a given system/application configuration and to find the most efficient algorithm for the configuration. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Intellectual Merit&lt;br/&gt;&lt;br/&gt;The PI proposes to use a technique, which he will  call delayed finalization of MPI collective&lt;br/&gt;communication routines (DFoMCCR), to improve the software adaptability in MPI libraries.&lt;br/&gt;A system that supports DFoMCCR has two key components:&lt;br/&gt;(1) an algorithm repository that contains different algorithms that can potentially achieve high performance at different situations,&lt;br/&gt;(2) an automatic algorithm selection mechanism to determine the algorithms to be used in a routine.&lt;br/&gt;&lt;br/&gt;The delayed finalization potentially allows architecture and application specific optimizations to be performed on the library routines. A system that supports DFoMCCR can significantly out-perform traditional MPI libraries.&lt;br/&gt;&lt;br/&gt;The PI will investigate DFoMCCR and mechanisms to facilitate DFoMCCR by developing various library systems that support DFoMCCR. The plan is to implement an algorithm repository that contains extensive sets of topology/system unaware and topology/system specific algorithms for common MPI collective communication operations.&lt;br/&gt;&lt;br/&gt;Broader Impact&lt;br/&gt;&lt;br/&gt;-efficient collective communication implementations obtained from the new libraries&lt;br/&gt;-improved performance of MPI applications, which will benefit a very broad science and engineering community that uses MPI to solve problems. &lt;br/&gt;-availability of these libraries will also benefit the MPI research community.&lt;br/&gt;-project will train a number of undergraduate and graduate students in this area. &lt;br/&gt;-Some techniques developed will be included in graduate and undergraduate elective courses.&lt;br/&gt;&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>01/23/2006</MinAmdLetterDate>
+<MaxAmdLetterDate>03/21/2007</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>0541096</AwardID>
+<Investigator>
+<FirstName>Xin</FirstName>
+<LastName>Yuan</LastName>
+<EmailAddress>xyuan@cs.fsu.edu</EmailAddress>
+<StartDate>01/23/2006</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Kartik</FirstName>
+<LastName>Gopalan</LastName>
+<EmailAddress>kartik@binghamton.edu</EmailAddress>
+<StartDate>01/23/2006</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Zhenhai</FirstName>
+<LastName>Duan</LastName>
+<EmailAddress>duan@cs.fsu.edu</EmailAddress>
+<StartDate>01/23/2006</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Florida State University</Name>
+<CityName>TALLAHASSEE</CityName>
+<ZipCode>323064166</ZipCode>
+<PhoneNumber>8506445260</PhoneNumber>
+<StreetAddress>874 Traditions Way, 3rd Floor</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Florida</StateName>
+<StateCode>FL</StateCode>
+</Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>4080</Code>
+<Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7329</Code>
+<Text>COMPILERS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9216</Code>
+<Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+</Award>
+</rootTag>

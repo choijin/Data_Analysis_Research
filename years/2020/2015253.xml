@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RAPID: Sequential Sampling in Stages for Statistical Election Audits</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/01/2020</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>199662.00</AwardTotalIntnAmount>
+<AwardAmount>199662</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sara Kiesler</SignBlockName>
+<PO_EMAI>skiesler@nsf.gov</PO_EMAI>
+<PO_PHON>7032928643</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Since 2016 there has been considerable activity towards a rigorous type of post-election statistical tabulation audit known as a risk-limiting audit (RLA). The states of Colorado, Nevada, Rhode Island and Virginia require post-election RLAs, and Ohio, Pennsylvania, Michigan and others carried out pilot RLAs before 2020. This project develops algorithms for RLAs where ballots are drawn in stages, as opposed to one at a time. &lt;br/&gt;&lt;br/&gt;Current solutions are based on ratio tests such as the sequential probability ratio test (SPRT) proposed by Wald in 1945, which is a most efficient test (smallest expected sample size) if the sample is tested after each ballot draw. In real elections, ballots are drawn in stages, n ballots at a time, and then tested. n may be tens of ballots for a local contest, or hundreds of ballots for a state-level contest. Direct application of the SPRT results in a very inefficient procedure for ballot polling audits. This project develops algorithms specifically for ballots drawn in stages, and preliminary results demonstrate a significant improvement in efficiency. Beginning with an algorithm for two-candidate elections and polling audits using sampling with replacement, this project develops algorithms for multiple-candidate elections and comparison audits. It provides both: rigorous proofs that the resulting audits are risk-limited as well as software implementing the algorithms.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>02/21/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>02/21/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2015253</AwardID>
+<Investigator>
+<FirstName>Poorvi</FirstName>
+<LastName>Vora</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Poorvi Vora</PI_FULL_NAME>
+<EmailAddress>poorvi@gwu.edu</EmailAddress>
+<PI_PHON>2029947181</PI_PHON>
+<NSF_ID>000251799</NSF_ID>
+<StartDate>02/21/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>George Washington University</Name>
+<CityName>Washington</CityName>
+<ZipCode>200520086</ZipCode>
+<PhoneNumber>2029940728</PhoneNumber>
+<StreetAddress>1922 F Street NW</StreetAddress>
+<StreetAddress2><![CDATA[4th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>District of Columbia</StateName>
+<StateCode>DC</StateCode>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>DC00</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>043990498</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>GEORGE WASHINGTON UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>043990498</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[George Washington University]]></Name>
+<CityName/>
+<StateCode>DC</StateCode>
+<ZipCode>200520086</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>District of Columbia</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>DC00</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7914</Code>
+<Text>RAPID</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9102</Code>
+<Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2020~199662</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><strong>Intellectual Merit</strong>: <br /><span style="text-decoration: underline;">Analytical Expressions for Probabilities</span>:&nbsp; We derive approaches to determining the probability of stopping for an audit, given the true (unknown) underlying vote distribution. Most interesting among these are worst-case risk (probability of stopping the audit given the election is the hardest incorrect election to detect, a tie) and the probability of stopping the election given that it is as announced. We verify these analytically-obtained results on an example: <em>BRAVO</em> simulations reported by Lindeman et al. (<em>BRAVO</em> is the most commonly used ballot polling audit, and is an application of the <em>SPRT</em>.)</p> <p><br /><span style="text-decoration: underline;">New RLAs</span>: We have derived a class of audits for use when multiple ballots are drawn before a decision is taken.&nbsp; This class is tentatively named the <em>ATHENA</em>&nbsp; class and uses a predetermined schedule of round sizes. Current audits in this class are <em>METIS</em>, <em>MINERVA</em> and <em>ATHENA</em>.</p> <p>We can show that these audits are risk limiting. Further, we obtain several experimental results. For example, to illustrate the efficiency improvements, we compute (without simulations, using derived analytical expressions), for each state in the 2020 and 2016 US Presidential election, risk limit &alpha; = 0.1 and a stopping probability of 0.9, first round sizes for the various audits. We find that:</p> <ul> <li>When compared to the application of the <em>BRAVO</em>&nbsp; stopping rule as intended when it was designed---applying it after examination of individual ballots in selection-order<em>---MINERVA reduces the number of ballots by about a quarter</em>, with the improvement due to <em>MINERVA</em> being better for smaller margins.&nbsp; Thus <em>MINERVA</em> is more efficient than examining the ballots in selection order and does not require the additional bookkeeping of recording selection ballot order.</li> <li>When compared to the application of the <em>BRAVO</em>&nbsp; stopping rule requiring least effort, applying it at the end of the round without keeping track of ballot selection order, <em>MINERVA halves</em> the number of ballots required across all state margins.</li> </ul> <p><span style="text-decoration: underline;">Software</span>: Our code for the audits is available as MATLAB and Python libraries, released as open source under the MIT license.&nbsp;</p> <p><strong>Broader Impact:</strong></p> <p>Three states (Colorado, Rhode Island and Virginia) have RLAs in statute; four have a statutory pilot program (Georgia, Indiana,&nbsp; Kentucky,&nbsp; and Nevada,&nbsp; where RLAs will be a requirement in 2022);&nbsp; four allow RLAs to satisfy a more general audit requirement (California, Ohio, Oregon and Washington); and two have an administrative pilot program (Michigan and New Jersey). These are early times in the adoption of RLAs, and difficulties could scuttle these efforts. By reducing unnecessary inefficiencies, this project reduces the work load of election officials and makes ballot polling audits less laborious.&nbsp;</p> <p><strong>Outreach: </strong></p> <p>The&nbsp;<em>MINERVA</em>&nbsp; audit was used to audit the 2020 primary election in Montgomery County, Ohio.&nbsp; Our software has been  integrated as an option into Arlo, the most popular election audit  software.</p> <p>PI Vora has provided oral and written testimony to the Maryland Legislature. She serves on the Board of Directors of Verified Voting, a non-partisan non-profit influencing legislation and policy aimed at improving election integrity.</p><br> <p>            Last Modified: 06/25/2021<br>      Modified by: Poorvi&nbsp;Vora</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Intellectual Merit:  Analytical Expressions for Probabilities:  We derive approaches to determining the probability of stopping for an audit, given the true (unknown) underlying vote distribution. Most interesting among these are worst-case risk (probability of stopping the audit given the election is the hardest incorrect election to detect, a tie) and the probability of stopping the election given that it is as announced. We verify these analytically-obtained results on an example: BRAVO simulations reported by Lindeman et al. (BRAVO is the most commonly used ballot polling audit, and is an application of the SPRT.)   New RLAs: We have derived a class of audits for use when multiple ballots are drawn before a decision is taken.  This class is tentatively named the ATHENA  class and uses a predetermined schedule of round sizes. Current audits in this class are METIS, MINERVA and ATHENA.  We can show that these audits are risk limiting. Further, we obtain several experimental results. For example, to illustrate the efficiency improvements, we compute (without simulations, using derived analytical expressions), for each state in the 2020 and 2016 US Presidential election, risk limit &alpha; = 0.1 and a stopping probability of 0.9, first round sizes for the various audits. We find that:  When compared to the application of the BRAVO  stopping rule as intended when it was designed---applying it after examination of individual ballots in selection-order---MINERVA reduces the number of ballots by about a quarter, with the improvement due to MINERVA being better for smaller margins.  Thus MINERVA is more efficient than examining the ballots in selection order and does not require the additional bookkeeping of recording selection ballot order. When compared to the application of the BRAVO  stopping rule requiring least effort, applying it at the end of the round without keeping track of ballot selection order, MINERVA halves the number of ballots required across all state margins.   Software: Our code for the audits is available as MATLAB and Python libraries, released as open source under the MIT license.   Broader Impact:  Three states (Colorado, Rhode Island and Virginia) have RLAs in statute; four have a statutory pilot program (Georgia, Indiana,  Kentucky,  and Nevada,  where RLAs will be a requirement in 2022);  four allow RLAs to satisfy a more general audit requirement (California, Ohio, Oregon and Washington); and two have an administrative pilot program (Michigan and New Jersey). These are early times in the adoption of RLAs, and difficulties could scuttle these efforts. By reducing unnecessary inefficiencies, this project reduces the work load of election officials and makes ballot polling audits less laborious.   Outreach:   The MINERVA  audit was used to audit the 2020 primary election in Montgomery County, Ohio.  Our software has been  integrated as an option into Arlo, the most popular election audit  software.  PI Vora has provided oral and written testimony to the Maryland Legislature. She serves on the Board of Directors of Verified Voting, a non-partisan non-profit influencing legislation and policy aimed at improving election integrity.       Last Modified: 06/25/2021       Submitted by: Poorvi Vora]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

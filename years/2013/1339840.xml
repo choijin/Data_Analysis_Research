@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: SI2-SSI: A Comprehensive Ray Tracing Framework for Visualization in Distributed-Memory Parallel  Environments</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>235961.00</AwardTotalIntnAmount>
+<AwardAmount>235961</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Rajiv Ramnath</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Scientific visualization plays a large role in exploring the scientific simulations that run on supercomputers; new discoveries are often made by studying renderings generated through visualization of simulation results. The standard technique for rendering geometry is rasterization and the most commonly used library for performing this is OpenGL. Many visualization programs (VisIt, Ensight, VAPOR, ParaView, VTK) use OpenGL for rendering. However, recent architectural changes on supercomputers create significant opportunities for alternate rendering techniques. The computational power available on emerging many-core architectures, such as the Intel Xeon Phi processors on TACC?s Stampede system, enable ray-tracing, a higher quality technique. Further, as the amount of geometry per node rises, ray-tracing becomes increasingly cost effective, since its computational costs are proportional to the screen size, not the geometry size. Finally, the software implementation for OpenGL can not be easily mapped to non-GPU multi-core and many-core systems, creating a significant gap; if not closed, visualization will not be possible directly on large supercomputers. This confluence of new, more capable architectures, the increase in geometry per node, and concerns about the durability of the established rendering path all motivate this   work. &lt;br/&gt;&lt;br/&gt;To address these trends, this research uses a two-pronged approach. First, the research will replace the OpenGL pathways that are commonly used for visualization with a high-performance, open-source ray tracing engine that can interactively render on both a CPU and on accelerator architectures. This new library will support the OpenGL API and will be usable immediately by any OpenGL-based visualization package without additional code modi&amp;#64257;cation. Second, this research will provide a direct interface to a high-performance distributed ray tracing engine so that applications can take advantage of ray tracing capabilities not easily exposed through the standard OpenGL interface, such as participating media and global illumination simulation. These features will enable the open science community to easily create photo-realistic imagery with natural lighting cues to aid in analysis and discovery. It will further expand the capacity of existing cyberinfrastructure to provide interactive visualization on standard HPC resources. &lt;br/&gt;&lt;br/&gt;This work has the potential to revolutionize in situ visualization capabilities by unifying the (potentially hybrid) architecture that efficiently run both simulation and visualization. Communicating with underrepresented groups will be a major component of outreach efforts through the PCARP, MITE and Women in Engineering programs. In addition, the project team will disseminate this work to the general public through NSF XD program, the VisIt visualization toolkit and by exhibiting at forums such as IEEE Visualization, IEEE High Performance Graphics and ACM Supercomputing.</AbstractNarration>
+<MinAmdLetterDate>09/13/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>09/13/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1339840</AwardID>
+<Investigator>
+<FirstName>Henry</FirstName>
+<LastName>Childs</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Henry Childs</PI_FULL_NAME>
+<EmailAddress>hankchilds@gmail.com</EmailAddress>
+<PI_PHON>5413463414</PI_PHON>
+<NSF_ID>000540975</NSF_ID>
+<StartDate>09/13/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Oregon Eugene</Name>
+<CityName>Eugene</CityName>
+<ZipCode>974035219</ZipCode>
+<PhoneNumber>5413465131</PhoneNumber>
+<StreetAddress>5219 UNIVERSITY OF OREGON</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Oregon</StateName>
+<StateCode>OR</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>OR04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>079289626</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF OREGON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049793995</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Oregon Eugene]]></Name>
+<CityName/>
+<StateCode>OR</StateCode>
+<ZipCode>974031202</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Oregon</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>OR04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8004</Code>
+<Text>Software Institutes</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8009</Code>
+<Text>Scientifc Software Integration</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~235961</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Ray-tracing is a rendering technique that produces very high quality pictures.&nbsp; It has normally been used for purposes like special effects rendering and not for scientific visualization, since the times for producing such high quality pictures can be prohibitive.&nbsp; With this project, we wanted to bring ray-tracing to the scientific visualization community.&nbsp; A driving motivation was that, due to the way ray-tracing works, the very large surfaces resulting from physics simulations on supercomputers would be more suitable for ray-tracing than traditional rendering techniques.&nbsp; That said, for ray-tracing to be useful, it would have to work on the supercomputers themselves, which would require productizing emerging methods for distributed-memory parallel ray-tracing.&nbsp; Further, the resulting software would have to be made available to the public in high quality form and evangelized.&nbsp; These latter two points (distributed-memory parallism and high quality and available software) were the foci of our project.</p> <p>In terms of outcomes, our group created the GraviT project (https://www.tacc.utexas.edu/research-development/tacc-software/gravit).&nbsp; GraviT is an open source library for distributed-memory ray-tracing.&nbsp; We released this software to the public and also integrated it into existing visualization software, to increase its impact.&nbsp; Our good faith estimates on reporting metrics include 116 users, 7 system deployments, 21 community outreach efforts, 25 students involved, 38 presentations, and 21 papers.&nbsp; Further outcomes include affecting curricula to incorporate ray-tracing and demonstrations of the software at booths at conferences (including the SC conference on supercomputing).</p><br> <p>            Last Modified: 01/29/2018<br>      Modified by: Henry&nbsp;Childs</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Ray-tracing is a rendering technique that produces very high quality pictures.  It has normally been used for purposes like special effects rendering and not for scientific visualization, since the times for producing such high quality pictures can be prohibitive.  With this project, we wanted to bring ray-tracing to the scientific visualization community.  A driving motivation was that, due to the way ray-tracing works, the very large surfaces resulting from physics simulations on supercomputers would be more suitable for ray-tracing than traditional rendering techniques.  That said, for ray-tracing to be useful, it would have to work on the supercomputers themselves, which would require productizing emerging methods for distributed-memory parallel ray-tracing.  Further, the resulting software would have to be made available to the public in high quality form and evangelized.  These latter two points (distributed-memory parallism and high quality and available software) were the foci of our project.  In terms of outcomes, our group created the GraviT project (https://www.tacc.utexas.edu/research-development/tacc-software/gravit).  GraviT is an open source library for distributed-memory ray-tracing.  We released this software to the public and also integrated it into existing visualization software, to increase its impact.  Our good faith estimates on reporting metrics include 116 users, 7 system deployments, 21 community outreach efforts, 25 students involved, 38 presentations, and 21 papers.  Further outcomes include affecting curricula to incorporate ray-tracing and demonstrations of the software at booths at conferences (including the SC conference on supercomputing).       Last Modified: 01/29/2018       Submitted by: Henry Childs]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

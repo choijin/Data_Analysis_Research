@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: ACI-CDS&amp;E: Highly Parallel Algorithms and Architectures for Convex Optimization for Realtime Embedded Systems (CORES)</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2021</AwardExpirationDate>
+<AwardTotalIntnAmount>349988.00</AwardTotalIntnAmount>
+<AwardAmount>349988</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Tevfik Kosar</SignBlockName>
+<PO_EMAI>tkosar@nsf.gov</PO_EMAI>
+<PO_PHON>7032927992</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Embedded processors are ubiquitous, from toasters and microwave ovens, to automobiles, planes, drones and robots and are typically very small processors that are compute and memory constrained. Real-time embedded systems have the additional requirement of completing tasks within a certain time period to accurately and safely control appliances and devices like automobiles, planes, robots, etc. Convex optimization has emerged as an important mathematical tool for automatic control and robotics and other areas of science and engineering disciplines including machine learning and statistical information processing.  In many fields, convex optimization is used by the human designers as optimization tool where it is nearly always constrained to problems solved in a few hours, minutes or seconds. Highly Parallel Algorithms and Architectures for Convex Optimization for Realtime Embedded Systems (CORES) project takes advantage of the recent advances in embedded hardware and optimization techniques to explore opportunities for real-time convex optimization on the low-cost embedded systems in these disciplines in milli- and micro-seconds. The development of novel algorithms and their high-performance implementations for the real-time solution of practical engineering and scientific optimization problems on the embedded system will open new opportunities in the area of emerging computational science and engineering for cyber physical systems on low-cost platforms. Equally important is the CORES contributions to the education of the next generation of researchers and creators of future infrastructure for realtime computational systems for problems involving engineering optimization. Foremost, CORES will provide undergraduate and graduate level educational opportunities with a multidisciplinary breadth spanning areas as diverse as optimization theory, parallel algorithms for numerical optimization, embedded computer systems, and heterogeneous computing architectures.  Interactions with the control engineering and auto industries in the State of Michigan confirms the need for the development of expertise in this area for present and future engineering research and development. The results from CORES research will have an impact in the fields of engineering optimization and computing infrastructure for cyber physical systems.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The current algorithms for realtime convex optimization can only solve the problem with about a hundred unknowns in the Karush Kuhn Tucker (KKT) convex optimization matrices. This is because the realtime solution enforces a strict time limit on the linear solver (e.g., in microseconds) and  the current algorithms are not designed to fully utilize the limited compute power of the embedded system (e.g., a few CPU cores, plus a GPU). The CORES project will analyze the structure of complex multi-dimensional convex optimization algorithms and replaces the existing sequential implementations, which are the current performance bottleneck, with implementations of new tracking algorithms. Efficient implementations of the algorithms that can effectively leverage the compute power of the scalable heterogeneous system  architecture (SHSA) of the embedded system will be developed. The goal is to speed up the solution process and scale up the size of the optimization problems by orders of magnitude for realtime embedded applications such as control of complex cyber-physical systems (CPS). Specifically, CORES will focus on: (1) Development of high performance linear solvers that exploit the structures of the KKT matrices and leverage the compute power of SHSA and (2) Development of automatic code generation and analysis tools that analyze the structure of the convex optimization problem from a high level modeling language like MATLAB or PYTHON, perform a mapping to a decomposed parallel algorithm, and generate a hybridized multicore CPU and GPU code in OpenCL/CUDA format. Tools that CORES aims to develop come with hierarchical parallel-feature extraction, targeted for various computing elements of SHSA e.g. CPUs and GPU) in a way that eliminates the inefficiencies of inter-processors data sharing. Emerging SHSA combines general-purpose low-latency CPU cores with programmable high-bandwidth vector processing engines on a single platform, connected through a high speed data transfer engines that could still become the performance bottleneck. This feature creates unique opportunities for CORES, and others, to develop sophisticated and specialized computational algorithms and tools for engineering applications such as machine learning and autonomous vehicles  that can exploit such architectures for significantly enhancing performance and scaling up the problem size, while reducing the cost.&lt;br/&gt;&lt;br/&gt;This project is supported by the Office of Advanced Cyberinfrastructure in the Directorate for Computer &amp; Information Science &amp; Engineering and the Division of Mathematical Sciences in the Directorate of Mathematical and Physical Sciences.</AbstractNarration>
+<MinAmdLetterDate>08/24/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>08/06/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1708299</AwardID>
+<Investigator>
+<FirstName>Glen</FirstName>
+<LastName>Archer</LastName>
+<PI_MID_INIT>E</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Glen E Archer</PI_FULL_NAME>
+<EmailAddress>gearcher@mtu.edu</EmailAddress>
+<PI_PHON>9064872789</PI_PHON>
+<NSF_ID>000426029</NSF_ID>
+<StartDate>08/06/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Saeid</FirstName>
+<LastName>Nooshabadi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Saeid Nooshabadi</PI_FULL_NAME>
+<EmailAddress>saeid@mtu.edu</EmailAddress>
+<PI_PHON>9064874336</PI_PHON>
+<NSF_ID>000552983</NSF_ID>
+<StartDate>08/24/2017</StartDate>
+<EndDate>08/06/2020</EndDate>
+<RoleCode>Former Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Saeid</FirstName>
+<LastName>Nooshabadi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Saeid Nooshabadi</PI_FULL_NAME>
+<EmailAddress>saeid@mtu.edu</EmailAddress>
+<PI_PHON>9064874336</PI_PHON>
+<NSF_ID>000552983</NSF_ID>
+<StartDate>08/06/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Michigan Technological University</Name>
+<CityName>Houghton</CityName>
+<CountyName>HOUGHTON</CountyName>
+<ZipCode>499311295</ZipCode>
+<PhoneNumber>9064871885</PhoneNumber>
+<StreetAddress>1400 Townsend Drive</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>065453268</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MICHIGAN TECHNOLOGICAL UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>065453268</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Michigan Technological University]]></Name>
+<CityName>Houghton</CityName>
+<CountyName>HOUGHTON</CountyName>
+<StateCode>MI</StateCode>
+<ZipCode>499311295</ZipCode>
+<StreetAddress><![CDATA[1400 Townsend Dr]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8069</Code>
+<Text>CDS&amp;E-MSS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8084</Code>
+<Text>CDS&amp;E</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~349988</FUND_OBLG>
+</Award>
+</rootTag>

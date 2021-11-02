@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:  Large:  Collaborative Research:  Reliable Performance for Modern Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>01/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>140061.00</AwardTotalIntnAmount>
+<AwardAmount>140061</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Today's computer systems are more powerful than ever, but have become so complex that it is now difficult for programmers to produce high-performance software. Even slight changes in programs or differences in a user's system can cause dramatic slowdowns. Currently, there is no way to guarantee that a program will perform as well as it did during testing. This situation makes it extremely difficult to track down the sources of inefficiencies or repair them. The result is reduced power and computational efficiency on servers, and a degraded user experience on client platforms.&lt;br/&gt;&lt;br/&gt;This research aims to deliver reliable performance on modern computer systems. By introducing randomness into the way a computer runs programs, a reliably performant system will significantly reduce the probability that any small change will have a large impact on performance. For instance, consider a cache miss caused by a conflict. With standard caches, repeated access to the same elements would always cause misses, degrading performance.  In a randomized cache or with randomized object placement, it would be very unlikely for the same line to be repeatedly evicted. The investigators are designing and evaluating the use of both randomized algorithms in software and hardware, separately and in combination, to remedy the numerous sources of pathological behavior in modern systems. The result will enable performance-portable applications that are immune to unfortunate interactions with microprocessor components.</AbstractNarration>
+<MinAmdLetterDate>02/19/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>02/19/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1332654</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Jimenez</LastName>
+<PI_MID_INIT>A</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel A Jimenez</PI_FULL_NAME>
+<EmailAddress>djimenez@acm.org</EmailAddress>
+<PI_PHON>9798452434</PI_PHON>
+<NSF_ID>000373616</NSF_ID>
+<StartDate>02/19/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Texas A&amp;M Engineering Experiment Station</Name>
+<CityName>College Station</CityName>
+<ZipCode>778454645</ZipCode>
+<PhoneNumber>9798626777</PhoneNumber>
+<StreetAddress>400 Harvey Mitchell Pkwy S</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX17</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>847205572</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TEXAS A&amp;M ENGINEERING EXPERIMENT STATION</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042915991</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Texas Engineering Experiment Station]]></Name>
+<CityName>College Station</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>778454645</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>17</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX17</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7329</Code>
+<Text>COMPILERS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7329</Code>
+<Text>COMPILERS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7925</Code>
+<Text>LARGE PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~68811</FUND_OBLG>
+<FUND_OBLG>2012~71250</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>These days, computer systems are highly complex. We want them to achieve high performance, but a small change in one aspect of a program or device might have a large unintended impact on performance. For example, microprocessors often use the memory addresses of instructions to allocate performance-related resources to those instructions. A technique called hashing is used for an efficient allocation of resources. However, this technique can cause two unrelated instructions to accidentally contend for the same resource, with a negative impact on performance. Whether or not this accident occurs is a consequence of arithmetic properties of the memory addresses, completely unrelated to the purpose of the program, and can change when a small change occurs in the program. Thus, performance of programs can be highly variable.&nbsp; Recognizing the causes of this variance allows us to investigate ways to reduce it or exploit it.<br /><br />This work involves designing new hardware for potential future computers as well as writing new software to enhance existing computers.&nbsp; In this work, we have used program variance to develop several novel techniques related to performance variance. For instance, we have artificially manipulated the causes of variance to act as a "knob" we can turn to raise or lower performance. By observing the change in the performance, we can accurately model the impact of new hardware techniques related to the knob. In another example, we have observed that memory accesses in computing systems tend to occur in rapid bursts rather than regularly over time.&nbsp; By predicting this variable behavior of memory accesses, we are able to do a better job of scheduling memory operations so that they don't interfere with one another, improving the performance of the computer.<br /><br />We have also seen how to improve performance by incorporating new technologies into the computer system.&nbsp; For example, spin torque transfer RAM (STT-RAM) is a new technology that enables a denser and higher-capacity memory, but it has some odd properties that can reduce performance if too many of those accidental events occurs. By predicting and handling the operations that would trigger these unfortunate events differently, we can build a high-performance and high-capacity memory system. We have applied similar techniques to help build a die-stacked DRAM-based cache. Die-stacked DRAM is a new technology that builds computer memories by stacking one memory chip on top of another, allowing potentially high capacity and high speed memory transfers.<br /><br />Results from the project were communicated via presentation at high-profile computer science conferences, journal articles, and a doctoral dissertation.&nbsp; The project has added to the knowledge and set of skills researchers have at their disposal to investigate high-performance computing systems. It has also contributed some practical techniques that can be put to use in new computing devices if industry chooses to adopt them. The research has potential impacts in many aspects of computing, including potentially reduced energy in mobile devices and improved performance and energy on cloud-based computing platforms.<br /><br />This project has involved the participation of two student researchers, both of whom are women. Unfortunately, women are under-represented in computing research, so it is gratifying that this project has been able to encourage these two young women in their pursuit of a graduate degree in computer science. As of this writing, one of the women has graduated with her doctorate and the other expects to graduate in May of 2015.</p><br> <p>            Last Modified: 10/30/2014<br>      Modified by: Daniel&nbsp;A&nbsp;Jimenez</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ These days, computer systems are highly complex. We want them to achieve high performance, but a small change in one aspect of a program or device might have a large unintended impact on performance. For example, microprocessors often use the memory addresses of instructions to allocate performance-related resources to those instructions. A technique called hashing is used for an efficient allocation of resources. However, this technique can cause two unrelated instructions to accidentally contend for the same resource, with a negative impact on performance. Whether or not this accident occurs is a consequence of arithmetic properties of the memory addresses, completely unrelated to the purpose of the program, and can change when a small change occurs in the program. Thus, performance of programs can be highly variable.  Recognizing the causes of this variance allows us to investigate ways to reduce it or exploit it.  This work involves designing new hardware for potential future computers as well as writing new software to enhance existing computers.  In this work, we have used program variance to develop several novel techniques related to performance variance. For instance, we have artificially manipulated the causes of variance to act as a "knob" we can turn to raise or lower performance. By observing the change in the performance, we can accurately model the impact of new hardware techniques related to the knob. In another example, we have observed that memory accesses in computing systems tend to occur in rapid bursts rather than regularly over time.  By predicting this variable behavior of memory accesses, we are able to do a better job of scheduling memory operations so that they don't interfere with one another, improving the performance of the computer.  We have also seen how to improve performance by incorporating new technologies into the computer system.  For example, spin torque transfer RAM (STT-RAM) is a new technology that enables a denser and higher-capacity memory, but it has some odd properties that can reduce performance if too many of those accidental events occurs. By predicting and handling the operations that would trigger these unfortunate events differently, we can build a high-performance and high-capacity memory system. We have applied similar techniques to help build a die-stacked DRAM-based cache. Die-stacked DRAM is a new technology that builds computer memories by stacking one memory chip on top of another, allowing potentially high capacity and high speed memory transfers.  Results from the project were communicated via presentation at high-profile computer science conferences, journal articles, and a doctoral dissertation.  The project has added to the knowledge and set of skills researchers have at their disposal to investigate high-performance computing systems. It has also contributed some practical techniques that can be put to use in new computing devices if industry chooses to adopt them. The research has potential impacts in many aspects of computing, including potentially reduced energy in mobile devices and improved performance and energy on cloud-based computing platforms.  This project has involved the participation of two student researchers, both of whom are women. Unfortunately, women are under-represented in computing research, so it is gratifying that this project has been able to encourage these two young women in their pursuit of a graduate degree in computer science. As of this writing, one of the women has graduated with her doctorate and the other expects to graduate in May of 2015.       Last Modified: 10/30/2014       Submitted by: Daniel A Jimenez]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

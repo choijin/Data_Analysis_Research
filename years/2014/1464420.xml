@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: RI: High-Speed Vision-Based Motion Estimation</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>04/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>174802.00</AwardTotalIntnAmount>
+<AwardAmount>174802</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Erion Plaku</SignBlockName>
+<PO_EMAI>eplaku@nsf.gov</PO_EMAI>
+<PO_PHON>7032928695</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Device motion estimation is a key component of spatially-aware systems such as mobile robots and virtual or augmented reality displays. Integration of motion estimates over time, or dead reckoning, is typically used to track the position and orientation of the device in space between intermittent absolute position measurements. Vision-based motion estimation is a passive, low-cost approach that provides high accuracy. This project develops faster methods for vision-based motion estimation. &lt;br/&gt;&lt;br/&gt;The motivation for this work is the basic insight that increasing the speed of motion estimation leads to a "virtuous cycle" of system improvement: by computing the motion estimate more quickly, the camera can be operated a higher rate; this in turns leads to less motion between successive frames, enabling faster computations. The speedups achieved in the current preliminary work rely on two techniques: approximation of the motion model; and reduction of fundamental geometric problem to a smaller form which is quicker to solve. By investigating related problems, the PI seeks to determine an entire class of visual motion estimation problems which can be efficiently solved in a similar way.</AbstractNarration>
+<MinAmdLetterDate>05/01/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>04/05/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1464420</AwardID>
+<Investigator>
+<FirstName>Jonathan</FirstName>
+<LastName>Ventura</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jonathan Ventura</PI_FULL_NAME>
+<EmailAddress>jventu09@calpoly.edu</EmailAddress>
+<PI_PHON>8057565624</PI_PHON>
+<NSF_ID>000677310</NSF_ID>
+<StartDate>05/01/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Colorado at Colorado Springs</Name>
+<CityName>Colorado Springs</CityName>
+<ZipCode>809183733</ZipCode>
+<PhoneNumber>7192553153</PhoneNumber>
+<StreetAddress>1420, Austin Bluffs Parkway</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CO05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>186192829</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF COLORADO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>007431505</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Colorado at Colorado Springs]]></Name>
+<CityName>Colorado Springs</CityName>
+<StateCode>CO</StateCode>
+<ZipCode>809183733</ZipCode>
+<StreetAddress><![CDATA[1420 Austin Bluffs Parkway]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CO05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~174802</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p><span id="docs-internal-guid-66858a71-7fff-553e-aea0-20b066046bea"> </span></p> <p dir="ltr"><span>In this project, we explored new algorithms for estimating the motion of a camera based on the movement of points observed in the video stream.&nbsp; Many diverse applications such as robotics, self-driving cars, and virtual and augmented reality displays rely on cameras for positioning and motion estimation.&nbsp; Our work provides more efficient computational solutions to visual motion estimation which are suitable for implementation on resource-constrained hardware.</span></p> <p dir="ltr"><span>We addressed the difficult problem of estimating motion from multiple video streams as captured by cameras mounted on a moving rig.&nbsp; We explored new, highly efficient solutions to this problem using either an approximated motion model or so-called affine correspondences which are more informative than the traditionally-used point correspondences.</span></p> <p dir="ltr"><span>We explored how to estimate the motion of a handheld or head-worn camera when the user is mostly stationary -- for example, they are capturing a panorama by spinning in a circle, or sitting in a seat watching a sporting event.&nbsp; We developed a new mathematical model for these kinds of motions and implemented new algorithms to accurately recover the camera motion.&nbsp; Our new methods enable a user to easily capture the images required to stitch a stereoscopic panoramic image or view augmented reality content in a large environment such as a sports stadium.</span></p> <p dir="ltr"><span>We also investigated new machine learning-based methods for depth and ego-motion estimation in panoramic images.&nbsp; Given a single panoramic image as input, our system can predict the depth of each pixel in the image.&nbsp; This technology has applications in robotics, self-driving cars, and virtual reality.</span></p> <p dir="ltr"><span>We released much of the code and datasets from this work publicly.&nbsp; This project provided support for 7 graduate students and 5 undergraduate students, including 3 females.</span></p><br> <p>            Last Modified: 08/19/2020<br>      Modified by: Jonathan&nbsp;Ventura</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[   In this project, we explored new algorithms for estimating the motion of a camera based on the movement of points observed in the video stream.  Many diverse applications such as robotics, self-driving cars, and virtual and augmented reality displays rely on cameras for positioning and motion estimation.  Our work provides more efficient computational solutions to visual motion estimation which are suitable for implementation on resource-constrained hardware. We addressed the difficult problem of estimating motion from multiple video streams as captured by cameras mounted on a moving rig.  We explored new, highly efficient solutions to this problem using either an approximated motion model or so-called affine correspondences which are more informative than the traditionally-used point correspondences. We explored how to estimate the motion of a handheld or head-worn camera when the user is mostly stationary -- for example, they are capturing a panorama by spinning in a circle, or sitting in a seat watching a sporting event.  We developed a new mathematical model for these kinds of motions and implemented new algorithms to accurately recover the camera motion.  Our new methods enable a user to easily capture the images required to stitch a stereoscopic panoramic image or view augmented reality content in a large environment such as a sports stadium. We also investigated new machine learning-based methods for depth and ego-motion estimation in panoramic images.  Given a single panoramic image as input, our system can predict the depth of each pixel in the image.  This technology has applications in robotics, self-driving cars, and virtual reality. We released much of the code and datasets from this work publicly.  This project provided support for 7 graduate students and 5 undergraduate students, including 3 females.       Last Modified: 08/19/2020       Submitted by: Jonathan Ventura]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

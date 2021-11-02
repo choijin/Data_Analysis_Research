@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>A Practical Approach to Rothe's Method:  Method of Lines Transpose</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/15/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>205000.00</AwardTotalIntnAmount>
+<AwardAmount>205000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Many important equations in Physics, Chemistry and Materials Science exhibit a range of critical time scales. Generally, behaviors break up into a range of fast, medium, and slow time scales. Take for example the process of casting a polymer membrane that undergoes phase separation during the casting process. Polymers of this type include fuel cell membranes, separators in modern batteries, and polymer based solar cells. The fastest time scale is the spinodal region (an initial coursing process during casting) which might be pico to micro seconds. Then comes a longer transient phase, which is on the order of tens of minutes to hours. This transient is when the system settles down and the membrane starts to take its final form. The overall casting process can take days to complete, dictating how well the membrane will work. The state of the art for modeling these processes is to use direct simulation of casting by modeling the individual atoms in the system using molecular dynamics. However, even on the biggest super computers, the best methods can only simulate hundreds of pico seconds. To obtain accurate models of these systems over these time scales, a new class of models, functionalized Cahn Hilliard, was proposed. However, this type of model is very challenging to solve, requiring both temporal and spatial accuracy over a wide range of scales. To accommodate this model, we are developing a new class of numerical methods which take advantage of the multi-core computing revolution.  If successful, this new class of numerical methods will facilitate rapid simulations of problems we could only experimentally interrogate in the past. The overall goal in developing this new class of numerical methods for challenging models of this nature is to move the process of design away from an Edisonian approach to one of thoughtful design process. With reliable numerical tools, the process of design can be greatly enhanced. A key example of this is the materials and wing design of the new Boeing 777 aircraft, which was designed primarily through computer simulation.&lt;br/&gt;&lt;br/&gt;This proposal centers on the development of O(N), semi-analytic, high order, implicit solvers based on the method of lines transpose, otherwise known as Rothe's method, for a large class of PDEs. The methods are motivated by the PIs work on developing an A-Stable to all orders in time implicit method for acoustic problems with a variable wave speed. The method starts by discretizing the PDE in time, then solving the resulting non-oscillatory Helmholtz equation using a fast summation methodology, i.e., we use the free space Green's function to invert the operators followed by applying a boundary integral to correct the free space solution. To generate high order solutions, a new approach based on successive convolution is introduced. The proposal centers on the extension of the core algorithm, based on successive convolution, to a wide class of linear and non-linear PDEs.  A novel method for multi-level domain decomposition (DD) is presented. The DD method offers a possible  path for developing scalable versions of the algorithm for distributed multi-core platforms.</AbstractNarration>
+<MinAmdLetterDate>08/06/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>09/09/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1418804</AwardID>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>Christlieb</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew Christlieb</PI_FULL_NAME>
+<EmailAddress>christli@msu.edu</EmailAddress>
+<PI_PHON>5178848947</PI_PHON>
+<NSF_ID>000322671</NSF_ID>
+<StartDate>08/06/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Michigan State University</Name>
+<CityName>East Lansing</CityName>
+<ZipCode>488242600</ZipCode>
+<PhoneNumber>5173555040</PhoneNumber>
+<StreetAddress>Office of Sponsored Programs</StreetAddress>
+<StreetAddress2><![CDATA[426 Administration Bldg, Rm2]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<StateCode>MI</StateCode>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MI08</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>193247145</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MICHIGAN STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>053343976</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Michigan State University]]></Name>
+<CityName>East Lansing</CityName>
+<StateCode>MI</StateCode>
+<ZipCode>488241212</ZipCode>
+<StreetAddress><![CDATA[619 Red Cedar Rd, Room D319]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Michigan</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>08</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MI08</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~66075</FUND_OBLG>
+<FUND_OBLG>2015~138925</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Moore&rsquo;s Law and an enormous multi-decadal national investment in massively parallel computational resources have enabled numerical simulations to have major impacts on fields as diverse as aircraft development, bioinformatics and weather simulations. However, many problems of critical importance remain, in any meaningful sense, computationally intractable. A common theme throughout the hardest simulation problems is the tight coupling of different underlying physical phenomena over broad scales in length and time. To truly capture the promise of numerical simulation, there is an outstanding need to develop a new generation of efficient scalable algorithms to simulate complex multiphysics problems.</p> <p><br />While there are many applications for a new generation of multiphysics algorithms, we are motivated by addressing problems in plasma science. There are myriad plasma applications in engineering and science. Plasmas are essential in the modern manufacturing of microchips, a powerful new tool in medicine, from sterilization through exciting breakthroughs in wound healing, and hold the promise of clean fusion power. Virtually all plasmas encompass a large range of scales and demonstrate complex nonlinear behavior. Consider the challenges associated with modeling an arc-discharge - accurately simulating the plasma requires bridging time scales from waves that propagate at the speed of light to the speed of sound. It is this &nbsp;dynamic range in scales that makes modeling plasmas difficult.</p> <p><br />A class of methods that one would want to employ on these problems are implicit algorithms. &nbsp;These methods make it tractable to only resolve the essential physics, making it possible to skip over length and time scales that are deemed not significant. &nbsp;However, this kind of method does not scale on massively multi-core super computers, limiting there utility. &nbsp;In this work, we have developed a new class of implicit methods that is O(N), is designed to be scalable on multi-core super computers and does not require iteration, cutting down on parallel communication. &nbsp;We have demonstrated these methods on degenerate advection diffusion and the Hamilton Jacobi (two models that are significant in plasma science) equations as test cases in multiple spatial dimensions. &nbsp;</p><br> <p>            Last Modified: 02/06/2019<br>      Modified by: Andrew&nbsp;Christlieb</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Moore?s Law and an enormous multi-decadal national investment in massively parallel computational resources have enabled numerical simulations to have major impacts on fields as diverse as aircraft development, bioinformatics and weather simulations. However, many problems of critical importance remain, in any meaningful sense, computationally intractable. A common theme throughout the hardest simulation problems is the tight coupling of different underlying physical phenomena over broad scales in length and time. To truly capture the promise of numerical simulation, there is an outstanding need to develop a new generation of efficient scalable algorithms to simulate complex multiphysics problems.   While there are many applications for a new generation of multiphysics algorithms, we are motivated by addressing problems in plasma science. There are myriad plasma applications in engineering and science. Plasmas are essential in the modern manufacturing of microchips, a powerful new tool in medicine, from sterilization through exciting breakthroughs in wound healing, and hold the promise of clean fusion power. Virtually all plasmas encompass a large range of scales and demonstrate complex nonlinear behavior. Consider the challenges associated with modeling an arc-discharge - accurately simulating the plasma requires bridging time scales from waves that propagate at the speed of light to the speed of sound. It is this  dynamic range in scales that makes modeling plasmas difficult.   A class of methods that one would want to employ on these problems are implicit algorithms.  These methods make it tractable to only resolve the essential physics, making it possible to skip over length and time scales that are deemed not significant.  However, this kind of method does not scale on massively multi-core super computers, limiting there utility.  In this work, we have developed a new class of implicit methods that is O(N), is designed to be scalable on multi-core super computers and does not require iteration, cutting down on parallel communication.  We have demonstrated these methods on degenerate advection diffusion and the Hamilton Jacobi (two models that are significant in plasma science) equations as test cases in multiple spatial dimensions.         Last Modified: 02/06/2019       Submitted by: Andrew Christlieb]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

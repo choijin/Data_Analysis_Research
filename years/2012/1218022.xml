@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Small: Beating Implementations of C++11 Concurrency Into Shape</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>467740.00</AwardTotalIntnAmount>
+<AwardAmount>467740</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The recently-ratified C and C++ standards, "C11" and "C++11"&lt;br/&gt;respectively, add a concurrency model that supports writing&lt;br/&gt;high-performance, portable code for machines with multiple processors.&lt;br/&gt;The concurrency model, however, is large and complicated; it is not&lt;br/&gt;particularly easy for compiler and library developers to get all of&lt;br/&gt;its corner cases right. Errors in implementing the new model can&lt;br/&gt;introduce bugs into important pieces of software, such as operating&lt;br/&gt;systems, web browsers, web sites, database engines, and embedded&lt;br/&gt;systems, all of which are written, at least partially, in concurrent C&lt;br/&gt;and C++.&lt;br/&gt;&lt;br/&gt;The PI's previous work on randomized testing for C compilers uncovered&lt;br/&gt;more than 450 bugs in production-quality compilers, most of which were&lt;br/&gt;fixed by compiler developers. The PI's current project extends this&lt;br/&gt;research agenda to support stress testing of implementations of the&lt;br/&gt;C11 and C++11 concurrency model. The intellectual merit of this work&lt;br/&gt;stems from the need to generate random, but standards-conforming,&lt;br/&gt;concurrent code; the need to synthesize "test oracles" that can&lt;br/&gt;automatically ascertain the success or failure of a test case; and,&lt;br/&gt;the need to develop "hostile" simulators for flushing out errors in&lt;br/&gt;compiled concurrent code.&lt;br/&gt;&lt;br/&gt;The expected impact of the PI's work is to significantly reduce the&lt;br/&gt;period during which implementations of the C11 / C++11 concurrency&lt;br/&gt;model are flaky and immature, and to reduce the lifetime of compiler&lt;br/&gt;bugs that are introduced during ongoing development.</AbstractNarration>
+<MinAmdLetterDate>08/13/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>10/03/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218022</AwardID>
+<Investigator>
+<FirstName>John</FirstName>
+<LastName>Regehr</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>John D Regehr</PI_FULL_NAME>
+<EmailAddress>regehr@cs.utah.edu</EmailAddress>
+<PI_PHON>8015859086</PI_PHON>
+<NSF_ID>000310362</NSF_ID>
+<StartDate>08/13/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName>Salt Lake City</CityName>
+<StateCode>UT</StateCode>
+<ZipCode>841128930</ZipCode>
+<StreetAddress><![CDATA[201 PRESIDENTS CIRCLE ROOM 201]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~467740</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project focused on the LLVM compiler, which is extremely widely used in industry as well as being the basis for numberous academic projects, including many formal-methods-based ones. The work also broadened out a bit, focusing on memory models in general, instead of only on concurrency-related aspects of memory models. This refocusing had two motivations. First, some of the work that I had originally proposed got done by other people. Second, as my own research got deeper and deeper into the innards of LLVM, my colleagues and I kept running into very difficult-to-answer questions about its memory model. People in the LLVM community could not always find satisfactory answers to these questions, so we felt that it was up to us to try to figure out the solutions. LLVM is targeted by a lot of different front-ends these days, as well as quite a few formal methods-based tools (such as my group's Souper and Alive tools) and so it is really important that we know what LLVM code actually means.&nbsp;</p> <p>The high-level goals of this project, then, were to clarify and, if possible or necessary, fix the LLVM memory model. A major accomplishment was a body of work which resulted in this publication:</p> <p><a rel="nofollow" href="http://www.cs.utah.edu/~regehr/oopsla18.pdf">http://www.cs.utah.edu/~regehr/oopsla18.pdf</a></p> <p>This work came out of an effort by my group and my collaborators to understand what is superficially a really simple question: when you read from memory in LLVM code, what value should be returned? This ends up getting into very difficult territory (I consider this work to be some of the hardest material I've worked on during my career) but it is essential to be able to answer this this question if we are going to reason about what code in LLVM IR actually means.</p> <p>The short version of our results is this: At present, the LLVM memory model has some cases that are not specified precisely enough to tell us what some programs mean, and consequently we can get LLVM to miscompile programs (even those written in Rust, a safe and modern programming language). We developed a memory model that we believe fixes these problems without interfering with something that is very important in practice, which is allowing LLVM to perform most of the optimizations that it currently performs. This was the real trick: justifying optimizations that compiler developers intuitively "know" are ok, without breaking programs.</p> <p>The other major activity was accomplished by my PhD student Jubi Taneja.&nbsp; She has accomplished a nice piece of work that is under submission, but has not yet been published, that is part of her PhD work. The specific aim of this work was to look into the soundness and precision of dataflow analyses in LLVM. Soundness is important because LLVM can miscompile based on the results of an unsound analysis. Precision is important because imprecisiuon leads to missed optimizations. The tool that we used to look for dataflow soundness and precision bugs was a modified version of Souper, my group's formal-methods-based superoptimizer for LLVM IR.</p> <p>Jubi looked at 7 static analyses in LLVM and found numerous imprecisions in each of them. Some of these have resulted in patches being accepted to LLVM which inceased its static analysis precision. She did not find any unsound analyses (which is perhaps not surprising since this compiler is used on billions of lines of code in the real world).</p><br> <p>            Last Modified: 07/01/2019<br>      Modified by: John&nbsp;D&nbsp;Regehr</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project focused on the LLVM compiler, which is extremely widely used in industry as well as being the basis for numberous academic projects, including many formal-methods-based ones. The work also broadened out a bit, focusing on memory models in general, instead of only on concurrency-related aspects of memory models. This refocusing had two motivations. First, some of the work that I had originally proposed got done by other people. Second, as my own research got deeper and deeper into the innards of LLVM, my colleagues and I kept running into very difficult-to-answer questions about its memory model. People in the LLVM community could not always find satisfactory answers to these questions, so we felt that it was up to us to try to figure out the solutions. LLVM is targeted by a lot of different front-ends these days, as well as quite a few formal methods-based tools (such as my group's Souper and Alive tools) and so it is really important that we know what LLVM code actually means.   The high-level goals of this project, then, were to clarify and, if possible or necessary, fix the LLVM memory model. A major accomplishment was a body of work which resulted in this publication:  http://www.cs.utah.edu/~regehr/oopsla18.pdf  This work came out of an effort by my group and my collaborators to understand what is superficially a really simple question: when you read from memory in LLVM code, what value should be returned? This ends up getting into very difficult territory (I consider this work to be some of the hardest material I've worked on during my career) but it is essential to be able to answer this this question if we are going to reason about what code in LLVM IR actually means.  The short version of our results is this: At present, the LLVM memory model has some cases that are not specified precisely enough to tell us what some programs mean, and consequently we can get LLVM to miscompile programs (even those written in Rust, a safe and modern programming language). We developed a memory model that we believe fixes these problems without interfering with something that is very important in practice, which is allowing LLVM to perform most of the optimizations that it currently performs. This was the real trick: justifying optimizations that compiler developers intuitively "know" are ok, without breaking programs.  The other major activity was accomplished by my PhD student Jubi Taneja.  She has accomplished a nice piece of work that is under submission, but has not yet been published, that is part of her PhD work. The specific aim of this work was to look into the soundness and precision of dataflow analyses in LLVM. Soundness is important because LLVM can miscompile based on the results of an unsound analysis. Precision is important because imprecisiuon leads to missed optimizations. The tool that we used to look for dataflow soundness and precision bugs was a modified version of Souper, my group's formal-methods-based superoptimizer for LLVM IR.  Jubi looked at 7 static analyses in LLVM and found numerous imprecisions in each of them. Some of these have resulted in patches being accepted to LLVM which inceased its static analysis precision. She did not find any unsound analyses (which is perhaps not surprising since this compiler is used on billions of lines of code in the real world).       Last Modified: 07/01/2019       Submitted by: John D Regehr]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

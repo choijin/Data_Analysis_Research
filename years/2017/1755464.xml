@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: OAC: Scalable Cyberinfrastructure for Big Graph and Matrix/Tensor Analytics</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>170941.00</AwardTotalIntnAmount>
+<AwardAmount>170941</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05090000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>OAC</Abbreviation>
+<LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Alan Sussman</SignBlockName>
+<PO_EMAI>alasussm@nsf.gov</PO_EMAI>
+<PO_PHON>7032927563</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The existing distributed graph and matrix analytics frameworks are designed with data-intensive workloads in mind, rendering them inefficient for compute-intensive applications such as graph mining and scientific computing. The goal of this project is to develop novel big data frameworks for two compute-intensive tasks, graph mining and matrix/tensor computations, respectively. The two frameworks advance the field of big data analytics by motivating future systems for compute-intensive analytics, and promoting their application in various scientific areas to improve research productivity. The two systems will be available for public use, and can serve several cross-disciplinary projects in computer forensics, computational physics, and bioinformatics. The project includes mentoring graduate students and training K-12 students through summer internships, as well as related new course materials and outreach activities to help the public learn big data technologies. Thus, the project aligns with the NSF's mission to promote the progress of science and to advance the national health and prosperity.&lt;br/&gt;&lt;br/&gt;The graph mining system and the matrix/tensor platform share the design of (i) a tailor-made storage subsystem providing efficient and flexible data access, and (ii) a computation subsystem with fine-grained task control for data-reuse-aware task assignment and load balancing. The graph mining system, called G-thinker, aims to facilitate the writing of distributed programs which mine from a big graph those subgraphs that satisfy certain requirements. Such mining problems are useful in many applications like community detection and subgraph matching. These problems usually have a high computational complexity, and existing serial algorithms tackle these problems by backtracking in a duplication-free vertex-set numeration tree, which recursively partitions the search space. G-thinker adopts an intuitive programming interface that minimizes the effort of adapting an existing serial subgraph mining algorithm for distributed execution. The subgraphs to mine are spawned from individual vertices and they grow their frontiers as needed, and memory overflow is avoided by spilling subgraphs to disks when needed. In each machine, vertices and edges shared by multiple subgraphs need only be transmitted and cached once, which minimizes communication (and hence data waiting) so that CPU cores are better utilized. To address the load-balancing problem of power-law graphs, G-thinker explores recursive decomposition and work stealing to allow idle machines to steal subgraphs for mining from heavily-loaded machines. The project also explores a distributed matrix/tensor storage and computing framework, where matrix/tensor partitions are stored in multiple replicas using different storage schemes to efficiently support all kinds of submatrix access operations. This flexible storage scheme offers the upper-layer computations much more opportunities for fine-grained optimizations, including smarter task scheduling and in-situ updates. The use of this framework is exemplified by matrix multiplication and LU factorization. Both of the proposed frameworks can help build a cyberinfrastructure for collaborations with scientists in science, medicine, and industry.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>05/23/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>05/23/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1755464</AwardID>
+<Investigator>
+<FirstName>Da</FirstName>
+<LastName>Yan</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Da Yan</PI_FULL_NAME>
+<EmailAddress>yanda@uab.edu</EmailAddress>
+<PI_PHON>2052071962</PI_PHON>
+<NSF_ID>000732653</NSF_ID>
+<StartDate>05/23/2018</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Alabama at Birmingham</Name>
+<CityName>Birmingham</CityName>
+<CountyName/>
+<ZipCode>352940001</ZipCode>
+<PhoneNumber>2059345266</PhoneNumber>
+<StreetAddress>AB 1170</StreetAddress>
+<StreetAddress2><![CDATA[1720 2nd Avenue South]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Alabama</StateName>
+<StateCode>AL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>AL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>063690705</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ALABAMA AT BIRMINGHAM</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>808245794</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Alabama at Birmingham]]></Name>
+<CityName>Birmingham</CityName>
+<CountyName/>
+<StateCode>AL</StateCode>
+<ZipCode>352331405</ZipCode>
+<StreetAddress><![CDATA[1300 University Blvd]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Alabama</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>AL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>9150</Code>
+<Text>EPSCoR Co-Funding</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>026Z</Code>
+<Text>NSCI: National Strategic Computing Initi</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~170941</FUND_OBLG>
+</Award>
+</rootTag>

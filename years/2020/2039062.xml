@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CPS: Medium: Correct-by-Construction Controller Synthesis using Gaussian Process Transfer Learning</AwardTitle>
+<AwardEffectiveDate>01/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>1200000.00</AwardTotalIntnAmount>
+<AwardAmount>1200000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Corman</SignBlockName>
+</ProgramOfficer>
+<AbstractNarration>This project proposes a novel and rigorous methodology for the design of embedded control software for safety-critical cyber-physical systems (CPS) with complex and possibly unknown dynamics by embracing ideas from control theory, formal verification in computer science, and Gaussian processes (GPs) from machine learning. Embedded control software forms the main core of autonomous transportation, traffic networks, power networks, aerospace systems, and health and assisted living. These applications are examples of CPS, wherein software components interact tightly with physical systems with complex dynamics. Recent technological advances in sensing, memory, and communication technology offer unprecedented opportunities for ubiquitously collecting data at high details and large scales for CPS. Utilization of data at these scales poses major challenges for a rigorous analysis and design of CPS, particularly in view of the additional inherent uncertainty that data-driven control signals introduce to systems behavior. In fact, this effect has not been well understood to this date, primarily due to the missing link between data analytic techniques in machine learning and the underlying physics of dynamical systems in a rigorous system design. In addition, most of the existing results proposed in the literature on the formal verification or synthesis of CPS are model-based, whereas in many applications, a model may not be always available or may be too complex for current techniques. &lt;br/&gt;&lt;br/&gt;This project investigates a novel correct-by-construction controller synthesis scheme for CPS with complex and possibly unknown dynamics by embracing ideas from the GPs. Particularly, given temporal logic requirements (e.g. those expressed as linear temporal logic formula or by omega-regular languages) for the CPS, they will be decomposed to simpler reachability tasks based on the types of automata representing those properties. Then, the project develops an approach to solve those simpler tasks by computing so-called control barrier functions together with their corresponding hybrid controllers using regressed GPs of the unknown CPS. In addition, the investigators develop an adaptive transfer learning approach that leverages previously learned GPs and emploies them as sources of information in learning new ones especially when limited training data are available. The project develops a scheme on either transferring the controllers designed for old GPs to new ones or safely modifying them on the fly while formally guaranteeing their correctness for the new GPs. The algorithms are implemented into design software tools and evaluated on actual CPS platforms, namely, autonomous underwater vehicles and aerial robots.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>09/08/2020</MinAmdLetterDate>
+<MaxAmdLetterDate>10/14/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<AwardID>2039062</AwardID>
+<Investigator>
+<FirstName>Eric</FirstName>
+<LastName>Frew</LastName>
+<EmailAddress>eric.frew@colorado.edu</EmailAddress>
+<StartDate>09/08/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Majid</FirstName>
+<LastName>Zamani</LastName>
+<EmailAddress>majid.zamani@colorado.edu</EmailAddress>
+<StartDate>09/08/2020</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Morteza</FirstName>
+<LastName>Lahijanian</LastName>
+<EmailAddress>morteza.lahijanian@colorado.edu</EmailAddress>
+<StartDate>09/08/2020</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Colorado at Boulder</Name>
+<CityName>Boulder</CityName>
+<ZipCode>803031058</ZipCode>
+<PhoneNumber>3034926221</PhoneNumber>
+<StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+</Institution>
+<ProgramElement>
+<Code>7918</Code>
+<Text>CPS-Cyber-Physical Systems</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7918</Code>
+<Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0120</Code>
+</Appropriation>
+</Award>
+</rootTag>

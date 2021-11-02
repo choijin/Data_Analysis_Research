@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>TWC: Small: On Imperfect Randomness and Leakage-Resilient Cryptography</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>499999.00</AwardTotalIntnAmount>
+<AwardAmount>499999</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The availability of ideal randomness is a common assumption used not only in cryptography, but in many other areas of computer science, and engineering in general. Unfortunately, in many situations this assumption is highly unrealistic, and cryptographic systems have to be built based on imperfect sources of randomness. Motivated by these considerations, this project will investigate the validity of this assumption and consider several important scenarios where secure cryptographic systems must be built based on various kinds of imperfect randomness. &lt;br/&gt;&lt;br/&gt;This project investigates the feasibility of cryptography with imperfect sources of randomness, and whether ideal randomness is necessary for building various cryptographic primitives. These techniques will be applied to the area of leakage-resilient cryptography. Namely, we consider a realistic attack scenario where the adversary can gain partial knowledge of some secret information. This project will design novel protocols which are resilient to such leakage of partial information.</AbstractNarration>
+<MinAmdLetterDate>06/20/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>06/20/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1319051</AwardID>
+<Investigator>
+<FirstName>Yevgeniy</FirstName>
+<LastName>Dodis</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Yevgeniy Dodis</PI_FULL_NAME>
+<EmailAddress>dodis@cs.nyu.edu</EmailAddress>
+<PI_PHON>2129983084</PI_PHON>
+<NSF_ID>000122311</NSF_ID>
+<StartDate>06/20/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100121019</ZipCode>
+<StreetAddress><![CDATA[251 Mercer Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~499999</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this project was to address the question as to what extent cryptographic protocols can be adapted to work with imperfect sources of randomness, or sources or randomness which were subverted by an attacker. First, we studied the question of building secure random number generators (RNGs). We shows that Linux RNG has several weaknesses which make fall shport of the security levels of RNGs required by moden cryprography. We also&nbsp;showed the first theoretical analysis (and improvements) of Windows 8 /10 RNG Fortuna. In addition to attacking/analyzing these existing RNGconstructions, we also designed a new theoretical framework for building and rigorouslyanalyzing RNGs, and designed several new and provably secure RNGs in our framework, which provideboth qualitative and quantitative security and efficiency improvements to known RNG constructions. We also showed that it is possible to design innocently looking, secure random number generators which have some secret trapdoor allowing the owner of this trapdoor to completely predict the randomness output by such an RNG. We also designed some provably secure counter-measures.&nbsp;In a related vein, we showed how to build secure message transmission protocols using a new type of firewall --- called reverse firewall ---- even if users cannot trust their own machines!</p> <p>&nbsp;</p> <p>Additionally, we studied the type of randomness necessary for achieving privacy in cryptography. On a negative, we showed than seemingly "nice" sources of randomness are not enough to achieve most forms of privacy, and privacy requires almost perfect randomness. On a positive, we lowered the randomness requirement for an important type of privacy called differential privacy, which is used to doing useful statistical computations without violating the privacy of individuals.&nbsp;</p> <p>We also built novel privacy amplification (PA) protocols, which allow two parties sharing a weak secret to agree on a strong secret, despite the presence of an eavesdropper who completely controls the communication channels. Unlike prior PA protocols, our PA protocols provide source privacy and improve the entropy loss as compared to the prior protocols. Additionally, we show how to extract an optimal number of keys in the so called bounded retrieval model.</p> <p>Finally, we studied the problem of key derivation allowing users &nbsp;to convert an imperfect entropy source into the longest possible nearly uniform cryptographic key. Previous solutions to this problem achieved this task, but at the expense of extracting a key which was noticeably shorter than the entropy of the source. In fact, some prior work even suggested that such non-trivial "entropy loss" is inherent to the problem. In a very surprising result, we showed that this intuition is wrong, by designing the first provably secure key derivation functions (for a large collection of cryptographic applications) which achieve almost no entropy loss. Given that many entropy sources have very little entropy to begin with, we hope that our work will likely have a significant impact in practice.</p><br> <p>            Last Modified: 08/16/2017<br>      Modified by: Yevgeniy&nbsp;Dodis</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this project was to address the question as to what extent cryptographic protocols can be adapted to work with imperfect sources of randomness, or sources or randomness which were subverted by an attacker. First, we studied the question of building secure random number generators (RNGs). We shows that Linux RNG has several weaknesses which make fall shport of the security levels of RNGs required by moden cryprography. We also showed the first theoretical analysis (and improvements) of Windows 8 /10 RNG Fortuna. In addition to attacking/analyzing these existing RNGconstructions, we also designed a new theoretical framework for building and rigorouslyanalyzing RNGs, and designed several new and provably secure RNGs in our framework, which provideboth qualitative and quantitative security and efficiency improvements to known RNG constructions. We also showed that it is possible to design innocently looking, secure random number generators which have some secret trapdoor allowing the owner of this trapdoor to completely predict the randomness output by such an RNG. We also designed some provably secure counter-measures. In a related vein, we showed how to build secure message transmission protocols using a new type of firewall --- called reverse firewall ---- even if users cannot trust their own machines!     Additionally, we studied the type of randomness necessary for achieving privacy in cryptography. On a negative, we showed than seemingly "nice" sources of randomness are not enough to achieve most forms of privacy, and privacy requires almost perfect randomness. On a positive, we lowered the randomness requirement for an important type of privacy called differential privacy, which is used to doing useful statistical computations without violating the privacy of individuals.   We also built novel privacy amplification (PA) protocols, which allow two parties sharing a weak secret to agree on a strong secret, despite the presence of an eavesdropper who completely controls the communication channels. Unlike prior PA protocols, our PA protocols provide source privacy and improve the entropy loss as compared to the prior protocols. Additionally, we show how to extract an optimal number of keys in the so called bounded retrieval model.  Finally, we studied the problem of key derivation allowing users  to convert an imperfect entropy source into the longest possible nearly uniform cryptographic key. Previous solutions to this problem achieved this task, but at the expense of extracting a key which was noticeably shorter than the entropy of the source. In fact, some prior work even suggested that such non-trivial "entropy loss" is inherent to the problem. In a very surprising result, we showed that this intuition is wrong, by designing the first provably secure key derivation functions (for a large collection of cryptographic applications) which achieve almost no entropy loss. Given that many entropy sources have very little entropy to begin with, we hope that our work will likely have a significant impact in practice.       Last Modified: 08/16/2017       Submitted by: Yevgeniy Dodis]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

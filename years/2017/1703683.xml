@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SaTC: CORE: Medium: Robust Memory Forensics Techniques for Userland Malware Analysis</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>1113426.00</AwardTotalIntnAmount>
+<AwardAmount>1113426</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jeremy Epstein</SignBlockName>
+<PO_EMAI>jepstein@nsf.gov</PO_EMAI>
+<PO_PHON>7032928338</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>State-of-the-art malicious software (malware) is increasingly a threat to military, corporate, and civilian computer systems and critical infrastructure.  Over the past decade, memory forensics has begun to offer powerful techniques for detecting and analyzing malicious software and is often effective in cases where other methods fail.  Memory forensics tools must be robust and trustworthy, because failing to detect a malware infection can have disastrous consequences.  This project is addressing a number of important research issues in memory forensics, including expanding the scope and improving the reliability of memory forensics tools and providing investigators with better mechanisms to evaluate the correctness of digital investigations.&lt;br/&gt;&lt;br/&gt;This project is addressing three important research issues in memory forensics:  (1) Creating a large, diverse collection of freely available, realistic data sets for memory forensics research and practice; (2) Developing a testing platform that automatically discovers errors in both open and closed source memory forensics frameworks; and (3) Developing techniques to detect and analyze user-space (rather than kernel-space) malware activity.</AbstractNarration>
+<MinAmdLetterDate>07/24/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>07/24/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1703683</AwardID>
+<Investigator>
+<FirstName>Golden</FirstName>
+<LastName>Richard</LastName>
+<PI_MID_INIT>G</PI_MID_INIT>
+<PI_SUFX_NAME>III</PI_SUFX_NAME>
+<PI_FULL_NAME>Golden G Richard</PI_FULL_NAME>
+<EmailAddress>golden@cct.lsu.edu</EmailAddress>
+<PI_PHON>5049575814</PI_PHON>
+<NSF_ID>000360022</NSF_ID>
+<StartDate>07/24/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Louisiana State University</Name>
+<CityName>Baton Rouge</CityName>
+<ZipCode>708032701</ZipCode>
+<PhoneNumber>2255782760</PhoneNumber>
+<StreetAddress>202 Himes Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Louisiana</StateName>
+<StateCode>LA</StateCode>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>LA06</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>075050765</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>LOUISIANA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>940050792</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Louisiana State University]]></Name>
+<CityName>Baton Rouge</CityName>
+<StateCode>LA</StateCode>
+<ZipCode>708032701</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Louisiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>06</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>LA06</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~1113426</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Memory forensics has emerged over the past decade as a powerful set of techniques to supplement traditional storage forensics in digital investigations and to detect and analyze malware. We have identified three significant gaps in current-generation memory forensics and performed a significant amount of research to address these issues.</p> <p>First, there are no established collections of memory images for memory forensics research, training, and practice, leaving researchers and investigators to rely on their own limited data sets, which typically lack diversity. We are creating a large, diverse set of memory images to support both researchers and practitioners, which will be freely available.</p> <p>Second, there were previously no tools for adequately testing existing memory forensics frameworks, which embody complex algorithms that must operate correctly even on forensics data that may contain errors. This is particularly important as both litigation and incident response will increasingly need to rely on memory forensics and furthermore, memory forensics techniques will be increasingly automated.&nbsp; We have solved this problem by developing Gaslight, a high-performance fuzz-testing framework that identifies implementation errors in memory forensics tools and generates reports that developers can use to recreate and correct the errors.</p> <p>Third, while memory forensics techniques to combat kernel space malware are relatively mature, virtually no research has been undertaken to detect and analyze user space malware using memory forensics, aside from some proof-of-concept work by the PIs of this grant.&nbsp; We have conducted ground-breaking research to identify malware in language runtimes, in operating systems subsystems like Windows WSL, and on mobile devices.</p> <p>Our work directly contributes to the health, safety, and economic well-being of society by advancing the state-of-the-art in cyber forensics, a critical need as the infrastructure of the United States is increasingly dependent on cyber systems and operations.&nbsp; Our research also positively influences the pipeline that produces the next generation of cybersecurity experts, by deepening our students&rsquo; understanding of advanced real-world cyber attacks and cutting-edge cyber forensics capabilities, via the integration of our research results into course materials and classroom activities. We have also engaged students from under-represented groups as well as involved external collaborators from these under-represented groups, who have co-advised several LSU students.</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/08/2020<br>      Modified by: Golden&nbsp;G&nbsp;Richard</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/1703683/1703683_10506025_1607452996423_1--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1703683/1703683_10506025_1607452996423_1--rgov-800width.jpg" title="Gaslight Architecture"><img src="/por/images/Reports/POR/2020/1703683/1703683_10506025_1607452996423_1--rgov-66x44.jpg" alt="Gaslight Architecture"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Gaslight is a high-performance framework for testing memory forensics tools to reveal implementation errors.</div> <div class="imageCredit">Golden G. Richard III</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Golden&nbsp;G&nbsp;Richard</div> <div class="imageTitle">Gaslight Architecture</div> </div> </li> <li> <a href="/por/images/Reports/POR/2020/1703683/1703683_10506025_1607453115664_2--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1703683/1703683_10506025_1607453115664_2--rgov-800width.jpg" title="A Terabyte-scale Memory Forensics Repository"><img src="/por/images/Reports/POR/2020/1703683/1703683_10506025_1607453115664_2--rgov-66x44.jpg" alt="A Terabyte-scale Memory Forensics Repository"></a> <div class="imageCaptionContainer"> <div class="imageCaption">The creation of a large scale repository of memory images will help researchers create and test new forensics tools and provide ground truth for investigations involving memory forensics.</div> <div class="imageCredit">Golden G. Richard III</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Golden&nbsp;G&nbsp;Richard</div> <div class="imageTitle">A Terabyte-scale Memory Forensics Repository</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Memory forensics has emerged over the past decade as a powerful set of techniques to supplement traditional storage forensics in digital investigations and to detect and analyze malware. We have identified three significant gaps in current-generation memory forensics and performed a significant amount of research to address these issues.  First, there are no established collections of memory images for memory forensics research, training, and practice, leaving researchers and investigators to rely on their own limited data sets, which typically lack diversity. We are creating a large, diverse set of memory images to support both researchers and practitioners, which will be freely available.  Second, there were previously no tools for adequately testing existing memory forensics frameworks, which embody complex algorithms that must operate correctly even on forensics data that may contain errors. This is particularly important as both litigation and incident response will increasingly need to rely on memory forensics and furthermore, memory forensics techniques will be increasingly automated.  We have solved this problem by developing Gaslight, a high-performance fuzz-testing framework that identifies implementation errors in memory forensics tools and generates reports that developers can use to recreate and correct the errors.  Third, while memory forensics techniques to combat kernel space malware are relatively mature, virtually no research has been undertaken to detect and analyze user space malware using memory forensics, aside from some proof-of-concept work by the PIs of this grant.  We have conducted ground-breaking research to identify malware in language runtimes, in operating systems subsystems like Windows WSL, and on mobile devices.  Our work directly contributes to the health, safety, and economic well-being of society by advancing the state-of-the-art in cyber forensics, a critical need as the infrastructure of the United States is increasingly dependent on cyber systems and operations.  Our research also positively influences the pipeline that produces the next generation of cybersecurity experts, by deepening our students’ understanding of advanced real-world cyber attacks and cutting-edge cyber forensics capabilities, via the integration of our research results into course materials and classroom activities. We have also engaged students from under-represented groups as well as involved external collaborators from these under-represented groups, who have co-advised several LSU students.          Last Modified: 12/08/2020       Submitted by: Golden G Richard]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

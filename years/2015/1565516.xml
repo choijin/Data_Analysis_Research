@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: CIF: Fast Algorithms for Learning Graphical Models from Scarce Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>03/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>02/28/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>175000.00</AwardTotalIntnAmount>
+<AwardAmount>175000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>richard brown</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Graphical models (GMs) are a powerful framework used to succinctly represent complex high-dimensional phenomena. Statistical dependence between variables is represented combinatorially via edges in a graph, and this allows both model interpretability and computationally efficient inference. For these reasons, GMs are at the core of machine learning and artificial intelligence and have been used in a variety of applied fields, including finance, operations research, biology, signal processing, and social networks. For large complex data with non-obvious structure, the central problem is that of learning an appropriate model. Learning a graphical model presents both a computational and statistical challenge. The combinatorial nature of the problem means that there are a huge number of possible models to explore. At the same time, the high-dimensional nature of modern applications means that the number of data-points is often much smaller than the dimension of the ambient parameter space: learning algorithms must therefore make efficient use of the data, which is scarce relative to the problem size. Existing approaches to learning graphical models achieve either statistical efficiency or computational efficiency, but not both.&lt;br/&gt;&lt;br/&gt;This research aims for the best of both worlds: extreme computational and statistical efficiency. While practical applications demand such efficiency, it is unlikely to be attainable in complete generality, for all models. The question is, what features of real-world systems allow for tractable learning? The research entails identifying specific model subclasses of interest and developing algorithms with provable performance guarantees. Concretely, the research provides new information-theoretic lower bounds on the amount of data required to learn, and informed by these lower bounds, gives fast (computationally efficient) algorithms that are statistically near optimal.</AbstractNarration>
+<MinAmdLetterDate>02/16/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>02/16/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1565516</AwardID>
+<Investigator>
+<FirstName>Guy</FirstName>
+<LastName>Bresler</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Guy Bresler</PI_FULL_NAME>
+<EmailAddress>guy@MIT.EDU</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000704719</NSF_ID>
+<StartDate>02/16/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 Massachusetts Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026y</Code>
+<Text/>
+</ProgramElement>
+<ProgramReference>
+<Code>7797</Code>
+<Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7936</Code>
+<Text>SIGNAL PROCESSING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8089</Code>
+<Text>Understanding the Brain/Cognitive Scienc</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~175000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Graphical models (GMs) are a powerful framework used to succinctly represent complex high-dimensional phenomena. GMs are at the core of machine learning and artificial intelligence and have been used in a variety of applied fields, including finance, operations research, biology, signal processing, and social networks. In applications of graphical models there are two basic statistical tasks: (1) given data, how to choose an appropriate model? and (2) given a model, how does one perform inference from partial observations?&nbsp;&nbsp;The first problem is arguably more fundamental but was historically less important, because domain knowledge was typically used to choose the model (e.g., Hidden Markov Models in speech processing). However, in most modern applications it is not at all clear how to select a good model, and accurate inference depends crucially on having a good model. The model must therefore be learned from the data, and this is the focus of this project.</p> <p>The project focuses on Ising models, a widely used class of graphical models with binary variables and interactions between pairs of variables. The results obtained were in three main directions: structure learning, in which the objective is to recover the true structure underlying the graphical model describing the observed data; learning for subsequent predictions, in which the learned model is measured according to accuracy of machine learning tasks carried out using the model; and distributional approximation and testing. &nbsp;</p> <p>In the structure learning direction, a new information property of Ising models was obtained. It was shown that in ferromagnetic Ising models, a certain influence function is submodular, and that this allows to learn such models efficiently. The results apply also to a class of models known as Restricted Boltzmann Machines (or RBMs), which are a popular model with wide-ranging applications in dimensionality reduction, collaborative filtering and recommendations, topic modeling, feature extraction and deep learning. We give a simple greedy algorithm for learning ferromagnetic RBMs.&nbsp;</p> <p>A new direction in graphical model learning was developed. The objective is to learn a model that can be used to make predictions of the values of some nodes given values of a few others, which is the typical use-case for graphical models in machine learning applications. The results show that this more flexible objective often requires dramatically smaller datasets.&nbsp;In the setting with known tree-structured graph, the project further provided a sharp characterization of the dependence on the number of samples needed for a given accuracy of all marginals of a given order (and hence posteriors).&nbsp;</p> <p>A new version of Stein's method was developed to show an approximation result for Ising models. The technique allows to compare two complex probability distributions. and it is applied towards understand the relationships between probabilistic content contained in graphical models of varying complexity. Implications include to learning graphical models and also to simplifying and accelerating algorithmic procedures used on these models.&nbsp;</p> <p>The project also addressed the problem of testing for network structure from only a single sample, a common scenario (such as in voting). A single sample is not sufficient to learn the network structure, or even to determine with any confidence presence of a single edge, but it turns out to nevertheless be possible to answer whether or not the graph underlying the model generating the sample has nontrivial structure. We give sharp conditions under which such testing is possible in terms of the natural parameters of the model including strength of interactions and degree of the structured model. The methodology also applies to other natural settings including testing random graph distributions.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 06/29/2018<br>      Modified by: Guy&nbsp;Bresler</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Graphical models (GMs) are a powerful framework used to succinctly represent complex high-dimensional phenomena. GMs are at the core of machine learning and artificial intelligence and have been used in a variety of applied fields, including finance, operations research, biology, signal processing, and social networks. In applications of graphical models there are two basic statistical tasks: (1) given data, how to choose an appropriate model? and (2) given a model, how does one perform inference from partial observations?  The first problem is arguably more fundamental but was historically less important, because domain knowledge was typically used to choose the model (e.g., Hidden Markov Models in speech processing). However, in most modern applications it is not at all clear how to select a good model, and accurate inference depends crucially on having a good model. The model must therefore be learned from the data, and this is the focus of this project.  The project focuses on Ising models, a widely used class of graphical models with binary variables and interactions between pairs of variables. The results obtained were in three main directions: structure learning, in which the objective is to recover the true structure underlying the graphical model describing the observed data; learning for subsequent predictions, in which the learned model is measured according to accuracy of machine learning tasks carried out using the model; and distributional approximation and testing.    In the structure learning direction, a new information property of Ising models was obtained. It was shown that in ferromagnetic Ising models, a certain influence function is submodular, and that this allows to learn such models efficiently. The results apply also to a class of models known as Restricted Boltzmann Machines (or RBMs), which are a popular model with wide-ranging applications in dimensionality reduction, collaborative filtering and recommendations, topic modeling, feature extraction and deep learning. We give a simple greedy algorithm for learning ferromagnetic RBMs.   A new direction in graphical model learning was developed. The objective is to learn a model that can be used to make predictions of the values of some nodes given values of a few others, which is the typical use-case for graphical models in machine learning applications. The results show that this more flexible objective often requires dramatically smaller datasets. In the setting with known tree-structured graph, the project further provided a sharp characterization of the dependence on the number of samples needed for a given accuracy of all marginals of a given order (and hence posteriors).   A new version of Stein's method was developed to show an approximation result for Ising models. The technique allows to compare two complex probability distributions. and it is applied towards understand the relationships between probabilistic content contained in graphical models of varying complexity. Implications include to learning graphical models and also to simplifying and accelerating algorithmic procedures used on these models.   The project also addressed the problem of testing for network structure from only a single sample, a common scenario (such as in voting). A single sample is not sufficient to learn the network structure, or even to determine with any confidence presence of a single edge, but it turns out to nevertheless be possible to answer whether or not the graph underlying the model generating the sample has nontrivial structure. We give sharp conditions under which such testing is possible in terms of the natural parameters of the model including strength of interactions and degree of the structured model. The methodology also applies to other natural settings including testing random graph distributions.             Last Modified: 06/29/2018       Submitted by: Guy Bresler]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

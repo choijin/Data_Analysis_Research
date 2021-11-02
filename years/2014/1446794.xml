@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER: Assessment of the Numerical Reproducibility  in Large-Scale Scientific Simulations on Multicore Architectures</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/15/2014</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>89998.00</AwardTotalIntnAmount>
+<AwardAmount>89998</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Trends in execution concurrency make a compelling case for the development of methods able to automatically and efficiently model and mitigate irreproducibility beyond petascale architectures and into the exascale. It is expected that high performance computers at the exascale will exhibit a massively large level of concurrency - a factor of 10,000 greater than on current platforms - which will move computer simulations from bulk-synchronous executions to multithreading approaches and asynchronous I/O. Simulation calculations and analysis routines will also be tightly coupled on exascale platforms, requiring these two workflow components to work at extremely high levels of concurrency. As concurrency levels increase, the impact of rounding errors on numerical reproducibility also increases, ultimately affecting the ability of scientific simulations to reproduce program executions and numerical results. Under these circumstances, irreproducible results may not be trusted by a scientific community expecting reproducible behaviors and any attempt to pursue reproducibility may come at a cost in performance that is too high.&lt;br/&gt;&lt;br/&gt;This "high risk-high payoff" project studies the impact of rounding errors on result reproducibility when concurrent executions burst and workflow determinism vanishes in cutting-edge multicore architectures. To this end, the project models rounding-errors in scientific applications with a mathematical method called "composite precision floating-point arithmetic" and shows how this method can mitigate error drifting.  A benchmark suite used in preliminary work is extended to cover a larger range of applications' patterns and used to assess the mitigating impact of the composite precision on new generations of multicore architectures. Lastly, the project quantifies the cost and mitigation factors of the proposed method to mitigate error propagations for the diverse benchmarks and platforms.&lt;br/&gt;&lt;br/&gt;The project will advance knowledge and understanding in numerical reproducibility at the exascale by developing and disseminating effective software solutions to the rounding error propagation problem for a broad set of applications and their codes when executed with high degrees of concurrency on massively parallel systems.</AbstractNarration>
+<MinAmdLetterDate>06/11/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/11/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1446794</AwardID>
+<Investigator>
+<FirstName>Michela</FirstName>
+<LastName>Taufer</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michela Taufer</PI_FULL_NAME>
+<EmailAddress>taufer@utk.edu</EmailAddress>
+<PI_PHON>3026907845</PI_PHON>
+<NSF_ID>000486752</NSF_ID>
+<StartDate>06/11/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Delaware</Name>
+<CityName>Newark</CityName>
+<ZipCode>197160099</ZipCode>
+<PhoneNumber>3028312136</PhoneNumber>
+<StreetAddress>210 Hullihen Hall</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<StateCode>DE</StateCode>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>DE00</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>059007500</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF DELAWARE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>059007500</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Delaware]]></Name>
+<CityName>Newark</CityName>
+<StateCode>DE</StateCode>
+<ZipCode>197162553</ZipCode>
+<StreetAddress><![CDATA[210 Hullihen Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Delaware</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>00</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>DE00</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~89998</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project studies the impact of rounding errors on result reproducibility when concurrent executions burst and workflow determinism vanishes in cutting-edge multicore architectures. To this end, the project modeled summations in scientific applications with different mathematical methods including the standard iterative summation algorithm, the compensated summation algorithms -- i.e., Kahan&rsquo;s summation (K) and the Composite Precision (CP) summation -- and pre-rounded summation algorithms (PR) and showed how these methods can mitigate error drifting. A benchmark suite was used to cover a larger range of applications' patterns and to assess the mitigating impact of the summation methods on new generations of multicore architectures. The project quantified the cost and mitigation factors of the proposed method to mitigate error propagations for the diverse benchmarks and platforms.</p> <p><em>&nbsp;</em></p> <p>Specifically, we focused on floating-point error accumulation over global summations where enforcing any reduction order is expensive or impossible. We modeled parallel summations with reduction trees and identify those parameters that can be used to estimate the reduction's sensitivity to variability in the reduction tree. We assessed the impact of these parameters on the ability of different reduction methods to successfully mitigate errors. Our results illustrate the pressing need for intelligent runtime selection of reduction operators that ensure a given degree of reproducible accuracy.</p> <p>&nbsp;</p> <p>Three main observations emerged from our study on reproducible numerical accuracy. First, reduction tree shape has a large impact on reproducible numerical accuracy.&nbsp; Second, mathematical properties of a set of summands have an impact on the reproducibility of their sum. In applications where the conditioning and dynamic range can change dramatically over the course of the runtime, this effect is especially relevant.&nbsp; Third, we show that if we fix a target level of reproducibility, we can classify regions of the parameter space by the cheapest algorithm that achieves the desired level of reproducibility at that point in the space. This is an important step toward implementing intelligent runtime selection of reduction operators on future exascale platforms.</p> <p>&nbsp;</p><br> <p>            Last Modified: 07/03/2016<br>      Modified by: Michela&nbsp;Taufer</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project studies the impact of rounding errors on result reproducibility when concurrent executions burst and workflow determinism vanishes in cutting-edge multicore architectures. To this end, the project modeled summations in scientific applications with different mathematical methods including the standard iterative summation algorithm, the compensated summation algorithms -- i.e., KahanÆs summation (K) and the Composite Precision (CP) summation -- and pre-rounded summation algorithms (PR) and showed how these methods can mitigate error drifting. A benchmark suite was used to cover a larger range of applications' patterns and to assess the mitigating impact of the summation methods on new generations of multicore architectures. The project quantified the cost and mitigation factors of the proposed method to mitigate error propagations for the diverse benchmarks and platforms.     Specifically, we focused on floating-point error accumulation over global summations where enforcing any reduction order is expensive or impossible. We modeled parallel summations with reduction trees and identify those parameters that can be used to estimate the reduction's sensitivity to variability in the reduction tree. We assessed the impact of these parameters on the ability of different reduction methods to successfully mitigate errors. Our results illustrate the pressing need for intelligent runtime selection of reduction operators that ensure a given degree of reproducible accuracy.     Three main observations emerged from our study on reproducible numerical accuracy. First, reduction tree shape has a large impact on reproducible numerical accuracy.  Second, mathematical properties of a set of summands have an impact on the reproducibility of their sum. In applications where the conditioning and dynamic range can change dramatically over the course of the runtime, this effect is especially relevant.  Third, we show that if we fix a target level of reproducibility, we can classify regions of the parameter space by the cheapest algorithm that achieves the desired level of reproducibility at that point in the space. This is an important step toward implementing intelligent runtime selection of reduction operators on future exascale platforms.          Last Modified: 07/03/2016       Submitted by: Michela Taufer]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

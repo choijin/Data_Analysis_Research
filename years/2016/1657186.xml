@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: RI: Practical Algorithms for Robust Feedback Motion Planning Through Contact</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>175000.00</AwardTotalIntnAmount>
+<AwardAmount>175000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>David Miller</SignBlockName>
+<PO_EMAI>damiller@nsf.gov</PO_EMAI>
+<PO_PHON>7032924914</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Despite significant progress in robot motion planning and control, modern robots still struggle to operate robustly in the presence of unplanned disturbances, state uncertainty, and model errors. Indeed, the recent DARPA Robotics Challenge dramatically demonstrated that some of the world's most advanced robots still minimize contact with their environments and fail often in realistic operating scenarios. This creates a significant barrier to unleashing robots into critical disaster response, exploration, and industrial applications. Algorithms that explicitly reason about robustness require a coupling of motion planning and feedback design, in which the system's closed-loop response to disturbance sources is optimized. Due to the often heavy computational demands of solving such problems, their application to modern field robots has so far been limited.&lt;br/&gt;&lt;br/&gt;The research objective of this proposal is to address the theoretical, computational, and applied challenges of robust motion planning for robots with nonlinear dynamics and state and input constraints, including constraints arising from frictional contact. The algorithms under consideration in this research will build on direct trajectory optimization methods to simultaneously 1) support complex state constraints and rigid-body contacts and 2) exploit mathematical structure in disturbance and feedback controller sets to construct computationally-efficient algorithms. The ability of these algorithms to improve stability in tasks of broad interest, such as bipedal walking, will be investigated. Algorithms will be evaluated against state-of-the-art methods in locomotion and manipulation experiments on physical robots.</AbstractNarration>
+<MinAmdLetterDate>02/28/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>02/28/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1657186</AwardID>
+<Investigator>
+<FirstName>Scott</FirstName>
+<LastName>Kuindersma</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Scott Kuindersma</PI_FULL_NAME>
+<EmailAddress>scottk@seas.harvard.edu</EmailAddress>
+<PI_PHON>6174959526</PI_PHON>
+<NSF_ID>000701246</NSF_ID>
+<StartDate>02/28/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Harvard University</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021385369</ZipCode>
+<PhoneNumber>6174955501</PhoneNumber>
+<StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[5th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>082359691</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PRESIDENT AND FELLOWS OF HARVARD COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001963263</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Harvard University]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021381903</ZipCode>
+<StreetAddress><![CDATA[60 Oxford St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~175000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><!-- p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 9.0px; font: 8.0px Arial; color: #000000; background-color: #ffffff} span.s1 {font-kerning: none} --> <p class="p1"><span class="s1">The objective of this project was to evaluate algorithms for performing trajectory optimization for robots in the presence of contact with an emphasis on improving robustness. Our principle findings were that making specific design choices related to the formulation of dynamics constraints can greatly improve the tradeoff between problem size and dynamic accuracy of the computed trajectories and that the numerical frailty of trajectory optimization solvers can be improved across a distribution of problems by designing solvers that are less prone to get stuck in the presense of nonconvex constraints (e.g., geometric path constraints).&nbsp;</span>&nbsp;</p> <p class="p1"><span class="s1">As part of our work, we created a new method for contact-implicit trajectory optimization that allows for smaller problems to be solved for a given dynamic accuracy specification. By leveraging ideas from discrete mechanics and complementarity formulations of contact constraints, we showed that higher-order integrators can be easily derived and used for trajectory optimization. The method was evaluated in simulation and in running and jumping experiments with a complex (i.e. high-DoF robot with closed linkages, nonlinear actuators, and internal compliance) quadrupedal micro-robot called HAMR.<span>&nbsp;</span></span></p> <p class="p1"><span class="s1">We also created and evaluated a new solver based on a technique called ADMM, which solves non-convex trajectory optimization problems by iteratively solving a sequence of simpler, convex optimization problems. We evaluated the algorithm over a distribution of dynamic robot trajectory optimization problems and compared it to the two most popular solvers used by practitioners: SNOPT and IPOPT. Our findings were that the ADMM-based solver produced faster solve times on average and with lower variance while maintaining similar or better performance in terms of constraint satisfaction tolerance and objective value.</span></p><br> <p>            Last Modified: 01/20/2020<br>      Modified by: Scott&nbsp;Kuindersma</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The objective of this project was to evaluate algorithms for performing trajectory optimization for robots in the presence of contact with an emphasis on improving robustness. Our principle findings were that making specific design choices related to the formulation of dynamics constraints can greatly improve the tradeoff between problem size and dynamic accuracy of the computed trajectories and that the numerical frailty of trajectory optimization solvers can be improved across a distribution of problems by designing solvers that are less prone to get stuck in the presense of nonconvex constraints (e.g., geometric path constraints).   As part of our work, we created a new method for contact-implicit trajectory optimization that allows for smaller problems to be solved for a given dynamic accuracy specification. By leveraging ideas from discrete mechanics and complementarity formulations of contact constraints, we showed that higher-order integrators can be easily derived and used for trajectory optimization. The method was evaluated in simulation and in running and jumping experiments with a complex (i.e. high-DoF robot with closed linkages, nonlinear actuators, and internal compliance) quadrupedal micro-robot called HAMR.  We also created and evaluated a new solver based on a technique called ADMM, which solves non-convex trajectory optimization problems by iteratively solving a sequence of simpler, convex optimization problems. We evaluated the algorithm over a distribution of dynamic robot trajectory optimization problems and compared it to the two most popular solvers used by practitioners: SNOPT and IPOPT. Our findings were that the ADMM-based solver produced faster solve times on average and with lower variance while maintaining similar or better performance in terms of constraint satisfaction tolerance and objective value.       Last Modified: 01/20/2020       Submitted by: Scott Kuindersma]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

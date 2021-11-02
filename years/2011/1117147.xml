@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Collaborative Research: ShapeShifting and PubSub for Tailoring Memory Accesses and Communication in Heterogeneous Multiprocessors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>225000.00</AwardTotalIntnAmount>
+<AwardAmount>225000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Over the past decade or more, microprocessors have faced increasing challenges in achieving high-performance for current and emerging software applications while abiding by severe power and thermal limits. In response, industry has turned to approaches that use specialized graphics and computational hardware and complex memory organizations.  The end result is that computer systems have become more heterogeneous and complex, in ways that make it difficult for programmers to write efficient and high-performance software.  Software tuned to run on one implementation will often not run at all or will perform poorly or unpredictably when ported to even a different implementation in the same chip family. &lt;br/&gt;&lt;br/&gt;The objective of this research effort is to design and evaluate system and hardware support that tailors memory and data access/movements to improve performance and power efficiency, while also easing the issues of programmability and of tuning software for individual chip characteristics.&lt;br/&gt;The two key themes of this work are Shape Shifting and PubSub data abstractions.  ShapeShifting refers to optimizations and hardware support structures that allow data to be transformed in layout, in order to support faster access, more efficient use of memory, and other attributes that improve power and performance.  In some preliminary experiments, even a software-only implementation of Shape Shifting improves performance by 15%. Pub Sub data abstractions offer methods for individual processors to indicate interest (or disinterest) in updates regarding other program variables.  These abstractions form the underpinning for memory optimizations that are tailored to the application?s memory usage patterns. By mitigating false sharing, encouraging coarse-grained fetches, and reducing coherence broadcasts to uninterested cores, PubSub has the potential to improve the power and performance efficiency of multi-core implementations by a factor of 2X or more.&lt;br/&gt;&lt;br/&gt;The research program is targeting several types of broad impact.  First, the simulators and tools developed by this project will be released as free, open-source software. Second, the results can enhance performance and energy efficiency of future parallel hardware.  Energy-efficiency is of particular concern from a national economic and strategic standpoint, given the growing electricity consumption of computer systems and the important role of the memory hierarchy in influencing computer power consumption.</AbstractNarration>
+<MinAmdLetterDate>06/21/2011</MinAmdLetterDate>
+<MaxAmdLetterDate>06/21/2011</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1117147</AwardID>
+<Investigator>
+<FirstName>Margaret</FirstName>
+<LastName>Martonosi</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Margaret Martonosi</PI_FULL_NAME>
+<EmailAddress>martonosi@princeton.edu</EmailAddress>
+<PI_PHON>6092581912</PI_PHON>
+<NSF_ID>000395997</NSF_ID>
+<StartDate>06/21/2011</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Princeton University</Name>
+<CityName>Princeton</CityName>
+<ZipCode>085442020</ZipCode>
+<PhoneNumber>6092583090</PhoneNumber>
+<StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+<StreetAddress2><![CDATA[P.O. Box 36]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<StateCode>NJ</StateCode>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NJ12</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>002484665</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF PRINCETON UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>002484665</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Princeton University]]></Name>
+<CityName>Princeton</CityName>
+<StateCode>NJ</StateCode>
+<ZipCode>085442020</ZipCode>
+<StreetAddress><![CDATA[Off. of Research &amp; Proj. Adm]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New Jersey</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>12</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NJ12</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~225000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Over the past decade or more, microprocessors have faced increasing challenges in achieving high-performance for current and emerging applications while abiding by severe power limits. In response, industry has turned to multi-core approaches, often with specialized functional units or heterogeneous cores. In addition, memory hierarchies have also become more heterogeneous and complex, with multiple levels of shared and private caches, software-managed scratchpads, and configurable cache/scratchpad combinations.</p> <p>While embracing heterogeneity has allowed CMPs and SoCs to reach application power and performance targets, it generally does so at the expense of programmability and performance portability. Software tuned to run on one implementation will often not run at all or will perform poorly or unpredictably when ported to even a different implementation in the same chip family. The goal of our research is to propose, design, and evaluate system and hardware support that will allow the tailoring of memory and data access/movements for performance and power efficiency, while also easing the issues of programmability and of tuning software for individual chip characteristics.</p> <p>Throughout the evolution of the project, a key aspect of it has been identifying and mitigating communication bottlenecks in CPU-GPU systems. In addition, another key goal has been research on performance estimation and design space exploration techniques to identify the hardware and software parameter settings that offer the best performance, the best power dissipation, or the best portability across several platforms. Finally, we also explored verification methods to ascertain the correctness of communication between CPUs, GPUs, and accelerators.</p> <p><strong><span style="text-decoration: underline;">Design Space Exploration Tools:</span></strong> We developed the Starchart and Stargazer tools for estimating performance and power across complicated GPU design spaces by using statistical techniques for regression and partitioning. Published at PACT 2013, Starchart automates factor selection and automatically identifies key "split points" in a design space. Split points represent points where e.g. performance saturates, power takes a steep increase, etc. Starchart helps hardware designers and programmers identify good operating points for GPU-based systems.</p> <p><span style="text-decoration: underline;"><strong>Cross-Platform Performance Estimation:</strong></span> Building on the Starchart and Stargazer work, we have also done research on using the performance results from one platform (Xeon Phi) to estimate the performance of codes if they were ported to another platform (NVIDIA GPU). The accuracy of our performance estimators is very good (within 5%) for compute-bound kernels. Kernels with more data communication are more challenging for this cross-platform estimation, but we have indicator variables (i.e. confidence predictors) that allow us to identify (before porting) the cases where the estimate is not likely to be accurate.</p> <p><span style="text-decoration: underline;"><strong>GPU Performance Optimization: </strong></span>Based on our extensive performance estimation and analysis work (above) we also have new papers published regarding ways to reduce the performance impact of memory boundedness in GPUs (MRPB, HPCA 2014) and to properly adjust thread operating points in order to maximize performance while reducing resource usage.</p> <p><span style="text-decoration: underline;"><strong>Decoupled Supply-Compute (DeSC) Approaches: </strong></span>While heterogeneous and specialized parallelism shows great leverage improving computation performance at manageable power, its effective use raises additional challenges. As specialized accelerators speed up computations, the communication or memory operations that feed them represent even more of the remaining performance slowdown. In addition, the software-managed communication tailoring used to reduce communication cost often increases software complexity and reduces performance portability. Our DeSC architectures improve the performance, programmer effort, and software portability of accelerator-based systems, by employing automatic compiler techniques to separate data access and address calculations from value computations. Once separated, the code is targeted at either the accelerator itself (for the compute slice) or a data supply unit that feeds it. The data supply unit can either be a general-purpose core or can be another accelerator tailored to this role.</p> <p><span style="text-decoration: underline;"><strong>Memory Consistency Model Translation and Verification: </strong></span>Another key thrust of our work was on formal techniques for specifying, verifying, and translating between memory consistency models. This work is central to the heterogeneous communication issues of this research grant, because it allows different compute elements to transfer data in ways that are high-performance, interoperable, and formally verifiable. The key to our approach is the development of microarchitecture-level happens-before graphs (uHBGs). Nodes in these graphs correspond to hardware units, and edges correspond to known event orderings. By considering all possible event orderings by which different values might flow through complex memory hierarchies, memory consistency models can be checked. Our initial work focused on the microarchitecture itself, while subsequent work expanded it to consider cache&nbsp;coherence and address translation interactions.</p> <p>Overall, this work has produced numerous publications and open-source software releases.&nbsp; The research has generated innovative ideas that are being further explored by companies and are likely to influence computer systems hardware and software for years to come.</p> <p>&nbsp;</p><br> <p>            Last Modified: 09/05/2016<br>      Modified by: Margaret&nbsp;Martonosi</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Over the past decade or more, microprocessors have faced increasing challenges in achieving high-performance for current and emerging applications while abiding by severe power limits. In response, industry has turned to multi-core approaches, often with specialized functional units or heterogeneous cores. In addition, memory hierarchies have also become more heterogeneous and complex, with multiple levels of shared and private caches, software-managed scratchpads, and configurable cache/scratchpad combinations.  While embracing heterogeneity has allowed CMPs and SoCs to reach application power and performance targets, it generally does so at the expense of programmability and performance portability. Software tuned to run on one implementation will often not run at all or will perform poorly or unpredictably when ported to even a different implementation in the same chip family. The goal of our research is to propose, design, and evaluate system and hardware support that will allow the tailoring of memory and data access/movements for performance and power efficiency, while also easing the issues of programmability and of tuning software for individual chip characteristics.  Throughout the evolution of the project, a key aspect of it has been identifying and mitigating communication bottlenecks in CPU-GPU systems. In addition, another key goal has been research on performance estimation and design space exploration techniques to identify the hardware and software parameter settings that offer the best performance, the best power dissipation, or the best portability across several platforms. Finally, we also explored verification methods to ascertain the correctness of communication between CPUs, GPUs, and accelerators.  Design Space Exploration Tools: We developed the Starchart and Stargazer tools for estimating performance and power across complicated GPU design spaces by using statistical techniques for regression and partitioning. Published at PACT 2013, Starchart automates factor selection and automatically identifies key "split points" in a design space. Split points represent points where e.g. performance saturates, power takes a steep increase, etc. Starchart helps hardware designers and programmers identify good operating points for GPU-based systems.  Cross-Platform Performance Estimation: Building on the Starchart and Stargazer work, we have also done research on using the performance results from one platform (Xeon Phi) to estimate the performance of codes if they were ported to another platform (NVIDIA GPU). The accuracy of our performance estimators is very good (within 5%) for compute-bound kernels. Kernels with more data communication are more challenging for this cross-platform estimation, but we have indicator variables (i.e. confidence predictors) that allow us to identify (before porting) the cases where the estimate is not likely to be accurate.  GPU Performance Optimization: Based on our extensive performance estimation and analysis work (above) we also have new papers published regarding ways to reduce the performance impact of memory boundedness in GPUs (MRPB, HPCA 2014) and to properly adjust thread operating points in order to maximize performance while reducing resource usage.  Decoupled Supply-Compute (DeSC) Approaches: While heterogeneous and specialized parallelism shows great leverage improving computation performance at manageable power, its effective use raises additional challenges. As specialized accelerators speed up computations, the communication or memory operations that feed them represent even more of the remaining performance slowdown. In addition, the software-managed communication tailoring used to reduce communication cost often increases software complexity and reduces performance portability. Our DeSC architectures improve the performance, programmer effort, and software portability of accelerator-based systems, by employing automatic compiler techniques to separate data access and address calculations from value computations. Once separated, the code is targeted at either the accelerator itself (for the compute slice) or a data supply unit that feeds it. The data supply unit can either be a general-purpose core or can be another accelerator tailored to this role.  Memory Consistency Model Translation and Verification: Another key thrust of our work was on formal techniques for specifying, verifying, and translating between memory consistency models. This work is central to the heterogeneous communication issues of this research grant, because it allows different compute elements to transfer data in ways that are high-performance, interoperable, and formally verifiable. The key to our approach is the development of microarchitecture-level happens-before graphs (uHBGs). Nodes in these graphs correspond to hardware units, and edges correspond to known event orderings. By considering all possible event orderings by which different values might flow through complex memory hierarchies, memory consistency models can be checked. Our initial work focused on the microarchitecture itself, while subsequent work expanded it to consider cache coherence and address translation interactions.  Overall, this work has produced numerous publications and open-source software releases.  The research has generated innovative ideas that are being further explored by companies and are likely to influence computer systems hardware and software for years to come.          Last Modified: 09/05/2016       Submitted by: Margaret Martonosi]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

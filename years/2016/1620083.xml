@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Robust Stability of Linear Dynamical Systems: Algorithms, Theory and Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+<AwardExpirationDate>05/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>350135.00</AwardTotalIntnAmount>
+<AwardAmount>350135</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Leland Jameson</SignBlockName>
+<PO_EMAI>ljameson@nsf.gov</PO_EMAI>
+<PO_PHON>7032924883</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Dynamical systems are ubiquitous in our modern world, with embedded control systems in everything imaginable, from cars and airplanes to medical devices. Designing controllers for these systems based on feedback is a paradigm of increasingly great importance. Stability is the most important property of a dynamical system, so it is essential that controllers be designed so that systems are stable even in the presence of uncertain feedback. This research project aims to extend the theory and develop new computational algorithms in this important area.  The project will bring the tools of algorithms for stability analysis and controller synthesis to a wide community of scientists and engineers, most effectively through the provision of freely available software. The open-source software toolbox HIFOO, developed by the principal investigator, was designed for this purpose, stabilizing a given system with a fixed-order controller that locally optimizes appropriate objectives, such as the stability radius, over the controller variables. HIFOO has been used successfully in a wide variety of applications, including synchronization of heterogeneous multi-agent systems and networks, design of motorized gimbals that stabilize an angular motion of an optical payload around an axis, controllers for aircraft flight systems, and minimally invasive surgery. &lt;br/&gt;&lt;br/&gt;We consider linear dynamical systems with uncertain feedback depending linearly on the output. This paradigm leads to an ordinary differential equation whose system matrix is a linear fractional map. The associated stability radius measures the size of perturbations that can be tolerated while still guaranteeing system stability, i.e., so that the eigenvalues of the system matrix are in the left half of the complex plane for all perturbations that are norm-bounded by a given quantity. A key goal of the project is to develop an efficient, scalable, accurate algorithm for computing the stability radius that is applicable to the case where the system matrix is large and sparse. Without loss of generality, the perturbations under consideration can be assumed to be matrices with rank one, so the algorithm under development depends on efficiently iterating with rank-one perturbations, exploiting the rank-one structure efficiently with existing eigensolvers.  An important aspect of the algorithm will be to ensure that the stability radius is computed accurately by making use of a theorem about the relationship between imaginary eigenvalues of a Hamiltonian matrix and singular values of the associated transfer matrix, using a novel approach that is specifically designed to be robust with respect to errors in the computation of these eigenvalues. The new algorithm under development in this project will allow the design of low-order controllers for much larger systems than was previously possible, including control of discretized systems of partial differential equations.</AbstractNarration>
+<MinAmdLetterDate>06/07/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/19/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1620083</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Overton</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael L Overton</PI_FULL_NAME>
+<EmailAddress>overton@cs.nyu.edu</EmailAddress>
+<PI_PHON>2129983121</PI_PHON>
+<NSF_ID>000441293</NSF_ID>
+<StartDate>06/07/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>New York University</Name>
+<CityName>NEW YORK</CityName>
+<ZipCode>100121019</ZipCode>
+<PhoneNumber>2129982121</PhoneNumber>
+<StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>041968306</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NEW YORK UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041968306</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[New York University]]></Name>
+<CityName>New York</CityName>
+<StateCode>NY</StateCode>
+<ZipCode>100121019</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1271</Code>
+<Text>COMPUTATIONAL MATHEMATICS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7433</Code>
+<Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9263</Code>
+<Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~116144</FUND_OBLG>
+<FUND_OBLG>2017~115698</FUND_OBLG>
+<FUND_OBLG>2018~118293</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p class="p1">Dynamical systems are ubiquitous in our modern world, with embedded control systems in everything imaginable, from cars and airplanes to medical devices. Designing controllers for these systems based on feedback is a paradigm of increasingly great importance. Stability is the most important property of a dynamical system, so it is essential that controllers be designed so that systems are stable even in the presence of uncertain feedback. Our NSF-supported work has brought tools and algorithms for stability analysis and controller synthesis<span>&nbsp; </span>to a wide community of scientists and engineers, most effectively through the provision of freely available software. The open-source software toolbox HIFOO,<span>&nbsp; </span>developed by the principal investigator, was designed for this purpose, stabilizing a given system with a fixed-order controller that locally optimizes appropriate objectives over the controller variables. HIFOO has been used successfully in a wide variety of applications, including synchronization of heterogeneous multi-agent systems and networks, design of motorized gimbals that stabilize an angular motion of an optical payload around an axis, controllers for aircraft flight systems, and minimally invasive surgery.<span>&nbsp;</span></p> <p class="p2">One of the focuses of the current project has been analysis of the behavior of commonly used optimization algorithms when applied to minimize nonsmooth functions, typically functions that are not differentiable at minimizers, which commonly arise in robust stabilization objectives. In particular, we focused on the widely used L-BFGS (Limited-memory Broyden-Fletcher-Goldfarb-Shanno) method that has been in wide us since the 1980s. As the attached figure shows, we established that, unexpectedly, the L-BFGS-1 method fails on a very simple nonsmooth function. Although this result is easy to state, the analysis was quite complex. We believe this work showcases both NSF merit criteria well. The techniques involved in our analysis certainly exhibit <strong>INTELLECTUAL MERIT:</strong> they are both complex and highly novel. At the same time, the <strong>BROADER IMPACT</strong> of this work is that L BFGS should not be used to minimize nonsmooth functions directly. Since L-BFGS is widely used in the scientific community, including the engineering, medical imaging and machine learning communities, we believe our results are important.</p><br> <p>            Last Modified: 08/17/2020<br>      Modified by: Michael&nbsp;L&nbsp;Overton</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Image         </div> <div class="galControls onePhoto" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation onePhoto" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2020/1620083/1620083_10431739_1597705951311_figForOutcomes--rgov-214x142.jpg" original="/por/images/Reports/POR/2020/1620083/1620083_10431739_1597705951311_figForOutcomes--rgov-800width.jpg" title="Failure of L-BFGS on a simple nonsmooth function"><img src="/por/images/Reports/POR/2020/1620083/1620083_10431739_1597705951311_figForOutcomes--rgov-66x44.jpg" alt="Failure of L-BFGS on a simple nonsmooth function"></a> <div class="imageCaptionContainer"> <div class="imageCaption">Function  f(x, y) =a|x|+y is unbounded below on the cones K- and K+ and bounded below on other directions except the vertical axis. We show that if a>=2, L-BFGS-1 generates directions outside these cones and that its iterates converge to a non-optimal point on the vertical axis.</div> <div class="imageCredit">Michael L. Overton and Azam Asl</div> <div class="imagePermisssions">Copyrighted</div> <div class="imageSubmitted">Michael&nbsp;L&nbsp;Overton</div> <div class="imageTitle">Failure of L-BFGS on a simple nonsmooth function</div> </div> </li> </ul> </div> </div> </div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[Dynamical systems are ubiquitous in our modern world, with embedded control systems in everything imaginable, from cars and airplanes to medical devices. Designing controllers for these systems based on feedback is a paradigm of increasingly great importance. Stability is the most important property of a dynamical system, so it is essential that controllers be designed so that systems are stable even in the presence of uncertain feedback. Our NSF-supported work has brought tools and algorithms for stability analysis and controller synthesis  to a wide community of scientists and engineers, most effectively through the provision of freely available software. The open-source software toolbox HIFOO,  developed by the principal investigator, was designed for this purpose, stabilizing a given system with a fixed-order controller that locally optimizes appropriate objectives over the controller variables. HIFOO has been used successfully in a wide variety of applications, including synchronization of heterogeneous multi-agent systems and networks, design of motorized gimbals that stabilize an angular motion of an optical payload around an axis, controllers for aircraft flight systems, and minimally invasive surgery.  One of the focuses of the current project has been analysis of the behavior of commonly used optimization algorithms when applied to minimize nonsmooth functions, typically functions that are not differentiable at minimizers, which commonly arise in robust stabilization objectives. In particular, we focused on the widely used L-BFGS (Limited-memory Broyden-Fletcher-Goldfarb-Shanno) method that has been in wide us since the 1980s. As the attached figure shows, we established that, unexpectedly, the L-BFGS-1 method fails on a very simple nonsmooth function. Although this result is easy to state, the analysis was quite complex. We believe this work showcases both NSF merit criteria well. The techniques involved in our analysis certainly exhibit INTELLECTUAL MERIT: they are both complex and highly novel. At the same time, the BROADER IMPACT of this work is that L BFGS should not be used to minimize nonsmooth functions directly. Since L-BFGS is widely used in the scientific community, including the engineering, medical imaging and machine learning communities, we believe our results are important.       Last Modified: 08/17/2020       Submitted by: Michael L Overton]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

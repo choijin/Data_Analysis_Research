@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF:Small:Scalable Memory Hierarchies with Fine-Grained QoS Guarantees</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2017</AwardExpirationDate>
+<AwardTotalIntnAmount>500000.00</AwardTotalIntnAmount>
+<AwardAmount>500000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>tao li</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Multicore chips are now mainstream, and increasing the number of cores per chip has become the primary way to improve performance. Current multicores rely on sophisticated cache hierarchies to mitigate the high latency, limited bandwidth, and high energy of main memory accesses, which often limit system performance. These on-chip caches consume more than half of chip area, and most of this cache space is shared among all cores. Sharing this capacity has major advantages, such as improving space utilization and accelerating core-to-core communication, but poses two fundamental problems. First, with more cores, cache accesses take longer and consume more energy, severely limiting scalability. Second, concurrently executing applications contend for this shared cache capacity, which can cause unpredictable performance degradation among them. The goal of this project is to redesign the cache hierarchy to make it both highly scalable, and to provide strict isolation among competing applications, enabling end-to-end performance guarantees. If successful, this work will improve the performance and energy efficiency of future processors, enabling systems with larger numbers of cores than previously possible. Moreover, these systems will eliminate interference and enforce quality of service guarantees among competing applications, even when those applications are latency-critical. This will enable much higher utilization of shared computing infrastructure (such as cloud computing servers), potentially saving billions of dollars in IT infrastructure and energy consumption.&lt;br/&gt;&lt;br/&gt;To achieve the dual goals of high scalability and quality-of-service (QoS) guarantees efficiently, this project proposes an integrated hardware-software approach, where hardware exposes a small and general set of mechanisms to control cache allocations, and software uses these mechanisms to implement both partitioning and non-uniform access policies efficiently. At the hardware level, a novel cache organization provides thousands of fine-grained, spatially configurable partitions, implements lightweight monitoring and reconfiguration mechanisms to guide software policies effectively, and supports full-system scalable cache coherence cheaply. At the software level, a system-level runtime leverages this hardware to implement dynamic data classification, placement, migration, and replication mechanisms, maximizing system performance and efficiency, while at the same time enforcing the strict QoS guarantees of latency-critical workloads, transparently to applications. Combined with existing bandwidth partitioning approaches, these techniques will enforce full-system QoS guarantees by controlling all on-chip shared resources (caches, on-chip network, and memory controllers). In addition, the infrastructure and benchmarks developed as part of this project will be publicly released, allowing other researchers to build on the results of this work, and enabling the development of course projects and other educational activities in large-scale parallel computer architecture, both at MIT and elsewhere.</AbstractNarration>
+<MinAmdLetterDate>07/24/2013</MinAmdLetterDate>
+<MaxAmdLetterDate>07/24/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1318384</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Sanchez Martin</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel Sanchez Martin</PI_FULL_NAME>
+<EmailAddress>sanchez@csail.mit.edu</EmailAddress>
+<PI_PHON>6172531000</PI_PHON>
+<NSF_ID>000636815</NSF_ID>
+<StartDate>07/24/2013</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394307</ZipCode>
+<StreetAddress><![CDATA[77 Massachusetts Avenue]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7941</Code>
+<Text>COMPUTER ARCHITECTURE</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2013~500000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Multicore chips are now mainstream, and increasing the number of cores per chip has become the primary way to improve performance. Current multicores rely on sophisticated cache hierarchies to mitigate the high latency, limited bandwidth, and high energy of main memory accesses, which limit system performance. These caches consume more than half of chip area, and most of this cache space is shared among all cores. Sharing this capacity has major advantages, such as improving space utilization and accelerating core-to-core communication, but poses two fundamental problems. First, with more cores, cache accesses take longer and consume more energy, severely limiting scalability. Second, applications contend for this shared cache capacity, causing unpredictable performance degradation. This lack of predictability limits the utilization of shared servers, where applications much often meet strict performance targets.</p> <p><strong>Intellectual Merit:</strong> The key goal of this project has been to redesign the cache hierarchy to make it both highly scalable and to provide strict isolation among competing applications, enabling end-to-end performance guarantees. Our research has produced the following main outcomes:</p> <p>First, we have investigated and designed software-defined cache hierarchies, a new memory system organization that scales the cache hierarchy by leveraging the strengths of hardware and software. Our approach combines simple, configurable hardware mechanisms controlled by sophisticated software runtimes. Hardware exposes spatially-distributed cache banks to software, allowing an OS-level runtime to build virtual cache hierarchies tailored to the needs of each application, dynamically and transparently to applications. With a single application, our design approaches the performance of the best application-specific hierarchy; with multiple applications sharing the chip, software can control how to divide resources to satisfy system-level objectives (e.g., maximizing throughput or enforcing application priorities). To enable software-defined hierarchies, we have developed novel practical optimization algorithms that reconfigure the whole system in about 1 millisecond and perform within 1% of impractically-expensive solvers. We have demonstrated that these techniques yield large speedups in systems with spatially-distributed caches, as well as in systems with heterogeneous memory technologies (e.g., SRAM and die-stacked DRAM). Moreover, putting software in control of the cache hierarchy enables several novel optimizations throughout the system stack. We have demonstrated these capabilities through novel techniques that perform coordinated scheduling of data and computation and leverage application-level knowledge to improve data placement.</p> <p>Second, we have designed new management techniques to share hardware resources dynamically among applications while providing strict performance guarantees. To share resources safely, these techniques leverage simple hardware mechanisms to let software control resource allocations at high speed, as well as novel modeling techniques to account for the inherent performance inertia of each resource. As a result, these techniques allow much more efficient utilization of caches and cores, and dramatically improve utilization of shared servers in clusters and datacenters.</p> <p>Third, we have designed new analytical cache modeling techniques and cache replacement policies to better understand and improve cache performance. These techniques rely on a novel probabilistic framework based on absolute reuse distances. Our modeling techniques accurately predict performance for a wide range of cache configurations and policies, enabling many system optimizations. Beyond improving performance, our replacement policies yield important qualitative benefits, such as eliminating performance cliffs, which makes cache performance smooth and predictable.</p> <p>To prototype and evaluate these techniques, we have developed a substantial amount of infrastructure, including a state-of-the-art parallel simulator and a diverse benchmark suite. We have released this infrastructure under open-source licenses, allowing others to build on the results of our work, both in research and in the classroom.</p> <p><strong>Broader Impacts:&nbsp;</strong>The techniques developed in this project significantly improve the performance and energy efficiency of multicore processors, enabling systems with a larger number of cores than previously possible. Moreover, by eliminating interference and enforcing quality-of-service guarantees among competing applications, these techniques enable much higher utilization of shared computing infrastructure (such as cloud computing servers), reducing both IT infrastructure costs and energy consumption.</p> <p>Finally, this project has supported the training and professional development of six graduate students.</p><br> <p>            Last Modified: 11/01/2017<br>      Modified by: Daniel&nbsp;Sanchez Martin</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Multicore chips are now mainstream, and increasing the number of cores per chip has become the primary way to improve performance. Current multicores rely on sophisticated cache hierarchies to mitigate the high latency, limited bandwidth, and high energy of main memory accesses, which limit system performance. These caches consume more than half of chip area, and most of this cache space is shared among all cores. Sharing this capacity has major advantages, such as improving space utilization and accelerating core-to-core communication, but poses two fundamental problems. First, with more cores, cache accesses take longer and consume more energy, severely limiting scalability. Second, applications contend for this shared cache capacity, causing unpredictable performance degradation. This lack of predictability limits the utilization of shared servers, where applications much often meet strict performance targets.  Intellectual Merit: The key goal of this project has been to redesign the cache hierarchy to make it both highly scalable and to provide strict isolation among competing applications, enabling end-to-end performance guarantees. Our research has produced the following main outcomes:  First, we have investigated and designed software-defined cache hierarchies, a new memory system organization that scales the cache hierarchy by leveraging the strengths of hardware and software. Our approach combines simple, configurable hardware mechanisms controlled by sophisticated software runtimes. Hardware exposes spatially-distributed cache banks to software, allowing an OS-level runtime to build virtual cache hierarchies tailored to the needs of each application, dynamically and transparently to applications. With a single application, our design approaches the performance of the best application-specific hierarchy; with multiple applications sharing the chip, software can control how to divide resources to satisfy system-level objectives (e.g., maximizing throughput or enforcing application priorities). To enable software-defined hierarchies, we have developed novel practical optimization algorithms that reconfigure the whole system in about 1 millisecond and perform within 1% of impractically-expensive solvers. We have demonstrated that these techniques yield large speedups in systems with spatially-distributed caches, as well as in systems with heterogeneous memory technologies (e.g., SRAM and die-stacked DRAM). Moreover, putting software in control of the cache hierarchy enables several novel optimizations throughout the system stack. We have demonstrated these capabilities through novel techniques that perform coordinated scheduling of data and computation and leverage application-level knowledge to improve data placement.  Second, we have designed new management techniques to share hardware resources dynamically among applications while providing strict performance guarantees. To share resources safely, these techniques leverage simple hardware mechanisms to let software control resource allocations at high speed, as well as novel modeling techniques to account for the inherent performance inertia of each resource. As a result, these techniques allow much more efficient utilization of caches and cores, and dramatically improve utilization of shared servers in clusters and datacenters.  Third, we have designed new analytical cache modeling techniques and cache replacement policies to better understand and improve cache performance. These techniques rely on a novel probabilistic framework based on absolute reuse distances. Our modeling techniques accurately predict performance for a wide range of cache configurations and policies, enabling many system optimizations. Beyond improving performance, our replacement policies yield important qualitative benefits, such as eliminating performance cliffs, which makes cache performance smooth and predictable.  To prototype and evaluate these techniques, we have developed a substantial amount of infrastructure, including a state-of-the-art parallel simulator and a diverse benchmark suite. We have released this infrastructure under open-source licenses, allowing others to build on the results of our work, both in research and in the classroom.  Broader Impacts: The techniques developed in this project significantly improve the performance and energy efficiency of multicore processors, enabling systems with a larger number of cores than previously possible. Moreover, by eliminating interference and enforcing quality-of-service guarantees among competing applications, these techniques enable much higher utilization of shared computing infrastructure (such as cloud computing servers), reducing both IT infrastructure costs and energy consumption.  Finally, this project has supported the training and professional development of six graduate students.       Last Modified: 11/01/2017       Submitted by: Daniel Sanchez Martin]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Collaborative Research: Unsupervised Transcription of Early Modern Documents</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>249876.00</AwardTotalIntnAmount>
+<AwardAmount>249876</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>D.  Langendoen</SignBlockName>
+<PO_EMAI>dlangend@nsf.gov</PO_EMAI>
+<PO_PHON>7032925088</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Recently, researchers in the social sciences and humanities have made increasing use of digital technologies in their work, seeking to answer important questions about human artifacts based on new kinds of analyses. However, since many of their methods are statistical in nature, they require a large amount of digitally readable text to operate. For example, to ask statistical questions about how the legal rights of women have changed during the past five centuries, a large and unbiased sample of court proceedings spanning that time period has to be accessible in digital form. Unfortunately, for many time periods this data is not available, not because the historical documents have been lost, but because they cannot be efficiently transcribed. In particular, the 400 years just after the invention of the printing press (the early modern period, ca. 1450-1850) represents a critical dark period for such research because documents from this period are notoriously hard to transcribe into machine-readable text with automatic methods for three reasons: they use obscure and unknown fonts, their text differs from modern language, and historical printing processes were imprecise. This proposal seeks to address these issues by treating transcription as a type of code-breaking and using machine learning to induce font and text structure directly from unannotated document images without relying on annotated examples,  an approach called unsupervised learning. As a result, the proposal aims not just to digitize existing early modern corpora in major libraries, but also to produce a tool that researchers can use to digitize data at scale themselves and that is sufficiently flexible to develop new representations, for example, of non-standard character sets. &lt;br/&gt;&lt;br/&gt;The proposed approach treats the problem of document transcription as a linguistic decipherment problem, leveraging modeling techniques from work on decrypting historical ciphers. The key idea is that while properties like font and text structure are document-specific and therefore difficult to treat generally with supervised techniques, these phenomena are in fact regular within individual documents. For example, while the shape of a particular character in an obscure historical font may be unknown to the system, that shape is in fact regular;  every time the character is printed it uses the same template. Models that leverage this kind of regularity by incorporating it as an assumption can constrain the otherwise difficult unsupervised learning problem and make it feasible. This proposal introduces a class of generative models with this goal in mind, designed to learn fonts and predict accurate transcriptions in an unsupervised fashion by capturing the core properties of the process that generated the input data: the historical printing process. These models represent the specific types of printing and typesetting noise exhibited by early modern documents, treat typesetting as a latent variable, and jointly consider possible character segmentations and transcriptions during inference. Their parameters can be estimated efficiently, directly from images of historical documents without accompanying transcriptions. Further, by treating damaged portions of the input documents as latent variables, this proposal aims to automatically reconstruct damaged documents using the same approach. The unsupervised techniques developed here may have uses in other areas of natural language processing where annotated training data is hard to obtain; for example, in personalized speech recognition and grounded semantics.</AbstractNarration>
+<MinAmdLetterDate>06/03/2016</MinAmdLetterDate>
+<MaxAmdLetterDate>06/03/2016</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1618460</AwardID>
+<Investigator>
+<FirstName>Dan</FirstName>
+<LastName>Klein</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Dan Klein</PI_FULL_NAME>
+<EmailAddress>klein@cs.berkeley.edu</EmailAddress>
+<PI_PHON>5106430805</PI_PHON>
+<NSF_ID>000226381</NSF_ID>
+<StartDate>06/03/2016</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Berkeley</Name>
+<CityName>BERKELEY</CityName>
+<CountyName>ALAMEDA</CountyName>
+<ZipCode>947101749</ZipCode>
+<PhoneNumber>5106433891</PhoneNumber>
+<StreetAddress>Sponsored Projects Office</StreetAddress>
+<StreetAddress2><![CDATA[1608 Fourth Street, Suite 220]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA13</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>124726725</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Berkeley]]></Name>
+<CityName>Berkeley</CityName>
+<CountyName>ALAMEDA</CountyName>
+<StateCode>CA</StateCode>
+<ZipCode>947045940</ZipCode>
+<StreetAddress><![CDATA[Sponsored Projects Office]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>13</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA13</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~249876</FUND_OBLG>
+</Award>
+</rootTag>

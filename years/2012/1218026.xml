@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Collaborative Research: Diversity and Feedback in Random Testing for Systems Software</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2015</AwardExpirationDate>
+<AwardTotalIntnAmount>249036.00</AwardTotalIntnAmount>
+<AwardAmount>249036</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Testing is an extremely important part of any software development effort, especially for programs that have access to sensitive resources (personal information, sensor data, etc.) and that can be reached through the Internet. The PIs' work will improve the state of the art in software testing for mobile applications running on the open source Android platform, resulting in fewer bugs and reduced testing effort.&lt;br/&gt;&lt;br/&gt;The foundation of the PIs' work is random testing, where random numbers are used as inputs to an algorithm for constructing test cases. Although random testing has been shown to be highly effective for discovering serious bugs in complex software systems, it suffers from various problems including the fact that it is very difficult to engineer a random tester that doesn't spend a lot of time re-exploring the same application behaviors over and over again. The PIs will build upon their "swarm testing" work, which has been shown to be an inexpensive way to increase the diversity of random test cases, and also to increase their effectiveness in discovering bugs. Additionally, the PIs are investigating how to marry random testing with modern symbolic execution methods, and how to use feedback from executions of the software under test in order to improve the efficacy of random testing.&lt;br/&gt;&lt;br/&gt;The development of more efficient and effective testing techniques and tools will lower the cost and raise the quality of software.  Test coverage is a challenging, open problem that is being addressed here in a novel way.</AbstractNarration>
+<MinAmdLetterDate>08/01/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/01/2012</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1218026</AwardID>
+<Investigator>
+<FirstName>John</FirstName>
+<LastName>Regehr</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>John D Regehr</PI_FULL_NAME>
+<EmailAddress>regehr@cs.utah.edu</EmailAddress>
+<PI_PHON>8015859086</PI_PHON>
+<NSF_ID>000310362</NSF_ID>
+<StartDate>08/01/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName>SALT LAKE CITY</CityName>
+<StateCode>UT</StateCode>
+<ZipCode>841128930</ZipCode>
+<StreetAddress><![CDATA[201 PRESIDENTS CIRCLE ROOM 201]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~249036</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Software is often buggier than we would like, or than we are willing to tolerate, despite the fact that a typical software development effort spends a lot of effort trying to find and fix bugs. Random testing, also called fuzzing, is an effective way to find defects in software; it is particularly useful for finding security-related bugs in software such as web servers that operate across a trust boundary. There are, however, major gaps in our understanding of fuzzing: When and why does it work, or not work? How can we construct highly effective fuzzers? The research done on this project helps answer these questions.<br />The first part of our effort was done in collaboration with Alex Groce at Oregon State University. We developed the idea of "swarm testing" -- a method for cheaply increasing the diversity of test cases emitted by a random tester. Diversity is important for finding bugs: a random tester that fails to generate diverse test cases will waste time testing the same part of the target system over and over again. We investigated the idea that "features" -- properties of randomly generated test cases -- can suppress bugs instead of triggering them, and looked at the implications of suppressors during a testing campaign. We investigated the "fuzzer taming problem" where the goal is to tame the flood of bug-triggering test cases coming from a fuzzer by using lightweight machine learning techniques to group together test cases that all are likely to be triggering the same bug, in order to make it easier for developers to interact with a fuzzer. In short, this thread of the project investigated a number of fundamental issues in random testing that Alex and I felt were important and that were not being addressed (or not being addressed enough) by the software testing community.<br />In the second part of our effort we applied our ideas towards the goal of finding bugs in Android, the most widely deployed OS for smart phones. We fuzzed the "intent" subsystem of Android: it is used for applications to communicate with each other, and with aspects of the operating system. Since different apps have different privileges, intents are a trust boundary (for example, you do not want the game you just downloaded to start posting to your Facebook account). We found defects in the intent processing of almost every application that we tested. We reported a number of bugs in core Android services to the Android security team, including a defect in Android 4.4.2 that permitted an untrusted application to lock up a phone, forcing it to reboot.<br />The broader impacts of this project include contributing to the body of knowledge on fuzzing, improving the quality of the Android OS, and training several undergraduate research students.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 12/18/2015<br>      Modified by: John&nbsp;D&nbsp;Regehr</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Software is often buggier than we would like, or than we are willing to tolerate, despite the fact that a typical software development effort spends a lot of effort trying to find and fix bugs. Random testing, also called fuzzing, is an effective way to find defects in software; it is particularly useful for finding security-related bugs in software such as web servers that operate across a trust boundary. There are, however, major gaps in our understanding of fuzzing: When and why does it work, or not work? How can we construct highly effective fuzzers? The research done on this project helps answer these questions. The first part of our effort was done in collaboration with Alex Groce at Oregon State University. We developed the idea of "swarm testing" -- a method for cheaply increasing the diversity of test cases emitted by a random tester. Diversity is important for finding bugs: a random tester that fails to generate diverse test cases will waste time testing the same part of the target system over and over again. We investigated the idea that "features" -- properties of randomly generated test cases -- can suppress bugs instead of triggering them, and looked at the implications of suppressors during a testing campaign. We investigated the "fuzzer taming problem" where the goal is to tame the flood of bug-triggering test cases coming from a fuzzer by using lightweight machine learning techniques to group together test cases that all are likely to be triggering the same bug, in order to make it easier for developers to interact with a fuzzer. In short, this thread of the project investigated a number of fundamental issues in random testing that Alex and I felt were important and that were not being addressed (or not being addressed enough) by the software testing community. In the second part of our effort we applied our ideas towards the goal of finding bugs in Android, the most widely deployed OS for smart phones. We fuzzed the "intent" subsystem of Android: it is used for applications to communicate with each other, and with aspects of the operating system. Since different apps have different privileges, intents are a trust boundary (for example, you do not want the game you just downloaded to start posting to your Facebook account). We found defects in the intent processing of almost every application that we tested. We reported a number of bugs in core Android services to the Android security team, including a defect in Android 4.4.2 that permitted an untrusted application to lock up a phone, forcing it to reboot. The broader impacts of this project include contributing to the body of knowledge on fuzzing, improving the quality of the Android OS, and training several undergraduate research students.             Last Modified: 12/18/2015       Submitted by: John D Regehr]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

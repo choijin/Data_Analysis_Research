@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Small: Lambda Encodings Reborn</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>468938.00</AwardTotalIntnAmount>
+<AwardAmount>543918</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Proof assistants are software tools that assist users in developing formal proofs of theorems. Proof assistants are now widely used to verify large  software systems. Hence a more trustworthy proof assistant could have significant impact on high assurance software. An important issue in the design of proof assistants is how to ensure they are logically sound. This project investigates a new foundation for proof assistants, based on a method of representing data using only functions which is known as lambda encodings.  &lt;br/&gt;&lt;br/&gt;Lambda encodings are important for proof assistants because they eliminate the need for a datatype subsystem.  Such subsystems are complicated, and increase the difficulty of ensuring logical soundness of the proof assistant.  There are several technical problems in using lambda encoding for this purpose, including the fact that induction principles could not be derived using them.  This project develops new solutions to these problems, that enables the use of lambda encodings as a viable foundation for proof assistants. These new methods will be integrated into a new proof assistant, called Cedille, which has a simpler foundation than other similar tools, and increases its trustworthiness.</AbstractNarration>
+<MinAmdLetterDate>06/17/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>06/26/2018</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1524519</AwardID>
+<Investigator>
+<FirstName>Aaron</FirstName>
+<LastName>Stump</LastName>
+<PI_MID_INIT>D</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Aaron D Stump</PI_FULL_NAME>
+<EmailAddress>aaron-stump@uiowa.edu</EmailAddress>
+<PI_PHON>3193840093</PI_PHON>
+<NSF_ID>000241804</NSF_ID>
+<StartDate>06/17/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Iowa</Name>
+<CityName>IOWA CITY</CityName>
+<ZipCode>522421320</ZipCode>
+<PhoneNumber>3193352123</PhoneNumber>
+<StreetAddress>2 GILMORE HALL</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<StateCode>IA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>062761671</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF IOWA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>062761671</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Iowa]]></Name>
+<CityName/>
+<StateCode>IA</StateCode>
+<ZipCode>522421419</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9150</Code>
+<Text>EXP PROG TO STIM COMP RES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~468938</FUND_OBLG>
+<FUND_OBLG>2018~74980</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The lambda calculus is a minimal programming language proposed in the early Twentieth Century by the great logician Alonzo Church, for use in foundations of mathematics.&nbsp; The language includes computable functions, but no data.&nbsp; Church devised a scheme for representing data, like numbers, as functions.&nbsp; Such a scheme is called a lambda encoding.&nbsp;</p> <p>&nbsp;</p> <p>Prior to the work of this project, lambda encodings have not been used as the basis for computer-checked proofs, due to several difficulties.&nbsp; The most serious is that induction is provably not derivable for lambda encodings in the logical theories that many computer proof systems are based on.&nbsp; This project showed how to extend such theories with a small set of primitives in such a way as to enable derivability of induction.&nbsp; This makes it possible, for the first time, to base a computer proof system on lambda encodings of data.&nbsp; The project developed an example such implementation, called Cedille.&nbsp; It also developed more time- and space-efficient lambda encodings than in previous work, and also showed how to define the encodings in such a way as to permit more flexible patterns of recursion than allowed by Church's original encoding.&nbsp; A good introduction to the latter aspect of the work may be found in the paper "Strong functional pearl: Harper's regular expression matcher in Cedille".</p> <p>&nbsp;</p> <p>The intellectual merit of the work of this project is in devising a way to derive induction for lambda-encoded data, and developing more advanced lambda encodings.&nbsp; The broader impact includes dissemination of the results in a blog, "QA9", and a podcast, "The Iowa Type Theory Commute".&nbsp; The latter is geared towards industrial programmers, or others with some college-level knowledge of Computer Science, but no graduate study.&nbsp; In its first year, the podcast received 10,000 downloads, suggesting that the presentation of deep material in Programming Languages Theory and Computational Logic is indeed of interest to this audience.&nbsp; A number of emails from listeners confirm that they are in the intended target audience.</p><br> <p>            Last Modified: 10/25/2020<br>      Modified by: Aaron&nbsp;D&nbsp;Stump</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The lambda calculus is a minimal programming language proposed in the early Twentieth Century by the great logician Alonzo Church, for use in foundations of mathematics.  The language includes computable functions, but no data.  Church devised a scheme for representing data, like numbers, as functions.  Such a scheme is called a lambda encoding.      Prior to the work of this project, lambda encodings have not been used as the basis for computer-checked proofs, due to several difficulties.  The most serious is that induction is provably not derivable for lambda encodings in the logical theories that many computer proof systems are based on.  This project showed how to extend such theories with a small set of primitives in such a way as to enable derivability of induction.  This makes it possible, for the first time, to base a computer proof system on lambda encodings of data.  The project developed an example such implementation, called Cedille.  It also developed more time- and space-efficient lambda encodings than in previous work, and also showed how to define the encodings in such a way as to permit more flexible patterns of recursion than allowed by Church's original encoding.  A good introduction to the latter aspect of the work may be found in the paper "Strong functional pearl: Harper's regular expression matcher in Cedille".     The intellectual merit of the work of this project is in devising a way to derive induction for lambda-encoded data, and developing more advanced lambda encodings.  The broader impact includes dissemination of the results in a blog, "QA9", and a podcast, "The Iowa Type Theory Commute".  The latter is geared towards industrial programmers, or others with some college-level knowledge of Computer Science, but no graduate study.  In its first year, the podcast received 10,000 downloads, suggesting that the presentation of deep material in Programming Languages Theory and Computational Logic is indeed of interest to this audience.  A number of emails from listeners confirm that they are in the intended target audience.       Last Modified: 10/25/2020       Submitted by: Aaron D Stump]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

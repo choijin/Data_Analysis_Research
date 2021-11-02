@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>AF: Small: Relative Fault Tolerance in Network Design</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>A. Funda Ergun</SignBlockName>
+<PO_EMAI>fergun@nsf.gov</PO_EMAI>
+<PO_PHON>7032922216</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Fault tolerance is crucial for every computer system, particularly networked and distributed systems where computational and communication components can fail. Every network (e.g., internet, electric power grid, mobile phones or road networks with traffic/closures) needs to be resilient to component failures or malfunctions. It is crucial that quality of service is maintained in catastrophic events where there can be many failures. This project is about a new notion of fault-tolerance that is relative to some underlying system/network, which allows for more refined and powerful guarantees than traditional definitions. The PI will develop the theory of relative fault-tolerance, fundamentally improving knowledge of the capabilities and limitations of these new definitions and leading to improved reliability of networked systems. This project incorporates mentoring and including underrepresented undergraduates and high school students in the more applied aspects of this work, as well as outreach to middle schools in Baltimore through existing mathematics-based programs.&lt;br/&gt;&lt;br/&gt;The focus of the project will be on network-design problems, where the system is a network which is either supposed to stay connected after faults or is supposed to both stay connected and preserve distances in the network after faults. The traditional notion of fault-tolerance is absolute: a network is fault tolerant if it can withstand some number of failures.  But this notion is limiting if we are building on top of an already existing system; if the underlying system is not very fault-tolerant, then our system cannot be very fault-tolerant.  To get around this limitation, the PI will study algorithms for designing networks and systems with relative fault tolerance, where the requirement is that the system be robust to faults which the underlying system is also robust to.  More formally, a network is f-fault tolerant not if it can withstand f faults (the traditional definition), but if it has the same behavior after f faults as the underlying system.  The two main problem types in this project are the following.&lt;br/&gt;&lt;br/&gt;- Survivable Network Design, where the goal is to find a subgraph of a given network where the connected components of the subgraph after faults are the same as the connected components of the full network after faults.&lt;br/&gt;- Graph Spanners, where the goal is to find a subgraph of a given network where the pairwise distances in the subgraph after faults are a good approximation of the pairwise distances in the full graph after faults.&lt;br/&gt;&lt;br/&gt;For both of these types of problems, the PI will design efficient approximation algorithms for the main problems and their variants, in the traditional centralized model of computation as well as in distributed and parallel models.  In order to do this, it will be necessary to develop new algorithmic techniques that are based on but go beyond the techniques that have been used for related problems (iterative rounding for survivable network design, randomized rounding for spanners).&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/02/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>07/02/2019</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1909111</AwardID>
+<Investigator>
+<FirstName>Michael</FirstName>
+<LastName>Dinitz</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Michael Dinitz</PI_FULL_NAME>
+<EmailAddress>mdinitz@cs.jhu.edu</EmailAddress>
+<PI_PHON>4105168668</PI_PHON>
+<NSF_ID>000662685</NSF_ID>
+<StartDate>07/02/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Johns Hopkins University</Name>
+<CityName>Baltimore</CityName>
+<ZipCode>212182686</ZipCode>
+<PhoneNumber>4439971898</PhoneNumber>
+<StreetAddress>1101 E 33rd St</StreetAddress>
+<StreetAddress2><![CDATA[Suite B001]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<StateCode>MD</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MD07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001910777</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>JOHNS HOPKINS UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001910777</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Johns Hopkins University]]></Name>
+<CityName>Baltimore</CityName>
+<StateCode>MD</StateCode>
+<ZipCode>212182686</ZipCode>
+<StreetAddress><![CDATA[1101 E 33rd St]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Maryland</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MD07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7796</Code>
+<Text>Algorithmic Foundations</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7926</Code>
+<Text>ALGORITHMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~300000</FUND_OBLG>
+</Award>
+</rootTag>

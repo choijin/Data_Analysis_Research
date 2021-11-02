@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CPA-CPL Certified Garbage Collection for Highly Responsive Systems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2012</AwardExpirationDate>
+<AwardTotalIntnAmount>390000.00</AwardTotalIntnAmount>
+<AwardAmount>422000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Multi-million line systems are being developed in Java for avionics, shipboard computing and simulation. A key attraction of the Real-Time Speci&amp;#64257;cation for Java for such systems is that it makes it possible to develop applications that mix hard-, soft-, and non-real-time tasks in the same environment in a memory-safe way. Unfortunately these advantages come at the expense of predictability of the real-time subsystems. One of the main culprits for such unpredictability in Java is garbage collection, which often requires applications to be interrupted for hundreds of milliseconds. Such pauses are not acceptable in real-time systems. One way to address this critical problem is to develop real-time garbage collectors (RTGC) with worst-case bounds on pause times and minimum mutator utilization. RTGC research is still in its infancy. There are limits to the applicability of current algorithms in terms of the strength of the timing guarantees that they offer. Furthermore, one serious limitation to the use of RTGC in safety- and mission- critical settings is the issue of certi&amp;#64257;cation of the software. In the current state of the art, no garbage collector has been formally veri&amp;#64257;ed. Without these guarantees there is little hope of adoption.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This research comprises work on two crucial issues in real-time virtual machines for high-level languages. First, it is exploring new approaches to RTGC based on probabilistic lock-free synchronization that provide strong timing guarantees that have a vanishingly small probability of being violated. Second, it  uses theorem proving to generate a provably correct garbage collection algorithm. This step is critical for certi&amp;#64257;cation of advanced runtime environments and, as best is known, has never been attempted before. RTGC prototypes are being implemented in the context of a high-performance open source real-time Java virtual machine. This experimental platform is an industrial strength implementation of Java which is the only Java virtual machine to have been &amp;#64258;ight tested (in a collaboration with Boeing). Outcomes include empirical results for a suite of large real-time Java programs. All results are being released as open source.&lt;br/&gt;</AbstractNarration>
+<MinAmdLetterDate>08/04/2008</MinAmdLetterDate>
+<MaxAmdLetterDate>05/25/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>0811691</AwardID>
+<Investigator>
+<FirstName>Antony</FirstName>
+<LastName>Hosking</LastName>
+<PI_MID_INIT>L</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Antony L Hosking</PI_FULL_NAME>
+<EmailAddress>hosking@cs.umass.edu</EmailAddress>
+<PI_PHON>7654163068</PI_PHON>
+<NSF_ID>000107257</NSF_ID>
+<StartDate>08/04/2008</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Jan</FirstName>
+<LastName>Vitek</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Jan Vitek</PI_FULL_NAME>
+<EmailAddress>j.vitek@neu.edu</EmailAddress>
+<PI_PHON>6173732462</PI_PHON>
+<NSF_ID>000290862</NSF_ID>
+<StartDate>08/04/2008</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Purdue University</Name>
+<CityName>West Lafayette</CityName>
+<ZipCode>479072114</ZipCode>
+<PhoneNumber>7654941055</PhoneNumber>
+<StreetAddress>Young Hall</StreetAddress>
+<StreetAddress2><![CDATA[155 S Grant Street]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<StateCode>IN</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IN04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>072051394</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PURDUE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>072051394</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Purdue University]]></Name>
+<CityName>West Lafayette</CityName>
+<StateCode>IN</StateCode>
+<ZipCode>479072114</ZipCode>
+<StreetAddress><![CDATA[Young Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Indiana</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IN04</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<FoaInformation>
+<Code>0000912</Code>
+<Name>Computer Science</Name>
+</FoaInformation>
+<ProgramElement>
+<Code>7329</Code>
+<Text>COMPILERS</Text>
+</ProgramElement>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9251</Code>
+<Text>REU SUPP-Res Exp for Ugrd Supp</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0108</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0109</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2008~390000</FUND_OBLG>
+<FUND_OBLG>2009~16000</FUND_OBLG>
+<FUND_OBLG>2010~16000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project looked at producing high-assurance certified automated memory managment algorithms. &nbsp;Our main achievement is the invention of a new algorithm which we call Schism. &nbsp;Schism addresses a hard problem: while managed languages such as Java and C# are being considered for use in hard real-time systems, the hurdle to their widespread adoption is the lack of garbage collection algorithms that offer predictable space-and-time performance in the face of fragmentation. &nbsp;Fragmentation is a common phenomenon in long-lived computer systems where the memory available for computation is broken off into a myriad of small pieces, none large enough to be of use. &nbsp;Schism is&nbsp;a new concurrent and real- time memory management algorithm that is fragmentation tolerant and guarantees time-and-space worst-case bounds while providing good througpput. Schism combines best of breed memory management techniques such as mark-region collection of fragmented objects and arrays with separate replication-copying collection of immutable arraylet spines, so as to cope with external fragmentation when running in small heaps. &nbsp;This unique combination makes it possible for Schism to manage reliably the memory of hard real-time embedded systems without pausing the application for long periods of time. &nbsp; We also implemented Schims in a virtual machine that was partially funded by this project, and later transitioned to a startup company. The Fiji VM is a high-performance Java virtual machine for mission-critical systems, along with a thorough experimental evaluation on a wide variety of architectures, including server-class and embedded systems. Our final result show that the novel algorithm outperforms commercial products from IBM and Oracle and provide the best all-round performance and predictability for embedded systems.</p> <p>&nbsp;</p><br> <p>            Last Modified: 04/11/2013<br>      Modified by: Antony&nbsp;L&nbsp;Hosking</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project looked at producing high-assurance certified automated memory managment algorithms.  Our main achievement is the invention of a new algorithm which we call Schism.  Schism addresses a hard problem: while managed languages such as Java and C# are being considered for use in hard real-time systems, the hurdle to their widespread adoption is the lack of garbage collection algorithms that offer predictable space-and-time performance in the face of fragmentation.  Fragmentation is a common phenomenon in long-lived computer systems where the memory available for computation is broken off into a myriad of small pieces, none large enough to be of use.  Schism is a new concurrent and real- time memory management algorithm that is fragmentation tolerant and guarantees time-and-space worst-case bounds while providing good througpput. Schism combines best of breed memory management techniques such as mark-region collection of fragmented objects and arrays with separate replication-copying collection of immutable arraylet spines, so as to cope with external fragmentation when running in small heaps.  This unique combination makes it possible for Schism to manage reliably the memory of hard real-time embedded systems without pausing the application for long periods of time.   We also implemented Schims in a virtual machine that was partially funded by this project, and later transitioned to a startup company. The Fiji VM is a high-performance Java virtual machine for mission-critical systems, along with a thorough experimental evaluation on a wide variety of architectures, including server-class and embedded systems. Our final result show that the novel algorithm outperforms commercial products from IBM and Oracle and provide the best all-round performance and predictability for embedded systems.          Last Modified: 04/11/2013       Submitted by: Antony L Hosking]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

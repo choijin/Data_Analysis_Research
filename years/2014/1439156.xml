@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>XPS: FULL: CCA: Collaborative Research: CASH: Cost-aware Adaptation of Software and Hardware</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2019</AwardExpirationDate>
+<AwardTotalIntnAmount>300000.00</AwardTotalIntnAmount>
+<AwardAmount>300000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Yuanyuan Yang</SignBlockName>
+<PO_EMAI>yyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032928067</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Programming for and leveraging the benefits of scalable and highly&lt;br/&gt;parallel computer architectures is becoming increasingly&lt;br/&gt;challenging. In order to ease programmer and user effort in achieving&lt;br/&gt;efficient use of parallel architectures and to enable optimal usage of&lt;br/&gt;parallel hardware both within a single chip and across a data center,&lt;br/&gt;this project explores the co-design of a fine-grain configurable (down&lt;br/&gt;to the ALU, FPU, Cache bank, fetch unit, etc) architecture along with&lt;br/&gt;a software optimizing runtime system which controls the architecture?s&lt;br/&gt;configuration. This runtime management system understands high-level&lt;br/&gt;goals and constraints such as optimizing for power, latency, cost, or&lt;br/&gt;complex mixed-goals and dynamically allocates fine-grain resources to&lt;br/&gt;meet the constraints. This project will evaluate and design a configurable&lt;br/&gt;manycore-inspired architecture and a self-adapting runtime system.&lt;br/&gt;&lt;br/&gt;This project will investigate the creation of a complete, scalable,&lt;br/&gt;self-adaptive computing system; and will push the boundaries of&lt;br/&gt;adapting systems by utilizing hardware that is configurable and&lt;br/&gt;monitorable below the processor core level. By providing such a&lt;br/&gt;flexible and highly monitored architecture to the adaptation runtime,&lt;br/&gt;this project will explore the scalability of adaptive runtime&lt;br/&gt;algorithms to handle a game-changing increase in the number of&lt;br/&gt;controllable parameters. This project will explore the extent to&lt;br/&gt;which it is fruitful to configure a parallel architecture.</AbstractNarration>
+<MinAmdLetterDate>08/08/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>08/08/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1439156</AwardID>
+<Investigator>
+<FirstName>Henry</FirstName>
+<LastName>Hoffmann</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Henry Hoffmann</PI_FULL_NAME>
+<EmailAddress>hankhoffmann@cs.uchicago.edu</EmailAddress>
+<PI_PHON>7737024980</PI_PHON>
+<NSF_ID>000642777</NSF_ID>
+<StartDate>08/08/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606372612</ZipCode>
+<PhoneNumber>7737028669</PhoneNumber>
+<StreetAddress>6054 South Drexel Avenue</StreetAddress>
+<StreetAddress2><![CDATA[Suite 300]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>005421136</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CHICAGO, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>005421136</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Chicago]]></Name>
+<CityName/>
+<StateCode>IL</StateCode>
+<ZipCode>606375418</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8283</Code>
+<Text>Exploiting Parallel&amp;Scalabilty</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~300000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The CASH project was a collaboration between the University of Chicago (PI Henry Hoffmann) and Princeton University (PI David Wentzlaff).&nbsp;&nbsp; The goal was to build hardware and software that would work together to improve Infrastructure-as-a-Service (IaaS) by adapting resource usage to maintain quality-of-service guarantees while minimizing user costs.&nbsp; To accomplish this goal, we created (1) hardware designs that are highly configurable allowing fine-grain resources to be dynamically allocated to different applications and (2) software that could make dynamic decisions about how to allocate these resources to specific workloads to meet user constraints with minimal cost.&nbsp; Part (1) was primarily done at Princeton, while part (2) was primarily done at the University of Chicago.&nbsp; We note that the joint project was quite successful and resulted in an ISCA 2016 publication giving an overview of the whole system design.</p> <p>The work at the University of Chicago centered on developing methodologies that could dynamically adapt resource usage despite no prior knowledge of the application workloads and very complex hardware designs.&nbsp; Over the course of the project we developed control theoretic methods to handle system dynamics and machine learning solutions to handle hardware complexity.&nbsp; We developed general methodologies for combining control theoretic and machine learning solutions and we demonstrated that these approaches can apply to problems far beyond the original scope of the project.&nbsp; For example, we showed that the same approaches can work in both cloud software and can be synthesized into hardware to manage GPU resources.&nbsp; This work appeared in a number of top CS venues from software engineering conferences down to operating systems and hardware conferences. This work also received several awards including an IEEE Micro Top Picks Honorable Mention in 2018.</p> <p>In addition to the intellectual merit of the approach, the project created many meaningful experiences for graduate students who participated.&nbsp; Several students came to the project as a result of PI Hoffmann's incorporation of problems from this project into his graduate teaching.&nbsp; This integration of teaching and research both got new perspectives on the problem and created meaningful classroom experiences for students.&nbsp; Additionally, four women PhD students contributed to the project either as paid RAs or through course work inspired by the project.&nbsp;</p> <p>Overall the work at the University of Chicago on CASH created a large volume of intellectual output and many meaningful experiences for students in both research and in the classroom.</p><br> <p>            Last Modified: 12/11/2019<br>      Modified by: Henry&nbsp;Hoffmann</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The CASH project was a collaboration between the University of Chicago (PI Henry Hoffmann) and Princeton University (PI David Wentzlaff).   The goal was to build hardware and software that would work together to improve Infrastructure-as-a-Service (IaaS) by adapting resource usage to maintain quality-of-service guarantees while minimizing user costs.  To accomplish this goal, we created (1) hardware designs that are highly configurable allowing fine-grain resources to be dynamically allocated to different applications and (2) software that could make dynamic decisions about how to allocate these resources to specific workloads to meet user constraints with minimal cost.  Part (1) was primarily done at Princeton, while part (2) was primarily done at the University of Chicago.  We note that the joint project was quite successful and resulted in an ISCA 2016 publication giving an overview of the whole system design.  The work at the University of Chicago centered on developing methodologies that could dynamically adapt resource usage despite no prior knowledge of the application workloads and very complex hardware designs.  Over the course of the project we developed control theoretic methods to handle system dynamics and machine learning solutions to handle hardware complexity.  We developed general methodologies for combining control theoretic and machine learning solutions and we demonstrated that these approaches can apply to problems far beyond the original scope of the project.  For example, we showed that the same approaches can work in both cloud software and can be synthesized into hardware to manage GPU resources.  This work appeared in a number of top CS venues from software engineering conferences down to operating systems and hardware conferences. This work also received several awards including an IEEE Micro Top Picks Honorable Mention in 2018.  In addition to the intellectual merit of the approach, the project created many meaningful experiences for graduate students who participated.  Several students came to the project as a result of PI Hoffmann's incorporation of problems from this project into his graduate teaching.  This integration of teaching and research both got new perspectives on the problem and created meaningful classroom experiences for students.  Additionally, four women PhD students contributed to the project either as paid RAs or through course work inspired by the project.   Overall the work at the University of Chicago on CASH created a large volume of intellectual output and many meaningful experiences for students in both research and in the classroom.       Last Modified: 12/11/2019       Submitted by: Henry Hoffmann]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Design and Implementation of Goal-directed Solvers for Answer Set Programming</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>495109.00</AwardTotalIntnAmount>
+<AwardAmount>495109</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>James Donlon</SignBlockName>
+<PO_EMAI>jdonlon@nsf.gov</PO_EMAI>
+<PO_PHON>7032928074</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project is focused on the development of an efficient Answer Set Programming (ASP) solver, advancing the state-of-the-art in logic based knowledge representation, logic programming and artificial intelligence.  ASP is an elegant way to represent knowledge and perform advanced reasoning (common sense reasoning, non-monotonic reasoning, planning, constraint satisfaction, etc.). ASP is based on the stable model semantics proposed by Gelfond and Lifschitz. It has gained wide acceptance in the last fifteen years in the knowledge representation (KR) and artificial intelligence (AI) research communities due to its incorporation of negation, its expressiveness and simple, intuitive syntax. Considerable past research has been done in developing the ASP paradigm as well as its implementations and applications.  Implementation techniques for realizing answer set solvers range from simple guess-and-check based methods to those based on SAT solvers and complex heuristics. Applicability of current ASP systems is limited due to (i) the current implementation methods not being goal-directed (i.e., not being query-driven), (ii) need for grounding the answer set program if predicates are present, (iii) being forced to find the model of the entire program (even though to answer a given query only a small subset of the model needs to be computed), and (iv) no answer being produced even if a minor inconsistency (unrelated to the query) is present in the knowledge base. This project addresses these problems by developing a query-driven implementation of answer set programs containing predicates.  Current systems have to process the entire knowledge base (expressed as an answer set program) to compute an answer. In contrast, the query-driven method developed in this project only accesses and processes parts of the knowledge base that are involved in answering the query. Query-driven execution allows predicates to be directly included in answer set programs. It also leads to efficiency in execution.  &lt;br/&gt;&lt;br/&gt;The query-driven method is based on PI's group's recent discovery of coinductive logic programming. Coinductive logic programming imparts operational semantics to greatest fixed point-based computations. Given a query and an answer set program, this coinduction-based operational semantics is used to compute (partial) answer sets that contain the query goal(s). With query-driven execution, predicates can be supported directly, i.e., answer set programs containing predicates no longer have to be grounded first. The main tasks of this project are the following: (i) develop an efficient query-driven, top-down execution strategy for propositional answer set programs; (ii) extend this query-driven execution strategy to handle Datalog ASP (without grounding the program first); (iii) further extend this query-driven execution strategy to handle Predicate ASP (without grounding the program first); (iv) develop coinductive extension of ASP and its implementation; (v) develop a query-driven abductive reasoning engine based on ASP; and, (vi) further extend the engine to incorporate constraints over reals.  The key intellectual contributions of the research is the investigation of techniques for query-driven execution of answer set programs and advanced reasoning systems that employ negation.  The research tests the claim that a query-driven implementation can more elegantly (and efficiently) support constraints and abduction in ASP. The broader impacts of this work include the availability of more powerful applications of knowledge representation; mechanisms for common sense reasoning; integration of advanced ASP systems into education and research venues; and the development of the research careers of graduate and undergraduate students, including those from under-represented groups.</AbstractNarration>
+<MinAmdLetterDate>06/24/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>06/24/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1423419</AwardID>
+<Investigator>
+<FirstName>Gopal</FirstName>
+<LastName>Gupta</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Gopal Gupta</PI_FULL_NAME>
+<EmailAddress>gupta@utdallas.edu</EmailAddress>
+<PI_PHON>4698781991</PI_PHON>
+<NSF_ID>000249848</NSF_ID>
+<StartDate>06/24/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Texas at Dallas</Name>
+<CityName>Richardson</CityName>
+<ZipCode>750803021</ZipCode>
+<PhoneNumber>9728832313</PhoneNumber>
+<StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<StateCode>TX</StateCode>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>TX32</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>800188161</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF TEXAS AT DALLAS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042000273</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Texas at Dallas]]></Name>
+<CityName>Richardson</CityName>
+<StateCode>TX</StateCode>
+<ZipCode>750803021</ZipCode>
+<StreetAddress><![CDATA[800 W. Campbell Rd]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Texas</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>32</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>TX32</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~495109</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The main goal of this project was to design, develop and implement novel, query-driven implementations of predicate answer set programming.</p> <p><strong>Intellectual Merit: </strong>The predicate answer set programming system that is goal-directed &amp; query-driven was researched, designed and implemented by PI's group. The resulting system---called s(ASP)---is available as an open source system and has been downloaded nearly 900 times on sourceforge to date. Coinductive extensions and abductive extensions were implemented as well. In the process of developing the s(ASP) system, a number of innovative techniques were developed: (i) a unification algorithm for full constructive negation over predicates, (ii) a clever coding of duals of rules in logic programs containing both positive and negative predicates, (iii) an algorithm based on <em>coinduction </em>for top down execution of predicate answer set programs. It should be mentioned that realization of systems that execute answer set programs in a goal-directed manner was considered impossible by the research community, even for the propositional case. Execution of predicate answer set programs that are not finitely groundable was not even considered. We showed that a problem that were considered impossible to solve was indeed solvable, based on the concept of <em>coinduction</em>. In the last phase of the project, the s(ASP) system was also extended with constraints over reals. This work resulted in the goal-directed s(CASP) system that extends ASP with constraints in a very natural way, resulting in more powerful applications being supported. A general theory that gives insights into various semantics of negation in logic programming was also developed as part of this project. Multiple publications in conferences and journals resulted from this project as well.</p> <p><strong>Broader Impact:</strong> The s(ASP) system was also used to develop serious applications as part of this project. Most notably, a physician advisory system for managing chronic heart failure (CHF) was developed in collaboration with cardiologists at nearby UT Southwestern Medical Center, a teaching and research hospital. This physician advisory system has been quite effective in recommending treatments for CHF, and in the tests done over 30 odd patients' data (20 real, 10 simulated), it outperforms physicians. The s(ASP) system was also used to develop two other systems, one of them for checking if CS, Mechanical Engg and Mathematics majors can graduate given the complex rules they must follow in order to obtain their undergraduate degree. The system is open-sourced and available to UT Dallas CS students to use. The s(ASP) system also has been used to organize a hackathon at the University of Texas at Dallas where more than 150 students participated and 18 projects were submitted. It was also used in multiple offerings of PI&rsquo;s Computational Logic course with 30-40 students in each offering, where each student had to do a project in answer set programming using the s(ASP) system. Many interesting projects were done. The s(ASP) system has also been used to model knowledge about cell biology from a high school text book (6 chapters). A user can pose a cell biology question as an ASP query to this system coded in ASP. The s(ASP) system is also being used to develop question answering systems based on <em>actually understanding an English passage</em>. The project also helped in direct training of two PhD students, one MS student, two undergraduate students, and two postdoctoral fellows. It also benefitted two other PhD students in PI&rsquo;s group.</p><br> <p>            Last Modified: 09/19/2018<br>      Modified by: Gopal&nbsp;Gupta</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The main goal of this project was to design, develop and implement novel, query-driven implementations of predicate answer set programming.  Intellectual Merit: The predicate answer set programming system that is goal-directed &amp; query-driven was researched, designed and implemented by PI's group. The resulting system---called s(ASP)---is available as an open source system and has been downloaded nearly 900 times on sourceforge to date. Coinductive extensions and abductive extensions were implemented as well. In the process of developing the s(ASP) system, a number of innovative techniques were developed: (i) a unification algorithm for full constructive negation over predicates, (ii) a clever coding of duals of rules in logic programs containing both positive and negative predicates, (iii) an algorithm based on coinduction for top down execution of predicate answer set programs. It should be mentioned that realization of systems that execute answer set programs in a goal-directed manner was considered impossible by the research community, even for the propositional case. Execution of predicate answer set programs that are not finitely groundable was not even considered. We showed that a problem that were considered impossible to solve was indeed solvable, based on the concept of coinduction. In the last phase of the project, the s(ASP) system was also extended with constraints over reals. This work resulted in the goal-directed s(CASP) system that extends ASP with constraints in a very natural way, resulting in more powerful applications being supported. A general theory that gives insights into various semantics of negation in logic programming was also developed as part of this project. Multiple publications in conferences and journals resulted from this project as well.  Broader Impact: The s(ASP) system was also used to develop serious applications as part of this project. Most notably, a physician advisory system for managing chronic heart failure (CHF) was developed in collaboration with cardiologists at nearby UT Southwestern Medical Center, a teaching and research hospital. This physician advisory system has been quite effective in recommending treatments for CHF, and in the tests done over 30 odd patients' data (20 real, 10 simulated), it outperforms physicians. The s(ASP) system was also used to develop two other systems, one of them for checking if CS, Mechanical Engg and Mathematics majors can graduate given the complex rules they must follow in order to obtain their undergraduate degree. The system is open-sourced and available to UT Dallas CS students to use. The s(ASP) system also has been used to organize a hackathon at the University of Texas at Dallas where more than 150 students participated and 18 projects were submitted. It was also used in multiple offerings of PI?s Computational Logic course with 30-40 students in each offering, where each student had to do a project in answer set programming using the s(ASP) system. Many interesting projects were done. The s(ASP) system has also been used to model knowledge about cell biology from a high school text book (6 chapters). A user can pose a cell biology question as an ASP query to this system coded in ASP. The s(ASP) system is also being used to develop question answering systems based on actually understanding an English passage. The project also helped in direct training of two PhD students, one MS student, two undergraduate students, and two postdoctoral fellows. It also benefitted two other PhD students in PI?s group.       Last Modified: 09/19/2018       Submitted by: Gopal Gupta]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Efficient Fuzzing with Neural Program Smoothing</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>05/01/2019</AwardEffectiveDate>
+<AwardExpirationDate>04/30/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>475977.00</AwardTotalIntnAmount>
+<AwardAmount>274033</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Sol Greenspan</SignBlockName>
+<PO_EMAI>sgreensp@nsf.gov</PO_EMAI>
+<PO_PHON>7032927841</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Fuzzing is an automated software testing technique that involves feeding a stream of invalid, unexpected, or rare data as inputs to a computer program for discovering bugs leading to crashes, assertion failures, or memory corruption. Fuzzing is the de facto standard technique for finding software vulnerabilities.  However, despite their tremendous promise, popular fuzzers, especially for large programs, often tend to get stuck trying redundant test inputs and struggle to find security vulnerabilities hidden deep into the program logic. To find interesting test inputs, most popular fuzzers use evolutionary algorithms, which start from a set of inputs, apply random mutations and crossovers on these inputs to generate new inputs, and apply a fitness function (e.g., achieved code coverage) to select the most promising new inputs for the next set of mutations. The key insight of this research is that an approach using continuous optimization techniques can do better, by more efficiently using the structure of the underlying functions (e.g., gradients or higher-order derivatives).  The key benefit of this approach is that continuous gradient-guided optimization can efficiently generate new promising inputs with a few targeted mutations based on the gradient value and the step size rather than random unguided mutations used in evolutionary techniques. Gradient-guided optimizations have already been shown to significantly outperform evolutionary techniques in popular tasks like training of neural networks. Better fuzzers will significantly improve the security, reliability, and robustness of critical infrastructure software used by billions of users across the world. Data and tools will be made available through open source. Curriculum and training will be developed to disseminate the results. &lt;br/&gt;&lt;br/&gt;This project will develop a set of novel techniques and tools that will enable fuzzers to fully exploit the power of continuous optimization techniques like gradient descent. One of the key challenges behind applying continuous optimization for fuzzing is that real-world program behaviors often contain many discontinuities and thus are not directly amenable to smooth optimization. Therefore, the target programs must be smoothed before performing continuous optimization. This project will develop a new technique involving surrogate neural networks and graybox instrumentation that will automatically learn smooth approximations of discontinuous program behaviors. This project will further use global optimization schemes like branch-and-bound and cutting plane algorithms to avoid getting stuck at local optima due to the non-convexity of the target program.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>04/23/2019</MinAmdLetterDate>
+<MaxAmdLetterDate>05/18/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1845995</AwardID>
+<Investigator>
+<FirstName>Suman</FirstName>
+<LastName>Jana</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Suman Jana</PI_FULL_NAME>
+<EmailAddress>suman@cs.columbia.edu</EmailAddress>
+<PI_PHON>2128546851</PI_PHON>
+<NSF_ID>000701617</NSF_ID>
+<StartDate>04/23/2019</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Columbia University</Name>
+<CityName>NEW YORK</CityName>
+<CountyName/>
+<ZipCode>100276902</ZipCode>
+<PhoneNumber>2128546851</PhoneNumber>
+<StreetAddress>2960 Broadway</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<StateCode>NY</StateCode>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NY10</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>049179401</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>049179401</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Columbia University]]></Name>
+<CityName/>
+<CountyName/>
+<StateCode>NY</StateCode>
+<ZipCode>100276902</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>New York</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>10</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NY10</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2019~177382</FUND_OBLG>
+<FUND_OBLG>2021~96651</FUND_OBLG>
+</Award>
+</rootTag>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CSR: Medium: Collaborative Research: Fast and Simple Concurrency Through Data-Abstraction Transactions</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>249132.00</AwardTotalIntnAmount>
+<AwardAmount>249132</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Marilyn McClure</SignBlockName>
+<PO_EMAI>mmcclure@nsf.gov</PO_EMAI>
+<PO_PHON>7032925197</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This research project's goal is making easier the building of fast software for today's multicore computers. The computer revolution depends on software whose performance continually improves. When software performance stalls, it becomes much harder to solve big scientific problems (such as genome analysis or climate modeling), and harder to continue running the systems that are important to our society.  Modern software must simultaneously use many processors running in parallel. This is much harder than using a single processor: coordination issues can cause serious errors, and methods that avoid errors tend to run slowly. This research shows that a new system, called data-abstraction software transactional memory, can avoid errors without performance compromise.&lt;br/&gt;&lt;br/&gt;Data-abstraction software transaction memory is a kind of software transactional memory (STM). The STM design allows software programs to run arbitrary transactions on memory objects. Since transactions are inherently isolated, a transaction-based program can avoid much of the detailed, error-prone reasoning about coordination that plagues ad-hoc parallel programs. Data-abstraction STM advances on conventional STM by tracking changes at the level of abstract methods on data objects, rather than memory words. The resulting system has the same ease of programming as conventional STM, but performs much faster. Where a conventional STM might track hundreds of memory words to ensure transaction isolation, a data-abstraction STM can track single words, or even nothing at all, since data abstractions can intelligently track the minimal information required to preserve their semantics.&lt;br/&gt;&lt;br/&gt;The research project builds a data-abstraction software transactional memory and uses it to construct several fast software applications. These applications, including a world-class-speed database, achieve strong transactional guarantees, and great performance, while remaining easy to program. Programmers using data-abstraction STMs will be able to build more high-performance software, with less potential for error, on today's best and most efficient hardware, helping us bring the benefits of the computer revolution to more aspects of modern life.</AbstractNarration>
+<MinAmdLetterDate>08/17/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/17/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1513416</AwardID>
+<Investigator>
+<FirstName>Edward</FirstName>
+<LastName>Kohler</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Edward Kohler</PI_FULL_NAME>
+<EmailAddress>kohler@seas.harvard.edu</EmailAddress>
+<PI_PHON>6174962630</PI_PHON>
+<NSF_ID>000099226</NSF_ID>
+<StartDate>08/17/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Harvard University</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021385369</ZipCode>
+<PhoneNumber>6174955501</PhoneNumber>
+<StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[5th Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA05</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>082359691</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>PRESIDENT AND FELLOWS OF HARVARD COLLEGE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001963263</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Harvard University]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>021382933</ZipCode>
+<StreetAddress><![CDATA[29 Oxford St, MD327]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>05</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA05</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7354</Code>
+<Text>CSR-Computer Systems Research</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7354</Code>
+<Text>COMPUTER SYSTEMS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~249132</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The technique of parallel programming fuels today's innovative computer software: a single program uses several processors to accomplish its task faster. Different tasks need different kinds of parallelism, and some challenging systems tasks, such as operating system implementation, database processing, network caching, and complex application servicing, are difficult to parallelize well. Errors in these kinds of software can open the door to incredibly costly hacker attacks.<br /><br />This project developed a new kind of parallel programming system that can support many complex systems applications with both relatively easy programming and great performance. This system, STO, is a <em>data-abstraction software transactional memory</em>. Like previous software transactional memories (STMs), STO organizes parallel programs into transactional units: each transaction accesses program state as if it's the only code running. This isolation makes bugs far less likely. But unlike previous STMs, STO can speedup transactional execution using the high-level meanings of transactional library code. Typical STMs suffer from a problem called false conflicts: simultaneous transactions can get in each other's way, causing slowdown, even when they are compatible and could execute without error. STO reduces false conflicts because it understands transactional libraries more deeply. For example, STO allows simultaneous transactions to modify different parts of a tree data structure even when those modifications cause dramatic changes to tree shape; since STO understands the semantics of the modifications, it understands that they don't conflict.<br /><br />STO supports many kinds of application&mdash;we used it to implement several important benchmarks&mdash;and it's remarkably fast. STO beats the performance of even very fast database transaction processing systems thanks to optimization and analysis that stripped out all unnecessary overhead. Our measurements show that STO's concurrency control is fastest among transactional libraries for many tasks.<br /><br />The STO framework also supports many kinds of data structure: designers can model the meanings of data structure operations however they like. STO is expansive and flexible enough to support traditional data structures (maps, trees, hash tables), new, highly-concurrent data structures (flat-combining queues, Masstree, adaptive radix trees), less-traditional types (numeric ranges), and application-specific types (split-versioned database records).<br /><br />An unexpected lesson of the STO effort has been the limitations of advanced concurrency control techniques. Some advanced concurrent data types perform badly in STO relative to simpler designs, and some advanced concurrency control protocols were outperformed by STO's simplest protocol. We showed that some of these weaknesses are fundamentally inherent to the theoretical consequences of transactional execution. Given this insight, we developed several new techniques, including a protocol enhancement called "lesser opacity" and a new kind of optimistic transactional predicate, that do improve performance by further taking advantage of data structure semantics.<br /><br />The STO code is publicly available (<a href="https://github.com/readablesystems/sto">https://github.com/readablesystems/sto</a>) and has been extended and used by several other groups. We hope that further development will continue to make high-performance concurrent systems programming more accessible to programmers and less error-prone.</p><br> <p>            Last Modified: 11/26/2018<br>      Modified by: Edward&nbsp;Kohler</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The technique of parallel programming fuels today's innovative computer software: a single program uses several processors to accomplish its task faster. Different tasks need different kinds of parallelism, and some challenging systems tasks, such as operating system implementation, database processing, network caching, and complex application servicing, are difficult to parallelize well. Errors in these kinds of software can open the door to incredibly costly hacker attacks.  This project developed a new kind of parallel programming system that can support many complex systems applications with both relatively easy programming and great performance. This system, STO, is a data-abstraction software transactional memory. Like previous software transactional memories (STMs), STO organizes parallel programs into transactional units: each transaction accesses program state as if it's the only code running. This isolation makes bugs far less likely. But unlike previous STMs, STO can speedup transactional execution using the high-level meanings of transactional library code. Typical STMs suffer from a problem called false conflicts: simultaneous transactions can get in each other's way, causing slowdown, even when they are compatible and could execute without error. STO reduces false conflicts because it understands transactional libraries more deeply. For example, STO allows simultaneous transactions to modify different parts of a tree data structure even when those modifications cause dramatic changes to tree shape; since STO understands the semantics of the modifications, it understands that they don't conflict.  STO supports many kinds of application&mdash;we used it to implement several important benchmarks&mdash;and it's remarkably fast. STO beats the performance of even very fast database transaction processing systems thanks to optimization and analysis that stripped out all unnecessary overhead. Our measurements show that STO's concurrency control is fastest among transactional libraries for many tasks.  The STO framework also supports many kinds of data structure: designers can model the meanings of data structure operations however they like. STO is expansive and flexible enough to support traditional data structures (maps, trees, hash tables), new, highly-concurrent data structures (flat-combining queues, Masstree, adaptive radix trees), less-traditional types (numeric ranges), and application-specific types (split-versioned database records).  An unexpected lesson of the STO effort has been the limitations of advanced concurrency control techniques. Some advanced concurrent data types perform badly in STO relative to simpler designs, and some advanced concurrency control protocols were outperformed by STO's simplest protocol. We showed that some of these weaknesses are fundamentally inherent to the theoretical consequences of transactional execution. Given this insight, we developed several new techniques, including a protocol enhancement called "lesser opacity" and a new kind of optimistic transactional predicate, that do improve performance by further taking advantage of data structure semantics.  The STO code is publicly available (https://github.com/readablesystems/sto) and has been extended and used by several other groups. We hope that further development will continue to make high-performance concurrent systems programming more accessible to programmers and less error-prone.       Last Modified: 11/26/2018       Submitted by: Edward Kohler]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

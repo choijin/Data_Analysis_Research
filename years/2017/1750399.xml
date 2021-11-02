@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Staging Compilers for Heterogeneous Platforms</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>02/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>01/31/2023</AwardExpirationDate>
+<AwardTotalIntnAmount>477998.00</AwardTotalIntnAmount>
+<AwardAmount>275322</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Almadena Chtchelkanova</SignBlockName>
+<PO_EMAI>achtchel@nsf.gov</PO_EMAI>
+<PO_PHON>7032927498</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Power density and energy considerations have become the primary constraints driving technology directions for embedded, mainstream, as well as peta/exascale computing at the high end. Non-homogeneous CPU cores and increasingly complex System-on-Chips are on the roadmap of most manufacturers. In a word, computing platforms are now heterogeneous, after decades of mass marketing homogeneous single-core x86 processors. Optimizing compilers are a cornerstone of the software stack: they are in charge of producing high-quality machine-specific code from the input program. The current development model where either an application is manually tuned by expert engineers to the specifics of the new target platform, or simply left untuned and heavily under-utilizing the hardware resources is not sustainable. This project targets the design of a complete system to efficiently compile several key computation patterns to heterogeneous targets, from a single input source. The PI investigates how to automatically characterize the quality and performance of software transformation systems, so as to better exploit their strengths; and create new customized compilation techniques to produce optimized binaries for heterogeneous processors. &lt;br/&gt;In particular, the PI develops a novel system that automatically learns what types of programs an optimization tool (e.g., a vendor compiler) can optimize well, focusing on performance-critical loop-based program regions amenable to polyhedral compilation. By combining automatic benchmark generation and deep learning techniques, this system automatically builds a performance contract for the compiler: a program that meets specific syntactic and semantics restriction (the contract) is guaranteed to be well optimized by that compiler. Then, in order to best exploit such compilers, programs are automatically restructured to expose program sub-regions that meet the contract requirements. With the assistance of target-specific performance models, the best restructuring is chosen at compile-time for each hardware target. This system can then be applied at compile-time for various execution contexts (e.g., for different CPU frequencies, core counts, etc.), to deliver an adaptive binary where the best implementation is selected at run-time as a function of the execution context. The project aims to demonstrate how to best stage various compilers to exploit their strengths, in turn significantly reducing the time currently spent by developers to tune their implementation for better performance. Education material to be produced includes a lecture series for educators and students on how to write programs that compilers can optimize well, and a MOOC on polyhedral compilation, the mathematical framework to reason about programs that is central to this project.</AbstractNarration>
+<MinAmdLetterDate>12/18/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>05/18/2020</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1750399</AwardID>
+<Investigator>
+<FirstName>Louis-Noel</FirstName>
+<LastName>Pouchet</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Louis-Noel Pouchet</PI_FULL_NAME>
+<EmailAddress>pouchet@cs.colostate.edu</EmailAddress>
+<PI_PHON>9704915792</PI_PHON>
+<NSF_ID>000637181</NSF_ID>
+<StartDate>12/18/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Colorado State University</Name>
+<CityName>Fort Collins</CityName>
+<ZipCode>805232002</ZipCode>
+<PhoneNumber>9704916355</PhoneNumber>
+<StreetAddress>601 S Howes St</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<StateCode>CO</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CO02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>785979618</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>COLORADO STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>948905492</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Colorado State University]]></Name>
+<CityName>Fort Collins</CityName>
+<StateCode>CO</StateCode>
+<ZipCode>805214593</ZipCode>
+<StreetAddress><![CDATA[200 W. Lake Street]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Colorado</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CO02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7942</Code>
+<Text>HIGH-PERFORMANCE COMPUTING</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0119</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0120</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~87766</FUND_OBLG>
+<FUND_OBLG>2019~91977</FUND_OBLG>
+<FUND_OBLG>2020~95579</FUND_OBLG>
+</Award>
+</rootTag>

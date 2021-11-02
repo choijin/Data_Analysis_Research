@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Probabilistic Latent Variable Models for Sparse Data</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>12/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>11/30/2011</AwardExpirationDate>
+<AwardTotalIntnAmount>149988.00</AwardTotalIntnAmount>
+<AwardAmount>149988</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Jie Yang</SignBlockName>
+<PO_EMAI>jyang@nsf.gov</PO_EMAI>
+<PO_PHON>7032924768</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project focuses on learning parsimonious representations of complex high-dimensional data. In recent years, the PI has developed probabilistic latent variable models based on Gaussian processes that are able to capture complex interactions and perform state of the art prediction in diverse applications such as 3D human body tracking and collaborative filtering. However, in real-word applications such as the analysis of human motion or object recognition from images, the data is structured (e.g., the correlations in a video sequence can be captured with tensors), can come from different sources of information (e.g., video and audio), can be generated from a complex dynamical process or additional information might be available (e.g., labels). &lt;br/&gt;&lt;br/&gt;To address these real world problems, this project investigates extensions of the aforementioned probabilistic latent variable models to learn parsimonious representations of this complex data, focusing on the development of efficient learning algorithms that are able to handle large and sparse datasets. This research is strongly tied to an empirical performance goal, consisting of improving the state-of-the-art in both pose estimation and object recognition applications through the modeling of such complex interactions.  The proposed research has broad impact in several areas of computer vision in particular human body motion estimation and tracking.</AbstractNarration>
+<MinAmdLetterDate>12/03/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>12/03/2010</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1017626</AwardID>
+<Investigator>
+<FirstName>Raquel</FirstName>
+<LastName>Urtasun</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Raquel Urtasun</PI_FULL_NAME>
+<EmailAddress>rurtasun@ttic.edu</EmailAddress>
+<PI_PHON>7738340409</PI_PHON>
+<NSF_ID>000554599</NSF_ID>
+<StartDate>12/03/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Toyota Technological Institute at Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606372803</ZipCode>
+<PhoneNumber>7738340409</PhoneNumber>
+<StreetAddress>6045 S Kenwood Ave</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL01</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>127228927</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>TOYOTA TECHNOLOGICAL INSTITUTE AT CHICAGO</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM/>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Toyota Technological Institute at Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606372803</ZipCode>
+<StreetAddress><![CDATA[6045 S Kenwood Ave]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>01</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL01</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0111</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2011~149988</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The PI has contributed mainly in three different lines of work: developing learning methods based on stochastic gradient descent for learning large-scale latent variable models of human motion composed of multiple activities. The second line of research consists of extending these latent variable models to incorporate prior knowledge in the form of constraints on the output space. This is important, as it is common in a wide range of applications to have access to knowledge in form of constraints. This arises for example in surface deformation estimation where&nbsp; we know that the surface is non-extendible. Another example is when tracking multiple objects, we know that they can collide, but not interpenetrate each other.&nbsp; The third line of work is on MCMC methods for sampling distributions on manifolds. This can be used to sample the aforementioned latent variable models while enforcing that the constraints are exactly satisfied. <br /><br />The first important conclusion that has emerged is the fact that very accurate tracking of the human body can be obtained by learning latent variable&nbsp; models (LVMs) of static poses, without the need to model dynamics. This was surprising, as our static&nbsp; LVMs were able to outperform the state-of-the-art which employes complex dynamics in the main benchmark, i.e., Humaneva. The second finding was that prior knowledge&nbsp; can be incorporated when learning these LVMs such that the outputs generated from the LVM satisfies constraints. Surprisingly, this can be done by using additional unlabelled data points.&nbsp; This has implications beyond computer vision and machine learning as there are other communities where this prior knowledge exists, e.g., protein folding in computational biology, animation in computer graphics. We hope that this finding will open a new research direction in the employment of unlabelled data. The third finding was that one can create a family of MCMC methods to sample distributions over manifolds. This is a very general tool, with a wide range of applications including computer vision, computational biology and graphics.<br /><br />Software for the the stochastic algorithms as well as for the tracking has been made publicly available. We expect this code to serve as building block for future developments in tracking and LVM learning. Software for the constrained LVMs will be made publicly available will be soon made available. We expect this software to be used by the broad community outside computer vision and machine learning. The database created for deformable surfaces using kinect as ground truth, will also be made publicly available in the next months. There is no benchmark for this problem, so we expect our dataset to become a benchmark in the field, helping the evaluation of existing approaches. Software for the family of MCMC methods to sample distributions over manifolds will be made available in the next few weeks.</p> <p>&nbsp;</p> <p>&nbsp;</p><br> <p>            Last Modified: 01/13/2012<br>      Modified by: Raquel&nbsp;Urtasun</p> </div> <div class="porSideCol"> <div class="each-gallery"> <div class="galContent" id="gallery0"> <div class="photoCount" id="photoCount0">          Images (<span id="selectedPhoto0">1</span> of <span class="totalNumber"></span>)           </div> <div class="galControls" id="controls0"></div> <div class="galSlideshow" id="slideshow0"></div> <div class="galEmbox" id="embox"> <div class="image-title"></div> </div> </div> <div class="galNavigation" id="navigation0"> <ul class="thumbs" id="thumbs0"> <li> <a href="/por/images/Reports/POR/2012/1017626/1017626_10063666_1326509525423_LVM--rgov-214x142.jpg" original="/por/images/Reports/POR/2012/1017626/1017626_10063666_1326509525423_LVM--rgov-800width.jpg" title="Latent variable models"><img src="/por/images/Reports/POR/2012/1017626/1017626_10063666_1326509525423_LVM--rgov-66x44.jpg" alt="Latent variab...]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The PI has contributed mainly in three different lines of work: developing learning methods based on stochastic gradient descent for learning large-scale latent variable models of human motion composed of multiple activities. The second line of research consists of extending these latent variable models to incorporate prior knowledge in the form of constraints on the output space. This is important, as it is common in a wide range of applications to have access to knowledge in form of constraints. This arises for example in surface deformation estimation where  we know that the surface is non-extendible. Another example is when tracking multiple objects, we know that they can collide, but not interpenetrate each other.  The third line of work is on MCMC methods for sampling distributions on manifolds. This can be used to sample the aforementioned latent variable models while enforcing that the constraints are exactly satisfied.   The first important conclusion that has emerged is the fact that very accurate tracking of the human body can be obtained by learning latent variable  models (LVMs) of static poses, without the need to model dynamics. This was surprising, as our static  LVMs were able to outperform the state-of-the-art which employes complex dynamics in the main benchmark, i.e., Humaneva. The second finding was that prior knowledge  can be incorporated when learning these LVMs such that the outputs generated from the LVM satisfies constraints. Surprisingly, this can be done by using additional unlabelled data points.  This has implications beyond computer vision and machine learning as there are other communities where this prior knowledge exists, e.g., protein folding in computational biology, animation in computer graphics. We hope that this finding will open a new research direction in the employment of unlabelled data. The third finding was that one can create a family of MCMC methods to sample distributions over manifolds. This is a very general tool, with a wide range of applications including computer vision, computational biology and graphics.  Software for the the stochastic algorithms as well as for the tracking has been made publicly available. We expect this code to serve as building block for future developments in tracking and LVM learning. Software for the constrained LVMs will be made publicly available will be soon made available. We expect this software to be used by the broad community outside computer vision and machine learning. The database created for deformable surfaces using kinect as ground truth, will also be made publicly available in the next months. There is no benchmark for this problem, so we expect our dataset to become a benchmark in the field, helping the evaluation of existing approaches. Software for the family of MCMC methods to sample distributions over manifolds will be made available in the next few weeks.             Last Modified: 01/13/2012       Submitted by: Raquel Urtasun]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

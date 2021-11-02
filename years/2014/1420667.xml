@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>RI: Small: Improving Crowd-Sourced Annotation by Autonomous Intelligent Agents</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>460000.00</AwardTotalIntnAmount>
+<AwardAmount>460000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05020000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIS</Abbreviation>
+<LongName>Div Of Information &amp; Intelligent Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Weng-keen Wong</SignBlockName>
+<PO_EMAI/>
+<PO_PHON/>
+</ProgramOfficer>
+<AbstractNarration>Supervised machine learning methods are arguably the greatest success story for Artificial Intellitence with a deep underlying theory and applications ranging from medical diagnosis and scientific data analysis to ecommerce recommender systems and credit-card fraud detection. Unfortunately, all these methods require labeled training data, which has been annotated by a human --- a time consuming and extremely expensive process. This project will use automated decision theory to control the annotation process, saving significant amounts of human labor and extending the practical use of machine learning to a much broader array of societal problems.  &lt;br/&gt;&lt;br/&gt;Specifically, the methods address the case where labeled data is crowd-sourced by a large number of human annotators whose skill and error rates are variable. The project develops new control algorithms that let the learner efficiently ask specific workers to label (or redundantly re-label) specific examples.  To test the practicality of their methods, the PIs build and conduct studies with the Information Omnivore, a fully autonomous agent that optimizes the annotation of natural language processing (NLP) training data. By continuously posing questions to paid workers and volunteer citizen-scientists, the Omnivore 1) will learn which problems are hard and which are easy, 2) will learn about the skills of the various workers, 3) and will decide questions to ask which workers in order to maximize the accuracy of the learned model given scare human help. Besides contributing to the science of automated control, the Omnivore will generate labeled training data for two important NLP problems: named entity linking (NEL) and information extraction (IE), greatly helping the community of NLP researchers. Furthermore, the researchers plan a number of outreach efforts, including curriculum development, participation in the K12 Paws on Science program at the Pacific Science Center and interaction with the diverse students comprising the Washington STate Academic RedShirt (STARS) in Engineering program. The specific algorithms proposed by the PIs are notable in several respects. Their decision-theoretic optimization framework operationalizes intuitions like (1) one should assign more or better workers to hard problems and (2) one should redirect effort away from easy questions or from tasks that are too hard to solve. Automating this reasoning is hard because problem difficulty and worker skill are latent variables and thus the agent must confront an exploration / exploitation tradeoff as it balances actions that enable it to learn about the capabilities of workers with the ultimate goal of producing quality annotations. The PIs consider two cases: Task Allocation for Annotation Accuracy tries to maximize the overall annotation accuracy of a fixed size data set through batch assignment of workers to tasks. Re-Active Learning seeks instead to directly construct an accurate ML classifier through a balanced mix of annotator requests to re-label old or label new examples. In both cases they propose a model based on decision-theoretic methods (e.g., partially-observable Markov decision processes (POMDPs) and multi-armed bandits). The PIs propose to integrate their methods in the Information Omnivore, a long-lived software agent that integrates planning and execution, acts in the real world, and learns a model of its environment. The Omnivore will allow large-scale latitudinal studies of their algorithms, and as a byproduct will generate NLP training data that will greatly assist a large community of other researchers.</AbstractNarration>
+<MinAmdLetterDate>07/22/2014</MinAmdLetterDate>
+<MaxAmdLetterDate>07/22/2014</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1420667</AwardID>
+<Investigator>
+<FirstName>Daniel</FirstName>
+<LastName>Weld</LastName>
+<PI_MID_INIT>S</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Daniel S Weld</PI_FULL_NAME>
+<EmailAddress>weld@cs.washington.edu</EmailAddress>
+<PI_PHON>2065439196</PI_PHON>
+<NSF_ID>000099760</NSF_ID>
+<StartDate>07/22/2014</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Washington</Name>
+<CityName>Seattle</CityName>
+<ZipCode>981950001</ZipCode>
+<PhoneNumber>2065434043</PhoneNumber>
+<StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<StateCode>WA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>WA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>605799469</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF WASHINGTON</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>042803536</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Washington]]></Name>
+<CityName>Seattle</CityName>
+<StateCode>WA</StateCode>
+<ZipCode>981952350</ZipCode>
+<StreetAddress><![CDATA[Box 352350]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Washington</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>WA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7495</Code>
+<Text>Robust Intelligence</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7495</Code>
+<Text>ROBUST INTELLIGENCE</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0114</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2014~460000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Machine learning (ML) algorithms are transforming many areas of science, business and society. But before ML may be used, it must be trained by a data scientist using labeled training data. For example, if one wishes to use ML to recognize stop signs for use in a self-driving car, one must first have humans label thousands or millions of images, manually determining if a stop sign is present and drawing a boundary around the sign. Since this training data must typically be created by humans, the labeling process, which is called data annotation, has become a formidable bottleneck, slowing the use of machine learning in many areas.</p> <p>&nbsp;</p> <p>Funded by this grant, we have developed a suite of methods that improve the annotation process, dramatically reducing the cost of annotation. Many of the methods are enhancements of a method, called active learning, which allows the computer to choose which examples should be labeled (rather than labeling a random selection) and how many times it should be labeled. Other methods optimize the training process by which annotators are taught how to annotate and tested to make sure that their annotations are of sufficient quality. Taken together, our methods can reduce the cost of annotation by a factor of four to five, while improving the quality of the resulting ML classifier.</p><br> <p>            Last Modified: 08/07/2018<br>      Modified by: Daniel&nbsp;S&nbsp;Weld</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Machine learning (ML) algorithms are transforming many areas of science, business and society. But before ML may be used, it must be trained by a data scientist using labeled training data. For example, if one wishes to use ML to recognize stop signs for use in a self-driving car, one must first have humans label thousands or millions of images, manually determining if a stop sign is present and drawing a boundary around the sign. Since this training data must typically be created by humans, the labeling process, which is called data annotation, has become a formidable bottleneck, slowing the use of machine learning in many areas.     Funded by this grant, we have developed a suite of methods that improve the annotation process, dramatically reducing the cost of annotation. Many of the methods are enhancements of a method, called active learning, which allows the computer to choose which examples should be labeled (rather than labeling a random selection) and how many times it should be labeled. Other methods optimize the training process by which annotators are taught how to annotate and tested to make sure that their annotations are of sufficient quality. Taken together, our methods can reduce the cost of annotation by a factor of four to five, while improving the quality of the resulting ML classifier.       Last Modified: 08/07/2018       Submitted by: Daniel S Weld]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CRII: SHF: Efficient SMT Procedures for Scalable Synthesis in Software Development</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>03/01/2017</AwardEffectiveDate>
+<AwardExpirationDate>02/29/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>174907.00</AwardTotalIntnAmount>
+<AwardAmount>174907</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project extends Satisfiability Modulo Theories (SMT) solvers with capabilities of importance to software synthesis applications. The PIs focus primarily on developing synthesis procedures for known logical fragments of interest, including fixed-width bit-vector formulas with one quantifier alternation, where support in existing SMT solvers is limited. Additionally, this project develops functionality in SMT solvers to meet the needs of emerging synthesis problems in new domains. This includes support for new background theories such as the theory of bounded strings, and new methods for tackling classes of synthesis problems where current algorithms do not scale well. As part of the project, the PIs expand the communication interface between SMT solvers and synthesis applications, including support for partial solutions and for counterexamples to synthesis conjectures. The project includes collaboration with external users of SMT solvers who provide challenging problems that motivate this work. The PIs expect the project to both contribute to the state-of-the-art in SMT solving, and to benefit other reasoning tools such as higher-order theorem provers and model-checkers that rely on invariant synthesis.</AbstractNarration>
+<MinAmdLetterDate>02/21/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>02/21/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1656926</AwardID>
+<Investigator>
+<FirstName>Andrew</FirstName>
+<LastName>Reynolds</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Andrew J Reynolds</PI_FULL_NAME>
+<EmailAddress>andrew.j.reynolds@gmail.com</EmailAddress>
+<PI_PHON>3196212345</PI_PHON>
+<NSF_ID>000727964</NSF_ID>
+<StartDate>02/21/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Iowa</Name>
+<CityName>IOWA CITY</CityName>
+<ZipCode>522421320</ZipCode>
+<PhoneNumber>3193352123</PhoneNumber>
+<StreetAddress>2 GILMORE HALL</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<StateCode>IA</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IA02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>062761671</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF IOWA, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>062761671</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Iowa]]></Name>
+<CityName>Iowa City</CityName>
+<StateCode>IA</StateCode>
+<ZipCode>522421419</ZipCode>
+<StreetAddress><![CDATA[15 MacLean Hall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Iowa</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IA02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>026Y</Code>
+<Text>CRII CISE Research Initiation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7798</Code>
+<Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8206</Code>
+<Text>Formal Methods and Verification</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>8228</Code>
+<Text>CISE Resrch Initiatn Initiatve</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0117</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2017~174907</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Many modern computing applications are made possible by automated tools for reasoning about mathematical logic. Automated reasoning tools have greatly improved our ability to develop software whose correctness can be verified with a high level of confidence, both through the use of static analysis for verification. A particularly challenging problem for automated reasoners is the task of synthesis. Examples of synthesis problem includes asking whether an invariant of system holds, or asking whether an implementation exists that satisfies a given specification.</p> <p><br />The goal of this project is to enable Satisfiability Modulo Theories (SMT) solvers to accommodate the growing complexity and size of constraints required by synthesis tools, and to play a larger role in synthesis applications. In this project, the PI and his collaborators developed new synthesis procedures in the state-of-the-art SMT solver CVC4, which is a joint project led by researchers and the University of Iowa and Stanford.</p> <p><br />As a primary goal of the project, a novel approach for quantified bit-vectors was developed based on the notion of invertibility conditions. These characterize the conditions under which a set of representative bit-vector equations have a solution, and can leveraged in a state-of-the-art approach for the satisfiability of quantified bit-vectors. The PI and his collaborators followed up on this work by developing verification techniques for showing the correctness of these conditions independently of their bit-width. An extension of this procedure can be used for synthesizing bit-vector functions in CVC4.</p> <p><br />In addition to the aforementioned approach, the PI and his collaborators made significant progress both in high-level approaches for emerging synthesis domains, as well as low-level improvements to the implementation of CVC4. For the former, the PI and his collaborators developed a novel approach for non-pointwise specifications, which improved CVC4's support for invariant synthesis. A novel approach was also developed for abductive reasoning using syntax-guided synthesis, which has a number of potential applications in formal methods. During the project, low-level optimizations in the synthesis engine in CVC4 led to performance speedups in its core enumeration algorithm by roughly a factor of 5. This has been critical to the success of several applications where the synthesis backend is the bottleneck, and also led to CVC4 winning the syntax-guided synthesis competition in the past several years. The synthesis capabilities of CVC4 are now also playing a role in further development of CVC4 itself. In particular, the automated rewrite rule synthesis is used for automated test case generation for ensuring soundness in the nightly regressions of CVC4, thereby increasing trust in the overall system.&nbsp;</p> <p><br />Overall, the new capabilities of CVC4 have led to numerous fruitful applications as a direct result of the project, of which the PI has pursued in collaboration with external groups. These include using syntax-guided synthesis for learning attack signatures for cellular networks. Work by the PI and his collaborators showed that the use of CVC4 for synthesizing formulas from finite past-time temporal logic (pLTL) traces increased the scalability by a factor of 44 with respect to previous approaches. It is now used as a backend of the SYSLITE system, a tool developed for analyzing the security of cellular networks. Finally, a number of rewrite rules for strings and regular expressions were developed through the aid of syntax-guided synthesis during the course of this project. These techniques have been incorporated into its string solver, which is now being used in a number of industrial applications, including for analyzing user security policies at Amazon Web Services. The synthesized rewrite rules have led to significant boost in performance for CVC4 for benchmarks in this domain.</p><br> <p>            Last Modified: 09/01/2020<br>      Modified by: Andrew&nbsp;J&nbsp;Reynolds</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Many modern computing applications are made possible by automated tools for reasoning about mathematical logic. Automated reasoning tools have greatly improved our ability to develop software whose correctness can be verified with a high level of confidence, both through the use of static analysis for verification. A particularly challenging problem for automated reasoners is the task of synthesis. Examples of synthesis problem includes asking whether an invariant of system holds, or asking whether an implementation exists that satisfies a given specification.   The goal of this project is to enable Satisfiability Modulo Theories (SMT) solvers to accommodate the growing complexity and size of constraints required by synthesis tools, and to play a larger role in synthesis applications. In this project, the PI and his collaborators developed new synthesis procedures in the state-of-the-art SMT solver CVC4, which is a joint project led by researchers and the University of Iowa and Stanford.   As a primary goal of the project, a novel approach for quantified bit-vectors was developed based on the notion of invertibility conditions. These characterize the conditions under which a set of representative bit-vector equations have a solution, and can leveraged in a state-of-the-art approach for the satisfiability of quantified bit-vectors. The PI and his collaborators followed up on this work by developing verification techniques for showing the correctness of these conditions independently of their bit-width. An extension of this procedure can be used for synthesizing bit-vector functions in CVC4.   In addition to the aforementioned approach, the PI and his collaborators made significant progress both in high-level approaches for emerging synthesis domains, as well as low-level improvements to the implementation of CVC4. For the former, the PI and his collaborators developed a novel approach for non-pointwise specifications, which improved CVC4's support for invariant synthesis. A novel approach was also developed for abductive reasoning using syntax-guided synthesis, which has a number of potential applications in formal methods. During the project, low-level optimizations in the synthesis engine in CVC4 led to performance speedups in its core enumeration algorithm by roughly a factor of 5. This has been critical to the success of several applications where the synthesis backend is the bottleneck, and also led to CVC4 winning the syntax-guided synthesis competition in the past several years. The synthesis capabilities of CVC4 are now also playing a role in further development of CVC4 itself. In particular, the automated rewrite rule synthesis is used for automated test case generation for ensuring soundness in the nightly regressions of CVC4, thereby increasing trust in the overall system.    Overall, the new capabilities of CVC4 have led to numerous fruitful applications as a direct result of the project, of which the PI has pursued in collaboration with external groups. These include using syntax-guided synthesis for learning attack signatures for cellular networks. Work by the PI and his collaborators showed that the use of CVC4 for synthesizing formulas from finite past-time temporal logic (pLTL) traces increased the scalability by a factor of 44 with respect to previous approaches. It is now used as a backend of the SYSLITE system, a tool developed for analyzing the security of cellular networks. Finally, a number of rewrite rules for strings and regular expressions were developed through the aid of syntax-guided synthesis during the course of this project. These techniques have been incorporated into its string solver, which is now being used in a number of industrial applications, including for analyzing user security policies at Amazon Web Services. The synthesized rewrite rules have led to significant boost in performance for CVC4 for benchmarks in this domain.       Last Modified: 09/01/2020       Submitted by: Andrew J Reynolds]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

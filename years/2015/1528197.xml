@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>NeTS: Small: Video-Aware Network Transport + Network-Aware Video Coding</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2018</AwardExpirationDate>
+<AwardTotalIntnAmount>499916.00</AwardTotalIntnAmount>
+<AwardAmount>499916</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Darleen Fisher</SignBlockName>
+<PO_EMAI>dlfisher@nsf.gov</PO_EMAI>
+<PO_PHON>7032928950</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This project will build new foundational technology for Internet video streaming, by spanning the research areas of video-coding and computer-networking systems. The goal is to get rid of video glitches and stalls, and to build the abstractions to enable a "World Wide Web of video," where anybody can use hyperlinks to reference, quote, excerpt, and edit educational and other videos online.  &lt;br/&gt;&lt;br/&gt;The project will develop an open-source video-streaming application, to be called Alfalfa. Alfalfa will be similar to traditional systems (e.g. Netflix, YouTube) in that it will fetch and play encoded video from a Web server via HTTP. But unlike these "adaptive-bitrate streaming" systems, Alfalfa will not have a concept of a coded video "bitrate" or "stream" at all. Instead, each frame will be a possible switching point between quality levels, and the player's job will be to plan, at runtime, the best frame-by-frame path through the video that maximizes a quality-of-experience metric. The intention is to make the video encoder as "dumb" as possible and to make most rate-control decisions at playback time.  &lt;br/&gt;&lt;br/&gt;Broader Impacts: Robust video streaming and the "World Wide Web of video" will serve as a direct multiplier for students taking and creating online video courses, especially in regions of the world with poor Internet connectivity. The project plans to collaborate with providers of online courses to test the Alfalfa technology and use it to allow student-driven online video editing in appropriate classes. In addition, the project will include a demonstration component that will stream U.S. broadcast television stations to members of the public, educating the public about video-streaming technology and enlisting participants in an effort to better understand the factors that influence the "quality of experience"  of online video.</AbstractNarration>
+<MinAmdLetterDate>08/17/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>08/17/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1528197</AwardID>
+<Investigator>
+<FirstName>Keith</FirstName>
+<LastName>Winstein</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Keith Winstein</PI_FULL_NAME>
+<EmailAddress>keithw@cs.stanford.edu</EmailAddress>
+<PI_PHON>6173882138</PI_PHON>
+<NSF_ID>000682184</NSF_ID>
+<StartDate>08/17/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Stanford University</Name>
+<CityName>Stanford</CityName>
+<ZipCode>943052004</ZipCode>
+<PhoneNumber>6507232300</PhoneNumber>
+<StreetAddress>450 Jane Stanford Way</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA18</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009214214</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>LELAND STANFORD JUNIOR UNIVERSITY, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009214214</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Stanford University]]></Name>
+<CityName>Stanford</CityName>
+<StateCode>CA</StateCode>
+<ZipCode>943059025</ZipCode>
+<StreetAddress><![CDATA[353 Serra Mall]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>18</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA18</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7363</Code>
+<Text>Networking Technology and Syst</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7923</Code>
+<Text>SMALL PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~499916</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>This project created new foundational building blocks for Internet video, addressing video-coding and networking questions together to build new kinds of video systems. Overall, this project found new and better ways to marry video applications with computer networks, and kicked off a movement of "burst-parallel" serverless computing where massive tasks can be accomplished quickly, by renting tens of thousands of computer processors for a brief instant.</p> <p>During the three years of this project, we worked in three major areas:</p> <ol> <li><strong>Video encoding, processing, and understanding.</strong>Currently, video encoding operations on high-quality videos (e.g. 4K or VR content) are generally slower than real-time, even on a multicore computer. This means that for an hourlong video, it can take hours to experiment with a single change. We designed and built "ExCamera," an open-source system that can process videos (compressing them, transforming them, and scanning them with neural networks) many times faster than real time. The goal is to achieve the kind of interactivity and sharability for videos that systems like Google Docs have done for word-processing documents, spreadsheets, and presentations.<br /><br />To achieve this, we had to build a new kind of video encoder software, using an technique called <strong>functional programming</strong>. We were able to parallelize (break up into little pieces) the task of video encoding roughly 15x more finely than previous work, which lets ExCamera take advantage of thousands of processors at the same time to reduce the latency required to process each video.<br /><br />At a research conference (USENIX NSDI 2017), we demonstrated ExCamera's ability to scan through and edit a six-hour high-definition video with facial recognition software live on stage. <br /><br />(<span id="docs-internal-guid-13e623d4-7fff-4ed9-ad3b-e1f8ed42038e"><span>S. Fouladi</span><span>, </span><span>R. Wahby</span><span>, </span><span>B. Shacklett</span><span>, K. Balasubramaniam, </span><span>W. Zeng</span><span>, R. Bhalerao, A. Sivaraman, G. Porter and K. Winstein, &ldquo;Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads,&rdquo; </span><span>USENIX Symposium on Networked Systems Design and Implementation (NSDI &rsquo;17)</span><span>, Boston, Mass., 2017.)</span></span><br /><br /></li> <li><strong>General-purpose computations using "burst-parallel" execution on thousands of tiny "serverless" functions. </strong>In 2015, providers of cloud computing, such as Amazon Web Services, started offering the ability to run pieces of code in small increments (e.g. a tenth of a second), compared with older offerings that require the customer to rent, and pay to rent, a virtual computer for a minute or more. These "serverless" offerings were intended to be used for asynchronous "microservices," where each task handles one request coming in at unpredictable times over the Internet. However, as part of this research project, we investigated whether it was also possible to rent a large number of processors at the same time in a "burst-parallel" way (e.g. 8,000 cores for 1 second each), using "serverless" computing for something closer to traditional high-performance computing or supercomputer tasks. Our ExCamera software was the first system to do this and kicked off a flourishing area of research on using "serverless" computing or "cloud functions" for a variety of massively parallel low-latency tasks.<br /><br />One of our own research papers discussed the security implications of this style of computation (<span id="docs-internal-guid-86b0e23e-7fff-7a10-26bf-f644b5bc1d49"><span>K. Alpernas, C. Flanagan, </span><span>S. Fouladi</span><span>, L. Ryzhyk, M. Sagiv, T. Schmitz and K. Winstein, &ldquo;Secure Serverless Computing Using Dynamic Information Flow Control,&rdquo; </span><span>ACM Object-Oriented Programming, Systems, Languages &amp; Applications (OOPSLA)</span><span>, Boston, Mass., 2018).<br /><br /></span></span></li> <li><strong>Real-time video over unpredictable packet networks.&nbsp;</strong>Today's real-time video applications are built out of two separate components: a &ldquo;video codec&rdquo; that compresses video, and a &ldquo;transport protocol&rdquo; that transmits packets of data and estimates how many can be sent without overloading the network. These components are designed and built separately, often by different companies, then combined into an overall program such as Skype or FaceTime.<br /><br />In these systems, each component marches to the beat of its own drummer--or in technical language, each piece has its own "control loop." In a detailed measurement of several Internet video programs used in current practice (Skype, FaceTime, Hangouts, and the WebRTC reference implementation in Google Chrome), we found that these dueling control loops can yield suboptimal results over unpredictable networks.<br /><br />By using the functional programming style of video codec that we created in the ExCamera project, and a "video-aware" transport protocol that we created, we were able to create a new kind of video software, Salsify, that reduces delay by roughly 5x compared with the existing programs while also improving picture quality. Salsify&rsquo;s main contribution is in&nbsp;jointly controlling&nbsp;the frame-by-frame control of compression and the packet-by-packet control of transmission in a single control loop. This lets the video stream track the network&rsquo;s varying capacity, avoiding stalls.<br /><br />Salsify is described more fully at https://snr.stanford.edu/salsify (which includes demonstration videos) and in the technical paper:&nbsp;<span id="docs-internal-guid-eb7c3a04-7fff-3eb9-82ad-88ea9e240b72"><span>S. Fouladi</span><span>, </span><span>J. Emmons</span><span>, </span><span>E. Orbay</span><span>, </span><span>C. Wu</span><span>, </span><span>R. Wahby</span><span> and K. Winstein, &ldquo;Salsify: low-latency network video through tighter integration between a video codec and a transport protocol,&rdquo; </span><span>USENIX Symposium on Networked Systems Design and Implementation (NSDI &rsquo;18)</span><span>, Renton, Wash., 2018.</span></span></li> </ol><br> <p>            Last Modified: 03/06/2019<br>      Modified by: Keith&nbsp;Winstein</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ This project created new foundational building blocks for Internet video, addressing video-coding and networking questions together to build new kinds of video systems. Overall, this project found new and better ways to marry video applications with computer networks, and kicked off a movement of "burst-parallel" serverless computing where massive tasks can be accomplished quickly, by renting tens of thousands of computer processors for a brief instant.  During the three years of this project, we worked in three major areas:  Video encoding, processing, and understanding.Currently, video encoding operations on high-quality videos (e.g. 4K or VR content) are generally slower than real-time, even on a multicore computer. This means that for an hourlong video, it can take hours to experiment with a single change. We designed and built "ExCamera," an open-source system that can process videos (compressing them, transforming them, and scanning them with neural networks) many times faster than real time. The goal is to achieve the kind of interactivity and sharability for videos that systems like Google Docs have done for word-processing documents, spreadsheets, and presentations.  To achieve this, we had to build a new kind of video encoder software, using an technique called functional programming. We were able to parallelize (break up into little pieces) the task of video encoding roughly 15x more finely than previous work, which lets ExCamera take advantage of thousands of processors at the same time to reduce the latency required to process each video.  At a research conference (USENIX NSDI 2017), we demonstrated ExCamera's ability to scan through and edit a six-hour high-definition video with facial recognition software live on stage.   (S. Fouladi, R. Wahby, B. Shacklett, K. Balasubramaniam, W. Zeng, R. Bhalerao, A. Sivaraman, G. Porter and K. Winstein, "Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads," USENIX Symposium on Networked Systems Design and Implementation (NSDI ?17), Boston, Mass., 2017.)   General-purpose computations using "burst-parallel" execution on thousands of tiny "serverless" functions. In 2015, providers of cloud computing, such as Amazon Web Services, started offering the ability to run pieces of code in small increments (e.g. a tenth of a second), compared with older offerings that require the customer to rent, and pay to rent, a virtual computer for a minute or more. These "serverless" offerings were intended to be used for asynchronous "microservices," where each task handles one request coming in at unpredictable times over the Internet. However, as part of this research project, we investigated whether it was also possible to rent a large number of processors at the same time in a "burst-parallel" way (e.g. 8,000 cores for 1 second each), using "serverless" computing for something closer to traditional high-performance computing or supercomputer tasks. Our ExCamera software was the first system to do this and kicked off a flourishing area of research on using "serverless" computing or "cloud functions" for a variety of massively parallel low-latency tasks.  One of our own research papers discussed the security implications of this style of computation (K. Alpernas, C. Flanagan, S. Fouladi, L. Ryzhyk, M. Sagiv, T. Schmitz and K. Winstein, "Secure Serverless Computing Using Dynamic Information Flow Control," ACM Object-Oriented Programming, Systems, Languages &amp; Applications (OOPSLA), Boston, Mass., 2018).   Real-time video over unpredictable packet networks. Today's real-time video applications are built out of two separate components: a "video codec" that compresses video, and a "transport protocol" that transmits packets of data and estimates how many can be sent without overloading the network. These components are designed and built separately, often by different companies, then combined into an overall program such as Skype or FaceTime.  In these systems, each component marches to the beat of its own drummer--or in technical language, each piece has its own "control loop." In a detailed measurement of several Internet video programs used in current practice (Skype, FaceTime, Hangouts, and the WebRTC reference implementation in Google Chrome), we found that these dueling control loops can yield suboptimal results over unpredictable networks.  By using the functional programming style of video codec that we created in the ExCamera project, and a "video-aware" transport protocol that we created, we were able to create a new kind of video software, Salsify, that reduces delay by roughly 5x compared with the existing programs while also improving picture quality. Salsify?s main contribution is in jointly controlling the frame-by-frame control of compression and the packet-by-packet control of transmission in a single control loop. This lets the video stream track the network?s varying capacity, avoiding stalls.  Salsify is described more fully at https://snr.stanford.edu/salsify (which includes demonstration videos) and in the technical paper: S. Fouladi, J. Emmons, E. Orbay, C. Wu, R. Wahby and K. Winstein, "Salsify: low-latency network video through tighter integration between a video codec and a transport protocol," USENIX Symposium on Networked Systems Design and Implementation (NSDI ?18), Renton, Wash., 2018.        Last Modified: 03/06/2019       Submitted by: Keith Winstein]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

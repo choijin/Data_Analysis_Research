@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>Collaborative Research: New statistically-motivated solutions to classical inverse problems</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2020</AwardExpirationDate>
+<AwardTotalIntnAmount>124354.00</AwardTotalIntnAmount>
+<AwardAmount>124354</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>03040000</Code>
+<Directorate>
+<Abbreviation>MPS</Abbreviation>
+<LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+</Directorate>
+<Division>
+<Abbreviation>DMS</Abbreviation>
+<LongName>Division Of Mathematical Sciences</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Gabor Szekely</SignBlockName>
+<PO_EMAI>gszekely@nsf.gov</PO_EMAI>
+<PO_PHON>7032928869</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Numerous scientific questions assume the form of inverse problems, in which an unknown input to a system under study gives rise to an observed noisy output, and the goal is to estimate the input from the output. An example of such a problem is calculating the density of the Earth from measurements of the local gravitational field.  Only rarely can such inverse problems be solved analytically, and in general numerical approximations are required to find solutions. In this research project, the investigators aim to introduce a novel iterative algorithm for solving inverse problems, develop its theoretical and computational properties, and establish its performance in applications.  It is anticipated that the new algorithm will be adaptable to a range of problems currently under investigation in applied and numerical mathematics, for example in solving a sparse system of linear equations, currently of great interest in areas including tomography, archaeology, astrophysics, and other sciences.&lt;br/&gt;&lt;br/&gt;This research project explores a novel iterative algorithm for the solution of a class inverse problems that includes Fredholm integral equations of the first kind, Laplace transform inversion, mixing distribution estimation in statistics, and solving sparse systems of linear equations. The investigators plan to (i) introduce a novel iterative algorithm for solving inverse problems of these types, and perhaps others, (ii) develop its theoretical and computational properties, and (iii) establish its performance in applications. A motivation for the research is the statistical problem of estimating a mixing density in a nonparametric mixture model. To date, there are no general algorithms that produce globally consistent estimators of the mixing density, in the sense of almost sure convergence with respect to a strong metric; only weak convergence results are available. An important feature of the algorithm under development is that, if it is initialized at a smooth density function, then the estimator is necessarily also a smooth density function. Other algorithms designed by numerical analysts for solving these inverse problems do not have this closure property. The form of the novel iterative algorithm, along with the fact that it yields smooth density estimators, suggests that this open problem can be solved; the investigators aim to establish a general global consistency result and demonstrate rates of convergence.</AbstractNarration>
+<MinAmdLetterDate>02/28/2017</MinAmdLetterDate>
+<MaxAmdLetterDate>02/28/2017</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.049</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1737929</AwardID>
+<Investigator>
+<FirstName>Ryan</FirstName>
+<LastName>Martin</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Ryan Martin</PI_FULL_NAME>
+<EmailAddress>rgmarti3@ncsu.edu</EmailAddress>
+<PI_PHON/>
+<NSF_ID>000548272</NSF_ID>
+<StartDate>02/28/2017</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>North Carolina State University</Name>
+<CityName>Raleigh</CityName>
+<ZipCode>276957514</ZipCode>
+<PhoneNumber>9195152444</PhoneNumber>
+<StreetAddress>2601 Wolf Village Way</StreetAddress>
+<StreetAddress2><![CDATA[Admin. III, STE 240]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<StateCode>NC</StateCode>
+<CONGRESSDISTRICT>04</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>NC04</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>042092122</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>NORTH CAROLINA STATE UNIVERSITY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>142363428</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[North Carolina State University]]></Name>
+<CityName/>
+<StateCode>NC</StateCode>
+<ZipCode>276957907</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>North Carolina</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>NC02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>1269</Code>
+<Text>STATISTICS</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0116</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2016~124354</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Inverse problems are generalizations of the classical "signal plus noise" problem, and they arise when the quantity of interest cannot be directly measured.&nbsp; The goal then is to learn features of the quantity of interest based only on noisy or corrupted measurements.&nbsp; In statistics, this includes estimating mixing distributions based on data from the mixture, structure learning in high-dimensional problems, etc.&nbsp; In applied mathematics this includes solving Fredholm equations and large structure linear systems.&nbsp; This project focused on computationally efficient, theoretically sound, and statistically-motivated solutions to these inverse problems.&nbsp;</p> <p>For solving Fredholm equations, linear systems, and estimation of mixing distributions in mixture models, fast recursive methods were developed based on techniques in the statistical literature (for example, the so-called predictive recursion algorithm) and theoretical guarantees for the algorithm's and/or estimator's convergence were established. In particular, in the context of Fredholm equations, the proposed solution is guaranteed to be a density function -- existing methods in the applied math literature provide no such guarantees -- and the novel multiplicative updates are shown to converge very quickly to the solution.&nbsp; For mixture models more generally, a recursive algorithm is proposed that provides smooth estimates of the mixing density that converge weakly along the iterations to the discrete nonparametric maximum likelihood estimator.&nbsp; Applications to mixture models in actuarial science and directional data analysis were investigated.&nbsp;&nbsp;</p> <p>In high-dimensional problems, structure in the quantity of interest is often encoded probabilistically through specification of a prior distribution.&nbsp; This makes the problem one of inversion, with the goal of learning the unknown structure.&nbsp; This project also investigated the use of a novel data-driven prior for encoding the structure that leads to theoretically sound and numerically efficient estimation in the case where the unknown signal has a complex piecewise polynomial structure.&nbsp;&nbsp;</p> <p>The technical developments made as part of this project have been and will continue to be disseminated via seminar/conference presentations and journal publications.&nbsp; All of the papers are freely available online at http://arxiv.org/ and/or&nbsp;http://www.researchers.one/, regardless of the journal's open-access policies.&nbsp; This award also partially supported the training of two PhD students.&nbsp;&nbsp;</p><br> <p>            Last Modified: 11/28/2020<br>      Modified by: Ryan&nbsp;Martin</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Inverse problems are generalizations of the classical "signal plus noise" problem, and they arise when the quantity of interest cannot be directly measured.  The goal then is to learn features of the quantity of interest based only on noisy or corrupted measurements.  In statistics, this includes estimating mixing distributions based on data from the mixture, structure learning in high-dimensional problems, etc.  In applied mathematics this includes solving Fredholm equations and large structure linear systems.  This project focused on computationally efficient, theoretically sound, and statistically-motivated solutions to these inverse problems.   For solving Fredholm equations, linear systems, and estimation of mixing distributions in mixture models, fast recursive methods were developed based on techniques in the statistical literature (for example, the so-called predictive recursion algorithm) and theoretical guarantees for the algorithm's and/or estimator's convergence were established. In particular, in the context of Fredholm equations, the proposed solution is guaranteed to be a density function -- existing methods in the applied math literature provide no such guarantees -- and the novel multiplicative updates are shown to converge very quickly to the solution.  For mixture models more generally, a recursive algorithm is proposed that provides smooth estimates of the mixing density that converge weakly along the iterations to the discrete nonparametric maximum likelihood estimator.  Applications to mixture models in actuarial science and directional data analysis were investigated.    In high-dimensional problems, structure in the quantity of interest is often encoded probabilistically through specification of a prior distribution.  This makes the problem one of inversion, with the goal of learning the unknown structure.  This project also investigated the use of a novel data-driven prior for encoding the structure that leads to theoretically sound and numerically efficient estimation in the case where the unknown signal has a complex piecewise polynomial structure.    The technical developments made as part of this project have been and will continue to be disseminated via seminar/conference presentations and journal publications.  All of the papers are freely available online at http://arxiv.org/ and/or http://www.researchers.one/, regardless of the journal's open-access policies.  This award also partially supported the training of two PhD students.         Last Modified: 11/28/2020       Submitted by: Ryan Martin]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

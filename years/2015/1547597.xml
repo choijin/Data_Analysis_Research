@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>I-Corps:  Automatically Localizing Functional Faults In Deployed Software Applications</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/15/2015</AwardEffectiveDate>
+<AwardExpirationDate>12/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>50000.00</AwardTotalIntnAmount>
+<AwardAmount>50000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>07070000</Code>
+<Directorate>
+<Abbreviation>ENG</Abbreviation>
+<LongName>Directorate For Engineering</LongName>
+</Directorate>
+<Division>
+<Abbreviation>IIP</Abbreviation>
+<LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Steven Konsek</SignBlockName>
+<PO_EMAI>skonsek@nsf.gov</PO_EMAI>
+<PO_PHON>7032927021</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Very few problems impact people more negatively than field failures, where deployed software behaves incorrectly. Just like distinct human anatomies would prevent medical professionals from quickly diagnosing diseases using symptoms, production fault localization requires a huge effort from software professionals, since each software application has its own unique structure and programmers must spend a lot of time to understand it even for smaller applications. Not only do field failures zap customer confidence in software applications, but also they cost dearly, sometimes in human lives, since software applications support all aspects of our lives. Despite hundreds of different approaches for fault localization, the problem of localizing production faults for field failures automatically is unsolved. A problem is that production faults are not known by definition when the application is deployed, therefore running existing test suites is not applicable. Only when field failures occur in a deployed application can programmers start analyzing the symptoms to determine what faults cause them. Time to fix is critical, since the applications' downtime often costs thousands of dollars per minute. Currently, there is no solution that can automatically localize functional production faults in deployed software applications with a high degree of precision using only symptoms of the field failures and input values and without deploying instrumented applications and without collecting any runtime data and without having any tests with oracles, without performing successful and failed runs, and without collecting large amounts of state information from field failures. &lt;br/&gt;&lt;br/&gt;This I-Corps team proposes a novel research program for Automatically Localizing Faults For Functional Field Failures in Applications (pronounced as al-five) that enables stakeholders to enter symptoms of a failure that occurs during deployment of a given application and the input and configuration parameter values, and ALF5 will return locations in the code that are likely to contain specific faults and it recommends modifications to the code at these locations that can fix these faults. Examples of symptoms of failures include but not limited to incorrect output values, program crashes and computations that take much more time that they are supposed to, possibly indicating infinite loops. The team plans to explore partnering with potential customers who can provide production worthy systems upon which to demonstrate the proposed innovation and can help the team scale up its innovation to commercial delivery. The most likely markets for the proposed innovation are: software systems developers, like IBM Global Services and Sapient and Accenture; business process outsourcing firms like Deloitte and CSC, that host complex applications on behalf of customers; and companies with complex in-production custom systems, e.g., insurance processing, transportation logistics.</AbstractNarration>
+<MinAmdLetterDate>07/03/2015</MinAmdLetterDate>
+<MaxAmdLetterDate>07/03/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.041</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1547597</AwardID>
+<Investigator>
+<FirstName>Mark</FirstName>
+<LastName>Grechanik</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Mark Grechanik</PI_FULL_NAME>
+<EmailAddress>drmark@uic.edu</EmailAddress>
+<PI_PHON>3129969406</PI_PHON>
+<NSF_ID>000516683</NSF_ID>
+<StartDate>07/03/2015</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Illinois at Chicago</Name>
+<CityName>Chicago</CityName>
+<ZipCode>606124305</ZipCode>
+<PhoneNumber>3129962862</PhoneNumber>
+<StreetAddress>809 S. Marshfield Avenue</StreetAddress>
+<StreetAddress2><![CDATA[MB 502, M/C 551]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<StateCode>IL</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>IL07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>098987217</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF ILLINOIS</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>041544081</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Illinois at Chicago]]></Name>
+<CityName>Chicago</CityName>
+<StateCode>IL</StateCode>
+<ZipCode>606127301</ZipCode>
+<StreetAddress><![CDATA[809 S MARSHFIELD RM 608]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Illinois</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>IL07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8023</Code>
+<Text>I-Corps</Text>
+</ProgramElement>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2015~50000</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Finding root causes of failures in software applications automatically is a main goal of fault localization techniques and algorithms. Once a software application is in field (i.e., it is used by customers), it is very difficult to reproduce and analyze failures. Production or field faults have exorbitantly high cost &ndash; it is reported that cost of finding and fixing a production fault is more than 300 times higher than during requirements and coding phases -- over $20,000 when compared with $150 during writing the source code and testing it. Not only do these field faults take more time and resources to localize and fix (i.e., expensive runtime monitoring that affects the performance of the application production runs), but also they erode the customer&rsquo;s confidence in the software product. &nbsp;To the best of our knowledge, there is no solution to this big and important problem.</p> <p><strong>&nbsp;</strong>We offer a novel solution for Automatically Localising Faults For Functional Field Failures in Applications (ALF<sup>5</sup>A). Our approach uses Model-Based Diagnosis (MBD), where a diagnostic reasoning engine performs a variety of diagnostic tasks to infer an application&rsquo;s behavior from its models. In our approach we run the application first with and then without artificially injected faults (e.g., mutation operators can be used to inject these faults) with some input data, and collect and compare execution traces. Differences among executing the original and faulty versions of the same application can be summarized in a fault model, which describes how these faults affect execution paths, reachability among different program statements, and output values. We represent this model using a probabilistic graphical model and perform fault localization by abductive inference on this model using field failure symptoms.</p> <p>As part of the I-Corps work we interviewed professionals from 72 organizations who confirmed the viability of our approach and the need for it. Using the information from interviews, the PI obtained an NSF grant CCF-SHF #1615563 Automatically Localizing Functional Faults In Deployed Software Applications. Specific numbers for the outcome of the I-Corps interviews are the following.</p> <p><strong><span style="text-decoration: underline;">Strong demand for AL5</span></strong></p> <p>-- 12/69 (17.4%) absolutely don't think they need AL5. Others (57/69, 82.6%) all think AL5 is useful to them.</p> <p>&nbsp;<strong><span style="text-decoration: underline;">Time spent on debugging</span></strong></p> <p><strong>Category 1: too much debugging or not</strong></p> <p>--&nbsp;62/69 (89.9%):&nbsp;would rather reduce debugging time</p> <p>-- 7/69 (10.1%): okay with debugging time they currently spend</p> <p>&nbsp;<strong></strong></p> <p><strong>Category 2: actual debugging time</strong></p> <p>-- 63/69 (91.3%): &gt;25%</p> <p>-- 6/69 (8.7%): &lt;=25%</p> <p>&nbsp;</p> <p><strong><span style="text-decoration: underline;">Impact of bugs</span></strong></p> <p>1. blocker bugs</p> <p>No stats to show exactly how often it happens, but from the conversations, most of the teams face blocker bugs found at post-deployment stage.&nbsp;</p> <p>&nbsp;</p> <p>2. have to ignore the bug</p> <p>They have to ignore the bug when the bugs have lower priority or the customers say explicitly that they are okay with ignoring them. The underlying reason is they can't afford time (money) spent on fixing these bugs, paid either by the company or by the customers.</p> <p>&nbsp;</p> <p><strong><span style="text-decoration: underline;">Difficult bugs to fix, when they are related to...</span></strong></p> <p>- Configuration: 5 (people explicitly mentioned)</p> <p>- Multi-threading: 5</p> <p>- Network: 2</p> <p>- Complex system: 2</p> <p>- 3rd-party libs: 2</p> <p>- Simulating user environment: 2</p> <p>- Database (huge input data, or complicated DB queries): 2</p> <p>- UI: 1</p> <p>&nbsp;<strong><span style="text-decoration: underline;">Industry</span></strong></p> <p>Software Development Organization: 48/71 (67.6%)</p> <p>Finance: 8/71 (11.3%)</p> <p>Consulting: 5/71 (7.0%)</p> <p>Service/Solution provider (IT, cloud, or bigdata): 5/71 (7.0%)</p> <p>Research: 3/71 (4.2%)</p> <p>Others (freelancer, Venture): 2/71 (2.8%)</p> <p>&nbsp;</p> <p>These numbers confirm that I-Corps was very useful for shaping the project and making a useful product that can significantly improve the state-of-the art of software development.</p><br> <p>            Last Modified: 01/01/2017<br>      Modified by: Mark&nbsp;Grechanik</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Finding root causes of failures in software applications automatically is a main goal of fault localization techniques and algorithms. Once a software application is in field (i.e., it is used by customers), it is very difficult to reproduce and analyze failures. Production or field faults have exorbitantly high cost &ndash; it is reported that cost of finding and fixing a production fault is more than 300 times higher than during requirements and coding phases -- over $20,000 when compared with $150 during writing the source code and testing it. Not only do these field faults take more time and resources to localize and fix (i.e., expensive runtime monitoring that affects the performance of the application production runs), but also they erode the customer?s confidence in the software product.  To the best of our knowledge, there is no solution to this big and important problem.   We offer a novel solution for Automatically Localising Faults For Functional Field Failures in Applications (ALF5A). Our approach uses Model-Based Diagnosis (MBD), where a diagnostic reasoning engine performs a variety of diagnostic tasks to infer an application?s behavior from its models. In our approach we run the application first with and then without artificially injected faults (e.g., mutation operators can be used to inject these faults) with some input data, and collect and compare execution traces. Differences among executing the original and faulty versions of the same application can be summarized in a fault model, which describes how these faults affect execution paths, reachability among different program statements, and output values. We represent this model using a probabilistic graphical model and perform fault localization by abductive inference on this model using field failure symptoms.  As part of the I-Corps work we interviewed professionals from 72 organizations who confirmed the viability of our approach and the need for it. Using the information from interviews, the PI obtained an NSF grant CCF-SHF #1615563 Automatically Localizing Functional Faults In Deployed Software Applications. Specific numbers for the outcome of the I-Corps interviews are the following.  Strong demand for AL5  -- 12/69 (17.4%) absolutely don't think they need AL5. Others (57/69, 82.6%) all think AL5 is useful to them.   Time spent on debugging  Category 1: too much debugging or not  -- 62/69 (89.9%): would rather reduce debugging time  -- 7/69 (10.1%): okay with debugging time they currently spend     Category 2: actual debugging time  -- 63/69 (91.3%): &gt;25%  -- 6/69 (8.7%): &lt;=25%     Impact of bugs  1. blocker bugs  No stats to show exactly how often it happens, but from the conversations, most of the teams face blocker bugs found at post-deployment stage.      2. have to ignore the bug  They have to ignore the bug when the bugs have lower priority or the customers say explicitly that they are okay with ignoring them. The underlying reason is they can't afford time (money) spent on fixing these bugs, paid either by the company or by the customers.     Difficult bugs to fix, when they are related to...  - Configuration: 5 (people explicitly mentioned)  - Multi-threading: 5  - Network: 2  - Complex system: 2  - 3rd-party libs: 2  - Simulating user environment: 2  - Database (huge input data, or complicated DB queries): 2  - UI: 1   Industry  Software Development Organization: 48/71 (67.6%)  Finance: 8/71 (11.3%)  Consulting: 5/71 (7.0%)  Service/Solution provider (IT, cloud, or bigdata): 5/71 (7.0%)  Research: 3/71 (4.2%)  Others (freelancer, Venture): 2/71 (2.8%)     These numbers confirm that I-Corps was very useful for shaping the project and making a useful product that can significantly improve the state-of-the art of software development.       Last Modified: 01/01/2017       Submitted by: Mark Grechanik]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

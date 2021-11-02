@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>EAGER:  Profile and Transformation Driven Automatic Parallelization with Interactive Reports</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2014</AwardExpirationDate>
+<AwardTotalIntnAmount>249426.00</AwardTotalIntnAmount>
+<AwardAmount>249426</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>The research investigates a new approach for automatically parallelizing sequential programs.  In contrast to existing parallelizing compilers, which use static analysis to parallelize loop nests that use affine access functions to manipulate dense matrices, this approach applies a set of transformations similar to those that expert developers apply when manually developing parallel programs. These transformations induce a search space that the compiler will automatically explore to deliver the best parallelization it can find. The compiler evaluates the success of each transformation by running the transformed program on representative inputs to observe 1) the impact (if any) of the transformation on the performance of the parallel program and 2) if the transformed program produces an acceptably accurate result.  The technique will produce a report that the developer can examine to understand the parallelization process. The research will adapt as necessary to reflect knowledge gained during the course of the research.&lt;br/&gt;&lt;br/&gt;The significance of this research is that multicore machines are believed to be the foundation of our future computing infrastructure, and that such machines are known to be difficult to program. Given this combination, investigating new and potentially more effective techniques can help make it possible to obtain the parallel software necessary to utilize this class of machines.</AbstractNarration>
+<MinAmdLetterDate>07/24/2010</MinAmdLetterDate>
+<MaxAmdLetterDate>05/30/2013</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1036241</AwardID>
+<Investigator>
+<FirstName>Martin</FirstName>
+<LastName>Rinard</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Martin Rinard</PI_FULL_NAME>
+<EmailAddress>rinard@lcs.mit.edu</EmailAddress>
+<PI_PHON>6172586922</PI_PHON>
+<NSF_ID>000259024</NSF_ID>
+<StartDate>07/24/2010</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 MASSACHUSETTS AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7916</Code>
+<Text>EAGER</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9218</Code>
+<Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>HPCC</Code>
+<Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0110</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2010~249426</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>Parallel computing is an important technique for bringing significant<br />computational power to bear to solve important problems quickly.<br />One issue that has limited the ability of parallel programs to<br />exploit the full capability of the underlying parallel hardware<br />is the use of synchronization operations - additional operations<br />that the program performs to precisely coordinate the actions of<br />the multiple computations that are executing in parallel.<br /><br />The performed research explored the possibility that it is possible<br />to eliminate substantial amounts of this synchronization and still<br />obtain acceptable results. There would be at least two advantages.<br />First, reduced computation time because of the elimination of<br />synchronization operations. Second, increased opportunities to<br />find parallel computations because of relaxed constraints on<br />the parallel execution.<br /><br />The research results showed that it is indeed possible to eliminate<br />many kinds of synchronization in at least some classes of parallel<br />computations. It also showed that removing all synchronization in<br />selected parts of the computation, then putting back in only that<br />required to obtain acceptably accurate computation, was also a<br />feasible way to automatically obtain efficient parallel execution.<br /><br />These results significantly advanced the knowledge in the field of<br />parallel computation because, prior to this research, the field<br />believed that synchronization of many of the operations found in<br />the considered class of parallel computations was required for<br />acceptable execution. The empirical results presented in this<br />research demonstrated that parallel computations could, contrary<br />to the perceived wisdom, execute with substantially less synchronization.<br /><br />This research suggests creative and original new research directions.<br />Relaxing mechanisms traditionally considered necessary for acceptable<br />computation has potentially broad impacts in many areas of computer<br />science and could potentially usher in new and exciting ways of<br />improving computation speed. <br /><br />The broader impacts of the research include faster parallel computations<br />and an increase in our society's ability to exploit parallel computation.<br />Many computational problems are constrained by our ability to execute<br />the computation quickly enough. The research performed enables easier<br />access to increased performance through parallel computation.</p><br> <p>            Last Modified: 11/27/2014<br>      Modified by: Martin&nbsp;Rinard</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ Parallel computing is an important technique for bringing significant computational power to bear to solve important problems quickly. One issue that has limited the ability of parallel programs to exploit the full capability of the underlying parallel hardware is the use of synchronization operations - additional operations that the program performs to precisely coordinate the actions of the multiple computations that are executing in parallel.  The performed research explored the possibility that it is possible to eliminate substantial amounts of this synchronization and still obtain acceptable results. There would be at least two advantages. First, reduced computation time because of the elimination of synchronization operations. Second, increased opportunities to find parallel computations because of relaxed constraints on the parallel execution.  The research results showed that it is indeed possible to eliminate many kinds of synchronization in at least some classes of parallel computations. It also showed that removing all synchronization in selected parts of the computation, then putting back in only that required to obtain acceptably accurate computation, was also a feasible way to automatically obtain efficient parallel execution.  These results significantly advanced the knowledge in the field of parallel computation because, prior to this research, the field believed that synchronization of many of the operations found in the considered class of parallel computations was required for acceptable execution. The empirical results presented in this research demonstrated that parallel computations could, contrary to the perceived wisdom, execute with substantially less synchronization.  This research suggests creative and original new research directions. Relaxing mechanisms traditionally considered necessary for acceptable computation has potentially broad impacts in many areas of computer science and could potentially usher in new and exciting ways of improving computation speed.   The broader impacts of the research include faster parallel computations and an increase in our society's ability to exploit parallel computation. Many computational problems are constrained by our ability to execute the computation quickly enough. The research performed enables easier access to increased performance through parallel computation.       Last Modified: 11/27/2014       Submitted by: Martin Rinard]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

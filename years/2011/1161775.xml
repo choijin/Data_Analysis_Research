@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SHF: Medium: Collaborative Research: Marrying program analysis and numerical search</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+<AwardExpirationDate>08/31/2016</AwardExpirationDate>
+<AwardTotalIntnAmount>600000.00</AwardTotalIntnAmount>
+<AwardAmount>600000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Nina Amla</SignBlockName>
+<PO_EMAI>namla@nsf.gov</PO_EMAI>
+<PO_PHON>7032927991</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This research project explores ways to solve optimization problems where the targets of optimization are programs containing general-purpose control and data constructs. Such optimization questions arise often in the everyday practice of software engineering. While it may seem that standard optimization packages could solve these problems, it is often not so. White-box optimization approaches like linear programming are ruled out here because they only permit very restricted classes of objective functions. Black-box optimization techniques like gradient descent and Nelder-Mead search are applicable in principle, but they work well only in relatively smooth search spaces, and due to arbitrarily nested branches and loops, even simple programs can have highly irregular, ill-conditioned behavior.&lt;br/&gt;&lt;br/&gt;The central insight guiding this project is that program analysis techniques from the field of formal reasoning about programs can work together with blackbox optimization toolkits, and make it possible to solve many more problems of the above sort than are currently possible. Ultimately, the project will produce a unified system for optimizing programs that can leverage flexible combinations of optimization techniques and program analysis strategies. As numerous real-world problems faced in the development of everyday software are optimization problems, this system will offer a new range of capabilities to the end programmer. In addition, the research will foster synergy between two different research areas customarily housed in different academic departments.</AbstractNarration>
+<MinAmdLetterDate>04/04/2012</MinAmdLetterDate>
+<MaxAmdLetterDate>08/25/2015</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>0</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1161775</AwardID>
+<Investigator>
+<FirstName>Armando</FirstName>
+<LastName>Solar-Lezama</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Armando Solar-Lezama</PI_FULL_NAME>
+<EmailAddress>asolar@csail.mit.edu</EmailAddress>
+<PI_PHON>6172589727</PI_PHON>
+<NSF_ID>000541631</NSF_ID>
+<StartDate>04/04/2012</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName/>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7944</Code>
+<Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0112</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0113</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<Appropriation>
+<Code>0115</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2012~90695</FUND_OBLG>
+<FUND_OBLG>2013~377644</FUND_OBLG>
+<FUND_OBLG>2015~131661</FUND_OBLG>
+<POR>
+<DRECONTENT><![CDATA[<div class="porColContainerWBG"> <div class="porContentCol"><p>The goal of this project was to develop techniques that combine discrete logical reasoning with numerical reasoning in order to solve challenging problems in program analysis and synthesis. Many problems arising in program analysis can be framed as optimization problems&mdash;examples include the generation of tests that lead to the worst possible complexity, and instantiation of program parameters so that a specification is followed as closely as possible. Numerical optimization would seem to be a natural approach to such optimization problems. Unfortunately, in practice, numerical methods tend to fare poorly in the setting of program analysis. The reason is fundamental: numerical methods work well only in relatively smooth search spaces, while the search spaces generated by programs tend to be highly discontinuous. To be used productively, numerical methods must be supplemented by insights about program semantics and symbolic reasoning about programs.</p> <p>As part of this project, we perfected a technique for smooth numerical search that uses program analysis to create a continuous approximation of an otherwise discontinuous program. Using this technique, we were able to solve parameter synthesis problems that would have been too difficult to solve using numerical search techniques on the original discontinuous program.</p> <p>We also developed a technique called smoothed numerical proof search, which uses numerical methods in combination with abstract interpretation in order to find parameters for a probabilistic program that allow it to satisfy a probabilistic guarantee. For example, suppose you want to prove that a thermostat will always keep a room within a given temperature range. In general, this would not be possible, because the temperature outside the room could reach such an extreme that the thermostat would not be able to keep up. However, one would like to be able to at least prove that given what we know about the distribution of possible outside temperatures, the probability that the temperature would fall outside the desired range is arbitrarily small. Our smoothed numerical search would allow you to discover the optimal parameters for the thermostat to ensure the desired bound on this probability of failure.</p> <p>A third major result developed under this project was to show that constraint based synthesis techniques could actually be effective in solving certain types of complicated optimization problems that arise in challenging AI problems. In particular, we have been studying the problem of unsupervised learning, where the goal is to synthesize a program that describes a process that can explain a series of observed outcomes. For example, one of the problems we have been studying is the problem of learning language morphology rules, where the goal is to discover, for example, the rule that allows you to produce the plural of a word. This is a challenging optimization problem, because given a finite set of observations, there is an infinite set of programs that could potentially produce those observations, but we are interested in finding the most likely. The inherently discrete structure of the language morphology rules that we are interested in discovering make this problem unsuitable to pure numerical search, but our new techniques proved very effective for this problem.</p> <p>Overall, the research supported by this project has led to a set of foundational techniques that could have a significant impact in a variety of fields. The results of this work have already been published at major conferences like POPL and NIPS, and could one day change the way we develop software, particularly for cyber-physical systems, where the combination of numerical and discrete logical reasoning will be essential.</p> <p>For further reading:</p> <p>Swarat Chaudhuri, Martin Clochard, Armando Solar-Lezama: Bridging boolean and quantitative synthesis using smoothed proof search. POPL 2014: 207-220</p> <p>Swarat Chaudhuri, Armando Solar-Lezama: Euler: A System for Numerical Optimization of Programs. CAV 2012: 732-737</p> <p>Kevin Ellis, Armando Solar-Lezama, Josh Tenenbaum: Sampling for Bayesian Program Learning. NIPS 2016: 1289-1297</p><br> <p>            Last Modified: 02/09/2017<br>      Modified by: Armando&nbsp;Solar-Lezama</p> </div> <div class="porSideCol"></div> </div>]]></DRECONTENT>
+<POR_COPY_TXT><![CDATA[ The goal of this project was to develop techniques that combine discrete logical reasoning with numerical reasoning in order to solve challenging problems in program analysis and synthesis. Many problems arising in program analysis can be framed as optimization problems&mdash;examples include the generation of tests that lead to the worst possible complexity, and instantiation of program parameters so that a specification is followed as closely as possible. Numerical optimization would seem to be a natural approach to such optimization problems. Unfortunately, in practice, numerical methods tend to fare poorly in the setting of program analysis. The reason is fundamental: numerical methods work well only in relatively smooth search spaces, while the search spaces generated by programs tend to be highly discontinuous. To be used productively, numerical methods must be supplemented by insights about program semantics and symbolic reasoning about programs.  As part of this project, we perfected a technique for smooth numerical search that uses program analysis to create a continuous approximation of an otherwise discontinuous program. Using this technique, we were able to solve parameter synthesis problems that would have been too difficult to solve using numerical search techniques on the original discontinuous program.  We also developed a technique called smoothed numerical proof search, which uses numerical methods in combination with abstract interpretation in order to find parameters for a probabilistic program that allow it to satisfy a probabilistic guarantee. For example, suppose you want to prove that a thermostat will always keep a room within a given temperature range. In general, this would not be possible, because the temperature outside the room could reach such an extreme that the thermostat would not be able to keep up. However, one would like to be able to at least prove that given what we know about the distribution of possible outside temperatures, the probability that the temperature would fall outside the desired range is arbitrarily small. Our smoothed numerical search would allow you to discover the optimal parameters for the thermostat to ensure the desired bound on this probability of failure.  A third major result developed under this project was to show that constraint based synthesis techniques could actually be effective in solving certain types of complicated optimization problems that arise in challenging AI problems. In particular, we have been studying the problem of unsupervised learning, where the goal is to synthesize a program that describes a process that can explain a series of observed outcomes. For example, one of the problems we have been studying is the problem of learning language morphology rules, where the goal is to discover, for example, the rule that allows you to produce the plural of a word. This is a challenging optimization problem, because given a finite set of observations, there is an infinite set of programs that could potentially produce those observations, but we are interested in finding the most likely. The inherently discrete structure of the language morphology rules that we are interested in discovering make this problem unsuitable to pure numerical search, but our new techniques proved very effective for this problem.  Overall, the research supported by this project has led to a set of foundational techniques that could have a significant impact in a variety of fields. The results of this work have already been published at major conferences like POPL and NIPS, and could one day change the way we develop software, particularly for cyber-physical systems, where the combination of numerical and discrete logical reasoning will be essential.  For further reading:  Swarat Chaudhuri, Martin Clochard, Armando Solar-Lezama: Bridging boolean and quantitative synthesis using smoothed proof search. POPL 2014: 207-220  Swarat Chaudhuri, Armando Solar-Lezama: Euler: A System for Numerical Optimization of Programs. CAV 2012: 732-737  Kevin Ellis, Armando Solar-Lezama, Josh Tenenbaum: Sampling for Bayesian Program Learning. NIPS 2016: 1289-1297       Last Modified: 02/09/2017       Submitted by: Armando Solar-Lezama]]></POR_COPY_TXT>
+</POR>
+</Award>
+</rootTag>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SaTC: CORE: Medium: Large-Scale Data Driven Anomaly Detection and Diagnosis from System Logs</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>08/01/2018</AwardEffectiveDate>
+<AwardExpirationDate>07/31/2022</AwardExpirationDate>
+<AwardTotalIntnAmount>1100000.00</AwardTotalIntnAmount>
+<AwardAmount>1100000</AwardAmount>
+<AwardInstrument>
+<Value>Standard Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Wei-Shinn Ku</SignBlockName>
+<PO_EMAI>weiku@nsf.gov</PO_EMAI>
+<PO_PHON>7032928318</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>Detecting unusual and anomalous behavior in computer systems is a critical part of ensuring they are secure and trustworthy. System logs, which record actions taken by programs, are a promising source of data for such anomaly detection.  However, existing practices and tools for doing log analysis require deep expertise, as well as heavy human involvement in both defining and interpreting possible anomalies, which limits their scalability and effectiveness.  This project's goal is to improve the state of the art around log-based anomaly detection by developing a framework called DeepLog through (a) advancing natural language processing techniques to extract structured information from a wide variety of log files to support analysis across different data sources and across time, (b) developing new methods to model legitimate workflows and log event sequences over time, (c) adapting machine learning methods to identify deviations from those workflows that represent potential anomalies, and (d) creating tools for system administrators to help them diagnose possible security issues more effectively and efficiently.  The work will be integrated into a freely available software package to benefit both other researchers and practicing system administrators and used to support both classroom and research-based educational activities at the investigators' institutions.&lt;br/&gt;&lt;br/&gt;Toward log parsing, the team will adapt named entity recognition methods to parse unstructured logs as well as structured logs where the structure is not pre-defined by, e.g., regular expressions, into structured key-value pairs of log event types and parameters.  This data can be seen as a multi-dimensional feature space whose contents are constrained by the execution of the underlying programs and thus reflects a hidden structure that defines the set of valid, non-anomalous execution sequences.  To help articulate this hidden structure, the team will develop long-short-term-memory (LSTM)-based neural network models that use both the key and value elements to extract semantically meaningful subsequences of program behavior from data extracted from system runs known to be normal.  Once these models are developed using known-good training data, they can be applied to anomaly detection by flagging for consideration new log entries that are unexpected given the current state of the system, logs, and model; they can also be used to infer the underlying workflows and hidden structures described earlier.  These models will be improved through that online learning methods, administrators' feedback about the seriousness of reported anomalies, and generative adversarial training models which create execution sequences that, though anomalous, hew closely to the hidden structures embedded in the logs and the LSTM-based models.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>07/16/2018</MinAmdLetterDate>
+<MaxAmdLetterDate>03/10/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>1801446</AwardID>
+<Investigator>
+<FirstName>Robert</FirstName>
+<LastName>Ricci</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Robert Ricci</PI_FULL_NAME>
+<EmailAddress>ricci@cs.utah.edu</EmailAddress>
+<PI_PHON>8015818354</PI_PHON>
+<NSF_ID>000518706</NSF_ID>
+<StartDate>03/10/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Vivek</FirstName>
+<LastName>Srikumar</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Vivek Srikumar</PI_FULL_NAME>
+<EmailAddress>svivek@cs.utah.edu</EmailAddress>
+<PI_PHON>8015816903</PI_PHON>
+<NSF_ID>000676145</NSF_ID>
+<StartDate>07/16/2018</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Feifei</FirstName>
+<LastName>Li</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Feifei Li</PI_FULL_NAME>
+<EmailAddress>lifeifei@cs.utah.edu</EmailAddress>
+<PI_PHON>8015856673</PI_PHON>
+<NSF_ID>000598994</NSF_ID>
+<StartDate>07/16/2018</StartDate>
+<EndDate>03/10/2021</EndDate>
+<RoleCode>Former Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Robert</FirstName>
+<LastName>Ricci</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Robert Ricci</PI_FULL_NAME>
+<EmailAddress>ricci@cs.utah.edu</EmailAddress>
+<PI_PHON>8015818354</PI_PHON>
+<NSF_ID>000518706</NSF_ID>
+<StartDate>07/16/2018</StartDate>
+<EndDate>03/10/2021</EndDate>
+<RoleCode>Former Co-Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of Utah</Name>
+<CityName>SALT LAKE CITY</CityName>
+<ZipCode>841128930</ZipCode>
+<PhoneNumber>8015816903</PhoneNumber>
+<StreetAddress>75 S 2000 E</StreetAddress>
+<StreetAddress2><![CDATA[Second Floor]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<StateCode>UT</StateCode>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>UT02</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>009095365</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF UTAH, THE</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>009095365</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of Utah]]></Name>
+<CityName>Salt Lake City</CityName>
+<StateCode>UT</StateCode>
+<ZipCode>841129460</ZipCode>
+<StreetAddress><![CDATA[50 S. Central Campus Drive]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Utah</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>02</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>UT02</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7434</Code>
+<Text>CNCI</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0118</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2018~1100000</FUND_OBLG>
+</Award>
+</rootTag>
