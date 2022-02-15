@@ -22,6 +22,11 @@ To conduct this project, I counted the frequency of research topics in the title
    3. I remove stop words. 
    4. Removed additional irrelevant words
 
+   **Data Analysis:** Here, I conducted various analysis on the data.
+   1. NetworkX: Applied relation network to each key research topics to determine how one topic is related to the other, visualizing as a network of nodes.
+   2. K-means clustering: Categorized the research topics based on the amount of funding each topics received.
+   3. Machine Learning: Used Random Forest Model and XGBoost to predict the fundings for each research topic based on various metrics.
+   4. Linear Regression: Analyzed the simple regression model and found the strength of the relationship by finding its coefficient of determination.
 
   
 
