@@ -16,6 +16,8 @@ To conduct this project, I counted the frequency of research topics in the title
   
   <img src="https://user-images.githubusercontent.com/89544848/153977458-ee18d4dd-90f5-4686-b043-02ee889cd8c9.png" width="700" height="300">
   
+  The parsed XML files are currently saved as CSV files.
+  
    **Data Cleaning:** Next was data cleaning. 
    1. The data needed to remove any missing values. 
    2. I filitered non-research-related awards. 
