@@ -1,29 +1,29 @@
 # DataAnalysis_NSF_Grants
-ncssm-mentorship-21-22
 
-Welcome to NCSU Yu Research Group!
+Hi! The motivation for this analysis was to use the data from the National Science Foundation website to inform researchers on what topic of research are in demand.
 
-The group meeting for fall 2021 is on every Tuesday and Thursday 15:00p.m. to 16:00p.m.
+The questions to ask were, what areas of research are most sought-after? Among those topics, which offer the most funding? 
 
-You can find the group meeting log here: https://docs.google.com/document/d/17Q7YxqZl5ajMb8YcRAbb39rnx3c6nM9nLLlif0g2APU/edit#
+To conduct this project, I counted the frequency of research topics in the title and abstract section of the data and calculated the corresponding funding amount.
 
-Please add any resources you used in your code here:
 
-Please add any datasource you used here:
+* **TASK_SUMMARY** 
 
-Please update your progress if needed here:
-* **TASK1_SUMMARY** Count phrases
-
-  **Update:** 1. Found packages to work with
+  **Data Extraction:** The website text files were written in an XML file format, which had to be parsed and converted into a readable and workable dataframe.
   
-  **Status:** Almost complete? I decided not to save the file as .txt (or .csv) and upload it when running the library. The reason being the 
- Loading the data 
-words = [w.lower() for w in webtext.words(
-    'C:\\Geeksforgeeks\\python_and_grail.txt')]
-creates a big list composed of words. Since we already have the titles as a list, I created an empty list and appended every words into the empty list and use that as the parameter for the function that counts frequency of phrases. 
-
-* **TASK2_SUMMARY** Filter more words
-
-  **Update:** 
   
-  **Status:** Pending
+  <img src="https://user-images.githubusercontent.com/89544848/153977136-2f32612d-2971-4cbf-aca6-be136cbecffe.png" width="250" height="250">
+  
+  <img src="https://user-images.githubusercontent.com/89544848/153977458-ee18d4dd-90f5-4686-b043-02ee889cd8c9.png" width="700" height="300">
+  
+   **Data Cleaning:** Next was data cleaning. 
+   1. The data needed to remove any missing values. 
+   2. I filitered non-research-related awards. 
+   3. I remove stop words. 
+   4. Removed additional irrelevant words
+
+
+  
+
+
+
