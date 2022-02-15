@@ -1,4 +1,4 @@
-# DataAnalysis_NSF_Grants
+# Data Analysis on NSF research grant text data
 
 Hi! The motivation for this analysis was to use the data from the National Science Foundation website to inform researchers on what topic of research are in demand.
 
