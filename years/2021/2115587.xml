@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>SaTC: CORE: Medium: Provably Secure, Usable, and Performant Enclaves in Multicore Processors</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>10/01/2021</AwardEffectiveDate>
+<AwardExpirationDate>09/30/2024</AwardExpirationDate>
+<AwardTotalIntnAmount>1200000.00</AwardTotalIntnAmount>
+<AwardAmount>800000</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05050000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CNS</Abbreviation>
+<LongName>Division Of Computer and Network Systems</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Daniela Oliveira</SignBlockName>
+<PO_EMAI>doliveir@nsf.gov</PO_EMAI>
+<PO_PHON>7032924352</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>In cloud computing and other popular modes of computer usage today, one physical computer is shared by different applications contributed by users who do not trust each other.  The resources of the shared computer must be divided securely across the users; mistakes allow one user to learn another's secrets or influence another applications’ execution.  A promising approach to address the challenge of protecting applications from one another is enclaves, best known through Intel's SGX architecture available since 2015, but SGX allows secrets to be leaked while applications execute.  This project develops enclaves with strong protections, focusing on usability, performance, and assurance.  First, enclaves have still been used relatively rarely in production, and the project therefore studies new interfaces that streamline the sharing of hardware resources.  Second, to motivate adoption by the community, the developed enclaves encompass hardware optimizations so as not to affect runtime performance of applications. Third, the project develops techniques for mathematical proofs of hardware security.  &lt;br/&gt;&lt;br/&gt;Planned approaches in software API design for enclaves include limited I/O channel interfaces (e.g., enforcing fixed or otherwise relatively predictable schedules) and new flexible means of allocating resources like cache lines across enclaves.  New enclave-to-enclave communication primitives are realized through modifications to memory-management hardware.  These mechanisms are being proved secure to the highest standards of mathematical rigor, through machine-checking of proofs with the Coq theorem prover.  The technique is to prove that specific enclave systems cycle-accurately simulate groups of separate computers (one per enclave) connected by a basic network, and to prove such results modularly, via nonobvious decomposition of proof obligations into localized security conditions for different components (e.g., processor vs. memory system).  This research produces usable enclave systems that the investigators make available to the public as images for Amazon's F1 cloud-FPGA system, facilitating easy bring-up for security evaluation or extending the work.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>08/25/2021</MinAmdLetterDate>
+<MaxAmdLetterDate>08/25/2021</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2115587</AwardID>
+<Investigator>
+<FirstName>Adam</FirstName>
+<LastName>Chlipala</LastName>
+<PI_MID_INIT>J</PI_MID_INIT>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Adam J Chlipala</PI_FULL_NAME>
+<EmailAddress>adamc@csail.mit.edu</EmailAddress>
+<PI_PHON>6172531000</PI_PHON>
+<NSF_ID>000610723</NSF_ID>
+<StartDate>08/25/2021</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Professor</FirstName>
+<LastName>Arvind</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Professor Arvind</PI_FULL_NAME>
+<EmailAddress>arvind@mit.edu</EmailAddress>
+<PI_PHON>6172536090</PI_PHON>
+<NSF_ID>000386286</NSF_ID>
+<StartDate>08/25/2021</StartDate>
+<EndDate/>
+<RoleCode>Co-Principal Investigator</RoleCode>
+</Investigator>
+<Investigator>
+<FirstName>Srini</FirstName>
+<LastName>Devadas</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Srini Devadas</PI_FULL_NAME>
+<EmailAddress>devadas@mit.edu</EmailAddress>
+<PI_PHON>6172530454</PI_PHON>
+<NSF_ID>000451511</NSF_ID>
+<StartDate>08/25/2021</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>Massachusetts Institute of Technology</Name>
+<CityName>Cambridge</CityName>
+<ZipCode>021394301</ZipCode>
+<PhoneNumber>6172531000</PhoneNumber>
+<StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+<StreetAddress2><![CDATA[NE18-901]]></StreetAddress2>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<StateCode>MA</StateCode>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>MA07</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>001425594</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>001425594</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[Massachusetts Institute of Technology]]></Name>
+<CityName>Cambridge</CityName>
+<StateCode>MA</StateCode>
+<ZipCode>021394301</ZipCode>
+<StreetAddress><![CDATA[77 MASSACHUSETTS AVE]]></StreetAddress>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>Massachusetts</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>07</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>MA07</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>8060</Code>
+<Text>Secure &amp;Trustworthy Cyberspace</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>025Z</Code>
+<Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7924</Code>
+<Text>MEDIUM PROJECT</Text>
+</ProgramReference>
+<Appropriation>
+<Code>0121</Code>
+<Name>NSF RESEARCH &amp; RELATED ACTIVIT</Name>
+<APP_SYMB_ID>040100</APP_SYMB_ID>
+</Appropriation>
+<FUND_OBLG>2021~800000</FUND_OBLG>
+</Award>
+</rootTag>

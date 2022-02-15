@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootTag>
+<Award>
+<AwardTitle>CAREER: Building Reliable Distributed Systems with Refinement Types</AwardTitle>
+<AGENCY>NSF</AGENCY>
+<AwardEffectiveDate>07/01/2022</AwardEffectiveDate>
+<AwardExpirationDate>06/30/2027</AwardExpirationDate>
+<AwardTotalIntnAmount>619731.00</AwardTotalIntnAmount>
+<AwardAmount>114168</AwardAmount>
+<AwardInstrument>
+<Value>Continuing Grant</Value>
+</AwardInstrument>
+<Organization>
+<Code>05010000</Code>
+<Directorate>
+<Abbreviation>CSE</Abbreviation>
+<LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+</Directorate>
+<Division>
+<Abbreviation>CCF</Abbreviation>
+<LongName>Division of Computing and Communication Foundations</LongName>
+</Division>
+</Organization>
+<ProgramOfficer>
+<SignBlockName>Anindya Banerjee</SignBlockName>
+<PO_EMAI>abanerje@nsf.gov</PO_EMAI>
+<PO_PHON>7032927885</PO_PHON>
+</ProgramOfficer>
+<AbstractNarration>This award is funded in whole or in part under the American Rescue Plan Act of 2021 (Public Law 117-2).&lt;br/&gt;&lt;br/&gt;Today's most important computer systems are distributed systems: those that consist of multiple machines that communicate by sending messages over a network, and where individual machines or network connections may fail independently.  Programming such systems is notoriously difficult and error-prone due to messages being reordered or delayed and the possibility of machines and network connections failing.  Widely-used protocols are meant to ensure, for instance, a given message delivery order or a given data consistency policy, but machine-checked proofs ensuring the correctness of executable implementations of these protocols are rare.  The goal of this project is to mechanically verify real, executable implementations of distributed systems, using powerful tools built into a general-purpose programming language.  The project's novelties are in its focus on immediately executable implementations, and in its modular verification approach that separates lower-level message delivery concerns from higher-level application semantics. The project's impacts will be in improving the overall trustworthiness and reliability of distributed software systems.  The project further aims to create approachable entry points to research, and to develop students' scientific communication skills, by integrating the creation of zines and videos about distributed systems verification into the investigator and project team's teaching and research practices, and making the resulting materials freely available online.&lt;br/&gt;&lt;br/&gt;The project's approach to language-level distributed systems verification centers around refinement types: data types that let programmers specify logical predicates that restrict the set of values described by a type, and that can be checked at compile time by an SMT solver. The project uses Liquid Haskell, which extends the Haskell programming language with support for refinement types, and which can further be used for extrinsic verification, that is, defining functions to state and prove theorems. The investigator and team will use Liquid Haskell to develop mechanically verified, modular libraries for implementing distributed systems.  A novel verified message delivery library will form the foundation for additional verified components, such as libraries providing replicated data types and distributed data stores. Furthermore, the project investigates combining the strengths of Liquid Haskell with those of interactive proof assistants such as Agda. These investigations culminate in a comprehensive survey of such hybrid automated/interactive verification tools, and provide a holistic scientific understanding of the design space.&lt;br/&gt;&lt;br/&gt;This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</AbstractNarration>
+<MinAmdLetterDate>01/27/2022</MinAmdLetterDate>
+<MaxAmdLetterDate>01/27/2022</MaxAmdLetterDate>
+<ARRAAmount/>
+<TRAN_TYPE>Grant</TRAN_TYPE>
+<CFDA_NUM>47.070</CFDA_NUM>
+<NSF_PAR_USE_FLAG>1</NSF_PAR_USE_FLAG>
+<FUND_AGCY_CODE>4900</FUND_AGCY_CODE>
+<AWDG_AGCY_CODE>4900</AWDG_AGCY_CODE>
+<AwardID>2145367</AwardID>
+<Investigator>
+<FirstName>Lindsey</FirstName>
+<LastName>Kuper</LastName>
+<PI_MID_INIT/>
+<PI_SUFX_NAME/>
+<PI_FULL_NAME>Lindsey Kuper</PI_FULL_NAME>
+<EmailAddress>lkuper@ucsc.edu</EmailAddress>
+<PI_PHON>8314594772</PI_PHON>
+<NSF_ID>000796231</NSF_ID>
+<StartDate>01/27/2022</StartDate>
+<EndDate/>
+<RoleCode>Principal Investigator</RoleCode>
+</Investigator>
+<Institution>
+<Name>University of California-Santa Cruz</Name>
+<CityName>Santa Cruz</CityName>
+<ZipCode>950641077</ZipCode>
+<PhoneNumber>8314595278</PhoneNumber>
+<StreetAddress>1156 High Street</StreetAddress>
+<StreetAddress2/>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<StateCode>CA</StateCode>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_ORG>CA20</CONGRESS_DISTRICT_ORG>
+<ORG_DUNS_NUM>125084723</ORG_DUNS_NUM>
+<ORG_LGL_BUS_NAME>UNIVERSITY OF CALIFORNIA, SANTA CRUZ</ORG_LGL_BUS_NAME>
+<ORG_PRNT_DUNS_NUM>071549000</ORG_PRNT_DUNS_NUM>
+</Institution>
+<Performance_Institution>
+<Name><![CDATA[University of California-Santa Cruz]]></Name>
+<CityName/>
+<StateCode>CA</StateCode>
+<ZipCode>950641077</ZipCode>
+<StreetAddress/>
+<CountryCode>US</CountryCode>
+<CountryName>United States</CountryName>
+<StateName>California</StateName>
+<CountryFlag>1</CountryFlag>
+<CONGRESSDISTRICT>20</CONGRESSDISTRICT>
+<CONGRESS_DISTRICT_PERF>CA20</CONGRESS_DISTRICT_PERF>
+</Performance_Institution>
+<ProgramElement>
+<Code>7798</Code>
+<Text>Software &amp; Hardware Foundation</Text>
+</ProgramElement>
+<ProgramReference>
+<Code>102Z</Code>
+<Text>COVID-Disproportionate Impcts Inst-Indiv</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>1045</Code>
+<Text>CAREER-Faculty Erly Career Dev</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>7943</Code>
+<Text>PROGRAMMING LANGUAGES</Text>
+</ProgramReference>
+<ProgramReference>
+<Code>9102</Code>
+<Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+</ProgramReference>
+<Appropriation>
+<Code/>
+<Name/>
+<APP_SYMB_ID/>
+</Appropriation>
+<Fund>
+<Code>010V2122DB</Code>
+<Name><![CDATA[R&RA ARP Act DEFC V]]></Name>
+<FUND_SYMB_ID>040100</FUND_SYMB_ID>
+</Fund>
+<FUND_OBLG>2022~114168</FUND_OBLG>
+</Award>
+</rootTag>
